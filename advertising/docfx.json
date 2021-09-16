@@ -65,7 +65,7 @@
     "externalReference": [],
     "globalMetadata": {
       "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/Advertising-docs",
+      "feedback_github_repo": "MicrosoftDocs/Advertising",
       "feedback_product_url": "https://microsoftadvertising.uservoice.com/forums/82363-microsoftadvertising-feature-suggestion?category_id=16945",
       "contributors_to_exclude": ["openpublishingbuild", "Pacort", "saldana"],      
       "defaultDevLang": "csharp",
