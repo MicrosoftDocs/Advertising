@@ -1,50 +1,108 @@
 {
   "build": {
+    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "**/*.md"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
+          "**/bingads-13/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices.md"
+          "ThirdPartyNotices"
         ]
-      }
+      },
+      {
+        "group": "bingads-13",
+        "src": "bingads-13",
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }            
     ],
     "resource": [
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**"
+          "**/bingads-13/**"
         ]
-      }
+      },
+      {
+        "group": "bingads-13",
+        "src": "bingads-13",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }   
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/advertising/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/Advertising-docs",
+      "feedback_product_url": "https://microsoftadvertising.uservoice.com/forums/82363-microsoftadvertising-feature-suggestion?category_id=16945",
+      "contributors_to_exclude": ["openpublishingbuild", "Pacort", "saldana"],      
+      "defaultDevLang": "csharp",
+      "uhfHeaderId": "MSDocsHeader-BingAds",
+      "searchScope": ["Microsoft Advertising"],
+      "breadcrumb_path": "/Advertising/breadcrumb/TOC.json",
+      "extendBreadcrumb": "true",
+      "titleSuffix": "Microsoft Advertising"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.service": 
+      { 
+        "guides/**.yml": "bing-ads",
+        "ad-insight-service/**.yml": "bing-ads-ad-insight-service",
+        "customer-billing-service/**.yml": "bing-ads-customer-billing-service",
+        "bulk-service/**.yml": "bing-ads-bulk-service",
+        "campaign-management-service/**.yml": "bing-ads-campaign-management-service",
+        "customer-management-service/**.yml": "bing-ads-customer-management-service",
+        "reporting-service/**.yml": "bing-ads-reporting-service",
+        "shopping-content/**.yml": "bing-ads-shopping-content",
+        "hotel-ads/**.yml": "hotel-ads",
+        "hotel-feed/**.yml": "hotel-ads-hotel-feed",
+        "hotel-api-service/**.yml": "hotel-ads-hotel-service",
+        "pos-feed/**.yml": "hotel-ads-pos-feed",
+        "transaction-message/**.yml": "hotel-ads-transaction-message",
+        "hint-message/**.yml": "hotel-ads-hint-message",
+        "query-message/**.yml": "hotel-ads-query-message",
+        "query-control-message/**.yml": "hotel-ads-query-control-message"    
+      }
+    },
     "template": [],
-    "dest": "advertising"
+    "dest": "advertising",
+    "groups": {
+      "bingads-13": {
+        "dest": "bingads13",
+        "moniker_range": "=bingads-13"
+      }
+    }
   }
 }

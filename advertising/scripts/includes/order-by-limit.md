@@ -1,0 +1,1 @@
+Selectors support ordering entities by one field only. You may not order the list of entities by field x, and within x by field y, and so on. If you specify more than one `orderBy()` call in a chain or in separate selector calls, Scripts orders the list of entities using the field specified in the last `orderBy()` call. 

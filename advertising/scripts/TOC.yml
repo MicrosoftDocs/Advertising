@@ -1,0 +1,315 @@
+- name: Overview
+  href: index.md
+- name: Get started
+  href: get-started.md 
+- name: Guides
+  items:
+    - name: Single account access
+      href: guides/single-account-access.md 
+    - name: Multi-account access
+      href: guides/multi-account-access.md 
+    - name: Porting Google Ads Scripts
+      href: guides/porting-google-scripts.md 
+- name: Concepts
+  items:
+    - name: Authorization
+      href: concepts/authorization.md 
+    - name: Main function
+      href: concepts/main-function.md 
+    - name: Selectors
+      href: concepts/selectors.md       
+    - name: Iterators
+      href: concepts/iterators.md 
+    - name: Builders
+      href: concepts/builders.md 
+    - name: Best practices
+      href: concepts/best-practices.md 
+    - name: Execution limits
+      href: concepts/execution-limits.md 
+    - name: Preview mode
+      href: concepts/preview-mode.md 
+    - name: Errors and warnings
+      href: concepts/errors-and-warnings.md 
+    - name: Change and text logs
+      href: concepts/change-and-text-logs.md 
+    - name: Defining IDs
+      href: concepts/ids.md 
+    - name: Shared budgets
+      href: concepts/shared-budgets.md 
+    - name: UrlFetch limits
+      href: concepts/urlfetch-limits.md 
+    - name: Scripts policies
+      href: concepts/scripts-policies.md 
+    - name: Mapping bid strategies
+      href: concepts/bid-strategies.md 
+    - name: Mapping editorial approval
+      href: concepts/editorial-approval.md 
+    - name: Mapping time zones
+      href: concepts/timezone-mapping.md 
+    - name: JavaScript features
+      href: concepts/supported-js-features.md 
+- name: Code examples
+  href: examples/index.md 
+  items:
+    - name: Ad Groups
+      href: examples/adgroups.md 
+    - name: Ads
+      href: examples/ads.md 
+    - name: Budgets
+      href: examples/budgets.md 
+    - name: Campaigns
+      href: examples/campaigns.md 
+    - name: Keywords
+      href: examples/keywords.md 
+    - name: Product groups
+      href: examples/product-groups.md 
+    - name: Labels
+      href: examples/labels.md 
+    - name: Using UrlFetchApp 
+      href: examples/fetch-resources.md 
+    - name: Authenticating with Google services 
+      href: examples/authenticating-with-google-services.md
+    - name: Calling Google services 
+      href: examples/calling-google-services.md 
+- name: Solutions
+  href: solutions/index.md 
+  items:
+    - name: Discovering disapproved ads 
+      href: solutions/get-disapproved-ads.md 
+    - name: Checking ad or keyword URLs 
+      href: solutions/check-ad-keyword-urls.md 
+- name: Script reference
+  href: reference-overview.md 
+  items:    
+    - name: Single account  
+      href: ./reference/AdsApp.md 
+      items:
+        - name: Account
+          href: ./reference/Account.md 
+        - name: Ad
+          href: ./reference/Ad.md 
+        - name: AdBuilderSpace
+          href: ./reference/AdBuilderSpace.md 
+        - name: AdGroup
+          href: ./reference/AdGroup.md 
+        - name: AdGroupAudience
+          href: ./reference/AdGroupAudience.md 
+        - name: AdGroupAudienceBuilder
+          href: ./reference/AdGroupAudienceBuilder.md 
+        - name: AdGroupAudienceIterator
+          href: ./reference/AdGroupAudienceIterator.md 
+        - name: AdGroupAudienceOperation
+          href: ./reference/AdGroupAudienceOperation.md 
+        - name: AdGroupAudienceSelector
+          href: ./reference/AdGroupAudienceSelector.md 
+        - name: AdGroupBidding
+          href: ./reference/AdGroupBidding.md 
+        - name: AdGroupBuilder
+          href: ./reference/AdGroupBuilder.md 
+        - name: AdGroupExcludedAudience
+          href: ./reference/AdGroupExcludedAudience.md 
+        - name: AdGroupExcludedAudienceIterator
+          href: ./reference/AdGroupExcludedAudienceIterator.md 
+        - name: AdGroupExcludedAudienceOperation
+          href: ./reference/AdGroupExcludedAudienceOperation.md 
+        - name: AdGroupExcludedAudienceSelector
+          href: ./reference/AdGroupExcludedAudienceSelector.md 
+        - name: AdGroupIterator
+          href: ./reference/AdGroupIterator.md 
+        - name: AdGroupOperation
+          href: ./reference/AdGroupOperation.md 
+        - name: AdGroupSelector
+          href: ./reference/AdGroupSelector.md 
+        - name: AdGroupTargeting
+          href: ./reference/AdGroupTargeting.md 
+        - name: AdGroupUrls
+          href: ./reference/AdGroupUrls.md 
+        - name: AdIterator
+          href: ./reference/AdIterator.md 
+        - name: AdOperation
+          href: ./reference/AdOperation.md 
+        - name: AdParam
+          href: ./reference/AdParam.md 
+        - name: AdParamIterator
+          href: ./reference/AdParamIterator.md 
+        - name: AdParamSelector
+          href: ./reference/AdParamSelector.md 
+        - name: AdsApp
+          href: ./reference/AdsApp.md 
+        - name: AdSelector
+          href: ./reference/AdSelector.md 
+        - name: AdTextAsset
+          href: ./reference/AdTextAsset.md 
+        - name: AdTypeSpace
+          href: ./reference/AdTypeSpace.md 
+        - name: AdUrls
+          href: ./reference/AdUrls.md 
+        - name: AdViewSpace
+          href: ./reference/AdViewSpace.md 
+        - name: AudienceBidding
+          href: ./reference/AudienceBidding.md 
+        - name: BingAdsApp
+          href: ./reference/BingAdsApp.md 
+        - name: BingAdsDate
+          href: ./reference/BingAdsDate.md 
+        - name: Budget
+          href: ./reference/Budget.md 
+        - name: BudgetIterator
+          href: ./reference/BudgetIterator.md 
+        - name: BudgetSelector
+          href: ./reference/BudgetSelector.md 
+        - name: Campaign
+          href: ./reference/Campaign.md 
+        - name: CampaignAudience
+          href: ./reference/CampaignAudience.md 
+        - name: CampaignAudienceBuilder
+          href: ./reference/CampaignAudienceBuilder.md 
+        - name: CampaignAudienceIterator
+          href: ./reference/CampaignAudienceIterator.md 
+        - name: CampaignAudienceOperation
+          href: ./reference/CampaignAudienceOperation.md 
+        - name: CampaignAudienceSelector
+          href: ./reference/CampaignAudienceSelector.md 
+        - name: CampaignExcludedAudience
+          href: ./reference/CampaignExcludedAudience.md 
+        - name: CampaignExcludedAudienceIterator
+          href: ./reference/CampaignExcludedAudienceIterator.md 
+        - name: CampaignExcludedAudienceOperation
+          href: ./reference/CampaignExcludedAudienceOperation.md 
+        - name: CampaignExcludedAudienceSelector
+          href: ./reference/CampaignExcludedAudienceSelector.md 
+        - name: CampaignIterator
+          href: ./reference/CampaignIterator.md 
+        - name: CampaignSelector
+          href: ./reference/CampaignSelector.md 
+        - name: CampaignTargeting
+          href: ./reference/CampaignTargeting.md 
+        - name: CampaignUrls
+          href: ./reference/CampaignUrls.md 
+        - name: ExcludedLocation
+          href: ./reference/ExcludedLocation.md 
+        - name: ExcludedLocationIterator
+          href: ./reference/ExcludedLocationIterator.md 
+        - name: ExcludedLocationOperation
+          href: ./reference/ExcludedLocationOperation.md 
+        - name: ExcludedLocationSelector
+          href: ./reference/ExcludedLocationSelector.md 
+        - name: ExecutionInfo
+          href: ./reference/ExecutionInfo.md 
+        - name: ExpandedTextAd
+          href: ./reference/ExpandedTextAd.md 
+        - name: ExpandedTextAdBuilder
+          href: ./reference/ExpandedTextAdBuilder.md 
+        - name: Keyword
+          href: ./reference/Keyword.md 
+        - name: KeywordBidding
+          href: ./reference/KeywordBidding.md 
+        - name: KeywordBuilder
+          href: ./reference/KeywordBuilder.md 
+        - name: KeywordIterator
+          href: ./reference/KeywordIterator.md 
+        - name: KeywordOperation
+          href: ./reference/KeywordOperation.md 
+        - name: KeywordSelector
+          href: ./reference/KeywordSelector.md 
+        - name: KeywordUrls
+          href: ./reference/KeywordUrls.md 
+        - name: Label
+          href: ./reference/Label.md 
+        - name: LabelIterator
+          href: ./reference/LabelIterator.md 
+        - name: LabelSelector
+          href: ./reference/LabelSelector.md 
+        - name: Logger
+          href: ./reference/Logger.md 
+        - name: NegativeKeywordList
+          href: ./reference/NegativeKeywordList.md 
+        - name: NegativeKeywordListBuilder
+          href: ./reference/NegativeKeywordListBuilder.md 
+        - name: NegativeKeywordListIterator
+          href: ./reference/NegativeKeywordListIterator.md 
+        - name: NegativeKeywordListOperation
+          href: ./reference/NegativeKeywordListOperation.md 
+        - name: NegativeKeywordListSelector
+          href: ./reference/NegativeKeywordListSelector.md 
+        - name: ProductBrand
+          href: ./reference/ProductBrand.md 
+        - name: ProductCategory
+          href: ./reference/ProductCategory.md 
+        - name: ProductChannel
+          href: ./reference/ProductChannel.md 
+        - name: ProductChannelExclusivity
+          href: ./reference/ProductChannelExclusivity.md 
+        - name: ProductCondition
+          href: ./reference/ProductCondition.md 
+        - name: ProductCustomLabel
+          href: ./reference/ProductCustomLabel.md 
+        - name: ProductGroup
+          href: ./reference/ProductGroup.md 
+        - name: ProductGroupIterator
+          href: ./reference/ProductGroupIterator.md 
+        - name: ProductGroupSelector
+          href: ./reference/ProductGroupSelector.md 
+        - name: ProductItemId
+          href: ./reference/ProductItemId.md 
+        - name: ProductType
+          href: ./reference/ProductType.md 
+        - name: ResponsiveSearchAd
+          href: ./reference/ResponsiveSearchAd.md 
+        - name: ResponsiveSearchAdBuilder
+          href: ./reference/ResponsiveSearchAdBuilder.md 
+        - name: Stats
+          href: ./reference/Stats.md 
+        - name: TargetedLocation
+          href: ./reference/TargetedLocation.md 
+        - name: TargetedLocationIterator
+          href: ./reference/TargetedLocationIterator.md 
+        - name: TargetedLocationOperation
+          href: ./reference/TargetedLocationOperation.md 
+        - name: TargetedLocationSelector
+          href: ./reference/TargetedLocationSelector.md 
+        - name: UserList
+          href: ./reference/UserList.md 
+        - name: UserListIterator
+          href: ./reference/UserListIterator.md 
+        - name: UserListSelector
+          href: ./reference/UserListSelector.md 
+    - name: Multi-accounts
+      href: ./reference/AccountsApp.md
+      items:
+        - name: AccountsApp
+          href: ./reference/AccountsApp.md
+        - name: BingAdsAccount
+          href: ./reference/BingAdsAccount.md
+        - name: BingAdsAccountIterator
+          href: ./reference/BingAdsAccountIterator.md
+        - name: BingAdsAccountSelector
+          href: ./reference/BingAdsAccountSelector.md
+        - name: BingAdsAccountStats
+          href: ./reference/BingAdsAccountStats.md
+        - name: ExecutionResult
+          href: ./reference/ExecutionResult.md
+    - name: UrlFetch
+      href: ./reference/UrlFetchApp.md
+      items:
+        - name: HTTPResponse
+          href: ./reference/HTTPResponse.md
+        - name: UrlFetchApp
+          href: ./reference/UrlFetchApp.md
+        - name: UrlFetchParams
+          href: ./reference/UrlFetchParams.md
+#    - name: Spreadsheets
+#      href: ./reference/SpreadsheetApp
+#      items:
+#        - name: Range
+#          href: ./reference/Range
+#        - name: Sheet
+#          href: ./reference/Sheet
+#        - name: Spreadsheet
+#          href: ./reference/Spreadsheet
+#        - name: SpreadsheetApp
+#          href: ./reference/SpreadsheetApp      
+- name: FAQ
+  href: guides/faq.md
+- name: Release notes
+  href: release-notes.md 

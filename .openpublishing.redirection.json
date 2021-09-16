@@ -1,0 +1,194 @@
+{
+    "redirections": [
+        {
+            "source_path": "Advertising/shopping-content/code-example-get-product-offer.md",
+            "redirect_url": "code-example-manage-products",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/shopping-content/code-example-insert-product-offer.md",
+            "redirect_url": "code-example-manage-products",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/shopping-content/code-example-get-list-product-offer.md",
+            "redirect_url": "code-example-manage-products",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/shopping-content/code-example-delete-product-offer.md",
+            "redirect_url": "code-example-manage-products",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/migrate-bing-ads-api-version-11.md",
+            "redirect_url": "migration-guide",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Advertising/guides/intent-ads.md",
+            "redirect_url": "audience-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/campaign-management-service/experimentstatus.md",
+            "redirect_url": "experiment",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/campaign-management-service/experimenttype.md",
+            "redirect_url": "experiment",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-profile-data.md",
+            "redirect_url": "code-example-profile-criteria",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-audience-campaigns.md",
+            "redirect_url": "code-example-responsive-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-bulk-ad-extensions.md",
+            "redirect_url": "code-example-bulk-requests",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-bulk-keywords-ads.md",
+            "redirect_url": "code-example-bulk-requests",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-bulk-shopping-campaigns.md",
+            "redirect_url": "code-example-bulk-requests",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-dynamic-search-campaigns.md",
+            "redirect_url": "code-example-dynamic-search-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-keywords-ads.md",
+            "redirect_url": "code-example-expanded-text-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-manage-client.md",
+            "redirect_url": "code-example-client-links",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-shopping-campaigns.md",
+            "redirect_url": "code-example-product-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/code-example-target-criterions.md",
+            "redirect_url": "code-example-target-criteria",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/customer-accounts.md",
+            "redirect_url": "account-hierarchy-permissions",
+            "redirect_document_id": true
+        },        
+        {
+            "source_path": "Advertising/guides/management-model-agencies.md",
+            "redirect_url": "account-hierarchy-permissions",
+            "redirect_document_id": false
+        },        
+        {
+            "source_path": "Advertising/guides/management-model-direct-advertisers.md",
+            "redirect_url": "account-hierarchy-permissions",
+            "redirect_document_id": false
+        },        
+        {
+            "source_path": "Advertising/guides/management-model-resellers.md",
+            "redirect_url": "account-hierarchy-permissions",
+            "redirect_document_id": false
+        },        
+        {
+            "source_path": "Advertising/guides/management-model-tool-providers.md",
+            "redirect_url": "account-hierarchy-permissions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/reference.md",
+            "redirect_url": "concepts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/services.md",
+            "redirect_url": "concepts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/campaigns.md",
+            "redirect_url": "campaign-management-guides",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/ads.md",
+            "redirect_url": "campaign-management-guides",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/authentication-oauth-live-connect.md",
+            "redirect_url": "authentication-oauth",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/guides/authentication-oauth-identity-platform.md",
+            "redirect_url": "authentication-oauth",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/scripts/solutions/execute-in-parallel.md",
+            "redirect_url": "get-disapproved-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/scripts/examples/urlfetch-example.md",
+            "redirect_url": "calling-google-services",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/scripts/examples/accessing-google-services.md",
+            "redirect_url": "authenticating-with-google-services",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/query-control-message/create-query-control-message.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/query-control-message/google-bing-query-control-message-differences.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/query-control-message/query-control-message.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/query-control-message/reference.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/query-control-message/schema.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/query-control-message/validate-query-control-message.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        }
+    ]
+}

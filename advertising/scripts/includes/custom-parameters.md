@@ -1,0 +1,1 @@
+Custom parameters are helpful with sharing dynamic information across multiple URLs. For more information about its usage, see [Custom Parameters](/advertising/guides/url-tracking-upgraded-urls#customparametersvalidation).
