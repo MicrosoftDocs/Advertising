@@ -1,0 +1,109 @@
+- name: Overview
+  href: index.md
+- name: Hotel API
+  href: ../hotel-service/hotel-api.md
+  items:
+  - name: Get started
+    href: ../hotel-service/get-started.md
+  - name: Get started with a service
+    href: ../hotel-service/get-started-service.md
+  - name: Manage campaigns
+    href: ../hotel-service/manage-hotel-campaigns.md
+  - name: Get reports
+    href: ../hotel-service/reporting.md
+  - name: Code examples
+    href: ../hotel-service/code-examples.md
+    displayName: .net c# csharp
+    items:
+    - name: Subaccounts
+      href: ../hotel-service/code-example-subaccounts.md
+    - name: Hotel Groups
+      href: ../hotel-service/code-example-hotel-groups.md
+    - name: Hotels
+      href: ../hotel-service/code-example-hotels.md
+    - name: Reporting
+      href: ../hotel-service/code-example-reporting.md
+    - name: Batch processing
+      href: ../hotel-service/code-example-batch.md
+    - name: OAuth
+      href: ../hotel-service/code-example-oauth.md
+      items:
+      - name: CodeGrantFlow
+        href: ../hotel-service/code-example-code-grant-flow.md
+      - name: Call CodeGrantFlow
+        href: ../hotel-service/code-example-call-code-grant-flow.md
+  - name: Hotel API reference
+    href: ../hotel-service/reference.md
+  - name: Throttling requests
+    href: ../hotel-service/throttle-requests.md
+- name: Query Message
+  href: ../query-message/query-message.md
+  items:
+  - name: Process a Query message
+    href: ../query-message/process-query-message.md
+  - name: Google and Bing Query message differences
+    href: ../query-message/google-bing-query-message-differences.md
+  - name: Query message reference
+    href: ../query-message/reference.md
+  - name: Query message schema
+    href: ../query-message/schema.md
+- name: Hint Message
+  href: ../hint-message/hint-message.md
+  items:
+  - name: Create a Hint message
+    href: ../hint-message/create-hint-message.md
+  - name: Validate a Hint message
+    href: ../hint-message/validate-hint-message.md
+  - name: Google and Bing Hint message differences
+    href: ../hint-message/google-bing-hint-message-differences.md
+  - name: Hint message reference
+    href: ../hint-message/reference.md
+  - name: Hint message schema
+    href: ../hint-message/schema.md
+- name: Transaction Message
+  href: ../transaction-message/transaction-message.md
+  items:
+  - name: Get started
+    href: ../transaction-message/get-started.md
+  - name: Create a Transaction message
+    href: ../transaction-message/create-transaction-message.md
+  - name: Create a metadata Transaction message
+    href: ../transaction-message/create-metadata-transaction-message.md
+  - name: Use room bundles
+    href: ../transaction-message/using-room-bundles.md
+  - name: Pull Transaction messages
+    href: ../transaction-message/pull-transaction-message.md
+  - name: Push Transaction messages
+    href: ../transaction-message/push-transaction-message.md
+  - name: Validate your Transaction message
+    href: ../transaction-message/validate-transaction-message.md
+  - name: Transaction message reference
+    href: ../transaction-message/reference.md
+  - name: Error codes and messages
+    href: ../transaction-message/error-codes-messages.md
+  - name: Google and Bing Transaction message differences
+    href: ../transaction-message/google-bing-transaction-message-differences.md
+  - name: Transaction message schemas
+    href: ../transaction-message/schemas.md
+- name: Hotel Feed
+  href: ../hotel-feed/hotel-feed.md
+  items:
+  - name: Create a CSV Hotel Feed
+    href: ../hotel-feed/create-csv-hotel-feed.md
+  - name: Create an XML Hotel Feed
+    href: ../hotel-feed/create-hotel-feed.md
+  - name: Validate your Hotel Feed
+    href: ../hotel-feed/validate-hotel-feed.md
+  - name: Hotel Feed Reference
+    href: ../hotel-feed/reference.md
+- name: Points of Sale Feed
+  href: ../pos-feed/pos-feed.md
+  items:
+  - name: Create a Points of Sale Feed
+    href: ../pos-feed/create-pos-feed.md
+  - name: Validate your Points of Sale Feed
+    href: ../pos-feed/validate-pos-feed.md
+  - name: Points of Sale reference
+    href: ../pos-feed/reference.md
+- name: Release notes
+  href: release-notes.md

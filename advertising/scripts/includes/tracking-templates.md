@@ -1,0 +1,1 @@
+Tracking templates are used with the keyword's FinalUrl to create the destination URL used by the ad. For more information, see [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2)

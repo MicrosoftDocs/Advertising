@@ -2,25 +2,32 @@
   "docsets_to_publish": [
     {
       "docset_name": "advertising",
-      "build_source_folder": "advertising",
-      "build_output_subfolder": "advertising",
+      "build_source_folder": "Advertising",
+      "build_output_subfolder": "Advertising",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "moniker_ranges": [
+        "=bingads-13"
+      ],
+      "open_to_public_contributors": true,
       "type_mapping": {
-        "Conceptual": "Content"
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [
     "eric.urban@microsoft.com",
-    " matrob@microsoft.com"
+    "matrob@microsoft.com"
   ],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/Advertising-docs",
+  "git_repository_branch_open_to_public_contributors": "main",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
@@ -36,9 +43,37 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "main",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "BingAds-dotNet-SDK",
+      "url": "https://github.com/BingAds/BingAds-dotNet-SDK.git",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "BingAds-Java-SDK",
+      "url": "https://github.com/BingAds/BingAds-Java-SDK.git",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "BingAds-PHP-SDK",
+      "url": "https://github.com/BingAds/BingAds-PHP-SDK.git",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "BingAds-Python-SDK",
+      "url": "https://github.com/BingAds/BingAds-Python-SDK.git",
+      "branch": "main",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
+    "main": [
+      "Publish",
+      "Pdf"
+    ],
     "live": [
       "Publish",
       "Pdf"
@@ -46,11 +81,13 @@
   },
   "need_generate_pdf_url_template": true,
   "targets": {
-    "pdf": {
+    "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
   "docs_build_engine": {
     "name": "docfx_v3"
-  }
+  },
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false
 }
