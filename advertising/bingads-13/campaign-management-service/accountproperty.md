@@ -101,7 +101,7 @@ If the [Name](#name) element is set to *BusinessAttributes*, then the [Value](#v
 
 Within the [Value](#value) element, the list of business attributes are delimited with a semicolon (;). The possible values include: AlcoholFree, AllergyFriendly, BlackOwned, CarbonNegative, CarbonNeutral, CrueltyFree, EcoFriendly, FamilyFriendly, FamilyOwned, GlutenFree, Halal, HearingAssistance, Kosher, LocalBusiness, LGBTQIFriendly, LGBTQIOwned, MinorityOwned, MobilityAssistance, NoContactDelivery, Nonprofit, PetFriendly, SmallBusiness, SupportACure, SupportDiseaseResearch, Sustainable, Vegan, Vegetarian, VisualAssistance, TouchlessPickup, Unisex, WebAccessibility, and WheelchairAccessible.  
 
-In this example, Alcohol-free, Family-owned, and Vegan are the selected business attributes. 
+In this example, Alcohol-free, Family-owned, and Vegan are the selected business attributes.
 
 ```xml
 <SetAccountPropertiesRequest xmlns="https://bingads.microsoft.com/CampaignManagement/v13">
