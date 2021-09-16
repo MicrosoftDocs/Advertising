@@ -1,7 +1,7 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "BingAds",
+      "docset_name": "advertising",
       "build_source_folder": "Advertising",
       "build_output_subfolder": "Advertising",
       "locale": "en-us",
