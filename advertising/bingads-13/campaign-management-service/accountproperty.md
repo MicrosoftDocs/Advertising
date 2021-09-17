@@ -89,7 +89,36 @@ The default key and value pairs are:
 
 If the value of a key is set to *true*, then the auto-apply feature is enabled for the recommendation type.  
 
-You can choose to set only the key and value pairs that you want to update. If no value is set for the update, this setting is not changed.  
+You can choose to set only the key and value pairs that you want to update. If no value is set for the update, this setting is not changed. 
+
+
+#### <a name="businessattributes"></a>BusinessAttributes
+Allows you to highlight key business values meant to help you boost ad performance. 
+
+Business attributes are optional and you can choose one or more attributes that apply to your business.  
+
+If the [Name](#name) element is set to *BusinessAttributes*, then the [Value](#value) can include a list of attribute types.  
+
+Within the [Value](#value) element, the list of business attributes are delimited with a semicolon (;). The possible values include: AlcoholFree, AllergyFriendly, BlackOwned, CarbonNegative, CarbonNeutral, CrueltyFree, EcoFriendly, FamilyFriendly, FamilyOwned, GlutenFree, Halal, HearingAssistance, Kosher, LocalBusiness, LGBTQIFriendly, LGBTQIOwned, MinorityOwned, MobilityAssistance, NoContactDelivery, Nonprofit, PetFriendly, SmallBusiness, SupportACure, SupportDiseaseResearch, Sustainable, Vegan, Vegetarian, VisualAssistance, TouchlessPickup, Unisex, WebAccessibility, and WheelchairAccessible.  
+
+In this example, Alcohol-free, Family-owned, and Vegan are the selected business attributes. 
+
+```xml
+<SetAccountPropertiesRequest xmlns="https://bingads.microsoft.com/CampaignManagement/v13">
+  <AccountProperties xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <AccountProperty>
+      <Name>BusinessAttributes</Name>
+      <Value>AlcoholFree;FamilyOwned;Vegan</Value>
+    </AccountProperty>
+  </AccountProperties>
+</SetAccountPropertiesRequest>
+```
+
+If the attribute appears in the value property, then it is selected; if the attribute does not appear in the value property, then it is not selected. 
+
+To delete the account's business attributes, set the [Name](#name) to *BusinessAttributes* and the [Value](#value) to "" (empty string).
+
+You can choose to set only the business attributes that you want to update. If no value is set for the update, this setting is not changed. 
 
 
 #### <a name="finalurlsuffix"></a>FinalUrlSuffix
