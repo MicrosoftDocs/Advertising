@@ -10,7 +10,7 @@ description: Find out if the Bing Ads API is right for you.
 Microsoft Advertising is a pay-per-click (PPC) advertising platform used to display ads based on the keywords used in a user's search query. For advertisers placing a large number of ads or developers building advertising tools, the Bing Ads API provides programmatic access to Microsoft Advertising. Using the Bing Ads API is the most efficient way to manage many large campaigns or to integrate your marketing with other in-house systems. The Bing Ads API also supports multiple customer accounts making it easy for ad agencies to manage campaigns for many clients. Some organizations may choose a hybrid approach; using the web UI for most tasks but automating reporting or campaign optimization with the API. 
 
 ## <a name="who"></a>Who should use the Bing Ads API?
-You should consider using the Bing Ads API if your business model resembles the following:
+You should consider using the Bing Ads API if your business model resembles any of the following:
 
 - You are a direct advertiser managing your own ad spend and you want to integrate our PPC marketing with your internal inventory management or conversion tracking systems.  
 - You are a tools vendor developing advertising management solutions for advertisers or agencies.  
