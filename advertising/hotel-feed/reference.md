@@ -41,7 +41,7 @@ Defines a list of hotels in the feed.
 
 |Element|Description|Children
 |-|-|-
-|language|Required.<br />Data type is string.<br /><br />The language that the hotel data in the feed is written in. Specify the language using the two-letter ISO 639 language code. For example, use **en** for English.<br /><br />Notes:<ul><li>The `language` element must be set to **en**.|None
+|language|Required.<br />Data type is string.<br /><br />The language that the hotel data in the feed is written in. Specify the language using the two-letter ISO 639 language code. For example, use **en** for English.<br /><br />|None
 |listing|Defines a hotel listing. Include a `listing` element for each hotel in the feed.|[Listing Type](#listingtype)
 
 
