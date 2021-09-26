@@ -12,7 +12,7 @@ dev_langs:
   - python
 ---
 # DispatchCoupons Service Operation - Customer Billing
-Defines the DispatchCoupons Service Operation.
+Dispatch coupons under the specified coupon class owned by the specified customer. Redeemed coupon or dispatched coupon won't be dispatched.
 
 ## <a name="request"></a>Request Elements
 The *DispatchCouponsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -24,9 +24,9 @@ The *DispatchCouponsRequest* object defines the [body](#request-body) and [heade
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="couponclassname"></a>CouponClassName|Reserved.|**string**|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
-|<a name="sendtoemails"></a>SendToEmails|Reserved.|**string** array|
+|<a name="couponclassname"></a>CouponClassName|The name of coupon class whose available coupons are dispatched.|**string**|
+|<a name="customerid"></a>CustomerId|The identifier of the customer that the coupon class belongs to.|**long**|
+|<a name="sendtoemails"></a>SendToEmails|Email addresses to which the coupons are dispatched.|**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -38,7 +38,7 @@ The *DispatchCouponsResponse* object defines the [body](#response-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of BatchError that contains error on any email addresses that were not successfully send coupon code to. BatchError.Index is the email index in Request.SendToEmails.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

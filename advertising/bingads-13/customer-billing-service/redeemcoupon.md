@@ -12,7 +12,10 @@ dev_langs:
   - python
 ---
 # RedeemCoupon Service Operation - Customer Billing
-Defines the RedeemCoupon Service Operation.
+Redeem coupon to the specified account.
+
+> [!NOTE]
+> Only a user of the account's bill to customer with Super Admin or Standard credentials can redeem coupon. For more information, see the [User Roles](../guides/account-hierarchy-permissions.md#user-roles) technical guide.  
 
 ## <a name="request"></a>Request Elements
 The *RedeemCouponRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -24,8 +27,8 @@ The *RedeemCouponRequest* object defines the [body](#request-body) and [header](
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
-|<a name="couponcode"></a>CouponCode|Reserved.|**string**|
+|<a name="accountid"></a>AccountId|The identifier of the account to which the coupon is redeemed.|**long**|
+|<a name="couponcode"></a>CouponCode|The code of coupon to redeem.|**string**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -37,7 +40,7 @@ The *RedeemCouponResponse* object defines the [body](#response-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="redemptiondate"></a>RedemptionDate|Reserved.|**dateTime**|
+|<a name="redemptiondate"></a>RedemptionDate|The date and time that the coupon was redeemed.|**dateTime**|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
