@@ -4,7 +4,7 @@ ms.service: bing-ads-customer-billing-service
 ms.topic: article
 author: eric-urban
 ms.author: eur
-description: Defines the RedeemCoupon Service Operation.
+description: Redeems a coupon to the specified account.
 dev_langs: 
   - csharp
   - java
@@ -12,7 +12,7 @@ dev_langs:
   - python
 ---
 # RedeemCoupon Service Operation - Customer Billing
-Redeem coupon to the specified account.
+Redeems a coupon to the specified account.
 
 > [!NOTE]
 > Only a user of the account's bill to customer with Super Admin or Standard credentials can redeem coupon. For more information, see the [User Roles](../guides/account-hierarchy-permissions.md#user-roles) technical guide.  

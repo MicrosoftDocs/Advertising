@@ -4,10 +4,10 @@ ms.service: bing-ads-customer-billing-service
 ms.topic: article
 author: eric-urban
 ms.author: eur
-description: Defines an order for the list of insertion orders returned using the SearchInsertionOrders operation.
+description: Defines an order for the list of insertion orders returned using one of the search operations, for example SearchCoupons or SearchInsertionOrders.
 ---
 # OrderBy Data Object - Customer Billing
-Defines an order for the list of insertion orders returned using the [SearchInsertionOrders](searchinsertionorders.md) operation.
+Defines an order for the list of insertion orders returned using one of the search operations, for example [SearchCoupons](searchcoupons.md) or [SearchInsertionOrders](searchinsertionorders.md).
 
 ## Syntax
 ```xml

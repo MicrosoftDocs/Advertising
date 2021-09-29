@@ -4,7 +4,7 @@ ms.service: bing-ads-customer-billing-service
 ms.topic: article
 author: eric-urban
 ms.author: eur
-description: Defines the DispatchCoupons Service Operation.
+description: Dispatch coupons of the specified coupon class name owned by the specified customer.
 dev_langs: 
   - csharp
   - java
@@ -12,7 +12,9 @@ dev_langs:
   - python
 ---
 # DispatchCoupons Service Operation - Customer Billing
-Dispatch coupons under the specified coupon class owned by the specified customer. Redeemed coupon or dispatched coupons won't be dispatched.
+Dispatch coupons of the specified coupon class name owned by the specified customer.
+
+Coupons that are already redeemed or dispatched coupons won't be dispatched.
 
 ## <a name="request"></a>Request Elements
 The *DispatchCouponsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -38,7 +40,7 @@ The *DispatchCouponsResponse* object defines the [body](#response-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|An array of BatchError that contains error on any email addresses that were not successfully send coupon code to. BatchError.Index is the email index in Request.SendToEmails.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of [BatchError](batcherror.md) objects that correspond to any email addresses where the coupon code could not be sent to.<br/><br/>The list can be empty if there were no errors.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
