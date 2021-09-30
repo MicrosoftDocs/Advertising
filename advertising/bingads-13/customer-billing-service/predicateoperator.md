@@ -4,10 +4,10 @@ ms.service: bing-ads-customer-billing-service
 ms.topic: article
 author: eric-urban
 ms.author: eur
-description: Defines the condition of results for insertion orders returned using SearchInsertionOrders.
+description: Defines the condition of results for insertion orders returned using one of the search operations, for example SearchCoupons or SearchInsertionOrders.
 ---
 # PredicateOperator Value Set - Customer Billing
-Defines the condition of results for insertion orders returned using [SearchInsertionOrders](searchinsertionorders.md).
+Defines the condition of results for insertion orders returned using one of the search operations, for example [SearchCoupons](searchcoupons.md) or [SearchInsertionOrders](searchinsertionorders.md).
 
 ## Syntax
 ```xml
