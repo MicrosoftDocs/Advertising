@@ -39,7 +39,7 @@ The [Coupon](coupon.md) object has the following elements: [ActiveDuration](#act
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="activeduration"></a>ActiveDuration|Active days since coupon has been redeemed.<br/><br/>After these days, the coupon can't be consumed.|**int**|
-|<a name="amount"></a>Amount|The value amount of the coupon.<br/><br/>The [CurrencyCode](#currencycode.md) element determines the currency.|**double**|
+|<a name="amount"></a>Amount|The value amount of the coupon.<br/><br/>The [CurrencyCode](#currencycode) element determines the currency.|**double**|
 |<a name="classname"></a>ClassName|The class name that the coupon was minted from.|**string**|
 |<a name="couponcode"></a>CouponCode|The code that can be used to redeem the coupon.|**string**|
 |<a name="coupontype"></a>CouponType|The coupon's type.<br/><br/>Supported types include:<br/>**Acquisition:** Acquisition coupon is used to acquire new customers. Only new customers can redeem this coupon.<br/>**Retention:** Retention coupons can be used by both new and existing customers.|**string**|
