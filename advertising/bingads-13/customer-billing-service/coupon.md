@@ -51,7 +51,7 @@ The [Coupon](coupon.md) object has the following elements: [ActiveDuration](#act
 |<a name="redemptioninfo"></a>RedemptionInfo|Contains redemption and consuming details.<br/><br/>Returned only when the account where the coupon was redeemed bills to the coupon's owner customer.|[CouponRedemption](couponredemption.md)|
 |<a name="sendtodate"></a>SendToDate|The date the coupon was emailed by the [DispatchCoupons](dispatchcoupons.md) operation.|**dateTime**|
 |<a name="sendtoemail"></a>SendToEmail|The email address the coupon has been emailed by the [DispatchCoupons](dispatchcoupons.md) operation.|**string**|
-|<a name="spendthreshold"></a>SpendThreshold|The coupon can't be consumed until the account's spend reaches this threshold from the time coupon was redeemed.<br/><br/>The [CurrencyCode](#currencycode.md) element determines the currency.|**double**|
+|<a name="spendthreshold"></a>SpendThreshold|The coupon can't be consumed until the account's spend reaches this threshold from the time coupon was redeemed.<br/><br/>The [CurrencyCode](#currencycode) element determines the currency.|**double**|
 |<a name="startdate"></a>StartDate|The coupon cannot be redeemed before the start date.|**dateTime**|
 
 ## Requirements
