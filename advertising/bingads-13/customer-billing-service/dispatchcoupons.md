@@ -28,7 +28,7 @@ The *DispatchCouponsRequest* object defines the [body](#request-body) and [heade
 |-----------|---------------|-------------|
 |<a name="couponclassname"></a>CouponClassName|The name of coupon class whose available coupons are dispatched.|**string**|
 |<a name="customerid"></a>CustomerId|The identifier of the customer that the coupon class belongs to.|**long**|
-|<a name="sendtoemails"></a>SendToEmails|Email addresses to which the coupons are dispatched.|**string** array|
+|<a name="sendtoemails"></a>SendToEmails|Email addresses to which the coupons are dispatched. Email address count should not exceed 1000.|**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
