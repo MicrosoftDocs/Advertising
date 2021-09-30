@@ -32,7 +32,7 @@ The following Bulk records are available for managing dynamic search ads.
 * [Campaign Negative Dynamic Search Ad Target](../bulk-service/campaign-negative-dynamic-search-ad-target.md)
 * [Dynamic Search Ad](../bulk-service/dynamic-search-ad.md)  
 
-Dynamic search ads can only be created within search campaigns that have valid dynamic search ads settings (comprised of the [Domain Language](../bulk-service/campaign.md#domainlanguage), [Page Feed Ids](../bulk-service/campaign.md#pagefeedids), [Source](../bulk-service/campaign.md#source), and [Website](../bulk-service/campaign.md#website) fields). The campaign [ExperimentId](../bulk-service/campaign.md#experimentid) can't be set. 
+Dynamic search ads can only be created within search campaigns that have valid dynamic search ads settings (comprised of the [Domain Language](../bulk-service/campaign.md#domainlanguage), [Dynamic Description Enabled](../bulk-service/campaign.md#dynamicdescriptionenabled), [Page Feed Ids](../bulk-service/campaign.md#pagefeedids), [Source](../bulk-service/campaign.md#source), and [Website](../bulk-service/campaign.md#website) fields). The campaign [ExperimentId](../bulk-service/campaign.md#experimentid) can't be set. 
 
 Next, reate an [Ad Group](../bulk-service/ad-group.md) and set the [AdGroupType](../bulk-service/ad-group.md#adgrouptype) to "SearchDynamic". You can add one or more [Ad Group Dynamic Search Ad Target](../bulk-service/ad-group-dynamic-search-ad-target.md) records for each ad group that helps determine whether or not to serve dynamic search ads. 
 
