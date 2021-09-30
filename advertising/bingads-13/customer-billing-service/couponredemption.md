@@ -35,10 +35,10 @@ The [CouponRedemption](couponredemption.md) object has the following elements: [
 |<a name="accountnumber"></a>AccountNumber|The account number.|**string**|
 |<a name="activationdate"></a>ActivationDate|The date that the coupon is ready to be consumed.|**dateTime**|
 |<a name="balance"></a>Balance|The remaining amount of the coupon in account currency.|**double**|
-|<a name="currencycode"></a>CurrencyCode|The currency of the coupon balance and spend threshold.<br/><br/>The [CurrencyCode](#currencycode.md) element determines the currency.|**string**|
+|<a name="currencycode"></a>CurrencyCode|The currency of the coupon balance and spend threshold.|**string**|
 |<a name="expirationdate"></a>ExpirationDate|The coupon expiration date.<br/><br/>After this date, the coupon can't be consumed.|**dateTime**|
 |<a name="redemptiondate"></a>RedemptionDate|The date that coupon was redeemed to the account.|**dateTime**|
-|<a name="spendtothreshold"></a>SpendToThreshold|The coupon can't be consumed until the account's spend reaches this threshold from the time coupon was redeemed.<br/><br/>The [CurrencyCode](#currencycode.md) element determines the currency.|**double**|
+|<a name="spendtothreshold"></a>SpendToThreshold|The coupon can't be consumed until the account's spend reaches this threshold from the time coupon was redeemed.<br/><br/>The [CurrencyCode](#currencycode) element determines the currency.|**double**|
 
 ## Requirements
 Service: [CustomerBillingService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/Billing/v13/CustomerBillingService.svc)  
