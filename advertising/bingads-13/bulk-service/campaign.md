@@ -168,7 +168,7 @@ Determines whether to use the account time zone or the time zone of the search u
 
 Set this property to *TRUE* if you want the ads to be shown in the search user's time zone, and otherwise set it to *FALSE*.
 
-**Add:** Optional. If you do not specify this field or leave it empty, the default value of *FALSE* will be set and the account time zone will be used.<br/>
+**Add:** Optional. If you do not specify this field or leave it empty, the default value of *FALSE* will be set and the account time zone will be used.
 **Update:** Optional. If no value is set for the update, this setting is not changed.   
 **Delete:** Read-only  
 
@@ -425,8 +425,8 @@ Determines whether to automatically generate dynamic search ad text in addition 
 
 Set this element to *true* if you want to enable dynamic search ad text, and otherwise set it to *false*. 
 
-**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* will be set and dynamic search ad text will not be enabled.<br/>
-**Update:** Optional. If no value is set for the update, this setting is not changed. <br/>
+**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* will be set and dynamic search ad text will not be enabled.
+**Update:** Optional. If no value is set for the update, this setting is not changed.
 **Delete:** Read-only 
 
 ## <a name="experimentid"></a>Experiment Id
