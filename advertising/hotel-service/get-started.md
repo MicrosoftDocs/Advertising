@@ -9,6 +9,11 @@ ms.author: eur
 
 # Get started with the Hotel API
 
+> [!NOTE]
+> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+>
+> The API and documentation are subject to change.
+
 <a name="doyouhavecredentials"></a>
 
 ## Do you have your Microsoft Advertising credentials?
@@ -28,9 +33,9 @@ Your account manager needs to enable your account before you can use Hotel Ads o
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
-The Hotel API uses the OAuth authentication scheme. For details about authenticating Microsoft account credentials using OAuth, see [Authentication with the Microsoft identity platform](/advertising/guides/authentication-oauth-identity-platform) (using the Microsoft identity platform is recommended). 
+The Hotel API uses the OAuth authentication scheme. For details about authenticating Microsoft account credentials using OAuth, see [Authentication with OAuth](/advertising/guides/authentication-oauth) (using the Microsoft identity platform is recommended). 
 
-You *can* use the [Bing Ads SDK](/advertising/guides/client-libraries) for .NET, Java, or Python to authenticate Microsoft account credentials. For details about using the SDK to get the access token, see [C#](/advertising/guides/get-started-csharp) | [Java](/advertising/guides/get-started-java) | [Python](/advertising/guides/get-started-python). (You should only use the SDK to get the access token if you're using the SDK for Microsoft Advertising campaigns, too. Otherwise, it may not be worth the overhead of installing the SDK.)
+You *can* use the [Bing Ads SDK](/advertising/guides/client-libraries) for .NET, Java, or Python to authenticate Microsoft account credentials. For details about using the SDK to get the access token, see [C#](/advertising/guides/get-started-csharp) | [Java](/advertising/guides/get-started-java) | [Python](/advertising/guides/get-started-python). You might only want use the SDK to get the access token if you're using the SDK for Microsoft Advertising campaigns, too. Otherwise, it may not be worth the overhead of installing the SDK.
 
 If you choose not to use the Bing Ads SDK to get the tokens, see [OAuth C# Example](../hotel-service/code-example-oauth.md) for an example OAuth implementation.
 
@@ -44,7 +49,7 @@ For the sandbox environment, the following are the endpoints you must use to get
  - partner.api.sandbox.bingads.microsoft.com&mdash;Endpoint for the Hotel API's sandbox
  - account.microsoft-int.com&mdash;Endpoint for getting a sandbox Microsoft account 
  - outlook-int.com&mdash;Endpoint for sandbox email used when getting a sandbox Microsoft account
- - **Skip the step to register an app**. Sandbox does not support app registration. Instead, use the "Sandbox Tutorial App" client ID, which is **db41b09d-6e50-4f4a-90ac-5a99caefb52f**. This client ID is for desktop apps only and may not be used for testing web apps.
+ - **Skip the step to register an app**. Sandbox does not support app registration. Instead, use the "Tutorial Sample App" client ID, which is **4c0b021c-00c3-4508-838f-d3127e8167ff**. This client ID is for desktop apps only and may not be used for testing web apps.
  - login.windows-ppe.net&mdash;Endpoint for OAuth requests
 
 <a name="getsicredentials"></a>
