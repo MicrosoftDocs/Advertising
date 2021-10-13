@@ -87,7 +87,7 @@ Allows you to highlight one or more key business values meant to help you boost 
 
 If an attribute value is in this field, then it is selected; attributes not present are not selected. 
 
-The possible values include: AlcoholFree, AllergyFriendly, BlackOwned, CarbonNegative, CarbonNeutral, CrueltyFree, EcoFriendly, FamilyFriendly, FamilyOwned, GlutenFree, Halal, HearingAssistance, Kosher, LocalBusiness, LGBTQIFriendly, LGBTQIOwned, MinorityOwned, MobilityAssistance, NoContactDelivery, Nonprofit, PetFriendly, SmallBusiness, SupportACure, SupportDiseaseResearch, Sustainable, Vegan, Vegetarian, VisualAssistance, TouchlessPickup, Unisex, WebAccessibility, and WheelchairAccessible. 
+The possible values include: AlcoholFree, AllergyFriendly, AsianOwned, BlackOwned, CarbonNegative, CarbonNeutral, CrueltyFree, DiabeticFriendly, EcoFriendly, FamilyFriendly, FamilyOwned, GlutenFree, Halal, HearingAssistance, Kosher, LatinOwned, LocalBusiness, LGBTQIFriendly, LGBTQIOwned, MinorityOwned, MobilityAssistance, NoContactDelivery, Nonprofit, PetFriendly, SmallBusiness, SupportACure, SupportDiseaseResearch, Sustainable, Vegan, Vegetarian, VisualAssistance, TouchlessPickup, Unisex, WebAccessibility, WheelchairAccessible, and WomenOwned. 
 
 The list of business attributes are delimited with a semicolon (;). In this example, Alcohol-free, Family-owned, and Vegan are the selected business attributes.  
 
