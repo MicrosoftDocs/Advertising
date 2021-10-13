@@ -12,7 +12,7 @@ Defines a page visitors remarketing rule.
 Remarketing rules are conditions used to determine who to add to your remarketing list. For the *PageVisitors* rule, you must include one or more rule item groups. 
 
 > [!IMPORTANT]
-> We are introducing support for conjunctive normal form (CNF). Not everyone has this feature yet. Previously Microsoft Advertising only supported disjunctive normal form (DNF). The default normal form for a new page visitors rule remains DNF. However, you must ensure that your application can appropriately read and distinguish between CNF and DNF. Your application should no longer assume that the rule is disjunctive.  
+> During calendar year 2021 we added support for conjunctive normal form (CNF). Previously Microsoft Advertising only supported disjunctive normal form (DNF). The default normal form for a new page visitors rule remains DNF. However, you must ensure that your application can appropriately read and distinguish between CNF and DNF. Your application should no longer assume that the rule is disjunctive.  
 
 If the normal form is conjunctive (CNF), the rule item conditions for the same page are first joined using the logical *OR* operator. Then, each result from the list of rule item groups are joined using the logical *AND* operator. In other words the user will be added to your remarketing list if any of the specified rule item conditions within all of the rule item groups are met.
 
@@ -64,7 +64,7 @@ The [PageVisitorsRule](pagevisitorsrule.md) object derives from the [Remarketing
 Remarketing rules are conditions used to determine who to add to your remarketing list. For the *PageVisitors* rule, you must include one or more rule item groups. 
 
 > [!IMPORTANT]
-> We are introducing support for conjunctive normal form (CNF). Not everyone has this feature yet. Previously Microsoft Advertising only supported disjunctive normal form (DNF). The default normal form for a new page visitors rule remains DNF. However, you must ensure that your application can appropriately read and distinguish between CNF and DNF. Your application should no longer assume that the rule is disjunctive.  
+> During calendar year 2021 we added support for conjunctive normal form (CNF). Previously Microsoft Advertising only supported disjunctive normal form (DNF). The default normal form for a new page visitors rule remains DNF. However, you must ensure that your application can appropriately read and distinguish between CNF and DNF. Your application should no longer assume that the rule is disjunctive.  
 
 If the normal form is conjunctive (CNF), the rule item conditions for the same page are first joined using the logical *OR* operator. Then, each result from the list of rule item groups are joined using the logical *AND* operator. In other words the user will be added to your remarketing list if any of the specified rule item conditions within all of the rule item groups are met.
 

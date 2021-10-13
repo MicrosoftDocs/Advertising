@@ -35,7 +35,7 @@ For the page visitors rule, previously Microsoft Advertising only supported disj
 - (Rule 1 AND Rule 2) OR Rule 3
 - (Rule 1 AND Rule 2) OR (Rule 3 AND Rule 4)
 
-For pilot customers we are introducing support for conjunctive normal form (CNF). First, in each rule item group the rule item conditions for the same page are joined using the logical OR operator. Then, each result from the list of rule item groups are joined using the logical AND operator. In other words, the user will be added to your remarketing list if any of the specified rule item conditions within all of the rule item groups are met.
+We are introducing support for conjunctive normal form (CNF). First, in each rule item group the rule item conditions for the same page are joined using the logical OR operator. Then, each result from the list of rule item groups are joined using the logical AND operator. In other words, the user will be added to your remarketing list if any of the specified rule item conditions within all of the rule item groups are met.
 
 - Rule 1 AND Rule 2
 - (Rule 1 OR Rule 2) AND Rule 3
