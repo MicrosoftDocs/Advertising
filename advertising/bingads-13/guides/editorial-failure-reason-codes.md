@@ -341,7 +341,7 @@ The following are the possible reason codes for an ad or keyword that failed edi
 |8388|Your ad might contain dietary supplement content which is [not allowed](https://go.microsoft.com/fwlink/?linkid=2028852) in Audience Ads. If you feel your content falls within Microsoft Advertising policies, please submit an appeal and we'll review the content again.|
 |8412|Your ad might contain penny stock content which is [not allowed](https://go.microsoft.com/fwlink/?linkid=2028852) in Audience Ads. If you feel your content falls within Microsoft Advertising policies, please submit an appeal and we'll review the content again.|
 |8430|Your ad might contain psychic or magic content which is [not allowed](https://go.microsoft.com/fwlink/?linkid=2028852) in Audience Ads. If you feel your content falls within Microsoft Advertising policies, please submit an appeal and we'll review the content again.|
-|8436|Your ad or keyword has been disapproved because it may violate our [Pharmacy and health care products and services policies](https://go.microsoft.com/fwlink/?linkid=874905). If you feel your content falls within our policies, please request an exception and we'll be happy to review the content again.|
+|8436|Your ad or keyword has been disapproved because it may violate our [Drug and Alcohol Addiction Recovery policies](https://go.microsoft.com/fwlink/?linkid=874905). If you feel your content falls within our policies, please request an exception and we'll be happy to review the content again.|
 |20000|The specified text field is not long enough.|
 |20001|The specified text field is too long.|
 |20002|The field is empty.|
