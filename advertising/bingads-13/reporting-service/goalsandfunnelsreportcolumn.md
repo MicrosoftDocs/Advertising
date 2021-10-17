@@ -42,13 +42,15 @@ To see how far back hourly, daily, weekly, monthly, yearly and summary aggregate
     <xs:enumeration value="KeywordStatus" />
     <xs:enumeration value="GoalType" />
     <xs:enumeration value="ViewThroughConversions" />
+    <xs:enumeration value="AllConversionsQualified" />
+    <xs:enumeration value="ViewThroughConversionsQualified" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AccountStatus](#accountstatus), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AllConversions](#allconversions), [AllRevenue](#allrevenue), [Assists](#assists), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [DeviceOS](#deviceos), [DeviceType](#devicetype), [Goal](#goal), [GoalId](#goalid), [GoalType](#goaltype), [Keyword](#keyword), [KeywordId](#keywordid), [KeywordStatus](#keywordstatus), [TimePeriod](#timeperiod), [ViewThroughConversions](#viewthroughconversions).
+The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AccountStatus](#accountstatus), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AllConversions](#allconversions), [AllConversionsQualified](#allconversionsqualified), [AllRevenue](#allrevenue), [Assists](#assists), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [DeviceOS](#deviceos), [DeviceType](#devicetype), [Goal](#goal), [GoalId](#goalid), [GoalType](#goaltype), [Keyword](#keyword), [KeywordId](#keywordid), [KeywordStatus](#keywordstatus), [TimePeriod](#timeperiod), [ViewThroughConversions](#viewthroughconversions), [ViewThroughConversionsQualified](#viewthroughconversionsqualified).
 
 |Value|Description|
 |-----------|---------------|
@@ -60,6 +62,7 @@ The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has 
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
 |<a name="allconversions"></a>AllConversions|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.<br/><br/>This column will include data for all conversion goals regardless of a conversion goal's [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) setting.<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
+|<a name="allconversionsqualified"></a>AllConversionsQualified|Reserved.|
 |<a name="allrevenue"></a>AllRevenue|The revenue optionally reported by the advertiser as a result of conversions.<br/><br/>This column will include data for all conversion goals regardless of a conversion goal's [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) setting.<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
 |<a name="assists"></a>Assists|The number of conversions from other ads within the same account that were preceded by one or more clicks from this ad. An ad is considered to have assisted the conversion if it was clicked before the most recently clicked ad that was credited with the conversion. Additionally, the click corresponding to the assist must occur  within the conversion period of the goal. Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://go.microsoft.com/fwlink/?LinkID=624771) help topic.|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
@@ -75,6 +78,7 @@ The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has 
 |<a name="keywordstatus"></a>KeywordStatus|The keyword status.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
 |<a name="viewthroughconversions"></a>ViewThroughConversions|View-through conversions are conversions that people make after they have seen your ad, even though they did not click the ad.<br/><br/>View-through conversions don't have a click associated but do have an impression associated within the advertiser defined conversion window. If the user also clicked on an ad that was delivered via the Microsoft Audience or Search network, there won't be any view-through conversion counted. Only the click-based conversion would be counted.<br/><br/>View-through conversions are only counted for ads in the Microsoft Audience network.<br/><br/>Not everyone has view-through conversions yet. If you don't, don't worry. It's coming soon.|
+|<a name="viewthroughconversionsqualified"></a>ViewThroughConversionsQualified|Reserved.|
 
 ## <a name="remarks"></a>Remarks
 ### <a name="requiredcolumns"></a>Required Columns
