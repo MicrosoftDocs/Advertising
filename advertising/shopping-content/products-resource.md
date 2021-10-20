@@ -255,7 +255,7 @@ Defines a product's price or sale price.
 
 |Name|Value|Type|XML element name
 |----|-----|----|----------------
-|currency|Gets or sets the currency that the price is stated in. Specify the currency using ISO 4217 currency codes. The following are the possible values.<br/><br/><ul><li>AUD (Australian dollar)</li><li>CHF (Swiss franc)</li><li>CAD (Canadian dollar)</li><li>EUR (Euro)</li><li>GBP (Great Britain pound)</li><li>INR (Indian rupee)</li<li>SEK (Swedish krona)</li>li>USD (United States dollar)</li></ul>|String|`currency` attribute.<br/><br/>For example, \<price currency="USD"\>.
+|currency|Gets or sets the currency that the price is stated in. Specify the currency using ISO 4217 currency codes. The following are the possible values.<br/><br/><ul><li>AUD (Australian dollar)</li><li>CHF (Swiss franc)</li><li>CAD (Canadian dollar)</li><li>EUR (Euro)</li><li>GBP (Great Britain pound)</li><li>INR (Indian rupee)</li><li>SEK (Swedish krona)</li><li>USD (United States dollar)</li></ul>|String|`currency` attribute.<br/><br/>For example, \<price currency="USD"\>.
 |value|Gets or sets the price of the item. Do not include currency symbols such as '$'.|Double|Text value.<br/><br/>For example, \<price currency="USD"\>38.0\<\\price\>.
 
 ### <a name="products"></a>Products
