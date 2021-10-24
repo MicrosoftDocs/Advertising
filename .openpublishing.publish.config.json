@@ -22,7 +22,8 @@
   ],
   "notification_subscribers": [
     "eric.urban@microsoft.com",
-    "matrob@microsoft.com"
+    "v-rgaritta@microsoft.com",
+    "v-jmadsen@microsoft.com"
   ],
   "sync_notification_subscribers": [
     "eric.urban@microsoft.com",
