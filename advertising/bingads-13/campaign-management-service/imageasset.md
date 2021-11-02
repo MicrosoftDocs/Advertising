@@ -2,8 +2,8 @@
 title: ImageAsset Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Applies crop settings to stored image media for a specific aspect ratio.
 ---
 # ImageAsset Data Object - Campaign Management

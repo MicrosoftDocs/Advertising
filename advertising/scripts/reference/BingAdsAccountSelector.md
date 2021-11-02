@@ -1,8 +1,8 @@
 ---
 title: "BingAdsAccountSelector object"
 description: "Contains the methods used in multi-account scripts for filtering the list of accounts that you have access to."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

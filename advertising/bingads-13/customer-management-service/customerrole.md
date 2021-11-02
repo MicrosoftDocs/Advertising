@@ -2,8 +2,8 @@
 title: CustomerRole Data Object - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines account access rights for a person who acts on behalf of a specific customer.
 ---
 # CustomerRole Data Object - Customer Management

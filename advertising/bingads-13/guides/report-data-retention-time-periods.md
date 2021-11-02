@@ -2,8 +2,8 @@
 title: "Reporting Data Retention Time Periods"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Reference the data retention time periods for Microsoft Advertising performance data.
 ---
 # Reporting Data Retention Time Periods

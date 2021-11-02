@@ -3,8 +3,8 @@ title: "Release notes for Hotel Ads Service"
 description: Identifies the changes made to Hotel Ads for each release.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Release notes for Hotel Ads Service

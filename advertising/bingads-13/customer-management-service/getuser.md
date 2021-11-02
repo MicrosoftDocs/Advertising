@@ -2,8 +2,8 @@
 title: GetUser Service Operation - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets the details of a user.
 dev_langs: 
   - csharp

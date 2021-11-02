@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Advertising Scripts IDs"
 description: "Describes how IDs are handled in Microsoft Advertising Scripts."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

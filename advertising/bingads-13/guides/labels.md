@@ -2,8 +2,8 @@
 title: "Labels"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Labels let you organize campaigns, ad groups, ads, and keywords into groups based on whatever is important to you.
 ---
 # Labels

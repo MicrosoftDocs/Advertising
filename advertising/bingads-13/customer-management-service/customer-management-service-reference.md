@@ -2,8 +2,8 @@
 title: "Customer Management API"
 ms.service: "bing-ads-customer-management-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Reference documentation for the Customer Management API.
 ---
 # Customer Management API

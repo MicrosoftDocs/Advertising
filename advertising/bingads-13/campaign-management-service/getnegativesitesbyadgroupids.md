@@ -2,8 +2,8 @@
 title: GetNegativeSitesByAdGroupIds Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets the negative sites URLs that are assigned directly to ad groups.
 dev_langs: 
   - csharp

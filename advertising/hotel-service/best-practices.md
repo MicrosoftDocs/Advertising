@@ -3,8 +3,8 @@ title: "Best practices for Hotel Service API"
 description: Identifies best practices with using the Hotel Service API.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Best practices for Hotel Service API

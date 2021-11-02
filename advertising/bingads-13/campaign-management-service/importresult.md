@@ -2,8 +2,8 @@
 title: ImportResult Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Contains the status, run time, and statistical results for an import job that has run.
 ---
 # ImportResult Data Object - Campaign Management

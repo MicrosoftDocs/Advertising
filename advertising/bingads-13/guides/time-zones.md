@@ -2,8 +2,8 @@
 title: "Time Zones"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Find out about time zones supported with the Bing Ads API.
 ---
 # Time Zones

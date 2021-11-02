@@ -3,8 +3,8 @@ title: Hint messages
 description: Landing page for hint message content.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Hint messages

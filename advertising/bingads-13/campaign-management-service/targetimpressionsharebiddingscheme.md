@@ -2,8 +2,8 @@
 title: TargetImpressionShareBiddingScheme Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: An automated bidding strategy to get the target impression share for the ad position where you want your ads to appear.
 ---
 # TargetImpressionShareBiddingScheme Data Object - Campaign Management

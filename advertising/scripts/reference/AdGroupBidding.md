@@ -1,8 +1,8 @@
 ---
 title: "AdGroupBidding object"
 description: "Contains the methods for specifying the ad group's bid values."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

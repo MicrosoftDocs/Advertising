@@ -2,8 +2,8 @@
 title: "Countdown Customizers"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Add a countdown to an event by day, hour, and minute. 
 ---
 # Countdown Customizers

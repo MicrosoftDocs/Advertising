@@ -2,8 +2,8 @@
 title: "Multi-factor authentication requirement"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Details about the multi-factor authentication requirement for Bing Ads API.
 dev_langs:
   - csharp

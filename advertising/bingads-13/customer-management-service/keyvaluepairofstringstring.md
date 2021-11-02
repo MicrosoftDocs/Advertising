@@ -2,8 +2,8 @@
 title: KeyValuePairOfstringstring Data Object - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: The key and value pair of string and string values.
 ---
 # KeyValuePairOfstringstring Data Object - Customer Management

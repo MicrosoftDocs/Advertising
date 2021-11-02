@@ -3,8 +3,8 @@ title: Hint message schema
 description: Lists the schemas the define a hint message.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Hint message schema

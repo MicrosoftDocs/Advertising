@@ -1,8 +1,8 @@
 ---
 title: "Supported JavaScript features"
 description: "Identifies the JavaScript specification that Microsoft Advertising Scripts supports."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -2,8 +2,8 @@
 title: "Make your first API call"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Make your first API call with an access token.
 ---
 # Make your first API call

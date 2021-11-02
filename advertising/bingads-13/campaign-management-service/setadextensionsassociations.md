@@ -2,8 +2,8 @@
 title: SetAdExtensionsAssociations Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Associates the specified ad extensions with the respective campaigns or ad groups.
 dev_langs: 
   - csharp

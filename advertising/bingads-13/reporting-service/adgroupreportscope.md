@@ -2,8 +2,8 @@
 title: AdGroupReportScope Data Object - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an ad group to include in the report.
 ---
 # AdGroupReportScope Data Object - Reporting

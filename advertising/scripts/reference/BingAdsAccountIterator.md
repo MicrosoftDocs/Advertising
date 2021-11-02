@@ -1,8 +1,8 @@
 ---
 title: "BingAdsAccountIterator object"
 description: "Contains the methods used in multi-account scripts for iterating through a list of managed accounts."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

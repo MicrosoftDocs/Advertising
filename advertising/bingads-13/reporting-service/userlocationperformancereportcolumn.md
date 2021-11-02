@@ -2,8 +2,8 @@
 title: UserLocationPerformanceReportColumn Value Set - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the UserLocationPerformanceReportRequest.
 ---
 # UserLocationPerformanceReportColumn Value Set - Reporting
@@ -132,14 +132,14 @@ The [UserLocationPerformanceReportColumn](userlocationperformancereportcolumn.md
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions.|
 |<a name="language"></a>Language|The language of the publisher where the ad was shown.<br/><br/>For possible values, see the Language column of [Ad Languages](../guides/ad-languages.md#adlanguage). The language display name will be provided in the report e.g. *English*.|
 |<a name="locationid"></a>LocationId|The Microsoft Advertising identifier of the location where the user was physically located when they clicked the ad.<br/><br/>For geographical location identifiers, see [Geographical Location Codes](../guides/geographical-location-codes.md).If the location ID is in the report but not found in the file downloaded via [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md), it is not targetable.|
-|<a name="metroarea"></a>MetroArea|The metro area (Nielsen DMA� in the United States) where the user was physically located when they clicked the ad.|
+|<a name="metroarea"></a>MetroArea|The metro area (Nielsen DMA® in the United States) where the user was physically located when they clicked the ad.|
 |<a name="network"></a>Network|The combined search advertising marketplace made up of Bing, AOL, Yahoo, and partner sites. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Bing and Yahoo! search, Content, and Syndicated search partners.|
 |<a name="postalcode"></a>PostalCode|The postal code where the user was physically located when they clicked the ad.|
 |<a name="proximitytargetlocation"></a>ProximityTargetLocation|The radius target bid name. The name of the geographic radius where the user was physically located when they clicked the ad. The *Radius* attribute column contains the distance of the radius.|
 |<a name="queryintentcity"></a>QueryIntentCity|The name of a city if the user's geographical intent can be determined. The city is set if the user's intent is a city, and not necessarily if they are physically located in the city.|
 |<a name="queryintentcountry"></a>QueryIntentCountry|The name of a country if the user's geographical intent can be determined. The country is set if the user's intent is related to a country, and not necessarily if they are physically located in the county.|
 |<a name="queryintentcounty"></a>QueryIntentCounty|The name of a county if the user's geographical intent can be determined. The county is set if the user's intent is related to a county, and not necessarily if they are physically located in the county. |
-|<a name="queryintentdma"></a>QueryIntentDMA|The name of a metro area (Nielsen DMA� in the United States) if the user's geographical intent can be determined. The metro area is set if the user's intent is a metro area or city within the metro area, and not necessarily if they are physically located in the metro area.|
+|<a name="queryintentdma"></a>QueryIntentDMA|The name of a metro area (Nielsen DMA? in the United States) if the user's geographical intent can be determined. The metro area is set if the user's intent is a metro area or city within the metro area, and not necessarily if they are physically located in the metro area.|
 |<a name="queryintentlocationid"></a>QueryIntentLocationId|The location identifier if the user's geographical intent can be determined. |
 |<a name="queryintentpostalcode"></a>QueryIntentPostalCode|The name of a postal code if the user's geographical intent can be determined. The postal code is set if the user's intent is a postal code, and not necessarily if they are physically located in the postal code. |
 |<a name="queryintentstate"></a>QueryIntentState|The name of a state if the user's geographical intent can be determined. The state is set if the user's intent is a state or sub geography of the state, and not necessarily if they are physically located in the state.|

@@ -2,8 +2,8 @@
 title: "Negative Keyword List Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the Negative Keyword List fields in a Bulk file.
 dev_langs:
   - csharp

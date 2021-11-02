@@ -2,8 +2,8 @@
 title: CombinedList Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: A combined list is an audience created from a combination of multiple existing audiences.
 ---
 # CombinedList Data Object - Campaign Management

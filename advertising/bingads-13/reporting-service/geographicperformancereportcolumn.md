@@ -2,8 +2,8 @@
 title: GeographicPerformanceReportColumn Value Set - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the GeographicPerformanceReportRequest.
 ---
 # GeographicPerformanceReportColumn Value Set - Reporting
@@ -136,7 +136,7 @@ The [GeographicPerformanceReportColumn](geographicperformancereportcolumn.md) va
 |<a name="language"></a>Language|The language of the publisher where the ad was shown.<br/><br/>For possible values, see the Language column of [Ad Languages](../guides/ad-languages.md#adlanguage). The language display name will be provided in the report e.g. *English*.|
 |<a name="locationid"></a>LocationId|The Microsoft Advertising identifier of the location where the user was physically located when they clicked the ad.<br/><br/>For geographical location identifiers, see [Geographical Location Codes](../guides/geographical-location-codes.md). If the location ID is in the report but not found in the file downloaded via [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md), it is not targetable.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="locationtype"></a>LocationType|The location type used to deliver ads. For example, to distinguish between people in versus searching for or viewing pages about the corresponding location of interest. The possible location type values include "Physical location" and "Location of interest". Physical location indicates that the user was physically located in the corresponding City, Country, MetroArea, or State locations. Location of interest indicates that the physical location of the user was not used to serve the ad, and the user was searching for or viewing pages about the corresponding City, Country, MetroArea, or State locations. If the user is searching for the location that they are in, then the location type is "Physical location". For example if the search user is in Seattle and searching for Seattle, the location type is "Physical location".|
-|<a name="metroarea"></a>MetroArea|The metro area (Nielsen DMA� in the United States) where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
+|<a name="metroarea"></a>MetroArea|The metro area (Nielsen DMA® in the United States) where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="mostspecificlocation"></a>MostSpecificLocation|The most specific location used to deliver ads. For example if the city and country are both identified, this column will include the same value as the *City* column. If postal code information is available, then it will be included in the report instead of city or country.|
 |<a name="network"></a>Network|The combined search advertising marketplace made up of Bing, AOL, Yahoo, and partner sites. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Bing and Yahoo! search, Content, and Syndicated search partners.|
 |<a name="postalcode"></a>PostalCode|The postal code where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|

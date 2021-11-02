@@ -2,8 +2,8 @@
 title: CampaignEstimator Data Object - Ad Insight
 ms.service: bing-ads-ad-insight-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Contains campaign filter criteria and a nested list of ad group and keyword level filter criteria for traffic estimates.
 ---
 # CampaignEstimator Data Object - Ad Insight

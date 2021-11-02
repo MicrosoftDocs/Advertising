@@ -3,8 +3,8 @@ title: "Create a hint message"
 description: Shows how to create a hint message that describes the itineraries that Microsoft Advertising should request in a pull request.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Create a Hint message

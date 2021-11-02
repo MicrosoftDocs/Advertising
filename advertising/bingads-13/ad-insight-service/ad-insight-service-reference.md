@@ -2,8 +2,8 @@
 title: "Ad Insight API"
 ms.service: "bing-ads-ad-insight-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Reference documentation for the Ad Insight API.
 ---
 # Ad Insight API

@@ -3,8 +3,8 @@ title: "Hotel API Reference"
 description: Describes the endpoint, headers, query parameters, and objects of the Hotel Ads API.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Hotel API reference

@@ -1,10 +1,10 @@
 ---
 title: "Store Resource"
 description: "Describes the Store resource and related programming elements of Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # Store Resource

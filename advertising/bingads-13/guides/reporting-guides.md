@@ -2,8 +2,8 @@
 title: "Reporting API Guides"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: These technical guides apply to the Reporting service and may also depend on other Bing Ads API services.
 ---
 # Reporting API Guides

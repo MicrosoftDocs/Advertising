@@ -2,8 +2,8 @@
 title: AddLabels Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Adds one or more labels to an account.
 dev_langs: 
   - csharp

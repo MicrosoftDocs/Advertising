@@ -3,8 +3,8 @@ title: Process a Query message
 description: Shows how to process a Query message that Microsoft Advertising sends you requesting your hotel itinerary data. 
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Process a Query message
@@ -18,15 +18,14 @@ If you use pull requests, Microsoft could send you a request that's similar to t
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Query>
-  <FirstDate>2017-10-20</FirstDate>
-  <LastDate>2017-10-30</LastDate>
-  <Nights>3</Nights>
+  <Checkin>2017-10-20</FirstDate>
+  <Nights>1</Nights>
 
-  <PropertyList>
-    <Property>223</Property>
-    <Property>256</Property>
-    <Property>289</Property>
-  </PropertyList>
+  <PropertyList>
+    <Property>223</Property>
+    <Property>256</Property>
+    <Property>289</Property>
+  </PropertyList>
 </Query>
 ``` 
 

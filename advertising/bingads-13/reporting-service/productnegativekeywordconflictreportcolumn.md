@@ -2,8 +2,8 @@
 title: ProductNegativeKeywordConflictReportColumn Value Set - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the attributes columns that you can include in the ProductNegativeKeywordConflictReportRequest.
 ---
 # ProductNegativeKeywordConflictReportColumn Value Set - Reporting

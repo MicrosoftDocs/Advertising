@@ -3,8 +3,8 @@ title: Differences between Google's and Microsoft Advertising's Query messages
 description: Lists the differences between Google's and Microsoft Advertising's Query messages
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Differences between Google's and Microsoft Advertising's Query messages

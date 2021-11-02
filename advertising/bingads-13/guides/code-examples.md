@@ -2,8 +2,8 @@
 title: "Bing Ads API Code Examples"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Discover code examples in C#, Java, PHP, and Python.
 ---
 # Bing Ads API Code Examples

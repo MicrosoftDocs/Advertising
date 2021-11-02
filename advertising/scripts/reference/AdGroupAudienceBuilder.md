@@ -1,8 +1,8 @@
 ---
 title: "AdGroupAudienceBuilder object"
 description: "Contains the methods for defining and creating an ad group audience association."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

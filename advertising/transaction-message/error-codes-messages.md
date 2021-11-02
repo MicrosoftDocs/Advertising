@@ -3,8 +3,8 @@ title: "Error Codes and Messages"
 description: Lists the possible error codes and messages that Bing returns if the transaction message is not valid. 
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Error codes and messages

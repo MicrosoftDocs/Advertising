@@ -2,8 +2,8 @@
 title: "Bulk File Schema"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the schema for records in a Bulk file.
 ---
 # Bulk File Schema

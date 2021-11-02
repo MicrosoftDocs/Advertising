@@ -2,8 +2,8 @@
 title: EditorialReasonCollection Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a collection of ads or keywords that failed editorial review, and the reason for the failure.
 ---
 # EditorialReasonCollection Data Object - Campaign Management

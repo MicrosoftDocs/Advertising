@@ -2,8 +2,8 @@
 title: PagesViewedPerVisitGoal Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a pages viewed per visit conversion goal.
 ---
 # PagesViewedPerVisitGoal Data Object - Campaign Management

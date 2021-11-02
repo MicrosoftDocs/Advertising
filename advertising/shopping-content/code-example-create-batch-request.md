@@ -1,10 +1,10 @@
 ---
 title: "Creating a Batch Request Code Example"
 description: "Code samples showing how to create a batch request with the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 
 dev_langs: 
   - csharp

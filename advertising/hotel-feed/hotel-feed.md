@@ -3,8 +3,8 @@ title: "Hotel Feed"
 description: Hotel feed overview.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Hotel Feed

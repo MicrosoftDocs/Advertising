@@ -2,8 +2,8 @@
 title: AgeGenderAudienceReportRequest Data Object - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an age and gender audience report request.
 ---
 # AgeGenderAudienceReportRequest Data Object - Reporting

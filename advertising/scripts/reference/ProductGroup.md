@@ -2,8 +2,8 @@
 title: "ProductGroup"
 subtitle: "Scripts"
 description: "Contains the methods used to manage the product group."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

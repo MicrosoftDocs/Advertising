@@ -2,8 +2,8 @@
 title: ActionAdExtension Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an action ad extension with a call-to-action button.
 ---
 # ActionAdExtension Data Object - Campaign Management

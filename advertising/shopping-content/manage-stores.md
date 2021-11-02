@@ -1,10 +1,10 @@
 ---
 title: "Managing your stores"
 description: "Learn how to manage stores using Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # Managing your stores

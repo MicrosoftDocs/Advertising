@@ -2,8 +2,8 @@
 title: "Ad Group Filter Link Ad Extension Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the Ad Group Filter Link Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp

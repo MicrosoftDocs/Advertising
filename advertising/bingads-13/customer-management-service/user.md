@@ -2,8 +2,8 @@
 title: User Data Object - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines personal and business contact information about a Microsoft Advertising user.
 ---
 # User Data Object - Customer Management

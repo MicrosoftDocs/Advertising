@@ -2,8 +2,8 @@
 title: RedeemCoupon Service Operation - Customer Billing
 ms.service: bing-ads-customer-billing-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Redeems a coupon to the specified account.
 dev_langs: 
   - csharp
