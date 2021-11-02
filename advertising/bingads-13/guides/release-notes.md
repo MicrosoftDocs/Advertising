@@ -78,6 +78,15 @@ Previously if you set a date and time that is more than 90 days prior, an error 
 
 The maximum look back period decreased from 90 days to 30 days on September 1st, 2021. Now, if you set a date and time that is more than 30 days prior, an error will be returned.
 
+## <a name="november2021"></a>November 2021
+
+See below for Bing Ads API updates during this calendar month.  
+
+- [Bing Ads API SDK Updates](#sdk-november2021)  
+
+### <a name="sdk-november2021"></a>Bing Ads API SDK Updates
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.12), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.12), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v0.13.0.12), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.12) SDK version 13.0.12. 
+
 ## <a name="august2021"></a>August 2021
 
 See below for Bing Ads API updates during this calendar month.  
