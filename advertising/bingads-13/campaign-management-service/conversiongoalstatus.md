@@ -2,8 +2,8 @@
 title: ConversionGoalStatus Value Set - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the possible user-determined status values of a conversion goal.
 ---
 # ConversionGoalStatus Value Set - Campaign Management

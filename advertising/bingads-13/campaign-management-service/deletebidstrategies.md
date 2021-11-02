@@ -2,8 +2,8 @@
 title: DeleteBidStrategies Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Deletes bid strategies from an account's portfolio bid strategy library.
 dev_langs: 
   - csharp

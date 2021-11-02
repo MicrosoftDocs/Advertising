@@ -2,8 +2,8 @@
 title: AdExtensionAssociationCollection Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an array of objects that associate an ad extension and its editorial status to an account, campaign, or ad group.
 ---
 # AdExtensionAssociationCollection Data Object - Campaign Management

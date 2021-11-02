@@ -2,8 +2,8 @@
 title: UserInfo Data Object - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a user identification object that contains information that identifies a user.
 ---
 # UserInfo Data Object - Customer Management

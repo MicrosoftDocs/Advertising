@@ -1,10 +1,10 @@
 ---
 title: "Release Notes for Shopping Content API"
 description: "Describes the history of changes made to the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # Release Notes for Shopping Content API

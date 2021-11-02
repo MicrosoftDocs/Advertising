@@ -2,8 +2,8 @@
 title: "Reports"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the contents and restraints for files downloaded with the Reporting API.
 ---
 # Reporting Service Model

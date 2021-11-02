@@ -2,8 +2,8 @@
 title: DeleteSharedEntityAssociations Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Deletes the negative keyword list to campaign associations, or website exclusion list to ad account associations.
 dev_langs: 
   - csharp

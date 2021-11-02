@@ -1,8 +1,8 @@
 ---
 title: "BingAdsAccountStats object"
 description: "Contains the methods used in multi-account scripts for accessing an account's performance data."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

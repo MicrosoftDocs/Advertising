@@ -2,8 +2,8 @@
 title: AddSharedEntity Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Adds a negative keyword list to the ad account library, or adds a website exclusion list to the manager account (customer) library.
 dev_langs: 
   - csharp

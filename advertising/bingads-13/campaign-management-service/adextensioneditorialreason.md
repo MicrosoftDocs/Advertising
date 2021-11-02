@@ -2,8 +2,8 @@
 title: AdExtensionEditorialReason Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an object that you can use to determine the component of an ad extension that failed editorial review, and the reason for the failure.
 ---
 # AdExtensionEditorialReason Data Object - Campaign Management

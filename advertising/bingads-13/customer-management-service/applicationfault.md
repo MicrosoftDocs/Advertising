@@ -2,8 +2,8 @@
 title: ApplicationFault Data Object - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the base object from which all Customer Management fault detail objects derive.
 ---
 # ApplicationFault Data Object - Customer Management

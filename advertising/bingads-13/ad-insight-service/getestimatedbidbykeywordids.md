@@ -2,8 +2,8 @@
 title: GetEstimatedBidByKeywordIds Service Operation - Ad Insight
 ms.service: bing-ads-ad-insight-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets the estimated bid value of one or more keywords - specified by keyword identifier - that could have resulted in an ad appearing in the targeted position in the search results in the last  7 days.
 dev_langs: 
   - csharp

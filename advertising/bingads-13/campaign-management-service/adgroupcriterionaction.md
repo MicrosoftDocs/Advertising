@@ -2,8 +2,8 @@
 title: AdGroupCriterionAction Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the action to apply to a BiddableAdGroupCriterion or NegativeAdGroupCriterion, specifically one that contains a ProductPartition.
 ---
 # AdGroupCriterionAction Data Object - Campaign Management

@@ -1,10 +1,10 @@
 ---
 title: "Content API Reference"
 description: "Provides links to Content API resources, and programming elements of each of the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # Content API Reference

@@ -2,8 +2,8 @@
 title: UetTagTrackingStatus Value Set - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the possible system-determined status values of a UET tag.
 ---
 # UetTagTrackingStatus Value Set - Campaign Management

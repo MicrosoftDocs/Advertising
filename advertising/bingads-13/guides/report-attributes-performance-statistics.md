@@ -2,8 +2,8 @@
 title: "Report Attributes and Performance Statistics"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Definitions for the report attributes and performance statistics columns.
 ---
 # Report Attributes and Performance Statistics

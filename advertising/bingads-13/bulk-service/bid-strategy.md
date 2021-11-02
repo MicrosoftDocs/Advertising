@@ -2,8 +2,8 @@
 title: "Bid Strategy Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the Bid Strategy fields in a Bulk file.
 dev_langs:
   - csharp

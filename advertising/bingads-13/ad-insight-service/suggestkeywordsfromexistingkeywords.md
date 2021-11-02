@@ -2,8 +2,8 @@
 title: SuggestKeywordsFromExistingKeywords Service Operation - Ad Insight
 ms.service: bing-ads-ad-insight-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Suggests keywords that could perform better than the specified keywords.
 dev_langs: 
   - csharp

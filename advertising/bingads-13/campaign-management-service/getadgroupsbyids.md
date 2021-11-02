@@ -2,8 +2,8 @@
 title: GetAdGroupsByIds Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets the specified ad groups within the specified campaign.
 dev_langs: 
   - csharp

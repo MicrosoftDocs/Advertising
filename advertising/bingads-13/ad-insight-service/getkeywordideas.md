@@ -2,8 +2,8 @@
 title: GetKeywordIdeas Service Operation - Ad Insight
 ms.service: bing-ads-ad-insight-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets the list of keyword ideas.
 dev_langs: 
   - csharp

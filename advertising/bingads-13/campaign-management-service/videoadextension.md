@@ -2,8 +2,8 @@
 title: VideoAdExtension Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an ad extension with a video and call-to-action button.
 ---
 # VideoAdExtension Data Object - Campaign Management

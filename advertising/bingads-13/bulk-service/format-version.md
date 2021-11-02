@@ -2,8 +2,8 @@
 title: "Format Version Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the Format Version fields in a Bulk file.
 ---
 # Format Version Record - Bulk

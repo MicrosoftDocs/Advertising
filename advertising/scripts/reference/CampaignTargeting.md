@@ -1,8 +1,8 @@
 ---
 title: "CampaignTargeting object"
 description: "Contains the methods for managing campaign criteria: audience and location targeting."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

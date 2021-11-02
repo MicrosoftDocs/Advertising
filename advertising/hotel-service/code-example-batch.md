@@ -3,8 +3,8 @@ title: "Batch Processing Code Example"
 description: Shows how to use batch processing to send multiple requests in a single HTTP request.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 dev_langs:
   - csharp
 ---

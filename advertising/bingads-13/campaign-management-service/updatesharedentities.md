@@ -2,8 +2,8 @@
 title: UpdateSharedEntities Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Updates the negative keyword lists or website exclusion lists.
 dev_langs: 
   - csharp

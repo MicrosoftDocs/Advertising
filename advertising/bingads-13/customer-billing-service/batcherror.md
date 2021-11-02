@@ -2,8 +2,8 @@
 title: BatchError Data Object - Customer Billing
 ms.service: bing-ads-customer-billing-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a Customer Billing batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 ---
 # BatchError Data Object - Customer Billing

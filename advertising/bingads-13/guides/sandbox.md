@@ -2,8 +2,8 @@
 title: "Microsoft Advertising Sandbox"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Microsoft Advertising provides an API sandbox environment where you can test your application before deploying it to the production environment.
 ---
 # Microsoft Advertising Sandbox

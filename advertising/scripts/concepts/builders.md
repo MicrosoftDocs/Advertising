@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Advertising Scripts Builders"
 description: "Describes how builders work in Microsoft Advertising Scripts."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

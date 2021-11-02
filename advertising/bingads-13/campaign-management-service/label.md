@@ -2,8 +2,8 @@
 title: Label Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a label object to organize campaigns, ad groups, ads, and keywords into groups.
 ---
 # Label Data Object - Campaign Management

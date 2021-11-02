@@ -1,10 +1,10 @@
 ---
 title: "Managing your Catalogs"
 description: "Learn how to manage catalogs using the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # Managing your Catalogs

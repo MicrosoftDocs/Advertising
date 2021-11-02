@@ -2,8 +2,8 @@
 title: Paging Data Object - Customer Management
 ms.service: bing-ads-customer-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a paging object to request Customer Management objects in batches.
 ---
 # Paging Data Object - Customer Management

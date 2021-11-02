@@ -1,8 +1,8 @@
 ---
 title: "TargetedLocationOperation object"
 description: "Contains the methods for determining whether the targeted location was successfully added."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -2,8 +2,8 @@
 title: GoogleImportJob Data Object - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a Google import job that can be run once or scheduled on a recurring basis.
 ---
 # GoogleImportJob Data Object - Campaign Management

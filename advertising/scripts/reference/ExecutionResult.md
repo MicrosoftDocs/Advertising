@@ -1,8 +1,8 @@
 ---
 title: "ExecutionResult object"
 description: "Contains the methods used to get information about the execution results of the executeInParallel functions."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -2,8 +2,8 @@
 title: "Profile Data"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Find out about audience profile data supported with the Bing Ads API.
 ---
 # Profile Data

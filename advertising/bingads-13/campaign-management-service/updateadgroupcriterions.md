@@ -2,8 +2,8 @@
 title: UpdateAdGroupCriterions Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Updates one or more ad group criterions.
 dev_langs: 
   - csharp

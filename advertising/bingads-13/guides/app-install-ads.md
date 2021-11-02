@@ -2,8 +2,8 @@
 title: "App Install Ads"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Setup App Install ads with the Bing Ads API.
 ---
 # App Install Ads

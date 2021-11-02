@@ -2,8 +2,8 @@
 title: ProductDimensionPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines a product dimension performance report request that aggregates the performance data by product category, custom label, title, and type for a specified time period.
 ---
 # ProductDimensionPerformanceReportRequest Data Object - Reporting

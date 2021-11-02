@@ -1,8 +1,8 @@
 ---
 title: "UrlFetch limits"
 description: "Identifies the limits for fetching resources from the web."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

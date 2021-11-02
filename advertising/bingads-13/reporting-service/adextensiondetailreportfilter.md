@@ -2,8 +2,8 @@
 title: AdExtensionDetailReportFilter Data Object - Reporting
 ms.service: bing-ads-reporting-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the criteria to use to filter the ad extension detail report.
 ---
 # AdExtensionDetailReportFilter Data Object - Reporting

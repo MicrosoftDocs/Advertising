@@ -1,8 +1,8 @@
 ---
 title: "AdGroupExcludedAudienceSelector object"
 description: "Contains the methods for filtering the list of ad group excluded audiences to return."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

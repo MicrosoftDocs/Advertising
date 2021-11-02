@@ -1,10 +1,10 @@
 ---
 title: "How Do I Get the Status of Product Offers?"
 description: "Learn how to get the status of product offers with the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # How Do I Get the Status of Product Offers?

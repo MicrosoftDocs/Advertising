@@ -2,8 +2,8 @@
 title: ApplicationFault Data Object - Customer Billing
 ms.service: bing-ads-customer-billing-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines the base object from which all Customer Billing fault detail objects derive.
 ---
 # ApplicationFault Data Object - Customer Billing

@@ -2,8 +2,8 @@
 title: DomainCategory Data Object - Ad Insight
 ms.service: bing-ads-ad-insight-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Defines an object that contains a domain category with website coverage.
 ---
 # DomainCategory Data Object - Ad Insight

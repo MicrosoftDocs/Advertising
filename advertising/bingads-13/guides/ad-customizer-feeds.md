@@ -2,8 +2,8 @@
 title: "Ad Customizer Feeds"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Add feeds so your ads update dynamically under specific circumstances. 
 ---
 # Ad Customizer Feeds

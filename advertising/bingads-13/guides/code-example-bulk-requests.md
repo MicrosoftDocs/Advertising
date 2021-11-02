@@ -2,8 +2,8 @@
 title: "Bulk Download Requests Code Example"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Download campaigns, ad groups, and ads in a .csv file using the Bulk service in C#, Java, or Python.
 dev_langs:
   - csharp

@@ -1,8 +1,8 @@
 ---
 title: "Keyword script examples"
 description: "Shows examples that perform various actions against keywords."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

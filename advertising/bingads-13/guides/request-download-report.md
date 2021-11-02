@@ -2,8 +2,8 @@
 title: "Request and Download a Report"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Learn about the steps to request and download a report.
 dev_langs:
   - csharp

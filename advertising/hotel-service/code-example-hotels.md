@@ -3,8 +3,8 @@ title: "Hotel Code Example"
 description: Shows you how to list, get, and update hotels.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 dev_langs:
   - csharp
   - curl

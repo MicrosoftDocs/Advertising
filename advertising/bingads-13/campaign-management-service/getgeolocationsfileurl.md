@@ -2,8 +2,8 @@
 title: GetGeoLocationsFileUrl Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets a temporary URL that you can use to download a file that contains identifiers for the geographical locations that you can target or exclude.
 dev_langs: 
   - csharp

@@ -2,8 +2,8 @@
 title: "Ad Group Negative Dynamic Search Ad Target Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Describes the Ad Group Negative Dynamic Search Ad Target fields in a Bulk file.
 dev_langs:
   - csharp

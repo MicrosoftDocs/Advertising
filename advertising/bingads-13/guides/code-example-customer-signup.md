@@ -2,8 +2,8 @@
 title: "Customer Signup Code Example"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Setup new customers in C#, Java, PHP, or Python.
 dev_langs:
   - csharp

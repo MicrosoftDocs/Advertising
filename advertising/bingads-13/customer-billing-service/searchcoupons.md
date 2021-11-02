@@ -2,8 +2,8 @@
 title: SearchCoupons Service Operation - Customer Billing
 ms.service: bing-ads-customer-billing-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Searches for coupons that match a specified criteria.
 dev_langs: 
   - csharp

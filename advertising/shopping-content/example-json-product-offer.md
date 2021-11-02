@@ -1,10 +1,10 @@
 ---
 title: "Example JSON Product Offer"
 description: "Shows example json representing a product offer returned by the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 # Example JSON Product Offer
 The following shows an example of a product offer in JSON that a GET request returns. 

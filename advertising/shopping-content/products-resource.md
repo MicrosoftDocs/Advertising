@@ -1,10 +1,10 @@
 ---
 title: "Products Resource"
 description: "Provides information about the products resource and related elements of the Content API."
-author: eric-urban
+author: rgaritta
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: eur
+ms.author: v-rgaritta
 ---
 
 # Products Resource

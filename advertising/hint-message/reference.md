@@ -3,8 +3,8 @@ title: Hint message reference
 description: Describes the schema that defines the elements for creating a hint message.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ---
 
 # Hint Message reference

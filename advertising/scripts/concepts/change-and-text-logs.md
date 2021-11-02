@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Advertising Scripts Changes and Text Logs"
 description: "Describes how logging works in Microsoft Advertising Scripts."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

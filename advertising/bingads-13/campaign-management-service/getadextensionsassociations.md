@@ -2,8 +2,8 @@
 title: GetAdExtensionsAssociations Service Operation - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 description: Gets the respective ad extension associations by the specified campaign and ad group identifiers.
 dev_langs: 
   - csharp

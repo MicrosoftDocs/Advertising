@@ -1,8 +1,8 @@
 ---
 title: "BingAdsApp object"
 description: "The deprecated top-level object used in single-account scripts to navigate all entities in a single account."
-author: eric-urban
-ms.author: eur
+author: rgaritta
+ms.author: v-rgaritta
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---
