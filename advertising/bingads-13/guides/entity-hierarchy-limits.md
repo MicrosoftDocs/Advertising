@@ -203,7 +203,7 @@ The following table defines limits for ad group properties.
 |Tracking Url Template|The string can contain a maximum of 2,048 characters.|
 
 ## <a name="ads"></a>Ads
-Each ad group can contain between one and 100 ads combined for both active and paused ads of all types i.e., [app install](#appinstallad), [dynamic search](#dynamicsearchad), [expanded text](#expandedtextad), standard text (deprecated), [product](#productad), and [responsive (audience network)](#responsivead). 3 [responsive search](#responsivesearchad) ads and 5 multimedia ads per ad group. 
+Each ad group can contain between one and 100 ads combined for both active and paused ads of all types i.e., [app install](#appinstallad), [dynamic search](#dynamicsearchad), [expanded text](#expandedtextad), standard text (deprecated), [product](#productad), and [responsive (audience network)](#responsivead), and [responsive search](#responsivesearchad) ads. Up to 3 of those 100 ads can be active [responsive search](#responsivesearchad) ads. 
 
 Each account can have up to 4 million ads.
 
