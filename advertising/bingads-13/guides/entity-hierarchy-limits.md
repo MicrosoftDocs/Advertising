@@ -204,7 +204,7 @@ The following table defines limits for ad group properties.
 
 ## <a name="ads"></a>Ads
 
-Each ad group can contain between one and 100 ads combined for both active and paused ads of all types i.e., [app install](#appinstallad), [dynamic search](#dynamicsearchad), [expanded text](#expandedtextad), standard text (deprecated), [product](#productad), [responsive (audience network)](#responsivead), and [responsive search](#responsivesearchad) ads. Up to 3 of those 100 ads can be active [responsive search](#responsivesearchad) ads.
+Each ad group can contain between one and 100 ads combined for both active and paused ads of all types i.e., [app install](#appinstallad), [dynamic search](#dynamicsearchad), [expanded text](#expandedtextad), standard text (deprecated), [product](#productad), and [responsive (audience network)](#responsivead) ads. Each ad group can contain 3 active [responsive search](#responsivesearchad) ads.
 
 Each account can have up to 4 million ads.
 
