@@ -9,7 +9,7 @@ description: Defines a campaign level product scope with list of conditions that
 # ProductScope Data Object - Campaign Management
 Defines a campaign level product scope with list of conditions that help determine which items from your catalog to include in the campaign e.g., filter by brand or condition.
 
-You can use campaign product scopes with both Shopping campaigns and feed-based Audience campaigns i.e., those campaigns that leverage a Microsoft Merchant Center [store ID](shoppingsetting.md#storeid). 
+You can use campaign product scopes with Shopping campaigns, feed-based Audience campaigns, and Search campaigns with multimedia ads i.e., those campaigns that leverage a Microsoft Merchant Center [store ID](shoppingsetting.md#storeid). (Note: Not everyone has Search campaigns with multimedia ads yet. If you don't, don't worry - it's coming soon!)
 
 > [!NOTE]
 > Product scope conditions are not supported with smart shopping campaigns i.e., campaigns with [CampaignType](campaign.md#campaigntype) set to *Shopping* and [SubType](campaign.md#subtype) set to *ShoppingSmartAds*.  
