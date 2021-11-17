@@ -14,6 +14,7 @@ You can include a shopping setting with both Shopping campaigns and feed-based A
 Supported shopping settings vary by campaign type.
 - Audience campaigns only support the [StoreId](#storeid) element. 
 - Shopping campaigns support all shopping settings.
+- Search campaigns with multimedia ads only support the [StoreId](#storeid) element and the [SalesCountryCode](#salescountrycode) element. (Note: Not everyone has this feature yet. If you don't, don't worry - it's coming soon!)
 
 ## Syntax
 ```xml
