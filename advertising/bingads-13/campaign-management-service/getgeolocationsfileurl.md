@@ -26,7 +26,7 @@ The *GetGeoLocationsFileUrlRequest* object defines the [body](#request-body) and
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="compressiontype"></a>CompressionType|Defines the possible compression types for the file to download.|[CompressionType](compressiontype.md)|
+|<a name="compressiontype"></a>CompressionType|Defines the possible compression types for the file to download.<br/><br/>This request element is optional.|[CompressionType](compressiontype.md)|
 |<a name="languagelocale"></a>LanguageLocale|The language and locale of the geographical location display names. The supported language locale values are *zh-Hant* (Traditional Chinese), *en* (English), *fr* (French), *de* (German), *it* (Italian), *pt-BR* (Brazilian Portuguese), and *es* (Spanish).|**string**|
 |<a name="version"></a>Version|The version of the location file that you want to download.<br/><br/>Currently the only supported version is 2.0.|**string**|
 

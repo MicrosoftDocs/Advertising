@@ -1754,6 +1754,8 @@
       href: ../campaign-management-service/campaignstatus.md
     - name: CampaignType
       href: ../campaign-management-service/campaigntype.md
+    - name: CompressionType
+      href: ../campaign-management-service/compressiontype.md
     - name: ConversionGoalAdditionalField
       href: ../campaign-management-service/conversiongoaladditionalfield.md
     - name: ConversionGoalCategory
