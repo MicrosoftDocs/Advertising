@@ -46,6 +46,7 @@ The Campaign Management service defines the following value sets.
 |[CampaignCriterionType](campaigncriteriontype.md)|Defines the possible types of campaign criterions.|
 |[CampaignStatus](campaignstatus.md)|Defines the possible status values of a campaign.|
 |[CampaignType](campaigntype.md)|Defines the possible campaign types.|
+|[CompressionType](compressiontype.md)|Defines the possible compression types for the file to download.|
 |[ConversionGoalAdditionalField](conversiongoaladditionalfield.md)|Defines a list of optional conversion goal properties that you can request when calling [GetConversionGoalsByIds](getconversiongoalsbyids.md) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md).|
 |[ConversionGoalCategory](conversiongoalcategory.md)|Defines categories used to segment conversion goals.|
 |[ConversionGoalCountType](conversiongoalcounttype.md)|Defines how your conversions are recorded within your chosen conversion window.|
