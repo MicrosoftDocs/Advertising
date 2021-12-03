@@ -25,8 +25,8 @@ The [CompressionType](compressiontype.md) value set has the following values: [G
 
 |Value|Description|
 |-----------|---------------|
-|<a name="gzip"></a>GZip|Reserved.|
-|<a name="zip"></a>Zip|Reserved.|
+|<a name="gzip"></a>GZip|The file should be GZIP compressed.|
+|<a name="zip"></a>Zip|The file should be ZIP compressed.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
