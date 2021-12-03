@@ -17,7 +17,7 @@ Gets the estimated bid value of one or more keywords - specified by keyword iden
 The estimates are based on the last 7 days of performance data, and not a prediction or guarantee of future performance.
 
 > [!NOTE]
-> This operation is optimized for search campaigns using the enhanced CPC bid strategy.  
+> This operation is for search campaigns using the enhanced CPC bid strategy.  
 
 ## <a name="request"></a>Request Elements
 The *GetEstimatedBidByKeywordIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
