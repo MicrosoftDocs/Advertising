@@ -16,6 +16,7 @@ Defines a list of optional audience properties that you can request when calling
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="NormalForm" />
+        <xs:enumeration value="NumberRuleItem" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -24,11 +25,12 @@ Defines a list of optional audience properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [AudienceAdditionalField](audienceadditionalfield.md) value set has the following values: [NormalForm](#normalform).
+The [AudienceAdditionalField](audienceadditionalfield.md) value set has the following values: [NormalForm](#normalform), [NumberRuleItem](#numberruleitem).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="normalform"></a>NormalForm|Request that the [NormalForm](pagevisitorsrule.md#normalform) element be included within each returned [PageVisitorsRule](pagevisitorsrule.md) object.|
+|<a name="numberruleitem"></a>NumberRuleItem|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
