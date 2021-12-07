@@ -12,7 +12,6 @@ Defines a webpage parameter that contains a list of webpage conditions or criter
 The *Webpage* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), and [NegativeCampaignCriterion](negativecampaigncriterion.md) objects. If ad group level negative webpage criterions are specified, the campaign level negative webpage criterions are ignored for that ad group. In other words the ad group negative webpage criterions override the campaign negative webpage criterions, and are not applied as a union.   
 
 A Webpage criterion can only be created within campaigns that have a [DynamicSearchAdsSetting](dynamicsearchadssetting.md).  
-- Dynamic search ads campaigns where [CampaignType](campaign.md#campaigntype) is set to "DynamicSearchAds". 
 - Search campaigns if the [CampaignType](campaign.md#campaigntype) is set to "Search", if the [ExperimentId](campaign.md#experimentid) element is not set, and if the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchDynamic".   
 
 ## Syntax

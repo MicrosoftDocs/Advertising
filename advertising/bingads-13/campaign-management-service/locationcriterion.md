@@ -12,7 +12,7 @@ Defines a criterion that can be used to show ads to users in a specific location
 With location criterions, you can choose to show ads to potential customers in, searching for, or viewing pages about:
 
 * All available countries/regions
-* Selected cities, postal codes, metro areas Nielsen DMAÂ® in the United States), counties, states/provinces, and countries/regions
+* Selected cities, postal codes, metro areas Nielsen DMA® in the United States), counties, states/provinces, and countries/regions
 
 Each location criterion defines a location code for the accompanying criterion bid adjustment. 
 
