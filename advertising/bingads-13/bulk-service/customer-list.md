@@ -132,7 +132,11 @@ The date and time that the entity was last updated. The value is in Coordinated 
 ## <a name="membershipduration"></a>Membership Duration
 When you create a customer list, you can specify how far back in time Microsoft Advertising should look for actions that match your customer list definition in order to add people to your list.
 
-The mimimum duration is 1 day and the maximum duration allowed is 180 days.
+The minimum duration is 1 day and the maximum duration allowed is 180 days.
+
+If membership duration is "-1", there is no expiration.
+
+If membership duration is null, the default duration is used.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
