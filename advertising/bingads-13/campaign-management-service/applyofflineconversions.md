@@ -18,7 +18,7 @@ Let's say a customer sees your ad, clicks on it, but ends up calling you, leadin
 
 After creating an [OfflineConversionGoal](offlineconversiongoal.md), you'll need to wait two hours before sending Microsoft Advertising any offline conversions. If you do not wait two hours, then your offline conversion data might not be applied. After you send Microsoft Advertising the offline conversions, it can take up to five hours to view conversion data.
 
-Each offline conversion needs to be associated to a single click ID. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion can't be imported more than once. If more than one is attempted, the first instance will be used and the others will be ignored.
+Each offline conversion can be split across multiple click IDs. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion can't be imported more than once. If more than one is attempted, the first instance will be used and the others will be ignored.
 
 The value of the conversion can be included in the import file along with a custom currency. If no currency is stated, the conversion goal's default will be used.
 
@@ -34,7 +34,7 @@ The *ApplyOfflineConversionsRequest* object defines the [body](#request-body) an
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="offlineconversions"></a>OfflineConversions|The list of offline conversions for the account.<br/><br/>You can add a maximum of 1,000 offline conversions per service request.<br/><br/>Each offline conversion needs to be associated to a single click ID. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion can't be applied more than once. If you send Microsoft Advertising duplicates, the first instance will be used and the others will be ignored.|[OfflineConversion](offlineconversion.md) array|
+|<a name="offlineconversions"></a>OfflineConversions|The list of offline conversions for the account.<br/><br/>You can add a maximum of 1,000 offline conversions per service request.<br/><br/>Each offline conversion can be split across multiple click IDs. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion can't be applied more than once. If you send Microsoft Advertising duplicates, the first instance will be used and the others will be ignored.|[OfflineConversion](offlineconversion.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
