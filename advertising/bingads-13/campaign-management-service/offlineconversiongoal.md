@@ -42,7 +42,7 @@ The [OfflineConversionGoal](offlineconversiongoal.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="isexternallyattributed"></a>IsExternallyAttributed|Reserved for future use.<br/><br/>This element is not returned by default. To get this element, include the IsExternallyAttributed value in the ReturnAdditionalFields element when you call the [GetConversionGoalsByIds](getconversiongoalsbyids.md#returnadditionalfields) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md#returnadditionalfields) service operations.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
+|<a name="isexternallyattributed"></a>IsExternallyAttributed|This determines if your offline conversion goal uses your own attribution model and allows you to import fractional credit for each MSCLKID.<br/><br/>This element is not returned by default. To get this element, include the IsExternallyAttributed value in the ReturnAdditionalFields element when you call the [GetConversionGoalsByIds](getconversiongoalsbyids.md#returnadditionalfields) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md#returnadditionalfields) service operations.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
 
 The [OfflineConversionGoal](offlineconversiongoal.md) object has [Inherited Elements](#inheritedelements).
 
