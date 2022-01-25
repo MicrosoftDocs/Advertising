@@ -59,8 +59,8 @@ The Microsoft Shopping Campaigns Fixed Bid minimum and recommended bids 
 > [!NOTE]
 > The PolishZloty, SouthAfricanRand, and TurkishLira are not yet available for everyone. 
 
-|Currency Value|Campaign Country of Sale|Minimum Bid|Recommended Minimum Bid|
-|-----|-----|-----|-----|-----|-------|-------|
+|Currency Value|Campaign Country of Sale|Minimum Bid|Recommended Minimum Bid|
+|-----------|---------------|-------------|---------------|
 |AustralianDollar|Australia|0.01|0.05|
 |CanadianDollar|Canada|0.01|0.05|
 |Euro|Austria, Belgium, France, Germany, Italy, Netherlands, Spain, Switzerland, and Sweden.|0.01|0.05|
