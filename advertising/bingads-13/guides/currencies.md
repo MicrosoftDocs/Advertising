@@ -67,7 +67,7 @@ The Microsoft Shopping Campaigns Fixed Bid minimum and recommended bids 
 |IndianRupee|India|0.01|0.50|
 |PolishZloty|Poland|0.01|0.05|
 |SouthAfricanRand|South Africa|0.01|0.05|
-|TurkishLira|Turkey|0.01|1.00|
+|TurkishLira|Turkey|0.01|0.50|
 |UKPound|United Kingdom|0.01|0.05|
 |USDollar|United States of America|0.01|0.05|
 
