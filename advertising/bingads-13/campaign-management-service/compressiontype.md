@@ -9,6 +9,9 @@ description: Defines the possible compression types for the file to download.
 # CompressionType Value Set - Campaign Management
 Defines the possible compression types for the file to download.
 
+> [!NOTE]
+> Currently the only supported compression format for [GetGeoLocationsFileUrl](getgeolocationsfileurl.md) is GZip.
+
 ## Syntax
 ```xml
 <xs:simpleType name="CompressionType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -25,8 +28,8 @@ The [CompressionType](compressiontype.md) value set has the following values: [G
 
 |Value|Description|
 |-----------|---------------|
-|<a name="gzip"></a>GZip|The file should be GZIP compressed.|
-|<a name="zip"></a>Zip|Currently the only supported compression format for [GetGeoLocationsFileUrl](getgeolocationsfileurl.md) is GZip.|
+|<a name="gzip"></a>GZip|The file should be GZip compressed.|
+|<a name="zip"></a>Zip|Currently the only supported compression format is GZip.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
