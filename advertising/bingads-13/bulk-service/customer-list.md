@@ -136,7 +136,7 @@ The minimum duration is 1 day and the maximum duration allowed is 180 days.
 
 If membership duration is "-1", there is no expiration.
 
-If membership duration is null, the default duration is used.
+If membership duration is null, the default duration (30 days) is used.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
