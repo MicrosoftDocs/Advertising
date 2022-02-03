@@ -95,19 +95,27 @@ Each of the values correspond to a friendly and readable call to action in a res
     <xs:enumeration value="Buy" />
     <xs:enumeration value="OpenLink" />
     <xs:enumeration value="RegisterNow" />
+    <xs:enumeration value="Automated">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">100</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CallToAction](calltoaction.md) value set has the following values: [ActNow](#actnow), [AddToCart](#addtocart), [ApplyNow](#applynow), [BetNow](#betnow), [BidNow](#bidnow), [BookACar](#bookacar), [BookHotel](#bookhotel), [BookNow](#booknow), [BookTravel](#booktravel), [Browse](#browse), [Buy](#buy), [BuyNow](#buynow), [ChatNow](#chatnow), [Compare](#compare), [ContactUs](#contactus), [Coupon](#coupon), [Default](#default), [Directions](#directions), [Donate](#donate), [Download](#download), [EmailNow](#emailnow), [EnrollNow](#enrollnow), [Explore](#explore), [FileNow](#filenow), [FindJob](#findjob), [FindStore](#findstore), [FreePlay](#freeplay), [FreeQuote](#freequote), [FreeTrial](#freetrial), [GetDeals](#getdeals), [GetOffer](#getoffer), [GetQuote](#getquote), [Install](#install), [JoinNow](#joinnow), [LearnMore](#learnmore), [ListenNow](#listennow), [LogIn](#login), [Message](#message), [NewCars](#newcars), [NoButton](#nobutton), [OpenLink](#openlink), [OrderNow](#ordernow), [PlayGame](#playgame), [PlayNow](#playnow), [PostJob](#postjob), [Register](#register), [RegisterNow](#registernow), [RenewNow](#renewnow), [RentACar](#rentacar), [RentNow](#rentnow), [Reorder](#reorder), [Reserve](#reserve), [Sale](#sale), [SaveNow](#savenow), [Schedule](#schedule), [SeeMenu](#seemenu), [SeeMore](#seemore), [SeeOffer](#seeoffer), [SellNow](#sellnow), [ShopNow](#shopnow), [Showtimes](#showtimes), [SignIn](#signin), [SignUp](#signup), [StartFree](#startfree), [StartNow](#startnow), [Subscribe](#subscribe), [SwitchNow](#switchnow), [TestDrive](#testdrive), [TryNow](#trynow), [Unknown](#unknown), [UsedCars](#usedcars), [ViewCars](#viewcars), [ViewNow](#viewnow), [ViewPlans](#viewplans), [VisitSite](#visitsite), [VisitStore](#visitstore), [VoteNow](#votenow), [Watch](#watch), [WatchMore](#watchmore), [WatchNow](#watchnow).
+The [CallToAction](calltoaction.md) value set has the following values: [ActNow](#actnow), [AddToCart](#addtocart), [ApplyNow](#applynow), [Automated](#automated), [BetNow](#betnow), [BidNow](#bidnow), [BookACar](#bookacar), [BookHotel](#bookhotel), [BookNow](#booknow), [BookTravel](#booktravel), [Browse](#browse), [Buy](#buy), [BuyNow](#buynow), [ChatNow](#chatnow), [Compare](#compare), [ContactUs](#contactus), [Coupon](#coupon), [Default](#default), [Directions](#directions), [Donate](#donate), [Download](#download), [EmailNow](#emailnow), [EnrollNow](#enrollnow), [Explore](#explore), [FileNow](#filenow), [FindJob](#findjob), [FindStore](#findstore), [FreePlay](#freeplay), [FreeQuote](#freequote), [FreeTrial](#freetrial), [GetDeals](#getdeals), [GetOffer](#getoffer), [GetQuote](#getquote), [Install](#install), [JoinNow](#joinnow), [LearnMore](#learnmore), [ListenNow](#listennow), [LogIn](#login), [Message](#message), [NewCars](#newcars), [NoButton](#nobutton), [OpenLink](#openlink), [OrderNow](#ordernow), [PlayGame](#playgame), [PlayNow](#playnow), [PostJob](#postjob), [Register](#register), [RegisterNow](#registernow), [RenewNow](#renewnow), [RentACar](#rentacar), [RentNow](#rentnow), [Reorder](#reorder), [Reserve](#reserve), [Sale](#sale), [SaveNow](#savenow), [Schedule](#schedule), [SeeMenu](#seemenu), [SeeMore](#seemore), [SeeOffer](#seeoffer), [SellNow](#sellnow), [ShopNow](#shopnow), [Showtimes](#showtimes), [SignIn](#signin), [SignUp](#signup), [StartFree](#startfree), [StartNow](#startnow), [Subscribe](#subscribe), [SwitchNow](#switchnow), [TestDrive](#testdrive), [TryNow](#trynow), [Unknown](#unknown), [UsedCars](#usedcars), [ViewCars](#viewcars), [ViewNow](#viewnow), [ViewPlans](#viewplans), [VisitSite](#visitsite), [VisitStore](#visitstore), [VoteNow](#votenow), [Watch](#watch), [WatchMore](#watchmore), [WatchNow](#watchnow).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="actnow"></a>ActNow|The corresponding call to action in the ad.|
 |<a name="addtocart"></a>AddToCart|The corresponding call to action in the ad.|
 |<a name="applynow"></a>ApplyNow|The corresponding call to action in the ad.|
+|<a name="automated"></a>Automated|Reserved.|
 |<a name="betnow"></a>BetNow|The corresponding call to action in the ad.|
 |<a name="bidnow"></a>BidNow|The corresponding call to action in the ad.|
 |<a name="bookacar"></a>BookACar|The corresponding call to action in the ad.|
