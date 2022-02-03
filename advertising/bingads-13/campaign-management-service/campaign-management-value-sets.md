@@ -90,3 +90,4 @@ The Campaign Management service defines the following value sets.
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|
 |[ValueOperator](valueoperator.md)|Defines the operators that can be applied to values within a conversion event goal.|
 |[WebpageConditionOperand](webpageconditionoperand.md)|Defines the possible operand values that can be applied to the argument of a webpage condition for dynamic search ads.|
+|[WebpageConditionOperator](webpageconditionoperator.md)|Reserved.|
