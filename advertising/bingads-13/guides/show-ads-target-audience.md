@@ -54,7 +54,7 @@ The supported criteria varies by campaign type.
 
 |Criterion Association|Supported Campaign Types|
 |----------|---------------|
-|Campaign Age Criterion|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
+|Campaign Age Criterion|DynamicSearchAds<br/>Search<br/>Shopping|
 |Ad Group Age Criterion|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
 |Ad Group Negative Age Criterion|Audience|
 
@@ -88,7 +88,7 @@ The supported criteria varies by campaign type.
 
 |Criterion Association|Supported Campaign Types|
 |----------|---------------|
-|Campaign Gender Criterion|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
+|Campaign Gender Criterion|DynamicSearchAds<br/>Search<br/>Shopping|
 |Ad Group Gender Criterion|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
 |Ad Group Negative Gender Criterion|Audience|
 
