@@ -22,7 +22,7 @@ The following are the possible languages that you can use to write your ads and 
 |Albanian|SQ|
 |Bulgarian|BG|
 |Bosnian|BS|
-|Croation|HR|
+|Croatian|HR|
 |Czech|CS|
 |Danish|DA|
 |Dutch|NL|

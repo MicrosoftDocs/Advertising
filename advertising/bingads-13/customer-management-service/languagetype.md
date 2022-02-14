@@ -72,7 +72,7 @@ The [LanguageType](languagetype.md) value set has the following values: [Albania
 |<a name="french"></a>French|The corresponding language type.|
 |<a name="german"></a>German|The corresponding language type.|
 |<a name="greek"></a>Greek|The corresponding language type.|
-|<a name="greek"></a>Hungarian|The corresponding language type.|
+|<a name="hungarian"></a>Hungarian|The corresponding language type.|
 |<a name="icelandic"></a>Icelandic|The corresponding language type.|
 |<a name="italian"></a>Italian|The corresponding language type.|
 |<a name="japanese"></a>Japanese|The corresponding language type.|
