@@ -16,13 +16,13 @@ Your ad language in combination with your [location targeting](show-ads-target-a
 
 The following are the possible languages that you can use to write your ads and keywords.
 
-> [!NOTE]
-> The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.
 
 |Language|Language Code|
 |------------|-----------------|
+|Albanian|SQ|
 |Bulgarian|BG|
-|Croation|HR|
+|Bosnian|BS|
+|Croatian|HR|
 |Czech|CS|
 |Danish|DA|
 |Dutch|NL|
@@ -33,18 +33,22 @@ The following are the possible languages that you can use to write your ads and 
 |German|DE|
 |Greek|EL|
 |Hungarian|HU|
+|Icelandic|IS|
 |Italian|IT|
 |Latvian|LV|
 |Lithuanian|LT|
+|Macedonian|MK|
 |Maltese|MT|
 |Norwegian|NB|
 |Polish|PL|
 |Portuguese|PT<br/><br/>This code differs from the ISO standard for Brazilian Portuguese, PTB.|
 |Romanian|RO|
+|Serbian|SR|
 |Slovak|SK|
 |Slovenian|SL|
 |Spanish|ES|
 |Swedish|SV|
+|Turkish|TR|
 |TraditionalChinese|ZH|
 		
 ## <a name="productlanguage"></a>Product Language
