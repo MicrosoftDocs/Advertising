@@ -78,8 +78,10 @@ Countdown customizers let you easily add a countdown (by day, hour, and then min
 
 |Language Code|Language|
 |------------|------------|
+|SQ|Albanian|
+|BS|Bosnian|
 |BG|Bulgarian|
-|HR|Croation|
+|HR|Croatian|
 |CS|Czech|
 |DA|Danish|
 |NL|Dutch|
@@ -92,15 +94,18 @@ Countdown customizers let you easily add a countdown (by day, hour, and then min
 |DE|German|
 |EL|Greek|
 |HU|Hungarian|
+|IS|Icelandic|
 |IT|Italian|
 |LV|Latvian|
 |LT|Lithuanian|
+|MK|Macedonian|
 |MT|Maltese|
 |NB|Norwegian|
 |PL|Polish|
 |pt-BR|Portuguese|
 |pt-PT|Portuguese|
 |RO|Romanian|
+|SR|Serbian|
 |SK|Slovak|
 |SL|Slovenian|
 |ES|Spanish|
@@ -108,6 +113,7 @@ Countdown customizers let you easily add a countdown (by day, hour, and then min
 |SV|Swedish|
 |zh-HK|TraditionalChinese|
 |zh-TW|TraditionalChinese|
+|TR|Turkish|
 
 ## <a name="adextensionheaders"></a>Ad Extension Headers
 Structured Snippet headers must be specified in the same language that you intend it to be shown. For example, if you want header *Amenities* in English you must specify the header as *Amenities*. If you want header *Ausstattung* in German you must specify the header as *Ausstattung* (*Amenities* in German). 
