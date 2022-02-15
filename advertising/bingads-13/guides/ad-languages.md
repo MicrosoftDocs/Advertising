@@ -73,9 +73,6 @@ The following country codes are supported per customer language e.g. [aggregator
 ## <a name="countdownlanguage"></a>Countdown Language
 Countdown customizers let you easily add a countdown (by day, hour, and then minute) to an event in your dynamic search ads, expanded text ads, and responsive search ads. The following language codes are supported for [countdown customizers](countdown-customizers.md).
 
-> [!NOTE]
-> The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.
-
 |Language Code|Language|
 |------------|------------|
 |SQ|Albanian|
