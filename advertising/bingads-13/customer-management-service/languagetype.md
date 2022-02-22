@@ -44,21 +44,21 @@ The [LanguageType](languagetype.md) value set has the following values: [Arabic]
 
 |Value|Description|
 |-----------|---------------|
-|<a name="arabic"></a>Arabic|Reserved.|
+|<a name="arabic"></a>Arabic|The corresponding language type.|
 |<a name="danish"></a>Danish|The corresponding language type.|
 |<a name="dutch"></a>Dutch|The corresponding language type.|
 |<a name="english"></a>English|The corresponding language type.|
 |<a name="finnish"></a>Finnish|The corresponding language type.|
 |<a name="french"></a>French|The corresponding language type.|
 |<a name="german"></a>German|The corresponding language type.|
-|<a name="hebrew"></a>Hebrew|Reserved.|
+|<a name="hebrew"></a>Hebrew|The corresponding language type.|
 |<a name="italian"></a>Italian|The corresponding language type.|
 |<a name="japanese"></a>Japanese|The corresponding language type.|
 |<a name="korean"></a>Korean|The corresponding language type.|
 |<a name="norwegian"></a>Norwegian|The corresponding language type.|
 |<a name="portuguese"></a>Portuguese|The corresponding language type.|
 |<a name="russian"></a>Russian|The corresponding language type.|
-|<a name="simplifiedchinese"></a>SimplifiedChinese|Reserved.|
+|<a name="simplifiedchinese"></a>SimplifiedChinese|The corresponding language type.|
 |<a name="spanish"></a>Spanish|The corresponding language type.|
 |<a name="swedish"></a>Swedish|The corresponding language type.|
 |<a name="traditionalchinese"></a>TraditionalChinese|The corresponding language type.|
