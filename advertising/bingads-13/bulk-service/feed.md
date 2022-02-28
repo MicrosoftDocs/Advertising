@@ -338,7 +338,22 @@ Possible values are *Active* or *Deleted*.
 ## <a name="subtype"></a>Sub Type
 The feed sub type is included in the Bulk download file for readability.
 
-The possible values include *PageFeed* and *AdCustomizerFeed*. New values may be supported in the future, so you must not take a dependency on a fixed set of values.  
+The possible values are: 
+
+- *PageFeed*
+- *AdCustomizerFeed*
+- *DynamicDataToursAndActivitiesFeed*
+- *DynamicDataCreditCardsFeed*
+- *DynamicDataCruisesFeed*
+- *DynamicDataHealthInsuranceFeed*
+- *DynamicDataProfessionalServiceFeed*
+- *DynamicDataMortgageLendersFeed*
+- *DynamicDataEventsFeed*
+- *DynamicDataHotelsAndVacationRentalsFeed*
+- *DynamicDataCustomFeed*
+- *DynamicDataAutosListingFeed*
+
+New values may be supported in the future, so you must not take a dependency on a fixed set of values.
 
 **Add:** Read-only  
 **Update:** Read-only  
