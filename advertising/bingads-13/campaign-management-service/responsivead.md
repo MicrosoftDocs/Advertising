@@ -1,5 +1,5 @@
 ---
-title: ResponsiveAd Data Object - Campaign Management
+title: ResponsiveAd Data Object for multimedia ads and audience ads - Campaign Management
 ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
@@ -100,7 +100,7 @@ The [ResponsiveAd](responsivead.md) object derives from the [Ad](ad.md) object, 
 |<a name="type"></a>Type|The type of the ad. This value is *ResponsiveAd* when you retrieve a responsive ad. For more information about ad types, see the [Ad Data Object Remarks](ad.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|[AdType](adtype.md)|
 |<a name="urlcustomparameters"></a>UrlCustomParameters|Your custom collection of key and value parameters for URL tracking.<br/><br/>Microsoft Advertising will accept the first 8 [CustomParameter](customparameter.md) objects that you include within the [CustomParameters](customparameters.md) object, and if you include more than 8 custom parameters an error will be returned. Each [CustomParameter](customparameter.md) includes [Key](customparameter.md#key) and [Value](customparameter.md#value) elements.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. Set the [UrlCustomParameters](#urlcustomparameters) element to null or empty to retain any existing custom parameters. To remove all custom parameters, set the [Parameters](customparameters.md#parameters) element of the [CustomParameters](customparameters.md) object to null or empty. To remove a subset of custom parameters, specify the custom parameters that you want to keep in the [Parameters](customparameters.md#parameters) element of the [CustomParameters](customparameters.md) object.|[CustomParameters](customparameters.md)|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Remarks for multimedia ads and audience ads 
 The ResponsiveAd object is used for [Multimedia ads](https://help.ads.microsoft.com/#apex/ads/en/60107/0) in the search network and [Audience ads](https://help.ads.microsoft.com/#apex/ads/en/56674/0) in the Microsoft Audience Network. 
 
 Most supported properties are the same, but here are some of the key differentiators.
