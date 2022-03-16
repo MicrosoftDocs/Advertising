@@ -16,7 +16,7 @@ You can download all *Campaign* records in the account by including the [Downloa
 The following Bulk CSV example would add one Search campaign. 
 
 ```csv
-Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Time Zone,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Language,Target Setting,Priority,Tracking Template,Final Url Suffix,Custom Parameter,Bid Strategy Type,Domain Language,Source
+Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Language,Target Setting,Priority,Tracking Template,Final Url Suffix,Custom Parameter,Bid Strategy Type,Domain Language,Source
 Format Version,,,,,,,,,,,,,,6.0,,,,,,,,,,,,
 Campaign,Active,-111,0,Women's Shoes,,ClientIdGoesHere,,PacificTimeUSCanadaTijuana,,,50,DailyBudgetStandard,10,,,,Search,All,Audience,,,,{_promoCode}=PROMO1; {_season}=summer,EnhancedCpc,,
 ```
@@ -80,8 +80,6 @@ var bulkCampaign = new BulkCampaign
         Status = CampaignStatus.Active,
         // 'Sub Type' column header in the Bulk file
         SubType = null,
-        // 'Time Zone' column header in the Bulk file
-        TimeZone = "PacificTimeUSCanadaTijuana",
         // 'Tracking Template' column header in the Bulk file
         TrackingUrlTemplate = null,
         // 'Custom Parameter' column header in the Bulk file
@@ -159,7 +157,6 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Store Id](#storeid)|Audience<br>Shopping|
 |[Sub Type](#subtype)|Shopping|
 |[Target Setting](#targetsetting)|All|
-|[Time Zone](#timezone)|All|
 |[Tracking Template](#trackingtemplate)|All|
 |[Website](#website)|Search|
 
@@ -301,7 +298,7 @@ The campaign's budget amount.
 
 In the context of shared budgets, the budget amount is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. When a campaign is associated to a shared budget the amount returned is that of the shared budget. To determine whether the campaign uses a shared budget, check the value of the [Budget Id](#budgetid) field. 
 
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), [Status](#status), or [Time Zone](#timezone). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. 
+With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings. 
 
 **Add:** Required if the [Budget Id](#budgetid) is not set. Read-only if the campaign uses a shared budget.  
 **Update:** Optional if the [BudgetId](#budgetid) is not set. If no value is set for the update, this setting is not changed. Not allowed if the campaign uses a shared budget. If you try to update the budget amount of a campaign that has a shared budget, the service will return the *CampaignServiceCannotUpdateSharedBudget* error code.  
@@ -338,7 +335,7 @@ The possible values are DailyBudgetAccelerated and DailyBudgetStandard. The Dail
 
 In the context of shared budgets, the budget type is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. To determine whether the campaign uses a shared budget, check the value of the [Budget Id](#budgetid) field. 
 
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), [Status](#status), or [Time Zone](#timezone). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. 
+With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings. 
 
 **Add:** Required if the [Budget Id](#budgetid) is not set. Read-only if the campaign uses a shared budget.  
 **Update:** Optional if the [BudgetId](#budgetid) is not set. If no value is set for the update, this setting is not changed. Not allowed if the campaign uses a shared budget. If you try to update the budget type of a campaign that has a shared budget, the service will return the *CampaignServiceCannotUpdateSharedBudget* error code.  
@@ -434,7 +431,7 @@ The system-generated identifier of the [Experiment](experiment.md).
 
 This field is only set for experiment campaigns i.e., campaigns that have been created for A/B testing based on another Search campaign. Base campaigns will not contain an experiment ID. Likewise, after an experiment has been [Graduated](experiment.md#status) to an independent campaign, this field will be empty, even though the campaign was previously an experiment campaign. 
 
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), [Status](#status), or [Time Zone](#timezone). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. If you want to change an experiment's budget, you will need to change the base campaign's budget. The change in value will then be split based on your experiment [TrafficSplitPercent](experiment.md#trafficsplitpercent) setting.
+With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings. If you want to change an experiment's budget, you will need to change the base campaign's budget. The change in value will then be split based on your experiment [TrafficSplitPercent](experiment.md#trafficsplitpercent) setting.
 
 **Add:** Read-only  
 **Update:** Read-only  
@@ -621,7 +618,7 @@ The status of the campaign.
 
 Possible values for download and upload are Active, Paused, and Deleted. In addition, the values BudgetAndManualPaused, BudgetPaused, and Suspended are read-only via bulk download. 
 
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), [Status](#status), or [Time Zone](#timezone). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. 
+With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings. 
 
 |Value|Description|
 |-----------|---------------|
@@ -691,18 +688,6 @@ An entity such as a remarketing list can be associated with multiple campaigns, 
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all criterion type group names, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of criterion type group names, specify the criterion type group names that you want to keep and omit any that you do not want to keep. The new set of criterion type group names will replace any previous criterion groups that were set for the campaign.    
 **Delete:** Read-only  
 
-## <a name="timezone"></a>Time Zone
-The time zone where the campaign operates.
-
-The time zone is used for reporting and applying the start and end date of an ad group.
-
-For possible values, see [Time Zones](../guides/time-zones.md). 
-
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), [Status](#status), or [Time Zone](#timezone). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. 
-
-**Add:** Required   
-**Update:** Optional. If no value is set for the update, this setting is not changed. You may not update the time zone if the campaign contains or has ever contained ad groups in the *Active* or *Paused* state.    
-**Delete:** Read-only  
 
 ## <a name="trackingtemplate"></a>Tracking Template
 The tracking template to use as a default for all URLs in your campaign.
