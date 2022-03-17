@@ -41,7 +41,7 @@ When you create an experiment in your account, a new experiment and a new campai
 
 After the experiment is created you can update its [End Date](#enddate), [Name](#name), [Start Date](#startdate), and [Traffic Split Percent](#trafficsplitpercent). There are some exceptions e.g., you cannot update the start date after the [Status](#status) has become *Active* (start date already arrived), and you cannot update the end date after the [Status](#status) has become *Ended* (end date already passed).   
 
-After the experiment campaign is created you can update all of its settings except for the campaign [Budget](campaign.md#budget), [Budget Type](campaign.md#budgettype), [Status](campaign.md#status), and [Time Zone](campaign.md#timezone). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. If you want to change an experiment's budget, you will need to change the base campaign's budget. The change in value will then be split based on your experiment [Traffic Split Percent](#trafficsplitpercent) setting. An experiment campaign will have one new property that non-experiment campaigns do not have i.e., the [Experiment Id](campaign.md#experimentid). 
+After the experiment campaign is created you can update all of its settings except for the campaign [Budget](campaign.md#budget), [Budget Type](campaign.md#budgettype), and [Status](campaign.md#status). The budget, status, and time zone of an experiment campaign are always inherited from the base campaign settings. If you want to change an experiment's budget, you will need to change the base campaign's budget. The change in value will then be split based on your experiment [Traffic Split Percent](#trafficsplitpercent) setting. An experiment campaign will have one new property that non-experiment campaigns do not have i.e., the [Experiment Id](campaign.md#experimentid). 
 
 > [!TIP] 
 > Once you have created an experiment, any change you make to the base campaign's settings (except for budget and status) will not affect the experiment. To ensure you are seeing a fair comparison, we recommend not making any changes to the base campaign's settings while an experiment is running.
@@ -174,7 +174,7 @@ The Microsoft Advertising identifier of the campaign that is created as a copy o
 
 All base campaign settings, including ad groups, ads, ad extension associations, and target settings are copied to the new experiment campaign. 
 
-After the experiment campaign is created you can update all of its settings except for the campaign [Budget](campaign.md#budget), [Budget Type](campaign.md#budgettype), and [Time Zone](campaign.md#timezone). The budget and time zone of an experiment campaign are always inherited from the base campaign settings. 
+After the experiment campaign is created you can update all of its settings except for the campaign [Budget](campaign.md#budget), and [Budget Type](campaign.md#budgettype). The budget and time zone of an experiment campaign are always inherited from the base campaign settings. 
 
 **Add:** Read-only  
 **Update:** Read-only    
