@@ -40,7 +40,7 @@ Cost,Price,,,,,,,,
 
 ```
 
-For a *Ad Customizer feed* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Ad Customizer feed* record, the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md). 
 
 - [Attribute](#attribute)
 - [Data Type](#datatype)
@@ -116,7 +116,7 @@ The existing keyword to which you are assigning attribute value.
 Each customizer value will have its own column.
 
 **Valid values**:
-The value of the customizer attribute should be based on the data type. See the [custom attribute data type table](ad-customizer-feeds-responsive-search-ads.md/#a-name"datatype"adata-type) above for a list of requirements per attribute type.
+The value of the customizer attribute should be based on the data type. See the custom attribute data type table above for a list of requirements per attribute type.
 
 ## <a name="expandedtextad-examples"></a>Adding ad customizers to responsive search Ads
 
