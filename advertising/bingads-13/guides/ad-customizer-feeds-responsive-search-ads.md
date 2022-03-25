@@ -22,7 +22,7 @@ Why use ad customizer for responsive search ads?
 
 ## <a name="upload-adcustomizerfeed"></a>Upload ad customizer feeds
 
-You can upload ad customizer feed for responsive search ads with the Bulk service.
+You can upload your ad customizer feed for responsive search ads with the Bulk service.
 
 The Ad customizer feed record defines the name and data type of attributes that are allowed for the corresponding feed item.
 
@@ -44,7 +44,7 @@ For a *Ad Customizer feed* record, the following attribute fields are available 
 
 - [Attribute](#attribute)
 - [Data Type](#datatype)
-- [Account value](#accountvalue)
+- [Account Value](#accountvalue)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
 - [Keyword](#keyword)
@@ -90,7 +90,7 @@ Attribute value at account level.
 
 ## <a name="campaign"></a>Campaign
 
-The name of the campaign that contains the ad group and negative keyword.
+The name of the existing campaign to which you are assigning attribute value.
 
 **Add:** Read-only  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
