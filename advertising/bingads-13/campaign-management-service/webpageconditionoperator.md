@@ -13,8 +13,7 @@ Defines the possible operator values that can be applied to the argument of a we
 ```xml
 <xs:simpleType name="WebpageConditionOperator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:restriction base="xs:string">
-    <xs:enumeration value="Unknown" />
-    <xs:enumeration value="Equals" />
+\    <xs:enumeration value="Equals" />
     <xs:enumeration value="Contains" />
   </xs:restriction>
 </xs:simpleType>
