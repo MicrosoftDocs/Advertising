@@ -197,7 +197,7 @@ In a bulk file, the list of custom parameters are formatted as follows.
 **Delete:** Read-only  
 
 > [!NOTE]
-> If you use *operand* as **URL** and *operator* as **Equals** you can only specify one condition.
+> If you use *Operand* as **URL** and *Operator* as **Equals** you can only specify one condition.
 
 ## <a name="dynamicadtargetcondition1"></a>Dynamic Ad Target Condition 1
 The first of up to 3 webpage condition operands. The condition is met if the webpage property that is referenced by this field contains or equals the *Dynamic Ad Target Value 1* value.

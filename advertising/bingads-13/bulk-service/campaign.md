@@ -707,7 +707,7 @@ The following validation rules apply to tracking templates. For more details abo
 **Delete:** Read-only  
 
 ## <a name="website"></a>Website
-The domain name of the website that you want to target for dynamic search ads.
+The domain or subdomain name of the website that you want to target for dynamic search ads.
 
 The length of the string is limited to 2,048 characters. If the domain name includes *www* it will be trimmed and not used.
 
