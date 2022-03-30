@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description: Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
 ---
 # WebpageConditionOperator Value Set - Campaign Management
 Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
@@ -21,7 +21,7 @@ Defines the possible operator values that can be applied to the argument of a we
 
 ## <a name="values"></a>Values
 
-The [WebpageConditionOperator](webpageconditionoperator.md) value set has the following values: [Contains](#contains), [Equals](#equals), [Unknown](#unknown).
+The [WebpageConditionOperator](webpageconditionoperator.md) value set has the following values: [Contains](#contains), [Equals](#equals).
 
 |Value|Description|
 |-----------|---------------|
