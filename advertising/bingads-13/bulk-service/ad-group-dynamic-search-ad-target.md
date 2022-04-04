@@ -197,7 +197,7 @@ In a bulk file, the list of custom parameters are formatted as follows.
 **Delete:** Read-only  
 
 > [!NOTE]
-> If you use *Operand* as **URL** and *Operator* as **Equals** you can only specify one condition.
+> If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages.
 
 ## <a name="dynamicadtargetcondition1"></a>Dynamic Ad Target Condition 1
 The first of up to 3 webpage condition operands. The condition is met if the webpage property that is referenced by this field contains or equals the *Dynamic Ad Target Value 1* value.
@@ -234,7 +234,7 @@ The first of up to 3 webpage condition operators. The condition is met if the we
 
 Possible values include *Contains* and *Equals*.
 
-**Add:** Optional. If you do not set any of the dynamic ad target operator or value fields, then you are effectively targeting all webpages. You can only have one dynamic ad target per ad group for all webpages.  
+**Add:** Optional. If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages. If you set Dynamic Ad Target Condition 1 and do not set Dynamic Ad Target Operator 1, we will use default operator for the operand selected. If you want to create URL Equals, operator must be passed.
 **Update:** Not allowed. You cannot update the dynamic ad target operator or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
 **Delete:** Read-only  
 
@@ -245,7 +245,7 @@ The second of up to 3 webpage condition operators. The condition is met if the w
 
 Possible values include *Contains* and *Equals*.
 
-**Add:** Optional. If you do not set any of the dynamic ad target operator or value fields, then you are effectively targeting all webpages. You can only have one dynamic ad target per ad group for all webpages.  
+**Add:** Optional.  If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages. If you set Dynamic Ad Target Condition21 and do not set Dynamic Ad Target Operator 2, we will use default operator for the operand selected. If you want to create URL Equals, operator must be passed.
 **Update:** Not allowed. You cannot update the dynamic ad target operator or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
 **Delete:** Read-only  
 
@@ -256,7 +256,7 @@ The third of up to 3 webpage condition operators. The condition is met if the we
 
 Possible values include *Contains* and *Equals*.
 
-**Add:** Optional. If you do not set any of the dynamic ad target operator or value fields, then you are effectively targeting all webpages. You can only have one dynamic ad target per ad group for all webpages.  
+**Add:** Optional.  If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages. If you set Dynamic Ad Target Condition 3 and do not set Dynamic Ad Target Operator 3, we will use default operator for the operand selected. If you want to create URL Equals, operator must be passed.
 **Update:** Not allowed. You cannot update the dynamic ad target operator or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
 **Delete:** Read-only  
 
