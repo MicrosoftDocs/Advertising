@@ -709,6 +709,9 @@ The following validation rules apply to tracking templates. For more details abo
 ## <a name="website"></a>Website
 The domain or subdomain name of the website that you want to target for dynamic search ads.
 
+> [!NOTE]
+> Not everyone has the subdoamin feature yet. If you don't, don't worry. It's coming soon.  
+
 The length of the string is limited to 2,048 characters. If the domain name includes *www* it will be trimmed and not used.
 
 > [!NOTE]
