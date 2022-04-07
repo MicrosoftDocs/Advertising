@@ -4,17 +4,16 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description: Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
 ---
 # WebpageConditionOperator Value Set - Campaign Management
-Reserved.
+Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
 
 ## Syntax
 ```xml
 <xs:simpleType name="WebpageConditionOperator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:restriction base="xs:string">
-    <xs:enumeration value="Unknown" />
-    <xs:enumeration value="Equals" />
+\    <xs:enumeration value="Equals" />
     <xs:enumeration value="Contains" />
   </xs:restriction>
 </xs:simpleType>
@@ -22,13 +21,12 @@ Reserved.
 
 ## <a name="values"></a>Values
 
-The [WebpageConditionOperator](webpageconditionoperator.md) value set has the following values: [Contains](#contains), [Equals](#equals), [Unknown](#unknown).
+The [WebpageConditionOperator](webpageconditionoperator.md) value set has the following values: [Contains](#contains), [Equals](#equals).
 
 |Value|Description|
 |-----------|---------------|
-|<a name="contains"></a>Contains|Reserved.|
-|<a name="equals"></a>Equals|Reserved.|
-|<a name="unknown"></a>Unknown|Reserved.|
+|<a name="contains"></a>Contains|The property should contain the corresponding argument value.|
+|<a name="equals"></a>Equals|The property should be equal to the corresponding argument value.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
