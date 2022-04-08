@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Defines the possible compression types for the file to download.
+description: Defines the possible compression types for the download file.
 ---
 # CompressionType Value Set - Campaign Management
 Defines the possible compression types for the file to download.
@@ -29,7 +29,7 @@ The [CompressionType](compressiontype.md) value set has the following values: [G
 |Value|Description|
 |-----------|---------------|
 |<a name="gzip"></a>GZip|The file should be GZip compressed.|
-|<a name="zip"></a>Zip|Currently the only supported compression format is GZip.|
+|<a name="zip"></a>Zip|Reserved for future use.<br/><br/>Currently the only supported compression format is GZip.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
