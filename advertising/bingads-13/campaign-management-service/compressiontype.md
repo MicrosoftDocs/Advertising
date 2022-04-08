@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Defines the possible compression types for the file to download.
+description: Defines the possible compression types for the download file.
 ---
 # CompressionType Value Set - Campaign Management
 Defines the possible compression types for the file to download.
