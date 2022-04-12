@@ -119,12 +119,12 @@ For multimedia ads you'll create multiple image assets with different sizes and 
 
 In the [Images](#images) element include one or more [AssetLink](assetlink.md) objects. Each asset link contains an [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to one of the string values in the table below.
 
-|Sub Type|Minimum dimensions in pixels|
+|Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-|Image191x100|703 width x 368 height<br/>Aspect radio 1.91:1|
-|Image4x1|608 width x 152 height<br/>Aspect radio 4:1|
-|Image1x1|470 width x 470 height<br/>Aspect radio 1:1|
-|Image1x2|470 width x 940 height<br/>Aspect radio 1:2|
+|Image191x100|1.91:1|703 width x 368 height|
+|Image4x1|4:1|608 width x 152 height|
+|Image1x1|1:1|470 width x 470 height|
+|Image1x2|1:2|470 width x 940 height|
 
 ### Audience ad images
 
@@ -132,13 +132,13 @@ For audience ads you'll create multiple image assets with different sizes, aspec
 
 In the [Images](#images) element include one or more [AssetLink](assetlink.md) objects. Each asset link contains an [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to one of the string values in the table below.
 
-|Sub Type|Minimum dimensions in pixels|
+|Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-|LandscapeImageMedia|703 width x 368 height<br/>Aspect radio 1.91:1|
-|SquareImageMedia|300 width x 300 height<br/>Aspect radio 1:1|
-|ImageMedia15X10|300 width x 200 height<br/>Aspect radio 1.5:1|
-|ImageMedia133X100|100 width x 75 height<br/>Aspect radio 1.33:1|
-|ImageMedia178X100|624 width x 350 height<br/>Aspect radio 1.78:1|
+|LandscapeImageMedia|1.91:1|703 width x 368 height|
+|SquareImageMedia|1:1|300 width x 300 height|
+|ImageMedia15X10|1.5:1|300 width x 200 height|
+|ImageMedia133X100|1.33:1|100 width x 75 height|
+|ImageMedia178X100|1.78:1|624 width x 350 height|
 
 You are only required to provide a landscape image asset. In the [Images](#images) element include an [AssetLink](assetlink.md) that contains one [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to LandscapeImageMedia. The recommended dimensions for the LandscapeImageMedia are 1200 width x 628 height. Optionally you can include additional asset links, i.e., one image asset for each supported sub type. For any image asset sub types that you do not explicitly set, Microsoft Advertising will automatically create image asset links by cropping the LandscapeImageMedia. 
 
