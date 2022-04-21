@@ -1,12 +1,11 @@
 ---
-title: "Campaign Customer List Association Record - Bulk"
+title: "Campaign Level Conversion Gaol Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
-description: Describes the Campaign Customer List Association fields in a Bulk file.
-dev_langs:
-  - csharp
+description: Describes the Campaign Level Conversion Gaol fields in a Bulk file.
+
 ---
 # Campaign Level Conversion Goal Record - Bulk
 
@@ -14,7 +13,7 @@ Defines a Campaign level conversion goal that can be uploaded and downloaded in 
 
 Campaign level conversion goals allows you override the default goals and specify conversion goals for optimized performance.
 
-You can download all *Campaign Conversion Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignConversionGoal* in the [CampaignConversionGoal](campaignlevelconversiongoal.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Campaign Conversion Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignConversionGoal* in the service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would add a new Campaign Conversion Goal if a valid [Parent Id](#parentid) value is provided. 
 
