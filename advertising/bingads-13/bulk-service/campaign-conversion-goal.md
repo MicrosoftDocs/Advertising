@@ -29,7 +29,7 @@ For a *Campaign Level ConversionGoal* record, the following attribute fields are
 - [Sub Type](#subtype)
 - [Action Type](#actiontype)
 - [Parent Id](#parentid)
-- [Goal Id](#clientid)
+- [Goal Id](#goalid)
 
 
 
@@ -67,7 +67,7 @@ If the action type is set to "Remove", the service will attempt to remove the [C
 ## <a name="parentid"></a>Parent Id
 The system-generated identifier of the campaign that is associated to the conversion goal.
 
-This bulk field maps to the *Id* field of the [Campaign](#campaign) record.
+This bulk field maps to the *Id* field of the Campaign Conversion Goal record.
 
 **Add:** Read-only and Required    
 **Update:** Read-only and Required  
