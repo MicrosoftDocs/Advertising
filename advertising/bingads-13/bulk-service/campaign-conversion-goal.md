@@ -52,6 +52,18 @@ The conversion goal sub type that you are targeting. For example the value is *G
 **Update:** Read-only  
 **Delete:** Read-only  
 
+
+## <a name="actiontype"></a>Action Type
+Determines whether to add, or remove the [Campaign Conversion Goal Item](campaign-conversion-goal.md) records that you include in the same Bulk upload file. 
+
+If the action type is "Add", the service will attempt to add the [Customer List Item](customer-list-item.md) records that you include in the same Bulk upload file. 
+
+If the action type is set to "Remove", the service will attempt to remove the [Campaign Conversion Goal Item](campaign-conversion-goal.md) records that you include in the same Bulk upload file. 
+
+
+**Add:** Required
+**Delete:** Read-only  
+
 ## <a name="parentid"></a>Parent Id
 The system-generated identifier of the campaign that is associated to the conversion goal.
 
@@ -62,7 +74,7 @@ This bulk field maps to the *Id* field of the [Campaign](#campaign) record.
 **Delete:** Read-only and Required  
 
 
-## <a name="clientid"></a>Client Id
+## <a name="goalid"></a>Goal Id
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
 **Add:** Optional  
