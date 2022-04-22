@@ -56,9 +56,9 @@ The conversion goal sub type that you are targeting. For example the value is *G
 ## <a name="actiontype"></a>Action Type
 Determines whether to add, or remove the [Campaign Conversion Goal Item](campaign-conversion-goal.md) records that you include in the same Bulk upload file. 
 
-If the action type is "Add", the service will attempt to add the [Customer List Item](customer-list-item.md) records that you include in the same Bulk upload file. 
+If the action type is "Add", the service will attempt to add the [Campaign Conversion Goal Item](campaign-conversion-goal.md) records that you include in the same Bulk upload file. 
 
-If the action type is set to "Remove", the service will attempt to remove the [Campaign Conversion Goal Item](campaign-conversion-goal.md) records that you include in the same Bulk upload file. 
+If the action type is set to "Delete", the service will attempt to remove the [Campaign Conversion Goal Item](campaign-conversion-goal.md) records that you include in the same Bulk upload file. 
 
 
 **Add:** Required
