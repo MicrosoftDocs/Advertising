@@ -36,7 +36,6 @@ The [WebpageCondition](webpagecondition.md) object has the following elements: [
 |<a name="operand"></a>Operand|The webpage condition operand.<br/><br/>**Add:** Required<br/>**Update:** Not applicable. You cannot update the webpage conditions. To update the conditions you must delete the criterion and add a new criterion.|[WebpageConditionOperand](webpageconditionoperand.md)|
 |<a name="operator"></a>Operator|The webpage condition operator.<br/><br/>**Add:** Optional. Default operator is used when it is not defined. Operator is required only when you use *Operand=URL* and *Operator = Equals*<br/>**Update:** Not applicable. You cannot update the webpage conditions. To update the conditions you must delete the criterion and add a new criterion.<br/><br/>**Default values** <br/><br/> URL/PageTitle/PageContent - **Contains**, Category/CustomLabel - **Equals.**<br/><br/>**Supported  values** <br/><br/>URL - **Contains/Equals**, PageTitle/PageContent - **Contains**, CustomLabel/Category - **Equals**|[WebpageConditionOperator](webpageconditionoperator.md)|
 
-
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  

@@ -33,6 +33,7 @@ The Campaign Management service defines the following value sets.
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
 |[AssetLinkEditorialStatus](assetlinkeditorialstatus.md)|Defines the editorial review status values of a linked asset.|
 |[AssociationType](associationtype.md)|Defines the entity types that can be associated with an ad extension.|
+|[AttributionModelType](attributionmodeltype.md)|Determines which attribution model, _LastTouch_ or _LastClick_, is used with a conversion goal.|
 |[AudienceAdditionalField](audienceadditionalfield.md)|Defines a list of optional audience properties that you can request when calling [GetAudiencesByIds](getaudiencesbyids.md#returnadditionalfields).|
 |[AudienceType](audiencetype.md)|Defines the possible audience types.|
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
@@ -90,4 +91,4 @@ The Campaign Management service defines the following value sets.
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|
 |[ValueOperator](valueoperator.md)|Defines the operators that can be applied to values within a conversion event goal.|
 |[WebpageConditionOperand](webpageconditionoperand.md)|Defines the possible operand values that can be applied to the argument of a webpage condition for dynamic search ads.|
-|[WebpageConditionOperator](webpageconditionoperator.md)|Reserved.|
+|[WebpageConditionOperator](webpageconditionoperator.md)|Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.|
