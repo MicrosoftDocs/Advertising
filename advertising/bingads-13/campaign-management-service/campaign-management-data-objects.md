@@ -55,6 +55,7 @@ The Campaign Management service defines the following data objects.
 |[CalloutAdExtension](calloutadextension.md)|Defines an object that specifies additional text about your business, products, or services to include in a text ad.|
 |[Campaign](campaign.md)|Defines a campaign.|
 |[CampaignAdGroupIds](campaignadgroupids.md)|Identifies a campaign and the list of its ad groups to import.|
+|[CampaignConversionGoal](campaignconversiongoal.md)|Reserved.|
 |[CampaignCriterion](campaigncriterion.md)|Defines a criterion that you want applied to the specified campaign.|
 |[CampaignNegativeSites](campaignnegativesites.md)|Defines an object that contains the negative site URLs of a campaign.|
 |[CashbackAdjustment](cashbackadjustment.md)|Defines the CashbackAdjustment Data Object.|

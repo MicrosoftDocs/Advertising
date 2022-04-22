@@ -17,7 +17,7 @@ Defines a Campaign Management batch error object that identifies the item within
     <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="FieldPath" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q11:ArrayOfKeyValuePairOfstringstring" xmlns:q11="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Index" type="xs:int" />
     <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
@@ -50,6 +50,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [AddAudiences](addaudiences.md)  
 [AddBidStrategies](addbidstrategies.md)  
 [AddBudgets](addbudgets.md)  
+[AddCampaignConversionGoals](addcampaignconversiongoals.md)  
 [AddCampaigns](addcampaigns.md)  
 [AddConversionGoals](addconversiongoals.md)  
 [AddExperiments](addexperiments.md)  
@@ -74,6 +75,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [DeleteAudiences](deleteaudiences.md)  
 [DeleteBidStrategies](deletebidstrategies.md)  
 [DeleteBudgets](deletebudgets.md)  
+[DeleteCampaignConversionGoals](deletecampaignconversiongoals.md)  
 [DeleteCampaignCriterions](deletecampaigncriterions.md)  
 [DeleteCampaigns](deletecampaigns.md)  
 [DeleteExperiments](deleteexperiments.md)  

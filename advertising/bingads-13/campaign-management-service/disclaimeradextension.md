@@ -20,9 +20,9 @@ Defines the DisclaimerAdExtension Data Object.
       <xs:sequence>
         <xs:element name="DisclaimerLayout" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q64:ArrayOfstring" xmlns:q64="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q65:ArrayOfstring" xmlns:q65="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q65:ArrayOfstring" xmlns:q65="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q66:ArrayOfstring" xmlns:q66="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
         <xs:element minOccurs="0" name="LineText" nillable="true" type="xs:string" />
         <xs:element name="Name" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="PopupText" nillable="true" type="xs:string" />

@@ -26,6 +26,7 @@ Defines a list of optional campaign properties that you can request when calling
         <xs:enumeration value="VerifiedTrackingSetting" />
         <xs:enumeration value="DynamicDescriptionSetting" />
         <xs:enumeration value="DisclaimerSetting" />
+        <xs:enumeration value="CampaignConversionGoal" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -34,12 +35,13 @@ Defines a list of optional campaign properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [CampaignAdditionalField](campaignadditionalfield.md) value set has the following values: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BidStrategyId](#bidstrategyid), [CpvCpmBiddingScheme](#cpvcpmbiddingscheme), [DisclaimerSetting](#disclaimersetting), [DynamicDescriptionSetting](#dynamicdescriptionsetting), [DynamicFeedSetting](#dynamicfeedsetting), [MaxConversionValueBiddingScheme](#maxconversionvaluebiddingscheme), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [TargetImpressionShareBiddingScheme](#targetimpressionsharebiddingscheme), [TargetSetting](#targetsetting), [VerifiedTrackingSetting](#verifiedtrackingsetting).
+The [CampaignAdditionalField](campaignadditionalfield.md) value set has the following values: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BidStrategyId](#bidstrategyid), [CampaignConversionGoal](#campaignconversiongoal), [CpvCpmBiddingScheme](#cpvcpmbiddingscheme), [DisclaimerSetting](#disclaimersetting), [DynamicDescriptionSetting](#dynamicdescriptionsetting), [DynamicFeedSetting](#dynamicfeedsetting), [MaxConversionValueBiddingScheme](#maxconversionvaluebiddingscheme), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [TargetImpressionShareBiddingScheme](#targetimpressionsharebiddingscheme), [TargetSetting](#targetsetting), [VerifiedTrackingSetting](#verifiedtrackingsetting).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimeZone|Request that the [AdScheduleUseSearcherTimeZone](campaign.md#adscheduleusesearchertimezone) element be included within each returned [Campaign](campaign.md) object.|
 |<a name="bidstrategyid"></a>BidStrategyId|Request that the [BidStrategyId](campaign.md#bidstrategyid) element be included within each returned [Campaign](campaign.md) object.|
+|<a name="campaignconversiongoal"></a>CampaignConversionGoal|Reserved.|
 |<a name="cpvcpmbiddingscheme"></a>CpvCpmBiddingScheme|Request that the [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) or [ManualCpvBiddingScheme](manualcpvbiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="disclaimersetting"></a>DisclaimerSetting|Reserved.|
 |<a name="dynamicdescriptionsetting"></a>DynamicDescriptionSetting|Reserved.|
