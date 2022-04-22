@@ -19,6 +19,7 @@ Defines a list of optional conversion goal properties that you can request when 
         <xs:enumeration value="IsExternallyAttributed" />
         <xs:enumeration value="GoalCategory" />
         <xs:enumeration value="InactiveDueToTagUnavailable" />
+        <xs:enumeration value="AttributionModelType" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -27,10 +28,11 @@ Defines a list of optional conversion goal properties that you can request when 
 
 ## <a name="values"></a>Values
 
-The [ConversionGoalAdditionalField](conversiongoaladditionalfield.md) value set has the following values: [GoalCategory](#goalcategory), [InactiveDueToTagUnavailable](#inactiveduetotagunavailable), [IsExternallyAttributed](#isexternallyattributed), [ViewThroughConversionWindowInMinutes](#viewthroughconversionwindowinminutes).
+The [ConversionGoalAdditionalField](conversiongoaladditionalfield.md) value set has the following values: [AttributionModelType](#attributionmodeltype), [GoalCategory](#goalcategory), [InactiveDueToTagUnavailable](#inactiveduetotagunavailable), [IsExternallyAttributed](#isexternallyattributed), [ViewThroughConversionWindowInMinutes](#viewthroughconversionwindowinminutes).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="attributionmodeltype"></a>AttributionModelType|Determines which attribution model, _LastTouch_ or _LastClick_, is used with a conversion goal.|
 |<a name="goalcategory"></a>GoalCategory|Request that the [GoalCategory](conversiongoal.md#goalcategory) element be included within each returned [ConversionGoal](conversiongoal.md) object.|
 |<a name="inactiveduetotagunavailable"></a>InactiveDueToTagUnavailable|Request that the [InactiveDueToTagUnavailable](conversiongoaltrackingstatus.md#inactiveduetotagunavailable) value be included within each returned [ConversionGoal](conversiongoal.md) object.<br/><br/>This status is represented as [TagInactive](conversiongoaltrackingstatus.md#taginactive) by default. To discover whether the status stored in Microsoft Advertising is [InactiveDueToTagUnavailable](conversiongoaltrackingstatus.md#inactiveduetotagunavailable), you must include InactiveDueToTagUnavailable in the request.|
 |<a name="isexternallyattributed"></a>IsExternallyAttributed|Request that the [IsExternallyAttributed](offlineconversiongoal.md#isexternallyattributed) element be included within each returned [OfflineConversionGoal](offlineconversiongoal.md) object.|
