@@ -12,12 +12,7 @@ dev_langs:
   - python
 ---
 # DeleteCampaignConversionGoals Service Operation - Campaign Management
-<<<<<<< HEAD
 Reserved.
-=======
-
-Deletes a campaign conversion goal.
->>>>>>> 9d199a9 (campaign conversion goals)
 
 ## <a name="request"></a>Request Elements
 The *DeleteCampaignConversionGoalsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
