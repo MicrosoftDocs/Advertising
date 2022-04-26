@@ -12,7 +12,9 @@ dev_langs:
   - python
 ---
 # AddCampaignConversionGoals Service Operation - Campaign Management
-Reserved.
+
+Adds new conversion goals to the account's shared campaign conversion goal library.
+
 
 ## <a name="request"></a>Request Elements
 The *AddCampaignConversionGoalsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 

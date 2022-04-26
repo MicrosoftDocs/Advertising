@@ -7,7 +7,8 @@ ms.author: v-rgaritta
 description: Reserved.
 ---
 # CampaignConversionGoal Data Object - Campaign Management
-Reserved.
+
+Defines the base object of a campaign conversion goal.
 
 ## Syntax
 ```xml
