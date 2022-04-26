@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description:  Defines the base object of a campaign conversion goal..
 ---
 # CampaignConversionGoal Data Object - Campaign Management
 

@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description: Deletes a campaign conversion goal.
 dev_langs: 
   - csharp
   - java

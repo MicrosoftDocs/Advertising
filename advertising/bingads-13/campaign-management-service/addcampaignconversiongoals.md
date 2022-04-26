@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description: Adds new campaign conversion goals to the account's shared campaign conversion goal library..
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
 ---
 # AddCampaignConversionGoals Service Operation - Campaign Management
 
-Adds new conversion goals to the account's shared campaign conversion goal library.
+Adds new campaign conversion goals to the account's shared campaign conversion goal library.
 
 
 ## <a name="request"></a>Request Elements
