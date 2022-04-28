@@ -11,6 +11,8 @@ dev_langs:
 # Expanded Text Ad Label Record - Bulk
 Defines an association record between an [Expanded Text Ad](expanded-text-ad.md) and a [Label](label.md) that can be uploaded and downloaded in a bulk file. To upload or download the expanded text ad or label, use the [Expanded Text Ad](expanded-text-ad.md) or [Label](label.md) record.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 You can download all *Expanded Text Ad Label* records in the account by including the [DownloadEntity](downloadentity.md) value of *ExpandedTextAdLabels* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would apply a label to an expanded text ad if valid [Id](#id) and [Parent Id](#parentid) values are provided. 
