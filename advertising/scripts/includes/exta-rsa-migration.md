@@ -1,10 +1,10 @@
 ---
-title: EXTA to RSA migration
+title: EXTAs to RSA migration
 ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Defines EXTA to RSA migration
+description: Defines EXTAs to RSA migration
 ---
 
 > [!NOTE]
