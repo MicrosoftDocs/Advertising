@@ -21,7 +21,7 @@ Ad extensions are stored in a shared library at the account level. After adding 
 > 
 > Location ad extensions can only be associated at the account and campaign level i.e., cannot be associated with ad groups.
 
-Ad extensions that are associated at a lower level e.g., ad group will override ad extensions of the same type that are associated at a higher level e.g., campaign. For example if you have 2 callout extensions set for *Campaign A*, zero callout extensions associated with *Ad Group AA*, and one callout extension associated with *Ad Group AB*, then only *Ad Group AA* is eligible to have its ads decorated with callouts. 
+You can associate ad extensions at the ad group, campaign, or account level.  When ad extensions from higher levels in your account are predicted to improve your performance, they are eligible to serve alongside extensions of the same type from lower levels. We recommend that you associate extensions at a level that makes sense for your account and ensure they’re relevant for any subsequent levels.
 
 You can manage ad extensions with either the [Bulk Service](../bulk-service/bulk-service-reference.md) or [Campaign Management Service](../campaign-management-service/campaign-management-service-reference.md). You should use the [Bulk Service](../bulk-service/bulk-service-reference.md) if you need to upload or download a high volume of entity settings. For example you can update all ad extensions for your entire account in a single upload. In comparison, with the [Campaign Management Service](../campaign-management-service/campaign-management-service-reference.md) you can only update 100 ad extensions per call. For details see the following sections.
 
