@@ -262,10 +262,9 @@ If you are using Microsoft Azure to deploy your web application, the following a
 
 - An Azure subscription, which can be acquired from [https://azure.microsoft.com/pricing/purchase-options/](https://azure.microsoft.com/pricing/purchase-options/).
 
-- Optionally you can install the Azure Toolkit for Eclipse (by Microsoft Open Technologies) and deploy your web application using Azure cloud services. For more information, see [Installing the Azure Toolkit for Eclipse](https://docs.microsoft.com/azure/azure-toolkit-for-eclipse-installation).
+- Optionally you can install the Azure Toolkit for Eclipse (by Microsoft Open Technologies) and deploy your web application using Azure cloud services. For more information, see [Installing the Azure Toolkit for Eclipse](/azure/developer/java/toolkit-for-eclipse/installation).
 
 ## See Also
 [Sandbox](sandbox.md)  
 [Bing Ads API Code Examples](code-examples.md)  
 [Bing Ads API Web Service Addresses](web-service-addresses.md)  
-
