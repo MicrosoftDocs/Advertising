@@ -21,111 +21,111 @@ conceptualContent:
     # Card
     - title: Bing Ads API
       links:
-        - url: /advertising/guides/
+        - url: https://docs.microsoft.com/advertising/guides
           itemType: overview
           text: Overview
-        - url: /advertising/guides/get-started
+        - url: https://docs.microsoft.com/en-us/advertising/guides/get-started
           itemType: get-started
           text: Get started
-        - url: /advertising/guides/authentication-oauth
+        - url: https://docs.microsoft.com/advertising/guides/authentication-oauth
           itemType: concept
           text: Authentication with OAuth
-        - url: /advertising/guides/account-hierarchy-permissions
+        - url: https://docs.microsoft.com/advertising/guides/account-hierarchy-permissions
           itemType: concept
           text: Account Hierarchy and User Permissions
-        - url: /advertising/guides/campaign-management-guides
+        - url: https://docs.microsoft.com/advertising/guides/campaigns
           itemType: concept
           text: Campaigns
-        - url: /advertising/guides/reports
+        - url: https://docs.microsoft.com/advertising/guides/reports
           itemType: concept
           text: Reports
-        - url: /advertising/guides/sandbox
+        - url: https://docs.microsoft.com/advertising/guides/sandbox
           itemType: how-to-guide
           text: Sandbox
-        - url: /advertising/guides/client-libraries
+        - url: https://docs.microsoft.com/advertising/guides/client-libraries
           itemType: reference
           text: Client libraries
-        - url: /advertising/guides/concepts
+        - url: https://docs.microsoft.com/advertising/guides/reference
           itemType: reference
           text: Reference
     # Card
     - title: Content API
       links:
-        - url: /advertising/shopping-content/
+        - url: https://docs.microsoft.com/advertising/shopping-content/
           itemType: overview
           text: Overview
-        - url: shopping-content/get-started.mdshopping-content/get-started
+        - url: https://docs.microsoft.com/advertising/shopping-content/get-started
           itemType: get-started
           text: Get started
-        - url: shopping-content/manage-products.mdshopping-content/manage-products
+        - url: https://docs.microsoft.com/advertising/shopping-content/manage-products
           itemType: concept
           text: Managing your Products
-        - url: shopping-content/manage-catalogs.mdshopping-content/manage-catalogs
+        - url: https://docs.microsoft.com/advertising/shopping-content/manage-catalogs
           itemType: concept
           text: Managing your Catalogs
-        - url: /advertising/shopping-content/how-get-status-product-offers
+        - url: https://docs.microsoft.com/en-us/advertising/shopping-content/how-get-status-product-offers
           itemType: concept
           text: Checking the status of an offer
-        - url: /advertising/shopping-content/manage-product-pricing
+        - url: https://docs.microsoft.com/en-us/advertising/shopping-content/manage-product-pricing
           itemType: concept
           text: Pricing and availability updates
-        - url: shopping-content/code-examples.mdshopping-content/code-examples
+        - url: https://docs.microsoft.com/advertising/shopping-content/code-examples
           itemType: reference
           text: Code examples
-        - url: shopping-content/reference.mdshopping-content/reference
+        - url: https://docs.microsoft.com/advertising/shopping-content/reference
           itemType: reference
           text: Reference
     # Card
     - title: Hotel API
       links:
-        - url: /advertising/hotel-ads/
+        - url: https://docs.microsoft.com/advertising/hotel-ads/
           itemType: overview
           text: Overview
-        - url: hotel-service/get-started.mdhotel-service/get-started
+        - url: https://docs.microsoft.com/advertising/hotel-service/get-started
           itemType: get-started
           text: Get started
-        - url: hotel-service/manage-hotel-campaigns.mdhotel-service/manage-hotel-campaigns
+        - url: https://docs.microsoft.com/advertising/hotel-service/manage-hotel-campaigns
           itemType: concept
           text: Manage Hotel Ad campaigns
-        - url: /advertising/hotel-service/reporting
+        - url: https://docs.microsoft.com/en-us/advertising/hotel-service/reporting
           itemType: concept
           text: Reporting
-        - url: transaction-message/transaction-message.mdtransaction-message/transaction-message
+        - url: https://docs.microsoft.com/advertising/transaction-message/transaction-message
           itemType: reference
           text: Transaction Message
-        - url: hotel-feed/hotel-feed.mdhotel-feed/hotel-feed
+        - url: https://docs.microsoft.com/advertising/hotel-feed/hotel-feed
           itemType: reference
           text: Hotel Feed
-        - url: pos-feed/pos-feed.mdpos-feed/pos-feed
+        - url: https://docs.microsoft.com/advertising/pos-feed/pos-feed
           itemType: reference
           text: Points of Sale Feed
-        - url: hotel-service/code-examples.mdhotel-service/code-examples
+        - url: https://docs.microsoft.com/advertising/hotel-service/code-examples
           itemType: reference
           text: Code examples
-        - url: hotel-service/reference.mdhotel-service/reference
+        - url: https://docs.microsoft.com/advertising/hotel-service/reference
           itemType: reference
           text: Reference
     # Card
     - title: Microsoft Advertising Scripts
       links:
-        - url: /advertising/scripts/
+        - url: https://docs.microsoft.com/advertising/scripts/
           itemType: overview
           text: Overview
-        - url: scripts/get-started.mdscripts/get-started
+        - url: https://docs.microsoft.com/advertising/scripts/get-started
           itemType: get-started
           text: Get started
-        - url: scripts/concepts/authorization.mdscripts/concepts/authorization
+        - url: https://docs.microsoft.com/advertising/scripts/concepts/authorization
           itemType: concept
           text: Concepts
-        - url: /advertising/scripts/guides/single-account-access
+        - url: https://docs.microsoft.com/en-us/advertising/scripts/guides/single-account-access
           itemType: concept
           text: Single account access
-        - url: /advertising/scripts/guides/multi-account-access
+        - url: https://docs.microsoft.com/en-us/advertising/scripts/guides/multi-account-access
           itemType: concept
           text: Multi-account access
-        - url: /advertising/scripts/examples/
+        - url: https://docs.microsoft.com/advertising/scripts/examples/
           itemType: reference
           text: Code examples
-        - url: scripts/reference-overview.mdscripts/reference-overview
+        - url: https://docs.microsoft.com/advertising/scripts/reference-overview
           itemType: reference
           text: Reference
