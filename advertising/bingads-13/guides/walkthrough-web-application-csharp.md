@@ -16,7 +16,7 @@ You must first register an application and take note of the client ID (registere
 You'll also need your production [developer token](get-started.md#get-developer-token). You can create the example step by step as described below or download more examples from [GitHub](https://github.com/BingAds/BingAds-dotNet-SDK/tree/main/examples/BingAdsExamples). 
 
 > [!TIP]
-> This example references steps from [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework). For more details about deploying web apps to Azure, you can refer to the Azure documentation. 
+> This example references steps from [Create an ASP.NET Framework web app in Azure](/azure/app-service/quickstart-dotnetcore). For more details about deploying web apps to Azure, you can refer to the Azure documentation. 
 
 ## <a name="code"></a>Code Walkthrough
 1. Open the [Visual Studio Community 2017](https://www.visualstudio.com/vs/community/) development environment. If you've installed Visual Studio already, add the **ASP.NET and web development** and **Azure development** workloads in Visual Studio by clicking **Tools** > **Get Tools and Features**.
@@ -488,7 +488,7 @@ You'll also need your production [developer token](get-started.md#get-developer-
 
 9. To deploy the web app on the local machine first you must set **SSL Enabled** to *True* in the BingAdsWebApp project properties window. If you have not already done so, your registered application redirect URL must include the SSL URL and port e.g., https://localhost:44383/. From the menu, select **Debug > Start without Debugging** to run the web app locally.
 
-10. To deploy your web app live using the [Azure App Service](https://azure.microsoft.com/services/app-service/) see the subscription and deployment instructions within the Azure documentation e.g., [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework).
+10. To deploy your web app live using the [Azure App Service](https://azure.microsoft.com/services/app-service/) see the subscription and deployment instructions within the Azure documentation e.g., [Create an ASP.NET Framework web app in Azure](/azure/app-service/quickstart-dotnetcore).
 
 ## <a name="sandbox"></a>Configuring Sandbox
 To use sandbox, set the *BingAdsEnvironment* key to Sandbox within the *&lt;appSettings&gt;* node of your project root's *Web.config* file.
@@ -513,4 +513,3 @@ var oAuthWebAuthCodeGrant = new OAuthWebAuthCodeGrant(ClientId, ClientSecret, ne
 [Sandbox](sandbox.md)  
 [Bing Ads API Code Examples](code-examples.md)  
 [Bing Ads API Web Service Addresses](web-service-addresses.md)  
-
