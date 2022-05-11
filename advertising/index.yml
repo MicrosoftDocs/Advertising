@@ -54,13 +54,13 @@ conceptualContent:
         - url: ./shopping-content.md
           itemType: overview
           text: Overview
-        - url: shopping-content/get-started.md
+        - url: ./shopping-content/get-started.md
           itemType: get-started
           text: Get started
-        - url: shopping-content/manage-products.md
+        - url: ./shopping-content/manage-products.md
           itemType: concept
           text: Managing your Products
-        - url: shopping-content/manage-catalogs.md
+        - url: ./shopping-content/manage-catalogs.md
           itemType: concept
           text: Managing your Catalogs
         - url: ./shopping-content/how-get-status-product-offers.md
@@ -69,10 +69,10 @@ conceptualContent:
         - url: ./shopping-content/manage-product-pricing.md
           itemType: concept
           text: Pricing and availability updates
-        - url: shopping-content/code-examples.md
+        - url: ./shopping-content/code-examples.md
           itemType: reference
           text: Code examples
-        - url: shopping-content/reference.md
+        - url: ./shopping-content/reference.md
           itemType: reference
           text: Reference
     # Card
@@ -81,28 +81,28 @@ conceptualContent:
         - url: ./hotel-ads.md
           itemType: overview
           text: Overview
-        - url: hotel-service/get-started.md
+        - url: ./hotel-service/get-started.md
           itemType: get-started
           text: Get started
-        - url: hotel-service/manage-hotel-campaigns.md
+        - url: ./hotel-service/manage-hotel-campaigns.md
           itemType: concept
           text: Manage Hotel Ad campaigns
         - url: ./hotel-service/reporting.md
           itemType: concept
           text: Reporting
-        - url: transaction-message/transaction-message.md
+        - url: ./transaction-message/transaction-message.md
           itemType: reference
           text: Transaction Message
-        - url: hotel-feed/hotel-feed.md
+        - url: ./hotel-feed/hotel-feed.md
           itemType: reference
           text: Hotel Feed
-        - url: pos-feed/pos-feed.md
+        - url: ./pos-feed/pos-feed.md
           itemType: reference
           text: Points of Sale Feed
-        - url: hotel-service/code-examples.md
+        - url: ./hotel-service/code-examples.md
           itemType: reference
           text: Code examples
-        - url: hotel-service/reference.md
+        - url: ./hotel-service/reference.md
           itemType: reference
           text: Reference
     # Card
@@ -111,10 +111,10 @@ conceptualContent:
         - url: ./scripts.md
           itemType: overview
           text: Overview
-        - url: scripts/get-started.md
+        - url: ./scripts/get-started.md
           itemType: get-started
           text: Get started
-        - url: scripts/concepts/authorization.md
+        - url: ./scripts/concepts/authorization.md
           itemType: concept
           text: Concepts
         - url: ./scripts/guides/single-account-access.md
@@ -126,6 +126,6 @@ conceptualContent:
         - url: ./scripts/examples.md
           itemType: reference
           text: Code examples
-        - url: scripts/reference-overview.md
+        - url: ./scripts/reference-overview.md
           itemType: reference
           text: Reference
