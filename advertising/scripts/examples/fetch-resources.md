@@ -136,7 +136,7 @@ can't get either link to work; both get mangled.
 <a href="https:/go.microsoft.com/fwlink/?LinkID=135170" data-raw-source="[About Execution Policies](https:/go.microsoft.com/fwlink/?LinkID=135170)">About Execution Policies</a>
 -->
 
-If you get an execution policy error, you'll need to change your execution policy. For execution policy options, see [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies). To change the execution policy for a session, enter the following command: 
+If you get an execution policy error, you'll need to change your execution policy. For execution policy options, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies). To change the execution policy for a session, enter the following command: 
 
 ```
 powershell.exe -ExecutionPolicy Bypass -File .\GetTokens.ps1

@@ -17,7 +17,7 @@ To authenticate via OAuth, you must also register an application and get the cor
 Install the Bing Ads .NET SDK through [NuGet](https://www.nuget.org/packages/Microsoft.BingAds.SDK/), either through the Manage NuGet Packages user interface, or through the [Package Manager Console](#package-manager). For information about installing NuGet, see [https://docs.nuget.org](https://docs.nuget.org/docs/start-here/installing-nuget).
 
 > [!NOTE]
-> The Bing Ads .NET SDK supports .NET Standard 2.0. You can choose from a variety of platforms e.g., .NET Core or .NET Framework 4.6.1. The Bing Ads API examples are developed via [Visual Studio Community 2017](https://www.visualstudio.com/vs/community/) and target .NET Framework 4.7.1. The .NET Standard 2.0 and Bing Ads .NET SDK do not support .NET Framework versions lower than 4.6.1. For more information on .NET Standard and how it relates to other .NET frameworks, refer to this article on [.NET Standard](https://docs.microsoft.com/dotnet/standard/net-standard). 
+> The Bing Ads .NET SDK supports .NET Standard 2.0. You can choose from a variety of platforms e.g., .NET Core or .NET Framework 4.6.1. The Bing Ads API examples are developed via [Visual Studio Community 2017](https://www.visualstudio.com/vs/community/) and target .NET Framework 4.7.1. The .NET Standard 2.0 and Bing Ads .NET SDK do not support .NET Framework versions lower than 4.6.1. For more information on .NET Standard and how it relates to other .NET frameworks, refer to this article on [.NET Standard](/dotnet/standard/net-standard). 
 
 ### <a name="package-manager"></a>NuGet Package Manager Console
 
