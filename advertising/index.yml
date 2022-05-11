@@ -51,7 +51,7 @@ conceptualContent:
     # Card
     - title: Content API
       links:
-        - url: /advertising/shopping-content/
+        - url: ./shopping-content.md
           itemType: overview
           text: Overview
         - url: shopping-content/get-started.md
@@ -63,10 +63,10 @@ conceptualContent:
         - url: shopping-content/manage-catalogs.md
           itemType: concept
           text: Managing your Catalogs
-        - url: /advertising/shopping-content/how-get-status-product-offers
+        - url: ./shopping-content/how-get-status-product-offers.md
           itemType: concept
           text: Checking the status of an offer
-        - url: /advertising/shopping-content/manage-product-pricing
+        - url: ./shopping-content/manage-product-pricing.md
           itemType: concept
           text: Pricing and availability updates
         - url: shopping-content/code-examples.md
@@ -78,7 +78,7 @@ conceptualContent:
     # Card
     - title: Hotel API
       links:
-        - url: /advertising/hotel-ads/
+        - url: ./hotel-ads.md
           itemType: overview
           text: Overview
         - url: hotel-service/get-started.md
@@ -87,7 +87,7 @@ conceptualContent:
         - url: hotel-service/manage-hotel-campaigns.md
           itemType: concept
           text: Manage Hotel Ad campaigns
-        - url: /advertising/hotel-service/reporting
+        - url: ./hotel-service/reporting.md
           itemType: concept
           text: Reporting
         - url: transaction-message/transaction-message.md
@@ -108,7 +108,7 @@ conceptualContent:
     # Card
     - title: Microsoft Advertising Scripts
       links:
-        - url: /advertising/scripts/
+        - url: ./scripts.md
           itemType: overview
           text: Overview
         - url: scripts/get-started.md
@@ -117,13 +117,13 @@ conceptualContent:
         - url: scripts/concepts/authorization.md
           itemType: concept
           text: Concepts
-        - url: /advertising/scripts/guides/single-account-access
+        - url: ./scripts/guides/single-account-access.md
           itemType: concept
           text: Single account access
-        - url: /advertising/scripts/guides/multi-account-access
+        - url: ./scripts/guides/multi-account-access.md
           itemType: concept
           text: Multi-account access
-        - url: /advertising/scripts/examples/
+        - url: ./scripts/examples.md
           itemType: reference
           text: Code examples
         - url: scripts/reference-overview.md
