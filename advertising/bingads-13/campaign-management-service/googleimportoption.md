@@ -9,6 +9,8 @@ description: Defines the Google import options that are available via API.
 # GoogleImportOption Data Object - Campaign Management
 Defines the Google import options that are available via API. 
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 > [!TIP]
 > For an implementation overview, see the [Google Ads Import](../guides/google-ads-import.md) technical guide. 
 

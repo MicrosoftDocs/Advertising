@@ -9,6 +9,8 @@ description: Defines a text ad.
 # TextAd Data Object - Campaign Management
 Defines a text ad.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 > [!IMPORTANT]
 > 
 > Beginning April 2020, delivery of standart text ads (STA) is not supported.  

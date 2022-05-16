@@ -9,6 +9,8 @@ description: Discover code examples in C#, Java, PHP, and Python.
 # Bing Ads API Code Examples
 Get started developing Bing Ads API applications in any programming language which supports web services. Samples are provided for C#, Java, Php, and Python.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 [!INCLUDE[request-header](./includes/code-tips.md)]
 
 |Title|Description|

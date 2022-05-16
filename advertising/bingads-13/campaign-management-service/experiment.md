@@ -7,7 +7,10 @@ ms.author: v-rgaritta
 description: Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.
 ---
 # Experiment Data Object - Campaign Management
-Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range. 
+Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.
+
+> [!NOTE]
+> Starting August 29, 2022, expanded text ads will no longer be copied from the base campaign to the experiment campaign. We strongly encourage you to upgrade to responsive search ads. If you still have expanded text ads, they will no longer be used in experiment campaigns and will instead remain in base campaigns, even if the experiment campaign is promoted later.
 
 How would using a different bid strategy, or a different kind of targeting, affect your ad campaign's performance? Would it be better, worse, or basically the same? Now you can run an A/B test to find out!
 

@@ -11,6 +11,7 @@ ms.topic: "article"
 
 Contains the methods used to get ad builders.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
 
 Example usage:
 ```javascript

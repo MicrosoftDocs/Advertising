@@ -9,6 +9,8 @@ description: Defines a Google import job that can be run once or scheduled on a 
 # GoogleImportJob Data Object - Campaign Management
 Defines a Google import job that can be run once or scheduled on a recurring basis. 
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 An account can have up to 100 scheduled Google import jobs.  
 
 > [!TIP]

@@ -12,7 +12,10 @@ dev_langs:
   - python
 ---
 # UpdateAds Service Operation - Campaign Management
+
 Updates the specified ads within an ad group.
+
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
 
 ## <a name="request"></a>Request Elements
 The *UpdateAdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
