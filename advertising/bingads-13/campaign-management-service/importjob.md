@@ -9,6 +9,8 @@ description: Defines the base object of an import job.
 # ImportJob Data Object - Campaign Management
 Defines the base object of an import job.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 Do not try to instantiate an *ImportJob*. You can create one or more of the following objects that derive from it. 
 - [FileImportJob](fileimportjob.md)
 - [GoogleImportJob](googleimportjob.md)

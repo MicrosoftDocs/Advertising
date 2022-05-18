@@ -13,6 +13,9 @@ Contains the methods used to manage an expanded text ad.
 
 This object derives from the [Ad](Ad.md) object. The list of methods includes all applicable inherited methods. 
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
+
 
 ## Methods
 |Method Name|Return Type|Description|Inherited
