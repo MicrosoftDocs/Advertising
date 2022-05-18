@@ -11,9 +11,9 @@ With ad customizers, your ads can dynamically update themselves to appeal to spe
 
 > [!NOTE]
 >
-> * Starting August 29, 2022, you will no longer be able to add ad customizers for expanded text ads. We strongly encourage you to use responsive search ads from now on. 
+> * Starting August 29, 2022, you will no longer be able to add ad customizers for expanded text ads. We strongly encourage you to use responsive search ads from now on.
 > * Existing expanded text ads will continue to serve, and you’ll still be able to view reports on their performance.  
-> * You'll be able to pause, enable, or remove your expanded text ads. Otherwise, attempts to add ad customizers for expanded text ads will result in a `CustomerNotEligibleForAdCustomizersFeed` error.
+> * You'll be able to update the value to existing feed. Otherwise, attempts to add ad customizers for expanded text ads will result in a `CustomerNotEligibleForAdCustomizersFeed` error.
 > * [Learn more about this change](https://about.ads.microsoft.com/blog/post/april-2022/deadline-for-migration-to-responsive-search-ads-extended-to-august-29-2022).
 
 

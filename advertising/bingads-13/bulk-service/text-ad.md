@@ -11,8 +11,6 @@ dev_langs:
 # Text Ad Record - Bulk
 Defines a text ad that can be downloaded and uploaded in a bulk file.
 
-[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
-
 > [!IMPORTANT]
 > 
 > Beginning April 2020, delivery of standart text ads (STA) is not supported.  

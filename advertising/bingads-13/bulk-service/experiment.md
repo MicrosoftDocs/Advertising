@@ -12,7 +12,7 @@ dev_langs:
 Defines an experiment that can be downloaded in a bulk file.
 
 > [!NOTE]
-> Starting August 29, 2022, expanded text ads will no longer be copied from the base campaign to the experiment campaign. We strongly encourage you to upgrade to responsive search ads. If you still have expanded text ads, they will no longer be used in experiment campaigns and will instead remain in base campaigns, even if the experiment campaign is promoted later.
+> Starting August 29, 2022, you’ll only be able to copy expanded text ads from the base campaign to the experiment campaign, but you’ll no longer be able to edit these expanded text ads. We strongly encourage you to upgrade to [responsive search ad](../guides/responsive-search-ads.md).
 
 With an experiment you split a campaign's budget and traffic, and then run an A/B test during a limited date range. 
 
