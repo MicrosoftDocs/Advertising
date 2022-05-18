@@ -14,6 +14,8 @@ dev_langs:
 # Expanded Text Ads Code Example
 This example demonstrates how to setup Expanded Text Ads for a search advertising campaign.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 [!INCLUDE[request-header](./includes/code-tips.md)]
 
 [!code-csharp[Main](../../../BingAds-dotNet-SDK/examples/BingAdsExamples/BingAdsExamplesLibrary/v13/ExpandedTextAds.cs)]

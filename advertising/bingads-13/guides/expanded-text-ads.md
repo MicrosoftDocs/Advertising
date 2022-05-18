@@ -9,6 +9,8 @@ description: Setup Expanded Text ads with the Bing Ads API.
 # Expanded Text Ads
 The expanded text ad format works seamlessly on mobile, tablet and desktop devices so you can focus more on crafting your longer ad copy and optimizing your ad text to better engage your customers before they click your ad.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 ![expandedtextad](media/expanded-text-ad.png)
 
 > [!NOTE]

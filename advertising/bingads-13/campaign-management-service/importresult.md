@@ -9,6 +9,8 @@ description: Contains the status, run time, and statistical results for an impor
 # ImportResult Data Object - Campaign Management
 Contains the status, run time, and statistical results for an import job that has run.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 ## Syntax
 ```xml
 <xs:complexType name="ImportResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">

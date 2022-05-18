@@ -13,6 +13,8 @@ Defines an expanded text ad that can be downloaded and uploaded in a bulk file.
 
 This ad format works seamlessly on mobile, tablet and desktop devices so you can focus more on crafting your longer ad copy and optimizing your ad text to better engage your customers before they click your ad.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 > [!NOTE]
 > Expanded text ads can only be created in Search campaigns where the [Ad Group Type](ad-group.md#adgrouptype) is set to "SearchStandard". If the [Ad Group Type](ad-group.md#adgrouptype) is set to "SearchDynamic", then the ad group does not support expanded text ads.  
 
