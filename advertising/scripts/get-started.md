@@ -11,7 +11,7 @@ ms.topic: "article"
 
 Accessing your Microsoft Advertising data with Scripts is easy. Just follow these instructions and you'll be accessing your data in no time.
 
-1. Sign in to [Microsoft Advertising](https://secure.ads.microsoft.com/) or [Microsoft Advertising Sandbox](https://sandbox.bingads.microsoft.com/).
+1. Sign in to [Microsoft Advertising](https://ads.microsoft.com) or [Microsoft Advertising Sandbox](https://sandbox.bingads.microsoft.com/).
 1. From the global menu at the top of the page, select **Tools** > **Scripts**.
 1. Select **Create script**.
 1. Replace "Untitled script" with your script's name.
