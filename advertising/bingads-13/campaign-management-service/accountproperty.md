@@ -164,7 +164,7 @@ If the [Name](#name) element is set to *TrackingUrlTemplate*, then the [Value](#
 
 - You must include at least one of the following landing page URL parameters: *{lpurl}*, *{lpurl+2}*, *{lpurl+3}*, *{unescapedlpurl}*, *{escapedlpurl}*. Additionally, you can use any dynamic parameter supported by Microsoft Advertising. For a list of supported parameters, see the *Available parameters* sections within the Microsoft Advertising help article [Set up a tracking template](https://help.ads.microsoft.com/#apex/3/en/56772/-1).
 
-- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the final URL will include the key and value placeholders of your custom parameters without substitution. For example if your tracking template is  for example *https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}*, and neither {_season} or {_promocode}  are defined at the campaign, ad group, keyword, or ad level, then the final URL will be the same.
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the final URL will include the key and value placeholders of your custom parameters without substitution. For example if your tracking template is  for example *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither {_season} or {_promocode}  are defined at the campaign, ad group, keyword, or ad level, then the final URL will be the same.
 
 To delete the account's tracking template set the [Name](#name) to *TrackingUrlTemplate* and the *Value* to *""* (empty string).
 

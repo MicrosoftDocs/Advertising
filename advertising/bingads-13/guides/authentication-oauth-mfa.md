@@ -24,13 +24,13 @@ The new ```msads.manage``` scope **requires renewed consent from all users of yo
 
 ## Action required
 
-You must update your application and prompt users for consent using  ```msads.manage ``` scope via the Microsoft identity platform endpoint. All Microsoft Advertising developers must take action to use the new scope.  
+You must update your application and prompt users for consent using  ```msads.manage``` scope via the Microsoft identity platform endpoint. All Microsoft Advertising developers must take action to use the new scope.  
 
-With each API request we will check the access token to ensure the user granted consent via the new  ```msads.manage ``` scope. Upon enforcement of multi-factor authentication, any access token provisioned otherwise won’t be accepted.  
+With each API request we will check the access token to ensure the user granted consent via the new  ```msads.manage``` scope. Upon enforcement of multi-factor authentication, any access token provisioned otherwise won’t be accepted.  
 
 We recommend that you make the necessary changes as soon as possible.  
 
-We also recommend that you inform and guide users of your application to [set up MFA](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time#who-decides-if-you-use-this-feature) so that a second proof will be required when they grant permissions for any application. For the Microsoft Advertising requirement, it isn't enough for them to turn on MFA. Either way you must get user consent by prompting with the ```msads.manage ``` scope. 
+We also recommend that you inform and guide users of your application to [set up MFA](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time#who-decides-if-you-use-this-feature) so that a second proof will be required when they grant permissions for any application. For the Microsoft Advertising requirement, it isn't enough for them to turn on MFA. Either way you must get user consent by prompting with the ```msads.manage``` scope. 
 
 ## After enforcement
 
@@ -42,9 +42,9 @@ Upon enforcement of MFA, we will only authenticate access tokens on behalf of a 
 
 ## SDK support 
 
-Support for the new  ```msads.manage scope ``` is available starting with version 13.0.10 of  Bing Ads SDKs (.NET, Java, Python, and PHP).  
+Support for the new  ```msads.manage``` scope is available starting with version 13.0.10 of  Bing Ads SDKs (.NET, Java, Python, and PHP).  
 
-The new  ```msads.manage ``` scope is used by default. For backwards compatibility, until the enforcement date you can use the ```ads.manage ``` or  ```bingads.manage ``` scopes with a short workaround.  
+The new  ```msads.manage``` scope is used by default. For backwards compatibility, until the enforcement date you can use the ```ads.manage``` or  ```bingads.manage``` scopes with a short workaround.  
 
 ```csharp
 var oAuthDesktopMobileAuthCodeGrant = new OAuthDesktopMobileAuthCodeGrant(

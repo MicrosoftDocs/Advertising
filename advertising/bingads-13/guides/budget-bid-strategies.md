@@ -54,6 +54,9 @@ The service will update the monthly budget of an existing campaign by using the 
 Your bid strategy setting tells Microsoft Advertising how you want to manage your bids. Whichever bid strategy you use, Microsoft Advertising will always respect your budget limit. 
 
 > [!NOTE]
+> [Enhanced CPC](#enhancedcpc) and [Maximize clicks](#maxclicks) are currently the only supported bidding strategies when you select Japanese as your campaign language.
+
+> [!NOTE]
 > The Microsoft Advertising web application uses the term *Bid strategy*, the Bulk API uses the *Bid Strategy Type* column for upload and download, and the Campaign Management API derives several bid strategy objects from the [BiddingScheme](../campaign-management-service/biddingscheme.md) object.
 
 The following campaign-level bid strategy types are available depending on the campaign type. For more information see the [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1) help article.
