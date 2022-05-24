@@ -6468,6 +6468,17 @@ The required list of elements is null or empty.
 ***
 
 **Numeric Code**
+3101
+
+**Symbolic Error Code**
+OAuthTokenInvalid
+
+**Description**
+Typically indicates usage of an incorrect OAuth token. For more information see the [Multi-factor authentication requirement](../guides/authentication-oauth-mfa.md) guide.
+
+***
+
+**Numeric Code**
 3201
 
 **Symbolic Error Code**

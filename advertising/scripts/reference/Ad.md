@@ -18,6 +18,7 @@ This object also represents standard text ads. You may no longer create standard
 - getHeadline()
 - isMobilePreferred()
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
 
 ## Methods
 |Method Name|Return Type|Description|

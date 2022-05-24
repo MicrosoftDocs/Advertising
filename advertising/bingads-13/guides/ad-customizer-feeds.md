@@ -9,6 +9,14 @@ description: Add feeds so your ads update dynamically under specific circumstanc
 # Ad Customizer Feeds
 With ad customizers, your ads can dynamically update themselves to appeal to specific customers. All it takes is uploading an ad customizer feed that tells us what information you want to insert into your ads under which circumstances.
 
+> [!NOTE]
+>
+> * Starting August 29, 2022, you will no longer be able to add ad customizers for expanded text ads. We strongly encourage you to use responsive search ads from now on.
+> * Existing expanded text ads will continue to serve, and you’ll still be able to view reports on their performance.  
+> * You'll be able to update the value to existing feed. Otherwise, attempts to add ad customizers for expanded text ads will result in a `CustomerNotEligibleForAdCustomizersFeed` error.
+> * [Learn more about this change](https://about.ads.microsoft.com/blog/post/april-2022/deadline-for-migration-to-responsive-search-ads-extended-to-august-29-2022).
+
+
 Why use ad customizer feeds?
 - Save time. Transform a single ad into hundreds of variations without having to manually update the ad.  
 - More relevant ads. Customize ads based on what customers are searching for, when they're searching for it, where they are, what device they're using, and more.  

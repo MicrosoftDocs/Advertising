@@ -14,6 +14,8 @@ dev_langs:
 # AddAds Service Operation - Campaign Management
 Adds one or more ads to an ad group.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 ## <a name="request"></a>Request Elements
 The *AddAdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 

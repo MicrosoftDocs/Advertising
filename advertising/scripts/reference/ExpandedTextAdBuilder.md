@@ -11,6 +11,8 @@ ms.topic: "article"
 
 Contains the methods for defining and creating an expanded text ad. For information about builders, see [Builders](../concepts/builders.md).
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 Example usage:
 ```javascript
     var operation = adGroup.newAd().expandedTextAdBuilder()

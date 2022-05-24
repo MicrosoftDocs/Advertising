@@ -9,6 +9,8 @@ description: Defines the base object of an import option.
 # ImportOption Data Object - Campaign Management
 Defines the base object of an import option.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 Do not try to instantiate an *ImportOption*. You can create one or more of the following objects that derive from it. 
 - [FileImportOption](fileimportoption.md)  
 - [GoogleImportOption](googleimportoption.md)  

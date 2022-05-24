@@ -9,7 +9,10 @@ dev_langs:
   - csharp
 ---
 # Experiment Record - Bulk
-Defines an experiment that can be downloaded in a bulk file. 
+Defines an experiment that can be downloaded in a bulk file.
+
+> [!NOTE]
+> Starting August 29, 2022, you’ll only be able to copy expanded text ads from the base campaign to the experiment campaign, but you’ll no longer be able to edit these expanded text ads. We strongly encourage you to upgrade to [responsive search ads](../guides/responsive-search-ads.md).
 
 With an experiment you split a campaign's budget and traffic, and then run an A/B test during a limited date range. 
 
