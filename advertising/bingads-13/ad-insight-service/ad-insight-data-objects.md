@@ -23,6 +23,7 @@ The Ad Insight service defines the following data objects.
 |[AuctionInsightKpi](auctioninsightkpi.md)|Defines an auction insight key performance indicator.|
 |[AuctionInsightResult](auctioninsightresult.md)|Defines the auction insight results from calling the [GetAuctionInsightData](getauctioninsightdata.md) operation.|
 |[AuctionSegmentSearchParameter](auctionsegmentsearchparameter.md)|Defines an auction segment search parameter.|
+|[AutoApplyRecommendationsInfo](autoapplyrecommendationsinfo.md)|Defines the auto-apply opt-in status for specific recommendation type. |
 |[BatchError](batcherror.md)|Defines an Ad Insight batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
 |[BidLandscapePoint](bidlandscapepoint.md)|Defines an object that contains estimates of clicks, cost, and impressions  given the suggested bid.|
 |[BidOpportunity](bidopportunity.md)|Defines an object that contains the suggested bid with estimated clicks and impressions opportunities.|
