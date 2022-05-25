@@ -203,9 +203,7 @@
     items: 
     - name: Overview
       href: ../ad-insight-service/ad-insight-service-operations.md
-      displayName: ad insight service operations
-    - name: AutoApplyRecommendations
-      href: ../ad-insight-service/autoapplyrecommendationsinfo.md      
+      displayName: ad insight service operations    
     - name: GetAuctionInsightData
       href: ../ad-insight-service/getauctioninsightdata.md
     - name: GetAutoApplyOptInStatus
@@ -281,6 +279,8 @@
       href: ../ad-insight-service/auctioninsightresult.md
     - name: AuctionSegmentSearchParameter
       href: ../ad-insight-service/auctionsegmentsearchparameter.md
+    - name: AutoApplyRecommendations
+      href: ../ad-insight-service/autoapplyrecommendationsinfo.md  
     - name: BatchError
       href: ../ad-insight-service/batcherror.md
     - name: BidLandscapePoint
