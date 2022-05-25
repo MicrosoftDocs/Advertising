@@ -55,7 +55,11 @@ Determines whether Microsoft Advertising is allowed to use images from your doma
 If the [Name](#name) element is set to *AllowImageAutoRetrieve*, then the [Value](#value) can be set to either *true* or *false*. If the value is *true*, then the image auto-retrieve feature is enabled. 
 
 #### <a name="autoapplyrecommendations"></a>AutoApplyRecommendations
+
 Determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.  
+
+> [!WARNING]
+> AutoApplyRecommendations in Campaign Management API will soon be deprecated. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API.
 
 [!INCLUDE[coming-soon](./includes/coming-soon.md)]
 
