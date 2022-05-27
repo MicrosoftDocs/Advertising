@@ -49,7 +49,7 @@ The entity (account, campaign, or ad group) to ad extension association limit va
 |[Callout Ad Extension](#calloutadextension)|20|
 |[Filter Link Ad Extension](#filterlinkadextension)|20|
 |[Flyer Ad Extension](#flyeradextension)|20|
-|[Image Ad Extension](#imageadextension)|6|
+|[Image Ad Extension](#imageadextension)|15|
 |[Location Ad Extension](#locationadextension)|Up to the total number of location ad extensions in your account|
 |[Price Ad Extension](#priceadextension)|20|
 |[Promotion Ad Extension](#promotionadextension)|20|
