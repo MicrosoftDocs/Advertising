@@ -35,6 +35,7 @@ The following are the possible languages that you can use to write your ads and 
 |Hungarian|HU|
 |Icelandic|IS|
 |Italian|IT|
+|Japanese|JA|
 |Latvian|LV|
 |Lithuanian|LT|
 |Macedonian|MK|

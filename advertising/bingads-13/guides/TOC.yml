@@ -193,6 +193,8 @@
     - name: Overview
       href: ./ad-insight-guides.md
       displayName: adinsight ad insight guides
+    - name: Auto-apply Management
+      href: ./ad-insights-auto-apply-management.md
     - name: Budget and Bid Opportunities
       href: ./budget-bid-opportunities.md
     - name: Keyword Ideas and Traffic Estimates
@@ -201,9 +203,11 @@
     items: 
     - name: Overview
       href: ../ad-insight-service/ad-insight-service-operations.md
-      displayName: ad insight service operations
+      displayName: ad insight service operations    
     - name: GetAuctionInsightData
       href: ../ad-insight-service/getauctioninsightdata.md
+    - name: GetAutoApplyOptInStatus
+      href: ../ad-insight-service/getautoapplyoptinstatus.md      
     - name: GetBidLandscapeByAdGroupIds
       href: ../ad-insight-service/getbidlandscapebyadgroupids.md
     - name: GetBidLandscapeByKeywordIds
@@ -240,6 +244,8 @@
       href: ../ad-insight-service/getkeywordopportunities.md
     - name: GetKeywordTrafficEstimates
       href: ../ad-insight-service/getkeywordtrafficestimates.md
+    - name: SetAutoApplyOptInStatus
+      href: ../ad-insight-service/setautoapplyoptinstatus.md
     - name: SuggestKeywordsForUrl
       href: ../ad-insight-service/suggestkeywordsforurl.md
     - name: SuggestKeywordsFromExistingKeywords
@@ -273,6 +279,8 @@
       href: ../ad-insight-service/auctioninsightresult.md
     - name: AuctionSegmentSearchParameter
       href: ../ad-insight-service/auctionsegmentsearchparameter.md
+    - name: AutoApplyRecommendations
+      href: ../ad-insight-service/autoapplyrecommendationsinfo.md  
     - name: BatchError
       href: ../ad-insight-service/batcherror.md
     - name: BidLandscapePoint

@@ -1422,6 +1422,29 @@ KeywordIdeaAttributeMissing
 One or more required keyword idea attributes is missing.
 
 ***
+
+**Numeric Code**
+824
+
+**Symbolic Error Code**
+RecommendationTypesExceeded
+
+**Description**
+The RecommendationTypes list exceeds the size limit. 
+
+***
+
+**Numeric Code**
+825
+
+**Symbolic Error Code**
+DuplicateRecommendationType
+
+**Description**
+Duplicate RecommendationTypes are contained in the array of input
+
+***
+
 ## 1000
 ***
 
