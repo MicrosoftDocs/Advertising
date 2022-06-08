@@ -58,8 +58,6 @@ Feed Item,Active,123456789,DynamicDataAutoListingFeedNew,CampaignName,AUTO ad gr
 
 You will need to ensure that a new campaign, ad group and Expanded Text Ad or Responsive Search Ad has been created with the explicit purpose of being used for Auto Inventory Ads. 
 
-You can add auto inventory feeds to any Expanded Text Ads or Responsive Search Ads field except the final URL.
-
 Responsive Search Ads do not yet support disclaimers , if a [disclaimer](../campaign-management-service/disclaimeradextension.md) is required, use an Expanded Text Ad.
 
 Feed files are associated with their campaign using the Campaign field of the feed. The Campaign field is populated with the associated campaign's name.
