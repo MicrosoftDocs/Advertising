@@ -16,7 +16,7 @@ dev_langs:
 We already require multi-factor authentication in Microsoft Advertising online. Multi-factor authentication is a security process that requires you to verify your identity in two different ways.  
 
 > [!IMPORTANT]
-> Starting June 1, 2022, we'll require [multi-factor authentication](authentication-oauth-mfa.md) for some customers who sign in to Bing Ads API, Content API, and Hotel API through third-party applications.
+> As of June 1, 2022, we're gradually requiring [multi-factor authentication](authentication-oauth-mfa.md) for customers signing in through third-party applications to use Bing Ads API, Content API, and Hotel API.
 >
 > You must update your application to [get user consent](authentication-oauth-consent.md) using the new ```msads.manage``` scope. All application developers must take action to use the new scope.
 
