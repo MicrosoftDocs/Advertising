@@ -4,8 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
-description: Add feeds so your ads update dynamically under specific circumstances. 
-description: Manage Auto Ads using the bulk API. Add feeds so your ads update dynamically under specific circumstances. 
+description: Manage Auto Inventory Ads using the bulk API. Add feeds so your ads update dynamically under specific circumstances. 
 ---
 # Auto Inventory Feeds
 
@@ -28,6 +27,7 @@ You can have 100 feeds per account (this maximum number includes all feed types)
 ## <a name="upload-autoinventoryads"></a>Upload auto inventory feeds
 
 You can upload auto inventory feeds and feed items with the Bulk service. 
+
 - The [Feed](../bulk-service/feed.md) record defines the name and data type of attributes that are allowed for the corresponding feed items.
 - The [Feed Item](../bulk-service/feed-item.md) record defines additional information about your products or services and under what conditions that information should be inserted into your ads. The Microsoft Advertising system attributes define under what conditions each feed item should be inserted into your ads, whereas the custom attributes define what information about your products or services you want to insert into your ads. Your auto inventory feed items can be referenced from all ads in your Microsoft Advertising account by default. Optionally you can restrict each feed item to a specific campaign or ad group.  
 
@@ -60,7 +60,7 @@ You will need to ensure that a new campaign, ad group and Expanded Text Ad or Re
 
 You can add auto inventory feeds to any Expanded Text Ads or Responsive Search Ads field except the final URL.
 
-Resposive Search Ads do not yet support disclaimers , if a [disclaimer](https://docs.microsoft.com/en-us/advertising/campaign-management-service/disclaimeradextension?view=bingads-13) is required, use an Expanded Text Ad.
+Responsive Search Ads do not yet support disclaimers , if a [disclaimer](../campaign-management-service/disclaimeradextension.md) is required, use an Expanded Text Ad.
 
 Feed files are associated with their campaign using the Campaign field of the feed. The Campaign field is populated with the associated campaign's name.
 
