@@ -12,8 +12,8 @@ dev_langs:
 Defines a feed item that can be downloaded and uploaded in a bulk file.
 
 > [!TIP]
-> For an overview of how to use feeds and feed items, see the [Ad Customizer Feeds](../guides/ad-customizer-feeds.md) and [Page Feeds](../guides/page-feeds.md) technical guides.    
-
+> For an overview of how to use feeds and feed items, see the [Ad Customizer Feeds](../guides/ad-customizer-feeds.md),  [Auto Inventory Feeds](../guides/auto-inventory-feeds.md) and [Page Feeds](../guides/page-feeds.md) technical guides.   
+ 
 If you are creating new parent and child entities in the same Bulk file, the dependent records must be included after dependencies according to hierarchy:  
 
 1. [Feed](feed.md)
@@ -32,6 +32,8 @@ Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Target Campaign Id,Target Ad
 Format Version,,,,,,,,,,,,,,,,,,6,,,,
 Feed,Active,-20,,PageFeed,,,,,PageFeedClientIdGoesHere,,,,,,,,,,,,MyPageFeedName,"[{""name"":""Page Url"",""feedAttributeType"":""Url"",""isPartOfKey"":true},{""name"":""Custom Label"",""feedAttributeType"":""StringList""},{""name"":""Ad Title"",""feedAttributeType"":""String""}]"
 Feed,Active,-21,,AdCustomizerFeed,,,,,AdCustomizerFeedClientIdGoesHere,,,,,,,,,,,,MyAdCustomizerFeedName,"[{""name"":""DateTimeName"",""feedAttributeType"":""DateTime""},{""name"":""Int64Name"",""feedAttributeType"":""Int64""},{""name"":""PriceName"",""feedAttributeType"":""Price""},{""name"":""StringName"",""feedAttributeType"":""String"",""isPartOfKey"":true}]"
+Feed,Active,123456789,DynamicDataAutoListingFeedNew,CampaignName,AUTO ad group,-21,,DynamicDataAutosListingFeed,,"[{""name"":""Vehicle ID""},{""name"":""Final URL""},{""name"":""Image URL""},{""name"":""Make""},{""name"":""Model""},{""name"":""Price""},{""name"":""Title""},{""name"":""Target campaign""},{""name"":""Target ad group""},{""name"":""Latitude""},{""name"":""Longitude""},{""name"":""Mileage value""},{""name"":""Mileage unit""},{""name"":""Year""},{""name"":""Fuel type""},{""name"":""Transmission""},{""name"":""City""},{""name"":""VIN""},{""name"":""State of vehicle""}]"
+Feed Item,Active,123456789,DynamicDataAutoListingFeedNew,CampaignName,AUTO ad group,,-21,,,"{""Vehicle Id"":""2g161290-1d13"",""""Final Url"""":""https:\/\/www.contoso.com\/used-Redmond1"",""Image Urls"":""https:\/\/www.contoso.com\/inventoryphotos\/01.jpg;https:\/\/www.contoso.com\/inventoryphotos\/02.jpg"",""Make"":""Contoso"",""Model"":""SUV"",""Price"":""65495.00 USD"",""Title"":""2020 SUV"",""Target campaign"":""CampaignName"",""Target ad group"":"""",""Latitude"":"""",""Logitude"":"""",""Mileage Value"":""13000"",""Mileage Unit"":""MI"",""Year"":""2020"",""Fuel Type"":"""",""Transmission"":"""",""City"":""Redmond"",""Vin"":""SALLJGML8HA004044"",""State of Vehicle"":""USED"",""Trim"":""HSE""}"
 Feed Item,Active,-200,-20,,,,20;200,,2020/06/22 00:00:00,2020/06/30 00:00:00,,,,,,,,,,"{""Page Url"":""https://contoso.com/3001"",""Custom Label"":[""Label_1_3001"",""Label_2_3001""],""Ad Title"":""An ad title""}"
 Feed Item,Active,-210,-21,,,,21;210,,2020/06/22 00:00:00,2020/06/30 00:00:00,,value,Broad,,PeopleIn,,(Sunday[09:00-17:00]),,,"{""DateTimeName"":""2020/06/22 00:00:00"",""Int64Name"":237601,""PriceName"":""$601"",""StringName"":""s237601""}"
 ```
@@ -207,6 +209,8 @@ The attributes are customized for each feed [Sub Type](feed.md#subtype), and def
 
 For the *AdCustomizerFeed* feed [Sub Type](feed.md#subtype), you can include up to 100 custom attributes per feed item where each custom attribute [name](#customattributes-name) is unique.  
 
+For the *DynamicDataAutosListingFeed* sub type, you can include up to 100 custom attributes per feed item where each custom attribute [name](#customattributes-name) is unique.  
+
 For the *PageFeed* feed [Sub Type](feed.md#subtype), you can include one or two custom attributes per feed item where each custom attribute [name](#customattributes-name) is unique.  
 
 The custom attributes are represented in the bulk file as a JSON string. For more details see [feedAttributeType](#customattributes-feedattributetype), [isPartOfKey](#customattributes-ispartofkey), and [name](#customattributes-name) below.
@@ -245,7 +249,7 @@ Here are example custom attributes that you could upload for an ad customizer fe
 }
 ```
 
-**Add:** Required. For an ad customizer feed item you must set at least one attribute with a valid key and value pair. For a page feed you must set at least one attribute with [name](#customattributes-name) set to "Page Url".  
+**Add:** Required. For an ad customizer and DynamicDataAutosListing feed item you must set at least one attribute with a valid key and value pair. For a page feed you must set at least one attribute with [name](#customattributes-name) set to "Page Url".  
 **Update:** Optional. To retain all of the existing custom attributes for the feed item, set or leave this field empty. If you set this field, any custom attributes that were previously set for this feed item will be replaced.  
 **Delete:** Read-only  
 
@@ -293,6 +297,66 @@ Then we can map each feed [name](feed.md#customattributes-name) i.e., "DateTimeN
 	"Int64Name": 237601,
 	"PriceName": "$601",
 	"StringName": "s237601"
+}
+```
+
+There are six different `feedAttributeType` data types you can set for DynamicDataAutosListing feeds: 
+
+|feedAttributeType|Use cases|Accepted feed item values|
+|-----|-----|-----|
+|String|Vehicle name, vehicle category, description|Any letters, numbers, or symbols|
+|Int64|vehicle year, engine|Any whole number|
+|Price|Vehicle cost, sale discount|Any number (including decimals) and valid currency characters|
+|DateTime|Event start time, last day of a sale|yyyy/mm/dd HH:mm:ss<br/>To default to midnight at the beginning of the day, you can omit the HH:mm:ss part.|
+|Url|Contains the URL of your website to include in the feed.|You must include one URL per [Feed Item](feed-item.md#customattributes).|
+|StringList|Labels that allow you to group the URLs within the feed.|You can include between one to ten custom labels per [Feed Item](feed-item.md#customattributes).<br/>Each custom label is represented as a list item in JSON notation. For example the custom label portion of the [Feed Item](feed-item.md#customattributes) could be written as *""Custom Label"":[""Label_1_3001"",""Label_2_3001""]*|
+
+For example we can define the custom attributes of an DynamicDataAutosListing feed.   
+
+```json
+[
+	{
+		"name": "DateTimeName",
+		"feedAttributeType": "DateTime"
+	},
+	{
+		"name": "Int64Name",
+		"feedAttributeType": "Int64"
+	},
+	{
+		"name": "PriceName",
+		"feedAttributeType": "Price"
+	},
+	{
+		"name": "StringName",
+		"feedAttributeType": "String",
+		"isPartOfKey": true
+	},
+	{
+		"name": "Page Url",
+		"feedAttributeType": "Url",
+		"isPartOfKey": true
+	},
+	{
+		"name": "Custom Label",
+		"feedAttributeType": "StringList"
+	}
+]
+```
+
+Then we can map each feed [name](#customattributes-name) i.e., "DateTimeName", "Int64Name", "PriceName", and "StringName" in the [Feed Item](feed-item.md#customattributes) upload: 
+
+```json
+{
+	"DateTimeName": "2020/06/22 00:00:00",
+	"Int64Name": 237601,
+	"PriceName": "$601",
+	"StringName": "s237601",
+	"Page Url": "https://contoso.com/3001",
+	"Custom Label": [
+		"Label_1_3001",
+		"Label_2_3001"
+	],
 }
 ```
 
@@ -345,7 +409,9 @@ The `isPartOfKey` determines whether or not the values for a custom attribute mu
 
 For ad customizer feeds and feed items, a String named "Custom Id" is always treated as a unique key i.e., the `isPartOfKey` is always "true". The "Custom Id" attribute is currently the only way to set a unique key for ad customizer feeds via the Microsoft Advertising web application. With the Bulk API you have more flexibility to use any attribute name as a unique key.  
 
-For page feeds and feed items the "Page Url" is always treated as a unique key i.e., the `isPartOfKey` is always "true".  
+For page feeds and feed items the "Page Url" is always treated as a unique key i.e., the `isPartOfKey` is always "true". 
+
+For DynamicDataAutosListing feeds and feed items the "VehicleId" is always treated as a unique key i.e., the `isPartOfKey` is always "true".   
 
 ### <a name="customattributes-name"></a>name
 The `name` attribute is used to map a distinct custom attribute across both the [Feed](feed.md#customattributes-name) and feed item. Effectively this is how you ensure that a specific feed item rolls up to the same "column" in the feed. In the ad customizer example above the "DateTimeName", "Int64Name", "PriceName", and "StringName" names are used in both the feed and feed item. 

@@ -456,6 +456,8 @@
       displayName: bulk guides
     - name: Ad Customizer Feeds
       href: ./ad-customizer-feeds.md
+    - name: Auto Inventory Feeds
+      href: ./auto-inventory-feeds.md  
     - name: Bulk Download and Upload
       href: ./bulk-download-upload.md
     - name: Hotel Ads Bulk Update
