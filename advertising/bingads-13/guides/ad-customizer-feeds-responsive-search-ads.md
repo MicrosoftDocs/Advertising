@@ -19,10 +19,12 @@ Why use ad customizer for responsive search ads?
 - More relevant ads. Leverage dynamic content to customize ads based on what potential customers are searching for.
 - Better results. See higher click-through (CTR) and conversion rates.
 
-
 ## <a name="upload-adcustomizerfeed"></a>Upload ad customizer feeds
 
 You can upload your ad customizer feed for responsive search ads with the Bulk service.
+
+- The [Feed](../bulk-service/feed.md) record defines the name and data type of attributes that are allowed for the corresponding feed items.
+- The [Feed Item](../bulk-service/feed-item.md) record defines additional information about your products or services and under what conditions that information should be inserted into your ads. The Microsoft Advertising system attributes define under what conditions each feed item should be inserted into your ads, whereas the custom attributes define what information about your products or services you want to insert into your ads. Your ad customizer feed items can be referenced from all ads in your Microsoft Advertising account by default. Optionally you can restrict each feed item to a specific campaign or ad group.  
 
 The Ad customizer feed record defines the name and data type of attributes that are allowed for the corresponding feed item.
 
