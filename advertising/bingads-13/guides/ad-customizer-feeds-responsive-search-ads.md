@@ -47,7 +47,7 @@ For a *AdCustomizer Attribute* record, the following attribute fields are availa
 - [Id](#id)
 - [Name](#name)
 - [AdCustomizer Data Type](#datatype)
-- [AdCustomizer Attributevalue](#accountvalue)
+- [AdCustomizer Attributevalue](#attributevalue)
 - [Status](#status)
 
 For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyWord AdCustomizer Attribute* record, the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md). 
@@ -117,7 +117,7 @@ The name of your customizer attribute.
 ## <a name="parentid"></a>Parent Id
 
 The identifier of the account where this ad customizer is associated or removed.
-This bulk field maps to the *Id* field of the [Account](account.md) record. 
+This bulk field maps to the *Id* field of the Account record. 
 
 **Add:** Read-only  
 **Delete:** Read-only  
