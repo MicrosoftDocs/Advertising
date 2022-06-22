@@ -56,11 +56,18 @@ For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyW
 - [Name](#name)
 - [AdCustomizer Data Type](#datatype)
 - [AdCustomizer Attributevalue](#attributevalue)
-- [Parent Id](#parentdd)
+- [Parent Id](#parentid)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
 
 
+## <a name="adgroup"></a>Ad Group
+
+The name of the existing ad group to which you are assigning attribute value.
+
+**Add:** Required  
+**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Delete:** Read-only  
 
 ## <a name="datatype"></a>AdCustomizer Data Type
 
