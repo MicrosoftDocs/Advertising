@@ -129,20 +129,14 @@ The name of the existing ad group to which you are assigning attribute value.
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
-## <a name="keyword"></a>Keyword
 
-The existing keyword to which you are assigning attribute value.
+## <a name="status"></a>Status
+Represents the ad customizer attribute status. 
 
-**Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
-**Delete:** Read-only  
+Possible values are *Active* and *Deleted*. If the ad customizer attribute is associated with the account, this field's value is *Active*.
 
-
-## <a name="customizer"></a>Customizer:{Attribute name}
-Each customizer value will have its own column.
-
-**Valid values**:
-The value of the customizer attribute should be based on the data type. See the custom attribute data type table above for a list of requirements per attribute type.
+**Add:** Read-only  
+**Delete:** Required. The Status must be set to *Deleted*. 
 
 ## <a name="expandedtextad-examples"></a>Adding ad customizers to responsive search Ads
 
