@@ -85,7 +85,7 @@ There are four different custom attribute data types you can set for ad customiz
 
 ## <a name="attributevalue"></a>AdCustomizer Attributevalue
 
-Attribute value at account level.
+Attribute value at different entity level. The possible entity levels are Account, Campaign, Keyword and AdGroup
 
 **Add:** Optional  
 **Update:** Optional    
@@ -94,14 +94,15 @@ Attribute value at account level.
 
 ## <a name="campaign"></a>Campaign
 
-The name of the existing campaign to which you are assigning attribute value.
+The name of the campaign to which you are assigning the AdCustomizer attribute value.
 
 **Add:** Read-only  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The identifier of the ad customizer that is associated or removed from the ad group.
+
+The identifier of the ad customizer that is associated or removed.
 
 **Add:** Read-only  
 **Update:** Read-only and Required  
@@ -109,9 +110,9 @@ The identifier of the ad customizer that is associated or removed from the ad gr
 
 ## <a name="name"></a>Name
 
-The name of your customizer attribute.
+The name of your ad customizer attribute.
 
-- Each customizer attribute must have a unique name.
+- Each ad customizer attribute must have a unique name.
 - Attribute names can be up to 40 characters.
 - You can have a maximum of 40 attributes per account.
 - Attribute names cannot contain the following characters: {, }, (, ), :, /, ”, '
@@ -144,5 +145,4 @@ The ad customizer will appear in Microsoft Advertising in the following syntax: 
 
 
 ## See Also
-[Expanded Text Ads](expanded-text-ads.md)  
-[Page Feeds](page-feeds.md)  
+[Responsive Search Ads](../guides/responsive-search-ads.md)  
