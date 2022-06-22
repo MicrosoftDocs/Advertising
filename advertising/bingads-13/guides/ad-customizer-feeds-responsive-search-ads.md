@@ -26,44 +26,50 @@ You can upload your ad customizer feed for responsive search ads with the Bulk s
 The Ad customizer feed record defines the name and data type of attributes that are allowed for the file upload.
 
 ```csv
-Attribute,Data type,Account value,Campaign,Ad group,Keyword,Customizer:Name,Customizer:Count,Customizer:Discount,Customizer:Cost
-Name,Text,Furniture,,,,,,,
-Count,Number,3000,,,,,,,
-Discount,Percent,,,,,,,,
-Cost,Price,,,,,,,,
-,,,Campaign A,,,Living Room Furniture,1000,10%,"$2,000 "
-,,,Campaign A,Ad group #1,,Modern Sectionals,500,10%,"$2,000 "
-,,,Campaign A,Ad group #1,corner sectionals,Modern Corner Sectionals,100,25%,"$2,500 "
-,,,Campaign A,Ad group #1,leather sectionals,Modern Leather Sectionals,100,15%,"$4,000 "
-,,,Campaign A,Ad group #1,luxury sectionals,Modern Luxury Sectionals,200,5%,"$3,000 "
-
+Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Website,Sync Time,Client Id,Bid Strategy Id,Bid Strategy Name,Bid Strategy Type,Bid Strategy MaxCpc,Bid Strategy TargetCpa,Bid Strategy TargetRoas,Bid Strategy TargetAdPosition,Bid Strategy TargetImpressionShare,Modified Time,Tracking Template,Final Url Suffix,Custom Parameter,Final Url,Mobile Final Url,Time Zone,Budget Id,Budget,Budget Type,Campaign Type,Priority,Country Code,LocalInventoryAdsEnabled,Ad Schedule Use Searcher Time Zone,Start Date,End Date,Network Distribution,Ad Rotation,Cpc Bid,Language,Target Setting,Bid Option,Bid Boost Value,Ad Group Type,Title,Text,Display Url,Domain,Destination Url,Business Name,Phone Number,Promotion,Editorial Status,Editorial Appeal Status,Editorial Justification,Device Preference,Ad Format Preference,Keyword,Match Type,Bid,Param1,Param2,Param3,Transaction Id,Target,Physical Intent,Bid Adjustment,OS Names,Radius Target Id,Name,AdCustomizer DataType,AdCustomizer AttributeValue
+Format Version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,
+Campaign,Active,-1,232000627,,myCampaign,,,,,,,,,,,,,,,,,,,KuwaitRiyadh,,278.12,DailyBudgetAccelerated,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ad Group,Active,-2,-1,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OwnedAndOperatedAndSyndicatedSearch,,6.55,French,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Keyword,Active,-3,-2,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,YXkNHeEwy0i9IpR2AsXnV,Phrase,1.59,,,,,,,,,,,,
+Adcustomizer Attribute,Active,-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,StringAttribute,String,StringValue
+Adcustomizer Attribute,Active,-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,Number,10
+Adcustomizer Attribute,Active,-6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PriceAttribute,Price,12.12
+Adcustomizer Attribute,Active,-7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PercentAttribute,Percent,9.9
+Campaign Adcustomizer Attribute,,-4,-1,,myCampaign,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,StringAttribute,,CampaignStringValue
+Campaign Adcustomizer Attribute,,-5,-1,,myCampaign,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,,100
+Campaign Adcustomizer Attribute,,13200021,9876521,,exisingCampaign,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ExistingNumberAttribute,,delete_value
+Adgroup Adcustomizer Attribute,,-5,-2,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,,1000
+Keyword Adcustomizer Attribute,,-5,-3,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,,10000
 ```
 
-For a *Ad Customizer feed* record, the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md). 
+For a *AdCustomizer Attribute* record, the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md). 
 
-- [Attribute](#attribute)
-- [Data Type](#datatype)
-- [Account Value](#accountvalue)
+- [Id](#id)
+- [Name](#name)
+- [AdCustomizer Data Type](#datatype)
+- [AdCustomizer Attributevalue](#attributevalue)
+- [Status](#status)
+
+For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyWord AdCustomizer Attribute* record, the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md). 
+
+- [Id](#id)
+- [Name](#name)
+- [AdCustomizer Data Type](#datatype)
+- [AdCustomizer Attributevalue](#attributevalue)
+- [Parent Id](#parentid)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
-- [Keyword](#keyword)
-- [Customizer:{Attribute name}](#customizer)
 
 
-## <a name="attribute"></a>Attribute
+## <a name="adgroup"></a>Ad Group
 
-The name of your customizer attribute.
-
-- Each customizer attribute must have a unique name.
-- Attribute names can be up to 40 characters.
-- You can have a maximum of 40 attributes per account.
-- Attribute names cannot contain the following characters: {, }, (, ), :, /, ”, '
+The name of the existing ad group to which you are assigning attribute value.
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
-## <a name="datatype"></a>Data Type
+## <a name="datatype"></a>AdCustomizer Data Type
 
 The data type of each custom attribute. You define the data type in the feed record, and then set values in the feed item. So long as each custom attribute name is unique within the feed you can define multiple attributes with the same data type.
 
@@ -78,7 +84,7 @@ There are four different custom attribute data types you can set for ad customiz
  |Percent|Discount rate, interest rate|Any number (including decimals) and the percent symbol[%]<br/>Example: 15%|
 
 
-## <a name="accountvalue"></a>Account value
+## <a name="attributevalue"></a>AdCustomizer Attributevalue
 
 Attribute value at account level.
 
@@ -95,34 +101,47 @@ The name of the existing campaign to which you are assigning attribute value.
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
-## <a name="adgroup"></a>Ad Group
-The name of the existing ad group to which you are assigning attribute value.
+## <a name="id"></a>Id
+The identifier of the ad customizer that is associated or removed from the ad group.
+
+**Add:** Read-only  
+**Update:** Read-only and Required  
+**Delete:** Read-only and Required  
+
+## <a name="name"></a>Name
+
+The name of your customizer attribute.
+
+- Each customizer attribute must have a unique name.
+- Attribute names can be up to 40 characters.
+- You can have a maximum of 40 attributes per account.
+- Attribute names cannot contain the following characters: {, }, (, ), :, /, ”, '
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
-## <a name="keyword"></a>Keyword
+## <a name="parentid"></a>Parent Id
 
-The existing keyword to which you are assigning attribute value.
+The identifier of the account where this ad customizer is associated or removed.
+This bulk field maps to the *Id* field of the Account record. 
 
-**Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Add:** Read-only  
 **Delete:** Read-only  
 
+## <a name="status"></a>Status
+Represents the ad customizer attribute status. 
 
-## <a name="customizer"></a>Customizer:{Attribute name}
-Each customizer value will have its own column.
+Possible values are *Active* and *Deleted*. If the ad customizer attribute is associated with the account, this field's value is *Active*.
 
-**Valid values**:
-The value of the customizer attribute should be based on the data type. See the custom attribute data type table above for a list of requirements per attribute type.
+**Add:** Read-only  
+**Delete:** Required. The Status must be set to *Deleted*. 
 
 ## <a name="expandedtextad-examples"></a>Adding ad customizers to responsive search Ads
 
 You can add ad customizers to these responsive search ad text fields: Headlines, Descriptions, and your Display URL's first and second paths (Path 1 and Path 2).
 
 The ad customizer will appear in Microsoft Advertising in the following syntax: {CUSTOMIZER.Attribute name:default text}. So, if your attribute name is "Count" and your default text is "10," the syntax will be {CUSTOMIZER.Count:10}.
-
 
 
 ## See Also
