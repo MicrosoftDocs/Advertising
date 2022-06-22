@@ -19,11 +19,11 @@ Why use ad customizer for responsive search ads?
 - More relevant ads. Leverage dynamic content to customize ads based on what potential customers are searching for.
 - Better results. See higher click-through (CTR) and conversion rates.
 
-## <a name="upload-adcustomizerfeed"></a>Upload ad customizer feeds
+## <a name="upload-adcustomizerfeed"></a>Upload ad customizer Attribute
 
-You can upload your ad customizer feed for responsive search ads with the Bulk service.
+You can upload your ad customizer attribute for responsive search ads with the Bulk service.
 
-The Ad customizer feed record defines the name and data type of attributes that are allowed for the file upload.
+The Ad customizer attribute record defines the name and data type of attributes that are allowed for the file upload.
 
 ```csv
 Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Website,Sync Time,Client Id,Bid Strategy Id,Bid Strategy Name,Bid Strategy Type,Bid Strategy MaxCpc,Bid Strategy TargetCpa,Bid Strategy TargetRoas,Bid Strategy TargetAdPosition,Bid Strategy TargetImpressionShare,Modified Time,Tracking Template,Final Url Suffix,Custom Parameter,Final Url,Mobile Final Url,Time Zone,Budget Id,Budget,Budget Type,Campaign Type,Priority,Country Code,LocalInventoryAdsEnabled,Ad Schedule Use Searcher Time Zone,Start Date,End Date,Network Distribution,Ad Rotation,Cpc Bid,Language,Target Setting,Bid Option,Bid Boost Value,Ad Group Type,Title,Text,Display Url,Domain,Destination Url,Business Name,Phone Number,Promotion,Editorial Status,Editorial Appeal Status,Editorial Justification,Device Preference,Ad Format Preference,Keyword,Match Type,Bid,Param1,Param2,Param3,Transaction Id,Target,Physical Intent,Bid Adjustment,OS Names,Radius Target Id,Name,AdCustomizer DataType,AdCustomizer AttributeValue
@@ -59,7 +59,6 @@ For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyW
 - [Parent Id](#parentid)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
-
 
 ## <a name="adgroup"></a>Ad Group
 
