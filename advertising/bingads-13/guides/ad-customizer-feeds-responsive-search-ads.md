@@ -46,7 +46,7 @@ For a *AdCustomizer Attribute* record, the following attribute fields are availa
 
 - [Id](#id)
 - [Name](#name)
-- [AdCustomizer Data Type](#datatype)
+- [AdCustomizer DataType](#datatype)
 - [AdCustomizer Attributevalue](#attributevalue)
 - [Status](#status)
 
@@ -54,7 +54,7 @@ For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyW
 
 - [Id](#id)
 - [Name](#name)
-- [AdCustomizer Data Type](#datatype)
+- [AdCustomizer DataType](#datatype)
 - [AdCustomizer Attributevalue](#attributevalue)
 - [Parent Id](#parentid)
 - [Campaign](#campaign)
@@ -68,7 +68,7 @@ The name of the existing ad group to which you are assigning attribute value.
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
-## <a name="datatype"></a>AdCustomizer Data Type
+## <a name="datatype"></a>AdCustomizer DataType
 
 The data type of each custom attribute. You define the data type in the feed record, and then set values in the feed item. So long as each custom attribute name is unique within the feed you can define multiple attributes with the same data type.
 
