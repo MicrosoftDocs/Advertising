@@ -19,11 +19,11 @@ Why use ad customizer for responsive search ads?
 - More relevant ads. Leverage dynamic content to customize ads based on what potential customers are searching for.
 - Better results. See higher click-through (CTR) and conversion rates.
 
-## <a name="upload-adcustomizerfeed"></a>Upload ad customizer feeds
+## <a name="upload-adcustomizerfeed"></a>Upload ad customizer Attribute
 
-You can upload your ad customizer feed for responsive search ads with the Bulk service.
+You can upload your ad customizer attribute for responsive search ads with the Bulk service.
 
-The Ad customizer feed record defines the name and data type of attributes that are allowed for the file upload.
+The Ad customizer attribute record defines the name and data type of attributes that are allowed for the file upload.
 
 ```csv
 Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Website,Sync Time,Client Id,Bid Strategy Id,Bid Strategy Name,Bid Strategy Type,Bid Strategy MaxCpc,Bid Strategy TargetCpa,Bid Strategy TargetRoas,Bid Strategy TargetAdPosition,Bid Strategy TargetImpressionShare,Modified Time,Tracking Template,Final Url Suffix,Custom Parameter,Final Url,Mobile Final Url,Time Zone,Budget Id,Budget,Budget Type,Campaign Type,Priority,Country Code,LocalInventoryAdsEnabled,Ad Schedule Use Searcher Time Zone,Start Date,End Date,Network Distribution,Ad Rotation,Cpc Bid,Language,Target Setting,Bid Option,Bid Boost Value,Ad Group Type,Title,Text,Display Url,Domain,Destination Url,Business Name,Phone Number,Promotion,Editorial Status,Editorial Appeal Status,Editorial Justification,Device Preference,Ad Format Preference,Keyword,Match Type,Bid,Param1,Param2,Param3,Transaction Id,Target,Physical Intent,Bid Adjustment,OS Names,Radius Target Id,Name,AdCustomizer DataType,AdCustomizer AttributeValue
@@ -46,7 +46,7 @@ For a *AdCustomizer Attribute* record, the following attribute fields are availa
 
 - [Id](#id)
 - [Name](#name)
-- [AdCustomizer Data Type](#datatype)
+- [AdCustomizer DataType](#datatype)
 - [AdCustomizer Attributevalue](#attributevalue)
 - [Status](#status)
 
@@ -54,12 +54,11 @@ For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyW
 
 - [Id](#id)
 - [Name](#name)
-- [AdCustomizer Data Type](#datatype)
+- [AdCustomizer DataType](#datatype)
 - [AdCustomizer Attributevalue](#attributevalue)
 - [Parent Id](#parentid)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
-
 
 ## <a name="adgroup"></a>Ad Group
 
@@ -69,7 +68,7 @@ The name of the existing ad group to which you are assigning attribute value.
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
-## <a name="datatype"></a>AdCustomizer Data Type
+## <a name="datatype"></a>AdCustomizer DataType
 
 The data type of each custom attribute. You define the data type in the feed record, and then set values in the feed item. So long as each custom attribute name is unique within the feed you can define multiple attributes with the same data type.
 
@@ -86,7 +85,7 @@ There are four different custom attribute data types you can set for ad customiz
 
 ## <a name="attributevalue"></a>AdCustomizer Attributevalue
 
-Attribute value at account level.
+Attribute value at different entity level. The possible entity levels are Account, Campaign, Keyword and AdGroup
 
 **Add:** Optional  
 **Update:** Optional    
@@ -95,14 +94,15 @@ Attribute value at account level.
 
 ## <a name="campaign"></a>Campaign
 
-The name of the existing campaign to which you are assigning attribute value.
+The name of the campaign to which you are assigning the AdCustomizer attribute value.
 
 **Add:** Read-only  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The identifier of the ad customizer that is associated or removed from the ad group.
+
+The identifier of the ad customizer that is associated or removed.
 
 **Add:** Read-only  
 **Update:** Read-only and Required  
@@ -110,9 +110,9 @@ The identifier of the ad customizer that is associated or removed from the ad gr
 
 ## <a name="name"></a>Name
 
-The name of your customizer attribute.
+The name of your ad customizer attribute.
 
-- Each customizer attribute must have a unique name.
+- Each ad customizer attribute must have a unique name.
 - Attribute names can be up to 40 characters.
 - You can have a maximum of 40 attributes per account.
 - Attribute names cannot contain the following characters: {, }, (, ), :, /, ”, '
@@ -145,5 +145,4 @@ The ad customizer will appear in Microsoft Advertising in the following syntax: 
 
 
 ## See Also
-[Expanded Text Ads](expanded-text-ads.md)  
-[Page Feeds](page-feeds.md)  
+[Responsive Search Ads](../guides/responsive-search-ads.md)  
