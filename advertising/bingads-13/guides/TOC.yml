@@ -454,8 +454,10 @@
     - name: Overview
       href: ./bulk-guides.md
       displayName: bulk guides
-    - name: Ad Customizer Feeds
+    - name: Ad Customizer Feeds for Expanded Text Ads
       href: ./ad-customizer-feeds.md
+    - name: Ad Customizer Feeds for Responsive Search Ads
+      href: ./ad-customizer-feeds-responsive-search-ads.md
     - name: Auto Inventory Feeds
       href: ./auto-inventory-feeds.md  
     - name: Bulk Download and Upload
