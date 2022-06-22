@@ -56,39 +56,11 @@ For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyW
 - [Name](#name)
 - [AdCustomizer Data Type](#datatype)
 - [AdCustomizer Attributevalue](#attributevalue)
-- [Parent Id](#parentId)
+- [Parent Id](#parentdd)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
 
 
-## <a name="id"></a>Id
-The identifier of the ad customizer that is associated or removed from the ad group.
-
-**Add:** Read-only  
-**Update:** Read-only and Required  
-**Delete:** Read-only and Required  
-
-## <a name="name"></a>Name
-
-The name of your customizer attribute.
-
-- Each customizer attribute must have a unique name.
-- Attribute names can be up to 40 characters.
-- You can have a maximum of 40 attributes per account.
-- Attribute names cannot contain the following characters: {, }, (, ), :, /, ”, '
-
-**Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
-**Delete:** Read-only  
-
-## <a name="parentid"></a>Parent Id
-
-The identifier of the account where this ad extension is associated or removed.
-	
-This bulk field maps to the *Id* field of the [Account](account.md) record. 
-
-**Add:** Read-only  
-**Delete:** Read-only  
 
 ## <a name="datatype"></a>AdCustomizer Data Type
 
@@ -122,13 +94,33 @@ The name of the existing campaign to which you are assigning attribute value.
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
-## <a name="adgroup"></a>Ad Group
-The name of the existing ad group to which you are assigning attribute value.
+## <a name="id"></a>Id
+The identifier of the ad customizer that is associated or removed from the ad group.
+
+**Add:** Read-only  
+**Update:** Read-only and Required  
+**Delete:** Read-only and Required  
+
+## <a name="name"></a>Name
+
+The name of your customizer attribute.
+
+- Each customizer attribute must have a unique name.
+- Attribute names can be up to 40 characters.
+- You can have a maximum of 40 attributes per account.
+- Attribute names cannot contain the following characters: {, }, (, ), :, /, ”, '
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
+## <a name="parentid"></a>Parent Id
+
+The identifier of the account where this ad customizer is associated or removed.
+This bulk field maps to the *Id* field of the [Account](account.md) record. 
+
+**Add:** Read-only  
+**Delete:** Read-only  
 
 ## <a name="status"></a>Status
 Represents the ad customizer attribute status. 
@@ -143,7 +135,6 @@ Possible values are *Active* and *Deleted*. If the ad customizer attribute is as
 You can add ad customizers to these responsive search ad text fields: Headlines, Descriptions, and your Display URL's first and second paths (Path 1 and Path 2).
 
 The ad customizer will appear in Microsoft Advertising in the following syntax: {CUSTOMIZER.Attribute name:default text}. So, if your attribute name is "Count" and your default text is "10," the syntax will be {CUSTOMIZER.Count:10}.
-
 
 
 ## See Also
