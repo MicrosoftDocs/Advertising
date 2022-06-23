@@ -39,7 +39,7 @@ The entity (account, campaign, or ad group) to ad extension association limit va
 > 
 > You must associate between 2 and 20 callout ad extensions per entity. If you associate one or fewer callout extensions with your account, campaign, or ad group, then no callout text will serve with your ad. An ad may include between 2 to 4 callouts per impression.
 > 
-> For each account, only 1,000 campaigns and 1,000 ad groups can be associated with image ad extensions. 
+> For each account, only 1,000 campaigns and 1,000 ad groups can be associated with image ad extensions.
 
 |Ad Extension Type|Association Limit Per Entity|
 |------------|---------|
@@ -49,7 +49,7 @@ The entity (account, campaign, or ad group) to ad extension association limit va
 |[Callout Ad Extension](#calloutadextension)|20|
 |[Filter Link Ad Extension](#filterlinkadextension)|20|
 |[Flyer Ad Extension](#flyeradextension)|20|
-|[Image Ad Extension](#imageadextension)|15|
+|[Image Ad Extension](#imageadextension)|25|
 |[Location Ad Extension](#locationadextension)|Up to the total number of location ad extensions in your account|
 |[Price Ad Extension](#priceadextension)|20|
 |[Promotion Ad Extension](#promotionadextension)|20|
