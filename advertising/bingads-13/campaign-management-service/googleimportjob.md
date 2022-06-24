@@ -9,7 +9,11 @@ description: Defines a Google import job that can be run once or scheduled on a 
 # GoogleImportJob Data Object - Campaign Management
 Defines a Google import job that can be run once or scheduled on a recurring basis. 
 
-[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+> [!NOTE]
+> Starting August 29th, 2022, you’ll no longer be able to import expanded text ads from Google Ads. Any expanded text ads imported before August 29th can be re-imported and we’ll continue to import status changes (e.g., pause, unpause) from Google Ads.
+
+> [!IMPORTANT]
+> Make sure to import expanded text ads from Google Ads before August 29th, 2022.  
 
 An account can have up to 100 scheduled Google import jobs.  
 
