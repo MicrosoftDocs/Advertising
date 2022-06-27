@@ -9,7 +9,11 @@ description: Defines the Google import options that are available via API.
 # GoogleImportOption Data Object - Campaign Management
 Defines the Google import options that are available via API. 
 
-[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+> [!NOTE]
+> Starting August 29th, 2022, you’ll no longer be able to import expanded text ads from Google Ads. Any expanded text ads imported before August 29th can be re-imported and we’ll continue to import status changes (e.g., pause, unpause) from Google Ads.
+
+> [!IMPORTANT]
+> Make sure to import expanded text ads from Google Ads before August 29th, 2022.
 
 > [!TIP]
 > For an implementation overview, see the [Google Ads Import](../guides/google-ads-import.md) technical guide. 

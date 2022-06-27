@@ -10,6 +10,11 @@ description: These technical guides apply to the Bulk service and may also depen
 
 These technical guides apply to the Bulk service and may also depend on other Bing Ads API services.  
 
+> [!NOTE]
+>
+> * Starting August 29, 2022, you'll no longer be able to create new or edit existing ad customizers and business data for expanded text ads. We strongly encourage you to create  [responsive search ads](../guides/responsive-search-ads.md) from now on.
+> * [Learn more about this change](ad-customizer-feeds.md)
+
 ## Guides
 
 |Topic|Description|
