@@ -12,7 +12,6 @@ dev_langs:
   - python
 ---
 # SetAutoApplyOptInStatus Service Operation - Ad Insight
-
 Set the auto-apply recommendations opt-in status for a single account.
 
 ## <a name="request"></a>Request Elements

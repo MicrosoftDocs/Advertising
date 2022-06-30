@@ -4,11 +4,11 @@ ms.service: bing-ads-ad-insight-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Auto-apply opt-in status for specific recommendation type.
+description: Defines the auto-apply opt-in status for specific recommendation type.
 ---
 # AutoApplyRecommendationsInfo Data Object - Ad Insight
-
 Defines the auto-apply opt-in status for specific recommendation type. 
+
 ## Syntax
 ```xml
 <xs:complexType name="AutoApplyRecommendationsInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
