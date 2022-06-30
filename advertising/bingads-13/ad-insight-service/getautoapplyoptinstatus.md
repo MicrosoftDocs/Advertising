@@ -4,7 +4,7 @@ ms.service: bing-ads-ad-insight-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Get the status of auto-apply recommendations for a single account.
+description: Get the auto-apply recommendations opt-in status for a single account.
 dev_langs: 
   - csharp
   - java
@@ -12,7 +12,6 @@ dev_langs:
   - python
 ---
 # GetAutoApplyOptInStatus Service Operation - Ad Insight
-
 Get the auto-apply recommendations opt-in status for a single account.
 
 ## <a name="request"></a>Request Elements
@@ -25,7 +24,8 @@ The *GetAutoApplyOptInStatusRequest* object defines the [body](#request-body) an
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="recommendationtypesinputs"></a>RecommendationTypesInputs|Determines the type of recommendations that you want to get the auto-apply opt-in status for. Duplicated inputs are allowed in the same. This field includes the list of recommendation type (case sensitive) as below:<ul><li>ResponsiveSearchAdsOpportunity<li>MultiMediaAdsOpportunity<li>RemoveConflictingNegativeKeywordOpportunity<li>FixConversionGoalSettingsOpportunity<li>CreateConversionGoalOpportunity.</li></ul>You may specify a maximum of 100 input elements. |**String** array|
+|<a name="recommendationtypesinputs"></a>RecommendationTypesInputs|Determines the type of recommendations that you want to get the auto-apply opt-in status for. Duplicated inputs are allowed in the same. This field includes the list of recommendation type (case sensitive) as below:<ul><li>ResponsiveSearchAdsOpportunity<li>MultiMediaAdsOpportunity<li>RemoveConflictingNegativeKeywordOpportunity<li>FixConversionGoalSettingsOpportunity<li>CreateConversionGoalOpportunity.</li></ul>You may specify a maximum of 100 input elements. |**string** array|
+
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
 
