@@ -49,7 +49,7 @@ The *SubmitGenerateReportResponse* object defines the [body](#response-body) and
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="reportrequestid"></a>ReportRequestId|The identifier of the report request.<br/><br/>Use this identifier when calling the [PollGenerateReport](pollgeneratereport.md) to determine the status of the report request.<br/><br/>The identifier is valid for a maximum of two days. If you have not successfully downloaded the file within this period, it is removed from the download site and you will need to get a new report request identifier.<br/><br/>The string has a length up to 40 and can contain any character.|**string**|
+|<a name="reportrequestid"></a>ReportRequestId|The identifier of the report request.<br/><br/>Use this identifier when calling the [PollGenerateReport](pollgeneratereport.md) to determine the status of the report request.<br/><br/>The identifier is valid for a maximum of one day. If you have not successfully downloaded the file within this period, it is removed from the download site and you will need to get a new report request identifier.<br/><br/>The string has a length up to 40 and can contain any character.|**string**|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
