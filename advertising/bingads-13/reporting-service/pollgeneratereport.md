@@ -37,7 +37,7 @@ The *PollGenerateReportRequest* object defines the [body](#request-body) and [he
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="reportrequestid"></a>ReportRequestId|The identifier of the report request. The [SubmitGenerateReport](submitgeneratereport.md) operation returns the identifier.<br/><br/>The identifier is valid for a maximum of two days. If you have not successfully downloaded the file within this period, it is removed from the download site and you will need to get a new report request identifier.<br/><br/>The string has a length up to 40 and can contain any character.|**string**|
+|<a name="reportrequestid"></a>ReportRequestId|The identifier of the report request. The [SubmitGenerateReport](submitgeneratereport.md) operation returns the identifier.<br/><br/>The identifier is valid for a maximum of one day. If you have not successfully downloaded the file within this period, it is removed from the download site and you will need to get a new report request identifier.<br/><br/>The string has a length up to 40 and can contain any character.|**string**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
