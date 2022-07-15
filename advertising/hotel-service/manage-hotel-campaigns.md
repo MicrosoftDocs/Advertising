@@ -474,7 +474,7 @@ By default, when you request a list of hotels in a hotel group, the API returns 
 > You should use the $top and $skip query parameters to page through hotels in a UI experience only. To get all of your hotels, use the [Reporting](reporting.md) feature to download the hotels.
 >
 > - /SubAccounts('{subAccountId}')/Hotels  
-> - /SubAccounts('<subaccountid>')/HotelGroups('<hotelgroupid>')/Hotels  
+> - /SubAccounts('{subaccountid}')/HotelGroups('{hotelgroupid}')/Hotels  
 > - /SubAccounts('{subAccountId}')/Ungrouped
 
 To get the first 1,000 hotels in a hotel group, send the following request.

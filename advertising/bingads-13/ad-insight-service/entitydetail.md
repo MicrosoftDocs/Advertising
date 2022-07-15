@@ -25,10 +25,8 @@ The [EntityDetail](entitydetail.md) object has the following elements: [EntityId
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="entityid"></a>EntityId|For account, this is *AccountId*. For campaign, this is *CampaignId*. For ad group, this is *AdGroupId*. For keyword, this is *KeywordId*. For product group, this is *ProductGroupId*. For search term/website, this is *0*. |**long**|
-|<a name="entityname"></a>EntityName|For account/campaign/ad group, this is the name information. For keyword, this is the keyword text. For search term, this is the search term text. For product group, this is the node path.
-For website, this is the website URL.
-|**string**|
+|<a name="entityid"></a>EntityId|For account, this is *AccountId*. For campaign, this is *CampaignId*. For ad group, this is *AdGroupId*. For keyword, this is *KeywordId*. For product group, this is *ProductGroupId*. For search term/website, this is *0*.|**long**|
+|<a name="entityname"></a>EntityName|For account/campaign/ad group, this is the name information. For keyword, this is the keyword text. For search term, this is the search term text. For product group, this is the node path. For website, this is the website URL.|**string**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
