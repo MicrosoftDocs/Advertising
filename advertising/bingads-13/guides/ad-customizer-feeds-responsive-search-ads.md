@@ -39,7 +39,7 @@ Campaign Adcustomizer Attribute,,-4,-1,,myCampaign,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Campaign Adcustomizer Attribute,,-5,-1,,myCampaign,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,,100
 Campaign Adcustomizer Attribute,,13200021,9876521,,exisingCampaign,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ExistingNumberAttribute,,delete_value
 Adgroup Adcustomizer Attribute,,-5,-2,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,,1000
-Keyword Adcustomizer Attribute,,-5,-3,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NumberAttribute,,10000
+Keyword Adcustomizer Attribute,,-5,-3,,myCampaign,myAdGroup,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,YXkNHeEwy0i9IpR2AsXnV,Phrase,1.59,,,,,,,,,,NumberAttribute,,10000
 ```
 
 For a *AdCustomizer Attribute* record, the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md). 
@@ -59,6 +59,7 @@ For a *Campaign AdCustomizer Attribute*, *AdGroup AdCustomizer Attribute*, *KeyW
 - [Parent Id](#parentid)
 - [Campaign](#campaign)
 - [Ad Group](#adgroup)
+- [Keyword](#keyword)
 
 ## <a name="adgroup"></a>Ad Group
 
@@ -107,6 +108,14 @@ The identifier of the ad customizer that is associated or removed.
 **Add:** Read-only  
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
+
+## <a name="keyword"></a>Keyword
+
+The keyword of the ad customizer that is associated or removed.
+
+**Add:** Read-only  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
+**Delete:** Read-only  
 
 ## <a name="name"></a>Name
 
