@@ -1,6 +1,6 @@
 ---
 title: "Hotel API Reference"
-description: Describes the endpoint, headers, query parameters, and objects of the Hotel Ads API.
+description: Describes the endpoint, headers, query parameters, and objects of the Hotel Price Ads API.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: rgaritta
@@ -10,7 +10,7 @@ ms.author: v-rgaritta
 # Hotel API reference
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
 > The API and documentation are subject to change.
 
@@ -56,7 +56,7 @@ Next, append a template from the following table to add, get, and update hotel r
 |Verb|Description|
 |-|-
 |<a name="listhotelgroups"></a>GET|Gets the list of hotel groups in the specified subaccount.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotel groups. To determine the total number of groups in the subaccount, use the [$count](#count-param) query parameter. To specify the number of groups to return, use the [$top](#top-param) query parameter. To page through all groups in a subaccount, use the $top and [$skip](#skip-param) query parameters. <br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [HotelGroup](#hotelgroup) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the hotel groups to get.</li></ul>
-|<a name="addhotelgroup"></a>POST|Adds the hotel group to the specified subaccount. Use hotel groups to create logical groupings of hotel ads. You may create up to 1,000 active hotel groups per subaccount.<br /><br />**Request body**: Contains the [HotelGroup](#hotelgroup) to add to the subaccount.<br /><br />**Response body**: If successful, contains an [AddResponse](#addresponse) object. The `value` field contains the ID of the added hotel group.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount to add the hotel group to.</li></ul>
+|<a name="addhotelgroup"></a>POST|Adds the hotel group to the specified subaccount. Use hotel groups to create logical groupings of hotel price ads. You may create up to 1,000 active hotel groups per subaccount.<br /><br />**Request body**: Contains the [HotelGroup](#hotelgroup) to add to the subaccount.<br /><br />**Response body**: If successful, contains an [AddResponse](#addresponse) object. The `value` field contains the ID of the added hotel group.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount to add the hotel group to.</li></ul>
 
 ### SubAccounts('{subAccountId}')/HotelGroups('{hotelGroupId}') template
 
@@ -70,13 +70,13 @@ Next, append a template from the following table to add, get, and update hotel r
 
 |Verb|Description|
 |-|-
-|<a name="listallhotels"></a>GET|Gets the list of hotel ads in the specified subaccount. The list contains all hotels across all hotel groups in the subaccount.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotels. To determine the total number of hotels in the subaccount, use the [$count](#count-param) query parameter. To specify the number of hotels to return, use the [$top](#top-param) query parameter. To page through all hotels in a subaccount, use the $top and [$skip](#skip-param) query parameters.<br/><br/>**NOTE**: Use this call to page through hotels in a UI experience only. Do not use this call to download all hotels. To download all hotels, instead use the [Reporting](reporting.md) feature.<br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [Hotel](#hotel) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the hotels to get.</li></ul>.
+|<a name="listallhotels"></a>GET|Gets the list of hotel price ads in the specified subaccount. The list contains all hotels across all hotel groups in the subaccount.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotels. To determine the total number of hotels in the subaccount, use the [$count](#count-param) query parameter. To specify the number of hotels to return, use the [$top](#top-param) query parameter. To page through all hotels in a subaccount, use the $top and [$skip](#skip-param) query parameters.<br/><br/>**NOTE**: Use this call to page through hotels in a UI experience only. Do not use this call to download all hotels. To download all hotels, instead use the [Reporting](reporting.md) feature.<br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [Hotel](#hotel) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the hotels to get.</li></ul>.
 
 ### SubAccounts('{subAccountId}')/HotelGroups('{hotelGroupId}')/Hotels template
 
 |Verb|Description|
 |-|-
-|<a name="listhotels"></a>GET|Gets the list of hotel ads in the specified hotel group.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotels. To determine the total number of hotels in the hotel group, use the [$count](#count-param) query parameter. To specify the number of hotels to return, use the [$top](#top-param) query parameter. To page through all hotels in a group, use the $top and [$skip](#skip-param) query parameters.<br/><br/>**NOTE**: Use this call to page through hotels in a UI experience only. Do not use this call to download all hotels. To download all hotels, instead use the [Reporting](reporting.md) feature.<br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [Hotel](#hotel) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the hotel group.</li><li>`{hotelGroupId}`&mdash;Set to the ID of the hotel group that contains the hotels to get.</li></ul>.
+|<a name="listhotels"></a>GET|Gets the list of hotel price ads in the specified hotel group.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotels. To determine the total number of hotels in the hotel group, use the [$count](#count-param) query parameter. To specify the number of hotels to return, use the [$top](#top-param) query parameter. To page through all hotels in a group, use the $top and [$skip](#skip-param) query parameters.<br/><br/>**NOTE**: Use this call to page through hotels in a UI experience only. Do not use this call to download all hotels. To download all hotels, instead use the [Reporting](reporting.md) feature.<br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [Hotel](#hotel) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the hotel group.</li><li>`{hotelGroupId}`&mdash;Set to the ID of the hotel group that contains the hotels to get.</li></ul>.
 
 ### SubAccounts('{subAccountId}')/HotelGroups('{hotelGroupId}')/Hotels('{hotelId}') template
 
@@ -89,7 +89,7 @@ Next, append a template from the following table to add, get, and update hotel r
 
 |Verb|Description|
 |-|-
-|<a name="ungrouped"></a>GET|Gets the list of hotels in the Ungrouped hotel group. When you create a subaccount, the service creates the Ungrouped hotel group. All hotels from your hotel feed that are not otherwise associated with other groups are placed in this group. To associate a hotel in this group with a different hotel group, see the [Associate](#associate) template. <br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotels. To determine the total number of hotels in the Ungrouped hotel group, use the [$count](#count-param) query parameter. To specify the number of hotels to return, use the [$top](#top-param) query parameter. To page through all hotels in the group, use the $top and [$skip](#skip-param) query parameters.<br/><br/>**NOTE**: Use this call to page through hotels in a UI experience only. Do not use this call to download all hotels. To download all hotels, instead use the [Reporting](reporting.md) feature.<br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [Hotel](#hotel) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the ungrouped hotel ads to get.</li></ul>
+|<a name="ungrouped"></a>GET|Gets the list of hotels in the Ungrouped hotel group. When you create a subaccount, the service creates the Ungrouped hotel group. All hotels from your hotel feed that are not otherwise associated with other groups are placed in this group. To associate a hotel in this group with a different hotel group, see the [Associate](#associate) template. <br /><br />**NOTE**: By default, the list contains a maximum of 1,000 hotels. To determine the total number of hotels in the Ungrouped hotel group, use the [$count](#count-param) query parameter. To specify the number of hotels to return, use the [$top](#top-param) query parameter. To page through all hotels in the group, use the $top and [$skip](#skip-param) query parameters.<br/><br/>**NOTE**: Use this call to page through hotels in a UI experience only. Do not use this call to download all hotels. To download all hotels, instead use the [Reporting](reporting.md) feature.<br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [Hotel](#hotel) objects.<br /><br />**Template parameters**:<ul><li>`{subAccountId}`&mdash;Set to the ID of the subaccount that contains the ungrouped hotel price ads to get.</li></ul>
 
 ### SubAccounts('{subAccountId}')/Associations template
 
@@ -166,7 +166,7 @@ The following are the resource objects used by the API.
 |[AdsApiError](#adsapierror)|Defines an error that occurred.
 |[AdvanceBookingWindowMultiplier](#advancebookingwindowmultiplier)|Defines the amount to adjust the base bid by if the user books the specified number of days in advance.
 |[AssociationCollection](#associationcollection)|Defines a collection of hotel associations.
-|[Budget](#budget)|Defines the daily budget for hotel ads in a subaccount.
+|[Budget](#budget)|Defines the daily budget for hotel price ads in a subaccount.
 |[CollectionResponse](#collectionresponse)|Defines a response object for requests that get a list of resources.
 |[CheckinDayOfWeekMultiplier](#checkindayofweekmultiplier)|Defines the amount to adjust the base bid by if the user checks in on one of the specified weekdays.
 |[DateTypeMultiplier](#datetypemultiplier)|Defines the amount to adjust the base bid by if the user searched for hotels using specific dates.
@@ -174,12 +174,12 @@ The following are the resource objects used by the API.
 |[FixedBid](#fixedbid)|Defines a fixed bid amount.
 |[Hotel](#hotel)|Defines a hotel ad.
 |[HotelAssociation](#hotelassociation)|Defines the association between a hotel and a hotel group.
-|[HotelGroup](#hotelgroup)|Defines a logical grouping of hotel ads.
+|[HotelGroup](#hotelgroup)|Defines a logical grouping of hotel price ads.
 |[LengthOfStayMultiplier](#lengthofstaymultiplier)|Defines the amount to adjust the base bid by if the user stays the specified number of nights or longer.
 |[PercentageBid](#percentagebid)|Defines a bid based on the percentage of the per night total room rate.
 |[ReportJob](#reportjob)|Defines a report job.
 |[SiteMultiplier](#sitemultiplier)|Defines the amount to adjust the base bid by if the user is searching for hotels on one of the specified Bing sites.
-|[SubAccount](#subaccount)|Defines the top-level hotel ads grouping. You can think of this logically as a hotel campaign.
+|[SubAccount](#subaccount)|Defines the top-level hotel price ads grouping. You can think of this logically as a hotel campaign.
 |[UserCountryMultiplier](#usercountrymultiplier)|Defines the amount to adjust the base bid by if the user accesses one of the Bing domains.
 
 
@@ -241,7 +241,7 @@ Do not specify this class, instead specify the [FixedBid](#fixedbid) or [Percent
 
 ### Budget
 
-Defines the daily budget for hotel ads in a subaccount.
+Defines the daily budget for hotel price ads in a subaccount.
 
 |Name|Value|Type|Add|Update
 |-|-|-|-|-
@@ -417,7 +417,7 @@ Defines the amount to adjust the base bid by if the user is searching for hotels
 
 ### SubAccount
 
-Defines the top-level hotel ads grouping. You can think of this logically as a hotel campaign.
+Defines the top-level hotel price ads grouping. You can think of this logically as a hotel campaign.
 
 |Name|Value|Type|Add|Update
 |-|-|-|-|-
