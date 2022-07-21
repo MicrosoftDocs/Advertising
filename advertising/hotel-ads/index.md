@@ -1,22 +1,22 @@
 ---
-title: "Hotel Ads"
-description: Hotel Ads enables advertisers to showcase their hotels on Bing.com across devices.
+title: "Hotel Price Ads"
+description: Hotel Price Ads enables advertisers to showcase their hotels on Bing.com across devices.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 ---
 
-# Hotel Ads
+# Hotel Price Ads
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
-> The Hotel Ads feeds, API, and documentation are subject to change.
+> The Hotel Price Ads feeds, API, and documentation are subject to change.
 
-Hotel Ads enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see hotel ads when they are actively looking to book a hotel.
+Hotel Price Ads enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see hotel price ads when they are actively looking to book a hotel.
 
-To use Hotel Ads, you need to sign up with your account manager. As part of the sign-up process, you decide how you want to send your itinerary data to Bing. Your options are pushing changes to Bing, having Bing send you requests for all itinerary data, or having Bing send you requests for itinerary data that you identify as having changed. 
+To use Hotel Price Ads, you need to sign up with your account manager. As part of the sign-up process, you decide how you want to send your itinerary data to Bing. Your options are pushing changes to Bing, having Bing send you requests for all itinerary data, or having Bing send you requests for itinerary data that you identify as having changed. 
 
 You also work with your account manager to import your hotel and points of sale data. The hotel feed is an XML document that describes the hotels that you want to advertise. The feed provides the hotel's name, address, telephone number, and geographical coordinates. For details about creating your hotel feed, see [Hotel Feed](../hotel-feed/hotel-feed.md).
 
