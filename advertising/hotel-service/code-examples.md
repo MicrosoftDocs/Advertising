@@ -15,7 +15,7 @@ This section provides code examples that show how to use the resources available
 * Get, list, and update subaccounts: [Subaccounts code example](../hotel-service/code-example-subaccounts.md)
 * Get, list, add, and update hotel groups: [Hotel group code example](../hotel-service/code-example-hotel-groups.md)
 * Get, list, update, and associate hotels: [Hotel code example](../hotel-service/code-example-hotels.md)
-* Request and download a Hotel Ads Performance report: [Reporting code example](../hotel-service/code-example-reporting.md)
+* Request and download a Hotel Price Ads Performance report: [Reporting code example](../hotel-service/code-example-reporting.md)
 * Send multiple requests in a batch: [Batch processing code example](../hotel-service/code-example-batch.md)
 
 For a simple example that shows how to get an OAuth access and refresh token, see [Code grant flow code example](../hotel-service/code-example-oauth.md).
