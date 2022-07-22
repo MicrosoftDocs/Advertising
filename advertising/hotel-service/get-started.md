@@ -10,7 +10,7 @@ ms.author: v-rgaritta
 # Get started with the Hotel API
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
 > The API and documentation are subject to change.
 
@@ -22,9 +22,9 @@ To use the Hotel API, you must have a Microsoft Advertising account and a Micros
 
 Unlike the other Bing Ads APIs, the Hotel API does not use a developer token. The API ignores it if you include it.
 
-## Enable your account for Hotel Ads
+## Enable your account for Hotel Price Ads
 
-Your account manager needs to enable your account before you can use Hotel Ads or the API. Please confirm with your account manager that your account is enabled in both the production and sandbox environments.
+Your account manager needs to enable your account before you can use Hotel Price Ads or the API. Please confirm with your account manager that your account is enabled in both the production and sandbox environments.
 
 
 <a name="authenticatingcredentials"></a>
@@ -76,10 +76,10 @@ You use the sandbox environment to test your application before putting it in pr
 5.	For **Go Live**, click **Skip payment information**
 
 
-After creating your sandbox account and getting your MSA, let your account manager know so they can enable it for Hotel Ads. You won't be able to use Hotel Ads or the API in sandbox until it's enabled.
+After creating your sandbox account and getting your MSA, let your account manager know so they can enable it for Hotel Price Ads. You won't be able to use Hotel Price Ads or the API in sandbox until it's enabled.
 
 > [!NOTE]
-> The MSA signup process returns you to the SI Microsoft Advertising user interface (ui.si.bingads.microsoft.com). After completing the MSA process, sign out of the SI interface. To access Hotel Ads using the Microsoft Advertising user interface in sandbox, go to <a href="https://ui.sandbox.bingads.microsoft.com" data-raw-source="[https://ui.sandbox.bingads.microsoft.com](https://ui.sandbox.bingads.microsoft.com)">https://ui.sandbox.bingads.microsoft.com</a> and sign in using your new MSA email address.
+> The MSA signup process returns you to the SI Microsoft Advertising user interface (ui.si.bingads.microsoft.com). After completing the MSA process, sign out of the SI interface. To access Hotel Price Ads using the Microsoft Advertising user interface in sandbox, go to <a href="https://ui.sandbox.bingads.microsoft.com" data-raw-source="[https://ui.sandbox.bingads.microsoft.com](https://ui.sandbox.bingads.microsoft.com)">https://ui.sandbox.bingads.microsoft.com</a> and sign in using your new MSA email address.
 
 
 <a name="wheretousecredentials"></a>

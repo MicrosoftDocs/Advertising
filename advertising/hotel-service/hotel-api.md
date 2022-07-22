@@ -10,7 +10,7 @@ ms.author: v-rgaritta
 # Hotel API
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
 > The API and documentation are subject to change.
 
@@ -20,11 +20,11 @@ The Hotel API lets you manage your hotel ad campaigns and bidding.
 
 ## The basics...
 
-When you get access to Hotel Ads, the service sets up a default subaccount and hotel group that contains the hotels from your hotel feed. The subaccount provides the top-level logical organization of your hotel ads. You can think of it as a hotel campaign. You may have multiple subaccounts.
+When you get access to Hotel Price Ads, the service sets up a default subaccount and hotel group that contains the hotels from your hotel feed. The subaccount provides the top-level logical organization of your hotel price ads. You can think of it as a hotel campaign. You may have multiple subaccounts.
 
 A subaccount specifies the campaign's daily budget, maximum bid allowed, and default bid and bid multipliers for ads that don't specify bids or multipliers.
 
-Hotel groups provide another level for you to logically group hotel ads. A hotel group belongs to a single subaccount. The default hotel group that the service creates for you is named, Ungrouped. It contains all hotels from the initial hotel feed and all new hotels going forward. 
+Hotel groups provide another level for you to logically group hotel price ads. A hotel group belongs to a single subaccount. The default hotel group that the service creates for you is named, Ungrouped. It contains all hotels from the initial hotel feed and all new hotels going forward. 
  
 A hotel group specifies the default bid and bid multipliers for ads that don't specify bids or multipliers. If you don't specify bids and multipliers, the group inherits them from the subaccount.
 
@@ -39,7 +39,7 @@ For information about moving the hotel to a different hotel group, see [Associat
 
 You'll need credentials and your hotel feeds set up. For information, see [Getting Started](../hotel-service/get-started.md).
 
-Your account manager also needs to enable your account to use Hotel Ads in both the production and sandbox environments.
+Your account manager also needs to enable your account to use Hotel Price Ads in both the production and sandbox environments.
 
 
 ## How do I manage my resources?

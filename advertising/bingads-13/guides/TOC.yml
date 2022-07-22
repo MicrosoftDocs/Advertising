@@ -462,11 +462,11 @@
       href: ./auto-inventory-feeds.md  
     - name: Bulk Download and Upload
       href: ./bulk-download-upload.md
-    - name: Hotel Ads Bulk Update
+    - name: Hotel Price Ads Bulk Update
       items:
       - name: Overview
         href: ./hotel-ads-bulk.md
-        displayName: hotel ads bulk update bulk upload
+        displayName: hotel price ads bulk update bulk upload
       - name: Hotel
         href: ./hotel.md
         displayName: BulkHotel

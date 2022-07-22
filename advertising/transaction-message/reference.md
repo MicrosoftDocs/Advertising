@@ -10,9 +10,9 @@ ms.author: v-rgaritta
 # Transaction Message reference
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 
-If you create hotel ads in Bing, use transaction messages to provide Bing your itinerary data. This section describes the elements of a transaction message defined by the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
+If you create hotel price ads in Bing, use transaction messages to provide Bing your itinerary data. This section describes the elements of a transaction message defined by the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
 
 For information about creating a transaction message, see [Creating a Transaction Message](../transaction-message/create-transaction-message.md).
 
