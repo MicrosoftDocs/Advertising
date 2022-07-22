@@ -1,6 +1,6 @@
 ---
-title: "Hotel Ads Reporting Code Example"
-description: Shows how to request and download a hotel ads report.
+title: "Hotel Price Ads Reporting Code Example"
+description: Shows how to request and download a hotel price ads report.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: rgaritta
@@ -11,11 +11,11 @@ dev_langs:
 
 # Reporting code example
 
-The following example shows how to request a Hotel Ads Performance report, poll for the status of the report, and download the report when it's complete. 
+The following example shows how to request a Hotel Price Ads Performance report, poll for the status of the report, and download the report when it's complete. 
 
 For details about the elements used in this example, see the [reference](../hotel-service/reference.md) section. 
 
-For additional information, see [Hotel Ads Reporting API](../hotel-service/reporting.md). 
+For additional information, see [Hotel Price Ads Reporting API](../hotel-service/reporting.md). 
 
 This example uses the [CodeGrantFlow code example](../hotel-service/code-example-code-grant-flow.md) to get the access token. For this example to work, you must include CodeGrantFlow example in your project. For other options that you can use to get the OAuth access and refresh tokens, see [Getting Started](../hotel-service/get-started.md). 
 

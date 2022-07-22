@@ -67,7 +67,7 @@ Host: hotels.api.bingads.microsoft.com
 
 The POST request places the message in a queue to be processed and then returns. You may have a maximum of five requests queued or being processed at the same time. If you exceed the limit, the request fails with 429. 
 
-To determine whether Microsoft successfully processed the message, see Hotel Ads Feed Status in the Microsoft Hotel Center of Microsoft Advertising web application.
+To determine whether Microsoft successfully processed the message, see Hotel Price Ads Feed Status in the Microsoft Hotel Center of Microsoft Advertising web application.
 
 
 If the request succeeds (the message is successfully placed in the queue), the response's body includes an XML document that specifies the number of bytes read (`BytesReceived`) from the request's body (the transaction message). 

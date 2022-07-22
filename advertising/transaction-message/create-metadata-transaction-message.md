@@ -18,7 +18,7 @@ The transaction message should contain only the metadata that you're adding or u
 The document must use UTF-8 encoding and must conform to the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
 
 > [!IMPORTANT]
-> You must read and follow all Hotel Ads policies. For the list of policies, see [Pilot programs policies](https://advertise.bingads.microsoft.com/en-us/resources/policies/pilot-programs#Hotel%20Ads).
+> You must read and follow all Hotel Price Ads policies. For the list of policies, see [Pilot programs policies](https://advertise.bingads.microsoft.com/en-us/resources/policies/pilot-programs#Hotel%20Ads).
 
 > [!NOTE]
 > Bing does not support all Transaction XSD elements. Bing ignores any element or attribute in the message that it does not support. The [Transaction Message Reference](../transaction-message/reference.md) includes only those elements and attributes that Bing supports. 
