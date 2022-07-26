@@ -16668,6 +16668,17 @@ CampaignServiceMaxActiveResponsiveSearchAdsPerAdGroupLimitReached
 The number of active Responsive Search Ads per ad group would be exceeded.
 
 ***
+ 
+**Numeric Code**
+6228
+
+**Symbolic Error Code**
+MaxMMAAdsLimitReachedInAdGroup
+
+**Description**
+The user attempts to add more than six multimedia search ads to a single ad group.
+
+***
 
 **Numeric Code**
 6300
