@@ -89,7 +89,7 @@ Defines additional information about the hotel. (These elements may appear in an
 |attributes|Optional.<br />Data type is [Attribute type](#attributetype).<br /><br />The list of hotel amenities. Specify an \<attr> child element for each amenity you want to include.|[Attribute type](#attributetype)
 |image|Optional.<br />Data type is [Image type](#imagetype).<br /><br />An image of the hotel. You may specify one or more \<image> elements. Best image aspect ratio is 4:3.<br /><br />Attributes:<ul><li>type&mdash;Required. Set to either of the following types:<ul><li>ad&mdash;The image is an ad.</li><li>menu&mdash;The image shows the menu for the hotel's restaurant.</li><li>photo&mdash;The image is of the hotel.</li></ul><li>url&mdash;Required. The URL to the image.</li><li>width&mdash;Optional. The image's width, in pixels. Should be greater than 720 pixels.</li><li>height&mdash;Optional. The image's height, in pixels. Should be greater than 720 pixels.</li></ul>|[Image type](#imagetype)
 |neighborhoods|Optional.<br />Data type is [Neighborhood type](#neighborhoodtype).<br /><br />A list of neighborhoods where the hotel is located.|[Neighborhood type](#neighborhoodtype)
-|brand|Optional.<br />Data type is string.<br /><br />The hotel chain's brand.|None
+|brandCode|Optional.<br />Data type is string.<br /><br />The brandcode associated to the logo. This is used when you have multiple logos for the properties you are advertising.|None
 
 
 <a name="descriptiontype"></a> 
