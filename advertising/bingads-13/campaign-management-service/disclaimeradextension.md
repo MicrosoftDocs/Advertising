@@ -41,15 +41,15 @@ The [DisclaimerAdExtension](disclaimeradextension.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="disclaimerlayout"></a>DisclaimerLayout|Reserved.|**string**|
+|<a name="disclaimerlayout"></a>DisclaimerLayout|The layout of the disclaimer. Can either be *additionalLine* or *popup*.|**string**|
 |<a name="finalappurls"></a>FinalAppUrls|Reserved.|[AppUrl](appurl.md) array|
 |<a name="finalmobileurls"></a>FinalMobileUrls|Reserved.|**string** array|
 |<a name="finalurls"></a>FinalUrls|Reserved.|**string** array|
 |<a name="finalurlsuffix"></a>FinalUrlSuffix|Reserved.|**string**|
-|<a name="linetext"></a>LineText|Reserved.|**string**|
-|<a name="name"></a>Name|Reserved.|**string**|
-|<a name="popuptext"></a>PopupText|Reserved.|**string**|
-|<a name="title"></a>Title|Reserved.|**string**|
+|<a name="linetext"></a>LineText|Required text if the disclaimer is in *additionalLine* layout.|**string**|
+|<a name="name"></a>Name|The name of the disclaimer. This is only used for reporting to help identify the extension. <br/><br/>Max. length: 35 characters.|**string**|
+|<a name="popuptext"></a>PopupText|Required text if the disclaimer is in *popup* layout. <br/><br/>Max. length: 500 characters.|**string**|
+|<a name="title"></a>Title|The title of the popup in popup layout.<br/><br/>Max. length: 75 characters|**string**|
 |<a name="trackingurltemplate"></a>TrackingUrlTemplate|Reserved.|**string**|
 |<a name="urlcustomparameters"></a>UrlCustomParameters|Reserved.|[CustomParameters](customparameters.md)|
 
@@ -62,13 +62,13 @@ The [DisclaimerAdExtension](disclaimeradextension.md) object derives from the [A
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="devicepreference"></a>DevicePreference|Reserved.|**long**|
-|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|Reserved.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="scheduling"></a>Scheduling|Reserved.|[Schedule](schedule.md)|
-|<a name="status"></a>Status|Reserved.|[AdExtensionStatus](adextensionstatus.md)|
-|<a name="type"></a>Type|Reserved.|**string**|
-|<a name="version"></a>Version|Reserved.|**int**|
+|<a name="devicepreference"></a>DevicePreference|This element determines whether the preference is for the ad extension to be displayed on mobile devices or all devices.<br/><br/>To specify a preference for mobile devices, set this element to *30001*.<br/><br/>To specify all devices, set this element to *0* (zero) or leave the element nil. By default, this element will be nil.<br/><br/>This element is only applicable for the [AppAdExtension](appadextension.md) and [SitelinkAdExtension](sitelinkadextension.md) types.|**long**|
+|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for this object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
+|<a name="id"></a>Id|The unique Microsoft Advertising identifier of the ad extension.|**long**|
+|<a name="scheduling"></a>Scheduling|Determines the calendar day and time ranges when the ad extension is eligible to be shown in ads.|[Schedule](schedule.md)|
+|<a name="status"></a>Status|The status of the ad extension. The value will always be *Active* because the Campaign Management service does not return deleted ad extensions.|[AdExtensionStatus](adextensionstatus.md)|
+|<a name="type"></a>Type|The type of ad extension. <br/><br/>For more information, see [Remarks](#remarks).|**string**|
+|<a name="version"></a>Version|Tracks the number of times the ad extension has been updated.<br/><br/>The version is set to *1* when the ad extension is created, and increments by one after each update.|**int**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

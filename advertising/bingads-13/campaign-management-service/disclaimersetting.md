@@ -31,7 +31,16 @@ The [DisclaimerSetting](disclaimersetting.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="disclaimeradsenabled"></a>DisclaimerAdsEnabled|Reserved.|**boolean**|
+|<a name="disclaimeradsenabled"></a>DisclaimerAdsEnabled|This is a disclaimer ad when set to *true*. Note: This will always be a disclaimer ad once this is set to *true*.|**boolean**|
+
+## <a name="remarks"></a>Remarks
+For Java and the .NET languages, do not set the *Type* element because the value is determined by the type of setting you instantiate.
+
+If you generate the SOAP manually, use the *type* attribute of the `<Setting>` node as shown in the following example, to specify that the setting is a shopping setting.
+
+```xml
+<Setting i:type="ShoppingSetting">
+```
 
 The [DisclaimerSetting](disclaimersetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -42,7 +51,7 @@ The [DisclaimerSetting](disclaimersetting.md) object derives from the [Setting](
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting.<br/><br/>For more information, see [Remarks](#remarks).|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
