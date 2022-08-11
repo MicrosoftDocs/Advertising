@@ -70,6 +70,17 @@ The [DisclaimerAdExtension](disclaimeradextension.md) object derives from the [A
 |<a name="type"></a>Type|The type of ad extension. <br/><br/>For more information, see [Remarks](#remarks).|**string**|
 |<a name="version"></a>Version|Tracks the number of times the ad extension has been updated.<br/><br/>The version is set to *1* when the ad extension is created, and increments by one after each update.|**int**|
 
+## <a name="remarks"></a>Remarks
+If you generate the SOAP manually, use the *type* attribute of the `<AdExtension>` node as shown in the following example to specify the type of ad extension.
+
+```xml
+<AdExtension i:type="ReviewAdExtension" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <Id i:nil="true" />
+    <Status i:nil="true" />
+      . . .
+</AdExtension>
+```
+
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
