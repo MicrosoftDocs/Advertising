@@ -9,9 +9,6 @@ description: Defines the DisclaimerSetting Data Object.
 # DisclaimerSetting Data Object - Campaign Management
 Defines the DisclaimerSetting Data Object.
 
-> [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
-
 ## Syntax
 ```xml
 <xs:complexType name="DisclaimerSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
