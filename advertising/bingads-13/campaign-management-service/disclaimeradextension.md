@@ -9,9 +9,6 @@ description: Defines the DisclaimerAdExtension Data Object.
 # DisclaimerAdExtension Data Object - Campaign Management
 Defines the DisclaimerAdExtension Data Object.
 
-> [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
-
 ## Syntax
 ```xml
 <xs:complexType name="DisclaimerAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
