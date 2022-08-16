@@ -41,10 +41,10 @@ For information about changes that were included with each release, see the foll
 
 - Added support for room bundles to [Transaction Message](../transaction-message/reference.md). [Read more](../transaction-message/using-room-bundles.md).  
   - Updates include:  
-    - Added the [<PropertyDataSet>](../transaction-message/reference.md#propertydataset-type) element as a child element of the [<Transaction>](../transaction-message/reference.md#transaction) element. Used to specify the room and package metadata for a property.
-    - Added the [<PackageData>](../transaction-message/reference.md#packagedata-type) object as a child of \<PropertyDataSet>.
-    - Added the [<RoomData>](../transaction-message/reference.md#roomdata-type) object as a child of \<PropertyDataSet>.
-    - Added the [<RoomBundle>](../transaction-message/reference.md#roombundle) element as a child element of the [<Result>](../transaction-message/reference.md#result-type) element. Used to specify room types and packages for itineraries.
+    - Added the [PropertyDataSet](../transaction-message/reference.md#propertydataset-type) element as a child element of the [Transaction](../transaction-message/reference.md#transaction) element. Used to specify the room and package metadata for a property.
+    - Added the [PackageData](../transaction-message/reference.md#packagedata-type) object as a child of \<PropertyDataSet>.
+    - Added the [RoomData](../transaction-message/reference.md#roomdata-type) object as a child of \<PropertyDataSet>.
+    - Added the [RoomBundle](../transaction-message/reference.md#roombundle) element as a child element of the [Result](../transaction-message/reference.md#result-type) element. Used to specify room types and packages for itineraries.
     - Added the following types used by `RoomData` and `PackageData`:  
       - [OnPropertyCredit](../transaction-message/reference.md#onpropertycredit-type)   
       - [Miles](../transaction-message/reference.md#miles-type)   

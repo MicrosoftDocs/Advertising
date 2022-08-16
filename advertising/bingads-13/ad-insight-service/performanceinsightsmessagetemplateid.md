@@ -778,7 +778,8 @@ The [PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.
 |<a name="actbmmkeywordoppr"></a>ActBMMKeywordOppr|View a customized recommendation to increase visits to your website. |
 |<a name="actcampaigncontextkeywordoppr"></a>ActCampaignContextKeywordOppr|View a customized recommendation to increase visits to your website. |
 |<a name="actcheckpublisherwebsite"></a>ActCheckPublisherWebsite|Check the publisher report to review the performance of sites that show your ads. |
-|<a name="actcompetitionauctioninsight"></a>ActCompetitionAuctionInsight|Check the auction insights report to review the performance of sites that show your ads. |<a name="actcompetitivebudgetoppr"></a>ActCompetitiveBudgetOppr|Boost your budgets to prevent competitors from gaining impression share.|
+|<a name="actcompetitionauctioninsight"></a>ActCompetitionAuctionInsight|Check the auction insights report to review the performance of sites that show your ads. |
+|<a name="actcompetitivebudgetoppr"></a>ActCompetitiveBudgetOppr|Boost your budgets to prevent competitors from gaining impression share.|
 |<a name="actcompetitivekeywordoppr"></a>ActCompetitiveKeywordOppr|View a customized recommendation to increase visits to your website.|
 |<a name="actcompetitivelocationtargetoppr"></a>ActCompetitiveLocationTargetOppr|View a customized recommendation to increase visits to your website.|
 |<a name="actctrqualitybundle"></a>ActCTRQualityBundle|Improve the click-through rate of your ads by:|
