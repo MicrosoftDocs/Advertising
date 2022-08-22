@@ -244,6 +244,8 @@
       href: ../ad-insight-service/getkeywordopportunities.md
     - name: GetKeywordTrafficEstimates
       href: ../ad-insight-service/getkeywordtrafficestimates.md
+    - name: GetPerformanceInsightsDetailDataByAccountId
+      href: ../ad-insight-service/getperformanceinsightsdetaildatabyaccountid.md
     - name: SetAutoApplyOptInStatus
       href: ../ad-insight-service/setautoapplyoptinstatus.md
     - name: SuggestKeywordsForUrl
@@ -391,6 +393,12 @@
       href: ../ad-insight-service/operationerror.md
     - name: Opportunity
       href: ../ad-insight-service/opportunity.md
+    - name: PerformanceInsightsDetail
+      href: ../ad-insight-service/performanceinsightsdetail.md
+    - name: PerformanceInsightsMessage
+      href: ../ad-insight-service/performanceinsightsmessage.md
+    - name: PerformanceInsightsMessageParameter
+      href: ../ad-insight-service/performanceinsightsmessageparameter.md
     - name: QuerySearchParameter
       href: ../ad-insight-service/querysearchparameter.md
     - name: SearchCountsByAttributes
@@ -438,6 +446,16 @@
       href: ../ad-insight-service/matchtype.md
     - name: NetworkType
       href: ../ad-insight-service/networktype.md
+    - name: ParameterType
+      href: ../ad-insight-service/parametertype.md
+    - name: PerformanceInsightsEntityType
+      href: ../ad-insight-service/performanceinsightsentitytype.md
+    - name: PerformanceInsightsMessageTemplateId
+      href: ../ad-insight-service/performanceinsightsmessagetemplateid.md
+    - name: PerformanceInsightsUrlCategory
+      href: ../ad-insight-service/performanceinsightsurlcategory.md
+    - name: PerformanceInsightsUrlId
+      href: ../ad-insight-service/performanceinsightsurlid.md
     - name: SourceType
       href: ../ad-insight-service/sourcetype.md
     - name: TargetAdPosition
@@ -462,11 +480,11 @@
       href: ./auto-inventory-feeds.md  
     - name: Bulk Download and Upload
       href: ./bulk-download-upload.md
-    - name: Hotel Ads Bulk Update
+    - name: Hotel Price Ads Bulk Update
       items:
       - name: Overview
         href: ./hotel-ads-bulk.md
-        displayName: hotel ads bulk update bulk upload
+        displayName: hotel price ads bulk update bulk upload
       - name: Hotel
         href: ./hotel.md
         displayName: BulkHotel

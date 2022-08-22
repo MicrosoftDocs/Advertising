@@ -10,9 +10,9 @@ ms.author: v-rgaritta
 # Hotel Feed reference
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 
-If you create hotel ads in Bing, you must use a hotel feed to provide Bing information about the hotels that you advertise. You must define and import your hotel feed prior to sending Bing [Transaction Messages](../transaction-message/transaction-message.md). 
+If you create hotel price ads in Bing, you must use a hotel feed to provide Bing information about the hotels that you advertise. You must define and import your hotel feed prior to sending Bing [Transaction Messages](../transaction-message/transaction-message.md). 
 
 For information about creating a hotel feed, see [Creating a Hotel Feed](../hotel-feed/create-hotel-feed.md).
 

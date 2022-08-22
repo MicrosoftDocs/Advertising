@@ -9,9 +9,6 @@ description: Defines the DisclaimerSetting Data Object.
 # DisclaimerSetting Data Object - Campaign Management
 Defines the DisclaimerSetting Data Object.
 
-> [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
-
 ## Syntax
 ```xml
 <xs:complexType name="DisclaimerSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -31,7 +28,7 @@ The [DisclaimerSetting](disclaimersetting.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="disclaimeradsenabled"></a>DisclaimerAdsEnabled|Reserved.|**boolean**|
+|<a name="disclaimeradsenabled"></a>DisclaimerAdsEnabled|This is a disclaimer ad when set to *true*. Note: This will always be a disclaimer ad once this is set to *true*. You can only set *DiscalimerAdsEnabled* during ad creation.|**boolean**|
 
 The [DisclaimerSetting](disclaimersetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -42,7 +39,10 @@ The [DisclaimerSetting](disclaimersetting.md) object derives from the [Setting](
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting.<br/><br/>For more information, see [Setting Data Object Remarks](setting.md#remarks).|**string**|
+
+## <a name="remarks"></a>Remarks
+*DisclaimerSetting* will not be returned in *GetCampaign* unless explicitly requested in [CampaignAdditionalField](CampaignAdditionalField.md).
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

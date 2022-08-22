@@ -32,7 +32,7 @@ You should consider using the Content API if:
 
 -   You are able to integrate the Content API with the rest of your inventory management systems.
 
-If your catalog is small, or you have a limited ability to integrate with your inventory systems, you may be better off using one of the other methods for uploading your catalog (see [Submit your feed file](https://help.ads.microsoft.com/#apex/3/en/51086/1)).
+If your catalog is small, or you have a limited ability to integrate with your inventory systems, you may be better off using one of the other methods for uploading your catalog (see [About Microsoft Shopping Campaigns feed files](https://help.ads.microsoft.com/#apex/ads/en/51105/1)).
 
 
 

@@ -66,7 +66,7 @@ sections:
   - name: OAuth
     questions:
       - question: |
-          When will multi-factor authentication be required via Bing Ads API, Content API, and Hotel Ads API?  
+          When will multi-factor authentication be required via Bing Ads API, Content API, and Hotel Price Ads API?  
         answer: |
           [!INCLUDE[request-header](./includes/mfa-required.md)]
           
@@ -155,5 +155,5 @@ sections:
           |Bing Partner Program|Microsoft Advertising Partner Program|
           |Bing Shopping Campaigns|Microsoft Shopping Campaigns|
           |Keyword Planner|Keyword Planner|
-          |Hotel Ads|Hotel Ads|
+          |Hotel Price Ads|Hotel Price Ads|
           |Hotel API|Hotel API|

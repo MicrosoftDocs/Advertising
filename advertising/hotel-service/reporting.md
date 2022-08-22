@@ -1,16 +1,16 @@
 ---
-title: "Hotel Ads Reporting"
-description: Describes how to request and download a Hotel Ads report.
+title: "Hotel Price Ads Reporting"
+description: Describes how to request and download a Hotel Price Ads report.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 ---
 
-# Hotel Ads Reporting API
+# Hotel Price Ads Reporting API
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
 > The API and documentation are subject to change.
 
@@ -192,10 +192,10 @@ Date       Hotel group ID   Hotel ID   Clicks
 
 ## Books closed
 
-For information about when books close, see [Determining when books close](/advertising/guides/reports#booksclose). Determining when books close for Hotel Ads is the same as for Microsoft Advertising campaigns with the following exceptions:
+For information about when books close, see [Determining when books close](/advertising/guides/reports#booksclose). Determining when books close for Hotel Price Ads is the same as for Microsoft Advertising campaigns with the following exceptions:
 
-- Hotel Ads' reporting service uses the account's time zone.
-- Hotel Ads' reporting service doesn't support ReturnOnlyCompleteData.
+- Hotel Price Ads' reporting service uses the account's time zone.
+- Hotel Price Ads' reporting service doesn't support ReturnOnlyCompleteData.
 
 
 ## Performance report columns
@@ -333,9 +333,9 @@ You can track bookings at the hotel, hotel group, or subaccount level. But befor
 
 #### Steps to get started
 
-- Ensure each POS website has a JavaScript [UET](https://help.bingads.microsoft.com/#apex/3/en/56682/0) tag for the customer ID (CID) you're using for hotel ads.
+- Ensure each POS website has a JavaScript [UET](https://help.bingads.microsoft.com/#apex/3/en/56682/0) tag for the customer ID (CID) you're using for hotel price ads.
 - The supported [goal types](https://help.bingads.microsoft.com/#apex/3/en/56709/2) that you can use are Custom Event and Destination URL. You can reuse an existing goal or create a new one, but it must use variable revenue tracking.
-- Ask your account manager to enable you for hotel ads conversion tracking.
+- Ask your account manager to enable you for hotel price ads conversion tracking.
 - After you're enabled, edit your UET tag to begin reporting booking information.
 - Verify you tag is working properly by using the [UET Tag Helper](https://chrome.google.com/webstore/detail/uet-tag-helper-by-bing-ad/naijndjklgmffmpembnkfbcjbognokbf?utm_source=chrome-app-launcher-info-dialog).
 

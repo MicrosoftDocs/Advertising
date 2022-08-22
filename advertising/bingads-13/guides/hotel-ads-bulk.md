@@ -1,26 +1,26 @@
 ---
-title: "Hotel Ads Bulk Update"
+title: "Hotel Price Ads Bulk Update"
 ms.service: "bing-ads"
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Update hotels, hotel groups, and hotel associations with the Bulk API.
 ---
-# Hotel Ads Bulk Update
+# Hotel Price Ads Bulk Update
 
 > [!NOTE]
-> Hotel Ads is available to select beta participants only. For more information see [Hotel Ads](/advertising/hotel-ads/index). 
+> Hotel Price Ads is available to select beta participants only. For more information see [Hotel Price Ads](/advertising/hotel-ads/index). 
 
-Hotel Ads enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see hotel ads when they are actively looking to book a hotel.
+Hotel Price Ads enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see hotel price ads when they are actively looking to book a hotel.
 
-The Bulk API supports a limited set of update operations for Hotel Ads customers. 
+The Bulk API supports a limited set of update operations for Hotel Price Ads customers. 
 - Update [Hotel](hotel.md) bids
 - Update [Hotel Group](hotel-group.md) bids
 - Update [Hotel Association](hotel-association.md) e.g., add or remove hotel associations. 
 
-Use the Bulk API if you frequently update thousands or more hotels, hotel groups, and associations. You would continue to use the [Hotel Ads API](/advertising/hotel-ads/index) to setup and manage most aspects of your Hotel Ads campaigns. 
+Use the Bulk API if you frequently update thousands or more hotels, hotel groups, and associations. You would continue to use the [Hotel Price Ads API](/advertising/hotel-ads/index) to setup and manage most aspects of your Hotel Price Ads campaigns. 
 
-Hotel Ads customers new to the Bulk API should first review the [Bulk Upload](bulk-download-upload.md#bulkupload) overview. Although Bulk download is not supported for Hotel Ads, you can upload [Hotel](hotel.md), [Hotel Group](hotel-group.md), and [Hotel Association](hotel-association.md) records to make updates. Please note the file format via Bulk API does vary from what is described in [Making bulk changes in Hotel Ads](https://help.ads.microsoft.com/#apex/3/en/56882/1) via the Microsoft Hotel Center UI. 
+Hotel Price Ads customers new to the Bulk API should first review the [Bulk Upload](bulk-download-upload.md#bulkupload) overview. Although Bulk download is not supported for Hotel Price Ads, you can upload [Hotel](hotel.md), [Hotel Group](hotel-group.md), and [Hotel Association](hotel-association.md) records to make updates. Please note the file format via Bulk API does vary from what is described in [Making bulk changes in Hotel Price Ads](https://help.ads.microsoft.com/#apex/3/en/56882/1) via the Microsoft Hotel Center UI. 
 
 Possible column headers include the following CSV row. 
 
@@ -31,5 +31,5 @@ Type,Name,Id,Parent Id,Client Id,Modified Time,Bid,Bid Type,Site MapResults,Site
 For validation rules per record type, please see the [Hotel](hotel.md), [Hotel Group](hotel-group.md), and [Hotel Association](hotel-association.md) topics. 
 
 ## See Also
-[Hotel Ads](/advertising/hotel-ads/index)  
+[Hotel Price Ads](/advertising/hotel-ads/index)  
 [Bulk Download and Upload](bulk-download-upload.md)  
