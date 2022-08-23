@@ -10,7 +10,7 @@ description: Defines a Google import job that can be run once or scheduled on a 
 Defines a Google import job that can be run once or scheduled on a recurring basis. 
 
 > [!NOTE]
-> Starting August 29th, 2022, you’ll no longer be able to import expanded text ads from Google Ads. Any expanded text ads imported before August 29th can be re-imported and we’ll continue to import status changes (e.g., pause, unpause) from Google Ads.
+> **Attention**: As of August 29th, 2022, you can no longer import expanded text ads from Google Ads. Any expanded text ads imported before August 29th can be re-imported and we’ll continue to import status changes (e.g., pause, unpause) from Google Ads.
 
 > [!IMPORTANT]
 > Make sure to import expanded text ads from Google Ads before August 29th, 2022.  
