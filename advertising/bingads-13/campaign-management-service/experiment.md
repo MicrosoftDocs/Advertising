@@ -10,7 +10,7 @@ description: Defines an experiment where you split a campaign's budget and traff
 Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.
 
 > [!NOTE]
-> Starting August 29, 2022, you’ll only be able to copy expanded text ads from the base campaign to the experiment campaign, but you’ll no longer be able to edit these expanded text ads. We strongly encourage you to upgrade to [responsive search ads](../guides/responsive-search-ads.md).
+> **Attention**: As of August 29, 2022, you can only copy expanded text ads from the base campaign to the experiment campaign, but you can no longer edit these expanded text ads. **Please create at least one responsive search ad in each ad group**. For more information, see [Best practices for upgrading expanded text ads to responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60037).
 
 How would using a different bid strategy, or a different kind of targeting, affect your ad campaign's performance? Would it be better, worse, or basically the same? Now you can run an A/B test to find out!
 
