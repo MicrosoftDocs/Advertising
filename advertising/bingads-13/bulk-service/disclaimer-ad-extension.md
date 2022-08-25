@@ -319,7 +319,7 @@ Possible values are *Active* or *Deleted*.
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Required. The Status must be set to *Deleted*.
 
-## <a name="title"></a>Status
+## <a name="title"></a>Title
 The title of the popup in popup layout.
 
 Max. length: 75 characters.
