@@ -11,7 +11,7 @@ dev_langs:
 # Campaign Disclaimer Ad Extension Record - Bulk
 Defines an association record between a [Campaign](campaign.md) and a [Disclaimer Ad Extension](disclaimer-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or disclaimer ad extension, use the [Campaign](campaign.md) or [Disclaimer Ad Extension](disclaimer-ad-extension.md) record. 
 
-You can download all *Campaign Disclaimer Ad Extension* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignFilterLinkAdExtensions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Campaign Disclaimer Ad Extension* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignDisclaimerAdExtensions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would associate a disclaimer ad extension to a campaign if valid [Id](#id) and [Parent Id](#parentid) values are provided. 
 
@@ -21,13 +21,13 @@ Format Version,,,,,,,,6.0
 Campaign Disclaimer Ad Extension,Active,-11,-1111,,,ClientIdGoesHere,,
 ```
 
-If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkCampaignFilterLinkAdExtension* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
+If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkCampaignDisclaimerAdExtension* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
 
 ```csharp
 var uploadEntities = new List<BulkEntity>();
 
-// Map properties in the Bulk file to the BulkCampaignFilterLinkAdExtension
-var bulkCampaignFilterLinkAdExtension = new BulkCampaignFilterLinkAdExtension
+// Map properties in the Bulk file to the BulkCampaignDisclaimerAdExtension
+var bulkCampaignDisclaimerAdExtension = new BulkCampaignDisclaimerAdExtension
 {
     // Map properties in the Bulk file to the 
     // AdExtensionIdToEntityIdAssociation object of the Campaign Management service.
@@ -45,7 +45,7 @@ var bulkCampaignFilterLinkAdExtension = new BulkCampaignFilterLinkAdExtension
     Status = Status.Active,
 };
 
-uploadEntities.Add(bulkCampaignFilterLinkAdExtension);
+uploadEntities.Add(bulkCampaignDisclaimerAdExtension);
 
 var entityUploadParameters = new EntityUploadParameters
 {
