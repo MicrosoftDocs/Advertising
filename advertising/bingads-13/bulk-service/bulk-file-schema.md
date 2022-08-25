@@ -124,7 +124,7 @@ Record Type  |Supported Campaign Types
 [Campaign Customer List Association](campaign-customer-list-association.md)|All  
 [Campaign DayTime Criterion](campaign-daytime-criterion.md)|All  
 [Campaign DeviceOS Criterion](campaign-deviceos-criterion.md)|All  
-[Campaign Disclaimer Link Ad Extension](campaign-disclaimer-ad-extension.md)|Search 
+[Campaign Disclaimer Ad Extension](campaign-disclaimer-ad-extension.md)|Search 
 [Campaign Filter Link Ad Extension](campaign-filter-link-ad-extension.md)|Search  
 [Campaign Flyer Ad Extension](campaign-flyer-ad-extension.md)|Search  
 [Campaign Gender Criterion](campaign-gender-criterion.md)|All  
