@@ -124,6 +124,7 @@ Record Type  |Supported Campaign Types
 [Campaign Customer List Association](campaign-customer-list-association.md)|All  
 [Campaign DayTime Criterion](campaign-daytime-criterion.md)|All  
 [Campaign DeviceOS Criterion](campaign-deviceos-criterion.md)|All  
+[Campaign Disclaimer Ad Extension](campaign-disclaimer-ad-extension.md)|Search 
 [Campaign Filter Link Ad Extension](campaign-filter-link-ad-extension.md)|Search  
 [Campaign Flyer Ad Extension](campaign-flyer-ad-extension.md)|Search  
 [Campaign Gender Criterion](campaign-gender-criterion.md)|All  
@@ -161,6 +162,7 @@ Record Type  |Supported Campaign Types
 [Custom Audience](custom-audience.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom audience using the Bing Ads API.|All  
 [Customer List](customer-list.md)|All  
 [Customer List Item](customer-list-item.md)<br/><br/>Bulk download of customer list items is not supported.|All  
+[Disclaimer Ad Extension](disclaimer-ad-extension.md)|Search  
 [Dynamic Search Ad](dynamic-search-ad.md)|Search  
 [Dynamic Search Ad Label](dynamic-search-ad-label.md)|Search  
 [Expanded Text Ad](expanded-text-ad.md)|Search  
