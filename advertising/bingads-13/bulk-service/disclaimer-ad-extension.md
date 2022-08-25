@@ -153,9 +153,6 @@ For a *Disclaimer Ad Extension* record, the following attribute fields are avail
 - [Use Searcher Time Zone](#usesearchertimezone)
 - [Version](#version)
 
-## <a name="disclaimerlayout"></a>Disclaimer Layout
-The layout of the disclaimer. Can either be *additionalLine* or *popup*.
-
 ## <a name="adschedule"></a>Ad Schedule
 The list of day and time ranges that you want the ad extension to be displayed with your ads. Each day and time range includes the scheduled day of week, start/end hour, and start/end minute. Each day and time range is enclosed by left and right parentheses, and separated from other day and time ranges with a semicolon (;) delimiter. Within each day and time range the format is *Day[StartHour:StartMinue-EndHour:EndMinute]*.
 
@@ -177,6 +174,9 @@ Used to associate records in the bulk upload file with records in the results fi
 **Add:** Optional  
 **Update:** Optional    
 **Delete:** Read-only  
+
+## <a name="disclaimerlayout"></a>Disclaimer Layout
+The layout of the disclaimer. Can either be *additionalLine* or *popup*.
 
 ## <a name="editoriallocation"></a>Editorial Location
 The component or property of the ad extension that failed editorial review. 
