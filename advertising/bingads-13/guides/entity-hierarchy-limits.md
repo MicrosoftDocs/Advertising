@@ -47,6 +47,7 @@ The entity (account, campaign, or ad group) to ad extension association limit va
 |[App Ad Extension](#appadextension)|Up to the total number of app ad extensions in your account|
 |[Call Ad Extension](#calladextension)|1|
 |[Callout Ad Extension](#calloutadextension)|20|
+|[Disclaimer Ad Extension](#disclaimeradextension)|1|
 |[Filter Link Ad Extension](#filterlinkadextension)|20|
 |[Flyer Ad Extension](#flyeradextension)|20|
 |[Image Ad Extension](#imageadextension)|25|
@@ -95,6 +96,18 @@ The following table defines limits for callout ad extension properties.
 |Property|Limit|
 |------------|---------|
 |Text|The string can contain a maximum of 25 characters. Note that for Traditional Chinese characters, the text is limited to 12 characters.|
+
+### <a name="disclaimerlinkadextension"></a>Disclaimer Ad Extensions
+You can manage disclaimer ad extensions using the Bulk service ([Disclaimer Ad Extension Record](../bulk-service/disclaimer-ad-extension.md)) or Campaign Management service ([DisclaimerAdExtension](../campaign-management-service/disclaimeradextension.md)).
+
+The following table defines limits for disclaimer ad extension properties.
+
+|Property|Limit|
+|------------|---------|
+|LineText|Each value can have a maximum length of 80 characters.|
+|Name|Each value can have a maximum length of 35 characters.|
+|PopupText|Each value can have a maximum length of 500 characters.|
+|Title|Each value can have a maximum length of 75 characters.|
 
 ### <a name="filterlinkadextension"></a>Filter Link Ad Extensions
 You can manage filter link ad extensions using the Bulk service ([Filter Link Ad Extension Record](../bulk-service/filter-link-ad-extension.md)) or Campaign Management service ([FilterLinkAdExtension](../campaign-management-service/filterlinkadextension.md)).
