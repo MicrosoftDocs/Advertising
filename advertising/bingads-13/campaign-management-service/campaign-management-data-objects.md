@@ -79,7 +79,7 @@ The Campaign Management service defines the following data objects.
 |[DayTime](daytime.md)|Defines a day of the week and time range for ad extension scheduling.|
 |[DayTimeCriterion](daytimecriterion.md)|Defines a criterion that can be used to show ads to users during a specific day and time range.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
-|[DisclaimerAdExtension](disclaimeradextension.md)|Defines the DisclaimerAdExtension Data Object.|
+|[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
 |[DurationGoal](durationgoal.md)|Defines a duration conversion goal.|
 |[DynamicFeedSetting](dynamicfeedsetting.md)|Defines the DynamicFeedSetting Data Object.|
