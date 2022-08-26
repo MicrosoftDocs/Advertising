@@ -1,19 +1,19 @@
 ---
-title: "Campaign Disclaimer Ad Extension Record - Bulk"
+title: "Campaign Disclaimer Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
-description: Describes the Campaign Disclaimer Ad Extension fields in a Bulk file.
+description: Describes the Campaign Disclaimer fields in a Bulk file.
 dev_langs:
   - csharp
 ---
-# Campaign Disclaimer Ad Extension Record - Bulk
-Defines an association record between a [Campaign](campaign.md) and a [Disclaimer Ad Extension](disclaimer-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or disclaimer ad extension, use the [Campaign](campaign.md) or [Disclaimer Ad Extension](disclaimer-ad-extension.md) record. 
+# Campaign Disclaimer Record - Bulk
+Defines an association record between a [Campaign](campaign.md) and a [Disclaimer](disclaimer-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or disclaimer, use the [Campaign](campaign.md) or [Disclaimer](disclaimer-ad-extension.md) record. 
 
 You can download all *Campaign Disclaimer Ad Extension* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignDisclaimerAdExtensions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would associate a disclaimer ad extension to a campaign if valid [Id](#id) and [Parent Id](#parentid) values are provided. 
+The following Bulk CSV example would associate a disclaimer to a campaign if valid [Id](#id) and [Parent Id](#parentid) values are provided. 
 
 ```csv
 Type,Status,Id,Parent Id,Campaign,Ad Group,Client Id,Modified Time,Name
@@ -74,7 +74,7 @@ For a *Campaign Disclaimer Ad Extension* record, the following attribute fields 
 - [Status](#status)
 
 ## <a name="campaign"></a>Campaign
-The name of the campaign where this ad extension is associated or removed.
+The name of the campaign where this record is associated or removed.
 
 **Add:** Read-only and Required  
 **Delete:** Read-only and Required  
@@ -89,7 +89,7 @@ Used to associate records in the bulk upload file with records in the results fi
 **Delete:** Read-only  
 
 ## <a name="editoriallocation"></a>Editorial Location
-The component or property of the ad extension that failed editorial review. 
+The component or property of the record that failed editorial review. 
 
 **Add:** Read-only  
 **Delete:** Read-only  
@@ -101,16 +101,16 @@ A code that identifies the reason for the failure. For a list of possible reason
 **Delete:** Read-only  
 
 ## <a name="editorialstatus"></a>Editorial Status
-The editorial status of the ad extension.
+The editorial status of the record.
 
 Possible values are described in the table below.
 
 |Value|Description|
 |-----------|---------------|
-|<a name="editorialstatusactive"></a>Active|The ad extension passed editorial review.|
-|<a name="editorialstatusactivelimited"></a>ActiveLimited|The ad extension passed editorial review in one or more markets, and one or more elements of the ad extension is undergoing editorial review in another market. For example the ad extension passed editorial review for Canada and is still pending review in the United States.|
-|<a name="editorialstatusdisapproved"></a>Disapproved|The ad extension failed editorial review.|
-|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the ad extension is undergoing editorial review.|
+|<a name="editorialstatusactive"></a>Active|The record passed editorial review.|
+|<a name="editorialstatusactivelimited"></a>ActiveLimited|The record passed editorial review in one or more markets, and one or more elements of the record is undergoing editorial review in another market. For example the record passed editorial review for Canada and is still pending review in the United States.|
+|<a name="editorialstatusdisapproved"></a>Disapproved|The record failed editorial review.|
+|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the record is undergoing editorial review.|
 
 **Add:** Read-only  
 **Delete:** Read-only  
@@ -124,11 +124,11 @@ This field will not be set if a combination of terms caused the failure or if th
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The identifier of the ad extension that is associated or removed from the campaign.
+The identifier of the record that is associated or removed from the campaign.
 
-This bulk field maps to the *Id* field of the [Disclaimer Ad Extension](disclaimer-ad-extension.md) record. 
+This bulk field maps to the *Id* field of the [Disclaimer](disclaimer-ad-extension.md) record. 
 
-**Add:** Read-only and Required. You must either specify an existing ad extension identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Disclaimer Ad Extension](disclaimer-ad-extension.md) record. This is recommended if you are adding new ad extensions and associations in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Add:** Read-only and Required. You must either specify an existing record identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Disclaimer](disclaimer-ad-extension.md) record. This is recommended if you are adding new records and associations in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Delete:** Read-only and Required  
 
 ## <a name="modifiedtime"></a>Modified Time
@@ -141,11 +141,11 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The identifier of the campaign where this ad extension is associated or removed.
+The identifier of the campaign where this record is associated or removed.
 	
 This bulk field maps to the *Id* field of the [Campaign](campaign.md) record. 
 
-**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are associating ad extensions to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are associating records to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Delete:** Read-only and Required  
 
 > [!NOTE]
@@ -160,9 +160,9 @@ In a bulk file, the list of publisher countries are delimited with a semicolon (
 **Delete:** Read-only  
 
 ## <a name="status"></a>Status
-Represents the association status between the campaign and the ad extension. 
+Represents the association status between the campaign and the record. 
 
-Possible values are *Active* and *Deleted*. If the ad extension is associated with the campaign, this field's value is *Active*.
+Possible values are *Active* and *Deleted*. If the record is associated with the campaign, this field's value is *Active*.
 
 **Add:** Read-only  
 **Delete:** Required. The Status must be set to *Deleted*. 
