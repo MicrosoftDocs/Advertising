@@ -14,7 +14,6 @@ Do not try to instantiate an *AdExtension*. You can create one or more of the fo
 - [AppAdExtension](appadextension.md)  
 - [CallAdExtension](calladextension.md)  
 - [CalloutAdExtension](calloutadextension.md)  
-- [DisclaimerAdExtension](disclaimeradextension.md)  
 - [FilterLinkAdExtension](filterlinkadextension.md)  
 - [FlyerAdExtension](flyeradextension.md)  
 - [ImageAdExtension](imageadextension.md)  

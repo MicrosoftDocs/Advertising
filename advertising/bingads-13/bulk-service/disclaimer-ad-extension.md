@@ -1,21 +1,21 @@
 ---
-title: "Disclaimer Ad Extension Record - Bulk"
+title: "Disclaimer Record - Bulk"
 ms.service: bing-ads-bulk-service
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
-description: Describes the Disclaimer Ad Extension fields in a Bulk file.
+description: Describes the Disclaimer fields in a Bulk file.
 dev_langs:
   - csharp
 ---
-# Disclaimer Ad Extension Record - Bulk
-Defines a disclaimer ad extension that can be downloaded and uploaded in a bulk file.
+# Disclaimer Record - Bulk
+Defines a disclaimer that can be downloaded and uploaded in a bulk file.
 
-You can associate a disclaimer ad extension with a campaign in the account. Use the [Campaign Disclaimer Ad Extension](campaign-disclaimer-ad-extension.md) records to manage disclaimer ad extension associations.
+You can associate a disclaimer with a campaign in the account. Use the [Campaign Disclaimer](campaign-disclaimer-ad-extension.md) records to manage disclaimer associations.
 
 You can download all *Disclaimer Ad Extension* records in the account by including the [DownloadEntity](downloadentity.md) value of *DisclaimerAdExtensions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new Disclaimer Ad Extension to the account's shared library. 
+The following Bulk CSV example would add a new Disclaimer to the account's shared library. 
 
 ```csv
 Type,Status,Id,Parent Id,Campaign,Client Id,Modified Time,Start Date,End Date,Ad Schedule,Use Searcher Time Zone,Disclaimer Layout,Name,Popup Text,Title,Final Url,Mobile Final Url
@@ -129,7 +129,7 @@ var entityUploadParameters = new EntityUploadParameters
 var uploadResultEntities = (await BulkServiceManager.UploadEntitiesAsync(entityUploadParameters)).ToList();
 ```
 
-For a *Disclaimer Ad Extension* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Disclaimer* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
 
 - [Ad Schedule](#adschedule)
 - [Client Id](#clientid)
@@ -154,7 +154,7 @@ For a *Disclaimer Ad Extension* record, the following attribute fields are avail
 - [Version](#version)
 
 ## <a name="adschedule"></a>Ad Schedule
-The list of day and time ranges that you want the ad extension to be displayed with your ads. Each day and time range includes the scheduled day of week, start/end hour, and start/end minute. Each day and time range is enclosed by left and right parentheses, and separated from other day and time ranges with a semicolon (;) delimiter. Within each day and time range the format is *Day[StartHour:StartMinue-EndHour:EndMinute]*.
+The list of day and time ranges that you want the record to be displayed with your ads. Each day and time range includes the scheduled day of week, start/end hour, and start/end minute. Each day and time range is enclosed by left and right parentheses, and separated from other day and time ranges with a semicolon (;) delimiter. Within each day and time range the format is *Day[StartHour:StartMinue-EndHour:EndMinute]*.
 
 The possible values of *StartHour* range from 00 to 23, where *00* is equivalent to 12:00AM and *12* is 12:00PM.
 
@@ -164,7 +164,7 @@ The possible values of *StartMinute* and *EndMinute* range from 00 to 60.
 
 The following example demonstrates day and time ranges during weekdays from 9:00AM through 9:00PM: *(Monday[09:00-21:00]);(Tuesday[09:00-21:00]);(Wednesday[09:00-21:00]);(Thursday[09:00-21:00]);(Friday[09:00-21:00])*
 
-**Add:** Optional. If you do not set this field, the ad extension will be eligible for scheduling anytime during the calendar [start](#startdate) and [end](#enddate) dates.  
+**Add:** Optional. If you do not set this field, the record will be eligible for scheduling anytime during the calendar [start](#startdate) and [end](#enddate) dates.  
 **Update:** Optional. The individual day and time ranges cannot be updated. You can effectively update the day and time ranges by sending a new set that should replace the prior set. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.    
 **Delete:** Read-only  
 
@@ -179,7 +179,7 @@ Used to associate records in the bulk upload file with records in the results fi
 The layout of the disclaimer. Can either be *additionalLine* or *popup*.
 
 ## <a name="editoriallocation"></a>Editorial Location
-The component or property of the ad extension that failed editorial review. 
+The component or property of the record that failed editorial review. 
 
 **Add:** Read-only  
 **Update:** Read-only  
@@ -193,16 +193,16 @@ A code that identifies the reason for the failure. For a list of possible reason
 **Delete:** Read-only  
 
 ## <a name="editorialstatus"></a>Editorial Status
-The editorial status of the ad extension.
+The editorial status of the record.
 
 Possible values are described in the table below.
 
 |Value|Description|
 |-----------|---------------|
-|<a name="editorialstatusactive"></a>Active|The ad extension passed editorial review.|
-|<a name="editorialstatusactivelimited"></a>ActiveLimited|The ad extension passed editorial review in one or more markets, and one or more elements of the ad extension is undergoing editorial review in another market. For example the ad extension passed editorial review for Canada and is still pending review in the United States.|
-|<a name="editorialstatusdisapproved"></a>Disapproved|The ad extension failed editorial review.|
-|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the ad extension is undergoing editorial review.|
+|<a name="editorialstatusactive"></a>Active|The record passed editorial review.|
+|<a name="editorialstatusactivelimited"></a>ActiveLimited|The record passed editorial review in one or more markets, and one or more elements of the record is undergoing editorial review in another market. For example the record passed editorial review for Canada and is still pending review in the United States.|
+|<a name="editorialstatusdisapproved"></a>Disapproved|The record failed editorial review.|
+|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the record is undergoing editorial review.|
 
 **Add:** Read-only  
 **Update:** Read-only  
@@ -218,11 +218,11 @@ This field will not be set if a combination of terms caused the failure or if th
 **Delete:** Read-only  
 
 ## <a name="enddate"></a>End Date
-The ad extension scheduled end date string formatted as *MM/DD/YYYY*.
+The record scheduled end date string formatted as *MM/DD/YYYY*.
 
-The end date is inclusive. For example, if you set this field to 12/31/2020, the ad extensions will stop being shown at 11:59 PM on 12/31/2020.
+The end date is inclusive. For example, if you set this field to 12/31/2020, the records will stop being shown at 11:59 PM on 12/31/2020.
 
-**Add:** Optional. If you do not specify an end date, the ad extension will continue to be delivered unless you pause the associated campaigns, ad groups, or ads.  
+**Add:** Optional. If you do not specify an end date, the record will continue to be delivered unless you pause the associated campaigns, ad groups, or ads.  
 **Update:** Optional. The end date can be shortened or extended, as long as the start date is either null or occurs before the new end date. If you set this field to the *delete_value* string, then you are effectively removing the end date. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.      
 **Delete:** Read-only  
 
@@ -242,9 +242,9 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The system-generated identifier of the ad extension.
+The system-generated identifier of the record.
 
-**Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the ad extension can then be referenced in the *Id* field of dependent record types such as and [Campaign Disclaimer Ad Extension](campaign-disclaimer-ad-extension.md). This is recommended if you are adding new ad extensions and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the record can then be referenced in the *Id* field of dependent record types such as and [Campaign Disclaimer](campaign-disclaimer-ad-extension.md). This is recommended if you are adding new record and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
 
@@ -274,12 +274,12 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="name"></a>Name
-The name of the disclaimer. This is only used for reporting to help identify the extension.
+The name of the disclaimer. This is only used for reporting to help identify the record.
 
 Max. length: 35 characters.
 
 ## <a name="parentid"></a>Parent Id
-The system-generated identifier of the account that contains the ad extension.
+The system-generated identifier of the account that contains the record.
 
 This bulk field maps to the *Id* field of the [Account](account.md) record.
 
@@ -302,16 +302,16 @@ In a bulk file, the list of publisher countries are delimited with a semicolon (
 **Delete:** Read-only  
 
 ## <a name="startdate"></a>Start Date
-The ad extension scheduled start date string formatted as *MM/DD/YYYY*.
+The record scheduled start date string formatted as *MM/DD/YYYY*.
 
-The start date is inclusive. For example, if you set *StartDate* to 5/5/2020, the ad extensions will start being shown at 12:00 AM on 5/5/2020.
+The start date is inclusive. For example, if you set *StartDate* to 5/5/2020, the records will start being shown at 12:00 AM on 5/5/2020.
 
-**Add:** Optional. If you do not specify a start date, the ad extension is immediately eligible to be [scheduled](#adschedule).  
-**Update:** Optional. The start date can be shortened or extended, as long as the end date is either null or occurs after the new start date. If you set this field to the *delete_value* string, then you are effectively removing the start date and the ad extension is immediately eligible to be [scheduled](#adschedule). The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.  
+**Add:** Optional. If you do not specify a start date, the record is immediately eligible to be [scheduled](#adschedule).  
+**Update:** Optional. The start date can be shortened or extended, as long as the end date is either null or occurs after the new start date. If you set this field to the *delete_value* string, then you are effectively removing the start date and the record is immediately eligible to be [scheduled](#adschedule). The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.  
 **Delete:** Read-only  
 
 ## <a name="status"></a>Status
-The status of the ad extension.
+The status of the record.
 
 Possible values are *Active* or *Deleted*. 
 
@@ -327,14 +327,14 @@ Max. length: 75 characters.
 ## <a name="usesearchertimezone"></a>Use Searcher Time Zone
 Determines whether to use the account time zone or the time zone of the search user where the ads could be delivered.
 
-Set this property to *TRUE* if you want the ad extensions to be shown in the search user's time zone, and otherwise set it to *FALSE*.
+Set this property to *TRUE* if you want the records to be shown in the search user's time zone, and otherwise set it to *FALSE*.
 
 **Add:** Optional. If you do not specify this field or leave it empty, the default value of *FALSE* will be set and the account time zone will be used.  
 **Update:** Optional. If you set this field to the *delete_value* string, then you are effectively resetting to the default value of *FALSE*. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.  
 **Delete:** Read-only  
 
 ## <a name="version"></a>Version
-The number of times the contents of the ad extension has been updated. The version is set to 1 when you add the extension and is incremented each time it's revised.
+The number of times the contents of the record has been updated. The version is set to 1 when you add the record and is incremented each time it's revised.
 
 **Add:** Read-only  
 **Update:** Read-only    
