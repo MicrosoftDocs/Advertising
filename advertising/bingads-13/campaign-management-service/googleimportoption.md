@@ -10,10 +10,9 @@ description: Defines the Google import options that are available via API.
 Defines the Google import options that are available via API. 
 
 > [!NOTE]
-> **Attention**: As of August 29, 2022, you can no longer import expanded text ads from Google Ads. Any expanded text ads imported before August 29th can be re-imported and we’ll continue to import status changes (e.g., pause, unpause) from Google Ads.
-
-> [!IMPORTANT]
-> Make sure to import expanded text ads from Google Ads before August 29th, 2022.
+>
+> * Starting sometime next year, you'll no longer be able to import expanded text ads from Google Ads. Any expanded text ads imported before then can be re-imported and we’ll continue to import status changes (e.g., pause, unpause) from Google Ads.
+> * [Learn more about this change](https://about.ads.microsoft.com/en-us/blog/post/august-2022/you-have-5-additional-months-to-migrate-to-responsive-search-ads-deadline-extended-to-february-1-2023).
 
 > [!TIP]
 > For an implementation overview, see the [Google Ads Import](../guides/google-ads-import.md) technical guide. 

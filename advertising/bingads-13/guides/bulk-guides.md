@@ -12,7 +12,7 @@ These technical guides apply to the Bulk service and may also depend on other Bi
 
 > [!NOTE]
 >
-> * **Attention**: As of August 29, 2022, you can no longer create new or edit existing ad customizers and business data for expanded text ads. **Please create at least one responsive search ad in each ad group**. For more information, see [Best practices for upgrading expanded text ads to responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60037).
+> * Starting sometime next year, you’ll no longer be able to create new or edit existing ad customizers for expanded text ads. **Please create at least one [responsive search ad](https://help.ads.microsoft.com/#apex/ads/en/60131/1) in each ad group**.
 > * [Learn more about this change](ad-customizer-feeds.md)
 
 ## Guides
