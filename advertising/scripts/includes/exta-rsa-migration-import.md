@@ -9,7 +9,7 @@ description: Defines EXTAs to RSA migration import
 
 > [!NOTE]
 >
-> * Starting August 29, 2022, you will no longer be able to import new or edit existing expanded text ads.  
-> * Existing expanded text ads will continue to serve, and you’ll still be able to view reports on their performance.
-> * You'll be able to pause, enable, or remove your expanded text ads.
-> * [Learn more about this change](https://about.ads.microsoft.com/blog/post/april-2022/deadline-for-migration-to-responsive-search-ads-extended-to-august-29-2022).
+> * Starting sometime next year, you'll no longer be able to import new or edit existing expanded text ads.  
+> * Existing expanded text ads will continue to serve, and you'll be able to view reports on their performance.
+> * You'll still be able to pause, enable, or remove your expanded text ads.
+> * [Learn more about this change](https://about.ads.microsoft.com/en-us/blog/post/august-2022/you-have-5-additional-months-to-migrate-to-responsive-search-ads-deadline-extended-to-february-1-2023).

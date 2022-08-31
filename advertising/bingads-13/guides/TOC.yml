@@ -803,6 +803,9 @@
     - name: Campaign DeviceOS Criterion
       href: ../bulk-service/campaign-deviceos-criterion.md
       displayName: BulkCampaignDeviceCriterion
+    - name: Campaign Disclaimer
+      href: ../bulk-service/campaign-disclaimer-ad-extension.md
+      displayName: BulkCampaignDisclaimer
     - name: Campaign Filter Link Ad Extension
       href: ../bulk-service/campaign-filter-link-ad-extension.md
       displayName: BulkCampaignFilterLinkAdExtension
@@ -923,6 +926,9 @@
     - name: Customer List Item
       href: ../bulk-service/customer-list-item.md
       displayName: BulkCustomerListItem
+    - name: Disclaimer
+      href: ../bulk-service/disclaimer-ad-extension.md
+      displayName: BulkDisclaimer
     - name: Dynamic Search Ad
       href: ../bulk-service/dynamic-search-ad.md
       displayName: BulkDynamicSearchAd
