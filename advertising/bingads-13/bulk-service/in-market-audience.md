@@ -12,7 +12,7 @@ dev_langs:
 Defines an in-market audience that can be downloaded in a bulk file. 
 
 > [!NOTE]
-> This feature is available in US, CA, UK, FR, DE, IE, IT, ES, NL, SE, CH, AT, BE, NO, DK, FI, AD, BG, CY, CZ, EE, GR, HR, HU, LI, LT, LU, LV, MC, MT, PL, PT, RO, SI, SK, SM, VA, AU, IN, NZ, ID, MY, PH, SG, TH, VN, AR, BR, CL, CO, MX, PE and VE.
+> This feature is available in AD, AR, AT, AU, AW, BD, BE, BG, BN, BO, BR, BS, CA, CH, CL, CO, CR, CY, CZ, DE, DK, DM, DO, EC, EE, ES, FI, FJ, FR, GF, GR, GT, GU, GY, HN, HR, HT, HU, ID, IE, IN, IT, KY, LI, LK, LT, LU, LV, MC, MN, MQ, MS, MT, MV, MX, MY, NC, NL, NO, NP, NZ, PA, PE, PF, PG, PH, PL, PR, PT, PY, RO, SE, SG, SI, SK, SM, SV, TH, TT, UK, US, UY, VA, VE, and VN.
 
 > [!NOTE]
 > Bulk upload is not supported. You cannot add, update, or delete an in-market audience using the Bing Ads API. Having said that, you can add and delete in-market audience associations and exclusions. 
