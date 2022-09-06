@@ -137,6 +137,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Campaign Type](#campaigntype)|All|
 |[Client Id](#clientid)|All|
 |[Country Code](#countrycode)|Shopping|
+|[Disclaimer Ads Enabled](#disclaimeradsenabled)|Search|
 |[Domain Language](#domainlanguage)|Search|
 |[Dynamic Description Enabled](#dynamicdescriptionenabled)|Search|
 |[Experiment Id](#experimentid)|Search|
@@ -415,6 +416,15 @@ Note, if you set the campaign [Language](#language) or ad group [Language](ad-gr
 
 **Add:** Required if the [Campaign Type](#campaigntype) field is set to *DynamicSearchAds*. Optional if the account is in the [mixed campaigns](../guides/mixed-campaigns.md) feature pilot, if the [Campaign Type](#campaigntype) field is set to *Search*, and if the [Experiment Id](#experimentid) field is not set. You cannot include this column for other campaign types.  
 **Update:** Read-only. You cannot update the domain language.      
+**Delete:** Read-only
+
+## <a name="disclaimeradsenabled"></a>Disclaimer Ads Enabled
+This is a disclaimer campaign when set to true. Disclaimer campaigns can only contain expanded text ads (EXTA) or responsive search ads (RSA).
+
+*Note*: This will always be a disclaimer campaign once this is set to true. You can only set *DisclaimerAdsEnabled* during ad creation.
+
+**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* will be set and disclaimer ads will not be enabled for this campaign.  
+**Update:** Read-only. You cannot update *DisclaimerAdsEnabled* after campaign creation.      
 **Delete:** Read-only
 
 ## <a name="dynamicdescriptionenabled"></a>Dynamic Description Enabled
