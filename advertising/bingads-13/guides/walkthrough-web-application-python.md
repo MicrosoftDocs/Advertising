@@ -875,4 +875,3 @@ To create a Django app, then, it's necessary to first create the Django project 
 
 ## See Also
 [Get Started Using Python with Bing Ads API](get-started-python.md)  
-

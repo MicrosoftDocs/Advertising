@@ -54,7 +54,7 @@ const checkResponse = function (url, response, entity) {
   return { isGood: true };
 }
 
-// See this page to get Google credentials: https://docs.microsoft.com/en-us/advertising/scripts/examples/authenticating-with-google-services
+// See this page to get Google credentials: https://learn.microsoft.com/advertising/scripts/examples/authenticating-with-google-services
 // If you chose option 1 in Getting an access token, set accessToken to 
 // the token you received from Google OAuth playground. Otherwise, if you
 // chose option 2, set clientId, clientSecret, and refreshToken.
