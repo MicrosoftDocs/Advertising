@@ -12,7 +12,7 @@ dev_langs:
 Defines an experiment that can be downloaded in a bulk file.
 
 > [!NOTE]
-> Starting sometime next year, you'll only be able to copy expanded text ads from the base campaign to the experiment campaign, but you'll no longer be able to edit these expanded text ads. **Please create at least one [responsive search ad](https://help.ads.microsoft.com/#apex/ads/en/60131/1) in each ad group**.
+> **Upgrade your expanded text ads to responsive search ads by February 1, 2023**. After this date, you will no longer be able to create new or edit existing expanded text ads. For more information, see [About responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60037/0).
 
 With an experiment you split a campaign's budget and traffic, and then run an A/B test during a limited date range. 
 
