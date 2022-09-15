@@ -16,7 +16,7 @@ Defines a feed item that can be downloaded and uploaded in a bulk file.
 
 > [!NOTE]
 >
-> * Starting sometime next year, you'll no longer be able to create new or edit existing expanded text ads. **Please create at least one [responsive search ad](https://help.ads.microsoft.com/#apex/ads/en/60131/1) in each ad group**.
+> * **Upgrade your expanded text ads to responsive search ads by February 1, 2023**. After this date, you will no longer be able to create new or edit existing expanded text ads. For more information, see [About responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60037/0).
 > * Your scheduled feeds will continue to run and existing expanded text ads using ad customizer feeds will continue to serve. You'll be able to view reports on their performance.
 > * You'll still be able to pause, run, or remove your existing ad customizer feeds. Otherwise, attempts to create or edit existing ad customizers for expanded text ads will result in a `CustomerNotEligibleForAdCustomizersFeed` error.
 > * [Learn more about this change](https://about.ads.microsoft.com/en-us/blog/post/august-2022/you-have-5-additional-months-to-migrate-to-responsive-search-ads-deadline-extended-to-february-1-2023).
