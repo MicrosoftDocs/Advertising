@@ -59,7 +59,7 @@ The following table describes the possible campaign time zone values.
 |IndianaEast|Indiana (East) time zone.|UTC-5|
 |InternationalDateLineWest|International Date Line (West) time zone.|UTC-12|
 |IrkutskUlaanBataar|Irkutsk and Ulaanbaatar time zone.|UTC+8|
-|IslandamabadKarachiTashkent|Islamabad, Karachi, and Tashkent time zone.|UTC+5|
+|IslamabadKarachiTashkent|Islamabad, Karachi, and Tashkent time zone.|UTC+5|
 |Jerusalem|Jerusalem time zone.|UTC+2|
 |Kabul|Kabul time zone.|UTC+4.5|
 |Kathmandu|Kathmandu time zone.|UTC+5.75|
