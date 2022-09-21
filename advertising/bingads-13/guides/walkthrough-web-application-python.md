@@ -338,7 +338,7 @@ To create a Django app, then, it's necessary to first create the Django project 
         <div class="col-md-4">
             <h2>Get Started Using Python with Bing Ads API</h2>
             <p>The Bing Ads Python Software Development Kit (SDK) simplifies workflows such as OAuth authentication and report file parsing.</p>
-            <p><a class="btn btn-default" href="https://docs.microsoft.com/advertising/guides/get-started-python">Learn more &raquo;</a></p>
+            <p><a class="btn btn-default" href="https://learn.microsoft.com/advertising/guides/get-started-python">Learn more &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>Django</h2>
