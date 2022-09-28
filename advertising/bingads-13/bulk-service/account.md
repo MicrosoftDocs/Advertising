@@ -55,7 +55,7 @@ If this field is set to *true*, then the image auto-retrieve feature is enabled.
 Determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance. 
 
 > [!WARNING]
-> AutoApplyRecommendations in Bulk API will soon be deprecated. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. 
+> AutoApplyRecommendations in Bulk API will be deprecated by November 11th, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. 
 
 [!INCLUDE[coming-soon](./includes/coming-soon.md)]
 
