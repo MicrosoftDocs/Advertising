@@ -23,15 +23,14 @@ The Ad Insight service defines the following value sets.
 |[EntityType](entitytype.md)|Defines the entity types for retrieving auction insights.|
 |[KeywordIdeaAttribute](keywordideaattribute.md)|Determines which properties of the [KeywordIdea](keywordidea.md) object you want returned when calling the [GetKeywordIdeas](getkeywordideas.md) operation.|
 |[KeywordOpportunityType](keywordopportunitytype.md)|Defines the possible keyword opportunity types you can request when calling [GetKeywordOpportunities](getkeywordopportunities.md).|
-|[KPIType](kpitype.md)|Defines the type of key performance indicator. At the account level, we support *impression*, *click*, *spend*, and *conversion*. At the campaign level, we support *impression*, *click*, and *spend*.|
+|[KPIType](kpitype.md)|Defines the type of key performance indicator.|
 |[MatchType](matchtype.md)|Defines the possible keyword match type values.|
 |[NetworkType](networktype.md)|Defines the possible networks used for keyword research.|
 |[ParameterType](parametertype.md)|Defines the type of parameter: string, URL, or a list of demand entities.|
-|[PerformanceInsightsEntityType](performanceinsightsentitytype.md)|Defines the type of performance insights entity. Can be account level, campaign level, ad group level, keyword level, product group level, search term level, or website level data.
-|
-|[PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.md)|Defines the performance insights message template ID.|
-|[PerformanceInsightsUrlCategory](performanceinsightsurlcategory.md)|Defines the performance insights URL category.|
-|[PerformanceInsightsUrlId](performanceinsightsurlid.md)|Defines the performance insights URL ID.|
+|[PerformanceInsightsEntityType](performanceinsightsentitytype.md)|Defines the entity types for retrieving performance insights.|
+|[PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.md)|Defines the message template ID for performance insights.|
+|[PerformanceInsightsUrlCategory](performanceinsightsurlcategory.md)|Defines the URL category for performance insights.|
+|[PerformanceInsightsUrlId](performanceinsightsurlid.md)|Defines the URL ID for performance insights.|
 |[SourceType](sourcetype.md)|Defines the source or seed for the keyword idea.|
 |[TargetAdPosition](targetadposition.md)|Defines the possible positions where you can target an ad to appear in the search results.|
 |[TimeInterval](timeinterval.md)|Defines the possible time periods that determine the pool of data that the service uses to get the performance statistics of a keyword.|

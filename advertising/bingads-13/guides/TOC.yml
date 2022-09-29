@@ -246,6 +246,8 @@
       href: ../ad-insight-service/getkeywordtrafficestimates.md
     - name: GetPerformanceInsightsDetailDataByAccountId
       href: ../ad-insight-service/getperformanceinsightsdetaildatabyaccountid.md
+    - name: GetRecommendations
+      href: ../ad-insight-service/getrecommendations.md
     - name: SetAutoApplyOptInStatus
       href: ../ad-insight-service/setautoapplyoptinstatus.md
     - name: SuggestKeywordsForUrl
@@ -401,6 +403,14 @@
       href: ../ad-insight-service/performanceinsightsmessageparameter.md
     - name: QuerySearchParameter
       href: ../ad-insight-service/querysearchparameter.md
+    - name: Recommendation
+      href: ../ad-insight-service/recommendation.md
+    - name: RecommendationInfo
+      href: ../ad-insight-service/recommendationinfo.md
+    - name: ResponsiveSearchAdsRecommendation
+      href: ../ad-insight-service/responsivesearchadsrecommendation.md
+    - name: RSARecommendationInfo
+      href: ../ad-insight-service/rsarecommendationinfo.md
     - name: SearchCountsByAttributes
       href: ../ad-insight-service/searchcountsbyattributes.md
     - name: SearchParameter
@@ -409,6 +419,10 @@
       href: ../ad-insight-service/searchvolumesearchparameter.md
     - name: SuggestedBidSearchParameter
       href: ../ad-insight-service/suggestedbidsearchparameter.md
+    - name: SuggestedResponsiveSearchAd
+      href: ../ad-insight-service/suggestedresponsivesearchad.md
+    - name: TagRecommendations
+      href: ../ad-insight-service/tagrecommendations.md
     - name: TrafficEstimate
       href: ../ad-insight-service/trafficestimate.md
     - name: UrlSearchParameter
