@@ -41,7 +41,7 @@ The Ad Insight service defines the following data objects.
 |[DeviceCriterion](devicecriterion.md)|The device criterion that you can include when requesting keyword ideas or traffic estimates.|
 |[DeviceSearchParameter](devicesearchparameter.md)|The device search parameter filter that you can include when requesting keyword ideas.|
 |[DomainCategory](domaincategory.md)|Defines an object that contains a domain category with website coverage.|
-|[EntityDetail](entitydetail.md)|Defines an object that provides detail information for an entity.|
+|[EntityDetail](entitydetail.md)|Defines an object that provides detail information for an entity for performance insights.|
 |[EntityParameter](entityparameter.md)|Defines an object that provides parameter information for an entity.|
 |[EstimatedBidAndTraffic](estimatedbidandtraffic.md)|Defines an object that contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the corresponding keyword or ad group given the suggested bid.|
 |[EstimatedPositionAndTraffic](estimatedpositionandtraffic.md)|Defines an object that contains the estimated search results position and estimated keyword statistics such as clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified keyword given the specified bid.|
@@ -82,14 +82,19 @@ The Ad Insight service defines the following data objects.
 |[OperationError](operationerror.md)|Defines an Ad Insight operation error object that contains the details that explain why the service operation failed.|
 |[Opportunity](opportunity.md)|This is the base class from which opportunity objects derive.|
 |[PerformanceInsightsDetail](performanceinsightsdetail.md)|Defines the details for performance insights.|
-|[PerformanceInsightsMessage](performanceinsightsmessage.md)|Defines a performance insights message object.|
-|[PerformanceInsightsMessageParameter](performanceinsightsmessageparameter.md)|This is the base class from which performance insights message parameter objects derive. Do not try to instantiate a PerformanceInsightsMessageParameter. You can create one or more objects that derive from it.|
+|[PerformanceInsightsMessage](performanceinsightsmessage.md)|Defines the message for performance insights.|
+|[PerformanceInsightsMessageParameter](performanceinsightsmessageparameter.md)|Defines the message parameters for performance insights.|
 |[QuerySearchParameter](querysearchparameter.md)|The query search parameter that you can use as a seed for new keyword ideas.|
+|[Recommendation](recommendation.md)|Defines the base object of a recommendation. The ResponsiveSearchAdsRecommendation object derives from it.|
+|[RecommendationInfo](recommendationinfo.md)|Defines the base object of RecommendationInfo. The RSARecommendationInfo object derives from it.|
+|[ResponsiveSearchAdsRecommendation](responsivesearchadsrecommendation.md)|Defines an object that contains the responsive search ads to be suggested.|
+|[RSARecommendationInfo](rsarecommendationinfo.md)|Defines an object that contains the info of responsive search ads recommendation.|
 |[SearchCountsByAttributes](searchcountsbyattributes.md)|Defines an object that contains a list of keyword historical search counts for the corresponding device attribute.|
 |[SearchParameter](searchparameter.md)|This is the base class from which keyword idea search parameter objects derive.|
 |[SearchVolumeSearchParameter](searchvolumesearchparameter.md)|The search volume search parameter filter that you can include when requesting keyword ideas.|
 |[SuggestedBidSearchParameter](suggestedbidsearchparameter.md)|The suggested bid search parameter filter that you can include when requesting keyword ideas.|
-|[TextParameter](textparameter.md) Defines the text parameter for use with performance insights.
+|[SuggestedResponsiveSearchAd](suggestedresponsivesearchad.md)|Reserved.|
+|[TextParameter](textparameter.md)|Defines the text parameter for use with performance insights.|
 |[TrafficEstimate](trafficestimate.md)|Defines an object that contains traffic estimates based on the campaign, ad group, and keyword criteria you specified when calling [GetKeywordTrafficEstimates](getkeywordtrafficestimates.md).|
-|[UrlParameter](urlparameter.md)|Defines the URL parameter for use with performance insights.
+|[UrlParameter](urlparameter.md)|Defines the URL parameter for use with performance insights.|
 |[UrlSearchParameter](urlsearchparameter.md)|The URL search parameter that you can use as a seed for new keyword ideas.|

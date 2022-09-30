@@ -31,7 +31,9 @@ The Ad Insight service defines the following service operations.
 |[GetKeywordLocations](getkeywordlocations.md)|Gets the geographical locations of users who have searched for the specified keywords.|1,000 *Keywords*<br/>10 *MaxLocations*|
 |[GetKeywordOpportunities](getkeywordopportunities.md)|Gets a list of keyword suggestions that are relevant to the specified ad group.|1 *AdGroupId*<br/>1 *CampaignId*|
 |[GetKeywordTrafficEstimates](getkeywordtrafficestimates.md)|Provides traffic estimates for keywords e.g., average CPC, average position, clicks, CTR, impressions, and total cost.|N/A.|
-|[GetPerformanceInsightsDetailDataByAccountId](getperformanceinsightsdetaildatabyaccountid.md)|Gets the performance insights detail data for a single account.|
+|[GetPerformanceInsightsDetailDataByAccountId](getperformanceinsightsdetaildatabyaccountid.md)|Gets the performance insights detail data for a single account.|N/A.|
+|[GetRecommendations](getrecommendations.md)|Discover recommendations.|A maximum of 2,000 recommendations returned for the *ResponsiveSearchAds* recommendation. |
 |[SetAutoApplyOptInStatus](setautoapplyoptinstatus.md)|Set the auto-apply recommendations opt-in status for a single account.|The number of distinct recommendation types is no more than 100 |
 |[SuggestKeywordsForUrl](suggestkeywordsforurl.md)|Suggests the possible keywords for the content located at the specified URL.|200 *MaxKeywords*<br/>1 *Url*|
 |[SuggestKeywordsFromExistingKeywords](suggestkeywordsfromexistingkeywords.md)|Suggests keywords that could perform better than the specified keywords.|1,000 *Keywords*<br/>100 *MaxSuggestionsPerKeyword*|
+|[TagRecommendations](tagrecommendations.md)|Tag a recommendation as applied or dismissed. |No more than 100 recommendations input. |
