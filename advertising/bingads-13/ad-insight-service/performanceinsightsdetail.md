@@ -4,7 +4,7 @@ ms.service: bing-ads-ad-insight-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Defines a performance insights detail object.
+description: Defines the details for performance insights.
 ---
 # PerformanceInsightsDetail Data Object - Ad Insight
 Defines the details for performance insights.

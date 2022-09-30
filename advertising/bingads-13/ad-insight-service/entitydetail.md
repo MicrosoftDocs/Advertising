@@ -4,7 +4,7 @@ ms.service: bing-ads-ad-insight-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Defines an object that provides detail information for an entity.
+description: Defines an object that provides detail information for an entity for performance insights.
 ---
 # EntityDetail Data Object - Ad Insight
 Defines an object that provides detail information for an entity for performance insights.

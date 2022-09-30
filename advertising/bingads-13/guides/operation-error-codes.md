@@ -1445,6 +1445,28 @@ Duplicate RecommendationTypes are contained in the array of input
 
 ***
 
+**Numeric Code**
+829
+
+**Symbolic Error Code**
+RecommendationInfoExceeded
+
+**Description**
+The RecommendationInfo list exceeds the size limit.
+
+***
+
+**Numeric Code**
+830
+
+**Symbolic Error Code**
+DuplicateRecommendationType
+
+**Description**
+RecommendationInfo(RecommendationId) are contained in the array of input.
+
+***
+
 ## 1000
 ***
 

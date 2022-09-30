@@ -4,7 +4,7 @@ ms.service: bing-ads-ad-insight-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Defines the URL parameter for use with performance insights. Derives from PerformanceInsightsMessageParameter..
+description: Defines the URL parameter for use with performance insights.
 ---
 # UrlParameter Data Object - Ad Insight
 Defines the URL parameter for use with performance insights. Derives from *PerformanceInsightsMessageParameter*.
