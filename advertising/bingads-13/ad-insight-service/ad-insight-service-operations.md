@@ -36,4 +36,4 @@ The Ad Insight service defines the following service operations.
 |[SetAutoApplyOptInStatus](setautoapplyoptinstatus.md)|Set the auto-apply recommendations opt-in status for a single account.|The number of distinct recommendation types is no more than 100 |
 |[SuggestKeywordsForUrl](suggestkeywordsforurl.md)|Suggests the possible keywords for the content located at the specified URL.|200 *MaxKeywords*<br/>1 *Url*|
 |[SuggestKeywordsFromExistingKeywords](suggestkeywordsfromexistingkeywords.md)|Suggests keywords that could perform better than the specified keywords.|1,000 *Keywords*<br/>100 *MaxSuggestionsPerKeyword*|
-|[TagRecommendations](tagrecommendations.md)|Tag a recommendation as applied or dismissed. |No more than 100 recommendations input. |
+|[TagRecommendations](tagrecommendations.md)|Tag a recommendation as *applied* or *dismissed*. |No more than 100 recommendations input. |
