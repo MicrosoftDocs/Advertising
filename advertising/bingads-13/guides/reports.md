@@ -199,6 +199,9 @@ The [ReturnOnlyCompleteData](../reporting-service/reportrequest.md#returnonlycom
 
 When a user clicks an ad, it can take up to two hours for the system to process the click (3 hours for conversions) and make it available for reporting. Data is generally considered complete with books closed after 3 hours. In some exception cases due to invalid traffic, there could be unexpected adjustments that might take a week or more to resolve. For example, if an advertiser complaint identifies invalid click activity that escaped the automated filtration system, the Traffic Quality and support teams will process a credit to the advertiser's account, and will partner with internal teams to determine whether they can update automated systems in order to improve detection in the future. For more information, please see [Traffic Quality Center](https://about.ads.microsoft.com/en-us/resources/policies/traffic-quality).
 
+## <a name="mrcaccreditedmetrics"></a>MRC Accredited Metrics
+The search ads clicks metric is accredited by the Media Rating Council (MRC); this accreditation does not apply to any other metric. See the [click measurement description of methodology](https://about.ads.microsoft.com/en-us/resources/policies/microsoft-advertising-click-measurement-description-of-methodology) for more information.
+
 ## See Also
 [Report Attributes and Performance Statistics](report-attributes-performance-statistics.md)  
 [Report Types](report-types.md)  
