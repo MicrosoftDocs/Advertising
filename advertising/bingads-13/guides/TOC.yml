@@ -199,6 +199,8 @@
       href: ./budget-bid-opportunities.md
     - name: Keyword Ideas and Traffic Estimates
       href: ./keyword-ideas-traffic-estimates.md
+    - name: Responsive Search Ads Opportunities
+      href: ./responsive-search-ads-opportunities.md
   - name: Ad Insight Service Operations
     items: 
     - name: Overview
@@ -254,6 +256,8 @@
       href: ../ad-insight-service/suggestkeywordsforurl.md
     - name: SuggestKeywordsFromExistingKeywords
       href: ../ad-insight-service/suggestkeywordsfromexistingkeywords.md
+    - name: TagRecommendations
+      href: ../ad-insight-service/tagrecommendations.md
   - name: Ad Insight Data Objects
     items: 
     - name: Overview
@@ -421,8 +425,6 @@
       href: ../ad-insight-service/suggestedbidsearchparameter.md
     - name: SuggestedResponsiveSearchAd
       href: ../ad-insight-service/suggestedresponsivesearchad.md
-    - name: TagRecommendations
-      href: ../ad-insight-service/tagrecommendations.md
     - name: TrafficEstimate
       href: ../ad-insight-service/trafficestimate.md
     - name: UrlSearchParameter
