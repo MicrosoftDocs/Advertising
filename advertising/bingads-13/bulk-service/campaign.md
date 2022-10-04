@@ -428,6 +428,9 @@ This is a disclaimer campaign when set to true. Disclaimer campaigns can only co
 **Delete:** Read-only
 
 ## <a name="dynamicdescriptionenabled"></a>Dynamic Description Enabled
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 Determines whether to automatically generate dynamic search ad text in addition to the ad text you provide. During ad delivery, we will use artificial intelligence to choose the best ad text available from these options.   
 
 Set this element to *true* if you want to enable dynamic search ad text, and otherwise set it to *false*. 
