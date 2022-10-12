@@ -99,7 +99,8 @@ Defines the amenities that are part of a package deal.
 |BreakfastIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary breakfast. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul> The default is false. You can use \<BreakfastIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free breakfast for all guests.|None
 |LunchIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary Lunch. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul> The default is false. You can use \<LunchIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free lunch for all guests.|None
 |DinnerIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary Dinner. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul> The default is false. You can use \<DinnerIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free dinner for all guests.|None
-|DrinksIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary drinks. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul> The default is false. You can use \<DrinksIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free drinks for all guests.|None
+|SnacksIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary snacks. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul> The default is false. You can use \<DinnerIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free snacks for all guests.|None
+|BeveragesIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary drinks. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul> The default is false. You can use \<DrinksIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free drinks for all guests.|None
 |ParkingIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary parking. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul>The default is false. You can use \<ParkingIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free parking for all guests.|None
 |InternetIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes complimentary Internet service. Valid values are:<ul><li>1 (true)</li><li>0 (false)</li><li>true</li><li>false</li></ul>The default is false. You can use \<InternetIncluded/> as a shortcut for true.<br /><br />Don't include in a room bundle if the hotel provides free internet service for all guests.|None
 |MembershipBenefitsIncluded|Optional.<br /><br />Defines membership benefits that apply for the length of the guest's stay.|[MembershipBenefits Type](#membershipbenefits-type)
@@ -116,7 +117,7 @@ Defines a type of room.
 |-|-|-
 |RoomID|Required.<br />Data type is string.<br /><br />An ID that uniquely identifies the room. If your \<Result> element contains \<RoomBundle>, set the bundles' \<RoomID> element to this ID, as appropriate. You may also use this ID to set the `Result` object's \<RoomID> element, if you don't use room bundles but want to identify a type of room.|None
 |Room Size| Optional. Size of the room in square meter or square feet. | [Text Type](#text-type)
-|Bed arrangements| Optional. The arrangement of beds in this room. (for example: 1 Extra-large double bed(s) (Super-king size))| [Text Type](#text-type)
+|BedArrangement| Optional. A container for bed arrangements in this room.| [BedArrangement Type](#bedArrangement-type)
 |Name|Required.<br /><br />A name that identifies the type of room (for example, non-smoking, single queen room). This should be the same name that you use to identify the room on your website. Specify a `Text` element for each language you support.|[Text Type](#text-type)
 |Description|Optional.<br /><br />A description of the room. Specify a `Text` element for each language you support.|[Text Type](#text-type)
 |PhotoURL|Optional.<br /><br />A container object that contains the URL of an image of the room type. You may specify one or more photos. |[PhotoURL Type](#photourl-type)
@@ -152,6 +153,14 @@ Defines a container object that contains details about occupancy.
 |NumAdults|Required.<br />Data type is integer.<br /><br />The maximum number of adults the room is intended to accommodate.|None
 |Children|Optional.<br /><br />A container object the identifies the ages of children the room is intended to accommodate.|[Children Type](#children-type)
 
+## BedArrangement Type
+
+Defines a container object that contains details about the bed arrangement of the room.
+
+|Element|Description|Children
+|-|-|-
+|BedType|Required.<br />Data type is string.<br /><br />The type of bed in this room (for example: Extra-large double bed)|None
+|BedCount|Required.<br />Data type is integer.<br /><br />The number of bed(s) for this bed type.|None
 
 ## Children Type
 
@@ -159,7 +168,7 @@ Defines a container object that identifies the ages of children the room is inte
 
 |Element|Description|Children
 |-|-|-
-|Child|Attributes:<ul><li>age&mdash;The age of the child the room is intended to accommodate.</li></ul> |None
+|Child|Attributes:<ul><li>age&mdash;The maximum age of the child the room is intended to accommodate.</li></ul> |None
 
 
 ## PhotoUrl Type
