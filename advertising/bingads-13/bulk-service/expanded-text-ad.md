@@ -13,6 +13,8 @@ Defines an expanded text ad that can be downloaded and uploaded in a bulk file.
 
 This ad format works seamlessly on mobile, tablet and desktop devices so you can focus more on crafting your longer ad copy and optimizing your ad text to better engage your customers before they click your ad.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
+
 > [!NOTE]
 > Expanded text ads can only be created in Search campaigns where the [Ad Group Type](ad-group.md#adgrouptype) is set to "SearchStandard". If the [Ad Group Type](ad-group.md#adgrouptype) is set to "SearchDynamic", then the ad group does not support expanded text ads.  
 
@@ -508,7 +510,7 @@ The following validation rules apply to tracking templates. For more details abo
 
 - The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*. 
 
-- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.   

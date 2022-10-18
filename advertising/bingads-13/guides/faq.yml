@@ -2,11 +2,10 @@
 metadata:
   title: "Frequently asked questions"
   ms.service: "bing-ads"
-  ms.topic: "article"
+  ms.topic: faq
   author: rgaritta
   ms.author: v-rgaritta
   description: Find answers to some frequently asked questions about the Bing Ads API.
-    
 title: Frequently asked questions
 summary: This article contains answers to some frequently asked questions about the Bing Ads API.
 
@@ -17,12 +16,12 @@ sections:
       - question: |
           Where can I get help?
         answer: |
-          The [Microsoft Q&A](https://docs.microsoft.com/answers/topics/advertising-api.html) forum is available for the developer community to ask and answer questions about the Bing Ads APIs and Microsoft Advertising Scripts. Microsoft monitors the forums and replies to questions that the community has not yet answered. 
+          The [Microsoft Q&A](/answers/topics/advertising-api.html) forum is available for the developer community to ask and answer questions about the Bing Ads APIs and Microsoft Advertising Scripts. Microsoft monitors the forums and replies to questions that the community has not yet answered. 
           
           > [!IMPORTANT]
           > To make sure that we see your question, tag it with 'advertising-api'.  
           
-          If the investigation involves sensitive account or personal details, or if you are not finding the information you need to solve your problem via [Microsoft Q&A](https://docs.microsoft.com/answers/topics/advertising-api.html), please contact [Microsoft Advertising Support](https://about.ads.microsoft.com/en-us/microsoft-advertising-support). To resolve the issue efficiently, please provide support with the details requested in [Engaging Support](handle-service-errors-exceptions.md#contact-support). 
+          If the investigation involves sensitive account or personal details, or if you are not finding the information you need to solve your problem via [Microsoft Q&A](/answers/topics/advertising-api.html), please contact [Microsoft Advertising Support](https://about.ads.microsoft.com/microsoft-advertising-support). To resolve the issue efficiently, please provide support with the details requested in [Engaging Support](handle-service-errors-exceptions.md#contact-support). 
           
       - question: |
           How can I find out about changes?
@@ -67,7 +66,7 @@ sections:
   - name: OAuth
     questions:
       - question: |
-          When will multi-factor authentication be required via Bing Ads API, Content API, and Hotel Ads API?  
+          When will multi-factor authentication be required via Bing Ads API, Content API, and Hotel Price Ads API?  
         answer: |
           [!INCLUDE[request-header](./includes/mfa-required.md)]
           
@@ -156,5 +155,5 @@ sections:
           |Bing Partner Program|Microsoft Advertising Partner Program|
           |Bing Shopping Campaigns|Microsoft Shopping Campaigns|
           |Keyword Planner|Keyword Planner|
-          |Hotel Ads|Hotel Ads|
+          |Hotel Price Ads|Hotel Price Ads|
           |Hotel API|Hotel API|

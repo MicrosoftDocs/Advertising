@@ -131,6 +131,7 @@ For a *Responsive Ad* record, the following attribute fields are available in th
 - [Campaign](#campaign)
 - [Client Id](#clientid)
 - [Custom Parameter](#customparameter)
+- [Descriptions](#descriptions)
 - [Editorial Appeal Status](#editorialappealstatus)
 - [Editorial Location](#editoriallocation)
 - [Editorial Reason Code](#editorialreasoncode)
@@ -138,6 +139,7 @@ For a *Responsive Ad* record, the following attribute fields are available in th
 - [Editorial Term](#editorialterm)
 - [Final Url](#finalurl)
 - [Headline](#headline)
+- [Headlines](#headlines)
 - [Final Url Suffix](#finalurlsuffix)
 - [Id](#id)
 - [Images](#images)
@@ -145,6 +147,7 @@ For a *Responsive Ad* record, the following attribute fields are available in th
 - [Landscape Image Media Id](#landscapeimagemediaid)
 - [Landscape Logo Media Id](#landscapelogomediaid)
 - [Long Headline](#longheadline)
+- [Long Headlines](#longheadlines)
 - [Mobile Final Url](#mobilefinalurl)
 - [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
@@ -181,7 +184,7 @@ A brief, punchy reason for customers to click your ad right now.
 
 The possible values are AddToCart, ApplyNow, BookNow, BookTravel, Buy, BuyNow, ContactUs, Download, GetQuote, Install, LearnMore, NoButton, OpenLink, OrderNow, RegisterNow, SeeMore, ShopNow, SignUp, Subscribe, and VisitSite.
 
-**Add:** Read-only  
+**Add:** Not applicable for audience ads.   
 **Update:** Read-only     
 **Delete:** Read-only 
 
@@ -218,6 +221,30 @@ In a bulk file, the list of custom parameters are formatted as follows.
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
 **Delete:** Read-only  
+
+## <a name="descriptions"></a>Descriptions
+Depending on your audience ad's placement, this text will appear below or adjacent to your ad's long or short headline.  
+
+You have more character space to work with in the ad text than in the headline. So once the imagery and headline have a potential customer's attention, the ad text needs to convince them to click it. What sets your product or service apart?
+
+The text must contain at least one word.
+
+The upperlimit of descriptions is 5. The length of the string is limited to 90 characters.
+The data format of headlines are included in the example JSON below.
+```json
+[{
+	"text": "Contoso",
+},
+{
+	"text": "Quick & Easy Setup"
+},
+{
+	"text": "Seamless Integration"
+}]
+```
+**Add:** Required  
+**Update:** Optional. If no value is set for the update, this setting is not changed.
+**Delete:** Read-only 
 
 ## <a name="editorialappealstatus"></a>Editorial Appeal Status
 Determines whether you can appeal the issues found by the editorial review.
@@ -307,7 +334,7 @@ The final URL suffix can include tracking parameters that will be appended to th
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
-
+k
 ## <a name="headline"></a>Headline
 This is one of two possible headlines that could appear in your audience ads. 
 
@@ -316,7 +343,26 @@ Because audience ads are responsive, we require multiple headlines so they can f
 The length of the string is limited to 30 characters.
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.     
+**Update:** Deprecated. Use Headlines instead.  
+**Delete:** Read-only 
+
+## <a name="headlines"></a>Headlines
+Because audience ads are responsive, we require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
+
+The upperlimit of headlines is 15. And the length of each headline is limited to 30 characters. The data format of headlines are included in the example JSON below.
+```json
+[{
+	"text": "Contoso",
+},
+{
+	"text": "Quick & Easy Setup"
+},
+{
+	"text": "Seamless Integration"
+}]
+```
+**Add:** Required  
+**Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only 
 
 ## <a name="id"></a>Id
@@ -499,7 +545,26 @@ Because audience ads are responsive, we require multiple headlines so they can f
 The length of the string is limited to 90 characters.
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.     
+**Update:** Deprecated. Use Long Headlines instead.   
+**Delete:** Read-only 
+
+## <a name="longheadlines"></a>Long Headlines
+Because audience ads are responsive, we require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
+
+The upperlimit of long headlines is 5. And the length of each headline is limited to 90 characters. The data format of long headlines are included in the example JSON below.
+```json
+[{
+	"text": "Contoso",
+},
+{
+	"text": "Quick & Easy Setup"
+},
+{
+	"text": "Seamless Integration"
+}]
+```
+**Add:** Required  
+**Update:** Optional. If no value is set for the update, this setting is not changed.   
 **Delete:** Read-only 
 
 ## <a name="mobilefinalurl"></a>Mobile Final Url
@@ -597,7 +662,7 @@ The length of the string is limited to 90 characters.
 The text cannot contain the newline (\n) character.
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.     
+**Update:** Deprecated. Use Descriptions instead.   
 **Delete:** Read-only  
 
 ## <a name="trackingtemplate"></a>Tracking Template
@@ -611,7 +676,7 @@ The following validation rules apply to tracking templates. For more details abo
 
 - The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*. 
 
-- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    

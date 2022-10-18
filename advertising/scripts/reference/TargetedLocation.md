@@ -9,7 +9,7 @@ ms.topic: "article"
 
 # TargetedLocation
 
-Contains the methods for managing location targets. For information about location criteria, see [Show ads to your target audience](../../bingads-13/guides/show-ads-target-audience.md) and [Geographical Location Codes](../../bingads-13/guides/show-ads-target-audience.md).
+Contains the methods for managing location targets. For information about location criteria, see [Show ads to your target audience](../../bingads-13/guides/show-ads-target-audience.md) and [Geographical Location Codes](/advertising/guides/geographical-location-codes).
 
 ## Methods
 |Method Name|Return Type|Description|

@@ -21,7 +21,7 @@ Before your application can authenticate Microsoft Advertising users, you must r
     ![Supported account types](media/supported-account-types.png "Supported account types")  
 
     > [!IMPORTANT]
-    > You must select **Accounts in any organizational directory and personal Microsoft accounts** during the initial app registration. This setting cannot be updated later in the portal unless you modify the [application manifest](https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest) e.g., ```"signInAudience": "AzureADandPersonalMicrosoftAccount"```.  
+    > You must select **Accounts in any organizational directory and personal Microsoft accounts** during the initial app registration. This setting cannot be updated later in the portal unless you modify the [application manifest](/azure/active-directory/develop/reference-app-manifest) e.g., ```"signInAudience": "AzureADandPersonalMicrosoftAccount"```.  
 
 1. Select **Register** to create the application. 
 1. On the app **Overview** page, find the **Application (client) ID** value and record it for later. You will use it as the `client_id` when you [request user consent](authentication-oauth-consent.md) and [get an access token](authentication-oauth-get-tokens.md).  

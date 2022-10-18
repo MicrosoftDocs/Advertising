@@ -52,7 +52,10 @@ If this field is set to *true*, then the image auto-retrieve feature is enabled.
 **Update:** Optional. If no value is set for the update, this setting is not changed.     
 
 ## <a name="autoapplyrecommendations"></a>Auto Apply Recommendations
-Determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.  
+Determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance. 
+
+> [!WARNING]
+> AutoApplyRecommendations in Bulk API will be deprecated by November 11th, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. 
 
 [!INCLUDE[coming-soon](./includes/coming-soon.md)]
 
@@ -173,7 +176,7 @@ The following validation rules apply to tracking templates. For more details abo
 
 - The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*. 
 
-- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.   

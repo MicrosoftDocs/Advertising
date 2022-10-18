@@ -62,3 +62,5 @@ Namespace: https\://bingads.microsoft.com/AdInsight/v13
 
 ## Used By
 [GetAuctionInsightData](getauctioninsightdata.md)  
+[GetPerformanceInsightsDetailDataByAccountId](getperformanceinsightsdetaildatabyaccountid.md)  
+[PerformanceInsightsDetail](performanceinsightsdetail.md)  

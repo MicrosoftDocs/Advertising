@@ -10,11 +10,11 @@ ms.author: v-rgaritta
 # Manage Hotel Ad campaigns
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
 > The API and documentation are subject to change.
 
-The Hotel API lets you manage your hotel ad campaigns and bidding. A subaccount provides the top-level logical organization of your hotel ads. You can think of it as a hotel campaign. You may have a maximum of 50 active subaccounts.
+The Hotel API lets you manage your hotel ad campaigns and bidding. A subaccount provides the top-level logical organization of your hotel price ads. You can think of it as a hotel campaign. You may have a maximum of 50 active subaccounts.
 
 A subaccount specifies the campaign's daily budget, maximum bid allowed, and default bid and bid multipliers for ads that don't specify bids or multipliers.
 
@@ -29,13 +29,13 @@ If you haven't already done so, familiarize yourself with the following topics:
 
 For Hotel API endpoints, see [Endpoints](../hotel-service/reference.md#endpoints). 
 
-For information about reporting, see [Hotel Ads Reporting API](reporting.md).
+For information about reporting, see [Hotel Price Ads Reporting API](reporting.md).
 
 <a name="workingwithsubaccounts"></a>
 
 ## Working with subaccounts
 
-Subaccounts are the top-level organization of Hotel Ads. The service creates the default subaccount for you when you sign up for Hotel Ads. The API lets you add subaccounts, list subaccounts, get a specific subaccount, and update a subaccount.
+Subaccounts are the top-level organization of Hotel Price Ads. The service creates the default subaccount for you when you sign up for Hotel Price Ads. The API lets you add subaccounts, list subaccounts, get a specific subaccount, and update a subaccount.
 
 The following are the REST templates that you use to manage subaccounts.
 
@@ -474,7 +474,7 @@ By default, when you request a list of hotels in a hotel group, the API returns 
 > You should use the $top and $skip query parameters to page through hotels in a UI experience only. To get all of your hotels, use the [Reporting](reporting.md) feature to download the hotels.
 >
 > - /SubAccounts('{subAccountId}')/Hotels  
-> - /SubAccounts('<subaccountid>')/HotelGroups('<hotelgroupid>')/Hotels  
+> - /SubAccounts('{subaccountid}')/HotelGroups('{hotelgroupid}')/Hotels  
 > - /SubAccounts('{subAccountId}')/Ungrouped
 
 To get the first 1,000 hotels in a hotel group, send the following request.
@@ -569,7 +569,7 @@ x-ms-trackingid: 3787a393-eca3-4ad0-be3d-dd4c7ae08906
 
 ### Updating a hotel
 
-The hotel specifies the bid and bid multipliers to use for hotel ads. The hotel either explicitly specifies them or inherits them from the hotel group or subaccount, in that order. You can use the API to update the bid and bid multipliers to use for the hotel's ad.
+The hotel specifies the bid and bid multipliers to use for hotel price ads. The hotel either explicitly specifies them or inherits them from the hotel group or subaccount, in that order. You can use the API to update the bid and bid multipliers to use for the hotel's ad.
 
 For details about the valid bid range for your market, see the Currency Value table in the [Currencies](/advertising/guides/currencies) topic.
 

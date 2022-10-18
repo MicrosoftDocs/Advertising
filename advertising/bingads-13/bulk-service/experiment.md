@@ -9,7 +9,10 @@ dev_langs:
   - csharp
 ---
 # Experiment Record - Bulk
-Defines an experiment that can be downloaded in a bulk file. 
+Defines an experiment that can be downloaded in a bulk file.
+
+> [!NOTE]
+> **Upgrade your expanded text ads to responsive search ads by February 1, 2023**. After this date, you will no longer be able to create new or edit existing expanded text ads. For more information, see [About responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60037/0).
 
 With an experiment you split a campaign's budget and traffic, and then run an A/B test during a limited date range. 
 

@@ -11,6 +11,7 @@ ms.topic: "article"
 
 The following sections show examples of scripts that perform various actions against ads.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration.md)]
 
 ## Add ads
 

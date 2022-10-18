@@ -7,7 +7,10 @@ ms.author: v-rgaritta
 description: Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.
 ---
 # Experiment Data Object - Campaign Management
-Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range. 
+Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.
+
+> [!NOTE]
+> **Starting February 1, 2023, you'll only be able to copy expanded text ads from the base campaign to the experiment campaign, but you'll no longer be able to edit these expanded text ads**. Please create at least one [responsive search ad](https://help.ads.microsoft.com/#apex/ads/en/60131/1) in each ad group.
 
 How would using a different bid strategy, or a different kind of targeting, affect your ad campaign's performance? Would it be better, worse, or basically the same? Now you can run an A/B test to find out!
 

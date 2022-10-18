@@ -9,13 +9,15 @@ description: Contains the status, run time, and statistical results for an impor
 # ImportResult Data Object - Campaign Management
 Contains the status, run time, and statistical results for an import job that has run.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 ## Syntax
 ```xml
 <xs:complexType name="ImportResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="EntityStatistics" nillable="true" type="tns:ArrayOfImportEntityStatistics" />
     <xs:element minOccurs="0" name="ErrorLogUrl" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q127:ArrayOfKeyValuePairOfstringstring" xmlns:q127="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q128:ArrayOfKeyValuePairOfstringstring" xmlns:q128="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ImportJob" nillable="true" type="tns:ImportJob" />
     <xs:element minOccurs="0" name="StartTimeInUTC" type="xs:dateTime" />

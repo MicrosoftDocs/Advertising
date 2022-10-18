@@ -154,12 +154,12 @@ Application 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxxx' is not configured as a mult
 If you registered the app in the Azure portal, in the Supported account types section ensure that you selected **Accounts in any organizational directory and personal Microsoft accounts**. (Please see [Register an application](authentication-oauth-register.md)) If you did not choose this option during initial setup, the Azure portal might require that you register a new application.  
 
 ## <a name="contact-support"></a>Contact Support
-The [Microsoft Q&A](https://docs.microsoft.com/answers/topics/advertising-api.html) forum is available for the developer community to ask and answer questions about the Bing Ads APIs and Microsoft Advertising Scripts. Microsoft monitors the forums and replies to questions that the community has not yet answered. 
+The [Microsoft Q&A](/answers/topics/advertising-api.html) forum is available for the developer community to ask and answer questions about the Bing Ads APIs and Microsoft Advertising Scripts. Microsoft monitors the forums and replies to questions that the community has not yet answered. 
 
 > [!IMPORTANT]
 > To make sure that we see your question, tag it with 'advertising-api'.  
 
-If the investigation involves sensitive account or personal details, or if you are not finding the information you need to solve your problem via [Microsoft Q&A](https://docs.microsoft.com/answers/topics/advertising-api.html), please contact [Microsoft Advertising Support](https://about.ads.microsoft.com/en-us/microsoft-advertising-support).  
+If the investigation involves sensitive account or personal details, or if you are not finding the information you need to solve your problem via [Microsoft Q&A](/answers/topics/advertising-api.html), please contact [Microsoft Advertising Support](https://about.ads.microsoft.com/en-us/microsoft-advertising-support).  
 
 > [!TIP]
 > To expedite the investigation please provide support with details such as development environment, error frequency, and steps to reproduce the error.  
@@ -220,11 +220,11 @@ If you use the Bing Ads .NET [SDK](client-libraries.md), your application should
 For troubleshooting .NET applications, see [.NET SDK Troubleshooting](#net-troubleshooting).
 
 ### <a name="net-wcf-exceptions"></a>WCF Exceptions
-Generic SOAP faults that are not specific to Bing Ads API may also be thrown, and should be caught by your application. For example, .NET applications may throw Windows Communication Foundation (WCF) exceptions such as Exception, TimeoutException, and CommunicationException. For information about exceptions that you should expect from WCF, see [Expected Exceptions](https://docs.microsoft.com/dotnet/framework/wcf/samples/expected-exceptions).
+Generic SOAP faults that are not specific to Bing Ads API may also be thrown, and should be caught by your application. For example, .NET applications may throw Windows Communication Foundation (WCF) exceptions such as Exception, TimeoutException, and CommunicationException. For information about exceptions that you should expect from WCF, see [Expected Exceptions](/dotnet/framework/wcf/samples/expected-exceptions).
 
 You should not call the *Close* method in the finally block to release the service object. The objection is that the *Close* method can throw exceptions. If *Close* throws an exception, you must call the *Abort* method to ensure that all resources are released; otherwise, you could be leaking resources on the server. The recommended practice is to call *Close* within the try block, and call *Abort* from the caught exceptions.
 
-For the same reason, the use of the **using** statement is not recommended. For more information, see [Avoiding Problems with the Using Statement](https://docs.microsoft.com/dotnet/framework/wcf/samples/avoiding-problems-with-the-using-statement).
+For the same reason, the use of the **using** statement is not recommended. For more information, see [Avoiding Problems with the Using Statement](/dotnet/framework/wcf/samples/use-close-abort-release-wcf-client-resources).
 
 ### <a name="net-sdk-exceptions"></a>.NET SDK Exceptions
 The Bing Ads .NET SDK exceptions abstract some of the service level exceptions. To work around most of the exceptions you can try again, and feel free to contact support if the issue persists after multiple retry attempts.
@@ -483,4 +483,3 @@ logging.getLogger('suds.transport.http').setLevel(logging.DEBUG)
 ## See Also
 [Bing Ads API Operation Error Codes](operation-error-codes.md)  
 [Bing Ads API Web Service Addresses](web-service-addresses.md)  
-

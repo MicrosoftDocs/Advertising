@@ -20,7 +20,7 @@ For example in the *NestedPartialErrors* response element for [AddNegativeKeywor
     <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="FieldPath" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q66:ArrayOfKeyValuePairOfstringstring" xmlns:q66="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q67:ArrayOfKeyValuePairOfstringstring" xmlns:q67="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Index" type="xs:int" />
     <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />

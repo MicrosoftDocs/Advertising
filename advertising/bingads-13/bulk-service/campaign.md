@@ -137,6 +137,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Campaign Type](#campaigntype)|All|
 |[Client Id](#clientid)|All|
 |[Country Code](#countrycode)|Shopping|
+|[Disclaimer Ads Enabled](#disclaimeradsenabled)|Search|
 |[Domain Language](#domainlanguage)|Search|
 |[Dynamic Description Enabled](#dynamicdescriptionenabled)|Search|
 |[Experiment Id](#experimentid)|Search|
@@ -417,7 +418,19 @@ Note, if you set the campaign [Language](#language) or ad group [Language](ad-gr
 **Update:** Read-only. You cannot update the domain language.      
 **Delete:** Read-only
 
+## <a name="disclaimeradsenabled"></a>Disclaimer Ads Enabled
+This is a disclaimer campaign when set to true. Disclaimer campaigns can only contain expanded text ads (EXTA) or responsive search ads (RSA).
+
+*Note*: This will always be a disclaimer campaign once this is set to true. You can only set *DisclaimerAdsEnabled* during ad creation.
+
+**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* will be set and disclaimer ads will not be enabled for this campaign.  
+**Update:** Read-only. You cannot update *DisclaimerAdsEnabled* after campaign creation.      
+**Delete:** Read-only
+
 ## <a name="dynamicdescriptionenabled"></a>Dynamic Description Enabled
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 Determines whether to automatically generate dynamic search ad text in addition to the ad text you provide. During ad delivery, we will use artificial intelligence to choose the best ad text available from these options.   
 
 Set this element to *true* if you want to enable dynamic search ad text, and otherwise set it to *false*. 
@@ -700,14 +713,19 @@ The following validation rules apply to tracking templates. For more details abo
 
 - The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*. 
 
-- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
 **Delete:** Read-only  
 
 ## <a name="website"></a>Website
+
 The domain name of the website that you want to target for dynamic search ads.
+<!-- The domain or subdomain name of the website that you want to target for dynamic search ads.
+
+> [!NOTE]
+> Not everyone has the subdoamin feature yet. If you don't, don't worry. It's coming soon.   -->
 
 The length of the string is limited to 2,048 characters. If the domain name includes *www* it will be trimmed and not used.
 

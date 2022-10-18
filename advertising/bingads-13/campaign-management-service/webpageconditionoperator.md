@@ -4,10 +4,10 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description: Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
 ---
 # WebpageConditionOperator Value Set - Campaign Management
-Reserved.
+Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
 
 ## Syntax
 ```xml
@@ -26,8 +26,8 @@ The [WebpageConditionOperator](webpageconditionoperator.md) value set has the fo
 
 |Value|Description|
 |-----------|---------------|
-|<a name="contains"></a>Contains|Reserved.|
-|<a name="equals"></a>Equals|Reserved.|
+|<a name="contains"></a>Contains|The property should contain the corresponding argument value.|
+|<a name="equals"></a>Equals|The property should be equal to the corresponding argument value.|
 |<a name="unknown"></a>Unknown|Reserved.|
 
 ## Requirements

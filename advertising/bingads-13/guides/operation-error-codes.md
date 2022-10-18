@@ -1422,6 +1422,51 @@ KeywordIdeaAttributeMissing
 One or more required keyword idea attributes is missing.
 
 ***
+
+**Numeric Code**
+824
+
+**Symbolic Error Code**
+RecommendationTypesExceeded
+
+**Description**
+The RecommendationTypes list exceeds the size limit. 
+
+***
+
+**Numeric Code**
+825
+
+**Symbolic Error Code**
+DuplicateRecommendationType
+
+**Description**
+Duplicate RecommendationTypes are contained in the array of input
+
+***
+
+**Numeric Code**
+829
+
+**Symbolic Error Code**
+RecommendationInfoExceeded
+
+**Description**
+The RecommendationInfo list exceeds the size limit.
+
+***
+
+**Numeric Code**
+830
+
+**Symbolic Error Code**
+DuplicateRecommendationType
+
+**Description**
+RecommendationInfo(RecommendationId) are contained in the array of input.
+
+***
+
 ## 1000
 ***
 
@@ -6464,6 +6509,17 @@ Not applicable
 
 **Description**
 The required list of elements is null or empty.
+
+***
+
+**Numeric Code**
+3101
+
+**Symbolic Error Code**
+OAuthTokenInvalid
+
+**Description**
+Typically indicates usage of an incorrect OAuth token. For more information see the [Multi-factor authentication requirement](../guides/authentication-oauth-mfa.md) guide.
 
 ***
 
@@ -16632,6 +16688,17 @@ CampaignServiceMaxActiveResponsiveSearchAdsPerAdGroupLimitReached
 
 **Description**
 The number of active Responsive Search Ads per ad group would be exceeded.
+
+***
+ 
+**Numeric Code**
+6228
+
+**Symbolic Error Code**
+MaxMMAAdsLimitReachedInAdGroup
+
+**Description**
+The user attempts to add more than six multimedia search ads to a single ad group.
 
 ***
 

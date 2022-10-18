@@ -193,17 +193,23 @@
     - name: Overview
       href: ./ad-insight-guides.md
       displayName: adinsight ad insight guides
+    - name: Auto-apply Management
+      href: ./ad-insights-auto-apply-management.md
     - name: Budget and Bid Opportunities
       href: ./budget-bid-opportunities.md
     - name: Keyword Ideas and Traffic Estimates
       href: ./keyword-ideas-traffic-estimates.md
+    - name: Responsive Search Ads Opportunities
+      href: ./responsive-search-ads-opportunities.md
   - name: Ad Insight Service Operations
     items: 
     - name: Overview
       href: ../ad-insight-service/ad-insight-service-operations.md
-      displayName: ad insight service operations
+      displayName: ad insight service operations    
     - name: GetAuctionInsightData
       href: ../ad-insight-service/getauctioninsightdata.md
+    - name: GetAutoApplyOptInStatus
+      href: ../ad-insight-service/getautoapplyoptinstatus.md      
     - name: GetBidLandscapeByAdGroupIds
       href: ../ad-insight-service/getbidlandscapebyadgroupids.md
     - name: GetBidLandscapeByKeywordIds
@@ -240,10 +246,18 @@
       href: ../ad-insight-service/getkeywordopportunities.md
     - name: GetKeywordTrafficEstimates
       href: ../ad-insight-service/getkeywordtrafficestimates.md
+    - name: GetPerformanceInsightsDetailDataByAccountId
+      href: ../ad-insight-service/getperformanceinsightsdetaildatabyaccountid.md
+    - name: GetRecommendations
+      href: ../ad-insight-service/getrecommendations.md
+    - name: SetAutoApplyOptInStatus
+      href: ../ad-insight-service/setautoapplyoptinstatus.md
     - name: SuggestKeywordsForUrl
       href: ../ad-insight-service/suggestkeywordsforurl.md
     - name: SuggestKeywordsFromExistingKeywords
       href: ../ad-insight-service/suggestkeywordsfromexistingkeywords.md
+    - name: TagRecommendations
+      href: ../ad-insight-service/tagrecommendations.md
   - name: Ad Insight Data Objects
     items: 
     - name: Overview
@@ -273,6 +287,8 @@
       href: ../ad-insight-service/auctioninsightresult.md
     - name: AuctionSegmentSearchParameter
       href: ../ad-insight-service/auctionsegmentsearchparameter.md
+    - name: AutoApplyRecommendations
+      href: ../ad-insight-service/autoapplyrecommendationsinfo.md  
     - name: BatchError
       href: ../ad-insight-service/batcherror.md
     - name: BidLandscapePoint
@@ -383,8 +399,22 @@
       href: ../ad-insight-service/operationerror.md
     - name: Opportunity
       href: ../ad-insight-service/opportunity.md
+    - name: PerformanceInsightsDetail
+      href: ../ad-insight-service/performanceinsightsdetail.md
+    - name: PerformanceInsightsMessage
+      href: ../ad-insight-service/performanceinsightsmessage.md
+    - name: PerformanceInsightsMessageParameter
+      href: ../ad-insight-service/performanceinsightsmessageparameter.md
     - name: QuerySearchParameter
       href: ../ad-insight-service/querysearchparameter.md
+    - name: Recommendation
+      href: ../ad-insight-service/recommendation.md
+    - name: RecommendationInfo
+      href: ../ad-insight-service/recommendationinfo.md
+    - name: ResponsiveSearchAdsRecommendation
+      href: ../ad-insight-service/responsivesearchadsrecommendation.md
+    - name: RSARecommendationInfo
+      href: ../ad-insight-service/rsarecommendationinfo.md
     - name: SearchCountsByAttributes
       href: ../ad-insight-service/searchcountsbyattributes.md
     - name: SearchParameter
@@ -393,6 +423,8 @@
       href: ../ad-insight-service/searchvolumesearchparameter.md
     - name: SuggestedBidSearchParameter
       href: ../ad-insight-service/suggestedbidsearchparameter.md
+    - name: SuggestedResponsiveSearchAd
+      href: ../ad-insight-service/suggestedresponsivesearchad.md
     - name: TrafficEstimate
       href: ../ad-insight-service/trafficestimate.md
     - name: UrlSearchParameter
@@ -430,6 +462,16 @@
       href: ../ad-insight-service/matchtype.md
     - name: NetworkType
       href: ../ad-insight-service/networktype.md
+    - name: ParameterType
+      href: ../ad-insight-service/parametertype.md
+    - name: PerformanceInsightsEntityType
+      href: ../ad-insight-service/performanceinsightsentitytype.md
+    - name: PerformanceInsightsMessageTemplateId
+      href: ../ad-insight-service/performanceinsightsmessagetemplateid.md
+    - name: PerformanceInsightsUrlCategory
+      href: ../ad-insight-service/performanceinsightsurlcategory.md
+    - name: PerformanceInsightsUrlId
+      href: ../ad-insight-service/performanceinsightsurlid.md
     - name: SourceType
       href: ../ad-insight-service/sourcetype.md
     - name: TargetAdPosition
@@ -446,15 +488,19 @@
     - name: Overview
       href: ./bulk-guides.md
       displayName: bulk guides
-    - name: Ad Customizer Feeds
+    - name: Ad Customizer Feeds for Expanded Text Ads
       href: ./ad-customizer-feeds.md
+    - name: Ad Customizer Feeds for Responsive Search Ads
+      href: ./ad-customizer-feeds-responsive-search-ads.md
+    - name: Auto Inventory Feeds
+      href: ./auto-inventory-feeds.md  
     - name: Bulk Download and Upload
       href: ./bulk-download-upload.md
-    - name: Hotel Ads Bulk Update
+    - name: Hotel Price Ads Bulk Update
       items:
       - name: Overview
         href: ./hotel-ads-bulk.md
-        displayName: hotel ads bulk update bulk upload
+        displayName: hotel price ads bulk update bulk upload
       - name: Hotel
         href: ./hotel.md
         displayName: BulkHotel
@@ -773,6 +819,9 @@
     - name: Campaign DeviceOS Criterion
       href: ../bulk-service/campaign-deviceos-criterion.md
       displayName: BulkCampaignDeviceCriterion
+    - name: Campaign Disclaimer
+      href: ../bulk-service/campaign-disclaimer-ad-extension.md
+      displayName: BulkCampaignDisclaimer
     - name: Campaign Filter Link Ad Extension
       href: ../bulk-service/campaign-filter-link-ad-extension.md
       displayName: BulkCampaignFilterLinkAdExtension
@@ -797,6 +846,9 @@
     - name: Campaign Label
       href: ../bulk-service/campaign-label.md
       displayName: BulkCampaignLabel
+    - name: Campaign Level ConversionGoal  
+      href: ../bulk-service/campaign-conversion-goal.md
+      displayName: CampaignLevelConversionGoal       
     - name: Campaign Location Ad Extension
       href: ../bulk-service/campaign-location-ad-extension.md
       displayName: BulkCampaignLocationAdExtension
@@ -890,6 +942,9 @@
     - name: Customer List Item
       href: ../bulk-service/customer-list-item.md
       displayName: BulkCustomerListItem
+    - name: Disclaimer
+      href: ../bulk-service/disclaimer-ad-extension.md
+      displayName: BulkDisclaimer
     - name: Dynamic Search Ad
       href: ../bulk-service/dynamic-search-ad.md
       displayName: BulkDynamicSearchAd

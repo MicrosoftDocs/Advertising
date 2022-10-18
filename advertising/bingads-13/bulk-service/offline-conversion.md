@@ -207,18 +207,18 @@ The offline conversion value.
 **Retract:** Not applicable  
 
 ## <a name="externalattributioncredit"></a>External Attribution Credit
-Reserved for future use. 
+This field can only be set for conversions actions which use external attribution. It represents the fraction of the conversion that is attributed to each click. Its value must be greater than 0 and less than or equal to 1.
 
-**Add:** Optional    
-**Restate:** Not applicable  
-**Retract:** Not applicable  
+A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action.
+
+**Apply:** Optional
 
 ## <a name="externalattributionmodel"></a>External Attribution Model
-Reserved for future use. 
+This field can only be set for conversions actions which use external attribution. It specifies the attribution model name.
 
-**Add:** Optional    
-**Restate:** Not applicable  
-**Retract:** Not applicable  
+A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action.
+
+**Apply:** Optional
 
 ## <a name="microsoftclickid"></a>Microsoft Click Id
 The MSCLKID for the offline conversion.

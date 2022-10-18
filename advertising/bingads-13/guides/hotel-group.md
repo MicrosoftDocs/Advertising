@@ -204,7 +204,7 @@ The date and time that the entity was last updated. The value is in Coordinated 
 ## <a name="parentid"></a>Parent Id
 A system-generated ID that uniquely identifies the subaccount that contains the hotel group. 
 
-A subaccount defines the top-level hotel ads grouping. You can think of this logically as a hotel campaign.
+A subaccount defines the top-level hotel price ads grouping. You can think of this logically as a hotel campaign.
 
 **Update:** Read-only and Required  
 

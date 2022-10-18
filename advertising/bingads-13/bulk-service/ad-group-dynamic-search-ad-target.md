@@ -129,6 +129,9 @@ For an *Ad Group Dynamic Search Ad Target* record, the following attribute field
 - [Dynamic Ad Target Condition 1](#dynamicadtargetcondition1)
 - [Dynamic Ad Target Condition 2](#dynamicadtargetcondition2)
 - [Dynamic Ad Target Condition 3](#dynamicadtargetcondition3)
+- [Dynamic Ad Target Operator 1](#dynamicadtargetoperator1)
+- [Dynamic Ad Target Operator 2](#dynamicadtargetoperator2)
+- [Dynamic Ad Target Operator 3](#dynamicadtargetoperator3)
 - [Dynamic Ad Target Value 1](#dynamicadtargetvalue1)
 - [Dynamic Ad Target Value 2](#dynamicadtargetvalue2)
 - [Dynamic Ad Target Value 3](#dynamicadtargetvalue3)
@@ -193,6 +196,9 @@ In a bulk file, the list of custom parameters are formatted as follows.
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
 **Delete:** Read-only  
 
+> [!NOTE]
+> If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages.
+
 ## <a name="dynamicadtargetcondition1"></a>Dynamic Ad Target Condition 1
 The first of up to 3 webpage condition operands. The condition is met if the webpage property that is referenced by this field contains or equals the *Dynamic Ad Target Value 1* value.
 
@@ -219,6 +225,41 @@ Possible values include *Category*, *CustomLabel*, *PageContent*, *PageTitle*, a
 **Add:** Optional. If you do not set any of the dynamic ad target condition or value fields, then you are effectively targeting all webpages. You can only have one dynamic ad target per ad group for all webpages.  
 **Update:** Not allowed. You cannot update the dynamic ad target condition or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
 **Delete:** Read-only  
+
+
+
+## <a name="dynamicadtargetoperator1"></a>Dynamic Ad Target Operator 1
+
+The first of up to 3 webpage condition operators. The condition is met if the webpage property that is referenced by this field contains or equals the *Dynamic Ad Target Value 1* value.
+
+Possible values include *Contains* and *Equals*.
+
+**Add:** Optional. If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages. If you set Dynamic Ad Target Condition 1 and do not set Dynamic Ad Target Operator 1, we will use default operator for the operand selected. If you want to create URL Equals, operator must be passed.
+**Update:** Not allowed. You cannot update the dynamic ad target operator or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
+**Delete:** Read-only  
+
+
+## <a name="dynamicadtargetoperator2"></a>Dynamic Ad Target Operator 2
+
+The second of up to 3 webpage condition operators. The condition is met if the webpage property that is referenced by this field contains or equals the *Dynamic Ad Target Value 2* value.
+
+Possible values include *Contains* and *Equals*.
+
+**Add:** Optional.  If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages. If you set Dynamic Ad Target Condition21 and do not set Dynamic Ad Target Operator 2, we will use default operator for the operand selected. If you want to create URL Equals, operator must be passed.
+**Update:** Not allowed. You cannot update the dynamic ad target operator or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
+**Delete:** Read-only  
+
+
+## <a name="dynamicadtargetoperator3"></a>Dynamic Ad Target Operator 3
+
+The third of up to 3 webpage condition operators. The condition is met if the webpage property that is referenced by this field contains or equals the *Dynamic Ad Target Value 3* value.
+
+Possible values include *Contains* and *Equals*.
+
+**Add:** Optional.  If you do not set any of the dynamic ad target condition, operator or value fields, then you are effectively targeting all webpages. If you set Dynamic Ad Target Condition 3 and do not set Dynamic Ad Target Operator 3, we will use default operator for the operand selected. If you want to create URL Equals, operator must be passed.
+**Update:** Not allowed. You cannot update the dynamic ad target operator or value fields. To update the webpage conditions you must delete the dynamic ad target and add a new one.    
+**Delete:** Read-only  
+
 
 ## <a name="dynamicadtargetvalue1"></a>Dynamic Ad Target Value 1
 The first of up to 3 webpage condition or criterion arguments.
@@ -312,7 +353,7 @@ The following validation rules apply to tracking templates. For more details abo
 
 - The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*. 
 
-- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  

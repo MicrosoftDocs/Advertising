@@ -55,7 +55,7 @@ powershell.exe -File .\GetTokens.ps1
 can't get either link to work; both get mangled.
 [About Execution Policies](https:/go.microsoft.com/fwlink/?LinkID=135170)
 <a href="https:/go.microsoft.com/fwlink/?LinkID=135170" data-raw-source="[About Execution Policies](https:/go.microsoft.com/fwlink/?LinkID=135170)">About Execution Policies</a>
-https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1
+/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-5.1
 -->
 
 If you get an execution policy error, you'll need to change your execution policy. For execution policy options, see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170). To change the execution policy for a session, enter the following command: 

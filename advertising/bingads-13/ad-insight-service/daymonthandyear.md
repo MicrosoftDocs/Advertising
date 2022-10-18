@@ -38,5 +38,7 @@ Namespace: https\://bingads.microsoft.com/AdInsight/v13
 [AdGroupBidLandscape](adgroupbidlandscape.md)  
 [DateRangeSearchParameter](daterangesearchparameter.md)  
 [GetHistoricalSearchCount](gethistoricalsearchcount.md)  
+[GetPerformanceInsightsDetailDataByAccountId](getperformanceinsightsdetaildatabyaccountid.md)  
 [HistoricalSearchCountPeriodic](historicalsearchcountperiodic.md)  
 [KeywordBidLandscape](keywordbidlandscape.md)  
+[PerformanceInsightsDetail](performanceinsightsdetail.md)  

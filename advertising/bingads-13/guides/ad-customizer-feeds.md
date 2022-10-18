@@ -1,13 +1,22 @@
 ---
-title: "Ad Customizer Feeds"
+title: "Ad Customizer Feeds for Expanded Text Ads"
 ms.service: "bing-ads"
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Add feeds so your ads update dynamically under specific circumstances. 
 ---
-# Ad Customizer Feeds
+# Ad Customizer Feeds for Expanded Text Ads
 With ad customizers, your ads can dynamically update themselves to appeal to specific customers. All it takes is uploading an ad customizer feed that tells us what information you want to insert into your ads under which circumstances.
+
+> [!NOTE]
+>
+> * **Upgrade your expanded text ads to responsive search ads by February 1, 2023**. After this date, you will no longer be able to create new or edit existing expanded text ads. For more information, see [About responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60037/0).
+> * For more information about ad customizers for responsive search ads, see [About ad customizer for responsive search ads](https://help.ads.microsoft.com/#apex/ads/en/60131/1).
+> * Your scheduled feeds will continue to run and existing expanded text ads using ad customizer feeds will continue to serve. You'll be able to view reports on their performance.
+> * You'll still be able to pause, run, or remove your existing ad customizer feeds. Otherwise, attempts to create or edit existing ad customizers for expanded text ads will result in a `CustomerNotEligibleForAdCustomizersFeed` error.
+> * [Learn more about this change](https://about.ads.microsoft.com/en-us/blog/post/august-2022/you-have-5-additional-months-to-migrate-to-responsive-search-ads-deadline-extended-to-february-1-2023).
+
 
 Why use ad customizer feeds?
 - Save time. Transform a single ad into hundreds of variations without having to manually update the ad.  
@@ -20,7 +29,7 @@ You can have 100 feeds per account (this maximum number includes all feed types)
 > Feeds and feed items can only be created, retreived, updated, and deleted using the Bulk service. You can manage ads and audiences e.g., remarketing lists using either the Bulk or Campaign Management service. 
 
 > [!TIP]
-> For code examples please see the [C#](https://github.com/BingAds/BingAds-dotNet-SDK/blob/main/examples/BingAdsExamples/BingAdsExamplesLibrary/v13/BulkExpandedTextAds.cs), [Java](https://github.com/BingAds/BingAds-Java-SDK/blob/main/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/BulkExpandedTextAds.java), and [Python](https://github.com/BingAds/BingAds-Python-SDK/blob/main/examples/v13/bulk_expanded_text_ads.py) repositories on GitHub i.e., the Bulk Expanded Text Ads example shows how to create and use an ad customizer feed. 
+> For code examples please see the [C#](https://github.com/BingAds/BingAds-dotNet-SDK/blob/main/examples/BingAdsExamples/BingAdsExamplesLibrary/v13/BulkExpandedTextAds.cs), [Java](https://github.com/BingAds/BingAds-Java-SDK/blob/main/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/BulkExpandedTextAds.java), and [Python](https://github.com/BingAds/BingAds-Python-SDK/blob/main/examples/v13/bulk_expanded_text_ads.py) repositories on GitHub i.e., the Bulk Expanded Text Ads example shows how to create and use an ad customizer feed.  
 
 ## <a name="upload-adcustomizerfeed"></a>Upload ad customizer feeds
 
@@ -90,5 +99,6 @@ In that case, the ad could look like this for customers who were in this remarke
 
 
 ## See Also
+[Ad Customizer Feeds for Responsive Search Ads](ad-customizer-feeds-responsive-search-ads.md)  
 [Expanded Text Ads](expanded-text-ads.md)  
 [Page Feeds](page-feeds.md)  

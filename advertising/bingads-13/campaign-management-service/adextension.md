@@ -14,7 +14,6 @@ Do not try to instantiate an *AdExtension*. You can create one or more of the fo
 - [AppAdExtension](appadextension.md)  
 - [CallAdExtension](calladextension.md)  
 - [CalloutAdExtension](calloutadextension.md)  
-- [DisclaimerAdExtension](disclaimeradextension.md)  
 - [FilterLinkAdExtension](filterlinkadextension.md)  
 - [FlyerAdExtension](flyeradextension.md)  
 - [ImageAdExtension](imageadextension.md)  
@@ -30,7 +29,7 @@ Do not try to instantiate an *AdExtension*. You can create one or more of the fo
 <xs:complexType name="AdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="DevicePreference" nillable="true" type="xs:long" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q39:ArrayOfKeyValuePairOfstringstring" xmlns:q39="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q40:ArrayOfKeyValuePairOfstringstring" xmlns:q40="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Scheduling" nillable="true" type="tns:Schedule" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:AdExtensionStatus" />

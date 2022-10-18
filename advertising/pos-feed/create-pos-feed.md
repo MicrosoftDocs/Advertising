@@ -10,7 +10,7 @@ ms.author: v-rgaritta
 # Create a Points of Sale Feed
 
 > [!NOTE]
-> This beta release of Hotel Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 
 To provide Bing your points of sale data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
 
@@ -152,8 +152,8 @@ The following are the possible case-sensitive dynamic variable names that you ma
 
 |Name|Description
 |-|-
-|ADVANCE‑BOOKING‑WINDOW|The number of days in advance of the check-in date that the booking took place. For example, 36.
-|BING-SITE|The Bing property that originated the ad request. The following are the possible values.<ul><li>localuniversal&mdash;The ad originated from a search results page.</li><li>mapresults&mdash;The ad originated from a maps site.</li><li>PropertyPromotionAd&mdash;The ad originated from the first results page shown in a maps search.</li><li>unknown&mdash;The ad originated from an undetermined source.</li><li>verification&mdash;Bing uses this value when performing data quality tests on your site. You are not billed for these queries. Bing Analytics uses this parameter and its value for identifying Hotel Ads verification traffic.</li></ul>
+|ADVANCE-BOOKING-WINDOW|The number of days in advance of the check-in date that the booking took place. For example, 36.
+|BING-SITE|The Bing property that originated the ad request. The following are the possible values.<ul><li>localuniversal&mdash;The ad originated from a search results page.</li><li>mapresults&mdash;The ad originated from a maps site.</li><li>PropertyPromotionAd&mdash;The ad originated from the first results page shown in a maps search.</li><li>unknown&mdash;The ad originated from an undetermined source.</li><li>verification&mdash;Bing uses this value when performing data quality tests on your site. You are not billed for these queries. Bing Analytics uses this parameter and its value for identifying Hotel Price Ads verification traffic.</li></ul>
 |CHECKINDAY|The two-digit day specified in the `Checkin` element of the [Transaction Message](../transaction-message/reference.md#transaction). For example, 20.
 |CHECKINDAY-OF-WEEK|The day of the week that the check-in takes place. Bing uses digits 0 through 6 to represent Monday through Sunday. For example, 1 is Tuesday.
 |CHECKINMONTH|The two-digit month specified in the `Checkin` element of the Transaction message. Bing uses digits 00 through 11 to represent January through December. For example, 05 is June.
@@ -171,9 +171,9 @@ The following are the possible case-sensitive dynamic variable names that you ma
 |PARTNER-HOTEL-ID|The hotel's ID specified in the `id` element of the Hotel Feed.
 |PARTNER-ROOM-ID|The ID that uniquely identifies the room. This is the ID specified in \<RoomID> element of the \<Result>, \<RoomBundle>, or \<RoomData> block, depending on usage.
 |PRICE-DISPLAYED-TAX|The amount of tax in the user's local currency. The tax amount is based on the `Tax` element specified in the Transaction Message. For example, 3.14. 
-|PRICE‑DISPLAYED‑TOTAL|The total cost of the room in the user's local currency. The amount is based on the sum of the `Baserate`, `Tax`, and `OtherFees` elements specified in the Transaction Message. For example, 152.13.
+|PRICE-DISPLAYED-TOTAL|The total cost of the room in the user's local currency. The amount is based on the sum of the `Baserate`, `Tax`, and `OtherFees` elements specified in the Transaction Message. For example, 152.13.
 |SLOT_TYPE|The placement of the ad on the results page. The parameter may contain the following possible values:<ul><li>A&mdash;The priority slot where ads are shown on the results page when it loads.</li><li>B&mdash;The secondary slot where ads are shown only after the user clicks **More rates**.</li></ul>
-|SUBACCOUNT_ID|The ID of the subaccount that the hotel ads campaign belongs to. If your Google implementation uses CAMPAIGN-ID, substitute SUBACCOUNT_ID FOR CAMPAIGN-ID. 
+|SUBACCOUNT_ID|The ID of the subaccount that the hotel price ads campaign belongs to. If your Google implementation uses CAMPAIGN-ID, substitute SUBACCOUNT_ID FOR CAMPAIGN-ID. 
 |USER-COUNTRY|Two-letter country code of the country where the user is located. The value is extracted from the end-user's client settings. For example, US.
 |USER-CURRENCY|Three-letter currency code of the local currency used by the user. The value is inferred from the end-user's client settings. For example, USD.
 |USER-DEVICE|The end-user's device type. The following are the possible values.<ul><li>mobile</li><li>tablet</li><li>desktop</li><li>unknown</li></ul>The value is inferred from the end-user's client settings.

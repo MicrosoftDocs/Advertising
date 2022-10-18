@@ -9,6 +9,8 @@ description: Defines the base object of an import option.
 # ImportOption Data Object - Campaign Management
 Defines the base object of an import option.
 
+[!INCLUDE[exta-to-rsa-migration](../../scripts/includes/exta-rsa-migration-import.md)]
+
 Do not try to instantiate an *ImportOption*. You can create one or more of the following objects that derive from it. 
 - [FileImportOption](fileimportoption.md)  
 - [GoogleImportOption](googleimportoption.md)  
@@ -17,7 +19,7 @@ Do not try to instantiate an *ImportOption*. You can create one or more of the f
 ```xml
 <xs:complexType name="ImportOption" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q123:ArrayOfKeyValuePairOfstringstring" xmlns:q123="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q124:ArrayOfKeyValuePairOfstringstring" xmlns:q124="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>

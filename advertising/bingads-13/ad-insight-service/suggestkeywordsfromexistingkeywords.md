@@ -222,7 +222,7 @@ The following are the providers that each country supports.
 |Country|Language|Supported Provider Types|Default Provider Type|
 |-------------------|---------------|---------------|---------------|
 |Australia (AU)|English|2,3,4|4|
-|Canada (CA)|English|2,3,4|4||
+|Canada (CA)|English|2,3,4|4|
 |France (FR)|French|2,3,4|4|
 |Germany (DE)|German|1,2,3,4|4|
 
