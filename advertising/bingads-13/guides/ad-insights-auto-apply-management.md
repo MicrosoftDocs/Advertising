@@ -24,8 +24,8 @@ You can either set or get the auto-apply recommendation status using the API.
 
 ## Set auto-apply status
 
-You need to prepare Microsoft Advertising `AccountId`, `RecommendationType`, `OptInStatus`, and pass these three parameters to API to set [SetAutoApplyOptInStatus](../ad-insight-service/setautoapplyoptinstatus.md).
+You need to prepare Microsoft Advertising `AccountId`, `RecommendationType`, `OptInStatus`, and pass these three parameters to API [SetAutoApplyOptInStatus](../ad-insight-service/setautoapplyoptinstatus.md).
 
 ## Get auto-apply status
 
-You need to prepare Microsoft Advertising `AccountId`, `RecommendationType` and pass these two parameters to API get the [GetAutoApplyOptInStatus](../ad-insight-service/getautoapplyoptinstatus.md).
+You need to prepare Microsoft Advertising `AccountId`, `RecommendationType` and pass these two parameters to API [GetAutoApplyOptInStatus](../ad-insight-service/getautoapplyoptinstatus.md).
