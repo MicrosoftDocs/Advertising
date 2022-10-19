@@ -10,17 +10,17 @@ ms.author: v-rgaritta
 # Hotel Campaigns
 
 > [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
+> This beta release of Hotel price ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
 > The API and documentation are subject to change.
 
-Hotel campaigns is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see [Hotel price ads](https://about.ads.microsoft.com/en-us/solutions/ad-products/hotel-price-ads) when they are actively looking to book a hotel. In addition to the Hotel price ads, hotel campaigns allow advertisers to display their hotels on the Bing Maps page via the [property promotion ads](https://about.ads.microsoft.com/en-us/solutions/ad-products/property-promotion-ads).
+Hotel campaigns is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see [Hotel price ads](https://about.ads.microsoft.com/solutions/ad-products/hotel-price-ads) when they are actively looking to book a hotel. In addition to the Hotel price ads, hotel campaigns allow advertisers to display their hotels on the Bing Maps page via the [Property promotion ads](https://about.ads.microsoft.com/solutions/ad-products/property-promotion-ads).
 
 <a name="benefits"></a>
 
 ## Benefits
 
-Here are some benefits of using Hotel campaigns:
+Here are some benefits of using hotel campaigns:
 
 * Streamlines Hotel price ads management across different platforms.
 
@@ -36,6 +36,6 @@ Coming early 2023:
 
 * Updated API to match search and retail API structure. (Only the web user interface version will be available prior to API enablement.)
 
-Advertisers can run campaigns from both Hotel Center and Hotel campaigns, but you’ll still need to upload feeds through the Hotel Center.
+Advertisers can run campaigns from both Hotel Center and hotel campaigns, but you’ll still need to upload feeds through the Hotel Center.
 
-To use Hotel campaigns please follow the steps outlined in the [Hotel Price Ads Overview](https://learn.microsoft.com/en-us/advertising/hotel-ads/).
+To use hotel campaigns please follow the steps outlined in the [Hotel price ads overview](../hotel-ads/).
