@@ -7,6 +7,8 @@
     href: ../hotel-service/get-started.md
   - name: Get started with a service
     href: ../hotel-service/get-started-service.md
+  - name: Hotel campaigns
+    href: ../hotel-service/hotel-campaigns.md
   - name: Manage campaigns
     href: ../hotel-service/manage-hotel-campaigns.md
   - name: Get reports
