@@ -40,9 +40,9 @@ The [NetworkType](networktype.md) value set has the following values: [OwnedAndO
 
 |Value|Description|
 |-----------|---------------|
-|<a name="ownedandoperatedandsyndicatedsearch"></a>OwnedAndOperatedAndSyndicatedSearch|Indicates that you want keyword ideas or traffic estimates for ads on owned and operated networks, as well as syndicated search networks.|
-|<a name="ownedandoperatedonly"></a>OwnedAndOperatedOnly|Indicates that you want keyword ideas or traffic estimates for ads on only owned and operated networks.<br/><br/>Owned and operated networks refer to the Bing, AOL, and Yahoo search networks.|
-|<a name="syndicatedsearchonly"></a>SyndicatedSearchOnly|Indicates that you want keyword ideas or traffic estimates for ads on only syndicated search networks.<br/><br/>Syndicated search refers to partner sites that host Bing, AOL, and Yahoo search.|
+|<a name="ownedandoperatedandsyndicatedsearch"></a>OwnedAndOperatedAndSyndicatedSearch|Indicates that you want keyword ideas or traffic estimates for ads on owned and operated networks, as well as syndicated search networks.<br/><br/>Owned and operated and syndicated search refers to the entire Microsoft Advertising Network (recommended).|
+|<a name="ownedandoperatedonly"></a>OwnedAndOperatedOnly|Indicates that you want keyword ideas or traffic estimates for ads on only owned and operated networks.<br/><br/>Owned and operated networks refer to Microsoft sites and select traffic.|
+|<a name="syndicatedsearchonly"></a>SyndicatedSearchOnly|Indicates that you want keyword ideas or traffic estimates for ads on only syndicated search networks.<br/><br/>Syndicated search refers to only partner traffic.|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

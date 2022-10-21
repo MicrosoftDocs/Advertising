@@ -97,7 +97,7 @@ The [GeographicPerformanceReportColumn](geographicperformancereportcolumn.md) va
 |<a name="accountname"></a>AccountName|The account name.|
 |<a name="accountnumber"></a>AccountNumber|The Microsoft Advertising assigned number of an account.|
 |<a name="accountstatus"></a>AccountStatus|The account status.|
-|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show.|
+|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show. This can be the entire Microsoft Advertising Network, Microsoft sites and select traffic, or only partner traffic.|
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
@@ -140,7 +140,7 @@ The [GeographicPerformanceReportColumn](geographicperformancereportcolumn.md) va
 |<a name="metroarea"></a>MetroArea|The metro area (Nielsen DMA® in the United States) where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="mostspecificlocation"></a>MostSpecificLocation|The most specific location used to deliver ads. For example if the city and country are both identified, this column will include the same value as the *City* column. If postal code information is available, then it will be included in the report instead of city or country.|
 |<a name="neighborhood"></a>Neighborhood|The neighborhood where an ad was physically served, or the neighborhood that your customer had shown interest in through searches or content they had viewed.<br/><br/>This helps you find out how your ads are doing in different locations, which can help you decide where to focus more of your advertising efforts.|
-|<a name="network"></a>Network|The combined search advertising marketplace made up of Bing, AOL, Yahoo, and partner sites. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Bing and Yahoo! search, Content, and Syndicated search partners.|
+|<a name="network"></a>Network|The entire Microsoft Advertising Network made up of Microsoft sites and select traffic, and only partner traffic. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Microsoft sites and select traffic, Content, and Syndicated search partners.<br/><br/>*Note*: Not everyone can use the value *Microsoft sites and select traffic* yet. If you can't, don't worry - it's coming soon!|
 |<a name="postalcode"></a>PostalCode|The postal code where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="proximitytargetlocation"></a>ProximityTargetLocation|The radius target bid name. The name of the geographic radius where the user was physically located when they clicked the ad. The *Radius* attribute column contains the distance of the radius.|
 |<a name="radius"></a>Radius|The radius of a radius target bid. The geographic radius where the user was physically located when they clicked the ad. The *ProximityTargetLocation* attribute column contains the address or landmark name of the radius.|

@@ -113,7 +113,7 @@ The [AdPerformanceReportColumn](adperformancereportcolumn.md) value set has the 
 |<a name="accountstatus"></a>AccountStatus|The account status.|
 |<a name="addescription"></a>AdDescription|The first ad description that appears below the path in your ad.|
 |<a name="addescription2"></a>AdDescription2|The second ad description that appears below the path in your ad. Ad description 2 might not appear in your ad.|
-|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show.|
+|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show. This can be the entire Microsoft Advertising Network, Microsoft sites and select traffic, or only partner traffic.|
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
@@ -166,7 +166,7 @@ The [AdPerformanceReportColumn](adperformancereportcolumn.md) value set has the 
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions.|
 |<a name="language"></a>Language|The language of the publisher where the ad was shown.<br/><br/>For possible values, see the Language column of [Ad Languages](../guides/ad-languages.md#adlanguage). The language display name will be provided in the report e.g. *English*.|
 |<a name="longheadline"></a>LongHeadline|The longer of two possible responsive ad headlines for Audience campaigns.|
-|<a name="network"></a>Network|The combined search advertising marketplace made up of Bing, AOL, Yahoo, and partner sites. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Bing and Yahoo! search, Content, and Syndicated search partners.|
+|<a name="network"></a>Network|The entire Microsoft Advertising Network made up of Microsoft sites and select traffic, and only partner traffic. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Microsoft sites and select traffic, Content, and Syndicated search partners.<br/><br/>*Note*: Not everyone can use the value *Microsoft sites and select traffic* yet. If you can't, don't worry - it's coming soon!|
 |<a name="path1"></a>Path1|The path 1 attribute of an ad.|
 |<a name="path2"></a>Path2|The path 2 attribute of an ad.|
 |<a name="returnonadspend"></a>ReturnOnAdSpend|The return on ad spend (ROAS).<br/><br/>The formula for calculating the ROAS is (Revenue / Spend).<br/><br/>Data will be excluded from the [ReturnOnAdSpend](#returnonadspend) report column for any conversion goal with the [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) property set to true. The [AllReturnOnAdSpend](#allreturnonadspend) column will include data for all conversion goals regardless of their [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) setting.<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
