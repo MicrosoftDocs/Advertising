@@ -122,7 +122,7 @@ The [ProductDimensionPerformanceReportColumn](productdimensionperformancereportc
 |<a name="accountname"></a>AccountName|The account name.|
 |<a name="accountnumber"></a>AccountNumber|The Microsoft Advertising assigned number of an account.|
 |<a name="accountstatus"></a>AccountStatus|The account status.|
-|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show.|
+|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show. This can be the entire Microsoft Advertising Network, Microsoft sites and select traffic, or only partner traffic.|
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
@@ -177,7 +177,7 @@ The [ProductDimensionPerformanceReportColumn](productdimensionperformancereportc
 |<a name="localstorecode"></a>LocalStoreCode|An alphanumeric identifier defined by the merchant to uniquely identify each local store. |
 |<a name="merchantproductid"></a>MerchantProductId|The unique identifier provided by a merchant for each product offer.|
 |<a name="mpn"></a>MPN|Manufacturer Part Number (MPN) is a unique number that identifies the product to its manufacturer.|
-|<a name="network"></a>Network|The combined search advertising marketplace made up of Bing, AOL, Yahoo, and partner sites. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Bing and Yahoo! search, Content, and Syndicated search partners.|
+|<a name="network"></a>Network|The entire Microsoft Advertising Network made up of Microsoft sites and select traffic, and only partner traffic. Use this data to make the best decision on network selection for your ad groups. The possible values include AOL search, Audience, Microsoft sites and select traffic, Content, and Syndicated search partners.<br/><br/>*Note*: Not everyone can use the value *Microsoft sites and select traffic* yet. If you can't, don't worry - it's coming soon!|
 |<a name="offerlanguage"></a>OfferLanguage|The language for the product offer. For possible values see [Ad Languages](../guides/ad-languages.md). The language display name will be provided in the report e.g. *English*.|
 |<a name="price"></a>Price|The different price for products in your catalog.|
 |<a name="productbought"></a>ProductBought|The product purchased from your catalog or via your retail partner.<br/><br/>The purchased product will always match the same brand, but can differ from the specific product ad that was clicked on. If different products were purchased as a result of one click, the report will include multiple rows with the same ad ID and Merchant product ID, and each will contain a unique ProductBought value. You can also include the QuantityBought column to get data on quantity purchased per product.|
