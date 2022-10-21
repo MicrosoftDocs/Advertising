@@ -29,7 +29,8 @@ The [VideoAsset](videoasset.md) object has the following elements: [SubType](#su
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="subtype"></a>SubType|Reserved.|**string**|
+|<a name="subtype"></a>SubType|Represents the aspect ratio for this Video asset.<br/><br/>
+The possible subtype values include *VideoMedia16X9*, *VideoMedia5X4*, *VideoMedia1X1*, *VideoMedia4X5*, *VideoMedia9X16*<br/><br/>**Add**: Required<br/>**Update**: Read-only. You cannot update the subtype while updating VideoAsset. |**string**|
 |<a name="thumbnailimage"></a>ThumbnailImage|Reserved.|[ImageAsset](imageasset.md)|
 
 The [VideoAsset](videoasset.md) object has [Inherited Elements](#inheritedelements).

@@ -39,14 +39,14 @@ The [Video](video.md) object has the following elements: [AspectRatio](#aspectra
 |-----------|---------------|-------------|
 |<a name="aspectratio"></a>AspectRatio|Reserved.|**string**|
 |<a name="createddatetimeinutc"></a>CreatedDateTimeInUTC|Reserved.|**dateTime**|
-|<a name="description"></a>Description|Reserved.|**string**|
-|<a name="durationinmilliseconds"></a>DurationInMilliseconds|Reserved.|**int**|
+|<a name="description"></a>Description|The description of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**string**|
+|<a name="durationinmilliseconds"></a>DurationInMilliseconds|The duration in milliseconds of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**int**|
 |<a name="failurecode"></a>FailureCode|Reserved.|**string**|
 |<a name="id"></a>Id|Reserved.|**long**|
 |<a name="modifieddatetimeinutc"></a>ModifiedDateTimeInUTC|Reserved.|**dateTime**|
 |<a name="sourceurl"></a>SourceUrl|Reserved.|**string**|
-|<a name="status"></a>Status|Reserved.|**string**|
-|<a name="thumbnailurl"></a>ThumbnailUrl|Reserved.|**string**|
+|<a name="status"></a>Status|The status of the video asset. The status can be *Draft*, *Active*, *Deleted* or *Failed*.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**string**|
+|<a name="thumbnailurl"></a>ThumbnailUrl|The thumbnail URL of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**string**|
 |<a name="url"></a>Url|Reserved.|**string**|
 
 ## Requirements
