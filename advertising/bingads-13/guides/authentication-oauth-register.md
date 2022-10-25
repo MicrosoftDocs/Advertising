@@ -34,6 +34,11 @@ Before your application can authenticate Microsoft Advertising users, you must r
 
 1. For web applications, select **Certificates & secrets** under **Manage**. Select the **New client secret** button. Enter a value in **Description**, select any option for **Expires** and choose **Add**. Copy the client secret value before leaving the page. You will use it later as the `client_secret` to [get an access token](authentication-oauth-get-tokens.md). 
 
+1. Registered application behaviour is determined by how your Azure AAD tenant has been setup and how users can provide the consent for any app during authentication process. Your Azure AAD tenant administrator can review user consent settings here. **https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/configure-user-consent?pivots=portal#configure-user-consent-settings**
+    
+     > [!IMPORTANT] These settings are only accessible to your Azure AAD tenant administrator
+    ![User consent settings](media/supported-user-consent-settings.png "User consent settings")  
+ 
 ## Next steps
 
 > [!div class="nextstepaction"]
