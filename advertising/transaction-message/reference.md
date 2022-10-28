@@ -107,6 +107,7 @@ Defines the amenities that are part of a package deal.
 |MembershipBenefitsIncluded|Optional.<br /><br />Defines membership benefits that apply for the length of the guest's stay.|[MembershipBenefits Type](#membershipbenefits-type)
 |CarRentalIncluded|Optional.<br />Data type is Boolean.<br /><br />A value that determines whether the room bundle includes a complimentary car rental for the length of the guest's stay. If the stay includes a complimentary car rental, include the \<CarRentalIncluded/> element, otherwise, don't include it.|None
 |MilesIncluded|Optional.<br />Include if the stay provides frequent flyer miles.|[Miles Type](#miles-type)
+|FacilitatedBookingToken |Optional.<br />Data type is string.<br /> A string containing a token for facilitated booking.|None
 |OnPropertyCredit|Optional.<br />Include if the guest receives a one-time credit for using on-site services during their stay.|[OnPropertyCredit Type](#onpropertycredit-type)
 
 
