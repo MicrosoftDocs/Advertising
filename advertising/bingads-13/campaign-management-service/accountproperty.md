@@ -59,7 +59,7 @@ If the [Name](#name) element is set to *AllowImageAutoRetrieve*, then the [Value
 Determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.  
 
 > [!WARNING]
-> AutoApplyRecommendations in Campaign Management API will be deprecated by November 11th, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API.
+> AutoApplyRecommendations in Campaign Management API will be deprecated by November 30, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API.
 
 [!INCLUDE[coming-soon](./includes/coming-soon.md)]
 

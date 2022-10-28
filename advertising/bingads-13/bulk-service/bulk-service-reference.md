@@ -10,7 +10,7 @@ description: Reference documentation for the Bulk API.
 The Bulk [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to download and upload campaign entity data in the background.
 
 > [!NOTE]
-> AutoApplyRecommendations in Bulk API will be deprecated by November 11th, 2022. We will be removing [*AutoApplyRecommendations*](account.md#autoapplyrecommendations) from [*Account*](account.md) in [Bulk File Schema](bulk-file-schema.md).<br/><br/>
+> AutoApplyRecommendations in Bulk API will be deprecated by November 30, 2022. We will be removing [*AutoApplyRecommendations*](account.md#autoapplyrecommendations) from [*Account*](account.md) in [Bulk File Schema](bulk-file-schema.md).<br/><br/>
 We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API.
 
 |Interface|Description|
