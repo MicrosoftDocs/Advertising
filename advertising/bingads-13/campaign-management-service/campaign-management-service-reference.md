@@ -10,7 +10,7 @@ description: Reference documentation for the Campaign Management API.
 The Campaign Management [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to manage your advertising campaigns.
 
 > [!NOTE]
-> AutoApplyRecommendations in Campaign Management API will be deprecated by November 11th, 2022. We will be removing [*AutoApplyRecommendations*](accountproperty.md#autoapplyrecommendations) from [*AccountPropertyName*](accountpropertyname.md) in [Campaign Management Value Sets](campaign-management-value-sets.md).<br/><br/>
+> AutoApplyRecommendations in Campaign Management API will be deprecated by November 30, 2022. We will be removing [*AutoApplyRecommendations*](accountproperty.md#autoapplyrecommendations) from [*AccountPropertyName*](accountpropertyname.md) in [Campaign Management Value Sets](campaign-management-value-sets.md).<br/><br/>
 We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API.
 
 |Interface|Description|
