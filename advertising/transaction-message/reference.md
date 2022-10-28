@@ -162,7 +162,7 @@ Defines the settings which can restrict or modify the occupancy requirements of 
 
 |Element|Description|Children
 |-|-|-
-|MinOccupancy|Data type is integer.<br /><br />The minimum number of guests that can stay in a room. For example, if set to 2, this room cannot be booked for a single guest. <br /><br /> The value of <MinOccupancy> must be a positive integer between 1 and 99, inclusive. |None
+|MinOccupancy|Data type is integer.<br /><br />The minimum number of guests that can stay in a room. For example, if set to 2, this room cannot be booked for a single guest. <br /><br /> The value of `MinOccupancy` must be a positive integer between 1 and 99, inclusive. |None
 |MinAge| Data type is integer.<br /><br /> The minimum age for all guests staying in a room. For example, if this is set to 18, this room can only be booked for groups where all guests are of age 18 or above. The value of MinAge must be a positive integer between 0 and 99, inclusive. | None
 
 ## BedArrangement Type
