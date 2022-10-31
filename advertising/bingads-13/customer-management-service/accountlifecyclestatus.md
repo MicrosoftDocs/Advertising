@@ -1,10 +1,11 @@
 ---
 title: AccountLifeCycleStatus Value Set - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible status values of an account.
+ms.subservice: customer-management-api
 ---
 # AccountLifeCycleStatus Value Set - Customer Management
 Defines the possible status values of an account.

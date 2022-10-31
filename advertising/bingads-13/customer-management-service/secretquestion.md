@@ -1,10 +1,11 @@
 ---
 title: SecretQuestion Value Set - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible secret questions that users can choose from to help them recall their password.
+ms.subservice: customer-management-api
 ---
 # SecretQuestion Value Set - Customer Management
 Defines the possible secret questions that users can choose from to help them recall their password.

@@ -1,6 +1,6 @@
 ---
 title: SearchAccounts Service Operation - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-management-api
 ---
 # SearchAccounts Service Operation - Customer Management
 Searches for accounts that match the request criteria. 

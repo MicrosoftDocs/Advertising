@@ -1,6 +1,6 @@
 ---
 title: UpdateClientLinks Service Operation - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-management-api
 ---
 # UpdateClientLinks Service Operation - Customer Management
 Updates the status of the specified client links. 
