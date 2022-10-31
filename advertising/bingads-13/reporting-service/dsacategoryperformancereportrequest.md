@@ -1,10 +1,11 @@
 ---
 title: DSACategoryPerformanceReportRequest Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a DSA category performance report request.
+ms.subservice: reporting-api
 ---
 # DSACategoryPerformanceReportRequest Data Object - Reporting
 Defines a DSA category performance report request. Use this report to check the performance of your existing category targets or to find new categories worth targeting.

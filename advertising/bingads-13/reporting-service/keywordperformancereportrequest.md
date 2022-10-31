@@ -1,10 +1,11 @@
 ---
 title: KeywordPerformanceReportRequest Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a keyword performance report request.
+ms.subservice: reporting-api
 ---
 # KeywordPerformanceReportRequest Data Object - Reporting
 Defines a keyword performance report request. Use this report to find out which keywords are performing well and those that are not. 

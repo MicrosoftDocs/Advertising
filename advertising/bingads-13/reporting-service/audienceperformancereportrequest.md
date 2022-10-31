@@ -1,10 +1,11 @@
 ---
 title: AudiencePerformanceReportRequest Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an audience performance report request.
+ms.subservice: reporting-api
 ---
 # AudiencePerformanceReportRequest Data Object - Reporting
 Defines an audience performance report request. Use this report to compare delivery performance statistics by audience, ad group, campaign, or account attributes.

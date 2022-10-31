@@ -1,10 +1,11 @@
 ---
 title: ProfessionalDemographicsAudienceReportFilter Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the criteria to use to filter the professional demographics audience report.
+ms.subservice: reporting-api
 ---
 # ProfessionalDemographicsAudienceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the professional demographics audience report.

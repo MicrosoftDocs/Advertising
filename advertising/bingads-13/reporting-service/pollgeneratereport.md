@@ -1,6 +1,6 @@
 ---
 title: PollGenerateReport Service Operation - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: reporting-api
 ---
 # PollGenerateReport Service Operation - Reporting
 Gets the status of a report request. 

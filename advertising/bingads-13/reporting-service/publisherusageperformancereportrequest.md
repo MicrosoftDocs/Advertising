@@ -1,10 +1,11 @@
 ---
 title: PublisherUsagePerformanceReportRequest Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a publisher usage performance report request.
+ms.subservice: reporting-api
 ---
 # PublisherUsagePerformanceReportRequest Data Object - Reporting
 Defines a publisher usage performance report request. Use this report to see if any website URLs aren't performing well enough for your campaign or ad group target settings. For example, if ad impressions at those URLs yield a low click-through rate, then you might decide to exclude those websites from your campaign.

@@ -1,10 +1,11 @@
 ---
 title: AdDynamicTextPerformanceReportColumn Value Set - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the AdDynamicTextPerformanceReportRequest Data Object.
+ms.subservice: reporting-api
 ---
 # AdDynamicTextPerformanceReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [AdDynamicTextPerformanceReportRequest Data Object](addynamictextperformancereportrequest.md).
