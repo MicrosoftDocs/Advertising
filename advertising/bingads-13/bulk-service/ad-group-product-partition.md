@@ -1,12 +1,13 @@
 ---
 title: "Ad Group Product Partition Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Ad Group Product Partition fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Ad Group Product Partition Record - Bulk
 Defines an ad group product partition that can be uploaded and downloaded in a bulk file.

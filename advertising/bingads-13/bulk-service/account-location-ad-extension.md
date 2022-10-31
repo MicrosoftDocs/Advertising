@@ -1,12 +1,13 @@
 ---
 title: "Account Location Ad Extension Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Account Location Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Account Location Ad Extension Record - Bulk
 Defines an association record between an [Account](account.md) and a [Location Ad Extension](location-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the account or location ad extension, use the [Account](account.md) or [Location Ad Extension](location-ad-extension.md) record.

@@ -1,12 +1,13 @@
 ---
 title: "Campaign Location Intent Criterion Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Location Intent Criterion fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Location Intent Criterion Record - Bulk
 Defines a campaign location criterion that can be uploaded and downloaded in a bulk file.

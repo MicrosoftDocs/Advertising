@@ -1,12 +1,13 @@
 ---
 title: "Experiment Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an experiment that can be downloaded in a bulk file. 
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Experiment Record - Bulk
 Defines an experiment that can be downloaded in a bulk file.

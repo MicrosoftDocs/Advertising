@@ -1,12 +1,13 @@
 ---
 title: "Image Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Image fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Image Record - Bulk
 Defines an image that can be uploaded and downloaded in a bulk file. 

@@ -1,12 +1,13 @@
 ---
 title: "Product Ad Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Product Ad fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Product Ad Record - Bulk
 Defines a product ad that can be downloaded and uploaded in a bulk file.

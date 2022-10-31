@@ -1,12 +1,13 @@
 ---
 title: "Structured Snippet Ad Extension Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Structured Snippet Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Structured Snippet Ad Extension Record - Bulk
 Defines a structured snippet ad extension that can be downloaded and uploaded in a bulk file.

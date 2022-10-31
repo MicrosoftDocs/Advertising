@@ -1,10 +1,11 @@
 ---
 title: "Hotel Group Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Hotel Group fields in a Bulk file. 
+ms.subservice: bulk-api
 ---
 # Hotel Group Record - Bulk
 Defines the Hotel Group record that can be uploaded in a Bulk file.  

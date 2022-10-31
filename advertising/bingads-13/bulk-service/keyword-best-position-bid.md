@@ -1,10 +1,11 @@
 ---
 title: "Keyword Best Position Bid Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Keyword Best Position Bid fields in a Bulk file.
+ms.subservice: bulk-api
 ---
 # Keyword Best Position Bid Record - Bulk
 Defines a keyword's estimated best position bid that can be downloaded in a bulk file.

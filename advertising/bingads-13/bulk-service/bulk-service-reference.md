@@ -1,10 +1,11 @@
 ---
 title: "Bulk API"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Reference documentation for the Bulk API.
+ms.subservice: bulk-api
 ---
 # Bulk API
 The Bulk [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to download and upload campaign entity data in the background.

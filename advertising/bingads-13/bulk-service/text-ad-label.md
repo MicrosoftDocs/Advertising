@@ -1,12 +1,13 @@
 ---
 title: "Text Ad Label Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Text Ad Label fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Text Ad Label Record - Bulk
 Defines an association record between a [Text Ad](text-ad.md) and a [Label](label.md) that can be uploaded and downloaded in a bulk file. To upload or download the text ad or label, use the [Text Ad](text-ad.md) or [Label](label.md) record.

@@ -1,12 +1,13 @@
 ---
 title: "Keyword Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Keyword fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Keyword Record - Bulk
 Defines a keyword that can be downloaded and uploaded in a bulk file.

@@ -1,12 +1,13 @@
 ---
 title: "Customer List Item Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Customer List Item fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Customer List Item Record - Bulk
 Defines a customer list item that can be uploaded in a bulk file. 

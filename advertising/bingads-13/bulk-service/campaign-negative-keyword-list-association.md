@@ -1,12 +1,13 @@
 ---
 title: "Campaign Negative Keyword List Association Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Negative Keyword List Association fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Negative Keyword List Association Record - Bulk
 Defines an association record between a [Campaign](campaign.md) and a [Negative Keyword List](negative-keyword-list.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or negative keyword list, use the [Campaign](campaign.md) or [Negative Keyword List](negative-keyword-list.md) record.

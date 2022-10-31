@@ -1,12 +1,13 @@
 ---
 title: "Ad Group Negative Combined List Association Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Ad Group Negative Combined List Association fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Ad Group Negative Combined List Association Record - Bulk
 Defines an Ad Group Negative Combined List Association that can be uploaded and downloaded in a bulk file. 

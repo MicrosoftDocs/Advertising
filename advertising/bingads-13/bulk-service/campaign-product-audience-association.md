@@ -1,12 +1,13 @@
 ---
 title: "Campaign Product Audience Association Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Product Audience Association fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Product Audience Association Record - Bulk
 Defines a Campaign Product Audience Association that can be uploaded and downloaded in a bulk file. 
