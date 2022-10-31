@@ -1,10 +1,11 @@
 ---
 title: ParameterType Value Set - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the type of parameter--string, URL, or a list of demand entities).
+ms.subservice: ad-insight-api
 ---
 # ParameterType Value Set - Ad Insight
 Defines the type of parameter: string, URL, or a list of demand entities.

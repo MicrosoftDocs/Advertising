@@ -1,10 +1,11 @@
 ---
 title: KeywordCategory Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains a keyword category and a confidence score.
+ms.subservice: ad-insight-api
 ---
 # KeywordCategory Data Object - Ad Insight
 Defines an object that contains a keyword category and a confidence score. The confidence score indicates the likelihood that the keyword belongs to the keyword category.

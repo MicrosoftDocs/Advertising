@@ -1,10 +1,11 @@
 ---
 title: AuctionSegment Value Set - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible auction segment values.
+ms.subservice: ad-insight-api
 ---
 # AuctionSegment Value Set - Ad Insight
 Defines the possible auction segment values.

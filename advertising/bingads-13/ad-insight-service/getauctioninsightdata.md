@@ -1,6 +1,6 @@
 ---
 title: GetAuctionInsightData Service Operation - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: ad-insight-api
 ---
 # GetAuctionInsightData Service Operation - Ad Insight
 Gets auction insight data for an account, campaigns, ad groups, or keywords.

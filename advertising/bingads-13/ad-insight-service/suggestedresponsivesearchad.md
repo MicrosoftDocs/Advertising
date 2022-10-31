@@ -1,10 +1,11 @@
 ---
 title: SuggestedResponsiveSearchAd Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that describes the suggested responsive search ads.
+ms.subservice: ad-insight-api
 ---
 # SuggestedResponsiveSearchAd Data Object - Ad Insight
 Defines an object that describes the suggested responsive search ads. 

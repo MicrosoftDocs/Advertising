@@ -1,10 +1,11 @@
 ---
 title: DayMonthAndYear Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that you use to specify the start and end dates of a date range.
+ms.subservice: ad-insight-api
 ---
 # DayMonthAndYear Data Object - Ad Insight
 Defines an object that you use to specify the start and end dates of a date range.

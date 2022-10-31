@@ -1,6 +1,6 @@
 ---
 title: GetHistoricalSearchCount Service Operation - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: ad-insight-api
 ---
 # GetHistoricalSearchCount Service Operation - Ad Insight
 Gets the number of times the normalized term was used in a search during the specified time period. The results are aggregated by device type.

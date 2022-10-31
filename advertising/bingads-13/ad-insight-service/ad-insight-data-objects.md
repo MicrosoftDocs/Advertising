@@ -1,10 +1,11 @@
 ---
 title: Ad Insight Data Objects
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Data objects reference for the AdInsight service.
+ms.subservice: ad-insight-api
 ---
 # Ad Insight Data Objects
 The Ad Insight service defines the following data objects.

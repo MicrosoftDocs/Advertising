@@ -1,6 +1,6 @@
 ---
 title: SetAutoApplyOptInStatus Service Operation - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: ad-insight-api
 ---
 # SetAutoApplyOptInStatus Service Operation - Ad Insight
 Set the auto-apply recommendations opt-in status for a single account.
