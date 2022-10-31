@@ -1,10 +1,11 @@
 ---
 title: Network Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible search networks on which an ad can display.
+ms.subservice: campaign-management-api
 ---
 # Network Value Set - Campaign Management
 Defines the possible search networks on which an ad can display.

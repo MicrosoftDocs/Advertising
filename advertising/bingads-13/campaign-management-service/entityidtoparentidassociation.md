@@ -1,10 +1,11 @@
 ---
 title: EntityIdToParentIdAssociation Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains the unique system identifier of an entity such as ad or keyword, and the identifier of its parent.
+ms.subservice: campaign-management-api
 ---
 # EntityIdToParentIdAssociation Data Object - Campaign Management
 Defines an object that contains the unique system identifier of an entity such as ad or keyword, and the identifier of its parent. An ad group is the parent of an ad or keyword.

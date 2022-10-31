@@ -1,10 +1,11 @@
 ---
 title: ConversionGoalRevenue Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines properties for revenue that can be tracked by a conversion goal.
+ms.subservice: campaign-management-api
 ---
 # ConversionGoalRevenue Data Object - Campaign Management
 Defines properties for revenue that can be tracked by a conversion goal.

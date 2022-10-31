@@ -1,6 +1,6 @@
 ---
 title: GetImportEntityIdsMapping Service Operation - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: campaign-management-api
 ---
 # GetImportEntityIdsMapping Service Operation - Campaign Management
 Gets mappings of your source entity IDs to Microsoft Advertising entity IDs.

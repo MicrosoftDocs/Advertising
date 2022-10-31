@@ -1,10 +1,11 @@
 ---
 title: AdGroupCriterionEditorialStatus Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the editorial review status values of an ad group criterion.
+ms.subservice: campaign-management-api
 ---
 # AdGroupCriterionEditorialStatus Value Set - Campaign Management
 Defines the editorial review status values of an ad group criterion.

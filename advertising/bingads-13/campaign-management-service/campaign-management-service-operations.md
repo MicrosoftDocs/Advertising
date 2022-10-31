@@ -1,10 +1,11 @@
 ---
 title: Campaign Management Service Operations
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Service operations reference for the CampaignManagement service.
+ms.subservice: campaign-management-api
 ---
 # Campaign Management Service Operations
 The Campaign Management service defines the following service operations.

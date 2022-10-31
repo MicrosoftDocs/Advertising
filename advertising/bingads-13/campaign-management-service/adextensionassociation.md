@@ -1,10 +1,11 @@
 ---
 title: AdExtensionAssociation Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the relationship and editorial status of an ad extension with an account, campaign, or ad group.
+ms.subservice: campaign-management-api
 ---
 # AdExtensionAssociation Data Object - Campaign Management
 Defines the relationship and editorial status of an ad extension with an account, campaign, or ad group.

@@ -1,10 +1,11 @@
 ---
 title: ActionAdExtensionActionType Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible options for action text that can be displayed in an action ad extension.
+ms.subservice: campaign-management-api
 ---
 # ActionAdExtensionActionType Value Set - Campaign Management
 Defines the possible options for action text that can be displayed in an action ad extension. 

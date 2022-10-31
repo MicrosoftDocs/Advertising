@@ -1,10 +1,11 @@
 ---
 title: EventGoal Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a custom event conversion goal.
+ms.subservice: campaign-management-api
 ---
 # EventGoal Data Object - Campaign Management
 Defines a custom event conversion goal. 

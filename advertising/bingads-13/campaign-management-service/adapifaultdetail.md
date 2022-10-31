@@ -1,10 +1,11 @@
 ---
 title: AdApiFaultDetail Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Campaign Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
+ms.subservice: campaign-management-api
 ---
 # AdApiFaultDetail Data Object - Campaign Management
 Defines a Campaign Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.

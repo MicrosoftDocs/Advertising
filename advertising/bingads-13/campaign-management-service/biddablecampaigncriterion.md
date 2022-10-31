@@ -1,10 +1,11 @@
 ---
 title: BiddableCampaignCriterion Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a biddable criterion that you want applied to the specified campaign.
+ms.subservice: campaign-management-api
 ---
 # BiddableCampaignCriterion Data Object - Campaign Management
 Defines a biddable criterion that you want applied to the specified campaign.

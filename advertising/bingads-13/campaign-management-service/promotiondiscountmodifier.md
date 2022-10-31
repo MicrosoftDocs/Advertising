@@ -1,10 +1,11 @@
 ---
 title: PromotionDiscountModifier Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible types of promotion discount modifiers.
+ms.subservice: campaign-management-api
 ---
 # PromotionDiscountModifier Value Set - Campaign Management
 Defines the possible types of promotion discount modifiers.

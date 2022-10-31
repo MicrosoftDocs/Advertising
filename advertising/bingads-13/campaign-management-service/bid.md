@@ -1,10 +1,11 @@
 ---
 title: Bid Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: The highest price that you want to pay each time someone clicks your ad.
+ms.subservice: campaign-management-api
 ---
 # Bid Data Object - Campaign Management
 The highest price that you want to pay each time someone clicks your ad.

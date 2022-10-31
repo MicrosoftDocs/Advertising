@@ -1,10 +1,11 @@
 ---
 title: Day Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the day values that you can specify for day and time criterion.
+ms.subservice: campaign-management-api
 ---
 # Day Value Set - Campaign Management
 Defines the day values that you can specify for day and time criterion.

@@ -1,10 +1,11 @@
 ---
 title: CustomerAccountShare Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a customer or account that can use the shared audience or UET tag.
+ms.subservice: campaign-management-api
 ---
 # CustomerAccountShare Data Object - Campaign Management
 Defines a customer or account that can use the shared audience or UET tag.

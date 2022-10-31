@@ -1,10 +1,11 @@
 ---
 title: ProfileCriterion Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a criterion that can be used to show ads to users in a specific company, industry, or job function.
+ms.subservice: campaign-management-api
 ---
 # ProfileCriterion Data Object - Campaign Management
 Defines a criterion that can be used to show ads to users in a specific company, industry, or job function. 

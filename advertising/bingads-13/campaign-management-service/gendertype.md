@@ -1,10 +1,11 @@
 ---
 title: GenderType Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the genders that are available for gender criterion.
+ms.subservice: campaign-management-api
 ---
 # GenderType Value Set - Campaign Management
 Defines the genders that are available for gender criterion.

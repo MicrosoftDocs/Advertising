@@ -1,10 +1,11 @@
 ---
 title: ProductAd Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a product ad.
+ms.subservice: campaign-management-api
 ---
 # ProductAd Data Object - Campaign Management
 Defines a product ad. A product ad is not used directly for delivered ad copy.  Instead, the delivery engine generates product ads from the product details that it finds in the customer's Microsoft Merchant Center store.
