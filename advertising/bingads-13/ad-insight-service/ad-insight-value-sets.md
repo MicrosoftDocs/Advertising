@@ -1,10 +1,11 @@
 ---
 title: Ad Insight Value Sets
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Value sets reference for the AdInsight service.
+ms.subservice: ad-insight-api
 ---
 # Ad Insight Value Sets
 The Ad Insight service defines the following value sets.

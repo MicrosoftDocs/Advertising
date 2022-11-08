@@ -1,6 +1,6 @@
 ---
 title: TagRecommendations Service Operation - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: ad-insight-api
 ---
 # TagRecommendations Service Operation - Ad Insight
 Notifies Microsoft Advertising that the specific recommendation to create responsive search ads should be tagged as *applied* or *dismissed*. The dismissed recommendations won’t be surfaced to users when calling *GetRecommendations* in the next 30 days.

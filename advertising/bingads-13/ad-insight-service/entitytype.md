@@ -1,10 +1,11 @@
 ---
 title: EntityType Value Set - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the entity types for retrieving auction insights.
+ms.subservice: ad-insight-api
 ---
 # EntityType Value Set - Ad Insight
 Defines the entity types for retrieving auction insights.

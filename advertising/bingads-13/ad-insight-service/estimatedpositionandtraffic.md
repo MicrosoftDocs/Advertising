@@ -1,10 +1,11 @@
 ---
 title: EstimatedPositionAndTraffic Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains the estimated search results position and estimated keyword statistics such as clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified keyword given the specified bid.
+ms.subservice: ad-insight-api
 ---
 # EstimatedPositionAndTraffic Data Object - Ad Insight
 Defines an object that contains the estimated search results position and estimated keyword statistics such as clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified keyword given the specified bid.

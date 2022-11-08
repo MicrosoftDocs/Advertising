@@ -1,6 +1,6 @@
 ---
 title: SuggestKeywordsFromExistingKeywords Service Operation - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: ad-insight-api
 ---
 # SuggestKeywordsFromExistingKeywords Service Operation - Ad Insight
 Suggests keywords that could perform better than the specified keywords.

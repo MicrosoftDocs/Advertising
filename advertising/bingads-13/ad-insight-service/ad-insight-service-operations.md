@@ -1,10 +1,11 @@
 ---
 title: Ad Insight Service Operations
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Service operations reference for the AdInsight service.
+ms.subservice: ad-insight-api
 ---
 # Ad Insight Service Operations
 The Ad Insight service defines the following service operations.

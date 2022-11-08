@@ -1,10 +1,11 @@
 ---
 title: KeywordLocation Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains the location, network, device, and the percentage of time that a user entered a search query.
+ms.subservice: ad-insight-api
 ---
 # KeywordLocation Data Object - Ad Insight
 Defines an object that contains the location, network, device, and the percentage of time that a user entered a search query.

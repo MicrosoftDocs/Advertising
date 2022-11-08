@@ -1,10 +1,11 @@
 ---
 title: KeywordOpportunity Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains a suggested keyword and bid value.
+ms.subservice: ad-insight-api
 ---
 # KeywordOpportunity Data Object - Ad Insight
 Defines an object that contains a suggested keyword and bid value.

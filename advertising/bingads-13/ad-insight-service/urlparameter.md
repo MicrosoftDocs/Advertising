@@ -1,10 +1,11 @@
 ---
 title: UrlParameter Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the URL parameter for use with performance insights.
+ms.subservice: ad-insight-api
 ---
 # UrlParameter Data Object - Ad Insight
 Defines the URL parameter for use with performance insights. Derives from *PerformanceInsightsMessageParameter*.

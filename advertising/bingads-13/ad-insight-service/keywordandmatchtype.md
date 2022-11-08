@@ -1,10 +1,11 @@
 ---
 title: KeywordAndMatchType Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains a keyword and corresponding match types.
+ms.subservice: ad-insight-api
 ---
 # KeywordAndMatchType Data Object - Ad Insight
 Defines an object that contains a keyword and corresponding match types.

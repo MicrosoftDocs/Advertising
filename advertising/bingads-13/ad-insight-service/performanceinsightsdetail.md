@@ -1,10 +1,11 @@
 ---
 title: PerformanceInsightsDetail Data Object - Ad Insight
-ms.service: bing-ads-ad-insight-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the details for performance insights.
+ms.subservice: ad-insight-api
 ---
 # PerformanceInsightsDetail Data Object - Ad Insight
 Defines the details for performance insights.
