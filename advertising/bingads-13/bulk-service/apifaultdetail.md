@@ -1,10 +1,11 @@
 ---
 title: ApiFaultDetail Data Object - Bulk
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Bulk API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
+ms.subservice: bulk-api
 ---
 # ApiFaultDetail Data Object - Bulk
 Defines a Bulk API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.

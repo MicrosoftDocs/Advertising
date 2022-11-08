@@ -1,10 +1,11 @@
 ---
 title: "Keyword First Page Bid Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Keyword First Page Bid fields in a Bulk file.
+ms.subservice: bulk-api
 ---
 # Keyword First Page Bid Record - Bulk
 Defines a keyword's estimated first page bid that can be downloaded in a bulk file.

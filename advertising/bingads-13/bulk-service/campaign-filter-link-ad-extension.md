@@ -1,12 +1,13 @@
 ---
 title: "Campaign Filter Link Ad Extension Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Filter Link Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Filter Link Ad Extension Record - Bulk
 Defines an association record between a [Campaign](campaign.md) and a [Filter Link Ad Extension](filter-link-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or filter link ad extension, use the [Campaign](campaign.md) or [Filter Link Ad Extension](filter-link-ad-extension.md) record. 

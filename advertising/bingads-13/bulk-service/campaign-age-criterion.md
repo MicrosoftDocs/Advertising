@@ -1,12 +1,13 @@
 ---
 title: "Campaign Age Criterion Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Age Criterion fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Age Criterion Record - Bulk
 Defines a campaign age criterion that can be uploaded and downloaded in a bulk file. 

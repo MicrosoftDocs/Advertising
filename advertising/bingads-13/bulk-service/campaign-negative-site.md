@@ -1,12 +1,13 @@
 ---
 title: "Campaign Negative Site Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Negative Site fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Negative Site Record - Bulk
 Defines a negative site assigned to an campaign that can be uploaded and downloaded in a bulk file.

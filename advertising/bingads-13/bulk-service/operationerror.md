@@ -1,10 +1,11 @@
 ---
 title: OperationError Data Object - Bulk
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Bulk operation error object that contains the details that explain why the service operation failed.
+ms.subservice: bulk-api
 ---
 # OperationError Data Object - Bulk
 Defines a Bulk operation error object that contains the details that explain why the service operation failed.

@@ -1,10 +1,11 @@
 ---
 title: "Bulk File Schema"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the schema for records in a Bulk file.
+ms.subservice: bulk-api
 ---
 # Bulk File Schema
 The bulk schema defines the contents of the file for download or upload with the Bulk API. For both download and upload, the Bulk service supports the file types and corresponding schemas in the [DownloadEntity](downloadentity.md) value set.

@@ -1,12 +1,13 @@
 ---
 title: "Campaign Promotion Ad Extension Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Promotion Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Campaign Promotion Ad Extension Record - Bulk
 Defines an association record between a [Campaign](campaign.md) and a [Promotion Ad Extension](promotion-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or promotion ad extension, use the [Campaign](campaign.md) or [Promotion Ad Extension](promotion-ad-extension.md) record.

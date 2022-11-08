@@ -1,12 +1,13 @@
 ---
 title: "Promotion Ad Extension Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Promotion Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Promotion Ad Extension Record - Bulk
 Defines a promotion ad extension that can be downloaded and uploaded in a bulk file.

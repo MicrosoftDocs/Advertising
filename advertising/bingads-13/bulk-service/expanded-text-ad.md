@@ -1,12 +1,13 @@
 ---
 title: "Expanded Text Ad Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Expanded Text Ad fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Expanded Text Ad Record - Bulk
 Defines an expanded text ad that can be downloaded and uploaded in a bulk file.

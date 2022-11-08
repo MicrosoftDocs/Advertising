@@ -1,12 +1,13 @@
 ---
 title: "Budget Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Budget fields in a Bulk file.
 dev_langs:
   - csharp
+ms.subservice: bulk-api
 ---
 # Budget Record - Bulk
 Defines a budget that can be uploaded and downloaded in a bulk file. 

@@ -1,10 +1,11 @@
 ---
 title: "Hotel Association Record - Bulk"
-ms.service: bing-ads-bulk-service
+ms.service: bing-ads
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Hotel Association fields in a Bulk file. 
+ms.subservice: bulk-api
 ---
 # Hotel Association Record - Bulk
 Defines the Hotel Association record that can be uploaded in a Bulk file.  
