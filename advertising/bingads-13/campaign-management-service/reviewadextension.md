@@ -1,10 +1,11 @@
 ---
 title: ReviewAdExtension Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that specifies third-party reviews (exact or paraphrased) about your business, products, or services to include in an expanded text ad.
+ms.subservice: campaign-management-api
 ---
 # ReviewAdExtension Data Object - Campaign Management
 Defines an object that specifies third-party reviews (exact or paraphrased) about your business, products, or services to include in an expanded text ad.

@@ -1,10 +1,11 @@
 ---
 title: CampaignType Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible campaign types.
+ms.subservice: campaign-management-api
 ---
 # CampaignType Value Set - Campaign Management
 Defines the possible campaign types.

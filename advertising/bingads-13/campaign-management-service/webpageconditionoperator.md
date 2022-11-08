@@ -1,10 +1,11 @@
 ---
 title: WebpageConditionOperator Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.
+ms.subservice: campaign-management-api
 ---
 # WebpageConditionOperator Value Set - Campaign Management
 Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.

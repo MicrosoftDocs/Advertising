@@ -1,10 +1,11 @@
 ---
 title: AttributionModelType Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Reserved.
+ms.subservice: campaign-management-api
 ---
 # AttributionModelType Value Set - Campaign Management
 Determines which attribution model, _LastTouch_ or _LastClick_, is used with a conversion goal.

@@ -1,10 +1,11 @@
 ---
 title: NegativeKeywordList Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a negative keyword list.
+ms.subservice: campaign-management-api
 ---
 # NegativeKeywordList Data Object - Campaign Management
 Defines a negative keyword list. 

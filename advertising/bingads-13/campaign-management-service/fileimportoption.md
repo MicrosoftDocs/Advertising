@@ -1,10 +1,11 @@
 ---
 title: FileImportOption Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: FileImportOption is reserved for future use.
+ms.subservice: campaign-management-api
 ---
 # FileImportOption Data Object - Campaign Management
 FileImportOption is reserved for future use.

@@ -1,10 +1,11 @@
 ---
 title: Address Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a postal address for location ad extensions.
+ms.subservice: campaign-management-api
 ---
 # Address Data Object - Campaign Management
 Defines a postal address for location ad extensions.

@@ -1,10 +1,11 @@
 ---
 title: Setting Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base class of a setting.
+ms.subservice: campaign-management-api
 ---
 # Setting Data Object - Campaign Management
 Defines the base class of a setting.

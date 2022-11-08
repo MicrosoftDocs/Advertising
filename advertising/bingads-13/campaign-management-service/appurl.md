@@ -1,10 +1,11 @@
 ---
 title: AppUrl Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the operating system platform and URL of the app store download webpage.
+ms.subservice: campaign-management-api
 ---
 # AppUrl Data Object - Campaign Management
 Defines the operating system platform and URL of the app store download webpage.

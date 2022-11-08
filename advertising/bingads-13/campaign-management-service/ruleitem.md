@@ -1,10 +1,11 @@
 ---
 title: RuleItem Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base class of a remarketing list rule item.
+ms.subservice: campaign-management-api
 ---
 # RuleItem Data Object - Campaign Management
 Defines the base class of a remarketing list rule item.

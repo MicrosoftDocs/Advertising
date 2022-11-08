@@ -1,6 +1,6 @@
 ---
 title: DeleteSharedEntities Service Operation - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: campaign-management-api
 ---
 # DeleteSharedEntities Service Operation - Campaign Management
 Deletes negative keyword lists from the ad account library, or deletes website exclusion lists from the manager account (customer) library.

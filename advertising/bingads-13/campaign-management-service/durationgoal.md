@@ -1,10 +1,11 @@
 ---
 title: DurationGoal Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a duration conversion goal.
+ms.subservice: campaign-management-api
 ---
 # DurationGoal Data Object - Campaign Management
 Defines a duration conversion goal. Use this type of goal to count every time someone stays on a website for longer than a certain amount of time as a conversion. For example you can count a conversion if someone spent 10 minutes or longer on a blog or playing a game on the webpage.  

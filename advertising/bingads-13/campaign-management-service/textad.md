@@ -1,10 +1,11 @@
 ---
 title: TextAd Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a text ad.
+ms.subservice: campaign-management-api
 ---
 # TextAd Data Object - Campaign Management
 Defines a text ad.

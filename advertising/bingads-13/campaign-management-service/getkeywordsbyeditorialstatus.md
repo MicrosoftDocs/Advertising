@@ -1,6 +1,6 @@
 ---
 title: GetKeywordsByEditorialStatus Service Operation - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: campaign-management-api
 ---
 # GetKeywordsByEditorialStatus Service Operation - Campaign Management
 Retrieves the keywords with the specified editorial review status.

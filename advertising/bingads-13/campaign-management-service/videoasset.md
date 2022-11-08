@@ -1,10 +1,11 @@
 ---
 title: VideoAsset Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the VideoAsset Data Object.
+ms.subservice: campaign-management-api
 ---
 # VideoAsset Data Object - Campaign Management
 Defines the VideoAsset Data Object.

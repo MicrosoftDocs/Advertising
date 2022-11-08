@@ -1,10 +1,11 @@
 ---
 title: PromotionAdExtension Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Promotion Extensions highlight special sales and offers in your text ads.
+ms.subservice: campaign-management-api
 ---
 # PromotionAdExtension Data Object - Campaign Management
 Promotion Extensions highlight special sales and offers in your text ads. By making offers stand out, potential customers are more likely to click on your ad, helping to generate more sales for you. 

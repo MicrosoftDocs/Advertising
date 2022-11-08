@@ -1,10 +1,11 @@
 ---
 title: LogicalOperator Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the supported set of logical operators for combined list audiences.
+ms.subservice: campaign-management-api
 ---
 # LogicalOperator Value Set - Campaign Management
 Defines the supported set of logical operators for combined list audiences.

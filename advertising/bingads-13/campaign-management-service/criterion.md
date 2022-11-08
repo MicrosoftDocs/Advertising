@@ -1,10 +1,11 @@
 ---
 title: Criterion Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base object of a criterion.
+ms.subservice: campaign-management-api
 ---
 # Criterion Data Object - Campaign Management
 Defines the base object of a criterion.

@@ -1,10 +1,11 @@
 ---
 title: StoreCriterion Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a criterion to exclude one Microsoft Merchant Center store from your shopping campaign for brands.
+ms.subservice: campaign-management-api
 ---
 # StoreCriterion Data Object - Campaign Management
 Defines a criterion to exclude one Microsoft Merchant Center store from your [shopping campaign for brands](../guides/product-ads.md#setup-cooperative). 

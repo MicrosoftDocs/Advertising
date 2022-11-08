@@ -1,10 +1,11 @@
 ---
 title: Keyword Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a keyword.
+ms.subservice: campaign-management-api
 ---
 # Keyword Data Object - Campaign Management
 Defines a keyword.

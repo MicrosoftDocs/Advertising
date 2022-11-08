@@ -1,10 +1,11 @@
 ---
 title: PageVisitorsRule Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a page visitors remarketing rule.
+ms.subservice: campaign-management-api
 ---
 # PageVisitorsRule Data Object - Campaign Management
 Defines a page visitors remarketing rule. 

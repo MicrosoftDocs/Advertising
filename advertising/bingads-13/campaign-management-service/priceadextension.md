@@ -1,10 +1,11 @@
 ---
 title: PriceAdExtension Data Object - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an ad extension that includes between 3 and 8 price table rows.
+ms.subservice: campaign-management-api
 ---
 # PriceAdExtension Data Object - Campaign Management
 Defines an ad extension that includes between 3 and 8 price table rows.

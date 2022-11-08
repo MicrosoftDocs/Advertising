@@ -1,6 +1,6 @@
 ---
 title: DeleteAdGroups Service Operation - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: campaign-management-api
 ---
 # DeleteAdGroups Service Operation - Campaign Management
 Deletes one or more ad groups from the specified campaign.

@@ -1,10 +1,11 @@
 ---
 title: AdGroupStatus Value Set - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible status values of an ad group.
+ms.subservice: campaign-management-api
 ---
 # AdGroupStatus Value Set - Campaign Management
 Defines the possible status values of an ad group.

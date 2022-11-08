@@ -1,6 +1,6 @@
 ---
 title: AddNegativeKeywordsToEntities Service Operation - Campaign Management
-ms.service: bing-ads-campaign-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: campaign-management-api
 ---
 # AddNegativeKeywordsToEntities Service Operation - Campaign Management
 Adds negative keywords to the specified campaign or ad group.
