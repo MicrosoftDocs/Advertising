@@ -1,10 +1,11 @@
 ---
 title: ReportRequestStatus Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the status of a report request.
+ms.subservice: reporting-api
 ---
 # ReportRequestStatus Data Object - Reporting
 Defines the status of a report request.

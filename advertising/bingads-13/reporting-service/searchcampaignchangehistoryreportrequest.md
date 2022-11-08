@@ -1,10 +1,11 @@
 ---
 title: SearchCampaignChangeHistoryReportRequest Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a change history report request.
+ms.subservice: reporting-api
 ---
 # SearchCampaignChangeHistoryReportRequest Data Object - Reporting
 Defines a change history report request. Use this report to discover when changes to an account were made, as well as which user made the changes.

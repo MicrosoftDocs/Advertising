@@ -1,10 +1,11 @@
 ---
 title: AdExtensionByAdReportRequest Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an ad extension by ad report request.
+ms.subservice: reporting-api
 ---
 # AdExtensionByAdReportRequest Data Object - Reporting
 Defines an ad extension by ad report request. Use this report to compare how well different versions of your ad extensions are performing with each ad.

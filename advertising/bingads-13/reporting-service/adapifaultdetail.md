@@ -1,10 +1,11 @@
 ---
 title: AdApiFaultDetail Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Reporting Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
+ms.subservice: reporting-api
 ---
 # AdApiFaultDetail Data Object - Reporting
 Defines a Reporting Ad API fault detail object that operations return when generic errors occur, such as an authentication error.

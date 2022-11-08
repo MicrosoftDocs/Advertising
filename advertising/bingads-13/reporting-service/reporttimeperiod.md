@@ -1,10 +1,11 @@
 ---
 title: ReportTimePeriod Value Set - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the predefined time and date range values for a report request.
+ms.subservice: reporting-api
 ---
 # ReportTimePeriod Value Set - Reporting
 Defines the predefined time and date range values for a report request.

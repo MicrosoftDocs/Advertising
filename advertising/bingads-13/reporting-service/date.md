@@ -1,10 +1,11 @@
 ---
 title: Date Data Object - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a calendar date by month, day, and year.
+ms.subservice: reporting-api
 ---
 # Date Data Object - Reporting
 Defines a calendar date by month, day, and year.

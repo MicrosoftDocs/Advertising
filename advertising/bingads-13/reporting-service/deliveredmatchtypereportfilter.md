@@ -1,10 +1,11 @@
 ---
 title: DeliveredMatchTypeReportFilter Value Set - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the delivered match type values that you can use to filter the report data.
+ms.subservice: reporting-api
 ---
 # DeliveredMatchTypeReportFilter Value Set - Reporting
 Defines the delivered match type values that you can use to filter the report data. These values are also used as column values in reports that include match type, such as the keyword performance report.

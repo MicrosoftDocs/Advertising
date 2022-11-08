@@ -1,10 +1,11 @@
 ---
 title: GeographicPerformanceReportColumn Value Set - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the GeographicPerformanceReportRequest.
+ms.subservice: reporting-api
 ---
 # GeographicPerformanceReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [GeographicPerformanceReportRequest](geographicperformancereportrequest.md).

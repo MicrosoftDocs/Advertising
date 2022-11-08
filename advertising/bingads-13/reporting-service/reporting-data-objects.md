@@ -1,10 +1,11 @@
 ---
 title: Reporting Data Objects
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Data objects reference for the Reporting service.
+ms.subservice: reporting-api
 ---
 # Reporting Data Objects
 The Reporting service defines the following data objects.

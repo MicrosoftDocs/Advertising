@@ -1,10 +1,11 @@
 ---
 title: ProductPartitionPerformanceReportColumn Value Set - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the ProductPartitionPerformanceReportRequest.
+ms.subservice: reporting-api
 ---
 # ProductPartitionPerformanceReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [ProductPartitionPerformanceReportRequest](productpartitionperformancereportrequest.md).

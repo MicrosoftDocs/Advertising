@@ -1,10 +1,11 @@
 ---
 title: LanguageReportFilter Value Set - Reporting
-ms.service: bing-ads-reporting-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the language values that you can use to filter the report data.
+ms.subservice: reporting-api
 ---
 # LanguageReportFilter Value Set - Reporting
 Defines the language values that you can use to filter the report data. These values are also used as column values in reports that include language, such as the keyword performance report.
