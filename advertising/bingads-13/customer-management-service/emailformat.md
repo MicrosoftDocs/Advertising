@@ -1,10 +1,11 @@
 ---
 title: EmailFormat Value Set - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible formats of the body of an email message.
+ms.subservice: customer-management-api
 ---
 # EmailFormat Value Set - Customer Management
 Defines the possible formats of the body of an email message.

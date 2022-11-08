@@ -1,6 +1,6 @@
 ---
 title: GetUserMFAStatus Service Operation - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-management-api
 ---
 # GetUserMFAStatus Service Operation - Customer Management
 Used to estimate adoption of multi-factor authentication (MFA) by users of your application. 

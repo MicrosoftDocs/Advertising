@@ -1,10 +1,11 @@
 ---
 title: OperationError Data Object - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Customer Management operation error object that contains the details that explain why the service operation failed.
+ms.subservice: customer-management-api
 ---
 # OperationError Data Object - Customer Management
 Defines a Customer Management operation error object that contains the details that explain why the service operation failed.

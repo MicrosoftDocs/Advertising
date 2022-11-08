@@ -1,10 +1,11 @@
 ---
 title: AccountTaxCertificate Data Object - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the AccountTaxCertificate Data Object.
+ms.subservice: customer-management-api
 ---
 # AccountTaxCertificate Data Object - Customer Management
 Defines the AccountTaxCertificate Data Object.

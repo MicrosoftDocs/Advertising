@@ -1,10 +1,11 @@
 ---
 title: Customer Management Service Operations
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Service operations reference for the CustomerManagement service.
+ms.subservice: customer-management-api
 ---
 # Customer Management Service Operations
 The Customer Management service defines the following service operations.

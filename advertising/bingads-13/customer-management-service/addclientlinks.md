@@ -1,6 +1,6 @@
 ---
 title: AddClientLinks Service Operation - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-management-api
 ---
 # AddClientLinks Service Operation - Customer Management
 Initiates the client link process to manage the accounts of another customer. Sends a link request from one customer to another customer or account.

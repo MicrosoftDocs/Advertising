@@ -1,10 +1,11 @@
 ---
 title: UserInvitation Data Object - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an invitation for a user to sign up for Microsoft Advertising.
+ms.subservice: customer-management-api
 ---
 # UserInvitation Data Object - Customer Management
 Defines an invitation for a user to sign up for Microsoft Advertising. The invitation limits account access and permissions. 

@@ -1,10 +1,11 @@
 ---
 title: OrderByField Value Set - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the field order of entities returned using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
+ms.subservice: customer-management-api
 ---
 # OrderByField Value Set - Customer Management
 Defines the field order of entities returned using one of the search operations, for example [SearchAccounts](searchaccounts.md), [SearchClientLinks](searchclientlinks.md), or [SearchCustomers](searchcustomers.md).

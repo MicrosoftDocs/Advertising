@@ -1,6 +1,6 @@
 ---
 title: SignupCustomer Service Operation - Customer Management
-ms.service: bing-ads-customer-management-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-management-api
 ---
 # SignupCustomer Service Operation - Customer Management
 Creates a new customer and account.  
