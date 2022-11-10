@@ -735,4 +735,4 @@ The length of the string is limited to 2,048 characters. If the domain name incl
 
 **Add:** Required if the [Campaign Type](#campaigntype) field is set to *DynamicSearchAds*. Optional if the account is in the [mixed campaigns](../guides/mixed-campaigns.md) feature pilot, if the [Campaign Type](#campaigntype) field is set to *Search*, and if the [Experiment Id](#experimentid) field is not set. You cannot include this column for other campaign types.  
 **Update:** Read-only. You cannot update the domain name.      
-**Delete:** Read-only  
+**Delete:** Read-only   
