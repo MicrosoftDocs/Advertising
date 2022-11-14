@@ -60,7 +60,7 @@ You can create a smart shopping [campaign](../campaign-management-service/campai
 
 - The [CampaignType](../campaign-management-service/campaign.md#campaigntype) must be set to *Shopping*. 
 
-- The [SubType](../campaign-management-service/campaign.md#subtype) must be set to *ShoppingSmartAds*. If the sub type is not set, the campaign will be a standard Microsoft shopping campaign. 
+- The [SubType](../campaign-management-service/campaign.md#subtype) must be set to *ShoppingSmartAds*. If the sub type is not set, the campaign is created according to the campaign type.
 
 - The [BiddingScheme](../campaign-management-service/campaign.md#biddingscheme) must be either null or set to [MaxConversionValueBiddingScheme](../campaign-management-service/maxconversionvaluebiddingscheme.md) with optional [TargetRoas](../campaign-management-service/maxconversionvaluebiddingscheme.md#targetroas). Smart shopping campaigns use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.  
 
