@@ -663,7 +663,7 @@ To get your store identifiers, call the [GetBMCStoresByCustomerId](../campaign-m
 ## <a name="subtype"></a>Sub Type
 The campaign sub type.
 
-If the sub type is not set, the campaign is a standard Microsoft Shopping campaign.
+If the sub type is not set, the campaign is created according to the campaign type.
 
 If the sub type is set to *AudienceVideoAds* and the campaign type is *Audience*, the campaign is a video audience campaign.
 
