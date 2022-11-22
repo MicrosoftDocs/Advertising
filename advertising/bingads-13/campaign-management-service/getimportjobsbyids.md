@@ -28,7 +28,7 @@ The *GetImportJobsByIdsRequest* object defines the [body](#request-body) and [he
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="importjobids"></a>ImportJobIds|The identifiers of the import jobs to get.<br/><br/>You can specify a maximum of 100 import job IDs. If this element is not specified, the operation will return up to 500 jobs in the ad account.|**long** array|
+|<a name="importjobids"></a>ImportJobIds|The identifiers of the import jobs to get.<br/><br/>You can specify a maximum of 100 import job IDs. If this element is not specified, the operation will return up to 500 import jobs in the ad account.|**long** array|
 |<a name="importtype"></a>ImportType|The type of import job to get.<br/><br/>To get [GoogleImportJob](googleimportjob.md) objects, set this element to "GoogleImportJob".|**string**|
 |<a name="returnadditionalfields"></a>ReturnAdditionalFields|The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[ImportAdditionalField](importadditionalfield.md)|
 
