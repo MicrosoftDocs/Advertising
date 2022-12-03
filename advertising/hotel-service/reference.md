@@ -18,9 +18,8 @@ The Hotel API lets you manage your hotel ad campaigns and bidding.
 
 ## Endpoints
 
-The following are the base URIs that you use to construct the endpoint.  
+The following is the base URI that you use to construct the endpoint.  
 
-- Sandbox&mdash;`https://partner.api.sandbox.bingads.microsoft.com/Travel/V1/`
 - Production&mdash;`https://partner.api.bingads.microsoft.com/Travel/v1/`
 
 The endpoint must include the customer and account resources.
