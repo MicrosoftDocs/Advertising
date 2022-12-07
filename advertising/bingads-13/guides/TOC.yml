@@ -1157,10 +1157,14 @@
       href: ../campaign-management-service/addvideos.md
     - name: AppealEditorialRejections
       href: ../campaign-management-service/appealeditorialrejections.md
+    - name: ApplyHotelGroupActions
+      href: ../campaign-management-service/applyhotelgroupactions.md
     - name: ApplyOfflineConversionAdjustments
       href: ../campaign-management-service/applyofflineconversionadjustments.md
     - name: ApplyOfflineConversions
       href: ../campaign-management-service/applyofflineconversions.md
+    - name: ApplyOnlineConversionAdjustments
+      href: ../campaign-management-service/applyonlineconversionadjustments.md
     - name: ApplyProductPartitionActions
       href: ../campaign-management-service/applyproductpartitionactions.md
     - name: DeleteAdExtensions
@@ -1548,6 +1552,24 @@
       href: ../campaign-management-service/googleimportjob.md
     - name: GoogleImportOption
       href: ../campaign-management-service/googleimportoption.md
+    - name: HotelAd
+      href: ../campaign-management-service/hotelad.md
+    - name: HotelAdvanceBookingWindowCriterion
+      href: ../campaign-management-service/hoteladvancebookingwindowcriterion.md
+    - name: HotelCheckInDateCriterion
+      href: ../campaign-management-service/hotelcheckindatecriterion.md
+    - name: HotelCheckInDayCriterion
+      href: ../campaign-management-service/hotelcheckindaycriterion.md
+    - name: HotelDateSelectionTypeCriterion
+      href: ../campaign-management-service/hoteldateselectiontypecriterion.md
+    - name: HotelGroup
+      href: ../campaign-management-service/hotelgroup.md
+    - name: HotelLengthOfStayCriterion
+      href: ../campaign-management-service/hotellengthofstaycriterion.md
+    - name: HotelListing
+      href: ../campaign-management-service/hotellisting.md
+    - name: HotelSetting
+      href: ../campaign-management-service/hotelsetting.md
     - name: IdCollection
       href: ../campaign-management-service/idcollection.md
     - name: Image
@@ -1630,6 +1652,8 @@
       href: ../campaign-management-service/offlineconversionadjustment.md
     - name: OfflineConversionGoal
       href: ../campaign-management-service/offlineconversiongoal.md
+    - name: OnlineConversionAdjustment
+      href: ../campaign-management-service/onlineconversionadjustment.md
     - name: OperationError
       href: ../campaign-management-service/operationerror.md
     - name: PagesViewedPerVisitGoal
@@ -1843,6 +1867,12 @@
       href: ../campaign-management-service/expressionoperator.md
     - name: GenderType
       href: ../campaign-management-service/gendertype.md
+    - name: HotelAdGroupType
+      href: ../campaign-management-service/hoteladgrouptype.md
+    - name: HotelDateSelectionType
+      href: ../campaign-management-service/hoteldateselectiontype.md
+    - name: HotelListingType
+      href: ../campaign-management-service/hotellistingtype.md
     - name: ImportAdditionalField
       href: ../campaign-management-service/importadditionalfield.md
     - name: ImportEntityType
