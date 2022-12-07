@@ -24,7 +24,7 @@ Unlike the other Bing Ads APIs, the Hotel API does not use a developer token. Th
 
 ## Enable your account for Hotel Price Ads
 
-Your account needs to enabled before you can use Hotel Price Ads or the API. We will notify you if you are enabled for Hotel Price Ads via email.
+Once we have received your enrollment information, we will contact you via email regarding the next steps.
 
 <a name="authenticatingcredentials"></a>
 
