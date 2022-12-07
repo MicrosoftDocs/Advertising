@@ -23,4 +23,4 @@ The following are the differences between Google's Transaction Message implement
   
   - `Rates`
   
-- Bing does not support (and will ignore) the `all_inclusive` attribute of the `Baserate` element (see [Result](reference.md#result-type)).
+
