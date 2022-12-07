@@ -32,7 +32,7 @@ For information about creating a feed file using CSV or TSV file format, see [Cr
 
 Because Microsoft attempts to match properties in your hotel feed to businesses in Bing Maps, it is important that the data you provide about the hotel is accurate and complete.
 
-If a hotel has missing or incorrect information, Microsoft may not be able to match it. If Microsoft cannot match the hotel, Microsoft will not advertise it. After your TAM imports your hotel feed file, they'll send you a report that indicates which hotels Microsoft matched or didn't match. If Microsoft didn't match the hotel, the report includes the message, *Unable to match this hotel to a property in Bing*. For help improving your match rate, work with your TAM.
+If a hotel has missing or incorrect information, Microsoft may not be able to match it. If Microsoft cannot match the hotel, Microsoft will not advertise it. You will be able to view a matching report in the hotel center that indicates which hotels Microsoft matched or didn't match. If Microsoft didn't match the hotel, the report includes the message, *Unable to match this hotel to a property in Bing*. For help improving your match rate, please ensure they are available in Bing places for business.
 
 
 ## The top-level element in your feed
