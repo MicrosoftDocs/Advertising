@@ -43,8 +43,6 @@
   items:
   - name: Process a Query message
     href: ../query-message/process-query-message.md
-  - name: Google and Bing Query message differences
-    href: ../query-message/google-bing-query-message-differences.md
   - name: Query message reference
     href: ../query-message/reference.md
   - name: Query message schema
