@@ -60,6 +60,10 @@ The Reporting service defines the following data objects.
 |[GeographicPerformanceReportRequest](geographicperformancereportrequest.md)|Defines a geographic performance report request.|
 |[GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)|Defines the criteria to use to filter the goals and funnels report data.|
 |[GoalsAndFunnelsReportRequest](goalsandfunnelsreportrequest.md)|Defines a goals and funnels report request.|
+|[HotelDimensionPerformanceReportFilter](hoteldimensionperformancereportfilter.md)|Defines the criteria to use to filter the hotel dimension performance report data.|
+|[HotelDimensionPerformanceReportRequest](hoteldimensionperformancereportrequest.md)|Defines a. hotel dimension performance report request|
+|[HotelGroupPerformanceReportFilter](hotelgroupperformancereportfilter.md)|Defines the criteria to use to filter the hotel group performance report data.|
+|[HotelGroupPerformanceReportRequest](hotelgroupperformancereportrequest.md)|Defines a hotel group performance report request.|
 |[KeywordPerformanceReportFilter](keywordperformancereportfilter.md)|Defines the criteria to use to filter the keyword performance report data.|
 |[KeywordPerformanceReportRequest](keywordperformancereportrequest.md)|Defines a keyword performance report request.|
 |[KeywordPerformanceReportSort](keywordperformancereportsort.md)|Defines a keyword performance report column and corresponding sort order.|
