@@ -2318,9 +2318,9 @@
     - name: GoalsAndFunnelsReportRequest
       href: ../reporting-service/goalsandfunnelsreportrequest.md
     - name: HotelDimensionPerformanceReportFilter 
-      href: ../reporting-service/hoteldimensionperformancereportfilter .md
+      href: ../reporting-service/hoteldimensionperformancereportfilter.md
     - name: HotelDimensionPerformanceReportRequest 
-      href: ../reporting-service/hoteldimensionperformancereportrequest .md
+      href: ../reporting-service/hoteldimensionperformancereportrequest.md
     - name: HotelGroupPerformanceReportFilter 
       href: ../reporting-service/hotelgroupperformancereportfilter.md
     - name: HotelGroupPerformanceReportRequest
@@ -2461,9 +2461,9 @@
     - name: GoalsAndFunnelsReportColumn
       href: ../reporting-service/goalsandfunnelsreportcolumn.md
     - name: HotelDimensionPerformanceReportColumn 
-      href: ../reporting-service/hoteldimensionperformancereportcolumn .md
+      href: ../reporting-service/hoteldimensionperformancereportcolumn.md
     - name: HotelGroupPerformanceReportColumn 
-      href: ../reporting-service/hotelgroupperformancereportcolumn .md
+      href: ../reporting-service/hotelgroupperformancereportcolumn.md
     - name: KeywordPerformanceReportColumn
       href: ../reporting-service/keywordperformancereportcolumn.md
     - name: KeywordStatusReportFilter
