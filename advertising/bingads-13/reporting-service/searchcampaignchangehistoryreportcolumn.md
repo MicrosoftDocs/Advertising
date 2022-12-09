@@ -184,7 +184,7 @@ When the [ItemChanged](#itemchanged) field's value is Campaign, change history f
 |None (blank)|Refers to the name of the campaign that was added.<br/><br/>The value of the corresponding [HowChanged](#howchanged) field is Added.|
 |Advanced location targeting|Refers to intent option of the location target that is associated with the campaign.|
 |Age|Refers to the age target.|
-|Budget type|Refers to the campaign budget type.<br/><br/>Possible values in the [OldValue](#oldvalue) and [NewValue](#newvalue) columns are as follows:<br/><br/>- Value of Daily target (accelerated) corresponds to the Microsoft Advertising web application Daily Accelerated setting.<br/><br/>- Value of Daily target (standard) corresponds to the Microsoft Advertising web application Daily Standard setting.<br/><br/>- Value of Monthly (open) corresponds to the Microsoft Advertising web application Monthly setting.|
+|Budget type|Refers to the campaign budget type.<br/><br/>Possible values in the [OldValue](#oldvalue) and [NewValue](#newvalue) columns are as follows:<br/><br/>- Value of Daily target (accelerated) corresponds to the Microsoft Advertising web application Daily Accelerated setting.<br/><br/>- Value of Daily target (standard) corresponds to the Microsoft Advertising web application Daily Standard setting.|
 |Campaign priority|Refers to the priority of a Microsoft Shopping campaign.|
 |Custom parameters|Refers to the custom parameters of the campaign.|
 |Daily budget|Refers to the campaign daily budget amount.|
@@ -198,11 +198,11 @@ When the [ItemChanged](#itemchanged) field's value is Campaign, change history f
 |IP exclusion|Refers to the IP exclusions created via the Microsoft Advertising web application.|
 |Location|Refers to the location target.|
 |Location exclusion|Refers to excluding locations from a location target.|
-|Monthly budget|Refers to the campaign monthly budget amount.|
 |Name|Refers to the name of the campaign that was changed.|
 |Negative keyword|Refers to a negative keyword associated with the campaign.<br/><br/>Updates to negative keywords are reported as a Removed and Added change in two rows. The Removed record corresponds to the old value, and the Added record reflects the new value.|
 |Pause status|Refers to the any of the paused states of the campaign.<br/><br/>Possible values in the [OldValue](#oldvalue) and [NewValue](#newvalue) columns are "Budget Paused", "Budget and user Paused", "Not paused", and "Paused".|
-|Product flter|Refers to the product scope or condition of a Microsoft Shopping campaign. A Microsoft Shopping campaign can have multiple product conditions, and each condition is represented separately in its own report row.|
+|Product filter|Refers to the product scope or condition of a Microsoft Shopping campaign. A Microsoft Shopping campaign can have multiple product conditions, and each condition is represented separately in its own report row.|
+|Shared budget|Refers to the budget shared by multiple campaigns.|
 |Site Exclusion|Refers to the campaign's negative site URLs. A campaign can have multiple site exclusions, and each site exclusion is represented separately in its own report row.|
 |Start date|For internal use.|
 |Start time|Refers to the combined From Hour and From Minute of the DayTime target. The bid adjustment is also included in this field, delimited from the time by a single vertical bar character. |
