@@ -1,10 +1,11 @@
 ---
 title: Customer Billing Data Objects
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Data objects reference for the CustomerBilling service.
+ms.subservice: customer-billing-api
 ---
 # Customer Billing Data Objects
 The Customer Billing service defines the following data objects.
