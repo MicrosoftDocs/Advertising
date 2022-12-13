@@ -660,6 +660,9 @@
     - name: Ad Group Flyer Ad Extension
       href: ../bulk-service/ad-group-flyer-ad-extension.md
       displayName: BulkAdGroupFlyerAdExtension
+    - name: Ad Group Hotel Listing Group
+      href: ../bulk-service/ad-group-hotel-listing-group.md
+      displayName: BulkAdGroupHotelListingGroup
     - name: Ad Group Image Ad Extension
       href: ../bulk-service/ad-group-image-ad-extension.md
       displayName: BulkAdGroupImageAdExtension

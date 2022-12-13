@@ -356,7 +356,7 @@ The name of the campaign.
 ## <a name="campaigntype"></a>Campaign Type
 The type of the campaign.
 
-The campaign type determines whether the campaign is a Microsoft Shopping campaign, Dynamic Search Ads campaign, or Search campaign. Possible values include *Audience*, *DynamicSearchAds*, *Shopping*, and *Search*. 
+The campaign type determines whether the campaign is a Microsoft Shopping campaign, Dynamic Search Ads campaign, Hotel campaign, or Search campaign. Possible values include *Audience*, *DynamicSearchAds*, *Hotel*, *Shopping*, and *Search*. 
 
 > [!NOTE]
 > You can no longer add, update, or retrieve campaigns that only support dynamic search ads. The campaign type of your existing campaigns has been updated from "DynamicSearchAds" to "Search". The ad groups are now considered "dynamic" ad groups, but there are no structural changes i.e., they contain the same auto targets and dynamic search ads as before.  
