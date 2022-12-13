@@ -66,6 +66,8 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [DSASearchQueryPerformanceReportRequest](dsasearchqueryperformancereportrequest.md)  
 [GeographicPerformanceReportRequest](geographicperformancereportrequest.md)  
 [GoalsAndFunnelsReportRequest](goalsandfunnelsreportrequest.md)  
+[HotelDimensionPerformanceReportRequest](hoteldimensionperformancereportrequest.md)  
+[HotelGroupPerformanceReportRequest](hotelgroupperformancereportrequest.md)  
 [KeywordPerformanceReportRequest](keywordperformancereportrequest.md)  
 [ProductDimensionPerformanceReportRequest](productdimensionperformancereportrequest.md)  
 [ProductMatchCountReportRequest](productmatchcountreportrequest.md)  

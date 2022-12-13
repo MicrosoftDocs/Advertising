@@ -14,7 +14,7 @@ Defines an ad group hotel listing group that can be uploaded and downloaded in a
 
 You can upload *Ad Group Hotel Listing Group* records for multiple ad groups in the same bulk file, as long as the validation rules are satisfied as described below. 
 
-- At minimum you must specify at least the root node for the hotel listing group group tree structure. The hotel listing group group's root node must have its [Hotel Attribute](#hotelattribute) field set to "All" and [Hotel Attribute Value](#hotelattributevalue) null or empty. If you are bidding on all products in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific hotel attributes, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
+- At minimum you must specify at least the root node for the hotel listing group group tree structure. The hotel listing group group's root node must have its [Hotel Attribute](#hotelattribute) field set to "All" and [Hotel Attribute Value](#hotelattributevalue) null or empty. If you are bidding on all hotels in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific hotel attributes, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
 
 - The root node is considered level 0, and a tree can have branches up to 7 levels deep.
 
