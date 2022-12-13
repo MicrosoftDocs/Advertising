@@ -33,17 +33,25 @@ Multiple user objects can be assigned to the same person i.e., one user per pers
     <xs:element minOccurs="0" name="UserLifeCycleStatus" nillable="true" type="tns:UserLifeCycleStatus" />
     <xs:element minOccurs="0" name="TimeStamp" nillable="true" type="xs:base64Binary" />
     <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q6:ArrayOfKeyValuePairOfstringstring" xmlns:q6="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q6:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element minOccurs="0" name="AuthenticationToken" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
 
-The [User](user.md) object has the following elements: [ContactInfo](#contactinfo), [CustomerId](#customerid), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [JobTitle](#jobtitle), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedTime](#lastmodifiedtime), [Lcid](#lcid), [Name](#name), [Password](#password), [SecretAnswer](#secretanswer), [SecretQuestion](#secretquestion), [TimeStamp](#timestamp), [UserLifeCycleStatus](#userlifecyclestatus), [UserName](#username).
+The [User](user.md) object has the following elements: [AuthenticationToken](#authenticationtoken), [ContactInfo](#contactinfo), [CustomerId](#customerid), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [JobTitle](#jobtitle), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedTime](#lastmodifiedtime), [Lcid](#lcid), [Name](#name), [Password](#password), [SecretAnswer](#secretanswer), [SecretQuestion](#secretquestion), [TimeStamp](#timestamp), [UserLifeCycleStatus](#userlifecyclestatus), [UserName](#username).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="authenticationtoken"></a>AuthenticationToken|The OAuth access token that represents the credentials of the user who has permissions to Microsoft Advertising accounts.<br/><br/>For more information see [Authentication with OAuth](../guides/authentication-oauth.md).<br/><br/>**Update:** Read-only|**string**|
 |<a name="contactinfo"></a>ContactInfo|The user's contact information.<br/><br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[ContactInfo](contactinfo.md)|
 |<a name="customerid"></a>CustomerId|The identifier of the customer for this user to access.<br/><br/>**Update:** Read-only|**long**|
 |<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for this object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
@@ -66,4 +74,5 @@ Namespace: https\://bingads.microsoft.com/Customer/v13/Entities
 
 ## Used By
 [GetUser](getuser.md)  
-[UpdateUser](updateuser.md)  
+[UpdateUser](updateuser.md) 
+[SignupCustomer](signupcustomer.md) 
