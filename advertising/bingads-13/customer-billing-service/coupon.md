@@ -1,10 +1,11 @@
 ---
 title: Coupon Data Object - Customer Billing
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a coupon.
+ms.subservice: customer-billing-api
 ---
 # Coupon Data Object - Customer Billing
 Defines a coupon.

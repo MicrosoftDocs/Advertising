@@ -1,6 +1,6 @@
 ---
 title: AddInsertionOrder Service Operation - Customer Billing
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-billing-api
 ---
 # AddInsertionOrder Service Operation - Customer Billing
 Adds an insertion order to the specified account.

@@ -1,10 +1,11 @@
 ---
 title: Customer Billing Service Operations
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Service operations reference for the CustomerBilling service.
+ms.subservice: customer-billing-api
 ---
 # Customer Billing Service Operations
 The Customer Billing service defines the following service operations.

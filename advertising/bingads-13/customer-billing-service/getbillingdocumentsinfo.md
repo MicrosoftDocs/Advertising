@@ -1,6 +1,6 @@
 ---
 title: GetBillingDocumentsInfo Service Operation - Customer Billing
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-billing-api
 ---
 # GetBillingDocumentsInfo Service Operation - Customer Billing
 Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.

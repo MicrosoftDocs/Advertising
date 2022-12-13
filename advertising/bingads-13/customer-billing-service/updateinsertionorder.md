@@ -1,6 +1,6 @@
 ---
 title: UpdateInsertionOrder Service Operation - Customer Billing
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-billing-api
 ---
 # UpdateInsertionOrder Service Operation - Customer Billing
 Updates an insertion order within the specified account.

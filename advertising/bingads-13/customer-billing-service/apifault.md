@@ -1,10 +1,11 @@
 ---
 title: ApiFault Data Object - Customer Billing
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Customer Billing API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
+ms.subservice: customer-billing-api
 ---
 # ApiFault Data Object - Customer Billing
 Defines a Customer Billing API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.

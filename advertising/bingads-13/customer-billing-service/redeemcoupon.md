@@ -1,6 +1,6 @@
 ---
 title: RedeemCoupon Service Operation - Customer Billing
-ms.service: bing-ads-customer-billing-service
+ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,6 +10,7 @@ dev_langs:
   - java
   - php
   - python
+ms.subservice: customer-billing-api
 ---
 # RedeemCoupon Service Operation - Customer Billing
 Redeems a coupon to the specified account.

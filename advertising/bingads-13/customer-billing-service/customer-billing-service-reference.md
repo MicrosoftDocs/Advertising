@@ -1,10 +1,11 @@
 ---
 title: "Customer Billing API"
-ms.service: "bing-ads-customer-billing-service"
+ms.service: "bing-ads"
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Reference documentation for the Customer Billing API.
+ms.subservice: customer-billing-api
 ---
 # Customer Billing API
 The Customer Billing [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to get billing documents, insertion orders, and monthly spend for an account.
