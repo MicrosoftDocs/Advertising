@@ -182,6 +182,8 @@ In a [mixed campaign](../guides/mixed-campaigns.md) where the [Campaign Type](ca
 
 The type of ad groups within "DynamicSearchAds" campaigns can only be set to "SearchDynamic". You don't need to set the ad group type for "DynamicSearchAds" campaigns, but please note when you retrieve ad groups this field will be set to "SearchDynamic".
 
+This field can be set to *HotelAds* for "Hotel" or "Search" campaign types.
+
 This field cannot be set for "Audience" or "Shopping" campaign types. When you retrieve an ad group within unsupported campaigns, this field will be empty.
 
 **Add:** Optional. The default value for Search campaigns is "SearchStandard". The default value for "DynamicSearchAds" campaigns is "SearchDynamic".  

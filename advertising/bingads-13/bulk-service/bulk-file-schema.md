@@ -72,6 +72,7 @@ Record Type  |Supported Campaign Types
 [Ad Group Filter Link Ad Extension](ad-group-filter-link-ad-extension.md)|Search  
 [Ad Group Flyer Ad Extension](ad-group-flyer-ad-extension.md)|Search  
 [Ad Group Gender Criterion](ad-group-gender-criterion.md)|All  
+[Ad Group Hotel Listing Group](ad-group-hotel-listing-group.md)|Hotel 
 [Ad Group Image Ad Extension](ad-group-image-ad-extension.md)|Search  
 [Ad Group Industry Criterion](ad-group-industry-criterion.md)|All  
 [Ad Group In Market Audience Association](ad-group-in-market-audience-association.md)|All  

@@ -27,8 +27,10 @@ Portfolio bid strategies work best with one goal in mind, using complementary ca
 
 |Bid strategy type|Campaign types supported|
 |-----|-----|
+|Commission|Search, Shopping, Hotel|
 |Maximize clicks|Search, Shopping|
 |Maximize conversions|Search|
+|PercentCpc|Search, Shopping, Hotel|
 |Target CPA|Search|
 |Target impression share|Search|
 |Target ROAS|Search, Shopping|
