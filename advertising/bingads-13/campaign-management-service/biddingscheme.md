@@ -12,6 +12,7 @@ Defines the base object of a bidding scheme for how you want to manage your bids
 
 Do not try to instantiate a *BiddingScheme*. You can create one or more of the following objects that derive from it.  
 
+- [CommissionBiddingScheme](commissionbiddingscheme.md)  
 - [EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md)  
 - [InheritFromParentBiddingScheme](inheritfromparentbiddingscheme.md)  
 - [ManualCpcBiddingScheme](manualcpcbiddingscheme.md)  
