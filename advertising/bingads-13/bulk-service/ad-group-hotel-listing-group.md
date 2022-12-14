@@ -38,7 +38,7 @@ You can upload *Ad Group Hotel Listing Group* records for multiple ad groups in 
 
 - If you are adding partitions with multiple levels where neither the parent or child yet exist, use a negative int value as a reference to identify the parent. For example set the both the parent's *Id*, and the child's *Parent Criterion Id* field to the same negative value. The negative IDs are only valid for the duration of the call. Unique system identifiers for each successfully added ad group criterion are returned in the upload result file.
 
-- The *Bid* and *Destination Url* fields are only applicable if the *Is Excluded* field is FALSE which means that the node is a biddable ad group criterion. However, these fields are ignored for *Subdivision* partition nodes. Those elements are only relevant for *Unit* (leaf) partition nodes.
+- The *Bid* field is only applicable if the *Is Excluded* field is FALSE which means that the node is a biddable ad group criterion. However, *Bid* is ignored for *Subdivision* partition nodes. Those elements are only relevant for *Unit* (leaf) partition nodes.
 
 - To pause any hotel listing group you must pause the entire ad group by updating the *Status* field of the [Ad Group](../bulk-service/ad-group.md) to Paused. You can pause the entire campaign by updating the *Status* field of the [Campaign](../bulk-service/campaign.md) to Paused.
 
@@ -95,8 +95,6 @@ var bulkAdGroupProductPartition = new BulkAdGroupProductPartition
             // 'Bid' column header in the Bulk file is only applicable for BiddableAdGroupCriterion
             Amount = 0.50
         },
-        // 'Destination Url' column header in the Bulk file is only applicable for BiddableAdGroupCriterion
-        DestinationUrl = null,
         // 'Id' column header in the Bulk file
         Id = null,
         // 'Status' column header in the Bulk file
@@ -149,7 +147,6 @@ For an *Ad Group Hotel Listing Group* record, the following attribute fields are
 - [Campaign](#campaign)
 - [Client Id](#clientid)
 - [Custom Parameter](#customparameter)
-- [Destination Url](#destinationurl)
 - [Final Url Suffix](#finalurlsuffix)
 - [Id](#id)
 - [Is Excluded](#isexcluded)
@@ -223,23 +220,7 @@ In a bulk file, the list of custom parameters are formatted as follows.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
-**Delete:** Read-only  
-
-## <a name="destinationurl"></a>Destination Url
-The URL of the webpage that the user is taken to when they click the ad.
-
-If you are currently using Destination URLs, you must eventually replace them with Tracking Templates. For more information, see [URL Tracking with Upgraded URLs](../guides/url-tracking-upgraded-urls.md).
-
-The URL can contain dynamic parameters such as {MatchType}. For a list of supported parameters, see the Microsoft Advertising help article [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2).
-
-The URL can contain a maximum of 1,024 characters. If the URL does not specify a protocol, the system uses the HTTP protocol when a user clicks the ad. If the URL specifies the HTTP protocol when you add an ad, the service will remove the http:// protocol string (the HTTP protocol string does not count against the 1,024 character limit); however, the service will not remove an HTTPS protocol string (https://) from the URL.
-
-> [!NOTE]
-> This destination URL is used if specified; otherwise, the destination URL is determined by the corresponding value of the 'Link' that you specified for the hotel offer in your Microsoft Merchant Center catalog.
-
-**Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.   
-**Delete:** Read-only  
+**Delete:** Read-only   
 
 ## <a name="finalurlsuffix"></a>Final Url Suffix
 The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. For more details and validation rules see [Final URL Suffix](../guides/url-tracking-upgraded-urls.md#finalurlsuffixvalidation) in the technical guides.  
