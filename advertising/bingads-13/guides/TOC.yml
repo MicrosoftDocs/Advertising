@@ -1465,6 +1465,8 @@
       href: ../campaign-management-service/combinedlist.md
     - name: CombinationRule
       href: ../campaign-management-service/combinationrule.md
+    - name: CommissionBiddingScheme
+      href: ../campaign-management-service/commissionbiddingscheme.md
     - name: Company
       href: ../campaign-management-service/company.md
     - name: ConversionGoal
@@ -1669,6 +1671,8 @@
       href: ../campaign-management-service/pagevisitorswhovisitedanotherpagerule.md
     - name: Paging
       href: ../campaign-management-service/paging.md
+    - name: PercentCpcBiddingScheme
+      href: ../campaign-management-service/percentcpcbiddingscheme.md
     - name: PlacementExclusionList
       href: ../campaign-management-service/placementexclusionlist.md
     - name: PriceAdExtension
@@ -1691,6 +1695,10 @@
       href: ../campaign-management-service/promotionadextension.md
     - name: RadiusCriterion
       href: ../campaign-management-service/radiuscriterion.md
+    - name: RateAmount
+      href: ../campaign-management-service/rateamount.md
+    - name: RateBid
+      href: ../campaign-management-service/ratebid.md
     - name: RemarketingList
       href: ../campaign-management-service/remarketinglist.md
     - name: RemarketingRule
