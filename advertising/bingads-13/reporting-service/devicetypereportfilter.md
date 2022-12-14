@@ -53,6 +53,8 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [ConversionPerformanceReportFilter](conversionperformancereportfilter.md)  
 [DestinationUrlPerformanceReportFilter](destinationurlperformancereportfilter.md)  
 [GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)  
+[HotelDimensionPerformanceReportFilter](hoteldimensionperformancereportfilter.md)  
+[HotelGroupPerformanceReportFilter](hotelgroupperformancereportfilter.md)  
 [KeywordPerformanceReportFilter](keywordperformancereportfilter.md)  
 [ProductDimensionPerformanceReportFilter](productdimensionperformancereportfilter.md)  
 [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md)  
