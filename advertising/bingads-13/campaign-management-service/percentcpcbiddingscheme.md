@@ -4,7 +4,7 @@ ms.service: bing-ads
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
-description: Reserved.
+description: Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).
 ms.subservice: campaign-management-api
 ---
 # PercentCpcBiddingScheme Data Object - Campaign Management
@@ -29,8 +29,7 @@ The [PercentCpcBiddingScheme](percentcpcbiddingscheme.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="maxpercentcpc"></a>MaxPercentCpc|The maximum effective bid limit, in absolute form, at the campaign level.<br/><br/>The actual CPC bid amount, in percent form, must be set at the ad group level and can optionally be set at the hotel group level again.<br/><br/>For example, for a maximum percent CPC bid of $10.60, the *MaxPercentCpc* value should be 10.60. Campaigns with *PercentCpc* and *ManualCPC* bidding scheme can participate in a shared budget.<br/><br/>*MacPercentCpc* must be greater than 0.
-|**double**|
+|<a name="maxpercentcpc"></a>MaxPercentCpc|The maximum effective bid limit, in absolute form, at the campaign level.<br/><br/>The actual CPC bid amount, in percent form, must be set at the ad group level and can optionally be set at the hotel group level again.<br/><br/>For example, for a maximum percent CPC bid of $10.60, the *MaxPercentCpc* value should be 10.60. Campaigns with *PercentCpc* and *ManualCPC* bidding scheme can participate in a shared budget.<br/><br/>*MacPercentCpc* must be greater than 0.|**double**|
 
 The [PercentCpcBiddingScheme](percentcpcbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 
