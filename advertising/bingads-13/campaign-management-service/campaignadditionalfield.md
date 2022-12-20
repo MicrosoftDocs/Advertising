@@ -43,7 +43,7 @@ The [CampaignAdditionalField](campaignadditionalfield.md) value set has the foll
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimeZone|Request that the [AdScheduleUseSearcherTimeZone](campaign.md#adscheduleusesearchertimezone) element be included within each returned [Campaign](campaign.md) object.|
 |<a name="bidstrategyid"></a>BidStrategyId|Request that the [BidStrategyId](campaign.md#bidstrategyid) element be included within each returned [Campaign](campaign.md) object.|
 |<a name="campaignconversiongoal"></a>CampaignConversionGoal|Reserved.|
-|<a name="cpvcpmbiddingscheme"></a>CpvCpmBiddingScheme|Request that the [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) or [ManualCpvBiddingScheme](manualcpvbiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
+|<a name="cpvcpmbiddingscheme"></a>CpvCpmBiddingScheme|Request that the [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) or [ManualCpvBiddingScheme](manualcpvbiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.<br/><br/>*Note*: When *CpvCpmBiddingScheme* is not set, campaigns using ManualCPV or ManualCPM bidding schemes are not returned.|
 |<a name="disclaimersetting"></a>DisclaimerSetting|Reserved.|
 |<a name="dynamicdescriptionsetting"></a>DynamicDescriptionSetting|Reserved.|
 |<a name="dynamicfeedsetting"></a>DynamicFeedSetting|Request that the [DynamicFeedSetting](dynamicfeedsetting.md) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|
