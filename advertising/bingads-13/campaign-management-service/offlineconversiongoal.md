@@ -12,6 +12,9 @@ Defines an offline conversion goal. Use this type of goal if you have lead gener
 
 To set up offline conversion tracking, create an [OfflineConversionGoal](offlineconversiongoal.md), wait two hours, and then send Microsoft Advertising the [OfflineConversion](offlineconversion.md) data via the [ApplyOfflineConversions](applyofflineconversions.md) operation.
 
+> [!IMPORTANT]
+> You must create [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) via the Campaign Management API to set the *IsExternallyAttributed* property.
+
 > [!TIP]
 > For more information, see [Tracking offline conversions](https://help.ads.microsoft.com/#apex/3/en/56852/2).
 
@@ -43,7 +46,7 @@ The [OfflineConversionGoal](offlineconversiongoal.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="isexternallyattributed"></a>IsExternallyAttributed|This determines if your offline conversion goal uses your own attribution model and allows you to import fractional credit for each MSCLKID.<br/><br/>This element is not returned by default. To get this element, include the IsExternallyAttributed value in the ReturnAdditionalFields element when you call the [GetConversionGoalsByIds](getconversiongoalsbyids.md#returnadditionalfields) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md#returnadditionalfields) service operations.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
+|<a name="isexternallyattributed"></a>IsExternallyAttributed|This determines if your offline conversion goal uses your own attribution model and allows you to import fractional credit for each MSCLKID.<br/><br/>This element is not returned by default. To get this element, include the IsExternallyAttributed value in the ReturnAdditionalFields element when you call the [GetConversionGoalsByIds](getconversiongoalsbyids.md#returnadditionalfields) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md#returnadditionalfields) service operations.<br/><br/>*Note*: You can only set *IsExternallyAttributed* via the Campaign Management API.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
 
 The [OfflineConversionGoal](offlineconversiongoal.md) object has [Inherited Elements](#inheritedelements).
 
