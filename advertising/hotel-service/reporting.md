@@ -335,8 +335,6 @@ You can track bookings at the hotel, hotel group, or subaccount level. But befor
 
 - Ensure each POS website has a JavaScript [UET](https://help.bingads.microsoft.com/#apex/3/en/56682/0) tag for the customer ID (CID) you're using for hotel price ads.
 - The supported [goal types](https://help.bingads.microsoft.com/#apex/3/en/56709/2) that you can use are Custom Event and Destination URL. You can reuse an existing goal or create a new one, but it must use variable revenue tracking.
-- Ask your account manager to enable you for hotel price ads conversion tracking.
-- After you're enabled, edit your UET tag to begin reporting booking information.
 - Verify you tag is working properly by using the [UET Tag Helper](https://chrome.google.com/webstore/detail/uet-tag-helper-by-bing-ad/naijndjklgmffmpembnkfbcjbognokbf?utm_source=chrome-app-launcher-info-dialog).
 
 
