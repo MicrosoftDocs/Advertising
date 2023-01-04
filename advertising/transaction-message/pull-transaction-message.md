@@ -14,7 +14,7 @@ Microsoft offers two pull modes:
 1. [Pull](#pull-mode) 
 2. [Pull with hints](#pull-with-hints-mode)
 
-For both modes, you work with your TAM to specify:
+For both modes, specify:
 
 - The endpoint that Microsoft sends requests to
 - The frequency that Microsoft sends requests
