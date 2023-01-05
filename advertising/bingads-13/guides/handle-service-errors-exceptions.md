@@ -93,7 +93,7 @@ If you observe this error, either your redirect URI is not properly [registered]
 
 The 650052 error code can be returned with message "The app needs access to a service (\"https://ads.microsoft.com\") that your organization \"{organization}\" has not subscribed to or enabled." 
 
-If you observe this error please ensure that you at least have one of the admin users from your Azure AAD tenant added and enabled for [work accounts](https://help.ads.microsoft.com/#apex/3/en/60043/-1) in the [Microsoft Advertising web application](https://ads.microsoft.com/?fdmkt=en-us&fdiso=us&fdtz=-8). 
+If you observe this error, please ensure that you have at least one of the admin users from your Azure AAD tenant added and enabled for [work accounts](https://help.ads.microsoft.com/#apex/3/en/60043/-1) in the [Microsoft Advertising web application](https://ads.microsoft.com/?fdmkt=en-us&fdiso=us&fdtz=-8). 
 Please [contact support](#contact-support) for further assistance. 
 
 ### <a name="aadsts700016"></a>AADSTS700016
