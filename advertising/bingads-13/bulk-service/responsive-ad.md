@@ -149,6 +149,7 @@ For a *Responsive Ad* record, the following attribute fields are available in th
 - [Landscape Logo Media Id](#landscapelogomediaid)
 - [Long Headline](#longheadline)
 - [Long Headlines](#longheadlines)
+- [Long Headline String](#longheadlinestring)
 - [Mobile Final Url](#mobilefinalurl)
 - [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
@@ -243,7 +244,7 @@ The data format of headlines are included in the example JSON below.
 	"text": "Seamless Integration"
 }]
 ```
-**Add:** Required  
+**Add:** Required for audience ads and multimedia ads. Not applicable for video ads.
 **Update:** Optional. If no value is set for the update, this setting is not changed.
 **Delete:** Read-only 
 
@@ -337,14 +338,14 @@ The final URL suffix can include tracking parameters that will be appended to th
 **Delete:** Read-only  
 k
 ## <a name="headline"></a>Headline
-This is one of two possible headlines that could appear in your audience ads. 
+This is one of two possible headlines that could appear in your video ads. 
 
-Because audience ads are responsive, we require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
+Because video ads are responsive, we require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
 
 The length of the string is limited to 30 characters.
 
-**Add:** Required  
-**Update:** Deprecated. Use Headlines instead.  
+**Add:** Required for video ads. Not applicable for multimedia ads and audience ads.
+**Update:** Optional. Deprecated for multimedia and audience ads. Use Headlines instead.  
 **Delete:** Read-only 
 
 ## <a name="headlines"></a>Headlines
@@ -362,7 +363,7 @@ The upperlimit of headlines is 15. And the length of each headline is limited to
 	"text": "Seamless Integration"
 }]
 ```
-**Add:** Required  
+**Add:** Required for multimedia ads and audience ads. Not applicable for video ads.
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only 
 
@@ -564,7 +565,26 @@ The upperlimit of long headlines is 5. And the length of each headline is limite
 	"text": "Seamless Integration"
 }]
 ```
-**Add:** Required  
+**Add:** Required for multimedia ads and audience ads. Not applicable for video ads.
+**Update:** Optional. If no value is set for the update, this setting is not changed.   
+**Delete:** Read-only 
+
+## <a name="longheadlinestring"></a>Long Headline String
+Headlines are the most prominent text that appears in your ad, so you should make the most out of the available characters. Because audience ads are responsive, we require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
+
+The length of each headline is limited to 90 characters. The data format of long headlines are included in the example JSON below.
+```json
+[{
+	"text": "Contoso",
+},
+{
+	"text": "Quick & Easy Setup"
+},
+{
+	"text": "Seamless Integration"
+}]
+```
+**Add:** Required for audience ads and video ads. Not applicable for multimedia ads.
 **Update:** Optional. If no value is set for the update, this setting is not changed.   
 **Delete:** Read-only 
 
@@ -652,7 +672,7 @@ This field is reserved for internal use, and will be removed from a future versi
 **Delete:** Read-only 
 
 ## <a name="text"></a>Text
-Depending on your audience ad's placement, this text will appear below or adjacent to your ad's long or short headline.  
+Depending on your video ad's placement, this text will appear below or adjacent to your ad's long or short headline.  
 
 You have more character space to work with in the ad text than in the headline. So once the imagery and headline have a potential customer's attention, the ad text needs to convince them to click it. What sets your product or service apart?
 
@@ -662,8 +682,8 @@ The length of the string is limited to 90 characters.
 
 The text cannot contain the newline (\n) character.
 
-**Add:** Required  
-**Update:** Deprecated. Use Descriptions instead.   
+**Add:** Required for video ads. Not applicable for audience ads or multimedia ads.
+**Update:** Optional for video ads. Use Descriptions instead for audience ads or multimedia ads (deprecated).   
 **Delete:** Read-only  
 
 ## <a name="trackingtemplate"></a>Tracking Template

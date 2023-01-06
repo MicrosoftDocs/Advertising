@@ -209,6 +209,9 @@ Partial success means that when adding, updating, or deleting entities in batche
 ### <a name="partial-success-bulk"></a>Partial Success With the Bulk Service
 When you [upload](bulk-download-upload.md) records in a [Bulk file](../bulk-service/bulk-file-schema.md), the upload may succeed for some records and fail for others in the batch. When you call [GetBulkUploadUrl](../bulk-service/getbulkuploadurl.md) you can choose whether or not to receive errors in the upload results file. 
 
+> [!NOTE]
+> Microsoft Advertising doesn't support "all or nothing" error handling behavior. You will have to handle that on the client side.
+
 ### <a name="partial-success-campaign-management"></a>Partial Success With the Campaign Management Service
 For most entities, partial success is supported when calling [Campaign Management](../campaign-management-service/campaign-management-service-reference.md) service operations. For each list index where an entity was not added, the corresponding element will be null. The *PartialErrors* element represents an array of [BatchError](../campaign-management-service/batcherror.md) objects that contain details for any entities that were not successfully added, updated, or deleted. The list only includes a [BatchError](../campaign-management-service/batcherror.md) for unsuccessful attempts, and does not include null elements at the index of each successfully added entity. Similarly some operations return *NestedPartialErrors* as a list of [BatchErrorCollection](../campaign-management-service/batcherrorcollection.md), or a two dimensional [BatchError](../campaign-management-service/batcherror.md).
 
