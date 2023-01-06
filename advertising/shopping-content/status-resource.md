@@ -25,6 +25,8 @@ The following is the base URI that you append the templates to.
 ## <a name="templates"></a>Templates
 
 To create the endpoints used to get the status of product offerings in a catalog, append the appropriate template to the base URI.
+> [!NOTE]
+> {bmcMerchantId}/catalogs/{catalogId}/status has been deprecated and we don't recommend using it.
 
 |Template|HTTP Verb|Description|Resource
 |--------|---------|-----------|--------
