@@ -32,6 +32,9 @@ Defines the possible audience types.
 
 The [AudienceType](audiencetype.md) value set has the following values: [CombinedList](#combinedlist), [Custom](#custom), [InMarket](#inmarket), [Product](#product), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist).
 
+> [!WARNING]
+> CustomerList type as an audience type is not supported in the SOAP API.
+
 |Value|Description|
 |-----------|---------------|
 |<a name="combinedlist"></a>CombinedList|The audience is a combined list.|
