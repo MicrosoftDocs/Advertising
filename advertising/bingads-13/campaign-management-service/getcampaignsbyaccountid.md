@@ -27,7 +27,9 @@ The *GetCampaignsByAccountIdRequest* object defines the [body](#request-body) an
 |-----------|---------------|-------------|
 |<a name="accountid"></a>AccountId|The identifier of the account that contains the campaigns to get.|**long**|
 |<a name="campaigntype"></a>CampaignType|The type of campaign to get, for example *Search*, *Shopping*, or *DynamicSearchAds*.<br/><br/>This request element is optional. If you do not set any campaign type, the default value is *Search* i.e., only Search campaigns will be returned.<br/><br/>You may include multiple values as flags. How you specify multiple flags depends on the programming language that you use. For example, C# treats these values as flag values and Java treats them as an array of strings. The SOAP should include a string that contains a space-delimited list of values for example, `<CampaignType>Search Shopping</CampaignType>`.|[CampaignType](campaigntype.md)|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties that you want included within each returned campaign. The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[CampaignAdditionalField](campaignadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties that you want included within each returned campaign. The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[CampaignAdditionalField](campaignadditionalfield.md)| 
+> [!NOTE]
+> When CpvCpmBiddingScheme is not set for ReturnAdditionalFields, campaigns using ManualCPV or ManualCPM bidding schemes are not returned.
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
