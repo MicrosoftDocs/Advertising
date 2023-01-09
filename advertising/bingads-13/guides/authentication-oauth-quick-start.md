@@ -65,7 +65,7 @@ To authenticate in the production environment you should first [register an appl
       
     Copy the grant code (your own code, not the example M.R4_BAY.f202904c-2269-4daf-1e21-862ed4d49143) and enter it in the console window at the prompt. The PowerShell script then returns the access and refresh tokens. (The script makes a second call to Invoke-WebRequest as an example of how to refresh the tokens.) You should treat the refresh token like you would a password; if someone gets hold of it, they have access to your resources. The refresh token is long lived but it can become invalid. If you ever receive an invalid_grant error, your refresh token is no longer valid and you'll need to run the `Get-Tokens-Production.ps1` PowerShell script again to get user consent and a new refresh token. 
   
-1. Create a new file and paste into it the following script. Set the `accessToken` to the value you received from `Get-Tokens-Production.ps1` and set `$developerToken` to the developer token you received by following steps outlined [here](get-started#get-developer-token). 
+1. Create a new file and paste into it the following script. Set the `accessToken` to the value you received from `Get-Tokens-Production.ps1` and set `$developerToken` to the developer token you received by following steps outlined [here](get-started.md#get-developer-token). 
    
     ```powershell
     $accessToken = "AccessTokenGoesHere";
