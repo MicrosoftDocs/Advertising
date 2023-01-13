@@ -49,7 +49,6 @@ namespace StatusReport
         
         public const string BaseUri = "https://content.api.bingads.microsoft.com/shopping/v9.1";
         public static string BmcUri = BaseUri + "/bmc/{0}";
-        public static string StatusUri = BmcUri + "/catalogs/{1}/status";
 
         // Query string.
 
@@ -395,7 +394,6 @@ class Catalogs {
     
     public static final String BaseUri = "https://content.api.bingads.microsoft.com/shopping/v9.1";
     public static final String BmcUri = BaseUri + "/bmc/%d";
-    public static final String StatusUri = BmcUri + "/catalogs/%d/status";
 
 
     // Replace with your IDs.
@@ -781,15 +779,6 @@ def main():
         zipped_report = zipfile.ZipFile(report_path, 'r') # read the zipfile
         zipped_report.extractall('.')
         print('Report was written to ' + os.path.join(os.getcwd(), 'MerchantCatalogReport.csv'))    
-
-STATUS_URI = BMC_URI + "/catalogs/{1}/status?alt=json"
-def get_catalog_status_report(catalog_id):
-    """Get a catalog status report"""
-    print('catalog status example')
-    url = STATUS_URI.format(MERCHANT_ID, catalog_id)
-    response = requests.get(url, headers=AUTHENTICATION_HEADERS)
-    response.raise_for_status()
-    return json.loads(response.text)
 
 def get_rejection_report(rejection_report_url, download_path=DOWNLOAD_PATH):
     """Download rejection report"""
