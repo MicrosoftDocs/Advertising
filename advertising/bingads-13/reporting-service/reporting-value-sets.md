@@ -45,8 +45,8 @@ The Reporting service defines the following value sets.
 |[DynamicAdTargetStatusReportFilter](dynamicadtargetstatusreportfilter.md)|Defines the dynamic ad target status values that you can use to filter the report data.|
 |[GeographicPerformanceReportColumn](geographicperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [GeographicPerformanceReportRequest](geographicperformancereportrequest.md).|
 |[GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [GoalsAndFunnelsReportRequest](goalsandfunnelsreportrequest.md).|
-|[HotelDimensionPerformanceReportColumn](hoteldimensionperformancereportcolumn.md)|Reserved.|
-|[HotelGroupPerformanceReportColumn](hotelgroupperformancereportcolumn.md)|Reserved.|
+|[HotelDimensionPerformanceReportColumn](hoteldimensionperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [HotelDimensionPerformanceReportRequest](hoteldimensionperformancereportrequest.md).|
+|[HotelGroupPerformanceReportColumn](hotelgroupperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [HotelGroupPerformanceReportRequest](hotelgroupperformancereportrequest.md).|
 |[KeywordPerformanceReportColumn](keywordperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [KeywordPerformanceReportRequest](keywordperformancereportrequest.md).|
 |[KeywordStatusReportFilter](keywordstatusreportfilter.md)|Defines the keyword status values that you can use to filter the report data.|
 |[LanguageReportFilter](languagereportfilter.md)|Defines the language values that you can use to filter the report data.|

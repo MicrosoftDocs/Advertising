@@ -250,6 +250,8 @@
       href: ../ad-insight-service/getperformanceinsightsdetaildatabyaccountid.md
     - name: GetRecommendations
       href: ../ad-insight-service/getrecommendations.md
+    - name: GetTextAssetSuggestionsByFinalUrls
+      href: ../ad-insight-service/gettextassetsuggestionsbyfinalurls.md
     - name: SetAutoApplyOptInStatus
       href: ../ad-insight-service/setautoapplyoptinstatus.md
     - name: SuggestKeywordsForUrl
