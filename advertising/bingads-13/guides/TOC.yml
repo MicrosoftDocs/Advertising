@@ -427,6 +427,8 @@
       href: ../ad-insight-service/suggestedbidsearchparameter.md
     - name: SuggestedResponsiveSearchAd
       href: ../ad-insight-service/suggestedresponsivesearchad.md
+    - name: TextAssetSuggestions
+      href: ../ad-insight-service/textassetsuggestions.md
     - name: TrafficEstimate
       href: ../ad-insight-service/trafficestimate.md
     - name: UrlSearchParameter
