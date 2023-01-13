@@ -86,18 +86,18 @@ See below for Bing Ads API updates during this calendar month.
 - [Bulk Service](#bulkservice-december2022)  
 - [Bing Ads API SDK Updates](#sdk-december2022)  
 
-### <a name="newapiinterfaces-december2022"></a>New API Interfaces
-**AdInsight API** - [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md)
-**CustomerManagement API** - [SignupCustomer](../customer-management-service/signupcustomer.md)
-**Reporting API** - [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting
-**CampaignManagement API** - [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
+### <a name="newapiinterfaces-december2022"></a>New API Interfaces  
+* **AdInsight API**: [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md) 
+* **CustomerManagement API**: [SignupCustomer](../customer-management-service/signupcustomer.md)
+* **Reporting API**: [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting <br />
+* **CampaignManagement API**: [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
 
 ### <a name="bulkservice-december2022"></a>Bulk Service
 * Bulk support for OnlineConversionAdjustment  
 
 * Bulk support for Hotel Ad entities, i.e. HotelAdvanceBookingWindowCriterion, HotelCheckInDayCriterion, HotelCheckInDateCriterion, HotelDateSelectionTypeCriterion, HotelLengthOfStayCriterion and HotelListingGroup  
 
-* Bulk Support for UseOptimizedTargeting, HotelAdGroupType, CommissionRate and PercentCpcBid in BulkAdGroup  
+* Bulk support for UseOptimizedTargeting, HotelAdGroupType, CommissionRate and PercentCpcBid in BulkAdGroup  
 
 ### <a name="sdk-december2022"></a>Bing Ads API SDK Updates
 The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.15), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.15), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.15), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.15) SDK version 13.0.15. 
