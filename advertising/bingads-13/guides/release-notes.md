@@ -87,9 +87,9 @@ See below for Bing Ads API updates during this calendar month.
 - [Bing Ads API SDK Updates](#sdk-december2022)  
 
 ### <a name="newapiinterfaces-december2022"></a>New API Interfaces
-**AdInsight API** - [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md)
-**CustomerManagement API** - [SignupCustomer](../customer-management-service/signupcustomer.md)
-**Reporting API** - [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting
+**AdInsight API** - [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md) <br />
+**CustomerManagement API** - [SignupCustomer](../customer-management-service/signupcustomer.md) <br />
+**Reporting API** - [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting <br />
 **CampaignManagement API** - [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
 
 ### <a name="bulkservice-december2022"></a>Bulk Service
