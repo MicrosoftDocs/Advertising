@@ -25,7 +25,7 @@ The minimum and maximum bid and budget for each currency below are subject to ch
 |Currency Value|Description|Minimum Bid|Maximum Bid|Minimum Daily Budget|Minimum Monthly Budget|Maximum Monthly Budget|
 |-----|-----|-----|-----|-----|-------|-------|
 |ArgentinePeso|The Argentine Peso (ARS).|0.05|5,000.00|0.05|2.00|152,500,000.00|
-|AustralianDollar|The Australian Dollar (AUD).|0.05|1,000.00|0.05|5.00|30,000,000.00|
+|AustralianDollar|The Australian Dollar (AUD).|0.01|1,000.00|0.05|5.00|30,000,000.00|
 |Baht|The Thai Baht (THB).|0.14|31,000.00|2.00|150.00|927,000,000.00|
 |Bolivar|The Venezuelan Bolivar Fuerte (VEF).|0.05|5,000.00|0.05|2.00|152,500,000.00|
 |BrazilianReal|The Brazilian Real (BRL).|0.01|2,000.00|0.10|10.00|60,000,000.00|
@@ -46,12 +46,12 @@ The minimum and maximum bid and budget for each currency below are subject to ch
 |PolishZloty|The Polish New Zloty (PLN).|0.01|1,000.00|0.05|1.00|30,000,000.00|
 |Rupiah|The Indonesian Rupiah (IDR).|35.00|9,607,994.00|480.00|48,000.00|288,000,000,000.00|
 |SingaporeDollar|The Singapore Dollar (SGD).|0.01|1,500.00|0.11|5.00|12,360,900.00|
-|SouthAfricanRand|The South African Rand (ZAR).|0.01|1,000.00|0.10|1.00|30,000,000.00|
+|SouthAfricanRand|The South African Rand (ZAR).|0.4|8,000.00|0.10|1.00|30,000,000.00|
 |SwedishKrona|The Swedish Krona (SEK).|0.07|7,000.00|0.07|2.00|213,500,000.00|
-|SwissFranc|The Swiss Franc (CHF).|0.05|1,500.00|0.05|5.00|8,931,900.00|
-|TurkishLira|The New Turkish Lira (TRY).|0.01|100,000.00|0.05|100.00|3,000,000,000.00|
+|SwissFranc|The Swiss Franc (CHF).|0.05|1,000.00|0.05|5.00|8,931,900.00|
+|TurkishLira|The New Turkish Lira (TRY).|0.01|10,000.00|0.05|100.00|3,000,000,000.00|
 |UKPound|The Pound Sterling (GBP).|0.05|1,000.00|0.05|5.00|3,938,700.00|
-|USDollar|The U.S. Dollar (USD).|0.05|1,000.00|0.05|5.00|30,000,000.00|
+|USDollar|The U.S. Dollar (USD).|0.01|1,000.00|0.05|5.00|30,000,000.00|
 
 ### <a name="shopping-fixedbid"></a>Microsoft Shopping Campaigns Fixed Bid
 The Microsoft Shopping Campaigns Fixed Bid minimum and recommended bids below are subject to change. 
