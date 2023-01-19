@@ -14,69 +14,11 @@ See below for information about changes to Bing Ads API Version 13 by month.
 > [!IMPORTANT]
 > The following upcoming changes may require that you take action to avoid disruption of service or loss of functionality.  
 
-- [Multi-factor authentication will be required](#breaking-mfa-required)  
-- [Page visitors rule normal form expansion](#breaking-page-visitors-normal-form)  
-- [Required conversion goal categories](#breaking-conversion-goal-categories)  
-- [Reduced look back for bulk download](#breaking-bulk-download-sync-time)  
+- [Multi-factor authentication will be required](#breaking-mfa-required)   
 
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication will be required
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
-
-### <a name="breaking-page-visitors-normal-form"></a>Page visitors rule normal form expansion
-
-If you already use **page visitors rules** for remarketing lists, please read this section about required changes.  
-
-Remarketing rules are conditions used to determine who to add to your remarketing list. You can create rules for custom events, page visitors, page visitors who did not visit another page, and page visitors who visited another page.  
-
-For the page visitors rule, previously Microsoft Advertising only supported disjunctive normal form (DNF). First, in each rule item group the rule item conditions for the same page are joined using the logical AND operator. Then, each result from the list of rule item groups are joined using the logical OR operator. In other words, the user will be added to your remarketing list if all of the specified rule item conditions are met within any of the rule item groups.
-
-- Rule 1 OR Rule 2
-- (Rule 1 AND Rule 2) OR Rule 3
-- (Rule 1 AND Rule 2) OR (Rule 3 AND Rule 4)
-
-We are introducing support for conjunctive normal form (CNF). First, in each rule item group the rule item conditions for the same page are joined using the logical OR operator. Then, each result from the list of rule item groups are joined using the logical AND operator. In other words, the user will be added to your remarketing list if any of the specified rule item conditions within all of the rule item groups are met.
-
-- Rule 1 AND Rule 2
-- (Rule 1 OR Rule 2) AND Rule 3
-- (Rule 1 OR Rule 2) AND (Rule 3 OR Rule 4)
-
-The addition is applicable only for the PageVisitorsRule and does not include CustomEventsRule, PageVisitorsWhoDidNotVisitAnotherPageRule, or PageVisitorsWhoVisitedAnotherPageRule.  
-
-> [!IMPORTANT]
-> The default normal form for a new page visitors rule remains DNF. However, you must ensure that your application can appropriately read and distinguish between CNF and DNF. Your application should no longer assume that the rule is disjunctive.  
-
-For more information about how to get and set the new normal form property, see the reference documentation.
-
-- Campaign Management API: The [NormalForm](../campaign-management-service/pagevisitorsrule.md#normalform) element of PageVisitorsRule can be set to Conjunctive or Disjunctive.
-- Bulk API: Continue using the [Remarketing Rule](../bulk-service/remarketing-list.md#remarketingrule) column in the bulk file. For upload, you can choose to format the string as CNF or DNF. For download, your application must read the string in the same column and distinguish between CNF and DNF.  
-
-### <a name="breaking-conversion-goal-categories"></a>Required conversion goal categories
-
-If you already use conversion goals, please read this section about required changes.  
-
-You can categorize your conversion goals however makes sense for your business. Goal categories don't affect performance - they are here to help you segment your goals and their performance metrics.
-
-Previously Bing Ads API did not require conversion goal categories. Depending on the goal type the default category is set to Download, None, Other, or Purchase.  
-
-Now (as of June 2021) when you add or update the custom event, offline conversion, or URL goals you must set a goal category or the Campaign Management service will return an error. There are no changes to the default category of other goal types as shown in the table.
-
-|Goal type|Default before|Default after|
-|-----------|---------------|---------------|
-|EventGoal<br/>OfflineConversionGoal<br/>UrlGoal|None|No default; Service returns an error|
-|DurationGoal<br/>PagesViewedPerVisitGoal|Other|Other|
-|InStoreTransactionGoal|Purchase|Purchase|
-|AppInstallGoal|Download|Download|
-
-For more information, see our API documentation about [conversion goal categories](../campaign-management-service/conversiongoalcategory.md).  
-
-### <a name="breaking-bulk-download-sync-time"></a>Reduced look back for bulk download
-
-When [downloading campaigns](bulk-download-upload.md) with the Bulk API you can request only to get settings that have been modified (added, updated, deleted) since a specific date and time.
-
-Previously if you set a date and time that is more than 90 days prior, an error will be returned.
-
-The maximum look back period decreased from 90 days to 30 days on September 1st, 2021. Now, if you set a date and time that is more than 30 days prior, an error will be returned.
 
 ## <a name="december2022"></a>December 2022
 
@@ -152,9 +94,67 @@ For an unlimited budget insertion order you can set the [SpendCapAmount](../cust
 
 See below for Bing Ads API updates during this calendar month.  
 
+- [Page visitors rule normal form expansion](#breaking-page-visitors-normal-form)  
+- [Required conversion goal categories](#breaking-conversion-goal-categories)  
+- [Reduced look back for bulk download](#breaking-bulk-download-sync-time) 
 - [Asset performance label for RSA](#assetperformancelabel-june2021)  
 - [Dynamic search ads](#dynamic-search-ads-june2021)  
-- [Bing Ads API SDK Updates](#sdk-june2021)  
+- [Bing Ads API SDK Updates](#sdk-june2021) 
+
+### <a name="breaking-page-visitors-normal-form"></a>Page visitors rule normal form expansion
+
+If you already use **page visitors rules** for remarketing lists, please read this section about required changes.  
+
+Remarketing rules are conditions used to determine who to add to your remarketing list. You can create rules for custom events, page visitors, page visitors who did not visit another page, and page visitors who visited another page.  
+
+For the page visitors rule, previously Microsoft Advertising only supported disjunctive normal form (DNF). First, in each rule item group the rule item conditions for the same page are joined using the logical AND operator. Then, each result from the list of rule item groups are joined using the logical OR operator. In other words, the user will be added to your remarketing list if all of the specified rule item conditions are met within any of the rule item groups.
+
+- Rule 1 OR Rule 2
+- (Rule 1 AND Rule 2) OR Rule 3
+- (Rule 1 AND Rule 2) OR (Rule 3 AND Rule 4)
+
+We are introducing support for conjunctive normal form (CNF). First, in each rule item group the rule item conditions for the same page are joined using the logical OR operator. Then, each result from the list of rule item groups are joined using the logical AND operator. In other words, the user will be added to your remarketing list if any of the specified rule item conditions within all of the rule item groups are met.
+
+- Rule 1 AND Rule 2
+- (Rule 1 OR Rule 2) AND Rule 3
+- (Rule 1 OR Rule 2) AND (Rule 3 OR Rule 4)
+
+The addition is applicable only for the PageVisitorsRule and does not include CustomEventsRule, PageVisitorsWhoDidNotVisitAnotherPageRule, or PageVisitorsWhoVisitedAnotherPageRule.  
+
+> [!IMPORTANT]
+> The default normal form for a new page visitors rule remains DNF. However, you must ensure that your application can appropriately read and distinguish between CNF and DNF. Your application should no longer assume that the rule is disjunctive.  
+
+For more information about how to get and set the new normal form property, see the reference documentation.
+
+- Campaign Management API: The [NormalForm](../campaign-management-service/pagevisitorsrule.md#normalform) element of PageVisitorsRule can be set to Conjunctive or Disjunctive.
+- Bulk API: Continue using the [Remarketing Rule](../bulk-service/remarketing-list.md#remarketingrule) column in the bulk file. For upload, you can choose to format the string as CNF or DNF. For download, your application must read the string in the same column and distinguish between CNF and DNF.  
+
+### <a name="breaking-conversion-goal-categories"></a>Required conversion goal categories
+
+If you already use conversion goals, please read this section about required changes.  
+
+You can categorize your conversion goals however makes sense for your business. Goal categories don't affect performance - they are here to help you segment your goals and their performance metrics.
+
+Previously Bing Ads API did not require conversion goal categories. Depending on the goal type the default category is set to Download, None, Other, or Purchase.  
+
+Now (as of June 2021) when you add or update the custom event, offline conversion, or URL goals you must set a goal category or the Campaign Management service will return an error. There are no changes to the default category of other goal types as shown in the table.
+
+|Goal type|Default before|Default after|
+|-----------|---------------|---------------|
+|EventGoal<br/>OfflineConversionGoal<br/>UrlGoal|None|No default; Service returns an error|
+|DurationGoal<br/>PagesViewedPerVisitGoal|Other|Other|
+|InStoreTransactionGoal|Purchase|Purchase|
+|AppInstallGoal|Download|Download|
+
+For more information, see our API documentation about [conversion goal categories](../campaign-management-service/conversiongoalcategory.md).  
+
+### <a name="breaking-bulk-download-sync-time"></a>Reduced look back for bulk download
+
+When [downloading campaigns](bulk-download-upload.md) with the Bulk API you can request only to get settings that have been modified (added, updated, deleted) since a specific date and time.
+
+Previously if you set a date and time that is more than 90 days prior, an error will be returned.
+
+The maximum look back period decreased from 90 days to 30 days on September 1st, 2021. Now, if you set a date and time that is more than 30 days prior, an error will be returned.
 
 ### <a name="assetperformancelabel-june2021"></a>Asset performance label for RSA
 
