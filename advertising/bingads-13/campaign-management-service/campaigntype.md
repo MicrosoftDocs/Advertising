@@ -20,6 +20,13 @@ Defines the possible campaign types.
         <xs:enumeration value="Shopping" />
         <xs:enumeration value="DynamicSearchAds" />
         <xs:enumeration value="Audience" />
+        <xs:enumeration value="Hotel">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -28,12 +35,13 @@ Defines the possible campaign types.
 
 ## <a name="values"></a>Values
 
-The [CampaignType](campaigntype.md) value set has the following values: [Audience](#audience), [DynamicSearchAds](#dynamicsearchads), [Search](#search), [Shopping](#shopping).
+The [CampaignType](campaigntype.md) value set has the following values: [Audience](#audience), [DynamicSearchAds](#dynamicsearchads), [Hotel](#hotel), [Search](#search), [Shopping](#shopping).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="audience"></a>Audience|The campaign is an Audience campaign.<br/><br/>If the sub type is set to *AudienceVideoAds*, the campaign is a video audience campaign.|
 |<a name="dynamicsearchads"></a>DynamicSearchAds|The campaign is a Dynamic Search Ads campaign.<br/><br/>Dynamic search ads campaign type is no longer supported. Dynamic search ads can be created in "SearchDynamic" ad groups of a search campaign.|
+|<a name="hotel"></a>Hotel|The campaign is a Hotel campaign.|
 |<a name="search"></a>Search|The campaign is a Search campaign.|
 |<a name="shopping"></a>Shopping|The campaign is a Microsoft Shopping campaign.<br/><br/>You should also check the campaign [SubType](campaign.md#subtype) to determine whether the shopping campaign is setup for [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative).|
 
