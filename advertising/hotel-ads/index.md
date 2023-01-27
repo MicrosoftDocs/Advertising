@@ -16,7 +16,7 @@ ms.author: v-rgaritta
 
 Hotel Price Ads enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see hotel price ads when they are actively looking to book a hotel.
 
-To use Hotel Price Ads, you need to sign up with your account manager. As part of the sign-up process, you decide how you want to send your itinerary data to Bing. Your options are pushing changes to Bing, having Bing send you requests for all itinerary data, or having Bing send you requests for itinerary data that you identify as having changed. 
+To use Hotel Price Ads, you need to sign up with your account manager. If you don't have an account manager, please fill out the [enrollment form](https://go.microsoft.com/fwlink/?linkid=2201950). As part of the sign-up process, you decide how you want to send your itinerary data to Bing. Your options are pushing changes to Bing, having Bing send you requests for all itinerary data, or having Bing send you requests for itinerary data that you identify as having changed. 
 
 You also work with your account manager to import your hotel and points of sale data. The hotel feed is an XML document that describes the hotels that you want to advertise. The feed provides the hotel's name, address, telephone number, and geographical coordinates. For details about creating your hotel feed, see [Hotel Feed](../hotel-feed/hotel-feed.md).
 

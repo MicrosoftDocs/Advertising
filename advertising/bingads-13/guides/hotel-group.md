@@ -8,7 +8,10 @@ description: Describes the Hotel Group fields in a Bulk file.
 ms.subservice: bulk-api
 ---
 # Hotel Group Record - Bulk
-Defines the Hotel Group record that can be uploaded in a Bulk file.  
+Defines the Hotel Group record that can be uploaded in a Bulk file. 
+
+> [!NOTE]
+> This page references a version of Hotel Ads that is not deprecated, but replaced. We recommend that you use [AdGroupHotelListingGroup](../bulk-service/ad-group-hotel-listing-group.md) for bulk actions.
 
 The following Bulk CSV example would update the Hotel Group bid and tablet bid multiplier. 
 
