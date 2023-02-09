@@ -13,6 +13,9 @@ Defines possible payment methods for a Microsoft Advertising account.
 > [!NOTE]
 > Reserved for internal use.
 
+> [!NOTE]
+> Over the next several months, Microsoft Advertising will remove physical checks as an accepted payment method. If your existing payment method is check/bank transfer, this payment method **will not** be removed.  If you're using checks to add funds to your prepay balance or to pay your monthly invoice, we recommend you switch to the bank transfer option.  This action must be initiated with your financial institution. Learn more about [bank transfer options](https://help.ads.microsoft.com/#apex/ads/en/60015/3-500). 
+
 ## Syntax
 ```xml
 <xs:simpleType name="PaymentMethodType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -91,7 +94,7 @@ The [PaymentMethodType](paymentmethodtype.md) value set has the following values
 |Value|Description|
 |-----------|---------------|
 |<a name="boleto"></a>Boleto|Boleto is a form of payment used widely in Brazil. Microsoft Advertising allows customers to use Boleto to fund their prepay accounts by giving them the ability to print a payment slip that they can use to make payment at various locations in Brazil (e.g. Post offices and banks). This payment method is only supported in Brazil and activity must be billed in BRL currency.|
-|<a name="check"></a>Check|The payments are made with a check.|
+|<a name="check"></a>Check|The payments are made with a check.<br /><br />*Note*: Over the next several months, Microsoft Advertising will remove physical checks as an accepted payment method. If your existing payment method is check/bank transfer, this payment method **will not** be removed.  If you're using checks to add funds to your prepay balance or to pay your monthly invoice, we recommend you switch to the bank transfer option.  This action must be initiated with your financial institution. Learn more about [bank transfer options](https://help.ads.microsoft.com/#apex/ads/en/60015/3-500). |
 |<a name="creditcard"></a>CreditCard|The payments are made with a credit card.<br/><br/>If you use a credit card, the card is charged when the account balance (the amount of accrued advertising charges) reaches an internally defined threshold.|
 |<a name="electronicfundstransfer"></a>ElectronicFundsTransfer|The payments are made with an electronic funds transfer.|
 |<a name="elv"></a>ELV|The ELV value represents the SEPA payment method. SEPA is a form of a direct debit in Europe. With SEPA Microsoft Advertising validates a customer's bank account by making a small deposit that needs to be verified in Microsoft Advertising. This process takes some time but helps ensure the security of a customer's SEPA account. SEPA is currently only supported in Germany and activity must be billed in EUR currency. SEPA is only allowed to be used to fund prepay accounts.|
