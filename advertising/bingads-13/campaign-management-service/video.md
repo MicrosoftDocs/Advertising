@@ -38,17 +38,17 @@ The [Video](video.md) object has the following elements: [AspectRatio](#aspectra
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="aspectratio"></a>AspectRatio|Reserved.|**string**|
-|<a name="createddatetimeinutc"></a>CreatedDateTimeInUTC|Reserved.|**dateTime**|
+|<a name="aspectratio"></a>AspectRatio|The video's aspect ratio. Possible values are 16:9, 5:4, 1:1, 4:5, and 9:16.|**string**|
+|<a name="createddatetimeinutc"></a>The date and time the video was created, in Coordinated Universal Time.||**dateTime**|
 |<a name="description"></a>Description|The description of the video asset.<br/><br/>**Add**: Supported<br/>**Update**: Supported|**string**|
 |<a name="durationinmilliseconds"></a>DurationInMilliseconds|The duration in milliseconds of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**int**|
-|<a name="failurecode"></a>FailureCode|Reserved.|**string**|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="modifieddatetimeinutc"></a>ModifiedDateTimeInUTC|Reserved.|**dateTime**|
+|<a name="failurecode"></a>FailureCode|Read the description for each possible error code below.<br /><br />AssetDataInvalid: The file downloaded from the URL is not a video.<br /><br />VideoDownloadError: The provided URL is not accessible.<br /><br />AssetDataInvalidWidth: The video frame width is less than 120 pixels. <br /><br />AssetDataInvalidHeight:  The video frame height is less than 120 pixels.<br /><br />InvalidDuration: The video duration is less than 6 seconds.<br /><br />VideoOverweight: The video file size is greater than 2 GB.<br /><br />VideoTranscodingError: A general failure code that represents a transcoding issue. This is controlled by Azure Media Service. Learn more about [encoding video](https://learn.microsoft.com/azure/media-services/latest/encode-concept) and [JobErrorCode](https://learn.microsoft.com/dotnet/api/microsoft.azure.management.media.models.joberrorcode).|**string**|
+|<a name="id"></a>Id|The identifier of the video.|**long**|
+|<a name="modifieddatetimeinutc"></a>ModifiedDateTimeInUTC|The date and time the video was last modified, in Coordinated Universal Time.|**dateTime**|
 |<a name="sourceurl"></a>SourceUrl|The original URL of the video.|**string**|
 |<a name="status"></a>Status|The status of the video asset. The status can be *Draft*, *Active*, *Deleted* or *Failed*.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**string**|
 |<a name="thumbnailurl"></a>ThumbnailUrl|The thumbnail URL of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**string**|
-|<a name="url"></a>Url|The URL where the video is hosted.<br/><br/>**Add**: Supported<br/>**Update**: Unsupported|**string**|
+|<a name="url"></a>Url|The URL where the video is hosted. *Note*: URL is reserved for internal usage.<br/><br/>**Add**: Supported<br/>**Update**: Unsupported|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
