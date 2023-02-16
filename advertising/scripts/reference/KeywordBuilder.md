@@ -11,6 +11,9 @@ ms.topic: "article"
 
 Contains the methods for defining and creating a keyword. For information about builders, see [Builders](../concepts/builders.md).
 
+> [!NOTE]
+> You can no longer create new broad match modifier (BMM) keywords. Your existing BMM keywords will continue to serve under the new phrase match behavior. [Learn more about this change](https://about.ads.microsoft.com/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier).
+
 Example usage:
 ```javascript
     var operation = adGroup.newKeywordBuilder()
@@ -126,7 +129,7 @@ Sets the keyword's text.
 To specify the keyword's match type, use the following syntax:
 
 - For broad match, use no match type syntax (for example, `keywordBuilder.withText("books")`).
-- For broad match modifier, prepend the text with a plus sign (+) (for example, `keywordBuilder.withText("+books")`).
+- For broad match modifier, prepend the text with a plus sign (+) (for example, `keywordBuilder.withText("+books")`). *Note*: You can no longer create new broad match modifier (BMM) keywords. Use phrase match keywords instead as they now share the same behavior. [Learn more about this change](https://about.ads.microsoft.com/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier).
 - For phrase match, place quotes around the text (for example, `keywordBuilder.withText("\"books\"")`).
 - For exact match, place square brackets around the text (for example, `keywordBuilder.withText("[hardcover books]")`).
 
