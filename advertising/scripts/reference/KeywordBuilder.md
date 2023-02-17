@@ -12,7 +12,7 @@ ms.topic: "article"
 Contains the methods for defining and creating a keyword. For information about builders, see [Builders](../concepts/builders.md).
 
 > [!NOTE]
-> If you try to create new broad match modifier (BMM) keywords, they will be saved and served as phrase match keywords. Your existing BMM keywords will continue to serve under phrase match behavior. [Learn more about this change](https://about.ads.microsoft.com/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier).
+> If you try to create new broad match modifier (BMM) keywords, they will be saved and served as phrase match keywords. Your existing BMM keywords will continue to serve under phrase match behavior. [Learn more about keyword match types](https://help.ads.microsoft.com/#apex/ads/en/50822/1).
 
 Example usage:
 ```javascript
@@ -129,7 +129,7 @@ Sets the keyword's text.
 To specify the keyword's match type, use the following syntax:
 
 - For broad match, use no match type syntax (for example, `keywordBuilder.withText("books")`).
-- For broad match modifier, prepend the text with a plus sign (+) (for example, `keywordBuilder.withText("+books")`). *Note*: If you try to create new broad match modifier (BMM) keywords, they will be saved and served as phrase match keywords. Your existing BMM keywords will continue to serve under phrase match behavior. [Learn more about this change](https://about.ads.microsoft.com/blog/post/may-2021/our-changes-to-phrase-match-and-broad-match-modifier).
+- For broad match modifier, prepend the text with a plus sign (+) (for example, `keywordBuilder.withText("+books")`). *Note*: If you try to create new broad match modifier (BMM) keywords, they will be saved and served as phrase match keywords. Your existing BMM keywords will continue to serve under phrase match behavior. [Learn more about keyword match types](https://help.ads.microsoft.com/#apex/ads/en/50822/1).
 - For phrase match, place quotes around the text (for example, `keywordBuilder.withText("\"books\"")`).
 - For exact match, place square brackets around the text (for example, `keywordBuilder.withText("[hardcover books]")`).
 
