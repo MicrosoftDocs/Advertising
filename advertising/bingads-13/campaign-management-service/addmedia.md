@@ -13,7 +13,7 @@ dev_langs:
 ms.subservice: campaign-management-api
 ---
 # AddMedia Service Operation - Campaign Management
-Adds the specified media to an account's media library. 
+Adds the specified media to an account's asset library. 
 
 Depending on the type of [Media](media.md), you can then add the media to one or more [ImageAdExtension](imageadextension.md) or [ResponsiveAd](responsivead.md) objects.
 
@@ -27,8 +27,8 @@ The *AddMediaRequest* object defines the [body](#request-body) and [header](#req
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|The identifier of the account that owns the media library.|**long**|
-|<a name="media"></a>Media|An array of *Media* to add to the account's media library.<br/><br/>You can add a maximum of 10 media in a single call.|[Media](media.md) array|
+|<a name="accountid"></a>AccountId|The identifier of the account that owns the asset library.|**long**|
+|<a name="media"></a>Media|An array of *Media* to add to the account's asset library.<br/><br/>You can add a maximum of 10 media in a single call.|[Media](media.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
