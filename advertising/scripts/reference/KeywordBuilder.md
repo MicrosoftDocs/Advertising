@@ -12,7 +12,7 @@ ms.topic: "article"
 Contains the methods for defining and creating a keyword. For information about builders, see [Builders](../concepts/builders.md).
 
 > [!NOTE]
-> If you try to create new broad match modifier (BMM) keywords, they will be saved and served as phrase match keywords. Your existing BMM keywords will continue to serve under phrase match behavior. [Learn more about keyword match types](https://help.ads.microsoft.com/#apex/ads/en/50822/1).
+> All broad match modifier keywords for search ads now serve as broad match keywords instead of phrase match. [Learn more about keyword match types](https://help.ads.microsoft.com/#apex/ads/en/50822/1).
 
 Example usage:
 ```javascript
