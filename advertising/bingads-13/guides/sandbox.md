@@ -48,7 +48,7 @@ To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, yo
 
 6. Click **Send**
 
-Microsoft Advertising sends an email invite to the user. If the invite doesn’t show up in the inbox, check the Junk Email folder. It may take a couple of minutes to receive the invite. The following steps show how to accept the invitation.
+Microsoft Advertising sends an email invite to the user. If the invite doesn't show up in the inbox, check the Junk Email folder. It may take a couple of minutes to receive the invite. The following steps show how to accept the invitation.
 
 1. Open the email from Microsoft Advertising with subject line, Invitation to Microsoft Advertising
 2. Click the embedded link
@@ -156,7 +156,7 @@ Payment methods are not supported in sandbox.
 ## <a name="reporting"></a>Reporting Service
 When you create a keyword, test performance data should be generated within a few hours. The data is provided to test generating, retrieving, and parsing reports in the sandbox. You should not use the test data to infer or expect similar performance for your keywords in production. 
 
-Test data is generated only for the same day when the entity was added or updated. For example if you add a keyword today and download a keyword performance report for last week, there won’t be any data. You would have to pull a report that includes today in the report time period.
+Test data is generated only for the same day when the entity was added or updated. For example if you add a keyword today and download a keyword performance report for last week, there won't be any data. You would have to pull a report that includes today in the report time period.
 
 The following reports can return performance data in sandbox. All other report types can be submitted successfully, although the sandbox service will not return any example data i.e., the report download URL will be not be set when you poll for results.
 

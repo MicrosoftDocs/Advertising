@@ -785,7 +785,7 @@ The [PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.
 |<a name="actcompetitivelocationtargetoppr"></a>ActCompetitiveLocationTargetOppr|View a customized recommendation to increase visits to your website.|
 |<a name="actctrqualitybundle"></a>ActCTRQualityBundle|Improve the click-through rate of your ads by:|
 |<a name="acteditorialreviewprocess"></a>ActEditorialReviewProcess|Ensure your ad and keyword text comply with Microsoft Advertising policies. |
-|<a name="actfixconversiongoalsettingoppr"></a>ActFixConversionGoalSettingOppr|Fix your conversion goal setting to make sure you don’t miss any conversions. |
+|<a name="actfixconversiongoalsettingoppr"></a>ActFixConversionGoalSettingOppr|Fix your conversion goal setting to make sure you don't miss any conversions. |
 |<a name="actfixconversiontrackingoppr"></a>ActFixConversionTrackingOppr|Make sure you don't miss any conversions by fixing your UET tag.|
 |<a name="actgeneralbudgetoppr"></a>ActGeneralBudgetOppr|Ensure budget issues don't prevent your ads from showing. |
 |<a name="actinvoiceaccountonhold"></a>ActInvoiceAccountOnHold|You need to remove the hold before your ads can run.|
@@ -857,7 +857,7 @@ The [PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.
 |<a name="rcmorecompetitive"></a>RCMoreCompetitive|Your ads were outcompeting your competitors' ads in terms of bid amounts and/or ad quality.|
 |<a name="rcnetworklessrestrict"></a>RCNetworkLessRestrict|{0} ad distribution settings became less restrictive.|
 |<a name="rcnetworkmorerestrict"></a>RCNetworkMoreRestrict|{0} ad distribution settings became more restrictive.|
-|<a name="rcpaymentissueinvoiceaccountonhold"></a>RCPaymentIssueInvoiceAccountOnHold|Your account was placed on hold because we haven’t received one or more of your invoiced payments.|
+|<a name="rcpaymentissueinvoiceaccountonhold"></a>RCPaymentIssueInvoiceAccountOnHold|Your account was placed on hold because we haven't received one or more of your invoiced payments.|
 |<a name="rcpaymentissueinvoiceaccountpaused"></a>RCPaymentIssueInvoiceAccountPaused|Your account was paused due to lack of a valid insertion order.|
 |<a name="rcpaymentissueprepayaccountpaused"></a>RCPaymentIssuePrepayAccountPaused|Your account was paused due to a zero balance.|
 |<a name="rcpaymentissuethresholdaccountonhold"></a>RCPaymentIssueThresholdAccountOnHold|Your account was placed on hold because a payment failed to authorize.|
