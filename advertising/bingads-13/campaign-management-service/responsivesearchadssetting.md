@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines the ResponsiveSearchAdsSetting object
 ---
 # ResponsiveSearchAdsSetting Data Object - Campaign Management
-Reserved.
+Defines the ResponsiveSearchAdsSetting object
 
 ## Syntax
 ```xml

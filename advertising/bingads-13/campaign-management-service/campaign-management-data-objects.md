@@ -104,7 +104,7 @@ The Campaign Management service defines the following data objects.
 |[FixedBid](fixedbid.md)|Defines the fixed bid to use in the auction.|
 |[FlyerAdExtension](flyeradextension.md)|Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers.|
 |[Frequency](frequency.md)|Determines whether an import job should be run once or scheduled on a recurring basis.|
-|[FrequencyCapSettings](frequencycapsettings.md)|Reserved.|
+|[FrequencyCapSettings](frequencycapsettings.md)|Defines the FrequencyCapSettings object.|
 |[GenderCriterion](gendercriterion.md)|Defines a criterion that can be used to show ads to users of a specific gender.|
 |[GeoPoint](geopoint.md)|Defines an object that contains the longitude and latitude coordinates of a geographical location.|
 |[GoogleImportJob](googleimportjob.md)|Defines a Google import job that can be run once or scheduled on a recurring basis.|
@@ -168,7 +168,7 @@ The Campaign Management service defines the following data objects.
 |[PageVisitorsWhoVisitedAnotherPageRule](pagevisitorswhovisitedanotherpagerule.md)|Defines a page visitors who visited another page remarketing rule.|
 |[Paging](paging.md)|Defines a paging object to request Campaign Management objects in batches.|
 |[PercentCpcBiddingScheme](percentcpcbiddingscheme.md)|Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).|
-|[PerformanceMaxSetting](performancemaxsetting.md)|Reserved.|
+|[PerformanceMaxSetting](performancemaxsetting.md)|Defines the PerformanceMaxSetting object.|
 |[PlacementExclusionList](placementexclusionlist.md)|Defines a website exclusion list in the manager account (customer) shared library.|
 |[PriceAdExtension](priceadextension.md)|Defines an ad extension that includes between 3 and 8 price table rows.|
 |[PriceTableRow](pricetablerow.md)|Defines pricing information by currency and unit that you can use with price ad extensions.|
@@ -186,7 +186,7 @@ The Campaign Management service defines the following data objects.
 |[RemarketingRule](remarketingrule.md)|Defines the base object of a remarketing rule.|
 |[ResponsiveAd](responsivead.md)|A responsive ad format for audience ads and multimedia ads.|
 |[ResponsiveSearchAd](responsivesearchad.md)|A responsive ad format for text ads in the Search network.|
-|[ResponsiveSearchAdsSetting](responsivesearchadssetting.md)|Reserved.|
+|[ResponsiveSearchAdsSetting](responsivesearchadssetting.md)|Defines the ResponsiveSearchAdsSetting object.|
 |[ReviewAdExtension](reviewadextension.md)|Defines an object that specifies third-party reviews (exact or paraphrased) about your business, products, or services to include in an expanded text ad.|
 |[RuleItem](ruleitem.md)|Defines the base class of a remarketing list rule item.|
 |[RuleItemGroup](ruleitemgroup.md)|Defines an object that contains a list of remarketing list rule items that apply to the same visited page.|

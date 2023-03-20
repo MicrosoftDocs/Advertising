@@ -1136,6 +1136,8 @@
       href: ../campaign-management-service/addbidstrategies.md
     - name: AddBudgets
       href: ../campaign-management-service/addbudgets.md
+    - name: AddCampaignConversionGoals
+      href: ../campaign-management-service/addcampaignconversiongoals.md
     - name: AddCampaignCriterions
       href: ../campaign-management-service/addcampaigncriterions.md
     - name: AddCampaigns
@@ -1190,6 +1192,8 @@
       href: ../campaign-management-service/deletebidstrategies.md
     - name: DeleteBudgets
       href: ../campaign-management-service/deletebudgets.md
+    - name: DeleteCampaignConversionGoals
+      href: ../campaign-management-service/deletecampaignconversiongoals.md
     - name: DeleteCampaignCriterions
       href: ../campaign-management-service/deletecampaigncriterions.md
     - name: DeleteCampaigns

@@ -13,7 +13,6 @@ dev_langs:
   - python
 ---
 # DeleteCampaignConversionGoals Service Operation - Campaign Management
-
 Deletes a campaign conversion goal.
 
 ## <a name="request"></a>Request Elements
