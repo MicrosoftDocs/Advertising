@@ -1,8 +1,8 @@
 ---
 title: "HTTPResponse object"
 description: "Contains the methods for getting the response's payload and status code."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -3,8 +3,8 @@ title: GetConversionGoalsByIds Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the specified conversion goals.
 dev_langs: 
   - csharp

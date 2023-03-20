@@ -3,8 +3,8 @@ title: "Creating a Hotel Feed"
 description: Shows how to create an XML hotel feed file that lists the hotel properties you want to advertise.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Create an XML Hotel Feed file

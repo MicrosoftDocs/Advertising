@@ -1,8 +1,8 @@
 ---
 title: "AdBuilderSpace object"
 description: "Describes the methods for getting ad builders."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

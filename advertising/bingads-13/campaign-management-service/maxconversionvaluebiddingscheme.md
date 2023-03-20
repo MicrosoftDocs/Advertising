@@ -3,8 +3,8 @@ title: MaxConversionValueBiddingScheme Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object that represents the maximum conversion value bid strategy type.
 ---
 # MaxConversionValueBiddingScheme Data Object - Campaign Management

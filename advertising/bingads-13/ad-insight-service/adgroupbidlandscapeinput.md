@@ -3,8 +3,8 @@ title: AdGroupBidLandscapeInput Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object that contains the requested bid landscape type for the corresponding ad group identifier.
 ---
 # AdGroupBidLandscapeInput Data Object - Ad Insight

@@ -3,8 +3,8 @@ title: HotelDateSelectionTypeCriterion Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Criterion for the date selection type.
 ---
 # HotelDateSelectionTypeCriterion Data Object - Campaign Management

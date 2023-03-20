@@ -3,8 +3,8 @@ title: KeywordDemographic Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object that contains the device, age and gender of the user who entered the search query, if known.
 ---
 # KeywordDemographic Data Object - Ad Insight

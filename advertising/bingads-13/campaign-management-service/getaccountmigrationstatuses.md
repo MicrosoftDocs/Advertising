@@ -3,8 +3,8 @@ title: GetAccountMigrationStatuses Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the migration status info for the specified accounts.
 dev_langs: 
   - csharp

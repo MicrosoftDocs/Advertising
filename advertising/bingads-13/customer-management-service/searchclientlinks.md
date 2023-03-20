@@ -3,8 +3,8 @@ title: SearchClientLinks Service Operation - Customer Management
 ms.service: bing-ads
 ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Searches for the client links for the customer of the current authenticated user, filtered by the search criteria.
 dev_langs: 
   - csharp

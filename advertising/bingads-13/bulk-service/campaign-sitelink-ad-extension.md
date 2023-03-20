@@ -3,8 +3,8 @@ title: "Campaign Sitelink Ad Extension Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Campaign Sitelink Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp

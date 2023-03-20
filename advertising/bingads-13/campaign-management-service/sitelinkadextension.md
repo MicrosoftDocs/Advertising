@@ -3,8 +3,8 @@ title: SitelinkAdExtension Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object with one sitelink per ad extension.
 ---
 # SitelinkAdExtension Data Object - Campaign Management

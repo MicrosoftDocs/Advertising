@@ -3,8 +3,8 @@ title: Reporting Value Sets
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Value sets reference for the Reporting service.
 ---
 # Reporting Value Sets

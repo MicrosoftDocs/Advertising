@@ -3,8 +3,8 @@ title: ConversionGoalRevenueType Value Set - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines conversion goal revenue models that you can use to track how much each conversion is worth to your business.
 ---
 # ConversionGoalRevenueType Value Set - Campaign Management

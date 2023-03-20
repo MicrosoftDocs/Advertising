@@ -2,8 +2,8 @@
 title: "Editorial Reason Codes"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Reference documentation for editorial failure reason codes. 
 ---
 # Editorial Reason Codes

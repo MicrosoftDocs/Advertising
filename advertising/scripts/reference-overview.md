@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Advertising Scripts Reference"
 description: "Provides information about the JavaScript objects that you use in your scripts."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

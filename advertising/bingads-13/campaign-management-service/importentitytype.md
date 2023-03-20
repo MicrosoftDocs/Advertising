@@ -3,8 +3,8 @@ title: ImportEntityType Value Set - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the supported import entity types.
 ---
 # ImportEntityType Value Set - Campaign Management

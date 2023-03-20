@@ -3,8 +3,8 @@ title: "App Install Ad Label Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the App Install Ad Label fields in a Bulk file.
 dev_langs:
   - csharp

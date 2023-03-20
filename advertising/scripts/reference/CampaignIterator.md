@@ -1,8 +1,8 @@
 ---
 title: "CampaignIterator object"
 description: "Contains the methods for iterating through a list of campaigns."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

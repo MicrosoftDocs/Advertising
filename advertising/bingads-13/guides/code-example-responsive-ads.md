@@ -2,8 +2,8 @@
 title: "Responsive Ads Code Example"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Setup Responsive Ads for the Microsoft Audience Network in C#, Java, PHP, or Python.
 dev_langs:
   - csharp

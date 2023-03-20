@@ -3,8 +3,8 @@ title: DataType Value Set - Customer Billing
 ms.service: bing-ads
 ms.subservice: customer-billing-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the possible formats in which to generate the billing document.
 ---
 # DataType Value Set - Customer Billing

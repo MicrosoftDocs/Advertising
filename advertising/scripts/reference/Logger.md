@@ -1,8 +1,8 @@
 ---
 title: "Logger object"
 description: "Contains the methods for writing text messages to the log."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

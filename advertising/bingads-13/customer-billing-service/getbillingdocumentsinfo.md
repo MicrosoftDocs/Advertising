@@ -3,8 +3,8 @@ title: GetBillingDocumentsInfo Service Operation - Customer Billing
 ms.service: bing-ads
 ms.subservice: customer-billing-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.
 dev_langs: 
   - csharp

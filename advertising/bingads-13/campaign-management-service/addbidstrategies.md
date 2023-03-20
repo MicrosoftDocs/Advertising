@@ -3,8 +3,8 @@ title: AddBidStrategies Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Adds bid strategies to an account's portfolio bid strategy library.
 dev_langs: 
   - csharp

@@ -3,8 +3,8 @@ title: EditorialError Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an error object that identifies one of potentially many reasons why an entity failed editorial review.
 ---
 # EditorialError Data Object - Campaign Management

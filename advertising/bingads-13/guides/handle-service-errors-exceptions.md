@@ -2,8 +2,8 @@
 title: "Handling Service Errors and Exceptions"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Learn about error handling and troubleshooting your application.
 ---
 # Handling Service Errors and Exceptions

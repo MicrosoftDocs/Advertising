@@ -2,8 +2,8 @@
 title: "Bing Ads API Services Protocol"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: You can write your Bing Ads API application in any language that supports web services.
 ---
 # Bing Ads API Services Protocol

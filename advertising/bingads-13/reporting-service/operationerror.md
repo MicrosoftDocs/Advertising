@@ -3,8 +3,8 @@ title: OperationError Data Object - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a Reporting operation error object that contains the details that explain why the service operation failed.
 ---
 # OperationError Data Object - Reporting

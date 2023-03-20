@@ -3,8 +3,8 @@ title: CouponRedemption Data Object - Customer Billing
 ms.service: bing-ads
 ms.subservice: customer-billing-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Contains redemption and consuming details.
 ---
 # CouponRedemption Data Object - Customer Billing

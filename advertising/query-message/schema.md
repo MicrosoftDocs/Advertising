@@ -3,8 +3,8 @@ title: Query message schema
 description: Lists the Query schemas.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Query message schema

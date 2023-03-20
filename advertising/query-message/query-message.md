@@ -3,8 +3,8 @@ title: Query Message
 description: Landing page for Query Message
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Query Message

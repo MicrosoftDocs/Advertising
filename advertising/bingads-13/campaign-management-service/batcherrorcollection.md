@@ -3,8 +3,8 @@ title: BatchErrorCollection Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an error object that contains batch error details for the top level list index and a list of batch errors corresponding to the  nested list index.
 ---
 # BatchErrorCollection Data Object - Campaign Management

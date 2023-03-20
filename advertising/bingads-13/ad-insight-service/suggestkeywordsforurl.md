@@ -3,8 +3,8 @@ title: SuggestKeywordsForUrl Service Operation - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Suggests the possible keywords for the content located at the specified URL.
 dev_langs: 
   - csharp

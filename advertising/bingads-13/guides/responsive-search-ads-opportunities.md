@@ -2,8 +2,8 @@
 title: "Responsive Search Ads Opportunities"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Ad Insight API enables you to discover high-quality recommendations to create responsive search ads and tag them as applied or dismissed.
 ---
 # Responsive Search Ads Opportunities

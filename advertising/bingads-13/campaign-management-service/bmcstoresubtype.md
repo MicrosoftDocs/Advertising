@@ -3,8 +3,8 @@ title: BMCStoreSubType Value Set - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the possible values for Microsoft Merchant Center store sub types.
 ---
 # BMCStoreSubType Value Set - Campaign Management

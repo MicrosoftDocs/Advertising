@@ -3,8 +3,8 @@ title: "Campaign Disclaimer Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Campaign Disclaimer fields in a Bulk file.
 dev_langs:
   - csharp

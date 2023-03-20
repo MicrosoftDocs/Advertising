@@ -3,8 +3,8 @@ title: AdGroupEstimate Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Contains a list of suggested keywords for the ad group with minimum and maximum traffic estimates.
 ---
 # AdGroupEstimate Data Object - Ad Insight

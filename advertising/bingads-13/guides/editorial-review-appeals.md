@@ -2,8 +2,8 @@
 title: "Editorial Review and Appeals"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Determine whether the ad, ad extensions, or keyword passed or failed the editorial review.
 ---
 # Editorial Review and Appeals

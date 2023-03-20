@@ -1,8 +1,8 @@
 ---
 title: "AdUrls object"
 description: "Contains the methods used to get the ad's URLs, tracking template, and custom parameters."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

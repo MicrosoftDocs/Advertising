@@ -3,8 +3,8 @@ title: PageVisitorsWhoDidNotVisitAnotherPageRule Data Object - Campaign Manageme
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a page visitors who did not visit another page remarketing rule.
 ---
 # PageVisitorsWhoDidNotVisitAnotherPageRule Data Object - Campaign Management

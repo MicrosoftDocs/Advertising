@@ -3,8 +3,8 @@ title: GetKeywordsByAdGroupId Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the keywords within an ad group.
 dev_langs: 
   - csharp

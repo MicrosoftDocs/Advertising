@@ -3,8 +3,8 @@ title: Differences between Google and Microsoft Adverting hint messages differen
 description: Lists the differences between Google and Microsoft Advertising hint messages
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Differences between Google and Microsoft Advertising Hint messages

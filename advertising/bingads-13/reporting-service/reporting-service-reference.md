@@ -2,8 +2,8 @@
 title: "Reporting API"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Reference documentation and guides for the Reporting API.
 ---
 # Reporting API

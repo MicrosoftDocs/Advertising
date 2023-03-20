@@ -3,8 +3,8 @@ title: "Ad Group Product Partition Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Ad Group Product Partition fields in a Bulk file.
 dev_langs:
   - csharp

@@ -1,8 +1,8 @@
 ---
 title: "Label script examples"
 description: "Shows examples that perform various actions against labels."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

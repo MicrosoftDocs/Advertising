@@ -3,8 +3,8 @@ title: "Hotel Feed Reference"
 description: Describes the schema used to create a hotel feed file.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Hotel Feed reference

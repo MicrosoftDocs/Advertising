@@ -3,8 +3,8 @@ title: KeywordIdeaAttribute Value Set - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Determines which properties of the KeywordIdea object you want returned when calling the GetKeywordIdeas operation.
 ---
 # KeywordIdeaAttribute Value Set - Ad Insight

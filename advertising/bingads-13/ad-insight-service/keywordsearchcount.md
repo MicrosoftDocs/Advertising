@@ -3,8 +3,8 @@ title: KeywordSearchCount Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object that contains a list of search counts for each device and network where the keyword was included in a search query.
 ---
 # KeywordSearchCount Data Object - Ad Insight

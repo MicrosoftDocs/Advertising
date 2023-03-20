@@ -1,8 +1,8 @@
 ---
 title: "KeywordBidding object"
 description: "Contains the methods for specifying the keyword's bid values."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

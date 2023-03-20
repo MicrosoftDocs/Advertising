@@ -1,8 +1,8 @@
 ---
 title: "CampaignExcludedAudienceSelector object"
 description: "Contains the methods for filtering the list of campaign excluded audiences to return."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

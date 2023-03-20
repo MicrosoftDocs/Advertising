@@ -3,8 +3,8 @@ title: Bulk Value Sets
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Value sets reference for the Bulk service.
 ---
 # Bulk Value Sets

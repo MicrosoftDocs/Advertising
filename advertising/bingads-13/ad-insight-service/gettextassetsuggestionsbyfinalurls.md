@@ -3,8 +3,8 @@ title: GetTextAssetSuggestionsByFinalUrls Service Operation - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets text asset suggestions by final URLs.
 dev_langs: 
   - csharp

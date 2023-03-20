@@ -3,8 +3,8 @@ title: AdExtensionIdToEntityIdAssociation Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object that associates an ad extension to a supported entity, for example ad group or campaign.
 ---
 # AdExtensionIdToEntityIdAssociation Data Object - Campaign Management

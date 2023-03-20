@@ -3,8 +3,8 @@ title: GetHistoricalSearchCount Service Operation - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the number of times the normalized term was used in a search during the specified time period.
 dev_langs: 
   - csharp

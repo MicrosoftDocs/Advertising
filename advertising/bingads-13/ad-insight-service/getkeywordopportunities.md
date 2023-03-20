@@ -3,8 +3,8 @@ title: GetKeywordOpportunities Service Operation - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets a list of keyword suggestions that are relevant to the specified ad group.
 dev_langs: 
   - csharp

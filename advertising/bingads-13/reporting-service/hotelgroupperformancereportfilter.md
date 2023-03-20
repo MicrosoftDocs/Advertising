@@ -3,8 +3,8 @@ title: HotelGroupPerformanceReportFilter Data Object - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the criteria to use to filter the hotel group performance report data.
 ---
 # HotelGroupPerformanceReportFilter Data Object - Reporting

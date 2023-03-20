@@ -3,8 +3,8 @@ title: SearchParameter Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: This is the base class from which keyword idea search parameter objects derive.
 ---
 # SearchParameter Data Object - Ad Insight

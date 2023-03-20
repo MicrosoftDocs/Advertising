@@ -3,8 +3,8 @@ title: TargetAdPosition Value Set - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the possible positions where you can target an ad to appear in the search results.
 ---
 # TargetAdPosition Value Set - Ad Insight

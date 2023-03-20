@@ -3,8 +3,8 @@ title: AddBudgets Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Adds new budgets to the account's shared budget library.
 dev_langs: 
   - csharp

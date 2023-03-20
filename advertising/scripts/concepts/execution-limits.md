@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Advertising Scripts entity and execution limits"
 description: "Identifies the entity and execution limits for scripts."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

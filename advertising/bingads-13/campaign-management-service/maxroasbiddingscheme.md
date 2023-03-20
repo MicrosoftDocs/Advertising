@@ -3,8 +3,8 @@ title: MaxRoasBiddingScheme Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: This object is not in use and will be removed from a future version of the API.
 ---
 # MaxRoasBiddingScheme Data Object - Campaign Management

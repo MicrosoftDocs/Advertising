@@ -2,8 +2,8 @@
 title: "Responsive Search Ads"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Setup responsive search ads with the Bing Ads API.
 ---
 # Responsive Search Ads

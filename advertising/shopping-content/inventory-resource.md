@@ -1,10 +1,10 @@
 ---
 title: "Inventory Resource"
 description: "Used to update product pricing."
-author: rgaritta
+author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: v-rgaritta
+ms.author: jonmeyers
 ---
 
 # Inventory resource

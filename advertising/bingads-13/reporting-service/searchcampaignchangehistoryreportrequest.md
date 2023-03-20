@@ -3,8 +3,8 @@ title: SearchCampaignChangeHistoryReportRequest Data Object - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a change history report request.
 ---
 # SearchCampaignChangeHistoryReportRequest Data Object - Reporting

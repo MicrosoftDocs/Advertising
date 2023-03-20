@@ -3,8 +3,8 @@ title: "Transaction Message"
 description: Landing page for transaction message
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Transaction Message

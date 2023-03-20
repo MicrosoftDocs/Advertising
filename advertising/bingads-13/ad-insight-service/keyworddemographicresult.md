@@ -3,8 +3,8 @@ title: KeywordDemographicResult Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an object that contains the keyword and percentage of users by age and gender (if known) who searched for the specified keyword.
 ---
 # KeywordDemographicResult Data Object - Ad Insight

@@ -3,8 +3,8 @@ title: GetSharedEntityAssociationsByEntityIds Service Operation - Campaign Manag
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the negative keyword list to campaign associations by campaign IDs, or website exclusion list to ad account associations by ad account IDs.
 dev_langs: 
   - csharp

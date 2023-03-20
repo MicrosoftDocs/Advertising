@@ -3,8 +3,8 @@ title: GetUsersInfo Service Operation - Customer Management
 ms.service: bing-ads
 ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets a list of objects that contains user identification information, for example the user name and identifier of the user.
 dev_langs: 
   - csharp

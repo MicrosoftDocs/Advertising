@@ -3,8 +3,8 @@ title: Industry Value Set - Customer Management
 ms.service: bing-ads
 ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the possible industry segments in which a customer operates.
 ---
 # Industry Value Set - Customer Management

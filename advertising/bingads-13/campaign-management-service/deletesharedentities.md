@@ -3,8 +3,8 @@ title: DeleteSharedEntities Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Deletes negative keyword lists from the ad account library, or deletes website exclusion lists from the manager account (customer) library.
 dev_langs: 
   - csharp

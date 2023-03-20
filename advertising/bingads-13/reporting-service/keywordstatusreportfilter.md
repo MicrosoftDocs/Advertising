@@ -3,8 +3,8 @@ title: KeywordStatusReportFilter Value Set - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the keyword status values that you can use to filter the report data.
 ---
 # KeywordStatusReportFilter Value Set - Reporting

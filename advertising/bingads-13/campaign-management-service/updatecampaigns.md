@@ -3,8 +3,8 @@ title: UpdateCampaigns Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Updates specified campaigns in a specified account.
 dev_langs: 
   - csharp

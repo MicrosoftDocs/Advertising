@@ -3,8 +3,8 @@ title: "CodeGrantFlow Code Example"
 description: Shows a simple implementation for calling the identity service and getting an OAuth access and refresh token.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 dev_langs:
   - csharp
 ---

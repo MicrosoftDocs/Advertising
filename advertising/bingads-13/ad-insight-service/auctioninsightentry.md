@@ -3,8 +3,8 @@ title: AuctionInsightEntry Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines an auction insight entry for a domain.
 ---
 # AuctionInsightEntry Data Object - Ad Insight

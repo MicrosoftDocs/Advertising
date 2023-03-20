@@ -3,8 +3,8 @@ title: AddCampaignCriterions Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Adds one or more campaign criterions that help determine whether ads in each campaign get served.
 dev_langs: 
   - csharp

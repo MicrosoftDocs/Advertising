@@ -2,8 +2,8 @@
 title: "Get access and refresh tokens"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Get access and refresh tokens using the Microsoft identity platform endpoint for developers.
 ---
 # Get access and refresh tokens

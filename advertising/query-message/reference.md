@@ -3,8 +3,8 @@ title: Query message reference
 description: Describes the schema elements of a Query message.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Query message reference

@@ -3,8 +3,8 @@ title: Customer Data Object - Customer Management
 ms.service: bing-ads
 ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a customer object that contains one or more Microsoft Advertising accounts.
 ---
 # Customer Data Object - Customer Management

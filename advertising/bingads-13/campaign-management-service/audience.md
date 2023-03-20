@@ -3,8 +3,8 @@ title: Audience Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the base object of an audience.
 ---
 # Audience Data Object - Campaign Management

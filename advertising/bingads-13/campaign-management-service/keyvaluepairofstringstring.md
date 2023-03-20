@@ -3,8 +3,8 @@ title: KeyValuePairOfstringstring Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: The key and value pair of string and string values defined by the Campaign Management service.
 ---
 # KeyValuePairOfstringstring Data Object - Campaign Management

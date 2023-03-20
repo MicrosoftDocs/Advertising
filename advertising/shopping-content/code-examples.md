@@ -1,8 +1,8 @@
 ---
 title: "Content API Code Examples"
 description: "A list of links providing more information on each operation available in the Content API."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
 ---

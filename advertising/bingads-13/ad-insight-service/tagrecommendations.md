@@ -3,8 +3,8 @@ title: TagRecommendations Service Operation - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Notifies Microsoft Advertising that the specific recommendation to create responsive search ads should be tagged as *applied* or *dismissed*.
 dev_langs: 
   - csharp

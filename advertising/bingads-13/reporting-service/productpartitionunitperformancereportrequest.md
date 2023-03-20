@@ -3,8 +3,8 @@ title: ProductPartitionUnitPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a product partition unit performance report request that aggregates the performance data by product partition unit for a specified time period.
 ---
 # ProductPartitionUnitPerformanceReportRequest Data Object - Reporting

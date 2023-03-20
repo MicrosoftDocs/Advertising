@@ -1,8 +1,8 @@
 ---
 title: "Authenticating with Google services"
 description: "Shows options for getting an access token to use with Google services."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

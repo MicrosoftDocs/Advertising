@@ -3,8 +3,8 @@ title: FilterLinkAdExtension Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Filter Link Extensions pair one header with between 3 and 10 clickable text values that tell customers more about your business.
 ---
 # FilterLinkAdExtension Data Object - Campaign Management

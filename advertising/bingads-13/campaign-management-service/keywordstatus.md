@@ -3,8 +3,8 @@ title: KeywordStatus Value Set - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the possible status values of a keyword.
 ---
 # KeywordStatus Value Set - Campaign Management

@@ -2,8 +2,8 @@
 title: "Budget and Bid Strategies"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Setup bid and budget strategies.
 ---
 # Budget and Bid Strategies

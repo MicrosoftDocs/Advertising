@@ -2,8 +2,8 @@
 title: "Expanded Text Ads"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Setup Expanded Text ads with the Bing Ads API.
 ---
 # Expanded Text Ads

@@ -3,8 +3,8 @@ title: AddAdGroups Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Adds new ad groups to a specified campaign.
 dev_langs: 
   - csharp

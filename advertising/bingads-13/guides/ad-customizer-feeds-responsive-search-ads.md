@@ -2,8 +2,8 @@
 title: "Ad Customizer Feeds for responsive search ads"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Add feeds so your responsive search ads update dynamically under specific circumstances. 
 ---
 

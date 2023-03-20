@@ -2,8 +2,8 @@
 title: "Customer Billing API"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Reference documentation for the Customer Billing API.
 ---
 # Customer Billing API

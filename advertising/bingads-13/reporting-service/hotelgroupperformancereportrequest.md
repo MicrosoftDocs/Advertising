@@ -3,8 +3,8 @@ title: HotelGroupPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a hotel group performance report request that aggregates the performance data by product category, custom label, title, and type for a specified time period.
 ---
 # HotelGroupPerformanceReportRequest Data Object - Reporting

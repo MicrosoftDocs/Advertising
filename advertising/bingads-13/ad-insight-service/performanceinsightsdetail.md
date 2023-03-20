@@ -3,8 +3,8 @@ title: PerformanceInsightsDetail Data Object - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines the details for performance insights.
 ---
 # PerformanceInsightsDetail Data Object - Ad Insight

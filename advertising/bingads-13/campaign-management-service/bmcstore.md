@@ -3,8 +3,8 @@ title: BMCStore Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a Microsoft Merchant Center store.
 ---
 # BMCStore Data Object - Campaign Management

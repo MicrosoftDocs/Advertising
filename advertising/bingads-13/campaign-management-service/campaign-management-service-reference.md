@@ -2,8 +2,8 @@
 title: "Campaign Management API"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Reference documentation for the Campaign Management API.
 ---
 # Campaign Management API

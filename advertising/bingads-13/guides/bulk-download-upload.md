@@ -2,8 +2,8 @@
 title: "Bulk Download and Upload"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Download and upload high volume campaign settings asynchronously in the background.
 ---
 # Bulk Download and Upload

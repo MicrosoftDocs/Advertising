@@ -1,8 +1,8 @@
 ---
 title: "Product group script examples"
 description: "Shows examples that get product groups and updates their bid amounts."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

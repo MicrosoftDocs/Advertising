@@ -2,8 +2,8 @@
 title: "Bing Ads API Concepts"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Bing Ads API concepts and error handling documentation.
 ---
 # Bing Ads API Concepts

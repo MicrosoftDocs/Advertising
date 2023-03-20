@@ -3,8 +3,8 @@ title: AuctionInsightKpiAdditionalField Value Set - Ad Insight
 ms.service: bing-ads
 ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Defines a list of optional auction insight KPI properties that you can request when calling GetAuctionInsightData.
 ---
 # AuctionInsightKpiAdditionalField Value Set - Ad Insight

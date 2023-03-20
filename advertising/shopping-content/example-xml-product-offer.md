@@ -1,10 +1,10 @@
 ---
 title: "Example XML Product Offer"
 description: "Shows example xml representing a product offer returned by the Content API."
-author: rgaritta
+author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: v-rgaritta
+ms.author: jonmeyers
 ---
 # Example XML Product Offer
 The following shows an example of a product offer in XML that a GET request returns. 

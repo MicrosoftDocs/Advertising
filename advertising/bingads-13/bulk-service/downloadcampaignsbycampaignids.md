@@ -3,8 +3,8 @@ title: DownloadCampaignsByCampaignIds Service Operation - Bulk
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Downloads settings and performance data for the specified campaigns.
 dev_langs: 
   - csharp

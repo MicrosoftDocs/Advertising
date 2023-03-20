@@ -3,8 +3,8 @@ title: GetUserMFAStatus Service Operation - Customer Management
 ms.service: bing-ads
 ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Used to estimate adoption of multi-factor authentication (MFA) by users of your application.
 dev_langs: 
   - csharp
