@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Represents a number rule item.
 ---
 # NumberRuleItem Data Object - Campaign Management
-Reserved.
+Represents a number rule item.
 
 ## Syntax
 ```xml
