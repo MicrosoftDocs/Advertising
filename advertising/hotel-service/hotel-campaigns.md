@@ -38,4 +38,4 @@ Coming early 2023:
 
 Advertisers can run campaigns from both Hotel Center and hotel campaigns, but you'll still need to upload feeds through the Hotel Center.
 
-To use hotel campaigns please follow the steps outlined in the [Hotel price ads overview](../hotel-ads/).
+To use hotel campaigns please follow the steps outlined in the [Hotel price ads overview](../hotel-ads/index.md).
