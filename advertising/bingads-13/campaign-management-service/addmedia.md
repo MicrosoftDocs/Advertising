@@ -1,16 +1,16 @@
 ---
 title: AddMedia Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Adds the specified media to an account's media library.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AddMedia Service Operation - Campaign Management
 Adds the specified media to an account's asset library. 

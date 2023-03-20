@@ -1,11 +1,11 @@
 ---
 title: InsertionOrderPendingChanges Data Object - Customer Billing
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object that can be used to manage changes for an approved insertion order.
 ms.subservice: customer-billing-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object that can be used to manage changes for an approved insertion order.
 ---
 # InsertionOrderPendingChanges Data Object - Customer Billing
 Defines an object that can be used to manage changes for an approved insertion order.

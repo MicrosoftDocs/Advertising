@@ -1,16 +1,16 @@
 ---
 title: AppealEditorialRejections Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Appeals ads or keywords that failed editorial review.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AppealEditorialRejections Service Operation - Campaign Management
 Appeals ads or keywords that failed editorial review. 

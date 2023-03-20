@@ -1,11 +1,11 @@
 ---
 title: HotelGroup Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object that organizes your hotel ads.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object that organizes your hotel ads.
 ---
 # HotelGroup Data Object - Campaign Management
 Defines an object that organizes your hotel ads.

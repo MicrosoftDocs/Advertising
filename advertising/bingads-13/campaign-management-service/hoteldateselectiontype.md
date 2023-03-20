@@ -1,11 +1,11 @@
 ---
 title: HotelDateSelectionType Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Possible hotel date selection types.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Possible hotel date selection types.
 ---
 # HotelDateSelectionType Value Set - Campaign Management
 Possible hotel date selection types.

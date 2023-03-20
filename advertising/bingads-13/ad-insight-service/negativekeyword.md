@@ -1,11 +1,11 @@
 ---
 title: NegativeKeyword Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a negative keyword with match type for traffic estimates.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a negative keyword with match type for traffic estimates.
 ---
 # NegativeKeyword Data Object - Ad Insight
 Defines a negative keyword with match type for traffic estimates.

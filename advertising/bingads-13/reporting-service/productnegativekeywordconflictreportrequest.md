@@ -1,11 +1,11 @@
 ---
 title: ProductNegativeKeywordConflictReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a product negative keyword conflict report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a product negative keyword conflict report request.
 ---
 # ProductNegativeKeywordConflictReportRequest Data Object - Reporting
 Defines a product negative keyword conflict report request. Use this report to confirm that negative keywords applied to your Shopping campaigns are not excessively restricting campaign performance. 

@@ -1,11 +1,11 @@
 ---
 title: DSAAutoTargetPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a DSA auto target performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a DSA auto target performance report request.
 ---
 # DSAAutoTargetPerformanceReportRequest Data Object - Reporting
 Defines a DSA auto target performance report request. Use this report to understand how your dynamic ad targets are performing and where bid adjustments may be useful.

@@ -1,11 +1,11 @@
 ---
 title: ReportFormat Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the file formats that you can use for a report.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the file formats that you can use for a report.
 ---
 # ReportFormat Value Set - Reporting
 Defines the file formats that you can use for a report.

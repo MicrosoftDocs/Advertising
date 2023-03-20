@@ -3,8 +3,8 @@ title: "Hotel Group Code Example"
 description: Shows how to add, list, and update hotel groups.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 dev_langs:
   - csharp
   - curl

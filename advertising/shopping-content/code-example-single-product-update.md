@@ -1,10 +1,10 @@
 ---
 title: "Updating pricing and availability for a single product"
 description: "Code example that shows how to update price and availability for a single product."
-author: rgaritta
+author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: v-rgaritta
+ms.author: jonmeyers
 
 dev_langs: 
   - csharp

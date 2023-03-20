@@ -1,11 +1,11 @@
 ---
 title: Address Data Object - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a postal address for accounts and user contact information.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a postal address for accounts and user contact information.
 ---
 # Address Data Object - Customer Management
 Defines a postal address for accounts and user contact information.

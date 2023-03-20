@@ -1,11 +1,11 @@
 ---
 title: CriterionCashback Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the CriterionCashback Data Object.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the CriterionCashback Data Object.
 ---
 # CriterionCashback Data Object - Campaign Management
 Defines the CriterionCashback Data Object.

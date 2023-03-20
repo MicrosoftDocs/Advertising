@@ -1,11 +1,11 @@
 ---
 title: AccountPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an account performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an account performance report request.
 ---
 # AccountPerformanceReportRequest Data Object - Reporting
 Defines an account performance report request. Use this report to observe long-term account performance and trends.

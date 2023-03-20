@@ -1,11 +1,11 @@
 ---
 title: PageVisitorsWhoVisitedAnotherPageRule Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a page visitors who visited another page remarketing rule.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a page visitors who visited another page remarketing rule.
 ---
 # PageVisitorsWhoVisitedAnotherPageRule Data Object - Campaign Management
 Defines a page visitors who visited another page remarketing rule. 

@@ -3,8 +3,8 @@ title: "Release notes for Hotel Price Ads Service"
 description: Identifies the changes made to Hotel Price Ads for each release.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Release notes for Hotel Price Ads Service

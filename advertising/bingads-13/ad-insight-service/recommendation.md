@@ -1,11 +1,11 @@
 ---
 title: Recommendation Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the base object of Recommendation.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the base object of Recommendation.
 ---
 # Recommendation Data Object - Ad Insight
 Defines the base object of Recommendation. The [ResponsiveSearchAdsRecommendation](responsivesearchadsrecommendation.md) object derives from it.

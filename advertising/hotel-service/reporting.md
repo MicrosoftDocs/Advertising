@@ -3,8 +3,8 @@ title: "Hotel Price Ads Reporting"
 description: Describes how to request and download a Hotel Price Ads report.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Hotel Price Ads Reporting API

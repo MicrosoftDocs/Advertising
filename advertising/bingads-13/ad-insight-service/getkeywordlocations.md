@@ -1,16 +1,16 @@
 ---
 title: GetKeywordLocations Service Operation - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the geographical locations of users who have searched for the specified keywords.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: ad-insight-api
 ---
 # GetKeywordLocations Service Operation - Ad Insight
 Gets the geographical locations of users who have searched for the specified keywords.

@@ -1,8 +1,8 @@
 ---
 title: "AdTextAsset object"
 description: "Contains properties that define a text asset for an ad."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

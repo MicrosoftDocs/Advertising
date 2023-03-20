@@ -1,11 +1,11 @@
 ---
 title: PersonName Data Object - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the name of a user.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the name of a user.
 ---
 # PersonName Data Object - Customer Management
 Defines the name of a user.

@@ -2,8 +2,8 @@
 title: "Report Types"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Each report type aggregates the data at a different level or with a different focus.
 ---
 # Report Types

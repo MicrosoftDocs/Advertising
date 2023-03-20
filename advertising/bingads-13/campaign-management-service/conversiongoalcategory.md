@@ -1,11 +1,11 @@
 ---
 title: ConversionGoalCategory Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines categories used to segment conversion goals.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines categories used to segment conversion goals.
 ---
 # ConversionGoalCategory Value Set - Campaign Management
 Defines categories used to segment conversion goals.

@@ -1,16 +1,16 @@
 ---
 title: SearchClientLinks Service Operation - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Searches for the client links for the customer of the current authenticated user, filtered by the search criteria.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: customer-management-api
 ---
 # SearchClientLinks Service Operation - Customer Management
 Searches for the client links for the customer of the current authenticated user, filtered by the search criteria. The operation returns the most recent link for each unique combination of agency customer and client account. 

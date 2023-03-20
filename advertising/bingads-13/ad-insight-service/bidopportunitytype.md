@@ -1,11 +1,11 @@
 ---
 title: BidOpportunityType Value Set - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible bid opportunity types you can request when calling GetBidOpportunities.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible bid opportunity types you can request when calling GetBidOpportunities.
 ---
 # BidOpportunityType Value Set - Ad Insight
 Defines the possible bid opportunity types you can request when calling [GetBidOpportunities](getbidopportunities.md).

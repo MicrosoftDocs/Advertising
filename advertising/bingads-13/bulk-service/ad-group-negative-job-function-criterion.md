@@ -1,13 +1,13 @@
 ---
 title: "Ad Group Negative Job Function Criterion Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Ad Group Negative Job Function Criterion fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Ad Group Negative Job Function Criterion Record - Bulk
 Defines an ad group negative job function criterion that can be uploaded and downloaded in a bulk file. 

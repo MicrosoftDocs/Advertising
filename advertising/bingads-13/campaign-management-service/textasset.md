@@ -1,11 +1,11 @@
 ---
 title: TextAsset Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 ---
 # TextAsset Data Object - Campaign Management
 A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads. For example, see responsive search ad [Descriptions](responsivesearchad.md#descriptions) and [Headlines](responsivesearchad.md#headlines).

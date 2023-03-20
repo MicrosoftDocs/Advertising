@@ -1,8 +1,8 @@
 ---
 title: "Stats object"
 description: "Contains the methods for accessing the entity's performance data."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

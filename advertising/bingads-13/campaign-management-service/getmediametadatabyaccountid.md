@@ -1,16 +1,16 @@
 ---
 title: GetMediaMetaDataByAccountId Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the media meta data of the specified entity type from an account's media library.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # GetMediaMetaDataByAccountId Service Operation - Campaign Management
 Gets the media meta data of the specified entity type from an account's media library.

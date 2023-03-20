@@ -1,8 +1,8 @@
 ---
 title: "NegativeKeywordList object"
 description: "Contains the methods for adding keywords to a negative keywords list."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

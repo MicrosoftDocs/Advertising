@@ -1,11 +1,11 @@
 ---
 title: PerformanceInsightsUrlCategory Value Set - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the URL category for performance insights.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the URL category for performance insights.
 ---
 # PerformanceInsightsUrlCategory Value Set - Ad Insight
 Defines the URL category for performance insights.

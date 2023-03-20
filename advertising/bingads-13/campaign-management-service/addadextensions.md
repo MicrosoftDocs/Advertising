@@ -1,16 +1,16 @@
 ---
 title: AddAdExtensions Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Adds one or more ad extensions to an account's ad extension library.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AddAdExtensions Service Operation - Campaign Management
 Adds one or more ad extensions to an account's ad extension library.

@@ -1,16 +1,16 @@
 ---
 title: FindAccountsOrCustomersInfo Service Operation - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets a list of the accounts and customers that match the specified filter criteria.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: customer-management-api
 ---
 # FindAccountsOrCustomersInfo Service Operation - Customer Management
 Gets a list of the accounts and customers that match the specified filter criteria.

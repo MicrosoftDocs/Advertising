@@ -1,11 +1,11 @@
 ---
 title: OnlineConversionAdjustment Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an obkect to retract or restate an online conversion.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an obkect to retract or restate an online conversion.
 ---
 # OnlineConversionAdjustment Data Object - Campaign Management
 Defines an object to retract or restate an online conversion.

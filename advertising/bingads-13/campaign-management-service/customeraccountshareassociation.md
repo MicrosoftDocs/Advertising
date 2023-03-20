@@ -1,11 +1,11 @@
 ---
 title: CustomerAccountShareAssociation Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Contains the association count for the corresponding usage type.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Contains the association count for the corresponding usage type.
 ---
 # CustomerAccountShareAssociation Data Object - Campaign Management
 Contains the association count for the corresponding usage type. 

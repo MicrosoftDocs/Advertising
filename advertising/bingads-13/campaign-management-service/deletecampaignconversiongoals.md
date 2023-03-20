@@ -1,16 +1,16 @@
 ---
 title: DeleteCampaignConversionGoals Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Deletes a campaign conversion goal.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # DeleteCampaignConversionGoals Service Operation - Campaign Management
 

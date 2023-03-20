@@ -1,16 +1,16 @@
 ---
 title: AddAccount Service Operation - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Creates a new account within an existing customer.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: customer-management-api
 ---
 # AddAccount Service Operation - Customer Management
 Creates a new account within an existing customer. 

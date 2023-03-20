@@ -1,11 +1,11 @@
 ---
 title: ClientLinkStatus Value Set - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible status values of a ClientLink.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible status values of a ClientLink.
 ---
 # ClientLinkStatus Value Set - Customer Management
 Defines the possible status values of a [ClientLink](clientlink.md).

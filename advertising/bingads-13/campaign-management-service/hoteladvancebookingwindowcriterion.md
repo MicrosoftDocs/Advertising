@@ -1,11 +1,11 @@
 ---
 title: HotelAdvanceBookingWindowCriterion Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Criterion for the number of days the booking is made prior to the hotel stay.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Criterion for the number of days the booking is made prior to the hotel stay.
 ---
 # HotelAdvanceBookingWindowCriterion Data Object - Campaign Management
 Criterion for the number of days the booking is made prior to the hotel stay.

@@ -1,16 +1,16 @@
 ---
 title: UpdateUser Service Operation - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Updates the personal and business contact information about a Microsoft Advertising user.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: customer-management-api
 ---
 # UpdateUser Service Operation - Customer Management
 Updates the personal and business contact information about a Microsoft Advertising user. 

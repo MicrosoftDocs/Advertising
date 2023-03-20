@@ -1,11 +1,11 @@
 ---
 title: MediaAssociation Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object that represents the identified media and an associated entity, for example media associated with an ad group.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object that represents the identified media and an associated entity, for example media associated with an ad group.
 ---
 # MediaAssociation Data Object - Campaign Management
 Defines an object that represents the identified media and an associated entity, for example media associated with an ad group.

@@ -1,11 +1,11 @@
 ---
 title: CriterionTypeGroup Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: The type used to group criterions.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: The type used to group criterions.
 ---
 # CriterionTypeGroup Value Set - Campaign Management
 The type used to group criterions.

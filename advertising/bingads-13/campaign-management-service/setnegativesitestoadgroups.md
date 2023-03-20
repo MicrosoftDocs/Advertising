@@ -1,16 +1,16 @@
 ---
 title: SetNegativeSitesToAdGroups Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Sets the negative site URLs directly to ad groups.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # SetNegativeSitesToAdGroups Service Operation - Campaign Management
 Sets the negative site URLs directly to ad groups. 

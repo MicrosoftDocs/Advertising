@@ -1,11 +1,11 @@
 ---
 title: CallDetailReportFilter Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the criteria to use to filter the call detail report data.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the criteria to use to filter the call detail report data.
 ---
 # CallDetailReportFilter Data Object - Reporting
 Defines the criteria to use to filter the call detail report data.

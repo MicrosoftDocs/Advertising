@@ -1,11 +1,11 @@
 ---
 title: AdDynamicTextPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an ad dynamic text performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an ad dynamic text performance report request.
 ---
 # AdDynamicTextPerformanceReportRequest Data Object - Reporting
 Defines an ad dynamic text performance report request. Use this report to identify which dynamic text strings are performing well and which strings you should consider changing.

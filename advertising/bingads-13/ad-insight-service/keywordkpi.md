@@ -1,11 +1,11 @@
 ---
 title: KeywordKPI Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a key performance index object for a keyword.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a key performance index object for a keyword.
 ---
 # KeywordKPI Data Object - Ad Insight
 Defines a key performance index object for a keyword. The object contains the historical performance statistics of the keyword for the corresponding match type, ad position, device, and network.

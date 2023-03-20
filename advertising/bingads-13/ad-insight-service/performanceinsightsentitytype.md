@@ -1,11 +1,11 @@
 ---
 title: PerformanceInsightsEntityType Value Set - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the entity types for retrieving performance insights.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the entity types for retrieving performance insights.
 ---
 # PerformanceInsightsEntityType Value Set - Ad Insight
 Defines the entity types for retrieving performance insights.

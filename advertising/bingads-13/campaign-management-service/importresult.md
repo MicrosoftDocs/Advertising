@@ -1,11 +1,11 @@
 ---
 title: ImportResult Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Contains the status, run time, and statistical results for an import job that has run.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Contains the status, run time, and statistical results for an import job that has run.
 ---
 # ImportResult Data Object - Campaign Management
 Contains the status, run time, and statistical results for an import job that has run.

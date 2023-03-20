@@ -1,11 +1,11 @@
 ---
 title: DestinationUrlPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a destination URL performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a destination URL performance report request.
 ---
 # DestinationUrlPerformanceReportRequest Data Object - Reporting
 Defines a destination URL performance report request. Use this report to identify landing pages that met audience expectations and potentially resulted in high click-through or conversion rates. 

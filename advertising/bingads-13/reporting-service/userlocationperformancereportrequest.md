@@ -1,11 +1,11 @@
 ---
 title: UserLocationPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a user location performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a user location performance report request.
 ---
 # UserLocationPerformanceReportRequest Data Object - Reporting
 Defines a user location performance report request. Use this report to see where your traffic is coming from broken out by the physical location and the location people are searching for. You can then validate whether your location targeting strategy is successful, and identify opportunities to improve.

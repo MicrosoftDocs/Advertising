@@ -1,11 +1,11 @@
 ---
 title: AdStatusReportFilter Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the ad status values that you can use to filter the report data.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the ad status values that you can use to filter the report data.
 ---
 # AdStatusReportFilter Value Set - Reporting
 Defines the ad status values that you can use to filter the report data. These values are also used as column values in reports that include ad status, such as the search query performance report.

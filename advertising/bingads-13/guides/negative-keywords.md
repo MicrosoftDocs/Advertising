@@ -2,8 +2,8 @@
 title: "Negative Keywords"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: You can use negative keywords to prevent your ad from being displayed if the user's search query contains one of your negative keywords.
 ---
 # Negative Keywords

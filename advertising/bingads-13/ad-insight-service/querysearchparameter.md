@@ -1,11 +1,11 @@
 ---
 title: QuerySearchParameter Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: The query search parameter that you can use as a seed for new keyword ideas.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: The query search parameter that you can use as a seed for new keyword ideas.
 ---
 # QuerySearchParameter Data Object - Ad Insight
 The query search parameter that you can use as a seed for new keyword ideas.

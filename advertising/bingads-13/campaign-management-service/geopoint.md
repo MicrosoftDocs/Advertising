@@ -1,11 +1,11 @@
 ---
 title: GeoPoint Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object that contains the longitude and latitude coordinates of a geographical location.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object that contains the longitude and latitude coordinates of a geographical location.
 ---
 # GeoPoint Data Object - Campaign Management
 Defines an object that contains the longitude and latitude coordinates of a geographical location.

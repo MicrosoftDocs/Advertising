@@ -1,8 +1,8 @@
 ---
 title: "Script solutions"
 description: "Shows complete solutions that perform specific tasks."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

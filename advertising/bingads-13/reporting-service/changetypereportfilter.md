@@ -1,11 +1,11 @@
 ---
 title: ChangeTypeReportFilter Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the types of changes to entities by which you can filter the report data.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the types of changes to entities by which you can filter the report data.
 ---
 # ChangeTypeReportFilter Value Set - Reporting
 Defines the types of changes to entities by which you can filter the report data. These values are also used as column values in the `HowChanged` column of the campaign change history report. For more information, see [SearchCampaignChangeHistoryReportColumn](searchcampaignchangehistoryreportcolumn.md).

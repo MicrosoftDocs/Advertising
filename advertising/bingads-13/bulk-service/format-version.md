@@ -1,11 +1,11 @@
 ---
 title: "Format Version Record - Bulk"
 ms.service: bing-ads
-ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
-description: Describes the Format Version fields in a Bulk file.
 ms.subservice: bulk-api
+ms.topic: "article"
+author: jonmeyers
+ms.author: jonmeyers
+description: Describes the Format Version fields in a Bulk file.
 ---
 # Format Version Record - Bulk
 Defines the format version of records in a bulk file.

@@ -1,11 +1,11 @@
 ---
 title: InsertionOrderPendingChangesStatus Value Set - Customer Billing
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible status values of InsertionOrderPendingChanges that can be used to manage changes for an approved insertion order.
 ms.subservice: customer-billing-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible status values of InsertionOrderPendingChanges that can be used to manage changes for an approved insertion order.
 ---
 # InsertionOrderPendingChangesStatus Value Set - Customer Billing
 Defines the possible status values of [InsertionOrderPendingChanges](insertionorderpendingchanges.md) that can be used to manage changes for an approved insertion order. 

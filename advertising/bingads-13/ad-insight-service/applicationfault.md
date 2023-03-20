@@ -1,11 +1,11 @@
 ---
 title: ApplicationFault Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the base object from which all Ad Insight fault detail objects derive.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the base object from which all Ad Insight fault detail objects derive.
 ---
 # ApplicationFault Data Object - Ad Insight
 Defines the base object from which all Ad Insight fault detail objects derive.

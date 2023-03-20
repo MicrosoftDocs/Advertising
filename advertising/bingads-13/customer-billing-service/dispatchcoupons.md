@@ -1,16 +1,16 @@
 ---
 title: DispatchCoupons Service Operation - Customer Billing
 ms.service: bing-ads
+ms.subservice: customer-billing-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Dispatch coupons of the specified coupon class name owned by the specified customer.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: customer-billing-api
 ---
 # DispatchCoupons Service Operation - Customer Billing
 Dispatch coupons of the specified coupon class name owned by the specified customer.

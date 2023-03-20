@@ -1,11 +1,11 @@
 ---
 title: AccountInfoWithCustomerData Data Object - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object that contains information that identifies an account and the customer that manages or owns the account.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object that contains information that identifies an account and the customer that manages or owns the account.
 ---
 # AccountInfoWithCustomerData Data Object - Customer Management
 Defines an object that contains information that identifies an account and the customer that manages or owns the account.

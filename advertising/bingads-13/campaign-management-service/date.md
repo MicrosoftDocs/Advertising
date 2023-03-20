@@ -1,11 +1,11 @@
 ---
 title: Date Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Represents a date.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Represents a date.
 ---
 # Date Data Object - Campaign Management
 Represents a date.

@@ -1,16 +1,16 @@
 ---
 title: GetEstimatedPositionByKeywords Service Operation - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the estimated position in the search results if the specified bid value would be used for the specified keywords.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: ad-insight-api
 ---
 # GetEstimatedPositionByKeywords Service Operation - Ad Insight
 Gets the estimated position in the search results if the specified bid value would be used for the specified keywords. In addition, the operation provides estimates of clicks, average cost per click (CPC), and impressions that the keywords could be generated with the estimated bid.

@@ -1,11 +1,11 @@
 ---
 title: AdType Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the type of ad.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the type of ad.
 ---
 # AdType Value Set - Campaign Management
 Defines the type of ad.

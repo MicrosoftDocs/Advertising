@@ -1,11 +1,11 @@
 ---
 title: Reporting Service Operations
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Service operations reference for the Reporting service.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Service operations reference for the Reporting service.
 ---
 # Reporting Service Operations
 The Reporting service defines the following service operations.

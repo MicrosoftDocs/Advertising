@@ -1,11 +1,11 @@
 ---
 title: ManualCpcBiddingScheme Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object that represents the manual CPC bid strategy type.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object that represents the manual CPC bid strategy type.
 ---
 # ManualCpcBiddingScheme Data Object - Campaign Management
 Defines an object that represents the manual CPC bid strategy type.

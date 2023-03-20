@@ -1,8 +1,8 @@
 ---
 title: "LabelSelector object"
 description: "Contains the methods for filtering and ordering the list of labels to return."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

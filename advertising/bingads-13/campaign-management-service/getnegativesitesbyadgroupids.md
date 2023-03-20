@@ -1,16 +1,16 @@
 ---
 title: GetNegativeSitesByAdGroupIds Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the negative sites URLs that are assigned directly to ad groups.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # GetNegativeSitesByAdGroupIds Service Operation - Campaign Management
 Gets the negative sites URLs that are assigned directly to ad groups.

@@ -1,11 +1,11 @@
 ---
 title: UserInfo Data Object - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a user identification object that contains information that identifies a user.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a user identification object that contains information that identifies a user.
 ---
 # UserInfo Data Object - Customer Management
 Defines a user identification object that contains information that identifies a user.

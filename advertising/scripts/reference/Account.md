@@ -1,8 +1,8 @@
 ---
 title: "Account object"
 description: "Contains the methods used in single-account scripts to get account information such as name, customer ID, and account-level performance data."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

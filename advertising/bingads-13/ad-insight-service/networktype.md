@@ -1,11 +1,11 @@
 ---
 title: NetworkType Value Set - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible networks used for keyword research.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible networks used for keyword research.
 ---
 # NetworkType Value Set - Ad Insight
 Defines the possible networks used for keyword research. 

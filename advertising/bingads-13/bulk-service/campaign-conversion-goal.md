@@ -1,11 +1,11 @@
 ---
 title: "Campaign Level Conversion Gaol Record - Bulk"
 ms.service: bing-ads
-ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
-description: Describes the Campaign Level Conversion Gaol fields in a Bulk file.
 ms.subservice: bulk-api
+ms.topic: "article"
+author: jonmeyers
+ms.author: jonmeyers
+description: Describes the Campaign Level Conversion Gaol fields in a Bulk file.
 
 ---
 # Campaign Level Conversion Goal Record - Bulk

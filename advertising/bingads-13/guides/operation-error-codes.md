@@ -2,8 +2,8 @@
 title: "Bing Ads API Operation Error Codes"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Reference documentation for service operation error codes.
 ---
 # Operation Error Codes

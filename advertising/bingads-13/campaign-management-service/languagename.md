@@ -1,11 +1,11 @@
 ---
 title: LanguageName Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the set of supported ad languages.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the set of supported ad languages.
 ---
 # LanguageName Value Set - Campaign Management
 Defines the set of supported ad languages.

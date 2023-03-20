@@ -1,11 +1,11 @@
 ---
 title: BillingDocument Data Object - Customer Billing
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a billing document.
 ms.subservice: customer-billing-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a billing document.
 ---
 # BillingDocument Data Object - Customer Billing
 Defines a billing document.

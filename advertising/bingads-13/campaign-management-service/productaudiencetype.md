@@ -1,11 +1,11 @@
 ---
 title: ProductAudienceType Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible types of product audiences.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible types of product audiences.
 ---
 # ProductAudienceType Value Set - Campaign Management
 Defines the possible types of product audiences.

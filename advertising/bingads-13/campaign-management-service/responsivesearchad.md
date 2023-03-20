@@ -1,11 +1,11 @@
 ---
 title: ResponsiveSearchAd Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: A responsive ad format for text ads in the Search network.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: A responsive ad format for text ads in the Search network.
 ---
 # ResponsiveSearchAd Data Object - Campaign Management
 A responsive ad format for text ads in the Search network.

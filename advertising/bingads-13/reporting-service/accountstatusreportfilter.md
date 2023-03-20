@@ -1,11 +1,11 @@
 ---
 title: AccountStatusReportFilter Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the account status values that you can use to filter the report data.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the account status values that you can use to filter the report data.
 ---
 # AccountStatusReportFilter Value Set - Reporting
 Defines the account status values that you can use to filter the report data. These values are also used as column values in reports that include account status, such as the account performance report.

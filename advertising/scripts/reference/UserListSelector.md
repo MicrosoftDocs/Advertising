@@ -1,8 +1,8 @@
 ---
 title: "UserListSelector object"
 description: "Contains the methods for filtering and ordering the list of user lists to return."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

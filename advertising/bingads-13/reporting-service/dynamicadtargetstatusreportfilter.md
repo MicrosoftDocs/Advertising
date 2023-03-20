@@ -1,11 +1,11 @@
 ---
 title: DynamicAdTargetStatusReportFilter Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the dynamic ad target status values that you can use to filter the report data.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the dynamic ad target status values that you can use to filter the report data.
 ---
 # DynamicAdTargetStatusReportFilter Value Set - Reporting
 Defines the dynamic ad target status values that you can use to filter the report data. These values are also used as column values in reports that include dynamic ad targets status, such as the DSA auto target performance report.

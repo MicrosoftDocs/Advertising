@@ -1,11 +1,11 @@
 ---
 title: ReportAggregation Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the aggregation values that you can use for a report.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the aggregation values that you can use for a report.
 ---
 # ReportAggregation Value Set - Reporting
 Defines the aggregation values that you can use for a report.

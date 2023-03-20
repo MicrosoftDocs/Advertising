@@ -1,11 +1,11 @@
 ---
 title: AppInstallGoal Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an app install conversion goal.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an app install conversion goal.
 ---
 # AppInstallGoal Data Object - Campaign Management
 Defines an app install conversion goal. Use this type of goal to track every time someone installs your app as a conversion.

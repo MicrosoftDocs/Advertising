@@ -2,8 +2,8 @@
 title: "ProductType"
 subtitle: "Scripts"
 description: "Contains the methods used to manage the product type product group."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

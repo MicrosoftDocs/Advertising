@@ -1,16 +1,16 @@
 ---
 title: GetKeywordTrafficEstimates Service Operation - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Provides traffic estimates for keywords e.g., average CPC, average position, clicks, CTR, impressions, and total cost.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: ad-insight-api
 ---
 # GetKeywordTrafficEstimates Service Operation - Ad Insight
 Provides traffic estimates for keywords e.g., average CPC, average position, clicks, CTR, impressions, and total cost. As input you provide the bid, language, location, and network, with optional campaign budget and negative keyword filters. 

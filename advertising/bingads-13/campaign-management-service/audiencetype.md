@@ -1,11 +1,11 @@
 ---
 title: AudienceType Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible audience types.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible audience types.
 ---
 # AudienceType Value Set - Campaign Management
 Defines the possible audience types.

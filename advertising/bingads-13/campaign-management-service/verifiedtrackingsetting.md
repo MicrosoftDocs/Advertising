@@ -1,11 +1,11 @@
 ---
 title: VerifiedTrackingSetting Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the VerifiedTrackingSetting Data Object.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the VerifiedTrackingSetting Data Object.
 ---
 # VerifiedTrackingSetting Data Object - Campaign Management
 Defines the VerifiedTrackingSetting Data Object.

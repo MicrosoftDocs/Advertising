@@ -1,11 +1,11 @@
 ---
 title: CampaignPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a campaign performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a campaign performance report request.
 ---
 # CampaignPerformanceReportRequest Data Object - Reporting
 Defines a campaign performance report request. Use this report to view high-level performance statistics and quality attributes for each campaign or account. This is also a quick way to flag any major campaign or account problems.

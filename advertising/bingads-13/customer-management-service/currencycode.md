@@ -1,11 +1,11 @@
 ---
 title: CurrencyCode Value Set - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a selection of currency values.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a selection of currency values.
 ---
 # CurrencyCode Value Set - Customer Management
 Defines a selection of currency values.

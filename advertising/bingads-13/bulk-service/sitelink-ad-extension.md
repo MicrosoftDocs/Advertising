@@ -1,13 +1,13 @@
 ---
 title: "Sitelink Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Sitelink Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Sitelink Ad Extension Record - Bulk
 Defines a sitelink ad extension that can be downloaded and uploaded in a bulk file.

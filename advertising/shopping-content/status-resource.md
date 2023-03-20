@@ -1,10 +1,10 @@
 ---
 title: "Status Resource"
 description: "Describes the status resource and related programming elements of the Content API."
-author: rgaritta
+author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
-ms.author: v-rgaritta
+ms.author: jonmeyers
 ---
 
 # Status Resource

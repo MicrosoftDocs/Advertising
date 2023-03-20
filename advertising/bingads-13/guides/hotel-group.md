@@ -2,8 +2,8 @@
 title: "Hotel Group Record - Bulk"
 ms.service: bing-ads
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Hotel Group fields in a Bulk file. 
 ms.subservice: bulk-api
 ---

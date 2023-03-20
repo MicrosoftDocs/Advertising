@@ -2,8 +2,8 @@
 title: "Walkthrough: Bing Ads API Desktop Application in Java"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Create a desktop application using the Bing Ads Java SDK.
 dev_langs:
   - java

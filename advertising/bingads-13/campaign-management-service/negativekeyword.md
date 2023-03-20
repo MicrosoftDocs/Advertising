@@ -1,11 +1,11 @@
 ---
 title: NegativeKeyword Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a negative keyword with match type.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a negative keyword with match type.
 ---
 # NegativeKeyword Data Object - Campaign Management
 Defines a negative keyword with match type. 

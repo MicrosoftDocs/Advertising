@@ -1,11 +1,11 @@
 ---
 title: CombinationRule Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: A combination rule includes logical conditions used to determine who to add to your combined list.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: A combination rule includes logical conditions used to determine who to add to your combined list.
 ---
 # CombinationRule Data Object - Campaign Management
 A combination rule includes logical conditions used to determine who to add to your combined list.

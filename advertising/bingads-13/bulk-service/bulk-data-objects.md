@@ -1,11 +1,11 @@
 ---
 title: Bulk Data Objects
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Data objects reference for the Bulk service.
 ms.subservice: bulk-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Data objects reference for the Bulk service.
 ---
 # Bulk Data Objects
 The Bulk service defines the following data objects.

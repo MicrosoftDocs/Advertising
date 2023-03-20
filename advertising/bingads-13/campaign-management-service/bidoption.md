@@ -1,11 +1,11 @@
 ---
 title: BidOption Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Determines whether or not to amplify your partner's bid.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Determines whether or not to amplify your partner's bid.
 ---
 # BidOption Value Set - Campaign Management
 Determines whether or not to amplify your partner's bid. 

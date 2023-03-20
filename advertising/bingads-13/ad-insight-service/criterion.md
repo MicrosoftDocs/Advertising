@@ -1,11 +1,11 @@
 ---
 title: Criterion Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: This is the base class from which keyword planner criterion objects derive.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: This is the base class from which keyword planner criterion objects derive.
 ---
 # Criterion Data Object - Ad Insight
 This is the base class from which keyword planner criterion objects derive. 

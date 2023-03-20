@@ -1,11 +1,11 @@
 ---
 title: KPIType Value Set - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the type of key performance indicator.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the type of key performance indicator.
 ---
 # KPIType Value Set - Ad Insight
 Defines the type of key performance indicator. At the account level, we support *impression*, *click*, *spend*, and *conversion*. At the campaign level, we support *impression*, *click*, and *spend*.

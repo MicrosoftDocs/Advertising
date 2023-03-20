@@ -1,11 +1,11 @@
 ---
 title: AdStatus Value Set - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the possible status values of an ad.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the possible status values of an ad.
 ---
 # AdStatus Value Set - Campaign Management
 Defines the possible status values of an ad.

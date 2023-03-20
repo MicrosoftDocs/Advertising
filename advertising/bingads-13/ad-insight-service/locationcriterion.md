@@ -1,11 +1,11 @@
 ---
 title: LocationCriterion Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: The location criterion that you can include when requesting keyword ideas or traffic estimates.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: The location criterion that you can include when requesting keyword ideas or traffic estimates.
 ---
 # LocationCriterion Data Object - Ad Insight
 The location criterion that you can include when requesting keyword ideas or traffic estimates.

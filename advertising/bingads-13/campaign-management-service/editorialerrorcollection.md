@@ -1,11 +1,11 @@
 ---
 title: EditorialErrorCollection Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a nested list of error object that identifies one of potentially many reasons why an entity failed editorial review.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a nested list of error object that identifies one of potentially many reasons why an entity failed editorial review.
 ---
 # EditorialErrorCollection Data Object - Campaign Management
 Defines a nested list of error object that identifies one of potentially many reasons why an entity failed editorial review.

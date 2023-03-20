@@ -2,8 +2,8 @@
 title: "Keyword Ideas and Traffic Estimates"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Get keyword ideas and traffic estimates.
 ---
 # Keyword Ideas and Traffic Estimates

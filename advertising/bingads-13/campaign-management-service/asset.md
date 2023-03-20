@@ -1,11 +1,11 @@
 ---
 title: Asset Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 ---
 # Asset Data Object - Campaign Management
 Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.

@@ -1,11 +1,11 @@
 ---
 title: GoogleImportOption Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the Google import options that are available via API.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the Google import options that are available via API.
 ---
 # GoogleImportOption Data Object - Campaign Management
 Defines the Google import options that are available via API. 

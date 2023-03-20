@@ -1,11 +1,11 @@
 ---
 title: NegativeCampaignCriterion Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a criterion that you want to exclude from the specified campaign.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a criterion that you want to exclude from the specified campaign.
 ---
 # NegativeCampaignCriterion Data Object - Campaign Management
 Defines a criterion that you want to exclude from the specified campaign.

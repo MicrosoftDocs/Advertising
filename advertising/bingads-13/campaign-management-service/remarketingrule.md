@@ -1,11 +1,11 @@
 ---
 title: RemarketingRule Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the base object of a remarketing rule.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the base object of a remarketing rule.
 ---
 # RemarketingRule Data Object - Campaign Management
 Defines the base object of a remarketing rule.

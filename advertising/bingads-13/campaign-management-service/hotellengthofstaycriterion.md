@@ -1,11 +1,11 @@
 ---
 title: HotelLengthOfStayCriterion Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Criterion for length of hotel stay in nights.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Criterion for length of hotel stay in nights.
 ---
 # HotelLengthOfStayCriterion Data Object - Campaign Management
 Criterion for length of hotel stay in nights.

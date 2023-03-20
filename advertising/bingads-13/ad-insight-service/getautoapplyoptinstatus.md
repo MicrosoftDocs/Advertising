@@ -1,16 +1,16 @@
 ---
 title: GetAutoApplyOptInStatus Service Operation - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Get the auto-apply recommendations opt-in status for a single account.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: ad-insight-api
 ---
 # GetAutoApplyOptInStatus Service Operation - Ad Insight
 Get the auto-apply recommendations opt-in status for a single account.

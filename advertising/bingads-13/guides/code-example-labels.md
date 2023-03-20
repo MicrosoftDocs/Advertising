@@ -2,8 +2,8 @@
 title: "Labels Code Example"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Setup labels in C#, Java, PHP, or Python.
 dev_langs:
   - csharp

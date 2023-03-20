@@ -1,8 +1,8 @@
 ---
 title: "UrlFetchApp object"
 description: "The top-level object used to fetch resources from the web."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

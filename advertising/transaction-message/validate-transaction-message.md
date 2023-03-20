@@ -3,8 +3,8 @@ title: "Validating your Transaction Message"
 description: Shows how to validate a transaction message.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Validate your Transaction Message

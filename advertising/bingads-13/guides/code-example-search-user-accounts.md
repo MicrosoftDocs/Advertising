@@ -2,8 +2,8 @@
 title: "Search User Accounts Code Example"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Search for accounts by user in C#, Java, PHP, or Python.
 dev_langs:
   - csharp

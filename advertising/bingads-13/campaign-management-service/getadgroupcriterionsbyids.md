@@ -1,16 +1,16 @@
 ---
 title: GetAdGroupCriterionsByIds Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets ad group criterions by identifiers and types.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # GetAdGroupCriterionsByIds Service Operation - Campaign Management
 Gets ad group criterions by identifiers and types.

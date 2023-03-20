@@ -1,8 +1,8 @@
 ---
 title: "Discovering disapproved ads"
 description: "Shows how to discover disapproved ads for one or more accounts."
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

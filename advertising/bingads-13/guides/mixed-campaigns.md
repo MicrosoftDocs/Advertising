@@ -2,8 +2,8 @@
 title: "Mixed Campaigns"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Setup Mixed Campaigns with Multiple Ad Group Types.
 ---
 # Mixed Campaigns

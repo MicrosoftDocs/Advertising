@@ -2,8 +2,8 @@
 title: "Reporting Service Manager"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Learn about using Reporting Service Manager with the Bing Ads SDKs.
 dev_langs:
   - csharp

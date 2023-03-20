@@ -1,11 +1,11 @@
 ---
 title: PlacementExclusionList Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a website exclusion list in the manager account (customer) shared library.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a website exclusion list in the manager account (customer) shared library.
 ---
 # PlacementExclusionList Data Object - Campaign Management
 Defines a website exclusion list in the manager account (customer) shared library. 

@@ -1,11 +1,11 @@
 ---
 title: "Account Record - Bulk"
 ms.service: bing-ads
-ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
-description: Describes the Account fields in a Bulk file.
 ms.subservice: bulk-api
+ms.topic: "article"
+author: jonmeyers
+ms.author: jonmeyers
+description: Describes the Account fields in a Bulk file.
 ---
 # Account Record - Bulk
 Defines an account that can be uploaded and downloaded in a bulk file.   

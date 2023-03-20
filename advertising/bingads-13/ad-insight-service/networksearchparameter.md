@@ -1,11 +1,11 @@
 ---
 title: NetworkSearchParameter Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: The network search parameter filter that you can include when requesting keyword ideas.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: The network search parameter filter that you can include when requesting keyword ideas.
 ---
 # NetworkSearchParameter Data Object - Ad Insight
 The network search parameter filter that you can include when requesting keyword ideas.

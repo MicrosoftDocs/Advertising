@@ -1,16 +1,16 @@
 ---
 title: GetAccountMonthlySpend Service Operation - Customer Billing
 ms.service: bing-ads
+ms.subservice: customer-billing-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Gets the amount spent by the account in the specified month.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: customer-billing-api
 ---
 # GetAccountMonthlySpend Service Operation - Customer Billing
 Gets the amount spent by the account in the specified month.

@@ -1,11 +1,11 @@
 ---
 title: KeywordPerformanceReportSort Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a keyword performance report column and corresponding sort order.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a keyword performance report column and corresponding sort order.
 ---
 # KeywordPerformanceReportSort Data Object - Reporting
 Defines a keyword performance report column and corresponding sort order.

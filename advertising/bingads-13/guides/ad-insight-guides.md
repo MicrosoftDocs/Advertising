@@ -2,8 +2,8 @@
 title: "Ad Insight API Guides"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: These technical guides apply to the Ad Insight service and may also depend on other Bing Ads API services.
 ---
 # Ad Insight API Guides

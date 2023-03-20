@@ -1,11 +1,11 @@
 ---
 title: BudgetSummaryReportColumn Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the attributes and performance statistics columns that you can include in the BudgetSummaryReportRequest.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the attributes and performance statistics columns that you can include in the BudgetSummaryReportRequest.
 ---
 # BudgetSummaryReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [BudgetSummaryReportRequest](budgetsummaryreportrequest.md).

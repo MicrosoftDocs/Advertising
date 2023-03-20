@@ -1,11 +1,11 @@
 ---
 title: AuctionSegmentSearchParameter Data Object - Ad Insight
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an auction segment search parameter.
 ms.subservice: ad-insight-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an auction segment search parameter.
 ---
 # AuctionSegmentSearchParameter Data Object - Ad Insight
 Defines an auction segment search parameter.

@@ -2,8 +2,8 @@
 title: "Ad Customizer Feeds for Expanded Text Ads"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Add feeds so your ads update dynamically under specific circumstances. 
 ---
 # Ad Customizer Feeds for Expanded Text Ads

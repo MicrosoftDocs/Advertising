@@ -1,11 +1,11 @@
 ---
 title: AdGroupPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an ad group performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an ad group performance report request.
 ---
 # AdGroupPerformanceReportRequest Data Object - Reporting
 Defines an ad group performance report request. Use this report to more broadly compare delivery performance statistics by ad group, campaign, or account attributes rather than at the keyword level.

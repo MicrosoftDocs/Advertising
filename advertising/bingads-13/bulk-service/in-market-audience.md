@@ -1,13 +1,13 @@
 ---
 title: "In Market Audience Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the In Market Audience fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # In Market Audience Record - Bulk
 Defines an in-market audience that can be downloaded in a bulk file. 

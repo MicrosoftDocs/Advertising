@@ -2,8 +2,8 @@
 title: "Bing Ads API Technical Guides"
 ms.service: "bing-ads"
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: The technical guides describe core advertising scenarios using Bing Ads API.
 ---
 # Bing Ads API Technical Guides

@@ -1,11 +1,11 @@
 ---
 title: CampaignStatusReportFilter Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines the campaign status values that you can use to filter the report data.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines the campaign status values that you can use to filter the report data.
 ---
 # CampaignStatusReportFilter Value Set - Reporting
 Defines the campaign status values that you can use to filter the report data. These values are also used as column values in reports that include campaign status, such as the campaign performance report.

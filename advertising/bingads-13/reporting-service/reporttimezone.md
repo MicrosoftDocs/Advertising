@@ -1,11 +1,11 @@
 ---
 title: ReportTimeZone Value Set - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines possible values for the time zone that you want the Reporting service to use for the selected date range.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines possible values for the time zone that you want the Reporting service to use for the selected date range.
 ---
 # ReportTimeZone Value Set - Reporting
 Defines possible values for the time zone that you want the Reporting service to use for the selected date range.

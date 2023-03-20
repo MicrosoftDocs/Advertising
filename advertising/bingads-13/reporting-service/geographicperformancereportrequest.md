@@ -1,11 +1,11 @@
 ---
 title: GeographicPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines a geographic performance report request.
 ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a geographic performance report request.
 ---
 # GeographicPerformanceReportRequest Data Object - Reporting
 Defines a geographic performance report request. Use this report to see where your traffic is coming from: the physical location of the people searching for your ad or the locations people are searching for. You can then validate whether your location targeting strategy is successful and identify opportunities to improve.

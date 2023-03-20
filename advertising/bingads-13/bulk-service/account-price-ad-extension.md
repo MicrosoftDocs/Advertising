@@ -1,13 +1,13 @@
 ---
 title: "Account Price Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Account Price Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Account Price Ad Extension Record - Bulk
 Defines an association record between an [Account](account.md) and a [Price Ad Extension](price-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the account or price ad extension, use the [Account](account.md) or [Price Ad Extension](price-ad-extension.md) record.

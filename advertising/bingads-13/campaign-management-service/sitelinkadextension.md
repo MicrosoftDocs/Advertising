@@ -1,11 +1,11 @@
 ---
 title: SitelinkAdExtension Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an object with one sitelink per ad extension.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an object with one sitelink per ad extension.
 ---
 # SitelinkAdExtension Data Object - Campaign Management
 Defines an object with one sitelink per ad extension. You can use the sitelink to promote certain products, services, or sections of your website and take potential customers to exactly the information they were searching for. This can increase both click-through-rate and conversions.

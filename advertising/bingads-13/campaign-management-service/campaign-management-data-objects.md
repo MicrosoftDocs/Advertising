@@ -1,11 +1,11 @@
 ---
 title: Campaign Management Data Objects
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Data objects reference for the CampaignManagement service.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Data objects reference for the CampaignManagement service.
 ---
 # Campaign Management Data Objects
 The Campaign Management service defines the following data objects.
@@ -145,7 +145,7 @@ The Campaign Management service defines the following data objects.
 |[NegativeKeyword](negativekeyword.md)|Defines a negative keyword with match type.|
 |[NegativeKeywordList](negativekeywordlist.md)|Defines a negative keyword list.|
 |[NegativeSite](negativesite.md)|Defines a website URL where you do not want your ads displayed.|
-|[NumberRuleItem](numberruleitem.md)|Reserved.|
+|[NumberRuleItem](numberruleitem.md)|Represents a number rule item.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
 |[OfflineConversionAdjustment](offlineconversionadjustment.md)|Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.|
 |[OfflineConversionGoal](offlineconversiongoal.md)|Defines an offline conversion goal.|

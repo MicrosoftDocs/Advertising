@@ -1,11 +1,11 @@
 ---
 title: HotelSetting Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines which ads to target (HPA or PPA).
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines which ads to target (HPA or PPA).
 ---
 # HotelSetting Data Object - Campaign Management
 Defines whether ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA). If *HotelSetting* is not specified, ad group will target its hotel for both HPA and PPA ads

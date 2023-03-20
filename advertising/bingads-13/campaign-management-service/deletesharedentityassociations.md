@@ -1,16 +1,16 @@
 ---
 title: DeleteSharedEntityAssociations Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Deletes the negative keyword list to campaign associations, or website exclusion list to ad account associations.
 dev_langs: 
   - csharp
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # DeleteSharedEntityAssociations Service Operation - Campaign Management
 Deletes the negative keyword list to campaign associations, or website exclusion list to ad account associations.

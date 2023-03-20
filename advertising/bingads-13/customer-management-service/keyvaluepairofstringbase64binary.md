@@ -1,11 +1,11 @@
 ---
 title: KeyValuePairOfstringbase64Binary Data Object - Customer Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: The key and value pair of string and base64Binary values defined by the Customer Management service.
 ms.subservice: customer-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: The key and value pair of string and base64Binary values defined by the Customer Management service.
 ---
 # KeyValuePairOfstringbase64Binary Data Object - Customer Management
 The key and value pair of string and base64Binary values defined by the Customer Management service.

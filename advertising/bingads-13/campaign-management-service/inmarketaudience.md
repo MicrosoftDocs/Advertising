@@ -1,11 +1,11 @@
 ---
 title: InMarketAudience Data Object - Campaign Management
 ms.service: bing-ads
-ms.topic: article
-author: rgaritta
-ms.author: v-rgaritta
-description: Defines an in-market audience.
 ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines an in-market audience.
 ---
 # InMarketAudience Data Object - Campaign Management
 Defines an in-market audience. 

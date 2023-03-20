@@ -1,13 +1,13 @@
 ---
 title: "Similar Remarketing List Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
-author: rgaritta
-ms.author: v-rgaritta
+author: jonmeyers
+ms.author: jonmeyers
 description: Describes the Similar Remarketing List fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Similar Remarketing List Record - Bulk
 Defines an audience that is similar to one of your remarketing lists.
