@@ -19,7 +19,7 @@ The Campaign Management service defines the following service operations.
 |[AddAudiences](addaudiences.md)|Adds one or more audiences.|100 *Audiences*|
 |[AddBidStrategies](addbidstrategies.md)|Adds bid strategies to an account's portfolio bid strategy library.|100 *BidStrategies*|
 |[AddBudgets](addbudgets.md)|Adds new budgets to the account's shared budget library.|100 *Budgets*|
-|[AddCampaignConversionGoals](addcampaignconversiongoals.md)|Adds new campaign conversion goals to the account's shared campaign conversion goal library..||
+|[AddCampaignConversionGoals](addcampaignconversiongoals.md)|Adds new campaign conversion goals to the account's shared campaign conversion goal library.||
 |[AddCampaignCriterions](addcampaigncriterions.md)|Adds one or more campaign criterions that help determine whether ads in each campaign get served.|100 *CampaignCriterions*|
 |[AddCampaigns](addcampaigns.md)|Adds one or more campaigns to the specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[AddConversionGoals](addconversiongoals.md)|Adds new conversion goals to the account's shared conversion goal library.|100 *ConversionGoals*|

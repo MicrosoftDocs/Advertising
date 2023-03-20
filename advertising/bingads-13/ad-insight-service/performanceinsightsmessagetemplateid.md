@@ -872,7 +872,7 @@ The [PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.
 |<a name="rcsearchtermincreaseclick"></a>RCSearchTermIncreaseClick|{0} related to your campaigns were searched more frequently.|
 |<a name="rcsinglecampaignaddition"></a>RCSingleCampaignAddition|Your campaign was added.|
 |<a name="rcsinglecampaignbudgetdecrease"></a>RCSingleCampaignBudgetDecrease|Your campaign budget was decreased.|
-|<a name="rcsinglecampaignbudgetincrease"></a>RCSingleCampaignBudgetIncrease|Your campaign budget was increased..|
+|<a name="rcsinglecampaignbudgetincrease"></a>RCSingleCampaignBudgetIncrease|Your campaign budget was increased.|
 |<a name="rcsinglecampaigndevicetargetingbidchange"></a>RCSingleCampaignDeviceTargetingBidChange|Your campaign's device target bid adjustment was changed.|
 |<a name="rcsinglecampaignpause"></a>RCSingleCampaignPause|Your campaign was paused.|
 |<a name="rcsinglecampaignunpause"></a>RCSingleCampaignUnpause|Your campaign was enabled.|
