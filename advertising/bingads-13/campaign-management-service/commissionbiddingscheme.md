@@ -1,11 +1,11 @@
 ---
 title: CommissionBiddingScheme Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that represents the commission bid strategy type (commission pay per stay).
-ms.subservice: campaign-management-api
 ---
 # CommissionBiddingScheme Data Object - Campaign Management
 Defines an object that represents the commission bid strategy type (commission pay per stay).

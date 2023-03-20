@@ -1,6 +1,7 @@
 ---
 title: GetAdExtensionsAssociations Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # GetAdExtensionsAssociations Service Operation - Campaign Management
 Gets the respective ad extension associations by the specified campaign and ad group identifiers.

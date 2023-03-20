@@ -1,11 +1,11 @@
 ---
 title: AccountPerformanceReportColumn Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the AccountPerformanceReportRequest.
-ms.subservice: reporting-api
 ---
 # AccountPerformanceReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [AccountPerformanceReportRequest](accountperformancereportrequest.md).

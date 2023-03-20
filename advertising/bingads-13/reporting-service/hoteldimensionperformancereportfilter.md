@@ -1,11 +1,11 @@
 ---
 title: HotelDimensionPerformanceReportFilter Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the criteria to use to filter the hotel dimension performance report data.
-ms.subservice: reporting-api
 ---
 # HotelDimensionPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the hotel dimension performance report data.

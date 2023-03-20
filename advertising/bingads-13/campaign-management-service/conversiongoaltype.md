@@ -1,11 +1,11 @@
 ---
 title: ConversionGoalType Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the current possible types of conversion goals.
-ms.subservice: campaign-management-api
 ---
 # ConversionGoalType Value Set - Campaign Management
 Defines the current possible types of conversion goals. 

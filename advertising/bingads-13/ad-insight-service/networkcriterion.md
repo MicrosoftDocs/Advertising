@@ -1,11 +1,11 @@
 ---
 title: NetworkCriterion Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: The network criterion that you can include when requesting keyword ideas or traffic estimates.
-ms.subservice: ad-insight-api
 ---
 # NetworkCriterion Data Object - Ad Insight
 The network criterion that you can include when requesting keyword ideas or traffic estimates.

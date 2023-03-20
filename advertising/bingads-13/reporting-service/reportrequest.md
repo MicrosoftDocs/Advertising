@@ -1,11 +1,11 @@
 ---
 title: ReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base object for all report requests.
-ms.subservice: reporting-api
 ---
 # ReportRequest Data Object - Reporting
 Defines the base object for all report requests.

@@ -1,13 +1,13 @@
 ---
 title: "Ad Group Promotion Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Ad Group Promotion Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Ad Group Promotion Ad Extension Record - Bulk
 Defines an association record between an [Ad Group](ad-group.md) and a [Promotion Ad Extension](promotion-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the ad group or promotion ad extension, use the [Ad Group](ad-group.md) or [Promotion Ad Extension](promotion-ad-extension.md) record. 

@@ -1,11 +1,11 @@
 ---
 title: ValueOperator Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the operators that can be applied to values within a conversion event goal.
-ms.subservice: campaign-management-api
 ---
 # ValueOperator Value Set - Campaign Management
 Defines the operators that can be applied to values within a conversion event goal. 

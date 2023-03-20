@@ -1,11 +1,11 @@
 ---
 title: RecommendationInfo Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base object of RecommendationInfo.
-ms.subservice: ad-insight-api
 ---
 # RecommendationInfo Data Object - Ad Insight
 Defines the base object of RecommendationInfo. The [RSARecommendationInfo](rsarecommendationinfo.md) object derives from it.  

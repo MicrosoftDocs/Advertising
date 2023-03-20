@@ -1,11 +1,11 @@
 ---
 title: CompressionType Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible compression types for the file to download.
-ms.subservice: campaign-management-api
 ---
 # CompressionType Value Set - Campaign Management
 Defines the possible compression types for the file to download.

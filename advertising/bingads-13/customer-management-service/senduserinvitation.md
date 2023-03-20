@@ -1,6 +1,7 @@
 ---
 title: SendUserInvitation Service Operation - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: customer-management-api
 ---
 # SendUserInvitation Service Operation - Customer Management
 Sends an email invitation for a user to sign up for Microsoft Advertising. The invitation limits account access and permissions.  

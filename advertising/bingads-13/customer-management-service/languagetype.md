@@ -1,11 +1,11 @@
 ---
 title: LanguageType Value Set - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a selection of language values.
-ms.subservice: customer-management-api
 ---
 # LanguageType Value Set - Customer Management
 Defines a selection of language values.

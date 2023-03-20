@@ -1,11 +1,11 @@
 ---
 title: Minute Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible minute values for ad extension scheduling or day and time criterion.
-ms.subservice: campaign-management-api
 ---
 # Minute Value Set - Campaign Management
 Defines the possible minute values for ad extension scheduling or day and time criterion.

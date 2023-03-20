@@ -1,11 +1,11 @@
 ---
 title: HotelListing Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a hotel listing.
-ms.subservice: campaign-management-api
 ---
 # HotelListing Data Object - Campaign Management
 Defines a hotel listing.

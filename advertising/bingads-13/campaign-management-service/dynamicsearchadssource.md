@@ -1,11 +1,11 @@
 ---
 title: DynamicSearchAdsSource Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible targeting source values for dynamic search ads campaigns.
-ms.subservice: campaign-management-api
 ---
 # DynamicSearchAdsSource Value Set - Campaign Management
 Defines the possible targeting source values for dynamic search ads campaigns.

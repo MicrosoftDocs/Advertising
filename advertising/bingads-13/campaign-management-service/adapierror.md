@@ -1,11 +1,11 @@
 ---
 title: AdApiError Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Campaign Management Ad API error object that contains the details that explain why the service operation failed.
-ms.subservice: campaign-management-api
 ---
 # AdApiError Data Object - Campaign Management
 Defines a Campaign Management Ad API error object that contains the details that explain why the service operation failed.

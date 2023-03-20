@@ -1,11 +1,11 @@
 ---
 title: TextAssetSuggestions Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the text asset suggestions data object.
-ms.subservice: ad-insight-api
 ---
 # TextAssetSuggestions Data Object - Ad Insight
 Defines the text asset suggestions data object.

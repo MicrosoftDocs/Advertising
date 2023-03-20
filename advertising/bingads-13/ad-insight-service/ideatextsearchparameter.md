@@ -1,11 +1,11 @@
 ---
 title: IdeaTextSearchParameter Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: The idea text search parameter filter that you can include when requesting keyword ideas.
-ms.subservice: ad-insight-api
 ---
 # IdeaTextSearchParameter Data Object - Ad Insight
 The idea text search parameter filter that you can include when requesting keyword ideas.

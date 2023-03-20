@@ -1,13 +1,13 @@
 ---
 title: "Product Audience Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Product Audience fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Product Audience Record - Bulk
 Defines a product audience that can be downloaded and uploaded in a bulk file. 

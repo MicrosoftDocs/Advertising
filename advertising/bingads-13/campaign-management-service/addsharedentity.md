@@ -1,6 +1,7 @@
 ---
 title: AddSharedEntity Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AddSharedEntity Service Operation - Campaign Management
 Adds a negative keyword list to the ad account library, or adds a website exclusion list to the manager account (customer) library. 

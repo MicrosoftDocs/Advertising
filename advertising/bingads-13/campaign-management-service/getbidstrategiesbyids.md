@@ -1,6 +1,7 @@
 ---
 title: GetBidStrategiesByIds Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # GetBidStrategiesByIds Service Operation - Campaign Management
 Gets bid strategies in an account's portfolio bid strategy library.

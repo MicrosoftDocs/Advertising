@@ -1,11 +1,11 @@
 ---
 title: NegativeKeywordConflictReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a negative keyword conflict report request.
-ms.subservice: reporting-api
 ---
 # NegativeKeywordConflictReportRequest Data Object - Reporting
 Defines a negative keyword conflict report request. Use this report to discover which keywords and negative keywords are in conflict, and whether the conflict is at the campaign or ad group level. Use this list to figure out which negative keywords to delete.

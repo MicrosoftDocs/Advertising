@@ -1,11 +1,11 @@
 ---
 title: PublisherUsagePerformanceReportFilter Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the criteria to use to filter the publisher usage performance report data.
-ms.subservice: reporting-api
 ---
 # PublisherUsagePerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the publisher usage performance report data.

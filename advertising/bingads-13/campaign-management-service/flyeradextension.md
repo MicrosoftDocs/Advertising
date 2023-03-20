@@ -1,11 +1,11 @@
 ---
 title: FlyerAdExtension Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers.
-ms.subservice: campaign-management-api
 ---
 # FlyerAdExtension Data Object - Campaign Management
 Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers. 

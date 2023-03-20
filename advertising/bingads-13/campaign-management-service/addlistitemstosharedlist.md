@@ -1,6 +1,7 @@
 ---
 title: AddListItemsToSharedList Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AddListItemsToSharedList Service Operation - Campaign Management
 Adds negative keywords to a negative keyword list, or negative sites to a website exclusion list.

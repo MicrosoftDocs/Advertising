@@ -1,11 +1,11 @@
 ---
 title: "Keyword Main Line Bid Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Keyword Main Line Bid fields in a Bulk file.
-ms.subservice: bulk-api
 ---
 # Keyword Main Line Bid Record - Bulk
 Defines a keyword's estimated main line bid that can be downloaded in a bulk file.

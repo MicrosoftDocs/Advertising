@@ -1,11 +1,11 @@
 ---
 title: PromotionOccasion Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible types of promotion occasions.
-ms.subservice: campaign-management-api
 ---
 # PromotionOccasion Value Set - Campaign Management
 Defines the possible types of promotion occasions.

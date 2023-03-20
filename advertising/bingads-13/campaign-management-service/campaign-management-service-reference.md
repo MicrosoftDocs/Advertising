@@ -5,7 +5,6 @@ ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Reference documentation for the Campaign Management API.
-ms.subservice: campaign-management-api
 ---
 # Campaign Management API
 The Campaign Management [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to manage your advertising campaigns.

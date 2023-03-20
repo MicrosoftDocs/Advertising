@@ -1,6 +1,7 @@
 ---
 title: GetBidLandscapeByKeywordIds Service Operation - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: ad-insight-api
 ---
 # GetBidLandscapeByKeywordIds Service Operation - Ad Insight
 Given a list of existing keywords, this operation returns for each a list of suggested bids and estimated performance statistics from 1 to  7 days. This operation is not based on target position, rather it returns multiple bid options that yield different estimated clicks, impressions, and cost. You can use the landscape view of multiple bid points with estimated traffic for the same keyword to help make decisions about how to adjust your keyword bid to optimize for clicks, impressions, and cost. For example you might use the resulting data to visualize a clicks to cost curve or a bid to impressions curve.

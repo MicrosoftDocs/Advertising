@@ -1,11 +1,11 @@
 ---
 title: AccountFinancialStatus Value Set - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible financial status values of an account.
-ms.subservice: customer-management-api
 ---
 # AccountFinancialStatus Value Set - Customer Management
 Defines the possible financial status values of an account.

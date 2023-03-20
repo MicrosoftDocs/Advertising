@@ -1,11 +1,11 @@
 ---
 title: CampaignAdGroupIds Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Identifies a campaign and the list of its ad groups to import.
-ms.subservice: campaign-management-api
 ---
 # CampaignAdGroupIds Data Object - Campaign Management
 Identifies a campaign and the list of its ad groups to import. 

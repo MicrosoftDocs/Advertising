@@ -1,11 +1,11 @@
 ---
 title: AssetLink Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the relationship of an asset to an ad.
-ms.subservice: campaign-management-api
 ---
 # AssetLink Data Object - Campaign Management
 Defines the relationship of an asset to an ad.

@@ -1,13 +1,13 @@
 ---
 title: "Price Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Price Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Price Ad Extension Record - Bulk
 Defines an ad extension that includes between 3 and 8 price table rows.

@@ -1,11 +1,11 @@
 ---
 title: HotelDateSelectionTypeCriterion Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Criterion for the date selection type.
-ms.subservice: campaign-management-api
 ---
 # HotelDateSelectionTypeCriterion Data Object - Campaign Management
 Criterion for the date selection type.

@@ -1,6 +1,7 @@
 ---
 title: DeleteListItemsFromSharedList Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # DeleteListItemsFromSharedList Service Operation - Campaign Management
 Deletes negative keywords from a negative keyword list, or negative sites from a website exclusion list.

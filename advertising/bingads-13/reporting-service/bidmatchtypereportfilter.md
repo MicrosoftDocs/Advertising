@@ -1,11 +1,11 @@
 ---
 title: BidMatchTypeReportFilter Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the bid match type values that you can use to filter the report data.
-ms.subservice: reporting-api
 ---
 # BidMatchTypeReportFilter Value Set - Reporting
 Defines the bid match type values that you can use to filter the report data. These values are also used as column values in reports that include bid match type, such as the keyword performance report.

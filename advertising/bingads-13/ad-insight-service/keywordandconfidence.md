@@ -1,11 +1,11 @@
 ---
 title: KeywordAndConfidence Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains a suggested keyword and a confidence score.
-ms.subservice: ad-insight-api
 ---
 # KeywordAndConfidence Data Object - Ad Insight
 Defines an object that contains a suggested keyword and a confidence score. The confidence score indicates the probability that the keyword would match a user's search query.

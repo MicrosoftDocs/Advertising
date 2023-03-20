@@ -1,11 +1,11 @@
 ---
 title: GoogleImportJob Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Google import job that can be run once or scheduled on a recurring basis.
-ms.subservice: campaign-management-api
 ---
 # GoogleImportJob Data Object - Campaign Management
 Defines a Google import job that can be run once or scheduled on a recurring basis. 

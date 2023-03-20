@@ -1,6 +1,7 @@
 ---
 title: SetSharedEntityAssociations Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # SetSharedEntityAssociations Service Operation - Campaign Management
 Sets the negative keyword list to campaign associations, or website exclusion list to ad account associations. 

@@ -1,11 +1,11 @@
 ---
 title: AdGroupStatusReportFilter Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the ad group status values that you can use to filter the report data.
-ms.subservice: reporting-api
 ---
 # AdGroupStatusReportFilter Value Set - Reporting
 Defines the ad group status values that you can use to filter the report data. These values are also used as column values in reports that include ad group status, such as the ad group performance report.

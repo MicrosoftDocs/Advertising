@@ -1,11 +1,11 @@
 ---
 title: DynamicFeedSetting Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the DynamicFeedSetting Data Object.
-ms.subservice: campaign-management-api
 ---
 # DynamicFeedSetting Data Object - Campaign Management
 Defines the DynamicFeedSetting Data Object.

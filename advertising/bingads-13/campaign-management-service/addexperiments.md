@@ -1,6 +1,7 @@
 ---
 title: AddExperiments Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AddExperiments Service Operation - Campaign Management
 Adds experiments and creates experiment campaigns based on existing campaigns in an account.

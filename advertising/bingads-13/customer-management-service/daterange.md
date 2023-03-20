@@ -1,11 +1,11 @@
 ---
 title: DateRange Data Object - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a date range object.
-ms.subservice: customer-management-api
 ---
 # DateRange Data Object - Customer Management
 Defines a date range object.

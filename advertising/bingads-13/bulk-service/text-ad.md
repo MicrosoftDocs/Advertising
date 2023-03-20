@@ -1,13 +1,13 @@
 ---
 title: "Text Ad Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Text Ad fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Text Ad Record - Bulk
 Defines a text ad that can be downloaded and uploaded in a bulk file.

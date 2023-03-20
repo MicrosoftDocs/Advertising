@@ -1,13 +1,13 @@
 ---
 title: "Action Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Action Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Action Ad Extension Record - Bulk
 Defines an action ad extension that can be downloaded and uploaded in a bulk file. 

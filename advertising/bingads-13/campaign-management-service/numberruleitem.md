@@ -1,11 +1,11 @@
 ---
 title: NumberRuleItem Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Reserved.
-ms.subservice: campaign-management-api
 ---
 # NumberRuleItem Data Object - Campaign Management
 Reserved.

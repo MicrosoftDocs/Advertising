@@ -1,11 +1,11 @@
 ---
 title: ProfessionalDemographicsAudienceReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a professional demographics audience report request.
-ms.subservice: reporting-api
 ---
 # ProfessionalDemographicsAudienceReportRequest Data Object - Reporting
 Defines a professional demographics audience report request. Use this report to discover how your campaigns and ad groups are resonating with different companies, industries, and job functions.

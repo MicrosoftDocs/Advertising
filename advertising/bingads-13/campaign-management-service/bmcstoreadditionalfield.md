@@ -1,11 +1,11 @@
 ---
 title: BMCStoreAdditionalField Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a list of optional store properties that you can request when calling GetBMCStoresByCustomerId.
-ms.subservice: campaign-management-api
 ---
 # BMCStoreAdditionalField Value Set - Campaign Management
 Defines a list of optional store properties that you can request when calling [GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md).

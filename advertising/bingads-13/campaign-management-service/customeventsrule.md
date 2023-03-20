@@ -1,11 +1,11 @@
 ---
 title: CustomEventsRule Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a custom events remarketing rule.
-ms.subservice: campaign-management-api
 ---
 # CustomEventsRule Data Object - Campaign Management
 Defines a custom events remarketing rule. 

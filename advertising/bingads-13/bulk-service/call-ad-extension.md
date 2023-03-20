@@ -1,13 +1,13 @@
 ---
 title: "Call Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Call Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Call Ad Extension Record - Bulk
 Defines a call ad extension that can be uploaded and downloaded in a bulk file.

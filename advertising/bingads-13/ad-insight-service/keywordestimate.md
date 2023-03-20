@@ -1,11 +1,11 @@
 ---
 title: KeywordEstimate Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: A suggested keyword with minimum and maximum traffic estimates.
-ms.subservice: ad-insight-api
 ---
 # KeywordEstimate Data Object - Ad Insight
 A suggested keyword with minimum and maximum traffic estimates. Traffic estimates include average CPC, average position, clicks, CTR, impressions, and total cost.

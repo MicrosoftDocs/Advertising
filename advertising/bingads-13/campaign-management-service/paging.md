@@ -1,11 +1,11 @@
 ---
 title: Paging Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a paging object to request Campaign Management objects in batches.
-ms.subservice: campaign-management-api
 ---
 # Paging Data Object - Campaign Management
 Defines a paging object to request Campaign Management objects in batches.

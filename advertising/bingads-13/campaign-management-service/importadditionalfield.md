@@ -1,11 +1,11 @@
 ---
 title: ImportAdditionalField Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a list of optional import properties that you can request when calling GetImportJobsByIds and GetImportResults.
-ms.subservice: campaign-management-api
 ---
 # ImportAdditionalField Value Set - Campaign Management
 Defines a list of optional import properties that you can request when calling [GetImportJobsByIds](getimportjobsbyids.md#returnadditionalfields) and [GetImportResults](getimportresults.md#returnadditionalfields). The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding properties will be included in the ad by default. 

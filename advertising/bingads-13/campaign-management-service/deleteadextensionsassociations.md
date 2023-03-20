@@ -1,6 +1,7 @@
 ---
 title: DeleteAdExtensionsAssociations Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # DeleteAdExtensionsAssociations Service Operation - Campaign Management
 Removes the specified association from the respective campaigns or ad groups.

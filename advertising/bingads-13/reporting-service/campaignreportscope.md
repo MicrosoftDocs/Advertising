@@ -1,11 +1,11 @@
 ---
 title: CampaignReportScope Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a campaign to include in the report.
-ms.subservice: reporting-api
 ---
 # CampaignReportScope Data Object - Reporting
 Defines a campaign to include in the report.

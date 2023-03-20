@@ -1,11 +1,11 @@
 ---
 title: ApplicationFault Data Object - Bulk
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base object from which all Bulk fault detail objects derive.
-ms.subservice: bulk-api
 ---
 # ApplicationFault Data Object - Bulk
 Defines the base object from which all Bulk fault detail objects derive.

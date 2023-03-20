@@ -1,11 +1,11 @@
 ---
 title: AdGroupCriterionAction Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the action to apply to a BiddableAdGroupCriterion or NegativeAdGroupCriterion, specifically one that contains a ProductPartition.
-ms.subservice: campaign-management-api
 ---
 # AdGroupCriterionAction Data Object - Campaign Management
 Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), specifically one that contains a [ProductPartition](productpartition.md). You can send a group of [AdGroupCriterionAction](adgroupcriterionaction.md) objects, also known as a product group, to the [ApplyProductPartitionActions](applyproductpartitionactions.md) service operation.

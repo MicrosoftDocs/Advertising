@@ -1,11 +1,11 @@
 ---
 title: OfflineConversionAdjustment Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object to retract or restate an offline conversion via the ApplyOfflineConversionAdjustments operation.
-ms.subservice: campaign-management-api
 ---
 # OfflineConversionAdjustment Data Object - Campaign Management
 Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.  

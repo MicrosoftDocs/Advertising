@@ -1,11 +1,11 @@
 ---
 title: CallDetailReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a call detail report request.
-ms.subservice: reporting-api
 ---
 # CallDetailReportRequest Data Object - Reporting
 Defines a call detail report request. Use this report to discover which accounts, campaigns, or ad groups are driving the most completed phone calls.

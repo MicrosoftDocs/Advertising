@@ -1,6 +1,7 @@
 ---
 title: SubmitGenerateReport Service Operation - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,8 +11,7 @@ dev_langs:
   - java
   - php
   - python
-  ms.subservice: reporting-api
----
+  ---
 # SubmitGenerateReport Service Operation - Reporting
 Submits a report request. 
 

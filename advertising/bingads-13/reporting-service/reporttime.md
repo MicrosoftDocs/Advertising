@@ -1,11 +1,11 @@
 ---
 title: ReportTime Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the date range values of a report request.
-ms.subservice: reporting-api
 ---
 # ReportTime Data Object - Reporting
 Defines the date range values of a report request.

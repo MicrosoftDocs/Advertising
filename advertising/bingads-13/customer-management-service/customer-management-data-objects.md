@@ -1,11 +1,11 @@
 ---
 title: Customer Management Data Objects
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Data objects reference for the CustomerManagement service.
-ms.subservice: customer-management-api
 ---
 # Customer Management Data Objects
 The Customer Management service defines the following data objects.

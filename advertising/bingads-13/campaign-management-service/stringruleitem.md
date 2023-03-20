@@ -1,11 +1,11 @@
 ---
 title: StringRuleItem Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a rule expression that depends on the string values of the Url or Referrer Url.
-ms.subservice: campaign-management-api
 ---
 # StringRuleItem Data Object - Campaign Management
 Defines a rule expression that depends on the string values of the Url or Referrer Url.

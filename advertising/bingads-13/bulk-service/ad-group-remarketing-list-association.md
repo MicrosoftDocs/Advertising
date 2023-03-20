@@ -1,13 +1,13 @@
 ---
 title: "Ad Group Remarketing List Association Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Ad Group Remarketing List Association fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Ad Group Remarketing List Association Record - Bulk
 Defines an Ad Group Remarketing List Association that can be uploaded and downloaded in a bulk file. 

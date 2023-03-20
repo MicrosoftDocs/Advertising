@@ -1,11 +1,11 @@
 ---
 title: Customer Management Value Sets
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Value sets reference for the CustomerManagement service.
-ms.subservice: customer-management-api
 ---
 # Customer Management Value Sets
 The Customer Management service defines the following value sets.

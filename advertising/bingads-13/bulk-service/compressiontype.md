@@ -1,11 +1,11 @@
 ---
 title: CompressionType Value Set - Bulk
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible compression types for the file to download.
-ms.subservice: bulk-api
 ---
 # CompressionType Value Set - Bulk
 Defines the possible compression types for the file to download.

@@ -1,11 +1,11 @@
 ---
 title: PredicateOperator Value Set - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the condition of results for one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
-ms.subservice: customer-management-api
 ---
 # PredicateOperator Value Set - Customer Management
 Defines the condition of results for one of the search operations, for example [SearchAccounts](searchaccounts.md), [SearchClientLinks](searchclientlinks.md), or [SearchCustomers](searchcustomers.md).

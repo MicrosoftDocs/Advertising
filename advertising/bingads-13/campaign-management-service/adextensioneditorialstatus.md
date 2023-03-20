@@ -1,11 +1,11 @@
 ---
 title: AdExtensionEditorialStatus Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the editorial review status values of an ad extension.
-ms.subservice: campaign-management-api
 ---
 # AdExtensionEditorialStatus Value Set - Campaign Management
 Defines the editorial review status values of an ad extension.

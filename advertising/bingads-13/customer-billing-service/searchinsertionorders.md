@@ -1,6 +1,7 @@
 ---
 title: SearchInsertionOrders Service Operation - Customer Billing
 ms.service: bing-ads
+ms.subservice: customer-billing-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: customer-billing-api
 ---
 # SearchInsertionOrders Service Operation - Customer Billing
 Searches for insertion orders that match a specified criteria.

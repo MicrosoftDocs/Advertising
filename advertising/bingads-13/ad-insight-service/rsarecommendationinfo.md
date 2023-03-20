@@ -1,11 +1,11 @@
 ---
 title: RSARecommendationInfo Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains the info of responsive search ads recommendation. 
-ms.subservice: ad-insight-api
 ---
 # RSARecommendationInfo Data Object - Ad Insight
 Defines an object that contains the info of responsive search ads recommendation.  

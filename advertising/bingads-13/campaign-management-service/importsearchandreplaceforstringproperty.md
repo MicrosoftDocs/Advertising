@@ -1,11 +1,11 @@
 ---
 title: ImportSearchAndReplaceForStringProperty Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the string search and replace Google import option.
-ms.subservice: campaign-management-api
 ---
 # ImportSearchAndReplaceForStringProperty Data Object - Campaign Management
 Defines the string search and replace Google import option. 

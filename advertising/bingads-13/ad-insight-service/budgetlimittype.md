@@ -1,11 +1,11 @@
 ---
 title: BudgetLimitType Value Set - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible types of campaign budgets.
-ms.subservice: ad-insight-api
 ---
 # BudgetLimitType Value Set - Ad Insight
 Defines the possible types of campaign budgets.

@@ -1,11 +1,11 @@
 ---
 title: AdExtension Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base object of an ad extension.
-ms.subservice: campaign-management-api
 ---
 # AdExtension Data Object - Campaign Management
 Defines the base object of an ad extension.

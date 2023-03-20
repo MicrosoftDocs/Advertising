@@ -1,11 +1,11 @@
 ---
 title: DSASearchQueryPerformanceReportFilter Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the criteria to use to filter the DSA search query performance report data.
-ms.subservice: reporting-api
 ---
 # DSASearchQueryPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the DSA search query performance report data.

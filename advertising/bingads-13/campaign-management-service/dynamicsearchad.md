@@ -1,11 +1,11 @@
 ---
 title: DynamicSearchAd Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a dynamic search ad.
-ms.subservice: campaign-management-api
 ---
 # DynamicSearchAd Data Object - Campaign Management
 Defines a dynamic search ad.  

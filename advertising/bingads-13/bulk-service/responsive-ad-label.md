@@ -1,13 +1,13 @@
 ---
 title: "Responsive Ad Label Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Responsive Ad Label fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Responsive Ad Label Record - Bulk
 Defines an association record between an [Responsive Ad](responsive-ad.md) and a [Label](label.md) that can be uploaded and downloaded in a bulk file. To upload or download the responsive ad or label, use the [Responsive Ad](responsive-ad.md) or [Label](label.md) record.

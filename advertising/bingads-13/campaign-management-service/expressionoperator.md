@@ -1,11 +1,11 @@
 ---
 title: ExpressionOperator Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the operators that can be applied to expressions within a conversion goal.
-ms.subservice: campaign-management-api
 ---
 # ExpressionOperator Value Set - Campaign Management
 Defines the operators that can be applied to expressions within a conversion goal. 

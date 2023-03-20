@@ -1,11 +1,11 @@
 ---
 title: UserLocationPerformanceReportColumn Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the UserLocationPerformanceReportRequest.
-ms.subservice: reporting-api
 ---
 # UserLocationPerformanceReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [UserLocationPerformanceReportRequest](userlocationperformancereportrequest.md).

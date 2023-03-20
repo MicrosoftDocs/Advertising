@@ -1,13 +1,13 @@
 ---
 title: "Campaign Price Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Price Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Campaign Price Ad Extension Record - Bulk
 Defines an association record between a [Campaign](campaign.md) and a [Price Ad Extension](price-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or price ad extension, use the [Campaign](campaign.md) or [Price Ad Extension](price-ad-extension.md) record.

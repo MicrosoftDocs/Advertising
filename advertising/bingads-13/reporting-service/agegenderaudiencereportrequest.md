@@ -1,11 +1,11 @@
 ---
 title: AgeGenderAudienceReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an age and gender audience report request.
-ms.subservice: reporting-api
 ---
 # AgeGenderAudienceReportRequest Data Object - Reporting
 Defines an age and gender audience report request. Use this report to discover how your campaigns and ad groups are resonating with different age groups and genders.

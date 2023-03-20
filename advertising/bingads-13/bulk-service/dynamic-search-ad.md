@@ -1,13 +1,13 @@
 ---
 title: "Dynamic Search Ad Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Dynamic Search Ad fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Dynamic Search Ad Record - Bulk
 Defines a dynamic search ad that can be downloaded and uploaded in a bulk file.

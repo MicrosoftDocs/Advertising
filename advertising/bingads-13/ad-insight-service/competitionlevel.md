@@ -1,11 +1,11 @@
 ---
 title: CompetitionLevel Value Set - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Competition levels are defined by the number of advertisers bidding on this keyword, relative to all other keywords across Microsoft Advertising.
-ms.subservice: ad-insight-api
 ---
 # CompetitionLevel Value Set - Ad Insight
 Competition levels are defined by the number of advertisers bidding on this keyword, relative to all other keywords across Microsoft Advertising. 

@@ -1,11 +1,11 @@
 ---
 title: Ad Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the base object of an ad.
-ms.subservice: campaign-management-api
 ---
 # Ad Data Object - Campaign Management
 Defines the base object of an ad.

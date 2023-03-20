@@ -1,11 +1,11 @@
 ---
 title: PerformanceInsightsMessageParameter Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the message parameters for performance insights.
-ms.subservice: ad-insight-api
 ---
 # PerformanceInsightsMessageParameter Data Object - Ad Insight
 Defines the message parameters for performance insights. Do not try to instantiate a PerformanceInsightsMessageParameter. You can create one or more objects that derive from it.

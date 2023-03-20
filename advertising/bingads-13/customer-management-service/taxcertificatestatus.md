@@ -1,11 +1,11 @@
 ---
 title: TaxCertificateStatus Value Set - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the TaxCertificateStatus Value Set.
-ms.subservice: customer-management-api
 ---
 # TaxCertificateStatus Value Set - Customer Management
 Defines the TaxCertificateStatus Value Set.

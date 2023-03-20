@@ -1,11 +1,11 @@
 ---
 title: ReportRequestStatusType Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the status of a report.
-ms.subservice: reporting-api
 ---
 # ReportRequestStatusType Value Set - Reporting
 Defines the status of a report.

@@ -1,11 +1,11 @@
 ---
 title: ServiceLevel Value Set - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: For internal use only.
-ms.subservice: customer-management-api
 ---
 # ServiceLevel Value Set - Customer Management
 For internal use only.

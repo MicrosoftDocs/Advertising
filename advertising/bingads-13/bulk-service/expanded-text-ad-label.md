@@ -1,13 +1,13 @@
 ---
 title: "Expanded Text Ad Label Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Expanded Text Ad Label fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Expanded Text Ad Label Record - Bulk
 Defines an association record between an [Expanded Text Ad](expanded-text-ad.md) and a [Label](label.md) that can be uploaded and downloaded in a bulk file. To upload or download the expanded text ad or label, use the [Expanded Text Ad](expanded-text-ad.md) or [Label](label.md) record.

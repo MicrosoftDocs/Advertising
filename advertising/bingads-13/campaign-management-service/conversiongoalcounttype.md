@@ -1,11 +1,11 @@
 ---
 title: ConversionGoalCountType Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines how your conversions are recorded within your chosen conversion window.
-ms.subservice: campaign-management-api
 ---
 # ConversionGoalCountType Value Set - Campaign Management
 Defines how your conversions are recorded within your chosen conversion window.

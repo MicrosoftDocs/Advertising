@@ -1,11 +1,11 @@
 ---
 title: Bulk Service Operations
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Service operations reference for the Bulk service.
-ms.subservice: bulk-api
 ---
 # Bulk Service Operations
 The Bulk service defines the following service operations.

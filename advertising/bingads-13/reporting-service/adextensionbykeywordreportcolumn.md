@@ -1,11 +1,11 @@
 ---
 title: AdExtensionByKeywordReportColumn Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes and performance statistics columns that you can include in the AdExtensionByKeywordReportRequest.
-ms.subservice: reporting-api
 ---
 # AdExtensionByKeywordReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [AdExtensionByKeywordReportRequest](adextensionbykeywordreportrequest.md).

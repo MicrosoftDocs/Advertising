@@ -1,11 +1,11 @@
 ---
 title: BillingDocumentInfo Data Object - Customer Billing
 ms.service: bing-ads
+ms.subservice: customer-billing-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.
-ms.subservice: customer-billing-api
 ---
 # BillingDocumentInfo Data Object - Customer Billing
 Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.

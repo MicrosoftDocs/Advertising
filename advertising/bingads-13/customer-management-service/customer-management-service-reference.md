@@ -5,7 +5,6 @@ ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Reference documentation for the Customer Management API.
-ms.subservice: customer-management-api
 ---
 # Customer Management API
 The Customer Management [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you use to manage customers, accounts, and users.

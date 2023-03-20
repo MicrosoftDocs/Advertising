@@ -1,11 +1,11 @@
 ---
 title: Bulk Value Sets
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Value sets reference for the Bulk service.
-ms.subservice: bulk-api
 ---
 # Bulk Value Sets
 The Bulk service defines the following value sets.

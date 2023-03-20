@@ -1,11 +1,11 @@
 ---
 title: AdExtensionByKeywordReportFilter Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the criteria to use to filter the ad extension by keyword report data.
-ms.subservice: reporting-api
 ---
 # AdExtensionByKeywordReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad extension by keyword report data.

@@ -5,7 +5,6 @@ ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Reference documentation and guides for the Reporting API.
-ms.subservice: reporting-api
 ---
 # Reporting API
 The Reporting [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to request and download reports.

@@ -1,11 +1,11 @@
 ---
 title: UserLifeCycleStatus Value Set - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible status values of a user.
-ms.subservice: customer-management-api
 ---
 # UserLifeCycleStatus Value Set - Customer Management
 Defines the possible status values of a user.

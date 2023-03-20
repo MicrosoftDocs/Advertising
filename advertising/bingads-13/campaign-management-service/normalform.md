@@ -1,11 +1,11 @@
 ---
 title: NormalForm Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible normal form types.
-ms.subservice: campaign-management-api
 ---
 # NormalForm Value Set - Campaign Management
 Defines the possible normal form types.

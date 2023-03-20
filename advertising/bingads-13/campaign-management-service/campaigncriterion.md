@@ -1,11 +1,11 @@
 ---
 title: CampaignCriterion Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a criterion that you want applied to the specified campaign.
-ms.subservice: campaign-management-api
 ---
 # CampaignCriterion Data Object - Campaign Management
 Defines a criterion that you want applied to the specified campaign.

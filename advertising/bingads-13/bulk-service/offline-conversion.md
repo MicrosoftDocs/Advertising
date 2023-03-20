@@ -1,13 +1,13 @@
 ---
 title: "Offline Conversion Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Offline Conversion fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Offline Conversion Record - Bulk
 Defines an offline conversion that can be uploaded in a bulk file.

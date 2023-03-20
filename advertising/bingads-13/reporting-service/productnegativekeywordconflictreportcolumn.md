@@ -1,11 +1,11 @@
 ---
 title: ProductNegativeKeywordConflictReportColumn Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the attributes columns that you can include in the ProductNegativeKeywordConflictReportRequest.
-ms.subservice: reporting-api
 ---
 # ProductNegativeKeywordConflictReportColumn Value Set - Reporting
 Defines the attributes columns that you can include in the [ProductNegativeKeywordConflictReportRequest](productnegativekeywordconflictreportrequest.md).

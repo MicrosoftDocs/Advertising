@@ -1,11 +1,11 @@
 ---
 title: ImpressionShareSearchParameter Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: The impression share search parameter filter that you can include when requesting keyword ideas.
-ms.subservice: ad-insight-api
 ---
 # ImpressionShareSearchParameter Data Object - Ad Insight
 The impression share search parameter filter that you can include when requesting keyword ideas.

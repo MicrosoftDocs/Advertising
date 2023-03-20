@@ -1,11 +1,11 @@
 ---
 title: AdApiError Data Object - Bulk
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Bulk Ad API error object that contains the details that explain why the service operation failed.
-ms.subservice: bulk-api
 ---
 # AdApiError Data Object - Bulk
 Defines a Bulk Ad API error object that contains the details that explain why the service operation failed.

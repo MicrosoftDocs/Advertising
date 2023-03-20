@@ -1,11 +1,11 @@
 ---
 title: AdApiFaultDetail Data Object - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Customer Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
-ms.subservice: customer-management-api
 ---
 # AdApiFaultDetail Data Object - Customer Management
 Defines a Customer Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.

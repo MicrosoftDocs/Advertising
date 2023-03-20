@@ -1,11 +1,11 @@
 ---
 title: UrlGoal Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a URL conversion goal.
-ms.subservice: campaign-management-api
 ---
 # UrlGoal Data Object - Campaign Management
 Defines a URL conversion goal. Use this type of goal to count every time someone visits a web page as a conversion. For example you can count a conversion if someone visits the purchase confirmation page.  

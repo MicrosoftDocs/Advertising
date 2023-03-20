@@ -1,11 +1,11 @@
 ---
 title: ShareOfVoiceReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a share of voice (SOV) report request.
-ms.subservice: reporting-api
 ---
 # ShareOfVoiceReportRequest Data Object - Reporting
 Defines a share of voice (SOV) report request. Use this report to view impression share (%) of successful bids for each keyword, and identify opportunities to increase impression share.

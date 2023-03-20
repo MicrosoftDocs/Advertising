@@ -1,11 +1,11 @@
 ---
 title: AdTypeReportFilter Value Set - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the ad type values that you can use to filter the report data.
-ms.subservice: reporting-api
 ---
 # AdTypeReportFilter Value Set - Reporting
 Defines the ad type values that you can use to filter the report data. These values are also used as column values in reports that include the ad type, such as the ad performance report.

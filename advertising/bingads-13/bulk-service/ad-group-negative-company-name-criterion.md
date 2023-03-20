@@ -1,13 +1,13 @@
 ---
 title: "Ad Group Negative Company Name Criterion Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Ad Group Negative Company Name Criterion fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Ad Group Negative Company Name Criterion Record - Bulk
 Defines an ad group negative company name criterion that can be uploaded and downloaded in a bulk file. 

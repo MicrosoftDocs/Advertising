@@ -1,11 +1,11 @@
 ---
 title: Keyword Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a keyword with match type.
-ms.subservice: ad-insight-api
 ---
 # Keyword Data Object - Ad Insight
 Defines a keyword with match type.

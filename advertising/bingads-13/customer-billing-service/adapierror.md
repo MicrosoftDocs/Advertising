@@ -1,11 +1,11 @@
 ---
 title: AdApiError Data Object - Customer Billing
 ms.service: bing-ads
+ms.subservice: customer-billing-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a Customer Billing Ad API error object that contains the details that explain why the service operation failed.
-ms.subservice: customer-billing-api
 ---
 # AdApiError Data Object - Customer Billing
 Defines a Customer Billing Ad API error object that contains the details that explain why the service operation failed.

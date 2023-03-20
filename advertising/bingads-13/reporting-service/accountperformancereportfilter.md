@@ -1,11 +1,11 @@
 ---
 title: AccountPerformanceReportFilter Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the criteria to use to filter the account performance report data.
-ms.subservice: reporting-api
 ---
 # AccountPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the account performance report data.

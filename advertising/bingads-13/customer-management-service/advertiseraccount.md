@@ -1,11 +1,11 @@
 ---
 title: AdvertiserAccount Data Object - Customer Management
 ms.service: bing-ads
+ms.subservice: customer-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an advertiser account.
-ms.subservice: customer-management-api
 ---
 # AdvertiserAccount Data Object - Customer Management
 Defines an advertiser account.

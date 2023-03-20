@@ -1,11 +1,11 @@
 ---
 title: KeywordLocationResult Data Object - Ad Insight
 ms.service: bing-ads
+ms.subservice: ad-insight-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an object that contains the locations where users were located when they searched for the specified keyword.
-ms.subservice: ad-insight-api
 ---
 # KeywordLocationResult Data Object - Ad Insight
 Defines an object that contains the locations where users were located when they searched for the specified keyword.

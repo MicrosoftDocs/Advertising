@@ -1,11 +1,11 @@
 ---
 title: AdPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines an ad performance report request.
-ms.subservice: reporting-api
 ---
 # AdPerformanceReportRequest Data Object - Reporting
 Defines an ad performance report request. Use this report to help you determine which ads lead to clicks and conversions, and which are not performing. Having underperforming ads in your account can pull down the quality of your campaigns.

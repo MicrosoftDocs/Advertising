@@ -1,11 +1,11 @@
 ---
 title: Video Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the Video Data Object.
-ms.subservice: campaign-management-api
 ---
 # Video Data Object - Campaign Management
 Defines the Video Data Object.

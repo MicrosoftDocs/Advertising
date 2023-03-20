@@ -1,11 +1,11 @@
 ---
 title: MediaEnabledEntityFilter Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible values representing entities that are enabled for media such as images.
-ms.subservice: campaign-management-api
 ---
 # MediaEnabledEntityFilter Value Set - Campaign Management
 Defines the possible values representing entities that are enabled for media such as images.

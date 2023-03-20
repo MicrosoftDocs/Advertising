@@ -1,11 +1,11 @@
 ---
 title: HotelAdGroupType Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: The ad group type for hotel campaigns.
-ms.subservice: campaign-management-api
 ---
 # HotelAdGroupType Value Set - Campaign Management
 The ad group type for hotel campaigns.

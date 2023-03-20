@@ -1,6 +1,7 @@
 ---
 title: GetGeoLocationsFileUrl Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # GetGeoLocationsFileUrl Service Operation - Campaign Management
 Gets a temporary URL that you can use to download a file that contains identifiers for the geographical locations that you can target or exclude.

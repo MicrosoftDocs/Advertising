@@ -1,11 +1,11 @@
 ---
 title: SearchQueryPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
+ms.subservice: reporting-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a search query performance report request.
-ms.subservice: reporting-api
 ---
 # SearchQueryPerformanceReportRequest Data Object - Reporting
 Defines a search query performance report request. Use this report to see what your audience is searching for when your ads are shown. You can use this information to make informed additions, removals, or edits to both your keyword and negative keyword lists.

@@ -1,11 +1,11 @@
 ---
 title: CampaignCriterionStatus Value Set - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines the possible campaign criterion status values.
-ms.subservice: campaign-management-api
 ---
 # CampaignCriterionStatus Value Set - Campaign Management
 Defines the possible campaign criterion status values.

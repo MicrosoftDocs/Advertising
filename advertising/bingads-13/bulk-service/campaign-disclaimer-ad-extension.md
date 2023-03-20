@@ -1,13 +1,13 @@
 ---
 title: "Campaign Disclaimer Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Campaign Disclaimer fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Campaign Disclaimer Record - Bulk
 Defines an association record between a [Campaign](campaign.md) and a [Disclaimer](disclaimer-ad-extension.md) that can be uploaded and downloaded in a bulk file. To upload or download the campaign or disclaimer, use the [Campaign](campaign.md) or [Disclaimer](disclaimer-ad-extension.md) record. 

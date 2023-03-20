@@ -1,13 +1,13 @@
 ---
 title: "Filter Link Ad Extension Record - Bulk"
 ms.service: bing-ads
+ms.subservice: bulk-api
 ms.topic: "article"
 author: rgaritta
 ms.author: v-rgaritta
 description: Describes the Filter Link Ad Extension fields in a Bulk file.
 dev_langs:
   - csharp
-ms.subservice: bulk-api
 ---
 # Filter Link Ad Extension Record - Bulk
 Defines a filter link ad extension that can be downloaded and uploaded in a bulk file.

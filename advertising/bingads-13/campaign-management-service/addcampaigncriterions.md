@@ -1,6 +1,7 @@
 ---
 title: AddCampaignCriterions Service Operation - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
@@ -10,7 +11,6 @@ dev_langs:
   - java
   - php
   - python
-ms.subservice: campaign-management-api
 ---
 # AddCampaignCriterions Service Operation - Campaign Management
 Adds one or more campaign criterions that help determine whether ads in each campaign get served.

@@ -1,11 +1,11 @@
 ---
 title: HotelCheckInDayCriterion Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Criterion for day of the week the booking is for.
-ms.subservice: campaign-management-api
 ---
 # HotelCheckInDayCriterion Data Object - Campaign Management
 Criterion for day of the week the booking is for.

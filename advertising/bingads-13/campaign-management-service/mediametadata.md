@@ -1,11 +1,11 @@
 ---
 title: MediaMetaData Data Object - Campaign Management
 ms.service: bing-ads
+ms.subservice: campaign-management-api
 ms.topic: article
 author: rgaritta
 ms.author: v-rgaritta
 description: Defines a media meta data object.
-ms.subservice: campaign-management-api
 ---
 # MediaMetaData Data Object - Campaign Management
 Defines a media meta data object. The meta data includes download Urls for one or more media representations.
