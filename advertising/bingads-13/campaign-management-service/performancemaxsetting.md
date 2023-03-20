@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines the PerformanceMaxSetting object.
 ---
 # PerformanceMaxSetting Data Object - Campaign Management
-Reserved.
+Defines the PerformanceMaxSetting object.
 
 ## Syntax
 ```xml

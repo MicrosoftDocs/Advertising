@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines the FrequencyCapSettings object.
 ---
 # FrequencyCapSettings Data Object - Campaign Management
-Reserved.
+Defines the FrequencyCapSettings object.
 
 ## Syntax
 ```xml

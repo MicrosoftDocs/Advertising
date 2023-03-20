@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines the possible values for FrequencyCapTimeGranularity.
 ---
 # FrequencyCapTimeGranularity Value Set - Campaign Management
-Reserved.
+Defines the possible values for FrequencyCapTimeGranularity.
 
 ## Syntax
 ```xml
