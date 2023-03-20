@@ -20,7 +20,7 @@ Defines the criteria to use to filter the goals and funnels report data.
     <xs:element minOccurs="0" name="CampaignStatus" nillable="true" type="tns:CampaignStatusReportFilter" />
     <xs:element minOccurs="0" name="DeviceOS" nillable="true" type="tns:DeviceOSReportFilter" />
     <xs:element minOccurs="0" name="DeviceType" nillable="true" type="tns:DeviceTypeReportFilter" />
-    <xs:element minOccurs="0" name="GoalIds" nillable="true" type="q12:ArrayOflong" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q12:ArrayOflong" />
     <xs:element minOccurs="0" name="KeywordStatus" nillable="true" type="tns:KeywordStatusReportFilter" />
   </xs:sequence>
 </xs:complexType>

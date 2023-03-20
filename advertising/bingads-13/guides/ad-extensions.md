@@ -21,7 +21,7 @@ Ad extensions are stored in a shared library at the account level. After adding 
 > 
 > Location ad extensions can only be associated at the account and campaign level i.e., cannot be associated with ad groups.
 
-You can associate ad extensions at the ad group, campaign, or account level.  When ad extensions from higher levels in your account are predicted to improve your performance, they are eligible to serve alongside extensions of the same type from lower levels. We recommend that you associate extensions at a level that makes sense for your account and ensure they’re relevant for any subsequent levels.
+You can associate ad extensions at the ad group, campaign, or account level.  When ad extensions from higher levels in your account are predicted to improve your performance, they are eligible to serve alongside extensions of the same type from lower levels. We recommend that you associate extensions at a level that makes sense for your account and ensure they're relevant for any subsequent levels.
 
 You can manage ad extensions with either the [Bulk Service](../bulk-service/bulk-service-reference.md) or [Campaign Management Service](../campaign-management-service/campaign-management-service-reference.md). You should use the [Bulk Service](../bulk-service/bulk-service-reference.md) if you need to upload or download a high volume of entity settings. For example you can update all ad extensions for your entire account in a single upload. In comparison, with the [Campaign Management Service](../campaign-management-service/campaign-management-service-reference.md) you can only update 100 ad extensions per call. For details see the following sections.
 
@@ -58,7 +58,7 @@ With Filter Link Extensions, your ads will include one header with between 3 and
 ![Filter Link Ad Extension](media/filter-link-ad-extension.png "Filter Link Ad Extension")
 
 ### <a name="flyerextensions"></a>Flyer Extensions
-Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers. They can display prominently on broad queries like "weekly deals" or "weekly sales" and thus encourage shoppers to click on your ad instead of the competition’s. By their nature they help to better inform searchers, and as a result, increase user engagement e.g., click through rate.
+Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers. They can display prominently on broad queries like "weekly deals" or "weekly sales" and thus encourage shoppers to click on your ad instead of the competition's. By their nature they help to better inform searchers, and as a result, increase user engagement e.g., click through rate.
 
 ![Flyer Ad Extension](media/flyer-ad-extension.png "Flyer Ad Extension")
 

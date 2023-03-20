@@ -266,7 +266,7 @@ Impression tracking URLs are supported in the Campaign Management [ResponsiveAd]
 When you get ads with the Campaign Management service the [ImpressionTrackingUrls](../campaign-management-service/responsivead.md#impressiontrackingurls) element is not returned by default. For more information see the [AdAdditionalField](../campaign-management-service/adadditionalfield.md#impressiontrackingurls) value set. 
 
 ### <a name="flyeradextensions-november2020"></a>Flyer Ad Extensions
-Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers. They can display prominently on broad queries like "weekly deals" or "weekly sales" and thus encourage shoppers to click on your ad instead of the competition’s. By their nature they help to better inform searchers, and as a result, increase user engagement e.g., click through rate.
+Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers. They can display prominently on broad queries like "weekly deals" or "weekly sales" and thus encourage shoppers to click on your ad instead of the competition's. By their nature they help to better inform searchers, and as a result, increase user engagement e.g., click through rate.
 
 Flyer extensions are supported in the Campaign Management [FlyerAdExtension](../campaign-management-service/flyeradextension.md) object and Bulk [Flyer Ad Extension](../bulk-service/flyer-ad-extension.md) record. 
 

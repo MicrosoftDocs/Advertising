@@ -1553,6 +1553,8 @@
       href: ../campaign-management-service/flyeradextension.md
     - name: Frequency
       href: ../campaign-management-service/frequency.md
+    - name: FrequencyCapSettings
+      href: ../campaign-management-service/frequencycapsettings.md
     - name: GenderCriterion
       href: ../campaign-management-service/gendercriterion.md
     - name: GeoPoint
@@ -1655,6 +1657,8 @@
       href: ../campaign-management-service/negativekeywordlist.md
     - name: NegativeSite
       href: ../campaign-management-service/negativesite.md
+    - name: NumberRuleItem
+      href: ../campaign-management-service/numberruleitem.md
     - name: OfflineConversion
       href: ../campaign-management-service/offlineconversion.md
     - name: OfflineConversionAdjustment
@@ -1677,6 +1681,8 @@
       href: ../campaign-management-service/paging.md
     - name: PercentCpcBiddingScheme
       href: ../campaign-management-service/percentcpcbiddingscheme.md
+    - name: PerformanceMaxSetting
+      href: ../campaign-management-service/performancemaxsetting.md
     - name: PlacementExclusionList
       href: ../campaign-management-service/placementexclusionlist.md
     - name: PriceAdExtension
@@ -1711,6 +1717,8 @@
       href: ../campaign-management-service/responsivead.md
     - name: ResponsiveSearchAd
       href: ../campaign-management-service/responsivesearchad.md
+    - name: ResponsiveSearchAdsSetting
+      href: ../campaign-management-service/responsivesearchadssetting.md
     - name: ReviewAdExtension
       href: ../campaign-management-service/reviewadextension.md
     - name: RuleItem
@@ -1822,6 +1830,8 @@
       href: ../campaign-management-service/assetlinkeditorialstatus.md
     - name: AssociationType
       href: ../campaign-management-service/associationtype.md
+    - name: AttributionModelType
+      href: ../campaign-management-service/attributionmodeltype.md
     - name: AudienceAdditionalField
       href: ../campaign-management-service/audienceadditionalfield.md
     - name: AudienceType
@@ -1880,6 +1890,8 @@
       href: ../campaign-management-service/entitytype.md
     - name: ExpressionOperator
       href: ../campaign-management-service/expressionoperator.md
+    - name: FrequencyCapTimeGranularity
+      href: ../campaign-management-service/frequencycaptimegranularity.md
     - name: GenderType
       href: ../campaign-management-service/gendertype.md
     - name: HotelAdGroupType
@@ -2527,4 +2539,3 @@
   href: ./release-notes.md
 - name: Migrate to Version 13
   href: ./migration-guide.md
-

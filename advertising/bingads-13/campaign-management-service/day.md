@@ -46,3 +46,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 ## Used By
 [DayTime](daytime.md)  
 [DayTimeCriterion](daytimecriterion.md)  
+[HotelCheckInDayCriterion](hotelcheckindaycriterion.md)  

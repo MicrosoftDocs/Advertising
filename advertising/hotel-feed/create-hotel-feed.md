@@ -152,7 +152,7 @@ The `brand` element identifies the hotel's brand. For example, Fabrikam Residenc
 
 ## What happens if the hotel's content changes?
 
-If you change any of the hotel’s property values between feed runs (for example, its name, address, phone, etc.), Microsoft Advertising may treat it as a new hotel property and create a new listing for it. If Microsoft creates a new listing, prior performance history for the old hotel remains available for up to 36 months. Note that the old hotel's bids and multipliers will not transfer to the new hotel entity. 
+If you change any of the hotel's property values between feed runs (for example, its name, address, phone, etc.), Microsoft Advertising may treat it as a new hotel property and create a new listing for it. If Microsoft creates a new listing, prior performance history for the old hotel remains available for up to 36 months. Note that the old hotel's bids and multipliers will not transfer to the new hotel entity. 
 
 If you remove a hotel and add it back in a later feed with the same property values as before, Microsoft treats it as a new listing. Also, the performance report will show it as two separate listings.
 

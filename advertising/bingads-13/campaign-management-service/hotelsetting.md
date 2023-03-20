@@ -5,10 +5,12 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines which ads to target (HPA or PPA).
+description: Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA).
 ---
 # HotelSetting Data Object - Campaign Management
-Defines whether ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA). If *HotelSetting* is not specified, ad group will target its hotel for both HPA and PPA ads
+Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA). 
+
+If *HotelSetting* is not specified, ad group will target its hotel for both HPA and PPA ads
 
 ## Syntax
 ```xml

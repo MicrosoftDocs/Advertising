@@ -18,7 +18,7 @@ Contains the status, run time, and statistical results for an import job that ha
   <xs:sequence>
     <xs:element minOccurs="0" name="EntityStatistics" nillable="true" type="tns:ArrayOfImportEntityStatistics" />
     <xs:element minOccurs="0" name="ErrorLogUrl" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q128:ArrayOfKeyValuePairOfstringstring" xmlns:q128="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q129="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q129:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ImportJob" nillable="true" type="tns:ImportJob" />
     <xs:element minOccurs="0" name="StartTimeInUTC" type="xs:dateTime" />

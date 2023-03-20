@@ -56,12 +56,13 @@ The Campaign Management service defines the following data objects.
 |[CalloutAdExtension](calloutadextension.md)|Defines an object that specifies additional text about your business, products, or services to include in a text ad.|
 |[Campaign](campaign.md)|Defines a campaign.|
 |[CampaignAdGroupIds](campaignadgroupids.md)|Identifies a campaign and the list of its ad groups to import.|
-|[CampaignConversionGoal](campaignconversiongoal.md)|Reserved.|
+|[CampaignConversionGoal](campaignconversiongoal.md)|Defines the base object of a campaign conversion goal.|
 |[CampaignCriterion](campaigncriterion.md)|Defines a criterion that you want applied to the specified campaign.|
 |[CampaignNegativeSites](campaignnegativesites.md)|Defines an object that contains the negative site URLs of a campaign.|
 |[CashbackAdjustment](cashbackadjustment.md)|Defines the CashbackAdjustment Data Object.|
 |[CombinationRule](combinationrule.md)|A combination rule includes logical conditions used to determine who to add to your combined list.|
 |[CombinedList](combinedlist.md)|A combined list is an audience created from a combination of multiple existing audiences.|
+|[CommissionBiddingScheme](commissionbiddingscheme.md)|Defines an object that represents the commission bid strategy type (commission pay per stay).|
 |[Company](company.md)|Defines the profile data for a company.|
 |[ConversionGoal](conversiongoal.md)|Defines the base object of a conversion goal.|
 |[ConversionGoalRevenue](conversiongoalrevenue.md)|Defines properties for revenue that can be tracked by a conversion goal.|
@@ -103,10 +104,20 @@ The Campaign Management service defines the following data objects.
 |[FixedBid](fixedbid.md)|Defines the fixed bid to use in the auction.|
 |[FlyerAdExtension](flyeradextension.md)|Flyer Extensions enable advertisers to distribute product or store catalogues (flyers) to potential customers.|
 |[Frequency](frequency.md)|Determines whether an import job should be run once or scheduled on a recurring basis.|
+|[FrequencyCapSettings](frequencycapsettings.md)|Reserved.|
 |[GenderCriterion](gendercriterion.md)|Defines a criterion that can be used to show ads to users of a specific gender.|
 |[GeoPoint](geopoint.md)|Defines an object that contains the longitude and latitude coordinates of a geographical location.|
 |[GoogleImportJob](googleimportjob.md)|Defines a Google import job that can be run once or scheduled on a recurring basis.|
 |[GoogleImportOption](googleimportoption.md)|Defines the Google import options that are available via API.|
+|[HotelAd](hotelad.md)|Defines a hotel ad.|
+|[HotelAdvanceBookingWindowCriterion](hoteladvancebookingwindowcriterion.md)|Criterion for the number of days the booking is made prior to the hotel stay.|
+|[HotelCheckInDateCriterion](hotelcheckindatecriterion.md)|Criterion for a check-in date range.|
+|[HotelCheckInDayCriterion](hotelcheckindaycriterion.md)|Criterion for day of the week the booking is for.|
+|[HotelDateSelectionTypeCriterion](hoteldateselectiontypecriterion.md)|Criterion for the date selection type.|
+|[HotelGroup](hotelgroup.md)|Defines an object that organizes your hotel ads.|
+|[HotelLengthOfStayCriterion](hotellengthofstaycriterion.md)|Criterion for length of hotel stay in nights.|
+|[HotelListing](hotellisting.md)|Defines a hotel listing.|
+|[HotelSetting](hotelsetting.md)|Defines whether ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA).|
 |[IdCollection](idcollection.md)|Defines an object that contains a list of entity identifiers.|
 |[Image](image.md)|Defines an image that can be added to an account's media library.|
 |[ImageAdExtension](imageadextension.md)|Defines an ad extension that specifies an image with alternative text to include in an expanded text ad.|
@@ -149,12 +160,15 @@ The Campaign Management service defines the following data objects.
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
 |[OfflineConversionAdjustment](offlineconversionadjustment.md)|Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.|
 |[OfflineConversionGoal](offlineconversiongoal.md)|Defines an offline conversion goal.|
+|[OnlineConversionAdjustment](onlineconversionadjustment.md)|Defines an object to retract or restate an online conversion.|
 |[OperationError](operationerror.md)|Defines a Campaign Management operation error that contains the details that explain why the service operation failed.|
 |[PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md)|Defines a pages viewed per visit conversion goal.|
 |[PageVisitorsRule](pagevisitorsrule.md)|Defines a page visitors remarketing rule.|
 |[PageVisitorsWhoDidNotVisitAnotherPageRule](pagevisitorswhodidnotvisitanotherpagerule.md)|Defines a page visitors who did not visit another page remarketing rule.|
 |[PageVisitorsWhoVisitedAnotherPageRule](pagevisitorswhovisitedanotherpagerule.md)|Defines a page visitors who visited another page remarketing rule.|
 |[Paging](paging.md)|Defines a paging object to request Campaign Management objects in batches.|
+|[PercentCpcBiddingScheme](percentcpcbiddingscheme.md)|Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).|
+|[PerformanceMaxSetting](performancemaxsetting.md)|Reserved.|
 |[PlacementExclusionList](placementexclusionlist.md)|Defines a website exclusion list in the manager account (customer) shared library.|
 |[PriceAdExtension](priceadextension.md)|Defines an ad extension that includes between 3 and 8 price table rows.|
 |[PriceTableRow](pricetablerow.md)|Defines pricing information by currency and unit that you can use with price ad extensions.|
@@ -166,10 +180,13 @@ The Campaign Management service defines the following data objects.
 |[ProfileCriterion](profilecriterion.md)|Defines a criterion that can be used to show ads to users in a specific company, industry, or job function.|
 |[PromotionAdExtension](promotionadextension.md)|Promotion Extensions highlight special sales and offers in your text ads.|
 |[RadiusCriterion](radiuscriterion.md)|Defines a criterion that can be used to show ads to users within the radius of a specific geographical location.|
+|[RateAmount](rateamount.md)|Defines an object that represents the rate amount in percentage form.|
+|[RateBid](ratebid.md)|Defines an object that represents the rate bid.|
 |[RemarketingList](remarketinglist.md)|Defines a remarketing list.|
 |[RemarketingRule](remarketingrule.md)|Defines the base object of a remarketing rule.|
 |[ResponsiveAd](responsivead.md)|A responsive ad format for audience ads and multimedia ads.|
 |[ResponsiveSearchAd](responsivesearchad.md)|A responsive ad format for text ads in the Search network.|
+|[ResponsiveSearchAdsSetting](responsivesearchadssetting.md)|Reserved.|
 |[ReviewAdExtension](reviewadextension.md)|Defines an object that specifies third-party reviews (exact or paraphrased) about your business, products, or services to include in an expanded text ad.|
 |[RuleItem](ruleitem.md)|Defines the base class of a remarketing list rule item.|
 |[RuleItemGroup](ruleitemgroup.md)|Defines an object that contains a list of remarketing list rule items that apply to the same visited page.|

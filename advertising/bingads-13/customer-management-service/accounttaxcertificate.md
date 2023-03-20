@@ -15,7 +15,7 @@ Defines the AccountTaxCertificate Data Object.
 <xs:complexType name="AccountTaxCertificate" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="TaxCertificateBlobContainerName" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="TaxCertificates" nillable="true" type="q3:ArrayOfKeyValuePairOfstringbase64Binary" xmlns:q3="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="TaxCertificates" nillable="true" type="q3:ArrayOfKeyValuePairOfstringbase64Binary" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:TaxCertificateStatus" />
   </xs:sequence>
 </xs:complexType>

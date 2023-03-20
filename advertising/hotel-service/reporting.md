@@ -254,7 +254,7 @@ The request must include at least one dimension column and one measure column.
 |SlotType|Slot type|The placement of the ads on the results page. The following are the possible values.<ul><li>A&mdash;The priority slot where ads are shown on the results page when it loads.</li><li>M&mdash;The secondary slot where ads are shown only after the user clicks *More rates*.</li></ul>
 |SubAccountId|Subaccount ID|The ID that uniquely identifies the subaccount (hotel campaign).
 |SubAccountName|Subaccount name|The subaccount's display name.
-|UserCountry|User country|The two-letter ISO 3116 country code of the country where the user is located. For example, US for United States.<br /><br />**NOTE:** Prior to August 2, 2018, UserCountry contains the publisher's country. After August 2, 2018, UserCountry contains the user’s country.
+|UserCountry|User country|The two-letter ISO 3116 country code of the country where the user is located. For example, US for United States.<br /><br />**NOTE:** Prior to August 2, 2018, UserCountry contains the publisher's country. After August 2, 2018, UserCountry contains the user's country.
 
 
 <a name="measurecolumns"></a>

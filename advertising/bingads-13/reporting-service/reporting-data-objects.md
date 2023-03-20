@@ -61,9 +61,9 @@ The Reporting service defines the following data objects.
 |[GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)|Defines the criteria to use to filter the goals and funnels report data.|
 |[GoalsAndFunnelsReportRequest](goalsandfunnelsreportrequest.md)|Defines a goals and funnels report request.|
 |[HotelDimensionPerformanceReportFilter](hoteldimensionperformancereportfilter.md)|Defines the criteria to use to filter the hotel dimension performance report data.|
-|[HotelDimensionPerformanceReportRequest](hoteldimensionperformancereportrequest.md)|Defines a. hotel dimension performance report request|
+|[HotelDimensionPerformanceReportRequest](hoteldimensionperformancereportrequest.md)|Defines a hotel dimension performance report request that aggregates the performance data by product category, custom label, title, and type for a specified time period.|
 |[HotelGroupPerformanceReportFilter](hotelgroupperformancereportfilter.md)|Defines the criteria to use to filter the hotel group performance report data.|
-|[HotelGroupPerformanceReportRequest](hotelgroupperformancereportrequest.md)|Defines a hotel group performance report request.|
+|[HotelGroupPerformanceReportRequest](hotelgroupperformancereportrequest.md)|Defines a hotel group performance report request that aggregates the performance data by product category, custom label, title, and type for a specified time period.|
 |[KeywordPerformanceReportFilter](keywordperformancereportfilter.md)|Defines the criteria to use to filter the keyword performance report data.|
 |[KeywordPerformanceReportRequest](keywordperformancereportrequest.md)|Defines a keyword performance report request.|
 |[KeywordPerformanceReportSort](keywordperformancereportsort.md)|Defines a keyword performance report column and corresponding sort order.|

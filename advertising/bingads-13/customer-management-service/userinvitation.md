@@ -29,7 +29,7 @@ After the invitation has been accepted, you can call [GetUsersInfo](getusersinfo
     <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="CustomerId" type="xs:long" />
     <xs:element minOccurs="0" name="RoleId" type="xs:int" />
-    <xs:element minOccurs="0" name="AccountIds" nillable="true" type="q5:ArrayOflong" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AccountIds" nillable="true" type="q5:ArrayOflong" />
     <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
     <xs:element minOccurs="0" name="Lcid" type="tns:LCID" />
   </xs:sequence>

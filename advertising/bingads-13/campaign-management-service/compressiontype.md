@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines the possible compression types for the file to download with the Campaign Management service.
 ---
 # CompressionType Value Set - Campaign Management
-Defines the possible compression types for the file to download.
+Defines the possible compression types for the file to download with the Campaign Management service.
 
 > [!NOTE]
 > Currently the only supported compression format for [GetGeoLocationsFileUrl](getgeolocationsfileurl.md) is GZip.

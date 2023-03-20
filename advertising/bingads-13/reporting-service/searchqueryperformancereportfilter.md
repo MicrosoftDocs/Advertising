@@ -23,7 +23,7 @@ Defines the criteria to use to filter the search query performance report data.
     <xs:element minOccurs="0" name="ExcludeZeroClicks" type="xs:boolean" />
     <xs:element minOccurs="0" name="KeywordStatus" nillable="true" type="tns:KeywordStatusReportFilter" />
     <xs:element minOccurs="0" name="Language" nillable="true" type="tns:LanguageReportFilter" />
-    <xs:element minOccurs="0" name="SearchQueries" nillable="true" type="q10:ArrayOfstring" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SearchQueries" nillable="true" type="q10:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```
