@@ -30,7 +30,7 @@ A dynamic search ads setting can only be created within search campaigns. The ca
           </xs:annotation>
         </xs:element>
         <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="PageFeedIds" nillable="true" type="q8:ArrayOflong" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PageFeedIds" nillable="true" type="q8:ArrayOflong" />
         <xs:element minOccurs="0" name="Source" nillable="true" type="tns:DynamicSearchAdsSource" />
       </xs:sequence>
     </xs:extension>

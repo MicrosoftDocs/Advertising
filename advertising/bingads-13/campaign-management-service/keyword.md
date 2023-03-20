@@ -30,10 +30,10 @@ As shown above, a keyword can be just a single word, several words, or even a ph
     <xs:element minOccurs="0" name="DestinationUrl" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="EditorialStatus" nillable="true" type="tns:KeywordEditorialStatus" />
     <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-    <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q30:ArrayOfstring" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q30:ArrayOfstring" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q31:ArrayOfstring" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q32:ArrayOfKeyValuePairOfstringstring" xmlns:q32="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q31:ArrayOfstring" />
+    <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q32:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="MatchType" nillable="true" type="tns:MatchType" />
     <xs:element minOccurs="0" name="Param1" nillable="true" type="xs:string" />

@@ -24,6 +24,13 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
     <xs:extension base="tns:BiddingScheme">
       <xs:sequence>
         <xs:element minOccurs="0" name="MaxCpc" nillable="true" type="tns:Bid" />
+        <xs:element minOccurs="0" name="TargetCpa" nillable="true" type="xs:double">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>
@@ -32,11 +39,12 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
 
 ## <a name="elements"></a>Elements
 
-The [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md) object has the following elements: [MaxCpc](#maxcpc).
+The [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md) object has the following elements: [MaxCpc](#maxcpc), [TargetCpa](#targetcpa).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="maxcpc"></a>MaxCpc|The maximum cost per click that you want to spend.<br/><br/>**Add:** Optional<br/>**Update:** Optional|[Bid](bid.md)|
+|<a name="targetcpa"></a>TargetCpa|Reserved.|**double**|
 
 The [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 

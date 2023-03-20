@@ -21,7 +21,7 @@ Identifies a campaign and the list of its ad groups to import.
         </xs:appinfo>
       </xs:annotation>
     </xs:element>
-    <xs:element name="AdGroupIds" nillable="true" type="q125:ArrayOflong" xmlns:q125="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q126="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="AdGroupIds" nillable="true" type="q126:ArrayOflong" />
     <xs:element name="CampaignId" type="xs:long" />
   </xs:sequence>
 </xs:complexType>

@@ -51,17 +51,23 @@ Defines the possible types of ad extension headers.
     <xs:enumeration value="Who" />
     <xs:enumeration value="Why" />
     <xs:enumeration value="Deals" />
+    <xs:enumeration value="BestSellers" />
+    <xs:enumeration value="AgeGroups" />
+    <xs:enumeration value="Occasions" />
+    <xs:enumeration value="Flowers" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AdExtensionHeaderType](adextensionheadertype.md) value set has the following values: [Amenities](#amenities), [Brands](#brands), [Classes](#classes), [Courses](#courses), [DailyRates](#dailyrates), [Deals](#deals), [DegreePrograms](#degreeprograms), [Departments](#departments), [Destinations](#destinations), [FeaturedHotels](#featuredhotels), [Goods](#goods), [Grades](#grades), [Highlights](#highlights), [InsuranceCoverage](#insurancecoverage), [Items](#items), [Languages](#languages), [Locations](#locations), [Models](#models), [Neighborhoods](#neighborhoods), [Prices](#prices), [Rates](#rates), [Ratings](#ratings), [SchoolDistricts](#schooldistricts), [ServiceCatalog](#servicecatalog), [Services](#services), [Shows](#shows), [Sizes](#sizes), [Styles](#styles), [Tools](#tools), [Topics](#topics), [Types](#types), [Unknown](#unknown), [Vacations](#vacations), [Vehicles](#vehicles), [What](#what), [Who](#who), [Why](#why).
+The [AdExtensionHeaderType](adextensionheadertype.md) value set has the following values: [AgeGroups](#agegroups), [Amenities](#amenities), [BestSellers](#bestsellers), [Brands](#brands), [Classes](#classes), [Courses](#courses), [DailyRates](#dailyrates), [Deals](#deals), [DegreePrograms](#degreeprograms), [Departments](#departments), [Destinations](#destinations), [FeaturedHotels](#featuredhotels), [Flowers](#flowers), [Goods](#goods), [Grades](#grades), [Highlights](#highlights), [InsuranceCoverage](#insurancecoverage), [Items](#items), [Languages](#languages), [Locations](#locations), [Models](#models), [Neighborhoods](#neighborhoods), [Occasions](#occasions), [Prices](#prices), [Rates](#rates), [Ratings](#ratings), [SchoolDistricts](#schooldistricts), [ServiceCatalog](#servicecatalog), [Services](#services), [Shows](#shows), [Sizes](#sizes), [Styles](#styles), [Tools](#tools), [Topics](#topics), [Types](#types), [Unknown](#unknown), [Vacations](#vacations), [Vehicles](#vehicles), [What](#what), [Who](#who), [Why](#why).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="agegroups"></a>AgeGroups|Reserved.|
 |<a name="amenities"></a>Amenities|Use the translated version of *Amenities* in the ad extension header.|
+|<a name="bestsellers"></a>BestSellers|Reserved.|
 |<a name="brands"></a>Brands|Use the translated version of *Brands* in the ad extension header.|
 |<a name="classes"></a>Classes|Use the translated version of *Classes* in the ad extension header.|
 |<a name="courses"></a>Courses|Use the translated version of *Courses* in the ad extension header.|
@@ -71,6 +77,7 @@ The [AdExtensionHeaderType](adextensionheadertype.md) value set has the followin
 |<a name="departments"></a>Departments|Use the translated version of *Departments* in the ad extension header.|
 |<a name="destinations"></a>Destinations|Use the translated version of *Destinations* in the ad extension header.|
 |<a name="featuredhotels"></a>FeaturedHotels|Use the translated version of *FeaturedHotels* in the ad extension header.|
+|<a name="flowers"></a>Flowers|Reserved.|
 |<a name="goods"></a>Goods|Use the translated version of *Goods* in the ad extension header.|
 |<a name="grades"></a>Grades|Use the translated version of *Grades* in the ad extension header.|
 |<a name="highlights"></a>Highlights|Use the translated version of *Highlights* in the ad extension header.|
@@ -80,6 +87,7 @@ The [AdExtensionHeaderType](adextensionheadertype.md) value set has the followin
 |<a name="locations"></a>Locations|Use the translated version of *Locations* in the ad extension header.|
 |<a name="models"></a>Models|Use the translated version of *Models* in the ad extension header.|
 |<a name="neighborhoods"></a>Neighborhoods|Use the translated version of *Neighborhoods* in the ad extension header.|
+|<a name="occasions"></a>Occasions|Reserved.|
 |<a name="prices"></a>Prices|Use the translated version of *Prices* in the ad extension header.|
 |<a name="rates"></a>Rates|Use the translated version of *Rates* in the ad extension header.|
 |<a name="ratings"></a>Ratings|Use the translated version of *Ratings* in the ad extension header.|

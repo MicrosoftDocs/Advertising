@@ -34,7 +34,7 @@ The Campaign Management service defines the following value sets.
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
 |[AssetLinkEditorialStatus](assetlinkeditorialstatus.md)|Defines the editorial review status values of a linked asset.|
 |[AssociationType](associationtype.md)|Defines the entity types that can be associated with an ad extension.|
-|[AttributionModelType](attributionmodeltype.md)|Determines which attribution model, _LastTouch_ or _LastClick_, is used with a conversion goal.|
+|[AttributionModelType](attributionmodeltype.md)|Determines which attribution model is used with a conversion goal.|
 |[AudienceAdditionalField](audienceadditionalfield.md)|Defines a list of optional audience properties that you can request when calling [GetAudiencesByIds](getaudiencesbyids.md#returnadditionalfields).|
 |[AudienceType](audiencetype.md)|Defines the possible audience types.|
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
@@ -64,7 +64,11 @@ The Campaign Management service defines the following value sets.
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
+|[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Reserved.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
+|[HotelAdGroupType](hoteladgrouptype.md)|The ad group type for hotel campaigns.|
+|[HotelDateSelectionType](hoteldateselectiontype.md)|Possible hotel date selection types.|
+|[HotelListingType](hotellistingtype.md)|Defines the type of hotel listing.|
 |[ImportAdditionalField](importadditionalfield.md)|Defines a list of optional import properties that you can request when calling [GetImportJobsByIds](getimportjobsbyids.md#returnadditionalfields) and [GetImportResults](getimportresults.md#returnadditionalfields).|
 |[ImportEntityType](importentitytype.md)|Defines the supported import entity types.|
 |[IntentOption](intentoption.md)|Defines the possible intent options for location criterion, for example to target people in, searching for, or viewing pages about your targeted location.|

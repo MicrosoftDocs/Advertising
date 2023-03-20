@@ -27,7 +27,7 @@ The Ad Insight service defines the following value sets.
 |[KPIType](kpitype.md)|Defines the type of key performance indicator.|
 |[MatchType](matchtype.md)|Defines the possible keyword match type values.|
 |[NetworkType](networktype.md)|Defines the possible networks used for keyword research.|
-|[ParameterType](parametertype.md)|Defines the type of parameter: string, URL, or a list of demand entities.|
+|[ParameterType](parametertype.md)|Defines the type of parameter such as string, URL, or a list of demand entities.|
 |[PerformanceInsightsEntityType](performanceinsightsentitytype.md)|Defines the entity types for retrieving performance insights.|
 |[PerformanceInsightsMessageTemplateId](performanceinsightsmessagetemplateid.md)|Defines the message template ID for performance insights.|
 |[PerformanceInsightsUrlCategory](performanceinsightsurlcategory.md)|Defines the URL category for performance insights.|

@@ -41,5 +41,6 @@ Namespace: https\://bingads.microsoft.com/AdInsight/v13
 
 ## Used By
 [ApiFaultDetail](apifaultdetail.md)  
+[GetTextAssetSuggestionsByFinalUrls](gettextassetsuggestionsbyfinalurls.md)  
 [SetAutoApplyOptInStatus](setautoapplyoptinstatus.md)  
 [TagRecommendations](tagrecommendations.md)  

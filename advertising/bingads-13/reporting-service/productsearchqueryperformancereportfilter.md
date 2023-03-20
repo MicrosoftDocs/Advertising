@@ -21,7 +21,7 @@ Defines the criteria to use to filter the product search query performance repor
     <xs:element minOccurs="0" name="CampaignStatus" nillable="true" type="tns:CampaignStatusReportFilter" />
     <xs:element minOccurs="0" name="ExcludeZeroClicks" type="xs:boolean" />
     <xs:element minOccurs="0" name="Language" nillable="true" type="tns:LanguageReportFilter" />
-    <xs:element minOccurs="0" name="SearchQueries" nillable="true" type="q14:ArrayOfstring" xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SearchQueries" nillable="true" type="q14:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```

@@ -14,7 +14,7 @@ Defines the set of accounts, campaigns, and ad groups to include in the report.
 ```xml
 <xs:complexType name="AccountThroughAdGroupReportScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element minOccurs="0" name="AccountIds" nillable="true" type="q3:ArrayOflong" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AccountIds" nillable="true" type="q3:ArrayOflong" />
     <xs:element minOccurs="0" name="AdGroups" nillable="true" type="tns:ArrayOfAdGroupReportScope" />
     <xs:element minOccurs="0" name="Campaigns" nillable="true" type="tns:ArrayOfCampaignReportScope" />
   </xs:sequence>

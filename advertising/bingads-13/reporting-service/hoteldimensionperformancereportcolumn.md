@@ -128,7 +128,6 @@ The [HotelDimensionPerformanceReportColumn](hoteldimensionperformancereportcolum
 |<a name="customlabel2"></a>CustomLabel2|The value of the Custom_label_2 field in your Microsoft Merchant Center catalog.|
 |<a name="customlabel3"></a>CustomLabel3|The value of the Custom_label_3 field in your Microsoft Merchant Center catalog.|
 |<a name="customlabel4"></a>CustomLabel4|The value of the Custom_label_4 field in your Microsoft Merchant Center catalog.|
-|<a name="customparameters"></a><CustomParameters|Each custom parameter is a key and value pair. The list of custom parameters is semicolon-delimited and each key is enclosed by braces and a leading underscore, for example *{_key1}=value1;{_key2}=value2*.|
 |<a name="customparameters"></a>CustomParameters|Defines a key and value custom parameter for URL tracking. Used for campaign, ad group, ad, keyword, sitelink, and ad group criterion URL custom parameters.|
 |<a name="datetype"></a>DateType|Indicates whether the user searched for hotels using specific dates. The following are the possible values.<ul><li>DefaultDate&mdash;The user didn't search for hotels using specific dates</li><li>SelectedDate&mdash;The user searched for hotels using specific dates</li>|
 |<a name="devicetype"></a>DeviceType|The device name attribute of a device OS target bid. The type of device which showed ads. The possible values include *Computer*, *Smartphone*, *Tablet*, and *Unknown*.|

@@ -10,8 +10,6 @@ description: Defines the base object of RecommendationInfo.
 # RecommendationInfo Data Object - Ad Insight
 Defines the base object of RecommendationInfo. The [RSARecommendationInfo](rsarecommendationinfo.md) object derives from it.  
 
-
-
 ## Syntax
 ```xml
 <xs:complexType name="RecommendationInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">

@@ -23,9 +23,9 @@ You can associate an app ad extension with the account or with campaigns and ad 
         <xs:element minOccurs="0" name="DestinationUrl" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="DisplayText" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q45:ArrayOfstring" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q45:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q46:ArrayOfstring" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q46:ArrayOfstring" />
         <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
       </xs:sequence>

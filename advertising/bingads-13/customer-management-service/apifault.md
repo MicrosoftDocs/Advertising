@@ -14,7 +14,7 @@ Defines a Customer Management API fault detail object that operations return whe
 ```xml
 <xs:complexType name="ApiFault" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
-    <xs:extension base="q1:ApplicationFault" xmlns:q1="https://adapi.microsoft.com">
+    <xs:extension xmlns:q1="https://adapi.microsoft.com" base="q1:ApplicationFault">
       <xs:sequence>
         <xs:element minOccurs="0" name="OperationErrors" nillable="true" type="tns:ArrayOfOperationError" />
       </xs:sequence>
