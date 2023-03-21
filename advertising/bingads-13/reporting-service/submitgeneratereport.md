@@ -11,7 +11,7 @@ dev_langs:
   - java
   - php
   - python
-  ---
+---
 # SubmitGenerateReport Service Operation - Reporting
 Submits a report request. 
 

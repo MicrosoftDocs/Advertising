@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Adds the specified media to an account's media library.
+description: Adds the specified media to an account's asset library.
 dev_langs: 
   - csharp
   - java
