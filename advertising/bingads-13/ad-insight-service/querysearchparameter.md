@@ -16,7 +16,7 @@ The query search parameter that you can use as a seed for new keyword ideas.
   <xs:complexContent mixed="false">
     <xs:extension base="tns:SearchParameter">
       <xs:sequence>
-        <xs:element minOccurs="0" name="Queries" nillable="true" type="q22:ArrayOfstring" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Queries" nillable="true" type="q22:ArrayOfstring" />
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>

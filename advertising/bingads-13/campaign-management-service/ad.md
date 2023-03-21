@@ -14,6 +14,7 @@ Do not try to instantiate an *Ad*. You can create one or more of the following o
 - [AppInstallAd](appinstallad.md)
 - [DynamicSearchAd](dynamicsearchad.md)
 - [ExpandedTextAd](expandedtextad.md)
+- [HotelTextAd](hotelad.md)
 - [TextAd](textad.md)
 - [ProductAd](productad.md) 
 - [ResponsiveAd](responsivead.md) 

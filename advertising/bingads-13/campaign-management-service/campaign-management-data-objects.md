@@ -117,7 +117,7 @@ The Campaign Management service defines the following data objects.
 |[HotelGroup](hotelgroup.md)|Defines an object that organizes your hotel ads.|
 |[HotelLengthOfStayCriterion](hotellengthofstaycriterion.md)|Criterion for length of hotel stay in nights.|
 |[HotelListing](hotellisting.md)|Defines a hotel listing.|
-|[HotelSetting](hotelsetting.md)|Defines whether ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA).|
+|[HotelSetting](hotelsetting.md)|Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA).|
 |[IdCollection](idcollection.md)|Defines an object that contains a list of entity identifiers.|
 |[Image](image.md)|Defines an image that can be added to an account's media library.|
 |[ImageAdExtension](imageadextension.md)|Defines an ad extension that specifies an image with alternative text to include in an expanded text ad.|

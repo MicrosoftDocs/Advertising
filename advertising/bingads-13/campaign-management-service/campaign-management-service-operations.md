@@ -19,7 +19,7 @@ The Campaign Management service defines the following service operations.
 |[AddAudiences](addaudiences.md)|Adds one or more audiences.|100 *Audiences*|
 |[AddBidStrategies](addbidstrategies.md)|Adds bid strategies to an account's portfolio bid strategy library.|100 *BidStrategies*|
 |[AddBudgets](addbudgets.md)|Adds new budgets to the account's shared budget library.|100 *Budgets*|
-|[AddCampaignConversionGoals](addcampaignconversiongoals.md)|Adds new campaign conversion goals to the account's shared campaign conversion goal library.||
+|[AddCampaignConversionGoals](addcampaignconversiongoals.md)|Adds new campaign conversion goals to the account's shared campaign conversion goal library.|N/A.|
 |[AddCampaignCriterions](addcampaigncriterions.md)|Adds one or more campaign criterions that help determine whether ads in each campaign get served.|100 *CampaignCriterions*|
 |[AddCampaigns](addcampaigns.md)|Adds one or more campaigns to the specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[AddConversionGoals](addconversiongoals.md)|Adds new conversion goals to the account's shared conversion goal library.|100 *ConversionGoals*|
@@ -28,14 +28,16 @@ The Campaign Management service defines the following service operations.
 |[AddKeywords](addkeywords.md)|Adds one or more keywords to an ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
 |[AddLabels](addlabels.md)|Adds one or more labels to an account.|100 *Labels*|
 |[AddListItemsToSharedList](addlistitemstosharedlist.md)|Adds negative keywords to a negative keyword list, or negative sites to a website exclusion list.|1 *SharedList*<br/><br/>5,000 *ListItems*|
-|[AddMedia](addmedia.md)|Adds the specified media to an account's media library.|1 *AccountId*<br/><br/>10 *Media*|
+|[AddMedia](addmedia.md)|Adds the specified media to an account's asset library.|1 *AccountId*<br/><br/>10 *Media*|
 |[AddNegativeKeywordsToEntities](addnegativekeywordstoentities.md)|Adds negative keywords to the specified campaign or ad group.|1 *EntityNegativeKeywords*<br/><br/>Each *EntityNegativeKeyword* element can contain up to 20,000 negative keywords.|
 |[AddSharedEntity](addsharedentity.md)|Adds a negative keyword list to the ad account library, or adds a website exclusion list to the manager account (customer) library.|1 *SharedEntity*<br/><br/>5,000 *ListItems*|
 |[AddUetTags](adduettags.md)|Adds new Universal Event Tracking (UET) tags that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|100 *UetTags*|
 |[AddVideos](addvideos.md)|Adds one or more videos to an account.|100 *Videos*|
 |[AppealEditorialRejections](appealeditorialrejections.md)|Appeals ads or keywords that failed editorial review.|1,000 *EntityIdToParentIdAssociations*|
+|[ApplyHotelGroupActions](applyhotelgroupactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [HotelGroup](hotelgroup.md).||
 |[ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md)|Applies offline conversion adjustments.|1,000 *OfflineConversionAdjustments*|
 |[ApplyOfflineConversions](applyofflineconversions.md)|Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.|1,000 *OfflineConversions*|
+|[ApplyOnlineConversionAdjustments](applyonlineconversionadjustments.md)|Applies online conversion adjustments.||
 |[ApplyProductPartitionActions](applyproductpartitionactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [ProductPartition](productpartition.md).|5,000 *CriterionActions*|
 |[DeleteAdExtensions](deleteadextensions.md)|Deletes one or more ad extensions from the account's ad extension library.|1 *AccountId*<br/><br/>100 *AdExtensionIds*|
 |[DeleteAdExtensionsAssociations](deleteadextensionsassociations.md)|Removes the specified association from the respective campaigns or ad groups.|1 *AccountId*<br/><br/>100 *AdExtensionIdToEntityIdAssociations*|
@@ -45,7 +47,7 @@ The Campaign Management service defines the following service operations.
 |[DeleteAudiences](deleteaudiences.md)|Deletes the specified audiences.|100 *AudienceIds*|
 |[DeleteBidStrategies](deletebidstrategies.md)|Deletes bid strategies from an account's portfolio bid strategy library.|100 *BidStrategyIds*|
 |[DeleteBudgets](deletebudgets.md)|Deletes budgets from the account's shared budget library.|100 *BudgetIds*|
-|[DeleteCampaignConversionGoals](deletecampaignconversiongoals.md)|Deletes a campaign conversion goal.||
+|[DeleteCampaignConversionGoals](deletecampaignconversiongoals.md)|Deletes a campaign conversion goal.|N/A.|
 |[DeleteCampaignCriterions](deletecampaigncriterions.md)|Deletes one or more campaign criterions.|100 *CampaignCriterionIds*|
 |[DeleteCampaigns](deletecampaigns.md)|Deletes one or more campaigns in a specified account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[DeleteExperiments](deleteexperiments.md)|Deletes one or more experiments.|100 *ExperimentIds*|
