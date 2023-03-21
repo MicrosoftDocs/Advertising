@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines the possible compression types for the file to download with the Bulk service.
 ---
 # CompressionType Value Set - Bulk
-Defines the possible compression types for the file to download.
+Defines the possible compression types for the file to download with the Bulk service.
 
 ## Syntax
 ```xml

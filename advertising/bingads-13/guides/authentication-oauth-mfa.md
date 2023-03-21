@@ -26,7 +26,7 @@ The new ```msads.manage``` scope **requires renewed consent from all users of yo
 
 You must update your application and prompt users for consent using  ```msads.manage``` scope via the Microsoft identity platform endpoint. All Microsoft Advertising developers must take action to use the new scope.  
 
-With each API request we will check the access token to ensure the user granted consent via the new  ```msads.manage``` scope. Upon enforcement of multi-factor authentication, any access token provisioned otherwise won’t be accepted.  
+With each API request we will check the access token to ensure the user granted consent via the new  ```msads.manage``` scope. Upon enforcement of multi-factor authentication, any access token provisioned otherwise won't be accepted.  
 
 We recommend that you make the necessary changes as soon as possible.  
 
@@ -87,7 +87,7 @@ An access token represents permissions by a user to act on their behalf with lim
 
 To confirm that an access token will be accepted upon enforcement of multi-factor authentication, you can check the response scope. If the scope includes **msads.manage** then it will be accepted.
 
-Let’s say for example, that currently a user consents for your application to manage their accounts via both **ads.manage** and **msads.manage** scopes. They may have granted consent via **ads.manage** last month and then granted consent via **msads.manage** this month.
+Let's say for example, that currently a user consents for your application to manage their accounts via both **ads.manage** and **msads.manage** scopes. They may have granted consent via **ads.manage** last month and then granted consent via **msads.manage** this month.
 
 If you refresh the token with **ads.manage** the token refresh response will include the **ads.manage** scope. Upon enforcement of multi-factor authentication, "MyAccessToken-1" would not be accepted.
 

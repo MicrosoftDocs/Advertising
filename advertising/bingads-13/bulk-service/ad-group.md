@@ -291,11 +291,11 @@ Used to associate records in the bulk upload file with records in the results fi
 **Delete:** Read-only  
 
 ## <a name="cpcbid"></a>Cpc Bid
-The default bid to use when the user’s query and the ad group’s keywords match by using either a broad, exact, or phrase match comparison.
+The default bid to use when the user's query and the ad group's keywords match by using either a broad, exact, or phrase match comparison.
 
 The minimum and maximum bid range depends on the account's currency. For more information, see [Currencies](../guides/currencies.md).
 
-Specifying a broad, exact, or phrase match bid at the keyword level overrides the ad group’s search bid value for the corresponding match type.
+Specifying a broad, exact, or phrase match bid at the keyword level overrides the ad group's search bid value for the corresponding match type.
 
 **Add:** Optional. If you do not set a bid, it will be set to the minimum depending on your account's currency.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    

@@ -10,6 +10,9 @@ description: Defines the possible audience types.
 # AudienceType Value Set - Campaign Management
 Defines the possible audience types.
 
+> [!NOTE]
+> The CustomerMatch type audience in the SOAP API calls isn't supported.
+
 ## Syntax
 ```xml
 <xs:simpleType name="AudienceType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -27,8 +30,7 @@ Defines the possible audience types.
   </xs:list>
 </xs:simpleType>
 ```
-> [!NOTE]
-> We don’t support CustomerMatch type audience in the SOAP API calls.
+
 ## <a name="values"></a>Values
 
 The [AudienceType](audiencetype.md) value set has the following values: [CombinedList](#combinedlist), [Custom](#custom), [InMarket](#inmarket), [Product](#product), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist).

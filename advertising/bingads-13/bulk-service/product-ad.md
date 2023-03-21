@@ -12,7 +12,7 @@ dev_langs:
 # Product Ad Record - Bulk
 Defines a product ad that can be downloaded and uploaded in a bulk file.
 
-A product ad is not used directly for delivered ad copy.  Instead, the delivery engine generates product ads from the product details that it finds in the customer’s Microsoft Merchant Center store catalog.
+A product ad is not used directly for delivered ad copy.  Instead, the delivery engine generates product ads from the product details that it finds in the customer's Microsoft Merchant Center store catalog.
 
 You can download all *Product Ad* records in the account by including the [DownloadEntity](downloadentity.md) value of *ProductAds* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 

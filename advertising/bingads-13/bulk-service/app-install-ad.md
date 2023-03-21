@@ -332,7 +332,7 @@ Possible values are *Active*, *Paused*, or *Deleted*.
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="text"></a>Text
-The ad copy. The copy must contain at least one word. The ad’s copy and title combined must total at least three words.
+The ad copy. The copy must contain at least one word. The ad's copy and title combined must total at least three words.
 
 The ad copy cannot contain dynamic text strings such as {keyword}. 
 
@@ -345,7 +345,7 @@ The ad copy cannot contain the newline (\n) character.
 **Delete:** Read-only  
 
 ## <a name="title"></a>Title
-The title of the ad. The title must contain at least one word. The ad’s copy and title combined must total at least three words.
+The title of the ad. The title must contain at least one word. The ad's copy and title combined must total at least three words.
 
 The title cannot contain dynamic text strings such as {keyword}.
 

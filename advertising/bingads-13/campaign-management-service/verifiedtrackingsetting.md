@@ -19,7 +19,7 @@ Defines the VerifiedTrackingSetting Data Object.
   <xs:complexContent mixed="false">
     <xs:extension base="tns:Setting">
       <xs:sequence>
-        <xs:element minOccurs="0" name="Details" nillable="true" type="q9:ArrayOfArrayOfKeyValuePairOfstringstring" xmlns:q9="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="Details" nillable="true" type="q9:ArrayOfArrayOfKeyValuePairOfstringstring" />
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>

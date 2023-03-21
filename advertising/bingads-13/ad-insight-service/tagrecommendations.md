@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # TagRecommendations Service Operation - Ad Insight
-Notifies Microsoft Advertising that the specific recommendation to create responsive search ads should be tagged as *applied* or *dismissed*. The dismissed recommendations won’t be surfaced to users when calling *GetRecommendations* in the next 30 days.
+Notifies Microsoft Advertising that the specific recommendation to create responsive search ads should be tagged as *applied* or *dismissed*. The dismissed recommendations won't be surfaced to users when calling *GetRecommendations* in the next 30 days.
 
 ## <a name="request"></a>Request Elements
 The *TagRecommendationsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 

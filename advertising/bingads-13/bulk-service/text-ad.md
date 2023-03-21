@@ -384,7 +384,7 @@ The text cannot contain the newline (\n) character.
 ## <a name="title"></a>Title
 The title of the ad. 
 
-The title must contain at least one word. The ad’s copy and title combined must total at least three words.
+The title must contain at least one word. The ad's copy and title combined must total at least three words.
 
 The title can contain dynamic text strings such as {keyword}. For more information, see the Microsoft Advertising help article [Automatically customize your ads with dynamic text parameters](https://help.ads.microsoft.com/#apex/3/en/50811/1).
 

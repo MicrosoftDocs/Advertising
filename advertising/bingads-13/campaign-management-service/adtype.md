@@ -22,19 +22,21 @@ Defines the type of ad.
     <xs:enumeration value="DynamicSearch" />
     <xs:enumeration value="ResponsiveAd" />
     <xs:enumeration value="ResponsiveSearch" />
+    <xs:enumeration value="Hotel" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AdType](adtype.md) value set has the following values: [AppInstall](#appinstall), [DynamicSearch](#dynamicsearch), [ExpandedText](#expandedtext), [Image](#image), [Product](#product), [ResponsiveAd](#responsivead), [ResponsiveSearch](#responsivesearch), [Text](#text).
+The [AdType](adtype.md) value set has the following values: [AppInstall](#appinstall), [DynamicSearch](#dynamicsearch), [ExpandedText](#expandedtext), [Hotel](#hotel), [Image](#image), [Product](#product), [ResponsiveAd](#responsivead), [ResponsiveSearch](#responsivesearch), [Text](#text).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="appinstall"></a>AppInstall|Refers to an [AppInstallAd](appinstallad.md).|
 |<a name="dynamicsearch"></a>DynamicSearch|Refers to a [DynamicSearchAd](dynamicsearchad.md).|
 |<a name="expandedtext"></a>ExpandedText|Refers to an [ExpandedTextAd](expandedtextad.md).|
+|<a name="hotel"></a>Hotel|Reserved.|
 |<a name="image"></a>Image|Reserved for future use.|
 |<a name="product"></a>Product|Refers to a [ProductAd](productad.md).|
 |<a name="responsivead"></a>ResponsiveAd|Refers to a [ResponsiveAd](responsivead.md).|

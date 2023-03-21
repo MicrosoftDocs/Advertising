@@ -21,6 +21,7 @@ Defines a list of optional ad extension properties that you can request when cal
         <xs:enumeration value="Layouts" />
         <xs:enumeration value="ActionTypesPhase3" />
         <xs:enumeration value="ActionTypesPhase4" />
+        <xs:enumeration value="NewFilterLinkHeaders" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -29,7 +30,7 @@ Defines a list of optional ad extension properties that you can request when cal
 
 ## <a name="values"></a>Values
 
-The [AdExtensionAdditionalField](adextensionadditionalfield.md) value set has the following values: [ActionTypesPhase3](#actiontypesphase3), [ActionTypesPhase4](#actiontypesphase4), [DisplayText](#displaytext), [Images](#images), [Layouts](#layouts).
+The [AdExtensionAdditionalField](adextensionadditionalfield.md) value set has the following values: [ActionTypesPhase3](#actiontypesphase3), [ActionTypesPhase4](#actiontypesphase4), [DisplayText](#displaytext), [Images](#images), [Layouts](#layouts), [NewFilterLinkHeaders](#newfilterlinkheaders).
 
 |Value|Description|
 |-----------|---------------|
@@ -38,6 +39,7 @@ The [AdExtensionAdditionalField](adextensionadditionalfield.md) value set has th
 |<a name="displaytext"></a>DisplayText|Request that the [DisplayText](imageadextension.md#displaytext) element be included within each returned [ImageAdExtension](imageadextension.md) object.|
 |<a name="images"></a>Images|Request that the [Images](imageadextension.md#images) element be included within each returned [ImageAdExtension](imageadextension.md) object.|
 |<a name="layouts"></a>Layouts|Request that the [Layouts](imageadextension.md#layouts) element be included within each returned [ImageAdExtension](imageadextension.md) object.|
+|<a name="newfilterlinkheaders"></a>NewFilterLinkHeaders|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

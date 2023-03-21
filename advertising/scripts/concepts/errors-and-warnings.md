@@ -29,7 +29,7 @@ The only time Scripts returns errors is when you add an entity with invalid valu
         }
 ``` 
 
-However, if you try to update an entity’s properties with an invalid value, Scripts does not return an error. Instead, Scripts writes an error message to the [Change Log](./change-and-text-logs.md#change-log) and your code continues executing. For example, the following code attempts to set the ad group's CPC bid. Because the amount is not valid, the call silently fails, the script continues executing, and an error message is written to the change log.
+However, if you try to update an entity's properties with an invalid value, Scripts does not return an error. Instead, Scripts writes an error message to the [Change Log](./change-and-text-logs.md#change-log) and your code continues executing. For example, the following code attempts to set the ad group's CPC bid. Because the amount is not valid, the call silently fails, the script continues executing, and an error message is written to the change log.
 
 ```javascript
 function main() {

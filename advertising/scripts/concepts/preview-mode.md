@@ -9,7 +9,7 @@ ms.topic: "article"
 
 # Running scripts in Preview mode
 
-Preview mode lets you test your script without actually making changes to the data. Instead, you’re shown the results as if the script were executed. This can reduce the amount of time spent setting up test cases. When you're satisfied with the script's output, you can run the script or schedule it to run later.
+Preview mode lets you test your script without actually making changes to the data. Instead, you're shown the results as if the script were executed. This can reduce the amount of time spent setting up test cases. When you're satisfied with the script's output, you can run the script or schedule it to run later.
 
 <!--
 Preview mode is specific to Microsoft Advertising components only. Calls to other services execute as normal. For example, if the script sends an email, the email is sent. The same is true for spreadsheet updates. 

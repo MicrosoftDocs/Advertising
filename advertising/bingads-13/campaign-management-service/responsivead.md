@@ -28,7 +28,7 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
         <xs:element minOccurs="0" name="Headline" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="Headlines" nillable="true" type="tns:ArrayOfAssetLink" />
         <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfAssetLink" />
-        <xs:element minOccurs="0" name="ImpressionTrackingUrls" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImpressionTrackingUrls" nillable="true" type="q4:ArrayOfstring">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />

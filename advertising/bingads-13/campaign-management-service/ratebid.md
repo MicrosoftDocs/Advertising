@@ -5,10 +5,12 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines an object that represents the rate bid. RateBid will be applicable to hotel campaigns with the percent CPC or commission bid schemes.
+description: Defines an object that represents the rate bid.
 ---
 # RateBid Data Object - Campaign Management
 Defines an object that represents the rate bid.
+
+RateBid is applicable to hotel campaigns with the percent CPC or commission bid schemes.
 
 ## Syntax
 ```xml

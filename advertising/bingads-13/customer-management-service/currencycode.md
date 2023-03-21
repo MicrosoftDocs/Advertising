@@ -109,13 +109,14 @@ Defines a selection of currency values.
     <xs:enumeration value="YUN" />
     <xs:enumeration value="ZAR" />
     <xs:enumeration value="ZWD" />
+    <xs:enumeration value="NGN" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CurrencyCode](currencycode.md) value set has the following values: [AED](#aed), [ALL](#all), [AMD](#amd), [ARS](#ars), [AUD](#aud), [AZM](#azm), [BGL](#bgl), [BHD](#bhd), [BND](#bnd), [BOB](#bob), [BRL](#brl), [BYB](#byb), [BZD](#bzd), [CAD](#cad), [CHF](#chf), [CLP](#clp), [CNY](#cny), [COP](#cop), [CRC](#crc), [CZK](#czk), [DKK](#dkk), [DOP](#dop), [DZD](#dzd), [EEK](#eek), [EGP](#egp), [EUR](#eur), [GBP](#gbp), [GEL](#gel), [GTQ](#gtq), [HKD](#hkd), [HNL](#hnl), [HRK](#hrk), [HUF](#huf), [IDR](#idr), [ILS](#ils), [INR](#inr), [IQD](#iqd), [IRR](#irr), [ISK](#isk), [JMD](#jmd), [JOD](#jod), [JPY](#jpy), [KES](#kes), [KGS](#kgs), [KRW](#krw), [KWD](#kwd), [KZT](#kzt), [LBP](#lbp), [LTL](#ltl), [LVL](#lvl), [LYD](#lyd), [MAD](#mad), [MKD](#mkd), [MNT](#mnt), [MOP](#mop), [MVR](#mvr), [MXN](#mxn), [MYR](#myr), [NIO](#nio), [NOK](#nok), [NZD](#nzd), [OMR](#omr), [PAB](#pab), [PEN](#pen), [PHP](#php), [PKR](#pkr), [PLN](#pln), [PYG](#pyg), [QAR](#qar), [ROL](#rol), [RUR](#rur), [SAR](#sar), [SEK](#sek), [SGD](#sgd), [SIT](#sit), [SKK](#skk), [SYP](#syp), [THB](#thb), [TND](#tnd), [TRY](#try), [TTD](#ttd), [TWD](#twd), [UAH](#uah), [USD](#usd), [UYU](#uyu), [UZS](#uzs), [VEF](#vef), [VND](#vnd), [YER](#yer), [YUN](#yun), [ZAR](#zar), [ZWD](#zwd).
+The [CurrencyCode](currencycode.md) value set has the following values: [AED](#aed), [ALL](#all), [AMD](#amd), [ARS](#ars), [AUD](#aud), [AZM](#azm), [BGL](#bgl), [BHD](#bhd), [BND](#bnd), [BOB](#bob), [BRL](#brl), [BYB](#byb), [BZD](#bzd), [CAD](#cad), [CHF](#chf), [CLP](#clp), [CNY](#cny), [COP](#cop), [CRC](#crc), [CZK](#czk), [DKK](#dkk), [DOP](#dop), [DZD](#dzd), [EEK](#eek), [EGP](#egp), [EUR](#eur), [GBP](#gbp), [GEL](#gel), [GTQ](#gtq), [HKD](#hkd), [HNL](#hnl), [HRK](#hrk), [HUF](#huf), [IDR](#idr), [ILS](#ils), [INR](#inr), [IQD](#iqd), [IRR](#irr), [ISK](#isk), [JMD](#jmd), [JOD](#jod), [JPY](#jpy), [KES](#kes), [KGS](#kgs), [KRW](#krw), [KWD](#kwd), [KZT](#kzt), [LBP](#lbp), [LTL](#ltl), [LVL](#lvl), [LYD](#lyd), [MAD](#mad), [MKD](#mkd), [MNT](#mnt), [MOP](#mop), [MVR](#mvr), [MXN](#mxn), [MYR](#myr), [NGN](#ngn), [NIO](#nio), [NOK](#nok), [NZD](#nzd), [OMR](#omr), [PAB](#pab), [PEN](#pen), [PHP](#php), [PKR](#pkr), [PLN](#pln), [PYG](#pyg), [QAR](#qar), [ROL](#rol), [RUR](#rur), [SAR](#sar), [SEK](#sek), [SGD](#sgd), [SIT](#sit), [SKK](#skk), [SYP](#syp), [THB](#thb), [TND](#tnd), [TRY](#try), [TTD](#ttd), [TWD](#twd), [UAH](#uah), [USD](#usd), [UYU](#uyu), [UZS](#uzs), [VEF](#vef), [VND](#vnd), [YER](#yer), [YUN](#yun), [ZAR](#zar), [ZWD](#zwd).
 
 |Value|Description|
 |-----------|---------------|
@@ -177,6 +178,7 @@ The [CurrencyCode](currencycode.md) value set has the following values: [AED](#a
 |<a name="mvr"></a>MVR|The corresponding currency type.|
 |<a name="mxn"></a>MXN|The corresponding currency type.|
 |<a name="myr"></a>MYR|The corresponding currency type.|
+|<a name="ngn"></a>NGN|Reserved.|
 |<a name="nio"></a>NIO|The corresponding currency type.|
 |<a name="nok"></a>NOK|The corresponding currency type.|
 |<a name="nzd"></a>NZD|The corresponding currency type.|

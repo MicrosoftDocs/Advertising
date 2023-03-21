@@ -28,8 +28,8 @@ Defines a campaign.
     <xs:element minOccurs="0" name="DailyBudget" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="ExperimentId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q5:ArrayOfKeyValuePairOfstringstring" xmlns:q5="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
-    <xs:element minOccurs="0" name="GoalIds" nillable="true" type="q6:ArrayOflong" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q5:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q6:ArrayOflong">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -53,7 +53,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="CampaignType" nillable="true" type="tns:CampaignType" />
     <xs:element minOccurs="0" name="Settings" nillable="true" type="tns:ArrayOfSetting" />
     <xs:element minOccurs="0" name="BudgetId" nillable="true" type="xs:long" />
-    <xs:element minOccurs="0" name="Languages" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Languages" nillable="true" type="q7:ArrayOfstring" />
     <xs:element minOccurs="0" name="AdScheduleUseSearcherTimeZone" nillable="true" type="xs:boolean">
       <xs:annotation>
         <xs:appinfo>

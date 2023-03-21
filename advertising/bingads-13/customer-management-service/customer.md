@@ -20,7 +20,7 @@ Defines a customer object that contains one or more Microsoft Advertising accoun
     <xs:element minOccurs="0" name="LastModifiedByUserId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="LastModifiedTime" nillable="true" type="xs:dateTime" />
     <xs:element minOccurs="0" name="MarketCountry" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q4:ArrayOfKeyValuePairOfstringstring" xmlns:q4="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q4:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="MarketLanguage" nillable="true" type="tns:LanguageType" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ServiceLevel" nillable="true" type="tns:ServiceLevel" />

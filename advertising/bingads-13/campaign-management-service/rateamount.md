@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines an object that represents the rate amount.
+description: Defines an object that represents the rate amount in percentage form.
 ---
 # RateAmount Data Object - Campaign Management
 Defines an object that represents the rate amount in percentage form.

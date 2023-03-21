@@ -5,10 +5,9 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description:  Defines the base object of a campaign conversion goal..
+description: Defines the base object of a campaign conversion goal.
 ---
 # CampaignConversionGoal Data Object - Campaign Management
-
 Defines the base object of a campaign conversion goal.
 
 ## Syntax

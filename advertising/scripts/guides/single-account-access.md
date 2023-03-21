@@ -21,7 +21,7 @@ Use `AdsApp` to access all entities in the account. The object contains a select
 
 ### But what if I want a specific entity or subset of entities?
 
-The selector provides different ways to filter the list of entities. You can use the selector’s `withIds()` method to get specific entities by IDs or you can use `withCondition()` to specify the selection criteria for selecting the entities. The selectors for all entity types, except for negative keyword lists, provide the ability to filter the list of entities.
+The selector provides different ways to filter the list of entities. You can use the selector's `withIds()` method to get specific entities by IDs or you can use `withCondition()` to specify the selection criteria for selecting the entities. The selectors for all entity types, except for negative keyword lists, provide the ability to filter the list of entities.
 
 Use dot notation to string multiple filters together. If you specify multiple filters, they're treated as an AND operation &mdash; the selector returns only those entities that match all the conditions. 
 

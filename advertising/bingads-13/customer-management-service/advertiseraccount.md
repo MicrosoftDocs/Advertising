@@ -31,10 +31,10 @@ Defines an advertiser account.
     <xs:element minOccurs="0" name="TimeStamp" nillable="true" type="xs:base64Binary" />
     <xs:element minOccurs="0" name="TimeZone" nillable="true" type="tns:TimeZoneType" />
     <xs:element minOccurs="0" name="PauseReason" nillable="true" type="xs:unsignedByte" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q1:ArrayOfKeyValuePairOfstringstring" xmlns:q1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q1:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="LinkedAgencies" nillable="true" type="tns:ArrayOfCustomerInfo" />
     <xs:element minOccurs="0" name="SalesHouseCustomerId" nillable="true" type="xs:long" />
-    <xs:element minOccurs="0" name="TaxInformation" nillable="true" type="q2:ArrayOfKeyValuePairOfstringstring" xmlns:q2="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="TaxInformation" nillable="true" type="q2:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="BackUpPaymentInstrumentId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="BillingThresholdAmount" nillable="true" type="xs:decimal" />
     <xs:element minOccurs="0" name="BusinessAddress" nillable="true" type="tns:Address" />

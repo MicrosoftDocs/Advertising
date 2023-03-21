@@ -15,7 +15,7 @@ Defines an object that contains the negative site URLs of an ad group.
 <xs:complexType name="AdGroupNegativeSites" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="AdGroupId" type="xs:long" />
-    <xs:element minOccurs="0" name="NegativeSites" nillable="true" type="q25:ArrayOfstring" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NegativeSites" nillable="true" type="q25:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```
