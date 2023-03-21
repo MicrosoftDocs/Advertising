@@ -19,7 +19,7 @@ Defines an object that contains a suggested keyword with historical statistics, 
     <xs:element minOccurs="0" name="AdImpressionShare" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="Competition" nillable="true" type="tns:CompetitionLevel" />
     <xs:element minOccurs="0" name="Keyword" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="MonthlySearchCounts" nillable="true" type="q24:ArrayOflong" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MonthlySearchCounts" nillable="true" type="q24:ArrayOflong" />
     <xs:element minOccurs="0" name="Relevance" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="Source" nillable="true" type="tns:SourceType" />
     <xs:element minOccurs="0" name="SuggestedBid" nillable="true" type="xs:double" />

@@ -73,6 +73,6 @@ Service: [CustomerManagementService.svc v13](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v13/Entities  
 
 ## Used By
-[GetUser](getuser.md) 
-[UpdateUser](updateuser.md) 
-[SignupCustomer](signupcustomer.md) 
+[GetUser](getuser.md)  
+[SignupCustomer](signupcustomer.md)  
+[UpdateUser](updateuser.md)  

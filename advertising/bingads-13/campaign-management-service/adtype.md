@@ -36,7 +36,7 @@ The [AdType](adtype.md) value set has the following values: [AppInstall](#appins
 |<a name="appinstall"></a>AppInstall|Refers to an [AppInstallAd](appinstallad.md).|
 |<a name="dynamicsearch"></a>DynamicSearch|Refers to a [DynamicSearchAd](dynamicsearchad.md).|
 |<a name="expandedtext"></a>ExpandedText|Refers to an [ExpandedTextAd](expandedtextad.md).|
-|<a name="hotel"></a>Hotel|Reserved.|
+|<a name="hotel"></a>Hotel|Refers to a [HotelAd](hotelad.md).|
 |<a name="image"></a>Image|Reserved for future use.|
 |<a name="product"></a>Product|Refers to a [ProductAd](productad.md).|
 |<a name="responsivead"></a>ResponsiveAd|Refers to a [ResponsiveAd](responsivead.md).|

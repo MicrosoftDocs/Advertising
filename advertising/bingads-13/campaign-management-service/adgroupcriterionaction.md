@@ -34,4 +34,5 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
+[ApplyHotelGroupActions](applyhotelgroupactions.md)  
 [ApplyProductPartitionActions](applyproductpartitionactions.md)  
