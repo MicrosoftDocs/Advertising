@@ -180,9 +180,6 @@ The amount to bid in the auction. This is used when the campaign bidding scheme 
 The amount to bid in the auction. This is used when the campaign bidding scheme is PercentCpc or Commission.
 
 **Add:** Required if [Is Excluded](#isexcluded) is *FALSE* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
-**Update:** Optional. If no
-
-**Add:** Required if [Is Excluded](#isexcluded) is *FALSE* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
@@ -284,9 +281,9 @@ The condition's operand. The operands implicitly include the equal operator. For
 
 Use the [Hotel Attribute](#hotelattribute) as the operand for the [Hotel Attribute Value](#hotelattributevalue).
 
-Multiple hotel attributes can be specified for each Microsoft Shopping campaign and ad group. Each condition is met if the hotel's attribute value equals the operand's attribute value. For example, if operand is set to Brand and attribute is set to Contoso, the condition is met if the value of the hotel catalog's Brand attribute is equal to Contoso.
+Multiple hotel attributes can be specified for each campaign and ad group. Each condition is met if the hotel's attribute value equals the operand's attribute value. For example, if operand is set to Brand and attribute is set to Contoso, the condition is met if the value of the hotel catalog's Brand attribute is equal to Contoso.
 
-In Shopping campaigns the hotel attributes can be set at campaign and ad group level. The following table describes Hotel Attribute (operand) and Hotel Attribute Value (attribute) business rules for [Ad Group Hotel Listing Group](ad-group-hotel-listing-group.md) records.
+In your campaigns the hotel attributes can be set at campaign and ad group level. The following table describes Hotel Attribute (operand) and Hotel Attribute Value (attribute) business rules for [Ad Group Hotel Listing Group](ad-group-hotel-listing-group.md) records.
 
 > [!NOTE]
 > Hotel Attribute must be "All" when Hotel Value is set to null or empty for the root node.
@@ -294,11 +291,14 @@ In Shopping campaigns the hotel attributes can be set at campaign and ad group l
 |Hotel Attribute (Operand)|Hotel Attribute Value (Attribute) Description|Ad Group Hotel Listing Group Rules|
 |----------------|-------------------------|----------------------|--------------------------|
 |All|Not applicable.|For an ad group's hotel listing groups, the root node must have operand set to "All" and attribute set to null or empty.|
-|Brand|The hotel's manufacturer, brand, or publisher.<br/><br/>A maximum of 1,000 characters.|The *Brand* operand may be used in multiple branches, but may only be specified once per branch.|
-|CategoryL1-5<br/><br/>Five category operand values are available i.e. CategoryL1, CategoryL2, CategoryL3, CategoryL4, and CategoryL5.|A hotel category defined by the Microsoft Merchant Center store. Please see [Bing Category Taxonomy](https://go.microsoft.com/fwlink?LinkId=507666) for valid category values and taxonomy.<br/><br/>CategoryL0 is the highest level category, and CategoryL4 is the lowest level or most granular category.<br/><br/>A maximum of 100 characters.|Each of the *CategoryL* operands may be used in multiple branches, but may only be specified once per branch. For example one branch may contain *CategoryL1* and *CategoryL2*, but may not contain another node with the CategoryL2 operand.<br/><br/>If you set the operand to a hotel category from 1 through 5, they must be specified in ascending order. For example, the operand can be set to "CategoryL2" with attribute "Pet Supplies", if a higher level hotel listing group has operand "CategoryL1" with attribute "Animals & Pet Supplies".<br/><br/>The prior level hotel category operand doesn't need to be specified in the immediate parent partition. For example a CategoryL2 condition could be specified for a hotel listing group if the parent of its parent specified a CategoryL1 condition.|
-|CustomLabel0-4<br/><br/>Five custom label operand values are available i.e. CustomLabel0, CustomLabel1, CustomLabel2, CustomLabel3, and CustomLabel4.|Each of the *CustomLabel* operands may be used in multiple branches, but may only be specified once per branch. For example one branch may contain *CustomLabel0* and *CustomLabel1*, but may not contain another node with the *CustomLabel1* operand.|
-|HotelId|The hotel identifier defined by the merchant.<br/><br/>A maximum of 1,000 characters.|The *Id* operand may be used in multiple branches, but may only be specified once per branch.|
+|Brand|The hotel's manufacturer, brand, or publisher.<br/><br/>A maximum of 200 characters.|The *Brand* operand may be used in multiple branches, but may only be specified once per branch.|
+|Category|A hotel category, such as "Inn", "Motel", "Resort", etc.<br/><br/>A maximum of 200 characters.|Not applicable.|
+|City|The city where the hotel is located.|Not applicable.|
+|Country|The country where the hotel is located.|Not applicable.|
+|CustomLabel0-4<br/><br/>Five custom label operand values are available i.e. CustomLabel0, CustomLabel1, CustomLabel2, CustomLabel3, and CustomLabel4.|Each of the *CustomLabel* operands may be used in multiple branches, but may only be specified once per branch. For example one branch may contain *CustomLabel0* and *CustomLabel1*, but may not contain another node with the *CustomLabel1* operand.<br/><br/>A maximum of 200 characters.|Not applicable.|
+|HotelId|The hotel identifier.<br/><br/>A maximum of 1,024 characters.|The *Id* operand may be used in multiple branches, but may only be specified once per branch.|
 |StarRating|A hotel rating from 1-5 stars.|Not applicable.|
+|State|The state where the hotel is located.|Not applicable.|
 
 **Add:** Required  
 **Update:** Read-only. You cannot update the condition or value fields. To update the conditions you must delete the hotel listing group and add a new one.    
@@ -306,8 +306,6 @@ In Shopping campaigns the hotel attributes can be set at campaign and ad group l
 
 ## <a name="hotelattributevalue"></a>Hotel Attribute Value
 The condition's attribute value.
-
-An attribute's value must exactly match the value specified in the customer's Microsoft Merchant Center catalog file.
 
 **Add:** Required  
 **Update:** Read-only. You cannot update the condition or value fields. To update the conditions you must delete the hotel listing group and add a new one.    
