@@ -29,7 +29,7 @@ The points of sale feed contains a single, top-level [PointsOfSale](../pos-feed/
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<PointsOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance>
+<PointsOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PointOfSale>
     . . .
   </PointOfSale>

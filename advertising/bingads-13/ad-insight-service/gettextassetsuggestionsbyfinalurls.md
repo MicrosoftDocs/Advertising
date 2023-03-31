@@ -25,7 +25,7 @@ The *GetTextAssetSuggestionsByFinalUrlsRequest* object defines the [body](#reque
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="finalurls"></a>FinalUrls|The last or final URL where a user is ultimately taken, whether or not the click to final URL path included any redirects.|**string** array|
+|<a name="finalurls"></a>FinalUrls|The last or final URL where a user is ultimately taken, whether or not the click to final URL path included any redirects.<br /><br />The maximum array limit of FinalUrls for each request is 5.|**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
