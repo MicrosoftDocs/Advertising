@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # GetTextAssetSuggestionsByFinalUrls Service Operation - Ad Insight
-Gets text asset suggestions by final URLs.
+Gets text asset suggestions by final URLs. 
 
 ## <a name="request"></a>Request Elements
 The *GetTextAssetSuggestionsByFinalUrlsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
