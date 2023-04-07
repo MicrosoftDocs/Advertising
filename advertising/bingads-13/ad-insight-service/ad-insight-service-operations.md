@@ -34,7 +34,7 @@ The Ad Insight service defines the following service operations.
 |[GetKeywordTrafficEstimates](getkeywordtrafficestimates.md)|Provides traffic estimates for keywords e.g., average CPC, average position, clicks, CTR, impressions, and total cost.|N/A.|
 |[GetPerformanceInsightsDetailDataByAccountId](getperformanceinsightsdetaildatabyaccountid.md)|Gets the performance insights detail data for a single account.|N/A.|
 |[GetRecommendations](getrecommendations.md)|Discover your recommendations.|Returns a maximum of 2,000 [Recommendations](getrecommendations.md#response). |
-|[GetTextAssetSuggestionsByFinalUrls](gettextassetsuggestionsbyfinalurls.md)|Gets text asset suggestions by final URLs.|N/A.|
+|[GetTextAssetSuggestionsByFinalUrls](gettextassetsuggestionsbyfinalurls.md)|Gets text asset suggestions by final URLs.|5 *FinalUrls*|
 |[SetAutoApplyOptInStatus](setautoapplyoptinstatus.md)|Set the auto-apply recommendations opt-in status for a single account.|100 *AutoApplyOptInStatusInputs* |
 |[SuggestKeywordsForUrl](suggestkeywordsforurl.md)|Suggests the possible keywords for the content located at the specified URL.|200 *MaxKeywords*<br/>1 *Url*|
 |[SuggestKeywordsFromExistingKeywords](suggestkeywordsfromexistingkeywords.md)|Suggests keywords that could perform better than the specified keywords.|1,000 *Keywords*<br/>100 *MaxSuggestionsPerKeyword*|
