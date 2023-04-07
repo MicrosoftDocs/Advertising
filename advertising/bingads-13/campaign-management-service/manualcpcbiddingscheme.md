@@ -13,7 +13,7 @@ Defines an object that represents the manual CPC bid strategy type.
 With the ManualCpc (manual cost per click) bid strategy, you set your ad group and keyword bids, and Microsoft Advertising uses these bids every time.  
 
 > [!NOTE]
-> As of April 2023, the manual CPC bid strategy will be deprecated. If you attempt to set manual CPC for any campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC. 
+> As of April 2023, the ManualCpc bid strategy is deprecated for all campaign types except video audience. If you attempt to set ManualCpc for any campaign type, the request will be ignored without error and the bid strategy will be set to EnhancedCpc.
 
 ## Syntax
 ```xml
