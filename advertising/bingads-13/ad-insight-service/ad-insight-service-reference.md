@@ -7,7 +7,7 @@ ms.author: jonmeyers
 description: Reference documentation for the Ad Insight API.
 ---
 # Ad Insight API
-The Ad Insight [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to determine the historical performance of keywords, get the estimated bid and position for a keyword, and to get suggested keywords from an existing keyword or from the content at a specified URL. The service can also help you discover bid, budget, keyword, and responsive search ads opportunities. Additionally, you can use this service to manage auto-apply recommendation status.
+The Ad Insight [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you can use to determine the historical performance of keywords, get the estimated bid and position for a keyword, and to get suggested keywords from an existing keyword or from the content at a specified URL. The service can also help you discover bid, budget, keyword, and responsive search ads opportunities. Beyond that, you can get assets suggestions to help you improve your existing ads or create new ads. Additionally, you can use this service to manage auto-apply recommendation status.
 
 |Interface|Description|
 |---------|---------|

@@ -14,7 +14,7 @@ Defines a campaign.
 > You can no longer add, update, or retrieve campaigns that only support dynamic search ads. The campaign type of your existing campaigns has been updated from "DynamicSearchAds" to "Search". The ad groups are now considered "dynamic" ad groups, but there are no structural changes i.e., they contain the same auto targets and dynamic search ads as before.  
 
 > [!NOTE]
-> As of April 2023, the manual CPC bid strategy will be deprecated. If you attempt to set manual CPC for any campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
+> As of April 2023, the ManualCpc bid strategy is deprecated for all campaign types except video audience. If you attempt to set ManualCpc for any campaign type, the request will be ignored without error and the bid strategy will be set to EnhancedCpc.
 >  
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.  
 
