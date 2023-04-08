@@ -1467,6 +1467,39 @@ RecommendationInfo(RecommendationId) are contained in the array of input.
 
 ***
 
+**Numeric Code**
+831
+
+**Symbolic Error Code**
+FinalUrlsExceeded
+
+**Description**
+The FinalUrls list exceeds the size limit.
+
+***
+
+**Numeric Code**
+832
+
+**Symbolic Error Code**
+FinalUrlsInvalid
+
+**Description**
+The FinalUrls input is invalid.
+
+***
+
+**Numeric Code**
+833
+
+**Symbolic Error Code**
+ServiceTimeOut
+
+**Description**
+A service timeout because the network or service is not available.
+
+***
+
 ## 1000
 ***
 

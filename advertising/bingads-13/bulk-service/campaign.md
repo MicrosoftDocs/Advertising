@@ -269,7 +269,7 @@ The bid strategy type for how you want to manage your bids.
 The possible bid strategy type values are EnhancedCpc, ManualCpc, MaxClicks, MaxConversions, TargetCpa, TargetImpressionShare, and TargetRoas. For details about supported bid strategies per campaign type, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
 > [!IMPORTANT]
-> As of April 2023, the manual CPC bid strategy will be deprecated. If you attempt to set manual CPC for any campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
+> As of April 2023, the ManualCpc bid strategy is deprecated for all campaign types except video audience. If you attempt to set ManualCpc for any campaign type, the request will be ignored without error and the bid strategy will be set to EnhancedCpc.
 > 
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy. 
   
