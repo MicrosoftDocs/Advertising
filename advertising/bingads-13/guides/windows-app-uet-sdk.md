@@ -1,12 +1,12 @@
 ---
-title: "Microsoft App UET SDK"
+title: "Windows App UET SDK"
 ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 description: For the Microsoft Store app, we provide an SDK to fire UET events. However, this works slightly differently than web based UET.
 ---
-# Microsoft App UET SDK
+# Windows App UET SDK
 Users are spending an increasing amount of time on the Microsoft Store app now more than ever. Some of their activities on the store app include browsing, searching for products, research on product details, and even completing purchases. Customers who spend a lot of time on the store app are often the most valuable audience to the advertiser.  
 
 Much like user activity signals from UET JavaScript tags on the web, user signals from the store app are critical to help Microsoft Advertising identify users across channels, to understand their behavior to optimize remarketing, campaign creatives and improve ad selection accuracy, relevance, and performance. Reporting on in-app signals and conversions in turn helps advertisers optimize ad targeting, accurately measure ad campaign outcomes, and see better yield for ad spend. 
