@@ -1103,8 +1103,6 @@
       displayName: google ads import as a service
     - name: Labels
       href: ./labels.md
-    - name: Microsoft App UET SDK
-      href: ./microsoft-app-uet-sdk.md
     - name: Mixed Campaigns
       href: ./mixed-campaigns.md
     - name: Negative Keywords
@@ -1119,6 +1117,8 @@
       href: ./smart-shopping-campaigns.md
     - name: Universal Event Tracking
       href: ./universal-event-tracking.md
+    - name: Windows App UET SDK
+      href: ./windows-app-uet-sdk.md
   - name: Campaign Management Service Operations
     items: 
     - name: Overview
