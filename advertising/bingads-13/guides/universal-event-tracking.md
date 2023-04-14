@@ -21,7 +21,7 @@ For details please see these API overview sections below:
 - [Conversion Goal APIs](#conversiongoals)
 - [Audience APIs](#audience)
 
-## <a name="uet"></a>Universal Event Tracking APIs
+## <a name="uet"></a>Universal Event Tracking APIs 
 
 Before you can track conversions or target audiences using a remarketing list, you need to create a UET tag in Microsoft Advertising (web application or API) and then add the UET tag tracking code to every page of your website. This section describes how you can setup UET tags using the Bing Ads API. For information about setting up UET tags using the Microsoft Advertising web application, see [How do I create a UET tag?](https://help.ads.microsoft.com/#apex/3/en/56682/2-500) and [FAQ: Universal Event Tracking](https://help.ads.microsoft.com/#apex/3/en/53056/2). 
 
