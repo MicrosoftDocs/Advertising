@@ -1103,6 +1103,8 @@
       displayName: google ads import as a service
     - name: Labels
       href: ./labels.md
+    - name: Microsoft App UET SDK
+      href: ./microsoft-app-uet-sdk.md
     - name: Mixed Campaigns
       href: ./mixed-campaigns.md
     - name: Negative Keywords
