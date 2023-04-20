@@ -98,9 +98,6 @@ public sealed partial class MainPage : Page
     } 
 ```
 
-#### <a name="notes"></a>Notes
-Windows App UET SDK relies on the campaignId field. This could be either the *msclickId* or *campaignID*. The campaignID/msclickId will be injected into the store. [Learn more](https://learn.microsoft.com/uwp/api/windows.services.store.storecollectiondata.campaignid?view=winrt-22621).
-
 #### <a name="logging"></a>Logging
 We encourage a period of testing to make sure we are accurately sending data. Our team will help with this process. Typically, we look for validation and alignment on the format of data we’re receiving. We may need help with examining your integration to ensure we’re receiving and reporting data as accurately as possible.  
 
