@@ -29,13 +29,13 @@ Before you can use Windows App UET SDK, you need to make sure you have the follo
 To install Windows App UET SDK, you’ll need the package from nuget.org.
 
 ### <a name="requirements"></a>Requirements
-You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](https://learn.microsoft.com/advertising/guides/universal-event-tracking#uet). *Note:* Currently, Windows App UET SDK only supports tracking events in Universal Windows Platform apps installed from the Microsoft Store through an ad. 
+You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). *Note:* Currently, Windows App UET SDK only supports tracking events in Universal Windows Platform apps installed from the Microsoft Store through an ad. 
 
 ## <a name="tracking-app-initialization"></a>Tracking App Initialization 
 To create an instance of Windows App UET SDK, you’ll need to call the constructor *uetSdk = new UETSdk(number tagId);* where tagID is your UET tagID. *Note:* Once an instance of UET is created, the SDK will track launches of your app automatically. 
 
 ### <a name="custom-goals"></a>Custom Goals via the trackGoal API 
-The Windows App UET SDK provides the trackGoal API for tracking custom events and goals. You can pair this custom event tracking with conversion goals to measure the ROI (return on investment) of your advertising campaign. [Learn more about conversion goals and custom events](https://learn.microsoft.com/advertising/guides/universal-event-tracking#conversiongoals).
+The Windows App UET SDK provides the trackGoal API for tracking custom events and goals. You can pair this custom event tracking with conversion goals to measure the ROI (return on investment) of your advertising campaign. [Learn more about conversion goals and custom events](./universal-event-tracking.md#conversiongoals).
 
 **Optional Parameters**
 
