@@ -109,7 +109,7 @@ To filter the data in the report, use the[ReportJob](reference.md#reportjob) obj
 
 Using filters is an AND operation. For example, if you filter on HotelPartnerId equal to 123 and DeviceType equal to Mobile, the report contains data only where the partner's hotel ID is 123 AND the device type is mobile.
 
-To filter a report's data, set `Filter` to an OData [$filter](http://www.odata.org/getting-started/basic-tutorial/#queryData) string. The following example shows how to filter the report for ads shown on desktops and tablets. The enumeration values that you use in the filter are case sensitive. For example, use Desktop instead of desktop.
+To filter a report's data, set `Filter` to an OData [$filter](https://www.odata.org/getting-started/basic-tutorial/#queryData) string. The following example shows how to filter the report for ads shown on desktops and tablets. The enumeration values that you use in the filter are case sensitive. For example, use Desktop instead of desktop.
 
 ```json
 {
@@ -368,7 +368,7 @@ window.uetq.push('event', 'my_hotel_event_action', {​
 });​
 ```
 
-To preview example events being fired in real-time, see [Reporting hotel conversion events](http://bingadsuet.azurewebsites.net/HotelConversions.html)
+To preview example events being fired in real-time, see [Reporting hotel conversion events](https://bingadsuet.azurewebsites.net/HotelConversions.html)
 
 
 After adding a UET tag to your websites, you can start including the following list of conversion tracking metrics in your report request.
