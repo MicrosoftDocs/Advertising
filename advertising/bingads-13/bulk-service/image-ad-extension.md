@@ -118,7 +118,7 @@ The following example demonstrates day and time ranges during weekdays from 9:00
 ## <a name="alternativetext"></a>Alternative Text
 Alternative description of the image media for usability. If the image could not be displayed, the alternative text is used instead.
 
-The maximum length for this field is 35 characters.
+The maximum length for this field is 90 characters.
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
@@ -169,20 +169,20 @@ The URL can contain a maximum of 1,024 characters. If the URL does not specify a
 > [!NOTE]
 > If the URL is not specified for the image ad extension, the URL of the ad is used.
 
-**Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Add:** Optional. *Note:* This field is required for multi-image ad extensions.
+**Update:** Optional. If no value is set for the update, this setting is not changed. *Note:* This field is required for multi-image ad extensions.  
 **Delete:** Read-only  
 
 ## <a name="displaytext"></a>Display Text
 The display text of your image extension.
 
-The maximum length for this field is 100 characters.
+The maximum length for this field is 35 characters.
 
 > [!IMPORTANT]
 > All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Display Text](#displaytext) field.  
 
-**Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Add:** Required  
+**Update:** Required. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
 ## <a name="editoriallocation"></a>Editorial Location
