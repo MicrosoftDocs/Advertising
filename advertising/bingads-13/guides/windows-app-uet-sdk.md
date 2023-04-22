@@ -63,6 +63,10 @@ Use these parameters when constructing UET requests:
 *Note:* You can send *null* for these parameters if they are not available. 
 
 #### <a name="code-examples"></a>Code Examples
+
+> [!NOTE]
+> We currently support C#. Support for other languages is coming soon.
+
 Here is an example of Windows App UET SDK usage in C# for a Universal Windows Platform app: 
 
  
