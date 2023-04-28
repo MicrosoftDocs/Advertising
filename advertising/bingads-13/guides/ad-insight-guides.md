@@ -18,6 +18,7 @@ These technical guides apply to the Ad Insight service and may also depend on ot
 |[Keyword Ideas and Traffic Estimates](keyword-ideas-traffic-estimates.md)|Identify keywords that describe your business and how much you should bid on those keywords to be competitive with other advertisers.|
 |[Auto-apply Management](ad-insights-auto-apply-management.md)| Set or Get auto-apply recommendations which helps to boost your ad performance.|
 |[Responsive Search Ads Opportunities](responsive-search-ads-opportunities.md)| Get responsive search ads recommendations, and tell Microsoft Advertising which ones are either *applied* or *dismissed*.|
+|[Text Assets](text-assets.md)| Get text asset suggestions.|
 
 ## See Also
 
