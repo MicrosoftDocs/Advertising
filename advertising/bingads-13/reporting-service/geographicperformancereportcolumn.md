@@ -168,7 +168,6 @@ The report must include the following columns at a minimum. As a general rule, e
 
 |Column|
 |----------|
-|AccountName|
 |TimePeriod|
 
 ## Requirements
