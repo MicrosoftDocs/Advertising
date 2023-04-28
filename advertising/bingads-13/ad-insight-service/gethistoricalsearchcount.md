@@ -28,7 +28,7 @@ The *GetHistoricalSearchCountRequest* object defines the [body](#request-body) a
 |<a name="devices"></a>Devices|A list of one or more of the following device types: Computers, NonSmartphones, Smartphones, Tablets. The default is Computers.<br/><br/>The response includes search counts for the device types that you specify only, if available.|**string** array|
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the historical search count.<br/><br/>The date cannot be later than today's date, and must be later than or the same as the specified start date.<br/><br/>The effective end date may be adjusted if the specified [TimePeriodRollup](#timeperiodrollup) is Weekly or Monthly.|[DayMonthAndYear](daymonthandyear.md)|
 |<a name="keywords"></a>Keywords|An array of keywords for which you want to determine the number of times that the keyword was used in a search query. The array can contain a maximum of 1,000 keywords, and each keyword can contain a maximum of 100 characters.|**string** array|
-|<a name="language"></a>Language|The language in which the keywords are written.<br/><br/>The countries/regions that you specify in the *PublisherCountries* element must support the specified language.<br/><br/>For possible values, see [Ad Languages](../guides/ad-languages.md).|**string**|
+|<a name="language"></a>Language|The language in which the keywords are written.<br/><br/>The countries/regions that you specify in the *PublisherCountries* element must support the specified language.<br/><br/>For possible values, see [Supported Languages](#supported-languages).|**string**|
 |<a name="publishercountries"></a>PublisherCountries|The country codes of the countries/regions to use as the source of the historical data.<br/><br/>You can specify one or more country codes. Each country/region that you specify must support the language specified in the *Language* element.<br/><br/>For possible values, see [Ad Languages](../guides/ad-languages.md#productlanguage).<br/><br/>If Null, the default is all countries/regions that support the specified language.|**string** array|
 |<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the historical search count.<br/><br/>This date must be earlier than or the same as the specified end date. The date should be later than the maximum available historical data range corresponding to the specified [TimePeriodRollup](#timeperiodrollup) element.<br/><br/>The effective start date may be adjusted if the specified [TimePeriodRollup](#timeperiodrollup) is Weekly or Monthly.|[DayMonthAndYear](daymonthandyear.md)|
 |<a name="timeperiodrollup"></a>TimePeriodRollup|You may specify whether to return data aggregated daily, weekly, or monthly.<br/><br/>For a list of supported values, see the [Remarks](#remarks) section below.|**string**|
@@ -221,4 +221,83 @@ The following case-sensitive values may be specified, and data will be returned 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
 Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+
+## Supported Languages
+Here are the supported languages for the *Language* request body element:
+
+|Supported Languages|
+|--------------------|
+|Danish|
+|Dutch|
+|English|
+|Finnish|
+|French|
+|German|
+|Italian|
+|Norwegian|
+|Portuguese|
+|SimplifiedChinese|
+|Spanish|
+|Swedish|
+|TraditionalChinese|
+
+### <a name="languages-and-country-mapping"></a>Languages and Country Mapping
+Here is a table of languages and country mapping:
+
+|Language|CountryCode|Country|Language@Country|
+|--------------------|-----|--------------------------|--------------------|
+|Danish|DK|Denmark|	Danish@Denmark|
+|Dutch|NL|Netherlands|Dutch@Netherlands|
+|English|AU|Australia|English@Australia|
+|English|CA|Canada|English@Canada|
+|English|FR|France|English@France|
+|English|DE|Germany|English@Germany|
+|English|IN|India|English@India|
+|English|ID|Indonesia|English@Indonesia|
+|English|IE|Ireland|English@Ireland|
+|English|IT|Italy|English@Italy|
+|English|MY|Malaysia|English@Malaysia|
+|English|NL|Netherlands|English@Netherlands|
+|English|NZ|NewZealand|English@NewZealand|
+|English|PH|Philippines|English@Philippines|
+|English|SG|Singapore|English@Singapore|
+|English|ES|Spain|English@Spain|
+|English|SE|Sweden|English@Sweden|
+|English|CH|Switzerland|English@Switzerland|
+|English|TH|Thailand|English@Thailand|
+|English|GB|United Kingdom|English@UK|
+|English|US|United States|English@US|
+|English|VN|Vietnam|English@Vietnam|
+|Finnish|FI|Finland|Finnish@Finland|
+|French|CA|Canada|French@Canada|
+|French|FR|France|French@France|
+|French|CH|Switzerland|French@Switzerland|
+|French|GB|United Kingdom|French@UK|
+|French|US|United States|French@US|
+|German|AU|Australia|German@Australia|
+|German|AT|Austria|German@Austria|
+|German|CA|Canada|German@Canada|
+|German|FR|France|German@France|
+|German|DE|Germany|German@Germany|
+|German|CH|Switzerland|German@Switzerland|
+|German|GB|United Kingdom|German@UK|
+|German|US|United States|German@US|
+|Italian|IT|Italy|Italian@Italy|
+|Norwegian|NO|Norway|Norwegian@Norway|
+|Portuguese|BR|Brazil|Portuguese@Brazil|
+|SimplifiedChinese|CN|China|SimplifiedChinese@China|
+|Spanish|AR|Argentina|Spanish@Argentina|
+|Spanish|CL|Chile|Spanish@Chile|
+|Spanish|CO|Colombia|Spanish@Colombia|
+|Spanish|MX|Mexico|Spanish@Mexico|
+|Spanish|PE|Peru|Spanish@Peru|
+|Spanish|ES|Spain|Spanish@Spain|
+|Spanish|US|US|Spanish@US|
+|Spanish|VE|Venezuela|Spanish@Venezuela|
+|Swedish|SE|Sweden|Swedish@Sweden|
+|TraditionalChinese|HK|HongKongSAR|TraditionalChinese@HongKongSAR|
+|TraditionalChinese|TW|Taiwan|TraditionalChinese@Taiwan|
+
+
+
 
