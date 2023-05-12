@@ -386,7 +386,7 @@ The type of match to compare the keyword and the user's search term.
 The supported match type values for a keyword are *Broad*, *Exact* and *Phrase*.
 
 **Add:** Required  
-**Update:** Read-only    
+**Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
 ## <a name="mobilefinalurl"></a>Mobile Final Url
