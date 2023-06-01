@@ -15,6 +15,7 @@ Do not try to instantiate a *BiddingScheme*. You can create one or more of the f
 - [CommissionBiddingScheme](commissionbiddingscheme.md)  
 - [EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md)  
 - [InheritFromParentBiddingScheme](inheritfromparentbiddingscheme.md)  
+- [ManualCpaBiddingScheme](manualcpabiddingscheme.md)  
 - [ManualCpcBiddingScheme](manualcpcbiddingscheme.md)  
 - [ManualCpmBiddingScheme](manualcpmbiddingscheme.md)  
 - [ManualCpvBiddingScheme](manualcpvbiddingscheme.md)  
