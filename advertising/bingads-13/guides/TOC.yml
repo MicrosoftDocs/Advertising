@@ -1487,6 +1487,8 @@
       href: ../campaign-management-service/conversiongoalrevenue.md
     - name: CoOpSetting
       href: ../campaign-management-service/coopsetting.md
+    - name: CostPerSaleBiddingScheme
+      href: ../campaign-management-service/costpersalebiddingscheme.md
     - name: Criterion
       href: ../campaign-management-service/criterion.md
     - name: CriterionBid
@@ -1631,6 +1633,8 @@
       href: ../campaign-management-service/locationcriterion.md
     - name: LocationIntentCriterion
       href: ../campaign-management-service/locationintentcriterion.md
+    - name: ManualCpaBiddingScheme
+      href: ../campaign-management-service/manualcpabiddingscheme.md
     - name: ManualCpcBiddingScheme
       href: ../campaign-management-service/manualcpcbiddingscheme.md
     - name: ManualCpmBiddingScheme
