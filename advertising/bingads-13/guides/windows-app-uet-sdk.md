@@ -6,12 +6,15 @@ author: jonmeyers
 ms.author: jonmeyers
 description: For the Microsoft Store app, we provide an SDK to fire UET events. However, this works slightly differently than web based UET.
 ---
+
 # Windows App UET SDK
+
 Users are spending an increasing amount of time on the Microsoft Store app now more than ever. Some of their activities on the store app include browsing, searching for products, research on product details, and even completing purchases. Customers who spend a lot of time on the store app are often the most valuable audience to the advertiser.  
 
 Much like user activity signals from UET JavaScript tags on the web, user signals from the store app are critical to help Microsoft Advertising identify users across channels, to understand their behavior to optimize remarketing, campaign creatives and improve ad selection accuracy, relevance, and performance. Reporting on in-app signals and conversions in turn helps advertisers optimize ad targeting, accurately measure ad campaign outcomes, and see better yield for ad spend. 
 
-## <a name="microsoft-store-ads"></a>Get Started - Microsoft Store Ads 
+## <a name="microsoft-store-ads"></a>Get Started - Microsoft Store Ads
+
 For the Microsoft Store app, we provide an SDK to fire UET events. However, this works slightly differently than web based UET. This guide shows you how to add app events to your new or existing app by integrating Windows App UET SDK to log user interaction events. For more information on web based Universal Event Tracking (UET) which is also a Microsoft framework, please refer to [Microsoft Ads web UET help documentation](https://help.ads.microsoft.com/#apex/ads/en/56681/2-500).
 
 Before you can use Windows App UET SDK, you need to make sure you have the following prerequisites ready:  
@@ -26,28 +29,31 @@ Before you can use Windows App UET SDK, you need to make sure you have the follo
 To install Windows App UET SDK, [download the NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk).
 
 ### <a name="requirements"></a>Requirements
-You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). *Note:* Currently, Windows App UET SDK only supports tracking events in Universal Windows Platform apps installed from the Microsoft Store through an ad. 
 
-## <a name="tracking-app-initialization"></a>Tracking App Initialization 
+You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). *Note:* Currently, Windows App UET SDK only supports tracking events in Universal Windows Platform apps installed from the Microsoft Store through an ad.
+
+## <a name="tracking-app-initialization"></a>Tracking App Initialization
+
 To create an instance of Windows App UET SDK, you’ll need to call the constructor *uetSdk = new UETSdk(number tagId);* where tagID is your UET tagID. *Note:* Once an instance of UET is created, the SDK will track launches of your app automatically. 
 
-### <a name="custom-goals"></a>Custom Goals via the trackGoal API 
+### <a name="custom-goals"></a>Custom Goals via the trackGoal API
+
 The Windows App UET SDK provides the trackGoal API for tracking custom events and goals. You can pair this custom event tracking with conversion goals to measure the ROI (return on investment) of your advertising campaign. [Learn more about conversion goals and custom events](./universal-event-tracking.md#conversiongoals).
 
-**Optional Parameters**
+#### Optional Parameter
 
 These parameters help to capture richer user interaction data. These events are used in creating remarketing and dynamic remarketing lists and defining conversion goals. Here are some of the pages where these events could be applicable:  
 
-- Homepage 
-- Category browse page 
-- Search results page 
-- Product display page 
-- Cart page 
-- Purchase confirmation page and others 
+- Homepage
+- Category browse page
+- Search results page
+- Product display page
+- Cart page
+- Purchase confirmation page and others
 
 Call the following to set custom goals: *uetSdk.TrackGoal (string action, string label, string category, float revenue, string currencyCode)*
 
-Use these parameters when constructing UET requests: 
+Use these parameters when constructing UET requests:
 
 | Parameter | Description |
 | --- | ----------- |
@@ -59,7 +65,7 @@ Use these parameters when constructing UET requests:
 
 *Note:* You can send *null* for these parameters if they are not available. 
 
-#### <a name="code-examples"></a>Code Examples
+## <a name="code-examples"></a>Code Examples
 
 > [!NOTE]
 > We currently support C# and C++.
@@ -99,7 +105,7 @@ public sealed partial class MainPage : Page
     } 
 ```
 
-#### <a name="cpluspluswinrt"></a>Consuming UET SDK from C++/WinRT app
+### <a name="cpluspluswinrt"></a>Consuming UET SDK from C++/WinRT app
 
 Follow these steps to reference C# UWP UET SDK from your C++/WinRT Application.
 
@@ -118,6 +124,7 @@ Follow these steps to reference C# UWP UET SDK from your C++/WinRT Application.
    <NugetPath>$(ProgramFiles)\Microsoft SDKs\UWPNuGetPackages</NugetPath>
 <!-- End Custom .NET Native properties -->
 ```
+
 The values for *DotNetNativeVersion*, *DotNetNativeSharedLibrary*, and *UWPCoreRuntimeSdkVersion* may vary depending on the version of Visual Studio. To set them to the correct values, open the %ProgramFiles(x86)%\Microsoft SDKs\UWPNuGetPackages and look at the sub-directory for each value in the table below. The %ProgramFiles(x86)%\Microsoft SDKs\UWPNuGetPackages\Microsoft.Net.Native.Compiler directory will have a sub-directory that contains an installed version of .NET native that starts with 2.2. In the example below, it is 2.2.9-rel-29512-01.
 
 | MSBuild Variable | Directory |
@@ -148,6 +155,7 @@ There are multiple supported architectures for Microsoft.Net.Native.SharedLibrar
   <Import Condition="'$(WindowsTargetPlatformMinVersion)' &gt;= '10.0.16299.0'" Project="$(NugetPath)\runtime.win10-arm64.Microsoft.Net.Native.SharedLibrary\$(DotNetNativeSharedLibrary)\build\runtime.win10-arm64.Microsoft.Net.Native.SharedLibrary.props" />
 <!-- End Custom .NET Native targets -->
 ```
+
 - At the end of the project file, just before the closing *Project* tag, add the following (unaltered):
 
 ```xml
@@ -169,30 +177,64 @@ There are multiple supported architectures for Microsoft.Net.Native.SharedLibrar
 
 - Reload the project file in Visual Studio. To do this, in the Visual Studio Solution Explorer, open the shortcut menu for the {YourCppProject} project and choose **Reload Project**.
 
-#### <a name="logging"></a>Logging
+## <a name="uet-setup"></a>UET Tag Step-by-step Setup Guide
+
+You will need a UET tag ID to use the SDK. The following steps show how to create a UET tag and get its ID in the Microsoft Advertising UI.
+
+1. Create your UET tag.
+![Windows App UET SDK Step 1](media/uet-sdk-step-1.png "Step 1")  
+
+2. Add the UET tag to your website.
+![Windows App UET SDK Step 2a](media/uet-sdk-step-2-a.png "Step 2a")  
+You can see the UET tag in the table.
+![Windows App UET SDK Step 2b](media/uet-sdk-step-2-b.png "Step 2b")
+
+3. Set up your custom goals.
+    1. Choose what kind of conversions you want to track.
+    ![Windows App UET SDK Step 3a](media/uet-sdk-step-3-a.png "Step 3a")
+    2. Choose a goal category.
+    ![Windows App UET SDK Step 3b](media/uet-sdk-step-3-b.png "Step 3b")
+    3. Choose a goal type.
+    ![Windows App UET SDK Step 3c](media/uet-sdk-step-3-c.png "Step 3c")
+    4. Create an event goal.
+    ![Windows App UET SDK Step 3d](media/uet-sdk-step-3-d.png "Step 3d")
+
+4. Set up tagging.
+![Windows App UET SDK Step 4](media/uet-sdk-step-4.png "Step 4")
+
+5. Install your event tag on your website.
+    1. Select "Manual installation."
+    ![Windows App UET SDK 5a](media/uet-sdk-step-5-a.png "Step 5a")
+    2. Copy that tag for installation.
+    ![Windows App UET SDK 5b](media/uet-sdk-step-5-b.png "Step 5b")
+
+## <a name="logging"></a>Logging
+
 We encourage a period of testing to make sure we are accurately sending data. Our team will help with this process. Typically, we look for validation and alignment on the format of data we’re receiving. We may need help with examining your integration to ensure we’re receiving and reporting data as accurately as possible.  
 
-#### <a name="uet-dashboard"></a>UET Dashboard 
+## <a name="uet-dashboard"></a>UET Dashboard
+
 The UET dashboard feature gives a live view of key metadata for any given tag. Customers can send this metadata to our data collection endpoint for simple taoubleshooting. Users will be able to get aggregate insights and detailed data on all events and specific parameters that were sent in the last 30 days.  
 
 Metadata includes the following:  
 
-- Tag ID and Name 
-- Tag Status: active/inactive/receiving traffic 
-- Counts on goals and audiences tied to the tag 
+- Tag ID and Name
+- Tag Status: active/inactive/receiving traffic
+- Counts on goals and audiences tied to the tag
 
 Payload will include:  
 
 - Custom events with event type  
-- Total event count that we receive per day 
-- Parameters received.  
+- Total event count that we receive per day
+- Parameters received.
 
 Customers will have the option of exporting this data to an excel file.  
 
 ![Universal Event Tracking](media/uet-dashboard.png "UET Dashboard")
 
-#### <a name="compliance"></a>Compliance
-When you use Windows App UET SDK for the Microsoft Store app, our business terms require that you have an appropriate legal basis to collect and process users' information. Under GDPR and other EU (European Union) and CCPA data protection regulations, you are required to obtain end user consent before sending data via our SDK. Thus, you need to ensure that your SDK implementation meets these consent requirements. 
+## <a name="compliance"></a>Compliance
+
+When you use Windows App UET SDK for the Microsoft Store app, our business terms require that you have an appropriate legal basis to collect and process users' information. Under GDPR and other EU (European Union) and CCPA data protection regulations, you are required to obtain end user consent before sending data via our SDK. Thus, you need to ensure that your SDK implementation meets these consent requirements.
 
 ## See Also
  
