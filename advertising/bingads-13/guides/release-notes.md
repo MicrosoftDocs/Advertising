@@ -18,15 +18,15 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication will be required
 
-[!INCLUDE[request-header](./includes/mfa-required.md)
+[!INCLUDE[request-header](./includes/mfa-required.md)]
 
 ## <a name="june2023"></a>June 2023
 
 See below for Bing Ads API updates during this calendar month.  
  
-- [New API Interfaces](#newapiinterfaces-december2022)  
-- [Bulk Service](#bulkservice-december2022)  
-- [Bing Ads API SDK Updates](#sdk-december2022)  
+- [New API Interfaces](#newapiinterfaces-june2023)  
+- [Bulk Service](#bulkservice-june2023)  
+- [Bing Ads API SDK Updates](#sdk-june2023)  
 
 ### <a name="newapiinterfaces-june2023"></a>New API Interfaces  
 
@@ -38,7 +38,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="sdk-june2023"></a>Bing Ads API SDK Updates
 
-The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.16), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.16), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.16), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.16) SDK version 13.0.15. 
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.16), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.16), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.16), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.16) SDK version 13.0.16. 
 
 ## <a name="december2022"></a>December 2022
 
