@@ -18,9 +18,9 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication will be required
 
-[!INCLUDE[request-header](./includes/mfa-required.md)]
+[!INCLUDE[request-header](./includes/mfa-required.md)
 
-## <a name="december2022"></a>December 2022
+## <a name="june2023"></a>June 2023
 
 See below for Bing Ads API updates during this calendar month.  
  
@@ -28,11 +28,32 @@ See below for Bing Ads API updates during this calendar month.
 - [Bulk Service](#bulkservice-december2022)  
 - [Bing Ads API SDK Updates](#sdk-december2022)  
 
-### <a name="newapiinterfaces-december2022"></a>New API Interfaces  
-* **AdInsight API**: [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md) 
-* **CustomerManagement API**: [SignupCustomer](../customer-management-service/signupcustomer.md)
-* **Reporting API**: [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting <br />
-* **CampaignManagement API**: [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
+### <a name="newapiinterfaces-june2023"></a>New API Interfaces  
+
+- **CampaignManagement API**: PMax Campaign, new Bidding Schemes ([CostPerSaleBiddingScheme](../campaign-management-service/costpersalebiddingscheme.md), [ManualCpaBiddingScheme](../campaign-management-service/manualcpabiddingscheme.md)).
+
+### <a name="bulkservice-june2023"></a>Bulk Service
+
+- Bulk support of PMax campaigns: AssetGroup, AssetGroupListingGroup, AudienceGroup, AudienceGroupAssetGroupAssociation, CampaignNegativeWebPage.  
+
+### <a name="sdk-june2023"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.16), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.16), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.16), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.16) SDK version 13.0.15. 
+
+## <a name="december2022"></a>December 2022
+
+See below for Bing Ads API updates during this calendar month.
+
+- [New API Interfaces](#newapiinterfaces-december2022)  
+- [Bulk Service](#bulkservice-december2022)  
+- [Bing Ads API SDK Updates](#sdk-december2022)  
+
+### <a name="newapiinterfaces-december2022"></a>New API Interfaces
+
+- **AdInsight API**: [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md)
+- **CustomerManagement API**: [SignupCustomer](../customer-management-service/signupcustomer.md)
+- **Reporting API**: [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting <br />
+- **CampaignManagement API**: [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
 
 ### <a name="bulkservice-december2022"></a>Bulk Service
 * Bulk support for OnlineConversionAdjustment  
