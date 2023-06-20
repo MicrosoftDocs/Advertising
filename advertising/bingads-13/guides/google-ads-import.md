@@ -95,6 +95,8 @@ Now that you've imported your campaigns from Google Ads, you can check the statu
 
 You can get import results via the [GetImportResults](../campaign-management-service/getimportresults.md) operation. Be sure to set the [ImportType](../campaign-management-service/getimportresults.md#importtype) element to "GoogleImportJob". The operation can return multiple results for the same import job e.g., if the scheduled import already ran every week for the last 8 weeks you'll get 8 results. If an import is scheduled for a future date, then no import results will be returned for that import job. 
 
+You can get mappings of your source entity IDs to Microsoft Advertising entity IDs with the [*GetImportEntityIdsMapping*](../campaign-management-service/getimportentityidsmapping.md) service.
+
 For more details about what does and doesn't get imported from Google Ads, see [What gets imported](https://help.ads.microsoft.com/#apex/3/en/50851/0). 
 
 ## <a name="credential-scope"></a>Credential ID Scope
