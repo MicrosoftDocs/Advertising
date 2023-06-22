@@ -140,10 +140,10 @@ This bulk field maps to the *Id* field of the [Account](account.md) record.
 **Add:** Read-only  
 **Delete:** Read-only  
 
-## <a name="publishercountries"></a>Publisher Countries
-The list of publisher countries whose editorial guidelines do not allow the specified [term](#editorialterm).
+## <a name="publishercountries"></a>Publisher countries
+The list of publisher countries or regions whose editorial guidelines do not allow the specified [term](#editorialterm).
 
-In a bulk file, the list of publisher countries are delimited with a semicolon (;).
+In a bulk file, the list of publisher countries or regions are delimited with a semicolon (;).
 
 **Add:** Read-only  
 **Delete:** Read-only  

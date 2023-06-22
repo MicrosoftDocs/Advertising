@@ -494,9 +494,9 @@ You must have between 3 and 8 price table items per price ad extension. The orde
 **Delete:** Read-only  
 
 ## <a name="publishercountries"></a>Publisher Countries
-The list of publisher countries whose editorial guidelines do not allow the specified [term](#editorialterm).
+The list of publisher countries or regions whose editorial guidelines do not allow the specified [term](#editorialterm).
 
-In a bulk file, the list of publisher countries are delimited with a semicolon (;).
+In a bulk file, the list of publisher countries or regions are delimited with a semicolon (;).
 
 **Add:** Read-only  
 **Update:** Read-only  
