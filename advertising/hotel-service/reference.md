@@ -436,7 +436,7 @@ Defines the amount to adjust the base bid by if the user accesses one of the Bin
 
 |Name|Value|Type|Add|Update
 |-|-|-|-|-
-|Countries|A list of two-letter ISO 3116 county codes. For a list of possible country codes, see [Allowed country codes](#country-codes).<br /><br />Apply the multiplier if the user accesses the Bing domain with the specified country code. For example, if the list includes US and DE, Microsoft uses the multiplier if the user uses Bing.com with the *us* or *de* country code (for example, bing.com?cc=de).|String[]|Required|Optional
+|Countries|A list of two-letter ISO 3116 country/region codes. For a list of possible country/region codes, see [Allowed country/region codes](#country-codes).<br /><br />Apply the multiplier if the user accesses the Bing domain with the specified country code. For example, if the list includes US and DE, Microsoft uses the multiplier if the user uses Bing.com with the *us* or *de* country code (for example, bing.com?cc=de).|String[]|Required|Optional
 |Factor|The percentage amount to adjust the base bid by. The valid range is 0.00 through 10.00. For example, if the fixed bid is $5 and the multiplier is 5, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.|Double|Required|Optional
 |@odata.type|The object's type. This field is set to "#Model.UserCountryMultiplier".|String|Required|Required
 
@@ -475,11 +475,11 @@ The requests may return the following HTTP status codes.
 |InvalidSelect|One or more of the columns that you specified are not valid. Compare the column names that you used to those documented for the report you requested. Remember, the names are case sensitive.
 
 
-## Country codes
+## Country/region codes
 
-You may use the following country codes to set the `Countries` field of [UserCountryMultiplier](#usercountrymultiplier).
+You may use the following country/region codes to set the `Countries` field of [UserCountryMultiplier](#usercountrymultiplier).
 
-|Country name|Country code|
+|Country/region name|Country/region code|
 |------------|------------------|
 |Afghanistan|AF
 |Albania|AL

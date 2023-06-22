@@ -748,7 +748,7 @@ The keywords are not passed.
 PublisherCountriesCollectionSizeExceedsLimit
 
 **Description**
-The publisher countries size exceeds limit.
+The publisher countries/regions size exceeds limit.
 
 ***
 
@@ -7499,7 +7499,7 @@ CampaignServiceAdExtensionCountryCodeInvalid
 **Description**
 The country/region code is not valid.
 
-The country/region code must be one of the supported publisher countries.
+The country/region code must be one of the supported publisher countries/regions.
 
 ***
 

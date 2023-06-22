@@ -42,7 +42,7 @@ Your ads can appear specifically for customers on the go, who use their smartpho
 
 ![Search results on mobile](media/overview-mobilead.png "Search results on mobile")
 
-You can show your ads to customers in specific locations, like cities or countries. For example, Pat wants only local customers to see their ads. They can set your ads to appear to customers within a 20-mile radius around their shop by using radius targeting.
+You can show your ads to customers in specific locations, like cities or countries/regions. For example, Pat wants only local customers to see their ads. They can set your ads to appear to customers within a 20-mile radius around their shop by using radius targeting.
 
 You can also setup your ads to display to users of a certain age group or gender, or to display at a certain day and time of the week. For more information about showing ads to your target audience, see [Show Ads to Your Target Audience](show-ads-target-audience.md).
 

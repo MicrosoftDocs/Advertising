@@ -10,7 +10,7 @@ description: Add page feeds to fine-tune ad copy for Dynamic Search Ads auto-tar
 Page feeds allow you to easily upload all the relevant URLs for your dynamic search ads campaigns. This ensures maximum website coverage and enables the labeling and targeting of specific URLs via custom labels.  
 
 > [!NOTE]
-> This feature is currently available in the following countries: Australia (AU), Austria (AT), Belgium (BE), Canada (CA), France (FR), Germany (DE), Ireland (IE), Italy (IT), Netherlands (NL), New Zealand (NZ), Spain (ES), Sweden (SE), Switzerland (CH), United Kingdom (UK), and United States (US).  
+> This feature is currently available in the following countries or regions: Australia (AU), Austria (AT), Belgium (BE), Canada (CA), France (FR), Germany (DE), Ireland (IE), Italy (IT), Netherlands (NL), New Zealand (NZ), Spain (ES), Sweden (SE), Switzerland (CH), United Kingdom (UK), and United States (US).  
 
 Why use page feeds?
 - Improve page freshness: Each time a feed is uploaded, the pages in the feed automatically recrawled, so if the pages aren't already in the Bing index of your website, they'll be added. This allows your dynamic search ad campaigns to display the most current version of your website.  

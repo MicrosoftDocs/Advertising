@@ -17,7 +17,7 @@ Determines whether or not the submitted address is valid for Microsoft Advertisi
 
 If the address is valid you can use it as the account [BusinessAddress](advertiseraccount.md#businessaddress). 
 
-For Australia (AU), Canada (CA), and The United States (US), the operation validates whether or not you could ship something to the address. For all other countries basic address verification (AVS) is completed. 
+For Australia (AU), Canada (CA), and The United States (US), the operation validates whether or not you could ship something to the address. For all other countries or regions basic address verification (AVS) is completed. 
 
 ## <a name="request"></a>Request Elements
 The *ValidateAddressRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
