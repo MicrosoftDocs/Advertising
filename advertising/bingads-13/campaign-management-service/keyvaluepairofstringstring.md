@@ -46,6 +46,7 @@ Namespace: http\://schemas.datacontract.org/2004/07/System.Collections.Generic
 [Ad](ad.md)  
 [AdExtension](adextension.md)  
 [AdGroup](adgroup.md)  
+[AssetGroup](assetgroup.md)  
 [Audience](audience.md)  
 [BatchError](batcherror.md)  
 [BatchErrorCollection](batcherrorcollection.md)  

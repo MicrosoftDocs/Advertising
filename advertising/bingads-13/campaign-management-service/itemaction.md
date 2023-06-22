@@ -55,3 +55,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AdGroupCriterionAction](adgroupcriterionaction.md)  
+[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md)  

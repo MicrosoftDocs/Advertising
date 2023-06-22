@@ -43,3 +43,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AgeCriterion](agecriterion.md)  
+[AgeDimension](agedimension.md)  
