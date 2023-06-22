@@ -32,10 +32,14 @@ The Campaign Management service defines the following value sets.
 |[AdType](adtype.md)|Defines the type of ad.|
 |[AgeRange](agerange.md)|Defines the possible age range values that you can use to target ads to people.|
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
+|[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|Reserved.|
+|[AssetGroupListingType](assetgrouplistingtype.md)|Reserved.|
+|[AssetGroupStatus](assetgroupstatus.md)|Reserved.|
 |[AssetLinkEditorialStatus](assetlinkeditorialstatus.md)|Defines the editorial review status values of a linked asset.|
 |[AssociationType](associationtype.md)|Defines the entity types that can be associated with an ad extension.|
 |[AttributionModelType](attributionmodeltype.md)|Determines which attribution model is used with a conversion goal.|
 |[AudienceAdditionalField](audienceadditionalfield.md)|Defines a list of optional audience properties that you can request when calling [GetAudiencesByIds](getaudiencesbyids.md#returnadditionalfields).|
+|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|Reserved.|
 |[AudienceType](audiencetype.md)|Defines the possible audience types.|
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
 |[BMCStoreAdditionalField](bmcstoreadditionalfield.md)|Defines a list of optional store properties that you can request when calling [GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md).|
