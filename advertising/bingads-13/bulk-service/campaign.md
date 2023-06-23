@@ -375,7 +375,7 @@ Used to associate records in the bulk upload file with records in the results fi
 ## <a name="countrycode"></a>Country Code
 The country code for the Microsoft Merchant Center store.
 
-The Microsoft Merchant Center store catalog will be filtered to only include products for the specified country. 
+The Microsoft Merchant Center store catalog will be filtered to only include products for the specified country or region. 
 
 To get the list of supported country codes use the [GetBSCCountries](../campaign-management-service/getbsccountries.md) operation. For example, supported country codes include "AU" (Australia), "AT" (Austria), "BE" (Belgium), "CA" (Canada), "CH" (Switzerland), "DE" (Germany), "ES" (Spain), "FR" (France), "GB" (United Kingdom), "IN" (India), "IT" (Italy), "NL" (Netherlands), "SE" (Sweden), and "US" (United States).
 

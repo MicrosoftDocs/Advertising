@@ -241,10 +241,10 @@ Here are the supported languages for the *Language* request body element:
 |Swedish|
 |TraditionalChinese|
 
-### <a name="languages-and-country-mapping"></a>Languages and Country Mapping
-Here is a table of languages and country mapping:
+### <a name="languages-and-country-mapping"></a>Languages and Country/Region Mapping
+Here is a table of languages and country/region mapping:
 
-|Language|CountryCode|Country|Language@Country|
+|Language|CountryCode|Country/Region|Language@Country|
 |--------------------|-----|--------------------------|--------------------|
 |Danish|DK|Denmark|	Danish@Denmark|
 |Dutch|NL|Netherlands|Dutch@Netherlands|

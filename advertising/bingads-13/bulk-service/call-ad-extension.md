@@ -254,7 +254,7 @@ This bulk field maps to the *Id* field of the [Account](account.md) record.
 ## <a name="phonenumber"></a>Phone Number
 The clickable phone number to include in the ad.
 
-The phone number can contain a maximum of 35 characters and must be valid for the specified country.
+The phone number can contain a maximum of 35 characters and must be valid for the specified country or region.
     
 If the campaign includes call and location ad extensions, this phone number will override the phone number specified in the location ad extensions. 
     

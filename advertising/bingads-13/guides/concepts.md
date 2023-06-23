@@ -12,7 +12,7 @@ Get details about Bing Ads API service operations, geographical location codes, 
 
 |Topic|Description|
 |---------|---------------|
-|[Ad Languages](ad-languages.md)|Lists the available languages that you may use to write your ads and keywords for each country.|
+|[Ad Languages](ad-languages.md)|Lists the available languages that you may use to write your ads and keywords for each country/region.|
 |[Countdown Customizers](countdown-customizers.md)|Countdown customizers let you easily add a countdown -- by day, hour, and then minute -- to an event in dynamic search ads and expanded text ads. The countdown, which automatically updates as the event draws nearer, is eye-catching and gives potential customers greater incentive to click your ad.|
 |[Currencies](currencies.md)|Contains a list of available currencies for Microsoft Advertising advertising accounts.|
 |[Editorial Reason Codes](editorial-failure-reason-codes.md)|Defines the reason codes of why an ad, keyword, or ad extension failed editorial review.|

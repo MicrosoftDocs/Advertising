@@ -10,7 +10,7 @@ description: Defines a user location performance report request.
 # UserLocationPerformanceReportRequest Data Object - Reporting
 Defines a user location performance report request. Use this report to see where your traffic is coming from broken out by the physical location and the location people are searching for. You can then validate whether your location targeting strategy is successful, and identify opportunities to improve.
 
-You can request impressions, clicks, spend, and average cost-per-click for each ad group, organized by city, country, metro area (Nielsen DMA&reg; in the United States), radius, state, and account.
+You can request impressions, clicks, spend, and average cost-per-click for each ad group, organized by city, country/region, metro area (Nielsen DMA&reg; in the United States), radius, state, and account.
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
