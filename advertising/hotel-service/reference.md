@@ -572,7 +572,7 @@ You may use the following country codes to set the `Countries` field of [UserCou
 |Haiti|HT
 |Holy See|VA
 |Honduras|HN
-|Hong Kong|HK
+|Hong Kong SAR|HK
 |Hungary|HU
 |Iceland|IS
 |India|IN
