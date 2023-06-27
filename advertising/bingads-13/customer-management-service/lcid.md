@@ -11,7 +11,7 @@ description: Defines a selection of locale values.
 Defines a selection of locale values.
 
 > [!NOTE]
-> The value set defines a broad selection of locales; however, not all languages are supported in each market. For a list of supported languages by market country, see [Ad Languages](../guides/ad-languages.md).
+> The value set defines a broad selection of locales; however, not all languages are supported in each market. For a list of supported languages by market country or region, see [Ad Languages](../guides/ad-languages.md).
 
 ## Syntax
 ```xml

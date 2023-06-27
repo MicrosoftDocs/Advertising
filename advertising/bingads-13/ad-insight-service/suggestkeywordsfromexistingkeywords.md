@@ -31,9 +31,9 @@ The *SuggestKeywordsFromExistingKeywordsRequest* object defines the [body](#requ
 |<a name="keywords"></a>Keywords|An array of keywords for which you want to get suggested keywords that could perform better. The array can contain a maximum of 1,000 keywords, and each keyword can contain a maximum of 100 characters.|**string** array|
 |<a name="language"></a>Language|The language in which the keyword is written.<br/><br/>Possible case-sensitive values are *English*, *French*, and *German*. See the [Remarks](#remarks) section below for a list of providers that are supported for each language.<br/><br/>The default is English.|**string**|
 |<a name="maxsuggestionsperkeyword"></a>MaxSuggestionsPerKeyword|The maximum number of keyword suggestions to return per specified keyword. If *SuggestionType* is set to 4, you can request a maximum of 200 suggestions per keyword; otherwise the maximum suggestions that you can request is 100.<br/><br/>The default is 50.|**int**|
-|<a name="publishercountries"></a>PublisherCountries|The country codes of the countries/regions to use as the source of data for determining the suggested keywords.<br/><br/>You can specify one or more country codes. Each country that you specify must support the language that you specified in the *Language* element.<br/><br/>For supported values, see the [Remarks](#remarks) section below.<br/><br/>The default is all countries/regions that support the specified language.|**string** array|
+|<a name="publishercountries"></a>PublisherCountries|The country codes of the countries/regions to use as the source of data for determining the suggested keywords.<br/><br/>You can specify one or more country codes. Each country/region that you specify must support the language that you specified in the *Language* element.<br/><br/>For supported values, see the [Remarks](#remarks) section below.<br/><br/>The default is all countries/regions that support the specified language.|**string** array|
 |<a name="removeduplicates"></a>RemoveDuplicates|A Boolean value that determines whether to remove duplicate keywords from the list of suggested keywords. To remove duplicates, set to true. The default is false.|**boolean**|
-|<a name="suggestiontype"></a>SuggestionType|The provider to use to generate the keyword suggestions. For a list of possible providers, the language and country restrictions of each provider, and the default provider by country, see the [Remarks](#remarks) section below.|**int**|
+|<a name="suggestiontype"></a>SuggestionType|The provider to use to generate the keyword suggestions. For a list of possible providers, the language and country/region restrictions of each provider, and the default provider by country/region, see the [Remarks](#remarks) section below.|**int**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -218,9 +218,9 @@ The following are the possible suggestion providers that you can specify.
 |3|Returns search queries that are related to the specified keyword.|
 |4|Returns the best suggestions from the other providers.|
 
-The following are the providers that each country supports. 
+The following are the providers that each country/region supports. 
 
-|Country|Language|Supported Provider Types|Default Provider Type|
+|Country/Region|Language|Supported Provider Types|Default Provider Type|
 |-------------------|---------------|---------------|---------------|
 |Australia (AU)|English|2,3,4|4|
 |Canada (CA)|English|2,3,4|4|

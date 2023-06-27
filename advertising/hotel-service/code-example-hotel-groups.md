@@ -475,7 +475,7 @@ class Multiplier
     }
 }
 
-// Defines the multiplier to use if the user is located in the specified country.
+// Defines the multiplier to use if the user is located in the specified country or region.
 
 class UserCountryMultiplier : Multiplier
 {
