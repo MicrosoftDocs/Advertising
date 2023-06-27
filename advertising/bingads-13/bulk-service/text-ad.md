@@ -351,9 +351,9 @@ This bulk field maps to the *Id* field of the [Ad Group](ad-group.md) record.
 > For update and delete, you must specify either the [Parent Id](#parentid) or [Ad Group](#adgroup) field.
 
 ## <a name="publishercountries"></a>Publisher Countries
-The list of publisher countries whose editorial guidelines do not allow the specified [term](#editorialterm).
+The list of publisher countries or regions whose editorial guidelines do not allow the specified [term](#editorialterm).
 
-In a bulk file, the list of publisher countries are delimited with a semicolon (;).
+In a bulk file, the list of publisher countries or regions are delimited with a semicolon (;).
 
 **Add:** Not supported  
 **Update:** Read-only  

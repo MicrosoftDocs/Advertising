@@ -1849,7 +1849,7 @@ enum ContentLanguage
 	FR
 }
 
-//Defines the possible target countries.
+//Defines the possible target countries or regions.
 
 enum TargetCountry
 {

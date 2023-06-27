@@ -162,7 +162,7 @@ The age range that you want to target with the corresponding *Bid Adjustment*.
 Supported values are *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, and *SixtyFiveAndAbove*. 
 
 > [!NOTE]
-> In many countries, online advertisers are not supposed to target any users less than 18 years old. Microsoft Advertising does not deliver interest-based advertising to children whose birthdate in their Microsoft account identifies them as under 13 years of age. For more information see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+> In many countries or regions, online advertisers are not supposed to target any users less than 18 years old. Microsoft Advertising does not deliver interest-based advertising to children whose birthdate in their Microsoft account identifies them as under 13 years of age. For more information see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 > 
 > Currently people ages 13 to 17 can see your ads, although you cannot adjust the bid for that age range. Soon in Microsoft Advertising you will be enabled to specifically exclude ages 13 to 17. The target value of *ThirteenToSeventeen* will be supported with negative bid adjustments between -100 and 0. We will announce more specific dates within the next few months.
 

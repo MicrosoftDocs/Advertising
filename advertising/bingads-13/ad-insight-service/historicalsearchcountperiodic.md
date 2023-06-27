@@ -27,7 +27,7 @@ The [HistoricalSearchCountPeriodic](historicalsearchcountperiodic.md) object has
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="daymonthandyear"></a>DayMonthAndYear|The time period in which the count was captured. The type of aggregation (daily, weekly, or monthly) that you specify in the request determines the length of the time period. For example, if you specified weekly aggregation, the time period is a week and the date is the Sunday of the week when the count was captured.|[DayMonthAndYear](daymonthandyear.md)|
-|<a name="searchcount"></a>SearchCount|The number of times that the keyword was used in a search query on the specified device type during the time period. The count aggregates data from all specified countries.|**long**|
+|<a name="searchcount"></a>SearchCount|The number of times that the keyword was used in a search query on the specified device type during the time period. The count aggregates data from all specified countries or regions.|**long**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

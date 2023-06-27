@@ -55,12 +55,12 @@ The following are the possible languages that you can use to write your ads and 
 ## <a name="productlanguage"></a>Product Language
 Your [customer](../customer-management-service/customer.md) language determines the language of the Microsoft Advertising interface. 
 
-The following country codes are supported per customer language e.g. [aggregators](account-hierarchy-permissions.md#aggregator-hierarchy) can use these languages and countries in the [Customer](../customer-management-service/customer.md) object when calling the [SignupCustomer](../customer-management-service/signupcustomer.md) operation.
+The following country codes are supported per customer language e.g. [aggregators](account-hierarchy-permissions.md#aggregator-hierarchy) can use these languages and countries or regions in the [Customer](../customer-management-service/customer.md) object when calling the [SignupCustomer](../customer-management-service/signupcustomer.md) operation.
 
 > [!NOTE]
 > In New Zealand, Microsoft Advertising is available only on the Microsoft Advertising Network. 
 
-|Language|Country Code|
+|Language|Country or Region Code|
 |------------|------------------|
 |English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, JP, KE, KG, KH, KI, KM, KN, KR, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PL, PM, PN, PR, PS, PW, RE, RO, RS, RU, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TH, TJ, TK, TM, TO, TR, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
 |French|BF, BJ, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|

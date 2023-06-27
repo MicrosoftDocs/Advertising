@@ -294,9 +294,9 @@ Required text if the disclaimer is in *popup* layout.
 Max. length: 500 characters.
   
 ## <a name="publishercountries"></a>Publisher Countries
-The list of publisher countries whose editorial guidelines do not allow the specified [term](#editorialterm).
+The list of publisher countries or regions whose editorial guidelines do not allow the specified [term](#editorialterm).
 
-In a bulk file, the list of publisher countries are delimited with a semicolon (;).
+In a bulk file, the list of publisher countries or regions are delimited with a semicolon (;).
 
 **Add:** Read-only  
 **Update:** Read-only  
