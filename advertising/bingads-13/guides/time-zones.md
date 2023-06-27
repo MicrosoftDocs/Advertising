@@ -27,7 +27,7 @@ The following table describes the possible campaign time zone values.
 |Baghdad|Baghdad time zone.|UTC+3|
 |BakuTbilisiYerevan|Baku, Tbilisi, and Yerevan time zone.|UTC+4|
 |BangkokHanoiJakarta|Bangkok, Hanoi, and Jakarta time zone.|UTC+7|
-|BeijingChongqingHongKongUrumqi|Beijing, Chongqing, Hong Kong, and Urumqi time zone.|UTC+8|
+|BeijingChongqingHongKongUrumqi|Beijing, Chongqing, Hong Kong SAR, and Urumqi time zone.|UTC+8|
 |BelgradeBratislavaBudapestLjubljanaPrague|Belgrade, Bratislava, Budapest, Ljubljana, and Prague time zone.|UTC+1|
 |BogotaLimaQuito|Bogota, Lima, and Quito time zone.|UTC-5|
 |Brasilia|Brasilia time zone.|UTC-3|
