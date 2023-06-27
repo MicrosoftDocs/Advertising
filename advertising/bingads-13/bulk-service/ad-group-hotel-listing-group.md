@@ -294,7 +294,7 @@ In your campaigns the hotel attributes can be set at campaign and ad group level
 |Brand|The hotel's manufacturer, brand, or publisher.<br/><br/>A maximum of 200 characters.|The *Brand* operand may be used in multiple branches, but may only be specified once per branch.|
 |Category|A hotel category, such as "Inn", "Motel", "Resort", etc.<br/><br/>A maximum of 200 characters.|Not applicable.|
 |City|The city where the hotel is located.|Not applicable.|
-|Country|The country where the hotel is located.|Not applicable.|
+|Country|The country or region where the hotel is located.|Not applicable.|
 |CustomLabel0-4<br/><br/>Five custom label operand values are available i.e. CustomLabel0, CustomLabel1, CustomLabel2, CustomLabel3, and CustomLabel4.|Each of the *CustomLabel* operands may be used in multiple branches, but may only be specified once per branch. For example one branch may contain *CustomLabel0* and *CustomLabel1*, but may not contain another node with the *CustomLabel1* operand.<br/><br/>A maximum of 200 characters.|Not applicable.|
 |HotelId|The hotel identifier.<br/><br/>A maximum of 1,024 characters.|The *Id* operand may be used in multiple branches, but may only be specified once per branch.|
 |StarRating|A hotel rating from 1-5 stars.|Not applicable.|

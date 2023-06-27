@@ -112,10 +112,10 @@ The following is the list of keys that are available for the [TaxInformation](#t
 |IsWithholdingTaxExempted|The value is either *TRUE* or *FALSE*, which is used for the tax determination.<br/><br/>**Add:** Required<br/>**Update:** Required|Chile|
 |NZGSTNumber|This is an 8 or 9 Digit long tax ID. Without the NZGSTNumber taxes might apply based on your business location.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|New Zealand|
 |PanNumber|The PAN number.<br/><br/>**Add:** Required<br/>**Update:** Read-only|India|
-|VATNumber|The account's Value Added Tax (VAT) registration number (also known as VAT identifier). The VAT number must be valid in the country that you specified in the [BusinessAddress](#businessaddress) element. Without a VAT registration number or exemption certificate, taxes might apply based on your business location.<br/><br/>**Add:** Optional<br/>**Update:** Optional|Please see [VAT number format per country](#vat-number-format-per-country) for details.|
+|VATNumber|The account's Value Added Tax (VAT) registration number (also known as VAT identifier). The VAT number must be valid in the country or region that you specified in the [BusinessAddress](#businessaddress) element. Without a VAT registration number or exemption certificate, taxes might apply based on your business location.<br/><br/>**Add:** Optional<br/>**Update:** Optional|Please see [VAT number format per country/region](#vat-number-format-per-country-or-region) for details.|
 
-### VAT number format per country
-This table lists VAT registration number formats per country.
+### VAT number format per country or region
+This table lists VAT registration number formats per country or region.
 
 |VAT number|Country/region|
 |---------|---------|

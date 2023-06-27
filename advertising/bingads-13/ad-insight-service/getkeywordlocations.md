@@ -30,7 +30,7 @@ The *GetKeywordLocationsRequest* object defines the [body](#request-body) and [h
 |<a name="language"></a>Language|The language in which the keywords are written.<br/><br/>For possible values, see [Ad Languages](../guides/ad-languages.md#productlanguage).|**string**|
 |<a name="level"></a>Level|The level at which to aggregate the geographical location data. The following are the possible values:<br/><br/>0 - Country<br/><br/>1 - State/Province<br/><br/>2 - Metropolitan area<br/><br/>3 - City<br/><br/>The default value is 1 (State/Province).|**int**|
 |<a name="maxlocations"></a>MaxLocations|The maximum number of locations to return. You can request a maximum of 10 locations.<br/><br/>The default value is 10.|**int**|
-|<a name="parentcountry"></a>ParentCountry|The country from which the search originated.<br/><br/>For possible values, see [Geographical Location Codes](../guides/geographical-location-codes.md#countrycodes).<br/><br/>The default is US.|**string**|
+|<a name="parentcountry"></a>ParentCountry|The country/region from which the search originated.<br/><br/>For possible values, see [Geographical Location Codes](../guides/geographical-location-codes.md#countrycodes).<br/><br/>The default is US.|**string**|
 |<a name="publishercountry"></a>PublisherCountry|The country code of the country/region to use as the source of the location data.<br/><br/>The country/region that you specify must support the language specified in the *Language* element.<br/><br/>For possible values, see [Ad Languages](../guides/ad-languages.md#productlanguage).|**string**|
 
 ### <a name="request-header"></a>Request Header Elements

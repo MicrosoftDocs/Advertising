@@ -11,7 +11,7 @@ description: Defines a selection of locale values.
 Defines a selection of locale values.
 
 > [!NOTE]
-> The value set defines a broad selection of locales; however, not all languages are supported in each market. For a list of supported languages by market country, see [Ad Languages](../guides/ad-languages.md).
+> The value set defines a broad selection of locales; however, not all languages are supported in each market. For a list of supported languages by market country or region, see [Ad Languages](../guides/ad-languages.md).
 
 ## Syntax
 ```xml
@@ -413,7 +413,7 @@ The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabica
 |<a name="arabictunisia"></a>ArabicTunisia|The corresponding LCID type.|
 |<a name="arabicunitedarabemirates"></a>ArabicUnitedArabEmirates|The corresponding LCID type.|
 |<a name="arabicyemen"></a>ArabicYemen|The corresponding LCID type.|
-|<a name="chinesehongkong"></a>ChineseHongKong|Chinese (Hong Kong)|
+|<a name="chinesehongkong"></a>ChineseHongKong|Chinese (Hong Kong SAR)|
 |<a name="chinesetaiwan"></a>ChineseTaiwan|Chinese (Taiwan)|
 |<a name="danishdenmark"></a>DanishDenmark|Danish (Denmark)|
 |<a name="dutchnetherlands"></a>DutchNetherlands|Dutch (Netherlands)|

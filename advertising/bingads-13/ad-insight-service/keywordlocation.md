@@ -28,7 +28,7 @@ The [KeywordLocation](keywordlocation.md) object has the following elements: [De
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="device"></a>Device|The device of the user who entered the search query.|**string**|
-|<a name="location"></a>Location|The country, state, metropolitan area, or city where users entered the search query.|**string**|
+|<a name="location"></a>Location|The country/region, state, metropolitan area, or city where users entered the search query.|**string**|
 |<a name="percentage"></a>Percentage|The percentage of time that users searched for the keyword from the location. The value is specified in the range 0.0 through 100.0.|**double**|
 
 ## Requirements

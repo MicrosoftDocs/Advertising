@@ -243,7 +243,7 @@ The request must include at least one dimension column and one measure column.
 |Date|Date|A date within the reporting period. This column is automatically added to the report if not specified. The format is YYYY-MM-dd (for example, 2017-11-16).
 |DateType|Date type|Indicates whether the user searched for hotels using specific dates. The following are the possible values.<ul><li>DefaultDate&mdash;The user didn't search for hotels using specific dates</li><li>SelectedDate&mdash;The user searched for hotels using specific dates</li>
 |DeviceType|Device type|The type of device that the ads were displayed on. The following are the possible values.<ul><li>Desktop</li><li>Mobile</li><li>Tablet</li></ul>
-|HotelCountry|Hotel country|The two-letter ISO 3116 country code of the country where the hotel is located. For example, US for United States.
+|HotelCountry|Hotel country|The two-letter ISO 3116 country code of the country or region where the hotel is located. For example, US for United States.
 |HotelGroupId|Hotel group ID|The ID that uniquely identifies the hotel group.
 |HotelGroupName|Hotel group name|The hotel group's display name.
 |HotelId|Hotel ID|The ID that uniquely identifies the hotel.
@@ -254,7 +254,7 @@ The request must include at least one dimension column and one measure column.
 |SlotType|Slot type|The placement of the ads on the results page. The following are the possible values.<ul><li>A&mdash;The priority slot where ads are shown on the results page when it loads.</li><li>M&mdash;The secondary slot where ads are shown only after the user clicks *More rates*.</li></ul>
 |SubAccountId|Subaccount ID|The ID that uniquely identifies the subaccount (hotel campaign).
 |SubAccountName|Subaccount name|The subaccount's display name.
-|UserCountry|User country|The two-letter ISO 3116 country code of the country where the user is located. For example, US for United States.<br /><br />**NOTE:** Prior to August 2, 2018, UserCountry contains the publisher's country. After August 2, 2018, UserCountry contains the user's country.
+|UserCountry|User country|The two-letter ISO 3116 country code of the country or region where the user is located. For example, US for United States.<br /><br />**NOTE:** Prior to August 2, 2018, UserCountry contains the publisher's country or region. After August 2, 2018, UserCountry contains the user's country or region.
 
 
 <a name="measurecolumns"></a>

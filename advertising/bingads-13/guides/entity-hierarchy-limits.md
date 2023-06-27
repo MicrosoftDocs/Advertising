@@ -189,7 +189,7 @@ The following table defines limits for structured snippet ad extension propertie
 |Values|Each value can have a maximum length of 25 characters. Note that for Traditional Chinese characters, each value is limited to 12 characters.|
 
 ## <a name="adgroup"></a>Ad Groups
-The ad group object specifies the default bid values for each match type, whether the group contains search ads, content ads, or both; whether to match on keywords or site placement; and the network and country in which the ads display.
+The ad group object specifies the default bid values for each match type, whether the group contains search ads, content ads, or both; whether to match on keywords or site placement; and the network and country/region in which the ads display.
 
 Each campaign can have up to 20,000 ad groups. Each ad group may have multiple ads and keywords. You'll want to give these ad groups meaningful names and keep them tightly focused with related keywords and a small number of ads, for example 3 ads per ad group.
 

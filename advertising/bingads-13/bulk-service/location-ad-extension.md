@@ -212,7 +212,7 @@ Used to associate records in the bulk upload file with records in the results fi
 **Delete:** Read-only  
 
 ## <a name="countrycode"></a>Country Code
-The country where the street address is located. 
+The country or region where the street address is located. 
 
 The country code must contain a 2 character country code. The supported country code values include AR, AT, AU, BR, CA, CH, CL, CO, DE, DK, ES, FI, FR, GB, HK, ID, IE, IN, IT, MX, MY, NL, NZ, NO, PE, PH, SE, SG, TH, TW, US, VE, and VN.
 
@@ -349,7 +349,7 @@ This bulk field maps to the *Id* field of the [Account](account.md) record.
 ## <a name="phonenumber"></a>Phone Number
 The business' clickable phone number to include in the ad. 
 
-The phone number can contain a maximum of 35 characters and must be valid for the specified country.
+The phone number can contain a maximum of 35 characters and must be valid for the specified country or region.
 
 If the campaign also includes a call extension, the phone number in the call extension will override the location ad extension's phone number.
 

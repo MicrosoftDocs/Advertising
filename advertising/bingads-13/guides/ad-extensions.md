@@ -106,7 +106,7 @@ Structured Snippet Extensions give potential customers more context on a specifi
 
 This extension is not clickable and, similar to other extensions, will appear beneath your ad's description. Structured Snippets have no impact on the other extensions you're already using. Structured Snippets should not duplicate what is already stated in the ad. Our full list of Structured Snippet policies can be found [here](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies).
 
-An ad will only include one structured snippet (one headline with 3 - 10 values) per impression. Keep in mind that your ads won't always show Structured Snippets and if they do show Structured Snippets, the format they appear may vary. Structured Snippets are free to add to your ad, available in all Microsoft Advertising markets (excluding Hong Kong and Taiwan), and serve on desktop and tablet devices. 
+An ad will only include one structured snippet (one headline with 3 - 10 values) per impression. Keep in mind that your ads won't always show Structured Snippets and if they do show Structured Snippets, the format they appear may vary. Structured Snippets are free to add to your ad, available in all Microsoft Advertising markets (excluding Hong Kong SAR and Taiwan), and serve on desktop and tablet devices. 
 
 
 ## <a name="bulkservice"></a>Managing Ad Extensions with the Bulk Service
