@@ -42,6 +42,14 @@ Dynamic search ad reports give you a closer look at how your Dynamic Search Ads 
 |[DSACategoryPerformanceReportRequest](../reporting-service/dsacategoryperformancereportrequest.md)|Use this report to check the performance of your existing category targets or to find new categories worth targeting.<br/><br/>You can request impressions, clicks, click-through rate, and average position for the DSA categories that have triggered your ads. Once downloaded, this data can be sorted by device and DSA category.|
 |[DSASearchQueryPerformanceReportRequest](../reporting-service/dsasearchqueryperformancereportrequest.md)|Use this report see how your ads perform against search terms. The data can help you find negative keywords (so that you're not spending money targeting the wrong customer), as well as the right keywords that create conversions.<br/><br/>You can request impressions, clicks, click-through rate, and average position for the search queries that have triggered your ads. Once downloaded, this data can be sorted by search query, headline, category list, and dynamic ad target.|
 
+## <a name="hotelads"></a>Hotel Ads
+Hotel ad reports give you a closer look at how your Microsoft Lodging Campaigns are performing based on hotel partition and hotel offer data.
+
+|Report|Description|
+|----------|---------------|
+|[HotelDimensionPerformanceReportRequest](../reporting-service/hoteldimensionperformancereportrequest.md)|Use this report to find out which hotel dimensions are performing well and which aren't.<br/><br/>You can request impressions, clicks, spend, and average cost per click for your landing pages. Once downloaded, this data can be sorted by hotel name, hotel location, brand, and star rating.|
+|[HotelGroupPerformanceReportRequest](../reporting-service/hotelgroupperformancereportrequest.md)|Use this report to figure out which of your hotels are triggering ads and getting the most clicks, and optimize the ones that aren't performing well.<br/><br/>You can request impressions, clicks, spend, and average cost per click for your landing pages.
+
 ## <a name="performance"></a>Performance
 Delivery performance reports show the overall effectiveness and cost of ads and keywords for a specified time period. Most of the reports include a similar set of performance statistics, for example impressions, clicks, and click-through rate. The optional attributes are a strong factor in distinguishing which report to use. For example the ad performance, ad dynamic text performance, and destination URL performance reports all provide similar ad performance data, each with a different set of attributes. 
 
