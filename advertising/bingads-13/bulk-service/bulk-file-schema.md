@@ -122,6 +122,7 @@ Record Type  |Supported Campaign Types
 [Campaign Callout Ad Extension](campaign-callout-ad-extension.md)|Search  
 [Campaign Combined List Association](campaign-combined-list-association.md)|All  
 [Campaign Company Name Criterion](campaign-company-name-criterion.md)|Search<br/>Shopping  
+[Campaign Conversion Goal](campaign-conversion-goal.md)|All
 [Campaign Custom Audience Association](campaign-custom-audience-association.md)|All  
 [Campaign Customer List Association](campaign-customer-list-association.md)|All  
 [Campaign DayTime Criterion](campaign-daytime-criterion.md)|All  
