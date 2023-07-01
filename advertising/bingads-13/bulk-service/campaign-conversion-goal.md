@@ -1,18 +1,18 @@
 ---
-title: "Campaign Level Conversion Gaol Record - Bulk"
+title: "Campaign Conversion Goal Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-description: Describes the Campaign Level Conversion Gaol fields in a Bulk file.
+description: Describes the Campaign Conversion Goal fields in a Bulk file.
 
 ---
-# Campaign Level Conversion Goal Record - Bulk
+# Campaign Conversion Goal Record - Bulk
 
-Defines a Campaign level conversion goal that can be uploaded and downloaded in a bulk file.
+Defines a Campaign conversion goal that can be uploaded and downloaded in a bulk file.
 
-Campaign level conversion goals allows you override the default goals and specify conversion goals for optimized performance.
+Campaign conversion goals allows you override the default goals and specify conversion goals for optimized performance.
 
 You can download all *Campaign Conversion Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignConversionGoal* in the service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
@@ -24,7 +24,7 @@ Format Version,,,,,,,,,6.0,,
 Campaign Conversion Goal, Goal, Add, 10086,18893
 ```
 
-For a *Campaign Level ConversionGoal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Campaign ConversionGoal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
 
 - [Type](#type)
 - [Sub Type](#subtype)
