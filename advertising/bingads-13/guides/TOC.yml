@@ -857,7 +857,7 @@
       displayName: BulkCampaignLabel
     - name: Campaign Conversion Goal  
       href: ../bulk-service/campaign-conversion-goal.md
-      displayName: CampaignLevelConversionGoal       
+      displayName: CampaignConversionGoal       
     - name: Campaign Location Ad Extension
       href: ../bulk-service/campaign-location-ad-extension.md
       displayName: BulkCampaignLocationAdExtension
