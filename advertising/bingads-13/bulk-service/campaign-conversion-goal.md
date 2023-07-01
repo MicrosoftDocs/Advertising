@@ -24,7 +24,7 @@ Format Version,,,,,,,,,6.0,,
 Campaign Conversion Goal, Goal, Add, 10086,18893
 ```
 
-For a *Campaign ConversionGoal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Campaign Conversion Goal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
 
 - [Type](#type)
 - [Sub Type](#subtype)
