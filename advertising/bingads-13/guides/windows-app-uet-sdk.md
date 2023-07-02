@@ -13,7 +13,7 @@ Users are spending an increasing amount of time on the Microsoft Store app now m
 
 Much like user activity signals from UET JavaScript tags on the web, user signals from the store app are critical to help Microsoft Advertising identify users across channels, to understand their behavior to optimize remarketing, campaign creatives and improve ad selection accuracy, relevance, and performance. Reporting on in-app signals and conversions in turn helps advertisers optimize ad targeting, accurately measure ad campaign outcomes, and see better yield for ad spend. 
 
-## <a name="microsoft-store-ads"></a>Get Started - Microsoft Store Ads
+## <a name="get-started"></a>Get Started - Windows App UET SDK
 
 For the Microsoft Store app, we provide an SDK to fire UET events. However, this works slightly differently than web based UET. This guide shows you how to add app events to your new or existing app by integrating Windows App UET SDK to log user interaction events. For more information on web based Universal Event Tracking (UET) which is also a Microsoft framework, please refer to [Microsoft Ads web UET help documentation](https://help.ads.microsoft.com/#apex/ads/en/56681/2-500).
 
