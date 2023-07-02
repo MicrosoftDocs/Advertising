@@ -30,7 +30,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="newapiinterfaces-june2023"></a>New API Interfaces  
 
-- **CampaignManagement API**: PMax Campaign, new Bidding Schemes ([CostPerSaleBiddingScheme](../campaign-management-service/costpersalebiddingscheme.md), [ManualCpaBiddingScheme](../campaign-management-service/manualcpabiddingscheme.md)).
+- **Campaign Management API**: PMax Campaign, new Bidding Schemes ([CostPerSaleBiddingScheme](../campaign-management-service/costpersalebiddingscheme.md), [ManualCpaBiddingScheme](../campaign-management-service/manualcpabiddingscheme.md)).
 
 ### <a name="bulkservice-june2023"></a>Bulk Service
 
@@ -50,10 +50,10 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="newapiinterfaces-december2022"></a>New API Interfaces
 
-- **AdInsight API**: [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md)
-- **CustomerManagement API**: [SignupCustomer](../customer-management-service/signupcustomer.md)
+- **Ad Insight API**: [GetReccomendations](../ad-insight-service/getrecommendations.md) and [GetTextAssetSuggestionsByFinalUrls](../ad-insight-service/gettextassetsuggestionsbyfinalurls.md)
+- **Customer Management API**: [SignupCustomer](../customer-management-service/signupcustomer.md)
 - **Reporting API**: [Value sets](../reporting-service/reporting-value-sets.md) for HotelAd and Video reporting <br />
-- **CampaignManagement API**: [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
+- **Campaign Management API**: [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md), [HotelAd](../campaign-management-service/hotelad.md), and new bidding schemes for [PercentCpc](../campaign-management-service/percentcpcbiddingscheme.md) and [Commission](../campaign-management-service/commissionbiddingscheme.md)
 
 ### <a name="bulkservice-december2022"></a>Bulk Service
 * Bulk support for OnlineConversionAdjustment  
@@ -65,6 +65,50 @@ See below for Bing Ads API updates during this calendar month.
 ### <a name="sdk-december2022"></a>Bing Ads API SDK Updates
 The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.15), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.15), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.15), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.15) SDK version 13.0.15. 
 
+## <a name="june2022"></a>June 2022
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [New API Interfaces](#newapiinterfaces-june2022)  
+- [Bulk Service](#bulkservice-june2022)  
+- [Bing Ads API SDK Updates](#sdk-june2022)  
+
+### <a name="newapiinterfaces-june2022"></a>New API Interfaces  
+
+- **Ad Insight API**: Performance Insights, Auto-apply Recommendations ([PerformanceInsightsDetail](../ad-insight-service/performanceinsightsdetail.md), [AutoApplyRecommendationsInfo](../ad-insight-service/autoapplyrecommendationsinfo.md)).
+- **Campaign Management API**: New call to action types ([CallToAction](../campaign-management-service/calltoaction.md)).
+- **Reporting API**: ViewThroughRevenue.
+
+### <a name="bulkservice-june2022"></a>Bulk Service
+
+- Bulk support of [CampaignConversionGoal](../bulk-service/campaign-conversion-goal.md), AdCustomizerAttribute, CampaignAdCustomizerAttribute, AdGroupAdCustomizerAttribute, KeywordAdCustomizerAttribute, and [schedule support](../bulk-service/feed-item.md#adschedule) in bulk feed.
+
+### <a name="sdk-june2022"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.14), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.14), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.14), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.14) SDK version 13.0.14.
+
+## <a name="jan2022"></a>January 2022
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [New API Interfaces](#newapiinterfaces-jan2022)  
+- [Bulk Service](#bulkservice-jan2022)  
+- [Bing Ads API SDK Updates](#sdk-jan2022)  
+
+### <a name="newapiinterfaces-jan2022"></a>New API Interfaces  
+
+- **Campaign Management API**: NewImageAdExtensions, UpdateImageAdExtensions for [GoogleImportOption](../campaign-management-service/googleimportoption.md), CompressionType for [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md).
+- **Reporting API**: Neighborhood and QueryIntentNeighborhood for [UserLocationPerformanceReport](../reporting-service/userlocationperformancereportcolumn.md), Neighborhood for [GeographicPerformanceReport](../reporting-service/geographicperformancereportcolumn.md).
+
+### <a name="bulkservice-jan2022"></a>Bulk Service
+
+- Add new fields Operator mapping in WebPageCondition for [BulkAdGroupDynamicSearchAdTarget](../bulk-service/ad-group-dynamic-search-ad-target.md), [BulkAdGroupNegativeDynamicSearchAdTarget](../bulk-service/ad-group-negative-dynamic-search-ad-target.md) and [BulkCampaignNegativeDynamicSearchAdTarget](../bulk-service/campaign-negative-dynamic-search-ad-target.md).
+- NumberRuleItem for [BulkRemarketingingList](../bulk-service/remarketing-list.md).
+
+### <a name="sdk-jan2022"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.13), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.13), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.13), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.13) SDK version 13.0.13.
+
 ## <a name="november2021"></a>November 2021
 
 See below for Bing Ads API updates during this calendar month.  
@@ -72,7 +116,7 @@ See below for Bing Ads API updates during this calendar month.
 - [Bing Ads API SDK Updates](#sdk-november2021)  
 
 ### <a name="sdk-november2021"></a>Bing Ads API SDK Updates
-The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.12), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.12), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v0.13.0.12), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.12) SDK version 13.0.12. 
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.12), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.12), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v0.13.0.12), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.12) SDK version 13.0.12.
 
 ## <a name="august2021"></a>August 2021
 
