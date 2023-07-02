@@ -1117,6 +1117,8 @@
       href: ./responsive-search-ads.md
     - name: Smart Shopping Campaigns
       href: ./smart-shopping-campaigns.md
+    - name: Store Ads
+      href: ./store-ads.md
     - name: Universal Event Tracking
       href: ./universal-event-tracking.md
     - name: Windows App UET SDK
