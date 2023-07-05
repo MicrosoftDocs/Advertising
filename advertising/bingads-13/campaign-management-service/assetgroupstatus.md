@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: The status of the AssetGroup.
 ---
 # AssetGroupStatus Value Set - Campaign Management
-Reserved.
+The status of the AssetGroup.
 
 ## Syntax
 ```xml
@@ -27,9 +27,9 @@ The [AssetGroupStatus](assetgroupstatus.md) value set has the following values: 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="active"></a>Active|Reserved.|
-|<a name="deleted"></a>Deleted|Reserved.|
-|<a name="paused"></a>Paused|Reserved.|
+|<a name="active"></a>Active|The status of the AssetGroup is *Active*.|
+|<a name="deleted"></a>Deleted|The status of the AssetGroup is *Deleted*.|
+|<a name="paused"></a>Paused|The status of the AssetGroup is *Paused*.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: An object containing an ID and type for an audience.
 ---
 # AudienceInfo Data Object - Campaign Management
-Reserved.
+An object containing and ID an type for an audience.
 
 ## Syntax
 ```xml
@@ -26,8 +26,8 @@ The [AudienceInfo](audienceinfo.md) object has the following elements: [Id](#id)
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="type"></a>Type|Reserved.|[AudienceType](audiencetype.md)|
+|<a name="id"></a>Id|The ID of the audience.|**long**|
+|<a name="type"></a>Type|The type of the audience. <br /><br />**Add**: Read-only <br />**Update**: Read-only |[AudienceType](audiencetype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

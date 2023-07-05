@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Sets AudienceGroupAssetGroupAssociations.
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # SetAudienceGroupAssetGroupAssociations Service Operation - Campaign Management
-Reserved.
+Sets AudienceGroupAssetGroupAssociations.
 
 ## <a name="request"></a>Request Elements
 The *SetAudienceGroupAssetGroupAssociationsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -25,7 +25,7 @@ The *SetAudienceGroupAssetGroupAssociationsRequest* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencegroupassetgroupassociations"></a>AudienceGroupAssetGroupAssociations|Reserved.|[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) array|
+|<a name="audiencegroupassetgroupassociations"></a>AudienceGroupAssetGroupAssociations|The list of Audience Group associations to set.  <br /><br />The maximum size of the list is 100 items per service request. |[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -37,7 +37,7 @@ The *SetAudienceGroupAssetGroupAssociationsResponse* object defines the [body](#
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of BatchError objects that contain details for any request items that were not successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

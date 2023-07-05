@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Retrieves the specified AssetGroupListingGroups.
 dev_langs: 
   - csharp
   - java
@@ -13,10 +13,10 @@ dev_langs:
   - python
 ---
 # GetAssetGroupListingGroupsByIds Service Operation - Campaign Management
-Reserved.
+Retrieves the specified AssetGroupListingGroups.
 
 ## <a name="request"></a>Request Elements
-The *GetAssetGroupListingGroupsByIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
+The *GetAssetGroupListingGroupsByIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap).
 
 > [!NOTE]
 > Unless otherwise noted below, all request elements are required.
@@ -25,8 +25,8 @@ The *GetAssetGroupListingGroupsByIdsRequest* object defines the [body](#request-
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetgroupid"></a>AssetGroupId|Reserved.|**long**|
-|<a name="assetgrouplistinggroupids"></a>AssetGroupListingGroupIds|Reserved.|**long** array|
+|<a name="assetgroupid"></a>AssetGroupId|The ID of the AssetGroup. |**long**|
+|<a name="assetgrouplistinggroupids"></a>AssetGroupListingGroupIds|A list of identifiers that identify the listing groups that had the action applied. The list of identifiers corresponds directly to the list of listing groups in the request. <br /><br />If any listing group action failed, then all remaining listing group actions will fail, and all elements in this list will be null.  |**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -38,7 +38,7 @@ The *GetAssetGroupListingGroupsByIdsResponse* object defines the [body](#respons
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetgrouplistinggroups"></a>AssetGroupListingGroups|Reserved.|[AssetGroupListingGroup](assetgrouplistinggroup.md) array|
+|<a name="assetgrouplistinggroups"></a>AssetGroupListingGroups|The list of listing groups that correspond directly to the identifiers specified in the request. If an identifier in the list is not valid, the corresponding item in the response is set to null. |[AssetGroupListingGroup](assetgrouplistinggroup.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

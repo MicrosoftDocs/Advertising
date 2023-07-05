@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Deletes one or more AssetGroups.
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # DeleteAssetGroups Service Operation - Campaign Management
-Reserved.
+Deletes one or more AssetGroups.
 
 ## <a name="request"></a>Request Elements
 The *DeleteAssetGroupsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -25,8 +25,8 @@ The *DeleteAssetGroupsRequest* object defines the [body](#request-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetgroupids"></a>AssetGroupIds|Reserved.|**long** array|
-|<a name="campaignid"></a>CampaignId|Reserved.|**long**|
+|<a name="assetgroupids"></a>AssetGroupIds|Array of asset group IDs to update for the specified campaign. A maximum of 100 asset groups can be specified in a single call. |**long** array|
+|<a name="campaignid"></a>CampaignId|The ID of the performance max campaign. |**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -38,7 +38,7 @@ The *DeleteAssetGroupsResponse* object defines the [body](#response-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of BatchError objects that contain details for any request items that were not successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
