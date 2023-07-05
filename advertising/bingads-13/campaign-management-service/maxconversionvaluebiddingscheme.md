@@ -31,7 +31,7 @@ The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="targetroas"></a>TargetRoas|Reserved for future use.|**double**|
+|<a name="targetroas"></a>TargetRoas|The target return on ad spend.<br/><br/>*Note:* TargetRoas is used by Smart Shopping and Performance Max campaigns.|**double**|
 
 The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 

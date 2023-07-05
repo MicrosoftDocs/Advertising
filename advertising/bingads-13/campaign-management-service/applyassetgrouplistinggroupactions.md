@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Applies an action to an asset group.
+description: Applies an action to an asset group listing group.
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # ApplyAssetGroupListingGroupActions Service Operation - Campaign Management
-Applies an action to an asset group.
+Applies an action to an asset group listing group.
 
 ## <a name="request"></a>Request Elements
 The *ApplyAssetGroupListingGroupActionsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 

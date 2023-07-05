@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines an AudienceGroupAssetGroupAssociation data object.
 ---
 # AudienceGroupAssetGroupAssociation Data Object - Campaign Management
-Reserved.
+Defines an AudienceGroupAssetGroupAssociation data object.
 
 ## Syntax
 ```xml
@@ -26,8 +26,8 @@ The [AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetgroupid"></a>AssetGroupId|Reserved.|**long**|
-|<a name="audiencegroupid"></a>AudienceGroupId|Reserved.|**long**|
+|<a name="assetgroupid"></a>AssetGroupId|The ID of the asset group.<br /><br />**Set**: Required<br />**Delete**: Required |**long**|
+|<a name="audiencegroupid"></a>AudienceGroupId|The ID of the audience group.<br /><br />**Set**: Required<br />**Delete**: Required|**long**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

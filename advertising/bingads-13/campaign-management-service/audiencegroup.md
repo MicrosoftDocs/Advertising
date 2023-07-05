@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines an AudienceGroup data object.
 ---
 # AudienceGroup Data Object - Campaign Management
-Reserved.
+Defines an AudienceGroup data object.
 
 ## Syntax
 ```xml
@@ -29,11 +29,11 @@ The [AudienceGroup](audiencegroup.md) object has the following elements: [Associ
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="associationcount"></a>AssociationCount|Reserved.|**int**|
-|<a name="description"></a>Description|Reserved.|**string**|
-|<a name="dimensions"></a>Dimensions|Reserved.|[AudienceGroupDimension](audiencegroupdimension.md) array|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="name"></a>Name|Reserved.|**string**|
+|<a name="associationcount"></a>AssociationCount|The number of asset groups that associate with this audience group.  <br /><br />**Add**: Read-only <br />**Update**: Read-only |**int**|
+|<a name="description"></a>Description|The description of the audience. Use a description to help you remember what audience you are using. <br /><br />**Add**: Optional <br />**Update**: Optional. If no value is set for the update, this setting is not changed. |**string**|
+|<a name="dimensions"></a>Dimensions|Positive dimensions that specifying the audience composition.  It should have at least one dimension. <br /><br />**Add**: Required, at least one dimension is needed.  <br />**Update**: Optional. For each dimension type (age, gender, audience): <br />- If not present in the array, it’s not changed.<br />- If it’s present in the array, take Age dimension type as an example: <br />&nbsp;&nbsp;&nbsp;&nbsp;- If AgeRanges is set to null or empty, it’ll remove existing values for this dimension type. <br />&nbsp;&nbsp;&nbsp;&nbsp;- If AgeRanges has data, it simply replaces existing values. <br /><br />*Note:* You can't remove all dimension types. An error will be returned and no changes will be made.|[AudienceGroupDimension](audiencegroupdimension.md) array|
+|<a name="id"></a>Id|The system-generated ID. <br /><br />**Add**: Read-only <br />**Update**: Required |**long**|
+|<a name="name"></a>Name|The name of the audience signal, the name must be unique among all audience groups within the account. The name can contain a maximum of 256 characters. <br /><br />**Add**: Required <br />**Update**: Optional |**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

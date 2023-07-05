@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a GenderDimension data object.
 ---
 # GenderDimension Data Object - Campaign Management
-Reserved.
+Defines a GenderDimension data object.
 
 ## Syntax
 ```xml
@@ -29,7 +29,7 @@ The [GenderDimension](genderdimension.md) object has the following elements: [Ge
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="gendertypes"></a>GenderTypes|Reserved.|[GenderType](gendertype.md) array|
+|<a name="gendertypes"></a>GenderTypes|A list of gender types. <br /><br />**Add**: Required <br />**Update**: Optional. To remove existing values, set it to null or empty. To remove a subset of gender types, specify the gender types that you want to keep and it will replace the existing gender types.|[GenderType](gendertype.md) array|
 
 The [GenderDimension](genderdimension.md) object has [Inherited Elements](#inheritedelements).
 
@@ -40,7 +40,7 @@ The [GenderDimension](genderdimension.md) object derives from the [AudienceGroup
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|
+|<a name="type"></a>Type|The type of audience dimensions, the following dimension types are supported as of now: *Age*, *Gender*, *Audience*.   <br /><br />**Add**: For more information about audience types, see the [Remarks](../campaign-management-service/audience.md#remarks). <br />**Update**: For more information about audience types, see the [Remarks](../campaign-management-service/audience.md#remarks). |[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

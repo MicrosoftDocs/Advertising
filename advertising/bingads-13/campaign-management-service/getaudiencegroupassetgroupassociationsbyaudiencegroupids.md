@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Retrieves the specified AudienceGroupAssetGroupAssociations.
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds Service Operation - Campaign Management
-Reserved.
+Retrieves the specified AudienceGroupAssetGroupAssociations.
 
 ## <a name="request"></a>Request Elements
 The *GetAudienceGroupAssetGroupAssociationsByAudienceGroupIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -25,7 +25,7 @@ The *GetAudienceGroupAssetGroupAssociationsByAudienceGroupIdsRequest* object def
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencegroupids"></a>AudienceGroupIds|Reserved.|**long** array|
+|<a name="audiencegroupids"></a>AudienceGroupIds|The list of AudienceGroup ids used to fetch the associations.  <br /><br />You can include a maximum of 100 IDs in a single call. |**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -37,8 +37,8 @@ The *GetAudienceGroupAssetGroupAssociationsByAudienceGroupIdsResponse* object de
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencegroupassetgroupassociations"></a>AudienceGroupAssetGroupAssociations|Reserved.|[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="audiencegroupassetgroupassociations"></a>AudienceGroupAssetGroupAssociations|The list of Audience Group associations to get.  <br /><br />The maximum size of the list is 100 items per service request. |[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of BatchError objects that contain details for any request items that were not successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

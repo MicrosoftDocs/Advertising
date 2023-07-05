@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: A listing group that corresponds directly to the identifiers specified in the request.
 ---
 # AssetGroupListingGroup Data Object - Campaign Management
-Reserved.
+A listing group that corresponds directly to the identifiers specified in the request. If an identifier in the list is not valid, the corresponding item in the response is set to null.
 
 ## Syntax
 ```xml
@@ -30,12 +30,12 @@ The [AssetGroupListingGroup](assetgrouplistinggroup.md) object has the following
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetgroupid"></a>AssetGroupId|Reserved.|**long**|
-|<a name="assetgrouplistingtype"></a>AssetGroupListingType|Reserved.|[AssetGroupListingType](assetgrouplistingtype.md)|
-|<a name="dimension"></a>Dimension|Reserved.|[ProductCondition](productcondition.md)|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="isexcluded"></a>IsExcluded|Reserved.|**boolean**|
-|<a name="parentlistinggroupid"></a>ParentListingGroupId|Reserved.|**long**|
+|<a name="assetgroupid"></a>AssetGroupId|The identifier of the asset group this listing group belongs to.<br /><br />**Add**: Required <br />**Update**: Not supported <br />**Delete**: Required |**long**|
+|<a name="assetgrouplistingtype"></a>AssetGroupListingType|The type of listing group, e.g., *Subdivision* or *Unit*.<br /><br />**Add**: Required<br />**Update**: Not supported<br />**Delete**: Optional|[AssetGroupListingType](assetgrouplistingtype.md)|
+|<a name="dimension"></a>Dimension|A condition that helps determine whether a product from the Microsoft Merchant Center store gets served as an ad. <br /><br />Multiple product conditions can be specified by creating a tree of AssetGroupListingGroup objects using ApplyAssetGroupListingGroupActions. For a catalog item to be served as an ad, it must meet all conditions. <br /><br />**Add**: Required <br />**Update**: Not supported <br />**Delete**: Optional |[ProductCondition](productcondition.md)|
+|<a name="id"></a>Id|The unique Microsoft Advertising identifier of the AssetGroupListingGroup. <br /><br />**Add**: Read-only <br />**Update**: Readonly |**long**|
+|<a name="isexcluded"></a>IsExcluded|Set to *true* If you want to exclude products specified by current. Otherwise, the products will be included. <br /><br />Default value is *false*. <br /><br />**Add**: Optional <br />**Update**: Not supported<br />**Delete**: Optional |**boolean**|
+|<a name="parentlistinggroupid"></a>ParentListingGroupId|The identifier of the parent listing group. <br /><br />This element must be set to null if the listing group node represents the root node of a listing group tree.<br /><br />**Add**: Required <br />**Update**: Not supported <br />**Delete**: Required |**long**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

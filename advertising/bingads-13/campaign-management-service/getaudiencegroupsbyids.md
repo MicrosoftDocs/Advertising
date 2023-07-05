@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Retrieves specified AudienceGroups.
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # GetAudienceGroupsByIds Service Operation - Campaign Management
-Reserved.
+Retrieves specified AudienceGroups.
 
 ## <a name="request"></a>Request Elements
 The *GetAudienceGroupsByIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -25,7 +25,7 @@ The *GetAudienceGroupsByIdsRequest* object defines the [body](#request-body) and
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencegroupids"></a>AudienceGroupIds|Reserved.|**long** array|
+|<a name="audiencegroupids"></a>AudienceGroupIds|Array of audience group ids to get. The maximum size of the list is 100 items per service request. <br /><br />If you leave this element nil or empty, then the operation will return all audience groups in the account. |**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -37,8 +37,8 @@ The *GetAudienceGroupsByIdsResponse* object defines the [body](#response-body) a
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencegroups"></a>AudienceGroups|Reserved.|[AudienceGroup](audiencegroup.md) array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="audiencegroups"></a>AudienceGroups|Array of audience groups. The maximum size of the list is 100 items per service request. |[AudienceGroup](audiencegroup.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of BatchError objects that contain details for any request items that were not successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

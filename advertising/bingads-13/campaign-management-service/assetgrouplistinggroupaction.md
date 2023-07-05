@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: An object that contains an Action element and a ListingGroup element.
 ---
 # AssetGroupListingGroupAction Data Object - Campaign Management
-Reserved.
+An object that contains an Action element and a ListingGroup element.
 
 ## Syntax
 ```xml
@@ -26,8 +26,8 @@ The [AssetGroupListingGroupAction](assetgrouplistinggroupaction.md) object has t
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="action"></a>Action|Reserved.|[ItemAction](itemaction.md)|
-|<a name="listinggroup"></a>ListingGroup|Reserved.|[AssetGroupListingGroup](assetgrouplistinggroup.md)|
+|<a name="action"></a>Action|The action to be applied for the AssetGroupListingGroup.|[ItemAction](itemaction.md)|
+|<a name="listinggroup"></a>ListingGroup|The AssetGroupListingGroup to apply action to. <br /><br />Update is not supported for listing group, To update the order or structure of the listing group, you cannot use the update action. You must delete existing listing groups and then add new listing groups instead. |[AssetGroupListingGroup](assetgrouplistinggroup.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
