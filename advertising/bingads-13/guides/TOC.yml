@@ -1136,6 +1136,10 @@
       href: ../campaign-management-service/addadgroups.md
     - name: AddAds
       href: ../campaign-management-service/addads.md
+    - name: AddAssetGroups
+      href: ../campaign-management-service/addassetgroups.md
+    - name: AddAudienceGroups
+      href: ../campaign-management-service/addaudiencegroups.md
     - name: AddAudiences
       href: ../campaign-management-service/addaudiences.md
     - name: AddBidStrategies
@@ -1172,6 +1176,8 @@
       href: ../campaign-management-service/addvideos.md
     - name: AppealEditorialRejections
       href: ../campaign-management-service/appealeditorialrejections.md
+    - name: ApplyAssetGroupListingGroupActions
+      href: ../campaign-management-service/applyassetgrouplistinggroupactions.md
     - name: ApplyHotelGroupActions
       href: ../campaign-management-service/applyhotelgroupactions.md
     - name: ApplyOfflineConversionAdjustments
@@ -1192,6 +1198,10 @@
       href: ../campaign-management-service/deleteadgroups.md
     - name: DeleteAds
       href: ../campaign-management-service/deleteads.md
+    - name: DeleteAudienceGroupAssetGroupAssociations
+      href: ../campaign-management-service/deleteaudiencegroupassetgroupassociations.md
+    - name: DeleteAudienceGroups
+      href: ../campaign-management-service/deleteaudiencegroups.md
     - name: DeleteAudiences
       href: ../campaign-management-service/deleteaudiences.md
     - name: DeleteBidStrategies
@@ -1250,6 +1260,18 @@
       href: ../campaign-management-service/getadsbyeditorialstatus.md
     - name: GetAdsByIds
       href: ../campaign-management-service/getadsbyids.md
+    - name: GetAssetGroupListingGroupsByIds
+      href: ../campaign-management-service/getassetgrouplistinggroupsbyids.md
+    - name: GetAssetGroupsByCampaignId
+      href: ../campaign-management-service/getassetgroupsbycampaignid.md
+    - name: GetAssetGroupsByIds
+      href: ../campaign-management-service/getassetgroupsbyids.md
+    - name: GetAudienceGroupAssetGroupAssociationsByAssetGroupIds
+      href: ../campaign-management-service/getaudiencegroupassetgroupassociationsbyassetgroupids.md
+    - name: GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds
+      href: ../campaign-management-service/getaudiencegroupassetgroupassociationsbyaudiencegroupids.md
+    - name: GetAudienceGroupsByIds
+      href: ../campaign-management-service/getaudiencegroupsbyids.md
     - name: GetAudiencesByIds
       href: ../campaign-management-service/getaudiencesbyids.md
     - name: GetBidStrategiesByIds
@@ -1334,6 +1356,8 @@
       href: ../campaign-management-service/setaccountproperties.md
     - name: SetAdExtensionsAssociations
       href: ../campaign-management-service/setadextensionsassociations.md
+    - name: SetAudienceGroupAssetGroupAssociations
+      href: ../campaign-management-service/setaudiencegroupassetgroupassociations.md
     - name: SetLabelAssociations
       href: ../campaign-management-service/setlabelassociations.md
     - name: SetNegativeSitesToAdGroups
@@ -1350,6 +1374,10 @@
       href: ../campaign-management-service/updateadgroups.md
     - name: UpdateAds
       href: ../campaign-management-service/updateads.md
+    - name: UpdateAssetGroups
+      href: ../campaign-management-service/updateassetgroups.md
+    - name: UpdateAudienceGroups
+      href: ../campaign-management-service/updateaudiencegroups.md
     - name: UpdateAudiences
       href: ../campaign-management-service/updateaudiences.md
     - name: UpdateBidStrategies
@@ -1421,6 +1449,8 @@
       href: ../campaign-management-service/adrotation.md
     - name: AgeCriterion
       href: ../campaign-management-service/agecriterion.md
+    - name: AgeDimension
+      href: ../campaign-management-service/agedimension.md
     - name: ApiFaultDetail
       href: ../campaign-management-service/apifaultdetail.md
     - name: AppAdExtension
@@ -1435,12 +1465,28 @@
       href: ../campaign-management-service/appurl.md
     - name: Asset
       href: ../campaign-management-service/asset.md
+    - name: AssetGroup
+      href: ../campaign-management-service/assetgroup.md
+    - name: AssetGroupListingGroup
+      href: ../campaign-management-service/assetgrouplistinggroup.md
+    - name: AssetGroupListingGroupAction
+      href: ../campaign-management-service/assetgrouplistinggroupaction.md
     - name: AssetLink
       href: ../campaign-management-service/assetlink.md
     - name: Audience
       href: ../campaign-management-service/audience.md
     - name: AudienceCriterion
       href: ../campaign-management-service/audiencecriterion.md
+    - name: AudienceDimension
+      href: ../campaign-management-service/audiencedimension.md
+    - name: AudienceGroup
+      href: ../campaign-management-service/audiencegroup.md
+    - name: AudienceGroupAssetGroupAssociation
+      href: ../campaign-management-service/audiencegroupassetgroupassociation.md
+    - name: AudienceGroupDimension
+      href: ../campaign-management-service/audiencegroupdimension.md
+    - name: AudienceInfo
+      href: ../campaign-management-service/audienceinfo.md
     - name: BatchError
       href: ../campaign-management-service/batcherror.md
     - name: BatchErrorCollection
@@ -1503,6 +1549,8 @@
       href: ../campaign-management-service/customeraccountshare.md
     - name: CustomerAccountShareAssociation
       href: ../campaign-management-service/customeraccountshareassociation.md
+    - name: CustomerList
+      href: ../campaign-management-service/customerlist.md
     - name: CustomerShare
       href: ../campaign-management-service/customershare.md
     - name: CustomEventsRule
@@ -1517,6 +1565,8 @@
       href: ../campaign-management-service/daytime.md
     - name: DayTimeCriterion
       href: ../campaign-management-service/daytimecriterion.md
+    - name: DealCriterion
+      href: ../campaign-management-service/dealcriterion.md
     - name: DeviceCriterion
       href: ../campaign-management-service/devicecriterion.md
     - name: DisclaimerAdExtension
@@ -1569,6 +1619,8 @@
       href: ../campaign-management-service/frequencycapsettings.md
     - name: GenderCriterion
       href: ../campaign-management-service/gendercriterion.md
+    - name: GenderDimension
+      href: ../campaign-management-service/genderdimension.md
     - name: GeoPoint
       href: ../campaign-management-service/geopoint.md
     - name: GoogleImportJob
@@ -1840,6 +1892,12 @@
       href: ../campaign-management-service/agerange.md
     - name: AppealStatus
       href: ../campaign-management-service/appealstatus.md
+    - name: AssetGroupEditorialStatus
+      href: ../campaign-management-service/assetgroupeditorialstatus.md
+    - name: AssetGroupListingType
+      href: ../campaign-management-service/assetgrouplistingtype.md
+    - name: AssetGroupStatus
+      href: ../campaign-management-service/assetgroupstatus.md
     - name: AssetLinkEditorialStatus
       href: ../campaign-management-service/assetlinkeditorialstatus.md
     - name: AssociationType
@@ -1848,6 +1906,8 @@
       href: ../campaign-management-service/attributionmodeltype.md
     - name: AudienceAdditionalField
       href: ../campaign-management-service/audienceadditionalfield.md
+    - name: AudienceGroupDimensionType
+      href: ../campaign-management-service/audiencegroupdimensiontype.md
     - name: AudienceType
       href: ../campaign-management-service/audiencetype.md
     - name: BidOption
