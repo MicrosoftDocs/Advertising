@@ -1265,7 +1265,7 @@
     - name: GetAssetGroupsByCampaignId
       href: ../campaign-management-service/getassetgroupsbycampaignid.md
     - name: GetAssetGroupsByIds
-      href: ../campaign-management-service/getassetgroupsbyid.md
+      href: ../campaign-management-service/getassetgroupsbyids.md
     - name: GetAudienceGroupAssetGroupAssociationsByAssetGroupIds
       href: ../campaign-management-service/getaudiencegroupassetgroupassociationsbyassetgroupids.md
     - name: GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds
