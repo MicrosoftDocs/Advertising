@@ -27,9 +27,9 @@ The [FrequencyCapSettings](frequencycapsettings.md) object has the following ele
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="capvalue"></a>CapValue|Reserved.|**int**|
-|<a name="frequencycapunit"></a>FrequencyCapUnit|Reserved.|**string**|
-|<a name="timegranularity"></a>TimeGranularity|Reserved.|[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|
+|<a name="capvalue"></a>CapValue|A limit to the number of times an ad is shown.|**int**|
+|<a name="frequencycapunit"></a>FrequencyCapUnit|What unit to limit the ad serves. Values are *Impression*, *View*, *Click*.|**string**|
+|<a name="timegranularity"></a>TimeGranularity|The smallest time interval to limit ad serves. Values are *Hour*, *Day*, *Week*.|[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

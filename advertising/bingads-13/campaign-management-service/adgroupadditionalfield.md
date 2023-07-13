@@ -43,7 +43,7 @@ The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the follow
 |<a name="commissionrate"></a>CommissionRate|Reserved.|
 |<a name="cpmbid"></a>CpmBid|Request that the [CpmBid](adgroup.md#cpmbid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="cpvbid"></a>CpvBid|Request that the [CpvBid](adgroup.md#cpvbid) element be included within each returned [AdGroup](adgroup.md) object.|
-|<a name="frequencycapsettings"></a>FrequencyCapSettings|Reserved.|
+|<a name="frequencycapsettings"></a>FrequencyCapSettings|Settings for the frequency cap.|
 |<a name="mcpabid"></a>McpaBid|Reserved.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="percentcpcbid"></a>PercentCpcBid|Reserved.|
