@@ -16,7 +16,7 @@ dev_langs:
 Gets the list of keyword idea categories.
 
 > [!NOTE]
-> The GetKeywordIdeaCategories service operation is deprecated as of August 21, 2023.
+> The GetKeywordIdeaCategories service operation is deprecated as of August 21, 2023. [Learn more](https://techcommunity.microsoft.com/t5/bing-ads-api-blog/deprecation-of-legacy-ad-insight-keyword-apis-and-features/ba-p/3878600).
 
 You can use the *CategoryId* element of a [KeywordCategory](keywordcategory.md) as a part of the [CategorySearchParameter](categorysearchparameter.md) when calling the [GetKeywordIdeas](getkeywordideas.md) operation.
 
