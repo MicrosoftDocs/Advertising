@@ -81,7 +81,7 @@ The [HotelGroupPerformanceReportColumn](hotelgroupperformancereportcolumn.md) va
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
-|<a name="adid"></a>AdId|The Microsoft Advertising assigned identifier of an ad. *Note*: AdId is restricted for share of voice metrics.|
+|<a name="adid"></a>AdId|The Microsoft Advertising assigned identifier of an ad.<br/><br/>*Note*: AdId is restricted for share of voice metrics.|
 |<a name="averagecpc"></a>AverageCpc|The average cost per click (CPC). The total cost of all clicks on an ad divided by the number of clicks. This is the average amount you're actually charged each time your ad is clicked. For example, if you paid a total of 48.35 for 300 clicks, your average CPC is 0.16. The formula for calculating the average CPC is *(Spend /Clicks)*.|
 |<a name="averagecpm"></a>AverageCpm|The total advertising cost divided by the number of impressions (in thousands).<br/<br/>In Latin, mille means a thousand. Also, sometimes called average cost per thousand (CPT).<br/><br/>This is a standard advertising industry performance metric that we calculate based on your spend and number of impressions.<br/><br/>The goal of CPM-based ad budgeting is to build awareness of your brand to large audiences. CPM tells you how much it costs to get an ad to the type of users you're targeting.|
 |<a name="avgbookedabw"></a>AvgBookedABW|The average advanced booking window for the hotel. The average is calculated as (booked ABW/conversions).|
