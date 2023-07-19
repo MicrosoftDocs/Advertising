@@ -563,7 +563,4 @@ The following validation rules apply to tracking templates. For more details abo
 **Delete:** Read-only  
 
 ## <a name="useoptimizedtargeting"></a>Use Optimized Targeting
-Indicates if predictive targeting is enabled for an AdGroup. *Note*: UseOptimizedTargeting is only available for Audience campaigns.
-
-**Add:** Optional.
-**Update:** Optional.
+Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UseOptimizedTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional.<br/>**Update:** Optional.
