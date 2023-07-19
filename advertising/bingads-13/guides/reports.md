@@ -145,6 +145,18 @@ The following attribute and impression share performance statistics columns are 
 |--------------|-------------------------------------------|
 |BidMatchType<br/><br/>BudgetAssociationStatus<br/><br/>BudgetName<br/><br/>BudgetStatus<br/><br/>DeviceOS<br/><br/>Goal<br/><br/>GoalType<br/><br/>TopVsOther|AbsoluteTopImpressionRatePercent<br/><br/>AbsoluteTopImpressionShareLostToBudgetPercent<br/><br/>AbsoluteTopImpressionShareLostToRankPercent<br/><br/>AbsoluteTopImpressionSharePercent<br/><br/>AudienceImpressionLostToBudgetPercent<br/><br/>AudienceImpressionLostToRankPercent<br/><br/>AudienceImpressionSharePercent<br/><br/>ClickSharePercent<br/><br/>ExactMatchImpressionSharePercent<br/><br/>ImpressionLostToBudgetPercent<br/><br/>ImpressionLostToRankAggPercent<br/><br/>ImpressionSharePercent<br/><br/>RelativeCtr<br/><br/>TopImpressionRatePercent<br/><br/>TopImpressionShareLostToBudgetPercent<br/><br/>TopImpressionShareLostToRankPercent<br/><br/>TopImpressionSharePercent|
 
+The following attributes are restricted when submitting the [HotelDimensionPerformanceReportRequest](../reporting-service/hoteldimensionperformancereportrequest.md).
+
+|Attributes|
+|--------------|
+|AdId|
+
+The following attributes are restricted when submitting the [HotelGroupPerformanceReportRequest](../reporting-service/hotelgroupperformancereportrequest.md).
+
+|Attributes|
+|--------------|
+|AdId|
+
 The following attribute and impression share performance statistics columns are mutually exclusive when submitting the [ProductDimensionPerformanceReportRequest](../reporting-service/productdimensionperformancereportrequest.md).
 
 |Attributes|Impression Share Performance Statistics|
