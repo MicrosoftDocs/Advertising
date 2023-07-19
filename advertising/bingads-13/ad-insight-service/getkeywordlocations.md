@@ -16,7 +16,7 @@ dev_langs:
 Gets the geographical locations of users who have searched for the specified keywords.
 
 > [!NOTE]
-> The GetKeywordLocations service operation is deprecated as of August 21, 2023.
+> The GetKeywordLocations service operation is deprecated as of August 21, 2023. [Learn more](https://techcommunity.microsoft.com/t5/bing-ads-api-blog/deprecation-of-legacy-ad-insight-keyword-apis-and-features/ba-p/3878600).
 
 ## <a name="request"></a>Request Elements
 The *GetKeywordLocationsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 

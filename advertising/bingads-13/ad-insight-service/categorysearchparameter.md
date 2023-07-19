@@ -11,7 +11,7 @@ description: The keyword category search parameter that you can use as a seed fo
 The keyword category search parameter that you can use as a seed for new keyword ideas.
 
 > [!NOTE]
-> The CategorySearchParamater data object is deprecated as of August 21, 2023.
+> The CategorySearchParamater data object is deprecated as of August 21, 2023. [Learn more](https://techcommunity.microsoft.com/t5/bing-ads-api-blog/deprecation-of-legacy-ad-insight-keyword-apis-and-features/ba-p/3878600).
 
 ## Syntax
 ```xml
