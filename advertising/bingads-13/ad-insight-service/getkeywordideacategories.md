@@ -15,6 +15,9 @@ dev_langs:
 # GetKeywordIdeaCategories Service Operation - Ad Insight
 Gets the list of keyword idea categories.
 
+> [!NOTE]
+> The GetKeywordIdeaCategories service operation is deprecated as of August 21, 2023.
+
 You can use the *CategoryId* element of a [KeywordCategory](keywordcategory.md) as a part of the [CategorySearchParameter](categorysearchparameter.md) when calling the [GetKeywordIdeas](getkeywordideas.md) operation.
 
 ## <a name="request"></a>Request Elements

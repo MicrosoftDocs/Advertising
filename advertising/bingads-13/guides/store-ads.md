@@ -41,8 +41,8 @@ You can create a campaign through the Microsoft Advertising user interface ([see
 
 - Follow the steps to create a Microsoft Shopping campaign with [Bulk Service](../guides/product-ads.md#bingshopping-bulkservice) or [Campaign Management Service](../guides/product-ads.md#bingshopping-campaignservice). Please take note of the additional settings available to support Microsoft Store Ads.  
 - Microsoft Store Ads supports two bidding strategies:
+  - [ManualCpaBiddingScheme](../campaign-management-service/manualcpabiddingscheme.md)
   - [ManualCpcBiddingScheme](../campaign-management-service/manualcpcbiddingscheme.md)
-  - [CostPerSaleBiddingCheme](../campaign-management-service/costpersalebiddingscheme.md)
 - One the bid strategy is set, it cannot be changed for the campaign.
 - With Microsoft Store Ads, a single campaign can target all apps under all publishers, and there's no need to create individual campaigns for each app or publisher.  
 - The campaign subtype must be set to *ShoppingSponsoredProductAd*.

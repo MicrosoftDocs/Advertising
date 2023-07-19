@@ -15,11 +15,14 @@ dev_langs:
 # GetKeywordCategories Service Operation - Ad Insight
 Gets the keyword categories to which the specified keywords belong.
 
+> [!NOTE]
+> Unless otherwise noted below, all request elements are required.
+
 ## <a name="request"></a>Request Elements
 The *GetKeywordCategoriesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 
 > [!NOTE]
-> Unless otherwise noted below, all request elements are required.
+> The GetKeywordCategories service operation is deprecated as of August 21, 2023.
 
 ### <a name="request-body"></a>Request Body Elements
 

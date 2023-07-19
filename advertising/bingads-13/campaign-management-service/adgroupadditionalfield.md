@@ -47,7 +47,7 @@ The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the follow
 |<a name="mcpabid"></a>McpaBid|Reserved.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="percentcpcbid"></a>PercentCpcBid|Reserved.|
-|<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|Reserved.|
+|<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|Indicates if predictive targeting is enabled for an AdGroup. *Note*: UseOptimizedTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional. |
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

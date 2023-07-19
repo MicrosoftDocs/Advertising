@@ -10,6 +10,9 @@ description: The keyword category search parameter that you can use as a seed fo
 # CategorySearchParameter Data Object - Ad Insight
 The keyword category search parameter that you can use as a seed for new keyword ideas.
 
+> [!NOTE]
+> The CategorySearchParamater data object is deprecated as of August 21, 2023.
+
 ## Syntax
 ```xml
 <xs:complexType name="CategorySearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">

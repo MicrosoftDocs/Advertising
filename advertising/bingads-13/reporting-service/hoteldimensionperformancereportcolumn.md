@@ -97,7 +97,7 @@ The [HotelDimensionPerformanceReportColumn](hoteldimensionperformancereportcolum
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
-|<a name="adid"></a>AdId|The Microsoft Advertising assigned identifier of an ad.|
+|<a name="adid"></a>AdId|The Microsoft Advertising assigned identifier of an ad. *Note*: AdId is restricted for share of voice metrics.|
 |<a name="advancedbookingwindow"></a>AdvancedBookingWindow|The number of days before the check-in date that the user is asking to book the hotel room. For example, if today is 3 May and the user is asking to book a room for 8 May, the column's value is 5.|
 |<a name="advertiserhotelid"></a>AdvertiserHotelId|The Microsoft Advertising assigned identifier of an advertiser hotel.|
 |<a name="averagecpc"></a>AverageCpc|The average cost per click (CPC). The total cost of all clicks on an ad divided by the number of clicks. This is the average amount you're actually charged each time your ad is clicked. For example, if you paid a total of 48.35 for 300 clicks, your average CPC is 0.16. The formula for calculating the average CPC is *(Spend /Clicks)*.|
