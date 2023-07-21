@@ -12,7 +12,8 @@ Defines the base object of a bidding scheme for how you want to manage your bids
 
 Do not try to instantiate a *BiddingScheme*. You can create one or more of the following objects that derive from it.  
 
-- [CommissionBiddingScheme](commissionbiddingscheme.md)  
+- [CommissionBiddingScheme](commissionbiddingscheme.md)
+- [CostPerSaleBiddingScheme](costpersalebiddingscheme.md)  
 - [EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md)  
 - [InheritFromParentBiddingScheme](inheritfromparentbiddingscheme.md)  
 - [ManualCpaBiddingScheme](manualcpabiddingscheme.md)  
@@ -21,7 +22,9 @@ Do not try to instantiate a *BiddingScheme*. You can create one or more of the f
 - [ManualCpvBiddingScheme](manualcpvbiddingscheme.md)  
 - [MaxClicksBiddingScheme](maxclicksbiddingscheme.md)  
 - [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md)  
-- [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md)  
+- [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md)
+- [MaxRoasBiddingScheme](maxroasbiddingscheme.md)
+- [PercentCpcBiddingScheme](percentcpcbiddingscheme.md)  
 - [TargetCpaBiddingScheme](targetcpabiddingscheme.md)  
 - [TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md)  
 - [TargetRoasBiddingScheme](targetroasbiddingscheme.md)  
