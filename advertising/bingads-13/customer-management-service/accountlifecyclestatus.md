@@ -32,7 +32,7 @@ The [AccountLifeCycleStatus](accountlifecyclestatus.md) value set has the follow
 |-----------|---------------|
 |<a name="active"></a>Active|The account is active, which means that the account and its campaigns can be managed and its ads served.|
 |<a name="draft"></a>Draft|The account is in a draft state. When you add an account, the system sets the status to Draft. After the system validates the payment instrument, the status changes to Active. You cannot add another account while the customer has an account in the Draft state.|
-|<a name="inactive"></a>Inactive|The account is inactive, which means that the system deleted the account.|
+|<a name="inactive"></a>Inactive|The account was deactivated as it generated no traffic for 15 months. To reactivate, contact Microsoft Advertising support within 30 days of deactivation.|
 |<a name="pause"></a>Pause|For internal use only. You may update the account and its campaigns while the account is in the paused state.|
 |<a name="pending"></a>Pending|For internal use only. You may update the account and its campaigns while the account is in the pending state.|
 |<a name="suspended"></a>Suspended|Your account has been suspended because of suspicious activity, and no ads are eligible for delivery.<br/>Please contact [Microsoft Advertising Support](https://go.microsoft.com/fwlink/?LinkId=269631).|
