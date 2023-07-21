@@ -224,6 +224,7 @@ The following are the possible reason codes for an ad or keyword that failed edi
 |321|Policy Violation: Advertising for certain content, products, and services is disallowed if the legality or regulatory status is unclear.|
 |322|Policy Violation: Advertising for certain content, products, and services is disallowed if the legality or regulatory status is unclear.|
 |323|Please ensure you comply with all applicable licensing requirements for cosmetic surgery.|
+|327|The specified entity did not pass editorial validation.|
 |349|Landing page content not relevant.|
 |350|Policy Violation: Your ad or website contains content that is not allowed on Microsoft Advertising.|
 |351|Editorial Guidelines: Your ad or keyword contains symbols or special characters which are disallowed.|
