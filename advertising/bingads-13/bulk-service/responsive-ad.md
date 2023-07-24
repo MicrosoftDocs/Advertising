@@ -377,18 +377,21 @@ The system-generated identifier of the ad.
 ## <a name="images"></a>Images
 Because audience ads are responsive, you can create multiple image assets with different sizes and aspect ratios so they can flexibly display across a variety of publishers and placements.
 
-You are only required to provide a landscape image asset i.e., this field must contain one image asset with [subType](#images-subtype) set to LandscapeImageMedia. The recommended dimensions for the LandscapeImageMedia are 1200 width x 628 height. Optionally you can include additional asset links, i.e., one image asset for each supported sub type. For any image asset sub types that you do not explicitly set, Microsoft Advertising will automatically create image asset links by cropping the LandscapeImageMedia. 
+> [!NOTE]
+>As of now, the SubType OriginalImage replaces the role of LandscapeImageMedia as the default image for ResponsiveAd of Audience Campaign.
+
+You are only required to provide an OriginalImage asset i.e., this field must contain one image asset with [subType](#images-subtype) set to OriginalImage. The recommended dimensions for the OriginalImage are 1200 width x 628 height. Optionally you can include additional asset links, i.e., one image asset for each supported sub type. For any image asset sub types that you do not explicitly set, Microsoft Advertising will automatically create image asset links by cropping the OriginalImage.
 
 > [!NOTE]
 > If this field is set (not empty), then [Landscape Image Media Id](#landscapeimagemediaid) and [Square Image Media Id](#squareimagemediaid) are both ignored. 
 
-The image assets are represented in the bulk file as a JSON string. Seven images are included in the example JSON below, and only the LandscapeImageMedia `subType` is not cropped. The `id` is a property of the asset, whereas the `cropHeight`, `cropWidth`, `cropX`, `cropY`, and `subType` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see [cropHeight](#images-cropheight), [cropWidth](#images-cropwidth), [cropX](#images-cropx), [cropY](#images-cropy), [id](#images-id), and [subType](#images-subtype) below.
+The image assets are represented in the bulk file as a JSON string. Nine images are included in the example JSON below, and only the OriginalImage `subType` is not cropped. The `id` is a property of the asset, whereas the `cropHeight`, `cropWidth`, `cropX`, `cropY`, and `subType` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see [cropHeight](#images-cropheight), [cropWidth](#images-cropwidth), [cropX](#images-cropx), [cropY](#images-cropy), [id](#images-id), and [subType](#images-subtype) below.
 
 
 ```json
 [{
 	"id": 1234567890000,
-	"subType": "LandscapeImageMedia"
+	"subType": "OriginalImage"
 },
 {
 	"id": 1234567890000,
@@ -461,8 +464,8 @@ The image assets are represented in the bulk file as a JSON string. Seven images
 
 Given the upload response JSON example above, please take note of the following:
 - The same image asset identifier (e.g., 1234567890000) is used for all auto-generated image asset sub types. Whether or not you let Microsoft Advertising automatically generate the cropped images, the [Id](#images-id) does not need to be unique among the image assets linked to the same ad. 
-- Because the ad in this example was created without crop settings for the LandscapeImageMedia image asset sub type, all image assets are cropped except for the original landscape image. 
-- Whether or not the landscape image has its own crop settings, Microsoft Advertising uses the true height of the landscape image for all of the default crop settings. In this example the crop height for all system-generated image assets is 628, and we can infer that the landscape image (LandscapeImageMedia sub type) with 1.91:1 aspect ratio has width and height of 1200x628. Even if the landscape image asset link had been created with crop settings e.g., 703x368, the crop settings of the auto-generated image assets are based on the full dimensions of the landscape image (again that would be 1200x628 in this example). 
+- Because the ad in this example was created without crop settings for the OriginalImage image asset sub type, all image assets are cropped except for the OriginalImage associated image.
+- Whether or not the OriginalImage has its own crop settings, Microsoft Advertising uses the true height of the OriginalImage associated image for all of the default crop settings. In this example the crop height for all system-generated image assets is 628, and we can infer that the OriginalImage (OriginalImage sub type) with 1.91:1 aspect ratio has width and height of 1200x628. Even if the OriginalImage asset link had been created with crop settings e.g., 703x368, the crop settings of the auto-generated image assets are based on the full dimensions of the OriginalImage (again that would be 1200x628 in this example). 
 - Although in Bing Ads API version 12 you could use the [Landscape Image Media Id](#landscapeimagemediaid) and [Square Image Media Id](#squareimagemediaid), these fields are deprecated and will be removed in a future version. You have more flexibility and control of cropped images via the [Images](#images) field. 
 
 ### <a name="images-cropheight"></a>cropHeight
@@ -489,19 +492,19 @@ The `subType` attribute represents the aspect ratio for this image asset.
 
 The true aspect ratio of the [Image](image.md) that is stored in the account level media library can vary, so long as the resulting dimensions result in the expected aspect ratio per sub type. If you do not specify crop settings, the service will automatically crop up to the maximum possible area from the center of the image. For example, given a 1000x1000 pixel [image](image.md), for the 1.91:1 aspect ratio, the auto crop setting will be [cropWidth](#images-cropwidth)=1000, [cropHeight](#images-cropheight)=524, [cropX](#images-cropx)=0, and [cropY](#images-cropy)=238. 
 
-The possible sub type values include LandscapeImageMedia, SquareImageMedia, ImageMedia169X100, ImageMedia93X100, ImageMedia15X10, ImageMedia155X100, ImageMedia133X100, ImageMedia178X100, and ImageMedia172X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
+The possible sub type values include  OriginalImage, LandscapeImageMedia, SquareImageMedia, ImageMedia169X100, ImageMedia201X100, ImageMedia120X100, ImageMedia200X100, ImageMedia124X100, and ImageMedia153X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
 
-|Sub Type|Minimum dimensions in pixels|
+|Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-|LandscapeImageMedia|703 width x 368 height<br/>Aspect radio 1.91:1|
-|SquareImageMedia|300 width x 300 height<br/>Aspect radio 1:1|
-|ImageMedia169X100|622 width x 368 height<br/>Aspect radio 1.69:1|
-|ImageMedia93X100|311 width x 333 height<br/>Aspect radio 0.93:1|
-|ImageMedia15X10|300 width x 200 height<br/>Aspect radio 1.5:1|
-|ImageMedia155X100|300 width x 194 height<br/>Aspect radio 1.55:1|
-|ImageMedia133X100|100 width x 75 height<br/>Aspect radio 1.33:1|
-|ImageMedia178X100|624 width x 350 height<br/>Aspect radio 1.78:1|
-|ImageMedia172X100|300 width x 174 height<br/>Aspect radio 1.72:1|
+|OriginalImage|N/A|703 width x 368 height|
+|LandscapeImageMedia|1.91:1|300 width x 157 height|
+|SquareImageMedia|1:1|114 width x 114 height|
+|ImageMedia201X100|2.01:1|612 width x 304 height|
+|ImageMedia120X100|1.2:1|300 width x 250 height|
+|ImageMedia200X100|2:1|200 width x 100 height|
+|ImageMedia169X100|1.69:1|628 width x 372 height|
+|ImageMedia124X100|1.24:1|104 width x 84 height|
+|ImageMedia153X100|1.53:1|306 width x 200 height|
 
 **Add:** Required if [Landscape Image Media Id](#landscapeimagemediaid) is empty. Only the [id](#images-id) and [subType](#images-subtype) are required for each asset link.  
 **Update:** Optional. To retain all of the existing asset links, set or leave this field empty. If you set this field, any images that were previously linked to this ad will be replaced. If you set this field, only the [id](#images-id) and [subType](#images-subtype) are required for each asset link.   
