@@ -145,19 +145,23 @@ In the [Images](#images) element include one or more [AssetLink](assetlink.md) o
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-|LandscapeImageMedia|1.91:1|703 width x 368 height|
-|SquareImageMedia|1:1|300 width x 300 height|
-|ImageMedia15X10|1.5:1|300 width x 200 height|
-|ImageMedia133X100|1.33:1|100 width x 75 height|
-|ImageMedia178X100|1.78:1|624 width x 350 height|
+|OriginalImage|N/A|703 width x 368 height|
+|LandscapeImageMedia|1.91:1|300 width x 157 height|
+|SquareImageMedia|1:1|114 width x 114 height|
+|ImageMedia201X100|2.01:1|612 width x 304 height|
+|ImageMedia120X100|1.2:1|300 width x 250 height|
+|ImageMedia200X100|2:1|200 width x 100 height|
+|ImageMedia169X100|1.69:1|628 width x 372 height|
+|ImageMedia124X100|1.24:1|104 width x 84 height|
+|ImageMedia153X100|1.53:1|306 width x 200 height|
 
-You are only required to provide a landscape image asset. In the [Images](#images) element include an [AssetLink](assetlink.md) that contains one [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to LandscapeImageMedia. The recommended dimensions for the LandscapeImageMedia are 1200 width x 628 height. Optionally you can include additional asset links, i.e., one image asset for each supported sub type. For any image asset sub types that you do not explicitly set, Microsoft Advertising will automatically create image asset links by cropping the LandscapeImageMedia. 
+You are only required to provide a default image OriginalImage image asset (the default image was previously LandscapeImageMedia). In the [Images](#images) element include an [AssetLink](assetlink.md) that contains one [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to OriginalImage. The recommended dimensions for the OriginalImage are 1200 width x 628 height. Optionally you can include additional asset links, i.e., one image asset for each supported sub type. For any image asset sub types that you do not explicitly set, Microsoft Advertising will automatically create image asset links by cropping the LandscapeImageMedia. 
 
 Given the [GetAdsByAdGroupId](getadsbyadgroupid.md) response example below, please take note of the following:
 
 - The same image asset identifier (e.g., 1234567890000) is used for all auto-generated image asset sub types. Whether or not you let Microsoft Advertising automatically generate the cropped images, the [Id](imageasset.md#id) does not need to be unique among the image assets linked to the same ad.
-- Because the ad in this example was created without crop settings for the LandscapeImageMedia image asset sub type, all image assets are cropped except for the original landscape image.
-- Whether or not the landscape image has its own crop settings, Microsoft Advertising uses the true height of the landscape image for all of the default crop settings. In this example the crop height for all system-generated image assets is 628, and we can infer that the landscape image (LandscapeImageMedia sub type) with 1.91:1 aspect ratio has width and height of 1200x628. Even if the landscape image asset link had been created with crop settings e.g., 703x368, the crop settings of the auto-generated image assets are based on the full dimensions of the landscape image (again that would be 1200x628 in this example).
+- Because the ad in this example was created without crop settings for the OriginalImage image asset sub type, all image assets are cropped except for the OriginalImage associated image.
+- Whether or not the OriginalImage has its own crop settings, Microsoft Advertising uses the true height of the landscape image for all of the default crop settings. In this example the crop height for all system-generated image assets is 628, and we can infer that the OriginalImage (OriginalImage sub type) with 1.91:1 aspect ratio has width and height of 1200x628. Even if the OriginalImage asset link had been created with crop settings e.g., 703x368, the crop settings of the auto-generated image assets are based on the full dimensions of the landscape image (again that would be 1200x628 in this example).
 
 ```xml
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -197,7 +201,7 @@ Given the [GetAdsByAdGroupId](getadsbyadgroupid.md) response example below, plea
 								<CropWidth i:nil="true"/>
 								<CropX i:nil="true"/>
 								<CropY i:nil="true"/>
-								<SubType>LandscapeImageMedia</SubType>
+								<SubType>OriginalImage</SubType>
 							</Asset>
 							<AssetPerformanceLabel i:nil="true"/>
 							<EditorialStatus i:nil="true"/>
