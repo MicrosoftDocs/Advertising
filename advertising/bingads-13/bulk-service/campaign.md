@@ -665,7 +665,7 @@ The campaign sub type.
 
 If the sub type is not set, the campaign is created according to the campaign type.
 
-If the sub type is set to *AudienceVideoAds* and the campaign type is *Audience*, the campaign is a video audience campaign. If the request has an internal developer token, the sub type is *BrandAwarenessVideoAds*.
+If the sub type is set to *AudienceVideoAds* and the campaign type is *Audience*, the campaign is a video audience campaign. If you are currently enrolled in the pilot for new Video Ads, the sub type is *BrandAwarenessVideoAds*.
 
 If the sub type is set to *ShoppingSmartAds*, the campaign is a Microsoft Smart Shopping campaign.  
 

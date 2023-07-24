@@ -149,6 +149,7 @@ For an *Ad Group* record, the following attribute fields are available in the [B
 - [Custom Parameter](#customparameter)
 - [End Date](#enddate)
 - [Final Url Suffix](#finalurlsuffix)
+- [Frequency Cap Settings](#frequencycapsettings)
 - [Id](#id)
 - [Inherited Bid Strategy Type](#inheritedbidstrategytype)
 - [Keyword Relevance](#keywordrelevance)
@@ -335,6 +336,18 @@ The end date is inclusive. For example, if you set *End Date* to 12/31/2020, the
 
 ## <a name="finalurlsuffix"></a>Final Url Suffix
 The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. For more details and validation rules see [Final URL Suffix](../guides/url-tracking-upgraded-urls.md#finalurlsuffixvalidation) in the technical guides. 
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
+**Delete:** Read-only  
+
+## <a name="frequencycapsettings"></a>Frequency Cap Settings
+The frequency cap setitings array. Contains *CapValu*, *FrequencyCapUnit*, and *TimeGranularity*. Only one element is allowed (no multiple frequency capping).
+
+### Code Example
+```csharp
+[{""CapValue"": 10, ""TimeGranularity"": ""DAY"",""FrequencyCapUnit"": ""IMPRESSION""}]
+``````
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  

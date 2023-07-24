@@ -29,11 +29,11 @@ The [FrequencyCapTimeGranularity](frequencycaptimegranularity.md) value set has 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="day"></a>DAY|Reserved.|
-|<a name="hour"></a>HOUR|Reserved.|
-|<a name="lifetime"></a>LIFETIME|Reserved.|
-|<a name="month"></a>MONTH|Reserved.|
-|<a name="week"></a>WEEK|Reserved.|
+|<a name="day"></a>DAY|The number of days to limit ad serves by.|
+|<a name="hour"></a>HOUR|The number of hours to limit ad serves by.|
+|<a name="lifetime"></a>LIFETIME|Limit ad serves by the lifetime of the ad.|
+|<a name="month"></a>MONTH|The number of months to limit ad serves by.|
+|<a name="week"></a>WEEK|The number of weeks to limit ad serves by..|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
