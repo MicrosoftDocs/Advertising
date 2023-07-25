@@ -18,6 +18,13 @@ The maximum number of device criterions that you can specify per campaign or ad 
 
 The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md) and[BiddableCampaignCriterion](biddablecampaigncriterion.md) objects. If ad group level device criterions are specified, the campaign level device criterions are ignored for that ad group. In other words the ad group device criterions override the campaign device criterions, and are not applied as a union.   
 
+> [!NOTE]
+> For new Video campaigns, the device target is set automatically according to the Bidding strategy. 
+>
+> - For CPM, the bidding adjustment for PC/Mobile/tablet is set to 0, and for CTV to –100.
+> - For CPV, the bidding adjustment for PC/Mobile/tablet is set to -100, and for CTV to 0.  
+>
+
 ## Syntax
 ```xml
 <xs:complexType name="DeviceCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
