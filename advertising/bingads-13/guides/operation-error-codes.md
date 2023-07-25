@@ -6145,6 +6145,7 @@ CampaignServiceInvalidDeviceTargetBidAdjustment
 **Description**
 The value of the device target bid adjustment is not valid.
 
+
 ***
 
 **Numeric Code**
@@ -9177,6 +9178,7 @@ CampaignServiceInvalidAdGroupCriterionType
 
 **Description**
 The ad group criterion's type is not valid.
+At the ad group level in new Video campaigns, `CriterionType.Profile` and `CriterionType.Radius` are not supported.
 
 ***
 
@@ -14869,6 +14871,9 @@ NotSupportedForThisCampaignType
 
 **Description**
 Not Supported For This Campaign Type.
+At the ad group level for new Video campaigns, adding/updating `NegativeSiteURLs`, `AdRotation`, and `TrackingTemplate` is not allowed.
+At the ad group level for new Video campaigns, the criterion `AudienceTarget` and `LocationTarget` are not supported.
+At the responsive ad level for new Video campaigns, adding/updating `BusinessName`, `Headline` and `LongHeadline` is not allowed.
 
 ***
 
@@ -15102,6 +15107,19 @@ AIMCampaignLevelAudienceTargetingNotEnabled
 
 **Description**
 Audience campaign is not eligible to create campaign-level audience association.
+
+***
+
+**Numeric Code**
+5751
+
+**Symbolic Error Code**
+UnsupportedSettingInBrandAwarenessVideoAds
+
+**Description**
+At the campaign level in new Video campaigns, adding/updating `TrackingTemplate` or `NegativeSiteURLs` is not allowed.
+At the campaign level in new Video campaigns, you can only set the BiddingScheme to CPM or CPV.
+At the responsive ad level in new Video campaigns, adding/updating `FinalUrls`, `FinalSuffix`, `MobileFinalUrls`, and `ImpressionTrackingUrls` is not allowed.
 
 ***
 
@@ -17343,6 +17361,17 @@ This import job name exceeds the limit.
 ***
 
 **Numeric Code**
+6825
+
+**Symbolic Error Code**
+SharedBudgetNotSupportedForBrandAwarenessCampaign
+
+**Description**
+At the campaign level in new Video campaigns, adding/updating `BudgetId` in the UpdateCampaigns/AddCampaigns API is not allowed.
+
+***
+
+**Numeric Code**
 6999
 
 **Symbolic Error Code**
@@ -17684,3 +17713,14 @@ ImpressionTrackingUrlInaccessible
 
 **Description**
 The Impression Tracking Url is inaccessible.
+
+***
+
+**Numeric Code**
+8138
+
+**Symbolic Error Code**
+CampaignNotEligibleForCampaignConversionGoal
+
+**Description**
+At the Campaign level, adding/updating `ConversionGoal` is not allowed.

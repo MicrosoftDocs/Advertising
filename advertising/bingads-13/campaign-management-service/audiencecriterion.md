@@ -10,7 +10,10 @@ description: Defines a criterion that can be used to show ads to a specific audi
 # AudienceCriterion Data Object - Campaign Management
 Defines a criterion that can be used to show ads to a specific audience.
 
-The *AudienceCriterion* can be included within [AdGroupCriterion](adgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), [CampaignCriterion](campaigncriterion.md), and [NegativeCampaignCriterion](negativecampaigncriterion.md) objects. Audience targets cannot be set both campaign and ad group level. If you set any biddable campaign level audience criteria, then you cannot set any biddable ad group level audience criteria. Audience exclusions can be set at both campaign and ad group level. Microsoft Advertising applies a union of both campaign and ad group level exclusions. 
+The *AudienceCriterion* can be included within [AdGroupCriterion](adgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), [CampaignCriterion](campaigncriterion.md), and [NegativeCampaignCriterion](negativecampaigncriterion.md) objects. Audience targets cannot be set both campaign and ad group level. If you set any biddable campaign level audience criteria, then you cannot set any biddable ad group level audience criteria. Audience exclusions can be set at both campaign and ad group level. Microsoft Advertising applies a union of both campaign and ad group level exclusions.
+
+> [!NOTE]
+> For new Video campaigns, only Remarketing lists, Similar audiences, In-market audiences, and Customer match lists are supported.
 
 ## Syntax
 ```xml
