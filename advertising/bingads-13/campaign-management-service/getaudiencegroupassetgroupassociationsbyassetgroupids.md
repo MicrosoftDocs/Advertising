@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Retrieves the specified AudienceGroupAssetGroupAssociations.
+description: Retrieves the specified AudienceGroupAssetGroupAssociations by asset group IDs.
 dev_langs: 
   - csharp
   - java
@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # GetAudienceGroupAssetGroupAssociationsByAssetGroupIds Service Operation - Campaign Management
-Retrieves the specified AudienceGroupAssetGroupAssociations.
+Retrieves the specified AudienceGroupAssetGroupAssociations by asset group IDs.
 
 ## <a name="request"></a>Request Elements
 The *GetAudienceGroupAssetGroupAssociationsByAssetGroupIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
