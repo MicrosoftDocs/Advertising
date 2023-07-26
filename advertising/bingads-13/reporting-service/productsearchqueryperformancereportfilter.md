@@ -18,6 +18,7 @@ Defines the criteria to use to filter the product search query performance repor
     <xs:element minOccurs="0" name="AdGroupStatus" nillable="true" type="tns:AdGroupStatusReportFilter" />
     <xs:element minOccurs="0" name="AdStatus" nillable="true" type="tns:AdStatusReportFilter" />
     <xs:element minOccurs="0" name="AdType" nillable="true" type="tns:AdTypeReportFilter" />
+    <xs:element minOccurs="0" name="AssetGroupStatus" nillable="true" type="tns:AssetGroupStatusReportFilter" />
     <xs:element minOccurs="0" name="CampaignStatus" nillable="true" type="tns:CampaignStatusReportFilter" />
     <xs:element minOccurs="0" name="ExcludeZeroClicks" type="xs:boolean" />
     <xs:element minOccurs="0" name="Language" nillable="true" type="tns:LanguageReportFilter" />
@@ -28,7 +29,7 @@ Defines the criteria to use to filter the product search query performance repor
 
 ## <a name="elements"></a>Elements
 
-The [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AdGroupStatus](#adgroupstatus), [AdStatus](#adstatus), [AdType](#adtype), [CampaignStatus](#campaignstatus), [ExcludeZeroClicks](#excludezeroclicks), [Language](#language), [SearchQueries](#searchqueries).
+The [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AdGroupStatus](#adgroupstatus), [AdStatus](#adstatus), [AdType](#adtype), [AssetGroupStatus](#assetgroupstatus), [CampaignStatus](#campaignstatus), [ExcludeZeroClicks](#excludezeroclicks), [Language](#language), [SearchQueries](#searchqueries).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -36,6 +37,7 @@ The [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancerep
 |<a name="adgroupstatus"></a>AdGroupStatus|The report will include data for only the ad group status. For example, you can use the filter to include data for only active ad groups.<br/><br/>You can specify one or more ad group statuses.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
 |<a name="adstatus"></a>AdStatus|The report will include data for ads that have the specified status value. You can specify one or more status values.|[AdStatusReportFilter](adstatusreportfilter.md)|
 |<a name="adtype"></a>AdType|The report will include data for only the specified ad types. For example, the report can include data for product or expanded text ads. You can specify one or more ad types.|[AdTypeReportFilter](adtypereportfilter.md)|
+|<a name="assetgroupstatus"></a>AssetGroupStatus|The report will include data for only the asset group status. For example, you can use the filter to include data for only active asset groups.<br/><br/>You can specify one or more asset group statuses.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
 |<a name="campaignstatus"></a>CampaignStatus|The report will include data for campaigns that have the specified status value. You can specify one or more status values.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
 |<a name="excludezeroclicks"></a>ExcludeZeroClicks|If the value of this element is set to *true*, search terms that had one or more ad impressions but resulted in zero clicks in the specified time duration will be excluded from the report.<br/><br/>The default value is *false*, in which case the report will include zero click search term data.<br/><br/>Regardless of the value of this filter, search terms with zero clicks in the last 30 days will always be excluded.|**boolean**|
 |<a name="language"></a>Language|The report will include data for only websites that used the specified languages.<br/><br/>You can specify one or more languages.|[LanguageReportFilter](languagereportfilter.md)|
