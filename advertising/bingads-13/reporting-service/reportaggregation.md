@@ -10,6 +10,9 @@ description: Defines the aggregation values that you can use for a report.
 # ReportAggregation Value Set - Reporting
 Defines the aggregation values that you can use for a report.
 
+> [!NOTE]
+> We don't support partial data aggregation for weekly, monthly, and yearly time period columns. If the selected dates are not full weeks/months/years and the corresponding weekly/monthly/yearly time period column is requested, the selected dates will be converted to full weeks/months/years.
+
 ## Syntax
 ```xml
 <xs:simpleType name="ReportAggregation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -30,9 +33,6 @@ Defines the aggregation values that you can use for a report.
 ## <a name="values"></a>Values
 
 The [ReportAggregation](reportaggregation.md) value set has the following values: [Daily](#daily), [DayOfWeek](#dayofweek), [Hourly](#hourly), [HourOfDay](#hourofday), [Monthly](#monthly), [Summary](#summary), [Weekly](#weekly), [WeeklyStartingMonday](#weeklystartingmonday), [Yearly](#yearly).
-
-> [!NOTE]
-> We don't support partial data aggregation for weekly, monthly, and yearly time period columns. If the selected dates are not full weeks/months/years and the corresponding weekly/monthly/yearly time period column is requested, the selected dates will be converted to full weeks/months/years.
 
 |Value|Description|
 |-----------|---------------|

@@ -35,13 +35,16 @@ To see how far back hourly, daily, weekly, monthly, yearly and summary aggregate
     <xs:enumeration value="MatchedProductsAtCampaign" />
     <xs:enumeration value="MatchedProductsAtAdGroup" />
     <xs:enumeration value="MatchedProductsAtProductGroup" />
+    <xs:enumeration value="CampaignType" />
+    <xs:enumeration value="AssetGroupId" />
+    <xs:enumeration value="AssetGroupName" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [ProductMatchCountReportColumn](productmatchcountreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AdGroupCriterionId](#adgroupcriterionid), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [CampaignId](#campaignid), [CampaignName](#campaignname), [CustomerId](#customerid), [CustomerName](#customername), [MatchedProductsAtAdGroup](#matchedproductsatadgroup), [MatchedProductsAtCampaign](#matchedproductsatcampaign), [MatchedProductsAtProductGroup](#matchedproductsatproductgroup), [PartitionType](#partitiontype), [ProductGroup](#productgroup).
+The [ProductMatchCountReportColumn](productmatchcountreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AdGroupCriterionId](#adgroupcriterionid), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [CustomerId](#customerid), [CustomerName](#customername), [MatchedProductsAtAdGroup](#matchedproductsatadgroup), [MatchedProductsAtCampaign](#matchedproductsatcampaign), [MatchedProductsAtProductGroup](#matchedproductsatproductgroup), [PartitionType](#partitiontype), [ProductGroup](#productgroup).
 
 |Value|Description|
 |-----------|---------------|
@@ -51,8 +54,11 @@ The [ProductMatchCountReportColumn](productmatchcountreportcolumn.md) value set 
 |<a name="adgroupcriterionid"></a>AdGroupCriterionId|The Microsoft Advertising assigned identifier of an ad group criterion.|
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
+|<a name="assetgroupid"></a>AssetGroupId|The Microsoft Advertising assigned identifier of an asset group.|
+|<a name="assetgroupname"></a>AssetGroupName|The asset group name.|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
+|<a name="campaigntype"></a>CampaignType|The campaign type.<br/><br/>Possible values include *Audience*, *Dynamic search*, *Search & content*, and *Shopping*.|
 |<a name="customerid"></a>CustomerId|The Microsoft Advertising assigned identifier of a customer.|
 |<a name="customername"></a>CustomerName|The customer name.|
 |<a name="matchedproductsatadgroup"></a>MatchedProductsAtAdGroup|The number of products per ad group that matched your product group targets.|
