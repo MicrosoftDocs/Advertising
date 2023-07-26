@@ -220,9 +220,9 @@ The following case-sensitive values may be specified, and data will be returned 
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+Namespace: https\://bingads.microsoft.com/AdInsight/v13
 
-## Supported Languages
+### Supported Languages
 Here are the supported languages for the *Language* request body element:
 
 |Supported Languages|
@@ -241,7 +241,7 @@ Here are the supported languages for the *Language* request body element:
 |Swedish|
 |TraditionalChinese|
 
-### <a name="languages-and-country-mapping"></a>Languages and Country/Region Mapping
+#### <a name="languages-and-country-mapping"></a>Languages and Country/Region Mapping
 Here is a table of languages and country/region mapping:
 
 |Language|CountryCode|Country/Region|Language@Country|
@@ -297,7 +297,3 @@ Here is a table of languages and country/region mapping:
 |Swedish|SE|Sweden|Swedish@Sweden|
 |TraditionalChinese|HK|HongKongSAR|TraditionalChinese@HongKongSAR|
 |TraditionalChinese|TW|Taiwan|TraditionalChinese@Taiwan|
-
-
-
-

@@ -14,7 +14,7 @@ Defines an object that contains the info of responsive search ads recommendation
 ```xml
 <xs:complexType name="RSARecommendationInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
-    <xs:extension xmlns:q1="https://bingads.microsoft.com/AdInsight/v13" base="q1:RecommendationInfo">
+    <xs:extension base="tns:RecommendationInfo">
       <xs:sequence>
         <xs:element minOccurs="0" name="AdId" nillable="true" type="xs:long" />
       </xs:sequence>
@@ -45,5 +45,5 @@ The [RSARecommendationInfo](rsarecommendationinfo.md) object derives from the [R
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: http\://schemas.datacontract.org/2004/07/Microsoft.BingAds.Advertiser.AdInsight.Api.DataContract.V13.Entity  
+Namespace: https\://bingads.microsoft.com/AdInsight/v13  
 
