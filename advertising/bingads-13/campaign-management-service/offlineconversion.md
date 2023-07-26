@@ -30,6 +30,20 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
     <xs:element minOccurs="0" name="ConversionValue" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="ExternalAttributionCredit" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="ExternalAttributionModel" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="HashedEmailAddress" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
+    <xs:element minOccurs="0" name="HashedPhoneNumber" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="MicrosoftClickId" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
@@ -37,7 +51,7 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
 
 ## <a name="elements"></a>Elements
 
-The [OfflineConversion](offlineconversion.md) object has the following elements: [ConversionCurrencyCode](#conversioncurrencycode), [ConversionName](#conversionname), [ConversionTime](#conversiontime), [ConversionValue](#conversionvalue), [ExternalAttributionCredit](#externalattributioncredit), [ExternalAttributionModel](#externalattributionmodel), [MicrosoftClickId](#microsoftclickid).
+The [OfflineConversion](offlineconversion.md) object has the following elements: [ConversionCurrencyCode](#conversioncurrencycode), [ConversionName](#conversionname), [ConversionTime](#conversiontime), [ConversionValue](#conversionvalue), [ExternalAttributionCredit](#externalattributioncredit), [ExternalAttributionModel](#externalattributionmodel), [HashedEmailAddress](#hashedemailaddress), [HashedPhoneNumber](#hashedphonenumber), [MicrosoftClickId](#microsoftclickid).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -47,6 +61,8 @@ The [OfflineConversion](offlineconversion.md) object has the following elements:
 |<a name="conversionvalue"></a>ConversionValue|The offline conversion value.<br/><br/>**Apply:** Optional. If you do not specify an offline conversion value, then the *Value* element of the goal's [ConversionGoalRevenue](conversiongoalrevenue.md) is used.|**double**|
 |<a name="externalattributioncredit"></a>ExternalAttributionCredit|This field can only be set for conversions actions which use external attribution. It represents the fraction of the conversion that is attributed to each click. Its value must be greater than 0 and less than or equal to 1.<br/><br/>A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action. <br/><br/>**Apply:** Optional|**double**|
 |<a name="externalattributionmodel"></a>ExternalAttributionModel|This field can only be set for conversions actions which use external attribution. It specifies the attribution model name.<br/><br/>A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action. <br/><br/>**Apply:** Optional|**string**|
+|<a name="hashedemailaddress"></a>HashedEmailAddress|The hashed email address using the SHA-256 algorithm for use with enhanced conversions.|**string**|
+|<a name="hashedphonenumber"></a>HashedPhoneNumber|The hashed phone number according to the E.164 standard for use with enhanced conversions.|**string**|
 |<a name="microsoftclickid"></a>MicrosoftClickId|The MSCLKID for the offline conversion.<br/><br/>To ensure that auto-tagging is enabled for Microsoft click ID tracking, use the [GetAccountProperties](getaccountproperties.md) and [SetAccountProperties](setaccountproperties.md) operations.<br/><br/>**Apply:** Required|**string**|
 
 ## Requirements

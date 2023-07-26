@@ -15,6 +15,8 @@ dev_langs:
 # UpdateConversionGoals Service Operation - Campaign Management
 Updates conversion goals within the account's shared conversion goal library. 
 
+> [!NOTE]
+> The account must have a goal with enhanced conversions turned on before setting `IsEnhancedConversionsEnabled=true` for an API goal entity. This goal would have been created from the Microsoft Advertising UI after turning on enhanced conversions.
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
