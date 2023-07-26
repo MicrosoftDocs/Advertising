@@ -42,18 +42,26 @@ Defines entity types for association and editorial service operations.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="AssetGroup">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [EntityType](entitytype.md) value set has the following values: [Ad](#ad), [AdGroup](#adgroup), [Campaign](#campaign), [Keyword](#keyword).
+The [EntityType](entitytype.md) value set has the following values: [Ad](#ad), [AdGroup](#adgroup), [AssetGroup](#assetgroup), [Campaign](#campaign), [Keyword](#keyword).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="ad"></a>Ad|The entity is an ad.|
 |<a name="adgroup"></a>AdGroup|The entity is an ad group.|
+|<a name="assetgroup"></a>AssetGroup|The entity is an asset group.|
 |<a name="campaign"></a>Campaign|The entity is a campaign.|
 |<a name="keyword"></a>Keyword|The entity is a keyword.|
 

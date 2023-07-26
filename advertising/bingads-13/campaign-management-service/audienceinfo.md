@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: An object containing an ID and type for an audience.
+description: An object containing and ID an type for an audience.
 ---
 # AudienceInfo Data Object - Campaign Management
 An object containing and ID an type for an audience.

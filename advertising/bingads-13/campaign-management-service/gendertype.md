@@ -37,3 +37,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [GenderCriterion](gendercriterion.md)  
+[GenderDimension](genderdimension.md)  

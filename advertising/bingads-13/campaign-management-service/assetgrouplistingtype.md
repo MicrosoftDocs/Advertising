@@ -38,8 +38,8 @@ The [AssetGroupListingType](assetgrouplistingtype.md) value set has the followin
 
 |Value|Description|
 |-----------|---------------|
-|<a name="subdivision"></a>Subdivision|If you are partitioning the products based on more specific product conditions, then set the Sub Type field to Subdivision, the Parent Listing Group Id to null or empty, and the Id to a negative value.|
-|<a name="unit"></a>Unit|If you are bidding on all products in the catalog equally, set the Sub Type field to Unit.|
+|<a name="subdivision"></a>Subdivision|If you are partitioning the products based on more specific product conditions, then set the Sub Type field to Subdivision, the Parent Listing Group Id to null or empty, and the Id to a negative value.|
+|<a name="unit"></a>Unit|If you are bidding on all products in the catalog equally, set the Sub Type field to Unit.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
