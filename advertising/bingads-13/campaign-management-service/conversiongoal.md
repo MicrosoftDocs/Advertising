@@ -11,11 +11,12 @@ description: Defines the base object of a conversion goal.
 Defines the base object of a conversion goal.
 
 Do not try to instantiate a *ConversionGoal*. You can create one or more of the following objects that derive from it.
+
 - [AppInstallGoal](appinstallgoal.md)
 - [DurationGoal](durationgoal.md)
-- [EventGoal](eventgoal.md) 
-- [InStoreTransactionGoal](instoretransactiongoal.md) 
-- [OfflineConversionGoal](offlineconversiongoal.md) 
+- [EventGoal](eventgoal.md)
+- [InStoreTransactionGoal](instoretransactiongoal.md)
+- [OfflineConversionGoal](offlineconversiongoal.md)
 - [PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md)
 - [UrlGoal](urlgoal.md)
 
@@ -41,6 +42,13 @@ Do not try to instantiate a *ConversionGoal*. You can create one or more of the 
       </xs:annotation>
     </xs:element>
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+    <xs:element minOccurs="0" name="IsEnhancedConversionsEnabled" nillable="true" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Revenue" nillable="true" type="tns:ConversionGoalRevenue" />
     <xs:element minOccurs="0" name="Scope" nillable="true" type="tns:EntityScope" />
@@ -61,7 +69,7 @@ Do not try to instantiate a *ConversionGoal*. You can create one or more of the 
 
 ## <a name="elements"></a>Elements
 
-The [ConversionGoal](conversiongoal.md) object has the following elements: [AttributionModelType](#attributionmodeltype), [ConversionWindowInMinutes](#conversionwindowinminutes), [CountType](#counttype), [ExcludeFromBidding](#excludefrombidding), [GoalCategory](#goalcategory), [Id](#id), [Name](#name), [Revenue](#revenue), [Scope](#scope), [Status](#status), [TagId](#tagid), [TrackingStatus](#trackingstatus), [Type](#type), [ViewThroughConversionWindowInMinutes](#viewthroughconversionwindowinminutes).
+The [ConversionGoal](conversiongoal.md) object has the following elements: [AttributionModelType](#attributionmodeltype), [ConversionWindowInMinutes](#conversionwindowinminutes), [CountType](#counttype), [ExcludeFromBidding](#excludefrombidding), [GoalCategory](#goalcategory), [Id](#id), [IsEnhancedConversionsEnabled](#isenhancedconversionsenabled), [Name](#name), [Revenue](#revenue), [Scope](#scope), [Status](#status), [TagId](#tagid), [TrackingStatus](#trackingstatus), [Type](#type), [ViewThroughConversionWindowInMinutes](#viewthroughconversionwindowinminutes).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -71,6 +79,7 @@ The [ConversionGoal](conversiongoal.md) object has the following elements: [Attr
 |<a name="excludefrombidding"></a>ExcludeFromBidding|Determines whether or not to exclude data otherwise related to this conversion goal from a subset of performance report columns.<br/><br/>This element is only available for customers who are enabled for the Include in Conversions feature ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 574).<br/><br/>If this element is set to true, data otherwise related to this conversion goal will be excluded from the `Conversions`, `ConversionRate`, `CostPerConversion`, `ReturnOnAdSpend`, `RevenuePerConversion`, and `Revenue` report columns. Also, if you use an automated bidding bid strategy, setting this property true will result in the goal's conversions no longer factoring into automated bidding calculations. Setting this property "true" is effectively the same as unchecking "Include in Conversions" in the Microsoft Advertising web application.<br/><br/>Regardless of this element value, the `AllConversions`, `AllConversionRate`, `AllCostPerConversion`, `AllReturnOnAdSpend`, `AllRevenuePerConversion`, and `AllRevenue` report columns will include data for all conversion goals.<br/><br/>By default this element is false, and data related to this conversion goal are included in all report columns.<br/><br/>For more information, see [Report Attributes and Performance Statistics](../guides/report-attributes-performance-statistics.md) and the help article [Conversion goals: "Conversions" versus "All conversions"](https://help.ads.microsoft.com/#apex/3/en/56920/-1/en/#ext:reporting).|**boolean**|
 |<a name="goalcategory"></a>GoalCategory|The category used to segment the conversion goal.<br/><br/>Categorize your conversion goals however makes sense for your business. Goal categories don't affect performance - they are here to help you segment your goals and their performance metrics.<br/><br/>The supported category values vary by conversion goal type, so please refer to the corresponding reference page for detailed requirements.|[ConversionGoalCategory](conversiongoalcategory.md)|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier for the conversion goal.|**long**|
+|<a name="isenhancedconversionsenabled"></a>IsEnhancedConversionsEnabled|Determines whether enhanced conversions are enabled for a conversion goal.<br/><br/>*Note*: The account must have a goal with enhanced conversions turned on before setting `IsEnhancedConversionsEnabled=true` for an API goal entity. This goal would have been created from the Microsoft Advertising UI after turning on enhanced conversions.|**boolean**|
 |<a name="name"></a>Name|The conversion goal name.<br/><br/>The maximum length of the name is 100, and the name must be unique among all conversion goals belonging to the same customer.|**string**|
 |<a name="revenue"></a>Revenue|Determines how much each conversion is worth to your business.<br/><br/>When adding a conversion goal if you do not specify any revenue tracking preferences, then each [ConversionGoalRevenue](conversiongoalrevenue.md) will be set to their respective default values.<br/><br/>When updating a conversion goal, if the *Revenue* element is nil or empty then none of the nested properties will be updated. However, if this element is not nil or empty then you are effectively replacing any existing revenue properties.<br/><br/>The *VariableValue* option is not available for the [AppInstallGoal](appinstallgoal.md), [DurationGoal](durationgoal.md), or [PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md).|[ConversionGoalRevenue](conversiongoalrevenue.md)|
 |<a name="scope"></a>Scope|Determines if the goal applies to all accounts or only the account specified in the required *CustomerAccountId* header element. If you have multiple Microsoft Advertising accounts, you can track conversions across all of those accounts. If you associate a goal with one account, conversions will be tracked for that account only.<br/><br/>Possible values are *Account* and *Customer*.<br/><br/>Once you set scope, you can't change it. If you want to change the scope, you need to create a new conversion goal and pause the old one.<br/><br/>Only the *Customer* scope is supported for the [AppInstallGoal](appinstallgoal.md).|[EntityScope](entityscope.md)|
