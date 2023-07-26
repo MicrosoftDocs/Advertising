@@ -29,7 +29,7 @@ The [AudienceDimension](audiencedimension.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiences"></a>Audiences|A list of audiences. The supported audience types are: <br /><br />- CombinedList<br />- CustomAudience <br />- InMarketAudience <br />- ProductAudience <br />- RemarketingList <br />- SimilarRemarketingList <br />- CustomerList <br /><br />**Add**: Required <br />**Update**: Optional. To remove existing values, set it to null or empty; to remove a subset of audience segments, specify the audience segments that you want to keep and it will replace the existing audience segments.   |[AudienceInfo](audienceinfo.md) array|
+|<a name="audiences"></a>Audiences|A list of audiences. The supported audience types are: <br /><br />- CombinedList<br />- CustomAudience <br />- InMarketAudience <br />- ProductAudience <br />- RemarketingList <br />- SimilarRemarketingList <br />- CustomerList <br /><br />**Add**: Required <br />**Update**: Optional. To remove existing values, set it to null or empty; to remove a subset of audience segments, specify the audience segments that you want to keep and it will replace the existing audience segments.   |[AudienceInfo](audienceinfo.md) array|
 
 The [AudienceDimension](audiencedimension.md) object has [Inherited Elements](#inheritedelements).
 

@@ -18,18 +18,26 @@ You can use campaign level production conditions with Shopping campaigns, feed-b
   <xs:sequence>
     <xs:element minOccurs="0" name="Attribute" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Operand" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
 
-The [ProductCondition](productcondition.md) object has the following elements: [Attribute](#attribute), [Operand](#operand).
+The [ProductCondition](productcondition.md) object has the following elements: [Attribute](#attribute), [Operand](#operand), [Operator](#operator).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="attribute"></a>Attribute|The condition's attribute value.<br/><br/>An attribute's value must exactly match the value specified in the customer's Microsoft Merchant Center catalog file.<br/><br/>The available *Attribute* and *Operand* values vary depending on the campaign type. For supported attribute and operand values, see [Remarks](#remarks) below.<br/><br/>**Add or Apply:** Required<br/>**Update:** Optional|**string**|
 |<a name="operand"></a>Operand|The condition's operand. The operands implicitly include the equal operator. For example, read Brand as Brand=.<br/><br/>**Add or Apply:** Required<br/>**Update:** Optional|**string**|
+|<a name="operator"></a>Operator|The rule item operator.<br/><br/>**Add:** Required<br/>**Update:** Required|**string**|
 
 ## <a name="remarks"></a>Remarks
 For supported Product Condition (operand) and Product Value (attribute) per campaign type, see the tables below.

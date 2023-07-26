@@ -35,4 +35,5 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AppealEditorialRejections](appealeditorialrejections.md)  
+[GetAssetGroupsEditorialReasons](getassetgroupseditorialreasons.md)  
 [GetEditorialReasonsByIds](geteditorialreasonsbyids.md)  
