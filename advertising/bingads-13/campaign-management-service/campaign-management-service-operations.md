@@ -16,8 +16,8 @@ The Campaign Management service defines the following service operations.
 |[AddAdGroupCriterions](addadgroupcriterions.md)|Adds one or more ad group criterions.|1 *AccountId*<br/><br/>1,000 *AdGroupCriterions*|
 |[AddAdGroups](addadgroups.md)|Adds new ad groups to a specified campaign.|1,000 *AdGroups*<br/><br/>1 *CampaignId*|
 |[AddAds](addads.md)|Adds one or more ads to an ad group.|1 *AdGroupId*<br/><br/>50 *Ads*|
-|[AddAssetGroups](addassetgroups.md)|Reserved.||
-|[AddAudienceGroups](addaudiencegroups.md)|Reserved.||
+|[AddAssetGroups](addassetgroups.md)|Adds array of asset groups to a specified campaign.|N/A.|
+|[AddAudienceGroups](addaudiencegroups.md)|Adds array of audience groups to a specified campaign.|N/A.|
 |[AddAudiences](addaudiences.md)|Adds one or more audiences.|100 *Audiences*|
 |[AddBidStrategies](addbidstrategies.md)|Adds bid strategies to an account's portfolio bid strategy library.|100 *BidStrategies*|
 |[AddBudgets](addbudgets.md)|Adds new budgets to the account's shared budget library.|100 *Budgets*|
@@ -36,7 +36,8 @@ The Campaign Management service defines the following service operations.
 |[AddUetTags](adduettags.md)|Adds new Universal Event Tracking (UET) tags that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|100 *UetTags*|
 |[AddVideos](addvideos.md)|Adds one or more videos to an account.|100 *Videos*|
 |[AppealEditorialRejections](appealeditorialrejections.md)|Appeals ads or keywords that failed editorial review.|1,000 *EntityIdToParentIdAssociations*|
-|[ApplyAssetGroupListingGroupActions](applyassetgrouplistinggroupactions.md)|Reserved.||
+|[ApplyAssetGroupListingGroupActions](applyassetgrouplistinggroupactions.md)|Applies an action to an asset group listing group.|N/A.|
+|[ApplyCustomerListItems](applycustomerlistitems.md)|Reserved.||
 |[ApplyHotelGroupActions](applyhotelgroupactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [HotelGroup](hotelgroup.md).|N/A.|
 |[ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md)|Applies offline conversion adjustments.|1,000 *OfflineConversionAdjustments*|
 |[ApplyOfflineConversions](applyofflineconversions.md)|Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.|1,000 *OfflineConversions*|
@@ -47,9 +48,9 @@ The Campaign Management service defines the following service operations.
 |[DeleteAdGroupCriterions](deleteadgroupcriterions.md)|Deletes the specified ad group criterions.|1 *AccountId*<br/><br/>1,000 *AdGroupCriterionIds*|
 |[DeleteAdGroups](deleteadgroups.md)|Deletes one or more ad groups from the specified campaign.|1,000 *AdGroupIds*<br/><br/>1 *CampaignId*|
 |[DeleteAds](deleteads.md)|Deletes one or more ads from the specified ad group.|1 *AdGroupId*<br/><br/>50 *AdIds*|
-|[DeleteAssetGroups](deleteassetgroups.md)|Reserved.||
-|[DeleteAudienceGroupAssetGroupAssociations](deleteaudiencegroupassetgroupassociations.md)|Reserved.||
-|[DeleteAudienceGroups](deleteaudiencegroups.md)|Reserved.||
+|[DeleteAssetGroups](deleteassetgroups.md)|Deletes one or more AssetGroups.|N/A.|
+|[DeleteAudienceGroupAssetGroupAssociations](deleteaudiencegroupassetgroupassociations.md)|Deletes one or more AudienceGroupAssetGroupAssociations.|N/A.|
+|[DeleteAudienceGroups](deleteaudiencegroups.md)|Deletes one or more AudienceGroups.|N/A.|
 |[DeleteAudiences](deleteaudiences.md)|Deletes the specified audiences.|100 *AudienceIds*|
 |[DeleteBidStrategies](deletebidstrategies.md)|Deletes bid strategies from an account's portfolio bid strategy library.|100 *BidStrategyIds*|
 |[DeleteBudgets](deletebudgets.md)|Deletes budgets from the account's shared budget library.|100 *BudgetIds*|
@@ -79,12 +80,13 @@ The Campaign Management service defines the following service operations.
 |[GetAdsByAdGroupId](getadsbyadgroupid.md)|Retrieves the ads within an ad group.|1 *AdGroupId*|
 |[GetAdsByEditorialStatus](getadsbyeditorialstatus.md)|Retrieves the ads that belong to the specified ad group and have the specified editorial review status.|1 *AdGroupId*|
 |[GetAdsByIds](getadsbyids.md)|Retrieves the specified ads from the specified ad group.|1 *AdGroupId*<br/><br/>20 *AdIds*|
-|[GetAssetGroupListingGroupsByIds](getassetgrouplistinggroupsbyids.md)|Reserved.||
-|[GetAssetGroupsByCampaignId](getassetgroupsbycampaignid.md)|Reserved.||
-|[GetAssetGroupsByIds](getassetgroupsbyids.md)|Reserved.||
-|[GetAudienceGroupAssetGroupAssociationsByAssetGroupIds](getaudiencegroupassetgroupassociationsbyassetgroupids.md)|Reserved.||
-|[GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds](getaudiencegroupassetgroupassociationsbyaudiencegroupids.md)|Reserved.||
-|[GetAudienceGroupsByIds](getaudiencegroupsbyids.md)|Reserved.||
+|[GetAssetGroupListingGroupsByIds](getassetgrouplistinggroupsbyids.md)|Retrieves the specified AssetGroupListingGroups.|N/A.|
+|[GetAssetGroupsByCampaignId](getassetgroupsbycampaignid.md)|Retrieves the specified AssetGroups.|N/A.|
+|[GetAssetGroupsByIds](getassetgroupsbyids.md)|Retrieves specified AssetGroups.|N/A.|
+|[GetAssetGroupsEditorialReasons](getassetgroupseditorialreasons.md)|Gets reasons for asset group editorial issues.||
+|[GetAudienceGroupAssetGroupAssociationsByAssetGroupIds](getaudiencegroupassetgroupassociationsbyassetgroupids.md)|Retrieves the specified AudienceGroupAssetGroupAssociations.|N/A.|
+|[GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds](getaudiencegroupassetgroupassociationsbyaudiencegroupids.md)|Retrieves the specified AudienceGroupAssetGroupAssociations.|N/A.|
+|[GetAudienceGroupsByIds](getaudiencegroupsbyids.md)|Retrieves specified AudienceGroups.|N/A.|
 |[GetAudiencesByIds](getaudiencesbyids.md)|Retrieves the specified audiences from the specified account.|100 *AudienceIds*|
 |[GetBidStrategiesByIds](getbidstrategiesbyids.md)|Gets bid strategies in an account's portfolio bid strategy library.|100 *BidStrategyIds*|
 |[GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md)|Gets the Microsoft Merchant Center stores for the specified customer.|Not applicable.|
@@ -127,7 +129,7 @@ The Campaign Management service defines the following service operations.
 |[SearchCompanies](searchcompanies.md)|Search for profile data by company name.|1 *CompanyNameFilter*|
 |[SetAccountProperties](setaccountproperties.md)|Sets account level properties by name.|Not applicable|
 |[SetAdExtensionsAssociations](setadextensionsassociations.md)|Associates the specified ad extensions with the respective campaigns or ad groups.|1 *AccountId*<br/><br/>100 *AdExtensionIdToEntityIdAssociations*|
-|[SetAudienceGroupAssetGroupAssociations](setaudiencegroupassetgroupassociations.md)|Reserved.||
+|[SetAudienceGroupAssetGroupAssociations](setaudiencegroupassetgroupassociations.md)|Sets AudienceGroupAssetGroupAssociations.|N/A.|
 |[SetLabelAssociations](setlabelassociations.md)|Sets label associations.|100 *LabelAssociations*|
 |[SetNegativeSitesToAdGroups](setnegativesitestoadgroups.md)|Sets the negative site URLs directly to ad groups.|5,000 *AdGroupNegativeSites*<br/><br/>1 *CampaignId*|
 |[SetNegativeSitesToCampaigns](setnegativesitestocampaigns.md)|Sets the negative site URLs directly to campaigns.|1 *AccountId*<br/><br/>5,000 *CampaignNegativeSites*|
@@ -136,8 +138,8 @@ The Campaign Management service defines the following service operations.
 |[UpdateAdGroupCriterions](updateadgroupcriterions.md)|Updates one or more ad group criterions.|1 *AccountId*<br/><br/>1,000 *AdGroupCriterions*|
 |[UpdateAdGroups](updateadgroups.md)|Updates the specified ad groups in a campaign.|1,000 *AdGroups*<br/><br/>1 *CampaignId*|
 |[UpdateAds](updateads.md)|Updates the specified ads within an ad group.|1 *AdGroupId*<br/><br/>50 *Ads*|
-|[UpdateAssetGroups](updateassetgroups.md)|Reserved.||
-|[UpdateAudienceGroups](updateaudiencegroups.md)|Reserved.||
+|[UpdateAssetGroups](updateassetgroups.md)|Updates the specified asset groups.|N/A.|
+|[UpdateAudienceGroups](updateaudiencegroups.md)|Updates the specified audience groups.|N/A.|
 |[UpdateAudiences](updateaudiences.md)|Updates the specified audiences.|100 *Audiences*|
 |[UpdateBidStrategies](updatebidstrategies.md)|Updates bid strategies in an account's portfolio bid strategy library.|100 *BidStrategies*|
 |[UpdateBudgets](updatebudgets.md)|Updates the specified budgets in the account's shared budget library.|100 *Budgets*|
