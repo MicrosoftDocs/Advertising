@@ -32,7 +32,7 @@ The Campaign Management service defines the following data objects.
 |[AdGroupNegativeSites](adgroupnegativesites.md)|Defines an object that contains the negative site URLs of an ad group.|
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
-|[AgeDimension](agedimension.md)|Reserved.|
+|[AgeDimension](agedimension.md)|Data object that specifies users by their age.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[AppAdExtension](appadextension.md)|Defines an app ad extension that can be included in an ad.|
 |[AppInstallAd](appinstallad.md)|Defines an app install ad.|
@@ -40,17 +40,19 @@ The Campaign Management service defines the following data objects.
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Campaign Management fault detail objects derive.|
 |[AppUrl](appurl.md)|Defines the operating system platform and URL of the app store download webpage.|
 |[Asset](asset.md)|Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
-|[AssetGroup](assetgroup.md)|Reserved.|
-|[AssetGroupListingGroup](assetgrouplistinggroup.md)|Reserved.|
-|[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md)|Reserved.|
+|[AssetGroup](assetgroup.md)|Defines an asset group in an advertising campaign.|
+|[AssetGroupEditorialReason](assetgroupeditorialreason.md)|Defines an object that you can use to determine the component of an asset group that failed editorial review, and the reason for the failure.|
+|[AssetGroupEditorialReasonCollection](assetgroupeditorialreasoncollection.md)|Defines a collection of asset groups that failed editorial review.|
+|[AssetGroupListingGroup](assetgrouplistinggroup.md)|A listing group that corresponds directly to the identifiers specified in the request.|
+|[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md)|An object that contains an Action element and a ListingGroup element.|
 |[AssetLink](assetlink.md)|Defines the relationship of an asset to an ad.|
 |[Audience](audience.md)|Defines the base object of an audience.|
 |[AudienceCriterion](audiencecriterion.md)|Defines a criterion that can be used to show ads to a specific audience.|
-|[AudienceDimension](audiencedimension.md)|Reserved.|
-|[AudienceGroup](audiencegroup.md)|Reserved.|
-|[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md)|Reserved.|
-|[AudienceGroupDimension](audiencegroupdimension.md)|Reserved.|
-|[AudienceInfo](audienceinfo.md)|Reserved.|
+|[AudienceDimension](audiencedimension.md)|An object that inherits AudienceGroupDimension.|
+|[AudienceGroup](audiencegroup.md)|Defines an AudienceGroup data object.|
+|[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md)|Defines an AudienceGroupAssetGroupAssociation data object.|
+|[AudienceGroupDimension](audiencegroupdimension.md)|Defines an AudienceGroupDimension data object.|
+|[AudienceInfo](audienceinfo.md)|An object containing and ID an type for an audience.|
 |[BatchError](batcherror.md)|Defines a Campaign Management batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
 |[BatchErrorCollection](batcherrorcollection.md)|Defines an error object that contains batch error details for the top level list index and a list of batch errors corresponding to the  nested list index.|
 |[Bid](bid.md)|The highest price that you want to pay each time someone clicks your ad.|
@@ -63,6 +65,7 @@ The Campaign Management service defines the following data objects.
 |[Budget](budget.md)|Represents a budget that can be shared by any campaigns in an account.|
 |[CallAdExtension](calladextension.md)|Defines an object that specifies a click-to-call phone number to include in a text ad.|
 |[CalloutAdExtension](calloutadextension.md)|Defines an object that specifies additional text about your business, products, or services to include in a text ad.|
+|[CallToActionSetting](calltoactionsetting.md)|Reserved.|
 |[Campaign](campaign.md)|Defines a campaign.|
 |[CampaignAdGroupIds](campaignadgroupids.md)|Identifies a campaign and the list of its ad groups to import.|
 |[CampaignConversionGoal](campaignconversiongoal.md)|Defines the base object of a campaign conversion goal.|
@@ -76,7 +79,7 @@ The Campaign Management service defines the following data objects.
 |[ConversionGoal](conversiongoal.md)|Defines the base object of a conversion goal.|
 |[ConversionGoalRevenue](conversiongoalrevenue.md)|Defines properties for revenue that can be tracked by a conversion goal.|
 |[CoOpSetting](coopsetting.md)|Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.|
-|[CostPerSaleBiddingScheme](costpersalebiddingscheme.md)|Reserved.|
+|[CostPerSaleBiddingScheme](costpersalebiddingscheme.md)|Defines an object that represents the cost per sale bid strategy type.|
 |[Criterion](criterion.md)|Defines the base object of a criterion.|
 |[CriterionBid](criterionbid.md)|Defines a base class for criterion bids.|
 |[CriterionCashback](criterioncashback.md)|Defines the CriterionCashback Data Object.|
@@ -84,6 +87,7 @@ The Campaign Management service defines the following data objects.
 |[CustomerAccountShare](customeraccountshare.md)|Defines a customer or account that can use the shared audience or UET tag.|
 |[CustomerAccountShareAssociation](customeraccountshareassociation.md)|Contains the association count for the corresponding usage type.|
 |[CustomerList](customerlist.md)|Reserved.|
+|[CustomerListItem](customerlistitem.md)|Reserved.|
 |[CustomerShare](customershare.md)|Defines a shareable audience or UET tag that a customer owns.|
 |[CustomEventsRule](customeventsrule.md)|Defines a custom events remarketing rule.|
 |[CustomParameter](customparameter.md)|Defines a key and value custom parameter for URL tracking.|
@@ -91,6 +95,7 @@ The Campaign Management service defines the following data objects.
 |[Date](date.md)|Represents a date.|
 |[DayTime](daytime.md)|Defines a day of the week and time range for ad extension scheduling.|
 |[DayTimeCriterion](daytimecriterion.md)|Defines a criterion that can be used to show ads to users during a specific day and time range.|
+|[DealCriterion](dealcriterion.md)|Reserved.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
 |[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
@@ -117,7 +122,7 @@ The Campaign Management service defines the following data objects.
 |[Frequency](frequency.md)|Determines whether an import job should be run once or scheduled on a recurring basis.|
 |[FrequencyCapSettings](frequencycapsettings.md)|Defines the FrequencyCapSettings object.|
 |[GenderCriterion](gendercriterion.md)|Defines a criterion that can be used to show ads to users of a specific gender.|
-|[GenderDimension](genderdimension.md)|Reserved.|
+|[GenderDimension](genderdimension.md)|Defines a GenderDimension data object.|
 |[GeoPoint](geopoint.md)|Defines an object that contains the longitude and latitude coordinates of a geographical location.|
 |[GoogleImportJob](googleimportjob.md)|Defines a Google import job that can be run once or scheduled on a recurring basis.|
 |[GoogleImportOption](googleimportoption.md)|Defines the Google import options that are available via API.|
