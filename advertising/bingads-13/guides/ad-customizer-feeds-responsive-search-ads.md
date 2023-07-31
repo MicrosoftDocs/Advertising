@@ -25,6 +25,9 @@ You can upload your ad customizer attribute for responsive search ads with the B
 
 The Ad customizer attribute record defines the name and data type of attributes that are allowed for the file upload.
 
+> [!TIP]
+> Local storage of these entities is useful in cases where the Campaign, AdGroup and Keyword level records require updates. [Learn more](../guides/services-protocol.md#store-locally).
+
 ```csv
 Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Website,Sync Time,Client Id,Bid Strategy Id,Bid Strategy Name,Bid Strategy Type,Bid Strategy MaxCpc,Bid Strategy TargetCpa,Bid Strategy TargetRoas,Bid Strategy TargetAdPosition,Bid Strategy TargetImpressionShare,Modified Time,Tracking Template,Final Url Suffix,Custom Parameter,Final Url,Mobile Final Url,Time Zone,Budget Id,Budget,Budget Type,Campaign Type,Priority,Country Code,LocalInventoryAdsEnabled,Ad Schedule Use Searcher Time Zone,Start Date,End Date,Network Distribution,Ad Rotation,Cpc Bid,Language,Target Setting,Bid Option,Bid Boost Value,Ad Group Type,Title,Text,Display Url,Domain,Destination Url,Business Name,Phone Number,Promotion,Editorial Status,Editorial Appeal Status,Editorial Justification,Device Preference,Ad Format Preference,Keyword,Match Type,Bid,Param1,Param2,Param3,Transaction Id,Target,Physical Intent,Bid Adjustment,OS Names,Radius Target Id,Name,AdCustomizer DataType,AdCustomizer AttributeValue
 Format Version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,
