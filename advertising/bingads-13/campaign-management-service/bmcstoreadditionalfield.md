@@ -17,6 +17,7 @@ Defines a list of optional store properties that you can request when calling [G
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="GlobalStore" />
+        <xs:enumeration value="StoreUrl" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -25,11 +26,12 @@ Defines a list of optional store properties that you can request when calling [G
 
 ## <a name="values"></a>Values
 
-The [BMCStoreAdditionalField](bmcstoreadditionalfield.md) value set has the following values: [GlobalStore](#globalstore).
+The [BMCStoreAdditionalField](bmcstoreadditionalfield.md) value set has the following values: [GlobalStore](#globalstore), [StoreUrl](#storeurl).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="globalstore"></a>GlobalStore|Request that the service return global stores with [SubType](bmcstore.md#subtype) set to [GlobalStore](bmcstoresubtype.md#globalstore).<br/><br/>Global stores are not included by default when you call [GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md).|
+|<a name="storeurl"></a>StoreUrl|The store's destination URL. The destination URL is the web page where people are directed to when they click your ad.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
