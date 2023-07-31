@@ -32,14 +32,14 @@ The Campaign Management service defines the following value sets.
 |[AdType](adtype.md)|Defines the type of ad.|
 |[AgeRange](agerange.md)|Defines the possible age range values that you can use to target ads to people.|
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
-|[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|Reserved.|
-|[AssetGroupListingType](assetgrouplistingtype.md)|Reserved.|
-|[AssetGroupStatus](assetgroupstatus.md)|Reserved.|
+|[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|The editorial review status of the asset group, which indicates whether the asset group is pending review, has been approved, or has been disapproved.|
+|[AssetGroupListingType](assetgrouplistingtype.md)|The type of listing group, for example Subdivision or Unit.|
+|[AssetGroupStatus](assetgroupstatus.md)|The status of the AssetGroup.|
 |[AssetLinkEditorialStatus](assetlinkeditorialstatus.md)|Defines the editorial review status values of a linked asset.|
 |[AssociationType](associationtype.md)|Defines the entity types that can be associated with an ad extension.|
 |[AttributionModelType](attributionmodeltype.md)|Determines which attribution model is used with a conversion goal.|
 |[AudienceAdditionalField](audienceadditionalfield.md)|Defines a list of optional audience properties that you can request when calling [GetAudiencesByIds](getaudiencesbyids.md#returnadditionalfields).|
-|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|Reserved.|
+|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|Defines an AudienceGroupDimensionType value set.|
 |[AudienceType](audiencetype.md)|Defines the possible audience types.|
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
 |[BMCStoreAdditionalField](bmcstoreadditionalfield.md)|Defines a list of optional store properties that you can request when calling [GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md).|
@@ -62,6 +62,8 @@ The Campaign Management service defines the following value sets.
 |[ConversionGoalType](conversiongoaltype.md)|Defines the current possible types of conversion goals.|
 |[CriterionAdditionalField](criterionadditionalfield.md)|Defines a list of optional criterion properties that you can request when calling [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) and [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md).|
 |[CriterionTypeGroup](criteriontypegroup.md)|The type used to group criterions.|
+|[CustomerListActionType](customerlistactiontype.md)|Reserved.|
+|[CustomerListItemSubType](customerlistitemsubtype.md)|Reserved.|
 |[Day](day.md)|Defines the day values that you can specify for day and time criterion.|
 |[DistanceUnit](distanceunit.md)|Defines the possible distance units of a geographical location.|
 |[DynamicSearchAdsSource](dynamicsearchadssource.md)|Defines the possible targeting source values for dynamic search ads campaigns.|

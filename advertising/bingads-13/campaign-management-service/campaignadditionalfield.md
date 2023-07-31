@@ -31,6 +31,9 @@ Defines a list of optional campaign properties that you can request when calling
         <xs:enumeration value="TargetCpaInMaxConversion" />
         <xs:enumeration value="ResponsiveSearchAdsSetting" />
         <xs:enumeration value="CostPerSaleBiddingScheme" />
+        <xs:enumeration value="ShoppingSettingShoppableAdsEnabled" />
+        <xs:enumeration value="ShoppingSettingFeedLabel" />
+        <xs:enumeration value="CallToActionSetting" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -39,12 +42,13 @@ Defines a list of optional campaign properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [CampaignAdditionalField](campaignadditionalfield.md) value set has the following values: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BidStrategyId](#bidstrategyid), [CampaignConversionGoal](#campaignconversiongoal), [CostPerSaleBiddingScheme](#costpersalebiddingscheme), [CpvCpmBiddingScheme](#cpvcpmbiddingscheme), [DisclaimerSetting](#disclaimersetting), [DynamicDescriptionSetting](#dynamicdescriptionsetting), [DynamicFeedSetting](#dynamicfeedsetting), [MaxConversionValueBiddingScheme](#maxconversionvaluebiddingscheme), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [ResponsiveSearchAdsSetting](#responsivesearchadssetting), [TargetCpaInMaxConversion](#targetcpainmaxconversion), [TargetImpressionShareBiddingScheme](#targetimpressionsharebiddingscheme), [TargetSetting](#targetsetting), [VerifiedTrackingSetting](#verifiedtrackingsetting).
+The [CampaignAdditionalField](campaignadditionalfield.md) value set has the following values: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BidStrategyId](#bidstrategyid), [CallToActionSetting](#calltoactionsetting), [CampaignConversionGoal](#campaignconversiongoal), [CostPerSaleBiddingScheme](#costpersalebiddingscheme), [CpvCpmBiddingScheme](#cpvcpmbiddingscheme), [DisclaimerSetting](#disclaimersetting), [DynamicDescriptionSetting](#dynamicdescriptionsetting), [DynamicFeedSetting](#dynamicfeedsetting), [MaxConversionValueBiddingScheme](#maxconversionvaluebiddingscheme), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [ResponsiveSearchAdsSetting](#responsivesearchadssetting), [ShoppingSettingFeedLabel](#shoppingsettingfeedlabel), [ShoppingSettingShoppableAdsEnabled](#shoppingsettingshoppableadsenabled), [TargetCpaInMaxConversion](#targetcpainmaxconversion), [TargetImpressionShareBiddingScheme](#targetimpressionsharebiddingscheme), [TargetSetting](#targetsetting), [VerifiedTrackingSetting](#verifiedtrackingsetting).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimeZone|Request that the [AdScheduleUseSearcherTimeZone](campaign.md#adscheduleusesearchertimezone) element be included within each returned [Campaign](campaign.md) object.|
 |<a name="bidstrategyid"></a>BidStrategyId|Request that the [BidStrategyId](campaign.md#bidstrategyid) element be included within each returned [Campaign](campaign.md) object.|
+|<a name="calltoactionsetting"></a>CallToActionSetting|Reserved.|
 |<a name="campaignconversiongoal"></a>CampaignConversionGoal|Reserved.|
 |<a name="costpersalebiddingscheme"></a>CostPerSaleBiddingScheme|Request that the [CostPerSaleBiddingScheme](costpersalebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="cpvcpmbiddingscheme"></a>CpvCpmBiddingScheme|Request that the [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) or [ManualCpvBiddingScheme](manualcpvbiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.<br/><br/>*Note*: When *CpvCpmBiddingScheme* is not set, campaigns using ManualCPV or ManualCPM bidding schemes are not returned.|
@@ -54,6 +58,8 @@ The [CampaignAdditionalField](campaignadditionalfield.md) value set has the foll
 |<a name="maxconversionvaluebiddingscheme"></a>MaxConversionValueBiddingScheme|Request that the [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [Campaign](campaign.md) object.|
 |<a name="responsivesearchadssetting"></a>ResponsiveSearchAdsSetting|Reserved.|
+|<a name="shoppingsettingfeedlabel"></a>ShoppingSettingFeedLabel|Reserved.|
+|<a name="shoppingsettingshoppableadsenabled"></a>ShoppingSettingShoppableAdsEnabled|Reserved.|
 |<a name="targetcpainmaxconversion"></a>TargetCpaInMaxConversion|Reserved.|
 |<a name="targetimpressionsharebiddingscheme"></a>TargetImpressionShareBiddingScheme|Request that the [TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="targetsetting"></a>TargetSetting|Request that the [TargetSetting](targetsetting.md) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|

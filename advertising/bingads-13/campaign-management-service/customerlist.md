@@ -15,13 +15,35 @@ Reserved.
 <xs:complexType name="CustomerList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:Audience">
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ActionType" nillable="true" type="tns:CustomerListActionType">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="CustomerListItems" nillable="true" type="tns:ArrayOfCustomerListItem">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
     </xs:extension>
   </xs:complexContent>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
+
+The [CustomerList](customerlist.md) object has the following elements: [ActionType](#actiontype), [CustomerListItems](#customerlistitems).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="actiontype"></a>ActionType|Reserved.|[CustomerListActionType](customerlistactiontype.md)|
+|<a name="customerlistitems"></a>CustomerListItems|Reserved.|[CustomerListItem](customerlistitem.md) array|
 
 The [CustomerList](customerlist.md) object has [Inherited Elements](#inheritedelements).
 
@@ -49,3 +71,5 @@ The [CustomerList](customerlist.md) object derives from the [Audience](audience.
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
+## Used By
+[ApplyCustomerListItems](applycustomerlistitems.md)  
