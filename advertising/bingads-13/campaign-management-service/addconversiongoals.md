@@ -18,7 +18,7 @@ Adds new conversion goals to the account's shared conversion goal library.
 > [!IMPORTANT]
 > Every time you add or update a new [DurationGoal](durationgoal.md), [EventGoal](eventgoal.md), [OfflineConversionGoal](offlineconversiongoal.md), [PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md) or [UrlGoal](urlgoal.md) via either the Microsoft Advertising web application or Campaign Management API, the *MSCLKIDAutoTaggingEnabled* value of the corresponding [AccountProperty](accountproperty.md) is set to *True* automatically. If the Scope of the goal is set to *Customer* level, then the [AccountProperty](accountproperty.md) for all accounts under the Customer will be set.
 > [!NOTE]
-> The account must have a goal with enhanced conversions turned on before setting `IsEnhancedConversionsEnabled=true` for an API goal entity. This goal would have been created from the Microsoft Advertising UI after turning on enhanced conversions.
+> To create an enhanced conversion goal and set `isEnhancedConversionsEnabled=true`, you must create a conversion goal for the account via the Microsoft Advertising UI with the enhanced conversion setting selected and the associated checkbox checked.
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
