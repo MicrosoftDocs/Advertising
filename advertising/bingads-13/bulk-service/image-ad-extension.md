@@ -100,9 +100,6 @@ For an *Image Ad Extension* record, the following attribute fields are available
 ## <a name="adschedule"></a>Ad Schedule
 The list of day and time ranges that you want the ad extension to be displayed with your ads. Each day and time range includes the scheduled day of week, start/end hour, and start/end minute. Each day and time range is enclosed by left and right parentheses, and separated from other day and time ranges with a semicolon (;) delimiter. Within each day and time range the format is *Day[StartHour:StartMinue-EndHour:EndMinute]*. 
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields. Otherwise, image ad extension scheduling is not supported.  
-
 The possible values of *StartHour* range from 00 to 23, where *00* is equivalent to 12:00AM and *12* is 12:00PM.
 
 The possible values of *EndHour* range from 00 to 24, where *00* is equivalent to 12:00AM and *12* is 12:00PM.
@@ -134,9 +131,6 @@ Used to associate records in the bulk upload file with records in the results fi
 ## <a name="customparameter"></a>Custom Parameter
 Your custom collection of key and value parameters for URL tracking.
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Custom Parameter](#customparameter) field.  
-
 In a bulk file, the list of custom parameters are formatted as follows.
 
 - Format each custom parameter pair as Key=Value, for example {_promoCode}=PROMO1.
@@ -159,9 +153,6 @@ In a bulk file, the list of custom parameters are formatted as follows.
 ## <a name="destinationurl"></a>Destination URL
 The URL of the webpage to take the user to when they click the image. 
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Final Url](#finalurl) field. In the meantime you can set the [Destination URL](#destinationurl) field.
-
 The URL can contain dynamic text strings such as {keyword}. For more information, see [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 The URL can contain a maximum of 1,024 characters. If the URL does not specify a protocol, the system uses the HTTP protocol when a user clicks the ad. If the URL specifies the HTTP protocol when you add an ad, the service will remove the *http://* protocol string (the HTTP protocol string does not count against the 1,024 character limit); however, the service will not remove an HTTPS protocol string (https://) from the URL.
@@ -177,9 +168,6 @@ The URL can contain a maximum of 1,024 characters. If the URL does not specify a
 The display text of your image extension.
 
 The maximum length for this field is 35 characters.
-
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Display Text](#displaytext) field.  
 
 **Add:** Required  
 **Update:** Required. If no value is set for the update, this setting is not changed.    
@@ -227,9 +215,6 @@ This field will not be set if a combination of terms caused the failure or if th
 ## <a name="enddate"></a>End Date
 The ad extension scheduled end date string formatted as *MM/DD/YYYY*.
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields. Otherwise, image ad extension scheduling is not supported.  
-
 The end date is inclusive. For example, if you set this field to 12/31/2020, the ad extensions will stop being shown at 11:59 PM on 12/31/2020.
 
 **Add:** Optional. If you do not specify an end date, the ad extension will continue to be delivered unless you pause the associated campaigns, ad groups, or ads.  
@@ -238,9 +223,6 @@ The end date is inclusive. For example, if you set this field to 12/31/2020, the
 
 ## <a name="finalurl"></a>Final Url
 The landing page URL.  
-
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Final Url](#finalurl) field. In the meantime you can set the [Destination URL](#destinationurl) field.
 
 The following validation rules apply to Final URLs and Final Mobile URLs.  
 - The length of the URL is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.
@@ -273,9 +255,6 @@ The system-generated identifier of the ad extension.
 
 ## <a name="images"></a>Images
 Image assets with different sizes and aspect ratios so they can flexibly display across a variety of publishers and placements.
-
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you must set the [Images](#images) field. In the meantime you must set the [Media Ids](#mediaids) field.  
 
 You are only required to provide a landscape image asset i.e., this field must contain one image asset with [subType](#images-subtype) set to LandscapeImageMedia. The recommended dimensions for the LandscapeImageMedia are 1200 width x 628 height. Optionally you can include additional asset links, i.e., one image asset for each supported sub type. For any image asset sub types that you do not explicitly set, Microsoft Advertising will automatically create image asset links by cropping the LandscapeImageMedia. 
 
@@ -410,18 +389,12 @@ Supported values are SearchSingle and SearchMultiple. New layouts might be added
 
 In a bulk file, the list of layout strings are delimited with a semicolon (;).
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Layouts](#layouts) field.  
-
 **Add:** Optional. If you do not set this field, all current and future supported layouts will be set by default.    
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="mediaids"></a>Media Ids
-The identifiers of the images to include in the ad. You may not specify media identifiers for more than one image of the same aspect ratio. In other words each of  the referenced images must have different aspect ratios.  
-
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you must set the [Images](#images) field. In the meantime you must set the [Media Ids](#mediaids) field.  
+The identifiers of the images to include in the ad. You may not specify media identifiers for more than one image of the same aspect ratio. In other words each of  the referenced images must have different aspect ratios.
 
 You can specify up to four (4) [image](image.md) identifiers. While the minimum required is one image media ID, in order to qualify for all ad placements you must provide four image media identifiers.  
 
@@ -433,9 +406,6 @@ In a bulk file, the list of media identifiers are delimited with a semicolon (;)
 
 ## <a name="mobilefinalurl"></a>Mobile Final Url
 The landing page URL for mobile devices.
-
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Final Url](#finalurl) field. In the meantime you can set the [Mobile Final Url](#mobilefinalurl) field.
 
 The following validation rules apply to Final URLs and Final Mobile URLs.  
 - The length of the URL is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.  
@@ -480,9 +450,6 @@ In a bulk file, the list of publisher countries or regions are delimited with a 
 ## <a name="startdate"></a>Start Date
 The ad extension scheduled start date string formatted as *MM/DD/YYYY*.
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields. Otherwise, image ad extension scheduling is not supported.  
-
 The start date is inclusive. For example, if you set *StartDate* to 5/5/2020, the ad extensions will start being shown at 12:00 AM on 5/5/2020.
 
 **Add:** Optional. If you do not specify a start date, the ad extension is immediately eligible to be [scheduled](#adschedule).  
@@ -501,9 +468,6 @@ Possible values are *Active* or *Deleted*.
 ## <a name="trackingtemplate"></a>Tracking Template
 The tracking template to use for your promotion URLs.
 
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Tracking Template](#trackingtemplate) field.  
-
 The following validation rules apply to tracking templates. For more details about supported templates and parameters, see the Microsoft Advertising help article [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2)
 
 - Tracking templates defined for lower level entities e.g. ads override those set for higher level entities e.g. campaign. For more information, see [Entity Limits](../guides/entity-hierarchy-limits.md).
@@ -520,9 +484,6 @@ The following validation rules apply to tracking templates. For more details abo
 
 ## <a name="usesearchertimezone"></a>Use Searcher Time Zone
 Determines whether to use the account time zone or the time zone of the search user where the ads could be delivered.
-
-> [!IMPORTANT]
-> All clients should prepare for the availability of Multi-Image Ad Extensions. As soon as each customer is enabled for Multi-Image Ad Extensions ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 626) you can set the [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields. Otherwise, image ad extension scheduling is not supported.  
 
 Set this property to *TRUE* if you want the ad extensions to be shown in the search user's time zone, and otherwise set it to *FALSE*.
 
