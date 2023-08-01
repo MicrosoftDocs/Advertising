@@ -58,7 +58,7 @@ The [ProductMatchCountReportColumn](productmatchcountreportcolumn.md) value set 
 |<a name="assetgroupname"></a>AssetGroupName|The asset group name.|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
-|<a name="campaigntype"></a>CampaignType|The campaign type.<br/><br/>Possible values include *Audience*, *Dynamic search*, *Search & content*, and *Shopping*.|
+|<a name="campaigntype"></a>CampaignType|The campaign type.<br/><br/>Possible values include *Audience*, *Dynamic search*, *Performance max*, *Search & content*, and *Shopping*.|
 |<a name="customerid"></a>CustomerId|The Microsoft Advertising assigned identifier of a customer.|
 |<a name="customername"></a>CustomerName|The customer name.|
 |<a name="matchedproductsatadgroup"></a>MatchedProductsAtAdGroup|The number of products per ad group that matched your product group targets.|
