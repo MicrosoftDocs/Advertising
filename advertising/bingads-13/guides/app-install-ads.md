@@ -13,7 +13,7 @@ App Install Ads automatically detect the customer's mobile device and operating 
 
 > [!NOTE]
 > App Install Ads are available in Australia, Brazil, Canada, France, Germany, India, the United Kingdom, and the United States on iOS and Android only. Only apps available in the United States in the Apple App Store and Google Play Store are currently supported. There is no support for Windows or Windows Phone. 
-> 
+>
 > Not everyone has this feature yet. If you don't, don't worry. It's coming soon.  
 
 > [!NOTE]
