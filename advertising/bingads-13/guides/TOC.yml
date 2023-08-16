@@ -2308,6 +2308,8 @@
       href: ./request-download-report.md
     - name: Report Data Retention Time Periods
       href: ./report-data-retention-time-periods.md
+    - name: Ad Library API
+      href: ./ad-library-api.md
   - name: Reporting Service Operations
     items: 
     - name: Overview
