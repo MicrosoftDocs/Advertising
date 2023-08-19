@@ -17,6 +17,8 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
 > [!NOTE]
 > You should only use this report to get performance data for Microsoft Shopping Campaigns. It is not applicable for other campaign types. 
 
+[!INCLUDE[performance-max-columns](./includes/performance-max-columns.md)]
+
 ## Syntax
 ```xml
 <xs:complexType name="ProductMatchCountReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">

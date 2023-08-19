@@ -14,6 +14,8 @@ You can request impressions, clicks, spend, and average cost-per-click for each 
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+[!INCLUDE[performance-max-columns](./includes/performance-max-columns.md)]
+
 ## Syntax
 ```xml
 <xs:complexType name="GeographicPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
