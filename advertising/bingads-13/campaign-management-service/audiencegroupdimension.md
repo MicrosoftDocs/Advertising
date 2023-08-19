@@ -10,6 +10,9 @@ description: Defines an AudienceGroupDimension data object.
 # AudienceGroupDimension Data Object - Campaign Management
 Defines an AudienceGroupDimension data object.
 
+> [!WARNING]
+> Do not try to instantiate an AudienceGroupDimension. You can create one or more of the following objects that derive from it: AgeDimesion, GenderDimension, AudienceDimension.
+
 ## Syntax
 ```xml
 <xs:complexType name="AudienceGroupDimension" xmlns:xs="http://www.w3.org/2001/XMLSchema">

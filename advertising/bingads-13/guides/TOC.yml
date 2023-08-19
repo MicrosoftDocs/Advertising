@@ -1198,6 +1198,8 @@
       href: ../campaign-management-service/deleteadgroups.md
     - name: DeleteAds
       href: ../campaign-management-service/deleteads.md
+    - name: DeleteAssetGroups
+      href: ../campaign-management-service/deleteassetgroups.md
     - name: DeleteAudienceGroupAssetGroupAssociations
       href: ../campaign-management-service/deleteaudiencegroupassetgroupassociations.md
     - name: DeleteAudienceGroups
@@ -1266,6 +1268,8 @@
       href: ../campaign-management-service/getassetgroupsbycampaignid.md
     - name: GetAssetGroupsByIds
       href: ../campaign-management-service/getassetgroupsbyids.md
+    - name: GetAssetGroupsEditorialReasons
+      href: ../campaign-management-service/getassetgroupseditorialreasons.md
     - name: GetAudienceGroupAssetGroupAssociationsByAssetGroupIds
       href: ../campaign-management-service/getaudiencegroupassetgroupassociationsbyassetgroupids.md
     - name: GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds

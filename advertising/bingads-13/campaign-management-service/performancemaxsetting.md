@@ -29,7 +29,7 @@ The [PerformanceMaxSetting](performancemaxsetting.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="finalurlexpansionoptout"></a>FinalUrlExpansionOptOut|Reserved.|**boolean**|
+|<a name="finalurlexpansionoptout"></a>FinalUrlExpansionOptOut|If *false*, then the entire domain will be targeted, and ad assets will be dynamically generated to match landing page content. If *true* (opted out), then only the final URLs and assets in the asset groups and feed will be targeted.<br/><br/>**Add**: Optional. The default value is false.<br/>**Update**: Optional|**boolean**|
 
 The [PerformanceMaxSetting](performancemaxsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -40,7 +40,7 @@ The [PerformanceMaxSetting](performancemaxsetting.md) object derives from the [S
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting.<br/><br/>For more information, see [Setting Data Object Remarks](setting.md#remarks).|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -43,6 +43,9 @@ Use a biddable criterion to target a criterion with or without a bid adjustment.
 
 Use a "Negative" criterion to exclude a target criterion. When you use the Bulk service the record type of a negative age criterion applied to an ad group is [Ad Group Negative Age Criterion](../bulk-service/ad-group-negative-age-criterion.md), whereas with the Campaign Management service you would use a [NegativeAdGroupCriterion](../campaign-management-service/negativeadgroupcriterion.md) and set its [Criterion](../campaign-management-service/negativeadgroupcriterion.md#criterion) element to an instance of [AgeCriterion](../campaign-management-service/agecriterion.md). 
 
+> [!NOTE] 
+> Performance max campaigns only support location, location intent, radius, and daytime targets, and only at the campaign level.
+
 ### <a name="agecriterion"></a>Age Criterion
 You can target customers by age so that your ads are displayed more frequently to people who will be interested in them. 
 

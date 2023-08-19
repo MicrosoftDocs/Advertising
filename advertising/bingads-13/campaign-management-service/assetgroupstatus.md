@@ -27,9 +27,9 @@ The [AssetGroupStatus](assetgroupstatus.md) value set has the following values: 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="active"></a>Active|The status of the AssetGroup is *Active*.|
-|<a name="deleted"></a>Deleted|The status of the AssetGroup is *Deleted*.|
-|<a name="paused"></a>Paused|The status of the AssetGroup is *Paused*.|
+|<a name="active"></a>Active|The asset group is active, which indicates that the asset group can be served.|
+|<a name="deleted"></a>Deleted|This status is for internal use only. Because all *Get* operations do not return deleted objects, you will not see an object with this status.|
+|<a name="paused"></a>Paused|The asset group is paused, which indicates that the asset group will not serve.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

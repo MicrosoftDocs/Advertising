@@ -53,7 +53,7 @@ The [ProductNegativeKeywordConflictReportColumn](productnegativekeywordconflictr
 |<a name="accountname"></a>AccountName|The account name.|
 |<a name="accountnumber"></a>AccountNumber|The Microsoft Advertising assigned number of an account.|
 |<a name="accountstatus"></a>AccountStatus|The current account status.|
-|<a name="adgroupcriterionid"></a>AdGroupCriterionId|The Microsoft Advertising assigned identifier of an ad group criterion.|
+|<a name="adgroupcriterionid"></a>AdGroupCriterionId|The Microsoft Advertising assigned identifier of an ad group criterion.<br/><br/>*Note*: In Performance max campaigns, this is *ListingGroupId*.|
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The current ad group status.|
@@ -70,7 +70,7 @@ The [ProductNegativeKeywordConflictReportColumn](productnegativekeywordconflictr
 |<a name="negativekeywordid"></a>NegativeKeywordId|The Microsoft Advertising assigned identifier of a negative keyword.|
 |<a name="negativekeywordlistid"></a>NegativeKeywordListId|The Microsoft Advertising assigned identifier of a negative keyword list.|
 |<a name="negativekeywordmatchtype"></a>NegativeKeywordMatchType|The type of match to compare the negative keyword and the user's search term. The possible values for a negative keyword are *Exact* and *Phrase*.|
-|<a name="productgroup"></a>ProductGroup|The backward slash delimited list of product conditions, reported as Operand = Attribute. The attribute values are surrounded by "" (double quotes). Here is an example: * / Category="Animals & Pet Supplies" / Category="Pet Supplies" / Category="Bird Supplies". The "*" (single asterisk) refers to a product group that matches everything else besides the other filters for the product group.|
+|<a name="productgroup"></a>ProductGroup|The backward slash delimited list of product conditions, reported as Operand = Attribute. The attribute values are surrounded by "" (double quotes). Here is an example: * / Category="Animals & Pet Supplies" / Category="Pet Supplies" / Category="Bird Supplies". The "\*" (single asterisk) refers to a product group that matches everything else besides the other filters for the product group.<br/><br/>*Note*: In Performance max campaigns, this is *ListingGroup*.|
 |<a name="title"></a>Title|The product item name. For example the title of a book, DVD, or game.|
 
 ## <a name="remarks"></a>Remarks

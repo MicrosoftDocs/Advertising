@@ -16,6 +16,8 @@ The report will include only search terms that resulted in a significant number 
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+[!INCLUDE[performance-max-columns](./includes/performance-max-columns.md)]
+
 ## Syntax
 ```xml
 <xs:complexType name="ProductSearchQueryPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">

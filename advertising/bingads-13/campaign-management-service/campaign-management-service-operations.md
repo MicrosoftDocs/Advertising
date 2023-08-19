@@ -17,7 +17,7 @@ The Campaign Management service defines the following service operations.
 |[AddAdGroups](addadgroups.md)|Adds new ad groups to a specified campaign.|1,000 *AdGroups*<br/><br/>1 *CampaignId*|
 |[AddAds](addads.md)|Adds one or more ads to an ad group.|1 *AdGroupId*<br/><br/>50 *Ads*|
 |[AddAssetGroups](addassetgroups.md)|Adds array of asset groups to a specified campaign.|N/A.|
-|[AddAudienceGroups](addaudiencegroups.md)|Adds array of audience groups to a specified campaign.|N/A.|
+|[AddAudienceGroups](addaudiencegroups.md)|Adds array of audience groups to the account.|N/A.|
 |[AddAudiences](addaudiences.md)|Adds one or more audiences.|100 *Audiences*|
 |[AddBidStrategies](addbidstrategies.md)|Adds bid strategies to an account's portfolio bid strategy library.|100 *BidStrategies*|
 |[AddBudgets](addbudgets.md)|Adds new budgets to the account's shared budget library.|100 *Budgets*|
