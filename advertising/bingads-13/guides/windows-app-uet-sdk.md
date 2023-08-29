@@ -88,7 +88,7 @@ Once you have created a conversion goal, it will appear in the table on your Con
 
 When your conversion goal is complete and attached to a UET tag, the  Tracking status will update to "Recording conversions". This means that your UET tag has recorded at least one conversion in the last 7 days.
 
-![Conversion goal menu](media/windows_uet_sdk_recording_conversions.png "Conversion goal menu")
+![Tracking status: recording conversions](media/windows_uet_sdk_recording_conversions.png "Tracking status: recording conversions")
 
 If your Tracking status is “No recent conversions”, your UET tag hasn’t received any conversions for the last 7 days. This might mean that you have created the goal incorrectly. If you see this status, you should confirm that your conversion is correctly implemented. 
 
