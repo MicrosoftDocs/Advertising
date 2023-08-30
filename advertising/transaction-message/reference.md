@@ -120,7 +120,7 @@ Defines a type of room.
 |-|-|-
 |RoomID|Required.<br />Data type is string.<br /><br />An ID that uniquely identifies the room. If your \<Result> element contains \<RoomBundle>, set the bundles' \<RoomID> element to this ID, as appropriate. You may also use this ID to set the `Result` object's \<RoomID> element, if you don't use room bundles but want to identify a type of room.|None
 |Room Size| Optional. Size of the room in square meter or square feet. | [Text Type](#text-type)
-|BedArrangement| Optional. A container for bed arrangements in this room.| [BedArrangement Type](#bedarrangement-type)
+|BedArrangement| A container for bed arrangements in this room. You may specify one or more BedArrangement. | [BedArrangement Type](#bedarrangement-type)
 |Name|Required.<br /><br />A name that identifies the type of room (for example, non-smoking, single queen room). This should be the same name that you use to identify the room on your website. Specify a `Text` element for each language you support.|[Text Type](#text-type)
 |Description|Optional.<br /><br />A description of the room. Specify a `Text` element for each language you support.|[Text Type](#text-type)
 |PhotoURL|Optional.<br /><br />A container object that contains the URL of an image of the room type. You may specify one or more photos. |[PhotoURL Type](#photourl-type)
