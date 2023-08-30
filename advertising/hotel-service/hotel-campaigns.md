@@ -30,11 +30,11 @@ Here are some benefits of using hotel campaigns:
 
 * Updated reporting to match reporting of other campaign types.
 
-Coming early 2023:
+* Updated API to match search and retail API structure.
+
+Coming soon:
 
 * Additional ad distribution options include Microsoft Audience Network and other syndicated partners.
-
-* Updated API to match search and retail API structure. (Only the web user interface version will be available prior to API enablement.)
 
 Advertisers can run campaigns from both Hotel Center and hotel campaigns, but you'll still need to upload feeds through the Hotel Center.
 
