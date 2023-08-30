@@ -327,7 +327,7 @@ The following are the SOV columns:
 ### <a name="conversionmetrics"></a> Conversion metrics
 
 > [!NOTE]
-> Conversion tracking is available to select participants only. For information about participating in the conversion tracking pilot, please contact your account manager or send email to hahotline@microsoft.com.
+> Conversion tracking is available to select participants only. For information about participating in the conversion tracking pilot, please contact your account manager.
 
 You can track bookings at the hotel, hotel group, or subaccount level. But before you can track bookings, you must add a hotel conversion tracking UET tag to each POS website. For general information about UET tags, see [Everything you need to know about setting up UET](https://help.ads.microsoft.com/#apex/3/en/56913/2-500).
 
