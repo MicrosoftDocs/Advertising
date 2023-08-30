@@ -50,6 +50,10 @@ The hotel feed contains a single, top-level [listings](../hotel-feed/reference.m
 </listings>
 ```
 
+
+> [!NOTE]
+> We currently support feed data only in English.
+
 The `language` element specifies the language that the data in the feed is written in. To specify the language, use the two-letter ISO 639 language code. For example, use **en** for English.
 
 The [listing](../hotel-feed/reference.md#listingstype) element contains information about the hotel, such as it's name, address, and phone number. For information about defining a listing, see [Defining a hotel listing](#defining-a-hotel-listing).
