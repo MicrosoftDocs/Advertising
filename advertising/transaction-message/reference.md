@@ -119,7 +119,7 @@ Defines a type of room.
 |Element|Description|Children
 |-|-|-
 |RoomID|Required.<br />Data type is string.<br /><br />An ID that uniquely identifies the room. If your \<Result> element contains \<RoomBundle>, set the bundles' \<RoomID> element to this ID, as appropriate. You may also use this ID to set the `Result` object's \<RoomID> element, if you don't use room bundles but want to identify a type of room.|None
-|Room Size| Optional. Size of the room in square meter or square feet.<br/><br/>Example: ```<RoomSize> <Text text="500 square feet" language="en"/> </RoomSize>``` or ```<RoomSize> <Text text="500 square meter" language="en"/> </RoomSize>``` | [Text Type](#text-type)
+|RoomSize| Optional. Size of the room in square meter or square feet.<br/><br/>Example: ```<RoomSize> <Text text="500 square feet" language="en"/> </RoomSize>``` or ```<RoomSize> <Text text="500 square meter" language="en"/> </RoomSize>``` | [Text Type](#text-type)
 |BedArrangement| A container for bed arrangements in this room. You may specify one or more BedArrangement. | [BedArrangement Type](#bedarrangement-type)
 |Name|Required.<br /><br />A name that identifies the type of room (for example, non-smoking, single queen room). This should be the same name that you use to identify the room on your website. Specify a `Text` element for each language you support.|[Text Type](#text-type)
 |Description|Optional.<br /><br />A description of the room. Specify a `Text` element for each language you support.|[Text Type](#text-type)
