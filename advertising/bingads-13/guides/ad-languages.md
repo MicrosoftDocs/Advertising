@@ -20,8 +20,9 @@ The following are the possible languages that you can use to write your ads and 
 |Language|Language Code|
 |------------|-----------------|
 |Albanian|SQ|
-|Bulgarian|BG|
+|Arabic|AR|
 |Bosnian|BS|
+|Bulgarian|BG|
 |Croatian|HR|
 |Czech|CS|
 |Danish|DA|
@@ -32,6 +33,7 @@ The following are the possible languages that you can use to write your ads and 
 |French|FR|
 |German|DE|
 |Greek|EL|
+|Hebrew|HE|
 |Hungarian|HU|
 |Icelandic|IS|
 |Italian|IT|
@@ -44,13 +46,14 @@ The following are the possible languages that you can use to write your ads and 
 |Polish|PL|
 |Portuguese|PT<br/><br/>This code differs from the ISO standard for Brazilian Portuguese, PTB.|
 |Romanian|RO|
+|Russian|RU|
 |Serbian|SR|
 |Slovak|SK|
 |Slovenian|SL|
 |Spanish|ES|
 |Swedish|SV|
-|Turkish|TR|
 |TraditionalChinese|ZH|
+|Turkish|TR|
 		
 ## <a name="productlanguage"></a>Product Language
 Your [customer](../customer-management-service/customer.md) language determines the language of the Microsoft Advertising interface. 
