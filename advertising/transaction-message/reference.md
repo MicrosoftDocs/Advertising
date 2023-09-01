@@ -172,7 +172,7 @@ Defines a container object that contains details about the bed arrangement of th
 
 |Element|Description|Children
 |-|-|-
-|BedType|Required.<br />Data type is [Text Type](#text-type)<br /><br />The type of bed in this room (for example: Extra-large double bed)|None
+|BedType|Required.<br />Data type is [Text Type](#text-type)<br /><br />The type of bed in this room (for example: Extra-large double bed).<br/><br/>*Note*: Don't add the number of beds to the *BedType* element. Use the *BedCount* element instead. |None
 |BedCount|Required.<br />Data type is integer.<br /><br />The number of bed(s) for this bed type.|None
 
 ## Children Type
