@@ -600,7 +600,7 @@ You may use the following country/region codes to set the `Countries` field of [
 |Liechtenstein|LI
 |Lithuania|LT
 |Luxembourg|LU
-|Macao|MO
+|Macao SAR|MO
 |Madagascar|MG
 |Malawi|MW
 |Malaysia|MY
