@@ -54,7 +54,7 @@ The following table maps the time zone values used in Scripts to their correspon
 |TimeZone.GuamPortMoresby|Pacific/Port_Moresby
 |TimeZone.HararePretoria|Africa/Harare
 |TimeZone.Hawaii|Pacific/Honolulu
-|TimeZone.HelsinkiKyivRigaSofiaTallinnVilnius|Europe/Kiev
+|TimeZone.HelsinkiKyivRigaSofiaTallinnVilnius|Europe/Kyiv
 |TimeZone.Hobart|Australia/Hobart
 |TimeZone.IndianaEast|America/Indianapolis
 |TimeZone.InternationalDateLineWest|GMT-12
@@ -77,7 +77,7 @@ The following table maps the time zone values used in Scripts to their correspon
 |TimeZone.OsakaSapporoTokyo|Asia/Tokyo
 |TimeZone.PacificTimeUSCanadaTijuana|America/Los_Angeles
 |TimeZone.Perth|Australia/Perth
-|TimeZone.Rangoon|Asia/Rangoon
+|TimeZone.Rangoon|Asia/Yangon
 |TimeZone.Santiago|America/Santiago
 |TimeZone.SarajevoSkopjeWarsawZagreb|Europe/Warsaw
 |TimeZone.Saskatchewan|America/Regina

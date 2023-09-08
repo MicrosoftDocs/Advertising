@@ -105,7 +105,7 @@ In some contexts the API requires a country code string e.g., for the business a
 |ER|Eritrea|
 |EE|Estonia|
 |ET|Ethiopia|
-|FK|Falkland Islands (Islas Malvinas)|
+|FK|Falkland Islands|
 |FO|Faroe Islands|
 |FJ|Fiji Islands|
 |FI|Finland|
@@ -157,7 +157,7 @@ In some contexts the API requires a country code string e.g., for the business a
 |LT|Lithuania|
 |LU|Luxembourg|
 |MO|Macao SAR|
-|MK|Macedonia, Former Yugoslav Republic of|
+|MK|North Macedonia, Former Yugoslav Republic of|
 |MG|Madagascar|
 |MW|Malawi|
 |MY|Malaysia|
@@ -245,7 +245,7 @@ In some contexts the API requires a country code string e.g., for the business a
 |TO|Tonga|
 |TT|Trinidad and Tobago|
 |TN|Tunisia|
-|TR|Turkey|
+|TR|Türkiye|
 |TM|Turkmenistan|
 |TC|Turks and Caicos Islands|
 |TV|Tuvalu|
