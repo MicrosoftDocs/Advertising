@@ -28,7 +28,7 @@ The [FrequencyCapSettings](frequencycapsettings.md) object has the following ele
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="capvalue"></a>CapValue|A limit to the number of times an ad is shown.|**int**|
-|<a name="frequencycapunit"></a>FrequencyCapUnit|What unit to limit the ad serves. Values are *Impression*, *View*, *Click*.|**string**|
+|<a name="frequencycapunit"></a>FrequencyCapUnit|What unit to limit the ad serves by. <br/><br/>*Note*: The only currently available value is *Impression*. This can't be changed by the user.|**string**|
 |<a name="timegranularity"></a>TimeGranularity|The smallest time interval to limit ad serves. Values are *Hour*, *Day*, *Week*.|[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|
 
 ## Requirements
