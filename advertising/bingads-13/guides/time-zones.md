@@ -71,12 +71,11 @@ The following table describes the possible campaign time zone values.
 |MoscowStPetersburgVolgograd|Moscow, St Petersburg, and Volgograd time zone.|UTC+3|
 |MountainTimeUSCanada|Mountain Time U.S. and Canada time zone.|UTC-7|
 |Nairobi|Nairobi time zone.|UTC+3|
-|Newfoundland|Newfoundland time zone.|UTC-3.5|
+|Newfoundland and Labrador|Newfoundland and Labrador time zone.|UTC-3.5|
 |Nukualofa|Nuku'alofa time zone.|UTC+13|
 |OsakaSapporoTokyo|Osaka, Sapporo, and Tokyo time zone.|UTC+9|
 |PacificTimeUSCanadaTijuana|Pacific Time, U.S. and Canada, and Tijuana time zone.|UTC-8|
 |Perth|Perth time zone.|UTC+8|
-|Rangoon|Rangoon time zone.|UTC+6.5|
 |Santiago|Santiago time zone.|UTC-4|
 |SarajevoSkopjeWarsawZagreb|Sarajevo, Skopie, Warsaw, and Zagreb time zone.|UTC+1|
 |Saskatchewan|Saskatchewan time zone.|UTC-6|
@@ -88,3 +87,4 @@ The following table describes the possible campaign time zone values.
 |Vladivostok|Vladivostok time zone.|UTC+10|
 |WestCentralAfrica|West Central Africa time zone.|UTC+1|
 |Yakutsk|Yakutsk time zone.|UTC+9|
+|Yangon|Yangon time zone.|UTC+6.5|

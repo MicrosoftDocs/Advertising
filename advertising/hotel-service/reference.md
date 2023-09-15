@@ -532,6 +532,7 @@ You may use the following country/region codes to set the `Countries` field of [
 |Congo (the Democratic Republic of the)|CD
 |Cook Islands|CK
 |Costa Rica|CR
+|Côte d'Ivoire|CI
 |Croatia|HR
 |Cyprus|CY
 |Czech Republic|CZ
@@ -581,7 +582,6 @@ You may use the following country/region codes to set the `Countries` field of [
 |Ireland|IE
 |Israel|IL
 |Italy|IT
-|Ivory Coast (Côte d'Ivoire)|CI
 |Jamaica|JM
 |Japan|JP
 |Jordan|JO
@@ -600,7 +600,7 @@ You may use the following country/region codes to set the `Countries` field of [
 |Liechtenstein|LI
 |Lithuania|LT
 |Luxembourg|LU
-|Macao|MO
+|Macao SAR|MO
 |Madagascar|MG
 |Malawi|MW
 |Malaysia|MY
@@ -639,7 +639,7 @@ You may use the following country/region codes to set the `Countries` field of [
 |Oman|OM
 |Pakistan|PK
 |Palau|PW
-|Palestine|PS
+|Palestinian Authority|PS
 |Panama|PA
 |Papua New Guinea|PG
 |Paraguay|PY
@@ -660,7 +660,7 @@ You may use the following country/region codes to set the `Countries` field of [
 |Saint Pierre and Miquelon|PM
 |Saint Vincent and the Grenadines|VC
 |San Marino|SM
-|Sao Tome and Principe|ST
+|São Tomé and Príncipe|ST
 |Saudi Arabia|SA
 |Senegal|SN
 |Serbia|RS
@@ -688,7 +688,7 @@ You may use the following country/region codes to set the `Countries` field of [
 |Tonga|TO
 |Trinidad and Tobago|TT
 |Tunisia|TN
-|Turkey|TR
+|Türkiye|TR
 |Turkmenistan|TM
 |Turks and Caicos Islands|TC
 |Tuvalu|TV
