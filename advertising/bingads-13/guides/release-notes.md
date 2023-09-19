@@ -35,7 +35,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="bulkservice-august2023"></a>Bulk Service
 
-- Bulk support of AdGroupGenreCriterion, CampaignDealCriterion.
+- Bulk support of AdGroupGenreCriterion and CampaignDealCriterion.
 - New fields DestinationChannel and IsMultiChannelCampaign in BulkCampaign, VerifiedTrackingData in BulkResponsiveAds.
 - Added mappings of TargetWidth and TargetHeight for ImageAsset.
 
