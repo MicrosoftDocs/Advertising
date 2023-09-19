@@ -36,7 +36,7 @@ See below for Bing Ads API updates during this calendar month.
 ### <a name="bulkservice-august2023"></a>Bulk Service
 
 - Bulk support of AdGroupGenreCriterion, CampaignDealCriterion.
-- New fields DestinationChannel and IsMultiChannelCampaign in BulkCampaign, VerifiedTrackingDatas for BulkResponsiveAds.
+- New fields DestinationChannel and IsMultiChannelCampaign in BulkCampaign, VerifiedTrackingData in BulkResponsiveAds.
 - Added mappings of TargetWidth and TargetHeight for ImageAsset.
 
 ### <a name="sdk-august2023"></a>Bing Ads API SDK Updates
@@ -44,6 +44,12 @@ See below for Bing Ads API updates during this calendar month.
 The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.17), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.17), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.17), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.17) SDK version 13.0.17.  
 
 ## <a name="june2023"></a>June 2023
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [New API Interfaces](#newapiinterfaces-june2023)  
+- [Bulk Service](#bulkservice-june2023)  
+- [Bing Ads API SDK Updates](#sdk-june2023)
 
 ### <a name="newapiinterfaces-june2023"></a>New API Interfaces  
 
