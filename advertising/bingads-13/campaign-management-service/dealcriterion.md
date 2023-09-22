@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a criterion that can be used to show ads for a specific deal.
 ---
 # DealCriterion Data Object - Campaign Management
-Reserved.
+Defines a criterion that can be used to show ads for a specific deal.
 
 ## Syntax
 ```xml
@@ -29,7 +29,7 @@ The [DealCriterion](dealcriterion.md) object has the following elements: [DealId
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="dealid"></a>DealId|Reserved.|**long**|
+|<a name="dealid"></a>DealId|The Microsoft Advertising identifier of the Deal.|**long**|
 
 The [DealCriterion](dealcriterion.md) object has [Inherited Elements](#inheritedelements).
 
@@ -40,7 +40,7 @@ The [DealCriterion](dealcriterion.md) object derives from the [Criterion](criter
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type||The type of the criterion. This value is *Deal* when you retrieve a deal criterion. For more information about criterion types, see the [Criterion Data Object Remarks](criterion.md#remarks).<br/><br/>|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -11,11 +11,14 @@ description: Defines the base object of a criterion.
 Defines the base object of a criterion.
 
 Do not try to instantiate a *Criterion*. You can create one or more of the following objects that derive from it.
+
 - [AgeCriterion](agecriterion.md)  
 - [AudienceCriterion](audiencecriterion.md)  
 - [DayTimeCriterion](daytimecriterion.md)  
+- [DealCriterion](dealcriterion.md)
 - [DeviceCriterion](devicecriterion.md)  
-- [GenderCriterion](gendercriterion.md)  
+- [GenderCriterion](gendercriterion.md)
+- [GenreCriterion](genrecriterion.md)
 - [LocationCriterion](locationcriterion.md)  
 - [LocationIntentCriterion](locationintentcriterion.md)  
 - [ProductScope](productscope.md)  
