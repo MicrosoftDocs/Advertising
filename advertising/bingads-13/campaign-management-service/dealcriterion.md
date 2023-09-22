@@ -40,7 +40,7 @@ The [DealCriterion](dealcriterion.md) object derives from the [Criterion](criter
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type||The type of the criterion. This value is *Deal* when you retrieve a deal criterion. For more information about criterion types, see the [Criterion Data Object Remarks](criterion.md#remarks).<br/><br/>|**string**|
+|<a name="type"></a>Type|The type of the criterion. This value is *Deal* when you retrieve a deal criterion. For more information about criterion types, see the [Criterion Data Object Remarks](criterion.md#remarks).<br/><br/>|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
