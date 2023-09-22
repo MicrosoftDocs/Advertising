@@ -30,7 +30,6 @@ The [GenreCriterion](genrecriterion.md) object has the following elements: [Genr
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.|**long**|
-|<a name="audiencetype"></a>AudienceType|The audience type.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|[AudienceType](audiencetype.md|**long**|
 
 The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
 
