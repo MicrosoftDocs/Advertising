@@ -1625,6 +1625,8 @@
       href: ../campaign-management-service/gendercriterion.md
     - name: GenderDimension
       href: ../campaign-management-service/genderdimension.md
+    - name: GenreCriterion
+      href: ../campaign-management-service/genrecriterion.md
     - name: GeoPoint
       href: ../campaign-management-service/geopoint.md
     - name: GoogleImportJob
