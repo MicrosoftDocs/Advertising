@@ -186,7 +186,7 @@ If you don't use the Bing Ads SDK for authentication, see Authenticating Microso
 For increased limits, all calls must specify:
 - The DeveloperToken header that's set to your developer token.
 - The AuthenticationToken header that's set to your access token.
-- 
+
 For information about these and other headers that the request and response may contain, see [Headers](/advertising/shopping-content/products-resource.md#headers).
 
 ## Easiest Microsoft Advertising Account Sign-Up Steps
