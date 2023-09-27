@@ -37,7 +37,7 @@ The following table describes the possible campaign time zone values.
 |BuenosAiresGeorgetown|Buenos Aires and Georgetown time zone.|UTC-3|
 |Cairo|Cairo time zone.|UTC+2|
 |CanberraMelbourneSydney|Canberra, Melbourne, and Sydney time zone.|UTC+10|
-|CapeVerdeIsland|Cape Verde Island time zone.|UTC-1|
+|CapeVerdeIsland|Cabo Verde Island time zone.|UTC-1|
 |CaracasLaPaz|Caracas and La Paz (Bolivia) time zone.|UTC-4|
 |CasablancaMonrovia|Casablanca and Monrovia time zone.|UTC+0|
 |CentralAmerica|Central America time zone.|UTC-6|
