@@ -11,35 +11,6 @@ description: The Ad Library is a public transparency tool that allows you to vie
 
 The Ad Library is a public transparency tool that allows you to view all ads shown on Bing.com. You can search for ads by advertiser name and keywords present in the ad copy, and you will see both the ad content and additional ad details. The ad library is part of a compliance effort to ensure we are creating a safe and open internet for our users. 
 
-## <a name="get-started"></a>Get Started with the Ad Library API
-
-To use the Ad Library API, you'll need:
-
-1. A Microsoft account
-2. A Microsoft Advertising account
-3. A developer token
-
-To get a Microsoft Advertising account, go to [https://ads.microsoft.com](https://ads.microsoft.com/). If you're not signed in to your Microsoft account, you're redirected to sign in to your account or to sign up for one. After signing in, you'll have the option to Sign up for a new Microsoft Advertising account. Select the sign up option and select Continue.
-
-### <a name="authenticate"></a>Authenticating your credentials
-
-Ad Library API uses the same authentication schemes as Bing Ads API. For details about authenticating Microsoft account credentials with OAuth, see [Authentication with the Microsoft identity platform](https://learn.microsoft.com/en-us/advertising/guides/authentication-oauth-identity-platform).
-
-You can use the [Bing Ads SDK](https://learn.microsoft.com/en-us/advertising/guides/client-libraries) for .NET, Java, or Python to authenticate Microsoft account credentials. For details about using the SDK to get the access token, see [C#](https://learn.microsoft.com/en-us/advertising/guides/get-started-csharp) | [Java](https://learn.microsoft.com/en-us/advertising/guides/get-started-java) | [Python](https://learn.microsoft.com/en-us/advertising/guides/get-started-python).
-
-*Note*: The Bing Ads SDK does not provide interfaces for Ad Library API. You should only use the SDK to get the access token if you're using the SDK for Microsoft Advertising campaigns, too. Otherwise, it may not be worth the overhead of installing the SDK.
-
-If you don't use the Bing Ads SDK for authentication, see [Authenticating Microsoft Account Credentials in C#](https://learn.microsoft.com/en-us/advertising/shopping-content/code-example-authentication-oauth) for an example that shows how to use OAuth to authenticate Microsoft account credentials.
-
-### <a name="credentials"></a>Where to use your credentials and developer tokens?
-
-All calls must specify:
-
-- The DeveloperToken header that's set to your developer token.
-- The AuthenticationToken header that's set to your access token.
-
-For information about these and other headers that the request and response may contain, see Headers.
-
 ## <a name="resource"></a>Ad Library API Resource
 
 ### <a name="base-uri"></a>Base URI
@@ -189,77 +160,36 @@ Defines the types of targeting parameters tracked by the Ad Library.
 | MicrosoftAudiences | 22 | Targeting based on Microsoft-defined audiences including in-market audiences, similar audiences, and LinkedIn profile targeting. |
 | AdvertiserAudiences | 25 | Targeting based on Advertiser-defined audiences including custom audiences, customer match lists, and remarketing lists. |
 
-#### <a name="restrictionreason"></a>RestrictionReason
+## API Authentication
 
-Defines the reason an ad has been restricted from serving further or displaying in the Ad Library.
+Like the Ad Library UI, the Ad Library API is publicily available and doesn't require any user sign-up or log-in. However, to protect the security and stability of our platform, unauthenticated requests will face stricter limits on how frequently you can call the API and how many entities you can request per call.
 
-| Name | Value | Description |
-| -------- | ----------- | ----------- |
-| ThirdPartyGov | 26 | [Government services and products](https://about.ads.microsoft.com/en-us/policies/restricted-categories/government-services-and-products) |
-| Adult_Disallowed | 27 | [Adult content policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/adult-content) |
-| Alcohol | 28 | [Alcohol](https://about.ads.microsoft.com/en-us/policies/restricted-categories/alcohol) |
-| Counterfeit | 29 | [Intellectual property policies](https://about.ads.microsoft.com/en-us/policies/intellectual-property-policies) |
-| Deceptive | 30 | [Deceptive products and services](https://about.ads.microsoft.com/en-us/policies/disallowed-content/deceptive-products-and-services) |
-| Deceptive_Fundraising | 31 | [Solicitation of funds and fundraising](https://about.ads.microsoft.com/en-us/policies/restricted-categories/solicitation-of-funds) |
-| Disallowed_Substances | 32 | [Drugs and related paraphernalia](https://about.ads.microsoft.com/en-us/policies/disallowed-content/drugs-and-related-paraphernalia) |
-| Endangered_Species | 34 | [Endangered species products or services](https://about.ads.microsoft.com/en-us/policies/disallowed-content/endangered-threatened-species-products-services) |
-| Finance | 35 | [Financial products and services policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/finance) |
-| Finance_Disallowed | 36 | [Financial products and services policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/finance) |
-| Fireworks_Explosives | 37 | [Fireworks and explosives](https://about.ads.microsoft.com/en-us/policies/disallowed-content/fireworks-and-explosives) |
-| Malware | 38 | TBD |
-| Download_Bundling_Functionality | 39 | [Software and downloads policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/software-freeware-shareware#bundling-functionality) |
-| Software_Disallowed_Behaviors | 40 | TBD |
-| Malware_Malicious_Software | 41 | TBD |
-| Download_Uninstall_Functionality | 42 | [Software and downloads policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/software-freeware-shareware#bundling-functionality) |
-| Download_Update_Functionality | 43 | [Software and downloads policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/software-freeware-shareware#bundling-functionality) |
-| Download_Disclosures | 44 | [Software and downloads policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/software-freeware-shareware#bundling-functionality) |
-| Download_User_Choice_Control | 45 | [Software and downloads policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/software-freeware-shareware#bundling-functionality) |
-| Download_Offer | 46 | [Software and downloads policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/software-freeware-shareware#bundling-functionality) |
-| Merchant_Checkout_Security | 47 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Merchant_Description_Conditions | 48 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Misleading | 49 | [Misleading messaging content or images](https://about.ads.microsoft.com/en-us/policies/disallowed-content/misleading-messaging-content-images) |
-| Information_Integrity | 50 | [Misleading messaging content or images](https://about.ads.microsoft.com/en-us/policies/disallowed-content/misleading-messaging-content-images) |
-| Misleading_Unsubstantiated | 51 | [Misleading messaging content or images](https://about.ads.microsoft.com/en-us/policies/disallowed-content/misleading-messaging-content-images) |
-| Non_Indexed_Sites | 52 | [Usenet](https://about.ads.microsoft.com/en-us/policies/disallowed-content/usenet) |
-| Offensive_Controversial | 53 | [Offensive and controversial content](https://about.ads.microsoft.com/en-us/policies/disallowed-content/offensive-controversial-content) |
-| Offensive_Defamatory | 54 | [Offensive and controversial content](https://about.ads.microsoft.com/en-us/policies/disallowed-content/offensive-controversial-content) |
-| Offensive_Hate_Speech | 55 | [Offensive and controversial content](https://about.ads.microsoft.com/en-us/policies/disallowed-content/offensive-controversial-content) |
-| Pharma | 56 | [Pharmacy and healthcare products and services policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/pharmacy-and-healthcare-products-and-services) |
-| Phishing | 57 | TBD |
-| Piracy | 58 | [Peer to peer file sharing](https://about.ads.microsoft.com/en-us/policies/disallowed-content/peer-to-peer-file-sharing) |
-| Pricing | 59 | [Pricing](https://about.ads.microsoft.com/en-us/policies/restricted-categories/pricing#free-offers-and-price-promises) |
-| Questionable_Legality | 60 | [Areas of questionable legality](https://about.ads.microsoft.com/en-us/policies/disallowed-content/areas-of-questionable-legality) |
-| Refund_Security | 61 | TBD |
-| Relevance_Quality_Fake_News | 62 | [Relevance and quality policies](https://about.ads.microsoft.com/en-us/policies/relevance-and-quality#ad-copy) |
-| Relevance_Quality_Low_Quality | 63 | [Relevance and quality policies](https://about.ads.microsoft.com/en-us/policies/relevance-and-quality#ad-copy) |
-| Relevance_Quality_LP_URL | 64 | [Relevance and quality policies](https://about.ads.microsoft.com/en-us/policies/relevance-and-quality#ad-copy) |
-| Relevance_Quality_Site_Quality | 65 | [Relevance and quality policies](https://about.ads.microsoft.com/en-us/policies/relevance-and-quality#ad-copy) |
-| Scams_Schemes | 66 | [Financial products and services policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/finance) |
-| Suffering_Violence | 67 | [Offensive and controversial content](https://about.ads.microsoft.com/en-us/policies/disallowed-content/offensive-controversial-content) |
-| Surveillance | 68 | [Spy cams and surveillance equipment](https://about.ads.microsoft.com/en-us/policies/restricted-categories/spy-cams-or-surveillance-equipment) |
-| Targeting_Minors | 69 | [Legal, privacy and security policies](https://about.ads.microsoft.com/en-us/policies/legal-privacy-and-security) |
-| BingAdsEmbargo_Policy_Reject_Terminate | 70 | [Legal, privacy and security policies](https://about.ads.microsoft.com/en-us/policies/legal-privacy-and-security) |
-| Trade | 70 | [Legal, privacy and security policies](https://about.ads.microsoft.com/en-us/policies/legal-privacy-and-security) |
-| Trafficking | 71 | [Trafficking or exploitation](https://about.ads.microsoft.com/en-us/policies/disallowed-content/trafficking-or-exploitation) |
-| Weapons | 72 | [Weapons, knives, firearms and ammunition](https://about.ads.microsoft.com/en-us/policies/restricted-categories/weapons-knives-firearms-ammunition) |
-| Weight_Loss_Products | 73 | [Pharmacy and healthcare products and services policies](https://about.ads.microsoft.com/en-us/policies/restricted-categories/pharmacy-and-healthcare-products-and-services) |
-| Compliance_Regulation | 82 | [Areas of questionable legality](https://about.ads.microsoft.com/en-us/policies/disallowed-content/areas-of-questionable-legality) |
-| Temp_Hold | 84 | [Relevance and quality policies](https://about.ads.microsoft.com/en-us/policies/relevance-and-quality#ad-copy) |
-| Temp_Hold_Store | 85 | [Relevance and quality policies](https://about.ads.microsoft.com/en-us/policies/relevance-and-quality#ad-copy) |
-| Store_Checkout_Security | 88 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Store_Description_and_Condition | 89 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Store_Disallowed | 90 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Store_Images | 91 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Store_Intellectual_Property | 92 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Store_Restricted | 124 | [Product ads policies](https://about.ads.microsoft.com/en-us/policies/product-ads-policies) |
-| Store_Privacy_Policy | 125 | [Legal, privacy and security policies](https://about.ads.microsoft.com/en-us/policies/legal-privacy-and-security) |
-| Privacy_PII | 126 | [Legal, privacy and security policies](https://about.ads.microsoft.com/en-us/policies/legal-privacy-and-security) |
-| Malware_UwS | 127 | TBD |
-| Download_Cloaking_Behaviors | 128 | TBD |
-| Download_Disallowed_Cleaners_Behaviors | 129 | TBD |
-| Ad_Functionality | 130 | [Text and ad style guidelines and policies](https://about.ads.microsoft.com/en-us/policies/text-guidelines#ad-functionality) |
+To use the Ad Library API with increased limits, you'll need: 
+- A Microsoft account
+- A Microsoft Advertising account
+- A developer token
 
-## Easiest Account Sign-Up Steps
+To create a Microsoft Advertising account, go to [https://ads.microsoft.com](https://ads.microsoft.com). If you're not signed in to your Microsoft account, you'll be redirected to sign in to your account or to sign up for one. After signing in, you'll have the option to **Sign up for a new Microsoft Advertising account**. Select the sign up option and select **Continue**.
+
+### Authenticating your credentials
+
+Ad Library API uses the same authentication schemes as Bing Ads API. For details about authenticating Microsoft account credentials with OAuth, see [Authentication with the Microsoft identity platform](/advertising/guides/authentication-oauth-identity-platform).
+
+You can use the Bing Ads SDK for .NET, Java, or Python to authenticate Microsoft account credentials. For details about using the SDK to get the access token, see [C#](/advertising/guides/get-started-csharp) | [Java](/advertising/guides/get-started-java) | [Python](/advertising/guides/get-started-python).
+
+*Note*: The Bing Ads SDK doesn't provide interfaces for Ad Library API. You should only use the SDK to get the access token if you're using the SDK for Microsoft Advertising campaigns, too. Otherwise, it may not be worth the overhead of installing the SDK.
+
+If you don't use the Bing Ads SDK for authentication, see Authenticating Microsoft Account Credentials in C# for an example that shows how to use OAuth to authenticate Microsoft account credentials.
+
+### Where to use your credentials and developer tokens?
+
+For increased limits, all calls must specify:
+- The DeveloperToken header that's set to your developer token.
+- The AuthenticationToken header that's set to your access token.
+- 
+For information about these and other headers that the request and response may contain, see [Headers](/advertising/shopping-content/products-resource.md#headers).
+
+## Easiest Microsoft Advertising Account Sign-Up Steps
 
 If you are a researcher or regulator who wants to access the Ad Library API, but you don’t already have a Microsoft Advertising Account or wish to advertise on our platform, complete the following steps:
 
