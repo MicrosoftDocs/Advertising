@@ -37,7 +37,7 @@ client_id=your_client_id
 1. Click the link below to execute this example request for user consent.
 
 > [!NOTE]
-> Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
+> Replace *your_client_id* in the URL below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
 
     <https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=your_client_id&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F&response_mode=query&scope=openid%20offline_access%20https%3A%2F%2Fads.microsoft.com%2Fmsads.manage&state=12345>
 
