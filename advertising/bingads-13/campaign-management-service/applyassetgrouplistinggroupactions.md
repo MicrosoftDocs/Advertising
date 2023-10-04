@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # ApplyAssetGroupListingGroupActions Service Operation - Campaign Management
-Applies an action to an asset group listing group.
+Applies an action to an asset group listing group. You can pass 5,000 *AssetGroupListingGroupAction* per call and apply a maximum of 20,000 listing groups to each asset group.
 
 ## <a name="request"></a>Request Elements
 The *ApplyAssetGroupListingGroupActionsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
