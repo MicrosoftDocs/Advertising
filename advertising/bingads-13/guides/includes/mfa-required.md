@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> As of June 1, 2022, we're gradually requiring [multi-factor authentication](../authentication-oauth-mfa.md) for customers signing in through third-party applications to use Bing Ads API, Content API, and Hotel API.
+> In June 2022, we introduced [multi-factor authentication](../authentication-oauth-mfa.md) as a requirement for Bing Ads. You may still need to make a code change in order to become compliant with this requirement. Microsoft Advertising is performing technical enforcement checks in early October.
 >
-> You must update your application to [get user consent](../authentication-oauth-consent.md) using the new ```msads.manage``` scope. All application developers must take action to use the new scope.
+> [This blog post outlines the steps you should take to ensure compliance](https://techcommunity.microsoft.com/t5/bing-ads-api-blog/multi-factor-authentication-api-notice/ba-p/3945894).
 >
 > For more information see the [Multi-factor authentication requirement](../authentication-oauth-mfa.md) guide.
