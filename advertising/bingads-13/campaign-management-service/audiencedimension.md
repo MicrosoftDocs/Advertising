@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: An object that inherits AudienceGroupDimension.
 ---
 # AudienceDimension Data Object - Campaign Management
-An object that inherits AudienceGroupDimension.
+An object that inherits AudienceGroupDimension. THere is a maximum of 2,000 audiences in an *AudienceDimension*.
 
 ## Syntax
 ```xml
