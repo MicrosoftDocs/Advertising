@@ -13,7 +13,7 @@ dev_langs:
   - python
 ---
 # ApplyAssetGroupListingGroupActions Service Operation - Campaign Management
-Applies an action to an asset group listing group. You can pass 5,000 *AssetGroupListingGroupAction* per call and apply a maximum of 20,000 listing groups to each asset group.
+Applies an action to an asset group listing group.
 
 ## <a name="request"></a>Request Elements
 The *ApplyAssetGroupListingGroupActionsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -25,7 +25,7 @@ The *ApplyAssetGroupListingGroupActionsRequest* object defines the [body](#reque
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="listinggroupactions"></a>ListingGroupActions|A list of *AssetGroupListingGroupAction* objects that each contain an *Action* element and a *ListingGroup* element.All of the asset group listing group actions must be for the same asset group|[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md) array|
+|<a name="listinggroupactions"></a>ListingGroupActions|A list of *AssetGroupListingGroupAction* objects that each contain an *Action* element and a *ListingGroup* element. All of the asset group listing group actions must be for the same asset group.<br/><br/>You can pass 5,000 *AssetGroupListingGroupAction* per call and apply a maximum of 20,000 listing groups to each asset group.|[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
