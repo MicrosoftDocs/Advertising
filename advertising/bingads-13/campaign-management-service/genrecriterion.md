@@ -29,11 +29,11 @@ The [GenreCriterion](genrecriterion.md) object has the following elements: [Genr
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.<br/><br/>[View this table](#genreid-table) to see possible values for *GenreId*.|**long**|
+|<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.<br/><br/>[View this table](#genreid-values) to see possible values for *GenreId*.|**long**|
 
 The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
 
-### <a name="genreid-table"></a>Genre ID Table
+### <a name="genreid-values"></a>Genre ID Values
 
 These are the possible values for *GenreId*:
 
