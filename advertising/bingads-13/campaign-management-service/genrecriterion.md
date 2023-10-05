@@ -38,7 +38,7 @@ The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inherit
 These are the possible values for *GenreId*:
 
 |Name|ID number|
-|-----------|---------------|
+|----|---|
 |Horror|1|
 |Crime|2|
 |Game-show|3|
