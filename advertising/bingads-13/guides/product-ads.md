@@ -30,7 +30,7 @@ To set up your own Microsoft Merchant Center store with a catalog that can be us
 
 4. Follow the steps to Create a Microsoft Shopping campaign with the [Bulk Service](#bingshopping-bulkservice) or [Campaign Management Service](#bingshopping-campaignservice).
 
-### <a name="setup-cooperative"></a>Setup Shopping Campaigns for Brands
+### <a name="setup-cooperative"></a>Setup shopping campaigns and shopping promotions for brands
 In Microsoft Shopping Campaigns for Brands, two partners share the cost of advertising as they work to drive product sales through certain channels. Typically, these two partners are manufacturers and retailers (or ad agencies and their clients) who have merchandising agreements with one another.  
 
 Let's say you manufacture widgets, and Contoso is one of your many authorized dealers. Contoso wants to feature your widgets during their upcoming sale. They've approached you to partner on a marketing blitz of targeted ads designed to drive widget sales and conversions on their website. In partnership, you both agree to share the cost of clicks on a promoted product through your own ad group and your partner's own ad group. 
@@ -47,7 +47,9 @@ To set up Shopping Campaigns for Brands for your partner's Microsoft Merchant Ce
     - When you retrieve Microsoft Merchant Center stores via [GetBMCStoresByCustomerId](../campaign-management-service/getbmcstoresbycustomerid.md), the [SubType](../campaign-management-service/bmcstore.md#subtype) element of the returned [BMCStore](../campaign-management-service/bmcstore.md) must be set to [CoOp](../campaign-management-service/bmcstoresubtype.md#coop) or [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore) in order to be eligible for Shopping Campaigns for Brands. 
     - With Shopping Campaigns for Brands a single campaign can target all your retailer partners, and there's no need to create individual campaigns for each retailer. We recommend that you set the [StoreId](../campaign-management-service/shoppingsetting.md#storeid) to the ID of your manager account's global store (store [SubType](../campaign-management-service/bmcstore.md#subtype) set to [GlobalStore](../campaign-management-service/bmcstoresubtype.md#globalstore)).  By initially targeting all linked stores via the campaign shopping setting, you can then add up to 10 campaign negative [StoreCriterion](../campaign-management-service/storecriterion.md) to exclude specific retailers as needed.  
     - Optionally you can exclude stores by setting a negative store criterion. Each campaign can have a maximum of 10 excluded stores. For Bulk API details see [Campaign Negative Store Criterion](../bulk-service/campaign-negative-store-criterion.md). For Campaign Management API details see [StoreCriterion](../campaign-management-service/storecriterion.md), [NegativeCampaignCriterion](../campaign-management-service/negativecampaigncriterion.md), and [AddCampaignCriterions](../campaign-management-service/addcampaigncriterions.md). You cannot exclude the global store. 
-    - The campaign subtype must be set to ShoppingSponsoredProductAd. 
+    - The campaign subtype must be set to ShoppingSponsoredProductAd.
+    - For Shopping campaigns for brands, set bid strategy to [ManualCpc](../campaign-management-service/manualcpcbiddingscheme.md).
+    - For Shopping promotions for brands, set bid strategy to [CostPerSale](../campaign-management-service/costpersalebiddingscheme.md).
     - Please note the ProductType and CustomLabel [product conditions](../campaign-management-service/productcondition.md) are not supported with Shopping Campaigns for Brands. The GTIN and MPN operands are optional and only available via campaign and ad group level product conditions. 
 
 ## <a name="bingshopping-bulkservice"></a>Create a Microsoft Shopping campaign with the Bulk Service
