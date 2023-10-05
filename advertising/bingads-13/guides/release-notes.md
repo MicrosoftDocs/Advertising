@@ -14,9 +14,9 @@ See below for information about changes to Bing Ads API Version 13 by month.
 > [!IMPORTANT]
 > The following upcoming changes may require that you take action to avoid disruption of service or loss of functionality.  
 
-- [Multi-factor authentication will be required](#breaking-mfa-required)   
+- [Multi-factor authentication API notice](#breaking-mfa-required)   
 
-### <a name="breaking-mfa-required"></a>Multi-factor authentication will be required
+### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
