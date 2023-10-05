@@ -44,18 +44,20 @@ The `PointOfSale` element describes the POS's display name, URL, and criteria fo
 
 The `PointsOfSale` element contains a list of [PointOfSale](../pos-feed/reference.md#pointofsaletype) elements, one for each POS site that users can use to book rooms. The list must contain points of sale for a single partner.
 
-The following shows `PointOfSale` elements that define points of sale for English speaking users. The first `PointOfSale` element defines a POS for English speaking end users on any device, and the second `PointOfSale` element defines a POS for English speaking end users on mobile devices. The POS URL includes details about the transaction, such as the check-in and check-out dates, hotel ID, and user language. Bing uses the display name and POS URL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site.
+The following shows `PointOfSale` elements that define points of sale for English speaking users. The first `PointOfSale` element defines a POS for English speaking end users on any device, and the second `PointOfSale` element defines a POS for English speaking end users on mobile devices. The POS URL includes details about the transaction, such as the check-in and check-out dates, hotel ID, and user language. Bing uses the display name and POS URL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site. If you are using [Tracking Templates](/advertising/bingads-13/guides/url-tracking-upgraded-urls.md#tracking-templates) for performance tracking, then the Landing Page URL LPURL element needs to be configured in the POS feed file in order for tracking to work. Bing uses the display name and POS URL or LPURL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site.
 
 ```xml
   <PointOfSale id="English">
     <DisplayNames display_text="ContosoTravel.com" display_language="en" />
     <Match status="yes" language="en" />
     <URL>http://contoso.com/landing?hid=(PARTNER-HOTEL-ID)&amp;checkin=(CHECKINYEAR)-(CHECKINMONTH)-(CHECKINDAY)&amp;checkout=(CHECKOUTYEAR)-(CHECKOUTMONTH)-(CHECKOUTDAY)&amp;language=(USER-LANGUAGE)</URL>
+    <LPURL>http://contoso.com/landing?hid=(PARTNER-HOTEL-ID)&amp;checkin=(CHECKINYEAR)-(CHECKINMONTH)-(CHECKINDAY)&amp;checkout=(CHECKOUTYEAR)-(CHECKOUTMONTH)-(CHECKOUTDAY)&amp;language=(USER-LANGUAGE)</LPURL>
   </PointOfSale>
   <PointOfSale id="English-Mobile">
     <DisplayNames display_text="ContosoTravel.com" display_language="en" />
     <Match status="yes" language="en" device="mobile" />
     <URL>http://mobile.contoso.com/landing?hid=(PARTNER-HOTEL-ID)&amp;checkin=(CHECKINYEAR)-(CHECKINMONTH)-(CHECKINDAY)&amp;checkout=(CHECKOUTYEAR)-(CHECKOUTMONTH)-(CHECKOUTDAY)&amp;language=(USER-LANGUAGE)</URL>
+    <LPURL>http://mobile.contoso.com/landing?hid=(PARTNER-HOTEL-ID)&amp;checkin=(CHECKINYEAR)-(CHECKINMONTH)-(CHECKINDAY)&amp;checkout=(CHECKOUTYEAR)-(CHECKOUTMONTH)-(CHECKOUTDAY)&amp;language=(USER-LANGUAGE)</LPURL>
   </PointOfSale>
 ```
 
