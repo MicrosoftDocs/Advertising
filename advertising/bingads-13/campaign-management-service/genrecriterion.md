@@ -29,9 +29,91 @@ The [GenreCriterion](genrecriterion.md) object has the following elements: [Genr
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.|**long**|
+|<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.<br/><br/>[View this table](#genreid-table) to see possible values for *GenreId*.|**long**|
 
 The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
+
+### <a name="genreid-table"></a>Genre ID Table
+
+These are the possible values for *GenreId*:
+
+|Name|ID number|
+|-----------|---------------|
+|Horror|1|
+|Crime|2|
+|Game-show|3|
+|Documentary|4|
+|Romance|5|
+|Sports - Other|6|
+|Talk|7|
+|Drama|8|
+|Fantasy|9|
+|Music|10|
+|Shopping|11|
+|Other|12|
+|Action|13|
+|Thriller|14|
+|News|15|
+|Reality|17|
+|Comedy|18|
+|Business & Finance|19|
+|Cooking|20|
+|Sitcom|21|
+|Adventure|22|
+|Sci-fi|23|
+|Football|25|
+|Animation|26|
+|Baseball|27|
+|Basketball|28|
+|Biography|29|
+|History|30|
+|Musical|31|
+|Mystery|32|
+|Soccer|33|
+|War|34|
+|Western|35|
+|Animals|36|
+|Automotive|37|
+|Science & Technology|38|
+|Travel|39|
+|Golf|40|
+|Ice Hockey|41|
+|Motor Sports|42|
+|Beauty & Fashion|43|
+|Home & Garden|44|
+|Health|45|
+|Fitness|46|
+|Weather|48|
+|Education|49|
+|Cycling|50|
+|Gaming|51|
+|Rugby League|52|
+|Rugby Union|53|
+|Australian Rules Football|54|
+|Tennis|55|
+|Olympics|56|
+|Softball|57|
+|Cricket|58|
+|MMA|59|
+|Boxing|60|
+|Horse Racing|61|
+|Nature|64|
+|Outdoors|65|
+|Arts|66|
+|Pop Culture|67|
+|Fishing|68|
+|Surfing|69|
+|Paranormal|70|
+|Awards|71|
+|Martial Arts|72|
+|Hobbies|73|
+|Dance|74|
+|Law|75|
+|Comic Book|76|
+|Holidays|77|
+|Wrestling|78|
+|Anime|80|
+|Soap-Opera|81|
 
 ## <a name="inheritedelements"></a>Inherited Elements
 
