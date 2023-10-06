@@ -57,10 +57,10 @@ Type,Name,Campaign,Time Zone,Campaign Type,Language,Sub Type,Budget Id,Budget,Bu
 Format Version,6,,,,,,,,,,,,,,,,,,,,,,,,,
 Campaign,,Test Hotel Campaign HLG,PacificTimeUSCanadaTijuana,Hotel,All,,delete_value,25,DailyBudgetStandard,PercentCpc,8.3,false,0,,,,,,,,,,,,,,
 AdGroup,,Test Hotel Campaign HLG,,,,,,,,,,,,,,,Test Hotel AdGroup,Hotel,On,Off,3.74,HotelAd,,,,,
-Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Subdivision,,,,,,,,-1,,,Test Hotel AdGroup,,,,,HotelAd,,All,,no
-Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Unit,,,,,,,,-2,,-1,Test Hotel AdGroup,,,,,HotelAd,4.1,Brand,Marriott,no
-Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Unit,,,,,,,,-3,,-1,Test Hotel AdGroup,,,,,HotelAd,4.1,Brand,Hilton,no
-Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Unit,,,,,,,,-4,,-1,Test Hotel AdGroup,,,,,HotelAd,4.1,Brand,,no
+Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Subdivision,,,,,,,,-1,,,Test Hotel AdGroup,,,,,HotelAd,,All,,false
+Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Unit,,,,,,,,-2,,-1,Test Hotel AdGroup,,,,,HotelAd,4.1,Brand,Marriott,false
+Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Unit,,,,,,,,-3,,-1,Test Hotel AdGroup,,,,,HotelAd,4.1,Brand,Hilton,false
+Ad Group Hotel Listing Group,,Test Hotel Campaign HLG,,,,Unit,,,,,,,,-4,,-1,Test Hotel AdGroup,,,,,HotelAd,4.1,Brand,,false
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkAdGroupProductPartition* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
