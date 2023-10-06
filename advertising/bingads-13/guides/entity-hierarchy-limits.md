@@ -310,8 +310,22 @@ The following table defines limits for responsive search ad properties.
 |Path 2|The maximum input length is 1,000 characters if you include dynamic text strings. No more than 15 final (not dynamic text) characters can be input. The ad will fail to display or the [default text](https://help.ads.microsoft.com/#apex/3/en/50811/1/#DefaultText) will be used if the length of the final URL domain and the paths combined exceed 67 characters.<br/><br/>For languages with double-width characters e.g. Traditional Chinese the maximum input length is 1,000 characters if you include dynamic text strings. No more than 7 final (not dynamic text) characters can be input. The ad will fail to display or the [default text](https://help.ads.microsoft.com/#apex/3/en/50811/1/#DefaultText) will be used if the length of the final URL domain and the paths combined exceed 33 characters.|
 |Tracking Url Template|The string can contain a maximum of 2,048 characters.|
 
+## <a name="account"></a>Asset Groups
+The asset group object, only allowed under Performance Max campaigns, replaces the traditional ad group and ad entities. They contain all the information needed for Microsoft to dynamically generate ads based on the assets you provide.
+
+Each Performance Max campaign can have up to 100 asset groups.
+
+You can manage asset groups using the Bulk service or [Campaign Management service](../campaign-management-service/assetgroup.md).
+
 ## <a name="assets"></a>Assets
 Each account can have up to 1 million assets e.g., up to 1 million text assets that can be used for headlines and descriptions of a [responsive search ad](#responsivesearchad).
+
+## <a name="account"></a>Audience Groups
+Audience groups give us a starting point to find customers and determine who sees your ads. They are used with asset groups under Performance Max campaigns.
+
+10,000 audience groups can be added under an account. Each audience group is a collection of audience group dimensions. For the audience dimension, up to 2,000 audiences can be specified. Only one audience group an be associated to each asset group.
+
+You can manage audience groups using the Bulk service or [Campaign Management service](../campaign-management-service/audiencegroup.md).
 
 ## <a name="audiences"></a>Audiences
 The following table defines limits for audience properties.
@@ -434,6 +448,13 @@ You can manage labels using the Bulk service ([Label Record](../bulk-service/lab
 |------------|---------|
 |Description|The label description can be between 1 to 200 characters in length.|
 |Name|The case-sensitive label name can be between 1 to 80 characters in length, and must be unique across all labels in the account.|
+
+## <a name="account"></a>Listing Groups
+Listing groups are used to determine which products from your Microsoft Merchant Center catalog should be included in a particular asset group under Performance Max campaigns.
+
+Up to 20,000 listing groups can be applied to each asset group.
+
+You can manage listing groups using the Bulk service or [Campaign Management service](../campaign-management-service/assetgrouplistinggroup.md).
 
 ## <a name="negativekeywords"></a>Negative Keywords
 To explicitly opt out of bidding for keyword match types, you can set negative keywords at the campaign and ad group level.
