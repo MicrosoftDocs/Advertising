@@ -83,7 +83,10 @@ See below for Bing Ads API updates during this calendar month.
 
 * Bulk support for Hotel Ad entities, i.e. HotelAdvanceBookingWindowCriterion, HotelCheckInDayCriterion, HotelCheckInDateCriterion, HotelDateSelectionTypeCriterion, HotelLengthOfStayCriterion and HotelListingGroup  
 
-* Bulk support for UsePredictiveTargeting, HotelAdGroupType, CommissionRate and PercentCpcBid in BulkAdGroup  
+* Bulk support for UseOptimizedTargeting, HotelAdGroupType, CommissionRate and PercentCpcBid in BulkAdGroup
+
+> [!IMPORTANT]
+> *UseOptimizedTargeting* will be deprecated. Use *UsePredictiveTargeting* instead.
 
 ### <a name="sdk-december2022"></a>Bing Ads API SDK Updates
 The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.15), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.15), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.15), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.15) SDK version 13.0.15. 
