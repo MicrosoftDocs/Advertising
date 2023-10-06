@@ -93,8 +93,6 @@ In Search campaigns the product conditions can be set at campaign level. The fol
 
 ### <a name="productconditions-search"></a>Product Conditions for Performance Max Campaigns
 
-> [!NOTE]
-
 Multiple product conditions can be specified for each Microsoft Performance Max asset group. Each condition is met if the product's attribute value equals the operand's attribute value. For example, if operand is set to Brand and attribute is set to Contoso, the condition is met if the value of the product catalog's Brand attribute is equal to Contoso.
 
 In Performance Max campaigns the product conditions can be set only at asset group level. The following table describes Product Condition (operand) and Product Value (attribute) business rules for asset group [AssetGroupListingGroup](assetgrouplistinggroup.md) objects. 
