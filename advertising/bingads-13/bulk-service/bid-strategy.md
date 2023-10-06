@@ -158,7 +158,7 @@ This field is only used if the [Bid Strategy Type](#bidstrategytype) field is se
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
-**Add:** Required if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*, and otherwise this field is ignored.   
+**Add:** Required if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*, optional if the [Bid Strategy Type](#bidstrategytype) field is set to *MaximizeConversions*. Otherwise, this field is ignored.
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
