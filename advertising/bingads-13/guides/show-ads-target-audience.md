@@ -51,7 +51,10 @@ You can target customers by age so that your ads are displayed more frequently t
 
 Each age criterion defines an age range for the accompanying criterion bid adjustment. 
 
-With campaigns for [Audience Ads](audience-ads.md) you can set age groups that you want to exclude from seeing your ads. Excluded ages are also known as negative age criteria. Each negative age criterion defines an age group you do not want to see your ads. 
+You can set age groups that you want to exclude from seeing your ads. Excluded ages are also known as negative age criteria. Each negative age criterion defines an age group you do not want to see your ads. 
+
+> [!WARNING] 
+> Your reach may be signifigantly reduced if you exclude the *Unknown* catagory for an ad group.
 
 The supported criteria varies by campaign type. 
 
@@ -59,7 +62,7 @@ The supported criteria varies by campaign type.
 |----------|---------------|
 |Campaign Age Criterion|DynamicSearchAds<br/>Search<br/>Shopping|
 |Ad Group Age Criterion|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
-|Ad Group Negative Age Criterion|Audience|
+|Ad Group Negative Age Criterion|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
 
 In DynamicSearchAds, Search, and Shopping campaigns, the maximum number of age criteria that you can set per campaign or ad group is five, i.e. one each for *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFortyNine*, *FiftyToSixtyFour*, and *SixtyFiveAndAbove*. In Audience campaigns, the maximum number of age criteria that you can set per campaign or ad group is six, i.e. one each for *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFortyNine*, *FiftyToSixtyFour*, and *SixtyFiveAndAbove*, and *Unknown*. 
 
