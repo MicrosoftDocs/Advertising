@@ -153,7 +153,10 @@ Represents the association status between the ad group and the criterion. If the
 ## <a name="target"></a>Target
 The age range that you want to exclude. 
 
-Supported values are *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, and *SixtyFiveAndAbove*. With Audience campaigns you can also exclude *Unknown* i.e., people whose age is not known.
+Supported values are *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, and *SixtyFiveAndAbove*. You can also exclude *Unknown* i.e., people whose age is not known.
+
+> [!WARNING]
+> Your reach may be signifigantly reduced if you exclude the *Unknown* catagory for an ad group.
 
 > [!NOTE]
 > In many countries or regions, online advertisers are not supposed to target any users less than 18 years old. Microsoft Advertising does not deliver interest-based advertising to children whose birthdate in their Microsoft account identifies them as under 13 years of age. For more information see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
