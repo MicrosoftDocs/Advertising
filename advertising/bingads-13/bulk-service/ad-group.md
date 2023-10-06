@@ -342,11 +342,11 @@ The final URL suffix can include tracking parameters that will be appended to th
 **Delete:** Read-only  
 
 ## <a name="frequencycapsettings"></a>Frequency Cap Settings
-The frequency cap setitings array. Contains *CapValu*, *FrequencyCapUnit*, and *TimeGranularity*. Only one element is allowed (no multiple frequency capping).
+The frequency cap settings array. Contains *CapValue*, *TimeGranularity*. Only one element is allowed (no multiple frequency capping).
 
 ### Code Example
 ```csharp
-[{""CapValue"": 10, ""TimeGranularity"": ""DAY"",""FrequencyCapUnit"": ""IMPRESSION""}]
+[{""CapValue"": 10, ""TimeGranularity"": ""DAY""}]
 ``````
 
 **Add:** Optional  
