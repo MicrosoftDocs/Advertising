@@ -166,7 +166,7 @@ For an *Ad Group* record, the following attribute fields are available in the [B
 - [Status](#status)
 - [Target Setting](#targetsetting)
 - [Tracking Template](#trackingtemplate)
-- [Use Optimized Targeting](#useoptimizedtargeting)
+- [Use Predictive Targeting](#usepredictivetargeting)
 
 ## <a name="adgroup"></a>Ad Group
 The name of the ad group.
@@ -575,5 +575,5 @@ The following validation rules apply to tracking templates. For more details abo
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
-## <a name="useoptimizedtargeting"></a>Use Optimized Targeting
-Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UseOptimizedTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional.<br/>**Update:** Optional.
+## <a name="usepredictivetargeting"></a>Use Predictive Targeting
+Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UsePredictiveTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional.<br/>**Update:** Optional.

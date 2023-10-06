@@ -27,7 +27,7 @@ Defines an ad group in an advertising campaign.
     <xs:element minOccurs="0" name="CpcBid" nillable="true" type="tns:Bid" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q18:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q19:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="FrequencyCapSettings" nillable="true" type="tns:ArrayOfFrequencyCapSettings">
       <xs:annotation>
         <xs:appinfo>
@@ -60,6 +60,13 @@ Defines an ad group in an advertising campaign.
     <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
     <xs:element minOccurs="0" name="UseOptimizedTargeting" nillable="true" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
+    <xs:element minOccurs="0" name="UsePredictiveTargeting" nillable="true" type="xs:boolean">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -107,7 +114,7 @@ Defines an ad group in an advertising campaign.
 
 ## <a name="elements"></a>Elements
 
-The [AdGroup](adgroup.md) object has the following elements: [AdGroupType](#adgrouptype), [AdRotation](#adrotation), [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [CommissionRate](#commissionrate), [CpcBid](#cpcbid), [CpmBid](#cpmbid), [CpvBid](#cpvbid), [EndDate](#enddate), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [FrequencyCapSettings](#frequencycapsettings), [Id](#id), [Language](#language), [McpaBid](#mcpabid), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Network](#network), [PercentCpcBid](#percentcpcbid), [PrivacyStatus](#privacystatus), [Settings](#settings), [StartDate](#startdate), [Status](#status), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [UseOptimizedTargeting](#useoptimizedtargeting).
+The [AdGroup](adgroup.md) object has the following elements: [AdGroupType](#adgrouptype), [AdRotation](#adrotation), [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [CommissionRate](#commissionrate), [CpcBid](#cpcbid), [CpmBid](#cpmbid), [CpvBid](#cpvbid), [EndDate](#enddate), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [FrequencyCapSettings](#frequencycapsettings), [Id](#id), [Language](#language), [McpaBid](#mcpabid), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Network](#network), [PercentCpcBid](#percentcpcbid), [PrivacyStatus](#privacystatus), [Settings](#settings), [StartDate](#startdate), [Status](#status), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [UseOptimizedTargeting](#useoptimizedtargeting), [UsePredictiveTargeting](#usepredictivetargeting).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -137,7 +144,8 @@ The [AdGroup](adgroup.md) object has the following elements: [AdGroupType](#adgr
 |<a name="status"></a>Status|The status of the ad group.<br/><br/>Possible values are *Active*, *Expired*, and *Paused*. The *Expired* status is read-only.<br/><br/>**Add:** Optional. The default value is *Paused*.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[AdGroupStatus](adgroupstatus.md)|
 |<a name="trackingurltemplate"></a>TrackingUrlTemplate|The tracking template to use as a default for all URLs in your ad group.<br/><br/>The following validation rules apply to tracking templates. For more details about supported templates and parameters, see the Microsoft Advertising help article [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2)<br/>- Tracking templates defined for lower level entities e.g. ads override those set for higher level entities e.g. campaign. For more information, see [Entity Limits](../guides/entity-hierarchy-limits.md).<br/>- The length of the tracking template is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.<br/>- The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*.<br/>- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`* and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this element to an empty string (*""*), the previous setting will be deleted.|**string**|
 |<a name="urlcustomparameters"></a>UrlCustomParameters|Your custom collection of key and value parameters for URL tracking.<br/><br/>Microsoft Advertising will accept the first 8 [CustomParameter](customparameter.md) objects that you include within the [CustomParameters](customparameters.md) object, and if you include more than 8 custom parameters an error will be returned. Each [CustomParameter](customparameter.md) includes [Key](customparameter.md#key) and [Value](customparameter.md#value) elements.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. Set the *UrlCustomParameters* element to null or empty to retain any existing custom parameters. To remove all custom parameters, set the [Parameters](customparameters.md#parameters) element of the [CustomParameters](customparameters.md) object to null or empty. To remove a subset of custom parameters, specify the custom parameters that you want to keep in the [Parameters](customparameters.md#parameters) element of the [CustomParameters](customparameters.md) object.|[CustomParameters](customparameters.md)|
-|<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UseOptimizedTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional.|**boolean**|
+|<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|This will be deprecated. Use *UsePredictiveTargeting* instead.|**boolean**|
+|<a name="usepredictivetargeting"></a>UsePredictiveTargeting|Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UsePredictiveTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional.|**boolean**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
