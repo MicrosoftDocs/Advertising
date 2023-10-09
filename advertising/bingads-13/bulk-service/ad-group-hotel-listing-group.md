@@ -32,13 +32,13 @@ You can upload *Ad Group Hotel Listing Group* records for multiple ad groups in 
 
 - All hotel listing group node addition and deletion actions must result in a complete tree structure.
 
-- Every path from the root node to the end of a branch must terminate with a leaf node (*Sub Type*=Unit). Every Unit must have a bid, unless the *Is Excluded* field is TRUE which means that the node is a negative ad group criterion.
+- Every path from the root node to the end of a branch must terminate with a leaf node (*Sub Type*=Unit). Every Unit must have a bid, unless the *Is Excluded* field is *true* which means that the node is a negative ad group criterion.
 
 - Every subdivision must have at least one leaf node that bids on the remainder of the subdivision's conditions, i.e. use the same operand as its sibling unit(s) and set its [Hotel Attribute Value](#hotelattributevalue) null or empty.
 
 - If you are adding partitions with multiple levels where neither the parent or child yet exist, use a negative int value as a reference to identify the parent. For example set the both the parent's *Id*, and the child's *Parent Criterion Id* field to the same negative value. The negative IDs are only valid for the duration of the call. Unique system identifiers for each successfully added ad group criterion are returned in the upload result file.
 
-- The *Bid* field is only applicable if the *Is Excluded* field is FALSE which means that the node is a biddable ad group criterion. However, *Bid* is ignored for *Subdivision* partition nodes. Those elements are only relevant for *Unit* (leaf) partition nodes.
+- The *Bid* field is only applicable if the *Is Excluded* field is *false* which means that the node is a biddable ad group criterion. However, *Bid* is ignored for *Subdivision* partition nodes. Those elements are only relevant for *Unit* (leaf) partition nodes.
 
 - To pause any hotel listing group you must pause the entire ad group by updating the *Status* field of the [Ad Group](../bulk-service/ad-group.md) to Paused. You can pause the entire campaign by updating the *Status* field of the [Campaign](../bulk-service/campaign.md) to Paused.
 
@@ -73,8 +73,8 @@ var bulkAdGroupProductPartition = new BulkAdGroupProductPartition
 {
     // Map properties in the Bulk file to the BiddableAdGroupCriterion or
     // NegativeAdGroupCriterion object of the Campaign Management service.
-    // Use the BiddableAdGroupCriterion to set the 'Is Excluded' field in the Bulk file to True,
-    // and otherwise use the NegativeAdGroupCriterion to set the 'Is Excluded' field to False.
+    // Use the BiddableAdGroupCriterion to set the 'Is Excluded' field in the Bulk file to true,
+    // and otherwise use the NegativeAdGroupCriterion to set the 'Is Excluded' field to false.
     BiddableAdGroupCriterion = new BiddableAdGroupCriterion
     {
         // 'Parent Id' column header in the Bulk file
@@ -172,14 +172,14 @@ The name of the ad group that contains the hotel listing group.
 ## <a name="bid"></a>Bid
 The amount to bid in the auction. This is used when the campaign bidding scheme is ManualCpc.
 
-**Add:** Required if [Is Excluded](#isexcluded) is *FALSE* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
+**Add:** Required if [Is Excluded](#isexcluded) is *false* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
 ## <a name="percentbid"></a>Percent Bid
 The amount to bid in the auction. This is used when the campaign bidding scheme is PercentCpc or Commission.
 
-**Add:** Required if [Is Excluded](#isexcluded) is *FALSE* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
+**Add:** Required if [Is Excluded](#isexcluded) is *false* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
@@ -236,7 +236,7 @@ The system-generated identifier of the hotel listing group.
 ## <a name="isexcluded"></a>Is Excluded
 Determines whether the hotel listing group represents a biddable or negative criterion. 
 
-If set to *TRUE* it is a negative criterion, and otherwise if *FALSE* it is a biddable criterion.
+If set to *true* it is a negative criterion, and otherwise if *false* it is a biddable criterion.
 
 **Add:** Required  
 **Update:** Read-only    
