@@ -82,7 +82,7 @@ To refine the audience by location and ad schedule, Performance Max campaigns su
 For targets you must use the [BiddableCampaignCriterion](../campaign-management-service/biddablecampaigncriterion.md) object, although you cannot set any bid adjustment. For target exclusions, use the [NegativeCampaignCriterion](../campaign-management-service/negativecampaigncriterion.md) object.
 
 > [!NOTE]
-> Performance Max campaigns do not support any other campaign level criteria e.g., Age, Gender, Device, Product Scope, Profile, or Store criteria. To further refine your audience, you can indicate your preferences to us using audience groups<link to section below about audience groups>. Although with standard Microsoft Shopping campaigns you can filter a subset of your product catalog via the [ProductScope](../campaign-management-service/productscope.md) criterion, product scope criteria are not supported with Performance Max campaigns. You can refine the product catalog with [listing groups](#apply-listing-groups). 
+> Performance Max campaigns do not support any other campaign level criteria e.g., Age, Gender, Device, Product Scope, Profile, or Store criteria. To further refine your audience, you can indicate your preferences to us using [audience groups](./#apply-audience-groups). Although with standard Microsoft Shopping campaigns you can filter a subset of your product catalog via the [ProductScope](../campaign-management-service/productscope.md) criterion, product scope criteria are not supported with Performance Max campaigns. You can refine the product catalog with [listing groups](./#apply-listing-groups). 
 >
 > Call the [AddCampaignCriterions](../campaign-management-service/addcampaigncriterions.md) operation to set the campaign level criteria.
 
