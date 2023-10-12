@@ -23,8 +23,8 @@ If you are using the Maximize Conversion Value bid strategy, additional code to 
 
 > [!NOTE]
 > Universal event tracking is not required if you have an [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) and upload offline conversions.
->
-> For more information, see [Universal Event Tracking](./universal-event-tracking.md).
+
+For more information, see [Universal Event Tracking](./universal-event-tracking.md).
 
 ### <a name="create-campaign"></a>Create the campaign
 
@@ -83,8 +83,8 @@ For targets you must use the [BiddableCampaignCriterion](../campaign-management-
 
 > [!NOTE]
 > Performance Max campaigns do not support any other campaign level criteria e.g., Age, Gender, Device, Product Scope, Profile, or Store criteria. To further refine your audience, you can indicate your preferences to us using [audience groups](#apply-audience-groups). Although with standard Microsoft Shopping campaigns you can filter a subset of your product catalog via the [ProductScope](../campaign-management-service/productscope.md) criterion, product scope criteria are not supported with Performance Max campaigns. You can refine the product catalog with [listing groups](#apply-listing-groups). 
->
-> Call the [AddCampaignCriterions](../campaign-management-service/addcampaigncriterions.md) operation to set the campaign level criteria.
+
+Call the [AddCampaignCriterions](../campaign-management-service/addcampaigncriterions.md) operation to set the campaign level criteria.
 
 ### <a name="apply-audience-groups"></a>Apply audience groups
 
