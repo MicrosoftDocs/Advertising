@@ -58,8 +58,7 @@ Microsoft Advertising will import most supported campaigns, ads, targets, ad ext
 Here are some example customizations. 
 - If you want the import service to delete items that have been removed from your Google Ads account, then set [DeleteRemovedEntities](../campaign-management-service/googleimportoption.md#deleteremovedentities) to true. 
 - If you want to increase the Microsoft Advertising campaign budgets 25 percent higher than your Google Ads campaign budgets, then set [AdjustmentForCampaignBudgets](../campaign-management-service/googleimportoption.md#adjustmentforcampaignbudgets) to 25. 
-- If you do not want to update existing campaign budgets that are already in Microsoft Advertising, set [UpdateCampaignBudgets](../campaign-management-service/googleimportoption.md#updatecampaignbudgets) to false. 
-- Set the [AssociatedStoreId](../campaign-management-service/googleimportoption.md#associatedstoreid) to the identifier of the Microsoft Merchant Center store that you want to associate with imported product ads and product filters. If this option is null or empty, your product ads and product filters will not be imported. 
+- If you do not want to update existing campaign budgets that are already in Microsoft Advertising, set [UpdateCampaignBudgets](../campaign-management-service/googleimportoption.md#updatecampaignbudgets) to false.
 
 > [!NOTE]
 > Please note that the [GoogleImportOption](../campaign-management-service/googleimportoption.md) object does not include a comprehensive list of imported items. Microsoft Advertising imports all the data needed to manage your campaigns and aims to provide the best experience for you. 
