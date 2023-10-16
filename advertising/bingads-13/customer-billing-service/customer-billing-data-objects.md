@@ -21,9 +21,12 @@ The Customer Billing service defines the following data objects.
 |[BillingDocument](billingdocument.md)|Defines a billing document.|
 |[BillingDocumentInfo](billingdocumentinfo.md)|Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.|
 |[Coupon](coupon.md)|Defines a coupon.|
+|[CouponClaimInfo](couponclaiminfo.md)|The *AccountId*, *AccountNumber*, and *ClaimDate* of the claim.|
 |[CouponRedemption](couponredemption.md)|Contains redemption and consuming details.|
 |[InsertionOrder](insertionorder.md)|An insertion order is a contract that establishes the maximum amount you will spend on your account over a specified period of time.|
 |[InsertionOrderPendingChanges](insertionorderpendingchanges.md)|Defines an object that can be used to manage changes for an approved insertion order.|
+|[KeyValueEntityOflongdateTime](keyvalueentityoflongdatetime.md)|Reserved.|
+|[KeyValueEntityOflongstring](keyvalueentityoflongstring.md)|Reserved.|
 |[OperationError](operationerror.md)|Defines a Customer Billing operation error object that contains the details that explain why the service operation failed.|
 |[OrderBy](orderby.md)|Defines an order for the list of insertion orders returned using one of the search operations, for example [SearchCoupons](searchcoupons.md) or [SearchInsertionOrders](searchinsertionorders.md).|
 |[Paging](paging.md)|Defines a paging object to request Customer Billing objects in batches.|
