@@ -218,10 +218,6 @@ The following case-sensitive values may be specified, and data will be returned 
 |Weekly|Up to 15 weeks prior to the most recent completed week.<br/><br/>The specified [StartDate](#startdate) is adjusted back to the nearest Sunday, and the [EndDate](#enddate) is adjusted forward to the nearest Saturday.|
 |Monthly|Up to 24 months prior to the most recent completed month.<br/><br/>The specified [StartDate](#startdate) is adjusted back to the beginning of the month, and the [EndDate](#enddate) is adjusted forward to the end of the month.|
 
-## Requirements
-Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: https\://bingads.microsoft.com/AdInsight/v13
-
 ### Supported Languages
 Here are the supported languages for the *Language* request body element:
 
@@ -297,3 +293,7 @@ Here is a table of languages and country/region mapping:
 |Swedish|SE|Sweden|Swedish@Sweden|
 |TraditionalChinese|HK|HongKongSAR|TraditionalChinese@HongKongSAR|
 |TraditionalChinese|TW|Taiwan|TraditionalChinese@Taiwan|
+
+## Requirements
+Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
+Namespace: https\://bingads.microsoft.com/AdInsight/v13
