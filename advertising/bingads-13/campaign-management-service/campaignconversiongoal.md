@@ -26,8 +26,8 @@ The [CampaignConversionGoal](campaignconversiongoal.md) object has the following
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="campaignid"></a>CampaignId|Reserved.|**long**|
-|<a name="goalid"></a>GoalId|Reserved.|**long**|
+|<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|**long**|
+|<a name="goalid"></a>GoalId|The Microsoft Advertising assigned identifier of a conversion goal.|**long**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
