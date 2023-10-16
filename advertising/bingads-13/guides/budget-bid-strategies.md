@@ -60,6 +60,7 @@ The following campaign-level bid strategy types are available depending on the c
 
 |Bid Strategy Type|Campaign Types|
 |-------------------------|--------------------------|
+|[CostPerSale](#costpersale)|Shopping|
 |[EnhancedCpc](#enhancedcpc)|Search<br/>Shopping|
 |[ManualCpc](#manualcpc)|Audience|
 |[ManualCpm](#manualcpm)|Audience|
@@ -74,6 +75,12 @@ When you use the Bing Ads API, the default bid strategy for Search campaigns is 
 
 > [!IMPORTANT] 
 > With some bid strategy types, your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1). 
+
+### <a name="costpersale"></a>Cost per sale
+With the Cost per sale (CPS) bid strategy, you only pay when a click on your ad leads to a sale. You set the target cost per sale that you want used by Microsoft Advertising to maximize conversions.
+
+> [!NOTE] 
+> You are charged for an ad click that results in a sale within a 24-hour period after the click.
 
 ### <a name="enhancedcpc"></a>EnhancedCpc
 With the EnhancedCpc (enhanced cost per click) bid strategy, you set your ad group and keyword bids, and Microsoft Advertising will automatically adjust your bids in real time to increase your chances for a conversion. Your bid will go higher on searches that are more likely to convert and lower on searches less likely to convert (up or down, this change will be made after we apply any bid adjustments you have set). Over the long haul, though, we will try to make sure that your average CPC is not higher than your bid. If you haven't optimized your campaign yet, Enhanced CPC should reduce your cost per conversion and increase your total conversion count while respecting your current budget.  
