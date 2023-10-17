@@ -2051,7 +2051,7 @@
     - name: CheckFeatureAdoptionCouponEligibility
       href: ../customer-billing-service/checkfeatureadoptioncouponeligibility.md
     - name: ClaimFeatureAdoptionCoupons
-      href: ../customer-billing-service/claimfeatureadoptioncoupons .md
+      href: ../customer-billing-service/claimfeatureadoptioncoupons.md
     - name: DispatchCoupons
       href: ../customer-billing-service/dispatchcoupons.md
     - name: GetAccountMonthlySpend
