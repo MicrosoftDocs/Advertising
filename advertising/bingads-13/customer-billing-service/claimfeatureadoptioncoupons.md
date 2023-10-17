@@ -25,7 +25,7 @@ The *ClaimFeatureAdoptionCouponsRequest* object defines the [body](#request-body
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountcouponpairs"></a>AccountCouponPairs|Reserved.|[KeyValueEntityOflongstring](keyvalueentityoflongstring.md) array|
+|<a name="accountcouponpairs"></a>AccountCouponPairs|A list of account id and coupon code pairs.|[KeyValueEntityOflongstring](keyvalueentityoflongstring.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -37,9 +37,9 @@ The *ClaimFeatureAdoptionCouponsResponse* object defines the [body](#response-bo
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="claimeddatebyaccountid"></a>ClaimedDateByAccountId|Reserved.|[KeyValueEntityOflongdateTime](keyvalueentityoflongdatetime.md) array|
-|<a name="operationerrors"></a>OperationErrors|Reserved.|[OperationError](operationerror.md) array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[OperationError](operationerror.md) array|
+|<a name="claimeddatebyaccountid"></a>ClaimedDateByAccountId|The date a claim was made for an account.|[KeyValueEntityOflongdateTime](keyvalueentityoflongdatetime.md) array|
+|<a name="operationerrors"></a>OperationErrors|An array of OperationError objects that contains the reasons that explain why the service operation failed when the error is not related to a specific item in the batch of items.|[OperationError](operationerror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of [OperationError](operationerror.md) objects that correspond to any email addresses where the coupon code could not be sent to.<br/><br/>The list can be empty if there were no errors.|[OperationError](operationerror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
