@@ -25,7 +25,7 @@ The *CheckFeatureAdoptionCouponEligibilityRequest* object defines the [body](#re
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountids"></a>AccountIds|The identifier of the account to query.|**long** array|
+|<a name="accountids"></a>AccountIds|A list of account identifiers to check for eligibility.|**long** array|
 |<a name="featureid"></a>FeatureId|The identifier of the feature. |**int**|
 
 ### <a name="request-header"></a>Request Header Elements
