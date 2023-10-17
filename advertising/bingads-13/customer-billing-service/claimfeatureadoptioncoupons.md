@@ -5,7 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Claim feature adoption coupons.
 dev_langs: 
 - csharp
 - java
