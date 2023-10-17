@@ -5,7 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Check the FAC eligibility of an account.
 dev_langs: 
 - csharp
 - java
