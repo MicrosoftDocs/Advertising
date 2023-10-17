@@ -2048,6 +2048,10 @@
       displayName: customer billing service operations
     - name: AddInsertionOrder
       href: ../customer-billing-service/addinsertionorder.md
+    - name: CheckFeatureAdoptionCouponEligibility
+      href: ../customer-billing-service/checkfeatureadoptioncouponeligibility.md
+    - name: ClaimFeatureAdoptionCoupons
+      href: ../customer-billing-service/claimfeatureadoptioncoupons.md
     - name: DispatchCoupons
       href: ../customer-billing-service/dispatchcoupons.md
     - name: GetAccountMonthlySpend
@@ -2087,12 +2091,18 @@
       href: ../customer-billing-service/billingdocumentinfo.md
     - name: Coupon
       href: ../customer-billing-service/coupon.md
+    - name: CouponClaimInfo
+      href: ../customer-billing-service/couponclaiminfo.md
     - name: CouponRedemption
       href: ../customer-billing-service/couponredemption.md
     - name: InsertionOrder
       href: ../customer-billing-service/insertionorder.md
     - name: InsertionOrderPendingChanges
       href: ../customer-billing-service/insertionorderpendingchanges.md
+    - name: KeyValueEntityOflongdateTime
+      href: ../customer-billing-service/keyvalueentityoflongdatetime.md
+    - name: KeyValueEntityOflongstring
+      href: ../customer-billing-service/keyvalueentityoflongstring.md
     - name: OperationError
       href: ../customer-billing-service/operationerror.md
     - name: OrderBy
