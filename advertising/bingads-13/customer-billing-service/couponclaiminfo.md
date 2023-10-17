@@ -5,7 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines an object containing coupon claim information.
 ---
 # CouponClaimInfo Data Object - Customer Billing
 Defines an object containing coupon claim information.
