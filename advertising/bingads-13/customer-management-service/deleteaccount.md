@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Deletes an account.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # DeleteAccount Service Operation - Customer Management
 Deletes an account.

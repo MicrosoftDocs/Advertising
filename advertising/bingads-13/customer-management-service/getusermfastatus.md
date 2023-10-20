@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Used to estimate adoption of multi-factor authentication (MFA) by users of your application.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetUserMFAStatus Service Operation - Customer Management
 Used to estimate adoption of multi-factor authentication (MFA) by users of your application. 

@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets a list of the feature pilot IDs that are enabled for an ad account.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetAccountPilotFeatures Service Operation - Customer Management
 Gets a list of the feature pilot IDs that are enabled for an ad account. 

@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Deletes a user.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # DeleteUser Service Operation - Customer Management
 Deletes a user.  
