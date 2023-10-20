@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Deletes a customer.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # DeleteCustomer Service Operation - Customer Management
 Deletes a customer.
