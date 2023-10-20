@@ -26,6 +26,7 @@ The Customer Management service defines the following service operations.
 |[GetCustomerPilotFeatures](getcustomerpilotfeatures.md)|Gets a list of the feature pilot IDs that are enabled for all ad accounts owned by a customer (manager account).|1 *CustomerId*|
 |[GetCustomersInfo](getcustomersinfo.md)|Gets the identifiers and names of customers that are accessible to the current authenticated user.|Not applicable.|
 |[GetLinkedAccountsAndCustomersInfo](getlinkedaccountsandcustomersinfo.md)|Gets the customer and account hierarchy under the specified customer.|1 *CustomerId*|
+|[GetNotifications](getnotifications.md)|Gets a list of notification objects.||
 |[GetUser](getuser.md)|Gets the details of a user.|1 *UserId*|
 |[GetUserMFAStatus](getusermfastatus.md)|Used to estimate adoption of multi-factor authentication (MFA) by users of your application.|Not applicable.|
 |[GetUsersInfo](getusersinfo.md)|Gets a list of objects that contains user identification information, for example the user name and identifier of the user.|1 *CustomerId*|

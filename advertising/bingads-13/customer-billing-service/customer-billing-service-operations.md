@@ -13,8 +13,8 @@ The Customer Billing service defines the following service operations.
 |Service Operation|Description|Request Limits|
 |---|---|---|
 |[AddInsertionOrder](addinsertionorder.md)|Adds an insertion order to the specified account.|N/A.|
-|[CheckFeatureAdoptionCouponEligibility](checkfeatureadoptioncouponeligibility.md)|Checks the FAC eligibility of an account.||
-|[ClaimFeatureAdoptionCoupons](claimfeatureadoptioncoupons.md)|Claim feature adoption coupons.||
+|[CheckFeatureAdoptionCouponEligibility](checkfeatureadoptioncouponeligibility.md)|Checks the FAC eligibility of an account.|100 *AccountIds*|
+|[ClaimFeatureAdoptionCoupons](claimfeatureadoptioncoupons.md)|Claim feature adoption coupons.|100 *AccountCouponPairs*|
 |[DispatchCoupons](dispatchcoupons.md)|Dispatch coupons of the specified coupon class name owned by the specified customer.|1 *CouponClassName*|
 |[GetAccountMonthlySpend](getaccountmonthlyspend.md)|Gets the amount spent by the account in the specified month.|1 *AccountId*|
 |[GetBillingDocuments](getbillingdocuments.md)|Gets the specified billing documents.|25 *BillingDocumentInfo*|
