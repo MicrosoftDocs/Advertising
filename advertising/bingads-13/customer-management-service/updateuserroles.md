@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Updates the roles of the specified user.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # UpdateUserRoles Service Operation - Customer Management
 Updates the roles of the specified user. 
