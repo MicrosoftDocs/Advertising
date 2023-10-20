@@ -983,6 +983,12 @@
       displayName: BulkFlyerAdExtension
     - name: Format Version
       href: ../bulk-service/format-version.md
+    - name: Hotel Ad
+      href: ../bulk-service/hotel-ad.md
+      displayName: BulkHotelAd
+    - name: Hotel Ad Label
+      href: ../bulk-service/hotel-ad-label.md
+      displayName: BulkHotelAdLabel
     - name: Image
       href: ../bulk-service/image.md
       displayName: BulkImage
@@ -2174,6 +2180,8 @@
       href: ../customer-management-service/getcustomersinfo.md
     - name: GetLinkedAccountsAndCustomersInfo
       href: ../customer-management-service/getlinkedaccountsandcustomersinfo.md
+    - name: GetNotifications
+      href: ../customer-management-service/getnotifications.md
     - name: GetUser
       href: ../customer-management-service/getuser.md
     - name: GetUserMFAStatus
@@ -2239,10 +2247,14 @@
       href: ../customer-management-service/customerrole.md
     - name: DateRange
       href: ../customer-management-service/daterange.md
+    - name: KeyValueEntityOfstringstring
+      href: ../customer-management-service/keyvalueentityofstringstring.md
     - name: KeyValuePairOfstringbase64binary
       href: ../customer-management-service/keyvaluepairofstringbase64binary.md
     - name: KeyValuePairOfstringstring
       href: ../customer-management-service/keyvaluepairofstringstring.md
+    - name: Notification
+      href: ../customer-management-service/notification.md
     - name: OperationError
       href: ../customer-management-service/operationerror.md
     - name: OrderBy
