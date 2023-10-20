@@ -27,7 +27,7 @@ The Customer Management service defines the following data objects.
 |[CustomerInfo](customerinfo.md)|Defines an object that contains a customer's identifier and name.|
 |[CustomerRole](customerrole.md)|Defines account access rights for a person who acts on behalf of a specific customer.|
 |[DateRange](daterange.md)|Defines a date range object.|
-|[KeyValueEntityOfstringstring](keyvalueentityofstringstring.md)|Reserved.|
+|[KeyValueEntityOfstringstring](keyvalueentityofstringstring.md)|The key and value entity of string and string values.|
 |[KeyValuePairOfstringbase64Binary](keyvaluepairofstringbase64binary.md)|The key and value pair of string and base64Binary values defined by the Customer Management service.|
 |[KeyValuePairOfstringstring](keyvaluepairofstringstring.md)|The key and value pair of string and string values.|
 |[Notification](notification.md)|Defines a Notification object.|
