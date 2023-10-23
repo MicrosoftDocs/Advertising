@@ -61,7 +61,7 @@ You'll also need your production [developer token](get-started.md#get-developer-
         <dependency>
           <groupId>com.microsoft.bingads</groupId>
           <artifactId>microsoft.bingads</artifactId>
-          <version>13.0.4</version>
+          <version>13.0.17</version>
         </dependency>
       </dependencies>
       <build>
