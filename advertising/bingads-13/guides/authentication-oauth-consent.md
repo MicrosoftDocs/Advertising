@@ -41,7 +41,7 @@ client_id=your_client_id
 
     <https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=your_client_id&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F&response_mode=query&scope=openid%20offline_access%20https%3A%2F%2Fads.microsoft.com%2Fmsads.manage&state=12345>
 
-1. Sign in with your Microsoft account credentials and grant the **Tutorial Sample App** consent to manage your Microsoft Advertising accounts.
+1. Sign in with your Microsoft account credentials and grant [your app](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app) consent to manage your Microsoft Advertising accounts.
 1. After signing in, your browser should be redirected to `https://localhost/myapp/` with a `code` in the address bar. You can ignore the error message on the page.
 1. Next you'll use the code to [get access and refresh tokens](authentication-oauth-get-tokens.md).
 
