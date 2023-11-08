@@ -131,10 +131,10 @@ Once your conversion goal and trackGoal API information is set up, you can track
 
 ## <a name="code-examples"></a>Code Examples
 
-Here is an example of Windows App UET SDK usage in C# for a Universal Windows Platform app:
-
 > [!NOTE]
 > We currently support C# and C++.
+
+Here is an example of Windows App UET SDK usage in C# for a Universal Windows Platform app:
 
 **Initialize Windows App UET SDK at application level on app launch by providing UET tagId.**
 
