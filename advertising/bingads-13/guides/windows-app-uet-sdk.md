@@ -24,16 +24,16 @@ Before you can use Windows App UET SDK, you need to make sure you have the follo
 
 ## <a name="installation"></a>Installation
 
-To install Windows App UET SDK, [download the NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk).
+For Universal Windows Platform applications, [download the Windows App UET SDK NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk).
 
-### <a name="requirements"></a>Requirements
+<!-- ### <a name="requirements"></a>Requirements
 
 You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). 
 
 > [!NOTE]
 > You’ll need a separate UET tag ID for each surface where you track UET. If you already have a UET tag ID that you use to track events on a website, you’ll need to create a new one for your application. If you want to track events in more than one application, you’ll need to create a different UET tag for each application where you are tracking events.
 
-![Windows App UET SDK Step 1](media/uet-sdk-step-1.png "Step 1")
+![Windows App UET SDK Step 1](media/uet-sdk-step-1.png "Step 1") -->
 
 ## <a name="tracking-app-actions"></a>Tracking App Actions
 
@@ -131,7 +131,7 @@ Once your conversion goal and trackGoal API information is set up, you can track
 
 ## <a name="code-examples"></a>Code Examples
 
-Here is an example of Windows App UET SDK usage in C# for a Universal Windows Platform app: 
+Here is an example of Windows App UET SDK usage in C# for a Universal Windows Platform app:
 
 > [!NOTE]
 > We currently support C# and C++.
@@ -154,6 +154,29 @@ public sealed partial class App: Application
             uetSdk = new UETSdk(123456); // your UET tagId 
         } 
     } 
+```
+
+Here is an example of Windows App UET SDK usage in C++ for a Win32 app:
+
+**Initialize Windows App UET SDK at application level on app launch by providing UET tagId.**
+
+```C#
+using namespace Microsoft::BingAds::UETSdkWin32;
+UETSdk* uetSdk = NULL;
+
+int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
+    _In_opt_ HINSTANCE hPrevInstance,
+    _In_ LPWSTR    lpCmdLine,
+    _In_ int       nCmdShow)
+        {
+            uetSdk = new UETSdk(L"YourAppName", L"YourStoreId", 123456); 
+
+            //  YourAppName: replace with your registryKey, all the data used by UET SDK will be stored in the registry - HKEY_CURRENT_USER\Software\[YourAppName] 
+
+            //  YourStoreId: replace with your product (store) id
+
+            //  123456: replace with your UET tag id
+        } 
 ```
 
 **In order to track goals make use of TrackGoal API of created SDK object.**
