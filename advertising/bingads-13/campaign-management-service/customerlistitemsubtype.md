@@ -5,10 +5,13 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a CustomerListItemSubType value set.
 ---
 # CustomerListItemSubType Value Set - Campaign Management
-Reserved.
+Defines a CustomerListItemSubType value set.
+
+> [!WARNING]
+> The CustomerListItemSubType value set is for internal use only. You can't access it via the public API.
 
 ## Syntax
 ```xml
