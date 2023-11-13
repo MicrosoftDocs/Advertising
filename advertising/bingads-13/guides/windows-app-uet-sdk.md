@@ -26,6 +26,8 @@ Before you can use Windows App UET SDK, you need to make sure you have the follo
 
 For Universal Windows Platform applications, [download the Windows App UET SDK NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk).
 
+For Win32 applications, [download the Windows App UET SDK NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk.Win32).
+
 <!-- ### <a name="requirements"></a>Requirements
 
 You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). 
@@ -132,7 +134,7 @@ Once your conversion goal and trackGoal API information is set up, you can track
 ## <a name="code-examples"></a>Code Examples
 
 > [!NOTE]
-> We currently support C# and C++.
+> We currently support C# and C++11.
 
 Here is an example of Windows App UET SDK usage in C# for a Universal Windows Platform app:
 
@@ -160,7 +162,7 @@ Here is an example of Windows App UET SDK usage in C++ for a Win32 app:
 
 **Initialize Windows App UET SDK at application level on app launch by providing UET tagId.**
 
-```C#
+```cpp
 using namespace Microsoft::BingAds::UETSdkWin32;
 UETSdk* uetSdk = NULL;
 
@@ -189,6 +191,10 @@ public sealed partial class MainPage : Page
            App.uetSdk.TrackGoal("click", "Buy Coins", "Other", 5, "USD"); 
         } 
     } 
+```
+
+```cpp
+uetSdk->TrackGoal(L"click", L"Buy Coins", L"Other", 5, L"USD");
 ```
 
 ### <a name="cpluspluswinrt"></a>Consuming UET SDK from C++/WinRT app
