@@ -5,10 +5,13 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a CustomerListItem data object.
 ---
 # CustomerListItem Data Object - Campaign Management
-Reserved.
+Defines a CustomerListItem data object.
+
+> [!WARNING]
+> The CustomerListItem data object is for internal use only. You can't access it via the public API.
 
 ## Syntax
 ```xml
@@ -26,7 +29,7 @@ The [CustomerListItem](customerlistitem.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerlistitemsubtype"></a>CustomerListItemSubType|Reserved.|[CustomerListItemSubType](customerlistitemsubtype.md)|
+|<a name="customerlistitemsubtype"></a>CustomerListItemSubType|For internal use only.|[CustomerListItemSubType](customerlistitemsubtype.md)|
 |<a name="itemvalue"></a>ItemValue|Reserved.|**string**|
 
 ## Requirements
