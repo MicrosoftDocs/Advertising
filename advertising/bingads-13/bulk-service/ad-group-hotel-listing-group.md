@@ -48,7 +48,7 @@ You can upload *Ad Group Hotel Listing Group* records for multiple ad groups in 
 
 - You may not specify duplicate hotel attributes in a branch. 
 
-You can download all *Ad Group Hotel Listing Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AdGroupProductPartitions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Ad Group Hotel Listing Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AdGroupHotelListingGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would add a new ad group hotel listing group if a valid [Parent Id](#parentid) value is provided. 
 
