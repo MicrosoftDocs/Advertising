@@ -5,10 +5,13 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a CustomerListActionType value set.
 ---
 # CustomerListActionType Value Set - Campaign Management
-Reserved.
+Defines a CustomerListActionType value set.
+
+> [!WARNING]
+> The CustomerListActionType value set is for internal use only. You can't access it via the public API.
 
 ## Syntax
 ```xml
