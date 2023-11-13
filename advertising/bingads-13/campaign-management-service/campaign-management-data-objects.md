@@ -86,8 +86,8 @@ The Campaign Management service defines the following data objects.
 |[CustomAudience](customaudience.md)|Defines a custom audience.|
 |[CustomerAccountShare](customeraccountshare.md)|Defines a customer or account that can use the shared audience or UET tag.|
 |[CustomerAccountShareAssociation](customeraccountshareassociation.md)|Contains the association count for the corresponding usage type.|
-|[CustomerList](customerlist.md)|Reserved.|
-|[CustomerListItem](customerlistitem.md)|Reserved.|
+|[CustomerList](customerlist.md)|For internal use only.|
+|[CustomerListItem](customerlistitem.md)|For internal use only.|
 |[CustomerShare](customershare.md)|Defines a shareable audience or UET tag that a customer owns.|
 |[CustomEventsRule](customeventsrule.md)|Defines a custom events remarketing rule.|
 |[CustomParameter](customparameter.md)|Defines a key and value custom parameter for URL tracking.|
