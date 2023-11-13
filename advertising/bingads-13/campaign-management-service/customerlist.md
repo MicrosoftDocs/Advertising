@@ -5,10 +5,13 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a CustomerList data object.
 ---
 # CustomerList Data Object - Campaign Management
-Reserved.
+Defines a CustomerList data object.
+
+> [!WARNING]
+> The CustomerList data object is for internal use only. You can't access it via the public API.
 
 ## Syntax
 ```xml
@@ -42,8 +45,8 @@ The [CustomerList](customerlist.md) object has the following elements: [ActionTy
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="actiontype"></a>ActionType|Reserved.|[CustomerListActionType](customerlistactiontype.md)|
-|<a name="customerlistitems"></a>CustomerListItems|Reserved.|[CustomerListItem](customerlistitem.md) array|
+|<a name="actiontype"></a>ActionType|For internal use only.|[CustomerListActionType](customerlistactiontype.md)|
+|<a name="customerlistitems"></a>CustomerListItems|For internal use only.|[CustomerListItem](customerlistitem.md) array|
 
 The [CustomerList](customerlist.md) object has [Inherited Elements](#inheritedelements).
 
