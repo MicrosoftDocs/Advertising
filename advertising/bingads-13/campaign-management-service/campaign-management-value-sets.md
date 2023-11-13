@@ -62,8 +62,8 @@ The Campaign Management service defines the following value sets.
 |[ConversionGoalType](conversiongoaltype.md)|Defines the current possible types of conversion goals.|
 |[CriterionAdditionalField](criterionadditionalfield.md)|Defines a list of optional criterion properties that you can request when calling [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) and [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md).|
 |[CriterionTypeGroup](criteriontypegroup.md)|The type used to group criterions.|
-|[CustomerListActionType](customerlistactiontype.md)|Reserved.|
-|[CustomerListItemSubType](customerlistitemsubtype.md)|Reserved.|
+|[CustomerListActionType](customerlistactiontype.md)|For internal use only.|
+|[CustomerListItemSubType](customerlistitemsubtype.md)|For internal use only.|
 |[Day](day.md)|Defines the day values that you can specify for day and time criterion.|
 |[DistanceUnit](distanceunit.md)|Defines the possible distance units of a geographical location.|
 |[DynamicSearchAdsSource](dynamicsearchadssource.md)|Defines the possible targeting source values for dynamic search ads campaigns.|
