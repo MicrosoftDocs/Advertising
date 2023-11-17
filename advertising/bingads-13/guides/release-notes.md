@@ -20,6 +20,27 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+## <a name="november2023"></a>November 2023
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [New API Interfaces](#newapiinterfaces-november2023)  
+- [Bulk Service](#bulkservice-november2023)  
+- [Bing Ads API SDK Updates](#sdk-november2023)
+
+### <a name="newapiinterfaces-november2023"></a>New API Interfaces  
+
+- **Campaign Management API**: [UpdateSitelinkUrls](https://learn.microsoft.com/advertising/campaign-management-service/googleimportoption#updatesitelinkurls) for [GoogleImportOption](https://learn.microsoft.com/advertising/campaign-management-service/googleimportoption).
+- **Bulk API**: LeadFormAdExtensions.
+
+### <a name="bulkservice-november2023"></a>Bulk Service
+
+- New fields [HashedEmailAddress](https://learn.microsoft.com/advertising/bulk-service/offline-conversion#hashedemailaddress) and [HashedPhoneNumber](https://learn.microsoft.com/advertising/bulk-service/offline-conversion#hashedphonenumber) in [BulkOfflineConversion](https://learn.microsoft.com/advertising/bulk-service/offline-conversion).
+
+### <a name="sdk-november2023"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.18), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.18), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.18), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.18) SDK version 13.0.18. 
+
 ## <a name="august2023"></a>August 2023
 
 See below for Bing Ads API updates during this calendar month.  
