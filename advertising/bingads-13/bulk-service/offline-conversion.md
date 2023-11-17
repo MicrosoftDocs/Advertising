@@ -113,6 +113,8 @@ For an *Offline Conversion* record, the following attribute fields are available
 - [Conversion Value](#conversionvalue)
 - [External Attribution Credit](#externalattributioncredit)
 - [External Attribution Model](#externalattributionmodel)
+- [Hashed Email Address](#hashedemailaddress)
+- [Hashed Phone Number](#hashedphonenumber)
 - [Microsoft Click Id](#microsoftclickid)
 
 ## <a name="adjustmentcurrencycode"></a>Adjustment Currency Code
@@ -222,6 +224,24 @@ This field can only be set for conversions actions which use external attributio
 A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action.
 
 **Apply:** Optional
+
+## <a name="hashedemailaddress"></a>External Attribution Model
+The hashed email address using the SHA-256 algorithm for use with enhanced conversions.
+
+A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action.
+
+**Add:** Required for enhanced conversions.
+**Restate:** Required for enhanced conversions.
+**Retract:** Required for enhanced conversions.
+
+## <a name="hashedphonenumber"></a>External Attribution Model
+The hashed phone number according to the E.164 standard for use with enhanced conversions.
+
+A GoalNotEligibleForExternalAttribution error will be returned if this field is used with a non-externally attributed conversion action.
+
+**Add:** Required for enhanced conversions.
+**Restate:** Required for enhanced conversions.
+**Retract:** Required for enhanced conversions.
 
 ## <a name="microsoftclickid"></a>Microsoft Click Id
 The MSCLKID for the offline conversion.
