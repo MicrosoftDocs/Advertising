@@ -2122,6 +2122,8 @@
     - name: Overview
       href: ../customer-billing-service/customer-billing-value-sets.md
       displayName: customer billing value sets
+    - name: AccountAdditionalField
+      href: ../customer-billing-service/accountadditionalfield.md
     - name: DataType
       href: ../customer-billing-service/datatype.md
     - name: InsertionOrderStatus
