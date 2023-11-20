@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Claim feature adoption coupons.
 dev_langs: 
-- csharp
-- java
-- php
-- python
+ - csharp
+ - java
+ - php
+ - python
 ---
 # ClaimFeatureAdoptionCoupons Service Operation - Customer Billing
 Claim feature adoption coupons.

@@ -22,13 +22,20 @@ Defines a billing document identification object that contains information about
     <xs:element minOccurs="0" name="DocumentDate" nillable="true" type="xs:dateTime" />
     <xs:element minOccurs="0" name="DocumentId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="CustomerId" nillable="true" type="xs:int" />
+    <xs:element minOccurs="0" name="CampaignId" nillable="true" type="xs:long">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
 
-The [BillingDocumentInfo](billingdocumentinfo.md) object has the following elements: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [Amount](#amount), [CurrencyCode](#currencycode), [CustomerId](#customerid), [DocumentDate](#documentdate), [DocumentId](#documentid).
+The [BillingDocumentInfo](billingdocumentinfo.md) object has the following elements: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [Amount](#amount), [CampaignId](#campaignid), [CurrencyCode](#currencycode), [CustomerId](#customerid), [DocumentDate](#documentdate), [DocumentId](#documentid).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -36,6 +43,7 @@ The [BillingDocumentInfo](billingdocumentinfo.md) object has the following eleme
 |<a name="accountname"></a>AccountName|The account name.|**string**|
 |<a name="accountnumber"></a>AccountNumber|The account number.|**string**|
 |<a name="amount"></a>Amount|The amount of the billing document.|**double**|
+|<a name="campaignid"></a>CampaignId|The campaign identifier.|**long**|
 |<a name="currencycode"></a>CurrencyCode|The currency of the billing document. For possible values, see [Currencies](../guides/currencies.md).|**string**|
 |<a name="customerid"></a>CustomerId|The identifier of the customer for which the billing document was generated.|**int**|
 |<a name="documentdate"></a>DocumentDate|The date of the billing document.|**dateTime**|
