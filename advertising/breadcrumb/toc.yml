@@ -1,3 +1,37 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items: 
+    - name: Advertising
+      tocHref: /advertising/
+      topicHref: /advertising/
+      items: 
+        - name: Bing Ads API
+          tocHref: /advertising/guides/
+          topicHref: /advertising/guides/
+        - name: Content API
+          tocHref: /advertising/shopping-content/
+          topicHref: /advertising/shopping-content/
+        - name: Hotel Ads
+          tocHref: /advertising/hotel-ads/
+          topicHref: /advertising/hotel-ads/
+        - name: Hotel Ads
+          tocHref: /advertising/pos-feed/
+          topicHref: /advertising/hotel-ads/
+        - name: Hotel Ads
+          tocHref: /advertising/transaction-message/
+          topicHref: /advertising/hotel-ads/
+        - name: Hotel Ads
+          tocHref: /advertising/hint-message/
+          topicHref: /advertising/hotel-ads/
+        - name: Hotel Ads
+          tocHref: /advertising/query-message/
+          topicHref: /advertising/hotel-ads/
+        - name: Hotel Ads
+          tocHref: /advertising/hotel-service/
+          topicHref: /advertising/hotel-ads/
+        - name: Microsoft Advertising Scripts
+          tocHref: /advertising/scripts
+          topicHref: /advertising/scripts
+
+
