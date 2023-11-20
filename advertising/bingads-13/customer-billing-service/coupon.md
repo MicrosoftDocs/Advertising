@@ -29,7 +29,13 @@ Defines a coupon.
     <xs:element minOccurs="0" name="SendToDate" nillable="true" type="xs:dateTime" />
     <xs:element minOccurs="0" name="IsRedeemed" type="xs:boolean" />
     <xs:element minOccurs="0" name="RedemptionInfo" nillable="true" type="tns:CouponRedemption" />
-    <xs:element minOccurs="0" name="ClaimInfo" nillable="true" type="tns:CouponClaimInfo" />
+    <xs:element minOccurs="0" name="ClaimInfo" nillable="true" type="tns:CouponClaimInfo">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```

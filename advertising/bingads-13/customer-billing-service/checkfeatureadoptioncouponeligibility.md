@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Check the FAC eligibility of an account.
 dev_langs: 
-- csharp
-- java
-- php
-- python
+ - csharp
+ - java
+ - php
+ - python
 ---
 # CheckFeatureAdoptionCouponEligibility Service Operation - Customer Billing
 Check the FAC eligibility of an account.
@@ -136,3 +136,4 @@ response=customerbilling_service.CheckFeatureAdoptionCouponEligibility(
 ## Requirements
 Service: [CustomerBillingService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/Billing/v13/CustomerBillingService.svc)  
 Namespace: https\://bingads.microsoft.com/Billing/v13  
+

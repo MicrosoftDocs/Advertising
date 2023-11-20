@@ -12,6 +12,7 @@ The Customer Billing service defines the following value sets.
 
 |Value Set|Description|
 |---|---|
+|[AccountAdditionalField](accountadditionalfield.md)|Defines a value set for additional account fields.|
 |[DataType](datatype.md)|Defines the possible formats in which to generate the billing document.|
 |[InsertionOrderPendingChangesStatus](insertionorderpendingchangesstatus.md)|Defines the possible status values of [InsertionOrderPendingChanges](insertionorderpendingchanges.md) that can be used to manage changes for an approved insertion order.|
 |[InsertionOrderStatus](insertionorderstatus.md)|Defines the possible status values of an [InsertionOrder](insertionorder.md).|

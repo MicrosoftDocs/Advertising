@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets the amount spent by the account in the specified month.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+ - csharp
+ - java
+ - php
+ - python
 ---
 # GetAccountMonthlySpend Service Operation - Customer Billing
 Gets the amount spent by the account in the specified month.

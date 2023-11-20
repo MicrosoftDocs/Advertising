@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Redeems a coupon to the specified account.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+ - csharp
+ - java
+ - php
+ - python
 ---
 # RedeemCoupon Service Operation - Customer Billing
 Redeems a coupon to the specified account.
