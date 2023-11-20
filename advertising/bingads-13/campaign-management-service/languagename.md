@@ -270,6 +270,48 @@ Defines the set of supported ad languages.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="Malay">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">73</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Thai">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">118</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Indonesian">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">50</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Tagalog">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">113</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Vietnamese">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">129</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Hindi">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">47</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
     <xs:enumeration value="All">
       <xs:annotation>
         <xs:appinfo>
@@ -283,7 +325,7 @@ Defines the set of supported ad languages.
 
 ## <a name="values"></a>Values
 
-The [LanguageName](languagename.md) value set has the following values: [Albanian](#albanian), [All](#all), [Arabic](#arabic), [Bosnian](#bosnian), [Bulgarian](#bulgarian), [Croatian](#croatian), [Czech](#czech), [Danish](#danish), [Dutch](#dutch), [English](#english), [Estonian](#estonian), [Finnish](#finnish), [French](#french), [German](#german), [Greek](#greek), [Hebrew](#hebrew), [Hungarian](#hungarian), [Icelandic](#icelandic), [Italian](#italian), [Japanese](#japanese), [Latvian](#latvian), [Lithuanian](#lithuanian), [Macedonian](#macedonian), [Maltese](#maltese), [None](#none), [Norwegian](#norwegian), [Polish](#polish), [Portuguese](#portuguese), [Romanian](#romanian), [Russian](#russian), [Serbian](#serbian), [SimplifiedChinese](#simplifiedchinese), [Slovak](#slovak), [Slovenian](#slovenian), [Spanish](#spanish), [Swedish](#swedish), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish).
+The [LanguageName](languagename.md) value set has the following values: [Albanian](#albanian), [All](#all), [Arabic](#arabic), [Bosnian](#bosnian), [Bulgarian](#bulgarian), [Croatian](#croatian), [Czech](#czech), [Danish](#danish), [Dutch](#dutch), [English](#english), [Estonian](#estonian), [Finnish](#finnish), [French](#french), [German](#german), [Greek](#greek), [Hebrew](#hebrew), [Hindi](#hindi), [Hungarian](#hungarian), [Icelandic](#icelandic), [Indonesian](#indonesian), [Italian](#italian), [Japanese](#japanese), [Latvian](#latvian), [Lithuanian](#lithuanian), [Macedonian](#macedonian), [Malay](#malay), [Maltese](#maltese), [None](#none), [Norwegian](#norwegian), [Polish](#polish), [Portuguese](#portuguese), [Romanian](#romanian), [Russian](#russian), [Serbian](#serbian), [SimplifiedChinese](#simplifiedchinese), [Slovak](#slovak), [Slovenian](#slovenian), [Spanish](#spanish), [Swedish](#swedish), [Tagalog](#tagalog), [Thai](#thai), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish), [Vietnamese](#vietnamese).
 
 |Value|Description|
 |-----------|---------------|
@@ -302,29 +344,35 @@ The [LanguageName](languagename.md) value set has the following values: [Albania
 |<a name="french"></a>French|The corresponding language name.|
 |<a name="german"></a>German|The corresponding language name.|
 |<a name="greek"></a>Greek|The corresponding language name.|
-|<a name="hebrew"></a>Hebrew|Reserved.|
+|<a name="hebrew"></a>Hebrew|The corresponding language name.|
+|<a name="hindi"></a>Hindi|The corresponding language name.|
 |<a name="hungarian"></a>Hungarian|The corresponding language name.|
 |<a name="icelandic"></a>Icelandic|The corresponding language name.|
+|<a name="indonesian"></a>Indonesian|The corresponding language name.|
 |<a name="italian"></a>Italian|The corresponding language name.|
 |<a name="japanese"></a>Japanese|The corresponding language name.|
 |<a name="latvian"></a>Latvian|The corresponding language name.|
 |<a name="lithuanian"></a>Lithuanian|The corresponding language name.|
 |<a name="macedonian"></a>Macedonian|The corresponding language name.|
+|<a name="malay"></a>Malay|The corresponding language name.|
 |<a name="maltese"></a>Maltese|The corresponding language name.|
 |<a name="none"></a>None|The corresponding language name.|
 |<a name="norwegian"></a>Norwegian|The corresponding language name.|
 |<a name="polish"></a>Polish|The corresponding language name.|
 |<a name="portuguese"></a>Portuguese|The corresponding language name.|
 |<a name="romanian"></a>Romanian|The corresponding language name.|
-|<a name="russian"></a>Russian|Reserved.|
+|<a name="russian"></a>Russian|The corresponding language name.|
 |<a name="serbian"></a>Serbian|The corresponding language name.|
 |<a name="simplifiedchinese"></a>SimplifiedChinese|The corresponding language name.|
 |<a name="slovak"></a>Slovak|The corresponding language name.|
 |<a name="slovenian"></a>Slovenian|The corresponding language name.|
 |<a name="spanish"></a>Spanish|The corresponding language name.|
 |<a name="swedish"></a>Swedish|The corresponding language name.|
+|<a name="tagalog"></a>Tagalog|The corresponding language name.|
+|<a name="thai"></a>Thai|The corresponding language name.|
 |<a name="traditionalchinese"></a>TraditionalChinese|The corresponding language name.|
 |<a name="turkish"></a>Turkish|The corresponding language name.|
+|<a name="vietnamese"></a>Vietnamese|The corresponding language name.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

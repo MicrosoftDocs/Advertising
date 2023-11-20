@@ -19,7 +19,7 @@ Defines the VerifiedTrackingSetting Data Object.
   <xs:complexContent mixed="false">
     <xs:extension base="tns:Setting">
       <xs:sequence>
-        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="Details" nillable="true" type="q9:ArrayOfArrayOfKeyValuePairOfstringstring" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="Details" nillable="true" type="q5:ArrayOfArrayOfKeyValuePairOfstringstring" />
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>
@@ -49,3 +49,5 @@ The [VerifiedTrackingSetting](verifiedtrackingsetting.md) object derives from th
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
+## Used By
+[ResponsiveAd](responsivead.md)  

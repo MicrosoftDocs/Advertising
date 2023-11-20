@@ -33,7 +33,7 @@ The [GenreCriterion](genrecriterion.md) object has the following elements: [Genr
 
 The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
 
-### <a name="genreid-values"></a>Genre ID Values
+**Genre ID Values**
 
 These are the possible values for *GenreId*:
 

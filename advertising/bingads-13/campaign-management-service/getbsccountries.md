@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets the list of supported sales country codes for Microsoft Shopping Campaigns.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetBSCCountries Service Operation - Campaign Management
 Gets the list of supported sales country codes for Microsoft Shopping Campaigns.
@@ -34,7 +34,7 @@ The *GetBSCCountriesResponse* object defines the [body](#response-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="countrycodes"></a>CountryCodes|The list of supported sales country codes for Microsoft Shopping Campaigns.<br/><br/>For example, supported country codes include AD (Andorra), AL (Albania), AR (Argentina), AW (Aruba), AT (Austria), AU (Australia), BS (Bahamas), BD (Bangladesh), BA (Bosnia and Herzegovina), BE (Belgium), BO (Bolivia), BG (Bulgaria), BR (Brazil), BN (Brunei), CA (Canada), KY (Cayman Islands), CH (Switzerland), CL (Chile), CO (Colombia), CR (Costa Rica), CY (Cyprus), CZ (Czech Republic), DE (Germany), DK (Denmark), DM (Dominica), DO (Dominican Republic), EC (Ecuador), SV (El Salvador), EE (Estonia), ES (Spain), FJ (Fiji), FI (Finland), FR (France), GF (French Guiana), PF (French Polynesia), GB (Great Britain), GR (Greece), GU (Guam), GT (Guatemala), GY (Guyana), HT (Haiti), HN (Honduras), HR (Croatia), HU (Hungary),ID (Indonesia), IE (Ireland), IN (India), IS (Iceland), IT (Italy), LI (Liechtenstein), LT (Lithuania), LU (Luxembourg), LV (Latvia), MV (Maldives), MC (Monaco), ME (Montenegro), MK (North Macedonia), MT (Malta), MQ (Martinique),MY (Malaysia), MX (Mexico), MN (Mongolia), MS (Montserrat), NP (Nepal), NL (Netherlands), NC (New Caledonia), NO (Norway), NZ (New Zealand), PA (Panama), PG (Papua New Guinea), PH (Philippines), PY (Paraguay), PE (Peru), PL (Poland), PT (Portugal), PR (Puerto Rico), RO (Romania), RS (Serbia), LK (Sri Lanka), SE (Sweden), SG (Singapore), SI (Slovenia), SK (Slovakia), SM (San Marino), TH (Thailand), TT (Trinidad and Tobago), TR (Türkiye), US (United States), UT (Uruguay), VA (Vatican City), VE (Venezuela),VN (Vietnam), ZA (South Africa). You can pass any one of the returned values in the [SalesCountryCode](shoppingsetting.md#salescountrycode) element of a [ShoppingSetting](shoppingsetting.md) object.|**string** array|
+|<a name="countrycodes"></a>CountryCodes|The list of supported sales country codes for Microsoft Shopping Campaigns.<br/><br/>For example, supported country codes include AD (Andorra), AL (Albania), AR (Argentina), AW (Aruba), AT (Austria), AU (Australia), BS (Bahamas), BD (Bangladesh), BA (Bosnia and Herzegovina), BE (Belgium), BO (Bolivia), BG (Bulgaria), BR (Brazil), BN (Brunei), CA (Canada), KY (Cayman Islands), CH (Switzerland), CL (Chile), CO (Colombia), CR (Costa Rica), CY (Cyprus), CZ (Czech Republic), DE (Germany), DK (Denmark), DM (Dominica), DO (Dominican Republic), EC (Ecuador), SV (El Salvador), EE (Estonia), ES (Spain), FJ (Fiji), FI (Finland), FR (France), GF (French Guiana), PF (French Polynesia), GB (Great Britain), GR (Greece), GU (Guam), GT (Guatemala), GY (Guyana), HT (Haiti), HN (Honduras), HR (Croatia), HU (Hungary),ID (Indonesia), IE (Ireland), IN (India), IS (Iceland), IT (Italy), LI (Liechtenstein), LT (Lithuania), LU (Luxembourg), LV (Latvia), MV (Maldives), MC (Monaco), ME (Montenegro), MK (North Macedonia), MT (Malta), MQ (Martinique),MY (Malaysia), MX (Mexico), MN (Mongolia), MS (Montserrat), NP (Nepal), NL (Netherlands), NC (New Caledonia), NO (Norway), NZ (New Zealand), PA (Panama), PG (Papua New Guinea), PH (Philippines), PY (Paraguay), PE (Peru), PL (Poland), PT (Portugal), PR (Puerto Rico), RO (Romania), RS (Serbia), LK (Sri Lanka), SE (Sweden), SG (Singapore), SI (Slovenia), SK (Slovakia), SM (San Marino), TH (Thailand), TT (Trinidad and Tobago), TR (Turkey), US (United States), UT (Uruguay), VA (Vatican City), VE (Venezuela),VN (Vietnam), ZA (South Africa). You can pass any one of the returned values in the [SalesCountryCode](shoppingsetting.md#salescountrycode) element of a [ShoppingSetting](shoppingsetting.md) object.|**string** array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

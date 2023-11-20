@@ -15,7 +15,7 @@ Defines an object that you can use to determine the component of an asset group 
 <xs:complexType name="AssetGroupEditorialReason" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
-    <xs:element xmlns:q118="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PublisherCountries" nillable="true" type="q118:ArrayOfstring" />
+    <xs:element xmlns:q119="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PublisherCountries" nillable="true" type="q119:ArrayOfstring" />
     <xs:element minOccurs="0" name="ReasonCode" type="xs:int" />
     <xs:element minOccurs="0" name="Term" nillable="true" type="xs:string" />
   </xs:sequence>

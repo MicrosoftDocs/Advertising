@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines an AudienceGroupDimensionType value set. Contains Age, Audience, and Gender values.
+description: Defines an AudienceGroupDimensionType value set.
 ---
 # AudienceGroupDimensionType Value Set - Campaign Management
 Defines an AudienceGroupDimensionType value set. Contains Age, Audience, and Gender values.
