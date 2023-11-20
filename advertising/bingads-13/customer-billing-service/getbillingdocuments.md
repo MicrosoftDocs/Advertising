@@ -6,11 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 description: Gets the specified billing documents.
-dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+dev_langs: csharp, java, php, python
 ---
 # GetBillingDocuments Service Operation - Customer Billing
 Gets the specified billing documents.
