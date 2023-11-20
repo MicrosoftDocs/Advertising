@@ -5,7 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines a value set for returning additional account fields.
+description: Defines a value set for additional account fields.
 ---
 # AccountAdditionalField Value Set - Customer Billing
 Defines a value set for additional account fields.

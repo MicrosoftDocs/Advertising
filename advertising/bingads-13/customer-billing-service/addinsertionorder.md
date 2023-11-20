@@ -6,11 +6,11 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 description: Adds an insertion order to the specified account.
-dev_langs: 
- - csharp
- - java
- - php
- - python
+dev_langs:
+- csharp  
+- java  
+- php  
+- python  
 ---
 # AddInsertionOrder Service Operation - Customer Billing
 Adds an insertion order to the specified account.
