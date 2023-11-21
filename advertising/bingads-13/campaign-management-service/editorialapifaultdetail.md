@@ -14,7 +14,7 @@ Defines a fault object that operations such as [AddAdGroupCriterions](addadgroup
 ```xml
 <xs:complexType name="EditorialApiFaultDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
-    <xs:extension xmlns:q27="https://adapi.microsoft.com" base="q27:ApplicationFault">
+    <xs:extension xmlns:q28="https://adapi.microsoft.com" base="q28:ApplicationFault">
       <xs:sequence>
         <xs:element minOccurs="0" name="BatchErrors" nillable="true" type="tns:ArrayOfBatchError" />
         <xs:element minOccurs="0" name="EditorialErrors" nillable="true" type="tns:ArrayOfEditorialError" />

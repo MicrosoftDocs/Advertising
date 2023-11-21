@@ -11,7 +11,7 @@ description: Defines an AudienceGroupDimension data object.
 Defines an AudienceGroupDimension data object.
 
 > [!WARNING]
-> Do not try to instantiate an AudienceGroupDimension. You can create one or more of the following objects that derive from it: AgeDimesion, GenderDimension, AudienceDimension.
+> Do not try to instantiate an AudienceGroupDimension. You can create one or more of the following objects that derive from it: AgeDimension, GenderDimension, AudienceDimension.
 
 ## Syntax
 ```xml

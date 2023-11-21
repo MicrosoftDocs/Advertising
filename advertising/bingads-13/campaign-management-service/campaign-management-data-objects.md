@@ -13,6 +13,7 @@ The Campaign Management service defines the following data objects.
 |Data Object|Description|
 |---|---|
 |[AccountMigrationStatusesInfo](accountmigrationstatusesinfo.md)|Defines an object that contains migration status for an account.|
+|[AccountNegativeKeywordList](accountnegativekeywordlist.md)|Defines a negative keyword list that is associated with an account.|
 |[AccountProperty](accountproperty.md)|Maps an account level property name to a string value.|
 |[ActionAdExtension](actionadextension.md)|Defines an action ad extension with a call-to-action button.|
 |[Ad](ad.md)|Defines the base object of an ad.|
@@ -95,7 +96,7 @@ The Campaign Management service defines the following data objects.
 |[Date](date.md)|Represents a date.|
 |[DayTime](daytime.md)|Defines a day of the week and time range for ad extension scheduling.|
 |[DayTimeCriterion](daytimecriterion.md)|Defines a criterion that can be used to show ads to users during a specific day and time range.|
-|[DealCriterion](dealcriterion.md)|Reserved.|
+|[DealCriterion](dealcriterion.md)|Defines a criterion that can be used to show ads for a specific deal.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
 |[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
@@ -123,6 +124,7 @@ The Campaign Management service defines the following data objects.
 |[FrequencyCapSettings](frequencycapsettings.md)|Defines the FrequencyCapSettings object.|
 |[GenderCriterion](gendercriterion.md)|Defines a criterion that can be used to show ads to users of a specific gender.|
 |[GenderDimension](genderdimension.md)|Defines a GenderDimension data object.|
+|[GenreCriterion](genrecriterion.md)|Defines a criterion that can be used to show ads from a specific genre.|
 |[GeoPoint](geopoint.md)|Defines an object that contains the longitude and latitude coordinates of a geographical location.|
 |[GoogleImportJob](googleimportjob.md)|Defines a Google import job that can be run once or scheduled on a recurring basis.|
 |[GoogleImportOption](googleimportoption.md)|Defines the Google import options that are available via API.|

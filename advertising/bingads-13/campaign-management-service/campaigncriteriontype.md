@@ -160,6 +160,13 @@ Defines the possible types of campaign criterions.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="CustomerList">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4194304</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -168,7 +175,7 @@ Defines the possible types of campaign criterions.
 
 ## <a name="values"></a>Values
 
-The [CampaignCriterionType](campaigncriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductScope](#productscope), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Store](#store), [Targets](#targets), [Webpage](#webpage).
+The [CampaignCriterionType](campaigncriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductScope](#productscope), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Store](#store), [Targets](#targets), [Webpage](#webpage).
 
 |Value|Description|
 |-----------|---------------|
@@ -177,6 +184,7 @@ The [CampaignCriterionType](campaigncriteriontype.md) value set has the followin
 |<a name="combinedlist"></a>CombinedList|The campaign criterion is a combined list association.<br/><br/>This criterion type value is only used by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the combined list associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the combined list, see [CombinedList](combinedlist.md).|
 |<a name="companyname"></a>CompanyName|The campaign criterion is a company name profile criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *CompanyName*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="customaudience"></a>CustomAudience|The campaign criterion is a custom audience association.<br/><br/>This criterion type value is only used by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the custom audience associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the custom audience, see [CustomAudience](customaudience.md).|
+|<a name="customerlist"></a>CustomerList|For internal use only.|
 |<a name="daytime"></a>DayTime|The campaign criterion is a day and time criterion.<br/><br/>The *Criterion* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) can be an instance of [DayTimeCriterion](daytimecriterion.md), but day and time criterion are not supported with [NegativeCampaignCriterion](negativecampaigncriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="device"></a>Device|The campaign criterion is a device criterion.<br/><br/>The *Criterion* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) can be an instance of [DeviceCriterion](devicecriterion.md), but device criterion are not supported with [NegativeCampaignCriterion](negativecampaigncriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="gender"></a>Gender|The campaign criterion is a gender criterion.<br/><br/>The *Criterion* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) can be an instance of [GenderCriterion](gendercriterion.md), but gender criterion are not supported with [NegativeCampaignCriterion](negativecampaigncriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
