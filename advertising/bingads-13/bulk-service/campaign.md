@@ -403,6 +403,9 @@ In a bulk file, the list of custom parameters are formatted as follows.
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
 **Delete:** Read-only  
 
+## <a name="destinationchannel"></a>Destination Channel
+Reserved for future use.
+
 ## <a name="domainlanguage"></a>Domain Language
 The [language](../guides/ad-languages.md#adlanguage) of the website pages that you want to target for dynamic search ads.
 
@@ -464,6 +467,9 @@ The system-generated identifier of the campaign.
 **Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the campaign can then be referenced in the *Parent Id* field of dependent record types such as ad groups or criterion. This is recommended if you are adding new campaigns and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
+
+## <a name="ismultichannelcampaign"></a>Is Multi Channel Campaign
+Reserved for future use.
 
 > [!NOTE]
 > For update and delete, you must specify either the [Id](#id) or [Campaign](#campaign) field.
