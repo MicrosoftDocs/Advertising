@@ -21,7 +21,7 @@ For information about creating a feed file using an XML document, see [Creating 
 
 > [!NOTE]
 > The hotel feed supports only the English language.
-
+> CSV format doesn't support images. Use XML format instead.
 
 ## Getting the data right
 
