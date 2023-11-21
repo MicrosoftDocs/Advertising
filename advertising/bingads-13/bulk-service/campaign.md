@@ -468,11 +468,11 @@ The system-generated identifier of the campaign.
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
 
-## <a name="ismultichannelcampaign"></a>Is Multi Channel Campaign
-Reserved for future use.
-
 > [!NOTE]
 > For update and delete, you must specify either the [Id](#id) or [Campaign](#campaign) field.
+
+## <a name="ismultichannelcampaign"></a>Is Multi Channel Campaign
+Reserved for future use.
 
 ## <a name="keywordrelevance"></a>Keyword Relevance
 A numeric score that indicates how likely your ads will be clicked and how well your keyword competes against other keywords targeting the same traffic. This score predicts whether your keyword is likely to lead to a click on your ads, taking into account how well your keyword has performed in the past relative to your ad's position.
