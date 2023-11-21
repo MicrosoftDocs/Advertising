@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Retrieves the specified keywords.
 dev_langs: 
-�- csharp
+- csharp
 - java
 - php
 - python
