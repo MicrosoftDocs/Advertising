@@ -26,6 +26,20 @@ If you do not specify crop settings, the service will automatically crop up to t
         <xs:element minOccurs="0" name="CropX" nillable="true" type="xs:int" />
         <xs:element minOccurs="0" name="CropY" nillable="true" type="xs:int" />
         <xs:element minOccurs="0" name="SubType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="TargetHeight" nillable="true" type="xs:int">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="TargetWidth" nillable="true" type="xs:int">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>
@@ -34,7 +48,7 @@ If you do not specify crop settings, the service will automatically crop up to t
 
 ## <a name="elements"></a>Elements
 
-The [ImageAsset](imageasset.md) object has the following elements: [CropHeight](#cropheight), [CropWidth](#cropwidth), [CropX](#cropx), [CropY](#cropy), [SubType](#subtype).
+The [ImageAsset](imageasset.md) object has the following elements: [CropHeight](#cropheight), [CropWidth](#cropwidth), [CropX](#cropx), [CropY](#cropy), [SubType](#subtype), [TargetHeight](#targetheight), [TargetWidth](#targetwidth).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -43,6 +57,8 @@ The [ImageAsset](imageasset.md) object has the following elements: [CropHeight](
 |<a name="cropx"></a>CropX|Starting from the lower left corner of image asset source, this is the number of pixels to skip to the right on the x-axis before applying the CropWidth.<br/><br/>**Add:** Optional. If you do not set this element, the service will automatically crop according to the aspect ratio of the [SubType](#subtype).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**int**|
 |<a name="cropy"></a>CropY|Starting from the lower left corner of image asset source, this is the number of pixels to skip upwards on the y-axis before applying the CropHeight.<br/><br/>**Add:** Optional. If you do not set this element, the service will automatically crop according to the aspect ratio of the [SubType](#subtype).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**int**|
 |<a name="subtype"></a>SubType|Represents the aspect ratio for this image asset.<br/><br/>The aspect ratio for the sub type must match the effective image asset dimensions. If [CropHeight](#cropheight) and [CropWidth](#cropwidth) are not used then the aspect ratio for the sub type must match the aspect ratio of the stored image media. If [CropHeight](#cropheight) and [CropWidth](#cropwidth) are used then the true aspect ratio of the media that is stored in the account level media library can differ, so long as [CropHeight](#cropheight) and [CropWidth](#cropwidth) result in the correct aspect ratio. In either case the true aspect ratio of the media that is stored in the account level media library will remain unchanged.<br/><br/>The possible sub type values include  OriginalImage, LandscapeImageMedia, SquareImageMedia, ImageMedia169X100, ImageMedia201X100, ImageMedia120X100, ImageMedia200X100, ImageMedia124X100, ImageMedia153X100. For more details see [ResponsiveAd Remarks](responsivead.md#remarks).<br/><br/>*Note*: As of now, the SubType OriginalImage replaces the role of LandscapeImageMedia as the default image for ResponsiveAd of Audience Campaign.<br/><br/>New sub types might be added in the future, so you should not take any dependency on a fixed set of values.<br/><br/>**Add:** Required<br/>**Update:** Read-only. You cannot update the sub type during update.|**string**|
+|<a name="targetheight"></a>TargetHeight|The target height dimension of an image asset.|**int**|
+|<a name="targetwidth"></a>TargetWidth|The target width dimension of an image asset.|**int**|
 
 The [ImageAsset](imageasset.md) object has [Inherited Elements](#inheritedelements).
 
