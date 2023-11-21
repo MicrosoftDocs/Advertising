@@ -107,7 +107,7 @@ The following example shows the optional elements that you may include in the li
 ```xml
   <listing>
     . . .
-    <category>Extended Stay</category>
+    <category>hotel | inn</category>
     <content>
       <text type="description">
         <body>This element contains the hotel's description.</body>
@@ -137,7 +137,7 @@ The following example shows the optional elements that you may include in the li
   </listing>
 ```
 
-The `category` element contains a user-defined category string. For example, extended stay, economy, or motel.
+The `category` element expected format is *vacation_rental* or *hotel* followed by the pipe character and a custom value. For example, *vacation_rental \| 'custom value'* or *hotel \| 'custom value'*<br/><br/>For a list of custom values, see [Lodging property categories](https://help.ads.microsoft.com/#apex/ads/en/60192/-1).
 
 The `text` element contains a description of the hotel. You must specify the `body` element, which contains the actual description. Depending on the description's length, it may be truncated when displayed. If you include the `link` and `title` elements, the link URL points to the description online.
 
