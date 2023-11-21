@@ -10,9 +10,12 @@ dev_langs:
   - java
 ---
 # Hotel Ads Code Example
-This example demonstrates how to apply product conditions for Hotel Ads in Microsoft Shopping Campaigns.
+This example demonstrates how to apply product conditions for Hotel Ads.
 
 [!INCLUDE[request-header](./includes/code-tips.md)]
+
+> [!IMPORTANT]
+> Hotel Ads code examples are currently available in C# and Java.
 
 [!code-csharp[Main](../../../BingAds-dotNet-SDK/examples/BingAdsExamples/BingAdsExamplesLibrary/v13/HotelAds.cs)]
 
