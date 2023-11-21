@@ -228,16 +228,16 @@ A GoalNotEligibleForExternalAttribution error will be returned if this field is 
 ## <a name="hashedemailaddress"></a>Hashed Email Address
 The hashed email address using the SHA-256 algorithm for use with enhanced conversions.
 
-**Add:** Required for enhanced conversions.
-**Restate:** Required for enhanced conversions.
-**Retract:** Required for enhanced conversions.
+**Add:** Required for enhanced conversions.  
+**Restate:** Required for enhanced conversions.  
+**Retract:** Required for enhanced conversions.  
 
 ## <a name="hashedphonenumber"></a>Hashed Phone Number
 The hashed phone number according to the E.164 standard for use with enhanced conversions.
 
-**Add:** Required for enhanced conversions.
-**Restate:** Required for enhanced conversions.
-**Retract:** Required for enhanced conversions.
+**Add:** Required for enhanced conversions.  
+**Restate:** Required for enhanced conversions.  
+**Retract:** Required for enhanced conversions.  
 
 ## <a name="microsoftclickid"></a>Microsoft Click Id
 The MSCLKID for the offline conversion.
