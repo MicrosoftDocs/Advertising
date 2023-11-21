@@ -10,7 +10,7 @@ dev_langs:
   - java
 ---
 # Hotel Ads Code Example
-This example demonstrates how to apply product conditions for Hotel Ads.
+This example demonstrates how to set up Hotel Ads.
 
 [!INCLUDE[request-header](./includes/code-tips.md)]
 
