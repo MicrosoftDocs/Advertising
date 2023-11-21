@@ -37,7 +37,7 @@ The Campaign Management service defines the following service operations.
 |[AddVideos](addvideos.md)|Adds one or more videos to an account.|100 *Videos*|
 |[AppealEditorialRejections](appealeditorialrejections.md)|Appeals ads or keywords that failed editorial review.|1,000 *EntityIdToParentIdAssociations*|
 |[ApplyAssetGroupListingGroupActions](applyassetgrouplistinggroupactions.md)|Applies an action to an asset group listing group.|N/A.|
-|[ApplyCustomerListItems](applycustomerlistitems.md)|Reserved.||
+|[ApplyCustomerListItems](applycustomerlistitems.md)|For internal use only.|N/A.|
 |[ApplyHotelGroupActions](applyhotelgroupactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [HotelGroup](hotelgroup.md).|N/A.|
 |[ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md)|Applies offline conversion adjustments.|1,000 *OfflineConversionAdjustments*|
 |[ApplyOfflineConversions](applyofflineconversions.md)|Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.|1,000 *OfflineConversions*|
@@ -83,9 +83,9 @@ The Campaign Management service defines the following service operations.
 |[GetAssetGroupListingGroupsByIds](getassetgrouplistinggroupsbyids.md)|Retrieves the specified AssetGroupListingGroups.|N/A.|
 |[GetAssetGroupsByCampaignId](getassetgroupsbycampaignid.md)|Retrieves the specified AssetGroups.|N/A.|
 |[GetAssetGroupsByIds](getassetgroupsbyids.md)|Retrieves specified AssetGroups.|N/A.|
-|[GetAssetGroupsEditorialReasons](getassetgroupseditorialreasons.md)|Gets reasons for asset group editorial issues.||
-|[GetAudienceGroupAssetGroupAssociationsByAssetGroupIds](getaudiencegroupassetgroupassociationsbyassetgroupids.md)|Retrieves the specified AudienceGroupAssetGroupAssociations.|N/A.|
-|[GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds](getaudiencegroupassetgroupassociationsbyaudiencegroupids.md)|Retrieves the specified AudienceGroupAssetGroupAssociations.|N/A.|
+|[GetAssetGroupsEditorialReasons](getassetgroupseditorialreasons.md)|Gets reasons for asset group editorial issues.|N/A.|
+|[GetAudienceGroupAssetGroupAssociationsByAssetGroupIds](getaudiencegroupassetgroupassociationsbyassetgroupids.md)|Retrieves the specified AudienceGroupAssetGroupAssociations by asset group IDs.|N/A.|
+|[GetAudienceGroupAssetGroupAssociationsByAudienceGroupIds](getaudiencegroupassetgroupassociationsbyaudiencegroupids.md)|Retrieves the specified AudienceGroupAssetGroupAssociations by audience group IDs.|N/A.|
 |[GetAudienceGroupsByIds](getaudiencegroupsbyids.md)|Retrieves specified AudienceGroups.|N/A.|
 |[GetAudiencesByIds](getaudiencesbyids.md)|Retrieves the specified audiences from the specified account.|100 *AudienceIds*|
 |[GetBidStrategiesByIds](getbidstrategiesbyids.md)|Gets bid strategies in an account's portfolio bid strategy library.|100 *BidStrategyIds*|

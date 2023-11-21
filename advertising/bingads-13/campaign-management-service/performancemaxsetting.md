@@ -17,6 +17,13 @@ Defines the PerformanceMaxSetting object.
     <xs:extension base="tns:Setting">
       <xs:sequence>
         <xs:element minOccurs="0" name="FinalUrlExpansionOptOut" type="xs:boolean" />
+        <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PageFeedIds" nillable="true" type="q7:ArrayOflong">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>
@@ -25,11 +32,12 @@ Defines the PerformanceMaxSetting object.
 
 ## <a name="elements"></a>Elements
 
-The [PerformanceMaxSetting](performancemaxsetting.md) object has the following elements: [FinalUrlExpansionOptOut](#finalurlexpansionoptout).
+The [PerformanceMaxSetting](performancemaxsetting.md) object has the following elements: [FinalUrlExpansionOptOut](#finalurlexpansionoptout), [PageFeedIds](#pagefeedids).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="finalurlexpansionoptout"></a>FinalUrlExpansionOptOut|If *false*, then the entire domain will be targeted, and ad assets will be dynamically generated to match landing page content. If *true* (opted out), then only the final URLs and assets in the asset groups and feed will be targeted.<br/><br/>**Add**: Optional. The default value is false.<br/>**Update**: Optional|**boolean**|
+|<a name="pagefeedids"></a>PageFeedIds|The page feed identifiers for performance max ads.<br/><br/>The [Source](#source) determines whether or not Microsoft Advertising will use the associated page feeds.<br/><br/>See the [Page Feeds](../guides/page-feeds.md) technical guide for an implementation overview.<br/><br/>**Add:** Optional<br/>**Update:** Optional. You cannot delete page feed IDs, but you can replace the previous set with a new set.|**long** array|
 
 The [PerformanceMaxSetting](performancemaxsetting.md) object has [Inherited Elements](#inheritedelements).
 

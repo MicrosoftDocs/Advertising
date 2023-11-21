@@ -19,6 +19,7 @@ Defines a list of optional ad properties that you can request when calling [GetA
         <xs:enumeration value="ImpressionTrackingUrls" />
         <xs:enumeration value="Videos" />
         <xs:enumeration value="LongHeadlines" />
+        <xs:enumeration value="ImageTargetDimension" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -27,10 +28,11 @@ Defines a list of optional ad properties that you can request when calling [GetA
 
 ## <a name="values"></a>Values
 
-The [AdAdditionalField](adadditionalfield.md) value set has the following values: [ImpressionTrackingUrls](#impressiontrackingurls), [LongHeadlines](#longheadlines), [Videos](#videos).
+The [AdAdditionalField](adadditionalfield.md) value set has the following values: [ImageTargetDimension](#imagetargetdimension), [ImpressionTrackingUrls](#impressiontrackingurls), [LongHeadlines](#longheadlines), [Videos](#videos).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="imagetargetdimension"></a>ImageTargetDimension|The target dimension of an image asset.|
 |<a name="impressiontrackingurls"></a>ImpressionTrackingUrls|Request that the [ImpressionTrackingUrls](responsivead.md#impressiontrackingurls) element be included within each returned [ResponsiveAd](responsivead.md) object.|
 |<a name="longheadlines"></a>LongHeadlines|Request that the [LongHeadlines](responsivead.md#longheadlines) element be included within each returned [ResponsiveAd](responsivead.md) object.|
 |<a name="videos"></a>Videos|Request that the [Videos](responsivead.md#videos) element be included within each returned [ResponsiveAd](responsivead.md) object.|
