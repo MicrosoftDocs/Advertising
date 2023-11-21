@@ -66,7 +66,7 @@ The following campaign-level bid strategy types are available depending on the c
 |[ManualCpm](#manualcpm)|Audience|
 |[ManualCpv](#manualcpv)|Audience|
 |[MaxClicks](#maxclicks)|Search<br/>Shopping|
-|[MaxConversions](#maxconversions)|Search<br/>Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
+|[MaxConversions](#maxconversions)|Audience<br/>Search<br/>Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
 |[MaxConversionValue](#maxconversionvalue)|Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
 |[TargetCpa](#targetcpa)|Search|
 |[TargetRoas](#targetroas)|Search<br/>Shopping|
