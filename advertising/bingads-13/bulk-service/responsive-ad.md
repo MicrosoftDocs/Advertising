@@ -492,13 +492,15 @@ The `subType` attribute represents the aspect ratio for this image asset.
 
 The true aspect ratio of the [Image](image.md) that is stored in the account level media library can vary, so long as the resulting dimensions result in the expected aspect ratio per sub type. If you do not specify crop settings, the service will automatically crop up to the maximum possible area from the center of the image. For example, given a 1000x1000 pixel [image](image.md), for the 1.91:1 aspect ratio, the auto crop setting will be [cropWidth](#images-cropwidth)=1000, [cropHeight](#images-cropheight)=524, [cropX](#images-cropx)=0, and [cropY](#images-cropy)=238. 
 
-The possible sub type values include  OriginalImage, LandscapeImageMedia, SquareImageMedia, ImageMedia169X100, ImageMedia201X100, ImageMedia120X100, ImageMedia200X100, ImageMedia124X100, and ImageMedia153X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
+The possible sub type values include  OriginalImage, LandscapeImageMedia, SquareImageMedia, ImageMedia4x1, ImageMedia1x2, ImageMedia169X100, ImageMedia201X100, ImageMedia120X100, ImageMedia200X100, ImageMedia124X100, and ImageMedia153X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
 |OriginalImage|N/A|703 width x 368 height|
 |LandscapeImageMedia|1.91:1|300 width x 157 height|
 |SquareImageMedia|1:1|114 width x 114 height|
+|ImageMedia4x1|4:1|608 width x 152 height|
+|ImageMedia1x2|1:2|470 width x 940 height|
 |ImageMedia201X100|2.01:1|612 width x 304 height|
 |ImageMedia120X100|1.2:1|300 width x 250 height|
 |ImageMedia200X100|2:1|200 width x 100 height|
