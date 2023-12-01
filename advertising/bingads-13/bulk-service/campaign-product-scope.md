@@ -172,20 +172,20 @@ This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 > [!NOTE]
 > For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
 
-## <a name="productcondition1"></a>Product Operator 1
+## <a name="productcondition1"></a>Product Condition 1
 The condition's operand. The operands implicitly include the equal operator. For example, you can read *Brand* as *Brand=*.
 
 Use each product condition as the operand for the corresponding product value.
 
-|Product Condition (Operand)|Product Value (Attribute)|
-|----------------|-------------------------|
-|[Product Condition 1](#productcondition1)|[Product Value 1](#productvalue1)|
-|[Product Condition 2](#productcondition2)|[Product Value 2](#productvalue2)|
-|[Product Condition 3](#productcondition3)|[Product Value 3](#productvalue3)|
-|[Product Condition 4](#productcondition4)|[Product Value 4](#productvalue4)|
-|[Product Condition 5](#productcondition5)|[Product Value 5](#productvalue5)|
-|[Product Condition 6](#productcondition6)|[Product Value 6](#productvalue6)|
-|[Product Condition 7](#productcondition7)|[Product Value 7](#productvalue7)|
+|Product Condition (Operand)|Product Value (Attribute)|Product Operator (Operator)|
+|----------------|-------------------------|-------------------------|
+|[Product Condition 1](#productcondition1)|[Product Value 1](#productvalue1)|[Product Operator 1](#productoperator1)|
+|[Product Condition 2](#productcondition2)|[Product Value 2](#productvalue2)|[Product Operator 2](#productoperator2)|
+|[Product Condition 3](#productcondition3)|[Product Value 3](#productvalue3)|[Product Operator 3](#productoperator3)|
+|[Product Condition 4](#productcondition4)|[Product Value 4](#productvalue4)|[Product Operator 4](#productoperator4)|
+|[Product Condition 5](#productcondition5)|[Product Value 5](#productvalue5)|[Product Operator 5](#productoperator5)|
+|[Product Condition 6](#productcondition6)|[Product Value 6](#productvalue6)|[Product Operator 6](#productoperator6)|
+|[Product Condition 7](#productcondition7)|[Product Value 7](#productvalue7)|[Product Operator 7](#productoperator7)|
 
 Each condition is met if the product's attribute value equals the operand's attribute value. For example, if the operand is set to Brand and the attribute is set to Contoso, the condition is met if the value of the product catalog's Brand attribute is equal to Contoso. 
 
