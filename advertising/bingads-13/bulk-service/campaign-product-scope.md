@@ -58,6 +58,8 @@ var bulkCampaignProductScope = new BulkCampaignProductScope
                     Attribute = "New",
                     // 'Product Condition 1' column header in the Bulk file
                     Operand = "Condition",
+                    // 'Product Operator 1' column header in the Bulk file
+                    Operator = "Operator",
                 },
                 new ProductCondition
                 {
@@ -65,6 +67,8 @@ var bulkCampaignProductScope = new BulkCampaignProductScope
                     Attribute = "MerchantDefinedCustomLabel",
                     // 'Product Condition 2' column header in the Bulk file
                     Operand = "CustomLabel0",
+                    // 'Product Operator 2' column header in the Bulk file
+                    Operator = "Operator",
                 },
             },
         },
@@ -106,6 +110,13 @@ For a *Campaign Product Scope* record, the following attribute fields are availa
 - [Product Condition 5](#productcondition5)
 - [Product Condition 6](#productcondition6)
 - [Product Condition 7](#productcondition7)
+- [Product Operator 1](#productoperator1)
+- [Product Operator 2](#productoperator2)
+- [Product Operator 3](#productoperator3)
+- [Product Operator 4](#productoperator4)
+- [Product Operator 5](#productoperator5)
+- [Product Operator 6](#productoperator6)
+- [Product Operator 7](#productoperator7)
 - [Product Value 1](#productvalue1)
 - [Product Value 2](#productvalue2)
 - [Product Value 3](#productvalue3)
@@ -161,7 +172,7 @@ This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 > [!NOTE]
 > For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
 
-## <a name="productcondition1"></a>Product Condition 1
+## <a name="productcondition1"></a>Product Operator 1
 The condition's operand. The operands implicitly include the equal operator. For example, you can read *Brand* as *Brand=*.
 
 Use each product condition as the operand for the corresponding product value.
@@ -233,6 +244,31 @@ Supports the same values and rules as [Product Condition 1](#productcondition1).
 
 ## <a name="productcondition7"></a>Product Condition 7
 Supports the same values and rules as [Product Condition 1](#productcondition1).
+
+## <a name="productoperator1"></a>Product Operator 1
+The condition's operator value. The operator value is either *equal* or *notequal*.
+
+**Add:** Optional  
+**Update:** Read-only. You cannot update the condition or value fields. To update the conditions you must delete the campaign product scope and add a new one.    
+**Delete:** Read-only  
+
+## <a name="productoperator2"></a>Product Operator 2
+Supports the same values and rules as [Product Operator 1](#productoperator1).
+
+## <a name="productoperator3"></a>Product Operator 3
+Supports the same values and rules as [Product Operator 1](#productoperator1).
+
+## <a name="productoperator4"></a>Product Operator 4
+Supports the same values and rules as [Product Operator 1](#productoperator1).
+
+## <a name="productoperator5"></a>Product Operator 5
+Supports the same values and rules as [Product Operator 1](#productoperator1).
+
+## <a name="productoperator6"></a>Product Operator 6
+Supports the same values and rules as [Product Operator 1](#productoperator1).
+
+## <a name="productoperator7"></a>Product Operator 7
+Supports the same values and rules as [Product Operator 1](#productoperator1).
 
 ## <a name="productvalue1"></a>Product Value 1
 The condition's attribute value. An attribute's value must exactly match the value specified in the customer's Microsoft Merchant Center catalog file.
