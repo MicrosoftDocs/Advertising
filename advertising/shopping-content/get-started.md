@@ -34,7 +34,7 @@ If you don't use the Bing Ads SDK for authentication, see [Authenticating Micros
 
 ## Where to use your credentials and developer tokens?
 
-All calls must specify:
+To use credentisls and developer tokens you'll need a couple of things:
 
 - The DeveloperToken header that's set to your developer token.
 - The AuthenticationToken header that's set to your access token.
