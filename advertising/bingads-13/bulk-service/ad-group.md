@@ -477,7 +477,7 @@ If you select one of the syndicated search options, you can call the [SetNegativ
 ## <a name="parentid"></a>Parent Id
 The system-generated identifier of the campaign that contains the ad group.
 
-This bulk field maps to the *Id* field of the [Camnpaign](campaign.md) record.
+This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 
 **Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are adding new ad groups to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
