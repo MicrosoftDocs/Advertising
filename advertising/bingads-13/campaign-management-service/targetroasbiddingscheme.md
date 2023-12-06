@@ -37,7 +37,7 @@ The [TargetRoasBiddingScheme](targetroasbiddingscheme.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="maxcpc"></a>MaxCpc|The maximum cost per click that you want to spend.<br/><br/>**Add:** Optional<br/>**Update:** Optional|[Bid](bid.md)|
+|<a name="maxcpc"></a>MaxCpc|The maximum cost per click that you want to spend.<br/><br/>**Add:** Optional<br/>**Update:** Optional. The MaxCpc setting is cleared if the update value is empty.|[Bid](bid.md)|
 |<a name="targetroas"></a>TargetRoas|The target return on ad spend (ROAS) that you want used by Microsoft Advertising to maximize conversions.<br/><br/>The supported target ROAS values range from 0.01 (1 percent) to 1,000.00 (100,000 percent).<br/><br/>**Add:** Required<br/>**Update:** Optional|**double**|
 
 The [TargetRoasBiddingScheme](targetroasbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
