@@ -130,10 +130,10 @@ In the [Images](#images) element include one or more [AssetLink](assetlink.md) o
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-|Image191x100|1.91:1|703 width x 368 height|
-|Image4x1|4:1|608 width x 152 height|
-|Image1x1|1:1|470 width x 470 height|
-|Image1x2|1:2|470 width x 940 height|
+|LandscapeImageMedia|1.91:1|703 width x 368 height|
+|ImageMedia4x1|4:1|608 width x 152 height|
+|SquareImageMedia|1:1|470 width x 470 height|
+|ImageMedia1x2|1:2|470 width x 940 height|
 
 ### Multimedia ad logos
 
@@ -141,8 +141,8 @@ For multimedia ads you'll create multiple logo assets with different sizes, aspe
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-Image1x1|1:1|128 width x 128 height
-Image4x1|4:1|512 width x 128 height
+SquareImageMedia|1:1|128 width x 128 height
+ImageMedia4x1|4:1|512 width x 128 height
 
 ### Audience ad images
 
