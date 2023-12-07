@@ -15,6 +15,43 @@ dev_langs:
 # ApplyHotelGroupActions Service Operation - Campaign Management
 Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [HotelGroup](hotelgroup.md).
 
+> [!TIP]
+> For an overview and more information about Microsoft Lodging campaigns, see the [Hotel Ads](../guides/hotel-ads.md) guide. 
+
+Please note the following validation rules. 
+
+- At minimum you must specify at least the root node for the hotel listing group group tree structure. The hotel listing group group's root node must have its [Hotel Attribute](#hotelattribute) field set to "All" and [Hotel Attribute Value](#hotelattributevalue) null or empty. If you are bidding on all hotels in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific hotel attributes, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
+
+- The root node is considered level 0, and a tree can have branches up to 7 levels deep.
+
+- Per upload request, you can include a maximum of 20,000 hotel listing group tree nodes per ad group. The entire hotel listing group tree node count for an ad group cannot exceed 20,000.
+
+- The hotel listing group tree nodes for the same tree (same ad group) must be grouped together in the file.
+
+- The order of the hotel listing group nodes is not guaranteed during download, and parent nodes might be provided after child nodes; however, all nodes for the same ad group will be grouped together in the file.
+
+- If you are creating or modifying the tree structure, parent hotel listing group tree nodes must be ordered ahead of the child hotel listing group tree nodes ; however, the order does not matter for non-structural changes such as updating the bid. For example if you want to update the bids without adding, deleting, or updating the tree structure, then you only need to upload the [Id](#id), [Parent Id](#parentid), and [Bid](#bid) fields.
+
+- To update the [Hotel Attribute](#hotelattribute), [Hotel Attribute Value](#hotelattributevalue) or *Is Excluded* field, you must delete the existing hotel listing group tree node and upload a new hotel listing group tree node which will get a new identifier.
+
+- If any action fails, all remaining actions that might have otherwise succeeded will also fail.
+
+- All hotel listing group node addition and deletion actions must result in a complete tree structure.
+
+- Every path from the root node to the end of a branch must terminate with a leaf node (*Sub Type*=Unit). Every Unit must have a bid, unless the *Is Excluded* field is *true* which means that the node is a negative ad group criterion.
+
+- Every subdivision must have at least one leaf node that bids on the remainder of the subdivision's conditions, i.e. use the same operand as its sibling unit(s) and set its [Hotel Attribute Value](#hotelattributevalue) null or empty.
+
+- If you are adding partitions with multiple levels where neither the parent or child yet exist, use a negative int value as a reference to identify the parent. For example set the both the parent's *Id*, and the child's *Parent Criterion Id* field to the same negative value. The negative IDs are only valid for the duration of the call. Unique system identifiers for each successfully added ad group criterion are returned in the upload result file.
+
+- The *Bid* field is only applicable if the *Is Excluded* field is *false* which means that the node is a biddable ad group criterion. However, *Bid* is ignored for *Subdivision* partition nodes. Those elements are only relevant for *Unit* (leaf) partition nodes.
+
+- For a *Deleted* action you only need to specify the *Id* and *Parent Id*.
+
+- If you delete a parent hotel listing group, all of its children and descendants will also be deleted.
+
+- You may not specify duplicate hotel attributes in a branch. 
+
 ## <a name="request"></a>Request Elements
 The *ApplyHotelGroupActionsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 
