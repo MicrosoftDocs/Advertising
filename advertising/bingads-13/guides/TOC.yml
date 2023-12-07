@@ -1111,6 +1111,8 @@
     - name: Google Ads Import
       href: ./google-ads-import.md
       displayName: google ads import as a service
+    - name: Hotel Ads
+      href: ./hotel-ads.md
     - name: Labels
       href: ./labels.md
     - name: Mixed Campaigns
