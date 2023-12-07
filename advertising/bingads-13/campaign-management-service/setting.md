@@ -17,7 +17,7 @@ Do not try to instantiate a *Setting*. You can create one or more of the followi
 |[DisclaimerSetting](disclaimersetting.md)|[Campaign](campaign.md)|
 |[DynamicFeedSetting](dynamicsearchadssetting.md)|Reserved.|
 |[DynamicSearchAdsSetting](dynamicsearchadssetting.md)|[Campaign](campaign.md)|
-|[HotelSetting](dynamicsearchadssetting.md)|[Campaign](campaign.md)|
+|[HotelSetting](dynamicsearchadssetting.md)|[AdGroup](adgroup.md)|
 |[PerformanceMaxSetting](performancemaxsetting.md)|[Campaign](campaign.md)|
 |[ResponsiveSearchAdsSetting](dynamicsearchadssetting.md)|Reserved.|
 |[ShoppingSetting](shoppingsetting.md)|[Campaign](campaign.md)|
