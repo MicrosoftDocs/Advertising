@@ -60,21 +60,26 @@ The following campaign-level bid strategy types are available depending on the c
 
 |Bid Strategy Type|Campaign Types|
 |-------------------------|--------------------------|
+|[Commission](#commission)|Lodging|
 |[CostPerSale](#costpersale)|Shopping|
 |[EnhancedCpc](#enhancedcpc)|Search<br/>Shopping|
-|[ManualCpc](#manualcpc)|Audience|
+|[ManualCpc](#manualcpc)|Audience<br/>Lodging|
 |[ManualCpm](#manualcpm)|Audience|
 |[ManualCpv](#manualcpv)|Audience|
 |[MaxClicks](#maxclicks)|Search<br/>Shopping|
 |[MaxConversions](#maxconversions)|Audience<br/>Search<br/>Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
 |[MaxConversionValue](#maxconversionvalue)|Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
+|[PercentCpc](#percentcpc)|Lodging|
 |[TargetCpa](#targetcpa)|Search|
 |[TargetRoas](#targetroas)|Search<br/>Shopping|
 
 When you use the Bing Ads API, the default bid strategy for Search campaigns is [EnhancedCpc](#enhancedcpc). The default bid strategy for most Shopping campaigns is [EnhancedCpc](#enhancedcpc); however, the only supported bid strategy for [smart shopping campaigns](smart-shopping-campaigns.md) is MaxConversionValue. The default bid strategy for Audience campaigns is [ManualCpc](#manualcpc).  
 
 > [!IMPORTANT] 
-> With some bid strategy types, your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1). 
+> With some bid strategy types, your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1).
+
+### <a name="commission"></a>Commission
+With the Commission bid strategy, you pay a commission per stay. You set the *CommissionRate* charged to the advertiser when someone books a hotel and stays there.
 
 ### <a name="costpersale"></a>Cost per sale
 With the Cost per sale (CPS) bid strategy, you only pay when a click on your ad leads to a sale. You set the target cost per sale that you want used by Microsoft Advertising to maximize conversions.
@@ -91,7 +96,7 @@ Differing from the MaxClicks, MaxConversions, and TargetCpa bid strategies, with
 With the ManualCpc (manual cost per click) bid strategy, you set your ad group and keyword bids, and Microsoft Advertising uses these bids every time.  
 
 > [!NOTE] 
-> As of April 2021, the manual CPC bid strategy can only be used with audience campaigns. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
+> As of April 2021, the manual CPC bid strategy can only be used with audience and lodging campaigns. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
 
 ### <a name="manualcpm"></a>ManualCpm
 With the ManualCpm (manual cost per thousand impressions) bid strategy, you set the actual cost you want to pay per 1,000 viewed impressions. A viewed impression is counted when more than 50% of the ad pixels are in the user's view and the ad is viewed for at least second.
@@ -115,7 +120,10 @@ You need to have conversion tracking (a UET tag and a conversion goal) set up (o
 [Smart shopping campaigns](smart-shopping-campaigns.md) use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.
 
 > [!NOTE]
-> The MaxConversionValue bid strategy is available for [smart shopping campaigns](smart-shopping-campaigns.md). 
+> The MaxConversionValue bid strategy is available for [smart shopping campaigns](smart-shopping-campaigns.md).
+
+### <a name="percentcpc"></a>PercentCpc
+With the PercentCpc bid strategy, you set a percentage of the total hotel price per night, including taxes and fees. You set the *MaxPercentCpc*, which is the maximum effective bid limit, in absolute form, at the campaign level.
 
 ### <a name="targetcpa"></a>TargetCpa
 With the TargetCpa (cost per acquisition) bid strategy, you don't need to set ad group or keyword bids. You set your budget and your target 30-day average CPA, and Microsoft Advertising automatically sets your bids in real time to get you to this average. Some conversions may cost more than your target and some may cost less, but Microsoft Advertising will try to make sure your average cost per conversion is in line with your target.
