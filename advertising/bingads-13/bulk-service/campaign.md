@@ -122,9 +122,12 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |-----------------|---------------|
 |[Ad Schedule Use Searcher Time Zone](#adscheduleusesearchertimezone)|All|
 |[Bid Adjustment](#bidadjustment)|All|
+|[Bid Strategy Commission](#bidstrategycommission)|Hotel|
 |[Bid Strategy Id](#bidstrategyid)|Search<br>Shopping|
+|[Bid Strategy ManualCpc](#bidstrategymanualcpc)|Audience<br/>Hotel|
 |[Bid Strategy MaxCpc](#bidstrategymaxcpc)|Search<br>Shopping|
 |[Bid Strategy Name](#bidstrategyname)|Search<br>Shopping|
+|[Bid Strategy PercentCpc](#bidstrategypercentcpc)|Hotel|
 |[Bid Strategy TargetAdPosition](#bidstrategytargetadposition)|Search|
 |[Bid Strategy TargetCpa](#bidstrategytargetcpa)|Search|
 |[Bid Strategy TargetImpressionShare](#bidstrategytargetimpressionshare)|Search|
@@ -185,6 +188,17 @@ Set this field to zero (0) if you do not want any bid adjustment for audience ad
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed. If you set this field to *delete_value* then effectively the system default bid adjustment will be used. The system default bid adjustment is currently zero (0), and is subject to change.     
 **Delete:** Read-only  
 
+## <a name="bidstrategycommission"></a>Bid Strategy Commission
+The amount of commission that you want to pay per stay.
+
+The Commission bid strategy requires populating the Bid Strategy CommissionRate field.
+
+For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
+**Delete:** Read-only  
+
 ## <a name="bidstrategyid"></a>Bid Strategy Id
 The system-generated identifier of the [Bid Strategy](bid-strategy.md) that this campaign shares with other campaigns in the account.
 
@@ -197,6 +211,15 @@ If the field is empty, then the campaign is not using a portfolio bid strategy. 
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
+## <a name="bidstrategymanualcpc"></a>Bid Strategy ManualCpc
+Set your ad group and keyword bids, and Microsoft Advertising uses these bids every time.
+
+For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
+**Delete:** Read-only  
+
 ## <a name="bidstrategymaxcpc"></a>Bid Strategy MaxCpc
 The maximum cost per click that you want to spend with the corresponding bid strategy type. 
 
@@ -205,7 +228,7 @@ This field is only used if the [Bid Strategy Type](#bidstrategytype) field is se
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.   
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
 **Delete:** Read-only  
 
 ## <a name="bidstrategyname"></a>Bid Strategy Name
@@ -215,6 +238,17 @@ If the field is empty, then the campaign is not using a portfolio bid strategy.
 
 **Add:** Read-only  
 **Update:** Read-only  
+**Delete:** Read-only  
+
+## <a name="bidstrategypercentcpc"></a>Bid Strategy PercentCpc
+A percentage of the total hotel price per night, including taxes and fees.
+
+The PercentCPC bid strategy requires populating the Bid Strategy PercentMaxCPC field.
+
+For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
 **Delete:** Read-only  
 
 ## <a name="bidstrategytargetadposition"></a>Bid Strategy TargetAdPosition
@@ -266,16 +300,22 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 ## <a name="bidstrategytype"></a>Bid Strategy Type
 The bid strategy type for how you want to manage your bids.  
 
-The possible bid strategy type values are EnhancedCpc, ManualCpc, MaxClicks, MaxConversions, TargetCpa, TargetImpressionShare, and TargetRoas. For details about supported bid strategies per campaign type, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
+The possible bid strategy type values are Commission, EnhancedCpc, ManualCpc, MaxClicks, MaxConversions, PercentCpc, TargetCpa, TargetImpressionShare, and TargetRoas. For details about supported bid strategies per campaign type, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
 > [!IMPORTANT]
 > As of April 2021, the manual CPC bid strategy can only be used with audience campaigns. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
 > 
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy. 
+
+If you use the "Commission" bid strategy type, then you can optionally include the [Bid Strategy Commission](#bidstrategycommission) field.
+
+If you use the "ManualCpc" bid strategy type, then you can optionally include the [Bid Strategy ManualCpc](#bidstrategymanualcpc) field.
   
 If you use the "MaxClicks" bid strategy type, then you can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
 
 If you use the "MaxConversions" bid strategy type, then you can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
+
+If you use the "PercentCpc" bid strategy type, then you can optionally include the [Bid Strategy PercentCpc](#bidstrategypercentcpc) field.
 
 If you use the "TargetCpa" bid strategy type, then you must include the [Bid Strategy TargetCpa](#bidstrategytargetcpa) field.
 

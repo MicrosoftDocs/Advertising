@@ -584,6 +584,9 @@
     - name: Account Action Ad Extension
       href: ../bulk-service/account-action-ad-extension.md
       displayName: BulkAccountActionAdExtension
+    - name: Ad Group Advance Booking Window Criterion
+      href: ../bulk-service/ad-group-advance-booking-window-criterion.md
+      displayName: BulkAdGroupAdvanceBookingWindowCriterion
     - name: Account App Ad Extension
       href: ../bulk-service/account-app-ad-extension.md
       displayName: BulkAccountAppAdExtension
@@ -638,6 +641,12 @@
     - name: Ad Group Callout Ad Extension
       href: ../bulk-service/ad-group-callout-ad-extension.md
       displayName: BulkAdGroupCalloutAdExtension
+    - name: Ad Group Check In Day Criterion
+      href: ../bulk-service/ad-group-check-in-day-criterion.md
+      displayName: BulkAdGroupCheckInDayCriterion
+    - name: Ad Group Check In Date Criterion
+      href: ../bulk-service/ad-group-check-in-date-criterion.md
+      displayName: BulkAdGroupCheckInDateCriterion
     - name: Ad Group Combined List Association
       href: ../bulk-service/ad-group-combined-list-association.md
       displayName: BulkAdGroupCombinedListAssociation
@@ -668,6 +677,9 @@
     - name: Ad Group Flyer Ad Extension
       href: ../bulk-service/ad-group-flyer-ad-extension.md
       displayName: BulkAdGroupFlyerAdExtension
+    - name: Ad Group Hotel Date Selection Type Criterion
+      href: ../bulk-service/ad-group-hotel-date-selection-type-criterion.md
+      displayName: BulkAdGroupHotelDateSelectionTypeCriterion
     - name: Ad Group Hotel Listing Group
       href: ../bulk-service/ad-group-hotel-listing-group.md
       displayName: BulkAdGroupHotelListingGroup
@@ -686,6 +698,9 @@
     - name: Ad Group Label
       href: ../bulk-service/ad-group-label.md
       displayName: BulkAdGroupLabel
+    - name: Ad Group Length Of Stay Criterion
+      href: ../bulk-service/ad-group-length-of-stay-criterion.md
+      displayName: BulkAdGroupLengthOfStayCriterion
     - name: Ad Group Location Criterion
       href: ../bulk-service/ad-group-location-criterion.md
       displayName: BulkAdGroupLocationCriterion

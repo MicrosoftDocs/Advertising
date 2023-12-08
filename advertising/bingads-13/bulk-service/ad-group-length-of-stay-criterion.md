@@ -1,43 +1,28 @@
 ---
-title: "Ad Group Location Criterion Record - Bulk"
+title: "Ad Group Length Of Stay Criterion Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-description: Describes the Ad Group Location Criterion fields in a Bulk file.
+description: Describes the Ad Group Length Of Stay Criterion fields in a Bulk file.
 dev_langs:
   - csharp
 ---
-# Ad Group Location Criterion Record - Bulk
-Defines an ad group location criterion that can be uploaded and downloaded in a bulk file.
-
-With location criterions, you can choose to show ads to potential customers in, searching for, or viewing pages about:
-*  All available countries/regions
-*  Selected cities, zip codes, metro areas (Nielsen DMA&reg; in the United States), counties, states/provinces, and countries/regions
-
-Each location criterion defines a location code for the accompanying criterion bid adjustment.
-
-The maximum number of combined location and negative location criterions that you can specify per campaign or ad group is 10,000.  
-
-> [!NOTE]
-> You can only have one [Ad Group Location Intent Criterion](ad-group-location-intent-criterion.md) record per ad group to determine the location intent option that applies for all of the ad group's [Ad Group Location Criterion](ad-group-location-criterion.md) and [Ad Group Radius Criterion](ad-group-radius-criterion.md) records. When you create the ad group's first criterion, an [Ad Group Location Intent Criterion](ad-group-location-intent-criterion.md) record will also be added automatically with the default *Target* set to *PeopleInOrSearchingForOrViewingPages*. You can add or update an ad group's [Ad Group Location Intent Criterion](ad-group-location-intent-criterion.md), whether or not the ad group has any other criterions. You cannot delete an ad group's [Ad Group Location Intent Criterion](ad-group-location-intent-criterion.md), although it has no purpose without location or radius criterions. 
-
-If ad group level location criterions are specified (positive or negative), the campaign level location criterions are ignored for that ad group. In other words the ad group location criterions override the campaign location criterions, and are not applied as a union.  
-
-Also note that you must consider the location, negative location, and radius criterions as a set of *geo criterions*. If the ad group has any geo criterions, then none of the campaign's geo criterions are inherited. If the ad group doesn't have any geo criterions, then all of the campaign's geo criterions are inherited. The geo criterions can be inherited from the campaign even if the ad group has a location intent criterion. If the ad group's geo criterions are used, then the ad group's location intent criterion is used; if the campaign's geo criterions are inherited, then the campaign's location intent criterion is used and the ad group's location intent criterion is ignored. You cannot delete a campaign or ad group's location intent criterion, although it has no purpose without location or radius criterions. 
+# Ad Group Length Of Stay Criterion Record - Bulk
+Defines an ad group length of stay criterion that can be uploaded and downloaded in a bulk file.
 
 > [!TIP]
 > For an overview of how to use target criterions, see [Show Ads to Your Target Audience](../guides/show-ads-target-audience.md).
 
-You can download all *Ad Group Location Criterion* records in the account by including the [DownloadEntity](downloadentity.md) value of *AdGroupTargetCriterions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Ad Group Length Of Stay Criterion* records in the account by including the [DownloadEntity](downloadentity.md) value of *AdGroupTargetCriterions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new ad group location criterion if a valid [Parent Id](#parentid) value is provided. 
+The following Bulk CSV example would add a new ad group location criterion if a valid [Parent Id](#parentid) value is provided.
 
 ```csv
-Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Client Id,Modified Time,Target,Bid Adjustment,Name,OS Names,Radius,Unit,From Hour,From Minute,To Hour,To Minute,Latitude,Longitude
-Format Version,,,,,,,,,,,6.0,,,,,,,,,
-Ad Group Location Criterion,Active,,-1111,Country,,,ClientIdGoesHere,,190,20,,,,,,,,,,
+Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Client Id,Modified Time,Bid Adjustment,Target,Min Target Value,Max Target Value,Name
+Format Version,,,,,,,,,,,,,6
+Ad Group Length of Stay Criterion,Active,,-1111,,,,ClientIdGoesHere,,10,,5,10,
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkAdGroupLocationCriterion* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.

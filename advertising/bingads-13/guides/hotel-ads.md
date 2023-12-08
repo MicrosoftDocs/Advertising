@@ -42,12 +42,12 @@ To create a Microsoft Lodging campaign, follow these steps.
 3. Optionally, you can add Bid Modifier criterions if you wish to change your bid for various properties. These criterions will be a separate row *per criterion*, *per Ad Group* for each criterion that you wish to use. Lodging campaigns support the following criterions:
     - [Campaign Location Criterion](../bulk-service/campaign-location-criterion.md)
         - This is built on Campaign level, not Ad group level
+    - [Ad Group Advance Booking Window Criterion](../bulk-service/ad-group-advance-booking-window-criterion.md)
+    - [Ad Group Check In Date Criterion](../bulk-service/ad-group-check-in-date-criterion.md)
+    - [Ad Group Check In Day Criterion](../bulk-service/ad-group-check-in-day-criterion.md)
     - [Ad Group DeviceOS Criterion](../bulk-service/ad-group-deviceos-criterion.md)
-    - Ad Group Check In Date Criterion
-    - Ad Group Check In Day Criterion
-    - Ad Group Advance Booking Window Criterion
-    - Ad Group Hotel Date Selection Type Criterion
-    - Ad Group Length Of Stay Criterion
+    - [Ad Group Hotel Date Selection Type Criterion](../bulk-service/ad-group-hotel-date-selection-type-criterion.md)
+    - [Ad Group Length Of Stay Criterion](../bulk-service/ad-group-length-of-stay-criterion.md)
 
 4. Upload one or more [Ad Group Hotel Listing Group](../bulk-service/ad-group-hotel-listing-group.md) records which represent listing group nodes in a tree structure that will be used to further refine the lodging property offers. Duplicate or conflicting lodging property filters attempted within an ad group's hotel listing group will fail during the upload operation.  
 
