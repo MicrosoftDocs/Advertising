@@ -12,7 +12,7 @@ dev_langs:
 # Asset Group Listing Group Record - Bulk
 Defines an asset group listing group that can be uploaded and downloaded in a bulk file.
 
-You can download all *Asset Group Listing Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AssetGroupListingGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. To include the [Keyword Relevance](#keywordrelevance), [Landing Page Relevance](#landingpagerelevance), [Landing Page User Experience](#landingpageuserexperience), and [Quality Score](#qualityscore) fields within the downloaded *Campaign* records, you must also include the [QualityScoreData](datascope.md#qualityscoredata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Asset Group Listing Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AssetGroupListingGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 <!--The following Bulk CSV example would add a new asset group listing group if the correct campaign Id would be provided. 
 
