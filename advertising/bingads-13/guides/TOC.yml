@@ -797,6 +797,15 @@
     - name: App Install Ad Label
       href: ../bulk-service/app-install-ad-label.md
       displayName: BulkAppInstallAdLabel
+    - name: Asset Group Listing Group
+      href: ../bulk-service/asset-group-listing-group.md
+      displayName: BulkAssetGroupListingGroup
+    - name: Audience Group 
+      href: ../bulk-service/audience-group.md
+      displayName: BulkAudienceGroup
+    - name: Audience Group Asset Group Asssociation
+      href: ../bulk-service/audience-group-asset-group-association.md
+      displayName: BulkAudienceGroupAssetGroupAssociation
     - name: Bid Strategy
       href: ../bulk-service/bid-strategy.md
       displayName: BulkBidStrategy
@@ -923,6 +932,9 @@
     - name: Campaign Negative Store Criterion
       href: ../bulk-service/campaign-negative-store-criterion.md
       displayName: BulkCampaignNegativeStoreCriterion
+    - name: Campaign Negative Webpage
+      href: ../bulk-service/campaign-negative-webpage.md
+      displayName: BulkCampaignNegativeWebpage
     - name: Campaign Price Ad Extension
       href: ../bulk-service/campaign-price-ad-extension.md
       displayName: BulkCampaignPriceAdExtension
