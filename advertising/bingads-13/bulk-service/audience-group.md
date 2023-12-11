@@ -12,7 +12,7 @@ dev_langs:
 # Audience Group Record - Bulk
 Defines an audience group that can be uploaded and downloaded in a bulk file.
 
-You can download all *Audience Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AudienceGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. To include the [Keyword Relevance](#keywordrelevance), [Landing Page Relevance](#landingpagerelevance), [Landing Page User Experience](#landingpageuserexperience), and [Quality Score](#qualityscore) fields within the downloaded *Campaign* records, you must also include the [QualityScoreData](datascope.md#qualityscoredata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Audience Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AudienceGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 <!--The following Bulk CSV example would add a new audience group if the correct campaign Id would be provided. 
 
@@ -162,7 +162,7 @@ The name must be unique among all active audience groups within the campaign. Th
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
-## <a name="Audiences"></a>Audiences
+## <a name="audiences"></a>Audiences
 The list of Audience IDs, delimited by semicolon.  
 
 **Add:** Optional  
@@ -214,9 +214,6 @@ The account ID.
 **Add:** Optional  
 **Update:** Optional  
 **Delete:** Optional  
-
-> [!NOTE]
-> For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
 
 ## <a name="status"></a>Status
 The status of the audience group.
