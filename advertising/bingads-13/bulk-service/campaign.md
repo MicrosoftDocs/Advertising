@@ -99,6 +99,8 @@ var bulkCampaign = new BulkCampaign
                 },
             },
         },
+        // 'URL Expansion Opt Out' column header in the Bulk file
+        UrlExpansionOptOut = false,
     },
 };
 
@@ -163,6 +165,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Sub Type](#subtype)|Shopping|
 |[Target Setting](#targetsetting)|All|
 |[Tracking Template](#trackingtemplate)|All|
+|[URL Expansion Opt Out](#urlexpansionoptout)|Performance Max|
 |[Website](#website)|Search|
 
 ## <a name="adscheduleusesearchertimezone"></a>Ad Schedule Use Searcher Time Zone
@@ -263,18 +266,18 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 **Delete:** Read-only  
 
 ## <a name="bidstrategytargetcpa"></a>Bid Strategy TargetCpa
-The target cost per acquisition (CPA) that you want used by Microsoft Advertising to maximize conversions. 
+The target cost per acquisition (CPA) that you want used by Microsoft Advertising to maximize conversions.
 
-This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*, and otherwise this field is ignored.
+For Performance Max campaigns, this field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *MaxConversion*. For all other campaigns, this field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*. Otherwise, this field is ignored.
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
-**Add:** Required if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*, and otherwise this field is ignored.   
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Add:** Optional for Performance Max campaigns if the [Bid Strategy Type](#bidstrategytype) field is set to *MaxConversion*. Required for all other campaigns if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*. Otherwise, this field is ignored.
+**Update:** Optional. If no value is set for the update, this setting is not changed.
 **Delete:** Read-only  
 
 ## <a name="bidstrategytargetimpressionshare"></a>Bid Strategy TargetImpressionShare
-The target impression share for the ad position where you want your ads to appear. 
+The target impression share for the ad position where you want your ads to appear.
 
 This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetImpressionShare*, and otherwise this field is ignored.
 
@@ -289,11 +292,11 @@ The target return on ad spend (ROAS) that you want used by Microsoft Advertising
 
 The supported target ROAS values range from 0.01 (1 percent) to 1,000.00 (100,000 percent).  
 
-This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetRoas*, and otherwise this field is ignored.  
+For Performance Max campaigns, this field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *MaxConversionValue*. For all other campaigns, this field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetRoas*. Otherwise, this field is ignored.  
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
-**Add:** Required if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetRoas*, and otherwise this field is ignored.   
+**Add:** Optional for Performance Max campaigns if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetRoas*. Required for all other campaigns if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetRoas*. Otherwise, this field is ignored.
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
@@ -748,7 +751,6 @@ An entity such as a remarketing list can be associated with multiple campaigns, 
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all criterion type group names, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of criterion type group names, specify the criterion type group names that you want to keep and omit any that you do not want to keep. The new set of criterion type group names will replace any previous criterion groups that were set for the campaign.    
 **Delete:** Read-only  
 
-
 ## <a name="trackingtemplate"></a>Tracking Template
 The tracking template to use as a default for all URLs in your campaign.
 
@@ -764,6 +766,13 @@ The following validation rules apply to tracking templates. For more details abo
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
+**Delete:** Read-only  
+
+## <a name="urlexpansionoptout"></a>URL Expansion Opt out
+If *false*, then the entire domain will be targeted, and ad assets will be dynamically generated to match landing page content. If *true* (opted-out), then only the final URLs and assets in the asset groups and feed will be targeted. This field only applies to Performance Max campaigns.
+
+**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* is set.
+**Update:** Optional. If no value is set for the update, this setting is not changed.
 **Delete:** Read-only  
 
 ## <a name="website"></a>Website
