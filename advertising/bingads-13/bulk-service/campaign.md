@@ -131,9 +131,9 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Bid Strategy Name](#bidstrategyname)|Search<br>Shopping|
 |[Bid Strategy PercentCpc](#bidstrategypercentcpc)|Lodging|
 |[Bid Strategy TargetAdPosition](#bidstrategytargetadposition)|Search|
-|[Bid Strategy TargetCpa](#bidstrategytargetcpa)|Search|
+|[Bid Strategy TargetCpa](#bidstrategytargetcpa)|Performance Max<br/>Search|
 |[Bid Strategy TargetImpressionShare](#bidstrategytargetimpressionshare)|Search|
-|[Bid Strategy TargetRoas](#bidstrategytargetroas)|Search<br>Shopping|
+|[Bid Strategy TargetRoas](#bidstrategytargetroas)|Performance Max<br/>Search<br>Shopping|
 |[Bid Strategy Type](#bidstrategytype)|All|
 |[Budget](#budget)|All|
 |[Budget Id](#budgetid)|All|
