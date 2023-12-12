@@ -797,6 +797,9 @@
     - name: App Install Ad Label
       href: ../bulk-service/app-install-ad-label.md
       displayName: BulkAppInstallAdLabel
+    - name: Asset Group
+      href: ../bulk-service/asset-group.md
+      displayName: BulkAssetGroup
     - name: Asset Group Listing Group
       href: ../bulk-service/asset-group-listing-group.md
       displayName: BulkAssetGroupListingGroup
