@@ -15,11 +15,11 @@ Do not try to instantiate a *Setting*. You can create one or more of the followi
 |Setting|Supported Entity|
 |-----|-----|
 |[DisclaimerSetting](disclaimersetting.md)|[Campaign](campaign.md)|
-|[DynamicFeedSetting](dynamicsearchadssetting.md)|Reserved.|
+|[DynamicFeedSetting](dynamicsearchadssetting.md)|[Campaign](campaign.md)|
 |[DynamicSearchAdsSetting](dynamicsearchadssetting.md)|[Campaign](campaign.md)|
 |[HotelSetting](hotelsetting.md)|[AdGroup](adgroup.md)|
 |[PerformanceMaxSetting](performancemaxsetting.md)|[Campaign](campaign.md)|
-|[ResponsiveSearchAdsSetting](dynamicsearchadssetting.md)|Reserved.|
+|[ResponsiveSearchAdsSetting](responsivesearchadssetting.md)|[Campaign](campaign.md)|
 |[ShoppingSetting](shoppingsetting.md)|[Campaign](campaign.md)|
 |[TargetSetting](targetsetting.md)|[Campaign](campaign.md)<br/><br/>[AdGroup](adgroup.md)|
 |[VerifiedTrackingSetting](verifiedtrackingsetting.md)|[Campaign](campaign.md)|
