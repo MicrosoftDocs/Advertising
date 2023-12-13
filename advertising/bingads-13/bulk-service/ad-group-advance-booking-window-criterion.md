@@ -17,7 +17,7 @@ Defines an ad group advance booking window criterion that can be uploaded and do
 
 You can download all *Ad Group Advance Booking Window Criterion* records in the account by including the [DownloadEntity](downloadentity.md) value of *AdGroupTargetCriterions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new ad group location criterion if a valid [Parent Id](#parentid) value is provided.
+The following Bulk CSV example would add a new ad group advance booking window criterion if a valid [Parent Id](#parentid) value is provided.
 
 ```csv
 Type,Status,Id,Parent Id,Sub Type,Campaign,Ad Group,Client Id,Modified Time,Bid Adjustment,Target,Min Target Value,Max Target Value,Name
@@ -25,13 +25,13 @@ Format Version,,,,,,,,,,,,,6
 Ad Group Advance Booking Window Criterion,Active,,-1111,,,,ClientIdGoesHere,,10,,5,10,
 ```
 
-If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkAdGroupLocationCriterion* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.
+If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkAdGroupAdvanceBookingWindowCriterion* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.
 
 ```csharp
 var uploadEntities = new List<BulkEntity>();
 
-// Map properties in the Bulk file to the BulkAdGroupLocationCriterion
-var bulkAdGroupLocationCriterion = new BulkAdGroupLocationCriterion
+// Map properties in the Bulk file to the BulkAdGroupAdvanceBookingWindowCriterion
+var bulkAdGroupAdvanceBookingWindowCriterion = new BulkAdGroupAdvanceBookingWindowCriterion
 {
     // 'Ad Group' column header in the Bulk file is read-only
     AdGroupName = null,
@@ -50,13 +50,13 @@ var bulkAdGroupLocationCriterion = new BulkAdGroupLocationCriterion
         // 'Parent Id' column header in the Bulk file
         AdGroupId = adGroupIdKey,
 
-        Criterion = new LocationCriterion
+        Criterion = new AdvanceBookingWindowCriterion
         {
-            // 'Target' column header in the Bulk file
-            LocationId = 190,
+            // 'MinDays' column header in the Bulk file
+            MinDays = 2,
 
-            // 'Sub Type' column header in the Bulk file
-            LocationType = "Country"
+            // 'MaxDays' column header in the Bulk file
+            MaxDays = 5
         },
 
         CriterionBid = new BidMultiplier
@@ -73,7 +73,7 @@ var bulkAdGroupLocationCriterion = new BulkAdGroupLocationCriterion
     }
 };
 
-uploadEntities.Add(bulkAdGroupLocationCriterion);
+uploadEntities.Add(bulkAdGroupAdvanceBookingWindowCriterion);
 
 var entityUploadParameters = new EntityUploadParameters
 {
@@ -87,7 +87,7 @@ var entityUploadParameters = new EntityUploadParameters
 var uploadResultEntities = (await BulkServiceManager.UploadEntitiesAsync(entityUploadParameters)).ToList();
 ```
 
-For an *Ad Group Location Criterion* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For an *Ad Group Advance Booking Window Criterion* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
 
 - [Ad Group](#adgroup)
 - [Bid Adjustment](#bidadjustment)
@@ -161,27 +161,17 @@ Represents the association status between the ad group and the criterion. If the
 
 **Add:** Read-only. The status will always be set to *Active* when you add criterions. If you upload another value e.g., *Foo* the result file will contain the same value although the criterion is active.  
 **Update:** Optional  
-**Delete:** Required. The Status must be set to *Deleted*. To delete a specific location criterion bid, you must upload the [Status](#status), [Id](#id), and [Parent Id](#parentid). 
+**Delete:** Required. The Status must be set to *Deleted*. To delete a specific advance booking window criterion bid, you must upload the [Status](#status), [Id](#id), and [Parent Id](#parentid). 
 
 ## <a name="subtype"></a>Sub Type
-The location sub type that you are targeting. For example the value is *City* if the record represents a city location criterion.
-
-> [!NOTE]
-> Neighborhood locations are coming soon. The sub type will be *Neighborhood*. 
-
-New location sub types can be added anytime. Rarely will the location type change for a given location ID. 
+The advance booking window sub type that you are targeting.
 
 **Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
 
 ## <a name="target"></a>Target
-The identifier of the location that you want to target with the corresponding *Bid Adjustment*. 
-
-For possible values, see the *Location Id* field of the [geographical locations file](../guides/geographical-location-codes.md). You can call the [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md) operation to download the file. 
-
-> [!IMPORTANT]
-> Please check the *Status* field in the [geographical locations file](../guides/geographical-location-codes.md) before adding or updating a location criterion. If the status is *PendingDeprecation*, the location criterion is no longer used for targeting or exclusions. Deprecated location criteria can still be retrieved, but you cannot add or update deprecated location criteria.  
+The identifier of the advance booking window that you want to target with the corresponding *Bid Adjustment*.
 
 **Add:** Required  
 **Update:** Required  
