@@ -11,9 +11,6 @@ description: A portfolio bid strategy is an automated bidding feature that manag
 A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.  
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
-
-> [!NOTE]
 > You can set individual campaign level bid strategies using the [AddCampaigns](addcampaigns.md) and [UpdateCampaigns](updatecampaigns.md) operations.  
 
 We automatically adjust your bids to balance under- and over-performing campaigns that share the same strategy, whether to maximize conversions, clicks, target impression share, or other performance goals. Portfolio bid strategies could be a great option for advertisers who want to make sure their entire budgets are spent efficiently.
@@ -28,9 +25,9 @@ Portfolio bid strategies work best with one goal in mind, using complementary ca
 |-----|-----|
 |Maximize clicks|Search, Shopping|
 |Maximize conversions|Search|
-|Target CPA|Search|
+|Target CPA|Performance Max, Search|
 |Target impression share|Search|
-|Target ROAS|Search, Shopping|
+|Target ROAS|Performance Max, Search, Shopping|
 
 ## Syntax
 ```xml
