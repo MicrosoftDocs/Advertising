@@ -124,12 +124,12 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |-----------------|---------------|
 |[Ad Schedule Use Searcher Time Zone](#adscheduleusesearchertimezone)|All|
 |[Bid Adjustment](#bidadjustment)|All|
-|[Bid Strategy Commission](#bidstrategycommission)|Lodging|
+|[Bid Strategy Commission](#bidstrategycommission)|Hotel|
 |[Bid Strategy Id](#bidstrategyid)|Search<br>Shopping|
-|[Bid Strategy ManualCpc](#bidstrategymanualcpc)|Audience<br/>Lodging|
+|[Bid Strategy ManualCpc](#bidstrategymanualcpc)|Audience<br/>Hotel|
 |[Bid Strategy MaxCpc](#bidstrategymaxcpc)|Search<br>Shopping|
 |[Bid Strategy Name](#bidstrategyname)|Search<br>Shopping|
-|[Bid Strategy PercentCpc](#bidstrategypercentcpc)|Lodging|
+|[Bid Strategy PercentCpc](#bidstrategypercentcpc)|Hotel|
 |[Bid Strategy TargetAdPosition](#bidstrategytargetadposition)|Search|
 |[Bid Strategy TargetCpa](#bidstrategytargetcpa)|Performance Max<br/>Search|
 |[Bid Strategy TargetImpressionShare](#bidstrategytargetimpressionshare)|Search|
