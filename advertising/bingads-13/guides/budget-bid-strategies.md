@@ -60,16 +60,16 @@ The following campaign-level bid strategy types are available depending on the c
 
 |Bid Strategy Type|Campaign Types|
 |-------------------------|--------------------------|
-|[Commission](#commission)|Lodging|
+|[Commission](#commission)|Hotel|
 |[CostPerSale](#costpersale)|Shopping|
 |[EnhancedCpc](#enhancedcpc)|Search<br/>Shopping|
-|[ManualCpc](#manualcpc)|Audience<br/>Lodging|
+|[ManualCpc](#manualcpc)|Audience<br/>Hotel|
 |[ManualCpm](#manualcpm)|Audience|
 |[ManualCpv](#manualcpv)|Audience|
 |[MaxClicks](#maxclicks)|Search<br/>Shopping|
 |[MaxConversions](#maxconversions)|Audience<br/>Search<br/>Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
 |[MaxConversionValue](#maxconversionvalue)|Shopping ([smart shopping](smart-shopping-campaigns.md))<br/>Performance Max|
-|[PercentCpc](#percentcpc)|Lodging|
+|[PercentCpc](#percentcpc)|Hotel|
 |[TargetCpa](#targetcpa)|Search|
 |[TargetRoas](#targetroas)|Search<br/>Shopping|
 
