@@ -25,7 +25,7 @@ The *SetAudienceGroupAssetGroupAssociationsRequest* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencegroupassetgroupassociations"></a>AudienceGroupAssetGroupAssociations|The list of Audience Group associations to set.  <br /><br />The maximum size of the list is 100 items per service request.<br/><br/>Only 1 audience group can be associated to each asset group. *Note*: You will overwrite an existing association if you set a new one. AudienceGroupAssetGroupAssociation will update with the new audience group.|[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) array|
+|<a name="audiencegroupassetgroupassociations"></a>AudienceGroupAssetGroupAssociations|The list of Audience Group associations to set.  <br /><br />The maximum size of the list is 100 items per service request.<br/><br/>Only 1 audience group can be associated to each asset group.<br/><br/>*Note*: You will overwrite an existing association if you set a new one. *AudienceGroupAssetGroupAssociation* will update with the new audience group.|[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
