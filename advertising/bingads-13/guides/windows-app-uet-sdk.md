@@ -28,6 +28,8 @@ For Universal Windows Platform applications, [download the Windows App UET SDK N
 
 For Win32 applications, [download the Windows App UET SDK NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk.Win32).
 
+For PWA applications, [download the Windows App UET SDK NPM package](https://www.npmjs.com/package/@bing-ads/uet-pwa-sdk).
+
 <!-- ### <a name="requirements"></a>Requirements
 
 You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). 
@@ -181,6 +183,16 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         } 
 ```
 
+Here is an example of Windows App UET SDK usage in Javascript for a PWA app:
+
+**Initialize Windows App UET SDK at application level on app launch by providing UET tagId.**
+
+```javascript
+const event = { 
+  ti: "<tag_id>", 
+}; 
+```
+
 **In order to track goals make use of TrackGoal API of created SDK object.**
 
 ```C#
@@ -195,6 +207,10 @@ public sealed partial class MainPage : Page
 
 ```cpp
 uetSdk->TrackGoal(L"click", L"Buy Coins", L"Other", 5, L"USD");
+```
+
+```javascript
+sendEvent(event);
 ```
 
 ### <a name="cpluspluswinrt"></a>Consuming UET SDK from C++/WinRT app
