@@ -84,6 +84,12 @@ var bulkOfflineConversion = new BulkOfflineConversion
 
     // 'External Attribution Model' column header in the Bulk file
     ExternalAttributionModel = null,
+
+    // 'Hashed Email Address' column header in the Bulk file
+    HashedEmailAddress = null,
+
+    // 'Hashed Phone Number' column header in the Bulk file
+    HashedPhoneNumber = null
 };
 
 uploadEntities.Add(bulkOfflineConversion);
