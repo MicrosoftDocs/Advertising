@@ -60,8 +60,8 @@ The [CampaignAdditionalField](campaignadditionalfield.md) value set has the foll
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [Campaign](campaign.md) object.|
 |<a name="pagefeedinperformancemaxsettings"></a>PageFeedInPerformanceMaxSettings|Reserved.|
 |<a name="responsivesearchadssetting"></a>ResponsiveSearchAdsSetting|Reserved.|
-|<a name="shoppingsettingfeedlabel"></a>ShoppingSettingFeedLabel|Reserved.|
-|<a name="shoppingsettingshoppableadsenabled"></a>ShoppingSettingShoppableAdsEnabled|Reserved.|
+|<a name="shoppingsettingfeedlabel"></a>ShoppingSettingFeedLabel|Request that the FeedLabel element be returned within the [ShoppingSetting](shoppingsetting.md) object of each returned [Campaign](campaign.md) object.|
+|<a name="shoppingsettingshoppableadsenabled"></a>ShoppingSettingShoppableAdsEnabled|Request that the ShoppableAdsEnabled element be returned within the [ShoppingSetting](shoppingsetting.md) object of each returned [Campaign](campaign.md) object.|
 |<a name="targetcpainmaxconversion"></a>TargetCpaInMaxConversion|Reserved.|
 |<a name="targetimpressionsharebiddingscheme"></a>TargetImpressionShareBiddingScheme|Request that the [TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="targetsetting"></a>TargetSetting|Request that the [TargetSetting](targetsetting.md) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|
