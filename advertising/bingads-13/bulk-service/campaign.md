@@ -125,6 +125,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Ad Schedule Use Searcher Time Zone](#adscheduleusesearchertimezone)|All|
 |[Bid Adjustment](#bidadjustment)|All|
 |[Bid Strategy Commission](#bidstrategycommission)|Hotel|
+|[Bid Strategy CostPerSale](#bidstrategycostpersale)|Performance Max<br/>Shopping|
 |[Bid Strategy Id](#bidstrategyid)|Search<br>Shopping|
 |[Bid Strategy ManualCpc](#bidstrategymanualcpc)|Audience<br/>Hotel|
 |[Bid Strategy MaxCpc](#bidstrategymaxcpc)|Search<br>Shopping|
@@ -147,6 +148,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Domain Language](#domainlanguage)|Search|
 |[Dynamic Description Enabled](#dynamicdescriptionenabled)|Search|
 |[Experiment Id](#experimentid)|Search|
+|[Feed Label](#feedlabel)|Performance Max<br/><br/>Search|
 |[Final Url Suffix](#finalurlsuffix)|All|
 |[Id](#id)|All|
 |[Keyword Relevance](#keywordrelevance)|All|
@@ -195,6 +197,15 @@ Set this field to zero (0) if you do not want any bid adjustment for audience ad
 The amount of commission that you want to pay per stay.
 
 The Commission bid strategy requires populating the Bid Strategy CommissionRate field.
+
+For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
+**Delete:** Read-only  
+
+## <a name="bidstrategycostpersale"></a>Bid Strategy CostPerSale
+The target cost per sale (CPS) that you want used by Microsoft Advertising to maximize conversions.
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
@@ -311,6 +322,8 @@ The possible bid strategy type values are Commission, EnhancedCpc, ManualCpc, Ma
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy. 
 
 If you use the "Commission" bid strategy type, then you can optionally include the [Bid Strategy Commission](#bidstrategycommission) field.
+
+If you use the "CostPerSale" bid strategy type, then you can optionally include the [Bid Strategy CostPerSale](#bidstrategycostpersale) field.
 
 If you use the "ManualCpc" bid strategy type, then you can optionally include the [Bid Strategy ManualCpc](#bidstrategymanualcpc) field.
   
@@ -495,6 +508,13 @@ With experiment campaigns you cannot update the [Budget](#budget), [Budget Type]
 
 **Add:** Read-only  
 **Update:** Read-only  
+**Delete:** Read-only  
+
+## <a name="feedlabel"></a>Feed Label
+Lets you advertise all products with the same feed label in a Shopping or Performance Max campaign.<br/><ul><li>There can only be one feed label per campaign.</li> <li>*FeedLabel* and *SalesCountryCode* are mutually exclusive You can set only one of these properties.</li><li>Each feed label can have a maximum of 20 characters.</li><li>You can't use *FeedLabel* with Shopping CoOp campaigns.</ul>
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="finalurlsuffix"></a>Final Url Suffix
