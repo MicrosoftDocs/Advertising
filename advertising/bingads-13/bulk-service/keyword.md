@@ -385,6 +385,8 @@ The type of match to compare the keyword and the user's search term.
 
 The supported match type values for a keyword are *Broad*, *Exact* and *Phrase*.
 
+*Note*: If you've enabled Predictive targeting for your Search campaign, the match type is "Predictive". In this case, you can't add, update, and delete the match type because we use predictive targeting to match your ads with relevant search queries.
+
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
