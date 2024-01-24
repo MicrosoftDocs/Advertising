@@ -188,6 +188,8 @@ Here is an example of Windows App UET SDK usage in Javascript for a PWA app:
 **Initialize Windows App UET SDK at application level on app launch by providing UET tagId.**
 
 ```javascript
+import UETPWASDK from '@bing-ads/uet-pwa-sdk';
+
 const uet = new UETPWASDK ({ 
     ti: "<tag_id>" 
 });
