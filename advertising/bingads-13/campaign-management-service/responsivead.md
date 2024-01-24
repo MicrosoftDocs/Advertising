@@ -151,7 +151,7 @@ For audience ads you'll create multiple image assets with different sizes, aspec
 In the [Images](#images) element include one or more [AssetLink](assetlink.md) objects. Each asset link contains an [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to one of the string values in the table below.
 
 > [!NOTE]
-> The sub types in the table below for Multimedia ads version 2 and are currently in pilot.
+> The image sub types and in the table below for Audience ads version 2 and are currently in pilot.
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
@@ -166,7 +166,7 @@ In the [Images](#images) element include one or more [AssetLink](assetlink.md) o
 |ImageMedia153X100|1.53:1|306 width x 200 height|
 
 > [!NOTE]
-> The sub types in the table below are for Multimedia ads version 1.
+> The image sub types in the table below are for Audience ads version 1.
 
 |Sub Type|Minimum dimensions in pixels|
 |--------|--------|
