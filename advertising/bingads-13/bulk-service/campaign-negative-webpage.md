@@ -139,7 +139,6 @@ For an *Campaign Negative Webpage* record, the following attribute fields are av
 > You can't update the condition, value, or operator fields. To update the webpage conditions you must delete the campaign negative webpage and add a new one.
 
 - [Campaign](#campaign)
-- [Campaign Type](#campaigntype)
 - [Condition 1](#condition1)
 - [Condition 2](#condition2)
 - [Condition 3](#condition3)
@@ -152,7 +151,6 @@ For an *Campaign Negative Webpage* record, the following attribute fields are av
 - [Name](#name)
 - [Parent Id](#parentid)
 - [Status](#status)
-- [Type](#type)
 - [Value 1](#value1)
 - [Value 2](#value2)
 - [Value 3](#value2)
@@ -166,36 +164,53 @@ For add and delete, you must specify with *Parent Id* or *Campaign* field.
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
 
-## <a name="campaigntype"></a>Campaign Type
-The type of the campaign, *Performance Max*.
-
-**Add:** Read-only   
-**Update:** Read-only  
-**Delete:** Read-only  
-
 ## <a name="condition1"></a>Condition 1
 The first of up to three webpage condition operands. The condition is met if the webpage property that is referenced by this field contains or equals the Value 1 value.
 
 The only possible value is *URL*.
+
+**Add:** Required  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
 
 ## <a name="condition2"></a>Condition 2
 The second of up to three webpage condition operands. The condition is met if the webpage property that is referenced by this field contains or equals the Value 2 value.
 
 The only possible value is *URL*.
 
+**Add:** Optional  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
+
 ## <a name="condition3"></a>Condition 3
 The third of up to three webpage condition operands. The condition is met if the webpage property that is referenced by this field contains or equals the Value 3 value.
 
 The only possible value is *URL*.
 
+**Add:** Optional  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
+
 ## <a name="conditionoperator1"></a>Condition Operator 1
-The condition operator. Possible values are *equals* or *contains*.
+The first of up to three webpage condition operators. Possible values are *equals* or *contains*.
+
+**Add:** Required  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
 
 ## <a name="conditionoperator2"></a>Condition Operator 2
-The condition operator. Possible values are *equals* or *contains*.
+The second of up to three webpage condition operators. Possible values are *equals* or *contains*.
+
+**Add:** Optional  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
 
 ## <a name="conditionoperator3"></a>Condition Operator 3
-The condition operator. Possible values are *equals* or *contains*.
+The third of up to three webpage condition operators. Possible values are *equals* or *contains*.
+
+**Add:** Optional  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
 
 ## <a name="clientid"></a>Client Id
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
@@ -248,14 +263,23 @@ Possible values are *Active*, *Deleted*.
 **Update:** Optional. If no value is set for the update, this setting is not changed.
 **Delete:** Required. The Status must be set to Deleted.
 
-## <a name="type"></a>Type
-The entity type, *Campaign Negative Webpage*.
-
 ## <a name="value1"></a>Value 1
 The first of up to three webpage condition arguments.
+
+**Add:** Required  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
 
 ## <a name="value2"></a>Value 2
 The second of up to three webpage condition arguments.
 
+**Add:** Optional  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
+
 ## <a name="value3"></a>Value 3
 The third of up to three webpage condition arguments.
+
+**Add:** Optional  
+**Update:** Not allowed. You can't update the negative webpage condition, operator, or value fields. To update the webpage conditions, you must delete the negative webpage and add a new one.  
+**Delete:** Read-only
