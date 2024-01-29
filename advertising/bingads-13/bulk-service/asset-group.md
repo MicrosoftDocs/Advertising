@@ -17,7 +17,7 @@ You can download all *Asset Group* records in the account by including the [Down
 <!--The following Bulk CSV example would add a new asset group if a valid [Parent Id](#parentid) value is provided. 
 
 ```csv
-Type,Status,Id,Parent Id,Campaign,Ad Group,Sync Time,Client Id,Modified Time,Tracking Template,Final Url Suffix,Custom Parameter,Final Url,Mobile Final Url,Text,Business Name,Device Preference,Ad Format Preference,Name,Call To Action,Headline,Long Headline,Images
+Type,Status,Id,Parent Id,Campaign,Asset Group,Sync Time,Client Id,Modified Time,Tracking Template,Final Url Suffix,Custom Parameter,Final Url,Mobile Final Url,Text,Business Name,Device Preference,Ad Format Preference,Name,Call To Action,Headline,Long Headline,Images
 Format Version,,,,,,,,,,,,,,,,,,6.0,,,,
 Asset Group,Active,,-1111,ParentCampaignNameGoesHere,AdGroupNameGoesHere,ClientIdGoesHere,,,,{_promoCode}=PROMO1; {_season}=summer,,https://www.contoso.com/womenshoesale,https://mobile.contoso.com/womenshoesale,Find New Customers & Increase Sales! Start Advertising on Contoso Today.,Contoso,,,,,Short Headline Here,Long Headline Here,"[{""id"":1234567890000,""subType"":""LandscapeImageMedia""}]"
 ```-->
@@ -32,7 +32,7 @@ var bulkAssetGroup = new BulkAssetGroup
 {
     // 'Parent Id' column header in the Bulk file
     AdGroupId = adGroupIdKey,
-    // 'Ad Group' column header in the Bulk file
+    // 'Asset Group' column header in the Bulk file
     AdGroupName = "AdGroupNameGoesHere",
     // 'Campaign' column header in the Bulk file
     CampaignName = "ParentCampaignNameGoesHere",
@@ -122,7 +122,6 @@ For a *Asset Group* record, the following attribute fields are available in the 
 - [Business Name](#businessname)
 - [Call To Action](#calltoaction)
 - [Campaign](#campaign)
-- [Campaign Type](#campaigntype)
 - [Client Id](#clientid)
 - [Descriptions](#descriptions)
 - [Editorial Appeal Status](#editorialappealstatus)
@@ -143,13 +142,12 @@ For a *Asset Group* record, the following attribute fields are available in the 
 - [Path 2](#path2)
 - [Status](#status)
 - [Start Date](#startdate)
-- [Type](#type)
 
-## <a name="assetgroup"></a>Ad Group
+## <a name="assetgroup"></a>Asset Group
 The name of the asset group.
 
-**Add:** Read-only and Required  
-**Update:** Read-only and Required  
+**Add:** Required  
+**Update:** Optional. If no value is set for the update, this setting is not changed.
 **Delete:** Read-only and Required  
 
 ## <a name="businessname"></a>Business Name
@@ -166,10 +164,10 @@ The length of the string is limited to 25 characters.
 ## <a name="calltoaction"></a>Call To Action
 A brief, punchy reason for customers to click your ad right now.
 
-The possible values are AddToCart, ApplyNow, BookNow, BookTravel, Buy, BuyNow, ContactUs, Download, GetQuote, Install, LearnMore, NoButton, OpenLink, OrderNow, RegisterNow, SeeMore, ShopNow, SignUp, Subscribe, and VisitSite.
+The possible values are ActNow, AddToCart, ApplyNow, Automated, BetNow, BidNow, BookACar, BookHotel, BookNow, BookTravel, Browse, BuildNow, Buy, BuyNow, ChatNow, Compare, ContactUs, Coupon, Dealers, Default, Directions, Donate, Download, EmailNow, EnrollNow, Explore, FileNow, FindJob, FindStore, FreePlay, FreeQuote, FreeTrial, GetDeals, GetDemo, GetNow, GetOffer, GetQuote, GoToDemo, Install, JoinNow, LearnMore, ListenNow, LogIn, Message, NewCars, NoButton, OpenLink, OrderNow, PlayGame, PlayNow, PostJob, Register, RegisterNow, RenewNow, RentACar, RentNow, Reorder, Reserve, Sale, SaveNow, Schedule, SeeDemo, SeeMenu, SeeModels, SeeMore, SeeOffer, SeeOffers, SellNow, ShopNow, Showtimes, SignIn, SignUp, StartFree, StartNow, Subscribe, SwitchNow, TestDrive, TryNow, Unknown, UsedCars, ViewCars, ViewDemo, ViewNow, ViewPlans, VisitSite, VisitStore, VoteNow, Watch, WatchMore, WatchNow.
 
-**Add:** Not applicable for audience ads.   
-**Update:** Read-only     
+**Add:** Required.  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only 
 
 ## <a name="campaign"></a>Campaign
@@ -179,15 +177,8 @@ The name of the campaign that contains the asset group.
 **Update:** Read-only and Required
 **Delete:** Read-only and Required
 
-## <a name="campaigntype"></a>Campaign Type
-The type of campaign that contains the asset group. The campaign type is only used in bulk download. It is usually not documented, but gets filled out in bulk download for many existing entities.
-
 ## <a name="clientid"></a>Client Id
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
-
-**Add:** Optional  
-**Update:** Optional    
-**Delete:** Read-only  
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
@@ -247,16 +238,16 @@ A code that identifies the reason for the failure. For a list of possible reason
 **Delete:** Read-only  
 
 ## <a name="editorialstatus"></a>Editorial Status
-The editorial status of the ad.
+The editorial status of the asset.
 
 Possible values are described in the table below.
 
 |Value|Description|
 |-----------|---------------|
-|<a name="editorialstatusactive"></a>Active|The ad passed editorial review.|
-|<a name="editorialstatusactivelimited"></a>ActiveLimited|The ad passed editorial review in one or more markets, and one or more elements of the ad is undergoing editorial review in another market. For example the ad passed editorial review for Canada and is still pending review in the United States.|
-|<a name="editorialstatusdisapproved"></a>Disapproved|The ad failed editorial review.|
-|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the ad is undergoing editorial review.|
+|<a name="editorialstatusactive"></a>Active|The asset passed editorial review.|
+|<a name="editorialstatusactivelimited"></a>ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of the asset is undergoing editorial review in another market. For example the asset passed editorial review for Canada and is still pending review in the United States.|
+|<a name="editorialstatusdisapproved"></a>Disapproved|The asset failed editorial review.|
+|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the asset is undergoing editorial review.|
 
 **Add:** Read-only  
 **Update:** Read-only  
@@ -272,11 +263,11 @@ This field will not be set if a combination of terms caused the failure or if th
 **Delete:** Read-only  
 
 ## <a name="enddate"></a>End Date
-The date that the ads in the asset group will expire.
+The date that the asset group will expire.
 
-If you do not specify an end date, the ads will not expire. The end date can be extended to make an asset group's ads eligible for delivery, even after the asset group expires.
+If you do not specify an end date, the asset group will not expire. The end date can be extended to make an asset group eligible for delivery, even after the asset group expires.
 
-The end date is inclusive. For example, if you set *End Date* to 12/31/2020, the ads in the asset group will expire at 11:59 PM on 12/31/2020. The time is based on the time zone that you specify at the campaign level.
+The end date is inclusive. For example, if you set *End Date* to 12/31/2020, the asset group will expire at 11:59 PM on 12/31/2020. The time is based on the time zone that you specify at the campaign level.
 
 **Add:** Optional. To set no end date when adding an asset group, do not set this field.  
 **Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set this field to the "delete_value" string. When you retrieve the asset group next time, this field will not be set.    
@@ -300,11 +291,6 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 - Each URL must be a well-formed URL starting with either http:// or https://.
 
 - If you specify Final Mobile URLs, you must also specify Final Url.
-
-Also note that  if the *Tracking Template* or *Custom Parameter* fields are set, then at least one Final URL is required.
-
-> [!NOTE]
-> This URL is used only if the keyword does not specify a final URL.
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.     
@@ -459,9 +445,6 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 
 - If you specify Final Mobile URLs, you must also specify Final Url.
 
-> [!NOTE]
-> This URL is used only if the keyword does not specify a *Mobile Final Url*.
-
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
 **Delete:** Read-only  
@@ -477,11 +460,16 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The campaign ID.
+The system-generated identifier of the campaign that contains the asset group.
 
-**Add:** Read-only and Required.  
-**Update:** Read-only and Required.  
-**Delete:** Read-only and Required.  
+This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
+
+**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are adding new ad groups to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Update:** Read-only and Required  
+**Delete:** Read-only and Required  
+
+> [!NOTE]
+> For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
 
 > [!NOTE]
 > For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
@@ -525,24 +513,17 @@ If the path includes a space, it will be replaced with an underscore (_) when th
 ## <a name="status"></a>Status
 The status of the asset group.
 
-Possible values are *Active*, *Paused*, or *Deleted*.
+Possible values are *Active*, *Deleted*, *Expired*, or *Paused*. The *Expired* status is read-only.
 
-**Add:** Optional. The default value is *Active*.  
+**Add:** Optional. The default value is *Paused*.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="startdate"></a>Start Date
-The date that the ads in the asset group can begin serving; otherwise, the service can begin serving the ads in the asset group the day that the asset group becomes active.
+The date that the asset group can begin serving; otherwise, the service can begin serving the asset group the day that the asset group becomes active.
 
-The start date is inclusive. For example, if you set *Start Date* to 5/5/2020, the ads in the asset group will start at 12:00 AM on 5/5/2020. The time is based on the time zone that you specify at the campaign level.
+The start date is inclusive. For example, if you set *Start Date* to 5/5/2020, the asset group will start at 12:00 AM on 5/5/2020. The time is based on the time zone that you specify at the campaign level.
 
-**Add:** Optional. If you do not set this field or if the date you submit is prior to today's date, then today's date will be set and the service can begin serving the ads in the asset group as soon as the asset group status is active.  
+**Add:** Optional. If you do not set this field or if the date you submit is prior to today's date, then today's date will be set and the service can begin serving the asset group as soon as the asset group status is active.  
 **Update:** Optional. If no value is set for the update, this setting is not changed. The start date cannot be updated after the asset group is submitted i.e., once the start date has arrived.  
-**Delete:** Read-only  
-
-## <a name="type"></a>Type
-The entity type, *Asset Group*.
-
-**Add:** Required for video ads. Not applicable for audience ads or multimedia ads.
-**Update:** Optional for video ads. Use Descriptions instead for audience ads or multimedia ads (deprecated).   
 **Delete:** Read-only  
