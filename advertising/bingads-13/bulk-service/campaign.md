@@ -143,7 +143,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Campaign](#campaign)|All|
 |[Campaign Type](#campaigntype)|All|
 |[Client Id](#clientid)|All|
-|[Country Code](#countrycode)|Shopping|
+|[Country Code](#countrycode)|Performance Max<br/>Shopping|
 |[Disclaimer Ads Enabled](#disclaimeradsenabled)|Search|
 |[Domain Language](#domainlanguage)|Search|
 |[Dynamic Description Enabled](#dynamicdescriptionenabled)|Search|
@@ -159,11 +159,11 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Modified Time](#modifiedtime)|All|
 |[Page Feed Ids](#pagefeedids)|Search|
 |[Parent Id](#parentid)|All|
-|[Priority](#priority)|Shopping|
+|[Priority](#priority)|Performance Max<br/>Shopping|
 |[Quality Score](#qualityscore)|All|
 |[Source](#source)|Search|
 |[Status](#status)|All|
-|[Store Id](#storeid)|Audience<br>Shopping|
+|[Store Id](#storeid)|Audience<br>Performance Max<br/>Shopping|
 |[Sub Type](#subtype)|Shopping|
 |[Target Setting](#targetsetting)|All|
 |[Tracking Template](#trackingtemplate)|All|
@@ -342,7 +342,7 @@ If you use the "TargetRoas" bid strategy type, then you must include the [Bid St
 > [!IMPORTANT] 
 > For some bid strategy types your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](../guides/universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1). 
 
-**Add:** Optional. The default value for Search and DynamicSearchAds campaigns is EnhancedCpc. The default bid strategy type for most Shopping campaigns is EnhancedCpc; however, the only supported bid strategy type for [smart shopping campaigns](../guides/smart-shopping-campaigns.md) is MaxConversionValue. The only supported value for Audience campaigns is ManualCpc.    
+**Add:** Optional. The default value for Search and DynamicSearchAds campaigns is EnhancedCpc. The default bid strategy type for most Shopping campaigns is EnhancedCpc; however, the only supported bid strategy type for [smart shopping campaigns](../guides/smart-shopping-campaigns.md) is MaxConversionValue. The only supported value for Audience campaigns is ManualCpc. The default value for Performance Max campaigns is MaxConversions.
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you update the bid strategy type, then any existing values in the [Bid Strategy MaxCpc](#bidstrategymaxcpc), [Bid Strategy TargetCpa](#bidstrategytargetcpa), [Bid Strategy TargetAdPosition](#bidstrategytargetadposition), [Bid Strategy TargetImpressionShare](#bidstrategytargetimpressionshare), and [Bid Strategy TargetRoas](#bidstrategytargetroas) fields will be deleted.       
 **Delete:** Read-only  
 
@@ -412,7 +412,7 @@ The name of the campaign.
 ## <a name="campaigntype"></a>Campaign Type
 The type of the campaign.
 
-The campaign type determines whether the campaign is a Microsoft Shopping campaign, Dynamic Search Ads campaign, Hotel campaign, or Search campaign. Possible values include *Audience*, *DynamicSearchAds*, *Hotel*, *Shopping*, and *Search*. 
+The campaign type determines whether the campaign is a Microsoft Shopping campaign, Dynamic Search Ads campaign, Hotel campaign, Search campaign, or Performance Max campaign. Possible values include *Audience*, *DynamicSearchAds*, *Hotel*, *Shopping*, *Search*, and *PerformanceMax*. 
 
 > [!NOTE]
 > You can no longer add, update, or retrieve campaigns that only support dynamic search ads. The campaign type of your existing campaigns has been updated from "DynamicSearchAds" to "Search". The ad groups are now considered "dynamic" ad groups, but there are no structural changes i.e., they contain the same auto targets and dynamic search ads as before.  
@@ -435,7 +435,7 @@ The Microsoft Merchant Center store catalog will be filtered to only include pro
 
 To get the list of supported country codes use the [GetBSCCountries](../campaign-management-service/getbsccountries.md) operation. For example, supported country codes include "AU" (Australia), "AT" (Austria), "BE" (Belgium), "CA" (Canada), "CH" (Switzerland), "DE" (Germany), "ES" (Spain), "FR" (France), "GB" (United Kingdom), "IN" (India), "IT" (Italy), "NL" (Netherlands), "SE" (Sweden), and "US" (United States).
 
-**Add:** Required if the [Campaign Type](#campaigntype) field is set to *Shopping*. You cannot include this column for other campaign types.  
+**Add:** Required if the [Campaign Type](#campaigntype) field is set to *Shopping*, or if the [Campaign Type](#campaigntype) field is set to *PerformanceMax* and a store is associated to the campaign. You cannot include this column for other campaign types.  
 **Update:** Read-only    
 **Delete:** Read-only  
 
@@ -656,12 +656,12 @@ This bulk field maps to the *Id* field of the [Account](account.md) record.
 ## <a name="priority"></a>Priority
 Helps determine which Microsoft Shopping campaign serves ads, in the event that two or more campaigns use the product catalog feed from the same Microsoft Merchant Center store.
 
-A higher priority value denotes a higher priority. The supported values for most shopping campaigns are 0, 1, and 2. For [smart shopping campaigns](../guides/smart-shopping-campaigns.md) (campaign [Sub Type](#subtype) set to *ShoppingSmartAds*), you must set the priority to 3.
+A higher priority value denotes a higher priority. The supported values for most shopping campaigns are 0, 1, and 2. For [smart shopping campaigns](../guides/smart-shopping-campaigns.md) (campaign [Sub Type](#subtype) set to *ShoppingSmartAds*), you must set the priority to 3. For [Performance Max campaigns](../guides/performance-max.md), you must set the priority to 4.
 
 > [!NOTE]
 > If you create a Microsoft Shopping campaign in the Microsoft Advertising web application, the default priority selected is "Low" which is the equivalent of '0'.
 
-**Add:** Required if the [Campaign Type](#campaigntype) field is set to *Shopping*. You cannot include this column for other campaign types.  
+**Add:** Required if the [Campaign Type](#campaigntype) field is set to *Shopping*, or if the [Campaign Type](#campaigntype) field is set to *PerformanceMax* and a store is associated to the campaign. You cannot include this column for other campaign types.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
@@ -725,7 +725,7 @@ With [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative)
 
 To get your store identifiers, call the [GetBMCStoresByCustomerId](../campaign-management-service/getbmcstoresbycustomerid.md) operation.
 
-**Add:** Required if the [Campaign Type](#campaigntype) field is set to *Shopping*. You cannot include this column for other campaign types.  
+**Add:** Required if the [Campaign Type](#campaigntype) field is set to *Shopping*, or if the [Campaign Type](#campaigntype) field is set to *PerformanceMax* and a store is associated to the campaign. You cannot include this column for other campaign types.  
 **Update:** Read-only  
 **Delete:** Read-only  
 
