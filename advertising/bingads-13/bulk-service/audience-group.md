@@ -145,13 +145,15 @@ For an *Audience Group* record, the following attribute fields are available in 
 - [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
 - [Status](#status)
-- [Type](#type)
 
 ## <a name="ageranges"></a>Age Ranges
-The list of age ranges, delimited by semicolon.
+The list of age ranges, delimited by semicolon. Supported values are *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, and *SixtyFiveAndAbove*. You can also target *Unknown* i.e., people whose age is not known.  
 
 **Add:** Optional  
-**Update:** Optional. See update behavior for audiences.  
+**Update:** Optional.  
+- If no value is set for the update, this setting is not changed.
+- To remove all age ranges, set this field to *delete_value*. The *delete_value* keyword removes all existing age ranges.  
+- To remove a subset of age ranges, specify the age ranges that you want to keep and omit any that you do not want to keep. The new set of age ranges will replace any existing ones.
 
 ## <a name="audiencegroupname"></a>Audience Group Name
 The name of the audience group.
@@ -183,13 +185,17 @@ The description of the audience signal.
 
 The description can contain a maximum of 1,024 characters.
 
+**Add:** Optional.  
 **Update:** Optional.  
 
 ## <a name="gendertypes"></a>Gender Types
-The list of gender types, delimited by semicolon.  
+The list of gender types, delimited by semicolon. Supported values are *Female* and *Male*. You can also target *Unknown* i.e., people whose gender is not known.  
 
 **Add:** Optional  
-**Update:** Optional. See update behavior for audiences.  
+**Update:** Optional.  
+- If no value is set for the update, this setting is not changed.
+- To remove all gender types, set this field to *delete_value*. The *delete_value* keyword removes all existing gender types.  
+- To remove a subset of gender types, specify the gender types that you want to keep and omit any that you do not want to keep. The new set of gender types will replace any existing ones.
 
 ## <a name="id"></a>Id
 The system-generated identifier of the audience group.
@@ -223,6 +229,3 @@ Possible values are *Active*, *Deleted*.
 **Add:** Optional.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Required. The Status must be set to Deleted.
-
-## <a name="type"></a>Type
-The entity type, *Audience Group*.  
