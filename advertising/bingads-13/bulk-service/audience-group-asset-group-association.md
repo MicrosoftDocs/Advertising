@@ -142,15 +142,14 @@ For an *Audience Group Asset Group Association* record, the following attribute 
 - [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
 - [Status](#status)
-- [Type](#type)
 
 ## <a name="assetgroup"></a>Asset Group
 The name of the asset group where the audience signal is associated or removed.
 
-For add and delete, you must specify with *Parent Id*, or *Asset Group* and *Campaign* field.
+For add, update, and delete, you must specify with *Parent Id*, or *Asset Group* and *Campaign* field.
 
 **Add:** Read-only and Required  
-**Update:** Read-only and Required  
+**Update:** Read-only and Required. Each asset group can only be associated with one audience group, so you will overwrite an existing association if you set a new one.  
 **Delete:** Read-only and Required  
 
 ## <a name="clientid"></a>Client Id
@@ -163,16 +162,17 @@ Used to associate records in the bulk upload file with records in the results fi
 ## <a name="campaign"></a>Campaign
 The name of the campaign that contains the association.
 
-For add and delete, you must specify with *Parent Id*, or *Asset Group* and *Campaign* field.
+For add, update, and delete, you must specify with *Parent Id*, or *Asset Group* and *Campaign* field.
 
 **Add:** Read-only and Required  
+**Update:** Read-only and Required  
 **Delete:** Read-only and Required  
 
 ## <a name="id"></a>Id
 The ID of the audience group.
 
 **Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the audience group asset group association can then be referenced in the *Parent Id* field of dependent record types such as ads, keywords, or criterion. This is recommended if you are adding new audience group asset group associations and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
-**Update:** Read-only and Required  
+**Update:** Read-only and Required. Each asset group can only be associated with one audience group, so you will overwrite an existing association if you set a new one.  
 **Delete:** Read-only and Required  
 
 ## <a name="modifiedtime"></a>Modified Time
@@ -188,9 +188,10 @@ The date and time that the entity was last updated. The value is in Coordinated 
 ## <a name="parentid"></a>Parent Id
 The id of the asset group where the audience group is associated or removed.
 
-For add and delete, you must specify with *Asset Group* or *Parent Id* field.
+For add, update, and delete, you must specify with *Parent Id*, or *Asset Group* and *Campaign* field.
 
 **Add:** Read-only and Required.  
+**Update:** Read-only and Required. Each asset group can only be associated with one audience group, so you will overwrite an existing association if you set a new one.  
 **Delete:** Read-only and Required  
 
 ## <a name="status"></a>Status
@@ -201,6 +202,3 @@ Possible values are *Active*, *Deleted*.
 **Add:** Optional.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Required. The Status must be set to Deleted.  
-
-## <a name="type"></a>Type
-The entity type, *Audience Group Asset Group Association*.
