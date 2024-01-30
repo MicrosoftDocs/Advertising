@@ -44,19 +44,19 @@ Records available for upload and download using [Format Version](#formatversions
 Record Type  |Supported Campaign Types  
 ---------|---------
 [Account](account.md)|All  
-[Account Action Ad Extension](account-action-ad-extension.md)|Search  
-[Account App Ad Extension](account-app-ad-extension.md)|Search  
-[Account Callout Ad Extension](account-callout-ad-extension.md)|Search  
-[Account Filter Link Ad Extension](account-filter-link-ad-extension.md)|Search  
-[Account Flyer Ad Extension](account-flyer-ad-extension.md)|Search  
-[Account Image Ad Extension](account-image-ad-extension.md)|Search  
-[Account Location Ad Extension](account-location-ad-extension.md)|Search  
-[Account Price Ad Extension](account-price-ad-extension.md)|Search  
-[Account Promotion Ad Extension](account-promotion-ad-extension.md)|Search  
-[Account Sitelink Ad Extension](account-sitelink-ad-extension.md)|Search  
-[Account Structured Snippet Ad Extension](account-structured-snippet-ad-extension.md)|Search  
-[Account Video Ad Extension](account-video-ad-extension.md)|Search  
-[Action Ad Extension](action-ad-extension.md)|Search  
+[Account Action Ad Extension](account-action-ad-extension.md)|Performance Max<br/>Search  
+[Account App Ad Extension](account-app-ad-extension.md)|Performance Max<br/>Search  
+[Account Callout Ad Extension](account-callout-ad-extension.md)|Performance Max<br/>Search  
+[Account Filter Link Ad Extension](account-filter-link-ad-extension.md)|Performance Max<br/>Search  
+[Account Flyer Ad Extension](account-flyer-ad-extension.md)|Performance Max<br/>Search  
+[Account Image Ad Extension](account-image-ad-extension.md)|Performance Max<br/>Search  
+[Account Location Ad Extension](account-location-ad-extension.md)|Performance Max<br/>Search  
+[Account Price Ad Extension](account-price-ad-extension.md)|Performance Max<br/>Search  
+[Account Promotion Ad Extension](account-promotion-ad-extension.md)|Performance Max<br/>Search  
+[Account Sitelink Ad Extension](account-sitelink-ad-extension.md)|Performance Max<br/>Search  
+[Account Structured Snippet Ad Extension](account-structured-snippet-ad-extension.md)|Performance Max<br/>Search  
+[Account Video Ad Extension](account-video-ad-extension.md)|Performance Max<br/>Search  
+[Action Ad Extension](action-ad-extension.md)|Performance Max<br/>Search  
 [Ad Group](ad-group.md)|All  
 [Ad Group Age Criterion](ad-group-age-criterion.md)|All  
 [Ad Group Action Ad Extension](ad-group-action-ad-extension.md)|Search  
@@ -107,19 +107,23 @@ Record Type  |Supported Campaign Types
 [Ad Group Sitelink Ad Extension](ad-group-sitelink-ad-extension.md)|Search  
 [Ad Group Structured Snippet Ad Extension](ad-group-structured-snippet-ad-extension.md)|Search  
 [Ad Group Video Ad Extension](ad-group-video-ad-extension.md)|Search  
-[App Ad Extension](app-ad-extension.md)|Search  
+[App Ad Extension](app-ad-extension.md)|Performance Max<br/>Search  
 [App Install Ad](app-install-ad.md)|Search  
 [App Install Ad Label](app-install-ad-label.md)|Search  
+[Asset Group](asset-group.md)|Performance Max  
+[Asset Group Listing Group](asset-group-listing-group.md)|Performance Max  
+[Audience Group](audience-group.md)|Performance Max  
+[Audience Group Asset Group Association](audience-group-asset-group-association.md)|Performance Max  
 [Bid Strategy](bid-strategy.md)|Search<br/>Shopping  
 [Budget](budget.md)|All  
-[Call Ad Extension](call-ad-extension.md)|Search  
-[Callout Ad Extension](callout-ad-extension.md)|Search  
+[Call Ad Extension](call-ad-extension.md)|Performance Max<br/>Search  
+[Callout Ad Extension](callout-ad-extension.md)|Performance Max<br/>Search  
 [Campaign](campaign.md)|All  
 [Campaign Age Criterion](campaign-age-criterion.md)|All  
-[Campaign Action Ad Extension](campaign-action-ad-extension.md)|Search  
-[Campaign App Ad Extension](campaign-app-ad-extension.md)|Search  
-[Campaign Call Ad Extension](campaign-call-ad-extension.md)|Search  
-[Campaign Callout Ad Extension](campaign-callout-ad-extension.md)|Search  
+[Campaign Action Ad Extension](campaign-action-ad-extension.md)|Performance Max<br/>Search  
+[Campaign App Ad Extension](campaign-app-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Call Ad Extension](campaign-call-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Callout Ad Extension](campaign-callout-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Combined List Association](campaign-combined-list-association.md)|All  
 [Campaign Company Name Criterion](campaign-company-name-criterion.md)|Search<br/>Shopping  
 [Campaign Conversion Goal](campaign-conversion-goal.md)|All
@@ -128,14 +132,14 @@ Record Type  |Supported Campaign Types
 [Campaign DayTime Criterion](campaign-daytime-criterion.md)|All  
 [Campaign DeviceOS Criterion](campaign-deviceos-criterion.md)|All  
 [Campaign Disclaimer](campaign-disclaimer-ad-extension.md)|Search 
-[Campaign Filter Link Ad Extension](campaign-filter-link-ad-extension.md)|Search  
-[Campaign Flyer Ad Extension](campaign-flyer-ad-extension.md)|Search  
+[Campaign Filter Link Ad Extension](campaign-filter-link-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Flyer Ad Extension](campaign-flyer-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Gender Criterion](campaign-gender-criterion.md)|All  
 [Campaign Industry Criterion](campaign-industry-criterion.md)|Search<br/>Shopping  
 [Campaign In Market Audience Association](campaign-in-market-audience-association.md)|Search<br/>Shopping  
 [Campaign Job Function Criterion](campaign-deviceos-criterion.md)|Search<br/>Shopping  
 [Campaign Label](campaign-label.md)|All  
-[Campaign Location Ad Extension](campaign-location-ad-extension.md)|Search  
+[Campaign Location Ad Extension](campaign-location-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Location Criterion](campaign-location-criterion.md)|All  
 [Campaign Location Intent Criterion](campaign-location-intent-criterion.md)|All  
 [Campaign Negative Combined List Association](campaign-negative-combined-list-association.md)|All  
@@ -150,17 +154,18 @@ Record Type  |Supported Campaign Types
 [Campaign Negative Remarketing List Association](campaign-negative-remarketing-list-association.md)|Search<br/>Shopping  
 [Campaign Negative Similar Remarketing List Association](campaign-negative-similar-remarketing-list-association.md)|Search<br/>Shopping  
 [Campaign Negative Site](campaign-negative-site.md)|All  
-[Campaign Price Ad Extension](campaign-price-ad-extension.md)|Search  
+[Campaign Negative Webpage](campaign-negative-webpage.md)|Performance Max  
+[Campaign Price Ad Extension](campaign-price-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Product Audience Association](campaign-product-audience-association.md)|Search<br/>Shopping  
 [Campaign Product Scope](campaign-product-scope.md)|Audience<br/>Shopping  
-[Campaign Promotion Ad Extension](campaign-promotion-ad-extension.md)|Search  
+[Campaign Promotion Ad Extension](campaign-promotion-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Radius Criterion](campaign-radius-criterion.md)|All  
 [Campaign Remarketing List Association](campaign-remarketing-list-association.md)|Search<br/>Shopping  
-[Campaign Review Ad Extension](campaign-review-ad-extension.md)|Search  
+[Campaign Review Ad Extension](campaign-review-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Similar Remarketing List Association](campaign-similar-remarketing-list-association.md)|Search<br/>Shopping  
-[Campaign Sitelink Ad Extension](campaign-sitelink-ad-extension.md)|Search  
-[Campaign Structured Snippet Ad Extension](campaign-structured-snippet-ad-extension.md)|Search  
-[Campaign Video Ad Extension](campaign-video-ad-extension.md)|Search  
+[Campaign Sitelink Ad Extension](campaign-sitelink-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Structured Snippet Ad Extension](campaign-structured-snippet-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Video Ad Extension](campaign-video-ad-extension.md)|Performance Max<br/>Search  
 [Combined List](combined-list.md)|All  
 [Custom Audience](custom-audience.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom audience using the Bing Ads API.|All  
 [Customer List](customer-list.md)|All  
@@ -173,10 +178,10 @@ Record Type  |Supported Campaign Types
 [Experiments](experiment.md)|Search  
 [Feed](feed.md)|Search 
 [Feed Item](feed-item.md)|Search  
-[Filter Link Ad Extension](filter-link-ad-extension.md)|Search  
-[Flyer Ad Extension](flyer-ad-extension.md)|Search  
+[Filter Link Ad Extension](filter-link-ad-extension.md)|Performance Max<br/>Search  
+[Flyer Ad Extension](flyer-ad-extension.md)|Performance Max<br/>Search  
 [Format Version](format-version.md)|All  
-[Image Ad Extension](image-ad-extension.md)|Search  
+[Image Ad Extension](image-ad-extension.md)|Performance Max<br/>Search  
 [In Market Audience](in-market-audience.md)<br/><br/>Bulk upload is not supported. You cannot add, update, or delete an in-market audience using the Bing Ads API.|All  
 [Keyword](keyword.md)|Search  
 [Keyword Label](keyword-label.md)|Search  
@@ -184,28 +189,28 @@ Record Type  |Supported Campaign Types
 [Keyword First Page Bid](keyword-first-page-bid.md)|Search  
 [Keyword Main Line Bid](keyword-main-line-bid.md)|Search  
 [Label](label.md)|All  
-[Location Ad Extension](location-ad-extension.md)|Search  
+[Location Ad Extension](location-ad-extension.md)|Performance Max<br/>Search  
 [Negative Keyword List](negative-keyword-list.md)|All  
 [Offline Conversion](offline-conversion.md)<br/><br/>Bulk download is not supported. You cannot get, update, or delete an offline conversion.|All  
-[Price Ad Extension](price-ad-extension.md)|Search  
+[Price Ad Extension](price-ad-extension.md)|Performance Max<br/>Search  
 [Product Ad](product-ad.md)|Shopping  
 [Product Ad Label](product-ad-label.md)|Shopping  
 [Product Audience](product-audience.md)|All  
-[Promotion Ad Extension](promotion-ad-extension.md)|Search  
+[Promotion Ad Extension](promotion-ad-extension.md)|Performance Max<br/>Search  
 [Remarketing List](remarketing-list.md)|All  
 [Responsive Ad](responsive-ad.md)|Audience<br/><br/>Search  
 [Responsive Ad Label](responsive-ad-label.md)|Audience<br/><br/>Search  
 [Responsive Search Ad](responsive-search-ad.md)|Search  
 [Responsive Search Ad Label](responsive-search-ad-label.md)|Search  
-[Review Ad Extension](review-ad-extension.md)|Search  
+[Review Ad Extension](review-ad-extension.md)|Performance Max<br/>Search  
 [Shared Negative Keyword](shared-negative-keyword.md)|All  
 [Similar Remarketing List](similar-remarketing-list.md)|All  
-[Sitelink Ad Extension](sitelink-ad-extension.md)|Search  
-[Structured Snippet Ad Extension](structured-snippet-ad-extension.md)|Search  
+[Sitelink Ad Extension](sitelink-ad-extension.md)|Performance Max<br/>Search  
+[Structured Snippet Ad Extension](structured-snippet-ad-extension.md)|Performance Max<br/>Search  
 [Text Ad](text-ad.md)|Search  
 [Text Ad Label](text-ad-label.md)|Search  
 [Video](video.md)|Audience  
-[Video Ad Extension](video-ad-extension.md)|Search  
+[Video Ad Extension](video-ad-extension.md)|Performance Max<br/>Search  
 
 ## <a name="typehierarchy"></a>Type Hierarchy
 The download file will always include a record for the [Format Version](format-version.md) and [Account](account.md) record types. For upload, the [Format Version](format-version.md) is required and must precede all other record types in the bulk file.  
