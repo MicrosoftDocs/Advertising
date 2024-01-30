@@ -91,7 +91,7 @@ In Search campaigns the product conditions can be set at campaign level. The fol
 |Id|The product identifier defined by the merchant.<br/><br/>A maximum of 1,000 characters.|The *Id* operand may only be specified once per campaign product scope filter.|
 |ProductType1<br/><br/>One product type operand values is available i.e. ProductType1.|A product type or category defined by the merchant.<br/><br/>ProductType1 is the highest level product type.<br/><br/>A maximum of 100 characters.<br/><br/>This operand is not applicable with [Sponsored Products](../guides/product-ads.md#setup-cooperative).|Each of the product type operands may be used once per campaign product scope filter.|
 
-### <a name="productconditions-search"></a>Product Conditions for Performance Max Campaigns
+### <a name="productconditions-pmax"></a>Product Conditions for Performance Max Campaigns
 
 Multiple product conditions can be specified for each Microsoft Performance Max asset group. Each condition is met if the product's attribute value equals the operand's attribute value. For example, if operand is set to Brand and attribute is set to Contoso, the condition is met if the value of the product catalog's Brand attribute is equal to Contoso.
 
