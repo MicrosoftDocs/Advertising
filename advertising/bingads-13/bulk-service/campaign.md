@@ -148,7 +148,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Domain Language](#domainlanguage)|Search|
 |[Dynamic Description Enabled](#dynamicdescriptionenabled)|Search|
 |[Experiment Id](#experimentid)|Search|
-|[Feed Label](#feedlabel)|Performance Max<br/><br/>Search|
+|[Feed Label](#feedlabel)|Performance Max<br/>Search|
 |[Final Url Suffix](#finalurlsuffix)|All|
 |[Id](#id)|All|
 |[Keyword Relevance](#keywordrelevance)|All|
