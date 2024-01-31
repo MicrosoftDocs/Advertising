@@ -187,7 +187,7 @@ For increased limits, all calls must specify:
 - The DeveloperToken header that's set to your developer token.
 - The AuthenticationToken header that's set to your access token.
 
-For information about these and other headers that the request and response may contain, see [Headers](/advertising/shopping-content/products-resource.md#headers).
+For information about these and other headers that the request and response may contain, see [Headers](/advertising/shopping-content/products-resource#headers).
 
 ## Easiest Microsoft Advertising Account Sign-Up Steps
 
@@ -214,3 +214,4 @@ Enter the above info if you are creating a new email address (email address, pas
 ![Ad Library API Sign-up Step 6](media/ad-library-api-sign-up-step-6.png "Step 6")  
 
 You can now proceed to [Developer Account](https://developers.ads.microsoft.com/Account) to request a token for accessing the API. As part of this, you’ll need to review our [Developer Terms of Use](https://www.microsoft.com/en-us/legal/terms-of-use).
+
