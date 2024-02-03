@@ -16,7 +16,7 @@ You will need user credentials with access to Microsoft Advertising either in [p
 To authenticate via OAuth, you must also register an application and get the corresponding client identifier. You also need to take note of the client secret and redirect URI if you are developing a web application. For more details about registering an application in production and the authorization code grant flow, see [Authentication with OAuth](authentication-oauth.md) and [Authentication With the SDKs](sdk-authentication.md#oauth). Although in production you must use your own application ID (a.k.a. client ID), all Microsoft Advertising customers can use the public "Tutorial Sample App" client ID in sandbox i.e., **4c0b021c-00c3-4508-838f-d3127e8167ff**. For more information, please see [Sandbox](sandbox.md#access). 
 
 ## <a name="dependencies"></a> Dependencies
-The Bing Ads Python SDK uses the [suds-jurko-0.6](https://pypi.org/project/suds-jurko/) library as a proxy for all Bing Ads API programming elements. For more information about using Suds with Microsoft Advertising, see [Using Suds](#suds).
+The Bing Ads Python SDK uses the [suds-community](https://pypi.org/projectsuds-community/) library as a proxy for all Bing Ads API programming elements. For more information about using Suds with Microsoft Advertising, see [Using Suds](#suds).
 
 The Bing Ads Python [SDK](client-libraries.md) supports Python 3.3 or higher. You should install and run one of the supported versions. 
 
