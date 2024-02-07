@@ -151,7 +151,7 @@ If the application is new, please expect to wait 4-7 days before the ad will be 
 ## <a name="appplatform"></a>App Platform
 The application platform.
 
-Possible values include *iOS*, *Android*, *Windows Phone*, and *Windows*.
+Possible values include *iOS*, *Android*, and *Windows*.
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
