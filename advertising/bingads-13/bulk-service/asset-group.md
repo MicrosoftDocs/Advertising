@@ -181,32 +181,84 @@ The name of the campaign that contains the asset group.
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.  
 **Delete:** Read-only  
 
 ## <a name="descriptions"></a>Descriptions
-Depending on your audience ad's placement, this text will appear below or adjacent to your ad's long or short headline.  
+The list of descriptions that Bing can use to optimize the ad layout.
 
-You have more character space to work with in the ad text than in the headline. So once the imagery and headline have a potential customer's attention, the ad text needs to convince them to click it. What sets your product or service apart?
+To maximize impressions across all ad formats the descriptions might not always be shown in your ad.
 
-The text must contain at least one word.
+From a data model perspective the descriptions are stored as text assets. The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account.
 
-The upperlimit of descriptions is 5. The length of the string is limited to 90 characters.
-The data format of headlines are included in the example JSON below.
+You must set between 2-5 descriptions. The descriptions are represented in the bulk file as a JSON string. Two descriptions are included in the example JSON below, and the first is pinned to a specific position. The `id` and `text` are properties of the asset, whereas the `editorialStatus` and `assetPerformanceLabel` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see (#description-assetperformancelabel), [editorialStatus](#description-editorialstatus), [id](#description-id), and [text](#description-text) below.
+
 ```json
 [{
-	"text": "Contoso",
+	"text": "Find New Customers & Increase Sales!",
 },
 {
-	"text": "Quick & Easy Setup"
-},
-{
-	"text": "Seamless Integration"
+	"text": "Start Advertising on Contoso Today."
 }]
 ```
-**Add:** Required for audience ads and multimedia ads. Not applicable for video ads.
-**Update:** Optional. If no value is set for the update, this setting is not changed.
-**Delete:** Read-only 
+
+> [!NOTE]
+> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""text"":""Find New Customers & Increase Sales!""},{""text"":""Start Advertising on Contoso Today.""}]"*.
+
+Here's an example Bulk download where you'll also get read-only attributes e.g., `id` and `editorialStatus`:
+
+```json
+[{
+	"id": 1,
+	"text": "Contoso",
+	"editorialStatus": "Active",
+	"assetPerformanceLabel": "Learning"
+},
+{
+	"id": 2,
+	"text": "Seamless Integration",
+	"editorialStatus": "Active",
+	"assetPerformanceLabel": "Learning"
+}]
+```
+
+**Add:** Required if its parent campaign does not associate to a store, optional if the parent campaign associates to a store. If the parent campaign associates to a store and you specify Descriptions, you must also specify Headlines, LongHeadlines, and Images.  Only the [text](#description-text) is honored. Even if the asset already exists in your account, the [id](#description-id), [assetPerformanceLabel](#description-assetperformancelabel), and [editorialStatus](#description-editorialstatus) will be ignored if you include them.  
+**Update:** Optional. To retain all of the existing asset links, set or leave this field empty. If you set this field, any descriptions that were previously linked to this ad will be replaced. If you specify this field, a list of 2-5 descriptions is required. Only the [text](#description-text) is honored. Even if the asset already exists in your account, the [id](#description-id), [assetPerformanceLabel](#description-assetperformancelabel), and [editorialStatus](#description-editorialstatus) will be ignored if you include them.  
+**Delete:** Read-only  
+
+### <a name="description-assetperformancelabel"></a>assetPerformanceLabel
+This lets you know how well the asset is performing.
+
+The `assetPerformanceLabel` attribute is read-only when you download the responsive search ad. Possible values are described in the table below.  
+
+|Value|Description|
+|-----------|---------------|
+|Low|This asset's performance is low and we recommend you replace this asset to improve your ad performance.|
+|Good|This asset is performing well. We recommend you keep this asset and add more assets to improve your ad performance.|
+|Best|This asset's performance is among the best and we recommend that you add more similar assets.|
+|Unrated|We don't have any performance rating for this asset. This can be due to the asset being inactive, not having enough information to determine its performance, or if there aren't enough similar assets to compare against it.|
+|Learning|The asset's performance is being actively evaluated. Once the evaluation is complete, the asset rating will be Low, Good, Best, or Unrated.|
+
+### <a name="description-editorialstatus"></a>editorialStatus
+The `editorialStatus` attribute is read-only when you download the responsive search ad. Possible values are described in the table below.  
+
+|Value|Description|
+|-----------|---------------|
+|Active|The asset passed editorial review.|
+|ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of the asset is undergoing editorial review in another market. For example the asset passed editorial review for Canada and is still pending review in the United States.|
+|Disapproved|The asset failed editorial review.|
+|Inactive|One or more elements of the asset is undergoing editorial review.|
+|Unknown|Reserved for future use.|
+
+### <a name="description-id"></a>id
+The `id` attribute is a unique Microsoft Advertising identifier for the asset in a Microsoft Advertising account. 
+
+The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account. After you upload a text asset the result file will include the asset identifier e.g., `""id:""123`, whether the asset is new or already existed in the account's asset library. 
+
+### <a name="description-text"></a>text
+Each description's `text` attribute must contain at least one word. The maximum input length of each description's `text` attribute is 90 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 45 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or ad group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
+
+The `text` attribute cannot contain the newline (\n) character.  
 
 ## <a name="editorialappealstatus"></a>Editorial Appeal Status
 Determines whether you can appeal the issues found by the editorial review.
@@ -238,16 +290,16 @@ A code that identifies the reason for the failure. For a list of possible reason
 **Delete:** Read-only  
 
 ## <a name="editorialstatus"></a>Editorial Status
-The editorial status of the asset.
+The editorial status of the asset group.
 
 Possible values are described in the table below.
 
 |Value|Description|
 |-----------|---------------|
-|<a name="editorialstatusactive"></a>Active|The asset passed editorial review.|
-|<a name="editorialstatusactivelimited"></a>ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of the asset is undergoing editorial review in another market. For example the asset passed editorial review for Canada and is still pending review in the United States.|
-|<a name="editorialstatusdisapproved"></a>Disapproved|The asset failed editorial review.|
-|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the asset is undergoing editorial review.|
+|<a name="editorialstatusactive"></a>Active|The asset group passed editorial review.|
+|<a name="editorialstatusactivelimited"></a>ActiveLimited|The asset group passed editorial review in one or more markets, and one or more elements of the asset group is undergoing editorial review in another market. For example the asset group passed editorial review for Canada and is still pending review in the United States.|
+|<a name="editorialstatusdisapproved"></a>Disapproved|The asset group failed editorial review.|
+|<a name="editorialstatusinactive"></a>Inactive|One or more elements of the asset group is undergoing editorial review.|
 
 **Add:** Read-only  
 **Update:** Read-only  
@@ -297,23 +349,80 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 **Delete:** Read-only  
 
 ## <a name="headlines"></a>Headlines
-We require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
+The list of headlines that Bing can use to optimize the ad layout.
 
-The upper limit of headlines is 15. And the length of each headline is limited to 30 characters. The data format of headlines are included in the example JSON below.
+To maximize performance across all ad formats the headlines might not always be shown in your ad.
+
+From a data model perspective the headlines are stored as text assets. The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account.
+
+You must set between 3-15 headlines. The headlines are represented in the bulk file as a JSON string. Two headlines are included in the example JSON below. The `id` and `text` are properties of the asset, whereas the `editorialStatus` and `assetPerformanceLabel` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see [assetPerformanceLabel](#headline-assetperformancelabel), [editorialStatus](#headline-editorialstatus), [id](#headline-id), and [text](#headline-text) below.
+
 ```json
 [{
 	"text": "Contoso",
 },
 {
-	"text": "Quick & Easy Setup"
-},
-{
 	"text": "Seamless Integration"
 }]
 ```
-**Add:** Required for multimedia ads and audience ads. Not applicable for video ads.
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
-**Delete:** Read-only 
+
+> [!NOTE]
+> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""text"":""Contoso""},{""text"":""Seamless Integration""}]"*.
+
+Here's an example Bulk download where you'll also get read-only attributes e.g., `id` and `editorialStatus`:
+
+```json
+[{
+	"id": 1,
+	"text": "Contoso",
+	"editorialStatus": "Active",
+	"assetPerformanceLabel": "Learning"
+},
+{
+	"id": 2,
+	"text": "Seamless Integration",
+	"editorialStatus": "Active",
+	"assetPerformanceLabel": "Learning"
+}]
+```
+
+**Add:** Required if its parent campaign does not associate to a store, optional if the parent campaign associates to a store. If the parent campaign associates to a store and you specify Headlines, you must also specify LongHeadlines, Descriptions, and Images. Only the [text](#headline-text) is honored. Even if the asset already exists in your account, the [id](#headline-id), [assetPerformanceLabel](#headline-assetperformancelabel), and [editorialStatus](#headline-editorialstatus) will be ignored if you include them.  
+**Update:** Optional. To retain all of the existing asset links, set or leave this field empty. If you set this field, any headlines that were previously linked to this ad will be replaced. If you specify this field, a list of 3-15 headlines is required. Only the [text](#headline-text) is honored. Even if the asset already exists in your account, the [id](#headline-id), [assetPerformanceLabel](#headline-assetperformancelabel), and [editorialStatus](#headline-editorialstatus) will be ignored if you include them.  
+**Delete:** Read-only  
+
+### <a name="headline-assetperformancelabel"></a>assetPerformanceLabel
+This lets you know how well the asset is performing.
+
+The `assetPerformanceLabel` attribute is read-only when you download the responsive search ad. Possible values are described in the table below.  
+
+|Value|Description|
+|-----------|---------------|
+|Low|This asset's performance is low and we recommend you replace this asset to improve your ad performance.|
+|Good|This asset is performing well. We recommend you keep this asset and add more assets to improve your ad performance.|
+|Best|This asset's performance is among the best and we recommend that you add more similar assets.|
+|Unrated|We don't have any performance rating for this asset. This can be due to the asset being inactive, not having enough information to determine its performance, or if there aren't enough similar assets to compare against it.|
+|Learning|The asset's performance is being actively evaluated. Once the evaluation is complete, the asset rating will be Low, Good, Best, or Unrated.|
+
+### <a name="headline-editorialstatus"></a>editorialStatus
+The `editorialStatus` attribute is a read-only string when you download the responsive search ad. Possible values are described in the table below.  
+
+|Value|Description|
+|-----------|---------------|
+|Active|The asset passed editorial review.|
+|ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of The asset is undergoing editorial review in another market. For example The asset passed editorial review for Canada and is still pending review in the United States.|
+|Disapproved|The asset failed editorial review.|
+|Inactive|One or more elements of The asset is undergoing editorial review.|
+|Unknown|Reserved for future use.|
+
+### <a name="headline-id"></a>id
+The `id` attribute is a unique Microsoft Advertising identifier for the asset in a Microsoft Advertising account. 
+
+The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account. After you upload a text asset the result file will include the asset identifier e.g., `""id:""123`, whether the asset is new or already existed in the account's asset library. 
+
+### <a name="headline-text"></a>text
+Each headline's `text` attribute must contain at least one word. The maximum input length of each headline's `text` attribute is 30 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 15 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or ad group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
+
+The `text` attribute cannot contain the newline (\n) character.
 
 ## <a name="id"></a>Id
 The system-generated identifier of the asset group.
@@ -323,18 +432,17 @@ The system-generated identifier of the asset group.
 **Delete:** Read-only and Required  
 
 ## <a name="images"></a>Images
-Because audience ads are responsive, you can create multiple image assets with different sizes and aspect ratios so they can flexibly display across a variety of publishers and placements.
+Create multiple image assets with different sizes and aspect ratios so they can flexibly display across a variety of publishers and placements.
 
-> [!NOTE]
->As of now, the SubType OriginalImage replaces the role of LandscapeImageMedia as the default image for AssetGroup of Audience Campaign.
+You are required to provide at least 1 LandscapeImageMedia and 1 SquareImageMedia. A total of up to 20 images and a total of up to 5 logos can be saved.
 
-The image assets are represented in the bulk file as a JSON string. Nine images are included in the example JSON below, and only the OriginalImage `subType` is not cropped. The `id` is a property of the asset, whereas the `cropHeight`, `cropWidth`, `cropX`, `cropY`, and `subType` are properties of the asset link i.e., the relationship between the asset and the ad.
+The image assets are represented in the bulk file as a JSON string. Nine images are included in the example JSON below, and only the LandscapeImageMedia `subType` is not cropped. The `id` is a property of the asset, whereas the `cropHeight`, `cropWidth`, `cropX`, `cropY`, and `subType` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see [cropHeight](#images-cropheight), [cropWidth](#images-cropwidth), [cropX](#images-cropx), [cropY](#images-cropy), [id](#images-id), and [subType](#images-subtype) below.
 
 
 ```json
 [{
 	"id": 1234567890000,
-	"subType": "OriginalImage"
+	"subType": "LandscapeImageMedia"
 },
 {
 	"id": 1234567890000,
@@ -346,19 +454,19 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 },
 {
 	"id": 1234567890000,
-	"subType": "ImageMedia169X100",
+	"subType": "LandscapeLogoMedia",
 	"cropX": 70,
 	"cropY": 0,
-	"cropWidth": 1061,
-	"cropHeight": 628
+	"cropWidth": 200,
+	"cropHeight": 50
 },
 {
 	"id": 1234567890000,
-	"subType": "ImageMedia93X100",
+	"subType": "SquareLogoMedia",
 	"cropX": 308,
 	"cropY": 0,
-	"cropWidth": 584,
-	"cropHeight": 628
+	"cropWidth": 120,
+	"cropHeight": 120
 },
 {
 	"id": 1234567890000,
@@ -366,14 +474,6 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 	"cropX": 129,
 	"cropY": 0,
 	"cropWidth": 942,
-	"cropHeight": 628
-},
-{
-	"id": 1234567890000,
-	"subType": "ImageMedia155X100",
-	"cropX": 114,
-	"cropY": 0,
-	"cropWidth": 973,
 	"cropHeight": 628
 },
 {
@@ -394,39 +494,140 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 },
 {
 	"id": 1234567890000,
-	"subType": "ImageMedia172X100",
+	"subType": "ImageMedia1x2",
+	"cropX": 41,
+	"cropY": 0,
+	"cropWidth": 500,
+	"cropHeight": 1000
+},
+{
+	"id": 1234567890000,
+	"subType": "ImageMedia4x1",
 	"cropX": 60,
 	"cropY": 0,
-	"cropWidth": 1080,
-	"cropHeight": 628
+	"cropWidth": 1000,
+	"cropHeight": 250
 }]
 ```
 
 > [!NOTE]
-> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""id"":1234567890000,""subType"":""OriginalImage""},{""id"":1234567890000,""subType"":""SquareImageMedia"",""cropX"":286,""cropY"":0,""cropWidth"":628,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia169X100"",""cropX"":70,""cropY"":0,""cropWidth"":1061,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia93X100"",""cropX"":308,""cropY"":0,""cropWidth"":584,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia15X10"",""cropX"":129,""cropY"":0,""cropWidth"":942,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia155X100"",""cropX"":114,""cropY"":0,""cropWidth"":973,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia133X100"",""cropX"":183,""cropY"":0,""cropWidth"":835,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia178X100"",""cropX"":41,""cropY"":0,""cropWidth"":1118,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia172X100"",""cropX"":60,""cropY"":0,""cropWidth"":1080,""cropHeight"":628}]"*.  
+> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""id"":1234567890000,""subType"":""LandscapeImageMedia""},{""id"":1234567890000,""subType"":""SquareImageMedia"",""cropX"":286,""cropY"":0,""cropWidth"":628,""cropHeight"":628},{""id"":1234567890000,""subType"":""LandscapeLogoMedia"",""cropX"":70,""cropY"":0,""cropWidth"":200,""cropHeight"":50},{""id"":1234567890000,""subType"":""SquareLogoMedia"",""cropX"":308,""cropY"":0,""cropWidth"":120,""cropHeight"":120},{""id"":1234567890000,""subType"":""ImageMedia15X10"",""cropX"":129,""cropY"":0,""cropWidth"":942,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia133X100"",""cropX"":183,""cropY"":0,""cropWidth"":835,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia178X100"",""cropX"":41,""cropY"":0,""cropWidth"":1118,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia1X2"",""cropX"":41,""cropY"":0,""cropWidth"":500,""cropHeight"":1000},{""id"":1234567890000,""subType"":""ImageMedia4X1"",""cropX"":60,""cropY"":0,""cropWidth"":1000,""cropHeight"":250}]"*.  
 
-Given the upload response JSON example above, please take note of the following:
-- Because the ad in this example was created without crop settings for the OriginalImage image asset sub type, all image assets are cropped except for the OriginalImage associated image.
-- Whether or not the OriginalImage has its own crop settings, Microsoft Advertising uses the true height of the OriginalImage associated image for all of the default crop settings. In this example the crop height for all system-generated image assets is 628, and we can infer that the OriginalImage (OriginalImage sub type) with 1.91:1 aspect ratio has width and height of 1200x628. Even if the OriginalImage asset link had been created with crop settings e.g., 703x368, the crop settings of the auto-generated image assets are based on the full dimensions of the OriginalImage (again that would be 1200x628 in this example). 
+**Add:** Required if its parent campaign does not associate to a store, optional if the parent campaign associates to a store. If the parent campaign associates to a store and you specify Images, you must also specify Headlines, LongHeadlines, and Descriptions. Only the [id](#images-id) and [subType](#images-subtype) are required for each asset link.  
+**Update:** Optional. To retain all of the existing asset links, set or leave this field empty. If you set this field, any images that were previously linked to this ad will be replaced. If you set this field, only the [id](#images-id) and [subType](#images-subtype) are required for each asset link.  
+**Delete:** Read-only  
+
+### <a name="images-cropheight"></a>cropHeight
+The number of pixels to use from the image asset source, starting from the cropY position and moving upwards.
+
+### <a name="images-cropwidth"></a>cropWidth
+The number of pixels to use from the image asset source, starting from the cropX position and moving to the right.
+
+### <a name="images-cropx"></a>cropX
+Starting from the lower left corner of image asset source, this is the number of pixels to skip to the right on the x-axis before applying the cropWidth.
+
+### <a name="images-cropy"></a>cropY
+Starting from the lower left corner of image asset source, this is the number of pixels to skip upwards on the y-axis before applying the cropHeight.
+
+### <a name="images-id"></a>id
+The `id` attribute is a unique Microsoft Advertising identifier for the asset in a Microsoft Advertising account.
+
+The same image asset identifier can be used multiple times in the same ad for different aspect ratios, and can also be used by multiple ads in the same Microsoft Advertising account. You can create images for responsive ads via the [Image](image.md) bulk record. Then you can use the returned media identifier as the image asset ID. The aspect ratio of the image that you added must be supported for the image asset [subType](#images-subtype).
+
+### <a name="images-subtype"></a>subType
+The `subType` attribute represents the aspect ratio for this image asset.
+
+The true aspect ratio of the [Image](image.md) that is stored in the account level media library can vary, so long as the resulting dimensions result in the expected aspect ratio per sub type.
+
+The possible sub type values include LandscapeImageMedia, SquareImageMedia, LandscapeLogoMedia, SquareLogoMedia, ImageMedia15X10, ImageMedia133X100, ImageMedia178X100, ImageMedia1X2, and ImageMedia4X1. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
+
+|Sub Type|Aspect ratio|Minimum dimensions in pixels|
+|--------|--------|--------|
+|LandscapeImageMedia|1.91:1|703 width x 368 height|
+|SquareImageMedia|1:1|300 width x 300 height|
+|LandscapeLogoMedia|4:1|160 width x 40 height|
+|SquareLogoMedia|1:1|40 width x 40 height|
+|ImageMedia15x10|1.5:1|300 width x 200 height|
+|ImageMedia133x100|1.33:1|100 width x 75 height|
+|ImageMedia178x100|1.78:1|624 width x 350 height|
+|ImageMedia1x2|1:2|470 width x 940 height|
+|ImageMedia4x1|4:1|608 width x 152 height|
 
 ## <a name="longheadlines"></a>Long Headlines
-We require multiple headlines so they can flexibly serve across a variety of publishers and placements. 
+The list of long headlines that Bing can use to optimize the ad layout.
 
-The upper limit of long headlines is 5. And the length of each headline is limited to 90 characters. The data format of long headlines are included in the example JSON below.
+To maximize performance across all ad formats the long headlines might not always be shown in your ad.
+
+From a data model perspective the long headlines are stored as text assets. The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account.
+
+You must set between 1-5 long headlines. The long headlines are represented in the bulk file as a JSON string. Two long headlines are included in the example JSON below. The `id` and `text` are properties of the asset, whereas the `editorialStatus` and `assetPerformanceLabel` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see [assetPerformanceLabel](#longheadline-assetperformancelabel), [editorialStatus](#longheadline-editorialstatus), [id](#longheadline-id), and [text](#longheadline-text) below.
+
 ```json
 [{
-	"text": "Contoso",
+	"text": "Find New Customers & Increase Sales!",
 },
 {
-	"text": "Quick & Easy Setup"
-},
-{
-	"text": "Seamless Integration"
+	"text": "Start Advertising on Contoso Today."
 }]
 ```
-**Add:** Required for multimedia ads and audience ads. Not applicable for video ads.
-**Update:** Optional. If no value is set for the update, this setting is not changed.   
-**Delete:** Read-only 
+
+> [!NOTE]
+> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""text"":""Find New Customers & Increase Sales!""},{""text"":""Start Advertising on Contoso Today.""}]"*.
+
+Here's an example Bulk download where you'll also get read-only attributes e.g., `id` and `editorialStatus`:
+
+```json
+[{
+	"id": 1,
+	"text": "Find New Customers & Increase Sales!",
+	"editorialStatus": "Active",
+	"assetPerformanceLabel": "Learning"
+},
+{
+	"id": 2,
+	"text": "Start Advertising on Contoso Today",
+	"editorialStatus": "Active",
+	"assetPerformanceLabel": "Learning"
+}]
+```
+
+**Add:** Required if its parent campaign does not associate to a store, optional if the parent campaign associates to a store. If the parent campaign associates to a store and you specify LongHeadlines, you must also specify Headlines, Descriptions, and Images. Only the [text](#longheadline-text) is honored. Even if the asset already exists in your account, the [id](#longheadline-id), [assetPerformanceLabel](#longheadline-assetperformancelabel), and [editorialStatus](#longheadline-editorialstatus) will be ignored if you include them.  
+**Update:** Optional. To retain all of the existing asset links, set or leave this field empty. If you set this field, any headlines that were previously linked to this ad will be replaced. If you specify this field, a list of 1-5 headlines is required. Only the [text](#longheadline-text) is honored. Even if the asset already exists in your account, the [id](#longheadline-id), [assetPerformanceLabel](#longheadline-assetperformancelabel), and [editorialStatus](#longheadline-editorialstatus) will be ignored if you include them.  
+**Delete:** Read-only  
+
+### <a name="longheadline-assetperformancelabel"></a>assetPerformanceLabel
+This lets you know how well the asset is performing.
+
+The `assetPerformanceLabel` attribute is read-only when you download the responsive search ad. Possible values are described in the table below.  
+
+|Value|Description|
+|-----------|---------------|
+|Low|This asset's performance is low and we recommend you replace this asset to improve your ad performance.|
+|Good|This asset is performing well. We recommend you keep this asset and add more assets to improve your ad performance.|
+|Best|This asset's performance is among the best and we recommend that you add more similar assets.|
+|Unrated|We don't have any performance rating for this asset. This can be due to the asset being inactive, not having enough information to determine its performance, or if there aren't enough similar assets to compare against it.|
+|Learning|The asset's performance is being actively evaluated. Once the evaluation is complete, the asset rating will be Low, Good, Best, or Unrated.|
+
+### <a name="longheadline-editorialstatus"></a>editorialStatus
+The `editorialStatus` attribute is a read-only string when you download the responsive search ad. Possible values are described in the table below.  
+
+|Value|Description|
+|-----------|---------------|
+|Active|The asset passed editorial review.|
+|ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of The asset is undergoing editorial review in another market. For example The asset passed editorial review for Canada and is still pending review in the United States.|
+|Disapproved|The asset failed editorial review.|
+|Inactive|One or more elements of The asset is undergoing editorial review.|
+|Unknown|Reserved for future use.|
+
+### <a name="longheadline-id"></a>id
+The `id` attribute is a unique Microsoft Advertising identifier for the asset in a Microsoft Advertising account.
+
+The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account. After you upload a text asset the result file will include the asset identifier e.g., `""id:""123`, whether the asset is new or already existed in the account's asset library.
+
+### <a name="longheadline-text"></a>text
+Each long headline's `text` attribute must contain at least one word. The maximum input length of each headline's `text` attribute is 90 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 45 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or ad group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
+
+The `text` attribute cannot contain the newline (\n) character.
 
 ## <a name="mobilefinalurl"></a>Mobile Final Url
 The mobile landing page URL.
@@ -467,9 +668,6 @@ This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 **Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are adding new ad groups to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
-
-> [!NOTE]
-> For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
 
 > [!NOTE]
 > For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.

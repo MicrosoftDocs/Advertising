@@ -183,7 +183,7 @@ The system-generated identifier of the asset group listing group.
 ## <a name="isexcluded"></a>Is Excluded
 Determines whether products belongs to the list group should be excluded when serving.
 
-If set to *true* it is a negative criterion, and otherwise if *false* it is a biddable criterion.
+If set to *true* it is a biddable criterion, and otherwise if *false* it is a negative criterion.
 
 **Add:** Required  
 **Update:** Read-only  

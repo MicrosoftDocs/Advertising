@@ -231,7 +231,7 @@ You have more character space to work with in the ad text than in the headline. 
 
 The text must contain at least one word.
 
-The upperlimit of descriptions is 5. The length of the string is limited to 90 characters.
+The upper limit of descriptions is 5. The length of the string is limited to 90 characters.
 The data format of headlines are included in the example JSON below.
 ```json
 [{
