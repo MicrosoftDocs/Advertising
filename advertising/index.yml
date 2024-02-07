@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
-title: Microsoft Advertising Developer documentation # < 60 chars
-summary: Official developer documentation for Microsoft Advertising. # < 160 chars
+title: Microsoft Advertising # < 60 chars
+summary: Official product, developer, and other documentation for Microsoft Advertising # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: m365
 
 metadata:
-  title: Microsoft Advertising Developer documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Official developer documentation for Microsoft Advertising. # Required; article description that is displayed in search results. < 160 chars.
+  title: Microsoft Advertising # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Official product, developer, and other documentation for Microsoft Advertising # Required; article description that is displayed in search results. < 160 chars.
   ms.service: bing-ads #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: rgaritta #Required; your GitHub user alias, with correct capitalization.
@@ -129,3 +129,33 @@ conceptualContent:
         - url: scripts/reference-overview.md
           itemType: reference
           text: Reference
+    # Card
+    - title: Xandr Platform
+      links:
+        - url: /xandr/industry-reference
+          itemType: concept
+          text: Ad Tech and Online Advertsing Concepts
+        - url: /xandr/invest
+          itemType: reference
+          text: Microsoft Invest
+        - url: /xandr/monetize
+          itemType: reference
+          text: Microsoft Monetize
+        - url: /xandr/curate
+          itemType: reference
+          text: Microsoft Curate
+        - url: /xandr/digital-platform-api
+          itemType: reference
+          text: Digital Platform API
+        - url: /xandr/mobile-sdk
+          itemType: reference
+          text: Mobile SDK
+        - url: /xandr/log-level-data
+          itemType: reference
+          text: Log Level Data
+        - url: /xandr/bidders
+          itemType: reference
+          text: Bidders
+        - url: /xandr/supply-partners
+          itemType: reference
+          text: Supply Partners
