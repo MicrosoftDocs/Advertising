@@ -41,4 +41,4 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
-[CustomerList](customerlist.md)  
+[CustomerListUserData](customerlistuserdata.md)  
