@@ -159,7 +159,7 @@ The length of the string is limited to 25 characters.
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
-**Delete:** Read-only 
+**Delete:** Read-only  
 
 ## <a name="calltoaction"></a>Call To Action
 A brief, punchy reason for customers to click your ad right now.
@@ -168,14 +168,14 @@ The possible values are ActNow, AddToCart, ApplyNow, Automated, BetNow, BidNow, 
 
 **Add:** Required.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
-**Delete:** Read-only 
+**Delete:** Read-only  
 
 ## <a name="campaign"></a>Campaign
 The name of the campaign that contains the asset group.
 
-**Add:** Read-only and Required
-**Update:** Read-only and Required
-**Delete:** Read-only and Required
+**Add:** Read-only and Required  
+**Update:** Read-only and Required  
+**Delete:** Read-only and Required  
 
 > [!NOTE]
 > For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
@@ -184,7 +184,7 @@ The name of the campaign that contains the asset group.
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.  
+**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.   
 **Delete:** Read-only  
 
 ## <a name="descriptions"></a>Descriptions
@@ -325,7 +325,7 @@ If you do not specify an end date, the asset group will not expire. The end date
 The end date is inclusive. For example, if you set *End Date* to 12/31/2020, the asset group will expire at 11:59 PM on 12/31/2020. The time is based on the time zone that you specify at the campaign level.
 
 **Add:** Optional. To set no end date when adding an asset group, do not set this field.  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set this field to the "delete_value" string. When you retrieve the asset group next time, this field will not be set.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set this field to the "delete_value" string. When you retrieve the asset group next time, this field will not be set.  
 **Delete:** Read-only  
 
 ## <a name="finalurl"></a>Final Url
@@ -348,7 +348,7 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 - If you specify Final Mobile URLs, you must also specify Final Url.
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.     
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="headlines"></a>Headlines
@@ -650,7 +650,7 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 - If you specify Final Mobile URLs, you must also specify Final Url.
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="modifiedtime"></a>Modified Time
@@ -689,7 +689,7 @@ The path cannot contain the forward slash (/) or newline (\n) characters.
 If the path includes a space, it will be replaced with an underscore (_) when the ad is shown.
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="path2"></a>Path 2
@@ -708,7 +708,7 @@ The path cannot contain the forward slash (/) or newline (\n) characters.
 If the path includes a space, it will be replaced with an underscore (_) when the ad is shown.
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="status"></a>Status
@@ -718,7 +718,7 @@ Possible values are *Active*, *Deleted*, *Expired*, or *Paused*. The *Expired* s
 
 **Add:** Optional. The default value is *Paused*.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
-**Delete:** Required. The Status must be set to *Deleted*.
+**Delete:** Required. The Status must be set to *Deleted*.  
 
 ## <a name="startdate"></a>Start Date
 The date that the asset group can begin serving; otherwise, the service can begin serving the asset group the day that the asset group becomes active.
