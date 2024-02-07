@@ -31,7 +31,7 @@ The [ConversionGoalStatus](conversiongoalstatus.md) value set has the following 
 |-----------|---------------|
 |<a name="active"></a>Active|The conversion goal is active.<br/><br/>The status is shown as "Enabled" in the Microsoft Advertising UI.|
 |<a name="deleted"></a>Deleted|This status is for internal use only.<br/><br/>Because all Get operations do not return deleted objects, you will not see an object with this status.|
-|<a name="paused"></a>Paused|The conversion goal is paused.<br/><br/>While a conversion goal is paused, conversions will not be tracked for the corresponding goal.<br/><br/>The status is shown as "Removed" in the Microsoft Advertising UI.|
+|<a name="paused"></a>Paused|The conversion goal is paused.<br/><br/>While a conversion goal is paused, conversions will not be tracked for the corresponding goal.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
