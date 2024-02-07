@@ -177,6 +177,9 @@ The name of the campaign that contains the asset group.
 **Update:** Read-only and Required
 **Delete:** Read-only and Required
 
+> [!NOTE]
+> For add, update, and delete, you must specify either the [Parent Id](#parentid) or [Campaign](#campaign) field.
+
 ## <a name="clientid"></a>Client Id
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
@@ -191,7 +194,7 @@ To maximize impressions across all ad formats the descriptions might not always 
 
 From a data model perspective the descriptions are stored as text assets. The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account.
 
-You must set between 2-5 descriptions. The descriptions are represented in the bulk file as a JSON string. Two descriptions are included in the example JSON below, and the first is pinned to a specific position. The `id` and `text` are properties of the asset, whereas the `editorialStatus` and `assetPerformanceLabel` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see (#description-assetperformancelabel), [editorialStatus](#description-editorialstatus), [id](#description-id), and [text](#description-text) below.
+You must set between 2-5 descriptions. The descriptions are represented in the bulk file as a JSON string. Two descriptions are included in the example JSON below, and the first is pinned to a specific position. The `id` and `text` are properties of the asset, whereas the `editorialStatus` and `assetPerformanceLabel` are properties of the asset link i.e., the relationship between the asset and the ad. For more details see [assetPerformanceLabel](#description-assetperformancelabel), [editorialStatus](#description-editorialstatus), [id](#description-id), and [text](#description-text) below.
 
 ```json
 [{
