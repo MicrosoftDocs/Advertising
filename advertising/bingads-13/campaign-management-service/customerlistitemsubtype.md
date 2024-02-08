@@ -10,9 +10,6 @@ description: Defines a CustomerListItemSubType value set.
 # CustomerListItemSubType Value Set - Campaign Management
 Defines a CustomerListItemSubType value set.
 
-> [!WARNING]
-> The CustomerListItemSubType value set is for internal use only. You can't access it via the public API.
-
 ## Syntax
 ```xml
 <xs:simpleType name="CustomerListItemSubType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -29,8 +26,8 @@ The [CustomerListItemSubType](customerlistitemsubtype.md) value set has the foll
 
 |Value|Description|
 |-----------|---------------|
-|<a name="crm"></a>CRM|Reserved.|
-|<a name="email"></a>Email|Reserved.|
+|<a name="crm"></a>CRM|The user data type is CRM.|
+|<a name="email"></a>Email|The user data type is email.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

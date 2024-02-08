@@ -25,7 +25,7 @@ The *ApplyCustomerListUserDataRequest* object defines the [body](#request-body) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerlistuserdata"></a>CustomerListUserData|Reserved.|[CustomerListUserData](customerlistuserdata.md)|
+|<a name="customerlistuserdata"></a>CustomerListUserData|Defines the CustomerListUserData data object. You can specify one user data type in [CustomerListItemSubtype](./customerlistitemsubtype.md). Use [CustomerListActionType](./customerlistactiontype.md) to specify the action type.<br/><br/>*Note*: The maximum user data for [CustomerListItems](./customerlistitem.md) is 1000. |[CustomerListUserData](customerlistuserdata.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
