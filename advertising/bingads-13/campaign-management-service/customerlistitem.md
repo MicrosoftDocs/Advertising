@@ -29,8 +29,8 @@ The [CustomerListItem](customerlistitem.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerlistitemsubtype"></a>CustomerListItemSubType|For internal use only.|[CustomerListItemSubType](customerlistitemsubtype.md)|
-|<a name="itemvalue"></a>ItemValue|Reserved.|**string**|
+|<a name="customerlistitemsubtype"></a>CustomerListItemSubType|The user data type of the customer list item.|[CustomerListItemSubType](customerlistitemsubtype.md)|
+|<a name="itemvalue"></a>ItemValue|The customer list item value.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

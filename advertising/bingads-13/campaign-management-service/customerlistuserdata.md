@@ -28,10 +28,10 @@ The [CustomerListUserData](customerlistuserdata.md) object has the following ele
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="actiontype"></a>ActionType|Reserved.|[CustomerListActionType](customerlistactiontype.md)|
-|<a name="audienceid"></a>AudienceId|Reserved.|**long**|
-|<a name="customerlistitems"></a>CustomerListItems|Reserved.|**string** array|
-|<a name="customerlistitemsubtype"></a>CustomerListItemSubType|Reserved.|[CustomerListItemSubType](customerlistitemsubtype.md)|
+|<a name="actiontype"></a>ActionType|The action type when uploading user data.|[CustomerListActionType](customerlistactiontype.md)|
+|<a name="audienceid"></a>AudienceId|The Microsoft Advertising assigned identifier of an audience, for example the customer list ID.|**long**|
+|<a name="customerlistitems"></a>CustomerListItems|Take an action for a customer list item within this array.|**string** array|
+|<a name="customerlistitemsubtype"></a>CustomerListItemSubType|The user data type of the customer list item.|[CustomerListItemSubType](customerlistitemsubtype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

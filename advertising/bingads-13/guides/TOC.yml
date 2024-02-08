@@ -1220,6 +1220,10 @@
       href: ../campaign-management-service/appealeditorialrejections.md
     - name: ApplyAssetGroupListingGroupActions
       href: ../campaign-management-service/applyassetgrouplistinggroupactions.md
+    - name: ApplyCustomerListItems
+      href: ../campaign-management-service/applycustomerlistitems.md
+    - name: ApplyCustomerListUserData
+      href: ../campaign-management-service/applycustomerlistuserdata.md
     - name: ApplyHotelGroupActions
       href: ../campaign-management-service/applyhotelgroupactions.md
     - name: ApplyOfflineConversionAdjustments
@@ -1597,6 +1601,10 @@
       href: ../campaign-management-service/customeraccountshareassociation.md
     - name: CustomerList
       href: ../campaign-management-service/customerlist.md
+    - name: CustomerListItem
+      href: ../campaign-management-service/customerlistitem.md
+    - name: CustomerListUserData
+      href: ../campaign-management-service/customerlistuserdata.md
     - name: CustomerShare
       href: ../campaign-management-service/customershare.md
     - name: CustomEventsRule
@@ -2000,6 +2008,10 @@
       href: ../campaign-management-service/criterionadditionalfield.md
     - name: CriterionTypeGroup
       href: ../campaign-management-service/criteriontypegroup.md
+    - name: CustomerListActionType
+      href: ../campaign-management-service/customerlistactiontype.md
+    - name: CustomerListItemSubType
+      href: ../campaign-management-service/customerlistitemsubtype.md
     - name: Day
       href: ../campaign-management-service/day.md
     - name: DistanceUnit
