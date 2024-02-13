@@ -13,15 +13,16 @@ Defines the base class of a shared entity.
 Do not try to instantiate a *SharedEntity*. You can create one or more of the following objects that derive from it.
 - [NegativeKeywordList](negativekeywordlist.md)  
 - [PlacementExclusionList](placementexclusionlist.md)  
+- [AccountNegativeKeywordList](accountnegativekeywordlist.md)
 
-The [NegativeKeywordList](negativekeywordlist.md) and [PlacementExclusionList](placementexclusionlist.md) are each derived from the [SharedList](sharedlist.md), which derives from the [SharedEntity](sharedentity.md) object.
+The [NegativeKeywordList](negativekeywordlist.md), [AccountNegativeKeywordList](accountnegativekeywordlist.md), and [PlacementExclusionList](placementexclusionlist.md) are each derived from the [SharedList](sharedlist.md), which derives from the [SharedEntity](sharedentity.md) object.
 
 ## Syntax
 ```xml
 <xs:complexType name="SharedEntity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="AssociationCount" nillable="true" type="xs:int" />
-    <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q91:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q92:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
@@ -39,7 +40,7 @@ The [SharedEntity](sharedentity.md) object has the following elements: [Associat
 |<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for this object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the shared entity.<br/><br/>**Add:** Read-only<br/>**Update:** Required|**long**|
 |<a name="name"></a>Name|The name of the shared entity.<br/><br/>The maximum string length is 255.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
-|<a name="type"></a>Type|The type of the shared entity.<br/><br/>This value is *NegativeKeywordList* when you retrieve a [NegativeKeywordList](negativekeywordlist.md). This value is *PlacementExclusionList* when you retrieve a [PlacementExclusionList](placementexclusionlist.md).<br/><br/>For more information about shared entity types, see [SharedEntity Data Object Remarks](sharedentity.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
+|<a name="type"></a>Type|The type of the shared entity.<br/><br/>This value is *NegativeKeywordList* when you retrieve a [NegativeKeywordList](negativekeywordlist.md). This value is *PlacementExclusionList* when you retrieve a [PlacementExclusionList](placementexclusionlist.md). This value is *AccountNegativeKeywordList* when you retrieve *AccountNegativeKeywordList*.<br/><br/>For more information about shared entity types, see [SharedEntity Data Object Remarks](sharedentity.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 
 ## <a name="remarks"></a>Remarks
 For Java and the .NET languages, do not set the *Type* element because the value is determined by the object instance.
