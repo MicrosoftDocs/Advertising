@@ -20,7 +20,7 @@ Applies an add, update, or delete action to each of the specified [BiddableAdGro
 
 Please note the following validation rules. 
 
-- At minimum you must specify at least the root node for the hotel listing group group tree structure. The hotel listing group group's root node must have its [Hotel Attribute](#hotelattribute) field set to "All" and [Hotel Attribute Value](#hotelattributevalue) null or empty. If you are bidding on all hotels in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific hotel attributes, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
+- At minimum you must specify at least the root node for the hotel listing group group tree structure. The hotel listing group group's root node must have its [Hotel Attribute](../bulk-service/ad-group-hotel-listing-group#hotelattribute) field set to "All" and [Hotel Attribute Value](../bulk-service/ad-group-hotel-listing-group#hotelattributevalue) null or empty. If you are bidding on all hotels in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific hotel attributes, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
 
 - The root node is considered level 0, and a tree can have branches up to 7 levels deep.
 
@@ -30,9 +30,9 @@ Please note the following validation rules.
 
 - The order of the hotel listing group nodes is not guaranteed during download, and parent nodes might be provided after child nodes; however, all nodes for the same ad group will be grouped together in the file.
 
-- If you are creating or modifying the tree structure, parent hotel listing group tree nodes must be ordered ahead of the child hotel listing group tree nodes ; however, the order does not matter for non-structural changes such as updating the bid. For example if you want to update the bids without adding, deleting, or updating the tree structure, then you only need to upload the [Id](#id), [Parent Id](#parentid), and [Bid](#bid) fields.
+- If you are creating or modifying the tree structure, parent hotel listing group tree nodes must be ordered ahead of the child hotel listing group tree nodes ; however, the order does not matter for non-structural changes such as updating the bid. For example if you want to update the bids without adding, deleting, or updating the tree structure, then you only need to upload the [Id](../bulk-service/ad-group-hotel-listing-group#id), [Parent Id](../bulk-service/ad-group-hotel-listing-group#parentid), and [Bid](../bulk-service/ad-group-hotel-listing-group#bid) fields.
 
-- To update the [Hotel Attribute](#hotelattribute), [Hotel Attribute Value](#hotelattributevalue) or *Is Excluded* field, you must delete the existing hotel listing group tree node and upload a new hotel listing group tree node which will get a new identifier.
+- To update the [Hotel Attribute](../bulk-service/ad-group-hotel-listing-group#hotelattribute), [Hotel Attribute Value](../bulk-service/ad-group-hotel-listing-group#hotelattributevalue) or *Is Excluded* field, you must delete the existing hotel listing group tree node and upload a new hotel listing group tree node which will get a new identifier.
 
 - If any action fails, all remaining actions that might have otherwise succeeded will also fail.
 
@@ -40,7 +40,7 @@ Please note the following validation rules.
 
 - Every path from the root node to the end of a branch must terminate with a leaf node (*Sub Type*=Unit). Every Unit must have a bid, unless the *Is Excluded* field is *true* which means that the node is a negative ad group criterion.
 
-- Every subdivision must have at least one leaf node that bids on the remainder of the subdivision's conditions, i.e. use the same operand as its sibling unit(s) and set its [Hotel Attribute Value](#hotelattributevalue) null or empty.
+- Every subdivision must have at least one leaf node that bids on the remainder of the subdivision's conditions, i.e. use the same operand as its sibling unit(s) and set its [Hotel Attribute Value](../bulk-service/ad-group-hotel-listing-group#hotelattributevalue) null or empty.
 
 - If you are adding partitions with multiple levels where neither the parent or child yet exist, use a negative int value as a reference to identify the parent. For example set the both the parent's *Id*, and the child's *Parent Criterion Id* field to the same negative value. The negative IDs are only valid for the duration of the call. Unique system identifiers for each successfully added ad group criterion are returned in the upload result file.
 
