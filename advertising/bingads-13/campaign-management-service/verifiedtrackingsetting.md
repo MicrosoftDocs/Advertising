@@ -10,8 +10,12 @@ description: Defines the VerifiedTrackingSetting Data Object.
 # VerifiedTrackingSetting Data Object - Campaign Management
 Defines the VerifiedTrackingSetting Data Object.
 
+*VerifiedTrackingSetting* relates third-party measurement settings. This allows you to track viewability, brand safety, and invalid traffic metrics via a third-party verification provider, such as *Integral Ad Science*. This feature is available for native, display, and online video ads using the CPM bid strategy.
+
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon
+>
+> Currently, IAS is the only supported vendor (*vendorName*), but other verification providers are coming soon.
 
 ## Syntax
 ```xml
@@ -32,7 +36,7 @@ The [VerifiedTrackingSetting](verifiedtrackingsetting.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="details"></a>Details|Reserved.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
+|<a name="details"></a>Details|Key-value pairs for the *VerifiedTrackingSetting* object.<br/><br/>*VerifiedTrackingSetting* relates third-party measurement settings. This allows you to track viewability, brand safety, and invalid traffic metrics via a third-party verification provider, such as *Integral Ad Science*. This feature is available for native, display, and online video ads using the CPM bid strategy.<br/><br/>*Note*: Currently, IAS is the only supported vendor (*vendorName*), but other verification providers are coming soon. The example below pertains to *IAS*.<br/><br/>There are 3 key-value pairs for *IAS*:<ul><li>"vendorName"</li><li>"advertiserEntityID" (client ID for your verification provider)</li><li>"publisherEntityID" (reporting ID for your verification provider)</li></ul><br/>Example (*required for IAS*):<br/><ul><li>vendorName : "IAS"</li><li>advertiserEntityID : "12345678"</li><li>publisherEntityID : "12345678"</li></ul>|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
 
 The [VerifiedTrackingSetting](verifiedtrackingsetting.md) object has [Inherited Elements](#inheritedelements).
 
