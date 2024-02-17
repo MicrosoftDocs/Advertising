@@ -267,34 +267,34 @@ The request must include at least one dimension column and one measure column.
 |AverageCPCUSD|Avg. CPC USD|The average cost per click, which is calculated by dividing the total cost of all clicks by the number of clicks. The cost is in US dollars.
 |AveragePosition|Avg. pos.|The average position of ads on the results page. Position refers to the order of the ad on the page relative to all other ads across all slots.
 |AverageSlotPosition|Avg. slot pos.|The average position of ads in the slot type. If you include this metric, you should also include the SlotType dimension column.
-|<a name="avgbookedabw"></a>AvgBookedABW|Avg booked ABW|The average advanced booking window for the hotel. The average is calculated as (booked ABW/conversions). [Read more](#conversionmetrics).
-|<a name="avgbookednights"></a>AvgBookedNights|Avg booked nights|The average nights booked for the hotel. The average is calculated as (total booked nights/conversions). [Read more](#conversionmetrics).
-|<a name="bookedabw"></a>BookedABW|Booked ABW|The total advanced booking window days for the hotel. [Read more](#conversionmetrics). 
+|<a name="avgbookedabw"></a>AvgBookedABW|Avg booked ABW|The average advanced booking window for the hotel. The average is calculated as (booked ABW/conversions). [Read more](./conversion-metrics.md).
+|<a name="avgbookednights"></a>AvgBookedNights|Avg booked nights|The average nights booked for the hotel. The average is calculated as (total booked nights/conversions). [Read more](./conversion-metrics.md).
+|<a name="bookedabw"></a>BookedABW|Booked ABW|The total advanced booking window days for the hotel. [Read more](./conversion-metrics.md). 
 |Clicks|Clicks|The number of time ads were clicked.
 |<a name="clickshare"></a>ClickShare|Click share|The percentage of clicks that went to your ads, out of the total number of clicks in the market you were targeting. For example, out of the estimated 1,000 clicks that occurred on this day in your targeted market, you had about 230, or 23%. The value is in the range 0.0 through 1.0. [Read more](#sov).
-|<a name="conversions"></a>Conversions|Conversions|A hotel booking. [Read more](#conversionmetrics).
-|<a name="conversionrate"></a>ConversionRate|Conversion rate|The rate of conversions. The rate is calculated as (conversions/clicks)*100. [Read more](#conversionmetrics).
+|<a name="conversions"></a>Conversions|Conversions|A hotel booking. [Read more](./conversion-metrics.md).
+|<a name="conversionrate"></a>ConversionRate|Conversion rate|The rate of conversions. The rate is calculated as (conversions/clicks)*100. [Read more](./conversion-metrics.md).
 |<a name="cpa"></a>CPA|CPA|The cost per aquisition. The cost is calculated as (spend/conversions).
-|CTR|CTR|The click-through-rate of the ads. CTR is calculated by dividing the number of times the ads were clicked by the number of impressions. [Read more](#conversionmetrics).
+|CTR|CTR|The click-through-rate of the ads. CTR is calculated by dividing the number of times the ads were clicked by the number of impressions. [Read more](./conversion-metrics.md).
 |<a name="eligibleimpressions"></a>EligibleImpressions|Eligible impr.|The total number of realized and unrealized impressions (impressions plus missed impressions). [Read more](#sov).
 |Impressions|Impr.|The number of times ads were shown.
-|<a name="grossrevenue"></a>GrossRevenue|Gross revenue|The total revenue, including taxes. [Read more](#conversionmetrics)
-|<a name="grossrevenueperclick"></a>GrossRevenuePerClick|Gross revenue / click|The gross revenue per click. The per click revenue is calculated as (gross revenue/clicks). [Read more](#conversionmetrics).
-|<a name="grossrevenueperconv"></a>GrossRevenuePerConv|Gross revenue / conv|The gross revenue per conversion. The per conversion revenue is calculated as (gross revenue/conversions). [Read more](#conversionmetrics).
-|<a name="grossroas"></a>GrossROAS|Gross ROAS|The gross return on ad spend. The ROAS is calculated as (gross revenue/spend) * 100. [Read more](#conversionmetrics).
+|<a name="grossrevenue"></a>GrossRevenue|Gross revenue|The total revenue, including taxes. [Read more](./conversion-metrics.md)
+|<a name="grossrevenueperclick"></a>GrossRevenuePerClick|Gross revenue / click|The gross revenue per click. The per click revenue is calculated as (gross revenue/clicks). [Read more](./conversion-metrics.md).
+|<a name="grossrevenueperconv"></a>GrossRevenuePerConv|Gross revenue / conv|The gross revenue per conversion. The per conversion revenue is calculated as (gross revenue/conversions). [Read more](./conversion-metrics.md).
+|<a name="grossroas"></a>GrossROAS|Gross ROAS|The gross return on ad spend. The ROAS is calculated as (gross revenue/spend) * 100. [Read more](./conversion-metrics.md).
 |<a name="impressionshare"></a>ImpressionShare|Impr. share|The percentage of impressions, out of the total available impressions in the market you were targeting. For example, out of an estimated 59,000 impressions that occurred on this day in your targeted market, you received 2,300, or 3%. The value is in the range 0.0 through 1.0. [Read more](#sov).
 |<a name="missedimpressions"></a>MissedImpressions|Missed impr.|The total number of impressions lost. This is the sum of the following columns:<ul><li>MissedImpressionsInsufficientBid</li><li>MissedImpressionsNoTax</li><li>MissedImpressionsOther</li><li>MissedImpressionsSpendingCapReached</li></ul> [Read more](#sov).
 |<a name="missedimpressionsbid"></a>MissedImpressionsInsufficientBid|Missed impr. insufficient bid|The number of impressions lost because your bids were low and not competing well in the auction marketplace. [Read more](#sov).
 |<a name="missedimpressionsnotax"></a>MissedImpressionsNoTax|Missed impr. no tax|The number of impressions lost because the hotel didn't specify taxes. [Read more](#sov).
 |<a name="missedimpressionsother"></a>MissedImpressionsOther|Missed impr. other|The number of impressions lost for all other reasons. Typically, low ranking or your rate was available in the **More rates** section, but the user did not expand the section to view your rate. [Read more](#sov).
 |<a name="missedimpressionscapreached"></a>MissedImpressionsSpendingCapReached|Missed impr. spending cap reached|The number of impressions lost because you reached your daily spending limit. [Read more](#sov).
-|<a name="netrevenue"></a>NetRevenue|Net revenue|The total revenue, excluding taxes. [Read more](#conversionmetrics).
-|<a name="netrevenueperclick"></a>NetRevenuePerClick|Net revenue / click|The net revenue per click. The per click revenue is calculated as (net revenue/clicks). [Read more](#conversionmetrics).
-|<a name="netrevenueconv"></a>NetRevenueConv|Net revenue / conv|The net revenue per conversion. The per conversion revenue is calculated as (net revenue/conversions). [Read more](#conversionmetrics).
+|<a name="netrevenue"></a>NetRevenue|Net revenue|The total revenue, excluding taxes. [Read more](./conversion-metrics.md).
+|<a name="netrevenueperclick"></a>NetRevenuePerClick|Net revenue / click|The net revenue per click. The per click revenue is calculated as (net revenue/clicks). [Read more](./conversion-metrics.md).
+|<a name="netrevenueconv"></a>NetRevenueConv|Net revenue / conv|The net revenue per conversion. The per conversion revenue is calculated as (net revenue/conversions). [Read more](./conversion-metrics.md).
 |<a name="netroas"></a>NetROAS|Net ROAS|The net return on ad spend. The ROAS is calculated as (net revenue/spend) * 100.
-|Spend|Spend|The total cost of all clicks. The cost is in the account's currency.  Data is available starting from December 6, 2017. [Read more](#conversionmetrics).
+|Spend|Spend|The total cost of all clicks. The cost is in the account's currency.  Data is available starting from December 6, 2017. [Read more](./conversion-metrics.md).
 |SpendUSD|Spend USD|The total cost of all clicks. The cost is in US dollars.
-|<a name="totalbookednights"></a>TotalBookedNights|Booked length of stay|The total nights booked for the hotel. [Read more](#conversionmetrics).
+|<a name="totalbookednights"></a>TotalBookedNights|Booked length of stay|The total nights booked for the hotel. [Read more](./conversion-metrics.md).
 
 
 <a name="sov"></a>
