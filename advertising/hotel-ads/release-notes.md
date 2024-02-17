@@ -58,7 +58,7 @@ For information about changes that were included with each release, see the foll
 
 ## June 13, 2019
 
-- Added conversion tracking metrics to hotel reporting. [Read more](../hotel-service/reporting.md#conversionmetrics).
+- Added conversion tracking metrics to hotel reporting. [Read more](../hotel-service/conversion-metrics.md).
 
 
 ## April 30, 2019
@@ -96,7 +96,7 @@ The following is a documentation-only change.
 
 ## August 20, 2018
 
-- Updated [Getting sandbox credentials](../hotel-service/get-started.md#getsicredentials) to reflect the current process. Previously, when you signed up for a sandbox account, the process created legacy credentials (username and password). However, the Hotel Price Ads API requires using a Microsoft account (MSA) for OAuth authentication. This meant you needed to invite a user to work on your account, so you could create an MSA account to use with the Hotel Price Ads API. This process is no longer required since sandbox now supports only MSA&mdash;you may create a sandbox account using only an MSA and you must sign in using only an MSA.
+<!-- - Updated [Getting sandbox credentials](../hotel-service/get-started.md#getsicredentials) to reflect the current process. Previously, when you signed up for a sandbox account, the process created legacy credentials (username and password). However, the Hotel Price Ads API requires using a Microsoft account (MSA) for OAuth authentication. This meant you needed to invite a user to work on your account, so you could create an MSA account to use with the Hotel Price Ads API. This process is no longer required since sandbox now supports only MSA&mdash;you may create a sandbox account using only an MSA and you must sign in using only an MSA. -->
 
 - Updated information about how to pause hotels. Previously, the documentation said that to pause all hotels in a subaccount, you'd set the subaccount's budget or bid amount to zero (0). Or, to pause all hotels in a hotel group, you'd set the group's bid amount to zero. Same for pausing individual hotels. Instead, to pause hotels, at any level, you must specify a percentage bid and set the percentage bid amount to 0. If you currently specify a fixed bid and you want to pause hotels, you must change the bid to a percentage bid and set its bid amount to zero.
 
@@ -172,7 +172,7 @@ The following is a documentation-only change.
 
 ### Nonbreaking change
 
-- Changed the sandbox URL that you use to get your initial sandbox account from si.bingads.microsoft.com to sandbox.bingads.microsoft.com (see [Getting sandbox credentials](../hotel-service/get-started.md#getsicredentials)). 
+<!-- - Changed the sandbox URL that you use to get your initial sandbox account from si.bingads.microsoft.com to sandbox.bingads.microsoft.com (see [Getting sandbox credentials](../hotel-service/get-started.md#getsicredentials)). -->
 
 
 ## February 1, 2018
@@ -321,7 +321,7 @@ Released the Beta version of Hotel Price Ads.
   
 - Added support for the [$select](../hotel-service/reference.md#select-param) OData query parameter. You can use the parameter to select the fields that you want the response to include.  
   
-- Added the steps for getting a Microsoft account to use in the sandbox environment. See [Getting SI (sandbox) credentials](../hotel-service/get-started.md#getsicredentials).
+<!-- - Added the steps for getting a Microsoft account to use in the sandbox environment. See [Getting SI (sandbox) credentials](../hotel-service/get-started.md#getsicredentials). -->
 
 
 
