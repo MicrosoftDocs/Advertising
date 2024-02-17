@@ -41,7 +41,7 @@ If you choose not to use the Bing Ads SDK to get the tokens, see [OAuth C# Examp
 > [!NOTE]
 > If you use the API from a service, see [Using the Hotel API from a service](get-started-service.md). 
 
-### Authenticating your credentials in sandbox
+<!-- ### Authenticating your credentials in sandbox 
 
 For the sandbox environment, the following are the endpoints you must use to get Microsoft accounts and your application's client ID. Wherever you see endpoints mentioned in [Authentication with OAuth](/advertising/guides/authentication-oauth), substitute them with the following sandbox endpoints.
 
@@ -78,10 +78,10 @@ You use the sandbox environment to test your application before putting it in pr
 After creating your sandbox account and getting your MSA, let your account manager know so they can enable it for Hotel Price Ads. You won't be able to use Hotel Price Ads or the API in sandbox until it's enabled.
 
 > [!NOTE]
-> The MSA signup process returns you to the SI Microsoft Advertising user interface (ui.si.bingads.microsoft.com). After completing the MSA process, sign out of the SI interface. To access Hotel Price Ads using the Microsoft Advertising user interface in sandbox, go to <a href="https://ui.sandbox.bingads.microsoft.com" data-raw-source="[https://ui.sandbox.bingads.microsoft.com](https://ui.sandbox.bingads.microsoft.com)">https://ui.sandbox.bingads.microsoft.com</a> and sign in using your new MSA email address.
+> The MSA signup process returns you to the SI Microsoft Advertising user interface (ui.si.bingads.microsoft.com). After completing the MSA process, sign out of the SI interface. To access Hotel Price Ads using the Microsoft Advertising user interface in sandbox, go to <a href="https://ui.sandbox.bingads.microsoft.com" data-raw-source="[https://ui.sandbox.bingads.microsoft.com](https://ui.sandbox.bingads.microsoft.com)">https://ui.sandbox.bingads.microsoft.com</a> and sign in using your new MSA email address. -->
 
 
-<a name="wheretousecredentials"></a>
+<a name="wheretousecredentials"></a> 
 
 ## Where do you use your credentials?
 

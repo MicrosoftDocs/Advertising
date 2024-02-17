@@ -40,8 +40,8 @@ Next, append a template from the following table to add, get, and update hotel r
 
 |Verb|Description|
 |-|-
-|<a name="listsubaccounts"></a>GET|Gets the list of hotel campaigns defined for the specified account.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 campaigns. To determine the total number of campaigns in the subaccount, use the [$count](#count-param) query parameter. To specify the number of campaigns to return, use the [$top](#top-param) query parameter. To page through all campaigns in a subaccount, use the $top and [$skip](#skip-param) query parameters. <br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [SubAccount](#subaccount) objects.
-|<a name="addsubaccounts"></a>POST|Adds the subaccount to the specified account. You can think of subaccounts as hotel campaigns. Use subaccounts to logically organize your hotel ad campaigns. You may have a maximum of 50 active hotel campaigns per account.<br /><br />**Request body**: Contains the [SubAccount](#subaccount) to add.<br /><br />**Response body**: If successful, contains an [AddResponse](#addresponse) object. The `value` field contains the ID of the added hotel campaign.
+|<a name="listsubaccounts"></a>GET|Gets the list of lodging campaigns (formerly hotel campaigns) defined for the specified account.<br /><br />**NOTE**: By default, the list contains a maximum of 1,000 campaigns. To determine the total number of campaigns in the subaccount, use the [$count](#count-param) query parameter. To specify the number of campaigns to return, use the [$top](#top-param) query parameter. To page through all campaigns in a subaccount, use the $top and [$skip](#skip-param) query parameters. <br/><br/>**Response body**: Contains a [CollectionResponse](#collectionresponse) object. The `value` field contains the list of [SubAccount](#subaccount) objects.
+|<a name="addsubaccounts"></a>POST|Adds the subaccount to the specified account. You can think of subaccounts as lodging campaigns. Use subaccounts to logically organize your hotel ad campaigns. You may have a maximum of 50 active lodging campaigns per account.<br /><br />**Request body**: Contains the [SubAccount](#subaccount) to add.<br /><br />**Response body**: If successful, contains an [AddResponse](#addresponse) object. The `value` field contains the ID of the added lodging campaign.
 
 ### SubAccounts('{subAccountId}') template
 
@@ -178,7 +178,7 @@ The following are the resource objects used by the API.
 |[PercentageBid](#percentagebid)|Defines a bid based on the percentage of the per night total room rate.
 |[ReportJob](#reportjob)|Defines a report job.
 |[SiteMultiplier](#sitemultiplier)|Defines the amount to adjust the base bid by if the user is searching for hotels on one of the specified Bing sites.
-|[SubAccount](#subaccount)|Defines the top-level hotel price ads grouping. You can think of this logically as a hotel campaign.
+|[SubAccount](#subaccount)|Defines the top-level hotel price ads grouping. You can think of this logically as a lodging campaign.
 |[UserCountryMultiplier](#usercountrymultiplier)|Defines the amount to adjust the base bid by if the user accesses one of the Bing domains.
 
 
@@ -416,7 +416,7 @@ Defines the amount to adjust the base bid by if the user is searching for hotels
 
 ### SubAccount
 
-Defines the top-level hotel price ads grouping. You can think of this logically as a hotel campaign.
+Defines the top-level hotel price ads grouping. You can think of this logically as a lodging campaign.
 
 |Name|Value|Type|Add|Update
 |-|-|-|-|-

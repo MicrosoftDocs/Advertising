@@ -7,12 +7,14 @@
     href: ../hotel-service/get-started.md
   - name: Get started with a service
     href: ../hotel-service/get-started-service.md
-  - name: Hotel campaigns
+  - name: Lodging campaigns (formerly hotel campaigns)
     href: ../hotel-service/hotel-campaigns.md
-  - name: Manage campaigns
+  - name: Manage lodging ad campaigns
     href: ../hotel-service/manage-hotel-campaigns.md
   - name: Get reports
     href: ../hotel-service/reporting.md
+  - name: Lodging campaign conversion metrics
+    href: ../hotel-service/conversion-metrics.md
   - name: Code examples
     href: ../hotel-service/code-examples.md
     displayName: .net c# csharp

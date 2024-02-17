@@ -1,6 +1,6 @@
 ---
 title: "Hotel API"
-description: Overview of the Hotel API, which you use to manage your hotel campaigns in Microsoft Advertising.
+description: Overview of the Hotel API, which you use to manage your lodging campaigns (formerly hotel campaigns) in Microsoft Advertising.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
@@ -20,7 +20,7 @@ The Hotel API lets you manage your hotel ad campaigns and bidding.
 
 ## The basics...
 
-When you get access to Hotel Price Ads, the service sets up a default subaccount and hotel group that contains the hotels from your hotel feed. The subaccount provides the top-level logical organization of your hotel price ads. You can think of it as a hotel campaign. You may have multiple subaccounts.
+When you get access to Hotel Price Ads, the service sets up a default subaccount and hotel group that contains the hotels from your hotel feed. The subaccount provides the top-level logical organization of your hotel price ads. You can think of it as a lodging campaign (formerly hotel campaigns). You may have multiple subaccounts.
 
 A subaccount specifies the campaign's daily budget, maximum bid allowed, and default bid and bid multipliers for ads that don't specify bids or multipliers.
 

@@ -1,6 +1,6 @@
 ---
-title: "Manage Hotel Ad Campaigns"
-description: Shows how to manage your hotel campaign's subaccounts, hotel groups, and hotels.
+title: "Manage Lodging Ad Campaigns"
+description: Shows how to manage your lodging campaign's subaccounts, hotel groups, and hotels.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
@@ -14,7 +14,7 @@ ms.author: jonmeyers
 >
 > The API and documentation are subject to change.
 
-The Hotel API lets you manage your hotel ad campaigns and bidding. A subaccount provides the top-level logical organization of your hotel price ads. You can think of it as a hotel campaign. You may have a maximum of 75 active subaccounts.
+The Hotel API lets you manage your hotel ad campaigns and bidding. A subaccount provides the top-level logical organization of your hotel price ads. You can think of it as a lodging campaign (formerly hotel campaigns). You may have a maximum of 75 active subaccounts.
 
 A subaccount specifies the campaign's daily budget, maximum bid allowed, and default bid and bid multipliers for ads that don't specify bids or multipliers.
 

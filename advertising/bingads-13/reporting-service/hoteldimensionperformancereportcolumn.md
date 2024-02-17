@@ -110,7 +110,7 @@ The [HotelDimensionPerformanceReportColumn](hoteldimensionperformancereportcolum
 |<a name="bookedabw"></a>BookedABW|The total advanced booking window days for the hotel.|
 |<a name="bookedlengthofstay"></a>BookedLengthOfStay|The booked length of stay in number of days.|
 |<a name="brand"></a>Brand|The hotel chain's brand. For example, Fabrikam Residences by Contoso, where Contoso is the brand.|
-|<a name="campaignhotelid"></a>CampaignHotelId|The identifier of the hotel campaign.|
+|<a name="campaignhotelid"></a>CampaignHotelId|The identifier of the lodging campaign.|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="campaignstatus"></a>CampaignStatus|The campaign status.|

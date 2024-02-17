@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: The ad group type for hotel campaigns.
+description: The ad group type for lodging campaigns (formerly hotel campaigns).
 ---
 # HotelAdGroupType Value Set - Campaign Management
-The ad group type for hotel campaigns.
+The ad group type for lodging campaigns (formerly hotel campaigns).
 
 ## Syntax
 ```xml
@@ -30,7 +30,7 @@ The [HotelAdGroupType](hoteladgrouptype.md) value set has the following values: 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="hotelad"></a>HotelAd|The default ad group type for hotel campaigns.|
+|<a name="hotelad"></a>HotelAd|The default ad group type for lodging campaigns.|
 |<a name="propertyad"></a>PropertyAd|The ad group type for promoted hotel ad groups.|
 
 ## Requirements
