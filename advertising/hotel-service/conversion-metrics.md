@@ -53,21 +53,21 @@ To preview example events being fired in real-time, see [Reporting hotel convers
 
 After adding a UET tag to your websites, you can start including the following list of conversion tracking metrics in your report request.
 
-- [Conversions](#conversions)
-- [ConversionRate](#conversionrate)
-- [CPA](#cpa)
-- [GrossRevenue](#grossrevenue)
-- [GrossRevenuePerClick](#grossrevenueperclick)
-- [GrossRevenuePerConv](#grossrevenueperconv)
-- [GrossROAS](#grossroas)
-- [NetRevenue](#netrevenue)
-- [NetRevenuePerClick](#netrevenueperclick)
-- [NetRevenueConv](#netrevenueconv)
-- [NetROAS](#netroas)
-- [TotalBookedNights](#totalbookednights)
-- [AvgBookedNights](#avgbookednights)
-- [BookedABW](#bookedabw)
-- [AvgBookedABW](#avgbookedabw)
+- [Conversions](./reporting.md#conversions)
+- [ConversionRate](./reporting.md#conversionrate)
+- [CPA](./reporting.md#cpa)
+- [GrossRevenue](./reporting.md#grossrevenue)
+- [GrossRevenuePerClick](./reporting.md#grossrevenueperclick)
+- [GrossRevenuePerConv](./reporting.md#grossrevenueperconv)
+- [GrossROAS](./reporting.md#grossroas)
+- [NetRevenue](./reporting.md#conversions#netrevenue)
+- [NetRevenuePerClick](./reporting.md#netrevenueperclick)
+- [NetRevenueConv](./reporting.md#netrevenueconv)
+- [NetROAS](./reporting.md#netroas)
+- [TotalBookedNights](./reporting.md#totalbookednights)
+- [AvgBookedNights](./reporting.md#avgbookednights)
+- [BookedABW](./reporting.md#bookedabw)
+- [AvgBookedABW](./reporting.md#avgbookedabw)
 
 The following guidelines apply to hotel conversion tracking.
 
