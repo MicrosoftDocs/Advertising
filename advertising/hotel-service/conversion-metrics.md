@@ -60,7 +60,7 @@ After adding a UET tag to your websites, you can start including the following l
 - [GrossRevenuePerClick](./reporting.md#grossrevenueperclick)
 - [GrossRevenuePerConv](./reporting.md#grossrevenueperconv)
 - [GrossROAS](./reporting.md#grossroas)
-- [NetRevenue](./reporting.md#conversions#netrevenue)
+- [NetRevenue](./reporting.md#netrevenue)
 - [NetRevenuePerClick](./reporting.md#netrevenueperclick)
 - [NetRevenueConv](./reporting.md#netrevenueconv)
 - [NetROAS](./reporting.md#netroas)
