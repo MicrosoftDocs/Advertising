@@ -408,7 +408,7 @@ namespace ListSubAccounts
 }
 
 
-// Defines a subaccount (or hotel campaign).
+// Defines a subaccount (or lodging campaign).
 
 class SubAccount
 {

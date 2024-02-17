@@ -1,6 +1,6 @@
 ---
 title: "Hotel API Code Examples"
-description: Lits the code examples that show how to use the Hotel API to manage your hotel campaigns.
+description: Lits the code examples that show how to use the Hotel API to manage your lodging campaigns (formerly hotel campaigns).
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
