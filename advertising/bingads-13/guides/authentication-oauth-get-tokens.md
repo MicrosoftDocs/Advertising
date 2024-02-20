@@ -22,7 +22,7 @@ Here's an example of steps 1 and 2 above.
 > Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.  
 
 ```powershell
-# Replace *your_client_id* with your registered application ID. 
+# Replace your_client_id with your registered application ID. 
 $clientId = "your_client_id"
 
 Start-Process "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
