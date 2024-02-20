@@ -10,9 +10,9 @@ description: Authenticate for Bing Ads API using the Microsoft identity platform
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
-Before your application can authenticate Microsoft Advertising users, you must register your application and get the corresponding client ID and client secret.  
+Before your application can authenticate Microsoft Advertising users, you must [register your application in an Azure Active Directory (AAD) tenant](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app#register-an-application) and get the corresponding client ID and client secret.  
 
-1. Navigate to the Microsoft identity platform for developers in the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) page. You can login using either a personal Microsoft Account or a Work or School Account.
+1. Navigate to the Microsoft identity platform for developers in the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) page. You can login using or a Work or School Account. *Note*: You can no longer login using a personal Microsoft account.
 1. Select **New registration**. 
 1. When the **Register an application page** appears, enter your application's registration information: 
     - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example `My browserless client`. 
