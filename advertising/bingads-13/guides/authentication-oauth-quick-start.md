@@ -13,13 +13,16 @@ description: Make your first API call with an access token.
 If you just want to get something working right away, follow these steps to get your Microsoft Advertising user information.
 
 ## <a name="quick-start-production"></a>Production Quick Start
-To authenticate in the production environment you should first [register an application](authentication-oauth-register.md). Otherwise for testing you can use the public "Tutorial Sample App" client ID i.e., **6731de76-14a6-49ae-97bc-6eba6914391e**.  
+To authenticate in the production environment you should first [register an application](authentication-oauth-register.md). Sign in with your Microsoft account credentials and grant [your app](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app) consent to manage your Microsoft Advertising accounts.
 
-1. Create a new file and paste into it the following script. Set `$clientId` to the Application Id of your registered app. If you registered a web application with client secret, then you'll also need to include `$client_secret=YourWebAppClientSecret` when requesting the access tokens. 
+1. Create a new file and paste into it the following script. Set `$clientId` to the Application Id of your registered app. If you registered a web application with client secret, then you'll also need to include `$client_secret=YourWebAppClientSecret` when requesting the access tokens.
+
+> [!NOTE]
+> Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
 
     ```powershell
-    # Replace the Tutorial Sample App ID with your registered application ID. 
-    $clientId = "6731de76-14a6-49ae-97bc-6eba6914391e"
+    # Replace your_client_id with your registered application ID. 
+    $clientId = "your_client_id"
     
     Start-Process "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
     
