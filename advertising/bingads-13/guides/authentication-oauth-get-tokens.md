@@ -18,9 +18,12 @@ Once a user has granted consent for you to manage their Microsoft Advertising ac
 
 Here's an example of steps 1 and 2 above.
 
+> [!NOTE]
+> Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.  
+
 ```powershell
 # Replace the Tutorial Sample App ID with your registered application ID. 
-$clientId = "6731de76-14a6-49ae-97bc-6eba6914391e"
+$clientId = "your_client_id"
 
 Start-Process "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
 
@@ -55,6 +58,9 @@ Write-Output "Refresh token: " $oauthTokens.refresh_token
 
 You can redeem the `code` for an `access_token` to the desired resource. Do this by sending a `POST` request to the `/token` endpoint:
 
+> [!NOTE]
+> Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.  
+
 ```https
 // Line breaks for legibility only
 
@@ -62,7 +68,7 @@ POST /{tenant}/oauth2/v2.0/token HTTP/1.1
 Host: https://login.microsoftonline.com
 Content-Type: application/x-www-form-urlencoded
 
-client_id=6731de76-14a6-49ae-97bc-6eba6914391e
+client_id=your_client_id
 &scope=https%3A%2F%2Fads.microsoft.com%2Fmsads.manage
 &code=OAAABAAAAiL9Kn2Z27UubvWFPbm0gLWQJVzCTE9UkP3pSx1aXxUjq3n8b2JRLk4OxVXr...
 &redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F
@@ -91,6 +97,9 @@ Access tokens are short lived, and you must refresh them after they expire to co
 
 Refresh tokens do not have specified lifetimes. Typically, the lifetimes of refresh tokens are relatively long. However, in some cases, refresh tokens expire, are revoked, or lack sufficient privileges for the desired action. Your application needs to expect and handle errors returned by the token issuance endpoint correctly. For more details about OAuth errors, please see [Common OAuth Errors](handle-service-errors-exceptions.md#common-oauth-errors) and [Authentication and authorization error codes](/azure/active-directory/develop/reference-aadsts-error-codes). 
 
+> [!NOTE]
+> Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.  
+
 ```https
 // Line breaks for legibility only
 
@@ -98,7 +107,7 @@ POST /{tenant}/oauth2/v2.0/token HTTP/1.1
 Host: https://login.microsoftonline.com
 Content-Type: application/x-www-form-urlencoded
 
-client_id=6731de76-14a6-49ae-97bc-6eba6914391e
+client_id=your_client_id
 &scope=https%3A%2F%2Fads.microsoft.com%2Fmsads.manage
 &refresh_token=OAAABAAAAiL9Kn2Z27UubvWFPbm0gLWQJVzCTE9UkP3pSx1aXxUjq...
 &grant_type=refresh_token
