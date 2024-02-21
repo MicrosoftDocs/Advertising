@@ -25,31 +25,31 @@ The minimum and maximum bid and budget for each currency below are subject to ch
 |Currency Value|Description|Minimum Bid|Maximum Bid|Minimum Daily Budget|Minimum Monthly Budget|Maximum Monthly Budget|
 |-----|-----|-----|-----|-----|-------|-------|
 |ArgentinePeso|The Argentine Peso (ARS).|0.05|5,000.00|0.05|2.00|152,500,000.00|
-|AustralianDollar|The Australian Dollar (AUD).|0.05|1,000.00|0.05|5.00|30,000,000.00|
-|Baht|The Thai Baht (THB).|0.05|31,000.00|0.05|150.00|927,000,000.00|
+|AustralianDollar|The Australian Dollar (AUD).|0.01|1,000.00|0.05|5.00|30,000,000.00|
+|Baht|The Thai Baht (THB).|0.05|31,000.00|2.00|150.00|927,000,000.00|
 |Bolivar|The Venezuelan Bolivar Fuerte (VEF).|0.05|5,000.00|0.05|2.00|152,500,000.00|
-|BrazilianReal|The Brazilian Real (BRL).|0.05|2,000.00|0.10|10.00|60,000,000.00|
+|BrazilianReal|The Brazilian Real (BRL).|0.01|2,000.00|0.10|10.00|60,000,000.00|
 |CanadianDollar|The Canadian Dollar (CAD).|0.05|1,000.00|0.05|5.00|7,500,000.00|
-|ChileanPeso|The Chilean Peso (CLP).|0.05|510,000.00|5.10|156.00|15,555,000,000.00|
-|ColombianPeso|The Colombian Peso (COP).|0.05|1,805,000.00|18.05|551.00|55,052,500,000.00|
-|DanishKrone|The Danish Krone (DKK).|0.05|6,000.00|0.06|2.00|183,000,000.00|
+|ChileanPeso|The Chilean Peso (CLP).|5.10|510,000.00|5.10|156.00|15,555,000,000.00|
+|ColombianPeso|The Colombian Peso (COP).|18.05|1,805,000.00|18.05|551.00|55,052,500,000.00|
+|DanishKrone|The Danish Krone (DKK).|0.06|6,000.00|0.06|2.00|183,000,000.00|
 |Euro|The European Union Euro (EUR).|0.05|1,000.00|0.05|5.00|5,850,000.00|
-|HongKongDollar|The Hong Kong Dollar (HKD).|0.05|8,000.00|1.00|40.00|230,000,000.00|
-|IndianRupee|The Indian Rupee (INR).|0.05|60,000.00|0.82|25.00|1,000,000,000.00|
-|MalaysianRinggit|The Malaysian Ringgit (MYR).|0.05|3,074.00|0.15|15.00|92,000,000.00|
-|MexicanPeso|The Mexican Peso (MXN).|0.05|14,000.00|0.14|4.00|427,000,000.00|
-|NewTaiwanDollar|The New Taiwan Dollar (TWD).|0.05|1,500.00|100.00|3,000.00|31,000,000.00|
-|NewZealandDollar|The New Zealand Dollar (NZD).|0.05|1,000.00|0.05|6.00|30,000,000.00|
-|NorwegianKrone|The Norwegian Krone (NOK).|0.05|6,000.00|0.06|2.00|183,000,000.00|
-|NuevoSol|The Peruvian Nuevo Sol (PEN).|0.05|3,000.00|0.03|1.00|91,500,000.00|
-|PhilippinePeso|The Philippine Peso (PHP).|0.05|42,000.00|2.00|210.00|1,259,000,000.00|
-|PolishZloty|The Polish New Zloty (PLN).|0.05|1,000.00|0.05|1.00|30,000,000.00|
-|Rupiah|The Indonesian Rupiah (IDR).|0.05|9,607,994.00|480.00|48,000.00|288,000,000,000.00|
-|SingaporeDollar|The Singapore Dollar (SGD).|0.05|1,500.00|0.11|5.00|12,360,900.00|
-|SouthAfricanRand|The South African Rand (ZAR).|0.05|8,000.00|0.10|1.00|30,000,000.00|
-|SwedishKrona|The Swedish Krona (SEK).|0.05|7,000.00|0.07|2.00|213,500,000.00|
+|HongKongDollar|The Hong Kong Dollar (HKD).|1.00|8,000.00|1.00|40.00|230,000,000.00|
+|IndianRupee|The Indian Rupee (INR).|0.50|60,000.00|0.82|25.00|1,000,000,000.00|
+|MalaysianRinggit|The Malaysian Ringgit (MYR).|0.01|3,074.00|0.15|15.00|92,000,000.00|
+|MexicanPeso|The Mexican Peso (MXN).|0.14|14,000.00|0.14|4.00|427,000,000.00|
+|NewTaiwanDollar|The New Taiwan Dollar (TWD).|3.00|1,500.00|100.00|3,000.00|31,000,000.00|
+|NewZealandDollar|The New Zealand Dollar (NZD).|0.01|1,000.00|0.05|6.00|30,000,000.00|
+|NorwegianKrone|The Norwegian Krone (NOK).|0.06|6,000.00|0.06|2.00|183,000,000.00|
+|NuevoSol|The Peruvian Nuevo Sol (PEN).|0.03|3,000.00|0.03|1.00|91,500,000.00|
+|PhilippinePeso|The Philippine Peso (PHP).|0.20|42,000.00|2.00|210.00|1,259,000,000.00|
+|PolishZloty|The Polish New Zloty (PLN).|0.01|1,000.00|0.05|1.00|30,000,000.00|
+|Rupiah|The Indonesian Rupiah (IDR).|35.00|9,607,994.00|480.00|48,000.00|288,000,000,000.00|
+|SingaporeDollar|The Singapore Dollar (SGD).|0.01|1,500.00|0.11|5.00|12,360,900.00|
+|SouthAfricanRand|The South African Rand (ZAR).|0.4|8,000.00|0.10|1.00|30,000,000.00|
+|SwedishKrona|The Swedish Krona (SEK).|0.07|7,000.00|0.07|2.00|213,500,000.00|
 |SwissFranc|The Swiss Franc (CHF).|0.05|1,000.00|0.05|5.00|8,931,900.00|
-|TurkishLira|The New Turkish Lira (TRY).|0.05|10,000.00|0.05|100.00|3,000,000,000.00|
+|TurkishLira|The New Turkish Lira (TRY).|0.01|10,000.00|0.05|100.00|3,000,000,000.00|
 |UKPound|The Pound Sterling (GBP).|0.05|1,000.00|0.05|5.00|3,938,700.00|
 |USDollar|The U.S. Dollar (USD).|0.05|1,000.00|0.05|5.00|30,000,000.00|
 
