@@ -26,7 +26,7 @@ The minimum and maximum bid and budget for each currency below are subject to ch
 |-----|-----|-----|-----|-----|-------|-------|
 |ArgentinePeso|The Argentine Peso (ARS).|0.05|5,000.00|0.05|2.00|152,500,000.00|
 |AustralianDollar|The Australian Dollar (AUD).|0.05|1,000.00|0.05|5.00|30,000,000.00|
-|Baht|The Thai Baht (THB).|0.14|31,000.00|0.05|150.00|927,000,000.00|
+|Baht|The Thai Baht (THB).|0.05|31,000.00|0.05|150.00|927,000,000.00|
 |Bolivar|The Venezuelan Bolivar Fuerte (VEF).|0.05|5,000.00|0.05|2.00|152,500,000.00|
 |BrazilianReal|The Brazilian Real (BRL).|0.05|2,000.00|0.10|10.00|60,000,000.00|
 |CanadianDollar|The Canadian Dollar (CAD).|0.05|1,000.00|0.05|5.00|7,500,000.00|
