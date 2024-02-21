@@ -230,7 +230,7 @@ The [AdGroupPerformanceReportColumn](adgroupperformancereportcolumn.md) value se
 |<a name="topvsother"></a>TopVsOther|Indicates whether the ad impression appeared in a top position or elsewhere. The possible values include AOL search - Top, AOL search - Other, Audience network, Bing and Yahoo! search - Top, Bing and Yahoo! search - Other, Syndicated search partners - Top, Syndicated search partners - Other, Content network, and Unknown.|
 |<a name="totalwatchtimeinms"></a>TotalWatchTimeInMS|Total amount of time a person spent watching the video in milliseconds.|
 |<a name="trackingtemplate"></a>TrackingTemplate|The current tracking template for the ad group.|
-|<a name="videocompletionrate"></a>VideoCompletionRate|The number of completed video views divided by the number of total video views.|
+|<a name="videocompletionrate"></a>VideoCompletionRate|The number of completed video views divided by the total number of impressions, multiplied by 100.|
 |<a name="videoviews"></a>VideoViews|The number of times the video was played and watched for at least two continuous seconds with more than 50% of the screen in view.|
 |<a name="videoviewsat25percent"></a>VideoViewsAt25Percent|The number of times a person completed at least 25% of a video.|
 |<a name="videoviewsat50percent"></a>VideoViewsAt50Percent|The number of times a person completed at least 50% of a video.|
