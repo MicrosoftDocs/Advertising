@@ -605,6 +605,12 @@
     - name: Account Location Ad Extension
       href: ../bulk-service/account-location-ad-extension.md
       displayName: BulkAccountLocationAdExtension
+    - name: Account Negative Keyword List
+      href: ../bulk-service/account-negative-keyword-list.md
+      displayName: BulkAccountNegativeKeywordList
+    - name: Account Negative Keyword List Association
+      href: ../bulk-service/account-negative-keyword-list-association.md
+      displayName: BulkAccountNegativeKeywordListAssociation
     - name: Account Price Ad Extension
       href: ../bulk-service/account-price-ad-extension.md
       displayName: BulkAccountPriceAdExtension
