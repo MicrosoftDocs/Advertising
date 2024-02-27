@@ -12,7 +12,7 @@ dev_langs:
 # Account Shared Negative Keyword Record - Bulk
 Defines a negative keyword that is shared in an account negative keyword list and can be downloaded and uploaded in a Bulk file.
 
-You can download all *Account Shared Negative Keyword* records in the account by including the [DownloadEntity](downloadentity.md) value of *AccountSharedNegativeKeyword* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Account Shared Negative Keyword* records in the account by including the [DownloadEntity](downloadentity.md) value of *AccountNegativeKeyword* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would add a new negative keyword to a negative keyword list given a valid account negative keyword list [Id](#id) ([Parent Id](#parentid)).
 
