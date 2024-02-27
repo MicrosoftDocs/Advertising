@@ -620,6 +620,9 @@
     - name: Account Review Ad Extension
       href: ../bulk-service/account-review-ad-extension.md
       displayName: BulkAccountReviewAdExtension
+    - name: Account Shared Negative Keyword
+      href: ../bulk-service/account-shared-negative-keyword.md
+      displayName: BulkAccountSharedNegativeKeyword
     - name: Account Sitelink Ad Extension
       href: ../bulk-service/account-sitelink-ad-extension.md
       displayName: BulkAccountSitelinkAdExtension
