@@ -46,7 +46,7 @@ The system-generated identifier of the negative keyword.
 **Update:** Not applicable. A negative keyword can be added and deleted, but cannot be updated.  
 **Delete:** Read-only and Required  
 
-## <a name="keyword"></a>Status
+## <a name="keyword"></a>Keyword
 The negative keyword text.  
 
 The text can contain a maximum of 100 characters.
@@ -55,7 +55,7 @@ The text can contain a maximum of 100 characters.
 **Update:** Not applicable. A negative keyword can be added and deleted, but not updated.
 **Delete:** Read-only
 
-## <a name="matchtype"></a>Status
+## <a name="matchtype"></a>Match Type
 The type of match to compare the negative keyword and the user's search term.
 
 The supported match type values for a negative keyword are *Phrase* and *Exact*.
