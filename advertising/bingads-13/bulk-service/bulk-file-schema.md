@@ -51,8 +51,11 @@ Record Type  |Supported Campaign Types
 [Account Flyer Ad Extension](account-flyer-ad-extension.md)|Performance Max<br/>Search  
 [Account Image Ad Extension](account-image-ad-extension.md)|Performance Max<br/>Search  
 [Account Location Ad Extension](account-location-ad-extension.md)|Performance Max<br/>Search  
+[Account Negative Keyword List](account-negative-keyword-list.md)|All  
+[Account Negative Keyword List Association](account-negative-keyword-list-association.md)|All  
 [Account Price Ad Extension](account-price-ad-extension.md)|Performance Max<br/>Search  
 [Account Promotion Ad Extension](account-promotion-ad-extension.md)|Performance Max<br/>Search  
+[Account Shared Negative Keyword](account-shared-negative-keyword.md)|All  
 [Account Sitelink Ad Extension](account-sitelink-ad-extension.md)|Performance Max<br/>Search  
 [Account Structured Snippet Ad Extension](account-structured-snippet-ad-extension.md)|Performance Max<br/>Search  
 [Account Video Ad Extension](account-video-ad-extension.md)|Performance Max<br/>Search  
