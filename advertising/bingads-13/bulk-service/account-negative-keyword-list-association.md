@@ -14,7 +14,7 @@ Defines an association record between an [account](account.md) and account negat
 
 You can download all *Account Negative Keyword List Association* records in the account by including the [DownloadEntity](downloadentity.md) value of *AccountNegativeKeywordListAssociation* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would associate a negative keyword list to a campaign if valid [Id](#id) and [Parent Id](#parentid) values are provided.
+The following Bulk CSV example would associate a negative keyword list to an account if valid [Id](#id) and [Parent Id](#parentid) values are provided.
 
 ```csv
 Type,Status,Id,Parent Id,Campaign,Ad Group,Client Id,Modified Time,Keyword,Match Type,Name
