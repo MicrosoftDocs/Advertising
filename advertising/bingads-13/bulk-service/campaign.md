@@ -125,13 +125,13 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Ad Schedule Use Searcher Time Zone](#adscheduleusesearchertimezone)|All|
 |[Bid Adjustment](#bidadjustment)|All|
 |[Bid Strategy Commission](#bidstrategycommission)|Hotel|
-|[Bid Strategy TargetCostPerSale](#bidstrategytargetcostpersale)|Performance Max<br/>Shopping|
 |[Bid Strategy Id](#bidstrategyid)|Search<br>Shopping|
 |[Bid Strategy ManualCpc](#bidstrategymanualcpc)|Audience<br/>Hotel|
 |[Bid Strategy MaxCpc](#bidstrategymaxcpc)|Search<br>Shopping|
 |[Bid Strategy Name](#bidstrategyname)|Search<br>Shopping|
 |[Bid Strategy PercentCpc](#bidstrategypercentcpc)|Hotel|
 |[Bid Strategy TargetAdPosition](#bidstrategytargetadposition)|Search|
+|[Bid Strategy TargetCostPerSale](#bidstrategytargetcostpersale)|Performance Max<br/>Shopping|
 |[Bid Strategy TargetCpa](#bidstrategytargetcpa)|Performance Max<br/>Search|
 |[Bid Strategy TargetImpressionShare](#bidstrategytargetimpressionshare)|Search|
 |[Bid Strategy TargetRoas](#bidstrategytargetroas)|Performance Max<br/>Search<br>Shopping|
@@ -204,15 +204,6 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
 **Delete:** Read-only  
 
-## <a name="bidstrategytargetcostpersale"></a>Bid Strategy TargetCostPerSale
-The target cost per sale (CPS) that you want used by Microsoft Advertising to maximize conversions.
-
-For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
-
-**Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
-**Delete:** Read-only  
-
 ## <a name="bidstrategyid"></a>Bid Strategy Id
 The system-generated identifier of the [Bid Strategy](bid-strategy.md) that this campaign shares with other campaigns in the account.
 
@@ -276,6 +267,15 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
+## <a name="bidstrategytargetcostpersale"></a>Bid Strategy TargetCostPerSale
+The target cost per sale (CPS) that you want used by Microsoft Advertising to maximize conversions.
+
+For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
+**Delete:** Read-only  
+
 ## <a name="bidstrategytargetcpa"></a>Bid Strategy TargetCpa
 The target cost per acquisition (CPA) that you want used by Microsoft Advertising to maximize conversions.
 
@@ -323,8 +323,6 @@ The possible bid strategy type values are Commission, EnhancedCpc, ManualCpc, Ma
 
 If you use the "Commission" bid strategy type, then you can optionally include the [Bid Strategy Commission](#bidstrategycommission) field.
 
-If you use the "TargetCostPerSale" bid strategy type, then you can optionally include the [Bid Strategy TargetCostPerSale](#bidstrategytargetcostpersale) field.
-
 If you use the "ManualCpc" bid strategy type, then you can optionally include the [Bid Strategy ManualCpc](#bidstrategymanualcpc) field.
   
 If you use the "MaxClicks" bid strategy type, then you can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
@@ -332,6 +330,8 @@ If you use the "MaxClicks" bid strategy type, then you can optionally include th
 If you use the "MaxConversions" bid strategy type, then you can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
 
 If you use the "PercentCpc" bid strategy type, then you can optionally include the [Bid Strategy PercentCpc](#bidstrategypercentcpc) field.
+
+If you use the "TargetCostPerSale" bid strategy type, then you can optionally include the [Bid Strategy TargetCostPerSale](#bidstrategytargetcostpersale) field.
 
 If you use the "TargetCpa" bid strategy type, then you must include the [Bid Strategy TargetCpa](#bidstrategytargetcpa) field.
 
