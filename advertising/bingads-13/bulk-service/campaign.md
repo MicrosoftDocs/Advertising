@@ -125,7 +125,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Ad Schedule Use Searcher Time Zone](#adscheduleusesearchertimezone)|All|
 |[Bid Adjustment](#bidadjustment)|All|
 |[Bid Strategy Commission](#bidstrategycommission)|Hotel|
-|[Bid Strategy CostPerSale](#bidstrategycostpersale)|Performance Max<br/>Shopping|
+|[Bid Strategy TargetCostPerSale](#bidstrategytargetcostpersale)|Performance Max<br/>Shopping|
 |[Bid Strategy Id](#bidstrategyid)|Search<br>Shopping|
 |[Bid Strategy ManualCpc](#bidstrategymanualcpc)|Audience<br/>Hotel|
 |[Bid Strategy MaxCpc](#bidstrategymaxcpc)|Search<br>Shopping|
@@ -204,7 +204,7 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
 **Delete:** Read-only  
 
-## <a name="bidstrategycostpersale"></a>Bid Strategy CostPerSale
+## <a name="bidstrategytargetcostpersale"></a>Bid Strategy TargetCostPerSale
 The target cost per sale (CPS) that you want used by Microsoft Advertising to maximize conversions.
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
@@ -323,7 +323,7 @@ The possible bid strategy type values are Commission, EnhancedCpc, ManualCpc, Ma
 
 If you use the "Commission" bid strategy type, then you can optionally include the [Bid Strategy Commission](#bidstrategycommission) field.
 
-If you use the "CostPerSale" bid strategy type, then you can optionally include the [Bid Strategy CostPerSale](#bidstrategycostpersale) field.
+If you use the "TargetCostPerSale" bid strategy type, then you can optionally include the [Bid Strategy TargetCostPerSale](#bidstrategytargetcostpersale) field.
 
 If you use the "ManualCpc" bid strategy type, then you can optionally include the [Bid Strategy ManualCpc](#bidstrategymanualcpc) field.
   
