@@ -10,7 +10,9 @@ description: Get your ads in front of the right people.
 Getting your ad in front of the right people; that's what targeting is all about. With targeting, Microsoft Advertising can help you focus a campaign or ad group on potential customers who meet specific criteria, so you can increase the chance that they see your ads. You may target your ads to display to users of a certain age group, display at a certain day and time of the week, or display to users in a particular geographical location.
 
 > [!NOTE] 
-> Microsoft Advertising supports other criterion types e.g. product partition and webpage. This guide covers criteria that you can use to target your ads by age, day and time, device, gender, location, and profile. Where necessary to distinguish from other criterion types the documentation may refer to these entities as *target criteria*. 
+> Microsoft Advertising supports other criterion types e.g. product partition and webpage. This guide covers criteria that you can use to target your ads by age, day and time, device, gender, location, and profile. Where necessary to distinguish from other criterion types the documentation may refer to these entities as *target criteria*.  
+
+[!INCLUDE[performance-max-columns](../campaign-management-service/includes/targeting-demographics.md)]
 
 Here are a few tips to keep in mind before you begin:
 - When you first create a campaign or ad group using the Bing Ads API, it will not have any criteria. Effectively the brand new campaign and ad group target all ages, days, hours, devices, genders, and locations. You should specify your minimum target criteria at the campaign level and then use ad group level criteria to narrow or refine your targeting requirements. As a best practice you should consider at minimum adding a campaign location criterion corresponding to the customer market country/region. Its worth noting that when creating campaigns via the Microsoft Advertising web application, the recommended [default criteria](#defaultcriterions) are added. 
