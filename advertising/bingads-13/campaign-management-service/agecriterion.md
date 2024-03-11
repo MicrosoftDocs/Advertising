@@ -12,7 +12,7 @@ Defines a criterion that can be used to show ads to users in a specific age rang
 
 The *AgeCriterion* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), and [BiddableCampaignCriterion](biddablecampaigncriterion.md) objects. If ad group level age criterions are specified, the campaign level age criterions are ignored for that ad group. In other words the ad group age criterions override the campaign age criterions, and are not applied as a union.  
 
-[!INCLUDE[performance-max-columns](./includes/targeting-demographics.md)]
+[!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
 ## Syntax
 ```xml

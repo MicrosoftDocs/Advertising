@@ -10,7 +10,7 @@ description: Data object that specifies users by their age.
 # AgeDimension Data Object - Campaign Management
 Data object that specifies users by their age.  
 
-[!INCLUDE[performance-max-columns](./includes/targeting-demographics.md)]
+[!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
 ## Syntax
 ```xml

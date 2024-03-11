@@ -12,7 +12,7 @@ Defines a criterion that can be used to show ads to users of a specific gender.
 
 The *GenderCriterion* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), and [BiddableCampaignCriterion](biddablecampaigncriterion.md) objects. If ad group level gender criterions are specified, the campaign level gender criterions are ignored for that ad group. In other words the ad group gender criterions override the campaign gender criterions, and are not applied as a union.  
 
-[!INCLUDE[performance-max-columns](./includes/targeting-demographics.md)]
+[!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
 ## Syntax
 ```xml
