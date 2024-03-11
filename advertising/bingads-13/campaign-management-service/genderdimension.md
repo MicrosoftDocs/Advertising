@@ -10,6 +10,8 @@ description: Defines a GenderDimension data object.
 # GenderDimension Data Object - Campaign Management
 Defines a GenderDimension data object.
 
+[!INCLUDE[performance-max-columns](./includes/targeting-demographics.md)]
+
 ## Syntax
 ```xml
 <xs:complexType name="GenderDimension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
