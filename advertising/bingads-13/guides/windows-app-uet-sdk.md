@@ -77,18 +77,18 @@ For example, you may want to track in-app purchases so you can track the revenue
 
 There are some unique steps you’ll need to take to create conversion goals that are specific for Microsoft Store ads.  
 
-1. From the top menu, select **Tools** > **Conversion tracking** > **Conversion goals**.
+1. From the top menu, select **Tools** > **Conversion tracking** > **Conversion goals**.  
 ![Conversion goal menu](media/windows_uet_sdk_conversion_goals_menu.png "Conversion goal menu")
 1. On the Conversion goals page, select **Create**.
 1. Select the type of conversions you want to track.
-    - You can choose *Website*, *Mobile app install* or *Offline*. For tracking conversions within Microsoft Store apps, select *Website*.
+    - You can choose *Website*, *Mobile app install* or *Offline*. For tracking conversions within Microsoft Store apps, select *Website*.  
 ![Conversion types](media/windows_uet_sdk_conversion_types.png "Conversion types")
 1. Choose a *Goal category* and *Goal type* for your conversion goal. [Learn more about goal categories](https://help.ads.microsoft.com/#apex/ads/en/56952/2-500).
     - The goal category that you select won't affect how this is tracked. This category should be used by your team to understand the differences between your separate goals.  
-    - For most goals in an application, you'll want to select *Event*. In the example of setting up an in-app purchase goal, we select *Event* because this in-app purchase happens when a user completes a specific action.
+    - For most goals in an application, you'll want to select *Event*. In the example of setting up an in-app purchase goal, we select *Event* because this in-app purchase happens when a user completes a specific action.  
 ![Goal type](media/windows_uet_sdk_goal_type.png "Goal type")
 1. For most goals in an application, you’ll want to select Event. In the example of setting up an in-app purchase goal, we select Event because this in-app purchase happens when a user completes a specific action.
-    - You'll need to set a relevance value if you want to use this conversion goal to track revenue that is generated from your advertising campaign.
+    - You'll need to set a relevance value if you want to use this conversion goal to track revenue that is generated from your advertising campaign.  
 ![Revenue](media/windows_uet_sdk_revenue.png "Revenue")
 1. Confirm that you have already set up your UET tag.
 1. Install your event tag.
