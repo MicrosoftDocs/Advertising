@@ -12,7 +12,10 @@ The Ad Insight service defines the following service operations.
 
 |Service Operation|Description|Request Limits|
 |---|---|---|
+|[ApplyRecommendations](applyrecommendations.md)|Applies one or more recommendations.||
+|[DismissRecommendations](dismissrecommendations.md)|Dismisses one or more recommendations.||
 |[GetAuctionInsightData](getauctioninsightdata.md)|Gets auction insight data for an account, campaigns, ad groups, or keywords.|200 *EntityIds*|
+|[GetAudienceFullEstimation](getaudiencefullestimation.md)|Reserved.||
 |[GetAutoApplyOptInStatus](getautoapplyoptinstatus.md)|Get the auto-apply recommendations opt-in status for a single account.|The number of distinct recommendation types is no more than 100 |
 |[GetBidLandscapeByAdGroupIds](getbidlandscapebyadgroupids.md)|Given a list of existing ad groups, this operation returns for each a list of suggested bids and estimated performance statistics.|1,000 *AdGroupBidLandscapeInput*|
 |[GetBidLandscapeByKeywordIds](getbidlandscapebykeywordids.md)|Given a list of existing keywords, this operation returns for each a list of suggested bids and estimated performance statistics from 1 to  7 days.|1,000 *KeywordIds*|
@@ -35,6 +38,7 @@ The Ad Insight service defines the following service operations.
 |[GetPerformanceInsightsDetailDataByAccountId](getperformanceinsightsdetaildatabyaccountid.md)|Gets the performance insights detail data for a single account.|N/A.|
 |[GetRecommendations](getrecommendations.md)|Discover your recommendations.|Returns a maximum of 2,000 [Recommendations](getrecommendations.md#response). |
 |[GetTextAssetSuggestionsByFinalUrls](gettextassetsuggestionsbyfinalurls.md)|Gets text asset suggestions by final URLs.|5 *FinalUrls*|
+|[RetrieveRecommendations](retrieverecommendations.md)|Retrieves a list of recommendations.||
 |[SetAutoApplyOptInStatus](setautoapplyoptinstatus.md)|Set the auto-apply recommendations opt-in status for a single account.|100 *AutoApplyOptInStatusInputs* |
 |[SuggestKeywordsForUrl](suggestkeywordsforurl.md)|Suggests the possible keywords for the content located at the specified URL.|200 *MaxKeywords*<br/>1 *Url*|
 |[SuggestKeywordsFromExistingKeywords](suggestkeywordsfromexistingkeywords.md)|Suggests keywords that could perform better than the specified keywords.|1,000 *Keywords*<br/>100 *MaxSuggestionsPerKeyword*|
