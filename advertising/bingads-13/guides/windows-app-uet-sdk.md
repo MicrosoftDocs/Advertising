@@ -15,7 +15,11 @@ Much like user activity signals from UET JavaScript tags on the web, user signal
 
 ## <a name="what-is-event-tracking"></a>What Is Event Tracking
 
-[!VIDEO https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=36b129fe-3d07-4340-93d0-e6fed35f6184&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create]
+<video width="320" height="240" controls>
+  <source src="https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=36b129fe-3d07-4340-93d0-e6fed35f6184&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" type="video/mp4">
+</video>
+
+[!VIDEO ]
 
 <iframe src="https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=36b129fe-3d07-4340-93d0-e6fed35f6184&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="what is event tracking.mp4"></iframe>
 
