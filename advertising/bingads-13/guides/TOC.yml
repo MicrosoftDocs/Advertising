@@ -209,7 +209,11 @@
     items: 
     - name: Overview
       href: ../ad-insight-service/ad-insight-service-operations.md
-      displayName: ad insight service operations    
+      displayName: ad insight service operations
+    - name: ApplyRecommendations
+      href: ../ad-insight-service/applyrecommendations.md
+    - name: DismissRecommendations
+      href: ../ad-insight-service/dismissrecommendations.md      
     - name: GetAuctionInsightData
       href: ../ad-insight-service/getauctioninsightdata.md
     - name: GetAutoApplyOptInStatus
@@ -256,6 +260,8 @@
       href: ../ad-insight-service/getrecommendations.md
     - name: GetTextAssetSuggestionsByFinalUrls
       href: ../ad-insight-service/gettextassetsuggestionsbyfinalurls.md
+    - name: RetrieveRecommendations
+      href: ../ad-insight-service/retrieverecommendations.md
     - name: SetAutoApplyOptInStatus
       href: ../ad-insight-service/setautoapplyoptinstatus.md
     - name: SuggestKeywordsForUrl
@@ -285,6 +291,8 @@
       href: ../ad-insight-service/apifaultdetail.md
     - name: ApplicationFault
       href: ../ad-insight-service/applicationfault.md
+    - name: ApplyRecommendationEntity
+      href: ../ad-insight-service/applyrecommendationentity.md
     - name: AuctionInsightEntry
       href: ../ad-insight-service/auctioninsightentry.md
     - name: AuctionInsightKpi
@@ -309,6 +317,8 @@
       href: ../ad-insight-service/budgetopportunity.md
     - name: BudgetPoint
       href: ../ad-insight-service/budgetpoint.md
+    - name: CampaignBudgetRecommendation
+      href: ../ad-insight-service/campaignbudgetrecommendation.md
     - name: CampaignEstimate
       href: ../ad-insight-service/campaignestimate.md
     - name: CampaignEstimator
@@ -327,6 +337,8 @@
       href: ../ad-insight-service/devicecriterion.md
     - name: DeviceSearchParameter
       href: ../ad-insight-service/devicesearchparameter.md
+    - name: DismissRecommendationEntity
+      href: ../ad-insight-service/dismissrecommendationentity.md
     - name: DomainCategory
       href: ../ad-insight-service/domaincategory.md
     - name: EstimatedBidAndTraffic
@@ -383,6 +395,8 @@
       href: ../ad-insight-service/keywordlocationresult.md
     - name: KeywordOpportunity
       href: ../ad-insight-service/keywordopportunity.md
+    - name: KeywordRecommendation
+      href: ../ad-insight-service/keywordrecommendation.md
     - name: KeywordSearchCount
       href: ../ad-insight-service/keywordsearchcount.md
     - name: KeywordSuggestion
@@ -415,8 +429,12 @@
       href: ../ad-insight-service/querysearchparameter.md
     - name: Recommendation
       href: ../ad-insight-service/recommendation.md
+    - name: RecommendationBase
+      href: ../ad-insight-service/recommendationbase.md
     - name: RecommendationInfo
       href: ../ad-insight-service/recommendationinfo.md
+    - name: ResponsiveSearchAdRecommendation
+      href: ../ad-insight-service/responsivesearchadrecommendation.md
     - name: ResponsiveSearchAdsRecommendation
       href: ../ad-insight-service/responsivesearchadsrecommendation.md
     - name: RSARecommendationInfo

@@ -44,3 +44,4 @@ Namespace: https\://bingads.microsoft.com/AdInsight/v13
 
 ## Used By
 [BudgetOpportunity](budgetopportunity.md)  
+[CampaignBudgetRecommendation](campaignbudgetrecommendation.md)  

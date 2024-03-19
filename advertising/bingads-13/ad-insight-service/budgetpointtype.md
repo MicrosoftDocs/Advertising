@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines the possible values of a campaign budget point.
 ---
 # BudgetPointType Value Set - Ad Insight
-Defines the possible values of a campaign budget point.
+Defines the possible values of a campaign budget point.  
 
 ## Syntax
 ```xml

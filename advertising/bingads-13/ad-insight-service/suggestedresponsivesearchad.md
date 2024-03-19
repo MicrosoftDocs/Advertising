@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines an object that describes the suggested responsive search ads.
 ---
 # SuggestedResponsiveSearchAd Data Object - Ad Insight
-Defines an object that describes the suggested responsive search ads. 
+Defines an object that describes the suggested responsive search ads.
 
 ## Syntax
 ```xml
@@ -40,4 +40,5 @@ Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/AdInsight/v13  
 
 ## Used By
+[ResponsiveSearchAdRecommendation](responsivesearchadrecommendation.md)  
 [ResponsiveSearchAdsRecommendation](responsivesearchadsrecommendation.md)  
