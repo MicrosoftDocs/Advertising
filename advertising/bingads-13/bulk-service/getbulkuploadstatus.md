@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 description: Gets the status and completion progress of a bulk upload request.
-dev_langs: - csharp, - java, - php, - python
+dev_langs: - csharp - java - php - python
 ---
 # GetBulkUploadStatus Service Operation - Bulk
 Gets the status and completion progress of a bulk upload request.
