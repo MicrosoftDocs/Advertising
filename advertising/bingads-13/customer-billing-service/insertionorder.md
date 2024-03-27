@@ -51,13 +51,27 @@ Most elements of this object can only be set before the insertion order becomes 
     <xs:element minOccurs="0" name="SeriesName" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="IsInSeries" nillable="true" type="xs:boolean" />
     <xs:element minOccurs="0" name="SeriesFrequencyType" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="IsUnlimited" nillable="true" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
+    <xs:element minOccurs="0" name="IsEndless" nillable="true" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
 
-The [InsertionOrder](insertionorder.md) object has the following elements: [AccountId](#accountid), [AccountNumber](#accountnumber), [BookingCountryCode](#bookingcountrycode), [BudgetRemaining](#budgetremaining), [BudgetRemainingPercent](#budgetremainingpercent), [BudgetSpent](#budgetspent), [BudgetSpentPercent](#budgetspentpercent), [Comment](#comment), [EndDate](#enddate), [Id](#id), [IsInSeries](#isinseries), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedTime](#lastmodifiedtime), [Name](#name), [NotificationThreshold](#notificationthreshold), [PendingChanges](#pendingchanges), [PurchaseOrder](#purchaseorder), [ReferenceId](#referenceid), [SeriesFrequencyType](#seriesfrequencytype), [SeriesName](#seriesname), [SpendCapAmount](#spendcapamount), [StartDate](#startdate), [Status](#status).
+The [InsertionOrder](insertionorder.md) object has the following elements: [AccountId](#accountid), [AccountNumber](#accountnumber), [BookingCountryCode](#bookingcountrycode), [BudgetRemaining](#budgetremaining), [BudgetRemainingPercent](#budgetremainingpercent), [BudgetSpent](#budgetspent), [BudgetSpentPercent](#budgetspentpercent), [Comment](#comment), [EndDate](#enddate), [Id](#id), [IsEndless](#isendless), [IsInSeries](#isinseries), [IsUnlimited](#isunlimited), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedTime](#lastmodifiedtime), [Name](#name), [NotificationThreshold](#notificationthreshold), [PendingChanges](#pendingchanges), [PurchaseOrder](#purchaseorder), [ReferenceId](#referenceid), [SeriesFrequencyType](#seriesfrequencytype), [SeriesName](#seriesname), [SpendCapAmount](#spendcapamount), [StartDate](#startdate), [Status](#status).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -71,7 +85,9 @@ The [InsertionOrder](insertionorder.md) object has the following elements: [Acco
 |<a name="comment"></a>Comment|A description of the insertion order. The description is limited to 100 characters.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
 |<a name="enddate"></a>EndDate|The date that the insertion order expires. The end date must be later than the start date.<br/><br/>The date is stored in Coordinated Universal Time (UTC). Only the month, day, and year of the specified string are used. If you specify the hour, minutes, and seconds of a date they will be ignored.<br/><br/>For information about the format of the date and time, see the **dateTime** entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).<br/><br/>*Note*: If the insertion order has no end date, *EndDate* is empty. Adding or updating unlimited insertion orders isn't supported. *EndDate* operates in read-only mode.<br/><br/>**Add:** Required<br/>**Update:** Optional. If you attempt to update the [StartDate](#startdate) or [EndDate](#enddate) of an insertion order that [is part of a recurring series](#isinseries) the API will return an error.|**dateTime**|
 |<a name="id"></a>Id|A system-generated identifier that identifies the insertion order.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only and Required|**long**|
+|<a name="isendless"></a>IsEndless|Determines whether the insertion order has no end date.<br/><br/>If the value is *True*, the insertion order will have no end date and the *EndDate* of this insertion order will be ignored.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
 |<a name="isinseries"></a>IsInSeries|Determines whether the insertion order is in a recurring series.<br/><br/>If the value is True, the insertion order is part of a recurring series. If you attempt to update the [StartDate](#startdate) or [EndDate](#enddate) of an insertion order that is part of a recurring series the API will return an error. If you update the [Status](#status) of an insertion order that is part of a recurring series, the status update will be applied to all insertion orders in the series.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**boolean**|
+|<a name="isunlimited"></a>IsUnlimited|Determines whether the insertion order has unlimited budget.<br/><br/>If the value is *True*, the insertion order will have unlimited budget and the *SpendCapAmount* of this insertion order will be ignored.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
 |<a name="lastmodifiedbyuserid"></a>LastModifiedByUserId|An identifier of the last user to update the insertion order.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**long**|
 |<a name="lastmodifiedtime"></a>LastModifiedTime|The date and time that the insertion order was last updated.<br/><br/>The date is stored in Coordinated Universal Time (UTC).<br/><br/>For information about the format of the date and time, see the **dateTime** entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**dateTime**|
 |<a name="name"></a>Name|The friendly name that can be used to reference this insertion order.<br/><br/>The name can contain a maximum of 100 characters.<br/><br/>The name does not need to be unique compared to other insertion orders for the customer.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
