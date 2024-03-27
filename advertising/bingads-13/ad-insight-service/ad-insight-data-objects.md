@@ -20,7 +20,7 @@ The Ad Insight service defines the following data objects.
 |[AdGroupEstimator](adgroupestimator.md)|Contains a list of keyword estimators with your keyword level filter criteria for traffic estimates.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines an Ad Insight API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Ad Insight fault detail objects derive.|
-|[ApplyRecommendationEntity](applyrecommendationentity.md)|Applies a recommendation.|
+|[ApplyRecommendationEntity](applyrecommendationentity.md)|Apply a recommendation.|
 |[AuctionInsightEntry](auctioninsightentry.md)|Defines an auction insight entry for a domain.|
 |[AuctionInsightKpi](auctioninsightkpi.md)|Defines an auction insight key performance indicator.|
 |[AuctionInsightResult](auctioninsightresult.md)|Defines the auction insight results from calling the [GetAuctionInsightData](getauctioninsightdata.md) operation.|
@@ -33,7 +33,7 @@ The Ad Insight service defines the following data objects.
 |[BroadMatchSearchQueryKPI](broadmatchsearchquerykpi.md)|Defines an object that contains search query statistics of including broad match type keyword bids.|
 |[BudgetOpportunity](budgetopportunity.md)|Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.|
 |[BudgetPoint](budgetpoint.md)|Defines an object that contains a budget amount and an estimate of weekly impressions, clicks, and cost for this budget amount.|
-|[CampaignBudgetRecommendation](campaignbudgetrecommendation.md)|Defines an object that contains the properties for a campaign budget recommendation.|
+|[CampaignBudgetRecommendation](campaignbudgetrecommendation.md)|Defines the CampaignBudgetRecommendation data object.|
 |[CampaignEstimate](campaignestimate.md)|Contains a nested list of suggested keywords for the campaign's ad groups with minimum and maximum traffic estimates.|
 |[CampaignEstimator](campaignestimator.md)|Contains campaign filter criteria and a nested list of ad group and keyword level filter criteria for traffic estimates.|
 |[CategorySearchParameter](categorysearchparameter.md)|The keyword category search parameter that you can use as a seed for new keyword ideas.|
@@ -41,17 +41,17 @@ The Ad Insight service defines the following data objects.
 |[Criterion](criterion.md)|This is the base class from which keyword planner criterion objects derive.|
 |[DateRangeSearchParameter](daterangesearchparameter.md)|The date range search parameter that you can include when requesting keyword ideas.|
 |[DayMonthAndYear](daymonthandyear.md)|Defines an object that you use to specify the start and end dates of a date range.|
-|[DecimalRoundedResult](decimalroundedresult.md)|Reserved.|
+|[DecimalRoundedResult](decimalroundedresult.md)|Defines a DecimalRoundedResult data object.|
 |[DeviceCriterion](devicecriterion.md)|The device criterion that you can include when requesting keyword ideas or traffic estimates.|
 |[DeviceSearchParameter](devicesearchparameter.md)|The device search parameter filter that you can include when requesting keyword ideas.|
-|[DismissRecommendationEntity](dismissrecommendationentity.md)|Dismisses a recommendation.|
+|[DismissRecommendationEntity](dismissrecommendationentity.md)|Dismiss a recommendation.|
 |[DomainCategory](domaincategory.md)|Defines an object that contains a domain category with website coverage.|
 |[EntityDetail](entitydetail.md)|Defines an object that provides detail information for an entity for performance insights.|
 |[EntityParameter](entityparameter.md)|Defines an object that provides parameter information for an entity.|
 |[EstimatedBidAndTraffic](estimatedbidandtraffic.md)|Defines an object that contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the corresponding keyword or ad group given the suggested bid.|
 |[EstimatedPositionAndTraffic](estimatedpositionandtraffic.md)|Defines an object that contains the estimated search results position and estimated keyword statistics such as clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified keyword given the specified bid.|
 |[ExcludeAccountKeywordsSearchParameter](excludeaccountkeywordssearchparameter.md)|The exclude account keywords search parameter filter that you can include when requesting keyword ideas.|
-|[Feed](feed.md)|Reserved.|
+|[Feed](feed.md)|Defines a Feed data object.|
 |[HistoricalSearchCountPeriodic](historicalsearchcountperiodic.md)|Defines an object that contains the number of times that the keyword was used in a search query during the specified time period.|
 |[IdeaTextSearchParameter](ideatextsearchparameter.md)|The idea text search parameter filter that you can include when requesting keyword ideas.|
 |[ImpressionShareSearchParameter](impressionsharesearchparameter.md)|The impression share search parameter filter that you can include when requesting keyword ideas.|
@@ -76,7 +76,7 @@ The Ad Insight service defines the following data objects.
 |[KeywordLocation](keywordlocation.md)|Defines an object that contains the location, network, device, and the percentage of time that a user entered a search query.|
 |[KeywordLocationResult](keywordlocationresult.md)|Defines an object that contains the locations where users were located when they searched for the specified keyword.|
 |[KeywordOpportunity](keywordopportunity.md)|Defines an object that contains a suggested keyword and bid value.|
-|[KeywordRecommendation](keywordrecommendation.md)|Defines an object that contains the properties for a keyword recommendation.|
+|[KeywordRecommendation](keywordrecommendation.md)|Defines a KeywordRecommendation data object.|
 |[KeywordSearchCount](keywordsearchcount.md)|Defines an object that contains a list of search counts for each device and network where the keyword was included in a search query.|
 |[KeywordSuggestion](keywordsuggestion.md)|Defines an object that contains a list of suggested keywords that may perform better than the specified keyword.|
 |[LanguageCriterion](languagecriterion.md)|The language criterion that you can include when requesting keyword ideas or traffic estimates.|
@@ -92,13 +92,13 @@ The Ad Insight service defines the following data objects.
 |[PerformanceInsightsMessage](performanceinsightsmessage.md)|Defines the message for performance insights.|
 |[PerformanceInsightsMessageParameter](performanceinsightsmessageparameter.md)|Defines the message parameters for performance insights.|
 |[QuerySearchParameter](querysearchparameter.md)|The query search parameter that you can use as a seed for new keyword ideas.|
-|[RadiusTarget](radiustarget.md)|Reserved.|
-|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|Reserved.|
+|[RadiusTarget](radiustarget.md)|Defines a RadiusTarget data object.|
+|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|Defines a RangeResultOfDecimalRoundedResult data object.|
 |[RangeResultOfdouble](rangeresultofdouble.md)|Reserved.|
 |[Recommendation](recommendation.md)|Defines the base object of Recommendation.|
-|[RecommendationBase](recommendationbase.md)|Defines a base object that is inherited by recommendation objects.|
+|[RecommendationBase](recommendationbase.md)|Defines the RecommendationBase data object.|
 |[RecommendationInfo](recommendationinfo.md)|Defines the base object of RecommendationInfo.|
-|[ResponsiveSearchAdRecommendation](responsivesearchadrecommendation.md)|Defines an object that contains the properties for a responsive search ad recommendation.|
+|[ResponsiveSearchAdRecommendation](responsivesearchadrecommendation.md)|Defines a ResponsiveSearchAdRecommendation data object.|
 |[ResponsiveSearchAdsRecommendation](responsivesearchadsrecommendation.md)|Defines an object that contains the responsive search ads to be suggested.|
 |[RSARecommendationInfo](rsarecommendationinfo.md)|Defines an object that contains the info of responsive search ads recommendation.|
 |[SearchCountsByAttributes](searchcountsbyattributes.md)|Defines an object that contains a list of keyword historical search counts for the corresponding device attribute.|
