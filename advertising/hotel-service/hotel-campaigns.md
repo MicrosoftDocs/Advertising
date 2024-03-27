@@ -9,6 +9,8 @@ ms.author: jonmeyers
 
 # Lodging Campaigns
 
+[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
+
 > [!NOTE]
 > This beta release of Hotel price ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
