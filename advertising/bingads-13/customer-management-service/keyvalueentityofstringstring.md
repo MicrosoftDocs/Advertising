@@ -5,7 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: The key and value pair of string and string values for notifications.
+description: The key and value entity of string and string values.
 ---
 # KeyValueEntityOfstringstring Data Object - Customer Management
 The key and value entity of string and string values.
