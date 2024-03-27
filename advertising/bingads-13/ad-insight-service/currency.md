@@ -372,7 +372,7 @@ The [Currency](currency.md) value set has the following values: [AlgerianDinar](
 |<a name="uaedirham"></a>UAEDirham|The UAE Dirham (AED).|
 |<a name="ukpound"></a>UKPound|The UK Pound (GBP).|
 |<a name="unspecify"></a>UnSpecify|Unspecified currency.|
-|<a name="usdollar"></a>USDollar|The US Dollar USD
+|<a name="usdollar"></a>USDollar|The US Dollar USD|
 |<a name="won"></a>Won|The South Korean Won (KRW).|
 |<a name="yuanrenminbi"></a>YuanRenminbi|The Chinese Yuan (CNY).|
 
