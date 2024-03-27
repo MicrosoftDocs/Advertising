@@ -74,6 +74,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [AdGroupPerformanceReportFilter](adgroupperformancereportfilter.md)  
 [AdPerformanceReportFilter](adperformancereportfilter.md)  
 [AgeGenderAudienceReportFilter](agegenderaudiencereportfilter.md)  
+[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)  
 [AudiencePerformanceReportFilter](audienceperformancereportfilter.md)  
 [CallDetailReportFilter](calldetailreportfilter.md)  
 [CampaignPerformanceReportFilter](campaignperformancereportfilter.md)  

@@ -1,0 +1,39 @@
+---
+title: AssetGroupPerformanceReportFilter Data Object - Reporting
+ms.service: bing-ads
+ms.subservice: reporting-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Defines a data object for AssetGroupPerformanceReportFilter.
+---
+# AssetGroupPerformanceReportFilter Data Object - Reporting
+Defines a data object for AssetGroupPerformanceReportFilter.
+
+## Syntax
+```xml
+<xs:complexType name="AssetGroupPerformanceReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:sequence>
+    <xs:element minOccurs="0" name="AccountStatus" nillable="true" type="tns:AccountStatusReportFilter" />
+    <xs:element minOccurs="0" name="AssetGroupStatus" nillable="true" type="tns:AssetGroupStatusReportFilter" />
+    <xs:element minOccurs="0" name="CampaignStatus" nillable="true" type="tns:CampaignStatusReportFilter" />
+  </xs:sequence>
+</xs:complexType>
+```
+
+## <a name="elements"></a>Elements
+
+The [AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AssetGroupStatus](#assetgroupstatus), [CampaignStatus](#campaignstatus).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="accountstatus"></a>AccountStatus|Reserved.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
+|<a name="assetgroupstatus"></a>AssetGroupStatus|Reserved.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
+|<a name="campaignstatus"></a>CampaignStatus|Reserved.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
+
+## Requirements
+Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
+Namespace: https\://bingads.microsoft.com/Reporting/v13  
+
+## Used By
+[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)  

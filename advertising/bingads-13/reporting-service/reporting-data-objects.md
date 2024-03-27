@@ -16,6 +16,7 @@ The Reporting service defines the following data objects.
 |[AccountPerformanceReportRequest](accountperformancereportrequest.md)|Defines an account performance report request.|
 |[AccountReportScope](accountreportscope.md)|Defines the set of accounts to include in the report.|
 |[AccountThroughAdGroupReportScope](accountthroughadgroupreportscope.md)|Defines the set of accounts, campaigns, and ad groups to include in the report.|
+|[AccountThroughAssetGroupReportScope](accountthroughassetgroupreportscope.md)|Defines the set of accounts, campaigns, and asset groups to include in the report.|
 |[AccountThroughCampaignReportScope](accountthroughcampaignreportscope.md)|Defines the set of accounts and campaigns to include in the report.|
 |[AdApiError](adapierror.md)|Defines a Reporting Ad API error object that contains the details that explain why the service operation failed.|
 |[AdApiFaultDetail](adapifaultdetail.md)|Defines a Reporting Ad API fault detail object that operations return when generic errors occur, such as an authentication error.|
@@ -36,6 +37,9 @@ The Reporting service defines the following data objects.
 |[AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md)|Defines an age and gender audience report request.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Reporting API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Reporting fault detail objects derive.|
+|[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)|Defines the criteria to use to filter the asset group performance report data.|
+|[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)|Defines an asset group performance report request.|
+|[AssetGroupReportScope](assetgroupreportscope.md)|Defines an asset group to include in the report.|
 |[AudiencePerformanceReportFilter](audienceperformancereportfilter.md)|Defines the criteria to use to filter the audience performance report data.|
 |[AudiencePerformanceReportRequest](audienceperformancereportrequest.md)|Defines an audience performance report request.|
 |[BatchError](batcherror.md)|Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
