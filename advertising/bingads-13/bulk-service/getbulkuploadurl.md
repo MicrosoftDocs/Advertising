@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Submits a request for a URL where a bulk upload file may be posted.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetBulkUploadUrl Service Operation - Bulk
 Submits a request for a URL where a bulk upload file may be posted.
