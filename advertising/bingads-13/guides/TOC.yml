@@ -2241,6 +2241,8 @@
       href: ../customer-management-service/deletecustomer.md
     - name: DeleteUser
       href: ../customer-management-service/deleteuser.md
+    - name: DismissNotifications
+      href: ../customer-management-service/dismissnotifications.md
     - name: FindAccounts
       href: ../customer-management-service/findaccounts.md
     - name: FindAccountsOrCustomersInfo
@@ -2326,6 +2328,8 @@
       href: ../customer-management-service/customerrole.md
     - name: DateRange
       href: ../customer-management-service/daterange.md
+    - name: KeyValueEntityOflongint
+      href: ../customer-management-service/keyvalueentityoflongint.md
     - name: KeyValueEntityOfstringstring
       href: ../customer-management-service/keyvalueentityofstringstring.md
     - name: KeyValuePairOfstringbase64binary
