@@ -2201,6 +2201,8 @@
       href: ../customer-billing-service/accountadditionalfield.md
     - name: DataType
       href: ../customer-billing-service/datatype.md
+    - name: InsertionOrderAdditionalField
+      href: ../customer-billing-service/Insertionorderadditionalfield.md
     - name: InsertionOrderStatus
       href: ../customer-billing-service/insertionorderstatus.md
     - name: InsertionOrderPendingChangesStatus
