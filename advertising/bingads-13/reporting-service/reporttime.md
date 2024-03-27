@@ -46,6 +46,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [AdGroupPerformanceReportRequest](adgroupperformancereportrequest.md)  
 [AdPerformanceReportRequest](adperformancereportrequest.md)  
 [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md)  
+[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)  
 [AudiencePerformanceReportRequest](audienceperformancereportrequest.md)  
 [BudgetSummaryReportRequest](budgetsummaryreportrequest.md)  
 [CallDetailReportRequest](calldetailreportrequest.md)  

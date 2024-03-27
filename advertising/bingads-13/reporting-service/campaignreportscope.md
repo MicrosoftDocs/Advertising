@@ -35,4 +35,5 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 
 ## Used By
 [AccountThroughAdGroupReportScope](accountthroughadgroupreportscope.md)  
+[AccountThroughAssetGroupReportScope](accountthroughassetgroupreportscope.md)  
 [AccountThroughCampaignReportScope](accountthroughcampaignreportscope.md)  

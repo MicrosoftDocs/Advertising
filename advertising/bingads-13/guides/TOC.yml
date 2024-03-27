@@ -2445,6 +2445,8 @@
       href: ../reporting-service/accountreportscope.md
     - name: AccountThroughAdGroupReportScope
       href: ../reporting-service/accountthroughadgroupreportscope.md
+    - name: AccountThroughAssetGroupReportScope
+      href: ../reporting-service/accountthroughassetgroupreportscope.md
     - name: AccountThroughCampaignReportScope
       href: ../reporting-service/accountthroughcampaignreportscope.md
     - name: AdApiError
@@ -2485,6 +2487,12 @@
       href: ../reporting-service/apifaultdetail.md
     - name: ApplicationFault
       href: ../reporting-service/applicationfault.md
+    - name: AssetGroupPerformanceReportFilter
+      href: ../reporting-service/assetgroupperformancereportfilter.md
+    - name: AssetGroupPerformanceReportRequest
+      href: ../reporting-service/assetgroupperformancereportrequest.md
+    - name: AssetGroupReportScope
+      href: ../reporting-service/assetgroupreportscope.md
     - name: AudiencePerformanceReportFilter
       href: ../reporting-service/audienceperformancereportfilter.md
     - name: AudiencePerformanceReportRequest
@@ -2636,6 +2644,8 @@
       href: ../reporting-service/adtypereportfilter.md
     - name: AgeGenderAudienceReportColumn
       href: ../reporting-service/agegenderaudiencereportcolumn.md
+    - name: AssetGroupPerformanceReportColumn
+      href: ../reporting-service/assetgroupperformancereportcolumn.md
     - name: AudiencePerformanceReportColumn
       href: ../reporting-service/audienceperformancereportcolumn.md
     - name: BidMatchTypeReportFilter

@@ -40,6 +40,7 @@ Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
 
 ## Used By
+[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)  
 [GeographicPerformanceReportFilter](geographicperformancereportfilter.md)  
 [ProductDimensionPerformanceReportFilter](productdimensionperformancereportfilter.md)  
 [ProductNegativeKeywordConflictReportFilter](productnegativekeywordconflictreportfilter.md)  
