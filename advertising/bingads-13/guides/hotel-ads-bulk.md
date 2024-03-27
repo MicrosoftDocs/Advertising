@@ -8,6 +8,8 @@ description: Update hotels, hotel groups, and hotel associations with the Bulk A
 ---
 # Hotel Price Ads Bulk Update
 
+[!INCLUDE[coming-soon](../../hotel-ads/includes/property-center-coming-soon.md)]
+
 > [!NOTE]
 > Hotel Price Ads is available to select beta participants only. For more information see [Hotel Price Ads](/advertising/hotel-ads/index). 
 
@@ -20,7 +22,7 @@ The Bulk API supports a limited set of update operations for Hotel Price Ads cus
 
 Use the Bulk API if you frequently update thousands or more hotels, hotel groups, and associations. You would continue to use the [Hotel Price Ads API](/advertising/hotel-ads/index) to setup and manage most aspects of your Hotel Price Ads campaigns. 
 
-Hotel Price Ads customers new to the Bulk API should first review the [Bulk Upload](bulk-download-upload.md#bulkupload) overview. Although Bulk download is not supported for Hotel Price Ads, you can upload [Hotel](hotel.md), [Hotel Group](hotel-group.md), and [Hotel Association](hotel-association.md) records to make updates. Please note the file format via Bulk API does vary from what is described in [Making bulk changes in Hotel Price Ads](https://help.ads.microsoft.com/#apex/3/en/56882/1) via the Microsoft Hotel Center UI. 
+Hotel Price Ads customers new to the Bulk API should first review the [Bulk Upload](bulk-download-upload.md#bulkupload) overview. Although Bulk download is not supported for Hotel Price Ads, you can upload [Hotel](hotel.md), [Hotel Group](hotel-group.md), and [Hotel Association](hotel-association.md) records to make updates. Please note the file format via Bulk API does vary from what is described in [Making bulk changes in Hotel Price Ads](https://help.ads.microsoft.com/#apex/3/en/56882/1) via the Microsoft Hotel Center UI.
 
 Possible column headers include the following CSV row. 
 
