@@ -1223,6 +1223,8 @@
       href: ../campaign-management-service/addcampaigns.md
     - name: AddConversionGoals
       href: ../campaign-management-service/addconversiongoals.md
+    - name: AddDataExclusions
+      href: ../campaign-management-service/adddataexclusions.md
     - name: AddExperiments
       href: ../campaign-management-service/addexperiments.md
     - name: AddImportJobs
@@ -1237,6 +1239,8 @@
       href: ../campaign-management-service/addmedia.md
     - name: AddNegativeKeywordsToEntities
       href: ../campaign-management-service/addnegativekeywordstoentities.md
+    - name: AddSeasonalityAdjustments
+      href: ../campaign-management-service/addseasonalityadjustments.md
     - name: AddSharedEntity
       href: ../campaign-management-service/addsharedentity.md
     - name: AddUetTags
@@ -1289,6 +1293,8 @@
       href: ../campaign-management-service/deletecampaigncriterions.md
     - name: DeleteCampaigns
       href: ../campaign-management-service/deletecampaigns.md
+    - name: DeleteDataExclusions
+      href: ../campaign-management-service/deletedataexclusions.md
     - name: DeleteExperiments
       href: ../campaign-management-service/deleteexperiments.md
     - name: DeleteImportJobs
@@ -1305,6 +1311,8 @@
       href: ../campaign-management-service/deletemedia.md
     - name: DeleteNegativeKeywordsFromEntities
       href: ../campaign-management-service/deletenegativekeywordsfromentities.md
+    - name: DeleteSeasonalityAdjustments
+      href: ../campaign-management-service/deleteseasonalityadjustments.md
     - name: DeleteSharedEntities
       href: ../campaign-management-service/deletesharedentities.md
     - name: DeleteSharedEntityAssociations
@@ -1373,6 +1381,10 @@
       href: ../campaign-management-service/getconversiongoalsbyids.md
     - name: GetConversionGoalsByTagIds
       href: ../campaign-management-service/getconversiongoalsbytagids.md
+    - name: GetDataExclusionsByAccountId
+      href: ../campaign-management-service/getdataexclusionsbyaccountid.md
+    - name: GetDataExclusionsByIds
+      href: ../campaign-management-service/getdataexclusionsbyids.md
     - name: GetEditorialReasonsByIds
       href: ../campaign-management-service/geteditorialreasonsbyids.md
     - name: GetExperimentsByIds
@@ -1415,6 +1427,10 @@
       href: ../campaign-management-service/getnegativesitesbycampaignids.md
     - name: GetProfileDataFileUrl
       href: ../campaign-management-service/getprofiledatafileurl.md
+    - name: GetSeasonalityAdjustmentsByAccountId
+      href: ../campaign-management-service/getseasonalityadjustmentsbyaccountid.md
+    - name: GetSeasonalityAdjustmentsByIds
+      href: ../campaign-management-service/getseasonalityadjustmentsbyids.md
     - name: GetSharedEntities
       href: ../campaign-management-service/getsharedentities.md
     - name: GetSharedEntitiesByAccountId
@@ -1467,6 +1483,8 @@
       href: ../campaign-management-service/updatecampaigns.md
     - name: UpdateConversionGoals
       href: ../campaign-management-service/updateconversiongoals.md
+    - name: UpdateDataExclusions
+      href: ../campaign-management-service/updatedataexclusions.md
     - name: UpdateExperiments
       href: ../campaign-management-service/updateexperiments.md
     - name: UpdateImportJobs
@@ -1475,6 +1493,8 @@
       href: ../campaign-management-service/updatekeywords.md
     - name: UpdateLabels
       href: ../campaign-management-service/updatelabels.md
+    - name: UpdateSeasonalityAdjustments
+      href: ../campaign-management-service/updateseasonalityadjustments.md
     - name: UpdateSharedEntities
       href: ../campaign-management-service/updatesharedentities.md
     - name: UpdateUetTags
@@ -1584,6 +1604,10 @@
       href: ../campaign-management-service/bidstrategy.md
     - name: BMCStore
       href: ../campaign-management-service/bmcstore.md
+    - name: BrandItem
+      href: ../campaign-management-service/branditem.md
+    - name: BrandList
+      href: ../campaign-management-service/brandlist.md
     - name: Budget
       href: ../campaign-management-service/budget.md
     - name: CallAdExtension
@@ -1594,6 +1618,8 @@
       href: ../campaign-management-service/campaign.md
     - name: CampaignAdGroupIds
       href: ../campaign-management-service/campaignadgroupids.md
+    - name: CampaignAssociation
+      href: ../campaign-management-service/campaignassociation.md
     - name: CampaignCriterion
       href: ../campaign-management-service/campaigncriterion.md
     - name: CampaignNegativeSites
@@ -1642,6 +1668,8 @@
       href: ../campaign-management-service/customparameter.md
     - name: CustomParameters
       href: ../campaign-management-service/customparameters.md
+    - name: DataExclusion
+      href: ../campaign-management-service/dataexclusion.md
     - name: Date
       href: ../campaign-management-service/date.md
     - name: DayTime
@@ -1878,6 +1906,8 @@
       href: ../campaign-management-service/ruleitemgroup.md
     - name: Schedule
       href: ../campaign-management-service/schedule.md
+    - name: SeasonalityAdjustment
+      href: ../campaign-management-service/seasonalityadjustment.md
     - name: Setting
       href: ../campaign-management-service/setting.md
     - name: SharedEntity
@@ -2043,6 +2073,8 @@
       href: ../campaign-management-service/customerlistitemsubtype.md
     - name: Day
       href: ../campaign-management-service/day.md
+    - name: DeviceType
+      href: ../campaign-management-service/devicetype.md
     - name: DistanceUnit
       href: ../campaign-management-service/distanceunit.md
     - name: DynamicSearchAdsSource

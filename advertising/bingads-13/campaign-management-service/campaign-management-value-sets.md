@@ -62,9 +62,10 @@ The Campaign Management service defines the following value sets.
 |[ConversionGoalType](conversiongoaltype.md)|Defines the current possible types of conversion goals.|
 |[CriterionAdditionalField](criterionadditionalfield.md)|Defines a list of optional criterion properties that you can request when calling [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) and [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md).|
 |[CriterionTypeGroup](criteriontypegroup.md)|The type used to group criterions.|
-|[CustomerListActionType](customerlistactiontype.md)|For internal use only.|
-|[CustomerListItemSubType](customerlistitemsubtype.md)|For internal use only.|
+|[CustomerListActionType](customerlistactiontype.md)|Defines a CustomerListActionType value set.|
+|[CustomerListItemSubType](customerlistitemsubtype.md)|Defines a CustomerListItemSubType value set.|
 |[Day](day.md)|Defines the day values that you can specify for day and time criterion.|
+|[DeviceType](devicetype.md)|Reserved.|
 |[DistanceUnit](distanceunit.md)|Defines the possible distance units of a geographical location.|
 |[DynamicSearchAdsSource](dynamicsearchadssource.md)|Defines the possible targeting source values for dynamic search ads campaigns.|
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|

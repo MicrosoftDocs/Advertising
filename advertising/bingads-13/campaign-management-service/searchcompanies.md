@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Search for profile data by company name.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # SearchCompanies Service Operation - Campaign Management
 Search for profile data by company name.  

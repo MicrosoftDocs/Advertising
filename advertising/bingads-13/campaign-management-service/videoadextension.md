@@ -20,9 +20,9 @@ Defines an ad extension with a video and call-to-action button.
         <xs:element minOccurs="0" name="AlternativeText" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="DisplayText" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element xmlns:q64="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q64:ArrayOfstring" />
+        <xs:element xmlns:q65="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q65:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q65="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q65:ArrayOfstring" />
+        <xs:element xmlns:q66="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q66:ArrayOfstring" />
         <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="ThumbnailId" nillable="true" type="xs:long" />
         <xs:element minOccurs="0" name="ThumbnailUrl" nillable="true" type="xs:string" />

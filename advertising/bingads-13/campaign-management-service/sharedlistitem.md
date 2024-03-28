@@ -18,7 +18,7 @@ Do not try to instantiate a *SharedListItem*. You can create one or more of the 
 ```xml
 <xs:complexType name="SharedListItem" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q88:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q89:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>

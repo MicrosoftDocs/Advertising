@@ -25,6 +25,7 @@ The Campaign Management service defines the following service operations.
 |[AddCampaignCriterions](addcampaigncriterions.md)|Adds one or more campaign criterions that help determine whether ads in each campaign get served.|100 *CampaignCriterions*|
 |[AddCampaigns](addcampaigns.md)|Adds one or more campaigns to the specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[AddConversionGoals](addconversiongoals.md)|Adds new conversion goals to the account's shared conversion goal library.|100 *ConversionGoals*|
+|[AddDataExclusions](adddataexclusions.md)|Reserved.||
 |[AddExperiments](addexperiments.md)|Adds experiments and creates experiment campaigns based on existing campaigns in an account.|100 *Experiments*|
 |[AddImportJobs](addimportjobs.md)|Creates a new import job.|1 *ImportJobs*|
 |[AddKeywords](addkeywords.md)|Adds one or more keywords to an ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
@@ -32,12 +33,14 @@ The Campaign Management service defines the following service operations.
 |[AddListItemsToSharedList](addlistitemstosharedlist.md)|Adds negative keywords to a negative keyword list, or negative sites to a website exclusion list.|1 *SharedList*<br/><br/>5,000 *ListItems*|
 |[AddMedia](addmedia.md)|Adds the specified media to an account's asset library.|1 *AccountId*<br/><br/>10 *Media*|
 |[AddNegativeKeywordsToEntities](addnegativekeywordstoentities.md)|Adds negative keywords to the specified campaign or ad group.|1 *EntityNegativeKeywords*<br/><br/>Each *EntityNegativeKeyword* element can contain up to 20,000 negative keywords.|
+|[AddSeasonalityAdjustments](addseasonalityadjustments.md)|Reserved.||
 |[AddSharedEntity](addsharedentity.md)|Adds a negative keyword list to the ad account library, or adds a website exclusion list to the manager account (customer) library.|1 *SharedEntity*<br/><br/>5,000 *ListItems*|
 |[AddUetTags](adduettags.md)|Adds new Universal Event Tracking (UET) tags that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|100 *UetTags*|
 |[AddVideos](addvideos.md)|Adds one or more videos to an account.|100 *Videos*|
 |[AppealEditorialRejections](appealeditorialrejections.md)|Appeals ads or keywords that failed editorial review.|1,000 *EntityIdToParentIdAssociations*|
 |[ApplyAssetGroupListingGroupActions](applyassetgrouplistinggroupactions.md)|Applies an action to an asset group listing group.|N/A.|
-|[ApplyCustomerListItems](applycustomerlistitems.md)|For internal use only.|N/A.|
+|[ApplyCustomerListItems](applycustomerlistitems.md)|Defines the ApplyCustomerListItems service operation.|N/A.|
+|[ApplyCustomerListUserData](applycustomerlistuserdata.md)|Defines the ApplyCustomerListUserData service operation.||
 |[ApplyHotelGroupActions](applyhotelgroupactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [HotelGroup](hotelgroup.md).|N/A.|
 |[ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md)|Applies offline conversion adjustments.|1,000 *OfflineConversionAdjustments*|
 |[ApplyOfflineConversions](applyofflineconversions.md)|Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.|1,000 *OfflineConversions*|
@@ -57,6 +60,7 @@ The Campaign Management service defines the following service operations.
 |[DeleteCampaignConversionGoals](deletecampaignconversiongoals.md)|Deletes a campaign conversion goal.|N/A.|
 |[DeleteCampaignCriterions](deletecampaigncriterions.md)|Deletes one or more campaign criterions.|100 *CampaignCriterionIds*|
 |[DeleteCampaigns](deletecampaigns.md)|Deletes one or more campaigns in a specified account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
+|[DeleteDataExclusions](deletedataexclusions.md)|Reserved.||
 |[DeleteExperiments](deleteexperiments.md)|Deletes one or more experiments.|100 *ExperimentIds*|
 |[DeleteImportJobs](deleteimportjobs.md)|Deletes the import jobs.|1 *ImportJobs*|
 |[DeleteKeywords](deletekeywords.md)|Deletes one or more keywords in a specified ad group.|1 *AdGroupId*<br/><br/>1,000 *KeywordIds*|
@@ -65,6 +69,7 @@ The Campaign Management service defines the following service operations.
 |[DeleteListItemsFromSharedList](deletelistitemsfromsharedlist.md)|Deletes negative keywords from a negative keyword list, or negative sites from a website exclusion list.|1 *SharedList*<br/><br/>5,000 *ListItemIds*|
 |[DeleteMedia](deletemedia.md)|Deletes the specified media from an account's media library.|1 *AccountId*<br/><br/>100*MediaIds*|
 |[DeleteNegativeKeywordsFromEntities](deletenegativekeywordsfromentities.md)|Deletes negative keywords from the specified campaign or ad group.|1 *EntityNegativeKeywords*<br/><br/>Each *EntityNegativeKeyword* element can contain up to 20,000 negative keywords.|
+|[DeleteSeasonalityAdjustments](deleteseasonalityadjustments.md)|Reserved.||
 |[DeleteSharedEntities](deletesharedentities.md)|Deletes negative keyword lists from the ad account library, or deletes website exclusion lists from the manager account (customer) library.|20 *SharedEntities*|
 |[DeleteSharedEntityAssociations](deletesharedentityassociations.md)|Deletes the negative keyword list to campaign associations, or website exclusion list to ad account associations.|10,000 *Associations*|
 |[DeleteVideos](deletevideos.md)|Deletes one or more videos from the account.|100 *VideoIds*|
@@ -99,6 +104,8 @@ The Campaign Management service defines the following service operations.
 |[GetCampaignsByIds](getcampaignsbyids.md)|Gets the specified campaigns within an account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[GetConversionGoalsByIds](getconversiongoalsbyids.md)|Gets the specified conversion goals.|100 *ConversionGoalIds*|
 |[GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)|Gets the conversion goals that use the specified UET tags.|100 *TagIds*|
+|[GetDataExclusionsByAccountId](getdataexclusionsbyaccountid.md)|Reserved.||
+|[GetDataExclusionsByIds](getdataexclusionsbyids.md)|Reserved.||
 |[GetEditorialReasonsByIds](geteditorialreasonsbyids.md)|Gets the reasons why the specified entities failed editorial review and whether the issue is appealable.|1 *AccountId*<br/><br/>1,000 *EntityIdToParentIdAssociations*|
 |[GetExperimentsByIds](getexperimentsbyids.md)|Gets experiments by experiment identifiers.|5,000 *ExperimentIds*|
 |[GetFileImportUploadUrl](getfileimportuploadurl.md)|GetFileImportUploadUrl is reserved for future use.|N/A.|
@@ -120,6 +127,8 @@ The Campaign Management service defines the following service operations.
 |[GetNegativeSitesByAdGroupIds](getnegativesitesbyadgroupids.md)|Gets the negative sites URLs that are assigned directly to ad groups.|15 *AdGroupIds*<br/><br/>1 *CampaignId*|
 |[GetNegativeSitesByCampaignIds](getnegativesitesbycampaignids.md)|Gets the negative site URLs that are assigned directly to campaigns.|1 *AccountId*<br/><br/>15 *CampaignIds*|
 |[GetProfileDataFileUrl](getprofiledatafileurl.md)|Gets a temporary URL that you can use to download industry or job function profile data.|1 *ProfileType*|
+|[GetSeasonalityAdjustmentsByAccountId](getseasonalityadjustmentsbyaccountid.md)|Reserved.||
+|[GetSeasonalityAdjustmentsByIds](getseasonalityadjustmentsbyids.md)|Reserved.||
 |[GetSharedEntities](getsharedentities.md)|Gets negative keyword lists or website exclusion lists.|Not applicable.|
 |[GetSharedEntitiesByAccountId](getsharedentitiesbyaccountid.md)|Gets negative keyword lists.|Not applicable.|
 |[GetSharedEntityAssociationsByEntityIds](getsharedentityassociationsbyentityids.md)|Gets the negative keyword list to campaign associations by campaign IDs, or website exclusion list to ad account associations by ad account IDs.|100 *EntityIds*|
@@ -146,10 +155,12 @@ The Campaign Management service defines the following service operations.
 |[UpdateCampaignCriterions](updatecampaigncriterions.md)|Updates one or more campaign criterions.|100 *CampaignCriterions*|
 |[UpdateCampaigns](updatecampaigns.md)|Updates specified campaigns in a specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[UpdateConversionGoals](updateconversiongoals.md)|Updates conversion goals within the account's shared conversion goal library.|100 *ConversionGoals*|
+|[UpdateDataExclusions](updatedataexclusions.md)|Reserved.||
 |[UpdateExperiments](updateexperiments.md)|Updates the specified experiments.|100 *Experiments*|
 |[UpdateImportJobs](updateimportjobs.md)|Replaces the specified import jobs with new import jobs.|1 *ImportJobs*|
 |[UpdateKeywords](updatekeywords.md)|Updates the keywords within a specified ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
 |[UpdateLabels](updatelabels.md)|Updates the labels within the account.|100 *Labels*|
+|[UpdateSeasonalityAdjustments](updateseasonalityadjustments.md)|Reserved.||
 |[UpdateSharedEntities](updatesharedentities.md)|Updates the negative keyword lists or website exclusion lists.|20 *SharedEntities*|
 |[UpdateUetTags](updateuettags.md)|Updates the specified Universal Event Tracking (UET) tags.|100 *UetTags*|
 |[UpdateVideos](updatevideos.md)|Updates the videos within the account.|100 *Videos*|
