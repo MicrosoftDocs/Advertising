@@ -6,6 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 description: Gets the specified seasonality adjustments associated with an account.
+dev_langs: 
 - csharp
 - java
 - php
