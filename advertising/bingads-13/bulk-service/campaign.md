@@ -157,7 +157,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Language](#language)|All|
 |[LocalInventoryAdsEnabled](#language)|Shopping|
 |[Modified Time](#modifiedtime)|All|
-|[Page Feed Ids](#pagefeedids)|Search|
+|[Page Feed Ids](#pagefeedids)|Performance Max<br/>Search|
 |[Parent Id](#parentid)|All|
 |[Priority](#priority)|Performance Max<br/>Shopping|
 |[Quality Score](#qualityscore)|All|
@@ -628,11 +628,11 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="pagefeedids"></a>Page Feed Ids
-The page feed identifiers for dynamic search ads. 
+The page feed identifiers for dynamic search ads and Performance Max campaigns. 
 
 Each page feed identifier is delimited in the Bulk file by a semicolon (";"). 
 
-The [Source](#source) determines whether or not Microsoft Advertising will use the associated page feeds. 
+For dynamic search ads, the [Source](#source) determines whether or not Microsoft Advertising will use the associated page feeds. 
 
 > [!TIP]
 > See the [Page Feeds](../guides/page-feeds.md) technical guide for an implementation overview. 
@@ -640,8 +640,8 @@ The [Source](#source) determines whether or not Microsoft Advertising will use t
 > [!NOTE]
 > Experiments are not supported for [mixed campaigns](../guides/mixed-campaigns.md) with dynamic search ads settings. Experiment campaigns and base campaigns of experiments cannot include dynamic search ads settings (comprised of the [Domain Language](#domainlanguage), [Dynamic Description Enabled](#dynamicdescriptionenabled), [Page Feed Ids](#pagefeedids), [Source](#source), and [Website](#website) fields). If you intend to use this campaign for experiments, do not include dynamic search ads settings. If an existing experiment is already based on this campaign, you cannot update the campaign to include dynamic search ads settings.  
 
-**Add:** Optional if the [Campaign Type](#campaigntype) field is set to *DynamicSearchAds*. Optional if the account is in the [mixed campaigns](../guides/mixed-campaigns.md) feature pilot, if the [Campaign Type](#campaigntype) field is set to *Search*, and if the [Experiment Id](#experimentid) field is not set. You cannot include this column for other campaign types.  
-**Update:** Optional if the [Campaign Type](#campaigntype) field is set to *DynamicSearchAds*. Optional if the account is in the [mixed campaigns](../guides/mixed-campaigns.md) feature pilot, if the [Campaign Type](#campaigntype) field is set to *Search*, and if the [Experiment Id](#experimentid) field is not set. You cannot include this column for other campaign types. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.      
+**Add:** Optional if the [Campaign Type](#campaigntype) field is set to *Search* or *Performance Max*, and if the [Experiment Id](#experimentid) field is not set. You cannot include this column for other campaign types.  
+**Update:** Optional if the [Campaign Type](#campaigntype) field is set to *Search* or *Performance Max*, and if the [Experiment Id](#experimentid) field is not set. You cannot include this column for other campaign types. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
