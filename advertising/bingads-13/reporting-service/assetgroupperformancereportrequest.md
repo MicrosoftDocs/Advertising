@@ -27,7 +27,6 @@ Defines a data object for AssetGroupPerformanceReportRequest.
   </xs:complexContent>
 </xs:complexType>
 ```
-[df](./assetgroupli)
 
 ## <a name="elements"></a>Elements
 
