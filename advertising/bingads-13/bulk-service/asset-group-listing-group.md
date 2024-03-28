@@ -12,7 +12,7 @@ dev_langs:
 # Asset Group Listing Group Record - Bulk
 Defines an asset group listing group that can be uploaded and downloaded in a bulk file.
 
-You can upload *Ad Group Listing Group* records for multiple ad groups in the same bulk file, as long as the validation rules are satisfied as described below. 
+You can upload *Asset Group Listing Group* records for multiple ad groups in the same bulk file, as long as the validation rules are satisfied as described below. 
 
 - At minimum you must specify at least the root node for the product partition group tree structure. The product partition group's root node must have its [Product Condition 1](#productcondition1) field set to "All" and [Product Value 1](#productvalue1) null or empty. If you are bidding on all products in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific product conditions, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
 
