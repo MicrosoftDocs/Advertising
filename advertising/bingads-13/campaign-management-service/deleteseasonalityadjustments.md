@@ -6,6 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 description: Deletes the specified seasonality adjustments from the specified account.
+dev_langs: 
 - csharp
 - java
 - php
