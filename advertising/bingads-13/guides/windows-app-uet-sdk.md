@@ -79,7 +79,7 @@ There are some unique steps you’ll need to take to create conversion goals tha
     - The goal category that you select won't affect how this is tracked. This category should be used by your team to understand the differences between your separate goals.  
     - For most goals in an application, you'll want to select *Event*. In the example of setting up an in-app purchase goal, we select *Event* because this in-app purchase happens when a user completes a specific action.  
 ![Goal type](media/windows_uet_sdk_goal_type.png "Goal type")
-1. You'll need to set a relevance value if you want to use this conversion goal to track revenue that is generated from your advertising campaign.  
+    - You'll need to set a relevance value if you want to use this conversion goal to track revenue that is generated from your advertising campaign.  
 ![Revenue](media/windows_uet_sdk_revenue.png "Revenue")
 1. Confirm that you have already set up your UET tag.
 1. Install your event tag.
