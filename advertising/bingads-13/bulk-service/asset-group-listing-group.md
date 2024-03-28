@@ -12,6 +12,40 @@ dev_langs:
 # Asset Group Listing Group Record - Bulk
 Defines an asset group listing group that can be uploaded and downloaded in a bulk file.
 
+You can upload *Ad Group Listing Group* records for multiple ad groups in the same bulk file, as long as the validation rules are satisfied as described below. 
+
+- At minimum you must specify at least the root node for the product partition group tree structure. The product partition group's root node must have its [Product Condition 1](#productcondition1) field set to "All" and [Product Value 1](#productvalue1) null or empty. If you are bidding on all products in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific product conditions, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
+
+- The root node is considered level 0, and a tree can have branches up to 7 levels deep.
+
+- Per upload request, you can include a maximum of 20,000 product partition tree nodes per ad group. The entire product partition tree node count for an ad group cannot exceed 20,000.
+
+- The product partition tree nodes for the same tree (same ad group) must be grouped together in the file.
+
+- The order of the product partition nodes is not guaranteed during download, and parent nodes might be provided after child nodes; however, all nodes for the same ad group will be grouped together in the file.
+
+- If you are creating or modifying the tree structure, parent product partition tree nodes must be ordered ahead of the child product partition tree nodes ; however, the order does not matter for non-structural changes such as updating the bid. For example if you want to update the bids without adding, deleting, or updating the tree structure, then you only need to upload the [Id](#id), [Parent Id](#parentid), and [Bid](#bid) fields.
+
+- To update the [Product Condition 1](#productcondition1), [Product Value 1](#productvalue1) or *Is Excluded* field, you must delete the existing product partition tree node and upload a new product partition tree node which will get a new identifier.
+
+- If any action fails, all remaining actions that might have otherwise succeeded will also fail.
+
+- All product partition node addition and deletion actions must result in a complete tree structure.
+
+- Every path from the root node to the end of a branch must terminate with a leaf node (*Sub Type*=Unit). Every Unit must have a bid, unless the *Is Excluded* field is TRUE which means that the node is a negative ad group criterion.
+
+- Every subdivision must have at least one leaf node that bids on the remainder of the subdivision's conditions, i.e. use the same operand as its sibling unit(s) and set its [Product Value 1](#productvalue1) null or empty.
+
+- If you are adding partitions with multiple levels where neither the parent or child yet exist, use a negative int value as a reference to identify the parent. For example set the both the parent's *Id*, and the child's *Parent Criterion Id* field to the same negative value. The negative IDs are only valid for the duration of the call. Unique system identifiers for each successfully added ad group criterion are returned in the upload result file.
+
+- To pause any product partition you must pause the entire ad group by updating the *Status* field of the [Ad Group](../bulk-service/ad-group.md) to Paused. You can pause the entire campaign by updating the *Status* field of the [Campaign](../bulk-service/campaign.md) to Paused.
+
+- For a *Deleted* action you only need to specify the *Id* and *Parent Id*.
+
+- If you delete a parent product partition, all of its children and descendants will also be deleted.
+
+- You may not specify duplicate product conditions in a branch. 
+
 You can download all *Asset Group Listing Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AssetGroupListingGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 <!--The following Bulk CSV example would add a new asset group listing group if the correct campaign Id would be provided. 
