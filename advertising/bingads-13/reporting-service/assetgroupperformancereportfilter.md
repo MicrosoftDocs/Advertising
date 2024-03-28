@@ -27,9 +27,9 @@ The [AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md) ob
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountstatus"></a>AccountStatus|Reserved.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
-|<a name="assetgroupstatus"></a>AssetGroupStatus|Reserved.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
-|<a name="campaignstatus"></a>CampaignStatus|Reserved.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
+|<a name="accountstatus"></a>AccountStatus|The account status.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
+|<a name="assetgroupstatus"></a>AssetGroupStatus|The asset group status.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
+|<a name="campaignstatus"></a>CampaignStatus|The campaign status.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
