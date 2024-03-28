@@ -54,7 +54,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="newapiinterfaces-november2023"></a>New API Interfaces  
 
-- **Campaign Management API**: [UpdateSitelinkUrls](../campaign-management-service/googleimportoption#updatesitelinkurls) for [GoogleImportOption](../campaign-management-service/googleimportoption).
+- **Campaign Management API**: [UpdateSitelinkUrls](../campaign-management-service/googleimportoption.md#updatesitelinkurls) for [GoogleImportOption](../campaign-management-service/googleimportoption.md).
 - **Bulk API**: LeadFormAdExtensions.
 
 ### <a name="bulkservice-november2023"></a>Bulk Service
