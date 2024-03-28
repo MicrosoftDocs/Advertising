@@ -15,6 +15,38 @@ dev_langs:
 # ApplyAssetGroupListingGroupActions Service Operation - Campaign Management
 Applies an action to an asset group listing group.
 
+Please note the following validation rules:
+
+- At minimum you must specify at least the root node for the listing group tree structure. The listing group's root [AssetGroupListingGroup](./assetgrouplistinggroup.md) must have its condition *Operand* set to "All" and *Attribute* to *null*. If you are serving ads for all products in the catalog, set the *PartitionType* to "Unit". If you are serving ads on more specific product conditions, then set the YPartitionTypeY to "Subdivision", the *ParentCriterionId* to *null*, and the *Id* to a negative value. You will use the negative value as *ParentCriterionId* for any child nodes.
+
+- The root node is considered level 0, and a tree can have branches up to 7 levels deep.
+
+- You may specify up to 5,000 [AssetGroupListingGroupAction](./assetgrouplistinggroupaction.md) objects per call. The entire tree created through multiple calls can have up to 20,000 nodes.
+
+- Each of the [AssetGroupListingGroup](./assetgrouplistinggroup.md) objects must have the same *AssetGroupId*, otherwise the call will fail.
+
+- To update the *Condition* or *Attribute* properties, you must delete the existing product partition tree node and add a new product partition tree node which will get a new identifier. To update from a non-excluded to an excluded [AssetGroupListingGroup](./assetgrouplistinggroup.md) or the other way around, you must delete the existing product partition tree node and add a new product partition tree node which will get a new identifier.
+
+- If any action fails, all remaining actions that might have otherwise succeeded will also fail.
+
+- All actions in one call must result in a complete tree structure. If you need to apply more than 5,000 actions per asset group, you must make multiple calls. Get the parent asset group identifiers from the first call, and then add more children as needed in subsequent calls.
+
+- Every path from the root node to the end of a branch must terminate with a leaf node (*ProductPartitionType*=Unit).
+
+- Every subdivision must have at least one leaf node for the remainder of the subdivision's conditions. For example, use the same operand as its sibling unit(s) and set its *Attribute* to null.
+
+- You may only specify a child node after its parent.
+
+- If you are adding partitions with multiple levels where neither the parent or child yet exist, use a negative int value as a reference to identify the parent. For example set the both the parent's *Id*, and the child's *ParentListingGroupId* element to the same negative value. The negative IDs are only valid for the duration of the call. Unique system identifiers for each successfully added asset group listing group are returned in the response message.
+
+- To pause any product partition you must pause the entire asset group by calling [UpdateAssetGroups](./updateassetgroups.md). You can call *UpdateCampaigns* to pause the entire campaign.
+
+- For a *Delete* action you only need to specify the *Id* and *AssetGroupId* in the [AssetGroupListingGroup](./assetgrouplistinggroup.md).
+
+- If you delete a parent product partition, all of its children and descendants will also be deleted.
+
+- You may not specify duplicate product conditions in a branch. 
+
 ## <a name="request"></a>Request Elements
 The *ApplyAssetGroupListingGroupActionsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 
