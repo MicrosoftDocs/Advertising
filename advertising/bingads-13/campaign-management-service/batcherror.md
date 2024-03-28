@@ -18,7 +18,7 @@ Defines a Campaign Management batch error object that identifies the item within
     <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="FieldPath" nillable="true" type="xs:string" />
-    <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q12:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q13:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Index" type="xs:int" />
     <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
@@ -56,11 +56,13 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [AddCampaignConversionGoals](addcampaignconversiongoals.md)  
 [AddCampaigns](addcampaigns.md)  
 [AddConversionGoals](addconversiongoals.md)  
+[AddDataExclusions](adddataexclusions.md)  
 [AddExperiments](addexperiments.md)  
 [AddImportJobs](addimportjobs.md)  
 [AddKeywords](addkeywords.md)  
 [AddLabels](addlabels.md)  
 [AddListItemsToSharedList](addlistitemstosharedlist.md)  
+[AddSeasonalityAdjustments](addseasonalityadjustments.md)  
 [AddSharedEntity](addsharedentity.md)  
 [AddUetTags](adduettags.md)  
 [AddVideos](addvideos.md)  
@@ -68,6 +70,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [AppealEditorialRejections](appealeditorialrejections.md)  
 [ApplyAssetGroupListingGroupActions](applyassetgrouplistinggroupactions.md)  
 [ApplyCustomerListItems](applycustomerlistitems.md)  
+[ApplyCustomerListUserData](applycustomerlistuserdata.md)  
 [ApplyHotelGroupActions](applyhotelgroupactions.md)  
 [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md)  
 [ApplyOfflineConversions](applyofflineconversions.md)  
@@ -88,6 +91,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [DeleteCampaignConversionGoals](deletecampaignconversiongoals.md)  
 [DeleteCampaignCriterions](deletecampaigncriterions.md)  
 [DeleteCampaigns](deletecampaigns.md)  
+[DeleteDataExclusions](deletedataexclusions.md)  
 [DeleteExperiments](deleteexperiments.md)  
 [DeleteImportJobs](deleteimportjobs.md)  
 [DeleteKeywords](deletekeywords.md)  
@@ -95,6 +99,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [DeleteLabels](deletelabels.md)  
 [DeleteListItemsFromSharedList](deletelistitemsfromsharedlist.md)  
 [DeleteMedia](deletemedia.md)  
+[DeleteSeasonalityAdjustments](deleteseasonalityadjustments.md)  
 [DeleteSharedEntities](deletesharedentities.md)  
 [DeleteSharedEntityAssociations](deletesharedentityassociations.md)  
 [DeleteVideos](deletevideos.md)  
@@ -120,6 +125,8 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [GetCampaignsByIds](getcampaignsbyids.md)  
 [GetConversionGoalsByIds](getconversiongoalsbyids.md)  
 [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)  
+[GetDataExclusionsByAccountId](getdataexclusionsbyaccountid.md)  
+[GetDataExclusionsByIds](getdataexclusionsbyids.md)  
 [GetEditorialReasonsByIds](geteditorialreasonsbyids.md)  
 [GetExperimentsByIds](getexperimentsbyids.md)  
 [GetImportEntityIdsMapping](getimportentityidsmapping.md)  
@@ -133,6 +140,8 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [GetNegativeKeywordsByEntityIds](getnegativekeywordsbyentityids.md)  
 [GetNegativeSitesByAdGroupIds](getnegativesitesbyadgroupids.md)  
 [GetNegativeSitesByCampaignIds](getnegativesitesbycampaignids.md)  
+[GetSeasonalityAdjustmentsByAccountId](getseasonalityadjustmentsbyaccountid.md)  
+[GetSeasonalityAdjustmentsByIds](getseasonalityadjustmentsbyids.md)  
 [GetSharedEntityAssociationsByEntityIds](getsharedentityassociationsbyentityids.md)  
 [GetSharedEntityAssociationsBySharedEntityIds](getsharedentityassociationsbysharedentityids.md)  
 [GetUetTagsByIds](getuettagsbyids.md)  
@@ -152,10 +161,12 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [UpdateBudgets](updatebudgets.md)  
 [UpdateCampaigns](updatecampaigns.md)  
 [UpdateConversionGoals](updateconversiongoals.md)  
+[UpdateDataExclusions](updatedataexclusions.md)  
 [UpdateExperiments](updateexperiments.md)  
 [UpdateImportJobs](updateimportjobs.md)  
 [UpdateKeywords](updatekeywords.md)  
 [UpdateLabels](updatelabels.md)  
+[UpdateSeasonalityAdjustments](updateseasonalityadjustments.md)  
 [UpdateSharedEntities](updatesharedentities.md)  
 [UpdateUetTags](updateuettags.md)  
 [UpdateVideos](updatevideos.md)  

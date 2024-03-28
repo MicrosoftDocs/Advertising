@@ -60,5 +60,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 ## Used By
 [BidStrategy](bidstrategy.md)  
 [Campaign](campaign.md)  
+[DataExclusion](dataexclusion.md)  
 [GetCampaignsByAccountId](getcampaignsbyaccountid.md)  
 [GetCampaignsByIds](getcampaignsbyids.md)  
+[SeasonalityAdjustment](seasonalityadjustment.md)  

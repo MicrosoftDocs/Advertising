@@ -63,12 +63,15 @@ The Campaign Management service defines the following data objects.
 |[BidMultiplier](bidmultiplier.md)|Defines the multiplier by which to adjust your base bid for the corresponding criterion.|
 |[BidStrategy](bidstrategy.md)|A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.|
 |[BMCStore](bmcstore.md)|Defines a Microsoft Merchant Center store.|
+|[BrandItem](branditem.md)|Reserved.|
+|[BrandList](brandlist.md)|Reserved.|
 |[Budget](budget.md)|Represents a budget that can be shared by any campaigns in an account.|
 |[CallAdExtension](calladextension.md)|Defines an object that specifies a click-to-call phone number to include in a text ad.|
 |[CalloutAdExtension](calloutadextension.md)|Defines an object that specifies additional text about your business, products, or services to include in a text ad.|
 |[CallToActionSetting](calltoactionsetting.md)|Reserved.|
 |[Campaign](campaign.md)|Defines a campaign.|
 |[CampaignAdGroupIds](campaignadgroupids.md)|Identifies a campaign and the list of its ad groups to import.|
+|[CampaignAssociation](campaignassociation.md)|Reserved.|
 |[CampaignConversionGoal](campaignconversiongoal.md)|Defines the base object of a campaign conversion goal.|
 |[CampaignCriterion](campaigncriterion.md)|Defines a criterion that you want applied to the specified campaign.|
 |[CampaignNegativeSites](campaignnegativesites.md)|Defines an object that contains the negative site URLs of a campaign.|
@@ -87,12 +90,13 @@ The Campaign Management service defines the following data objects.
 |[CustomAudience](customaudience.md)|Defines a custom audience.|
 |[CustomerAccountShare](customeraccountshare.md)|Defines a customer or account that can use the shared audience or UET tag.|
 |[CustomerAccountShareAssociation](customeraccountshareassociation.md)|Contains the association count for the corresponding usage type.|
-|[CustomerList](customerlist.md)|For internal use only.|
-|[CustomerListItem](customerlistitem.md)|For internal use only.|
+|[CustomerList](customerlist.md)|Defines a CustomerList data object.|
+|[CustomerListUserData](customerlistuserdata.md)|Defines a CustomerListUserData data object.|
 |[CustomerShare](customershare.md)|Defines a shareable audience or UET tag that a customer owns.|
 |[CustomEventsRule](customeventsrule.md)|Defines a custom events remarketing rule.|
 |[CustomParameter](customparameter.md)|Defines a key and value custom parameter for URL tracking.|
 |[CustomParameters](customparameters.md)|Defines a collection of key and value custom parameters for URL tracking.|
+|[DataExclusion](dataexclusion.md)|Defines a DataExclusion data object for the exclusion of conversion data from your auto-bidding strategy's calculation for short periods of time.|
 |[Date](date.md)|Represents a date.|
 |[DayTime](daytime.md)|Defines a day of the week and time range for ad extension scheduling.|
 |[DayTimeCriterion](daytimecriterion.md)|Defines a criterion that can be used to show ads to users during a specific day and time range.|
@@ -211,6 +215,7 @@ The Campaign Management service defines the following data objects.
 |[RuleItem](ruleitem.md)|Defines the base class of a remarketing list rule item.|
 |[RuleItemGroup](ruleitemgroup.md)|Defines an object that contains a list of remarketing list rule items that apply to the same visited page.|
 |[Schedule](schedule.md)|Defines the start and end date ranges for ad extension scheduling.|
+|[SeasonalityAdjustment](seasonalityadjustment.md)|Defines a SeasonalityAdjustment data object for you to optimize your bids for a short period of time when you expect significant changes to conversion rates, such as a sale or promotion.|
 |[Setting](setting.md)|Defines the base class of a setting.|
 |[SharedEntity](sharedentity.md)|Defines the base class of a shared entity.|
 |[SharedEntityAssociation](sharedentityassociation.md)|Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.|

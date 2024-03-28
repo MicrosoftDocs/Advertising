@@ -31,8 +31,6 @@ The [GenreCriterion](genrecriterion.md) object has the following elements: [Genr
 |-----------|---------------|-------------|
 |<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.<br/><br/>[View this table](#genreid-values) to see possible values for *GenreId*.|**long**|
 
-The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
-
 <a name="genreid-values"></a>**Genre ID Values**
 
 These are the possible values for *GenreId*:
@@ -114,6 +112,8 @@ These are the possible values for *GenreId*:
 |Wrestling|78|
 |Anime|80|
 |Soap-Opera|81|
+
+The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
 
 ## <a name="inheritedelements"></a>Inherited Elements
 
