@@ -54,12 +54,12 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="newapiinterfaces-november2023"></a>New API Interfaces  
 
-- **Campaign Management API**: [UpdateSitelinkUrls](https://learn.microsoft.com/advertising/campaign-management-service/googleimportoption#updatesitelinkurls) for [GoogleImportOption](https://learn.microsoft.com/advertising/campaign-management-service/googleimportoption).
+- **Campaign Management API**: [UpdateSitelinkUrls](../campaign-management-service/googleimportoption#updatesitelinkurls) for [GoogleImportOption](../campaign-management-service/googleimportoption).
 - **Bulk API**: LeadFormAdExtensions.
 
 ### <a name="bulkservice-november2023"></a>Bulk Service
 
-- New fields [HashedEmailAddress](https://learn.microsoft.com/advertising/bulk-service/offline-conversion#hashedemailaddress) and [HashedPhoneNumber](https://learn.microsoft.com/advertising/bulk-service/offline-conversion#hashedphonenumber) in [BulkOfflineConversion](https://learn.microsoft.com/advertising/bulk-service/offline-conversion).
+- New fields [HashedEmailAddress](../bulk-service/offline-conversion.md#hashedemailaddress) and [HashedPhoneNumber](../bulk-service/offline-conversion.md#hashedphonenumber) in [BulkOfflineConversion](../bulk-service/offline-conversion.md).
 
 ### <a name="sdk-november2023"></a>Bing Ads API SDK Updates
 
