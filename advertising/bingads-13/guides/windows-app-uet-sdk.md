@@ -13,12 +13,6 @@ Users are spending an increasing amount of time on the Microsoft Store app now m
 
 Much like user activity signals from UET JavaScript tags on the web, user signals from the store app are critical to help Microsoft Advertising identify users across channels, to understand their behavior to optimize campaign creatives and improve ad selection accuracy, relevance, and performance. Reporting on in-app signals and conversions in turn helps advertisers optimize ad targeting, accurately measure ad campaign outcomes, and see better yield for ad spend. 
 
-## <a name="what-is-event-tracking"></a>What Is Event Tracking
-
-![](https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=36b129fe-3d07-4340-93d0-e6fed35f6184&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create)
-
-<iframe src="https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=36b129fe-3d07-4340-93d0-e6fed35f6184&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="what is event tracking.mp4"></iframe>
-
 ## <a name="get-started"></a>Get Started - Windows App UET SDK
 
 For the Microsoft Store app, we provide an SDK to fire UET events. However, this works slightly differently than web based UET. This guide shows you how to add app events to your new or existing app by integrating Windows App UET SDK to log user interaction events. For more information on web based Universal Event Tracking (UET) which is also a Microsoft framework, please refer to [Microsoft Ads web UET help documentation](https://help.ads.microsoft.com/#apex/ads/en/56681/2-500).
@@ -44,10 +38,6 @@ You’ll need to have a UET tagID associated with your app. To create a new UET 
 > You’ll need a separate UET tag ID for each surface where you track UET. If you already have a UET tag ID that you use to track events on a website, you’ll need to create a new one for your application. If you want to track events in more than one application, you’ll need to create a different UET tag for each application where you are tracking events.
 
 ![Windows App UET SDK Step 1](media/uet-sdk-step-1.png "Step 1") -->
-
-## <a name="how-to-create-a-uet-tag"></a>How To Create A UET Tag
-
-<iframe src="https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=6c07307b-202a-4b09-ad01-c1dddebe97bc&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="how to create a uet tag.mp4"></iframe>
 
 ## <a name="tracking-app-actions"></a>Tracking App Actions
 
@@ -89,8 +79,7 @@ There are some unique steps you’ll need to take to create conversion goals tha
     - The goal category that you select won't affect how this is tracked. This category should be used by your team to understand the differences between your separate goals.  
     - For most goals in an application, you'll want to select *Event*. In the example of setting up an in-app purchase goal, we select *Event* because this in-app purchase happens when a user completes a specific action.  
 ![Goal type](media/windows_uet_sdk_goal_type.png "Goal type")
-1. For most goals in an application, you’ll want to select Event. In the example of setting up an in-app purchase goal, we select Event because this in-app purchase happens when a user completes a specific action.
-    - You'll need to set a relevance value if you want to use this conversion goal to track revenue that is generated from your advertising campaign.  
+1. You'll need to set a relevance value if you want to use this conversion goal to track revenue that is generated from your advertising campaign.  
 ![Revenue](media/windows_uet_sdk_revenue.png "Revenue")
 1. Confirm that you have already set up your UET tag.
 1. Install your event tag.
@@ -296,10 +285,6 @@ There are multiple supported architectures for Microsoft.Net.Native.SharedLibrar
 ```
 
 - Reload the project file in Visual Studio. To do this, in the Visual Studio Solution Explorer, open the shortcut menu for the {YourCppProject} project and choose **Reload Project**.
-
-## <a name="how-to-check-uet-implementation"></a>How To Check UET Implementation
-
-<iframe src="https://microsoft.sharepoint.com/teams/ClientExperienceDesign&Delivery/_layouts/15/embed.aspx?UniqueId=ec546edf-dd48-4055-b333-c1b61b4ef101&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="how to check implementation.mp4"></iframe>
 
 ## <a name="logging"></a>Logging
 
