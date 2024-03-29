@@ -15,7 +15,8 @@ Once you have registered an application you need to get user consent for you to 
 > [!TIP]
 > For troubleshooting help, see the [Common OAuth errors](handle-service-errors-exceptions.md#common-oauth-errors) guide.
 
-Each user must be prompted and provide consent through a web browser control at least once for your application to manage their Microsoft Advertising accounts. This is a standard OAuth 2.0 flow and is defined in detail in the [Authorization Code Grant section of the OAuth 2.0 spec](https://tools.ietf.org/html/rfc6749#section-4.1). 
+> [!IMPORTANT]
+> Each user must be prompted and provide consent through a web browser control at least once for your application to manage their Microsoft Advertising accounts. This is a standard OAuth 2.0 flow and is defined in detail in the [Authorization Code Grant section of the OAuth 2.0 spec](https://tools.ietf.org/html/rfc6749#section-4.1). 
 
 The authorization code flow begins with the client directing the user to the `/authorize` endpoint. In this request, the client indicates the permissions it needs to acquire from the user:
 
