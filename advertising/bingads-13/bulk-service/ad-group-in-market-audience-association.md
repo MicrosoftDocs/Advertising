@@ -25,9 +25,9 @@ You can download all *Ad Group In Market Audience Association* records in the ac
 The following Bulk CSV example would add a new Ad Group In Market Audience Association if a valid [Parent Id](#parentid) value is provided. 
 
 ```csv
-Type,Status,Id,Parent Id,Campaign,Ad Group,Client Id,Modified Time,Bid Adjustment,Name,Audience Id,Audience
+Type,Status,Id,Parent Id,Ad Group,Client Id,Modified Time,Bid Adjustment,Name,Audience Id,Audience
 Format Version,,,,,,,,,6.0,,
-Ad Group In Market Audience Association,Paused,,-1111,,,ClientIdGoesHere,,10,,InMarketAudienceIdHere,My In Market Audience
+Ad Group In Market Audience Association,Paused,,-1111,,ClientIdGoesHere,,10,,InMarketAudienceIdHere,My In Market Audience
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkAdGroupInMarketAudienceAssociation* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
@@ -63,8 +63,6 @@ var bulkAdGroupInMarketAudienceAssociation = new BulkAdGroupInMarketAudienceAsso
         // 'Status' column header in the Bulk file
         Status = AdGroupCriterionStatus.Paused
     },
-    // 'Campaign' column header in the Bulk file
-    CampaignName = null,
     // 'Client Id' column header in the Bulk file
     ClientId = "ClientIdGoesHere",
     // 'Audience' column header in the Bulk file
@@ -91,7 +89,6 @@ For an *Ad Group In Market Audience Association* record, the following attribute
 - [Audience](#audience)
 - [Audience Id](#audienceid)
 - [Bid Adjustment](#bidadjustment)
-- [Campaign](#campaign)
 - [Client Id](#clientid)
 - [Id](#id)
 - [Modified Time](#modifiedtime)
@@ -138,13 +135,6 @@ Supported values are negative ninety (-90.00) through positive nine hundred (900
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
-**Delete:** Read-only  
-
-## <a name="campaign"></a>Campaign
-The name of the campaign that contains the ad group.
-
-**Add:** Read-only  
-**Update:** Read-only  
 **Delete:** Read-only  
 
 ## <a name="clientid"></a>Client Id
