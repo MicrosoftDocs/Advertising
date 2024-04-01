@@ -43,9 +43,6 @@ You’ll need to have a UET tagID associated with your app. To create a new UET 
 
 To create an instance of Windows App UET SDK, you’ll need to call the constructor *uetSdk = new UETSdk(number tagId);* where tagID is your UET tagID. Once an instance of UET is created, the SDK will track launches of your app automatically. See the [UET dashboard](#uet-dashboard) section for more information about how you can track these launches.
 
-> [!NOTE]
-> Windows App UET SDK only supports tracking events in Universal Windows Platform apps installed from the Microsoft Store through an ad.
-
 Once your tag sends data about user actions in your application to Microsoft Advertising, the Tracking status for your tag will be “Tag active”.
 
 > [!NOTE]
@@ -57,9 +54,19 @@ If your Tracking status is “Tag inactive”, Microsoft Advertising hasn't rece
 
 ![Tracking status: tag inactive](media/windows_uet_sdk_tag_inactive.png "Tracking status: tag inactive")
 
+You can skip directly to the *Recommended and Custom Goals via the trackGoal API* if you are only trying to track the following actions: 
+- Application activation (first open after download) 
+- Application launches 
+- In-app purchases. 
+- In-app subscriptions. 
+
+If you need to track any other custom events in your application, you need to proceed to the following section, *Creating Conversion Goals*.  
+
 ### <a name="creating-conversion-goals"></a>Creating Conversion Goals
 
-To track additional user actions within your application (outside of launches), you'll need to create custom conversion goals.  
+There are two automatically tracked events with the UET tag and two recommended events which Microsoft has already set up for all users. To see more about the recommended events, view the next section.
+
+For any other custom events which you want to track, you’ll need to create custom conversion goals.
 
 Conversion tracking measures the return on investment of your campaign by tracking the actions people take on your application after they click on your ad. When the action matches your conversion goal, it is counted as a conversion. [Learn more about conversion goals and custom events](./universal-event-tracking.md#conversiongoals).
 
@@ -98,9 +105,17 @@ If your Tracking status is “No recent conversions”, your UET tag hasn’t re
 > [!NOTE]
 > Similar to the UET tag tracking status, you should give your conversion goals a few days to start recording conversions before you reach out to the support staff to confirm your conversion goal is correctly implemented.  
 
-### <a name="custom-goals"></a>Custom Goals via the trackGoal API
+### <a name="custom-goals"></a>Recommended and Custom Goals via the trackGoal API
 
-The Windows App UET SDK provides the trackGoal API for tracking custom events and goals. You can pair this custom event tracking with conversion goals to measure the ROI (return on investment) of your advertising campaign.
+The Windows App UET SDK provides the trackGoal API for tracking recommended and custom events and goals. You can pair this custom event tracking with conversion goals to measure the ROI (return on investment) of your advertising campaign.
+
+#### Recommended Events
+
+Recommended Events are events which many advertisers care about, and which can be tracked without creating an additional conversion goal in the Microsoft Advertising UI. To track a custom event, you need to implement the trackGoal API in your application using the following parameters. 
+
+In-App purchase Recommended Event:  
+
+In-App subscription Recommended Event: 
 
 #### Optional Parameter
 
@@ -194,7 +209,28 @@ const uet = new UETPWASDK ({
 });
 ```
 
-**In order to track goals make use of TrackGoal API of created SDK object.**
+**In order to track recommended events, make use of TrackGoal API of created SDK object.**
+
+```C#
+public sealed partial class MainPage : Page  
+    {  
+        private void Button_Click(object sender, RoutedEventArgs e)  
+        {  
+            //Recommended event purchase 
+            App.uetSdk.TrackGoal("inapp_purchase", "Buy Coins", "Other", 5, "USD");  
+        }
+    }
+```
+
+```cpp
+uetSdk->TrackGoal(L"inapp_purchase", L"Buy Coins", L"Other", 5, L"USD");
+```
+
+```javascript
+uet.trackGoal("inapp_purchase", "Product XYZ", "ecommerce", 100, "USD");
+```
+
+**In order to track custom goals, make use of TrackGoal API of created SDK object.**
 
 ```C#
 public sealed partial class MainPage : Page 
