@@ -54,17 +54,18 @@ If your Tracking status is “Tag inactive”, Microsoft Advertising hasn't rece
 
 ![Tracking status: tag inactive](media/windows_uet_sdk_tag_inactive.png "Tracking status: tag inactive")
 
-You can skip directly to the *Recommended and Custom Goals via the trackGoal API* if you are only trying to track the following actions: 
-- Application activation (first open after download) 
-- Application launches 
-- In-app purchases. 
-- In-app subscriptions. 
+You can skip directly to the [Recommended and Custom Goals via the trackGoal API](#custom-goals) if you are only trying to track the following actions:
+
+- Application activation (first open after download)
+- Application launches
+- In-app purchases.
+- In-app subscriptions.
 
 If you need to track any other custom events in your application, you need to proceed to the following section, *Creating Conversion Goals*.  
 
 ### <a name="creating-conversion-goals"></a>Creating Conversion Goals
 
-There are two automatically tracked events with the UET tag and two recommended events which Microsoft has already set up for all users. To see more about the recommended events, view the next section.
+There are two automatically tracked events (activations and launches) with the UET tag and two recommended events (purchases and subscriptions) which Microsoft has already set up for all users. To see more about the recommended events, view the next section.
 
 For any other custom events which you want to track, you’ll need to create custom conversion goals.
 
@@ -111,11 +112,29 @@ The Windows App UET SDK provides the trackGoal API for tracking recommended an
 
 #### Recommended Events
 
-Recommended Events are events which many advertisers care about, and which can be tracked without creating an additional conversion goal in the Microsoft Advertising UI. To track a custom event, you need to implement the trackGoal API in your application using the following parameters. 
+Recommended Events are events which many advertisers care about, and which can be tracked without creating an additional conversion goal in the Microsoft Advertising UI. To track a custom event, you need to implement the trackGoal API in your application using the following parameters.  
 
-In-App purchase Recommended Event:  
+The action parameter is predefined for in-app purchases (*inapp_purchase*) and subscriptions (*inapp_subscribe*). You can use the other parameters to track these events.
 
-In-App subscription Recommended Event: 
+**In-App purchase and subscription recommended events**:
+
+| Parameter | Value | Required? | Description |
+| --- | -------------------------------- | ------- | ------- |
+| action | *inapp_purchase* or *inapp_subscribe* | Yes | This action value must be used to enable in-app purchase metrics in reporting (and optimization once it becomes available). |
+| label  | No recommendation | No | The advertiser can use this to differentiate between different purchase events. E.g., If the user can buy a single coin or a bag of coins in a game, they can use the label and category parameters to differentiate between these two different types of purchases. |
+| category  | No recommendation | No | See above. |
+| revenue  | Advertisers should fill this in with the expected revenue. | Yes | Passing the revenue value will enable in-app ROAS based metrics in reporting (and ROAS optimization once it becomes available).  |
+| currencyCode  | No recommendation. The advertiser needs to fill this out if they fill in revenue. | Yes | E.g., "USD" |
+
+**In-App subscription Recommended Event**:
+
+| Parameter | Value | Required? | Description |
+| --- | ----------- | ------- | ------- |
+| action | *inapp_subscribe* | Yes | This action value must be used to enable in-app purchase metrics in reporting (and optimization once it becomes available). |
+| label  | No recommendation | No | The advertiser can use this to differentiate between different purchase events. E.g., If the user can buy a single coin or a bag of coins in a game, they can use the label and category parameters to differentiate between these two different types of purchases. |
+| category  | No recommendation | No | See above. |
+| revenue  | Advertisers should fill this in with the expected revenue. | Yes | Passing the revenue value will enable in-app ROAS based metrics in reporting (and ROAS optimization once it becomes available).  |
+| currencyCode  | No recommendation. The advertiser needs to fill this out if they fill in revenue. | Yes | E.g., "USD" |
 
 #### Optional Parameter
 
@@ -247,7 +266,7 @@ uetSdk->TrackGoal(L"click", L"Buy Coins", L"Other", 5, L"USD");
 ```
 
 ```javascript
-uet.trackGoal("purchase", "Product XYZ", "ecommerce", 100, "USD");
+uet.trackGoal("click", "Buy coins", "other", 100, "USD");
 ```
 
 ### <a name="cpluspluswinrt"></a>Consuming UET SDK from C++/WinRT app
