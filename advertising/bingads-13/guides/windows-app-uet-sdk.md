@@ -126,16 +126,6 @@ The action parameter is predefined for in-app purchases (*inapp_purchase*) and s
 | revenue  | Advertisers should fill this in with the expected revenue. | Yes | Passing the revenue value will enable in-app ROAS based metrics in reporting (and ROAS optimization once it becomes available).  |
 | currencyCode  | No recommendation. The advertiser needs to fill this out if they fill in revenue. | Yes | E.g., "USD" |
 
-**In-App subscription Recommended Event**:
-
-| Parameter | Value | Required? | Description |
-| --- | ----------- | ------- | ------- |
-| action | *inapp_subscribe* | Yes | This action value must be used to enable in-app purchase metrics in reporting (and optimization once it becomes available). |
-| label  | No recommendation | No | The advertiser can use this to differentiate between different purchase events. E.g., If the user can buy a single coin or a bag of coins in a game, they can use the label and category parameters to differentiate between these two different types of purchases. |
-| category  | No recommendation | No | See above. |
-| revenue  | Advertisers should fill this in with the expected revenue. | Yes | Passing the revenue value will enable in-app ROAS based metrics in reporting (and ROAS optimization once it becomes available).  |
-| currencyCode  | No recommendation. The advertiser needs to fill this out if they fill in revenue. | Yes | E.g., "USD" |
-
 #### Optional Parameter
 
 These parameters help to capture richer user interaction data. These events are used in creating remarketing and dynamic remarketing lists and defining conversion goals. Here are some of the pages where these events could be applicable:  
