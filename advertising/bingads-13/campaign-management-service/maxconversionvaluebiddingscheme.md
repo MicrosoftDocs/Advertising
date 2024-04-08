@@ -10,7 +10,7 @@ description: Defines an object that represents the maximum conversion value bid 
 # MaxConversionValueBiddingScheme Data Object - Campaign Management
 Defines an object that represents the maximum conversion value bid strategy type. 
 
-[Smart shopping campaigns](../guides/smart-shopping-campaigns.md) use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.  
+Search campaigns, Shopping campaigns, [Smart shopping campaigns](../guides/smart-shopping-campaigns.md), and [Performance Max campaigns](../guides/performance-max.md) use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.  
 
 ## Syntax
 ```xml
@@ -31,7 +31,7 @@ The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="targetroas"></a>TargetRoas|The target return on ad spend.<br/><br/>*Note:* TargetRoas is used by Smart Shopping and Performance Max campaigns.|**double**|
+|<a name="targetroas"></a>TargetRoas|The target return on ad spend.<br/><br/>*Note:* TargetRoas is used by Search, Shopping, Smart Shopping and Performance Max campaigns.|**double**|
 
 The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 
