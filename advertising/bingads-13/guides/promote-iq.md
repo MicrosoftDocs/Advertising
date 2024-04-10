@@ -39,7 +39,7 @@ POST https://retailer-specific-url/conversion
 
 b) PromoteIQ web portal:
 
-- URL: https://retailer.promoteiq.com/
+- URL: https://retailer-name.promoteiq.com/
 
 Access: Those requiring access will receive email notifications when an admin user adds them in the system
 
@@ -582,7 +582,7 @@ PromoteIQ offers the Product feed API with its swagger documentation.
 If you opt not to use the API, PromoteIQ also offers a SFTP server that can be used to deliver the feed files on a regular cadence. To send product feed files via our SFTP server, key-based authentication needs to be set up. The steps to do this are as follows:
 
 1. Client creates an SSH key pair and sends us the public key, as well as a list of any IP addresses that will connect to the SFTP server
-2. PromoteIQ configures the SFTP server with the public key, whitelists the IP addresses, and provide a drop off location
+2. PromoteIQ configures the SFTP server with the public key, allowlists the IP addresses, and provide a drop off location
 3. Client uses the private key to authenticate when uploading to the server
 
 #### Bash example
