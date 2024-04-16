@@ -74,6 +74,18 @@ If the campaign is also associated with a [Call Extensions](#callextensions), th
 
 ![Location Ad Extension](media/overview-locationadextension.png "Location Ad Extension")
 
+
+### <a name="logoadextensions"></a>Logo Ad Extensions
+With Logo Ad Extensions, you can promote your brand and stand out from the competition by displaying eye-catching logos in your ads. Logo extensions help you build brand recognition to drive more clicks and conversions on your website.
+
+You can associate your logo extensions at the account, campaign, or ad group levels, but only one extension is allowed per level. Please note we'll prioritize logo extensions during ad delivery over any automated business logo extensions you have set up.
+
+**Conversational Bing layout**
+![Logo Ad Extension Conversational](media/logo-ad-extension-conversational.png "Logo Ad Extension Conversational")
+
+**Bing search engine results page layout**
+![Logo Ad Extension Search Results](media/logo-ad-extension-search-results.png "Logo Ad Extension Search Results")
+
 ### <a name="priceextensions"></a>Price Extensions
 With Price Extensions, prices for your products or services are shown to potential customers. Price Extensions only show on ads listed at the top of the results page, helping to increase your clicks. Keep in mind that though Price Extensions are free to add to your ad, they may not always show for every query. 
 

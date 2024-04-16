@@ -51,6 +51,7 @@ The entity (account, campaign, or ad group) to ad extension association limit va
 |[Flyer Ad Extension](#flyeradextension)|20|
 |[Image Ad Extension](#imageadextension)|25|
 |[Location Ad Extension](#locationadextension)|Up to the total number of location ad extensions in your account|
+|[Logo Ad Extension](#logoadextension)|Up to the total number of location ad extensions in your account|
 |[Price Ad Extension](#priceadextension)|20|
 |[Promotion Ad Extension](#promotionadextension)|20|
 |[Review Ad Extension](#reviewadextension)|20|
@@ -133,6 +134,9 @@ The following table defines limits for location ad extension properties.
 |------------|---------|
 |Company Name|The string can contain a maximum of 80 characters.|
 |Phone Number|The string can contain a maximum of 35 characters.|
+
+### <a name="logoadextension"></a>Logo Ad Extensions
+You can manage location ad extensions using the Bulk service or Campaign Management service.
 
 ### <a name="priceadextension"></a>Price Ad Extensions
 You can manage price ad extensions using the Bulk service ([Price Ad Extension Record](../bulk-service/price-ad-extension.md)) or Campaign Management service ([PriceAdExtension](../campaign-management-service/priceadextension.md)).
