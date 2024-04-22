@@ -29,7 +29,7 @@ The [LocationCriterion](locationcriterion.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="locationid"></a>LocationId|The Microsoft Advertising identifier of the location that you want to target.<br/><br/>You can get keyword ideas and traffic estimates for city, country/region, county, metro area (Nielsen DMA&reg; in the United States), and state locations. Postal code location identifiers are not supported for keyword ideas and traffic estimate requests.<br/><br/>Currently this feature is available in the United States, United Kingdom, Canada, Australia, France, and Germany. To get a list of geographical location identifiers use the Campaign Management service i.e., the [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md) service operation.|**long**|
+|<a name="locationid"></a>LocationId|The Microsoft Advertising identifier of the location that you want to target.<br/><br/>You can get keyword ideas and traffic estimates for city, country/region, county, metro area (Microsoft Market Area in the United States), and state locations. Postal code location identifiers are not supported for keyword ideas and traffic estimate requests.<br/><br/>Currently this feature is available in the United States, United Kingdom, Canada, Australia, France, and Germany. To get a list of geographical location identifiers use the Campaign Management service i.e., the [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md) service operation.|**long**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

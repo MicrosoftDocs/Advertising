@@ -14,7 +14,7 @@ Defines an ad group location criterion that can be uploaded and downloaded in a 
 
 With location criterions, you can choose to show ads to potential customers in, searching for, or viewing pages about:
 *  All available countries/regions
-*  Selected cities, zip codes, metro areas (Nielsen DMA&reg; in the United States), counties, states/provinces, and countries/regions
+*  Selected cities, zip codes, metro areas (Microsoft Market Area in the United States), counties, states/provinces, and countries/regions
 
 Each location criterion defines a location code for the accompanying criterion bid adjustment.
 
