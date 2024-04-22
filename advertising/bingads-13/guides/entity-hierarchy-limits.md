@@ -51,7 +51,7 @@ The entity (account, campaign, or ad group) to ad extension association limit va
 |[Flyer Ad Extension](#flyeradextension)|20|
 |[Image Ad Extension](#imageadextension)|25|
 |[Location Ad Extension](#locationadextension)|Up to the total number of location ad extensions in your account|
-|[Logo Ad Extension](#logoadextension)|Up to the total number of location ad extensions in your account|
+|[Logo Ad Extension](#logoadextension)|1|
 |[Price Ad Extension](#priceadextension)|20|
 |[Promotion Ad Extension](#promotionadextension)|20|
 |[Review Ad Extension](#reviewadextension)|20|
