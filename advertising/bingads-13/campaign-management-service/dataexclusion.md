@@ -36,10 +36,10 @@ The [DataExclusion](dataexclusion.md) object has the following elements: [Campai
 |<a name="campaigntypefilter"></a>CampaignTypeFilter|Which campaign types to include for the data exclusion.|[CampaignType](campaigntype.md)|
 |<a name="description"></a>Description|A description for the data exclusion.|**string**|
 |<a name="devicetypefilter"></a>DeviceTypeFilter|Which devices types to include for the data exclusion.|[DeviceType](devicetype.md)|
-|<a name="enddate"></a>EndDate|The end date.|**dateTime**|
+|<a name="enddate"></a>EndDate|The end date.<br/><br/>**Important:** The value must be in Coordinated Universal Time (UTC). This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
 |<a name="id"></a>Id|The data exclusion ID.|**long**|
 |<a name="name"></a>Name|The data exclusion name.|**string**|
-|<a name="startdate"></a>StartDate|The start date.|**dateTime**|
+|<a name="startdate"></a>StartDate|The start date.<br/><br/>**Important:** The value must be in Coordinated Universal Time (UTC). This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
