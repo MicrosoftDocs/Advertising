@@ -1012,6 +1012,7 @@
       displayName: BulkCustomerListItem
     - name: Data Exclusion
       href: ../bulk-service/data-exclusion.md
+      displayName: BulkDataExclusion
     - name: Disclaimer
       href: ../bulk-service/disclaimer-ad-extension.md
       displayName: BulkDisclaimer
@@ -1121,6 +1122,7 @@
       displayName: BulkReviewAdExtension
     - name: Seasonality Adjustment
       href: ../bulk-service/seasonality-adjustment.md
+      displayName: BulkSeasonalityAdjustment
     - name: Similar Remarketing List
       href: ../bulk-service/similar-remarketing-list.md
       displayName: BulkSimilarRemarketingList
