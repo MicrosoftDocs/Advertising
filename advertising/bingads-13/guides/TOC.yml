@@ -1010,6 +1010,8 @@
     - name: Customer List Item
       href: ../bulk-service/customer-list-item.md
       displayName: BulkCustomerListItem
+    - name: Data Exclusion
+      href: ../bulk-service/data-exclusion.md
     - name: Disclaimer
       href: ../bulk-service/disclaimer-ad-extension.md
       displayName: BulkDisclaimer
@@ -1117,6 +1119,8 @@
     - name: Review Ad Extension
       href: ../bulk-service/review-ad-extension.md
       displayName: BulkReviewAdExtension
+    - name: Seasonality Adjustment
+      href: ../bulk-service/seasonality-adjustment.md
     - name: Similar Remarketing List
       href: ../bulk-service/similar-remarketing-list.md
       displayName: BulkSimilarRemarketingList
