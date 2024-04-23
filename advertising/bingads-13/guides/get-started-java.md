@@ -77,6 +77,12 @@ OAuthWebAuthCodeGrant oAuthWebAuthCodeGrant = new OAuthWebAuthCodeGrant(
 );
 ```
 
+Log the request and response headers in the console. *TrackingId* is included in the response headers.
+
+```java
+MessageHandler.getInstance().setTraceOn(true);
+```
+
 ## See Also
 [Bing Ads API Client Libraries](client-libraries.md)    
 [Bing Ads API Code Examples](code-examples.md)    
