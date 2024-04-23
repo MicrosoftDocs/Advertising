@@ -173,7 +173,7 @@ Record Type  |Supported Campaign Types
 [Custom Audience](custom-audience.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom audience using the Bing Ads API.|All  
 [Customer List](customer-list.md)|All  
 [Customer List Item](customer-list-item.md)<br/><br/>Bulk download of customer list items is not supported.|All  
-[Data Exclusion](data-exclusion.md)|Search<br/>Shopping  
+[Data Exclusion](data-exclusion.md)|Performance Max<br/>Search<br/>Shopping  
 [Disclaimer](disclaimer-ad-extension.md)|Search  
 [Dynamic Search Ad](dynamic-search-ad.md)|Search  
 [Dynamic Search Ad Label](dynamic-search-ad-label.md)|Search  
@@ -207,7 +207,7 @@ Record Type  |Supported Campaign Types
 [Responsive Search Ad](responsive-search-ad.md)|Search  
 [Responsive Search Ad Label](responsive-search-ad-label.md)|Search  
 [Review Ad Extension](review-ad-extension.md)|Performance Max<br/>Search  
-[Seasonality Adjustment](seasonality-adjustment.md)|All  
+[Seasonality Adjustment](seasonality-adjustment.md)|Performance Max<br/>Search<br/>Shopping  
 [Shared Negative Keyword](shared-negative-keyword.md)|All  
 [Similar Remarketing List](similar-remarketing-list.md)|All  
 [Sitelink Ad Extension](sitelink-ad-extension.md)|Performance Max<br/>Search  
