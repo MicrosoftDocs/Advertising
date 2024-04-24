@@ -95,8 +95,8 @@ Differing from the MaxClicks, MaxConversions, and TargetCpa bid strategies, with
 ### <a name="manualcpc"></a>ManualCpc
 With the ManualCpc (manual cost per click) bid strategy, you set your ad group and keyword bids, and Microsoft Advertising uses these bids every time.  
 
-> [!NOTE] 
-> As of April 2021, the manual CPC bid strategy can only be used with audience and lodging campaigns. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
+> [!NOTE]
+> As of May 2024, you can no longer use the manual CPC bid strategy for audience native campaigns. You can only use manual CPC for audience display and video campaigns, and for lodging campaigns. We will automatically convert any existing manual CPC audience native campaigns to enhanced CPC. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
 
 ### <a name="manualcpm"></a>ManualCpm
 With the ManualCpm (manual cost per thousand impressions) bid strategy, you set the actual cost you want to pay per 1,000 viewed impressions. A viewed impression is counted when more than 50% of the ad pixels are in the user's view and the ad is viewed for at least second.
