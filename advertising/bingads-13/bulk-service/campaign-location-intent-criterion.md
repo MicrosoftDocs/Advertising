@@ -153,5 +153,5 @@ The following values are supported. The default value is *PeopleInOrSearchingFor
   - Use *PeopleIn* if you want to show ads to people in your targeted location.  
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field, then it must be set to a valid value i.e., *PeopleInOrSearchingForOrViewingPages*, *PeopleSearchingForOrViewingPages*, or *PeopleIn*.  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field, then it must be set to a valid value i.e., *PeopleInOrSearchingForOrViewingPages* or *PeopleIn*.  
 **Delete:** Read-only  
