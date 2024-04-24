@@ -10,7 +10,10 @@ description: Defines the possible values for a brief, punchy reason for customer
 # CallToAction Value Set - Campaign Management
 Defines the possible values for a brief, punchy reason for customers to click your ad right now.
 
-Each of the values correspond to a friendly and readable call to action in a responsive ad. 
+Each of the values correspond to a friendly and readable call to action in a responsive ad.
+
+> [!NOTE]
+> The object management through Campaign Management API for automated call to action is not supported. Please refer to the [Bulk API](../bulk-service/asset-group.md#call-to-action) for any changes in bulk to your campaigns.
 
 ## Syntax
 ```xml
