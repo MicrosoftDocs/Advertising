@@ -23,11 +23,9 @@ You can add, restate (update), or restract (delete) offline conversions.
 To set up offline conversion tracking, create an [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md). If you set the *CountType* of the [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) to *All*, then all offline conversions for the same *MicrosoftClickId* with different conversion times will be added cumulatively. If you set the *CountType* of the [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) to *Unique*, then only the first conversion that happens after an ad click will be counted. Duplicate offline conversions with the same *MicrosoftClickId* and *ConversionTime* will be ignored. In other words only the first offline conversion for a given *MicrosoftClickId* and *ConversionTime* will be counted.
 
 > [!IMPORTANT]
-> After the [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) is set up, wait two hours and then send Microsoft Advertising the [OfflineConversion](../campaign-management-service/offlineconversion.md) data via the [ApplyOfflineConversions](../campaign-management-service/applyofflineconversions.md) operation. It can take up to five hours to view conversion data in the Microsoft Advertising reporting. 
+> After the [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) is set up, wait two hours and then send Microsoft Advertising the [OfflineConversion](../campaign-management-service/offlineconversion.md) data via the [ApplyOfflineConversions](../campaign-management-service/applyofflineconversions.md) operation. It can take up to six hours to view conversion data in the Microsoft Advertising reporting. 
 > 
 > You must create [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) via the Campaign Management API to set the *IsExternallyAttributed* property.
-> 
-> As a best practice after an ad click you should wait an hour before uploading offline conversions. 
 
 > [!NOTE]
 > Although you can upload offline conversions in sandbox for functional testing, the offline conversion data will not be attributed in sandbox performance reporting data.  
