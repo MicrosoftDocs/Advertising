@@ -126,8 +126,6 @@ Set the location intent criterion to *PeopleInOrSearchingForOrViewingPages* if y
 
 Set the location intent criterion to *PeopleIn* if you only want to show ads to people in your targeted location. For example if the [Location Criterion](#locationcriterion) is set to London and the location intent criterion is *PeopleIn*, then someone physically located in Florida searching for London hotels will not see the ad.
 
-Set the location intent criterion to *PeopleSearchingForOrViewingPages* if you want to show ads to people searching for or viewing pages about your targeted location. For example if the [Location Criterion](#locationcriterion) includes London and the location intent criterion is *PeopleSearchingForOrViewingPages*, then someone physically located in Florida searching for London hotels will see the ad. Someone located in London who searches for your keywords, but does not search for or about the targeted location will not see the ads.
-
 Each location intent criterion defines the intent option for all location and radius criteria of the campaign or ad group. There isn't any accompanying criterion bid adjustment. 
 
 The maximum number of location intent criteria that you can set per campaign or ad group is one.
