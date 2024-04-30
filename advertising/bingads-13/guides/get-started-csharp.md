@@ -28,7 +28,7 @@ Install the Bing Ads .NET SDK through [NuGet](https://www.nuget.org/packages/Mic
 ## <a name="walkthrough"></a>Walkthroughs
 Once you have the Bing Ads .NET SDK installed, you can either browse the [Bing Ads API Code Examples](code-examples.md) in C# or follow one of the application walkthroughs for a [Web](walkthrough-web-application-csharp.md) or [Desktop](walkthrough-desktop-application-csharp.md) application.
 
-## <a name="httpclient"></a>Customizing HTTP client
+## <a name="customizing-http-client"></a>Customizing HTTP client
 
 You may want to customize the HTTP client used by Bing Ads .NET SDK to change some standard parameters such as HTTP timeout, proxy configuration, or other settings.
 
@@ -47,7 +47,7 @@ class MyHttpClientProvider : HttpClientProvider
 GlobalSettings.HttpClientProvider = new MyHttpClientProvider(); 
 ```
 
-## <a name="logging"></a>Logging service calls
+## <a name="logging-service-calls"></a>Logging service calls
 
 Starting from Bing Ads .NET SDK 13.0.20, to enable logging request and response messages, you can set the `BINGADS_ConsoleLoggerMinLevel` environment variable to `Verbose`:
 
