@@ -83,7 +83,7 @@ Log the request and response headers in the console. *TrackingId* is included in
 MessageHandler.getInstance().setTraceOn(true);
 ```
 
-## <a name="httpclient"></a>Customizing HTTP client
+## <a name="customizing-http-client"></a>Customizing HTTP client
 
 For most applications, we recommend using the default HTTP client implementation in the Bing Ads Java SDK, which relies on the Apache CXF JAX-RS client. You may want to customize the HTTP client if you use a different JAX-RS implementation or to change some standard parameters such as HTTP timeout, proxy configuration, or other settings.
 
@@ -105,7 +105,7 @@ GlobalSettings.setHttpClientProvider(new HttpClientProvider()
 }); 
 ```
 
-## <a name="logging"></a>Logging service calls
+## <a name="logging-service-calls"></a>Logging service calls
 
 To enable logging for request and response messages, you can set the `com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump` property to `true`:
 
