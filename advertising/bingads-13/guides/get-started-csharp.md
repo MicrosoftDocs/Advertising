@@ -28,6 +28,45 @@ Install the Bing Ads .NET SDK through [NuGet](https://www.nuget.org/packages/Mic
 ## <a name="walkthrough"></a>Walkthroughs
 Once you have the Bing Ads .NET SDK installed, you can either browse the [Bing Ads API Code Examples](code-examples.md) in C# or follow one of the application walkthroughs for a [Web](walkthrough-web-application-csharp.md) or [Desktop](walkthrough-desktop-application-csharp.md) application.
 
+## <a name="customizing-http-client"></a>Customizing HTTP client
+
+You may want to customize the HTTP client used by Bing Ads .NET SDK to change some standard parameters such as HTTP timeout, proxy configuration, or other settings.
+
+To do so, you can create a custom class inherited from `HttpClientProvider` and set `GlobalSettings.HttpClientProvider` to an instance of that class before making service calls. For example:
+
+```csharp
+class MyHttpClientProvider : HttpClientProvider 
+{ 
+    protected override void ConfigureHttpClient(HttpClient httpClient, Type serviceType, ApiEnvironment apiEnvironment) 
+    { 
+        // override default read timeout 
+        httpClient.Timeout = TimeSpan.FromMinutes(5); 
+    } 
+} 
+
+GlobalSettings.HttpClientProvider = new MyHttpClientProvider(); 
+```
+
+## <a name="logging-service-calls"></a>Logging service calls
+
+Starting from Bing Ads .NET SDK 13.0.20, to enable logging request and response messages, you can set the `BINGADS_ConsoleLoggerMinLevel` environment variable to `Verbose`:
+
+```csharp
+Environment.SetEnvironmentVariable("BINGADS_ConsoleLoggerMinLevel", "Verbose"); 
+```
+
+You can also enable the same logging using the `BingAdsEventListener` class:
+
+```csharp
+BingAdsEventListener.CreateConsoleLogger(EventLevel.Verbose).KeepActive();
+```
+
+You can also create a new `BingAdsEventListener` instance to provide a custom logger implementation. For example:
+
+```csharp
+new BingAdsEventListener(EventLevel.Verbose, bingAdsEvent => MyLogger.LogVerbose(bingAdsEvent.GetDescription())).KeepActive();
+```
+
 ## See Also
 [Bing Ads API Client Libraries](client-libraries.md)    
 [Bing Ads API Code Examples](code-examples.md)    

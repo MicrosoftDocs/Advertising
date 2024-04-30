@@ -83,6 +83,46 @@ Log the request and response headers in the console. *TrackingId* is included in
 MessageHandler.getInstance().setTraceOn(true);
 ```
 
+## <a name="customizing-http-client"></a>Customizing HTTP client
+
+For most applications, we recommend using the default HTTP client implementation in the Bing Ads Java SDK, which relies on the Apache CXF JAX-RS client. You may want to customize the HTTP client if you use a different JAX-RS implementation or to change some standard parameters such as HTTP timeout, proxy configuration, or other settings.
+
+To do so, you can create a custom `HttpClientProvider` object and pass it to `GlobalSettings.setHttpClientProvider()` before making service calls. For example:
+
+```java
+GlobalSettings.setHttpClientProvider(new HttpClientProvider() 
+{ 
+    @Override 
+    protected ClientBuilder configureClientBuilder(ClientBuilder clientBuilder) { 
+        return clientBuilder 
+            // override default connect timeout 
+            .connectTimeout(90, TimeUnit.SECONDS)
+            // override default read timeout
+            .readTimeout(5, TimeUnit.MINUTES) 
+            // register a feature specific to your JAX-RS implementation, for example, to enable message compression
+            .register(new MyJaxRsFeature());
+    }
+}); 
+```
+
+## <a name="logging-service-calls"></a>Logging service calls
+
+To enable logging for request and response messages, you can set the `com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump` property to `true`:
+
+```java
+System.setProperty("com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump", "true");
+```
+
+By default, Bing Ads Java SDK uses Apache CXF to make service calls, which relies on [Simple Logging Facade for Java](https://slf4j.org/) for writing its logs. To output logged messages to the console, you can add the `slf4j-simple` implementation to your application dependencies. For example:
+
+```xml
+<dependency> 
+    <groupId>org.slf4j</groupId> 
+    <artifactId>slf4j-simple</artifactId> 
+    <version>2.0.12</version> 
+</dependency> 
+```
+
 ## See Also
 [Bing Ads API Client Libraries](client-libraries.md)    
 [Bing Ads API Code Examples](code-examples.md)    
