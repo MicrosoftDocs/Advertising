@@ -13,6 +13,9 @@
     - name: Overview
       href: ./get-started-csharp.md
       displayName: .net c# csharp get started
+    - name: Upgrade to Bing Ads .NET SDK 13.0.20
+      href: ./upgrade-csharp-sdk.md
+      displayName: .net c# csharp upgrade
     - name: Walkthrough - Bing Ads API Desktop Application in C#
       href: ./walkthrough-desktop-application-csharp.md
       displayName: .net c# csharp get started
@@ -24,6 +27,9 @@
     - name: Overview
       href: ./get-started-java.md
       displayName: java get started
+    - name: Upgrade to Bing Ads Java SDK 13.0.20
+      href: ./upgrade-java-sdk.md
+      displayName: java upgrade
     - name: Walkthrough - Bing Ads API Desktop Application in Java
       href: ./walkthrough-desktop-application-java.md
       displayName: java get started
