@@ -10,6 +10,9 @@ description: Defines the possible intent options for location criterion, for exa
 # IntentOption Value Set - Campaign Management
 Defines the possible intent options for location criterion, for example to target people in, searching for, or viewing pages about your targeted location.
 
+> [!NOTE]
+> *PeopleSearchingForOrViewingPages* is deprecated as of April 2024. If you try to set *IntentOption* to *PeopleSearchingForOrViewingPages*, it will be set to *PeopleInOrSearchingForOrViewingPages* instead. We will automatically convert existing campaigns with this setting to *PeopleInOrSearchingForOrViewingPages*.
+
 ## Syntax
 ```xml
 <xs:simpleType name="IntentOption" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -34,7 +37,7 @@ The [IntentOption](intentoption.md) value set has the following values: [PeopleI
 |-----------|---------------|
 |<a name="peoplein"></a>PeopleIn|Show ads to people in your targeted location.|
 |<a name="peopleinorsearchingfororviewingpages"></a>PeopleInOrSearchingForOrViewingPages|Show ads to people in, searching for, or viewing pages about your targeted location.|
-|<a name="peoplesearchingfororviewingpages"></a>PeopleSearchingForOrViewingPages|*PeopleSearchingForOrViewingPages* is deprecated. If you try to set *IntentOption* to *PeopleSearchingForOrViewingPages*, it will be set to *PeopleInOrSearchingForOrViewingPages* instead.<br/><br/>Show ads to people searching for or viewing pages about your targeted location.|
+|<a name="peoplesearchingfororviewingpages"></a>PeopleSearchingForOrViewingPages|*PeopleSearchingForOrViewingPages* is **deprecated** as of April 2024. If you try to set *IntentOption* to *PeopleSearchingForOrViewingPages*, it will be set to *PeopleInOrSearchingForOrViewingPages* instead. We will automatically convert existing campaigns with this setting to *PeopleInOrSearchingForOrViewingPages*.<br/><br/>Show ads to people searching for or viewing pages about your targeted location.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
