@@ -2921,6 +2921,17 @@ The Remarketing Targeting Setting value of the ad group is invalid.
 ***
 
 **Numeric Code**
+1275
+
+**Symbolic Error Code**
+CampaignServiceInvalidNetwork
+
+**Description**
+The network is invalid.
+
+***
+
+**Numeric Code**
 1300
 
 **Symbolic Error Code**
