@@ -10,7 +10,10 @@ description: Get your ads in front of the right people.
 Getting your ad in front of the right people; that's what targeting is all about. With targeting, Microsoft Advertising can help you focus a campaign or ad group on potential customers who meet specific criteria, so you can increase the chance that they see your ads. You may target your ads to display to users of a certain age group, display at a certain day and time of the week, or display to users in a particular geographical location.
 
 > [!NOTE] 
-> Microsoft Advertising supports other criterion types e.g. product partition and webpage. This guide covers criteria that you can use to target your ads by age, day and time, device, gender, location, and profile. Where necessary to distinguish from other criterion types the documentation may refer to these entities as *target criteria*.  
+> Microsoft Advertising supports other criterion types e.g. product partition and webpage. This guide covers criteria that you can use to target your ads by age, day and time, device, gender, location, and profile. Where necessary to distinguish from other criterion types the documentation may refer to these entities as *target criteria*.
+>
+> 
+> *PeopleSearchingForOrViewingPages* is deprecated as of April 2024. If you try to set *IntentOption* to *PeopleSearchingForOrViewingPages*, it will be set to *PeopleInOrSearchingForOrViewingPages* instead. We will automatically convert existing campaigns with this setting to *PeopleInOrSearchingForOrViewingPages*.
 
 [!INCLUDE[targeting-demographics](../campaign-management-service/includes/targeting-demographics.md)]
 
