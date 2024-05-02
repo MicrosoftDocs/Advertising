@@ -85,23 +85,24 @@ MessageHandler.getInstance().setTraceOn(true);
 
 ## <a name="customizing-http-client"></a>Customizing HTTP client
 
-For most applications, we recommend using the default HTTP client implementation in the Bing Ads Java SDK, which relies on the Apache CXF JAX-RS client. You may want to customize the HTTP client if you use a different JAX-RS implementation or to change some standard parameters such as HTTP timeout, proxy configuration, or other settings.
+For most applications, we recommend using the default HTTP client implementation in the Bing Ads Java SDK, which relies on the Apache CXF JAX-RS client. You may want to customize the HTTP client to configure some features such as enabling compression if you use a different JAX-RS implementation, to change HTTP timeout, proxy configuration, or other settings.
 
 To do so, you can create a custom `HttpClientProvider` object and pass it to `GlobalSettings.setHttpClientProvider()` before making service calls. For example:
 
 ```java
 GlobalSettings.setHttpClientProvider(new HttpClientProvider() 
 { 
-    @Override 
-    protected ClientBuilder configureClientBuilder(ClientBuilder clientBuilder) { 
-        return clientBuilder 
-            // override default connect timeout 
-            .connectTimeout(90, TimeUnit.SECONDS)
-            // override default read timeout
-            .readTimeout(5, TimeUnit.MINUTES) 
-            // register a feature specific to your JAX-RS implementation, for example, to enable message compression
-            .register(new MyJaxRsFeature());
-    }
+    @Override 
+    protected ClientBuilder configureClientBuilder(ClientBuilder clientBuilder) { 
+        return super.configureClientBuilder(clientBuilder) 
+            // override default connect timeout 
+            .connectTimeout(90, TimeUnit.SECONDS)
+            // override default read timeout
+            .readTimeout(5, TimeUnit.MINUTES) 
+            // enable compression (if using Jersey client)
+            .register(org.glassfish.jersey.message.GZipEncoder.class)
+            .register(org.glassfish.jersey.client.filter.EncodingFilter.class);
+    }
 }); 
 ```
 
@@ -117,9 +118,9 @@ By default, Bing Ads Java SDK uses Apache CXF to make service calls, which relie
 
 ```xml
 <dependency> 
-    <groupId>org.slf4j</groupId> 
-    <artifactId>slf4j-simple</artifactId> 
-    <version>2.0.12</version> 
+    <groupId>org.slf4j</groupId> 
+    <artifactId>slf4j-simple</artifactId> 
+    <version>2.0.12</version> 
 </dependency> 
 ```
 
