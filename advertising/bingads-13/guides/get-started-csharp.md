@@ -37,11 +37,11 @@ To do so, you can create a custom class inherited from `HttpClientProvider` and 
 ```csharp
 class MyHttpClientProvider : HttpClientProvider 
 { 
-    protected override void ConfigureHttpClient(HttpClient httpClient, Type serviceType, ApiEnvironment apiEnvironment) 
-    { 
-        // override default read timeout 
-        httpClient.Timeout = TimeSpan.FromMinutes(5); 
-    } 
+    protected override void ConfigureHttpClient(HttpClient httpClient, Type serviceType, ApiEnvironment apiEnvironment) 
+    { 
+        // override default timeout 
+        httpClient.Timeout = TimeSpan.FromMinutes(5); 
+    } 
 } 
 
 GlobalSettings.HttpClientProvider = new MyHttpClientProvider(); 
