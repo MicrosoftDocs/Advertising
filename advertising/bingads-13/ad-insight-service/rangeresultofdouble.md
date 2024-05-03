@@ -5,10 +5,10 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a RangeResultOfDouble data object.
 ---
 # RangeResultOfdouble Data Object - Ad Insight
-Reserved.
+Defines a RangeResultOfDouble data object.
 
 ## Syntax
 ```xml
@@ -33,8 +33,8 @@ The [RangeResultOfdouble](rangeresultofdouble.md) object has the following eleme
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="high"></a>High|Reserved.|**double**|
-|<a name="low"></a>Low|Reserved.|**double**|
+|<a name="high"></a>High|Indicates the upper bound of range result.|**double**|
+|<a name="low"></a>Low|Indicates the lower bound of range result.|**double**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

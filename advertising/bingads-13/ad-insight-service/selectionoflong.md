@@ -5,10 +5,11 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a data object for the selection segment IDs.
+
 ---
 # SelectionOflong Data Object - Ad Insight
-Reserved.
+Defines a data object for the selection segment IDs.
 
 ## Syntax
 ```xml
@@ -33,8 +34,8 @@ The [SelectionOflong](selectionoflong.md) object has the following elements: [Ex
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="excludes"></a>Excludes|Reserved.|**long** array|
-|<a name="includes"></a>Includes|Reserved.|**long** array|
+|<a name="excludes"></a>Excludes|The traffic matching any value of *Excludes* array is excluded as an estimation.|**long** array|
+|<a name="includes"></a>Includes|The traffic matching any value of *Includes* array is included as an estimation.|**long** array|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

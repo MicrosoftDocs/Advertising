@@ -26,8 +26,8 @@ The [DecimalRoundedResult](decimalroundedresult.md) object has the following ele
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="unit"></a>Unit|The scale unit: Thousand, Million, or Billion.|[ScaleUnit](scaleunit.md)|
-|<a name="value"></a>Value|The rounded value to the nearest scale unit.|**double**|
+|<a name="unit"></a>Unit|The scale unit: *Thousand*, *Million*,*Billion*, *None*. Output only.|[ScaleUnit](scaleunit.md)|
+|<a name="value"></a>Value|The rounded value to the nearest scale unit. Output only.|**double**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

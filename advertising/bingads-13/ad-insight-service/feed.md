@@ -28,9 +28,9 @@ The [Feed](feed.md) object has the following elements: [FeedId](#feedid), [FeedT
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="feedid"></a>FeedId|The identifier of the feed.|**long**|
+|<a name="feedid"></a>FeedId|Respect *FeedId* when CampaignSubType is set to *DynamicFeedBasedAds*.<br/><br/>**Add**: Optional. Defaults to *null*.<br/>**Update**: Optional|**long**|
 |<a name="feedtype"></a>FeedType|The feed type.|**long**|
-|<a name="storeid"></a>StoreId|The identifier of the store.|**long**|
+|<a name="storeid"></a>StoreId|Respect *StoreId* when CampaignSubType is set to *FeedBasedAds*.<br/><br/>**Add**: Optional. Defaults to *null*.<br/>**Update**: Optional|**long**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
