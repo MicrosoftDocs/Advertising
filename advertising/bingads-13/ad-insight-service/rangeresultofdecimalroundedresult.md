@@ -33,8 +33,8 @@ The [RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md) ob
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="high"></a>High|R|[DecimalRoundedResult](decimalroundedresult.md)|
-|<a name="low"></a>Low|Reserved.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="high"></a>High|Indicates the upper bound of range result.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="low"></a>Low|Indicates the lower bound of range result.|[DecimalRoundedResult](decimalroundedresult.md)|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

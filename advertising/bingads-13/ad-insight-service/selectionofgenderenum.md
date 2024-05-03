@@ -5,10 +5,10 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a data object for the selection of gender targeting.
 ---
 # SelectionOfGenderEnum Data Object - Ad Insight
-Reserved.
+Defines a data object for the selection of gender targeting.
 
 ## Syntax
 ```xml
@@ -33,8 +33,8 @@ The [SelectionOfGenderEnum](selectionofgenderenum.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="excludes"></a>Excludes|Reserved.|[GenderEnum](genderenum.md) array|
-|<a name="includes"></a>Includes|Reserved.|[GenderEnum](genderenum.md) array|
+|<a name="excludes"></a>Excludes|The traffic matching any value of *Excludes* array is excluded as an estimation.|[GenderEnum](genderenum.md) array|
+|<a name="includes"></a>Includes|The traffic matching any value of *Includes* array is included as an estimation.|[GenderEnum](genderenum.md) array|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

@@ -28,10 +28,10 @@ The [RadiusTarget](radiustarget.md) object has the following elements: [CenterLa
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="centerlatitude"></a>CenterLatitude|The center latitude point.|**double**|
-|<a name="centerlongitude"></a>CenterLongitude|The center longitude point.|**double**|
-|<a name="radius"></a>Radius|The radius from the center latitude and longitude.|**int**|
-|<a name="radiusunit"></a>RadiusUnit|The unit of measurement of the radius from the center: *Kilometers* or *Miles*.|[RadiusUnit](radiusunit.md)|
+|<a name="centerlatitude"></a>CenterLatitude|Defines the center latitude.|**double**|
+|<a name="centerlongitude"></a>CenterLongitude|DEfines the center longitude.|**double**|
+|<a name="radius"></a>Radius|Indicates the desired amount of radius units. |**int**|
+|<a name="radiusunit"></a>RadiusUnit|Indicates the radius unit. Supports *Kilometers* or *Miles*.|[RadiusUnit](radiusunit.md)|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

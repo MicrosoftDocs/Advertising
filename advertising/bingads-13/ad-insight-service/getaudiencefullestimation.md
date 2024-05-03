@@ -25,20 +25,20 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="age"></a>Age|Reserved.|[SelectionOfAgeEnum](selectionofageenum.md)|
-|<a name="audience"></a>Audience|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="bid"></a>Bid|Reserved.|**decimal**|
-|<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Reserved.|**int**|
-|<a name="campaignsubtype"></a>CampaignSubType|Reserved.|**int**|
-|<a name="company"></a>Company|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="currency"></a>Currency|Reserved.|[Currency](currency.md)|
-|<a name="dailybudget"></a>DailyBudget|Reserved.|**decimal**|
-|<a name="feed"></a>Feed|Reserved.|[Feed](feed.md)|
-|<a name="gender"></a>Gender|Reserved.|[SelectionOfGenderEnum](selectionofgenderenum.md)|
-|<a name="industry"></a>Industry|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="jobfunction"></a>JobFunction|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="location"></a>Location|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="radiustargets"></a>RadiusTargets|Reserved.|[RadiusTarget](radiustarget.md) array|
+|<a name="age"></a>Age|The selection of age targeting. Possible values are: *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, *SixtyFiveAndAbove*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfAgeEnum](selectionofageenum.md)|
+|<a name="audience"></a>Audience|The selection of audience targeting. Supported audience types are: Custom audiences, Combined lists, Customer match lists, Dynamic remarketing lists, In-market audiences, Remarketing lists, and Similar audiences. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
+|<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
+|<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
+|<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
+|<a name="dailybudget"></a>DailyBudget|The daily campaign budget value. If set to null, the suggested budget is used to perform estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|**decimal**|
+|<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
+|<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
+|<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="radiustargets"></a>RadiusTargets|Represents the desired geographical area in terms of miles/kilometers.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[RadiusTarget](radiustarget.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -50,19 +50,19 @@ The *GetAudienceFullEstimationResponse* object defines the [body](#response-body
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="currency"></a>Currency|Reserved.|[Currency](currency.md)|
-|<a name="estaudiencesize"></a>EstAudienceSize|Reserved.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="estclick"></a>EstClick|Reserved.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="estcostperevent"></a>EstCostPerEvent|Reserved.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="estctr"></a>EstCTR|Reserved.|[RangeResultOfdouble](rangeresultofdouble.md)|
-|<a name="estimpression"></a>EstImpression|Reserved.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="estreachaudiencesize"></a>EstReachAudienceSize|Reserved.|[DecimalRoundedResult](decimalroundedresult.md)|
-|<a name="estreachimpression"></a>EstReachImpression|Reserved.|[DecimalRoundedResult](decimalroundedresult.md)|
-|<a name="estspend"></a>EstSpend|Reserved.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="eventslosttobid"></a>EventsLostToBid|Reserved.|**int**|
-|<a name="eventslosttobudget"></a>EventsLostToBudget|Reserved.|**int**|
-|<a name="suggestedbid"></a>SuggestedBid|Reserved.|**decimal**|
-|<a name="suggestedbudget"></a>SuggestedBudget|Reserved.|**decimal**|
+|<a name="currency"></a>Currency|Currency of the suggested bid/budget. Output only.|[Currency](currency.md)|
+|<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estclick"></a>EstClick|Monthly estimated user count with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estctr"></a>EstCTR|Estimated click-through rate (CTR) with range result. Output only.|[RangeResultOfdouble](rangeresultofdouble.md)|
+|<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estreachaudiencesize"></a>EstReachAudienceSize|Monthly estimated user count with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="estreachimpression"></a>EstReachImpression|Monthly estimated impression with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="estspend"></a>EstSpend|Monthly estimated spend with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="eventslosttobid"></a>EventsLostToBid|Indicates event lost count due to insufficient input bid. The event lost type varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: Click<br/>ManualCPM: Impression|**int**|
+|<a name="eventslosttobudget"></a>EventsLostToBudget|Indicates the event lost count due to insufficient input budget. The event lost type varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: Click<br/>ManualCPM: Impression|**int**|
+|<a name="suggestedbid"></a>SuggestedBid|Suggested bid value under the current targeting. Output only.|**decimal**|
+|<a name="suggestedbudget"></a>SuggestedBudget|Suggested daily budget value under the current targeting and bid. Output only.|**decimal**|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
