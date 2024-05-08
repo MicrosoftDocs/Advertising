@@ -35,7 +35,7 @@ client_id=your_client_id
 &state=12345
 ```
 
-1. Click the link below to execute this example request for user consent.
+1. Copy the URL below and paste it into your browser to execute this example request for user consent.
 
 > [!NOTE]
 > Replace *your_client_id* in the URL below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
