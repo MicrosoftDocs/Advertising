@@ -9,6 +9,13 @@ description: Setup Smart Shopping Campaigns.
 # Smart Shopping Campaigns
 Automatically optimize your shopping campaigns to target customers who are more likely to convert at higher revenue values with smart shopping campaigns. By using a combination of traditional shopping campaigns, automated bidding and targeting, smart shopping helps you get the right ad to the right user, at the right time – at scale! 
 
+> [!NOTE]
+> Starting in August, Smart shopping campaigns will deprecate and automatically upgrade to [Performance Max campaigns](https://learn.microsoft.com/advertising/guides/performance-max). After the upgrade, you will need to make edits to Performance Max campaigns. There will be no change to campaign performance reports.
+>
+> [Learn more about Performance Max](https://about.ads.microsoft.com/blog/post/march-2024/microsofts-performance-max-now-available-globally).
+>
+> If you try to create a new Smart shopping campaign after deprecation, you will receive the error code SmartShoppingCampaignCreationNotSupported. Create a Performance Max campaign instead.  
+
 Setting your business goals and targets provides context to automatically adjust bids and shopping ads delivery to help optimize your campaigns. This, in turn, can help increase revenue and meet return on ad spend (ROAS) targets. 
 
 > [!NOTE]
