@@ -16,10 +16,10 @@ Automatically optimize your shopping campaigns to target customers who are more 
 >
 > If you try to create a new Smart shopping campaign after deprecation, you will receive the error code *SmartShoppingCampaignCreationNotSupported*. Create a Performance Max campaign instead.  
 
-Setting your business goals and targets provides context to automatically adjust bids and shopping ads delivery to help optimize your campaigns. This, in turn, can help increase revenue and meet return on ad spend (ROAS) targets. 
-
 > [!NOTE]
 > Smart shopping campaigns are only available for pilot customers ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 718).  
+
+Setting your business goals and targets provides context to automatically adjust bids and shopping ads delivery to help optimize your campaigns. This, in turn, can help increase revenue and meet return on ad spend (ROAS) targets. 
 
 Smart shopping campaigns use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets. 
 
