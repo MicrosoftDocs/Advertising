@@ -14,7 +14,7 @@ Automatically optimize your shopping campaigns to target customers who are more 
 >
 > [Learn more about Performance Max](https://about.ads.microsoft.com/blog/post/march-2024/microsofts-performance-max-now-available-globally).
 >
-> If you try to create a new Smart shopping campaign after deprecation, you will receive the error code SmartShoppingCampaignCreationNotSupported. Create a Performance Max campaign instead.  
+> If you try to create a new Smart shopping campaign after deprecation, you will receive the error code *SmartShoppingCampaignCreationNotSupported*. Create a Performance Max campaign instead.  
 
 Setting your business goals and targets provides context to automatically adjust bids and shopping ads delivery to help optimize your campaigns. This, in turn, can help increase revenue and meet return on ad spend (ROAS) targets. 
 
