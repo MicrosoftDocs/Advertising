@@ -75,6 +75,9 @@ For example, you may want to track in-app purchases so you can track the revenue
 
 #### Create conversion goals for Microsoft Store ads
 
+> [!NOTE]
+> The Microsoft Store ads program will soon transition into a new, enhanced version, with exciting new features based on the feedback we heard from customers and developers during our pilot phase.  As part of this transition, the current campaigns will conclude by May 31, 2024. For updates and to raise your interest in being part of our new app promotion experience, please join our [MS Store New App Promotion Experience: Interest List](https://forms.office.com/r/e1fUc5ma71). 
+
 There are some unique steps you’ll need to take to create conversion goals that are specific for Microsoft Store ads.  
 
 1. From the top menu, select **Tools** > **Conversion tracking** > **Conversion goals**.  
