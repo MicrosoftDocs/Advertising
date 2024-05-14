@@ -154,7 +154,7 @@ The following are the possible case-sensitive dynamic variable names that you ma
 
 |Name|Description
 |-|-
-|ADGROUP-ID|The ID of the ad group that triggered the ad. For example, suppose your URL is *www.<span>northwindtraders</span>.com/{ADGROUP-ID}*. Assuming that your ad group ID is 2410012280, the landing page URL of your ad will be *www<span>.northwindtraders</span>.com/2410012280*.
+|ADGROUP-ID|The ID of the ad group that triggered the ad. For example, suppose your URL is *www<span>.northwindtraders</span>.com/{ADGROUP-ID}*. Assuming that your ad group ID is 2410012280, the landing page URL of your ad will be *www<span>.northwindtraders</span>.com/2410012280*.
 |ADVANCE-BOOKING-WINDOW|The number of days in advance of the check-in date that the booking took place. For example, 36.
 |BING-SITE|The Bing property that originated the ad request. The following are the possible values.<ul><li>localuniversal&mdash;The ad originated from a search results page.</li><li>mapresults&mdash;The ad originated from a maps site.</li><li>PropertyPromotionAd&mdash;The ad originated from the first results page shown in a maps search.</li><li>unknown&mdash;The ad originated from an undetermined source.</li><li>verification&mdash;Bing uses this value when performing data quality tests on your site. You are not billed for these queries. Bing Analytics uses this parameter and its value for identifying Hotel Price Ads verification traffic.</li></ul>
 |CAMPAIGN-ID|The ID of the campaign that triggered the ad. For example, suppose your URL is *www<span>.northwindtraders</span>.com/{CAMPAIGN-ID}*. Assuming that your campaign ID is 2410012280, the landing page URL of your ad will be *www<span>.northwindtraders</span>.com/2410012280*.
