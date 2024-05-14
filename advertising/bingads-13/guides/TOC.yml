@@ -524,6 +524,8 @@
       href: ../ad-insight-service/performanceinsightsurlcategory.md
     - name: PerformanceInsightsUrlId
       href: ../ad-insight-service/performanceinsightsurlid.md
+    - name: RecommendationType
+      href: ../ad-insight-service/recommendationtype.md
     - name: SourceType
       href: ../ad-insight-service/sourcetype.md
     - name: TargetAdPosition
