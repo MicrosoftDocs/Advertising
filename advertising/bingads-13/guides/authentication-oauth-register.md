@@ -46,7 +46,7 @@ Content-type: application/json
 }
 ```
 
-   - After running the above command, you may also need to have your administrator grant consent to your tool provider by running the following URL in your browser. This URL grants consent to SA 360. Please replace "client_id=1234" with your tool providers client id: https<span>://login.microsoftonline</span>.com/"tenantID"/v2.0/adminconsent?client_id=340615a8-1132-4916-80c7-697a67c6c353&state=12345&scope=d42ffc93-c136-491d-b4fd-6f18168c68fd/msads.manage
+    - After running the above command, you may also need to have your administrator grant consent to your tool provider by running the following URL in your browser. This URL grants consent to SA 360. Please replace "client_id=1234" with your tool providers client id: https<span>://login.microsoftonline</span>.com/"tenantID"/v2.0/adminconsent?client_id=340615a8-1132-4916-80c7-697a67c6c353&state=12345&scope=d42ffc93-c136-491d-b4fd-6f18168c68fd/msads.manage
     - If you are still experiencing issues after following the above steps, please contact support [here](https://learn.microsoft.com/en-us/advertising/guides/handle-service-errors-exceptions?view=bingads-13#contact-support).  
 
 ## Next steps
