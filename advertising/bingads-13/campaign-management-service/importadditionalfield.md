@@ -149,6 +149,20 @@ Defines a list of optional import properties that you can request when calling [
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="NewConversionGoals">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">262144</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="UpdateConversionGoals">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">524288</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -157,7 +171,7 @@ Defines a list of optional import properties that you can request when calling [
 
 ## <a name="values"></a>Values
 
-The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls).
+The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls).
 
 |Value|Description|
 |-----------|---------------|
@@ -165,19 +179,19 @@ The [ImportAdditionalField](importadditionalfield.md) value set has the followin
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimezone|Request that the [AdScheduleUseSearcherTimezone](googleimportoption.md#adscheduleusesearchertimezone) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="autodevicebidoptimization"></a>AutoDeviceBidOptimization|Request that the [AutoDeviceBidOptimization](googleimportoption.md#autodevicebidoptimization) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newaccountnegativekeywords"></a>NewAccountNegativeKeywords|Request that the [NewAccountNegativeKeywords](googleimportoption.md#newaccountnegativekeywords) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="newconversiongoals"></a>NewConversionGoals|Request that the [NewConversionGoals](googleimportoption.md#newconversiongoals) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newimageadextensions"></a>NewImageAdExtensions|Request that the [NewImageAdExtensions](googleimportoption.md#newimageadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newleadformadextensions"></a>NewLeadFormAdExtensions|Request that the [NewLeadFormAdExtensions](googleimportoption.md#newleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newlogoadextensions"></a>NewLogoAdExtensions|Request that the [NewLogoAdExtensions](googleimportoption.md#newlogoadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
-|<a name="newleadformadextensions"></a>NewLeadFormAdExtensions|Request that the [NewLeadFormAdExtensions](googleimportoption.md#newleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="none"></a>None|Reserved for internal use.|
 |<a name="notificationemail"></a>NotificationEmail|Request that the [NotificationEmail](googleimportjob.md#notificationemail) element be included within each returned [GoogleImportJob](googleimportjob.md) object.|
 |<a name="renamecampaignnamewithsuffix"></a>RenameCampaignNameWithSuffix|Request that the [RenameCampaignNameWithSuffix](googleimportoption.md#renamecampaignnamewithsuffix) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
-|<a name="newleadformadextensions"></a>NewLeadFormAdExtensions|Request that the [NewLeadFormAdExtensions](googleimportoption.md#newleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="searchandreplaceforcustomparameters"></a>SearchAndReplaceForCustomParameters|Request that the [SearchAndReplaceForCustomParameters](googleimportoption.md#searchandreplaceforcustomparameters) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="searchandreplaceforfinalurlsuffix"></a>SearchAndReplaceForFinalURLSuffix|Request that the [SearchAndReplaceForFinalURLSuffix](googleimportoption.md#searchandreplaceforfinalurlsuffix) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateaccountnegativekeywords"></a>UpdateAccountNegativeKeywords|Request that the [UpdateAccountNegativeKeywords](googleimportoption.md#updateaccountnegativekeywords) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateadcustomizerattributes"></a>UpdateAdCustomizerAttributes|Request that the [UpdateAdCustomizerAttributes](googleimportoption.md#updateadcustomizerattributes) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateadurls"></a>UpdateAdUrls|Request that the [UpdateAdUrls](googleimportoption.md#updateadurls) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="updateconversiongoals"></a>UpdateConversionGoals|Request that the [UpdateConversionGoals](googleimportoption.md#updateconversiongoals) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateimageadextensions"></a>UpdateImageAdExtensions|Request that the [UpdateImageAdExtensions](googleimportoption.md#updateimageadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateleadformadextensions"></a>UpdateLeadFormAdExtensions|Request that the [UpdateLeadFormAdExtensions](googleimportoption.md#updateleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updatelogoadextensions"></a>UpdateLogoAdExtensions|Request that the [UpdateLogoAdExtensions](googleimportoption.md#updatelogoadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
