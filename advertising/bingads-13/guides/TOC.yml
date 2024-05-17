@@ -852,6 +852,9 @@
     - name: App Install Ad Label
       href: ../bulk-service/app-install-ad-label.md
       displayName: BulkAppInstallAdLabel
+    - name: App Install Goal
+      href: ../bulk-service/app-install-goal.md
+      displayName: BulkAppInstallGoal
     - name: Asset Group
       href: ../bulk-service/asset-group.md
       displayName: BulkAssetGroup
@@ -1044,6 +1047,9 @@
     - name: Disclaimer
       href: ../bulk-service/disclaimer-ad-extension.md
       displayName: BulkDisclaimer
+    - name: Duration Goal
+      href: ../bulk-service/duration-goal.md
+      displayName: BulkDurationGoal
     - name: Dynamic Search Ad
       href: ../bulk-service/dynamic-search-ad.md
       displayName: BulkDynamicSearchAd
@@ -1056,6 +1062,9 @@
     - name: Expanded Text Ad Label
       href: ../bulk-service/expanded-text-ad-label.md
       displayName: BulkExpandedTextAdLabel
+    - name: Event Goal
+      href: ../bulk-service/event-goal.md
+      displayName: BulkEventGoal
     - name: Experiment
       href: ../bulk-service/experiment.md
       displayName: BulkExperiment
@@ -1088,6 +1097,9 @@
     - name: In Market Audience
       href: ../bulk-service/in-market-audience.md
       displayName: BulkInMarketAudience
+    - name: In Store Transaction Goal
+      href: ../bulk-service/in-store-transaction-goal.md
+      displayName: BulkInStoreTransactionGoal
     - name: Keyword
       href: ../bulk-service/keyword.md
       displayName: BulkKeyword
@@ -1115,6 +1127,12 @@
     - name: Offline Conversion
       href: ../bulk-service/offline-conversion.md
       displayName: BulkOfflineConversion
+    - name: Offline Conversion Goal
+      href: ../bulk-service/offline-conversion-goal.md
+      displayName: BulkOfflineConversionGoal
+    - name: Pages Viewed Per Visit Goal
+      href: ../bulk-service/pages-viewed-per-visit-goal.md
+      displayName: BulkPagesViewedPerVisitGoal
     - name: Price Ad Extension
       href: ../bulk-service/price-ad-extension.md
       displayName: BulkPriceAdExtension
@@ -1169,6 +1187,9 @@
     - name: Text Ad Label
       href: ../bulk-service/text-ad-label.md
       displayName: BulkTextAdLabel
+    - name: URL Goal
+      href: ../bulk-service/url-goal.md
+      displayName: BulkUrlGoal
     - name: Video
       href: ../bulk-service/video.md
       displayName: BulkVideo
