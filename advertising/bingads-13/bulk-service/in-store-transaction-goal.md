@@ -69,16 +69,16 @@ If the *Scope* element is set to *Customer* and if the [Type](#type) is *FixedVa
 **Add:** Optional unless otherwise noted above.  
 **Update:**  Optional unless otherwise noted above.  
 
-## <a name="excludefrombidding"></a>Count Type
+## <a name="excludefrombidding"></a>Exclude From Bidding
 Determines whether or not to exclude data otherwise related to this conversion goal from a subset of performance report columns.  
 
-This element is only available for customers who are enabled for the Include in Conversions feature ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures) returns 574).  
+This element is only available for customers who are enabled for the Include in Conversions feature ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 574).  
 
 If this element is set to true, data otherwise related to this conversion goal will be excluded from the `Conversions`, `ConversionRate`, `CostPerConversion`, `ReturnOnAdSpend`, `RevenuePerConversion`, and `Revenue` report columns. Also, if you use an automated bidding bid strategy, setting this property true will result in the goal's conversions no longer factoring into automated bidding calculations. Setting this property "true" is effectively the same as unchecking "Include in Conversions" in the Microsoft Advertising web application.  
 
 Regardless of this element value, the `AllConversions`, `AllConversionRate`, `AllCostPerConversion`, `AllReturnOnAdSpend`, `AllRevenuePerConversion`, and `AllRevenue` report columns will include data for all conversion goals. By default this element is false, and data related to this conversion goal are included in all report columns.  
 
-For more information, see [Report Attributes and Performance Statistics](../guides/report-attributes-performance-statistics) and the help article [Conversion goals: "Conversions" versus "All conversions"](https://help.ads.microsoft.com/#apex/3/en/56920/-1/en/#ext:reporting).  
+For more information, see [Report Attributes and Performance Statistics](../guides/report-attributes-performance-statistics.md) and the help article [Conversion goals: "Conversions" versus "All conversions"](https://help.ads.microsoft.com/#apex/3/en/56920/-1/en/#ext:reporting).  
 
 **Add**: Optional  
 **Update**: Optional  
