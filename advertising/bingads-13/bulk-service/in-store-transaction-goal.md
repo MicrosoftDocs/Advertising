@@ -88,9 +88,9 @@ The category used to segment the conversion goal.
 
 Categorize your conversion goals however makes sense for your business. Goal categories don't affect performance - they are here to help you segment your goals and their performance metrics.
 
-The supported category values vary by conversion goal type. In store transaction goals only support the [Download](../campaign-management-service/conversiongoalcategory#download) category.
+The supported category values vary by conversion goal type. In store transaction goals only support the [Download](../campaign-management-service/conversiongoalcategory.md#download) category.
 
-**Add**: Optional. If you leave this element nil or empty, the default category will be set to [Download](../campaign-management-service/conversiongoalcategory#download).  
+**Add**: Optional. If you leave this element nil or empty, the default category will be set to [Download](../campaign-management-service/conversiongoalcategory.md#download).  
 **Update**: Optional. If no value is set for the update, this setting is not changed.
 
 ## <a name="id"></a>Id
@@ -160,7 +160,7 @@ For status values that a user can decide to set, for example setting the status 
 **Update**: Read-only  
 
 ## <a name="type"></a>Type
-The type of the conversion goal. This value is *InStoreTransaction* when you retrieve an in store transaction goal. For more information about conversion goal types, see the [ConversionGoal Data Object Remarks](../campaign-management-service/conversiongoal#remarks).
+The type of the conversion goal. This value is *InStoreTransaction* when you retrieve an in store transaction goal. For more information about conversion goal types, see the [ConversionGoal Data Object Remarks](../campaign-management-service/conversiongoal.md#remarks).
 
 **Add**: Read-only  
 **Update**: Read-only  
