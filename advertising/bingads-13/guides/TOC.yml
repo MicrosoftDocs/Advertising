@@ -1100,6 +1100,9 @@
     - name: In Store Transaction Goal
       href: ../bulk-service/in-store-transaction-goal.md
       displayName: BulkInStoreTransactionGoal
+    - name: In Store Visit Goal
+      href: ../bulk-service/in-store-visit-goal.md
+      displayName: BulkInStoreVisitGoal
     - name: Keyword
       href: ../bulk-service/keyword.md
       displayName: BulkKeyword
@@ -1145,6 +1148,9 @@
     - name: Product Audience
       href: ../bulk-service/product-audience.md
       displayName: BulkProductAudience
+    - name: Product Goal
+      href: ../bulk-service/product-goal.md
+      displayName: BulkProductGoal
     - name: Promotion Ad Extension
       href: ../bulk-service/promotion-ad-extension.md
       displayName: BulkPromotionAdExtension

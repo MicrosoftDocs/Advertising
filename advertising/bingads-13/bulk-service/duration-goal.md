@@ -14,13 +14,13 @@ Defines an duration conversion goal. Use this type of goal to track every time s
 
 You can download all *Duration Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *DurationGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-<!-- The following Bulk CSV example would add a new duration goal.
+The following Bulk CSV example would add a new duration goal.
 
 ```csv
-Type,Status,Id,Parent Id,Client Id,Modified Time,Name,Description,Membership Duration,Scope,UET Tag Id,Audience,Remarketing Rule
-Format Version,,,,,,6.0,,,,,,
-Remarketing List,Active,-10,ParentIdHere,ClientIdGoesHere,,,New list with CustomEventsRule,30,Account,TagIdHere,Remarketing List with CustomEventsRule,CustomEvents(Action Equals play) and (Category Equals video) and (Label Equals trailer) and (Value Equals 5.00)
-``` -->
+Type,Id,Attribution Model Type,Count Type,Exclude From Bidding,Goal Category,Is Enhanced Conversions Enabled,Name,Conversion Currency Code,Revenue Value,Revenue Type,Scope,UET Tag Id,Status,View Through Conversion Window In Minutes,Conversion Window In Minutes,Category Expression,Category Operator,Action Expression,Action Operator,Label Expression,Label Operator,Event Value,Event Value Operator,URL Expression,URL Operator,Minimum Duration In Second,App Platform,App Id,Minimum Pages Viewed  
+Format Version,,,,,,,6.0,,,,,,,,,,,,,,,,,,,,,,  
+Duration Goal,,LastTouch,Unique,False,Other,False,GoalF,USD,1,FixedValue,Account,123431,Active,150,367,,,,,,,,,,,15,,,
+```
 
 For a *Duration Goal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).
 
