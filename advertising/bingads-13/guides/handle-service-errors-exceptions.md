@@ -300,36 +300,7 @@ using (StreamWriter streamWriter = new StreamWriter(@"tracelog.txt"))
 }
 ```
 
-The above snippet from [Program.cs](https://github.com/BingAds/BingAds-dotNet-SDK/blob/main/examples/BingAdsExamples/BingAdsConsoleApp/Program.cs) was run using Bing Ads .NET SDK version 13.0.5 with the following NuGet packages. Your implementation will vary. 
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<packages>
-  <package id="Microsoft.Extensions.Configuration" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Configuration.Abstractions" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Configuration.Binder" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.DependencyInjection" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Logging" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Logging.Abstractions" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Logging.Debug" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Logging.TraceSource" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Options" version="2.2.0" targetFramework="net471" />
-  <package id="Microsoft.Extensions.Primitives" version="2.2.0" targetFramework="net471" />
-  <package id="Newtonsoft.Json" version="12.0.2" targetFramework="net471" />
-  <package id="System.Buffers" version="4.4.0" targetFramework="net471" />
-  <package id="System.ComponentModel.Annotations" version="4.5.0" targetFramework="net471" />
-  <package id="System.Configuration.ConfigurationManager" version="4.5.0" targetFramework="net471" />
-  <package id="System.Memory" version="4.5.1" targetFramework="net471" />
-  <package id="System.Numerics.Vectors" version="4.4.0" targetFramework="net471" />
-  <package id="System.Runtime.CompilerServices.Unsafe" version="4.5.1" targetFramework="net471" />
-  <package id="System.Security.AccessControl" version="4.5.0" targetFramework="net471" />
-  <package id="System.Security.Permissions" version="4.5.0" targetFramework="net471" />
-  <package id="System.Security.Principal.Windows" version="4.5.0" targetFramework="net471" />
-  <package id="System.ServiceModel.Http" version="4.5.3" targetFramework="net471" />
-  <package id="System.ServiceModel.Primitives" version="4.5.3" targetFramework="net471" />
-</packages>
-```
+The full program using the above snippet can be found in [Program.cs](https://github.com/BingAds/BingAds-dotNet-SDK/blob/main/examples/BingAdsExamples/BingAdsConsoleApp/Program.cs).
 
 #### <a name="net-troubleshooting-fiddler"></a>Fiddler Options
 You can follow these steps to capture the SOAP envelopes from a .NET application using a third-party tool such as [Fiddler](https://fiddler2.com/get-fiddler). 
@@ -367,47 +338,7 @@ ReportingOperationInProgressException     |com.microsoft.bingads.V13.reporting  
 ### <a name="java-troubleshooting"></a>Java SDK Troubleshooting
 Unless there is a [known service issue](https://developers.ads.microsoft.com/Support), typically when a call fails it is because the SOAP elements are invalid, out of order, or you specified the wrong credentials. To verify in any case, you should capture the request SOAP envelope. You can [contact support](https://go.microsoft.com/fwlink/?LinkId=517018) or compare your capture to the corresponding SOAP example documented for each service operation. 
 
-#### <a name="java-troubleshooting-jaxws-cxf"></a>JAX WS and Apache CXF Options
-You can use [JAX WS](https://mvnrepository.com/artifact/com.sun.xml.ws/jaxws-rt) and [Apache CXF](https://mvnrepository.com/artifact/org.apache.cxf) to capture the SOAP envelopes, for example if you are running a Maven application.
-
-1. Edit pom.xml to include the following dependencies. 
-    ```xml
-    <dependency>
-        <groupId>com.sun.xml.ws</groupId>
-        <artifactId>jaxws-rt</artifactId>
-        <version>2.3.2</version>
-        <type>pom</type>
-    </dependency>
-    <dependency>
-        <groupId>com.sun.xml.ws</groupId>
-        <artifactId>jaxws-ri</artifactId>
-        <version>2.3.2</version>
-        <type>pom</type>
-    </dependency>
-    <dependency>
-        <groupId>com.sun.xml.ws</groupId>
-        <artifactId>rt</artifactId>
-        <version>2.3.2</version>
-    </dependency>
-    <dependency>
-        <groupId>org.apache.cxf</groupId>
-        <artifactId>cxf-rt-frontend-jaxws</artifactId>
-        <version>3.3.2</version>
-    </dependency>
-    <dependency>
-        <groupId>org.apache.cxf</groupId>
-        <artifactId>cxf-rt-transports-http</artifactId>
-        <version>3.3.2</version>
-    </dependency>  
-
-    ```
-   
-1. Add the following lines to your Java application.
-
-    ```java
-    System.setProperty("com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump", "true");
-    System.setProperty("com.sun.xml.internal.ws.transport.http.HttpAdapter.dump", "true");
-    ```
+To enable programmatic logging of request and response messages, see [Logging service calls](get-started-java.md#logging-service-calls).
 
 #### <a name="java-troubleshooting-fiddler"></a>Fiddler Options
 You can follow these steps to capture the SOAP envelopes from a Java application using a third-party tool such as [Fiddler](https://fiddler2.com/get-fiddler). 
