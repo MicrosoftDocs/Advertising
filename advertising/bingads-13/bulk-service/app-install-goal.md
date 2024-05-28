@@ -14,13 +14,13 @@ Defines an app install conversion goal. Use this type of goal to track every tim
 
 You can download all *App Install Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *AppInstallGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-<!-- The following Bulk CSV example would add a new app install goal.
+The following Bulk CSV example would add a new app install goal.
 
 ```csv
-Type,Status,Id,Parent Id,Client Id,Modified Time,Name,Description,Membership Duration,Scope,UET Tag Id,Audience,Remarketing Rule
-Format Version,,,,,,6.0,,,,,,
-Remarketing List,Active,-10,ParentIdHere,ClientIdGoesHere,,,New list with CustomEventsRule,30,Account,TagIdHere,Remarketing List with CustomEventsRule,CustomEvents(Action Equals play) and (Category Equals video) and (Label Equals trailer) and (Value Equals 5.00)
-``` -->
+Type,Id,Attribution Model Type,Count Type,Exclude From Bidding,Goal Category,Is Enhanced Conversions Enabled,Name,Conversion Currency Code,Revenue Value,Revenue Type,Scope,UET Tag Id,Status,View Through Conversion Window In Minutes,Conversion Window In Minutes,Category Expression,Category Operator,Action Expression,Action Operator,Label Expression,Label Operator,Event Value,Event Value Operator,URL Expression,URL Operator,Minimum Duration In Second,App Platform,App Id,Minimum Pages Viewed  
+Format Version,,,,,,,6.0,,,,,,,,,,,,,,,,,,,,,,  
+AppInstall Goal,,,,False,Download,False,GoalE,USD,1,FixedValue,Account,,Active,150,367,,,,,,,,,,,,Android,qazwsx,
+```
 
 For a *App Install Goal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).
 

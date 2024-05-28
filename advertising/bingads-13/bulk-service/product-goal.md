@@ -1,28 +1,28 @@
 ---
-title: "In Store Transaction Goal Record - Bulk"
+title: "Product Goal Record - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines an in store transaction conversion goal. Use this type of goal to track every time someone installs your app as a conversion.
+description: Defines an product conversion goal. Use this type of goal to track every time someone installs your app as a conversion.
 dev_langs:
   - csharp
 ---
-# In Store Transaction Goal Record - Bulk
-Defines an in store transaction conversion goal. Use this type of goal to track every time someone installs your app as a conversion.list that can be downloaded and uploaded in a bulk file.
+# Product Goal Record - Bulk
+Defines an product conversion goal. Use this type of goal to track every time someone installs your app as a conversion.list that can be downloaded and uploaded in a bulk file.
 
-You can download all *In Store Transaction Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *InStoreTransactionGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Product Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *InStoreTransactionGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new in store transaction goal.
+The following Bulk CSV example would add a new product goal.
 
 ```csv
 Type,Id,Attribution Model Type,Count Type,Exclude From Bidding,Goal Category,Is Enhanced Conversions Enabled,Name,Conversion Currency Code,Revenue Value,Revenue Type,Scope,UET Tag Id,Status,View Through Conversion Window In Minutes,Conversion Window In Minutes,Category Expression,Category Operator,Action Expression,Action Operator,Label Expression,Label Operator,Event Value,Event Value Operator,URL Expression,URL Operator,Minimum Duration In Second,App Platform,App Id,Minimum Pages Viewed  
 Format Version,,,,,,,6.0,,,,,,,,,,,,,,,,,,,,,,  
-InStoreTransaction Goal,,,Unique,False,Purchase,False,GoalG,USD,1,FixedValue,Account,,Active,150,367,,,,,,,,,,,,,,
+Product Goal,,,Unique,False,Other,False,GoalH,USD,1,FixedValue,Account,123431,Active,150,367,,,,,,,,,,,,,,
 ```
 
-For a *In Store Transaction Goal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).
+For a *Product Goal* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).
 
 - [Conversion Window In Minutes](#conversionwindowinminutes)
 - [Count Type](#counttype)
@@ -88,7 +88,7 @@ The category used to segment the conversion goal.
 
 Categorize your conversion goals however makes sense for your business. Goal categories don't affect performance - they are here to help you segment your goals and their performance metrics.
 
-The supported category values vary by conversion goal type. In store transaction goals only support the [Download](../campaign-management-service/conversiongoalcategory.md#download) category.
+The supported category values vary by conversion goal type. Product goals only support the [Download](../campaign-management-service/conversiongoalcategory.md#download) category.
 
 **Add**: Optional. If you leave this element nil or empty, the default category will be set to [Download](../campaign-management-service/conversiongoalcategory.md#download).  
 **Update**: Optional. If no value is set for the update, this setting is not changed.
@@ -120,7 +120,7 @@ Determines how much each conversion is worth to your business.
 
 When updating a conversion goal, if the Revenue element is nil or empty then none of the nested properties will be updated. However, if this element is not nil or empty then you are effectively replacing any existing revenue properties.
 
-The *VariableValue* option is not available for in store transaction conversion goals.
+The *VariableValue* option is not available for product conversion goals.
 
 **Add**: Optional  
 **Update**: Optional  
@@ -138,7 +138,7 @@ For the OfflineConversionGoal, the ConversionValue element of the applied Offlin
 ## <a name="scope"></a>Scope
 Determines if the goal applies to all accounts or only the account specified in the required *CustomerAccountId* header element. If you have multiple Microsoft Advertising accounts, you can track conversions across all of those accounts. If you associate a goal with one account, conversions will be tracked for that account only.
 
-For in store transaction goals the Account level scope is not supported. You can set this element to Customer or leave it nil. If not specified, the scope will be set to Customer by default.
+For product goals the Account level scope is not supported. You can set this element to Customer or leave it nil. If not specified, the scope will be set to Customer by default.
 
 **Add**: Optional  
 **Update**: Optional  
@@ -160,7 +160,7 @@ For status values that a user can decide to set, for example setting the status 
 **Update**: Read-only  
 
 ## <a name="type"></a>Type
-The type of the conversion goal. This value is *InStoreTransaction* when you retrieve an in store transaction goal. For more information about conversion goal types, see the [ConversionGoal Data Object Remarks](../campaign-management-service/conversiongoal.md#remarks).
+The type of the conversion goal. This value is *InStoreTransaction* when you retrieve an product goal. For more information about conversion goal types, see the [ConversionGoal Data Object Remarks](../campaign-management-service/conversiongoal.md#remarks).
 
 **Add**: Read-only  
 **Update**: Read-only  
