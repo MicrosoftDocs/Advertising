@@ -17,13 +17,13 @@ You'll also need your production [developer token](get-started.md#get-developer-
 
 ## <a name="code"></a>Code Walkthrough
 
-1. Open the [Visual Studio Community 2017](https://www.visualstudio.com/vs/community/) development environment.
+1. Open the [Visual Studio](https://visualstudio.microsoft.com) development environment.
 
 2. Create a new project through **File** -&gt; **New** -&gt; **Project**
 
 3. In the **New Project** window choose **.NET Framework 4.8** in the drop down, and then click on the **Console App (.NET Framework)** template. Name the project *BingAdsConsoleApp* and click **OK**.
 
-4. Install the SDK through NuGet for the BingAdsConsoleApp. For more information about dependencies, see [Install the SDK](get-started-csharp.md#installation). Click on **Tools** -&gt; **NuGet Package Manager** -&gt; **Package Manager Console**. At the prompt, type these commands to install the packages one at a time: `Install-Package Microsoft.BingAds.SDK`, `Install-Package System.ServiceModel.Http`, and `Install-Package System.Configuration.ConfigurationManager`.
+4. Install the SDK through NuGet for the BingAdsConsoleApp. For more information about dependencies, see [Install the SDK](get-started-csharp.md#installation). Click on **Tools** -&gt; **NuGet Package Manager** -&gt; **Package Manager Console**. At the prompt, type these commands to install the packages one at a time: `Install-Package Microsoft.BingAds.SDK` and `Install-Package System.Configuration.ConfigurationManager`.
 
 5. Open the App.config file and replace its contents with the following code block. Edit the *BingAdsEnvironment* to move from sandbox to production. If you are targeting the production environment, then you must replace *4c0b021c-00c3-4508-838f-d3127e8167ff* with the *Application Id* that was provisioned when you registered your production application and replace *BBD37VB98* with your production [developer token](get-started.md#get-developer-token). 
 
