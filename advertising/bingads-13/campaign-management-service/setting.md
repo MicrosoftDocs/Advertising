@@ -14,6 +14,7 @@ Do not try to instantiate a *Setting*. You can create one or more of the followi
 
 |Setting|Supported Entity|
 |-----|-----|
+|[CallToActionSetting](calltoactionsetting.md)|[Campaign](campaign.md)|
 |[DisclaimerSetting](disclaimersetting.md)|[Campaign](campaign.md)|
 |[DynamicFeedSetting](dynamicsearchadssetting.md)|[Campaign](campaign.md)|
 |[DynamicSearchAdsSetting](dynamicsearchadssetting.md)|[Campaign](campaign.md)|
