@@ -1673,6 +1673,8 @@
       href: ../campaign-management-service/calladextension.md
     - name: CalloutAdExtension
       href: ../campaign-management-service/calloutadextension.md
+    - name: CallToActionSetting
+      href: ../campaign-management-service/calltoactionsetting.md
     - name: Campaign
       href: ../campaign-management-service/campaign.md
     - name: CampaignAdGroupIds

@@ -188,7 +188,7 @@ If *false*, then text assets will be dynamically generated. If *true* (opted out
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
-## <a name="automatedcalltoactionoptout"></a>Auto Generated Text Assets Opt Out
+## <a name="automatedcalltoactionoptout"></a>Automated Call To Action Opt Out
 If *false*, then call to action asset will be automatically selected for multimedia ads in the campaign. Individual ads’ call to action settings will be ignored. If *true* (opted out), then call to action asset will not be automatically selected. This field only applies to Search campaigns.  
 
 **Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* is set. This field only applies to Search campaigns.  
