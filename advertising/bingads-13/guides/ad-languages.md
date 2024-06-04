@@ -65,14 +65,21 @@ The following country codes are supported per customer language e.g. [aggregator
 
 |Language|Country or Region Code|
 |------------|------------------|
+|Dutch|NL|
 |English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PK, PL, PM, PN, PR, PS, PW, RE, RO, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
+|Filipino|PH|
 |French|BF, BJ, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|
 |German|AT, CH, DE|
 |Italian|IT|
+|Japanese|JP|
+|Korean|KR|
 |Portuguese|AO, BR, MZ, PT, TL|
+|Russian|RU|
 |Spanish|AR, BO, CL, CO, CR, DO, EC, ES, GT, HN, MX, NI, PA, PE, PY, SV, UY, VE|
+|SimplifiedChinese|CN|
+|Thai|TH|
 |TraditionalChinese|HK, TW|
-
+|Turkish|TR|
 		
 ## <a name="countdownlanguage"></a>Countdown Language
 Countdown customizers let you easily add a countdown (by day, hour, and then minute) to an event in your dynamic search ads, expanded text ads, and responsive search ads. The following language codes are supported for [countdown customizers](countdown-customizers.md).
