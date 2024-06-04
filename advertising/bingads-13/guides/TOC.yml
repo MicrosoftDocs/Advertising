@@ -1861,6 +1861,8 @@
       href: ../campaign-management-service/locationcriterion.md
     - name: LocationIntentCriterion
       href: ../campaign-management-service/locationintentcriterion.md
+    - name: LogoAdExtension
+      href: ../campaign-management-service/logoadextension.md
     - name: ManualCpaBiddingScheme
       href: ../campaign-management-service/manualcpabiddingscheme.md
     - name: ManualCpcBiddingScheme

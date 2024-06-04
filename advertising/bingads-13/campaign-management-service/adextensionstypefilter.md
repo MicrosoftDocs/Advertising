@@ -31,6 +31,7 @@ Defines the possible ad extension types.
         <xs:enumeration value="FlyerAdExtension" />
         <xs:enumeration value="VideoAdExtension" />
         <xs:enumeration value="DisclaimerAdExtension" />
+        <xs:enumeration value="LogoAdExtension" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -39,7 +40,7 @@ Defines the possible ad extension types.
 
 ## <a name="values"></a>Values
 
-The [AdExtensionsTypeFilter](adextensionstypefilter.md) value set has the following values: [ActionAdExtension](#actionadextension), [AppAdExtension](#appadextension), [CallAdExtension](#calladextension), [CalloutAdExtension](#calloutadextension), [DisclaimerAdExtension](#disclaimeradextension), [FilterLinkAdExtension](#filterlinkadextension), [FlyerAdExtension](#flyeradextension), [ImageAdExtension](#imageadextension), [LocationAdExtension](#locationadextension), [PriceAdExtension](#priceadextension), [PromotionAdExtension](#promotionadextension), [ReviewAdExtension](#reviewadextension), [SitelinkAdExtension](#sitelinkadextension), [StructuredSnippetAdExtension](#structuredsnippetadextension), [VideoAdExtension](#videoadextension).
+The [AdExtensionsTypeFilter](adextensionstypefilter.md) value set has the following values: [ActionAdExtension](#actionadextension), [AppAdExtension](#appadextension), [CallAdExtension](#calladextension), [CalloutAdExtension](#calloutadextension), [DisclaimerAdExtension](#disclaimeradextension), [FilterLinkAdExtension](#filterlinkadextension), [FlyerAdExtension](#flyeradextension), [ImageAdExtension](#imageadextension), [LocationAdExtension](#locationadextension), [LogoAdExtension](#logoadextension), [PriceAdExtension](#priceadextension), [PromotionAdExtension](#promotionadextension), [ReviewAdExtension](#reviewadextension), [SitelinkAdExtension](#sitelinkadextension), [StructuredSnippetAdExtension](#structuredsnippetadextension), [VideoAdExtension](#videoadextension).
 
 |Value|Description|
 |-----------|---------------|
@@ -52,6 +53,7 @@ The [AdExtensionsTypeFilter](adextensionstypefilter.md) value set has the follow
 |<a name="flyeradextension"></a>FlyerAdExtension|An ad extension that enables advertisers to distribute product or store catalogues (flyers) to potential customers.<br/><br/>For more information, see [FlyerAdExtension](flyeradextension.md).|
 |<a name="imageadextension"></a>ImageAdExtension|An ad extension that contains an image with alternative text.<br/><br/>For more information, see [ImageAdExtension](imageadextension.md).|
 |<a name="locationadextension"></a>LocationAdExtension|An ad extension that contains the address and phone number of the business.<br/><br/>For more information, see [LocationAdExtension](locationadextension.md).|
+|<a name="logoadextension"></a>LogoAdExtension|An ad extension that contains the business logo.<br/><br/>For more information, see [LogoAdExtension](logoadextension.md).|
 |<a name="priceadextension"></a>PriceAdExtension|An ad extension that includes between 3 and 8 price table rows.<br/><br/>For more information, see [PriceAdExtension](priceadextension.md).|
 |<a name="promotionadextension"></a>PromotionAdExtension|An ad extension that highlights special sales and offers in your text ads.<br/><br/>For more information, see [PromotionAdExtension](promotionadextension.md).|
 |<a name="reviewadextension"></a>ReviewAdExtension|An ad extension that contains third-party reviews (exact or paraphrased) about your business, products, or services.<br/><br/>For more information, see [ReviewAdExtension](reviewadextension.md).|
