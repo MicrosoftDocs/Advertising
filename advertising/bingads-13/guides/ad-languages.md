@@ -75,8 +75,8 @@ The following country codes are supported per customer language e.g. [aggregator
 |Korean|KR|
 |Portuguese|AO, BR, MZ, PT, TL|
 |Russian|RU|
-|Spanish|AR, BO, CL, CO, CR, DO, EC, ES, GT, HN, MX, NI, PA, PE, PY, SV, UY, VE|
 |SimplifiedChinese|CN|
+|Spanish|AR, BO, CL, CO, CR, DO, EC, ES, GT, HN, MX, NI, PA, PE, PY, SV, UY, VE|
 |Thai|TH|
 |TraditionalChinese|HK, TW|
 |Turkish|TR|
