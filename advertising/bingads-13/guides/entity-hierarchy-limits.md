@@ -136,10 +136,17 @@ The following table defines limits for location ad extension properties.
 |Phone Number|The string can contain a maximum of 35 characters.|
 
 ### <a name="logoadextension"></a>Logo Ad Extensions
-You can manage location ad extensions using the Bulk service or Campaign Management service.
+You can manage location ad extensions using the Bulk service or Campaign Management service ([LogoAdExtension](../campaign-management-service/logoadextension.md)).  
+
+The following table defines limits for logo ad extension properties.
+
+|Property|Limit|
+|------------|---------|
+|BusinessName|The string can contain a maximum of 25 characters.|
+|DomainName|The string can contain a maximum of 50 characters.|
 
 ### <a name="priceadextension"></a>Price Ad Extensions
-You can manage price ad extensions using the Bulk service ([Price Ad Extension Record](../bulk-service/price-ad-extension.md)) or Campaign Management service ([PriceAdExtension](../campaign-management-service/priceadextension.md)).
+You can manage price ad extensions using the Bulk service ([Price Ad Extension Record](../bulk-service/price-ad-extension.md)) or Campaign Management service ([PriceAdExtension](../campaign-management-service/priceadextension.md)).  
 
 The following table defines limits for price ad extension properties.
 
