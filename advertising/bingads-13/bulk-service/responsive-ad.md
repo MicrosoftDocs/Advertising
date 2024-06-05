@@ -129,6 +129,7 @@ For a *Responsive Ad* record, the following attribute fields are available in th
 - [Ad Group](#adgroup)
 - [Business Name](#businessname)
 - [Call To Action](#calltoaction)
+- [Call To Action Language](#calltoactionlanguage)
 - [Campaign](#campaign)
 - [Client Id](#clientid)
 - [Custom Parameter](#customparameter)
@@ -188,6 +189,15 @@ The possible values are AddToCart, ApplyNow, BookNow, BookTravel, Buy, BuyNow, C
 
 **Add:** Not applicable for audience ads.   
 **Update:** Read-only     
+**Delete:** Read-only  
+
+## <a name="calltoactionlanguage"></a>Call To Action Langauge
+The language that the call to action will be served in.
+
+The call to action will always be served in this language, regardless of the campaign's language settings.
+
+**Add:** Not applicable for audience ads; Required for multimedia ads.  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only 
 
 ## <a name="campaign"></a>Campaign
