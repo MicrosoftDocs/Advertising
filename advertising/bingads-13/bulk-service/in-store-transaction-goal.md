@@ -10,7 +10,9 @@ dev_langs:
   - csharp
 ---
 # In Store Transaction Goal Record - Bulk
-Defines an in store transaction conversion goal. Use this type of goal to track every time someone installs your app as a conversion.list that can be downloaded and uploaded in a bulk file.
+Defines an in-store transaction goal that can be uploaded and downloaded in a bulk file.
+
+Use this type of goal to track every time someone completes a transaction in your store.
 
 You can download all *In Store Transaction Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *InStoreTransactionGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 

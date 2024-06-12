@@ -10,7 +10,9 @@ dev_langs:
   - csharp
 ---
 # Offline Conversion Goal Record - Bulk
-Defines an offline conversion conversion goal. Use this type of goal to track every time someone installs your app as a conversion.list that can be downloaded and uploaded in a bulk file.
+Defines an offline conversion conversion goal that can be uploaded and downloaded in a bulk file.  
+
+Use this type of goal if you have lead generation as an objective. Lead generation is when potential customers fill out a form or quote of interest, and then the sale is completed offline in person or over the phone (for example, car purchases, insurance quotes, mortgages, etc.).
 
 You can download all *Offline Conversion Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *OfflineConversionGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 

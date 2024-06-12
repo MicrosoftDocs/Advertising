@@ -10,7 +10,9 @@ dev_langs:
   - csharp
 ---
 # Pages Viewed Per Visit Goal Record - Bulk
-Defines an pages viewed per visit conversion goal. Use this type of goal to track every time someone installs your app as a conversion.list that can be downloaded and uploaded in a bulk file.
+Defines a pages viewed per visit conversion goal that can be uploaded and downloaded in a bulk file.  
+
+Use this type of goal to count every time someone visits more than a specified number of pages on your website as a conversion. For example, you can count a conversion if someone viewed more than 5 pages on a support site or product catalog.
 
 You can download all *Pages Viewed Per Visit Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *PagesViewedPerVisitGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 

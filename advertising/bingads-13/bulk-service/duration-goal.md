@@ -10,7 +10,9 @@ dev_langs:
   - csharp
 ---
 # Duration Goal Record - Bulk
-Defines an duration conversion goal. Use this type of goal to track every time someone installs your app as a conversion.list that can be downloaded and uploaded in a bulk file.
+Defines a duration conversion goal that can be uploaded and downloaded in a bulk file.  
+
+Use this type of goal to count every time someone stays on a website for longer than a certain amount of time as a conversion. For example, you can count a conversion if someone spent 10 minutes or longer on a blog or playing a game on the webpage.
 
 You can download all *Duration Goal* records in the account by including the [DownloadEntity](downloadentity.md) value of *DurationGoals* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
