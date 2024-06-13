@@ -102,6 +102,7 @@ Points of sale include a `Match` element that contains the criteria that Bing us
 - currency
 - language
 - device
+- sitetype
 
 Bing uses the following rules to find the best POS match.
 
