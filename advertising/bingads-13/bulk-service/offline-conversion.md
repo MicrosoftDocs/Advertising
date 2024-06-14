@@ -12,9 +12,6 @@ dev_langs:
 # Offline Conversion Record - Bulk
 Defines an offline conversion that can be uploaded in a bulk file.
 
-> [!NOTE]
-> Bulk download is not supported.  
-
 You can add, restate (update), or restract (delete) offline conversions. 
 - To upload an offline conversion, set the [Conversion Currency Code](#conversioncurrencycode), [Conversion Name](#conversionname), [Conversion Time](#conversiontime), [Conversion Value](#conversionvalue), and [Microsoft Click Id](#microsoftclickid) fields.  
 - To restate or correct a previously uploaded offline conversion as needed, set the [Adjustment Type](#adjustmenttype) field to "Restate" and set the original [Conversion Name](#conversionname), [Conversion Time](#conversiontime), and [Microsoft Click Id](#microsoftclickid) fields. Include any adjustments in the same record e.g., [Adjustment Value](#adjustmentvalue), [Adjustment Time](#adjustmenttime), and [Adjustment Currency Code](#adjustmentcurrencycode).  

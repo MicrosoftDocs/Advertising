@@ -195,7 +195,7 @@ Record Type  |Supported Campaign Types
 [Label](label.md)|All  
 [Location Ad Extension](location-ad-extension.md)|Performance Max<br/>Search  
 [Negative Keyword List](negative-keyword-list.md)|All  
-[Offline Conversion](offline-conversion.md)<br/><br/>Bulk download is not supported. You cannot get, update, or delete an offline conversion.|All  
+[Offline Conversion](offline-conversion.md)<br/><br/>You cannot get, update, or delete an offline conversion.|All  
 [Price Ad Extension](price-ad-extension.md)|Performance Max<br/>Search  
 [Product Ad](product-ad.md)|Shopping  
 [Product Ad Label](product-ad-label.md)|Shopping  
