@@ -245,8 +245,8 @@ The MSCLKID for the offline conversion.
 
 To ensure that auto-tagging is enabled for Microsoft click ID tracking, use the *MSCLKID Auto Tagging Enabled* field of the [Account](account.md) record. 
 
-**Add:** Required  
-**Restate:** Required  
-**Retract:** Required  
+**Add:** Required only if not sending hashed email or phone number.
+**Restate:** Required only if not sending hashed email or phone number.
+**Retract:** Required only if not sending hashed email or phone number.
 
 
