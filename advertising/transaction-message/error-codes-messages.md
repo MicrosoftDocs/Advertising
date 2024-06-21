@@ -1,6 +1,6 @@
 ---
 title: "Error Codes and Messages"
-description: Lists the possible error codes and messages that Bing returns if the transaction message is not valid. 
+description: Lists the possible error codes and messages that Bing returns if the Price feed is not valid. 
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
@@ -9,13 +9,13 @@ ms.author: jonmeyers
 
 # Error codes and messages
 
-When you send Bing your transaction message to process, Bing may return one of the following HTTP status codes:
+When you send Bing your Price feed (formerly Transaction message) to process, Bing may return one of the following HTTP status codes:
 
 |Status Code|Description
 |-|-
 |200|Success. Bing successfully queued the message to be processed.
 |401|Unauthorized. The user is not authorized to use the API or the message was sent from an IP address that is unknown to Bing or that is not associated with the user. To determine the cause, see the error message.
-|413|Request entity too large. The transaction message must not exceed 100 MB or 10 MB compressed.
+|413|Request entity too large. The Price feed must not exceed 100 MB or 10 MB compressed.
 |429|Too many requests. You may have a maximum of five requests queued or being processed at the same time. If you send a sixth request at this time, Bing returns this error. 
 |500|Internal server error. This is typically a transient error. Retry the request at 1, 5, and 20 minute intervals. If the request fails after the third attempt, contact your TAM with the following information:<br /><br /><ul><li>CustomerID</li><li>Date and time that the errors occurred.</li><li>The ID in the WebRequestActivityId response header.</li></ul>
 
@@ -60,7 +60,7 @@ The following lists the error codes and messages that the API returns.
 |-|-
 |AuthenticationFailure|Authentication failed for unknown reasons.
 |InternalError|Internal server error.<br /><br />This is typically a transient error. Retry the request at 1, 5, and 20 minute intervals. If the request fails after the third attempt, contact your TAM with the following information:<br /><br /><ul><li>CustomerID</li><li>Date and time that the errors occurred.</li><li>The ID in the WebRequestActivityId response header.</li></ul>
-|IPAddressNotAllowed|Customer {custId} is not authorized to use IP address {clientIp}.<br /><br />The customer is not authorized to send transaction messages from the IP address. You must send the request from an authorized server IP address. Contact your TAM to update your list of authorized server IP addresses.
+|IPAddressNotAllowed|Customer {custId} is not authorized to use IP address {clientIp}.<br /><br />The customer is not authorized to send Price feeds from the IP address. You must send the request from an authorized server IP address. Contact your TAM to update your list of authorized server IP addresses.
 |NotAuthorized|The OAuth token that you set the Authorization header to is not valid.
 |RequestThrottled|Customer {customerId} exceeded the number of requests allowed.<br /><br />Customers may have a maximum of five requests queued or being processed. Sending a sixth request in this case will fail. 
-|RequestTooLarge|The request size ({requestSizeBytes} bytes) exceeds the maximum allowed ({maxAllowed} bytes).<br /><br /> The transaction message cannot exceed 100 MB or 10 MB compressed. Reduce the size of your transaction message to fit within the limits.
+|RequestTooLarge|The request size ({requestSizeBytes} bytes) exceeds the maximum allowed ({maxAllowed} bytes).<br /><br /> The Price feed cannot exceed 100 MB or 10 MB compressed. Reduce the size of your Price feed to fit within the limits.

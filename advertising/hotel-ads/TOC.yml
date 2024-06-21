@@ -1,45 +1,5 @@
 - name: Overview
   href: index.md
-- name: Hotel API
-  href: ../hotel-service/hotel-api.md
-  items:
-  - name: Get started
-    href: ../hotel-service/get-started.md
-  - name: Get started with a service
-    href: ../hotel-service/get-started-service.md
-  - name: Lodging campaigns (formerly hotel campaigns)
-    href: ../hotel-service/hotel-campaigns.md
-  - name: Manage lodging ad campaigns
-    href: ../hotel-service/manage-hotel-campaigns.md
-  - name: Get reports
-    href: ../hotel-service/reporting.md
-  - name: Conversion metrics
-    href: ../hotel-service/conversion-metrics.md
-  - name: Code examples
-    href: ../hotel-service/code-examples.md
-    displayName: .net c# csharp
-    items:
-    - name: Subaccounts
-      href: ../hotel-service/code-example-subaccounts.md
-    - name: Hotel Groups
-      href: ../hotel-service/code-example-hotel-groups.md
-    - name: Hotels
-      href: ../hotel-service/code-example-hotels.md
-    - name: Reporting
-      href: ../hotel-service/code-example-reporting.md
-    - name: Batch processing
-      href: ../hotel-service/code-example-batch.md
-    - name: OAuth
-      href: ../hotel-service/code-example-oauth.md
-      items:
-      - name: CodeGrantFlow
-        href: ../hotel-service/code-example-code-grant-flow.md
-      - name: Call CodeGrantFlow
-        href: ../hotel-service/code-example-call-code-grant-flow.md
-  - name: Hotel API reference
-    href: ../hotel-service/reference.md
-  - name: Throttling requests
-    href: ../hotel-service/throttle-requests.md
 - name: Query Message
   href: ../query-message/query-message.md
   items:
@@ -62,50 +22,50 @@
     href: ../hint-message/reference.md
   - name: Hint message schema
     href: ../hint-message/schema.md
-- name: Transaction Message
+- name: Price feed (formerly Transaction message)
   href: ../transaction-message/transaction-message.md
   items:
   - name: Get started
     href: ../transaction-message/get-started.md
-  - name: Create a Transaction message
+  - name: Create a Price feed
     href: ../transaction-message/create-transaction-message.md
-  - name: Create a metadata Transaction message
+  - name: Create a metadata Price feed
     href: ../transaction-message/create-metadata-transaction-message.md
   - name: Use room bundles
     href: ../transaction-message/using-room-bundles.md
-  - name: Pull Transaction messages
+  - name: Pull Price feeds
     href: ../transaction-message/pull-transaction-message.md
-  - name: Push Transaction messages
+  - name: Push Price feeds
     href: ../transaction-message/push-transaction-message.md
-  - name: Validate your Transaction message
+  - name: Validate your Price feeds
     href: ../transaction-message/validate-transaction-message.md
-  - name: Transaction message reference
+  - name: Price feed reference
     href: ../transaction-message/reference.md
   - name: Error codes and messages
     href: ../transaction-message/error-codes-messages.md
-  - name: Google and Bing Transaction message differences
+  - name: Google and Bing Price feed differences
     href: ../transaction-message/google-bing-transaction-message-differences.md
-  - name: Transaction message schemas
+  - name: Price feed schemas
     href: ../transaction-message/schemas.md
-- name: Hotel Feed
+- name: Property feed (formerly Hotel feed)
   href: ../hotel-feed/hotel-feed.md
   items:
-  - name: Create a CSV Hotel Feed
+  - name: Create a CSV Property feed
     href: ../hotel-feed/create-csv-hotel-feed.md
-  - name: Create an XML Hotel Feed
+  - name: Create an XML Property feed
     href: ../hotel-feed/create-hotel-feed.md
-  - name: Validate your Hotel Feed
+  - name: Validate your Property feed
     href: ../hotel-feed/validate-hotel-feed.md
-  - name: Hotel Feed Reference
+  - name: Property feed reference
     href: ../hotel-feed/reference.md
-- name: Points of Sale Feed
+- name: Landing pages feed (formerly Points of sale (POS) feed)
   href: ../pos-feed/pos-feed.md
   items:
-  - name: Create a Points of Sale Feed
+  - name: Create a Landing pages feed (formerly Points of sale (POS) feed)
     href: ../pos-feed/create-pos-feed.md
-  - name: Validate your Points of Sale Feed
+  - name: Validate your Landing pages feed (formerly Points of sale (POS) feed)
     href: ../pos-feed/validate-pos-feed.md
-  - name: Points of Sale reference
+  - name: Landing pages (formerly Points of sale (POS)) reference
     href: ../pos-feed/reference.md
 - name: Release notes
   href: release-notes.md

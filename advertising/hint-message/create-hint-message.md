@@ -66,7 +66,7 @@ When you get the Query message, your response should contain a [Transaction](../
   </Result>
 ```
 
-If the above hint specified two properties, the transaction message would contain two \<Result\> elements (one for each property).
+If the above hint specified two properties, the Price feed would contain two \<Result\> elements (one for each property).
 
 
 ## Check-in date ranges
@@ -143,12 +143,12 @@ When you get the Query message, your response should contain a [Transaction](../
   </Result>
 ```
 
-For this example, the maximum number of results that the transaction message should contain is 18 (6 check-in dates * 3 nights). Your transaction message may contain less if some itineraries with the date range did not change.
+For this example, the maximum number of results that the Price feed should contain is 18 (6 check-in dates * 3 nights). Your Price feed may contain less if some itineraries with the date range did not change.
 
 
 ## Expanded check-in date ranges
 
-The expanded check-in date range hint is similar to the check-in date range hint except it asks that you include all itineraries that intersect the itineraries in the date range. So your transaction message should include any itinerary whose check-out date falls within the date range.
+The expanded check-in date range hint is similar to the check-in date range hint except it asks that you include all itineraries that intersect the itineraries in the date range. So your Price feed should include any itinerary whose check-out date falls within the date range.
 
 The \<StaysIncludingRange\> identifies the hint as an expanded check-in date range hint. To specify the range, set the `FirstDate` element to the starting check-in date and the `LastDate` to the last check-in date. The following example shows a hint message that uses a date range to specify six check-in dates for a single property.
 

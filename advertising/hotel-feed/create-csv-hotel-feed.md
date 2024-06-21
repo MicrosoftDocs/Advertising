@@ -1,6 +1,6 @@
 ---
-title: "Create CSV Hotel Feed"
-description: Shows how to create a CSV hotel feed file that lists the hotel properties you want to advertise.
+title: "Create CSV Property feed (formerly Hotel feed)"
+description: Shows how to create a CSV property feed file that lists the hotel properties you want to advertise.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
@@ -8,27 +8,27 @@ ms.author: jonmeyers
 ---
 
 
-# Create a CSV Hotel Feed file
+# Create a CSV Property feed (formerly Hotel feed) file
 
 > [!NOTE]
 > This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
-> The Hotel feed and documentation are subject to change. 
+> The Property feed and documentation are subject to change. 
 
 To provide Microsoft your hotel listings, create a CSV file that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, and geographical coordinates.
 
-For information about creating a feed file using an XML document, see [Creating an XML Hotel Feed file](create-hotel-feed.md).
+For information about creating a feed file using an XML document, see [Creating an XML Property feed file](create-hotel-feed.md).
 
 > [!NOTE]
-> The hotel feed supports only the English language.
+> The Property feed supports only the English language.
 > 
 > CSV format doesn't support images. Use XML format instead.
 
 ## Getting the data right
 
-Because Microsoft attempts to match properties in your hotel feed to businesses in Bing Maps, it is important that the data you provide about the hotel is accurate and complete.
+Because Microsoft attempts to match properties in your Property feed to businesses in Bing Maps, it is important that the data you provide about the hotel is accurate and complete.
 
-If your hotel has missing or incorrect information, Microsoft may not be able to match it. If Microsoft cannot match the hotel, Microsoft will not advertise it. After your TAM imports your hotel feed file, they'll send you a report that indicates which hotels Microsoft matched or didn't match. If Microsoft didn't match the hotel, the report includes the message, *Unable to match this hotel to a property in Bing*. For help improving your match rate, work with your TAM.
+If your hotel has missing or incorrect information, Microsoft may not be able to match it. If Microsoft cannot match the hotel, Microsoft will not advertise it. After your TAM imports your Property feed file, they'll send you a report that indicates which hotels Microsoft matched or didn't match. If Microsoft didn't match the hotel, the report includes the message, *Unable to match this hotel to a property in Bing*. For help improving your match rate, work with your TAM.
 
 
 
@@ -40,7 +40,7 @@ The following is the list of columns that you may include in the feed. The feed 
 
 |Column name|Description|Data type|Required
 |-|-|-|-
-|id|An opaque, user-defined ID that uniquely identifies the hotel within the feed.<br /><br />When you create your transaction message, use this ID in the `Property` element of your transaction message to identify the hotel.|String|Yes
+|id|An opaque, user-defined ID that uniquely identifies the hotel within the feed.<br /><br />When you create your Price feed, use this ID in the `Property` element of your Price feed to identify the hotel.|String|Yes
 |name|The hotel's name. The name may contain a maximum of 200 characters.|String|Yes
 |address|The street address of the hotel using free-form text. Separate each component of the address with a comma and enclose the address in quotes. For example, "1234 Billings Way, Redmond, WA, 98030".<br /><br />Use this column only if you provide the address using free-form text; otherwise, use the address component columns such as addr1, city, and province. It's preferred that you to use the address component columns instead of using free-form text.|String|Yes
 |addr1|The hotel's street address. For example, 1234 Billings Way. The address must be a physical street address and not a post office box or other mailing-only address.|String|Yes
@@ -62,7 +62,7 @@ The following is the list of columns that you may include in the feed. The feed 
 >  
 > Although you may specify either geographical coordinates or a telephone number, you should specify both to ensure a better chance of matching properties in Bing Maps.
 >
-> To include a description, images, and reviews for a listing, use an XML feed file. See [Create an XML Hotel Feed file](create-hotel-feed.md).
+> To include a description, images, and reviews for a listing, use an XML feed file. See [Create an XML Property feed file](create-hotel-feed.md).
 
 The following shows an example header in CSV format. Separate all columns with a comma. Include only columns that contain values for at least one hotel.
 
@@ -93,7 +93,7 @@ If you remove a hotel and add it back in a later feed with the same property val
 
 Ask your account manager to import the feed file.
 
-Be sure to also import your points of sale data. For information about creating your points of sale feed file, see [Points of Sale Feed](../pos-feed/pos-feed.md).
+Be sure to also import your Landing pages data. For information about creating your Landing pages feed file, see [Landing pages Feed](../pos-feed/pos-feed.md).
 
-After Microsoft successfully imports your data and is able to match your hotels with properties in Bing Maps, you may begin sending your hotel pricing and availability data. For information, see [Transaction Messages](../transaction-message/transaction-message.md). 
+After Microsoft successfully imports your data and is able to match your hotels with properties in Bing Maps, you may begin sending your hotel pricing and availability data. For information, see [Price feeds](../transaction-message/transaction-message.md). 
 

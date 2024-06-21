@@ -1,20 +1,20 @@
 ---
-title: "Hotel Feed Reference"
-description: Describes the schema used to create a hotel feed file.
+title: "Property feed (formerly Hotel feed) reference"
+description: Describes the schema used to create a property feed file.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Hotel Feed reference
+# Property feed (formerly Hotel feed) reference
 
 > [!NOTE]
 > This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 
-If you create hotel price ads in Bing, you must use a hotel feed to provide Bing information about the hotels that you advertise. You must define and import your hotel feed prior to sending Bing [Transaction Messages](../transaction-message/transaction-message.md). 
+If you create hotel price ads in Bing, you must use a Property feed to provide Bing information about the hotels that you advertise. You must define and import your property feed prior to sending Bing [Price feeds](../transaction-message/transaction-message.md). 
 
-For information about creating a hotel feed, see [Creating a Hotel Feed](../hotel-feed/create-hotel-feed.md).
+For information about creating a property feed, see [Creating a Property feed](../hotel-feed/create-hotel-feed.md).
 
 > [!NOTE]
 > The elements must be specified in the order defined by the [Hotel XSD](https://bhacstatic.blob.core.windows.net/schemas/hotelv2.xsd) (and as listed in this topic).
@@ -26,11 +26,11 @@ For information about creating a hotel feed, see [Creating a Hotel Feed](../hote
 
 ## Listings
 
-Defines the top-level element of a hotel feed.
+Defines the top-level element of a property feed.
 
 |Element|Description|Children
 |-|-|-
-|listings|The top-level element in a hotel feed.|[Listings Type](#listingstype)
+|listings|The top-level element in a property feed.|[Listings Type](#listingstype)
 
  
 <a name="listingstype"></a> 
@@ -54,7 +54,7 @@ Defines a hotel.
 
 |Element|Description|Children
 |-|-|-
-|id|Required.<br />Data type is string.<br /><br />An opaque, user-defined ID that uniquely identifies the hotel in the feed. <br /><br />When you create your transaction message, use this ID in the `Property` element of your transaction message to identify the hotel. |None
+|id|Required.<br />Data type is string.<br /><br />An opaque, user-defined ID that uniquely identifies the hotel in the feed. <br /><br />When you create your Price feed, use this ID in the `Property` element of your Price feed to identify the hotel. |None
 |name|Required.<br />Data type is string.<br /><br />The hotel's name. The name may contain a maximum of 200 characters. |None
 |address|Required.<br />Data type is string or [Component Type](#componenttype).<br /><br />The street address of the hotel.<br /><br />Notes:<ul><li>You may specify the address using free-form text in the body of the `address` element or using `component` child elements to specify the components of the address (see [Component Type](#componenttype)).</li><li>You're encouraged to use `component` elements to specify the address' components.</li><li>If you use free-form text, separate each component of the address with a comma. For example, 1234 Billings Way, Redmond, WA, 98030.</li></ul>|[Component Type](#componenttype)
 |country|Required.<br />Data type is string.<br /><br/>The country where the hotel is located. Specify the country using the two-letter ISO 3116 country code. For example, use **US** for United States.|None

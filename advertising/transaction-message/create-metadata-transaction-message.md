@@ -1,19 +1,19 @@
 ---
-title: "Creating a metadata Transaction Message"
-description: Shows how to create a metadata transaction message that describes room and package data used to create room bundles.
+title: "Creating a metadata Price feed (formerly Transaction message)"
+description: Shows how to create a metadata Price feed that describes room and package data used to create room bundles.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Create a metadata Transaction Message
+# Create a metadata Price feed (formerly Transaction message)
 
-If you use room bundles, typically you create a Transaction message that contains only room and package data. Using a separate message for the metadata is better than including it in the same message with itinerary data since it doesn't change as often as the itinerary data, and it frees up space for the itinerary data.
+If you use room bundles, typically you create a Price feed that contains only room and package data. Using a separate message for the metadata is better than including it in the same message with itinerary data since it doesn't change as often as the itinerary data, and it frees up space for the itinerary data.
 
-Transaction messages are limited to 100 MB of uncompressed data or 10 MB of compressed data (using GZip compression). To reduce network traffic, you should send compressed data.
+Price feeds are limited to 100 MB of uncompressed data or 10 MB of compressed data (using GZip compression). To reduce network traffic, you should send compressed data.
 
-The transaction message should contain only the metadata that you're adding or updating &mdash; do not include metadata that has not changed since the last time you sent a message. 
+The Price feed should contain only the metadata that you're adding or updating &mdash; do not include metadata that has not changed since the last time you sent a message. 
 
 The document must use UTF-8 encoding and must conform to the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
 
@@ -21,7 +21,7 @@ The document must use UTF-8 encoding and must conform to the [Transaction XSD](h
 > You must read and follow all Hotel Price Ads policies. For the list of policies, see [Pilot programs policies](https://advertise.bingads.microsoft.com/en-us/resources/policies/pilot-programs#Hotel%20Ads).
 
 > [!NOTE]
-> Bing does not support all Transaction XSD elements. Bing ignores any element or attribute in the message that it does not support. The [Transaction Message Reference](../transaction-message/reference.md) includes only those elements and attributes that Bing supports. 
+> Bing does not support all Transaction XSD elements. Bing ignores any element or attribute in the message that it does not support. The [Price feed Reference](../transaction-message/reference.md) includes only those elements and attributes that Bing supports. 
 
 > [!NOTE]
 > The message must specify the elements in the order defined in the Transaction XSD (or as shown in the reference).
@@ -32,7 +32,7 @@ The document must use UTF-8 encoding and must conform to the [Transaction XSD](h
 
 ## The top-level Transaction element
 
-To provide Bing your room and package data, create an XML document that contains a Transaction message. The message contains a single, top-level [Transaction](reference.md#transaction) element. 
+To provide Bing your room and package data, create an XML document that contains a Price feed. The message contains a single, top-level [Transaction](reference.md#transaction) element. 
 
 ```xml
 <Transaction timestamp="2017-05-25T20:44:56-04:00" id="de0be689-d094-406e-
@@ -43,13 +43,13 @@ You must specify the `timestamp` and `id` attributes.
 
 The `timestamp` attribute should identify the time that you submit the message. Bing uses the time stamp to ensure that it processes only the latest metadata. For example, if Bing processes a message with a time stamp of 14:10 and then processes a message with a time stamp of 14:09, Bing only processes the metadata in the 14:09 message that were not included in the 14:10 message.
 
-The `id` attribute is a user-defined ID that uniquely identifies the message to the advertiser. The advertiser uses the ID to identify the message in the list of hotel feed status reports. 
+The `id` attribute is a user-defined ID that uniquely identifies the message to the advertiser. The advertiser uses the ID to identify the message in the list of property feed status reports.
 
 ## Specifying the metadata
 
 The `Transaction` element contains a list of [PropertyDataSet](reference.md#propertydataset-type) elements, one for each property you're defining metadata for. The message should include only new metadata or those that have changed.
 
-The following shows a `PropertyDataSet` element for property 12345. The `Property` ID must match the ID of a property in your hotel feed file. You may specify any number of `RoomData` and `PackageData` element.
+The following shows a `PropertyDataSet` element for property 12345. The `Property` ID must match the ID of a property in your property feed file. You may specify any number of `RoomData` and `PackageData` element.
 
 ```xml
   <PropertyDataSet>
@@ -132,10 +132,10 @@ Specify a `PackageData` object for each package of amenities you define. Althoug
 
 ## Next steps
 
-Before sending transaction messages, make sure your hotel feed file is up to date. To update the feed files, contact your TAM. After the TAM imports the data into Bing, you may begin sending transaction messages. Transaction messages sent before the data is imported will fail.
+Before sending Price feeds, make sure your property feed file is up to date. To update the feed files, contact your TAM. After the TAM imports the data into Bing, you may begin sending Price feeds. Price feeds sent before the data is imported will fail.
 
-Validate the transaction message before sending it to Bing. For information, see [Validating your Transaction Message](../transaction-message/validate-transaction-message.md).
+Validate the Price feed before sending it to Bing. For information, see [Validating your Price feed](../transaction-message/validate-transaction-message.md).
 
-For information about sending Bing your transaction message, see [Pushing Transaction Messages to Bing](../transaction-message/push-transaction-message.md) or [Having Bing Pull Transaction Messages](pull-transaction-message.md).
+For information about sending Bing your Price feed, see [Pushing Price feeds to Bing](../transaction-message/push-transaction-message.md) or [Having Bing Pull Price feeds](pull-transaction-message.md).
 
 For information about using the metadata in your itineraries, see [Using Room Bundles](using-room-bundles.md).

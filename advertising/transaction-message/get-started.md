@@ -1,20 +1,20 @@
 ---
-title: "Get Started with Transaction Messages"
-description: Quick start guide to getting started with Transaction Messages
+title: "Get Started with Price feeds (formerly Transaction messages)"
+description: Quick start guide to getting started with Price feeds.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Get started with Transaction Messages
+# Get started with Price feeds (formerly Transaction messages)
 
 > [!NOTE]
 > This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 
-If you create hotel ad campaigns in Microsoft Advertising, use transaction messages to update your itinerary data (pricing and availability). 
+If you create hotel ad campaigns in Microsoft Advertising, use Price feeds to update your itinerary data (pricing and availability). 
 
-Before you can send Microsoft transaction messages, you must contact your account manager to sign up.
+Before you can send Microsoft Price feeds, you must contact your account manager to sign up.
 
 ## Different modes for sending Microsoft your itinerary data
 
@@ -24,15 +24,14 @@ Before you can send Microsoft transaction messages, you must contact your accoun
 - Pull mode
 - Pull mode with hints
 
-With the **push mode**, you send Microsoft your unsolicited updates at the intervals you choose. To use this mode, you must provide the IPv4 addresses (or address ranges in CIDR format) of all servers that you will use to send transaction messages. For information, see [Pushing Transaction Messages to Microsoft](../transaction-message/push-transaction-message.md).
+With the **push mode**, you send Microsoft your unsolicited updates at the intervals you choose. To use this mode, you must provide the IPv4 addresses (or address ranges in CIDR format) of all servers that you will use to send Price feeds. For information, see [Pushing Price feeds to Microsoft](../transaction-message/push-transaction-message.md).
 
-With the **pull mode** options, Microsoft sends you [Query messages](../query-message/query-message.md) that specifies the hotel itinerary data you should return. The difference between the two pull modes is the amount of data that you send to Microsoft. With **pull mode**, you return data for all itineraries and all hotels. But with **pull with hints**, you tell Microsoft what data changed and it requests only that data. For information, see [Having Microsoft Pull Transaction Messages](../transaction-message/pull-transaction-message.md).
+With the **pull mode** options, Microsoft sends you [Query messages](../query-message/query-message.md) that specifies the hotel itinerary data you should return. The difference between the two pull modes is the amount of data that you send to Microsoft. With **pull mode**, you return data for all itineraries and all hotels. But with **pull with hints**, you tell Microsoft what data changed and it requests only that data. For information, see [Having Microsoft Pull Price feeds](../transaction-message/pull-transaction-message.md).
 
 
+## What's a Price feed
 
-## What's a transaction message 
-
-A transaction message is an XML document that contains pricing and availability data for one or more hotel properties. For each hotel property, specify one `Result` element for each `Checkin` and `Nights` combination (also know as an itinerary) in your advanced booking window. If you allow five days advanced booking and stays of up to three-nights, your message would contain 15 `Result` elements. The following example shows one day's worth of itineraries.
+A Price feed is an XML document that contains pricing and availability data for one or more hotel properties. For each hotel property, specify one `Result` element for each `Checkin` and `Nights` combination (also know as an itinerary) in your advanced booking window. If you allow five days advanced booking and stays of up to three-nights, your message would contain 15 `Result` elements. The following example shows one day's worth of itineraries.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,7 +73,7 @@ The document must use UTF-8 encoding.
 
 ## Validate the message before sending it
 
-Before sending Microsoft the transaction message, use the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd) to validate the message. This saves time and round trips by catching document syntax errors and constraints imposed by the XSD. 
+Before sending Microsoft the Price feed, use the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd) to validate the message. This saves time and round trips by catching document syntax errors and constraints imposed by the XSD. 
 
 The following example shows using xmllint to validate the message contained in SampleTransaction.xml.
 
