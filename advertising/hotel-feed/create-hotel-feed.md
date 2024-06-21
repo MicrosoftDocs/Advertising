@@ -1,29 +1,29 @@
 ---
-title: "Creating a Hotel Feed"
-description: Shows how to create an XML hotel feed file that lists the hotel properties you want to advertise.
+title: "Creating a Property feed (formerly Hotel feed)"
+description: Shows how to create an XML property feed file that lists the hotel properties you want to advertise.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Create an XML Hotel Feed file
+# Create an XML Property feed (formerly Hotel feed) file
 
 [!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
 
 > [!NOTE]
 > This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 >
-> The Hotel feed and documentation are subject to change. 
+> The Property feed and documentation are subject to change. 
 
 To provide Microsoft your hotel listings, create an XML document that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, geographical coordinates, amenities, and more.
 
 The document must use UTF-8 encoding and must conform to the [Hotel XSD](https://bhacstatic.blob.core.windows.net/schemas/hotelv2.xsd). 
 
-For information about creating a feed file using CSV or TSV file format, see [Creating a CSV Hotel Feed file](create-csv-hotel-feed.md).
+For information about creating a feed file using CSV or TSV file format, see [Creating a CSV Property feed file](create-csv-hotel-feed.md).
 
 > [!NOTE]
-> Microsoft does not support all XSD elements. Microsoft ignores any element or attribute in the document that it does not support. The [Hotel Feed Reference](../hotel-feed/reference.md) includes only those elements and attributes that Microsoft supports. 
+> Microsoft does not support all XSD elements. Microsoft ignores any element or attribute in the document that it does not support. The [Property feed reference](../hotel-feed/reference.md) includes only those elements and attributes that Microsoft supports. 
 
 > [!NOTE]
 > The document must specify the elements in the order defined in the Hotel XSD (and as shown in the reference).
@@ -32,14 +32,14 @@ For information about creating a feed file using CSV or TSV file format, see [Cr
 
 ## Getting the data right
 
-Because Microsoft attempts to match properties in your hotel feed to businesses in Bing Maps, it is important that the data you provide about the hotel is accurate and complete.
+Because Microsoft attempts to match properties in your property feed to businesses in Bing Maps, it is important that the data you provide about the hotel is accurate and complete.
 
 If a hotel has missing or incorrect information, Microsoft may not be able to match it. If Microsoft cannot match the hotel, Microsoft will not advertise it. You will be able to view a matching report in the hotel center that indicates which hotels Microsoft matched or didn't match. If Microsoft didn't match the hotel, the report includes the message, *Unable to match this hotel to a property in Bing*. For help improving your match rate, please ensure they are available in Bing places for business.
 
 
 ## The top-level element in your feed
 
-The hotel feed contains a single, top-level [listings](../hotel-feed/reference.md#listings) element. The `listings` element contains two required child elements: `language` and `listing`. 
+The property feed contains a single, top-level [listings](../hotel-feed/reference.md#listings) element. The `listings` element contains two required child elements: `language` and `listing`. 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -167,9 +167,9 @@ If you remove a hotel and add it back in a later feed with the same property val
 
 ## General rules
 
-- Use the Hotel XSD to validate your hotel feed file before sending it to Microsoft.
+- Use the Hotel XSD to validate your property feed file before sending it to Microsoft.
   
-- The hotel feed document must use UTF-8 encoding.
+- The property feed document must use UTF-8 encoding.
   
 - The feed must include listings for all your hotels&mdash; the feed process does not support partial updates.
   
@@ -191,6 +191,6 @@ After creating your feed file, use the [Hotel XSD](https://bhacstatic.blob.core.
 
 Ask your account manager to import the feed file.
 
-Be sure to also import your points of sale data. For information about creating your points of sale feed file, see [Points of Sale Feed](../pos-feed/pos-feed.md).
+Be sure to also import your Landing pages data. For information about creating your Landing pages feed file, see [Landing pages Feed](../pos-feed/pos-feed.md).
 
-After Microsoft successfully imports your data and is able to match your hotels with properties in Bing Maps, you may begin sending your hotel pricing and availability data. For information, see [Transaction Messages](../transaction-message/transaction-message.md). 
+After Microsoft successfully imports your data and is able to match your hotels with properties in Bing Maps, you may begin sending your hotel pricing and availability data. For information, see [Price feeds](../transaction-message/transaction-message.md). 

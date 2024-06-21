@@ -27,7 +27,7 @@ You can track bookings at the hotel, hotel group, or subaccount level. But befor
 |hct_checkin_date|Yes|The booking's checkin date in the form, YYYY-MM-DD.
 |hct_checkout_date|Yes|TThe booking's checkout date in the form, YYYY-MM-DD. Not required if you specify hct_length_of_stay.
 |hct_length_of_stay|Yes|The number of nights the booking is for. Not required if you specify hct_checkout_date.
-|hct_partner_hotel_id|Yes|The ID that you used to identify the hotel in your hotel feed.
+|hct_partner_hotel_id|Yes|The ID that you used to identify the hotel in your property feed.
 |hct_booking_xref|Yes|The encrypted or obfuscated booking reference number.
 
 ## Example UET tag

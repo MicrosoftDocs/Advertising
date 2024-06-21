@@ -1,15 +1,15 @@
 ---
-title: "Sending Microsoft Transaction Messages"
-description: Provides the details for sending transaction messages to Microsoft Advertising.
+title: "Sending Microsoft Price feeds (formerly Transaction messages)"
+description: Provides the details for sending price feeds to Microsoft Advertising.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Pushing Transaction Messages to Microsoft Advertising
+# Pushing Price feeds (formerly Transaction messages) to Microsoft Advertising
 
-Before sending a transaction message:
+Before sending a price feed:
 
 - Validate the message to ensure that it's compliant with the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). This will save you round trips and time having to fix errors.
   
@@ -34,7 +34,7 @@ For details about getting an OAuth access token, see [Getting Started](../hotel-
 You may also specify the following optional headers:
 
 - Content-Encoding: gzip  
-  Specify this header if you compress the transaction message (recommended).
+  Specify this header if you compress the price feed (recommended).
   
 - X-Transaction-ID: \<user-defined ID\>  
   An opaque, user-defined ID that advertisers use to uniquely identifies the message. If you include this header, the ID must match the ID in the [Transaction](../transaction-message/reference.md) element's `id` attribute. 
@@ -70,7 +70,7 @@ The POST request places the message in a queue to be processed and then returns.
 To determine whether Microsoft successfully processed the message, see Hotel Price Ads Feed Status in the Microsoft Hotel Center of Microsoft Advertising web application.
 
 
-If the request succeeds (the message is successfully placed in the queue), the response's body includes an XML document that specifies the number of bytes read (`BytesReceived`) from the request's body (the transaction message). 
+If the request succeeds (the message is successfully placed in the queue), the response's body includes an XML document that specifies the number of bytes read (`BytesReceived`) from the request's body (the price feed).
 
 ```xml
 <TxnResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.BingAds.BHAC.HotelAdsAPIs.Models">
@@ -90,4 +90,4 @@ The response includes the WebRequestActivityId response header. The header conta
 
 ## How often do I need to send messages
 
-Send transaction messages whenever pricing and availability changes.
+Send price feeds whenever pricing and availability changes.

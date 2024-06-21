@@ -1,13 +1,13 @@
 ---
-title: "Having Microsoft Advertising pull Transaction Messages"
-description: Provides the details for having Microsoft Advertising pull transaction messages.
+title: "Having Microsoft Advertising pull Price feeds (formerly Transaction messages)"
+description: Provides the details for having Microsoft Advertising pull price feeds.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Having Microsoft Advertising pull Transaction Messages
+# Having Microsoft Advertising pull Price feeds (formerly Transaction messages)
 
 Microsoft offers two pull modes:
 
@@ -33,7 +33,7 @@ Once a day Microsoft sends a request to the endpoint you specified asking for up
 
 ## Pull mode
 
-With **pull mode**, Microsoft sends you a [Query](../query-message/query-message.md) message that identifies the itineraries you send back in the response using a [Transaction](../transaction-message/create-transaction-message.md) message. The request identifies all itineraries. Microsoft may send multiple requests depending on the values that you specified for maximum advanced booking and nights stay, and the number of properties in your hotel feed. For information about processing the query message, see [Processing a Query Message](../query-message/process-query-message.md).
+With **pull mode**, Microsoft sends you a [Query](../query-message/query-message.md) message that identifies the itineraries you send back in the response using a [Transaction](../transaction-message/create-transaction-message.md) message. The request identifies all itineraries. Microsoft may send multiple requests depending on the values that you specified for maximum advanced booking and nights stay, and the number of properties in your property feed. For information about processing the query message, see [Processing a Query Message](../query-message/process-query-message.md).
 
 
 ## Pull with hints mode

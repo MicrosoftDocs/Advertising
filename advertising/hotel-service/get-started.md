@@ -99,14 +99,10 @@ For information about the Authorization header and other headers that the reques
 
 <a name="feeds"></a>
 
-## Do you have your hotel feed set up?
+## Do you have your property feed set up?
 
-Before using the Hotel API, you should have your hotel feeds set up. For details, see:
+Before using the Hotel API, you should have your property feed set up. For details, see:
 
-- [Hotel Feed](../hotel-feed/hotel-feed.md)
-- [Points of Sale Feed](../pos-feed/pos-feed.md) 
-- [Transaction Message](../transaction-message/transaction-message.md) 
-
-
-
-
+- [Property feed (formerly Hotel feed)](../hotel-feed/hotel-feed.md)
+- [Landing pages feed (formerly Points of sale (POS) feed](../pos-feed/pos-feed.md)
+- [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md)

@@ -1,31 +1,31 @@
 ---
-title: "Creating a Points of Sale Feed"
-description: Shows how to create a points of sale feed file that contains a list of booking sites.
+title: "Creating a Landing pages feed (formerly Points of sale (POS) feed)"
+description: Shows how to create a Landing pages feed file that contains a list of booking sites.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
 ---
 
-# Create a Points of Sale Feed
+# Create a Landing pages feed (formerly Points of Sale (POS) feed)
 
 > [!NOTE]
 > This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
 
-To provide Bing your points of sale data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
+To provide Bing your Landing pages data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
 
 
 The document must use UTF-8 encoding and must conform to the [PointsOfSale XSD](https://bhacstatic.blob.core.windows.net/schemas/point_of_sale.xsd). 
 
 > [!NOTE]
-> Bing does not support all XSD elements. Bing ignores any element or attribute in the document that it does not support. The [Points of Sale Reference](../pos-feed/reference.md) includes only those elements and attributes that Bing supports. 
+> Bing does not support all XSD elements. Bing ignores any element or attribute in the document that it does not support. The [Landing pages reference](../pos-feed/reference.md) includes only those elements and attributes that Bing supports. 
 
 > [!NOTE]
 > The document must specify the elements in the order defined in the PointsOfSale XSD (or as shown in the reference).
 
 ## The top-level element in your feed
 
-The points of sale feed contains a single, top-level [PointsOfSale](../pos-feed/reference.md#pointsofsale) element. The `PointsOfSale` element requires a [PointOfSale](../pos-feed/reference.md#pointofsaletype) child element for each site that users can use to book a room. 
+The Landing pages feed contains a single, top-level [PointsOfSale](../pos-feed/reference.md#pointsofsale) element. The `PointsOfSale` element requires a [PointOfSale](../pos-feed/reference.md#pointofsaletype) child element for each site that users can use to book a room. 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -42,9 +42,9 @@ The `PointOfSale` element describes the POS's display name, URL, and criteria fo
 
 ## Defining a point of sale
 
-The `PointsOfSale` element contains a list of [PointOfSale](../pos-feed/reference.md#pointofsaletype) elements, one for each POS site that users can use to book rooms. The list must contain points of sale for a single partner.
+The `PointsOfSale` element contains a list of [PointOfSale](../pos-feed/reference.md#pointofsaletype) elements, one for each POS site that users can use to book rooms. The list must contain Landing pages for a single partner.
 
-The following shows `PointOfSale` elements that define points of sale for English speaking users. The first `PointOfSale` element defines a POS for English speaking end users on any device, and the second `PointOfSale` element defines a POS for English speaking end users on mobile devices. The POS URL includes details about the transaction, such as the check-in and check-out dates, hotel ID, and user language. Bing uses the display name and POS URL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site. If you are using [Tracking Templates](../bingads-13/guides/url-tracking-upgraded-urls.md#trackingtemplatevalidation) for performance tracking, then the Landing Page URL LPURL element needs to be configured in the POS feed file in order for tracking to work. Bing uses the display name and POS URL or LPURL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site.
+The following shows `PointOfSale` elements that define Landing pages for English speaking users. The first `PointOfSale` element defines a POS for English speaking end users on any device, and the second `PointOfSale` element defines a POS for English speaking end users on mobile devices. The POS URL includes details about the transaction, such as the check-in and check-out dates, hotel ID, and user language. Bing uses the display name and POS URL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site. If you are using [Tracking Templates](../bingads-13/guides/url-tracking-upgraded-urls.md#trackingtemplatevalidation) for performance tracking, then the Landing Page URL LPURL element needs to be configured in the POS feed file in order for tracking to work. Bing uses the display name and POS URL or LPURL to create a hyperlink that's added to the ad. When the user clicks the link, they're taken to the booking site.
 
 ```xml
   <PointOfSale id="English">
@@ -61,11 +61,11 @@ The following shows `PointOfSale` elements that define points of sale for Englis
   </PointOfSale>
 ```
 
-Include the `DisplayNames` element only for online travel agencies. Don't include `DisplayNames` for central reservations system (CRS) suppliers (also known as integration partners) and direct suppliers (such as hotel owners or chains). For CRS suppliers and direct suppliers, Bing uses the hotel's name from the hotel feed.
+Include the `DisplayNames` element only for online travel agencies. Don't include `DisplayNames` for central reservations system (CRS) suppliers (also known as integration partners) and direct suppliers (such as hotel owners or chains). For CRS suppliers and direct suppliers, Bing uses the hotel's name from the property feed.
 
 If you include `DisplayNames`, you must include a `Match` element that has the language criterion set to the same language.
 
-Bing uses the POS that best matches the user based on the POS's matching criteria. Based on the above matching criteria, users on mobile devices will use the English-Mobile POS and everyone else will use the English POS. For information about how Bing matches users to a POS, see [Matching points of sale](#matching-points-of-sale). For a list of criterion that you can match on, see the [Match](../pos-feed/reference.md#match) element.
+Bing uses the POS that best matches the user based on the POS's matching criteria. Based on the above matching criteria, users on mobile devices will use the English-Mobile POS and everyone else will use the English POS. For information about how Bing matches users to a POS, see [Matching Landing pages](#matching-points-of-sale). For a list of criterion that you can match on, see the [Match](../pos-feed/reference.md#match) element.
 
 The `URL` element specifies the link to the site where the user can book the room. The example shows using dynamic query parameters. Bing substitutes values for the dynamic variables at runtime. For information about using dynamic query parameters, see [Using dynamic query parameters](#using-dynamic-query-parameters).
 
@@ -74,7 +74,7 @@ The `URL` element specifies the link to the site where the user can book the roo
 > If you specify the language and country matching criterion, they must be set to **en** and **US** only.
 
 
-The following shows a complete points of sale XML document.
+The following shows a complete Landing pages XML document.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -94,9 +94,9 @@ The following shows a complete points of sale XML document.
 ```
 
 
-## Matching points of sale
+## Matching Landing pages
 
-Points of sale include a `Match` element that contains the criteria that Bing uses to match a user to a POS. The following are the criterion that Bing uses to match users to points of sale. The list is in order of preference.
+Landing pages include a `Match` element that contains the criteria that Bing uses to match a user to a POS. The following are the criterion that Bing uses to match users to Landing pages. The list is in order of preference.
 
 - country
 - currency
@@ -113,7 +113,7 @@ Bing uses the following rules to find the best POS match.
   
 - If `Match` specifies one or more criterion, Bing uses the POS with the most explicit matches.  
    
-- If the user matches multiple points of sale, Bing uses the POS with the best match quality. If multiple points of sale have the same match quality, Bing uses the first POS that it found with that match quality. Match quality is based on:  
+- If the user matches multiple Landing pages, Bing uses the POS with the best match quality. If multiple Landing pages have the same match quality, Bing uses the first POS that it found with that match quality. Match quality is based on:  
   - Matches with the highest preference. For example, if one POS matches only on the user's currency and another matches only on the user's device, Bing uses the POS that matches the user's currency because it's higher in the preferred order.  
   - Explicit matches are preferred over implicit matches. For example, if one POS matches explicitly to the user's country and another matches implicitly to the user's country, Bing uses the POS that explicitly matches.
 
@@ -129,7 +129,7 @@ The `Match` element's status attribute determines whether to include or exclude 
 </PointOfSale>
 ``` 
 
-If status is *yes*, Bing will not eliminate any points of sale from consideration that do not explicitly match all criterion, but preference is given to the POS that matches the most criterion. In the following example, Bing explicitly matches the user to the POS if the user's country is France. If the user's country is not France, the POS will still be considered until a better match is found. If a better match is not found, Bing will use the POS.
+If status is *yes*, Bing will not eliminate any Landing pages from consideration that do not explicitly match all criterion, but preference is given to the POS that matches the most criterion. In the following example, Bing explicitly matches the user to the POS if the user's country is France. If the user's country is not France, the POS will still be considered until a better match is found. If a better match is not found, Bing will use the POS.
 
 
 ```
@@ -159,25 +159,25 @@ The following are the possible case-sensitive dynamic variable names that you ma
 |ADVANCE-BOOKING-WINDOW|The number of days in advance of the check-in date that the booking took place. For example, 36.
 |BING-SITE|The Bing property that originated the ad request. The following are the possible values.<ul><li>localuniversal&mdash;The ad originated from a search results page.</li><li>mapresults&mdash;The ad originated from a maps site.</li><li>PropertyPromotionAd&mdash;The ad originated from the first results page shown in a maps search.</li><li>unknown&mdash;The ad originated from an undetermined source.</li><li>verification&mdash;Bing uses this value when performing data quality tests on your site. You are not billed for these queries. Bing Analytics uses this parameter and its value for identifying Hotel Price Ads verification traffic.</li></ul>
 |CAMPAIGN-ID|The ID of the campaign that triggered the ad. For example, suppose your URL is *www<span>.northwindtraders</span>.com/(CAMPAIGN-ID)*. Assuming that your campaign ID is 2410012280, the landing page URL of your ad will be *www<span>.northwindtraders</span>.com/2410012280*.
-|CHECKINDAY|The two-digit day specified in the `Checkin` element of the [Transaction Message](../transaction-message/reference.md#transaction). For example, 20.
+|CHECKINDAY|The two-digit day specified in the `Checkin` element of the [Price feed](../transaction-message/reference.md#transaction). For example, 20.
 |CHECKINDAY-OF-WEEK|The day of the week that the check-in takes place. Bing uses digits 0 through 6 to represent Monday through Sunday. For example, 1 is Tuesday.
-|CHECKINMONTH|The two-digit month specified in the `Checkin` element of the Transaction message. Bing uses digits 00 through 11 to represent January through December. For example, 05 is June.
-|CHECKINYEAR|The four-digit year specified in the `Checkin` element of the Transaction message. For example, 2021.
+|CHECKINMONTH|The two-digit month specified in the `Checkin` element of the Price feed. Bing uses digits 00 through 11 to represent January through December. For example, 05 is June.
+|CHECKINYEAR|The four-digit year specified in the `Checkin` element of the Price feed. For example, 2021.
 |CHECKOUTDAY|The two-digit day that the user checks out. Bing uses the `Nights` and `Checkin` elements of the TransactionMessage to calculate the day. For example, 23.
-|CHECKOUTMONTH|The two-digit month that the user checks out. Bing uses the `Nights` and `Checkin` elements of the Transaction Message to calculate the month. For example, 07.
-|CHECKOUTYEAR|The four-digit year that the user checks out. Bing uses the `Nights` and `Checkin` elements of the Transaction message to calculate the year. For example, 2021.
+|CHECKOUTMONTH|The two-digit month that the user checks out. Bing uses the `Nights` and `Checkin` elements of the Price feed to calculate the month. For example, 07.
+|CHECKOUTYEAR|The four-digit year that the user checks out. Bing uses the `Nights` and `Checkin` elements of the Price feed to calculate the year. For example, 2021.
 |CLICK-TYPE|Indicates whether the user clicked on a hotel ad or a room bundle ad. The following are the possible values.<ul><li>hotel&mdash;The user clicked on a hotel ad.</li><li>room&mdash;The user clicked on a room bundle ad.</li></ul> **NOTE:** Bing does not support the room option.
-|CUSTOM[1-5]|The values of the custom fields (for example, Custom1) specified in the [Result](../transaction-message/reference.md#result-type) element of the Transaction message.
+|CUSTOM[1-5]|The values of the custom fields (for example, Custom1) specified in the [Result](../transaction-message/reference.md#result-type) element of the Price feed.
 |DATE-TYPE|Indicates whether the user specified check-in and check-out dates. The following are the possible values.<ul><li>default&mdash;The user clicked on a hotel ad that used default dates.</li><li>selected&mdash;The user clicked on a hotel ad with specific check-in and check-out dates.</li></ul>
 |HOTELGROUP_ID|*Note*: HOTELGROUP_ID is a legacy parameter that refers to Hotel Center. Please use ADGROUP-ID instead.<br/><br/>The ID of the hotel group that the hotel ad belongs to.
-|LENGTH|The length of stay specified in the `Nights` element of the Transaction Message. For example, 3.
+|LENGTH|The length of stay specified in the `Nights` element of the Price feed. For example, 3.
 |NETWORK|The ad network type on which the ad was served.<ul><li>o = owned and operated (Bing, AOL, and Yahoo search results)</li><li>s = syndicated (search partner site results)</li><li>a = audience (Microsoft Audience Network placements)</li></ul>For example, suppose your URL is www<span>.northwindtraders</span>.com/network=(NETWORK). Assuming that your network (ad distribution) is Bing, AOL and Yahoo search (owned and operated) only, the landing page URL of your ad will be www<span>.northwindtraders</span>.com/network=o.
 |NUM-ADULTS|The number of adults occupying the room. The default value is 2.
-|PARTNER-CURRENCY|The three-letter currency code specified in the currency attribute of the `Baserate` element in the Transaction Message. For example, USD.
-|PARTNER-HOTEL-ID|The hotel's ID specified in the `id` element of the Hotel Feed.
+|PARTNER-CURRENCY|The three-letter currency code specified in the currency attribute of the `Baserate` element in the Price feed. For example, USD.
+|PARTNER-HOTEL-ID|The hotel's ID specified in the `id` element of the Property feed.
 |PARTNER-ROOM-ID|The ID that uniquely identifies the room. This is the ID specified in \<RoomID> element of the \<Result>, \<RoomBundle>, or \<RoomData> block, depending on usage.
-|PRICE-DISPLAYED-TAX|The amount of tax in the user's local currency. The tax amount is based on the `Tax` element specified in the Transaction Message. For example, 3.14. 
-|PRICE-DISPLAYED-TOTAL|The total cost of the room in the user's local currency. The amount is based on the sum of the `Baserate`, `Tax`, and `OtherFees` elements specified in the Transaction Message. For example, 152.13.
+|PRICE-DISPLAYED-TAX|The amount of tax in the user's local currency. The tax amount is based on the `Tax` element specified in the Price feed. For example, 3.14. 
+|PRICE-DISPLAYED-TOTAL|The total cost of the room in the user's local currency. The amount is based on the sum of the `Baserate`, `Tax`, and `OtherFees` elements specified in the Price feed. For example, 152.13.
 |SLOT_TYPE|The placement of the ad on the results page. The parameter may contain the following possible values:<ul><li>A&mdash;The priority slot where ads are shown on the results page when it loads.</li><li>B&mdash;The secondary slot where ads are shown only after the user clicks **More rates**.</li></ul>
 |SUBACCOUNT_ID|*Note*: SUBACCOUNT_ID is a legacy paramater that refers to Hotel Center. Please use CAMPAIGN-ID instead.<br/><br/>The ID of the subaccount that the hotel price ads campaign belongs to.
 |USER-COUNTRY|Two-letter country code of the country where the user is located. The value is extracted from the end-user's client settings. For example, US.
@@ -201,9 +201,9 @@ Before Bing uses the URL in the ad, it substitutes values for the dynamic variab
 
 `http://www.partnerdomain.com?hotelID=42&checkinDay=07&checkinMonth=05&checkinYear=2021&nights=6`
 
-Bing gets values for the dynamic parameters from your Transaction Message and Hotel Feed, as well as user-specific settings. For example, the value of the LENGTH variable comes from the `Nights` element in the Transaction Message, and the value of the PARTNER-HOTEL-ID variable comes from the `id` element in the Hotel Feed.
+Bing gets values for the dynamic parameters from your Price feed and Property feed, as well as user-specific settings. For example, the value of the LENGTH variable comes from the `Nights` element in the Price feed, and the value of the PARTNER-HOTEL-ID variable comes from the `id` element in the Property feed.
 
-Some variables are subsets of Transaction Message elements. For example, the CHECKINDAY, CHECKINMONTH, and CHECKINYEAR variables are extracted from the `Checkin` element. Other variables are calculated based on the user's locale and other client settings.
+Some variables are subsets of Price feed elements. For example, the CHECKINDAY, CHECKINMONTH, and CHECKINYEAR variables are extracted from the `Checkin` element. Other variables are calculated based on the user's locale and other client settings.
 
 
 ### General URL rules
@@ -259,11 +259,11 @@ http://partner.com?hotelID=123&checkinDay=23&checkinMonth=05&checkinYear=2021&ni
 
 ## General rules
 
-- Use the PointsOfSale XSD to validate your Points of Sale feed file before sending it to Bing.
+- Use the PointsOfSale XSD to validate your Landing pages feed file before sending it to Bing.
   
-- The points of sale feed document must use UTF-8 encoding.
+- The Landing pages feed document must use UTF-8 encoding.
   
-- The feed must include points of sale for all sites that users use to book rooms&mdash; the feed process does not support partial updates.
+- The feed must include Landing pages for all sites that users use to book rooms&mdash; the feed process does not support partial updates.
   
 - Bing ignores any element or attribute that it does not support.
   
@@ -283,6 +283,6 @@ After creating your feed file, use the [PointsOfSale XSD](https://bhacstatic.blo
 
 Ask your account manager to import the feed file.
 
-Be sure to also import your hotel data. For information about creating your hotel feed file, see [Hotel Feed](../hotel-feed/hotel-feed.md).
+Be sure to also import your hotel data. For information about creating your property feed file, see [Property Feed (formerly Hotel feed)](../hotel-feed/hotel-feed.md).
 
-After successfully importing your points of sale feed and hotel feed, you may begin sending your hotel pricing and availability data. For information, see [Transaction Messages](../transaction-message/transaction-message.md). 
+After successfully importing your Landing pages feed and property feed, you may begin sending your hotel pricing and availability data. For information, see [Price feeds](../transaction-message/transaction-message.md). 

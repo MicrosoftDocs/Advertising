@@ -51,7 +51,7 @@ Defines a hint.
 
 |Element|Description|Children
 |-|-|-
-|Property|The hotel ID. This ID must match an ID of a hotel in your Hotel Feeds file. Specify a \<Property\> element for each hotel that the hint applies to. |String
+|Property|The hotel ID. This ID must match an ID of a hotel in your Property feed file. Specify a \<Property\> element for each hotel that the hint applies to. |String
 | |The group that defines the options for specifying the exact date or date range that Bing should request data for. The option that you choose determines the elements that you include in the hint. |[itemmodechoicegroup](#itemmodechoicegroup)
 
 

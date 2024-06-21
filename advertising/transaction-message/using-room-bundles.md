@@ -9,7 +9,7 @@ ms.author: jonmeyers
 
 # Using room bundles
 
-By default, your itinerary data represents your least expensive, double-occupancy rooms. But if you define room and package data (see [Creating a metadata Transaction message](create-metadata-transaction-message.md)), you can include other rooms in you itinerary data using room bundles.
+By default, your itinerary data represents your least expensive, double-occupancy rooms. But if you define room and package data (see [Creating a metadata Price feed (formerly Transaction message)](create-metadata-transaction-message.md)), you can include other rooms in you itinerary data using room bundles.
 
 Here's what a default, base room itinerary looks like:
 
