@@ -16,7 +16,7 @@ Property Promotion ads have the following specifications:
 - The Property feed needs to be in XML format (CSV format doesn't support images).
 - A PPA must have one to five images (or more) in the Property feed. The best image aspect ratio is 4:3. Width and height are flexible.
 - You need to provide the price for the 6th and 7th Sundays from the current date when the *Length of Stay* is one night. For example, for June 24th 2024, you must provide prices for the nights between Sunday, August 4th and Monday, Aug 5th, and Sunday, Aug. 11th and Monday Aug. 12th for PPA to serve.
-- You need to provide the **category value** for each property in the property feed in one of the following formats ("vacation_rental" or "hotel", optionally followed by pipe symbol and a custom value:<br/>>br/>
+- You need to provide the **category value** for each property in the property feed in one of the following formats ("vacation_rental" or "hotel", optionally followed by pipe symbol and a custom value:<br/><br/>
     vacation_rental | ‘custom value’<br/>
     hotel | ‘custom value’<br/><br/>
   Learn more about [specifying optional hotel listing fields](https://learn.microsoft.com/en-us/advertising/hotel-feed/create-hotel-feed#specifying-optional-hotel-listing-fields) and [lodging property categories](https://help.ads.microsoft.com/#apex/ads/en/60192/-1).
