@@ -14,14 +14,14 @@ Lodging campaigns enable advertisers to showcase their properties on Bing.com ac
 Property Promotion ads have the following specifications:
 
 - The Property feed needs to be in XML format (CSV format doesn't support images).
-- A PPA must have one to five images (or more) in the Property feed. The best image aspect ratio is 4:3. Width and height are flexible.
-- You need to provide the price for the 6th and 7th Sundays from the current date when the *Length of Stay* is one night. For example, for June 24th 2024, you must provide prices for the nights between Sunday, August 4th and Monday, Aug 5th, and Sunday, Aug. 11th and Monday Aug. 12th for PPA to serve.
+- A PPA must have **one to five images** (or more) **in the Property feed**. The best image aspect ratio is 4:3. Width and height are flexible.
+- You need to **provide the price for the 6th and 7th Sundays** from the current date when the *Length of Stay* is one night. For example, for June 24th 2024, you must provide prices for the nights between Sunday, August 4th and Monday, Aug 5th, and Sunday, Aug. 11th and Monday Aug. 12th for PPAs to serve.
 - You need to provide the **category value** for each property in the property feed in one of the following formats ("vacation_rental" or "hotel", optionally followed by pipe symbol and a custom value:<br/>
-  &emsp;&emsp;vacation_rental | ‘custom value’<br/>
-  &emsp;&emsp;hotel | ‘custom value’<br/>
+  &emsp;&emsp;*vacation_rental* | 'custom value'<br/>
+  &emsp;&emsp;*hotel* | 'custom value'<br/>
   Learn more about [specifying optional hotel listing fields](https://learn.microsoft.com/en-us/advertising/hotel-feed/create-hotel-feed#specifying-optional-hotel-listing-fields) and [lodging property categories](https://help.ads.microsoft.com/#apex/ads/en/60192/-1).
 - Assign either the "Rental" or "Hotel" category in the property feed for it to display on Bing. If no category is assigned, we will apply the "Hotel" category by default.
-- You need to enable the PPA format in the Ad Group settings.
+- You need to enable the **PPA format** in **Ad Group settings**.
 
 You can decide how you want to send your itinerary data to Bing. Your options are pushing changes to Bing, having Bing send you requests for all itinerary data, or having Bing send you requests for itinerary data that you identify as having changed. 
 
