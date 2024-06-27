@@ -29,7 +29,7 @@ The [NetworkCriterion](networkcriterion.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="network"></a>Network|The network that you want to target.<br/><br/>Possible values are *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*.|[NetworkType](networktype.md)|
+|<a name="network"></a>Network|The network that you want to target.<br/><br/>Possible values are *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*.<br/><br/>*Note*: As of July 2024, Microsoft no longer offers the *SyndicatedSearchOnly* option as an ad distribution setting. We highly recommend that you switch to "The entire Microsoft Advertising Network" and leverage auto-biding to let Microsoft help you manage your budget.|[NetworkType](networktype.md)|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
