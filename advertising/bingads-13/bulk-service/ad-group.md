@@ -12,6 +12,9 @@ dev_langs:
 # Ad Group Record - Bulk
 Defines an ad group that can be uploaded and downloaded in a bulk file.
 
+> [!NOTE]
+> As of July 2024, you can no longer set the [Network Distribution](#networkdistribution) to *SyndicatedSearchOnly*. If you attempt to set it to *SyndicatedSearchOnly*, the *CampaignServiceInvalidNetwork* error will be returned.
+
 You can download all *Ad Group* records in the account by including the [DownloadEntity](downloadentity.md) value of *AdGroups* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. To include the [Keyword Relevance](#keywordrelevance), [Landing Page Relevance](#landingpagerelevance), [Landing Page User Experience](#landingpageuserexperience), and [Quality Score](#qualityscore) fields within the downloaded *Campaign* records, you must also include the [QualityScoreData](datascope.md#qualityscoredata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would add a new ad group if the correct campaign Id would be provided. 
@@ -348,7 +351,7 @@ The frequency cap settings array. Contains *CapValue*, *TimeGranularity*. Only o
 ### Code Example
 ```csharp
 [{""CapValue"": 10, ""TimeGranularity"": ""DAY""}]
-``````
+```
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
@@ -460,13 +463,13 @@ The date and time that the entity was last updated. The value is in Coordinated 
 ## <a name="networkdistribution"></a>Network Distribution
 The search networks where you want your ads to display.
 
-Supported network values for ad groups within most campaign types are *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*. The default is *OwnedAndOperatedAndSyndicatedSearch*. For more information about networks and ad distribution, see the [About Ad Distribution](https://help.ads.microsoft.com/#apex/3/en/50871/0) help article.
+Supported network values for ad groups within most campaign types are *OwnedAndOperatedAndSyndicatedSearch* and *OwnedAndOperatedOnly*. The default is *OwnedAndOperatedAndSyndicatedSearch*. For more information about networks and ad distribution, see the [Ad distribution settings](https://help.ads.microsoft.com/#apex/ads/en/60146/0) help article.
 
 For ad groups in Audience campaigns, ad group level network is not supported and this field will be empty. The ad groups are in the Microsoft Audience Network.
 
-For ad groups in [smart shopping campaigns](../guides/smart-shopping-campaigns.md), you cannot set the network. The service will set the network to *OwnedAndOperatedAndSyndicatedSearch*. 
+For ad groups in [smart shopping campaigns](../guides/smart-shopping-campaigns.md), you cannot set the network. The service will set the network to *OwnedAndOperatedAndSyndicatedSearch*.
 
-For ad groups in [shopping campaigns for brands](../guides/product-ads.md#setup-cooperative), the *InHousePromotion* network (Retailer Network only) is supported in addition to *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*.
+For ad groups in [shopping campaigns for brands](../guides/product-ads.md#setup-cooperative), the *InHousePromotion* network (Retailer Network only) is supported in addition to *OwnedAndOperatedAndSyndicatedSearch* and *OwnedAndOperatedOnly*.
 
 If you select one of the syndicated search options, you can call the [SetNegativeSitesToAdGroups](../campaign-management-service/setnegativesitestoadgroups.md) or [SetNegativeSitesToCampaigns](../campaign-management-service/setnegativesitestocampaigns.md) operation to prevent the ads from displaying on specific syndicated search websites.
 

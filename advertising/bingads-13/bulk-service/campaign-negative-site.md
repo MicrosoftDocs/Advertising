@@ -152,7 +152,7 @@ The URL of the website where you do not want your ads displayed.
 
 Each URL must specify the domain name e.g., *contoso.com* which can include up to three subdomains and two subdirectories. The subdomain count includes the *www* prefix. For example *one.two.three.contoso.com/1/2*, *www.two.three.contoso.com/1/2*, and *one.two.contoso.co.uk/1/2* are valid URLs, whereas *one.two.three.contoso.co.uk/1/2* (too many subdomains) and *one.two.three.contoso.com/1/2/3* (too many subdirectories) are not. Duplicate negative site URLs per campaign or ad group are not allowed.
 
-You can only exclude websites for syndicated search websites. The ad group's [network](ad-group.md#networkdistribution) must be set to either *OwnedAndOperatedAndSyndicatedSearch* or *SyndicatedSearchOnly*. 
+You can only exclude websites for syndicated search websites. The ad group's [network](ad-group.md#networkdistribution) must be set to *OwnedAndOperatedAndSyndicatedSearch*.
 
 Negative site URLs specified at the ad group level are used instead of any negative site URLs specified at the campaign level. If you associate any [website exclusion lists](../campaign-management-service/placementexclusionlist.md) with an ad account (available via the Campaign Management service), the list of [negative sites](../campaign-management-service/negativesite.md) are used in addition to the [campaign negative sites](campaign-negative-site.md) or [ad group negative sites](ad-group-negative-site.md).  
 
