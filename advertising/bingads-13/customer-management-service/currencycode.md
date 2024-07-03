@@ -178,7 +178,7 @@ The [CurrencyCode](currencycode.md) value set has the following values: [AED](#a
 |<a name="mvr"></a>MVR|The corresponding currency type.|
 |<a name="mxn"></a>MXN|The corresponding currency type.|
 |<a name="myr"></a>MYR|The corresponding currency type.|
-|<a name="ngn"></a>NGN|Reserved.|
+|<a name="ngn"></a>NGN|The corresponding currency type.|
 |<a name="nio"></a>NIO|The corresponding currency type.|
 |<a name="nok"></a>NOK|The corresponding currency type.|
 |<a name="nzd"></a>NZD|The corresponding currency type.|
