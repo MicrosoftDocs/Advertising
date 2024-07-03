@@ -31,6 +31,7 @@ The minimum and maximum bid and budget for each currency below are subject to ch
 |BrazilianReal|The Brazilian Real (BRL).|0.01|2,000.00|0.10|10.00|60,000,000.00|
 |CanadianDollar|The Canadian Dollar (CAD).|0.05|1,000.00|0.05|5.00|7,500,000.00|
 |ChileanPeso|The Chilean Peso (CLP).|5.10|510,000.00|5.10|156.00|15,555,000,000.00|
+|ChineseYuan|The Chinese Yuan (CNY).|0.01|6000.00|30.00|30.00|99,999,999.99|
 |ColombianPeso|The Colombian Peso (COP).|18.05|1,805,000.00|18.05|551.00|55,052,500,000.00|
 |DanishKrone|The Danish Krone (DKK).|0.06|6,000.00|0.06|2.00|183,000,000.00|
 |Euro|The European Union Euro (EUR).|0.05|1,000.00|0.05|5.00|5,850,000.00|
