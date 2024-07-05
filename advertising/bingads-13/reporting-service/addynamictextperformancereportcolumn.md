@@ -92,7 +92,7 @@ The [AdDynamicTextPerformanceReportColumn](addynamictextperformancereportcolumn.
 |<a name="accountstatus"></a>AccountStatus|The account status.|
 |<a name="addescription"></a>AdDescription|The first ad description that appears below the path in your ad.|
 |<a name="addescription2"></a>AdDescription2|The second ad description that appears below the path in your ad. Ad description 2 might not appear in your ad.|
-|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show. This can be the entire Microsoft Advertising Network, Microsoft sites and select traffic, or only partner traffic.|
+|<a name="addistribution"></a>AdDistribution|The network where you want your ads to show. This can be the entire Microsoft Advertising Network, Microsoft sites and select traffic, or only partner traffic (this network type is deprecated as of July 2024).|
 |<a name="adgroupid"></a>AdGroupId|The Microsoft Advertising assigned identifier of an ad group.|
 |<a name="adgroupname"></a>AdGroupName|The ad group name.|
 |<a name="adgroupstatus"></a>AdGroupStatus|The ad group status.|
