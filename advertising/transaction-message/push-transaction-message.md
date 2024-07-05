@@ -28,8 +28,6 @@ The request must include the following headers:
 
 - Content-Type: application/xml; charset=utf-8
 - Authorization: Bearer \<accesstokengoeshere> 
-
-For details about getting an OAuth access token, see [Getting Started](../hotel-service/get-started.md) in Hotel API.
   
 You may also specify the following optional headers:
 
