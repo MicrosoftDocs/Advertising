@@ -55,7 +55,7 @@ When Microsoft receives the above hint, it sends the following [Query](../query-
 </Query>
 ```
 
-When you get the Query message, your response should contain a [Transaction](../transaction-message/transaction-message.md) message with the following \<Result\>.
+When you get the Query message, your response should contain a [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md) with the following \<Result\>.
 
 ```xml
   <Result>
@@ -99,7 +99,7 @@ When Microsoft receives the above hint, it sends the following [Query](../query-
 </Query>
 ```
 
-When you get the Query message, your response should contain a [Transaction](../transaction-message/transaction-message.md) message with the following \<Result\> objects.
+When you get the Query message, your response should contain a [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md) with the following \<Result\> objects.
 
 ```xml
   <Result>
@@ -181,7 +181,7 @@ When Microsoft receives the above hint, it sends the following [Query](../query-
 </Query>
 ```
 
-When you get the Query message, your response should contain a [Transaction](../transaction-message/transaction-message.md) message with the following \<Result\> objects. Notice that the check-in date for the first several objects fall before the `FirstDate` date in your hint. This is because the itineraries check-out date falls within the hint's date range. 
+When you get the Query message, your response should contain a [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md) with the following \<Result\> objects. Notice that the check-in date for the first several objects fall before the `FirstDate` date in your hint. This is because the itineraries check-out date falls within the hint's date range. 
 
 ```xml
   <Result>

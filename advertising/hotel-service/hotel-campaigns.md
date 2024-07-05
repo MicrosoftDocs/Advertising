@@ -1,6 +1,6 @@
 ---
-title: "Lodging Campaigns (formerly hotel campaigns)"
-description: Lodging campaigns (formerly hotel campaigns) is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices.
+title: "Lodging campaigns (formerly Hotel campaigns)"
+description: Lodging campaigns (formerly Hotel campaigns) is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
@@ -16,7 +16,7 @@ ms.author: jonmeyers
 >
 > The API and documentation are subject to change.
 
-Lodging campaigns (formerly hotel campaigns) is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see [Hotel price ads](https://about.ads.microsoft.com/solutions/ad-products/hotel-price-ads) when they are actively looking to book a hotel. In addition to the Hotel price ads, lodging campaigns allow advertisers to display their hotels on the Bing Maps page via the [Property promotion ads](https://about.ads.microsoft.com/solutions/ad-products/property-promotion-ads).
+Lodging campaigns (formerly Hotel campaigns) is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see [Hotel price ads](https://about.ads.microsoft.com/solutions/ad-products/hotel-price-ads) when they are actively looking to book a hotel. In addition to the Hotel price ads, lodging campaigns allow advertisers to display their hotels on the Bing Maps page via the [Property promotion ads](https://about.ads.microsoft.com/solutions/ad-products/property-promotion-ads).
 
 <a name="benefits"></a>
 

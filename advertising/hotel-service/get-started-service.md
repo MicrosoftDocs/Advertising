@@ -9,6 +9,8 @@ ms.author: jonmeyers
 
 # Using the Hotel API from a service
 
+[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
+
 Calling the Hotel API requires an access token but getting an access token requires user consent unless you have a refresh token. To get a refresh token, you can [write a simple console app](../hotel-service/code-example-oauth.md) or you can use this PowerShell script.
 
 ```powershell
