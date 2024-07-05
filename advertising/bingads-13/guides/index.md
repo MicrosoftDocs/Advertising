@@ -17,7 +17,7 @@ You should consider using the Bing Ads API if your business model resembles any 
 - You are an advertising agency and manage ad campaigns for many clients. 
 - You are an aggregator and want to build Bing Ads API applications to manage the campaigns of your advertising clients.   
 
-For more information about becoming an agency or aggregator partner, see the [Account Hierarchy](account-hierarchy-permissions.md#account-hierarchy) technical guide, the [Agency Hub](https://about.ads.microsoft.com/en-us/resources/agency-hub), and the [Microsoft Advertising Partner Program](https://about.ads.microsoft.com/en-us/partners/welcome) welcome page.
+For more information about becoming an agency or aggregator partner, see the [Account Hierarchy](account-hierarchy-permissions.md#account-hierarchy) technical guide, the [Agency Center](https://about.ads.microsoft.com/en/resources/partners-agencies/agency-center), and the [Microsoft Advertising Partner Program](https://about.ads.microsoft.com/en-us/partners/welcome) welcome page.
 
 ## <a name="where"></a>Where your ads will appear
 When you advertise using Microsoft Advertising, your search ads can appear on the search results page on websites throughout the world. These sites can include the entire Microsoft Advertising Network, Microsoft sites and select traffic, or only partner traffic (this network type is deprecated as of July 2024). For more information, see [About ad distribution](https://help.ads.microsoft.com/#apex/3/en/50871/0). 
