@@ -76,35 +76,20 @@ conceptualContent:
           itemType: reference
           text: Reference
     # Card
-    - title: Hotel API
+    - title: Lodging Campaigns
       links:
         - url: /advertising/hotel-ads/
           itemType: overview
           text: Overview
-        - url: hotel-service/get-started.md
-          itemType: get-started
-          text: Get started
-        - url: hotel-service/manage-hotel-campaigns.md
-          itemType: concept
-          text: Manage Hotel Ad campaigns
-        - url: /advertising/hotel-service/reporting
-          itemType: concept
-          text: Reporting
         - url: transaction-message/transaction-message.md
           itemType: reference
-          text: Transaction Message
+          text: Price feed (formerly Transaction message)
         - url: hotel-feed/hotel-feed.md
           itemType: reference
-          text: Hotel Feed
+          text: Property feed (formerly Hotel feed)
         - url: pos-feed/pos-feed.md
           itemType: reference
-          text: Points of Sale Feed
-        - url: hotel-service/code-examples.md
-          itemType: reference
-          text: Code examples
-        - url: hotel-service/reference.md
-          itemType: reference
-          text: Reference
+          text: Landing pages feed (formerly Points of sale (POS) feed)
     # Card
     - title: Microsoft Advertising Scripts
       links:
