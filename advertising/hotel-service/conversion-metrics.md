@@ -9,6 +9,8 @@ ms.author: jonmeyers
 
 # <a name="conversionmetrics"></a> Conversion metrics
 
+[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
+
 You can track bookings at the hotel, hotel group, or subaccount level. But before you can track bookings, you must add a hotel conversion tracking UET tag to each POS website. For general information about UET tags, see [Everything you need to know about setting up UET](https://help.ads.microsoft.com/#apex/3/en/56913/2-500).
 
 ## Steps to get started

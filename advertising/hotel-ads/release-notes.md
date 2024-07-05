@@ -11,6 +11,8 @@ ms.author: jonmeyers
 
 For information about changes that were included with each release, see the following sections.
 
+[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
+
 ## March 16, 2021
 
 - Removed support for the QueryControl message.
@@ -291,7 +293,7 @@ Released the Beta version of Hotel Price Ads.
 
 - Added the following ways to send Bing your transaction messages.  
   - Pull requests  
-  If you sign up for pull requests, Bing sends the endpoint that you specify a [Query](../query-message/query-message.md) message that specifies the itinerary data that you should send back in a [Transaction](../transaction-message/transaction-message.md) message. With this option, you provide Bing all of your itinerary data.  
+  If you sign up for pull requests, Bing sends the endpoint that you specify a [Query](../query-message/query-message.md) message that specifies the itinerary data that you should send back in a [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md). With this option, you provide Bing all of your itinerary data.  
   - Pull with hints requests  
   If you sign up for pull with hints requests, Bing sends the endpoint that you specify a Query message that specifies the itinerary data that you should send back in a Transaction message. However, the query message specifies only the itinerary data that you said changed in your [Hint](../hint-message/hint-message.md) message. 
   

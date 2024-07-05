@@ -81,6 +81,12 @@ conceptualContent:
         - url: /advertising/hotel-ads/
           itemType: overview
           text: Overview
+        - url: query-message/query-message.md
+          itemType: reference
+          text: Query Message
+        - url: hint-message/hint-message.md
+          itemType: reference
+          text: Hint Message
         - url: transaction-message/transaction-message.md
           itemType: reference
           text: Price feed (formerly Transaction message)

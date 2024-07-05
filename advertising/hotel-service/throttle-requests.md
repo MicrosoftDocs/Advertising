@@ -9,6 +9,8 @@ ms.author: jonmeyers
 
 # Throttling requests
 
+[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
+
 To ensure resources for everyone, the API limits the number of requests a customer ID may make per minute. The limit is not documented and is subject to change.
 
 If you exceed the request per minute limit, the API returns HTTP status code 429. When you receive status code 429, you must wait 60 seconds before resubmitting the request. Before resubmitting your request, make sure to reduce the number of calls you're making, so the request doesn't fail.
