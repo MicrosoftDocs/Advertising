@@ -40,7 +40,9 @@ client_id=your_client_id
 > [!NOTE]
 > Replace *your_client_id* in the URL below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
 
-    <https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=your_client_id&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F&response_mode=query&scope=openid%20offline_access%20https%3A%2F%2Fads.microsoft.com%2Fmsads.manage&state=12345>
+```
+<https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=your_client_id&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F&response_mode=query&scope=openid%20offline_access%20https%3A%2F%2Fads.microsoft.com%2Fmsads.manage&state=12345>
+```
 
 1. Sign in with your Microsoft account credentials and grant [your app](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app) consent to manage your Microsoft Advertising accounts.
 1. After signing in, your browser should be redirected to `https://localhost/myapp/` with a `code` in the address bar. You can ignore the error message on the page.
