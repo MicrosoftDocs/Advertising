@@ -32,7 +32,7 @@ The target namespace is `https://bingads.microsoft.com/AdInsight/v13`.
 
 The production endpoint is [https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc).
 
-The sandbox endpoint is [https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc).
+The sandbox endpoint is https<span>://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13</span>/AdInsightService.svc.
 
 #### <a name="adinsight-datacontractnamespace"></a>Data Contract Namespace
 Previously in version 12, the data contract namespace for some entities had varied from the Ad Insight target namespace. If you used any of the following version 12 namespaces, you must insteaed use `https://bingads.microsoft.com/AdInsight/v13` in version 13.
