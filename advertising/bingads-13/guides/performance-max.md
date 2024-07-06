@@ -39,7 +39,7 @@ You can create a Performance Max [campaign](../campaign-management-service/campa
 
 In Performance Max, asset groups replace the traditional ad group and ad entities. They contain all the information needed for Microsoft to dynamically generate ads based on the assets you provide. You can create up to 100 [AssetGroup](../campaign-management-service/assetgroup.md) objects in each Performance Max campaign by calling the [AddAssetGroups](../campaign-management-service/addassetgroups.md) operation.
 
-Asset groups also require text assets ([Headlines](../campaign-management-service/assetgroup.md#headlines), [LongHeadlines](../campaign-management-service/assetgroup.md#longheadlines), [Descriptions](../campaign-management-service/assetgroup.md#descriptions)) and image assets ([Images]((../campaign-management-service/assetgroup.md#images))). If you don't already have images available, you can upload [Image](../campaign-management-service/image.md) data by calling the [AddMedia](../campaign-management-service/addmedia.md) operation.
+Asset groups also require text assets ([Headlines](../campaign-management-service/assetgroup.md#headlines), [LongHeadlines](../campaign-management-service/assetgroup.md#longheadlines), [Descriptions](../campaign-management-service/assetgroup.md#descriptions)) and image assets ([Images](../campaign-management-service/assetgroup.md#images)). If you don't already have images available, you can upload [Image](../campaign-management-service/image.md) data by calling the [AddMedia](../campaign-management-service/addmedia.md) operation.
 
 ## <a name="retail-campaign-setup"></a>Retail campaign setup
 
