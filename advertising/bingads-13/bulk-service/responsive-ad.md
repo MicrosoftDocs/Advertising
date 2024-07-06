@@ -15,7 +15,7 @@ Defines a responsive ad that can be downloaded and uploaded in a bulk file.
 Responsive ads automatically adjust to accommodate the sizes and shapes of audience ad formats. These ads work best with informative text rather than calls to action. 
 
 > [!NOTE]
-> This feature is currently available in the United States, Canada, the United Kingdom, and Australia. If you advertise in the United States, Canada, the United Kingdom, or Australia and want to opt in to audience ads, [contact support](https://go.microsoft.com/fwlink?LinkId=398371). 
+> This feature is currently available in the United States, Canada, the United Kingdom, and Australia. If you advertise in the United States, Canada, the United Kingdom, or Australia and want to opt in to audience ads, [contact support](https://about.ads.microsoft.com/support). 
 
 > [!NOTE]
 > Duplicate responsive ads are allowed in the same ad group. 
