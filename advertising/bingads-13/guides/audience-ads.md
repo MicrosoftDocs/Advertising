@@ -14,7 +14,7 @@ Microsoft Audience Ads is a native advertising solution optimized for search adv
 ![Audience Ads](media/audience-ads.png "Audience Ads")  
 
 > [!NOTE]
-> This feature is currently available in the United States, Canada, the United Kingdom, and Australia. If you advertise in the United States, Canada, the United Kingdom, or Australia and want to opt in to audience ads, [contact support](https://go.microsoft.com/fwlink?LinkId=398371). 
+> This feature is currently available in the United States, Canada, the United Kingdom, and Australia. If you advertise in the United States, Canada, the United Kingdom, or Australia and want to opt in to audience ads, [contact support](https://about.ads.microsoft.com/support). 
 
 > [!TIP]
 > You can prepare for the Microsoft Audience Network now by:
