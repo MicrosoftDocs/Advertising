@@ -50,9 +50,9 @@ Write-Output "Access token expires in: " $oauthTokens.expires_in
 Write-Output "Refresh token: " $oauthTokens.refresh_token
 ```
 
-    Save the file and name it `Get-Tokens-Production.ps1` (you can name it anything you want but the extension must be .ps1).
+Save the file and name it `Get-Tokens-Production.ps1` (you can name it anything you want but the extension must be .ps1).
 
-    To programmatically manage a Microsoft Advertising account, you must provide consent at least once through the web application consent flow. From then on you can use the latest refresh token to request new access and refresh tokens without any further user interaction.  
+To programmatically manage a Microsoft Advertising account, you must provide consent at least once through the web application consent flow. From then on you can use the latest refresh token to request new access and refresh tokens without any further user interaction.  
    
 1. Now to run `Get-Tokens-Production.ps1` open a console window. At the command prompt, navigate to the folder where you saved `Get-Tokens-Production.ps1` and enter the following command:  
   
