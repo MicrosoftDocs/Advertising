@@ -587,8 +587,10 @@ If you opt not to use the API, PromoteIQ also offers a SFTP server that can be u
 
 #### Bash example
 
+```bash
 echo "put local/path/to/feed.csv" | sftp -b - -i  
-local/path/to/ssh private key you[]()@sftp.promoteiq.com :~/data
+local/path/to/ssh private key you@sftp.promoteiq.com :~/data
+```
 
 ### Feed Management
 
