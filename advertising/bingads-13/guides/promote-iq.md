@@ -39,7 +39,7 @@ POST https://retailer-specific-url/conversion
 
 b) PromoteIQ web portal:
 
-- URL: https://retailer-name.promoteiq.com/
+- URL: https://retailer-name<span>.promoteiq</span>.com/
 
 Access: Those requiring access will receive email notifications when an admin user adds them in the system
 
