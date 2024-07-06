@@ -23,7 +23,7 @@ If your user is within an agency, then the operation may be used to update the c
 If your user is within a client customer that has one or more accounts managed or invited to be managed by an agency, then you may only use this operation to update the status as *LinkAccepted* or *LinkDeclined*. A  client may also accept or decline the link request via the Microsoft Advertising web application. 
 
 > [!TIP]
-> For more information about the client link lifecycle, see the [Account Hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy) technical guide. For more information about becoming an agency, see the [Resources for agency partners](https://about.ads.microsoft.com/en-us/resources/agency-hub). For more information from a client's perspective, see [How to have an agency manage your Microsoft Advertising account](https://help.ads.microsoft.com/#apex/3/en/52004/3). 
+> For more information about the client link lifecycle, see the [Account Hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy) technical guide. For more information about becoming an agency, see the [Resources for agency partners](https://about.ads.microsoft.com/resources/partners-agencies/agency-center). For more information from a client's perspective, see [How to have an agency manage your Microsoft Advertising account](https://help.ads.microsoft.com/#apex/3/en/52004/3). 
 
 ## <a name="request"></a>Request Elements
 The *UpdateClientLinksRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 

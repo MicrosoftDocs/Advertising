@@ -19,27 +19,27 @@ a) PromoteIQ API endpoints:
 
 - Ad Opportunity:
 
-POST https://retailer-specific-url/request
+POST https<span>://retailer-specific-url</span>/request
 
 - Impression Tracker:
 
-GET https://retailer-specific-url/impression
+GET https<span>://retailer-specific-url</span>/impression
 
 - View Tracker:
 
-GET https://retailer-specific-url/view
+GET https<span>://retailer-specific-url</span>/view
 
 - Click Tracker:
 
-GET https://retailer-specific-url/click
+GET https<span>://retailer-specific-url</span>/click
 
 - Conversion Tracker:
 
-POST https://retailer-specific-url/conversion
+POST https<span>://retailer-specific-url</span>/conversion
 
 b) PromoteIQ web portal:
 
-- URL: https://retailer-name.promoteiq.com/
+- URL: https<span>://retailer-name.promoteiq</span>.com/
 
 Access: Those requiring access will receive email notifications when an admin user adds them in the system
 
@@ -587,8 +587,10 @@ If you opt not to use the API, PromoteIQ also offers a SFTP server that can be u
 
 #### Bash example
 
+```bash
 echo "put local/path/to/feed.csv" | sftp -b - -i  
-local/path/to/ssh private key you[]()@sftp.promoteiq.com :~/data
+local/path/to/ssh private key you@sftp.promoteiq.com :~/data
+```
 
 ### Feed Management
 

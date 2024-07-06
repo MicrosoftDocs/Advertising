@@ -21,7 +21,7 @@ Searches for the client links for the customer of the current authenticated user
 If your user is within a client customer that has one or more accounts managed by an agency, then you may search one at a time for individual accounts that were or are eligible to be linked. To search by individual account, set the predicate field to ClientAccountId and set the predicate value to the account identifier that you want to find.
 
 > [!TIP]
-> For more information about the client link lifecycle, see the [Account Hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy) technical guide. For more information about becoming an agency, see the [Resources for agency partners](https://about.ads.microsoft.com/en-us/resources/agency-hub). For more information from a client's perspective, see [How to have an agency manage your Microsoft Advertising account](https://help.ads.microsoft.com/#apex/3/en/52004/3). 
+> For more information about the client link lifecycle, see the [Account Hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy) technical guide. For more information about becoming an agency, see the [Resources for agency partners](https://about.ads.microsoft.com/resources/partners-agencies/agency-center). For more information from a client's perspective, see [How to have an agency manage your Microsoft Advertising account](https://help.ads.microsoft.com/#apex/3/en/52004/3). 
 
 ## <a name="request"></a>Request Elements
 The *SearchClientLinksRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
