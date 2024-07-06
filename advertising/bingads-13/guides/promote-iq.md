@@ -19,23 +19,23 @@ a) PromoteIQ API endpoints:
 
 - Ad Opportunity:
 
-POST https://retailer-specific-url/request
+POST https<span>://retailer-specific-url</span>/request
 
 - Impression Tracker:
 
-GET https://retailer-specific-url/impression
+GET https<span>://retailer-specific-url</span>/impression
 
 - View Tracker:
 
-GET https://retailer-specific-url/view
+GET https<span>://retailer-specific-url</span>/view
 
 - Click Tracker:
 
-GET https://retailer-specific-url/click
+GET https<span>://retailer-specific-url</span>/click
 
 - Conversion Tracker:
 
-POST https://retailer-specific-url/conversion
+POST https<span>://retailer-specific-url</span>/conversion
 
 b) PromoteIQ web portal:
 
