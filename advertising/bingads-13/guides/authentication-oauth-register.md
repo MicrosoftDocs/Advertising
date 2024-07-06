@@ -10,7 +10,7 @@ description: Authenticate for Bing Ads API using the Microsoft identity platform
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
-Before your application can authenticate Microsoft Advertising users, you must [register your application in an Azure Active Directory (AAD) tenant](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app#register-an-application) and get the corresponding client ID and client secret.  
+Before your application can authenticate Microsoft Advertising users, you must [register your application in an Azure Active Directory (AAD) tenant](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app#register-an-application) and get the corresponding client ID and client secret.  
 
 1. Navigate to the Microsoft identity platform for developers in the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) page. You can log in using or a Work or School Account. *Note*: You can no longer log in using a personal Microsoft account.
 1. Select **New registration**. 
@@ -36,7 +36,7 @@ Before your application can authenticate Microsoft Advertising users, you must [
 
 ## Application behavior 
 1. Registered application behavior is determined by how your Azure AAD tenant has been set up and how users can provide the consent for any app during authentication process. Your Azure AAD tenant administrator can review user consent settings here: **https://learn.microsoft.com/azure/active-directory/manage-apps/configure-user-consent?pivots=portal#configure-user-consent-settings**.
-    - If you are trying to authenticate but receive error [AADSTS650052](https://learn.microsoft.com/advertising/guides/handle-service-errors-exceptions?view=bingads-13#aadsts650052), there are a few different root causes for this issue. This likely means that the Microsoft Advertising application ID (d42ffc93-c136-491d-b4fd-6f18168c68fd) doesn't exist in your tenant. This can happen if you are trying to authenticate to a tool provider and never created your own Azure App registration and added *msads.manage* to it. To fix this, you will need to contact the Active Directory administrator and have them run the following Graph API call to add the Microsoft Advertising app to your tenant.<br/>
+    - If you are trying to authenticate but receive error [AADSTS650052](https://learn.microsoft.com/advertising/guides/handle-service-errors-exceptions#aadsts650052), there are a few different root causes for this issue. This likely means that the Microsoft Advertising application ID (d42ffc93-c136-491d-b4fd-6f18168c68fd) doesn't exist in your tenant. This can happen if you are trying to authenticate to a tool provider and never created your own Azure App registration and added *msads.manage* to it. To fix this, you will need to contact the Active Directory administrator and have them run the following Graph API call to add the Microsoft Advertising app to your tenant.<br/>
     ~~~
     POST https://graph.microsoft.com/v1.0/servicePrincipals
     Content-type: application/json
@@ -45,7 +45,7 @@ Before your application can authenticate Microsoft Advertising users, you must [
     }
     ~~~
     - After running the above command, you may also need to have your administrator grant consent to your tool provider by running the following URL in your browser. This URL grants consent to SA 360. Please replace "client_id=1234" with your tool provider's client ID and replace "tenantID" with your tenant ID: https<span>://login.microsoftonline</span>.com/"tenantID"/v2.0/adminconsent?client_id=340615a8-1132-4916-80c7-697a67c6c353&state=12345&scope=d42ffc93-c136-491d-b4fd-6f18168c68fd/msads.manage
-    - If you are still experiencing issues after following the above steps, please [contact support](https://learn.microsoft.com/en-us/advertising/guides/handle-service-errors-exceptions?view=bingads-13#contact-support).  
+    - If you are still experiencing issues after following the above steps, please [contact support](https://learn.microsoft.com/advertising/guides/handle-service-errors-exceptions#contact-support).  
 
 ## Next steps
 > [!div class="nextstepaction"]
