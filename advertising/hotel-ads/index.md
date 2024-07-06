@@ -19,7 +19,7 @@ Property Promotion ads have the following specifications:
 - You need to provide the **category value** for each property in the property feed in one of the following formats ("vacation_rental" or "hotel", optionally followed by pipe symbol and a custom value:<br/>
   &emsp;&emsp;*vacation_rental* | 'custom value'<br/>
   &emsp;&emsp;*hotel* | 'custom value'<br/>
-  Learn more about [specifying optional hotel listing fields](../hotel-feed/create-hotel-feed#specifying-optional-hotel-listing-fields) and [lodging property categories](https://help.ads.microsoft.com/#apex/ads/en/60192/-1).
+  Learn more about [specifying optional hotel listing fields](../hotel-feed/create-hotel-feed.md#specifying-optional-hotel-listing-fields) and [lodging property categories](https://help.ads.microsoft.com/#apex/ads/en/60192/-1).
 - Assign either the "Rental" or "Hotel" category in the property feed for it to display on Bing. If no category is assigned, we will apply the "Hotel" category by default.
 - You need to enable the **PPA format** in **Ad Group settings**.
 
