@@ -17,9 +17,9 @@ Bing Ads API Version 13 includes the following web service addresses. Depending 
 [https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl)
 
 ### <a name="adinsight-sandbox"></a>Sandbox
-[https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)
-[https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?wsdl](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?wsdl)
-[https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl)
+https<span>://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13</span>/AdInsightService.svc
+https<span>://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13</span>/AdInsightService.svc?wsdl
+https<span>://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13</span>/AdInsightService.svc?singleWsdl
 
 ## <a name="bulk"></a>Bulk API
 
