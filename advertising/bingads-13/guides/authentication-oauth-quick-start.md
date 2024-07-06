@@ -13,7 +13,7 @@ description: Make your first API call with an access token.
 If you just want to get something working right away, follow these steps to get your Microsoft Advertising user information.
 
 ## <a name="quick-start-production"></a>Production Quick Start
-To authenticate in the production environment you should first [register an application](authentication-oauth-register.md). Sign in with your Microsoft account credentials and grant [your app](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app) consent to manage your Microsoft Advertising accounts.
+To authenticate in the production environment you should first [register an application](authentication-oauth-register.md). Sign in with your Microsoft account credentials and grant [your app](/entra/identity-platform/quickstart-register-app) consent to manage your Microsoft Advertising accounts.
 
 1. Create a new file and paste into it the following script. Set `$clientId` to the Application Id of your registered app. If you registered a web application with client secret, then you'll also need to include `$client_secret=YourWebAppClientSecret` when requesting the access tokens.
 
