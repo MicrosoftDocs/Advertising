@@ -24,7 +24,7 @@ You can upload *Asset Group Listing Group* records for multiple ad groups in the
 
 - The order of the product partition nodes is not guaranteed during download, and parent nodes might be provided after child nodes; however, all nodes for the same ad group will be grouped together in the file.
 
-- If you are creating or modifying the tree structure, parent product partition tree nodes must be ordered ahead of the child product partition tree nodes ; however, the order does not matter for non-structural changes such as updating the bid. For example if you want to update the bids without adding, deleting, or updating the tree structure, then you only need to upload the [Id](#id), [Parent Id](#parentid), and [Bid](#bid) fields.
+- If you are creating or modifying the tree structure, parent product partition tree nodes must be ordered ahead of the child product partition tree nodes ; however, the order does not matter for non-structural changes such as updating the bid. For example if you want to update the bids without adding, deleting, or updating the tree structure, then you only need to upload the [Id](#id) and [Parent Id](#parentid) fields.
 
 - To update the [Product Condition 1](#productcondition1), [Product Value 1](#productvalue1) or *Is Excluded* field, you must delete the existing product partition tree node and upload a new product partition tree node which will get a new identifier.
 
