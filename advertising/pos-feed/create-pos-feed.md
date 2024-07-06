@@ -65,7 +65,7 @@ Include the `DisplayNames` element only for online travel agencies. Don't includ
 
 If you include `DisplayNames`, you must include a `Match` element that has the language criterion set to the same language.
 
-Bing uses the POS that best matches the user based on the POS's matching criteria. Based on the above matching criteria, users on mobile devices will use the English-Mobile POS and everyone else will use the English POS. For information about how Bing matches users to a POS, see [Matching Landing pages](#matching-points-of-sale). For a list of criterion that you can match on, see the [Match](../pos-feed/reference.md#match) element.
+Bing uses the POS that best matches the user based on the POS's matching criteria. Based on the above matching criteria, users on mobile devices will use the English-Mobile POS and everyone else will use the English POS. For information about how Bing matches users to a POS, see [Matching Landing pages](#matching-landing-pages). For a list of criterion that you can match on, see the [Match](../pos-feed/reference.md#match) element.
 
 The `URL` element specifies the link to the site where the user can book the room. The example shows using dynamic query parameters. Bing substitutes values for the dynamic variables at runtime. For information about using dynamic query parameters, see [Using dynamic query parameters](#using-dynamic-query-parameters).
 
