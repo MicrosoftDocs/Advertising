@@ -189,6 +189,101 @@
             "source_path": "Advertising/query-control-message/validate-query-control-message.md",
             "redirect_url": "/advertising/hotel-ads",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/throttle-requests.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/get-started.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/get-started-service.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/conversion-metrics.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/best-practices.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-ads/release-notes.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-batch.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-call-code-grant-flow.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-code-grant-flow.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-hotel-groups.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-hotels.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-oauth.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-reporting.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-example-subaccounts.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/code-examples.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/hotel-api.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/manage-hotel-campaigns.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/reference.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Advertising/hotel-service/reporting.md",
+            "redirect_url": "/advertising/hotel-ads",
+            "redirect_document_id": false
         }
     ]
 }
