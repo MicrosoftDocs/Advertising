@@ -30,7 +30,15 @@ The roleManagementPolicyAssignments resource type can be deployed with operation
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following Bicep to your template.
 
 ```bicep
-Content
+resource symbolicname 'Microsoft.Authorization/roleManagementPolicyAssignments@2020-10-01' = {
+  name: 'string'
+  scope: resourceSymbolicName or tenant()
+  properties: {
+    policyId: 'string'
+    roleDefinitionId: 'string'
+    scope: 'string'
+  }
+}
 ```
 
 ## Property values
@@ -73,7 +81,17 @@ The roleManagementPolicyAssignments resource type can be deployed with operation
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following JSON to your template.
 
 ```json
-Content
+{
+  "type": "Microsoft.Authorization/roleManagementPolicyAssignments",
+  "apiVersion": "2020-10-01",
+  "name": "string",
+  "scope": "string" or "/",
+  "properties": {
+    "policyId": "string",
+    "roleDefinitionId": "string",
+    "scope": "string"
+  }
+}
 ```
 
 ## Property values
@@ -118,7 +136,18 @@ The roleManagementPolicyAssignments resource type can be deployed with operation
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following Terraform to your template.
 
 ```terraform
-Content
+resource "azapi_resource" "symbolicname" {
+  type = "Microsoft.Authorization/roleManagementPolicyAssignments@2020-10-01"
+  name = "string"
+  parent_id = "string"
+  body = jsonencode({
+    properties = {
+      policyId = "string"
+      roleDefinitionId = "string"
+      scope = "string"
+    }
+  })
+}
 ```
 
 ## Property values
