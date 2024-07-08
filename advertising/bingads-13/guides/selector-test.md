@@ -25,8 +25,6 @@ The roleManagementPolicyAssignments resource type can be deployed with operation
 * **Management groups** - See [management group deployment commands](/azure/azure-resource-manager/bicep/deploy-to-management-group)
 * **Tenants** - See [tenant deployment commands](/azure/azure-resource-manager/bicep/deploy-to-tenant)
 
-For a list of changed properties in each API version, see [change log](~/Microsoft.Authorization/change-log/roleManagementPolicyAssignments.md).
-
 ## Resource format
 
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following Bicep to your template.
@@ -69,8 +67,6 @@ The roleManagementPolicyAssignments resource type can be deployed with operation
 * **Subscriptions** - See [subscription deployment commands](/azure/azure-resource-manager/templates/deploy-to-subscription)
 * **Management groups** - See [management group deployment commands](/azure/azure-resource-manager/templates/deploy-to-management-group)
 * **Tenants** - See [tenant deployment commands](/azure/azure-resource-manager/templates/deploy-to-tenant)
-
-For a list of changed properties in each API version, see [change log](~/Microsoft.Authorization/change-log/roleManagementPolicyAssignments.md).
 
 ## Resource format
 
@@ -116,8 +112,6 @@ The roleManagementPolicyAssignments resource type can be deployed with operation
 * **Subscriptions**
 * **Management groups**
 * **Tenants**
-
-For a list of changed properties in each API version, see [change log](~/Microsoft.Authorization/change-log/roleManagementPolicyAssignments.md).
 
 ## Resource format
 
