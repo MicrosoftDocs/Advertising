@@ -10,11 +10,6 @@ ms.author: tomfitz
 ---
 # Microsoft.Authorization roleManagementPolicyAssignments 
 
-> [!div class="op_single_selector" title1="API Versions:"]
-> - [Latest](roleManagementPolicyAssignments.md)
-> - [2020-10-01](2020-10-01/roleManagementPolicyAssignments.md)
-> - [2020-10-01-preview](2020-10-01-preview/roleManagementPolicyAssignments.md)
-
 ::: zone pivot="deployment-language-bicep"
 
 ## Bicep resource definition
@@ -37,15 +32,7 @@ For a list of changed properties in each API version, see [change log](~/Microso
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following Bicep to your template.
 
 ```bicep
-resource symbolicname 'Microsoft.Authorization/roleManagementPolicyAssignments@2020-10-01' = {
-  name: 'string'
-  scope: resourceSymbolicName or tenant()
-  properties: {
-    policyId: 'string'
-    roleDefinitionId: 'string'
-    scope: 'string'
-  }
-}
+Content
 ```
 
 ## Property values
@@ -90,17 +77,7 @@ For a list of changed properties in each API version, see [change log](~/Microso
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following JSON to your template.
 
 ```json
-{
-  "type": "Microsoft.Authorization/roleManagementPolicyAssignments",
-  "apiVersion": "2020-10-01",
-  "name": "string",
-  "scope": "string" or "/",
-  "properties": {
-    "policyId": "string",
-    "roleDefinitionId": "string",
-    "scope": "string"
-  }
-}
+Content
 ```
 
 ## Property values
@@ -147,18 +124,7 @@ For a list of changed properties in each API version, see [change log](~/Microso
 To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following Terraform to your template.
 
 ```terraform
-resource "azapi_resource" "symbolicname" {
-  type = "Microsoft.Authorization/roleManagementPolicyAssignments@2020-10-01"
-  name = "string"
-  parent_id = "string"
-  body = jsonencode({
-    properties = {
-      policyId = "string"
-      roleDefinitionId = "string"
-      scope = "string"
-    }
-  })
-}
+Content
 ```
 
 ## Property values
