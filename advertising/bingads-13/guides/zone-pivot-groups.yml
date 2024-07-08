@@ -1,0 +1,12 @@
+# YamlMime:ZonePivotGroups
+groups:
+- id: deployment-languages-reference
+  title: Deployment languages
+  prompt: Choose a deployment language
+  pivots:
+  - id: deployment-language-bicep
+    title: Bicep
+  - id: deployment-language-arm-template
+    title: ARM template
+  - id: deployment-language-terraform
+    title: Terraform
