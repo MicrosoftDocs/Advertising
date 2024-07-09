@@ -34,7 +34,7 @@ The [LogoAdExtension](logoadextension.md) object has the following elements: [Bu
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="businesslogo"></a>BusinessLogo|The asset ID for the business logo. THere is no maximum length.<br/><br/>**Add**: Required<br/>**Update**: Required|**long**|
+|<a name="businesslogo"></a>BusinessLogo|The asset ID for the business logo. There is no maximum length.<br/><br/>**Add**: Required<br/>**Update**: Required|**long**|
 |<a name="businesslogourl"></a>BusinessLogoUrl|The URL of the business logo. This is used internally.<br/><br/>**Add**: Not allowed<br/>**Update**: Not allowed|**string**|
 |<a name="businessname"></a>BusinessName|The business name. Maximum length is 25 characters.<br/><br/>**Add**: Required<br/>**Update**: Required|**string**|
 |<a name="domainname"></a>DomainName|The domain name. Maximum length is 50 characters.<br/><br/>**Add**: Optional<br/>**Update**: Optional|**string**|
