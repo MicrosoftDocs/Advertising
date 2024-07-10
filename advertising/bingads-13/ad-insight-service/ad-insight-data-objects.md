@@ -94,7 +94,7 @@ The Ad Insight service defines the following data objects.
 |[QuerySearchParameter](querysearchparameter.md)|The query search parameter that you can use as a seed for new keyword ideas.|
 |[RadiusTarget](radiustarget.md)|Defines a RadiusTarget data object.|
 |[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|Defines a RangeResultOfDecimalRoundedResult data object.|
-|[RangeResultOfdouble](rangeresultofdouble.md)|Reserved.|
+|[RangeResultOfdouble](rangeresultofdouble.md)|Defines a RangeResultOfDouble data object.|
 |[Recommendation](recommendation.md)|Defines the base object of Recommendation.|
 |[RecommendationBase](recommendationbase.md)|Defines the RecommendationBase data object.|
 |[RecommendationInfo](recommendationinfo.md)|Defines the base object of RecommendationInfo.|
@@ -104,9 +104,9 @@ The Ad Insight service defines the following data objects.
 |[SearchCountsByAttributes](searchcountsbyattributes.md)|Defines an object that contains a list of keyword historical search counts for the corresponding device attribute.|
 |[SearchParameter](searchparameter.md)|This is the base class from which keyword idea search parameter objects derive.|
 |[SearchVolumeSearchParameter](searchvolumesearchparameter.md)|The search volume search parameter filter that you can include when requesting keyword ideas.|
-|[SelectionOfAgeEnum](selectionofageenum.md)|Reserved.|
-|[SelectionOfGenderEnum](selectionofgenderenum.md)|Reserved.|
-|[SelectionOflong](selectionoflong.md)|Reserved.|
+|[SelectionOfAgeEnum](selectionofageenum.md)|Defines a data object for the selection of age targeting.|
+|[SelectionOfGenderEnum](selectionofgenderenum.md)|Defines a data object for the selection of gender targeting.|
+|[SelectionOflong](selectionoflong.md)|Defines a data object for the selection segment IDs.|
 |[SuggestedBidSearchParameter](suggestedbidsearchparameter.md)|The suggested bid search parameter filter that you can include when requesting keyword ideas.|
 |[SuggestedResponsiveSearchAd](suggestedresponsivesearchad.md)|Defines an object that describes the suggested responsive search ads.|
 |[TextAssetSuggestions](textassetsuggestions.md)|Defines the text asset suggestions data object.|
