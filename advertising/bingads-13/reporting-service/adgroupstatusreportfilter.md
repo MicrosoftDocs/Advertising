@@ -75,5 +75,6 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancereportfilter.md)  
 [ProfessionalDemographicsAudienceReportFilter](professionaldemographicsaudiencereportfilter.md)  
 [PublisherUsagePerformanceReportFilter](publisherusageperformancereportfilter.md)  
+[SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.md)  
 [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)  
 [ShareOfVoiceReportFilter](shareofvoicereportfilter.md)  

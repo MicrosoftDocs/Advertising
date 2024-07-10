@@ -36,3 +36,4 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 ## Used By
 [BudgetSummaryReportRequest](budgetsummaryreportrequest.md)  
 [CampaignPerformanceReportRequest](campaignperformancereportrequest.md)  
+[SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)  

@@ -2588,6 +2588,8 @@
       href: ../reporting-service/assetgroupperformancereportrequest.md
     - name: AssetGroupReportScope
       href: ../reporting-service/assetgroupreportscope.md
+    - name: AssetPerformanceReportRequest
+      href: ../reporting-service/assetperformancereportrequest.md
     - name: AudiencePerformanceReportFilter
       href: ../reporting-service/audienceperformancereportfilter.md
     - name: AudiencePerformanceReportRequest
@@ -2696,6 +2698,10 @@
       href: ../reporting-service/searchcampaignchangehistoryreportfilter.md
     - name: SearchCampaignChangeHistoryReportRequest
       href: ../reporting-service/searchcampaignchangehistoryreportrequest.md
+    - name: SearchInsightPerformanceReportFilter
+      href: ../reporting-service/searchinsightperformancereportfilter.md
+    - name: SearchInsightPerformanceReportRequest
+      href: ../reporting-service/searchinsightperformancereportrequest.md
     - name: SearchQueryPerformanceReportFilter
       href: ../reporting-service/searchqueryperformancereportfilter.md
     - name: SearchQueryPerformanceReportRequest
@@ -2741,6 +2747,8 @@
       href: ../reporting-service/agegenderaudiencereportcolumn.md
     - name: AssetGroupPerformanceReportColumn
       href: ../reporting-service/assetgroupperformancereportcolumn.md
+    - name: AssetPerformanceReportColumn
+      href: ../reporting-service/assetperformancereportcolumn.md
     - name: AudiencePerformanceReportColumn
       href: ../reporting-service/audienceperformancereportcolumn.md
     - name: BidMatchTypeReportFilter
@@ -2821,6 +2829,8 @@
       href: ../reporting-service/reporttimezone.md
     - name: SearchCampaignChangeHistoryReportColumn
       href: ../reporting-service/searchcampaignchangehistoryreportcolumn.md
+    - name: SearchInsightPerformanceReportFilter
+      href: ../reporting-service/searchinsightperformancereportfilter.md
     - name: SearchQueryPerformanceReportColumn
       href: ../reporting-service/searchqueryperformancereportcolumn.md
     - name: ShareOfVoiceReportColumn
