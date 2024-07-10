@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets the audience full estimation.
 dev_langs: 
- - csharp
- - java
- - php
- - python
+- csharp
+- java
+- php
+- python
 ---
 # GetAudienceFullEstimation Service Operation - Ad Insight
 Gets the audience full estimation.
@@ -50,7 +50,7 @@ The *GetAudienceFullEstimationResponse* object defines the [body](#response-body
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="currency"></a>Currency|Currency of the suggested bid/budget. Output only.|[Currency](currency.md)|
+|<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estclick"></a>EstClick|Monthly estimated user count with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
@@ -380,3 +380,4 @@ response=adinsight_service.GetAudienceFullEstimation(
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
 Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+
