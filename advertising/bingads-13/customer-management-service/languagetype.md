@@ -35,13 +35,16 @@ Defines a selection of language values.
     <xs:enumeration value="Russian" />
     <xs:enumeration value="TraditionalChinese" />
     <xs:enumeration value="SimplifiedChinese" />
+    <xs:enumeration value="Thai" />
+    <xs:enumeration value="Turkish" />
+    <xs:enumeration value="Filipino" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [LanguageType](languagetype.md) value set has the following values: [Arabic](#arabic), [Danish](#danish), [Dutch](#dutch), [English](#english), [Finnish](#finnish), [French](#french), [German](#german), [Hebrew](#hebrew), [Italian](#italian), [Japanese](#japanese), [Korean](#korean), [Norwegian](#norwegian), [Portuguese](#portuguese), [Russian](#russian), [SimplifiedChinese](#simplifiedchinese), [Spanish](#spanish), [Swedish](#swedish), [TraditionalChinese](#traditionalchinese).
+The [LanguageType](languagetype.md) value set has the following values: [Arabic](#arabic), [Danish](#danish), [Dutch](#dutch), [English](#english), [Filipino](#filipino), [Finnish](#finnish), [French](#french), [German](#german), [Hebrew](#hebrew), [Italian](#italian), [Japanese](#japanese), [Korean](#korean), [Norwegian](#norwegian), [Portuguese](#portuguese), [Russian](#russian), [SimplifiedChinese](#simplifiedchinese), [Spanish](#spanish), [Swedish](#swedish), [Thai](#thai), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish).
 
 |Value|Description|
 |-----------|---------------|
@@ -49,6 +52,7 @@ The [LanguageType](languagetype.md) value set has the following values: [Arabic]
 |<a name="danish"></a>Danish|The corresponding language type.|
 |<a name="dutch"></a>Dutch|The corresponding language type.|
 |<a name="english"></a>English|The corresponding language type.|
+|<a name="filipino"></a>Filipino|The corresponding language type.|
 |<a name="finnish"></a>Finnish|The corresponding language type.|
 |<a name="french"></a>French|The corresponding language type.|
 |<a name="german"></a>German|The corresponding language type.|
@@ -62,7 +66,9 @@ The [LanguageType](languagetype.md) value set has the following values: [Arabic]
 |<a name="simplifiedchinese"></a>SimplifiedChinese|The corresponding language type.|
 |<a name="spanish"></a>Spanish|The corresponding language type.|
 |<a name="swedish"></a>Swedish|The corresponding language type.|
+|<a name="thai"></a>Thai|The corresponding language type.|
 |<a name="traditionalchinese"></a>TraditionalChinese|The corresponding language type.|
+|<a name="turkish"></a>Turkish|The corresponding language type.|
 
 ## Requirements
 Service: [CustomerManagementService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc)  
