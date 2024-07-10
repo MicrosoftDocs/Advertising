@@ -10,8 +10,8 @@ metadata:
   description: Official product, developer, and other documentation for Microsoft Advertising # Required; article description that is displayed in search results. < 160 chars.
   ms.service: bing-ads #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
-  author: rgaritta #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-rgaritta #Required; microsoft alias of author; optional team alias.
+  author: jonmeyers #Required; your GitHub user alias, with correct capitalization.
+  ms.author: jonmeyers #Required; microsoft alias of author; optional team alias.
   ms.date: 03/16/2020 #Required; mm/dd/yyyy format.
 
 # conceptualContent section (optional)
