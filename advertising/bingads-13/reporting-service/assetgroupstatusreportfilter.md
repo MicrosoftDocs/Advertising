@@ -48,3 +48,4 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [ProductPartitionUnitPerformanceReportFilter](productpartitionunitperformancereportfilter.md)  
 [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancereportfilter.md)  
 [PublisherUsagePerformanceReportFilter](publisherusageperformancereportfilter.md)  
+[SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.md)  
