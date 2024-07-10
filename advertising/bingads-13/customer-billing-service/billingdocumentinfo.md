@@ -29,13 +29,20 @@ Defines a billing document identification object that contains information about
         </xs:appinfo>
       </xs:annotation>
     </xs:element>
+    <xs:element minOccurs="0" name="DocumentNumber" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
 
-The [BillingDocumentInfo](billingdocumentinfo.md) object has the following elements: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [Amount](#amount), [CampaignId](#campaignid), [CurrencyCode](#currencycode), [CustomerId](#customerid), [DocumentDate](#documentdate), [DocumentId](#documentid).
+The [BillingDocumentInfo](billingdocumentinfo.md) object has the following elements: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [Amount](#amount), [CampaignId](#campaignid), [CurrencyCode](#currencycode), [CustomerId](#customerid), [DocumentDate](#documentdate), [DocumentId](#documentid), [DocumentNumber](#documentnumber).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -48,6 +55,7 @@ The [BillingDocumentInfo](billingdocumentinfo.md) object has the following eleme
 |<a name="customerid"></a>CustomerId|The identifier of the customer for which the billing document was generated.|**int**|
 |<a name="documentdate"></a>DocumentDate|The date of the billing document.|**dateTime**|
 |<a name="documentid"></a>DocumentId|An identifier of the billing document.|**long**|
+|<a name="documentnumber"></a>DocumentNumber|The number of the billing document.|**string**|
 
 ## Requirements
 Service: [CustomerBillingService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/Billing/v13/CustomerBillingService.svc)  
