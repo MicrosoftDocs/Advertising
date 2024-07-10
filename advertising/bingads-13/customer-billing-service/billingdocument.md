@@ -17,18 +17,26 @@ Defines a billing document.
     <xs:element minOccurs="0" name="Data" nillable="true" type="xs:base64Binary" />
     <xs:element minOccurs="0" name="Id" type="xs:long" />
     <xs:element minOccurs="0" name="Type" type="tns:DataType" />
+    <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
 
-The [BillingDocument](billingdocument.md) object has the following elements: [Data](#data), [Id](#id), [Type](#type).
+The [BillingDocument](billingdocument.md) object has the following elements: [Data](#data), [Id](#id), [Number](#number), [Type](#type).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="data"></a>Data|The billing document.|**base64Binary**|
 |<a name="id"></a>Id|The identifier of the billing document.|**long**|
+|<a name="number"></a>Number|The number of the billing document.|**string**|
 |<a name="type"></a>Type|The format of the billing document.|[DataType](datatype.md)|
 
 ## Requirements
