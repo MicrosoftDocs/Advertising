@@ -17,7 +17,7 @@ The Customer Management service defines the following service operations.
 |[DeleteAccount](deleteaccount.md)|Deletes an account.|1 *AccountId*|
 |[DeleteCustomer](deletecustomer.md)|Deletes a customer.|1 *CustomerId*|
 |[DeleteUser](deleteuser.md)|Deletes a user.|1 *UserId*|
-|[DismissNotifications](dismissnotifications.md)|Reserved.|Dismiss a notification.|
+|[DismissNotifications](dismissnotifications.md)|A service operation to dismiss notifications.|1 *NotificationTypePairs*|
 |[FindAccounts](findaccounts.md)|Gets a list of accounts owned by the specified customer that match the specified filter criteria.|1 *CustomerId*|
 |[FindAccountsOrCustomersInfo](findaccountsorcustomersinfo.md)|Gets a list of the accounts and customers that match the specified filter criteria.|Not applicable.|
 |[GetAccount](getaccount.md)|Gets the details of an account.|1 *AccountId*|
