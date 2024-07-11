@@ -1629,6 +1629,8 @@
       href: ../campaign-management-service/assetgrouplistinggroup.md
     - name: AssetGroupListingGroupAction
       href: ../campaign-management-service/assetgrouplistinggroupaction.md
+    - name: AssetGroupSearchTheme
+      href: ../campaign-management-service/assetgroupsearchtheme.md
     - name: AssetLink
       href: ../campaign-management-service/assetlink.md
     - name: Audience
@@ -1839,6 +1841,8 @@
       href: ../campaign-management-service/importresult.md
     - name: ImportSearchAndReplaceForStringProperty
       href: ../campaign-management-service/importsearchandreplaceforstringproperty.md
+    - name: ImpressionBasedRemarketingList
+      href: ../campaign-management-service/impressionbasedremarketinglist.md
     - name: InheritFromParentBiddingScheme
       href: ../campaign-management-service/inheritfromparentbiddingscheme.md
     - name: InMarketAudience
@@ -2011,6 +2015,8 @@
       href: ../campaign-management-service/uettag.md
     - name: UrlGoal
       href: ../campaign-management-service/urlgoal.md
+    - name: VanityPharmaSetting
+      href: ../campaign-management-service/vanitypharmasetting.md
     - name: VerifiedTrackingSetting
       href: ../campaign-management-service/verifiedtrackingsetting.md
     - name: Video
@@ -2162,6 +2168,8 @@
       href: ../campaign-management-service/importadditionalfield.md
     - name: ImportEntityType
       href: ../campaign-management-service/importentitytype.md
+    - name: ImpressionBasedEntityType
+      href: ../campaign-management-service/impressionbasedentitytype.md
     - name: IntentOption
       href: ../campaign-management-service/intentoption.md
     - name: ItemAction
@@ -2176,6 +2184,8 @@
       href: ../campaign-management-service/logicaloperator.md
     - name: MatchType
       href: ../campaign-management-service/matchtype.md
+    - name: MediaAdditionalField
+      href: ../campaign-management-service/mediaadditionalfield.md
     - name: MediaEnabledEntityFilter
       href: ../campaign-management-service/mediaenabledentityfilter.md
     - name: MigrationStatus
@@ -2210,6 +2220,8 @@
       href: ../campaign-management-service/uettagtrackingstatus.md
     - name: ValueOperator
       href: ../campaign-management-service/valueoperator.md
+    - name: VanityPharmaWebsiteDescription
+      href: ../campaign-management-service/vanitypharmawebsitedescription.md
     - name: WebpageConditionOperand
       href: ../campaign-management-service/webpageconditionoperand.md
 - name: Customer Billing API

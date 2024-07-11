@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets the Microsoft Merchant Center stores for the specified customer.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetBMCStoresByCustomerId Service Operation - Campaign Management
 Gets the Microsoft Merchant Center stores for the specified customer.
@@ -31,7 +31,7 @@ The *GetBMCStoresByCustomerIdRequest* object defines the [body](#request-body) a
 [!INCLUDE[request-header](./includes/request-header.md)]
 
 ## <a name="response"></a>Response Elements
-The *GetBMCStoresByCustomerIdResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
+The *GetBMCStoresByCustomerIdResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).  
 
 > [!NOTE]
 > The list of stores in the response includes global stores.

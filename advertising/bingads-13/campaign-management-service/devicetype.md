@@ -13,25 +13,47 @@ The device type for data exclusions and seasonality adjustments.
 ## Syntax
 ```xml
 <xs:simpleType name="DeviceType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="None" />
-    <xs:enumeration value="Computers" />
-    <xs:enumeration value="Smartphones" />
-    <xs:enumeration value="Tablets">
-      <xs:annotation>
-        <xs:appinfo>
-          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
-        </xs:appinfo>
-      </xs:annotation>
-    </xs:enumeration>
-    <xs:enumeration value="All">
-      <xs:annotation>
-        <xs:appinfo>
-          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">7</EnumerationValue>
-        </xs:appinfo>
-      </xs:annotation>
-    </xs:enumeration>
-  </xs:restriction>
+  <xs:list>
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="None">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">0</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="Computers">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="Smartphones">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="Tablets">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="All">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">7</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:list>
 </xs:simpleType>
 ```
 

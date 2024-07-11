@@ -215,6 +215,13 @@ Defines the possible types of ad group criterions.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="ImpressionBasedRemarketingList">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">536870912</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -223,7 +230,7 @@ Defines the possible types of ad group criterions.
 
 ## <a name="values"></a>Values
 
-The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Genre](#genre), [HotelAdvanceBookingWindow](#hoteladvancebookingwindow), [HotelCheckInDate](#hotelcheckindate), [HotelCheckInDay](#hotelcheckinday), [HotelDateSelectionType](#hoteldateselectiontype), [HotelGroup](#hotelgroup), [HotelLengthOfStay](#hotellengthofstay), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductPartition](#productpartition), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Targets](#targets), [Webpage](#webpage).
+The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Genre](#genre), [HotelAdvanceBookingWindow](#hoteladvancebookingwindow), [HotelCheckInDate](#hotelcheckindate), [HotelCheckInDay](#hotelcheckinday), [HotelDateSelectionType](#hoteldateselectiontype), [HotelGroup](#hotelgroup), [HotelLengthOfStay](#hotellengthofstay), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductPartition](#productpartition), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Targets](#targets), [Webpage](#webpage).
 
 |Value|Description|
 |-----------|---------------|
@@ -243,6 +250,7 @@ The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following 
 |<a name="hoteldateselectiontype"></a>HotelDateSelectionType|The ad group criterion is a hotel date selection type criterion.<br/><br/>The *Criterion* element of either the [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md) can be an instance of [HotelDateSelectionTypeCriterion](hoteldateselectiontype.md).<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="hotelgroup"></a>HotelGroup|The criterion type for lodging campaigns. Set *AdGroupCriterions* to *HotelGroup*.|
 |<a name="hotellengthofstay"></a>HotelLengthOfStay|The ad group criterion is a hotel length of stay criterion.<br/><br/>The *Criterion* element of either the [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md) can be an instance of [HotelLengthOfStayCriterion](hotellengthofstaycriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
+|<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Reserved.|
 |<a name="industry"></a>Industry|The ad group criterion is an industry profile criterion.<br/><br/>The *Criterion* element of either the [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *Industry*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="inmarketaudience"></a>InMarketAudience|The ad group criterion is an in-market audience association.<br/><br/>This criterion type value is only used by the [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) operation to request the in-market audience associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the in-market audience, see [InMarketAudience](inmarketaudience.md).|
 |<a name="jobfunction"></a>JobFunction|The ad group criterion is a job function profile criterion.<br/><br/>The *Criterion* element of either the [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *JobFunction*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|

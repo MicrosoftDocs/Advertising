@@ -17,13 +17,27 @@ With the ManualCpa (manual cost per click) bid strategy, you set your big per ad
 <xs:complexType name="ManualCpaBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:BiddingScheme">
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ManualCpi" nillable="true" type="xs:double">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
     </xs:extension>
   </xs:complexContent>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
+
+The [ManualCpaBiddingScheme](manualcpabiddingscheme.md) object has the following elements: [ManualCpi](#manualcpi).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="manualcpi"></a>ManualCpi|Reserved.|**double**|
 
 The [ManualCpaBiddingScheme](manualcpabiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 
