@@ -10,27 +10,6 @@ description: Defines a criterion that can be used to show ads from a specific ge
 # GenreCriterion Data Object - Campaign Management
 Defines a criterion that can be used to show ads from a specific genre.
 
-## Syntax
-```xml
-<xs:complexType name="GenreCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:complexContent mixed="false">
-    <xs:extension base="tns:Criterion">
-      <xs:sequence>
-        <xs:element minOccurs="0" name="GenreId" type="xs:long" />
-      </xs:sequence>
-    </xs:extension>
-  </xs:complexContent>
-</xs:complexType>
-```
-
-## <a name="elements"></a>Elements
-
-The [GenreCriterion](genrecriterion.md) object has the following elements: [GenreId](#genreid).
-
-|Element|Description|Data Type|
-|-----------|---------------|-------------|
-|<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.<br/><br/>[View this table](#genreid-values) to see possible values for *GenreId*.|**long**|
-
 <a name="genreid-values"></a>**Genre ID Values**
 
 These are the possible values for *GenreId*:
@@ -112,6 +91,27 @@ These are the possible values for *GenreId*:
 |Wrestling|78|
 |Anime|80|
 |Soap-Opera|81|
+
+## Syntax
+```xml
+<xs:complexType name="GenreCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexContent mixed="false">
+    <xs:extension base="tns:Criterion">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenreId" type="xs:long" />
+      </xs:sequence>
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+```
+
+## <a name="elements"></a>Elements
+
+The [GenreCriterion](genrecriterion.md) object has the following elements: [GenreId](#genreid).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="genreid"></a>GenreId|The Microsoft Advertising identifier of the Genre.<br/><br/>[View this table](#genreid-values) to see possible values for *GenreId*.|**long**|
 
 The [GenreCriterion](genrecriterion.md) object has [Inherited Elements](#inheritedelements).
 

@@ -36,12 +36,13 @@ The [Image](image.md) object has [Inherited Elements](#inheritedelements).
 ## <a name="inheritedelements"></a>Inherited Elements
 
 ### <a name="inheritedelementsmedia"></a>Inherited Elements from Media
-The [Image](image.md) object derives from the [Media](media.md) object, and inherits the following elements: [Id](#id), [MediaType](#mediatype), [Type](#type). The descriptions below are specific to [Image](image.md), and might not apply to other objects that inherit the same elements from the [Media](media.md) object.  
+The [Image](image.md) object derives from the [Media](media.md) object, and inherits the following elements: [Id](#id), [MediaType](#mediatype), [Text](#text), [Type](#type). The descriptions below are specific to [Image](image.md), and might not apply to other objects that inherit the same elements from the [Media](media.md) object.  
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the media.<br/><br/>**Add:** Read-only|**long**|
 |<a name="mediatype"></a>MediaType|The type of media to add to the library.<br/><br/>The recommended media type is "GenericImage".<br/><br/>For media that will be used with an [ImageAdExtension](imageadextension.md), the supported values are *GenericImage*, *Image16x9*, *Image15x10*, *Image4x3*, and *Image12x10*.<br/><br/>For media that will be used with a [ResponsiveAd](responsivead.md), the supported values are *GenericImage*, *Image1x1*, *Image191x100*, and *Image4x1*.<br/><br/>For more information about supported aspect ratios, see the [Remarks](#remarks) section below.<br/><br/>**Add:** Required|**string**|
+|<a name="text"></a>Text|Reserved.|**string**|
 |<a name="type"></a>Type|The media type.<br/><br/>For more information about media types, see the [Media Data Object Remarks](media.md#remarks).<br/><br/>**Add:** Read-only|**string**|
 
 ## <a name="remarks"></a>Remarks

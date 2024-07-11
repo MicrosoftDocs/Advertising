@@ -17,6 +17,13 @@ Defines a media meta data object. The meta data includes download Urls for one o
     <xs:element name="Id" type="xs:long" />
     <xs:element minOccurs="0" name="MediaType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Representations" nillable="true" type="tns:ArrayOfMediaRepresentation" />
+    <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
@@ -24,13 +31,14 @@ Defines a media meta data object. The meta data includes download Urls for one o
 
 ## <a name="elements"></a>Elements
 
-The [MediaMetaData](mediametadata.md) object has the following elements: [Id](#id), [MediaType](#mediatype), [Representations](#representations), [Type](#type).
+The [MediaMetaData](mediametadata.md) object has the following elements: [Id](#id), [MediaType](#mediatype), [Representations](#representations), [Text](#text), [Type](#type).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The system identifier of the media meta data.|**long**|
 |<a name="mediatype"></a>MediaType|The name of the media subclass.<br/><br/>For an [ImageMediaRepresentation](imagemediarepresentation.md), the *MediaType* is *Image*.|**string**|
 |<a name="representations"></a>Representations|A list of [ImageMediaRepresentation](imagemediarepresentation.md) that each include download URLs for one or more media representations. The number of representations depends on the type of media. For image ad extensions the service will return exactly three [ImageMediaRepresentation](imagemediarepresentation.md) objects with varying height and width properties. For responsive ads the service will return exactly one [ImageMediaRepresentation](imagemediarepresentation.md) object. For more information see [MediaEnabledEntityFilter](mediaenabledentityfilter.md).|[MediaRepresentation](mediarepresentation.md) array|
+|<a name="text"></a>Text|Reserved.|**string**|
 |<a name="type"></a>Type|The type of media in the library.<br/><br/>For an [ImageMediaRepresentation](imagemediarepresentation.md), the only possible value is *ImageMediaRepresentation*.|**string**|
 
 ## Requirements

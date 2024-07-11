@@ -14,6 +14,13 @@ Defines an asset group in an advertising campaign.
 ```xml
 <xs:complexType name="AssetGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
+    <xs:element minOccurs="0" name="AssetGroupSearchThemes" nillable="true" type="tns:ArrayOfAssetGroupSearchTheme">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="CallToAction" nillable="true" type="tns:CallToAction" />
     <xs:element minOccurs="0" name="Descriptions" nillable="true" type="tns:ArrayOfAssetLink" />
@@ -37,10 +44,11 @@ Defines an asset group in an advertising campaign.
 
 ## <a name="elements"></a>Elements
 
-The [AssetGroup](assetgroup.md) object has the following elements: [BusinessName](#businessname), [CallToAction](#calltoaction), [Descriptions](#descriptions), [EditorialStatus](#editorialstatus), [EndDate](#enddate), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Headlines](#headlines), [Id](#id), [Images](#images), [LongHeadlines](#longheadlines), [Name](#name), [Path1](#path1), [Path2](#path2), [StartDate](#startdate), [Status](#status).
+The [AssetGroup](assetgroup.md) object has the following elements: [AssetGroupSearchThemes](#assetgroupsearchthemes), [BusinessName](#businessname), [CallToAction](#calltoaction), [Descriptions](#descriptions), [EditorialStatus](#editorialstatus), [EndDate](#enddate), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Headlines](#headlines), [Id](#id), [Images](#images), [LongHeadlines](#longheadlines), [Name](#name), [Path1](#path1), [Path2](#path2), [StartDate](#startdate), [Status](#status).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Reserved.|[AssetGroupSearchTheme](assetgroupsearchtheme.md) array|
 |<a name="businessname"></a>BusinessName|The name of the business.<br/><br/>Your business's name may appear in your ad, depending on the ad placement.<br/><br/>The length of the string is limited to 25 characters.<br/><br/>**Add:** Required. If not provided and parent campaign associates to a store, the store name will be used as the business name.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
 |<a name="calltoaction"></a>CallToAction|A brief, punchy reason for customers to click your ad right now.<br/><br/>This is displayed on your call to action button.<br/><br/>**Add:** Required. If not provided and parent campaign associates to a store, it will default to *LearnMore*.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[CallToAction](calltoaction.md)|
 |<a name="descriptions"></a>Descriptions|The descriptions that are shown below the path in your ad.<br /><br />You must set between 2-5 descriptions. Each description's Text must contain at least one word. The Text cannot contain the newline (\n) character.<br /><br />If the parent campaign associates to a store and you specify Descriptions, you must also specify Headlines, LongHeadlines, and Images. <br /><br />**Add**: Optional if the parent campaign associates to a store, required if its parent campaign does not associate to a store.<br />**Update**: Optional. To retain all of the existing asset links, set or leave this element nil. If you set a value for this element, any descriptions that were previously linked to this asset group will be replaced. If the parent campaign associates to a store and you set this element to an empty list, the previous setting will be deleted. |[AssetLink](assetlink.md) array|
