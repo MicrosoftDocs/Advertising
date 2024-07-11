@@ -15,6 +15,9 @@ dev_langs:
 # GetBMCStoresByCustomerId Service Operation - Campaign Management
 Gets the Microsoft Merchant Center stores for the specified customer.
 
+> [!NOTE]
+> The list of stores in the response includes global stores.
+
 ## <a name="request"></a>Request Elements
 The *GetBMCStoresByCustomerIdRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 
@@ -31,10 +34,7 @@ The *GetBMCStoresByCustomerIdRequest* object defines the [body](#request-body) a
 [!INCLUDE[request-header](./includes/request-header.md)]
 
 ## <a name="response"></a>Response Elements
-The *GetBMCStoresByCustomerIdResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).  
-
-> [!NOTE]
-> The list of stores in the response includes global stores.
+The *GetBMCStoresByCustomerIdResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
 
 ### <a name="response-body"></a>Response Body Elements
 

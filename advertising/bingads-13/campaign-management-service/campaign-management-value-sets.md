@@ -78,7 +78,7 @@ The Campaign Management service defines the following value sets.
 |[HotelListingType](hotellistingtype.md)|Defines the type of hotel listing.|
 |[ImportAdditionalField](importadditionalfield.md)|Defines a list of optional import properties that you can request when calling [GetImportJobsByIds](getimportjobsbyids.md#returnadditionalfields) and [GetImportResults](getimportresults.md#returnadditionalfields).|
 |[ImportEntityType](importentitytype.md)|Defines the supported import entity types.|
-|[ImpressionBasedEntityType](impressionbasedentitytype.md)|Reserved.|
+|[ImpressionBasedEntityType](impressionbasedentitytype.md)|Defines a value set for ImpressionBasedEntityType.|
 |[IntentOption](intentoption.md)|Defines the possible intent options for location criterion, for example to target people in, searching for, or viewing pages about your targeted location.|
 |[ItemAction](itemaction.md)|Defines the possible types of item actions, for example to add, delete, or update the product partition criterion.|
 |[KeywordEditorialStatus](keywordeditorialstatus.md)|Defines the editorial review status values of a keyword.|
@@ -86,7 +86,7 @@ The Campaign Management service defines the following value sets.
 |[LanguageName](languagename.md)|Defines the set of supported ad languages.|
 |[LogicalOperator](logicaloperator.md)|Defines the supported set of logical operators for combined list audiences.|
 |[MatchType](matchtype.md)|Defines the possible match types for a keyword or negative keyword.|
-|[MediaAdditionalField](mediaadditionalfield.md)|Reserved.|
+|[MediaAdditionalField](mediaadditionalfield.md)|Defines a value set for MediaAdditionalField.|
 |[MediaEnabledEntityFilter](mediaenabledentityfilter.md)|Defines the possible values representing entities that are enabled for media such as images.|
 |[MigrationStatus](migrationstatus.md)|Defines the possible migration status values.|
 |[Minute](minute.md)|Defines the possible minute values for ad extension scheduling or day and time criterion.|
@@ -104,7 +104,7 @@ The Campaign Management service defines the following value sets.
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|
 |[ValueOperator](valueoperator.md)|Defines the operators that can be applied to values within a conversion event goal.|
-|[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|Reserved.|
-|[VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md)|Reserved.|
+|[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|Defines a value set for VanityPharmaDisplayUrlMode.|
+|[VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md)|Defines a value set for VanityPharmaWebsiteDescription.|
 |[WebpageConditionOperand](webpageconditionoperand.md)|Defines the possible operand values that can be applied to the argument of a webpage condition for dynamic search ads.|
 |[WebpageConditionOperator](webpageconditionoperator.md)|Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.|
