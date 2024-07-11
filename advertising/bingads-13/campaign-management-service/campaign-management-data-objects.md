@@ -46,7 +46,7 @@ The Campaign Management service defines the following data objects.
 |[AssetGroupEditorialReasonCollection](assetgroupeditorialreasoncollection.md)|Defines a collection of asset groups that failed editorial review.|
 |[AssetGroupListingGroup](assetgrouplistinggroup.md)|A listing group that corresponds directly to the identifiers specified in the request.|
 |[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md)|An object that contains an Action element and a ListingGroup element.|
-|[AssetGroupSearchTheme](assetgroupsearchtheme.md)|Reserved.|
+|[AssetGroupSearchTheme](assetgroupsearchtheme.md)|Defines an AssetGroupSearchTheme data object.|
 |[AssetLink](assetlink.md)|Defines the relationship of an asset to an ad.|
 |[Audience](audience.md)|Defines the base object of an audience.|
 |[AudienceCriterion](audiencecriterion.md)|Defines a criterion that can be used to show ads to a specific audience.|
@@ -152,7 +152,7 @@ The Campaign Management service defines the following data objects.
 |[ImportOption](importoption.md)|Defines the base object of an import option.|
 |[ImportResult](importresult.md)|Contains the status, run time, and statistical results for an import job that has run.|
 |[ImportSearchAndReplaceForStringProperty](importsearchandreplaceforstringproperty.md)|Defines the string search and replace Google import option.|
-|[ImpressionBasedRemarketingList](impressionbasedremarketinglist.md)|Reserved.|
+|[ImpressionBasedRemarketingList](impressionbasedremarketinglist.md)|Defines a data object for ImpressionBasedRemarketingList.|
 |[InheritFromParentBiddingScheme](inheritfromparentbiddingscheme.md)|Defines an object that represents the inherit from parent bid strategy type.|
 |[InMarketAudience](inmarketaudience.md)|Defines an in-market audience.|
 |[InStoreTransactionGoal](instoretransactiongoal.md)|Defines an in-store transaction goal.|
@@ -239,7 +239,7 @@ The Campaign Management service defines the following data objects.
 |[TextAsset](textasset.md)|A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
-|[VanityPharmaSetting](vanitypharmasetting.md)|Reserved.|
+|[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|
 |[VerifiedTrackingSetting](verifiedtrackingsetting.md)|Defines the VerifiedTrackingSetting Data Object.|
 |[Video](video.md)|Defines the Video Data Object.|
 |[VideoAdExtension](videoadextension.md)|Defines an ad extension with a video and call-to-action button.|
