@@ -10,7 +10,7 @@ ms.author: tomfitz
 ---
 # Microsoft.Authorization roleManagementPolicyAssignments 
 
-::: zone pivot="deployment-language-bicep"
+::: zone pivot="soap"
 
 ## Bicep resource definition
 
@@ -61,7 +61,7 @@ resource symbolicname 'Microsoft.Authorization/roleManagementPolicyAssignments@2
 
 ::: zone-end
 
-::: zone pivot="deployment-language-arm-template"
+::: zone pivot="rest"
 
 ## ARM template resource definition
 
@@ -105,61 +105,6 @@ To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, ad
 | name | The resource name | string (required) |
 | scope | Use when creating an extension resource at a scope that is different than the deployment scope. | Target resource<br /><br />For JSON, set the value to the full name of the resource to apply the [extension resource](/azure/azure-resource-manager/templates/scope-extension-resources) to.<br /><br />This resource type can also be applied to a tenant.<br />For JSON, use `"/"`. |
 | properties | Role management policy properties. | [RoleManagementPolicyAssignmentProperties](#rolemanagementpolicyassignmentproperties-1)  |
-
-### RoleManagementPolicyAssignmentProperties
-
-| Name | Description | Value |
-| ---- | ----------- | ------------ |
-| policyId | The policy id role management policy assignment. | string  |
-| roleDefinitionId | The role definition of management policy assignment. | string  |
-| scope | The role management policy scope. | string  |
-
-::: zone-end
-
-::: zone pivot="deployment-language-terraform"
-
-## Terraform (AzAPI provider) resource definition
-
-The roleManagementPolicyAssignments resource type is an **extension resource**, which means you can apply it to another resource. 
-
-Use the `parent_id` property on this resource to set the scope for this resource.
-
-The roleManagementPolicyAssignments resource type can be deployed with operations that target: 
-
-* **Resource groups**
-* **Subscriptions**
-* **Management groups**
-* **Tenants**
-
-## Resource format
-
-To create a Microsoft.Authorization/roleManagementPolicyAssignments resource, add the following Terraform to your template.
-
-```terraform
-resource "azapi_resource" "symbolicname" {
-  type = "Microsoft.Authorization/roleManagementPolicyAssignments@2020-10-01"
-  name = "string"
-  parent_id = "string"
-  body = jsonencode({
-    properties = {
-      policyId = "string"
-      roleDefinitionId = "string"
-      scope = "string"
-    }
-  })
-}
-```
-
-## Property values
-
-### roleManagementPolicyAssignments
-
-| Name | Description | Value |
-| ---- | ----------- | ------------ |
-| type | The resource type | "Microsoft.Authorization/roleManagementPolicyAssignments@2020-10-01" |
-| name | The resource name | string (required) |
-| parent_id | The ID of the resource to apply this extension resource to. | string (required) |
-| properties | Role management policy properties. | [RoleManagementPolicyAssignmentProperties](#rolemanagementpolicyassignmentproperties-2)  |
 
 ### RoleManagementPolicyAssignmentProperties
 
