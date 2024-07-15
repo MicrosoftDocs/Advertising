@@ -137,7 +137,7 @@ The following example demonstrates day and time ranges during weekdays from 9:00
 ## <a name="businesslogo"></a>Business Logo
 The asset ID for the business logo.  
 
-There is no maximum length.  
+The business logo must have a 1:1 aspect ratio. The minimum image size is 128px by 128px. The maximum image size is 5120 KB.
 
 **Add:** Required  
 **Update:** Required  
@@ -170,6 +170,8 @@ Used to associate records in the bulk upload file with records in the results fi
 
 ## <a name="domainname"></a>Domain Name
 The domain name.  
+
+*Note*: Use the domain name, not a URL. For example, use "contoso.com", not "https://contoso.com".
 
 The maximum length is 50 characters.  
 
