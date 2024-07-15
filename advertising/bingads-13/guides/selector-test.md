@@ -15,7 +15,6 @@ dev_langs:
 ---
 # AddCampaigns Service Operation - Campaign Management
 Adds one or more campaigns to the specified account.
-
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
