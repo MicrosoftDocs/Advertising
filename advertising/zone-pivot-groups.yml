@@ -1,12 +1,10 @@
 # YamlMime:ZonePivotGroups
 groups:
-- id: deployment-languages-reference
-  title: Deployment languages
-  prompt: Choose a deployment language
+- id: api-reference
+  title: API reference
+  prompt: Choose REST/SOAP API
   pivots:
-  - id: deployment-language-bicep
-    title: Bicep
-  - id: deployment-language-arm-template
-    title: ARM template
-  - id: deployment-language-terraform
-    title: Terraform
+  - id: rest
+    title: REST
+  - id: soap
+    title: SOAP
