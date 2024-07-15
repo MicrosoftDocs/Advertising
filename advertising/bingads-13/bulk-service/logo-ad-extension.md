@@ -12,7 +12,7 @@ dev_langs:
 # Logo Ad Extension Record - Bulk
 Defines a logo ad extension that can be downloaded and uploaded in a bulk file.
 
-You can associate an app ad extension with the account or with campaigns and ad groups in the account. You must associate 1 logo ad extension per entity (account, campaign, or ad group). Use the [Account Logo Ad Extension](account-logo-ad-extension.md), [Ad Group Logo Ad Extension](ad-group-logo-ad-extension.md), and [Campaign Logo Ad Extension](campaign-logo-ad-extension.md) records to manage logo ad extension associations.
+You can associate a logo ad extension with the account or with campaigns and ad groups in the account. You must associate 1 logo ad extension per entity (account, campaign, or ad group). Use the [Account Logo Ad Extension](account-logo-ad-extension.md), [Ad Group Logo Ad Extension](ad-group-logo-ad-extension.md), and [Campaign Logo Ad Extension](campaign-logo-ad-extension.md) records to manage logo ad extension associations.
 
 You can download all *Logo Ad Extension* records in the account by including the [DownloadEntity](downloadentity.md) value of *LogoAdExtensions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
