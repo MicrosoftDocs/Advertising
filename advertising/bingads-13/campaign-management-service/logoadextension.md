@@ -34,10 +34,10 @@ The [LogoAdExtension](logoadextension.md) object has the following elements: [Bu
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="businesslogo"></a>BusinessLogo|The asset ID for the business logo. There is no maximum length.<br/><br/>**Add**: Required<br/>**Update**: Required|**long**|
+|<a name="businesslogo"></a>BusinessLogo|The asset ID for the business logo.<br/><br/>The business logo must have a 1:1 aspect ratio. The minimum image size is 128px by 128px. The maximum image size is 5120 KB.<br/><br/>**Add**: Required<br/>**Update**: Required|**long**|
 |<a name="businesslogourl"></a>BusinessLogoUrl|The URL of the business logo. This is used internally.<br/><br/>**Add**: Not allowed<br/>**Update**: Not allowed|**string**|
 |<a name="businessname"></a>BusinessName|The business name. Maximum length is 25 characters.<br/><br/>**Add**: Required<br/>**Update**: Required|**string**|
-|<a name="domainname"></a>DomainName|The domain name. Maximum length is 50 characters.<br/><br/>**Add**: Optional<br/>**Update**: Optional|**string**|
+|<a name="domainname"></a>DomainName|The domain name.<br/><br/>*Note*: Use the domain name, not a URL. For example, use "contoso.com", not "https://contoso.com". The maximum length is 50 characters.<br/><br/>**Add**: Optional<br/>**Update**: Optional|**string**|
 
 The [LogoAdExtension](logoadextension.md) object has [Inherited Elements](#inheritedelements).
 
