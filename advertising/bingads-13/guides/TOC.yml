@@ -651,6 +651,9 @@
     - name: Account Location Ad Extension
       href: ../bulk-service/account-location-ad-extension.md
       displayName: BulkAccountLocationAdExtension
+    - name: Account Logo Ad Extension
+      href: ../bulk-service/account-logo-ad-extension.md
+      displayName: BulkAccountLogoAdExtension
     - name: Account Negative Keyword List
       href: ../bulk-service/account-negative-keyword-list.md
       displayName: BulkAccountNegativeKeywordList
@@ -762,6 +765,9 @@
     - name: Ad Group Location Intent Criterion
       href: ../bulk-service/ad-group-location-intent-criterion.md
       displayName: BulkAdGroupLocationIntentCriterion
+    - name: Ad Group Logo Ad Extension
+      href: ../bulk-service/ad-group-logo-ad-extension.md
+      displayName: BulkAdGroupLogoAdExtension
     - name: Ad Group Negative Age Criterion
       href: ../bulk-service/ad-group-negative-age-criterion.md
       displayName: BulkAdGroupNegativeAgeCriterion
@@ -954,6 +960,9 @@
     - name: Campaign Location Intent Criterion
       href: ../bulk-service/campaign-location-intent-criterion.md
       displayName: BulkCampaignLocationIntentCriterion
+    - name: Campaign Logo Ad Extension
+      href: ../bulk-service/campaign-logo-ad-extension.md
+      displayName: BulkCampaignLogoAdExtension
     - name: Campaign Negative Combined List Association
       href: ../bulk-service/campaign-negative-combined-list-association.md
       displayName: BulkCampaignNegativeCombinedListAssociation
@@ -1124,6 +1133,9 @@
     - name: Location Ad Extension
       href: ../bulk-service/location-ad-extension.md
       displayName: BulkLocationAdExtension
+    - name: Logo Ad Extension
+      href: ../bulk-service/logo-ad-extension.md
+      displayName: BulkLogoAdExtension
     - name: Negative Keyword List
       href: ../bulk-service/negative-keyword-list.md
       displayName: BulkNegativeKeywordList
