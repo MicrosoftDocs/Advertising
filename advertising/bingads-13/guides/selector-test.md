@@ -2,7 +2,7 @@
 title: Microsoft.Authorization/roleManagementPolicyAssignments 
 description: Azure Microsoft.Authorization/roleManagementPolicyAssignments syntax and properties to use in Azure Resource Manager templates for deploying the resource. API version latest
 author: tfitzmac
-zone_pivot_groups: deployment-languages-reference
+zone_pivot_groups: api-reference
 ms.service: azure-resource-manager
 ms.topic: reference
 ms.date: 5/7/2024
