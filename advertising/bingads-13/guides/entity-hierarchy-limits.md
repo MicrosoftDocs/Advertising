@@ -136,7 +136,7 @@ The following table defines limits for location ad extension properties.
 |Phone Number|The string can contain a maximum of 35 characters.|
 
 ### <a name="logoadextension"></a>Logo Ad Extensions
-You can manage location ad extensions using the Bulk service or Campaign Management service ([LogoAdExtension](../campaign-management-service/logoadextension.md)).  
+You can manage location ad extensions using the Bulk service ([Logo Ad Extension Record](../bulk-service/logo-ad-extension.md)) or Campaign Management service ([LogoAdExtension](../campaign-management-service/logoadextension.md)).  
 
 The following table defines limits for logo ad extension properties.
 
