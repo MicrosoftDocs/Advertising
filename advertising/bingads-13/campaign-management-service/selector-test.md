@@ -1,5 +1,5 @@
 ---
-title: AddCampaigns Service Operation - Campaign Management
+title: AddCampaigns Test Service Operation - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
@@ -13,8 +13,9 @@ dev_langs:
 - php
 - python
 ---
-# AddCampaigns Service Operation - Campaign Management
+# AddCampaigns Test Service Operation - Campaign Management
 Adds one or more campaigns to the specified account.
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
