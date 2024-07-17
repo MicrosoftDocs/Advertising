@@ -40,7 +40,7 @@ The Reporting service defines the following data objects.
 |[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)|Defines a data object for AssetGroupPerformanceReportFilter.|
 |[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)|Defines a data object for AssetGroupPerformanceReportRequest.|
 |[AssetGroupReportScope](assetgroupreportscope.md)|Defines a data object for AssetGroupReportScope.|
-|[AssetPerformanceReportRequest](assetperformancereportrequest.md)|Reserved.|
+|[AssetPerformanceReportRequest](assetperformancereportrequest.md)|Defines an asset performance report request.|
 |[AudiencePerformanceReportFilter](audienceperformancereportfilter.md)|Defines the criteria to use to filter the audience performance report data.|
 |[AudiencePerformanceReportRequest](audienceperformancereportrequest.md)|Defines an audience performance report request.|
 |[BatchError](batcherror.md)|Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
@@ -95,8 +95,8 @@ The Reporting service defines the following data objects.
 |[ReportTime](reporttime.md)|Defines the date range values of a report request.|
 |[SearchCampaignChangeHistoryReportFilter](searchcampaignchangehistoryreportfilter.md)|Defines the criteria to use to filter the campaign change history report data.|
 |[SearchCampaignChangeHistoryReportRequest](searchcampaignchangehistoryreportrequest.md)|Defines a change history report request.|
-|[SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.md)|Reserved.|
-|[SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)|Reserved.|
+|[SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.md)|Defines a search insight performance report filter.|
+|[SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)|Defines a search insight performance report request.|
 |[SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)|Defines the criteria to use to filter the search query performance report data.|
 |[SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)|Defines a search query performance report request.|
 |[ShareOfVoiceReportFilter](shareofvoicereportfilter.md)|Defines the criteria to use to filter the share of voice report data.|
