@@ -27,7 +27,7 @@ The Reporting service defines the following value sets.
 |[AgeGenderAudienceReportColumn](agegenderaudiencereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md).|
 |[AssetGroupPerformanceReportColumn](assetgroupperformancereportcolumn.md)|Defines a value set for AssetGroupPerformanceReportColumn.|
 |[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|Defines the asset group status values that you can use to filter the report data.|
-|[AssetPerformanceReportColumn](assetperformancereportcolumn.md)|Reserved.|
+|[AssetPerformanceReportColumn](assetperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).|
 |[AudiencePerformanceReportColumn](audienceperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AudiencePerformanceReportRequest](audienceperformancereportrequest.md).|
 |[BidMatchTypeReportFilter](bidmatchtypereportfilter.md)|Defines the bid match type values that you can use to filter the report data.|
 |[BidStrategyTypeReportFilter](bidstrategytypereportfilter.md)|Defines the possible values that you can use to use to filter the report data by bid strategy type.|
@@ -68,7 +68,7 @@ The Reporting service defines the following value sets.
 |[ReportTimePeriod](reporttimeperiod.md)|Defines the predefined time and date range values for a report request.|
 |[ReportTimeZone](reporttimezone.md)|Defines possible values for the time zone that you want the Reporting service to use for the selected date range.|
 |[SearchCampaignChangeHistoryReportColumn](searchcampaignchangehistoryreportcolumn.md)|Defines the attribute columns that you can include in the [SearchCampaignChangeHistoryReportRequest](searchcampaignchangehistoryreportrequest.md).|
-|[SearchInsightPerformanceReportColumn](searchinsightperformancereportcolumn.md)|Reserved.|
+|[SearchInsightPerformanceReportColumn](searchinsightperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [SearcyhInsightPerformanceReportRequest](searchinsightperformancereportrequest.md).|
 |[SearchQueryPerformanceReportColumn](searchqueryperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md).|
 |[ShareOfVoiceReportColumn](shareofvoicereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ShareOfVoiceReportRequest](shareofvoicereportrequest.md).|
 |[SortOrder](sortorder.md)|Defines the ascending or descending sort order of values within the specified report column.|
