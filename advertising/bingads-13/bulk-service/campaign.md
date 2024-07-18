@@ -833,7 +833,7 @@ Defines a value set for VanityPharmaDisplayUrlMode. This is the display mode for
 **Update**: Optional. If no value is set for the update, this setting is not changed.  
 **Delete**: Read-only.
 
-## <a name="vanitypharmawebsitedescription"></a>VanityPharmaWebsiteDescription
+## <a name="vanitypharmawebsitedescription"></a>Vanity Pharma Website Description
 The text that shows in the display URL of a text ad when *WebsiteDescription* is the selected display mode for vanity pharma URLs for the campaign. 
 
 > [!NOTE]
