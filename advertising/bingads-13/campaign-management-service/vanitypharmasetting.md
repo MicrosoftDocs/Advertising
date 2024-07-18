@@ -8,7 +8,10 @@ ms.author: jonmeyers
 description: Defines a data object for VanityPharmaSetting.
 ---
 # VanityPharmaSetting Data Object - Campaign Management
-Defines a data object for VanityPharmaSetting.
+Defines a data object for VanityPharmaSetting. You can set the *DisplayUrlMode* and *WebsiteDescription*.
+
+> [!NOTE]
+> *Note*: *VanityPharmaSetting* is reserved for limited pilot usage (e.g., pharmaceutical customers).
 
 ## Syntax
 ```xml
@@ -42,8 +45,8 @@ The [VanityPharmaSetting](vanitypharmasetting.md) object has the following eleme
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="displayurlmode"></a>DisplayUrlMode|Reserved.|[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|
-|<a name="websitedescription"></a>WebsiteDescription|Reserved.|[VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md)|
+|<a name="displayurlmode"></a>DisplayUrlMode|The display mode for vanity pharma URLs for a campaign.<br/><br/>*Note*: *VanityPharmaDisplayUrlMode* is reserved for limited pilot usage (e.g., pharmaceutical customers).<br/><br/>**Add**: Optional. If you do not specify this field or leave it empty, the default value of *ManufacturerWebsiteUrl* will be set.<br/>**Update**: Optional. If no value is set for the update, this setting is not changed.<br/>**Delete**: Read-only.|[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|
+|<a name="websitedescription"></a>WebsiteDescription|The text that shows in the display URL of a text ad when *WebsiteDescription* is the selected display mode for vanity pharma URLs for the campaign. *Note*: *VanityPharmaWebsiteDescription* is reserved for limited pilot usage (e.g., pharmaceutical customers).<br/><br/>**Add**: Optional. If you do not specify this field or leave it empty, the default value of *Unspecified* is set.<br/>**Update**: Optional. If no value is set for the update, this setting is not changed.<br/>If no value is set but the value for *VanityPharmaDisplayURLMode* is set to *ManufacturerWebsiteUrl*, the value of *Unspecified* is set.<br/>If no value is set but the value for *VanityPharmaDisplayURLMode* is set to *WebsiteDescription*, the campaign service will return the TBD error code.<br/>If a value other than *Unspecified* is set but the value for *VanityPharmaDisplayURLMode* is set to *ManufacturerWebsiteUrl*, the campaign service will return the TBD error code.<br/>**Delete**: Read-only|[VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md)|
 
 The [VanityPharmaSetting](vanitypharmasetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -59,4 +62,3 @@ The [VanityPharmaSetting](vanitypharmasetting.md) object derives from the [Setti
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-
