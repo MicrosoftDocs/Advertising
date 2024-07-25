@@ -123,15 +123,19 @@ Possible values are *Active* or *Deleted*.
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="subtype"></a>Sub Type
-The image sub type indicates the supported aspect ratio of the uploaded image. 
+The image sub type indicates the supported aspect ratio of the uploaded image.  
 
-We recommend the "GenericImage" with dimensions of 703 width x 368 height or above, in pixels.
+We recommend the "GenericImage" with dimensions of 703 width x 368 height or above, in pixels.  
 
-All supported sub type values with corresponding dimension and aspect ratio restrictions are described below. 
+The sub type must be set to "Logo" if the image is associated with an ad as a "LandscapeLogoMedia" or "SquareLogoMedia".  
+
+All supported sub type values with corresponding dimension and aspect ratio restrictions are described below.  
 
 |Sub Type|Aspect Ratio|Minimum Dimension|
 |--------|----------------|---------------------|---------------------|
 |GenericImage|Varies|40 width x 40 height, in pixels|
+|LandscapeLogoMedia|4:1|512 width x 128 height, in pixels|
+|SquareLogoMedia|1:1|128 width x 128 height, in pixels|
 |Image16x9|16:9|640 width x 360 height, in pixels|
 |Image15x10|1.5:1|300 width x 200 height, in pixels|
 |Image4x3|4:3|100 width x 75 height, in pixels|
