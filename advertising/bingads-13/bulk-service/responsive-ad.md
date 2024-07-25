@@ -174,21 +174,94 @@ The name of the ad group that contains the ad.
 ## <a name="businessname"></a>Business Name
 The name of the business.
 
-Depending on your audience ad's placement, your business's name may appear in your ad. 
+Depending on your audience ad's placement, your business's name may appear in your ad.  
 
 The length of the string is limited to 25 characters.
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.     
-**Delete:** Read-only 
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
+**Delete:** Read-only
 
 ## <a name="calltoaction"></a>Call To Action
-A brief, punchy reason for customers to click your ad right now. 
+A brief, punchy reason for customers to click your ad right now.  
 
-The possible values are AddToCart, ApplyNow, BookNow, BookTravel, Buy, BuyNow, ContactUs, Download, GetQuote, Install, LearnMore, NoButton, OpenLink, OrderNow, RegisterNow, SeeMore, ShopNow, SignUp, Subscribe, and VisitSite.
+Here are the call to actions available for search multimedia ads:
 
-**Add:** Not applicable for audience ads.   
-**Update:** Read-only     
+|Call to action|
+|--------|
+|Act Now|
+|Apply Now|
+|Bet Now|
+|Bid Now|
+|Book a car|
+|Book Hotel|
+|Book Now|
+|Build Now|
+|Buy Now|
+|Chat Now|
+|Compare|
+|Contact Us|
+|Dealers|
+|Directions|
+|Donate|
+|Download|
+|Email Now|
+|Enroll Now|
+|File Now|
+|Find Job|
+|Find Store|
+|Free Play|
+|Free Quote|
+|Free trial|
+|Get Coupon|
+|Get Deals|
+|Get Demo|
+|Get Now|
+|Get offer|
+|Get Quote|
+|Go To demo|
+|Join Now|
+|Learn More|
+|Listen Now|
+|Log In|
+|Order Now|
+|Play Game|
+|Play Now|
+|Post Job|
+|Register|
+|Renew now|
+|Rent a car|
+|Rent now|
+|Reorder|
+|Reserve|
+|Save now|
+|Schedule|
+|See demo|
+|See menu|
+|See models|
+|See offer|
+|See offers|
+|See sale|
+|Sell now|
+|Shop now|
+|Showtimes|
+|Sign in|
+|Sign up|
+|Start now|
+|Subscribe|
+|Test drive|
+|Try now|
+|View cars|
+|View demo|
+|View plans|
+|Visit store|
+|Vote now|
+|Watch|
+|Watch more|
+|Watch now|
+
+**Add:** Not applicable for audience ads.  
+**Update:** Read-only  
 **Delete:** Read-only  
 
 ## <a name="calltoactionlanguage"></a>Call To Action Langauge
@@ -196,9 +269,49 @@ The language that the call to action will be served in.
 
 The call to action will always be served in this language, regardless of the campaign's language settings.
 
+Here are the call to action languages available for search multimedia ads:
+
+|Call to action|
+|--------|
+|Language.Albanian|
+|Language.Arabic|
+|Language.Bosnian|
+|Language.Bulgarian|
+|Language.Croatian|
+|Language.Czech|
+|Language.Danish|
+|Language.Dutch|
+|Language.English|
+|Language.Estonian|
+|Language.Finnish|
+|Language.French|
+|Language.German|
+|Language.Greek|
+|Language.Hebrew|
+|Language.Hungarian|
+|Language.Icelandic|
+|Language.Italian|
+|Language.Japanese|
+|Language.Latvian|
+|Language.Lithuanian|
+|Language.Macedonian|
+|Language.Maltese|
+|Language.Norwegian|
+|Language.Polish|
+|Language.Portuguese|
+|Language.Romanian|
+|Language.Russian|
+|Language.Serbian|
+|Language.Slovak|
+|Language.Slovenian|
+|Language.Spanish|
+|Language.Swedish|
+|Language.TraditionalChinese|
+|Language.Turkish|
+
 **Add:** Not applicable for audience ads; Required for multimedia ads.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
-**Delete:** Read-only 
+**Delete:** Read-only
 
 ## <a name="campaign"></a>Campaign
 The name of the campaign that contains the ad group and ad.
@@ -211,7 +324,7 @@ The name of the campaign that contains the ad group and ad.
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
 **Add:** Optional  
-**Update:** Optional    
+**Update:** Optional  
 **Delete:** Read-only  
 
 ## <a name="customparameter"></a>Custom Parameter
@@ -405,6 +518,22 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 },
 {
 	"id": 1234567890000,
+	"subType": "LandscapeLogoMedia",
+	"cropX": 0,
+	"cropY": 0,
+	"cropWidth": 512,
+	"cropHeight": 128
+},
+{
+	"id": 1234567890000,
+	"subType": "SquareLogoMedia",
+	"cropX": 0,
+	"cropY": 0,
+	"cropWidth": 128,
+	"cropHeight": 128
+},
+{
+	"id": 1234567890000,
 	"subType": "SquareImageMedia",
 	"cropX": 286,
 	"cropY": 0,
@@ -470,7 +599,7 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 ```
 
 > [!NOTE]
-> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""id"":1234567890000,""subType"":""OriginalImage""},{""id"":1234567890000,""subType"":""SquareImageMedia"",""cropX"":286,""cropY"":0,""cropWidth"":628,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia169X100"",""cropX"":70,""cropY"":0,""cropWidth"":1061,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia93X100"",""cropX"":308,""cropY"":0,""cropWidth"":584,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia15X10"",""cropX"":129,""cropY"":0,""cropWidth"":942,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia155X100"",""cropX"":114,""cropY"":0,""cropWidth"":973,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia133X100"",""cropX"":183,""cropY"":0,""cropWidth"":835,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia178X100"",""cropX"":41,""cropY"":0,""cropWidth"":1118,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia172X100"",""cropX"":60,""cropY"":0,""cropWidth"":1080,""cropHeight"":628}]"*.  
+> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""id"":1234567890000,""subType"":""OriginalImage""},{""id"":1234567890000,""subType"":""LandscapeLogoMedia"",""cropX"":0,""cropY"":0,""cropWidth"":512,""cropHeight"":128},{""id"":1234567890000,""subType"":""SquareLogoMedia"",""cropX"":0,""cropY"":0,""cropWidth"":128,""cropHeight"":128},{""id"":1234567890000,""subType"":""SquareImageMedia"",""cropX"":286,""cropY"":0,""cropWidth"":628,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia169X100"",""cropX"":70,""cropY"":0,""cropWidth"":1061,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia93X100"",""cropX"":308,""cropY"":0,""cropWidth"":584,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia15X10"",""cropX"":129,""cropY"":0,""cropWidth"":942,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia155X100"",""cropX"":114,""cropY"":0,""cropWidth"":973,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia133X100"",""cropX"":183,""cropY"":0,""cropWidth"":835,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia178X100"",""cropX"":41,""cropY"":0,""cropWidth"":1118,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia172X100"",""cropX"":60,""cropY"":0,""cropWidth"":1080,""cropHeight"":628}]"*.  
 
 Given the upload response JSON example above, please take note of the following:
 - The same image asset identifier (e.g., 1234567890000) is used for all auto-generated image asset sub types. Whether or not you let Microsoft Advertising automatically generate the cropped images, the [Id](#images-id) does not need to be unique among the image assets linked to the same ad. 
@@ -502,7 +631,7 @@ The `subType` attribute represents the aspect ratio for this image asset.
 
 The true aspect ratio of the [Image](image.md) that is stored in the account level media library can vary, so long as the resulting dimensions result in the expected aspect ratio per sub type. If you do not specify crop settings, the service will automatically crop up to the maximum possible area from the center of the image. For example, given a 1000x1000 pixel [image](image.md), for the 1.91:1 aspect ratio, the auto crop setting will be [cropWidth](#images-cropwidth)=1000, [cropHeight](#images-cropheight)=524, [cropX](#images-cropx)=0, and [cropY](#images-cropy)=238. 
 
-The possible sub type values include  OriginalImage, LandscapeImageMedia, SquareImageMedia, ImageMedia4x1, ImageMedia1x2, ImageMedia169X100, ImageMedia201X100, ImageMedia120X100, ImageMedia200X100, ImageMedia124X100, and ImageMedia153X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
+The possible sub type values include  OriginalImage, LandscapeLogoMedia, SquareLogoMedia, LandscapeImageMedia, SquareImageMedia, ImageMedia4x1, ImageMedia1x2, ImageMedia169X100, ImageMedia201X100, ImageMedia120X100, ImageMedia200X100, ImageMedia124X100, and ImageMedia153X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
