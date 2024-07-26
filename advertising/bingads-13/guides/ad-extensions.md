@@ -170,8 +170,8 @@ The following Bulk records are available for managing ad extensions and ad exten
 - [Location Ad Extension](../bulk-service/location-ad-extension.md)
 - [Account Location Ad Extension](../bulk-service/account-location-ad-extension.md)
 - [Campaign Location Ad Extension](../bulk-service/campaign-location-ad-extension.md)
-- 
-- ### Logo Ad Extensions
+
+### Logo Ad Extensions
 - [Logo Ad Extension](../bulk-service/logo-ad-extension.md)
 - [Account Logo Ad Extension](../bulk-service/account-logo-ad-extension.md)
 - [Campaign Logo Ad Extension](../bulk-service/campaign-logo-ad-extension.md)
