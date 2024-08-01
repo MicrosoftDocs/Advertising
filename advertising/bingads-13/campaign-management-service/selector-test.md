@@ -317,7 +317,9 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 ## <a name="url"></a>Request Url
 
 [Bing Ads Rest API Base Url](../guides/rest-api-base-url.md)
+
 HttpMethod: POST
+
 Suffix: /Campaigns
 
 ## <a name="request"></a>Request Elements
