@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 zone_pivot_groups: api-reference
-description: Adds one or more campaigns to the specified account. (test)
+description: Adds one or more campaigns to the specified account (test).
 dev_langs: 
 - csharp
 - java
