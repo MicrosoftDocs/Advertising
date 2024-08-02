@@ -2853,8 +2853,8 @@
       href: ../reporting-service/reporttimezone.md
     - name: SearchCampaignChangeHistoryReportColumn
       href: ../reporting-service/searchcampaignchangehistoryreportcolumn.md
-    - name: SearchInsightPerformanceReportFilter
-      href: ../reporting-service/searchinsightperformancereportfilter.md
+    - name: SearchInsightPerformanceReportColumn
+      href: ../reporting-service/searchinsightperformancereportcolumn.md
     - name: SearchQueryPerformanceReportColumn
       href: ../reporting-service/searchqueryperformancereportcolumn.md
     - name: ShareOfVoiceReportColumn

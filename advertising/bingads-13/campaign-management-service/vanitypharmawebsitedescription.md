@@ -41,7 +41,7 @@ The [VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md) value se
 |Value|Description|
 |-----------|---------------|
 |<a name="medicaldevicewebsite_en"></a>MedicalDeviceWebsite_En|A medical device website with website content in English.|
-|<a name="medicaldevicewebsite_es"></a>MedicalDeviceWebsite_Es|A medical device website with website content in Spanish (Sitio de dispositivos médicos).|
+|<a name="medicaldevicewebsite_es"></a>MedicalDeviceWebsite_Es|A medical device website with website content in Spanish (Sitio de dispositivos medicos).|
 |<a name="prescriptioncontraceptionwebsite_en"></a>PrescriptionContraceptionWebsite_En|A prescription contraception website with website content in English.|
 |<a name="prescriptioncontraceptionwebsite_es"></a>PrescriptionContraceptionWebsite_Es|A prescription contraception website with website content in Spanish (Sitio de anticonceptivos con receta).|
 |<a name="prescriptiondevicewebsite_en"></a>PrescriptionDeviceWebsite_En|A prescription device website with website content in English. (Sitio de dispositivos con receta).|
