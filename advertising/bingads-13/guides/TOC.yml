@@ -2082,12 +2082,16 @@
       href: ../campaign-management-service/adrotationtype.md
     - name: AdStatus
       href: ../campaign-management-service/adstatus.md
+    - name: AdSubType
+      href: ../campaign-management-service/adsubtype.md
     - name: AdType
       href: ../campaign-management-service/adtype.md
     - name: AgeRange
       href: ../campaign-management-service/agerange.md
     - name: AppealStatus
       href: ../campaign-management-service/appealstatus.md
+    - name: AssetGroupAdditionalField
+      href: ../campaign-management-service/assetgroupadditionalfield.md
     - name: AssetGroupEditorialStatus
       href: ../campaign-management-service/assetgroupeditorialstatus.md
     - name: AssetGroupListingType
