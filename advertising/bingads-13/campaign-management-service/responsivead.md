@@ -21,6 +21,13 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   <xs:complexContent mixed="false">
     <xs:extension base="tns:Ad">
       <xs:sequence>
+        <xs:element minOccurs="0" name="AdSubType" nillable="true" type="tns:AdSubType">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
         <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="CallToAction" nillable="true" type="tns:CallToAction" />
         <xs:element minOccurs="0" name="CallToActionLanguage" nillable="true" type="tns:LanguageName" />
@@ -67,10 +74,11 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
 
 ## <a name="elements"></a>Elements
 
-The [ResponsiveAd](responsivead.md) object has the following elements: [BusinessName](#businessname), [CallToAction](#calltoaction), [CallToActionLanguage](#calltoactionlanguage), [Descriptions](#descriptions), [Headline](#headline), [Headlines](#headlines), [Images](#images), [ImpressionTrackingUrls](#impressiontrackingurls), [LongHeadline](#longheadline), [LongHeadlines](#longheadlines), [LongHeadlineString](#longheadlinestring), [Text](#text), [VerifiedTrackingSettings](#verifiedtrackingsettings), [Videos](#videos).
+The [ResponsiveAd](responsivead.md) object has the following elements: [AdSubType](#adsubtype), [BusinessName](#businessname), [CallToAction](#calltoaction), [CallToActionLanguage](#calltoactionlanguage), [Descriptions](#descriptions), [Headline](#headline), [Headlines](#headlines), [Images](#images), [ImpressionTrackingUrls](#impressiontrackingurls), [LongHeadline](#longheadline), [LongHeadlines](#longheadlines), [LongHeadlineString](#longheadlinestring), [Text](#text), [VerifiedTrackingSettings](#verifiedtrackingsettings), [Videos](#videos).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="adsubtype"></a>AdSubType|The possible ad sub types.|[AdSubType](adsubtype.md)|
 |<a name="businessname"></a>BusinessName|The name of the business.<br/><br/>Your business's name may appear in your ad, depending on the ad placement.<br/><br/>The length of the string is limited to 25 characters.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
 |<a name="calltoaction"></a>CallToAction|A brief, punchy reason for customers to click your ad right now.<br/><br/>This is displayed on your call to action button.<br/><br/>**Add:** Not applicable for audience ads; Required for multimedia ads<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[CallToAction](calltoaction.md)|
 |<a name="calltoactionlanguage"></a>CallToActionLanguage|The language that the call to action will be served in.<br/><br/>The call to action will always be served in this language, regardless of the campaign's language settings.<br/><br/>**Add:** Not applicable for audience ads; Required for multimedia ads<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[LanguageName](languagename.md)|

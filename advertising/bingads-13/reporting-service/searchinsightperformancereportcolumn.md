@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines a value set for SearchInsightPerformanceReportColumn.
 ---
 # SearchInsightPerformanceReportColumn Value Set - Reporting
-Defines a value set for SearchInsightPerformanceReportColumn.
+Defines the attributes and performance statistics columns that you can include in the [SearcyhInsightPerformanceReportRequest](searchinsightperformancereportrequest.md).
 
 ## Syntax
 ```xml

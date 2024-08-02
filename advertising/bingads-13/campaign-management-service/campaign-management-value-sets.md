@@ -29,9 +29,11 @@ The Campaign Management service defines the following value sets.
 |[AdGroupStatus](adgroupstatus.md)|Defines the possible status values of an ad group.|
 |[AdRotationType](adrotationtype.md)|Defines the possible ad rotation types that you can apply to an ad group.|
 |[AdStatus](adstatus.md)|Defines the possible status values of an ad.|
+|[AdSubType](adsubtype.md)|Defines the possible ad sub types.|
 |[AdType](adtype.md)|Defines the type of ad.|
 |[AgeRange](agerange.md)|Defines the possible age range values that you can use to target ads to people.|
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
+|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|Defines the possible additional fields for an asset group.|
 |[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|The editorial review status of the asset group, which indicates whether the asset group is pending review, has been approved, or has been disapproved.|
 |[AssetGroupListingType](assetgrouplistingtype.md)|The type of listing group, for example Subdivision or Unit.|
 |[AssetGroupStatus](assetgroupstatus.md)|The status of the AssetGroup.|
