@@ -10,6 +10,9 @@ description: Defines a data object for AssetPerformanceReportRequest.
 # AssetPerformanceReportRequest Data Object - Reporting
 Defines a data object for AssetPerformanceReportRequest.
 
+> [!NOTE]
+> *AssetPerformanceReportRequest* is currently in pilot.
+
 ## Syntax
 ```xml
 <xs:complexType name="AssetPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
