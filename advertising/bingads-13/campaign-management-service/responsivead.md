@@ -124,12 +124,16 @@ Most supported properties are the same, but here are some of the key differentia
 
 ### Multimedia ad images
 
-For multimedia ads you'll create multiple image assets with different sizes and aspect ratios. You need to add at least 1 image with 1.91:1 aspect ratio and 1 image with 1:1 aspect ratio.
+For multimedia ads you'll create multiple image assets with different sizes and aspect ratios. You need to add at least 1 image with 1.91:1 aspect ratio and 1 image with 1:1 aspect ratio.  
+
+The sub type must be set to "Logo" if the image is associated with an ad as a "LandscapeLogoMedia" or "SquareLogoMedia".  
 
 In the [Images](#images) element include one or more [AssetLink](assetlink.md) objects. Each asset link contains an [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to one of the string values in the table below.
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
+|LandscapeLogoMedia|4:1|512 width x 128 height|
+|SquareLogoMedia|1:1|128 width x 128 height|
 |LandscapeImageMedia|1.91:1|703 width x 368 height|
 |ImageMedia4x1|4:1|608 width x 152 height|
 |SquareImageMedia|1:1|470 width x 470 height|
