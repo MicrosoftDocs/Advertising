@@ -31,9 +31,9 @@ The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adgroupid"></a>AdGroupId|The ad group identifier to associate with the impression-based remarketing list.<br/<br/>*Note*: The *AdGroupId* is null for an impression-based remarketing list with users who have viewed an ad under campaign.|**long**|
+|<a name="adgroupid"></a>AdGroupId|The ad group identifier to associate with the impression-based remarketing list.<br/><br/>*Note*: The *AdGroupId* is null for an impression-based remarketing list with users who have viewed an ad under campaign.|**long**|
 |<a name="campaignid"></a>CampaignId|The campaign identifier to associate with the impression-based remarketing list.|**long**|
-|<a name="entitytype"></a>EntityType|The entity type to build an audience segment for users who viewed an ad under a campaign or ad group.|[ImpressionBasedEntityType](impressionbasedentitytype.md)|
+|<a name="entitytype"></a>EntityType|The entity type of an impression-based remarketing list.|[ImpressionBasedEntityType](impressionbasedentitytype.md)|
 
 The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object has [Inherited Elements](#inheritedelements).
 
