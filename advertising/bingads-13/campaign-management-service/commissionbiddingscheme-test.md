@@ -33,6 +33,8 @@ Defines an object that represents the commission bid strategy type (commission p
 }
 ```
 
+-----
+
 ## <a name="elements"></a>Elements
 
 The [CommissionBiddingScheme](commissionbiddingscheme.md) object has the following elements: [CommissionRate](#commissionrate).

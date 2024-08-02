@@ -328,6 +328,8 @@ https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/Campaigns
 https://campaign.api.sandbox.bingads.microsoft.com/CampaignManagement/v13/Campaigns
 ```
 
+-----
+
 ## <a name="request"></a>Request Elements
 The *AddCampaignsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request.
 
