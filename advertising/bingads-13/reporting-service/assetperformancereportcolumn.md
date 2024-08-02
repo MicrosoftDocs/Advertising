@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines a value set for AssetPerformanceReportColumn.
 ---
 # AssetPerformanceReportColumn Value Set - Reporting
-Defines a value set for AssetPerformanceReportColumn.
+|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
 
 > [!NOTE]
 > *AssetPerformanceReportColumn* is currently in pilot.
