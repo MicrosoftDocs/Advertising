@@ -10,6 +10,9 @@ description: Defines a value set for AssetPerformanceReportColumn.
 # AssetPerformanceReportColumn Value Set - Reporting
 Defines a value set for AssetPerformanceReportColumn.
 
+> [!NOTE]
+> *AssetPerformanceReportColumn* is currently in pilot.
+
 ## Syntax
 ```xml
 <xs:simpleType name="AssetPerformanceReportColumn" xmlns:xs="http://www.w3.org/2001/XMLSchema">
