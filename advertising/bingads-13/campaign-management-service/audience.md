@@ -11,8 +11,11 @@ description: Defines the base object of an audience.
 Defines the base object of an audience.
 
 Do not try to instantiate an *Audience*. You can create one or more of the following objects that derive from it.
+
 - [CombinedList](combinedlist.md)  
 - [CustomAudience](customaudience.md)  
+- [CustomerList](customerlist.md)  
+- [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md)  
 - [InMarketAudience](inmarketaudience.md)  
 - [ProductAudience](productaudience.md)  
 - [RemarketingList](remarketinglist.md)  
