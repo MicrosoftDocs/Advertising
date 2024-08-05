@@ -125,7 +125,7 @@ The system-generated identifier of the in-market audience.
 ## <a name="membershipduration"></a>Membership Duration
 When you create an in-market audience in the Microsoft Advertising web application, you can specify how far back in time Microsoft Advertising should look for actions that match your in-market audience definition in order to add people to your list.
 
-The mimimum duration is 1 day and the maximum duration allowed is 180 days.
+The minimum duration is 1 day and the maximum duration allowed is 180 days.
 
 **Add:** Not supported  
 **Update:** Not supported    

@@ -172,7 +172,7 @@ The system-generated identifier of the remarketing list.
 ## <a name="membershipduration"></a>Membership Duration
 When you create a remarketing list, you can specify how far back in time Microsoft Advertising should look for actions that match your remarketing list definition in order to add people to your list.
 
-The mimimum duration is 1 day and the maximum duration allowed is 180 days.
+The minimum duration is 1 day and the maximum duration allowed is 180 days.
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
