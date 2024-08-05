@@ -91,7 +91,7 @@ Record Type  |Supported Campaign Types
 [Ad Group Negative Customer List Association](ad-group-negative-combined-list-association.md)|All  
 [Ad Group Negative Gender Criterion](ad-group-negative-gender-criterion.md)|Audience  
 [Ad Group Negative Dynamic Search Ad Target](ad-group-negative-dynamic-search-ad-target.md)|Search  
-[Ad Group Negative Impression Based Remarketing List Association](ad-group-negative-impression-based-emarketing-list-association.md)|All  
+[Ad Group Negative Impression Based Remarketing List Association](ad-group-negative-impression-based-remarketing-list-association.md)|All  
 [Ad Group Negative Industry Criterion](ad-group-negative-industry-criterion.md)|Audience  
 [Ad Group Negative In Market Audience Association](ad-group-negative-in-market-audience-association.md)|All  
 [Ad Group Negative Job Function Criterion](ad-group-negative-job-function-criterion.md)|Audience  
