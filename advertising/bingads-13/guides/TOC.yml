@@ -744,6 +744,9 @@
     - name: Ad Group Image Ad Extension
       href: ../bulk-service/ad-group-image-ad-extension.md
       displayName: BulkAdGroupImageAdExtension
+    - name: Ad Group Impression Based Remarketing List Association
+      href: ../bulk-service/ad-group-impression-based-remarketing-list-association.md
+      displayName: BulkAdGroupImpressionBasedRemarketingListAssociation
     - name: Ad Group Industry Criterion
       href: ../bulk-service/ad-group-industry-criterion.md
       displayName: BulkAdGroupIndustryCriterion
@@ -789,6 +792,9 @@
     - name: Ad Group Negative Gender Criterion
       href: ../bulk-service/ad-group-negative-gender-criterion.md
       displayName: BulkAdGroupNegativeGenderCriterion
+    - name: Ad Group Negative Impression Based Remarketing List Association
+      href: ../bulk-service/ad-group-negative-impression-based-remarketing-list-association.md
+      displayName: BulkAdGroupNegativeImpressionBasedRemarketingListAssociation
     - name: Ad Group Negative Industry Criterion
       href: ../bulk-service/ad-group-negative-industry-criterion.md
       displayName: BulkAdGroupNegativeIndustryCriterion
@@ -936,6 +942,9 @@
     - name: Campaign Gender Criterion
       href: ../bulk-service/campaign-gender-criterion.md
       displayName: BulkCampaignGenderCriterion
+    - name: Campaign Impression Based Remarketing List Association
+      href: ../bulk-service/campaign-impression-based-remarketing-list-association.md
+      displayName: BulkCampaignImpressionBasedRemarketingListAssociation
     - name: Campaign Industry Criterion
       href: ../bulk-service/campaign-industry-criterion.md
       displayName: BulkCampaignIndustryCriterion
@@ -975,6 +984,9 @@
     - name: Campaign Negative Dynamic Search Ad Target
       href: ../bulk-service/campaign-negative-dynamic-search-ad-target.md
       displayName: BulkCampaignNegativeDynamicSearchAdTarget
+    - name: Campaign Negative Impression Based Remarketing List Association
+      href: ../bulk-service/campaign-negative-impression-based-remarketing-list-association.md
+      displayName: BulkCampaignNegativeImpressionBasedRemarketingListAssociation
     - name: Campaign Negative In Market Audience Association
       href: ../bulk-service/campaign-negative-in-market-audience-association.md
       displayName: BulkCampaignNegativeInMarketAudienceAssociation
@@ -1103,6 +1115,9 @@
     - name: Image Ad Extension
       href: ../bulk-service/image-ad-extension.md
       displayName: BulkImageAdExtension
+    - name: Impression Based Remarketing List
+      href: ../bulk-service/impression-based-remarketing-list.md
+      displayName: BulkImpressionBasedRemarketingList
     - name: In Market Audience
       href: ../bulk-service/in-market-audience.md
       displayName: BulkInMarketAudience

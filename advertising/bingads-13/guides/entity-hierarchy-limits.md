@@ -344,7 +344,7 @@ The following table defines limits for audience properties.
 |Property|Limit|
 |------------|---------|
 |Description|The description of the audience. The description can contain a maximum of 1,024 characters.|
-|MembershipDuration|The mimimum duration is 1 day and the maximum duration allowed is 180 days.|
+|MembershipDuration|The minimum duration is 1 day and the maximum duration allowed is 180 days.|
 |Name|The name of the audience. The name can contain a maximum of 128 characters.|
 
 You can have up to 1,000 custom audiences per customer. You can have up to 1,000 remarketing lists per account, or 5,000 per customer. The in-market audiences maximum is only limited by the number of in-market audiences provided by Microsoft Advertising. 
