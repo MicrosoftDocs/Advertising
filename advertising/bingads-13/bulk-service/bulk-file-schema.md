@@ -75,8 +75,9 @@ Record Type  |Supported Campaign Types
 [Ad Group Filter Link Ad Extension](ad-group-filter-link-ad-extension.md)|Search  
 [Ad Group Flyer Ad Extension](ad-group-flyer-ad-extension.md)|Search  
 [Ad Group Gender Criterion](ad-group-gender-criterion.md)|All  
-[Ad Group Hotel Listing Group](ad-group-hotel-listing-group.md)|Hotel 
+[Ad Group Hotel Listing Group](ad-group-hotel-listing-group.md)|Hotel  
 [Ad Group Image Ad Extension](ad-group-image-ad-extension.md)|Search  
+[Ad Group Impression Based Remarketing List Association](ad-group-impression-based-remarketing-list-association.md)|All  
 [Ad Group Industry Criterion](ad-group-industry-criterion.md)|All  
 [Ad Group In Market Audience Association](ad-group-in-market-audience-association.md)|All  
 [Ad Group Job Function Criterion](ad-group-job-function-criterion.md)|All  
@@ -90,6 +91,7 @@ Record Type  |Supported Campaign Types
 [Ad Group Negative Customer List Association](ad-group-negative-combined-list-association.md)|All  
 [Ad Group Negative Gender Criterion](ad-group-negative-gender-criterion.md)|Audience  
 [Ad Group Negative Dynamic Search Ad Target](ad-group-negative-dynamic-search-ad-target.md)|Search  
+[Ad Group Negative Impression Based Remarketing List Association](ad-group-negative-impression-based-emarketing-list-association.md)|All  
 [Ad Group Negative Industry Criterion](ad-group-negative-industry-criterion.md)|Audience  
 [Ad Group Negative In Market Audience Association](ad-group-negative-in-market-audience-association.md)|All  
 [Ad Group Negative Job Function Criterion](ad-group-negative-job-function-criterion.md)|Audience  
@@ -138,6 +140,7 @@ Record Type  |Supported Campaign Types
 [Campaign Filter Link Ad Extension](campaign-filter-link-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Flyer Ad Extension](campaign-flyer-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Gender Criterion](campaign-gender-criterion.md)|All  
+[Campaign Impression Based Remarketing List Association](campaign-impression-based-remarketing-list-association.md)|Search<br/>Shopping  
 [Campaign Industry Criterion](campaign-industry-criterion.md)|Search<br/>Shopping  
 [Campaign In Market Audience Association](campaign-in-market-audience-association.md)|Search<br/>Shopping  
 [Campaign Job Function Criterion](campaign-deviceos-criterion.md)|Search<br/>Shopping  
@@ -149,6 +152,7 @@ Record Type  |Supported Campaign Types
 [Campaign Negative Custom Audience Association](campaign-negative-custom-audience-association.md)|All  
 [Campaign Negative Customer List Association](campaign-negative-customer-list-association.md)|All  
 [Campaign Negative Dynamic Search Ad Target](campaign-negative-dynamic-search-ad-target.md)|Search  
+[Campaign Negative Impression Based Remarketing List Association](campaign-negative-impression-based-remarketing-list-association.md)|Search<br/>Shopping  
 [Campaign Negative In Market Audience Association](campaign-negative-in-market-audience-association.md)|Search<br/>Shopping  
 [Campaign Negative Keyword](campaign-negative-keyword.md)|All  
 [Campaign Negative Keyword List Association](campaign-negative-keyword-list-association.md)|Search<br/>Shopping  
@@ -186,6 +190,7 @@ Record Type  |Supported Campaign Types
 [Flyer Ad Extension](flyer-ad-extension.md)|Performance Max<br/>Search  
 [Format Version](format-version.md)|All  
 [Image Ad Extension](image-ad-extension.md)|Performance Max<br/>Search  
+[Impression Based Remarketing List](impression-based-remarketing-list.md)|All  
 [In Market Audience](in-market-audience.md)<br/><br/>Bulk upload is not supported. You cannot add, update, or delete an in-market audience using the Bing Ads API.|All  
 [Keyword](keyword.md)|Search  
 [Keyword Label](keyword-label.md)|Search  
