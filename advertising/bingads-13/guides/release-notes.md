@@ -20,6 +20,31 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+## <a name="july2024"></a>July 2024
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [New API Interfaces](#newapiinterfaces-july2024)  
+- [Bulk Service](#bulkservice-july2024)  
+- [Bing Ads API SDK Updates](#sdk-july2024)  
+
+### <a name="newapiinterfaces-july2024"></a>New API Interfaces  
+
+- **Campaign Management API**: Asset Group Search Theme: [AssetGroupSearchTheme](../campaign-management-service/assetgroupsearchtheme.md). Impression Based Remarketing List: [ImpressionBasedRemarketingList](../campaign-management-service/impressionbasedremarketinglist.md), [ImpressionBasedEntityType](../campaign-management-service/impressionbasedentitytype.md). Logo Ad Extension: [LogoAdExtension](../campaign-management-service/logoadextension.md).
+
+- **Reporting API**: [AssetPerformanceReportColumn](../reporting-service/assetperformancereportcolumn.md), [AssetPerformanceReportRequest](../reporting-service/assetperformancereportrequest.md).
+
+### <a name="bulkservice-july2024"></a>Bulk Service
+
+- Support for adding and updating goals: [App Install Goal Record](../bulk-service/app-install-goal.md), [Campaign Conversion Goal Record](../bulk-service/campaign-conversion-goal.md), [Duration Goal Record](../bulk-service/duration-goal.md), [Event Goal Record](../bulk-service/event-goal.md), [In Store Transaction Goal Record](../bulk-service/in-store-transaction-goal.md), [In Store Visit Goal Record](../bulk-service/in-store-visit-goal.md), [Offline Conversion Goal Record](../bulk-service/offline-conversion-goal.md), [Pages Viewed Per Visit Goal Record](../bulk-service/pages-viewed-per-visit-goal.md), [Product Goal Record](../bulk-service/product-goal.md), [URL Goal Record](../bulk-service/url-goal.md).
+- Support for new audience type Impression Based Remarketing List: [Impression Based Remarketing List Record](../bulk-service/impresssion-based-remarketing-list.md), [Campaign Impression Based Remarketing List Record](../bulk-service/campaign-impression-based-remarketing-list.md), [Campaign Negative Impression Based Remarketing List Record](../bulk-service/campaign-negative-impression-based-remarketing-list.md), [Ad Group Impression Based Remarketing List Record](../bulk-service/ad-group-impression-based-remarketing-list.md), [Ad Group Negative Impression Based Remarketing List Record](../bulk-service/ad-group-negative-impression-based-remarketing-list.md).
+- Add bulk mapping for *TargetCostPerSale*.
+- Add bulk mappings for *AutoBidding*, *BulkSeasonalityAdjustment* and *BulkDataExclusion*.
+
+### <a name="sdk-july2024"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET, Java, Php, and Python SDKs are updated. For details please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.21), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.21), [Php](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.21), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.21) SDK version 13.0.21.
+
 ## <a name="march2024"></a>March 2024
 
 See below for Bing Ads API updates during this calendar month.  
