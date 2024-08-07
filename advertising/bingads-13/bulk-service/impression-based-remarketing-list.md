@@ -162,14 +162,14 @@ The system-generated identifier of the impression based remarketing list.
 **Delete:** Read-only and Required  
 
 ## <a name="impressionadgroupid"></a>Impression Ad Group Id
-The CampaignId used to create the impression based remarketing list.  
+The AdGroupId used to create the impression based remarketing list.  
 
 **Add:** If Entity Type is *AdGroup*, this is Required. If Entity Type is *Campaign*, this is empty.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="impressioncampaignid"></a>Impression Campaign Id
-The AdGroupId used to create the impression based remarketing list.  
+The CampaignId used to create the impression based remarketing list.  
 
 **Add:** Required  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
