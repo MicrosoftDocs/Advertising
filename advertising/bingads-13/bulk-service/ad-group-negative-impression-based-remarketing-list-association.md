@@ -101,7 +101,7 @@ The name of the ad group that is associated with the impression based remarketin
 ## <a name="audience"></a>Audience
 The name of the impression based remarketing list.
 
-This bulk field maps to the *Audience* field of the [Remarketing List](impression-based-remarketing-list.md) record.
+This bulk field maps to the *Audience* field of the [Impression Based Remarketing List](impression-based-remarketing-list.md) record.
 
 **Add:** Read-only and Required for some use cases. You must either specify the [Audience](#audience) or [Audience Id](#audienceid) field. If you are adding new Ad Group Negative Impression Based Remarketing List Associations with new impression based remarketing lists in the same Bulk file, and if you do not set the [Audience Id](#audienceid) field, then this [Audience](#audience) field must be set as a logical key to the same value as the *Audience* field of the [Impression Based Remarketing List](impression-based-remarketing-list.md) record. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only    
