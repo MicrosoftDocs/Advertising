@@ -1,0 +1,175 @@
+---
+title: PromotionAdExtension Data Object Test - Campaign Management
+ms.service: bing-ads
+ms.subservice: campaign-management-api
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+description: Promotion Extensions highlight special sales and offers in your text ads.(test)
+---
+# PromotionAdExtension Data Object Test - Campaign Management
+Promotion Extensions highlight special sales and offers in your text ads. By making offers stand out, potential customers are more likely to click on your ad, helping to generate more sales for you. 
+
+You can associate a promotion ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 promotion ad extensions.  
+
+> [!NOTE]
+> Promotion Extensions are available for customers in AU, CA, DE, FR, US and UK.  
+
+# [XML](#tab/xml)
+
+```xml
+<xs:complexType name="PromotionAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexContent mixed="false">
+    <xs:extension base="tns:AdExtension">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DiscountModifier" nillable="true" type="tns:PromotionDiscountModifier" />
+        <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
+        <xs:element xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q56:ArrayOfstring" />
+        <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
+        <xs:element xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q57:ArrayOfstring" />
+        <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MoneyAmountOff" nillable="true" type="xs:double" />
+        <xs:element minOccurs="0" name="OrdersOverAmount" nillable="true" type="xs:double" />
+        <xs:element minOccurs="0" name="PercentOff" nillable="true" type="xs:double" />
+        <xs:element minOccurs="0" name="PromotionCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PromotionEndDate" nillable="true" type="tns:Date" />
+        <xs:element minOccurs="0" name="PromotionItem" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PromotionOccasion" nillable="true" type="tns:PromotionOccasion" />
+        <xs:element minOccurs="0" name="PromotionStartDate" nillable="true" type="tns:Date" />
+        <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
+      </xs:sequence>
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "ValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": "ValueHere",
+        "EndMinute": "ValueHere",
+        "StartHour": "ValueHere",
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": "ValueHere",
+      "Month": "ValueHere",
+      "Year": "ValueHere"
+    },
+    "StartDate": {
+      "Day": "ValueHere",
+      "Month": "ValueHere",
+      "Year": "ValueHere"
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "PromotionAdExtension",
+  "Version": "ValueHere",
+  "CurrencyCode": "ValueHere",
+  "DiscountModifier": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "Language": "ValueHere",
+  "MoneyAmountOff": "ValueHere",
+  "OrdersOverAmount": "ValueHere",
+  "PercentOff": "ValueHere",
+  "PromotionCode": "ValueHere",
+  "PromotionEndDate": {
+    "Day": "ValueHere",
+    "Month": "ValueHere",
+    "Year": "ValueHere"
+  },
+  "PromotionItem": "ValueHere",
+  "PromotionOccasion": "ValueHere",
+  "PromotionStartDate": {
+    "Day": "ValueHere",
+    "Month": "ValueHere",
+    "Year": "ValueHere"
+  },
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
+
+## <a name="elements"></a>Elements
+
+The [PromotionAdExtension](promotionadextension.md) object has the following elements: [CurrencyCode](#currencycode), [DiscountModifier](#discountmodifier), [FinalAppUrls](#finalappurls), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [FinalUrlSuffix](#finalurlsuffix), [Language](#language), [MoneyAmountOff](#moneyamountoff), [OrdersOverAmount](#ordersoveramount), [PercentOff](#percentoff), [PromotionCode](#promotioncode), [PromotionEndDate](#promotionenddate), [PromotionItem](#promotionitem), [PromotionOccasion](#promotionoccasion), [PromotionStartDate](#promotionstartdate), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="currencycode"></a>CurrencyCode|The currency code for the promotion price or discount.<br/><br/>This field is only applicable if you set [MoneyAmountOff](#moneyamountoff) or [OrdersOverAmount](#ordersoveramount).<br/><br/>The supported currency codes are ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EUR, GBP, HKD, INR, MXN, NZD, PEN, PHP, PLN, SEK, SGD, USD, TWD, and VEF.<br/><br/>**Add:** Required if [MoneyAmountOff](#moneyamountoff) or [OrdersOverAmount](#ordersoveramount) are set.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. If you set either [PercentOff](#percentoff) or [PromotionCode](#promotioncode), this setting is no longer applicable and will be deleted.|**string**|
+|<a name="discountmodifier"></a>DiscountModifier|The promotion discount modifier.<br/><br/>For example, let's say the discount modifier is set to [UpTo](promotiondiscountmodifier.md#upto). Then, if the unmodified promotion discount would be "$20 off shoes", the modified promotion is "Up to $20 off shoes."<br/><br/>**Add:** Optional. If you do not specify this element or leave it empty, the default value of [None](promotiondiscountmodifier.md#none) will be set.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[PromotionDiscountModifier](promotiondiscountmodifier.md)|
+|<a name="finalappurls"></a>FinalAppUrls|Reserved for future use.|[AppUrl](appurl.md) array|
+|<a name="finalmobileurls"></a>FinalMobileUrls|The landing page URL for mobile devices.<br/><br/>The following validation rules apply to Final URLs and Final Mobile URLs.<br/>- The length of the URL is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.<br/>- You may specify up to 10 list items for both [FinalUrls](#finalurls) and [FinalMobileUrls](#finalmobileurls); however, only the first item in each list is used for delivery. The service allows up to 10 list items for potential forward compatibility.<br/>- Usage of '{' and '}' is only allowed to delineate tags, for example *{lpurl}*.<br/>- Final URLs must each be a well-formed URL starting with either http:// or https://.<br/>- If you specify [FinalMobileUrls](#finalmobileurls), you must also specify [FinalUrls](#finalurls).<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this element to an empty list, the previous setting will be deleted.|**string** array|
+|<a name="finalurls"></a>FinalUrls|The landing page URL.<br/><br/>The following validation rules apply to Final URLs and Final Mobile URLs.<br/>- The length of the URL is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.<br/>- You may specify up to 10 list items for both [FinalUrls](#finalurls) and [FinalMobileUrls](#finalmobileurls); however, only the first item in each list is used for delivery. The service allows up to 10 list items for potential forward compatibility.<br/>- Usage of '{' and '}' is only allowed to delineate tags, for example *{lpurl}*.<br/>- Final URLs must each be a well-formed URL starting with either http:// or https://.<br/>- If you specify [FinalMobileUrls](#finalmobileurls), you must also specify [FinalUrls](#finalurls).<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string** array|
+|<a name="finalurlsuffix"></a>FinalUrlSuffix|The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. For more details and validation rules see [Final URL Suffix](../guides/url-tracking-upgraded-urls.md#finalurlsuffixvalidation) in the technical guides.<br/><br/>This feature is only available for customers in the Final URL Suffix Phase 3 pilot ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 636). If you are not in the pilot this property will be ignored and no error will be returned.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this element to an empty string (*""*), the previous setting will be deleted.|**string**|
+|<a name="language"></a>Language|The language that the ad extension will be served in.<br/><br/>The extension will always be served in this language, regardless of the campaign or ad group's language settings.<br/><br/>The supported language strings are: Danish, Dutch, English, Finnish, French, German, Italian, Norwegian, Portuguese, Spanish, Swedish, and TraditionalChinese.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
+|<a name="moneyamountoff"></a>MoneyAmountOff|The money off promotion value.<br/><br/>For example, to promote "$20 off shoes - On orders over $100", set the [PromotionItem](#promotionitem) to "shoes", set [CurrencyCode](#currencycode) to "USD", set [MoneyAmountOff](#moneyamountoff) to 20, and set [OrdersOverAmount](#ordersoveramount) to 100.<br/><br/>**Add:** Required. You must set either [MoneyAmountOff](#moneyamountoff) or [PercentOff](#percentoff), but you cannot set both.<br/>**Update:** Optional. You can set either [MoneyAmountOff](#moneyamountoff) or [PercentOff](#percentoff), but you cannot set both.|**double**|
+|<a name="ordersoveramount"></a>OrdersOverAmount|The orders over amount value appended to the promotion target.<br/><br/>For example, to promote "$20 off shoes - On orders over $100", set the [PromotionItem](#promotionitem) to "shoes", set [CurrencyCode](#currencycode) to "USD", set [MoneyAmountOff](#moneyamountoff) to 20, and set [OrdersOverAmount](#ordersoveramount) to 100.<br/><br/>**Add:** Optional. You cannot set both [OrdersOverAmount](#ordersoveramount) and [PromotionCode](#promotioncode).<br/>**Update:** Optional. You cannot set both [OrdersOverAmount](#ordersoveramount) and [PromotionCode](#promotioncode). If no value is set for the update, this setting is not changed. If you set this element to '0' (zero), the previous setting will be deleted.|**double**|
+|<a name="percentoff"></a>PercentOff|The percent off promotion value.<br/><br/>For example, 10.0 represents a 10% discount.<br/><br/>**Add:** Required. You must set either [MoneyAmountOff](#moneyamountoff) or [PercentOff](#percentoff), but you cannot set both.<br/>**Update:** Optional. You can set either [MoneyAmountOff](#moneyamountoff) or [PercentOff](#percentoff), but you cannot set both. If you set this property, then the [CurrencyCode](#currencycode) setting is no longer applicable and will be deleted if it was previously set.|**double**|
+|<a name="promotioncode"></a>PromotionCode|The promotion code appended to the promotion target.<br/><br/>For example, to promote "$20 off shoes - Promocode SAVE20", set the [PromotionItem](#promotionitem) to "shoes", set [CurrencyCode](#currencycode) to "USD", set [MoneyAmountOff](#moneyamountoff) to 20, and set [PromotionCode](#promotioncode) to "SAVE20".<br/><br/>The string can contain a maximum of 15 characters.<br/><br/>**Add:** Optional. You cannot set both [OrdersOverAmount](#ordersoveramount) and [PromotionCode](#promotioncode).<br/>**Update:** Optional. You cannot set both [OrdersOverAmount](#ordersoveramount) and [PromotionCode](#promotioncode). If no value is set for the update, this setting is not changed. If you set this element to an empty string (*""*), the previous setting will be deleted. If you set this property, then the [CurrencyCode](#currencycode) setting is no longer applicable and will be deleted if it was previously set.|**string**|
+|<a name="promotionenddate"></a>PromotionEndDate|The end date helps to inform the promotion date or dates that will be displayed in the ad.<br/><br/>For example if the [PromotionStartDate](#promotionstartdate) and [PromotionEndDate](#promotionenddate) dates are both set to February 14th, the text "Valid Feb 14" could be included in the displayed promotion.<br/><br/>The [PromotionStartDate](#promotionstartdate) date must be earlier than, or equal to, the [PromotionEndDate](#promotionenddate) date.<br/><br/>This property does not override the inherent delivery range for a promotion. Both the promotion [PromotionOccasion](#promotionoccasion) and [Scheduling](#scheduling) determine when the promotion is eligible to be shown in ads.<br/><br/>If the end date has already passed for the current year, then each start and end date must be set for dates during the following year.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set the [Day](date.md#day), [Month](date.md#month), and [Year](date.md#year) each to '0' (zero). When you retrieve the promotion ad extension next time, this element will not be set.|[Date](date.md)|
+|<a name="promotionitem"></a>PromotionItem|The promotion target or item.<br/><br/>For example, you might run a promotion for "shoes" at either $20 or 20% discount. To run a promotion for "Up to $20 off shoes", set the [PromotionItem](#promotionitem) to "shoes", set the [DiscountModifier](#discountmodifier) to [UpTo](promotiondiscountmodifier.md#upto), set [CurrencyCode](#currencycode) to "USD", and set [MoneyAmountOff](#moneyamountoff) to 20.<br/><br/>The string can contain a maximum of 20 characters.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
+|<a name="promotionoccasion"></a>PromotionOccasion|The promotion occasion.<br/><br/>Both the [PromotionOccasion](#promotionoccasion) and [Scheduling](#scheduling) elements determine when the promotion is eligible to be shown in ads.<br/><br/>The [PromotionOccasion](#promotionoccasion) determines the time period or seasonality e.g., [WomensDay](promotionoccasion.md#womensday) from February 15 through March 31 each year. The promotion will only run within the dates corresponding to the occasion that you set. See [PromotionOccasion](promotionoccasion.md) for details about the defined date range for each occasion.<br/><br/>The [Scheduling](#scheduling) can limit the promotion to a shorter timeframe within the occasion's date range e.g., limit the promotion to run from February 20 through March 8. The [Scheduling](#scheduling) can also be used to run the same promotion multiple years e.g., run the [WomensDay](promotionoccasion.md#womensday) promotion every year from February 15 through March 31.<br/><br/>**Add:** Optional. If you do not specify this element or leave it empty, the default value of [None](promotionoccasion.md#none) will be set.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this element, then [PromotionStartDate](#promotionstartdate) and [PromotionEndDate](#promotionenddate) must also be set to retain or update the previous settings.|[PromotionOccasion](promotionoccasion.md)|
+|<a name="promotionstartdate"></a>PromotionStartDate|The start date helps to inform the promotion date or dates that will be displayed in the ad.<br/><br/>For example if the [PromotionStartDate](#promotionstartdate) and [PromotionEndDate](#promotionenddate) dates are both set to February 14th, the text "Valid Feb 14" could be included in the displayed promotion.<br/><br/>The [PromotionStartDate](#promotionstartdate) date must be earlier than, or equal to, the [PromotionEndDate](#promotionenddate) date.<br/><br/>This property does not override the inherent delivery range for a promotion. Both the promotion [PromotionOccasion](#promotionoccasion) and [Scheduling](#scheduling) determine when the promotion is eligible to be shown in ads.<br/><br/>If the end date has already passed for the current year, then each start and end date must be set for dates during the following year.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set the [Day](date.md#day), [Month](date.md#month), and [Year](date.md#year) each to '0' (zero). When you retrieve the promotion ad extension next time, this element will not be set.|[Date](date.md)|
+|<a name="trackingurltemplate"></a>TrackingUrlTemplate|The tracking template to use as a default for all [FinalUrls](#finalurls) and [FinalMobileUrls](#finalmobileurls).<br/><br/>The following validation rules apply to tracking templates. For more details about supported templates and parameters, see the Microsoft Advertising help article [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2)<br/>- Tracking templates defined for lower level entities e.g. ads override those set for higher level entities e.g. campaign. For more information, see [Entity Limits](../guides/entity-hierarchy-limits.md).<br/>- The length of the tracking template is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.<br/>- The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*.<br/>- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`* and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this element to an empty string (*""*), the previous setting will be deleted.|**string**|
+|<a name="urlcustomparameters"></a>UrlCustomParameters|Your custom collection of key and value parameters for URL tracking.<br/><br/>Microsoft Advertising will accept the first 3 [CustomParameter](customparameter.md) objects that you include within the [CustomParameters](customparameters.md) object, and any additional custom parameters will be ignored. Each [CustomParameter](customparameter.md) includes [Key](customparameter.md#key) and [Value](customparameter.md#value) elements. For customers in the Custom Parameters Limit Increase Phase 3 pilot ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 635), Microsoft Advertising will accept the first 8 custom parameter key and value pairs that you include, and if you include more than 8 custom parameters an error will be returned.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. Set the [UrlCustomParameters](#urlcustomparameters) element to null or empty to retain any existing custom parameters. To remove all custom parameters, set the [Parameters](customparameters.md#parameters) element of the [CustomParameters](customparameters.md) object to null or empty. To remove a subset of custom parameters, specify the custom parameters that you want to keep in the [Parameters](customparameters.md#parameters) element of the [CustomParameters](customparameters.md) object.|[CustomParameters](customparameters.md)|
+
+The [PromotionAdExtension](promotionadextension.md) object has [Inherited Elements](#inheritedelements).
+
+## <a name="inheritedelements"></a>Inherited Elements
+
+### <a name="inheritedelementsadextension"></a>Inherited Elements from AdExtension
+The [PromotionAdExtension](promotionadextension.md) object derives from the [AdExtension](adextension.md) object, and inherits the following elements: [DevicePreference](#devicepreference), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [Scheduling](#scheduling), [Status](#status), [Type](#type), [Version](#version). The descriptions below are specific to [PromotionAdExtension](promotionadextension.md), and might not apply to other objects that inherit the same elements from the [AdExtension](adextension.md) object.  
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="devicepreference"></a>DevicePreference|Not supported for this ad extension type.|**long**|
+|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>There are currently no forward compatibility changes for the *AdExtension* object.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
+|<a name="id"></a>Id|The unique Microsoft Advertising identifier of the ad extension.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only and Required|**long**|
+|<a name="scheduling"></a>Scheduling|Determines the calendar day and time ranges when the ad extension is eligible to be shown in ads.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If you set this element null, any existing scheduling set for the ad extension will remain unchanged. If you set this to any non-null [Schedule](schedule.md) object, you are effectively replacing existing scheduling settings for the ad extension. To remove all scheduling set this element to an empty [Schedule](schedule.md) object.|[Schedule](schedule.md)|
+|<a name="status"></a>Status|The status of the ad extension. The value will always be *Active* because the Campaign Management service does not return deleted ad extensions.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|[AdExtensionStatus](adextensionstatus.md)|
+|<a name="type"></a>Type|The type of the ad extension. This value is *PromotionAdExtension* when you retrieve a promotion ad extension.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only<br/><br/>For more information about ad extension types, see the [Ad Extension Data Object Remarks](adextension.md#remarks).|**string**|
+|<a name="version"></a>Version|Tracks the number of times the ad extension has been updated.<br/><br/>The version is set to *1* when the ad extension is created, and increments by one after each update.<br/><br/>**Add:** Not allowed<br/>**Update:** Not allowed|**int**|
+
+## Requirements
+Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
+Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+
