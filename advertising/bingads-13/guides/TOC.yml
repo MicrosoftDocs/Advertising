@@ -2890,9 +2890,6 @@
   items:
   - name: Campaign Management Service Operations
     items: 
-    - name: Overview
-      href: ../campaign-management-service-test/campaign-management-service-test-operations.md
-      displayName: campaign management service operations
     - name: AddAdExtensions
       href: ../campaign-management-service-test/addadextensions.md
     - name: AddAdGroupCriterions
