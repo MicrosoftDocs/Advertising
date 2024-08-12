@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test)
+description: Defines the CallToActionSetting data object.(test)
 ---
 # CallToActionSetting Data Object Test - Campaign Management
 Reserved.

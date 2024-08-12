@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test)
+description: Defines a data object for VanityPharmaSetting.(test)
 ---
 # VanityPharmaSetting Data Object Test - Campaign Management
 Reserved.

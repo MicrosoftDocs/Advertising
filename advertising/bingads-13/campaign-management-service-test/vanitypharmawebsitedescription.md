@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test)
+description: Defines a value set for VanityPharmaWebsiteDescription.(test)
 ---
 # VanityPharmaWebsiteDescription Value Set Test - Campaign Management
 Reserved.

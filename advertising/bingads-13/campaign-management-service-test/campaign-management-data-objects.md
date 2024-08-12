@@ -1,13 +1,13 @@
 ---
-title: Campaign Management Data Objects
+title: Campaign Management Test Data Objects
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Data objects reference for the CampaignManagement service.
+description: Data objects reference for the CampaignManagement service.(test)
 ---
-# Campaign Management Data Objects
+# Campaign Management Test Data Objects
 The Campaign Management service defines the following data objects.
 
 |Data Object|Description|

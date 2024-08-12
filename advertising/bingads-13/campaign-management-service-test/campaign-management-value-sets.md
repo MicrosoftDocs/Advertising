@@ -1,13 +1,13 @@
 ---
-title: Campaign Management Value Sets
+title: Campaign Management Test Value Sets
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Value sets reference for the CampaignManagement service.
+description: Value sets reference for the CampaignManagement service.(test)
 ---
-# Campaign Management Value Sets
+# Campaign Management Test Value Sets
 The Campaign Management service defines the following value sets.
 
 |Value Set|Description|

@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test)
+description: Defines the type of ad.(test)
 ---
 # AdSubType Value Set Test - Campaign Management
 Reserved.
