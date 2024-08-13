@@ -2886,7 +2886,7 @@
   href: ./release-notes.md
 - name: Migrate to Version 13
   href: ./migration-guide.md
-- name: Campaign Management Rest API(test)
+- name: Campaign Management REST API (test)
   items:
   - name: Campaign Management Service Operations
     items: 
