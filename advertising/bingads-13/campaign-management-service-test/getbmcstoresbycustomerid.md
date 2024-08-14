@@ -16,9 +16,6 @@ dev_langs:
 # GetBMCStoresByCustomerId Service Operation Test - Campaign Management
 Gets the Microsoft Merchant Center stores for the specified customer.
 
-> [!NOTE]
-> The list of stores in the response includes global stores.
-
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements

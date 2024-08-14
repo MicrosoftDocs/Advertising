@@ -138,13 +138,13 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 # [Production URL](#tab/prod)
 
 ```Post
-https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/AccountProperties/Set
+https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/AccountPropertiesSet/Set
 ```
 
 # [Sandbox URL](#tab/sandbox)
 
 ```Post
-https://campaign.api.sandbox.bingads.microsoft.com/CampaignManagement/v13/AccountProperties/Set
+https://campaign.api.sandbox.bingads.microsoft.com/CampaignManagement/v13/AccountPropertiesSet/Set
 ```
 
 -----

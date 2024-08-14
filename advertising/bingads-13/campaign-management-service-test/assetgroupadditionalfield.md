@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines the possible additional fields for an asset group.(test)
 ---
 # AssetGroupAdditionalField Value Set Test - Campaign Management
-Defines the possible additional fields for an asset group.
+Reserved.
 
 ## Syntax
 ```xml
@@ -29,7 +29,7 @@ The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Include the *AssetGroupSearchThemes* field.|
+|<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

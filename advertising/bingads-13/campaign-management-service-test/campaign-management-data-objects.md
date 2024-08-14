@@ -46,7 +46,7 @@ The Campaign Management service defines the following data objects.
 |[AssetGroupEditorialReasonCollection](assetgroupeditorialreasoncollection.md)|Defines a collection of asset groups that failed editorial review.|
 |[AssetGroupListingGroup](assetgrouplistinggroup.md)|A listing group that corresponds directly to the identifiers specified in the request.|
 |[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md)|An object that contains an Action element and a ListingGroup element.|
-|[AssetGroupSearchTheme](assetgroupsearchtheme.md)|Defines an AssetGroupSearchTheme data object.|
+|[AssetGroupSearchTheme](assetgroupsearchtheme.md)|Reserved.|
 |[AssetLink](assetlink.md)|Defines the relationship of an asset to an ad.|
 |[Audience](audience.md)|Defines the base object of an audience.|
 |[AudienceCriterion](audiencecriterion.md)|Defines a criterion that can be used to show ads to a specific audience.|
@@ -69,7 +69,7 @@ The Campaign Management service defines the following data objects.
 |[Budget](budget.md)|Represents a budget that can be shared by any campaigns in an account.|
 |[CallAdExtension](calladextension.md)|Defines an object that specifies a click-to-call phone number to include in a text ad.|
 |[CalloutAdExtension](calloutadextension.md)|Defines an object that specifies additional text about your business, products, or services to include in a text ad.|
-|[CallToActionSetting](calltoactionsetting.md)|Defines the CallToActionSetting data object.|
+|[CallToActionSetting](calltoactionsetting.md)|Reserved.|
 |[Campaign](campaign.md)|Defines a campaign.|
 |[CampaignAdGroupIds](campaignadgroupids.md)|Identifies a campaign and the list of its ad groups to import.|
 |[CampaignAssociation](campaignassociation.md)|Defines a data object for which campaigns to associate to data exclusions and seasonality adjustments.|
@@ -152,7 +152,7 @@ The Campaign Management service defines the following data objects.
 |[ImportOption](importoption.md)|Defines the base object of an import option.|
 |[ImportResult](importresult.md)|Contains the status, run time, and statistical results for an import job that has run.|
 |[ImportSearchAndReplaceForStringProperty](importsearchandreplaceforstringproperty.md)|Defines the string search and replace Google import option.|
-|[ImpressionBasedRemarketingList](impressionbasedremarketinglist.md)|Defines a data object for ImpressionBasedRemarketingList.|
+|[ImpressionBasedRemarketingList](impressionbasedremarketinglist.md)|Reserved.|
 |[InheritFromParentBiddingScheme](inheritfromparentbiddingscheme.md)|Defines an object that represents the inherit from parent bid strategy type.|
 |[InMarketAudience](inmarketaudience.md)|Defines an in-market audience.|
 |[InStoreTransactionGoal](instoretransactiongoal.md)|Defines an in-store transaction goal.|
@@ -164,7 +164,7 @@ The Campaign Management service defines the following data objects.
 |[LocationAdExtension](locationadextension.md)|Defines an ad extension that specifies a business address and phone number to include in a text ad.|
 |[LocationCriterion](locationcriterion.md)|Defines a criterion that can be used to show ads to users in a specific location.|
 |[LocationIntentCriterion](locationintentcriterion.md)|Defines a criterion that determines the intent option for all location and radius criterions of the campaign or ad group.|
-|[LogoAdExtension](logoadextension.md)|Defines an ad extension that specifies a business logo.|
+|[LogoAdExtension](logoadextension.md)|Reserved.|
 |[ManualCpaBiddingScheme](manualcpabiddingscheme.md)|Defines an object that represents the manual CPA bid strategy type.|
 |[ManualCpcBiddingScheme](manualcpcbiddingscheme.md)|Defines an object that represents the manual CPC bid strategy type.|
 |[ManualCpmBiddingScheme](manualcpmbiddingscheme.md)|Defines an object that represents the manual CPM bid strategy type.|
@@ -239,7 +239,7 @@ The Campaign Management service defines the following data objects.
 |[TextAsset](textasset.md)|A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
-|[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|
+|[VanityPharmaSetting](vanitypharmasetting.md)|Reserved.|
 |[VerifiedTrackingSetting](verifiedtrackingsetting.md)|Defines the VerifiedTrackingSetting Data Object.|
 |[Video](video.md)|Defines the Video Data Object.|
 |[VideoAdExtension](videoadextension.md)|Defines an ad extension with a video and call-to-action button.|

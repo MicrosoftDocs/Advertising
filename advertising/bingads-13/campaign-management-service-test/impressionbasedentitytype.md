@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines a value set for ImpressionBasedEntityType.(test)
 ---
 # ImpressionBasedEntityType Value Set Test - Campaign Management
-Defines a value set for ImpressionBasedEntityType.
+Reserved.
 
 ## Syntax
 ```xml
@@ -27,9 +27,9 @@ The [ImpressionBasedEntityType](impressionbasedentitytype.md) value set has the 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="adgroup"></a>AdGroup|The impression-based remarketing list type is *AdGroup*.|
-|<a name="campaign"></a>Campaign|The impression-based remarketing list type is *Campaign*.|
-|<a name="none"></a>None|The impression-based remarketing list type is *none*.|
+|<a name="adgroup"></a>AdGroup|Reserved.|
+|<a name="campaign"></a>Campaign|Reserved.|
+|<a name="none"></a>None|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -30,7 +30,7 @@ The *GetAssetGroupsByIdsRequest* object defines the [body](#request-body) and [h
 |-----------|---------------|-------------|
 |<a name="assetgroupids"></a>AssetGroupIds|Array of asset group ids to update for the specified campaign. A maximum of 100 asset groups can be specified in a single call.|**long** array|
 |<a name="campaignid"></a>CampaignId|The ID of the performance max campaign.|**long**|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -376,7 +376,7 @@ The *GetAssetGroupsByIdsRequest* object defines the [body](#request-body) and [h
 |-----------|---------------|-------------|
 |<a name="assetgroupids"></a>AssetGroupIds|Array of asset group ids to update for the specified campaign. A maximum of 100 asset groups can be specified in a single call.|**long** array|
 |<a name="campaignid"></a>CampaignId|The ID of the performance max campaign.|**long**|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]

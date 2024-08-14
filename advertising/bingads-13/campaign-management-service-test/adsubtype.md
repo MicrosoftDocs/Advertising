@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines the possible ad sub types.(test)
 ---
 # AdSubType Value Set Test - Campaign Management
-Defines the possible ad sub types.
+Reserved.
 
 ## Syntax
 ```xml
@@ -30,8 +30,8 @@ The [AdSubType](adsubtype.md) value set has the following values: [Display](#dis
 
 |Value|Description|
 |-----------|---------------|
-|<a name="display"></a>Display|The ad is a display ad.|
-|<a name="video"></a>Video|The ad is a video ad.|
+|<a name="display"></a>Display|Reserved.|
+|<a name="video"></a>Video|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

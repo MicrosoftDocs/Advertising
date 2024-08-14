@@ -8,9 +8,7 @@ ms.author: jonmeyers
 description: Defines an ad extension that specifies a business logo.(test)
 ---
 # LogoAdExtension Data Object Test - Campaign Management
-Defines an ad extension that specifies a business logo.  
-
-Logo Ad Extensions enable advertisers to display eye-catching logos in ads. Build brand recognition to drive more clicks and conversions on your website.
+Reserved.
 
 # [XML](#tab/xml)
 
@@ -81,10 +79,10 @@ The [LogoAdExtension](logoadextension.md) object has the following elements: [Bu
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="businesslogo"></a>BusinessLogo|The asset ID for the business logo.<br/><br/>The business logo must have a 1:1 aspect ratio. The minimum image size is 128px by 128px. The maximum image size is 5120 KB.<br/><br/>**Add**: Required<br/>**Update**: Required|**long**|
-|<a name="businesslogourl"></a>BusinessLogoUrl|The URL of the business logo. This is used internally.<br/><br/>**Add**: Not allowed<br/>**Update**: Not allowed|**string**|
-|<a name="businessname"></a>BusinessName|The business name. Maximum length is 25 characters.<br/><br/>**Add**: Required<br/>**Update**: Required|**string**|
-|<a name="domainname"></a>DomainName|The domain name.<br/><br/>*Note*: Use the domain name, not a URL. For example, use "contoso.com", not "https://contoso.com". The maximum length is 50 characters.<br/><br/>**Add**: Optional<br/>**Update**: Optional|**string**|
+|<a name="businesslogo"></a>BusinessLogo|Reserved.|**long**|
+|<a name="businesslogourl"></a>BusinessLogoUrl|Reserved.|**string**|
+|<a name="businessname"></a>BusinessName|Reserved.|**string**|
+|<a name="domainname"></a>DomainName|Reserved.|**string**|
 
 The [LogoAdExtension](logoadextension.md) object has [Inherited Elements](#inheritedelements).
 
@@ -95,13 +93,13 @@ The [LogoAdExtension](logoadextension.md) object derives from the [AdExtension](
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="devicepreference"></a>DevicePreference|Not supported for this ad extension type.|**long**|
-|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for this object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
-|<a name="id"></a>Id|The unique Microsoft Advertising identifier of the ad extension.|**long**|
-|<a name="scheduling"></a>Scheduling|Determines the calendar day and time ranges when the ad extension is eligible to be shown in ads.|[Schedule](schedule.md)|
-|<a name="status"></a>Status|The status of the ad extension. The value will always be *Active* because the Campaign Management service does not return deleted ad extensions.|[AdExtensionStatus](adextensionstatus.md)|
-|<a name="type"></a>Type|The type of ad extension. <br/><br/>For more information, see [Remarks](./adextension.md#remarks).|**string**|
-|<a name="version"></a>Version|Tracks the number of times the ad extension has been updated.<br/><br/>The version is set to *1* when the ad extension is created, and increments by one after each update.|**int**|
+|<a name="devicepreference"></a>DevicePreference|Reserved.|**long**|
+|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|Reserved.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
+|<a name="id"></a>Id|Reserved.|**long**|
+|<a name="scheduling"></a>Scheduling|Reserved.|[Schedule](schedule.md)|
+|<a name="status"></a>Status|Reserved.|[AdExtensionStatus](adextensionstatus.md)|
+|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="version"></a>Version|Reserved.|**int**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
