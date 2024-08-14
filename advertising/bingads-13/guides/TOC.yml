@@ -3910,8 +3910,6 @@
       href: ../bulk-service-test/compressiontype.md
     - name: DataScope
       href: ../bulk-service-test/datascope.md
-    - name: DownloadEntity
-      href: ../bulk-service-test/downloadentity.md
     - name: DownloadFileType
       href: ../bulk-service-test/downloadfiletype.md
     - name: ResponseMode
