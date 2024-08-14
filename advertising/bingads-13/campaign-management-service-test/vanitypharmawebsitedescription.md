@@ -8,7 +8,10 @@ ms.author: jonmeyers
 description: Defines a value set for VanityPharmaWebsiteDescription.(test)
 ---
 # VanityPharmaWebsiteDescription Value Set Test - Campaign Management
-Reserved.
+Defines a value set for VanityPharmaWebsiteDescription. This is the text that shows in the display URL of a text ad when *WebsiteDescription* is the selected display mode for vanity pharma URLs for the campaign.  
+
+> [!NOTE]
+> *Note*: *VanityPharmaWebsiteDescription* is reserved for limited pilot usage (e.g., pharmaceutical customers).
 
 ## Syntax
 ```xml
@@ -37,19 +40,19 @@ The [VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md) value se
 
 |Value|Description|
 |-----------|---------------|
-|<a name="medicaldevicewebsite_en"></a>MedicalDeviceWebsite_En|Reserved.|
-|<a name="medicaldevicewebsite_es"></a>MedicalDeviceWebsite_Es|Reserved.|
-|<a name="prescriptioncontraceptionwebsite_en"></a>PrescriptionContraceptionWebsite_En|Reserved.|
-|<a name="prescriptioncontraceptionwebsite_es"></a>PrescriptionContraceptionWebsite_Es|Reserved.|
-|<a name="prescriptiondevicewebsite_en"></a>PrescriptionDeviceWebsite_En|Reserved.|
-|<a name="prescriptiondevicewebsite_es"></a>PrescriptionDeviceWebsite_Es|Reserved.|
-|<a name="prescriptiontreatmentwebsite_en"></a>PrescriptionTreatmentWebsite_En|Reserved.|
-|<a name="prescriptiontreatmentwebsite_es"></a>PrescriptionTreatmentWebsite_Es|Reserved.|
-|<a name="prescriptionvaccinewebsite_en"></a>PrescriptionVaccineWebsite_En|Reserved.|
-|<a name="prescriptionvaccinewebsite_es"></a>PrescriptionVaccineWebsite_Es|Reserved.|
-|<a name="preventativetreatmentwebsite_en"></a>PreventativeTreatmentWebsite_En|Reserved.|
-|<a name="preventativetreatmentwebsite_es"></a>PreventativeTreatmentWebsite_Es|Reserved.|
-|<a name="unspecified"></a>Unspecified|Reserved.|
+|<a name="medicaldevicewebsite_en"></a>MedicalDeviceWebsite_En|A medical device website with website content in English.|
+|<a name="medicaldevicewebsite_es"></a>MedicalDeviceWebsite_Es|A medical device website with website content in Spanish (Sitio de dispositivos medicos).|
+|<a name="prescriptioncontraceptionwebsite_en"></a>PrescriptionContraceptionWebsite_En|A prescription contraception website with website content in English.|
+|<a name="prescriptioncontraceptionwebsite_es"></a>PrescriptionContraceptionWebsite_Es|A prescription contraception website with website content in Spanish (Sitio de anticonceptivos con receta).|
+|<a name="prescriptiondevicewebsite_en"></a>PrescriptionDeviceWebsite_En|A prescription device website with website content in English. (Sitio de dispositivos con receta).|
+|<a name="prescriptiondevicewebsite_es"></a>PrescriptionDeviceWebsite_Es|A prescription treatment website with website content in Spanish.|
+|<a name="prescriptiontreatmentwebsite_en"></a>PrescriptionTreatmentWebsite_En|A prescription treatment website with website content in English.|
+|<a name="prescriptiontreatmentwebsite_es"></a>PrescriptionTreatmentWebsite_Es|A prescription treatment website with website content in Spanish (Sitio de tratamientos con receta).|
+|<a name="prescriptionvaccinewebsite_en"></a>PrescriptionVaccineWebsite_En|A prescription vaccine website with website content in English.|
+|<a name="prescriptionvaccinewebsite_es"></a>PrescriptionVaccineWebsite_Es|A prescription vaccine website with website content in Spanish (Sitio de vacunas con receta).|
+|<a name="preventativetreatmentwebsite_en"></a>PreventativeTreatmentWebsite_En|A preventative treatment website with website content in English. |
+|<a name="preventativetreatmentwebsite_es"></a>PreventativeTreatmentWebsite_Es|A preventative treatment website with website content in Spanish (Sitio de tratamientos preventivos).|
+|<a name="unspecified"></a>Unspecified|The website description is not specified.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

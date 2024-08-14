@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines an AssetGroupSearchTheme data object.(test)
 ---
 # AssetGroupSearchTheme Data Object Test - Campaign Management
-Reserved.
+Defines an AssetGroupSearchTheme data object.
 
 # [XML](#tab/xml)
 
@@ -38,8 +38,8 @@ The [AssetGroupSearchTheme](assetgroupsearchtheme.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="searchtheme"></a>SearchTheme|Reserved.|**string**|
+|<a name="id"></a>Id|The identifier of the search theme.|**long**|
+|<a name="searchtheme"></a>SearchTheme|The type of search theme.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

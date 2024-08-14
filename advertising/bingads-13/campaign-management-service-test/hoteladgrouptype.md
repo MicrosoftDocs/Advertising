@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: The ad group type for lodging campaigns (formerly hotel campaigns).(test)
+description: The ad group type for Lodging campaigns (formerly Hotel campaigns).(test)
 ---
 # HotelAdGroupType Value Set Test - Campaign Management
-The ad group type for lodging campaigns (formerly hotel campaigns).
+The ad group type for Lodging campaigns (formerly Hotel campaigns).
 
 ## Syntax
 ```xml

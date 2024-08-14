@@ -19,6 +19,7 @@ Do not try to instantiate an *AdExtension*. You can create one or more of the fo
 - [FlyerAdExtension](flyeradextension.md)  
 - [ImageAdExtension](imageadextension.md)  
 - [LocationAdExtension](locationadextension.md)  
+- [LogoAdExtension](logoadextension.md)  
 - [PriceAdExtension](priceadextension.md)  
 - [PromotionAdExtension](promotionadextension.md)  
 - [ReviewAdExtension](reviewadextension.md)  
