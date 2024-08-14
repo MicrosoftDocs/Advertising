@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines a data object for ImpressionBasedRemarketingList.(test)
 ---
 # ImpressionBasedRemarketingList Data Object Test - Campaign Management
-Reserved.
+Defines a data object for ImpressionBasedRemarketingList.
 
 # [XML](#tab/xml)
 
@@ -77,9 +77,9 @@ The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adgroupid"></a>AdGroupId|Reserved.|**long**|
-|<a name="campaignid"></a>CampaignId|Reserved.|**long**|
-|<a name="entitytype"></a>EntityType|Reserved.|[ImpressionBasedEntityType](impressionbasedentitytype.md)|
+|<a name="adgroupid"></a>AdGroupId|The ad group identifier to associate with the impression-based remarketing list.<br/><br/>*Note*: The *AdGroupId* is null for an impression-based remarketing list with users who have viewed an ad under campaign.|**long**|
+|<a name="campaignid"></a>CampaignId|The campaign identifier to associate with the impression-based remarketing list.|**long**|
+|<a name="entitytype"></a>EntityType|The entity type of an impression-based remarketing list.|[ImpressionBasedEntityType](impressionbasedentitytype.md)|
 
 The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object has [Inherited Elements](#inheritedelements).
 
