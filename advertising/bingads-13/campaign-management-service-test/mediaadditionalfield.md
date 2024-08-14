@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines a value set for MediaAdditionalField.(test)
 ---
 # MediaAdditionalField Value Set Test - Campaign Management
-Defines a value set for MediaAdditionalField.
+Reserved.
 
 ## Syntax
 ```xml

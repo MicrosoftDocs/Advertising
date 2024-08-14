@@ -10,7 +10,7 @@ description: Defines an object that represents the rate bid.(test)
 # RateBid Data Object Test - Campaign Management
 Defines an object that represents the rate bid.
 
-RateBid is applicable to Lodging campaigns (formerly Hotel campaigns) with the percent CPC or commission bid schemes.
+RateBid is applicable to lodging campaigns (formerly hotel campaigns) with the percent CPC or commission bid schemes.
 
 # [XML](#tab/xml)
 

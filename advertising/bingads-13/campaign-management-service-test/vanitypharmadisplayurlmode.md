@@ -8,10 +8,7 @@ ms.author: jonmeyers
 description: Defines a value set for VanityPharmaDisplayUrlMode.(test)
 ---
 # VanityPharmaDisplayUrlMode Value Set Test - Campaign Management
-Defines a value set for VanityPharmaDisplayUrlMode. This is the display mode for vanity pharma URLs for a campaign.
-
-> [!NOTE]
-> *VanityPharmaDisplayUrlMode* is reserved for limited pilot usage (e.g., pharmaceutical customers).
+Reserved.
 
 ## Syntax
 ```xml
@@ -41,8 +38,8 @@ The [VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md) value set has th
 
 |Value|Description|
 |-----------|---------------|
-|<a name="manufacturerwebsiteurl"></a>ManufacturerWebsiteUrl|Replace the vanity pharma URL with the manufacturer website URL.|
-|<a name="websitedescription"></a>WebsiteDescription|Replace the vanity pharma URL with a description of the website.|
+|<a name="manufacturerwebsiteurl"></a>ManufacturerWebsiteUrl|Reserved.|
+|<a name="websitedescription"></a>WebsiteDescription|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

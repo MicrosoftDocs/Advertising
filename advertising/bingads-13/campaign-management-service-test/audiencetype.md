@@ -41,8 +41,8 @@ The [AudienceType](audiencetype.md) value set has the following values: [Combine
 |-----------|---------------|
 |<a name="combinedlist"></a>CombinedList|The audience is a combined list.|
 |<a name="custom"></a>Custom|The audience is a custom audience.|
-|<a name="customerlist"></a>CustomerList|The audience is a customer list.|
-|<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|The audience is an impression-based remarketing list.|
+|<a name="customerlist"></a>CustomerList|Reserved.|
+|<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Reserved.|
 |<a name="inmarket"></a>InMarket|The audience is an in-market audience.|
 |<a name="product"></a>Product|The audience is a product audience.|
 |<a name="remarketinglist"></a>RemarketingList|The audience is a remarketing list.|

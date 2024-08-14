@@ -29,11 +29,11 @@ The Campaign Management service defines the following value sets.
 |[AdGroupStatus](adgroupstatus.md)|Defines the possible status values of an ad group.|
 |[AdRotationType](adrotationtype.md)|Defines the possible ad rotation types that you can apply to an ad group.|
 |[AdStatus](adstatus.md)|Defines the possible status values of an ad.|
-|[AdSubType](adsubtype.md)|Defines the possible ad sub types.|
+|[AdSubType](adsubtype.md)|Reserved.|
 |[AdType](adtype.md)|Defines the type of ad.|
 |[AgeRange](agerange.md)|Defines the possible age range values that you can use to target ads to people.|
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
-|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|Defines the possible additional fields for an asset group.|
+|[AssetGroupAdditionalField](assetgroupadditionalfield.md)|Reserved.|
 |[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|The editorial review status of the asset group, which indicates whether the asset group is pending review, has been approved, or has been disapproved.|
 |[AssetGroupListingType](assetgrouplistingtype.md)|The type of listing group, for example Subdivision or Unit.|
 |[AssetGroupStatus](assetgroupstatus.md)|The status of the AssetGroup.|
@@ -75,12 +75,12 @@ The Campaign Management service defines the following value sets.
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
-|[HotelAdGroupType](hoteladgrouptype.md)|The ad group type for Lodging campaigns (formerly Hotel campaigns).|
+|[HotelAdGroupType](hoteladgrouptype.md)|The ad group type for lodging campaigns (formerly hotel campaigns).|
 |[HotelDateSelectionType](hoteldateselectiontype.md)|Possible hotel date selection types.|
 |[HotelListingType](hotellistingtype.md)|Defines the type of hotel listing.|
 |[ImportAdditionalField](importadditionalfield.md)|Defines a list of optional import properties that you can request when calling [GetImportJobsByIds](getimportjobsbyids.md#returnadditionalfields) and [GetImportResults](getimportresults.md#returnadditionalfields).|
 |[ImportEntityType](importentitytype.md)|Defines the supported import entity types.|
-|[ImpressionBasedEntityType](impressionbasedentitytype.md)|Defines a value set for ImpressionBasedEntityType.|
+|[ImpressionBasedEntityType](impressionbasedentitytype.md)|Reserved.|
 |[IntentOption](intentoption.md)|Defines the possible intent options for location criterion, for example to target people in, searching for, or viewing pages about your targeted location.|
 |[ItemAction](itemaction.md)|Defines the possible types of item actions, for example to add, delete, or update the product partition criterion.|
 |[KeywordEditorialStatus](keywordeditorialstatus.md)|Defines the editorial review status values of a keyword.|
@@ -88,7 +88,7 @@ The Campaign Management service defines the following value sets.
 |[LanguageName](languagename.md)|Defines the set of supported ad languages.|
 |[LogicalOperator](logicaloperator.md)|Defines the supported set of logical operators for combined list audiences.|
 |[MatchType](matchtype.md)|Defines the possible match types for a keyword or negative keyword.|
-|[MediaAdditionalField](mediaadditionalfield.md)|Defines a value set for MediaAdditionalField.|
+|[MediaAdditionalField](mediaadditionalfield.md)|Reserved.|
 |[MediaEnabledEntityFilter](mediaenabledentityfilter.md)|Defines the possible values representing entities that are enabled for media such as images.|
 |[MigrationStatus](migrationstatus.md)|Defines the possible migration status values.|
 |[Minute](minute.md)|Defines the possible minute values for ad extension scheduling or day and time criterion.|
@@ -106,7 +106,7 @@ The Campaign Management service defines the following value sets.
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|
 |[ValueOperator](valueoperator.md)|Defines the operators that can be applied to values within a conversion event goal.|
-|[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|Defines a value set for VanityPharmaDisplayUrlMode.|
-|[VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md)|Defines a value set for VanityPharmaWebsiteDescription.|
+|[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|Reserved.|
+|[VanityPharmaWebsiteDescription](vanitypharmawebsitedescription.md)|Reserved.|
 |[WebpageConditionOperand](webpageconditionoperand.md)|Defines the possible operand values that can be applied to the argument of a webpage condition for dynamic search ads.|
 |[WebpageConditionOperator](webpageconditionoperator.md)|Defines the possible operator values that can be applied to the argument of a webpage condition for dynamic search ads.|
