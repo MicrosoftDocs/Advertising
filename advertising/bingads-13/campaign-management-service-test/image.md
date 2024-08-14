@@ -69,7 +69,7 @@ All supported sub type values with corresponding dimension and aspect ratio rest
 
 |Sub Type|Aspect Ratio|Minimum Dimension|
 |--------|----------------|---------------------|---------------------|
-|GenericImage|Varies|40 width x 40 height, in pixels|
+|GenericImage|Varies|40 width x 20 height, in pixels|
 |Image16x9|16:9|640 width x 360 height, in pixels|
 |Image15x10|1.5:1|300 width x 200 height, in pixels|
 |Image4x3|4:3|100 width x 75 height, in pixels|

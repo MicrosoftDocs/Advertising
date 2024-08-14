@@ -33,7 +33,7 @@ The [AdAdditionalField](adadditionalfield.md) value set has the following values
 
 |Value|Description|
 |-----------|---------------|
-|<a name="adsubtype"></a>AdSubType|Reserved.|
+|<a name="adsubtype"></a>AdSubType|Defines the possible ad sub types.|
 |<a name="imagetargetdimension"></a>ImageTargetDimension|The target dimension of an image asset.|
 |<a name="impressiontrackingurls"></a>ImpressionTrackingUrls|Request that the [ImpressionTrackingUrls](responsivead.md#impressiontrackingurls) element be included within each returned [ResponsiveAd](responsivead.md) object.|
 |<a name="longheadlines"></a>LongHeadlines|Request that the [LongHeadlines](responsivead.md#longheadlines) element be included within each returned [ResponsiveAd](responsivead.md) object.|

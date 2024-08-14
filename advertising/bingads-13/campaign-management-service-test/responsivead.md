@@ -252,7 +252,7 @@ The [ResponsiveAd](responsivead.md) object has the following elements: [AdSubTyp
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adsubtype"></a>AdSubType|Reserved.|[AdSubType](adsubtype.md)|
+|<a name="adsubtype"></a>AdSubType|The possible ad sub types.|[AdSubType](adsubtype.md)|
 |<a name="businessname"></a>BusinessName|The name of the business.<br/><br/>Your business's name may appear in your ad, depending on the ad placement.<br/><br/>The length of the string is limited to 25 characters.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
 |<a name="calltoaction"></a>CallToAction|A brief, punchy reason for customers to click your ad right now.<br/><br/>This is displayed on your call to action button.<br/><br/>**Add:** Not applicable for audience ads; Required for multimedia ads<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[CallToAction](calltoaction.md)|
 |<a name="calltoactionlanguage"></a>CallToActionLanguage|The language that the call to action will be served in.<br/><br/>The call to action will always be served in this language, regardless of the campaign's language settings.<br/><br/>**Add:** Not applicable for audience ads; Required for multimedia ads<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[LanguageName](languagename.md)|
@@ -306,7 +306,7 @@ Most supported properties are the same, but here are some of the key differentia
 
 ### Multimedia ad images
 
-For multimedia ads you'll create multiple image assets with different sizes and aspect ratios. You need to add at least 1 image with 1.91:1 aspect ratio and 1 image with 1:1 aspect ratio.
+For multimedia ads you'll create multiple image assets with different sizes and aspect ratios. You need to add at least 1 image with 1.91:1 aspect ratio and 1 image with 1:1 aspect ratio.  
 
 In the [Images](#images) element include one or more [AssetLink](assetlink.md) objects. Each asset link contains an [ImageAsset](imageasset.md) with [SubType](imageasset.md#subtype) set to one of the string values in the table below.
 
@@ -319,12 +319,14 @@ In the [Images](#images) element include one or more [AssetLink](assetlink.md) o
 
 ### Multimedia ad logos
 
-For multimedia ads you'll create multiple logo assets with different sizes, aspect ratios, and crop settings so they can flexibly displayed in the thumbnail list.
+For multimedia ads you'll create multiple logo assets with different sizes, aspect ratios, and crop settings so they can flexibly displayed in the thumbnail list.  
+
+The sub type must be set to "Logo" if the image is associated with an ad as a "LandscapeLogoMedia" or "SquareLogoMedia".  
 
 |Sub Type|Aspect ratio|Minimum dimensions in pixels|
 |--------|--------|--------|
-SquareImageMedia|1:1|128 width x 128 height
-ImageMedia4x1|4:1|512 width x 128 height
+|LandscapeLogoMedia|4:1|512 width x 128 height|
+|SquareLogoMedia|1:1|128 width x 128 height|
 
 ### Audience ad images
 
