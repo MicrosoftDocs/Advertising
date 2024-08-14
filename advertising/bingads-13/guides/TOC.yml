@@ -3915,7 +3915,7 @@
           href: ../bulk-service-test/downloadfiletype.md
         - name: ResponseMode
           href: ../bulk-service-test/responsemode.md
-    - name: Reporting REST API
+    - name: Reporting REST API (test)
       items: 
       - name: Reporting Service Operations
         items: 
