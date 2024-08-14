@@ -3861,3 +3861,379 @@
     - name: WebpageConditionOperand
       href: ../campaign-management-service-test/webpageconditionoperand.md
 
+- name: Bulk Rest API
+  items: 
+  - name: Bulk Service Operations
+    items: 
+    - name: Overview
+      href: ../bulk-service-test/bulk-service-operations.md
+      displayName: bulk service operations
+    - name: DownloadCampaignsByAccountIds
+      href: ../bulk-service-test/downloadcampaignsbyaccountids.md
+    - name: DownloadCampaignsByCampaignIds
+      href: ../bulk-service-test/downloadcampaignsbycampaignids.md
+    - name: GetBulkDownloadStatus
+      href: ../bulk-service-test/getbulkdownloadstatus.md
+    - name: GetBulkUploadStatus
+      href: ../bulk-service-test/getbulkuploadstatus.md
+    - name: GetBulkUploadUrl
+      href: ../bulk-service-test/getbulkuploadurl.md
+  - name: Bulk Data Objects
+    items: 
+    - name: Overview
+      href: ../bulk-service-test/bulk-data-objects.md
+      displayName: bulk data objects
+    - name: AdApiError
+      href: ../bulk-service-test/adapierror.md
+    - name: AdApiFaultDetail
+      href: ../bulk-service-test/adapifaultdetail.md
+    - name: ApiFaultDetail
+      href: ../bulk-service-test/apifaultdetail.md
+    - name: ApplicationFault
+      href: ../bulk-service-test/applicationfault.md
+    - name: BatchError
+      href: ../bulk-service-test/batcherror.md
+    - name: CampaignScope
+      href: ../bulk-service-test/campaignscope.md
+    - name: EditorialError
+      href: ../bulk-service-test/editorialerror.md
+    - name: KeyValuePairOfstringstring
+      href: ../bulk-service-test/keyvaluepairofstringstring.md
+    - name: OperationError
+      href: ../bulk-service-test/operationerror.md
+  - name: Bulk Value Sets
+    items: 
+    - name: Overview
+      href: ../bulk-service-test/bulk-value-sets.md
+      displayName: bulk value sets
+    - name: CompressionType
+      href: ../bulk-service-test/compressiontype.md
+    - name: DataScope
+      href: ../bulk-service-test/datascope.md
+    - name: DownloadFileType
+      href: ../bulk-service-test/downloadfiletype.md
+    - name: ResponseMode
+      href: ../bulk-service-test/responsemode.md
+- name: Reporting Rest API
+  items: 
+  - name: Reporting Service Operations
+    items: 
+    - name: Overview
+      href: ../reporting-service-test/reporting-service-operations.md   
+      displayName: reporting service operations
+    - name: PollGenerateReport
+      href: ../reporting-service-test/pollgeneratereport.md
+    - name: SubmitGenerateReport
+      href: ../reporting-service-test/submitgeneratereport.md
+  - name: Reporting Data Objects
+    items: 
+    - name: Overview
+      href: ../reporting-service-test/reporting-data-objects.md   
+      displayName: reporting data objects
+    - name: AccountPerformanceReportFilter
+      href: ../reporting-service-test/accountperformancereportfilter.md
+    - name: AccountPerformanceReportRequest
+      href: ../reporting-service-test/accountperformancereportrequest.md
+    - name: AccountReportScope
+      href: ../reporting-service-test/accountreportscope.md
+    - name: AccountThroughAdGroupReportScope
+      href: ../reporting-service-test/accountthroughadgroupreportscope.md
+    - name: AccountThroughAssetGroupReportScope
+      href: ../reporting-service-test/accountthroughassetgroupreportscope.md
+    - name: AccountThroughCampaignReportScope
+      href: ../reporting-service-test/accountthroughcampaignreportscope.md
+    - name: AdApiError
+      href: ../reporting-service-test/adapierror.md
+    - name: AdApiFaultDetail
+      href: ../reporting-service-test/adapifaultdetail.md
+    - name: AdDynamicTextPerformanceReportFilter
+      href: ../reporting-service-test/addynamictextperformancereportfilter.md
+    - name: AdDynamicTextPerformanceReportRequest
+      href: ../reporting-service-test/addynamictextperformancereportrequest.md
+    - name: AdExtensionByAdReportFilter
+      href: ../reporting-service-test/adextensionbyadreportfilter.md
+    - name: AdExtensionByAdReportRequest
+      href: ../reporting-service-test/adextensionbyadreportrequest.md
+    - name: AdExtensionByKeywordReportFilter
+      href: ../reporting-service-test/adextensionbykeywordreportfilter.md
+    - name: AdExtensionByKeywordReportRequest
+      href: ../reporting-service-test/adextensionbykeywordreportrequest.md
+    - name: AdExtensionDetailReportFilter
+      href: ../reporting-service-test/adextensiondetailreportfilter.md
+    - name: AdExtensionDetailReportRequest
+      href: ../reporting-service-test/adextensiondetailreportrequest.md
+    - name: AdGroupPerformanceReportFilter
+      href: ../reporting-service-test/adgroupperformancereportfilter.md
+    - name: AdGroupPerformanceReportRequest
+      href: ../reporting-service-test/adgroupperformancereportrequest.md
+    - name: AdGroupReportScope
+      href: ../reporting-service-test/adgroupreportscope.md
+    - name: AdPerformanceReportFilter
+      href: ../reporting-service-test/adperformancereportfilter.md
+    - name: AdPerformanceReportRequest
+      href: ../reporting-service-test/adperformancereportrequest.md
+    - name: AgeGenderAudienceReportFilter
+      href: ../reporting-service-test/agegenderaudiencereportfilter.md
+    - name: AgeGenderAudienceReportRequest
+      href: ../reporting-service-test/agegenderaudiencereportrequest.md
+    - name: ApiFaultDetail
+      href: ../reporting-service-test/apifaultdetail.md
+    - name: ApplicationFault
+      href: ../reporting-service-test/applicationfault.md
+    - name: AssetGroupPerformanceReportFilter
+      href: ../reporting-service-test/assetgroupperformancereportfilter.md
+    - name: AssetGroupPerformanceReportRequest
+      href: ../reporting-service-test/assetgroupperformancereportrequest.md
+    - name: AssetGroupReportScope
+      href: ../reporting-service-test/assetgroupreportscope.md
+    - name: AssetPerformanceReportRequest
+      href: ../reporting-service-test/assetperformancereportrequest.md
+    - name: AudiencePerformanceReportFilter
+      href: ../reporting-service-test/audienceperformancereportfilter.md
+    - name: AudiencePerformanceReportRequest
+      href: ../reporting-service-test/audienceperformancereportrequest.md
+    - name: BatchError
+      href: ../reporting-service-test/batcherror.md
+    - name: BudgetSummaryReportRequest
+      href: ../reporting-service-test/budgetsummaryreportrequest.md
+    - name: CallDetailReportFilter
+      href: ../reporting-service-test/calldetailreportfilter.md
+    - name: CallDetailReportRequest
+      href: ../reporting-service-test/calldetailreportrequest.md
+    - name: CampaignPerformanceReportFilter
+      href: ../reporting-service-test/campaignperformancereportfilter.md
+    - name: CampaignPerformanceReportRequest
+      href: ../reporting-service-test/campaignperformancereportrequest.md
+    - name: CampaignReportScope
+      href: ../reporting-service-test/campaignreportscope.md
+    - name: ConversionPerformanceReportFilter
+      href: ../reporting-service-test/conversionperformancereportfilter.md
+    - name: ConversionPerformanceReportRequest
+      href: ../reporting-service-test/conversionperformancereportrequest.md
+    - name: Date
+      href: ../reporting-service-test/date.md
+    - name: DestinationUrlPerformanceReportFilter
+      href: ../reporting-service-test/destinationurlperformancereportfilter.md
+    - name: DestinationUrlPerformanceReportRequest
+      href: ../reporting-service-test/destinationurlperformancereportrequest.md
+    - name: DSAAutoTargetPerformanceReportFilter
+      href: ../reporting-service-test/dsaautotargetperformancereportfilter.md
+    - name: DSAAutoTargetPerformanceReportRequest
+      href: ../reporting-service-test/dsaautotargetperformancereportrequest.md
+    - name: DSACategoryPerformanceReportFilter
+      href: ../reporting-service-test/dsacategoryperformancereportfilter.md
+    - name: DSACategoryPerformanceReportRequest
+      href: ../reporting-service-test/dsacategoryperformancereportrequest.md
+    - name: DSASearchQueryPerformanceReportFilter
+      href: ../reporting-service-test/dsasearchqueryperformancereportfilter.md
+    - name: DSASearchQueryPerformanceReportRequest
+      href: ../reporting-service-test/dsasearchqueryperformancereportrequest.md
+    - name: GeographicPerformanceReportFilter
+      href: ../reporting-service-test/geographicperformancereportfilter.md
+    - name: GeographicPerformanceReportRequest
+      href: ../reporting-service-test/geographicperformancereportrequest.md
+    - name: GoalsAndFunnelsReportFilter
+      href: ../reporting-service-test/goalsandfunnelsreportfilter.md
+    - name: GoalsAndFunnelsReportRequest
+      href: ../reporting-service-test/goalsandfunnelsreportrequest.md
+    - name: HotelDimensionPerformanceReportFilter 
+      href: ../reporting-service-test/hoteldimensionperformancereportfilter.md
+    - name: HotelDimensionPerformanceReportRequest 
+      href: ../reporting-service-test/hoteldimensionperformancereportrequest.md
+    - name: HotelGroupPerformanceReportFilter 
+      href: ../reporting-service-test/hotelgroupperformancereportfilter.md
+    - name: HotelGroupPerformanceReportRequest
+      href: ../reporting-service-test/hotelgroupperformancereportrequest.md
+    - name: KeywordPerformanceReportFilter
+      href: ../reporting-service-test/keywordperformancereportfilter.md
+    - name: KeywordPerformanceReportRequest
+      href: ../reporting-service-test/keywordperformancereportrequest.md
+    - name: KeywordPerformanceReportSort
+      href: ../reporting-service-test/keywordperformancereportsort.md
+    - name: NegativeKeywordConflictReportFilter
+      href: ../reporting-service-test/negativekeywordconflictreportfilter.md
+    - name: NegativeKeywordConflictReportRequest
+      href: ../reporting-service-test/negativekeywordconflictreportrequest.md
+    - name: OperationError
+      href: ../reporting-service-test/operationerror.md
+    - name: ProductDimensionPerformanceReportFilter
+      href: ../reporting-service-test/productdimensionperformancereportfilter.md
+    - name: ProductDimensionPerformanceReportRequest
+      href: ../reporting-service-test/productdimensionperformancereportrequest.md
+    - name: ProductMatchCountReportRequest
+      href: ../reporting-service-test/productmatchcountreportrequest.md
+    - name: ProductNegativeKeywordConflictReportFilter
+      href: ../reporting-service-test/productnegativekeywordconflictreportfilter.md
+    - name: ProductNegativeKeywordConflictReportRequest
+      href: ../reporting-service-test/productnegativekeywordconflictreportrequest.md
+    - name: ProductPartitionPerformanceReportFilter
+      href: ../reporting-service-test/productpartitionperformancereportfilter.md
+    - name: ProductPartitionPerformanceReportRequest
+      href: ../reporting-service-test/productpartitionperformancereportrequest.md
+    - name: ProductPartitionUnitPerformanceReportFilter
+      href: ../reporting-service-test/productpartitionunitperformancereportfilter.md
+    - name: ProductPartitionUnitPerformanceReportRequest
+      href: ../reporting-service-test/productpartitionunitperformancereportrequest.md
+    - name: ProductSearchQueryPerformanceReportFilter
+      href: ../reporting-service-test/productsearchqueryperformancereportfilter.md
+    - name: ProductSearchQueryPerformanceReportRequest
+      href: ../reporting-service-test/productsearchqueryperformancereportrequest.md
+    - name: ProfessionalDemographicsAudienceReportFilter
+      href: ../reporting-service-test/professionaldemographicsaudiencereportfilter.md
+    - name: ProfessionalDemographicsAudienceReportRequest
+      href: ../reporting-service-test/professionaldemographicsaudiencereportrequest.md
+    - name: PublisherUsagePerformanceReportFilter
+      href: ../reporting-service-test/publisherusageperformancereportfilter.md
+    - name: PublisherUsagePerformanceReportRequest
+      href: ../reporting-service-test/publisherusageperformancereportrequest.md
+    - name: ReportRequest
+      href: ../reporting-service-test/reportrequest.md
+    - name: ReportRequestStatus
+      href: ../reporting-service-test/reportrequeststatus.md
+    - name: ReportTime
+      href: ../reporting-service-test/reporttime.md
+    - name: SearchCampaignChangeHistoryReportFilter
+      href: ../reporting-service-test/searchcampaignchangehistoryreportfilter.md
+    - name: SearchCampaignChangeHistoryReportRequest
+      href: ../reporting-service-test/searchcampaignchangehistoryreportrequest.md
+    - name: SearchInsightPerformanceReportFilter
+      href: ../reporting-service-test/searchinsightperformancereportfilter.md
+    - name: SearchInsightPerformanceReportRequest
+      href: ../reporting-service-test/searchinsightperformancereportrequest.md
+    - name: SearchQueryPerformanceReportFilter
+      href: ../reporting-service-test/searchqueryperformancereportfilter.md
+    - name: SearchQueryPerformanceReportRequest
+      href: ../reporting-service-test/searchqueryperformancereportrequest.md
+    - name: ShareOfVoiceReportFilter
+      href: ../reporting-service-test/shareofvoicereportfilter.md
+    - name: ShareOfVoiceReportRequest
+      href: ../reporting-service-test/shareofvoicereportrequest.md
+    - name: UserLocationPerformanceReportFilter
+      href: ../reporting-service-test/userlocationperformancereportfilter.md
+    - name: UserLocationPerformanceReportRequest
+      href: ../reporting-service-test/userlocationperformancereportrequest.md
+  - name: Reporting Value Sets
+    items: 
+    - name: Overview
+      href: ../reporting-service-test/reporting-value-sets.md   
+      displayName: reporting value sets
+    - name: AccountPerformanceReportColumn
+      href: ../reporting-service-test/accountperformancereportcolumn.md
+    - name: AccountStatusReportFilter
+      href: ../reporting-service-test/accountstatusreportfilter.md
+    - name: AdDistributionReportFilter
+      href: ../reporting-service-test/addistributionreportfilter.md
+    - name: AdDynamicTextPerformanceReportColumn
+      href: ../reporting-service-test/addynamictextperformancereportcolumn.md
+    - name: AdExtensionByAdReportColumn
+      href: ../reporting-service-test/adextensionbyadreportcolumn.md
+    - name: AdExtensionByKeywordReportColumn
+      href: ../reporting-service-test/adextensionbykeywordreportcolumn.md
+    - name: AdExtensionDetailReportColumn
+      href: ../reporting-service-test/adextensiondetailreportcolumn.md
+    - name: AdGroupPerformanceReportColumn
+      href: ../reporting-service-test/adgroupperformancereportcolumn.md
+    - name: AdGroupStatusReportFilter
+      href: ../reporting-service-test/adgroupstatusreportfilter.md
+    - name: AdPerformanceReportColumn
+      href: ../reporting-service-test/adperformancereportcolumn.md
+    - name: AdStatusReportFilter
+      href: ../reporting-service-test/adstatusreportfilter.md
+    - name: AdTypeReportFilter
+      href: ../reporting-service-test/adtypereportfilter.md
+    - name: AgeGenderAudienceReportColumn
+      href: ../reporting-service-test/agegenderaudiencereportcolumn.md
+    - name: AssetGroupPerformanceReportColumn
+      href: ../reporting-service-test/assetgroupperformancereportcolumn.md
+    - name: AssetPerformanceReportColumn
+      href: ../reporting-service-test/assetperformancereportcolumn.md
+    - name: AudiencePerformanceReportColumn
+      href: ../reporting-service-test/audienceperformancereportcolumn.md
+    - name: BidMatchTypeReportFilter
+      href: ../reporting-service-test/bidmatchtypereportfilter.md
+    - name: BidStrategyTypeReportFilter
+      href: ../reporting-service-test/bidstrategytypereportfilter.md
+    - name: BudgetSummaryReportColumn
+      href: ../reporting-service-test/budgetsummaryreportcolumn.md
+    - name: CallDetailReportColumn
+      href: ../reporting-service-test/calldetailreportcolumn.md
+    - name: CampaignPerformanceReportColumn
+      href: ../reporting-service-test/campaignperformancereportcolumn.md
+    - name: CampaignStatusReportFilter
+      href: ../reporting-service-test/campaignstatusreportfilter.md
+    - name: ChangeEntityReportFilter
+      href: ../reporting-service-test/changeentityreportfilter.md
+    - name: ChangeTypeReportFilter
+      href: ../reporting-service-test/changetypereportfilter.md
+    - name: ConversionPerformanceReportColumn
+      href: ../reporting-service-test/conversionperformancereportcolumn.md
+    - name: DeliveredMatchTypeReportFilter
+      href: ../reporting-service-test/deliveredmatchtypereportfilter.md
+    - name: DestinationUrlPerformanceReportColumn
+      href: ../reporting-service-test/destinationurlperformancereportcolumn.md
+    - name: DeviceOSReportFilter
+      href: ../reporting-service-test/deviceosreportfilter.md
+    - name: DeviceTypeReportFilter
+      href: ../reporting-service-test/devicetypereportfilter.md
+    - name: DSAAutoTargetPerformanceReportColumn
+      href: ../reporting-service-test/dsaautotargetperformancereportcolumn.md
+    - name: DSACategoryPerformanceReportColumn
+      href: ../reporting-service-test/dsacategoryperformancereportcolumn.md
+    - name: DSASearchQueryPerformanceReportColumn
+      href: ../reporting-service-test/dsasearchqueryperformancereportcolumn.md
+    - name: DynamicAdTargetStatusReportFilter
+      href: ../reporting-service-test/dynamicadtargetstatusreportfilter.md
+    - name: GeographicPerformanceReportColumn
+      href: ../reporting-service-test/geographicperformancereportcolumn.md
+    - name: GoalsAndFunnelsReportColumn
+      href: ../reporting-service-test/goalsandfunnelsreportcolumn.md
+    - name: HotelDimensionPerformanceReportColumn 
+      href: ../reporting-service-test/hoteldimensionperformancereportcolumn.md
+    - name: HotelGroupPerformanceReportColumn 
+      href: ../reporting-service-test/hotelgroupperformancereportcolumn.md
+    - name: KeywordPerformanceReportColumn
+      href: ../reporting-service-test/keywordperformancereportcolumn.md
+    - name: KeywordStatusReportFilter
+      href: ../reporting-service-test/keywordstatusreportfilter.md
+    - name: LanguageReportFilter
+      href: ../reporting-service-test/languagereportfilter.md
+    - name: NegativeKeywordConflictReportColumn
+      href: ../reporting-service-test/negativekeywordconflictreportcolumn.md
+    - name: ProductDimensionPerformanceReportColumn
+      href: ../reporting-service-test/productdimensionperformancereportcolumn.md
+    - name: ProductMatchCountReportColumn
+      href: ../reporting-service-test/productmatchcountreportcolumn.md
+    - name: ProductNegativeKeywordConflictReportColumn
+      href: ../reporting-service-test/productnegativekeywordconflictreportcolumn.md
+    - name: ProductPartitionPerformanceReportColumn
+      href: ../reporting-service-test/productpartitionperformancereportcolumn.md
+    - name: ProductPartitionUnitPerformanceReportColumn
+      href: ../reporting-service-test/productpartitionunitperformancereportcolumn.md
+    - name: ProductSearchQueryPerformanceReportColumn
+      href: ../reporting-service-test/productsearchqueryperformancereportcolumn.md
+    - name: ProfessionalDemographicsAudienceReportColumn
+      href: ../reporting-service-test/professionaldemographicsaudiencereportcolumn.md
+    - name: PublisherUsagePerformanceReportColumn
+      href: ../reporting-service-test/publisherusageperformancereportcolumn.md
+    - name: ReportAggregation
+      href: ../reporting-service-test/reportaggregation.md
+    - name: ReportFormat
+      href: ../reporting-service-test/reportformat.md
+    - name: ReportRequestStatusType
+      href: ../reporting-service-test/reportrequeststatustype.md
+    - name: ReportTimePeriod
+      href: ../reporting-service-test/reporttimeperiod.md
+    - name: ReportTimeZone
+      href: ../reporting-service-test/reporttimezone.md
+    - name: SearchCampaignChangeHistoryReportColumn
+      href: ../reporting-service-test/searchcampaignchangehistoryreportcolumn.md
+    - name: SearchInsightPerformanceReportColumn
+      href: ../reporting-service-test/searchinsightperformancereportcolumn.md
+    - name: SearchQueryPerformanceReportColumn
+      href: ../reporting-service-test/searchqueryperformancereportcolumn.md
+    - name: ShareOfVoiceReportColumn
+      href: ../reporting-service-test/shareofvoicereportcolumn.md
+    - name: SortOrder
+      href: ../reporting-service-test/sortorder.md
+    - name: UserLocationPerformanceReportColumn
+      href: ../reporting-service-test/userlocationperformancereportcolumn.md
