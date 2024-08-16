@@ -111,7 +111,7 @@ With the MaxConversions bid strategy, you don't need to set ad group or keyword 
 
 Microsoft Advertising will always respect your overall budget limit, but if you want greater control over your bids while using Maximize Conversions, you can also set a maximum CPC (cost per click). This is an optional limit you can set to make sure that Microsoft Advertising never pays more than a certain amount for each individual click.
 
-You need to have conversion tracking (a UET tag and a conversion goal) set up (offline conversions are supported too) in order to use the Maximize Conversions bid strategy. If your campaign falls below 15 conversions over any 30-day period, Maximize Conversions will stop optimizing your bids. If this happens with regularity, we recommend switching to a different bid strategy.
+You need to have conversion tracking (a UET tag and a conversion goal) set up (offline conversions are supported too) in order to use the Maximize Conversions bid strategy. If your campaign falls below 30 conversions over any 30-day period, Maximize Conversions will stop optimizing your bids. If this happens with regularity, we recommend switching to a different bid strategy.
 
 ### <a name="maxconversionvalue"></a>MaxConversionValue
 [Smart shopping campaigns](smart-shopping-campaigns.md) use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.
@@ -127,14 +127,14 @@ With the TargetCpa (cost per acquisition) bid strategy, you don't need to set ad
 
 Microsoft Advertising will always respect your overall budget limit, but if you want greater control over your bids while using Target CPA, you can also set a maximum CPC (cost per click). This is an optional limit you can set to make sure that Microsoft Advertising never pays more than a certain amount for each individual click.
 
-You need to have conversion tracking (a UET tag and a conversion goal) set up (offline conversions are supported too) in order to use the Target CPA bid strategy. If your campaign falls below 15 conversions over any 30-day period, Target CPA will stop optimizing your bids. If this happens with regularity, we recommend switching to a different bid strategy.
+You need to have conversion tracking (a UET tag and a conversion goal) set up (offline conversions are supported too) in order to use the Target CPA bid strategy. If your campaign falls below 30 conversions over any 30-day period, Target CPA will stop optimizing your bids. If this happens with regularity, we recommend switching to a different bid strategy.
 
 ### <a name="targetroas"></a>TargetRoas
 With the TargetRoas (return on ad spend) bid strategy, you don't need to set ad group or keyword bids. You set your budget and your target 30-day average ROAS, and Microsoft Advertising automatically sets your bids in real time to get you to this average. Some conversions may cost more than your target and some may cost less, but Microsoft Advertising will try to make sure your return on ad spend is in line with your target.
 
 Microsoft Advertising will always respect your overall budget limit, but if you want greater control over your bids while using Target ROAS, you can also set a maximum CPC (cost per click). This is an optional limit you can set to make sure that Microsoft Advertising never pays more than a certain amount for each individual click.
 
-You need to have conversion tracking (a UET tag and a conversion goal) set up (offline conversions are supported too) in order to use the Target ROAS bid strategy. Also you must be tracking revenue and have non-zero revenue over the last 30 days. If your campaign falls below 15 conversions or has zero revenue over any 30-day period, Target ROAS will stop optimizing your bids. If this happens with regularity, we recommend switching to a different bid strategy.
+You need to have conversion tracking (a UET tag and a conversion goal) set up (offline conversions are supported too) in order to use the Target ROAS bid strategy. Also you must be tracking revenue and have non-zero revenue over the last 30 days. If your campaign falls below 30 conversions or has zero revenue over any 30-day period, Target ROAS will stop optimizing your bids. If this happens with regularity, we recommend switching to a different bid strategy.
 
 ## <a name="keywordmatchtypes"></a>Keyword Match Types
 Match type bids help Microsoft Advertising determine how closely you want a search term or other input to match your keyword. The keyword that you bid on is compared to the user's search term in the order of *Exact*, *Phrase*, and then *Broad*.
