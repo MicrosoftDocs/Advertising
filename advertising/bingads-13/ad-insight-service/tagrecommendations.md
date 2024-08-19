@@ -27,7 +27,7 @@ The *TagRecommendationsRequest* object defines the [body](#request-body) and [he
 |-----------|---------------|-------------|
 |<a name="lable"></a>Lable|The value must be set to either *applied* or *dismissed* |**string**|
 |<a name="recommendationsinfo"></a>RecommendationsInfo|The information for an individual recommendation.<br/><br/>Duplicate *RecommendationInfo* (*RecommendationId*) will be returned as *DuplicateRecommendationInfo* error.<br><br>You may specify a maximum of 100 input elements.  |[RecommendationInfo](recommendationinfo.md) array|
-|<a name="recommendationtype"></a>RecommendationType|The identifier of the recommendation type that you have applied. Currently only *ResponsiveSearchAdsOpportunity* is supported.<br/><br/>This element cannot be nil or empty. One specific recommendation type per request, e.g., *ResponsiveSearchAdsOpportunity*. |**string**|
+|<a name="recommendationtype"></a>RecommendationType|The identifier of the recommendation type that you have applied.<br/><br/>This element cannot be nil or empty. One specific recommendation type per request, e.g., *ResponsiveSearchAdsOpportunity*. |**string**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
