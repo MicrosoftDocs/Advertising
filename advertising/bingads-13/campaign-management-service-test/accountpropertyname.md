@@ -13,7 +13,7 @@ Defines the name of account level properties.
 <a name="segment-info"></a>These are the segments that advertisers can block. Pass the segment ID as *BlockedContentSegments*:
 
 |Segments advertisers can block |Segment ID |Description |
-|------|----|----------|
+|-------------------------------|-----------|----------------------------|
 |Politics|1500902|Exclude all content relating to politics as rated by the IAS semantic intelligence engine.|
 |Sensitive Social Issues|1500692|Exclude content relating to negative news or sentiment around disasters such as hurricanes, tropical storms, and the aftermath of such catastrophes such as structural collapses and transit disasters as rated by the IAS semantic intelligence engine.|
 |Kids Content|1510878|Exclude content relating to topics for and about kids, including pages targeted at kids (e.g., movies and TV shows for kids, children’s books and songs, toys) and pages targeted at their parents (e.g., forums and blogs about parenting, traveling with kids, activities to do with kids, children’s health) as rated by the IAS semantic intelligence engine.|
