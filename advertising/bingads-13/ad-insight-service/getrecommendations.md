@@ -27,7 +27,7 @@ The *GetRecommendationsRequest* object defines the [body](#request-body) and [he
 |-----------|---------------|-------------|
 |<a name="adgroupid"></a>AdGroupId|The identifier of the ad group for which you want to determine responsive search ads opportunities.<br/><br/>If this element is nil or empty, the operation will return all opportunities of certain recommendation type for the specified campaign. |**long**|
 |<a name="campaignid"></a>CampaignId|The identifier of the campaign that owns the ad group specified in the *AdGroupId* element.<br/><br/>If this element is nil or empty, then the *AdGroupId* must also be nil or empty, and the operation will return all opportunities of a certain recommendation type for the account.  |**long**|
-|<a name="recommendationtype"></a>RecommendationType|The identifier of the recommendation type that you want to get. Currently only *ResponsiveSearchAdsOpportunity* is supported.<br/><br/>This element can't be nil or empty. One recommendation type per request, e.g., *ResponsiveSearchAdsOpportunity*. |**string**|
+|<a name="recommendationtype"></a>RecommendationType|The identifier of the recommendation type that you want to get.<br/><br/>This element can't be nil or empty. One recommendation type per request, e.g., *ResponsiveSearchAdsOpportunity*. |**string**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
