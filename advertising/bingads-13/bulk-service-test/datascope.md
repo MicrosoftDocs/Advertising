@@ -33,7 +33,7 @@ The [DataScope](datascope.md) value set has the following values: [BidSuggestion
 |-----------|---------------|
 |<a name="bidsuggestionsdata"></a>BidSuggestionsData|Download the keyword bid suggestion records.|
 |<a name="entitydata"></a>EntityData|Download entity records e.g., campaigns and ad groups.|
-|<a name="qualityscoredata"></a>QualityScoreData|Download the quality score fields i.e., Quality Score, Keyword Relevance, Landing Page Relevance, and Landing Page User Experience in the [Ad Group](ad-group.md), [Campaign](campaign.md), and [Keyword](keyword.md) records.|
+|<a name="qualityscoredata"></a>QualityScoreData|Download the quality score fields i.e., Quality Score, Keyword Relevance, Landing Page Relevance, and Landing Page User Experience in the Ad Group, Campaign, and Keyword records.|
 
 ## Requirements
 Service: [BulkService.svc v13](https://bulk.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/BulkService.svc)  
