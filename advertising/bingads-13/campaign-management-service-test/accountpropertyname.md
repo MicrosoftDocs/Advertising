@@ -10,9 +10,7 @@ description: Defines the name of account level properties.(test)
 # AccountPropertyName Value Set Test - Campaign Management
 Defines the name of account level properties.
 
-<a name="segment-info"></a>**Segment information for *BlockedContentSegments***
-
-These are the segments that advertisers can block:
+<a name="segment-info"></a>These are the segments that advertisers can block. Pass the segment ID as *BlockedContentSegments*:
 
 |Segments advertisers can block |Segment ID |Description |
 |------|----|----------|
@@ -144,7 +142,7 @@ The [AccountPropertyName](accountpropertyname.md) value set has the following va
 |<a name="allowimageautoretrieve"></a>AllowImageAutoRetrieve|Used to get or set the property that determines whether Microsoft Advertising is allowed to use images from your domain to enhance your ads on the Microsoft Audience Network.<br/><br/>For more information see [AllowImageAutoRetrieve](accountproperty.md#allowimageautoretrieve).|
 |<a name="autoapplyrecommendations"></a>AutoApplyRecommendations|Used to get or set the property that determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.<br/><br/> AutoApplyRecommendations in Campaign Management API is deprecated as of November 30, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. <br/><br/>For more information see [AutoApplyRecommendations](accountproperty.md#autoapplyrecommendations).|
 |<a name="autobiddingviewthroughconversionsvalueattributionweight"></a>AutoBiddingViewThroughConversionsValueAttributionWeight|Reserved.|
-|<a name="blockedcontentsegments"></a>BlockedContentSegments|The segments that advertisers can block. [See the table above](#segment-info) for segment information and IDs.|
+|<a name="blockedcontentsegments"></a>BlockedContentSegments|The segments that advertisers can block. Pass the segment ID. [See the table above](#segment-info) for segment information and IDs.|
 |<a name="businessattributes"></a>BusinessAttributes|Used to get or set the property that determines the account's business attributes meant to help you boost ad performance.<br/><br/>For more information see [BusinessAttributes](accountproperty.md#businessattributes).|
 |<a name="enablemmaunderdsaadgroups"></a>EnableMMAUnderDSAAdgroups|Reserved.|
 |<a name="finalurlsuffix"></a>FinalUrlSuffix|Used to get or set the account's Final URL Suffix.<br/><br/>For more information see [FinalUrlSuffix](accountproperty.md#finalurlsuffix).|
