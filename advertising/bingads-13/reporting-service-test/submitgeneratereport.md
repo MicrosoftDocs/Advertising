@@ -1895,14 +1895,14 @@ Below is an example that is applicable if the type of [ReportRequest](reportrequ
     },
     "Time": {
       "CustomDateRangeEnd": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "CustomDateRangeStart": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "PredefinedTime": "ValueHere",
       "ReportTimeZone": "ValueHere"

@@ -61,27 +61,27 @@ You can associate a promotion ad extension with the account or with campaigns an
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "ValueHere",
+        "EndHour": NumbericValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "ValueHere",
+        "StartHour": NumbericValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "StartDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "PromotionAdExtension",
-  "Version": "ValueHere",
+  "Version": NumbericValueHere,
   "CurrencyCode": "ValueHere",
   "DiscountModifier": "ValueHere",
   "FinalAppUrls": [
@@ -98,21 +98,21 @@ You can associate a promotion ad extension with the account or with campaigns an
   ],
   "FinalUrlSuffix": "ValueHere",
   "Language": "ValueHere",
-  "MoneyAmountOff": "ValueHere",
-  "OrdersOverAmount": "ValueHere",
-  "PercentOff": "ValueHere",
+  "MoneyAmountOff": NumbericValueHere,
+  "OrdersOverAmount": NumbericValueHere,
+  "PercentOff": NumbericValueHere,
   "PromotionCode": "ValueHere",
   "PromotionEndDate": {
-    "Day": "ValueHere",
-    "Month": "ValueHere",
-    "Year": "ValueHere"
+    "Day": NumbericValueHere,
+    "Month": NumbericValueHere,
+    "Year": NumbericValueHere
   },
   "PromotionItem": "ValueHere",
   "PromotionOccasion": "ValueHere",
   "PromotionStartDate": {
-    "Day": "ValueHere",
-    "Month": "ValueHere",
-    "Year": "ValueHere"
+    "Day": NumbericValueHere,
+    "Month": NumbericValueHere,
+    "Year": NumbericValueHere
   },
   "TrackingUrlTemplate": "ValueHere",
   "UrlCustomParameters": {

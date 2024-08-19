@@ -61,7 +61,7 @@ You cannot create or edit the similar audience for a remarketing list. Having sa
     }
   ],
   "Id": "ValueHere",
-  "MembershipDuration": "ValueHere",
+  "MembershipDuration": NumbericValueHere,
   "Name": "ValueHere",
   "ParentId": "ValueHere",
   "Scope": "ValueHere",

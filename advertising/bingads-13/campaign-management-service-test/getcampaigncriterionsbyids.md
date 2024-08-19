@@ -393,17 +393,17 @@ Below is an example that is applicable if the type of [CampaignCriterion](campai
       "Type": "BiddableCampaignCriterion",
       "CriterionBid": {
         "Type": "BidMultiplier",
-        "Multiplier": "ValueHere"
+        "Multiplier": NumbericValueHere
       },
       "CriterionCashback": {
         "Type": "CashbackAdjustment",
-        "CashbackPercent": "ValueHere"
+        "CashbackPercent": NumbericValueHere
       }
     }
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -413,14 +413,14 @@ Below is an example that is applicable if the type of [CampaignCriterion](campai
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

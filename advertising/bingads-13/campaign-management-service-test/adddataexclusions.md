@@ -265,7 +265,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -275,14 +275,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

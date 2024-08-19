@@ -61,13 +61,13 @@ Defines an asset group in an advertising campaign.
         "Id": "ValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": "ValueHere",
-        "CropWidth": "ValueHere",
-        "CropX": "ValueHere",
-        "CropY": "ValueHere",
+        "CropHeight": NumbericValueHere,
+        "CropWidth": NumbericValueHere,
+        "CropX": NumbericValueHere,
+        "CropY": NumbericValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": "ValueHere",
-        "TargetWidth": "ValueHere"
+        "TargetHeight": NumbericValueHere,
+        "TargetWidth": NumbericValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -76,9 +76,9 @@ Defines an asset group in an advertising campaign.
   ],
   "EditorialStatus": "ValueHere",
   "EndDate": {
-    "Day": "ValueHere",
-    "Month": "ValueHere",
-    "Year": "ValueHere"
+    "Day": NumbericValueHere,
+    "Month": NumbericValueHere,
+    "Year": NumbericValueHere
   },
   "FinalMobileUrls": [
     "ValueHere"
@@ -98,13 +98,13 @@ Defines an asset group in an advertising campaign.
         "Id": "ValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": "ValueHere",
-        "CropWidth": "ValueHere",
-        "CropX": "ValueHere",
-        "CropY": "ValueHere",
+        "CropHeight": NumbericValueHere,
+        "CropWidth": NumbericValueHere,
+        "CropX": NumbericValueHere,
+        "CropY": NumbericValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": "ValueHere",
-        "TargetWidth": "ValueHere"
+        "TargetHeight": NumbericValueHere,
+        "TargetWidth": NumbericValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -118,13 +118,13 @@ Defines an asset group in an advertising campaign.
         "Id": "ValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": "ValueHere",
-        "CropWidth": "ValueHere",
-        "CropX": "ValueHere",
-        "CropY": "ValueHere",
+        "CropHeight": NumbericValueHere,
+        "CropWidth": NumbericValueHere,
+        "CropX": NumbericValueHere,
+        "CropY": NumbericValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": "ValueHere",
-        "TargetWidth": "ValueHere"
+        "TargetHeight": NumbericValueHere,
+        "TargetWidth": NumbericValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -137,13 +137,13 @@ Defines an asset group in an advertising campaign.
         "Id": "ValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": "ValueHere",
-        "CropWidth": "ValueHere",
-        "CropX": "ValueHere",
-        "CropY": "ValueHere",
+        "CropHeight": NumbericValueHere,
+        "CropWidth": NumbericValueHere,
+        "CropX": NumbericValueHere,
+        "CropY": NumbericValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": "ValueHere",
-        "TargetWidth": "ValueHere"
+        "TargetHeight": NumbericValueHere,
+        "TargetWidth": NumbericValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -154,9 +154,9 @@ Defines an asset group in an advertising campaign.
   "Path1": "ValueHere",
   "Path2": "ValueHere",
   "StartDate": {
-    "Day": "ValueHere",
-    "Month": "ValueHere",
-    "Year": "ValueHere"
+    "Day": NumbericValueHere,
+    "Month": NumbericValueHere,
+    "Year": NumbericValueHere
   },
   "Status": "ValueHere"
 }

@@ -258,8 +258,8 @@ Below is an example that is applicable if the type of [MediaRepresentation](medi
           "Name": "ValueHere",
           "Type": "ImageMediaRepresentation",
           "Url": "ValueHere",
-          "Height": "ValueHere",
-          "Width": "ValueHere"
+          "Height": NumbericValueHere,
+          "Width": NumbericValueHere
         }
       ],
       "Text": "ValueHere",
@@ -268,7 +268,7 @@ Below is an example that is applicable if the type of [MediaRepresentation](medi
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -278,14 +278,14 @@ Below is an example that is applicable if the type of [MediaRepresentation](medi
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

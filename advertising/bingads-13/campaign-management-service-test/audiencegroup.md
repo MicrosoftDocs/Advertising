@@ -28,7 +28,7 @@ Defines an AudienceGroup data object.
 
 ```json
 {
-  "AssociationCount": "ValueHere",
+  "AssociationCount": NumbericValueHere,
   "Description": "ValueHere",
   "Dimensions": [
     {

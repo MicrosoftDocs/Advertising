@@ -33,7 +33,7 @@ Do not try to instantiate a *SharedList*. You can create one or more of the foll
 
 ```json
 {
-  "AssociationCount": "ValueHere",
+  "AssociationCount": NumbericValueHere,
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
@@ -43,7 +43,7 @@ Do not try to instantiate a *SharedList*. You can create one or more of the foll
   "Id": "ValueHere",
   "Name": "ValueHere",
   "Type": "SharedList",
-  "ItemCount": "ValueHere"
+  "ItemCount": NumbericValueHere
 }
 ```
 

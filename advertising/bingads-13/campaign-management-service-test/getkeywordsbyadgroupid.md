@@ -286,11 +286,11 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
   "Keywords": [
     {
       "Bid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": "ValueHere"
+        "CommissionRate": NumbericValueHere
       },
       "DestinationUrl": "ValueHere",
       "EditorialStatus": "ValueHere",

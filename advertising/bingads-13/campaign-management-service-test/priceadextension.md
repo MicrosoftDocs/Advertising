@@ -47,27 +47,27 @@ You can associate a price ad extension with the account or with campaigns and ad
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "ValueHere",
+        "EndHour": NumbericValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "ValueHere",
+        "StartHour": NumbericValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "StartDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "PriceAdExtension",
-  "Version": "ValueHere",
+  "Version": NumbericValueHere,
   "FinalUrlSuffix": "ValueHere",
   "Language": "ValueHere",
   "PriceExtensionType": "ValueHere",
@@ -82,7 +82,7 @@ You can associate a price ad extension with the account or with campaigns and ad
         "ValueHere"
       ],
       "Header": "ValueHere",
-      "Price": "ValueHere",
+      "Price": NumbericValueHere,
       "PriceQualifier": "ValueHere",
       "PriceUnit": "ValueHere",
       "TermsAndConditions": "ValueHere",

@@ -35,7 +35,7 @@ Defines a duration conversion goal. Use this type of goal to count every time so
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": "ValueHere",
+  "ConversionWindowInMinutes": NumbericValueHere,
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
@@ -45,15 +45,15 @@ Defines a duration conversion goal. Use this type of goal to count every time so
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": "ValueHere"
+    "Value": NumbericValueHere
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
   "TagId": "ValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "Duration",
-  "ViewThroughConversionWindowInMinutes": "ValueHere",
-  "MinimumDurationInSeconds": "ValueHere"
+  "ViewThroughConversionWindowInMinutes": NumbericValueHere,
+  "MinimumDurationInSeconds": NumbericValueHere
 }
 ```
 

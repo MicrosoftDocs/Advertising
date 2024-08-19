@@ -32,7 +32,7 @@ Defines an object to retract or restate an online conversion.
   "AdjustmentCurrencyCode": "ValueHere",
   "AdjustmentTime": "ValueHere",
   "AdjustmentType": "ValueHere",
-  "AdjustmentValue": "ValueHere",
+  "AdjustmentValue": NumbericValueHere,
   "ConversionName": "ValueHere",
   "TransactionId": "ValueHere"
 }

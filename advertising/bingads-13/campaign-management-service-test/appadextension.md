@@ -51,27 +51,27 @@ You can associate an app ad extension with the account or with campaigns and ad 
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "ValueHere",
+        "EndHour": NumbericValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "ValueHere",
+        "StartHour": NumbericValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "StartDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "AppAdExtension",
-  "Version": "ValueHere",
+  "Version": NumbericValueHere,
   "AppPlatform": "ValueHere",
   "AppStoreId": "ValueHere",
   "DestinationUrl": "ValueHere",

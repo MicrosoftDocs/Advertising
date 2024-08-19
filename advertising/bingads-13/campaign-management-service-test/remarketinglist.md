@@ -59,7 +59,7 @@ Defines a remarketing list.
     }
   ],
   "Id": "ValueHere",
-  "MembershipDuration": "ValueHere",
+  "MembershipDuration": NumbericValueHere,
   "Name": "ValueHere",
   "ParentId": "ValueHere",
   "Scope": "ValueHere",
@@ -76,7 +76,7 @@ Defines a remarketing list.
     "CategoryOperator": "ValueHere",
     "Label": "ValueHere",
     "LabelOperator": "ValueHere",
-    "Value": "ValueHere",
+    "Value": NumbericValueHere,
     "ValueOperator": "ValueHere"
   },
   "TagId": "ValueHere"

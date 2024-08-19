@@ -46,27 +46,27 @@ You can associate a location ad extension with the account or with campaigns in 
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "ValueHere",
+        "EndHour": NumbericValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "ValueHere",
+        "StartHour": NumbericValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "StartDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "LocationAdExtension",
-  "Version": "ValueHere",
+  "Version": NumbericValueHere,
   "Address": {
     "CityName": "ValueHere",
     "CountryCode": "ValueHere",
@@ -79,8 +79,8 @@ You can associate a location ad extension with the account or with campaigns in 
   "CompanyName": "ValueHere",
   "GeoCodeStatus": "ValueHere",
   "GeoPoint": {
-    "LatitudeInMicroDegrees": "ValueHere",
-    "LongitudeInMicroDegrees": "ValueHere"
+    "LatitudeInMicroDegrees": NumbericValueHere,
+    "LongitudeInMicroDegrees": NumbericValueHere
   },
   "PhoneNumber": "ValueHere"
 }

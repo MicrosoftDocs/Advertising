@@ -228,7 +228,7 @@ Below is an example that is applicable if the type of [SharedEntity](sharedentit
 {
   "SharedEntities": [
     {
-      "AssociationCount": "ValueHere",
+      "AssociationCount": NumbericValueHere,
       "ForwardCompatibilityMap": [
         {
           "key": "ValueHere",
@@ -238,7 +238,7 @@ Below is an example that is applicable if the type of [SharedEntity](sharedentit
       "Id": "ValueHere",
       "Name": "ValueHere",
       "Type": "SharedList",
-      "ItemCount": "ValueHere"
+      "ItemCount": NumbericValueHere
     }
   ]
 }

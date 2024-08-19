@@ -30,8 +30,8 @@ Criterion for the number of days the booking is made prior to the hotel stay.
 ```json
 {
   "Type": "HotelAdvanceBookingWindowCriterion",
-  "MaxDays": "ValueHere",
-  "MinDays": "ValueHere"
+  "MaxDays": NumbericValueHere,
+  "MinDays": NumbericValueHere
 }
 ```
 

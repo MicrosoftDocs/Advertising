@@ -32,7 +32,7 @@ Defines a collection of ad extensions that failed editorial review.
       "PublisherCountries": [
         "ValueHere"
       ],
-      "ReasonCode": "ValueHere",
+      "ReasonCode": NumbericValueHere,
       "Term": "ValueHere"
     }
   ]

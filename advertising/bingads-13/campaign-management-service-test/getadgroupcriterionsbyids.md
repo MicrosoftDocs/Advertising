@@ -380,11 +380,11 @@ Below is an example that is applicable if the type of [AdGroupCriterion](adgroup
       "Type": "BiddableAdGroupCriterion",
       "CriterionBid": {
         "Type": "BidMultiplier",
-        "Multiplier": "ValueHere"
+        "Multiplier": NumbericValueHere
       },
       "CriterionCashback": {
         "Type": "CashbackAdjustment",
-        "CashbackPercent": "ValueHere"
+        "CashbackPercent": NumbericValueHere
       },
       "DestinationUrl": "ValueHere",
       "EditorialStatus": "ValueHere",

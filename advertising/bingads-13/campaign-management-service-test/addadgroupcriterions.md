@@ -376,11 +376,11 @@ Below is an example that is applicable if the type of [AdGroupCriterion](adgroup
       "Type": "BiddableAdGroupCriterion",
       "CriterionBid": {
         "Type": "BidMultiplier",
-        "Multiplier": "ValueHere"
+        "Multiplier": NumbericValueHere
       },
       "CriterionCashback": {
         "Type": "CashbackAdjustment",
-        "CashbackPercent": "ValueHere"
+        "CashbackPercent": NumbericValueHere
       },
       "DestinationUrl": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -426,7 +426,7 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
     {
       "BatchErrors": [
         {
-          "Code": "ValueHere",
+          "Code": NumbericValueHere,
           "Details": "ValueHere",
           "ErrorCode": "ValueHere",
           "FieldPath": "ValueHere",
@@ -436,17 +436,17 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
               "value": "ValueHere"
             }
           ],
-          "Index": "ValueHere",
+          "Index": NumbericValueHere,
           "Message": "ValueHere",
           "Type": "EditorialError",
           "Appealable": "ValueHere",
           "DisapprovedText": "ValueHere",
           "Location": "ValueHere",
           "PublisherCountry": "ValueHere",
-          "ReasonCode": "ValueHere"
+          "ReasonCode": NumbericValueHere
         }
       ],
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -456,14 +456,14 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialErrorCollection",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

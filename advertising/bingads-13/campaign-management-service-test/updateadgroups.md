@@ -433,29 +433,29 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
         "Type": "ValueHere"
       },
       "AdScheduleUseSearcherTimeZone": "ValueHere",
-      "AudienceAdsBidAdjustment": "ValueHere",
+      "AudienceAdsBidAdjustment": NumbericValueHere,
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": "ValueHere"
+        "CommissionRate": NumbericValueHere
       },
       "CommissionRate": {
         "RateAmount": {
-          "Amount": "ValueHere"
+          "Amount": NumbericValueHere
         }
       },
       "CpcBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "CpmBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "CpvBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "EndDate": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "FinalUrlSuffix": "ValueHere",
       "ForwardCompatibilityMap": [
@@ -466,21 +466,21 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
       ],
       "FrequencyCapSettings": [
         {
-          "CapValue": "ValueHere",
+          "CapValue": NumbericValueHere,
           "TimeGranularity": "ValueHere"
         }
       ],
       "Id": "ValueHere",
       "Language": "ValueHere",
       "McpaBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
-      "MultimediaAdsBidAdjustment": "ValueHere",
+      "MultimediaAdsBidAdjustment": NumbericValueHere,
       "Name": "ValueHere",
       "Network": "ValueHere",
       "PercentCpcBid": {
         "RateAmount": {
-          "Amount": "ValueHere"
+          "Amount": NumbericValueHere
         }
       },
       "PrivacyStatus": "ValueHere",
@@ -491,9 +491,9 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
         }
       ],
       "StartDate": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "Status": "ValueHere",
       "TrackingUrlTemplate": "ValueHere",
@@ -526,7 +526,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -536,14 +536,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

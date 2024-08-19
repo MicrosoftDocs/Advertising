@@ -34,13 +34,13 @@ Defines the VideoAsset Data Object.
   "Type": "VideoAsset",
   "SubType": "ValueHere",
   "ThumbnailImage": {
-    "CropHeight": "ValueHere",
-    "CropWidth": "ValueHere",
-    "CropX": "ValueHere",
-    "CropY": "ValueHere",
+    "CropHeight": NumbericValueHere,
+    "CropWidth": NumbericValueHere,
+    "CropX": NumbericValueHere,
+    "CropY": NumbericValueHere,
     "SubType": "ValueHere",
-    "TargetHeight": "ValueHere",
-    "TargetWidth": "ValueHere"
+    "TargetHeight": NumbericValueHere,
+    "TargetWidth": NumbericValueHere
   }
 }
 ```

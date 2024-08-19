@@ -369,16 +369,16 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
   "Campaigns": [
     {
       "AdScheduleUseSearcherTimeZone": "ValueHere",
-      "AudienceAdsBidAdjustment": "ValueHere",
+      "AudienceAdsBidAdjustment": NumbericValueHere,
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": "ValueHere"
+        "CommissionRate": NumbericValueHere
       },
       "BidStrategyId": "ValueHere",
       "BudgetId": "ValueHere",
       "BudgetType": "ValueHere",
       "CampaignType": "ValueHere",
-      "DailyBudget": "ValueHere",
+      "DailyBudget": NumbericValueHere,
       "DealIds": [
         "ValueHere"
       ],
@@ -398,7 +398,7 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
       "Languages": [
         "ValueHere"
       ],
-      "MultimediaAdsBidAdjustment": "ValueHere",
+      "MultimediaAdsBidAdjustment": NumbericValueHere,
       "Name": "ValueHere",
       "Settings": [
         {

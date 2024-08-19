@@ -654,27 +654,27 @@ Below is an example that is applicable if the type of [AdExtension](adextension.
         "DayTimeRanges": [
           {
             "Day": "ValueHere",
-            "EndHour": "ValueHere",
+            "EndHour": NumbericValueHere,
             "EndMinute": "ValueHere",
-            "StartHour": "ValueHere",
+            "StartHour": NumbericValueHere,
             "StartMinute": "ValueHere"
           }
         ],
         "EndDate": {
-          "Day": "ValueHere",
-          "Month": "ValueHere",
-          "Year": "ValueHere"
+          "Day": NumbericValueHere,
+          "Month": NumbericValueHere,
+          "Year": NumbericValueHere
         },
         "StartDate": {
-          "Day": "ValueHere",
-          "Month": "ValueHere",
-          "Year": "ValueHere"
+          "Day": NumbericValueHere,
+          "Month": NumbericValueHere,
+          "Year": NumbericValueHere
         },
         "UseSearcherTimeZone": "ValueHere"
       },
       "Status": "ValueHere",
       "Type": "ActionAdExtension",
-      "Version": "ValueHere",
+      "Version": NumbericValueHere,
       "ActionType": "ValueHere",
       "FinalMobileUrls": [
         "ValueHere"
@@ -709,7 +709,7 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
     {
       "BatchErrors": [
         {
-          "Code": "ValueHere",
+          "Code": NumbericValueHere,
           "Details": "ValueHere",
           "ErrorCode": "ValueHere",
           "FieldPath": "ValueHere",
@@ -719,17 +719,17 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
               "value": "ValueHere"
             }
           ],
-          "Index": "ValueHere",
+          "Index": NumbericValueHere,
           "Message": "ValueHere",
           "Type": "EditorialError",
           "Appealable": "ValueHere",
           "DisapprovedText": "ValueHere",
           "Location": "ValueHere",
           "PublisherCountry": "ValueHere",
-          "ReasonCode": "ValueHere"
+          "ReasonCode": NumbericValueHere
         }
       ],
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -739,14 +739,14 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialErrorCollection",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

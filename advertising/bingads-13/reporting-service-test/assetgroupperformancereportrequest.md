@@ -70,14 +70,14 @@ Defines a data object for AssetGroupPerformanceReportRequest.
   },
   "Time": {
     "CustomDateRangeEnd": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "CustomDateRangeStart": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "PredefinedTime": "ValueHere",
     "ReportTimeZone": "ValueHere"

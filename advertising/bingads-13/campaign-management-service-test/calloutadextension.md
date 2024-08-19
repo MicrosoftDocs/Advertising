@@ -44,27 +44,27 @@ Ad extensions that are associated at the ad group level will override ad extensi
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "ValueHere",
+        "EndHour": NumbericValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "ValueHere",
+        "StartHour": NumbericValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "StartDate": {
-      "Day": "ValueHere",
-      "Month": "ValueHere",
-      "Year": "ValueHere"
+      "Day": NumbericValueHere,
+      "Month": NumbericValueHere,
+      "Year": NumbericValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "CalloutAdExtension",
-  "Version": "ValueHere",
+  "Version": NumbericValueHere,
   "Text": "ValueHere"
 }
 ```

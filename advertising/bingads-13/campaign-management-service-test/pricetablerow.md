@@ -42,7 +42,7 @@ Defines pricing information by currency and unit that you can use with price ad 
     "ValueHere"
   ],
   "Header": "ValueHere",
-  "Price": "ValueHere",
+  "Price": NumbericValueHere,
   "PriceQualifier": "ValueHere",
   "PriceUnit": "ValueHere",
   "TermsAndConditions": "ValueHere",

@@ -293,7 +293,7 @@ Below is an example that is applicable if the type of [ConversionGoal](conversio
   "ConversionGoals": [
     {
       "AttributionModelType": "ValueHere",
-      "ConversionWindowInMinutes": "ValueHere",
+      "ConversionWindowInMinutes": NumbericValueHere,
       "CountType": "ValueHere",
       "ExcludeFromBidding": "ValueHere",
       "GoalCategory": "ValueHere",
@@ -303,21 +303,21 @@ Below is an example that is applicable if the type of [ConversionGoal](conversio
       "Revenue": {
         "CurrencyCode": "ValueHere",
         "Type": "ValueHere",
-        "Value": "ValueHere"
+        "Value": NumbericValueHere
       },
       "Scope": "ValueHere",
       "Status": "ValueHere",
       "TagId": "ValueHere",
       "TrackingStatus": "ValueHere",
       "Type": "AppInstall",
-      "ViewThroughConversionWindowInMinutes": "ValueHere",
+      "ViewThroughConversionWindowInMinutes": NumbericValueHere,
       "AppPlatform": "ValueHere",
       "AppStoreId": "ValueHere"
     }
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -327,14 +327,14 @@ Below is an example that is applicable if the type of [ConversionGoal](conversio
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

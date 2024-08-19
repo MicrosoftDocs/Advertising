@@ -27,7 +27,7 @@ Defines a Reporting operation error object that contains the details that explai
 
 ```json
 {
-  "Code": "ValueHere",
+  "Code": NumbericValueHere,
   "Details": "ValueHere",
   "ErrorCode": "ValueHere",
   "Message": "ValueHere"

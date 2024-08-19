@@ -37,7 +37,7 @@ With the ManualCpa (manual cost per click) bid strategy, you set your big per ad
 ```json
 {
   "Type": "ManualCpaBiddingScheme",
-  "ManualCpi": "ValueHere"
+  "ManualCpi": NumbericValueHere
 }
 ```
 

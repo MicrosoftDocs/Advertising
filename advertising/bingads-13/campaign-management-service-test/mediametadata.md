@@ -41,8 +41,8 @@ Defines a media meta data object. The meta data includes download Urls for one o
       "Name": "ValueHere",
       "Type": "ImageMediaRepresentation",
       "Url": "ValueHere",
-      "Height": "ValueHere",
-      "Width": "ValueHere"
+      "Height": NumbericValueHere,
+      "Width": NumbericValueHere
     }
   ],
   "Text": "ValueHere",

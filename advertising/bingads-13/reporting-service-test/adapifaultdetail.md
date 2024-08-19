@@ -32,7 +32,7 @@ Defines a Reporting Ad API fault detail object that operations return when gener
   "Type": "AdApiFaultDetail",
   "Errors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Detail": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

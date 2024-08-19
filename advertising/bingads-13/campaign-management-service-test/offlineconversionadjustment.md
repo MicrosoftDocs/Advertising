@@ -49,7 +49,7 @@ You can adjust the conversion time and value for offline conversions previously 
   "AdjustmentCurrencyCode": "ValueHere",
   "AdjustmentTime": "ValueHere",
   "AdjustmentType": "ValueHere",
-  "AdjustmentValue": "ValueHere",
+  "AdjustmentValue": NumbericValueHere,
   "ConversionName": "ValueHere",
   "ConversionTime": "ValueHere",
   "HashedEmailAddress": "ValueHere",
