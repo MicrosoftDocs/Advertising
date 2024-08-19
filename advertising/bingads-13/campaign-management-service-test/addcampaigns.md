@@ -370,16 +370,16 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
   "Campaigns": [
     {
       "AdScheduleUseSearcherTimeZone": "ValueHere",
-      "AudienceAdsBidAdjustment": "ValueHere",
+      "AudienceAdsBidAdjustment": NumbericValueHere,
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": "ValueHere"
+        "CommissionRate": NumbericValueHere
       },
       "BidStrategyId": "ValueHere",
       "BudgetId": "ValueHere",
       "BudgetType": "ValueHere",
       "CampaignType": "ValueHere",
-      "DailyBudget": "ValueHere",
+      "DailyBudget": NumbericValueHere,
       "DealIds": [
         "ValueHere"
       ],
@@ -399,7 +399,7 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
       "Languages": [
         "ValueHere"
       ],
-      "MultimediaAdsBidAdjustment": "ValueHere",
+      "MultimediaAdsBidAdjustment": NumbericValueHere,
       "Name": "ValueHere",
       "Settings": [
         {
@@ -436,7 +436,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -446,14 +446,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

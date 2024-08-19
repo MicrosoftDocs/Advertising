@@ -92,16 +92,16 @@ Defines a campaign.
 ```json
 {
   "AdScheduleUseSearcherTimeZone": "ValueHere",
-  "AudienceAdsBidAdjustment": "ValueHere",
+  "AudienceAdsBidAdjustment": NumbericValueHere,
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": "ValueHere"
+    "CommissionRate": NumbericValueHere
   },
   "BidStrategyId": "ValueHere",
   "BudgetId": "ValueHere",
   "BudgetType": "ValueHere",
   "CampaignType": "ValueHere",
-  "DailyBudget": "ValueHere",
+  "DailyBudget": NumbericValueHere,
   "DealIds": [
     "ValueHere"
   ],
@@ -121,7 +121,7 @@ Defines a campaign.
   "Languages": [
     "ValueHere"
   ],
-  "MultimediaAdsBidAdjustment": "ValueHere",
+  "MultimediaAdsBidAdjustment": NumbericValueHere,
   "Name": "ValueHere",
   "Settings": [
     {

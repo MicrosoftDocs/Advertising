@@ -53,11 +53,11 @@ As shown above, a keyword can be just a single word, several words, or even a ph
 ```json
 {
   "Bid": {
-    "Amount": "ValueHere"
+    "Amount": NumbericValueHere
   },
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": "ValueHere"
+    "CommissionRate": NumbericValueHere
   },
   "DestinationUrl": "ValueHere",
   "EditorialStatus": "ValueHere",

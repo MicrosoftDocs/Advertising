@@ -395,29 +395,29 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
         "Type": "ValueHere"
       },
       "AdScheduleUseSearcherTimeZone": "ValueHere",
-      "AudienceAdsBidAdjustment": "ValueHere",
+      "AudienceAdsBidAdjustment": NumbericValueHere,
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": "ValueHere"
+        "CommissionRate": NumbericValueHere
       },
       "CommissionRate": {
         "RateAmount": {
-          "Amount": "ValueHere"
+          "Amount": NumbericValueHere
         }
       },
       "CpcBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "CpmBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "CpvBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
       "EndDate": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "FinalUrlSuffix": "ValueHere",
       "ForwardCompatibilityMap": [
@@ -428,21 +428,21 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
       ],
       "FrequencyCapSettings": [
         {
-          "CapValue": "ValueHere",
+          "CapValue": NumbericValueHere,
           "TimeGranularity": "ValueHere"
         }
       ],
       "Id": "ValueHere",
       "Language": "ValueHere",
       "McpaBid": {
-        "Amount": "ValueHere"
+        "Amount": NumbericValueHere
       },
-      "MultimediaAdsBidAdjustment": "ValueHere",
+      "MultimediaAdsBidAdjustment": NumbericValueHere,
       "Name": "ValueHere",
       "Network": "ValueHere",
       "PercentCpcBid": {
         "RateAmount": {
-          "Amount": "ValueHere"
+          "Amount": NumbericValueHere
         }
       },
       "PrivacyStatus": "ValueHere",
@@ -453,9 +453,9 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
         }
       ],
       "StartDate": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "Status": "ValueHere",
       "TrackingUrlTemplate": "ValueHere",

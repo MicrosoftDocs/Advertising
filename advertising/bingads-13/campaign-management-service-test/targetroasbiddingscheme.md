@@ -38,9 +38,9 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
 {
   "Type": "TargetRoasBiddingScheme",
   "MaxCpc": {
-    "Amount": "ValueHere"
+    "Amount": NumbericValueHere
   },
-  "TargetRoas": "ValueHere"
+  "TargetRoas": NumbericValueHere
 }
 ```
 

@@ -40,7 +40,7 @@ Defines the Video Data Object.
   "AspectRatio": "ValueHere",
   "CreatedDateTimeInUTC": "ValueHere",
   "Description": "ValueHere",
-  "DurationInMilliseconds": "ValueHere",
+  "DurationInMilliseconds": NumbericValueHere,
   "FailureCode": "ValueHere",
   "Id": "ValueHere",
   "ModifiedDateTimeInUTC": "ValueHere",

@@ -53,11 +53,11 @@ Defines a biddable criterion that you want applied to the specified ad group.
   "Type": "BiddableAdGroupCriterion",
   "CriterionBid": {
     "Type": "BidMultiplier",
-    "Multiplier": "ValueHere"
+    "Multiplier": NumbericValueHere
   },
   "CriterionCashback": {
     "Type": "CashbackAdjustment",
-    "CashbackPercent": "ValueHere"
+    "CashbackPercent": NumbericValueHere
   },
   "DestinationUrl": "ValueHere",
   "EditorialStatus": "ValueHere",

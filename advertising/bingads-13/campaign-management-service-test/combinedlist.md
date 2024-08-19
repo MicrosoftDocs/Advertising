@@ -59,7 +59,7 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
     }
   ],
   "Id": "ValueHere",
-  "MembershipDuration": "ValueHere",
+  "MembershipDuration": NumbericValueHere,
   "Name": "ValueHere",
   "ParentId": "ValueHere",
   "Scope": "ValueHere",

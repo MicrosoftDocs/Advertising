@@ -35,7 +35,7 @@ For other conversion goal types you create a Universal Event Tracking (UET) tag,
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": "ValueHere",
+  "ConversionWindowInMinutes": NumbericValueHere,
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
@@ -45,14 +45,14 @@ For other conversion goal types you create a Universal Event Tracking (UET) tag,
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": "ValueHere"
+    "Value": NumbericValueHere
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
   "TagId": "ValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "AppInstall",
-  "ViewThroughConversionWindowInMinutes": "ValueHere",
+  "ViewThroughConversionWindowInMinutes": NumbericValueHere,
   "AppPlatform": "ValueHere",
   "AppStoreId": "ValueHere"
 }

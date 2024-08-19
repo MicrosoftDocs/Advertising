@@ -27,7 +27,7 @@ Defines a Reporting Ad API error object that contains the details that explain w
 
 ```json
 {
-  "Code": "ValueHere",
+  "Code": NumbericValueHere,
   "Detail": "ValueHere",
   "ErrorCode": "ValueHere",
   "Message": "ValueHere"

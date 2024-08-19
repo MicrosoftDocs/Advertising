@@ -29,7 +29,7 @@ Defines an object that represents the cost per sale bid strategy type.
 ```json
 {
   "Type": "CostPerSale",
-  "TargetCostPerSale": "ValueHere"
+  "TargetCostPerSale": NumbericValueHere
 }
 ```
 

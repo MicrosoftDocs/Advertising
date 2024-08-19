@@ -31,7 +31,7 @@ Defines an object that you can use to determine the component of an asset group 
   "PublisherCountries": [
     "ValueHere"
   ],
-  "ReasonCode": "ValueHere",
+  "ReasonCode": NumbericValueHere,
   "Term": "ValueHere"
 }
 ```

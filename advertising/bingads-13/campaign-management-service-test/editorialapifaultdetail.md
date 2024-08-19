@@ -34,7 +34,7 @@ Defines a fault object that operations such as [AddAdGroupCriterions](addadgroup
   "Type": "EditorialApiFaultDetail",
   "BatchErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -44,14 +44,14 @@ Defines a fault object that operations such as [AddAdGroupCriterions](addadgroup
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ],
   "EditorialErrors": [
@@ -60,12 +60,12 @@ Defines a fault object that operations such as [AddAdGroupCriterions](addadgroup
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ],
   "OperationErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

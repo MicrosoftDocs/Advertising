@@ -29,7 +29,7 @@ Defines the CashbackAdjustment Data Object.
 ```json
 {
   "Type": "CashbackAdjustment",
-  "CashbackPercent": "ValueHere"
+  "CashbackPercent": NumbericValueHere
 }
 ```
 

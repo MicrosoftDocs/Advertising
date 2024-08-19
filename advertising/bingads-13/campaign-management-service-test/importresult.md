@@ -34,12 +34,12 @@ Contains the status, run time, and statistical results for an import job that ha
 {
   "EntityStatistics": [
     {
-      "Additions": "ValueHere",
-      "Changes": "ValueHere",
-      "Deletions": "ValueHere",
+      "Additions": NumbericValueHere,
+      "Changes": NumbericValueHere,
+      "Deletions": NumbericValueHere,
       "EntityType": "ValueHere",
-      "Errors": "ValueHere",
-      "Total": "ValueHere"
+      "Errors": NumbericValueHere,
+      "Total": NumbericValueHere
     }
   ],
   "ErrorLogUrl": "ValueHere",
@@ -69,8 +69,8 @@ Contains the status, run time, and statistical results for an import job that ha
       ],
       "Type": "GoogleImportOption",
       "AccountUrlOptions": "ValueHere",
-      "AdjustmentForBids": "ValueHere",
-      "AdjustmentForCampaignBudgets": "ValueHere",
+      "AdjustmentForBids": NumbericValueHere,
+      "AdjustmentForCampaignBudgets": NumbericValueHere,
       "AdScheduleUseSearcherTimezone": "ValueHere",
       "AssociatedStoreId": "ValueHere",
       "AssociatedUetTagId": "ValueHere",

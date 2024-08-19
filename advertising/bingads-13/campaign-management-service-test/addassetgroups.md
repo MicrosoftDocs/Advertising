@@ -407,13 +407,13 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
             "Id": "ValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": "ValueHere",
-            "CropWidth": "ValueHere",
-            "CropX": "ValueHere",
-            "CropY": "ValueHere",
+            "CropHeight": NumbericValueHere,
+            "CropWidth": NumbericValueHere,
+            "CropX": NumbericValueHere,
+            "CropY": NumbericValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": "ValueHere",
-            "TargetWidth": "ValueHere"
+            "TargetHeight": NumbericValueHere,
+            "TargetWidth": NumbericValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -422,9 +422,9 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       ],
       "EditorialStatus": "ValueHere",
       "EndDate": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "FinalMobileUrls": [
         "ValueHere"
@@ -444,13 +444,13 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
             "Id": "ValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": "ValueHere",
-            "CropWidth": "ValueHere",
-            "CropX": "ValueHere",
-            "CropY": "ValueHere",
+            "CropHeight": NumbericValueHere,
+            "CropWidth": NumbericValueHere,
+            "CropX": NumbericValueHere,
+            "CropY": NumbericValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": "ValueHere",
-            "TargetWidth": "ValueHere"
+            "TargetHeight": NumbericValueHere,
+            "TargetWidth": NumbericValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -464,13 +464,13 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
             "Id": "ValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": "ValueHere",
-            "CropWidth": "ValueHere",
-            "CropX": "ValueHere",
-            "CropY": "ValueHere",
+            "CropHeight": NumbericValueHere,
+            "CropWidth": NumbericValueHere,
+            "CropX": NumbericValueHere,
+            "CropY": NumbericValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": "ValueHere",
-            "TargetWidth": "ValueHere"
+            "TargetHeight": NumbericValueHere,
+            "TargetWidth": NumbericValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -483,13 +483,13 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
             "Id": "ValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": "ValueHere",
-            "CropWidth": "ValueHere",
-            "CropX": "ValueHere",
-            "CropY": "ValueHere",
+            "CropHeight": NumbericValueHere,
+            "CropWidth": NumbericValueHere,
+            "CropX": NumbericValueHere,
+            "CropY": NumbericValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": "ValueHere",
-            "TargetWidth": "ValueHere"
+            "TargetHeight": NumbericValueHere,
+            "TargetWidth": NumbericValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -500,9 +500,9 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       "Path1": "ValueHere",
       "Path2": "ValueHere",
       "StartDate": {
-        "Day": "ValueHere",
-        "Month": "ValueHere",
-        "Year": "ValueHere"
+        "Day": NumbericValueHere,
+        "Month": NumbericValueHere,
+        "Year": NumbericValueHere
       },
       "Status": "ValueHere"
     }
@@ -523,7 +523,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
   ],
   "PartialErrors": [
     {
-      "Code": "ValueHere",
+      "Code": NumbericValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -533,14 +533,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": "ValueHere",
+      "Index": NumbericValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "ValueHere"
+      "ReasonCode": NumbericValueHere
     }
   ]
 }

@@ -25,8 +25,8 @@ Defines a paging object to request Campaign Management objects in batches.
 
 ```json
 {
-  "Index": "ValueHere",
-  "Size": "ValueHere"
+  "Index": NumbericValueHere,
+  "Size": NumbericValueHere
 }
 ```
 
