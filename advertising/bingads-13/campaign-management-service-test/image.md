@@ -28,7 +28,7 @@ Defines an image that can be added to an account's media library.
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "MediaType": "ValueHere",
   "Text": "ValueHere",
   "Type": "Image",

@@ -234,7 +234,7 @@ Below is an example that is applicable if the type of [AudienceGroupDimension](a
 {
   "AudienceGroups": [
     {
-      "AssociationCount": NumbericValueHere,
+      "AssociationCount": IntValueHere,
       "Description": "ValueHere",
       "Dimensions": [
         {
@@ -244,7 +244,7 @@ Below is an example that is applicable if the type of [AudienceGroupDimension](a
           ]
         }
       ],
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Name": "ValueHere"
     }
   ]
@@ -260,7 +260,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 {
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -270,14 +270,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

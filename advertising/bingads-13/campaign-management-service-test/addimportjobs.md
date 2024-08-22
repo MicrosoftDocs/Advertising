@@ -379,7 +379,7 @@ Below is an example that is applicable if the type of [ImportJob](importjob.md) 
 {
   "ImportJobs": [
     {
-      "CreatedByUserId": "ValueHere",
+      "CreatedByUserId": "LongValueHere",
       "CreatedByUserName": "ValueHere",
       "CreatedDateTimeInUTC": "ValueHere",
       "Frequency": {
@@ -387,7 +387,7 @@ Below is an example that is applicable if the type of [ImportJob](importjob.md) 
         "TimeZone": "ValueHere",
         "Type": "ValueHere"
       },
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "ImportOption": {
         "ForwardCompatibilityMap": [
           {
@@ -397,11 +397,11 @@ Below is an example that is applicable if the type of [ImportJob](importjob.md) 
         ],
         "Type": "GoogleImportOption",
         "AccountUrlOptions": "ValueHere",
-        "AdjustmentForBids": NumbericValueHere,
-        "AdjustmentForCampaignBudgets": NumbericValueHere,
+        "AdjustmentForBids": DoubleValueHere,
+        "AdjustmentForCampaignBudgets": DoubleValueHere,
         "AdScheduleUseSearcherTimezone": "ValueHere",
-        "AssociatedStoreId": "ValueHere",
-        "AssociatedUetTagId": "ValueHere",
+        "AssociatedStoreId": "LongValueHere",
+        "AssociatedUetTagId": "LongValueHere",
         "AutoDeviceBidOptimization": "ValueHere",
         "DeleteRemovedEntities": "ValueHere",
         "EnableAutoCurrencyConversion": "ValueHere",
@@ -535,11 +535,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```json
 {
   "ImportJobIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -549,14 +549,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

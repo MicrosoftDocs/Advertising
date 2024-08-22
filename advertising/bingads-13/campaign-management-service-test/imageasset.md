@@ -51,16 +51,16 @@ If you do not specify crop settings, the service will automatically crop up to t
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "Type": "ImageAsset",
-  "CropHeight": NumbericValueHere,
-  "CropWidth": NumbericValueHere,
-  "CropX": NumbericValueHere,
-  "CropY": NumbericValueHere,
+  "CropHeight": "IntValueHere",
+  "CropWidth": "IntValueHere",
+  "CropX": "IntValueHere",
+  "CropY": "IntValueHere",
   "SubType": "ValueHere",
-  "TargetHeight": NumbericValueHere,
-  "TargetWidth": NumbericValueHere
+  "TargetHeight": "IntValueHere",
+  "TargetWidth": "IntValueHere"
 }
 ```
 

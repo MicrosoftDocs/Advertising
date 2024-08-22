@@ -33,7 +33,7 @@ Defines a Campaign Management API fault object that operations return when web s
   "Type": "ApiFaultDetail",
   "BatchErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": "IntValueHere",
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -43,19 +43,19 @@ Defines a Campaign Management API fault object that operations return when web s
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": "IntValueHere",
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": "IntValueHere"
     }
   ],
   "OperationErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": "IntValueHere",
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

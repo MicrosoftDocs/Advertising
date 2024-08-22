@@ -30,21 +30,21 @@ Defines a data object for ImpressionBasedRemarketingList.
 
 ```json
 {
-  "AudienceNetworkSize": "ValueHere",
+  "AudienceNetworkSize": "LongValueHere",
   "CustomerShare": {
     "CustomerAccountShares": [
       {
-        "AccountId": "ValueHere",
+        "AccountId": "LongValueHere",
         "Associations": [
           {
-            "AssociationCount": "ValueHere",
+            "AssociationCount": "LongValueHere",
             "UsageType": "ValueHere"
           }
         ],
-        "CustomerId": "ValueHere"
+        "CustomerId": "LongValueHere"
       }
     ],
-    "OwnerCustomerId": "ValueHere"
+    "OwnerCustomerId": "LongValueHere"
   },
   "Description": "ValueHere",
   "ForwardCompatibilityMap": [
@@ -53,18 +53,18 @@ Defines a data object for ImpressionBasedRemarketingList.
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
-  "MembershipDuration": NumbericValueHere,
+  "Id": "LongValueHere",
+  "MembershipDuration": "IntValueHere",
   "Name": "ValueHere",
-  "ParentId": "ValueHere",
+  "ParentId": "LongValueHere",
   "Scope": "ValueHere",
-  "SearchSize": "ValueHere",
+  "SearchSize": "LongValueHere",
   "SupportedCampaignTypes": [
     "ValueHere"
   ],
   "Type": "ImpressionBasedRemarketingList",
-  "AdGroupId": "ValueHere",
-  "CampaignId": "ValueHere",
+  "AdGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere",
   "EntityType": "ValueHere"
 }
 ```

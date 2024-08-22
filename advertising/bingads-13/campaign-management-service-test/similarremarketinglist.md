@@ -37,21 +37,21 @@ You cannot create or edit the similar audience for a remarketing list. Having sa
 
 ```json
 {
-  "AudienceNetworkSize": "ValueHere",
+  "AudienceNetworkSize": "LongValueHere",
   "CustomerShare": {
     "CustomerAccountShares": [
       {
-        "AccountId": "ValueHere",
+        "AccountId": "LongValueHere",
         "Associations": [
           {
-            "AssociationCount": "ValueHere",
+            "AssociationCount": "LongValueHere",
             "UsageType": "ValueHere"
           }
         ],
-        "CustomerId": "ValueHere"
+        "CustomerId": "LongValueHere"
       }
     ],
-    "OwnerCustomerId": "ValueHere"
+    "OwnerCustomerId": "LongValueHere"
   },
   "Description": "ValueHere",
   "ForwardCompatibilityMap": [
@@ -60,17 +60,17 @@ You cannot create or edit the similar audience for a remarketing list. Having sa
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
-  "MembershipDuration": NumbericValueHere,
+  "Id": "LongValueHere",
+  "MembershipDuration": "IntValueHere",
   "Name": "ValueHere",
-  "ParentId": "ValueHere",
+  "ParentId": "LongValueHere",
   "Scope": "ValueHere",
-  "SearchSize": "ValueHere",
+  "SearchSize": "LongValueHere",
   "SupportedCampaignTypes": [
     "ValueHere"
   ],
   "Type": "SimilarRemarketingList",
-  "SourceId": "ValueHere"
+  "SourceId": "LongValueHere"
 }
 ```
 

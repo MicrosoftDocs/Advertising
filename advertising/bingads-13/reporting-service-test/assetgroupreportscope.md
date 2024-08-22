@@ -26,9 +26,9 @@ Defines a data object for AssetGroupReportScope.
 
 ```json
 {
-  "AccountId": "ValueHere",
-  "AssetGroupId": "ValueHere",
-  "CampaignId": "ValueHere"
+  "AccountId": "LongValueHere",
+  "AssetGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere"
 }
 ```
 

@@ -127,29 +127,29 @@ Defines an ad group in an advertising campaign.
     "Type": "ValueHere"
   },
   "AdScheduleUseSearcherTimeZone": "ValueHere",
-  "AudienceAdsBidAdjustment": NumbericValueHere,
+  "AudienceAdsBidAdjustment": "IntValueHere",
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": NumbericValueHere
+    "CommissionRate": "DoubleValueHere"
   },
   "CommissionRate": {
     "RateAmount": {
-      "Amount": NumbericValueHere
+      "Amount": "DoubleValueHere"
     }
   },
   "CpcBid": {
-    "Amount": NumbericValueHere
+    "Amount": "DoubleValueHere"
   },
   "CpmBid": {
-    "Amount": NumbericValueHere
+    "Amount": "DoubleValueHere"
   },
   "CpvBid": {
-    "Amount": NumbericValueHere
+    "Amount": "DoubleValueHere"
   },
   "EndDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": "IntValueHere",
+    "Month": "IntValueHere",
+    "Year": "IntValueHere"
   },
   "FinalUrlSuffix": "ValueHere",
   "ForwardCompatibilityMap": [
@@ -160,34 +160,35 @@ Defines an ad group in an advertising campaign.
   ],
   "FrequencyCapSettings": [
     {
-      "CapValue": NumbericValueHere,
+      "CapValue": "IntValueHere",
       "TimeGranularity": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Language": "ValueHere",
   "McpaBid": {
-    "Amount": NumbericValueHere
+    "Amount": "DoubleValueHere"
   },
-  "MultimediaAdsBidAdjustment": NumbericValueHere,
+  "MultimediaAdsBidAdjustment": "IntValueHere",
   "Name": "ValueHere",
   "Network": "ValueHere",
   "PercentCpcBid": {
     "RateAmount": {
-      "Amount": NumbericValueHere
+      "Amount": "DoubleValueHere"
     }
   },
   "PrivacyStatus": "ValueHere",
   "Settings": [
     {
-      "Type": "CallToActionSetting",
-      "AutomatedCallToActionOptOut": "ValueHere"
+      "Type": "AppSetting",
+      "AppId": "ValueHere",
+      "AppStore": "ValueHere"
     }
   ],
   "StartDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": "IntValueHere",
+    "Month": "IntValueHere",
+    "Year": "IntValueHere"
   },
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",

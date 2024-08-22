@@ -46,21 +46,21 @@ window.uetq.push('event', '', {'ecomm_prodid': 'REPLACE_WITH_PRODUCT_ID', 'ecomm
 
 ```json
 {
-  "AudienceNetworkSize": "ValueHere",
+  "AudienceNetworkSize": "LongValueHere",
   "CustomerShare": {
     "CustomerAccountShares": [
       {
-        "AccountId": "ValueHere",
+        "AccountId": "LongValueHere",
         "Associations": [
           {
-            "AssociationCount": "ValueHere",
+            "AssociationCount": "LongValueHere",
             "UsageType": "ValueHere"
           }
         ],
-        "CustomerId": "ValueHere"
+        "CustomerId": "LongValueHere"
       }
     ],
-    "OwnerCustomerId": "ValueHere"
+    "OwnerCustomerId": "LongValueHere"
   },
   "Description": "ValueHere",
   "ForwardCompatibilityMap": [
@@ -69,18 +69,18 @@ window.uetq.push('event', '', {'ecomm_prodid': 'REPLACE_WITH_PRODUCT_ID', 'ecomm
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
-  "MembershipDuration": NumbericValueHere,
+  "Id": "LongValueHere",
+  "MembershipDuration": "IntValueHere",
   "Name": "ValueHere",
-  "ParentId": "ValueHere",
+  "ParentId": "LongValueHere",
   "Scope": "ValueHere",
-  "SearchSize": "ValueHere",
+  "SearchSize": "LongValueHere",
   "SupportedCampaignTypes": [
     "ValueHere"
   ],
   "Type": "Product",
   "ProductAudienceType": "ValueHere",
-  "TagId": "ValueHere"
+  "TagId": "LongValueHere"
 }
 ```
 

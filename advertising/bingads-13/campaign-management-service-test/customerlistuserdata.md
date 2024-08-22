@@ -28,7 +28,7 @@ Defines a CustomerListUserData data object.
 ```json
 {
   "ActionType": "ValueHere",
-  "AudienceId": "ValueHere",
+  "AudienceId": "LongValueHere",
   "CustomerListItems": [
     "ValueHere"
   ],

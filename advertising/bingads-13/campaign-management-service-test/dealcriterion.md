@@ -29,7 +29,7 @@ Defines a criterion that can be used to show ads for a specific deal.
 ```json
 {
   "Type": "DealCriterion",
-  "DealId": "ValueHere"
+  "DealId": "LongValueHere"
 }
 ```
 

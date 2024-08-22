@@ -38,7 +38,7 @@ Defines a text ad.
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -59,7 +59,7 @@ Defines a text ad.
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "Text",

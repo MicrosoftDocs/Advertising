@@ -34,9 +34,9 @@ Identifies a campaign and the list of its ad groups to import.
 {
   "ActiveAdGroupsOnly": "ValueHere",
   "AdGroupIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
-  "CampaignId": "ValueHere"
+  "CampaignId": "LongValueHere"
 }
 ```
 

@@ -294,15 +294,15 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
 
 ```json
 {
-  "AdGroupId": "ValueHere",
+  "AdGroupId": "LongValueHere",
   "Keywords": [
     {
       "Bid": {
-        "Amount": NumbericValueHere
+        "Amount": DoubleValueHere
       },
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": NumbericValueHere
+        "CommissionRate": DoubleValueHere
       },
       "DestinationUrl": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -325,7 +325,7 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
           "value": "ValueHere"
         }
       ],
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "MatchType": "ValueHere",
       "Param1": "ValueHere",
       "Param2": "ValueHere",
@@ -358,11 +358,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
     "ValueHere"
   ],
   "KeywordIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -372,14 +372,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

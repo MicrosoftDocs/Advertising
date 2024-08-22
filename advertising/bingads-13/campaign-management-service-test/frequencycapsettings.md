@@ -25,7 +25,7 @@ Defines the FrequencyCapSettings object.
 
 ```json
 {
-  "CapValue": NumbericValueHere,
+  "CapValue": "IntValueHere",
   "TimeGranularity": "ValueHere"
 }
 ```

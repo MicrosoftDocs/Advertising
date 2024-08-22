@@ -35,7 +35,7 @@ A data object for the BrandItem.
     }
   ],
   "Type": "BrandItem",
-  "BrandId": "ValueHere"
+  "BrandId": "LongValueHere"
 }
 ```
 

@@ -29,14 +29,14 @@ Defines a customer or account that can use the shared audience or UET tag.
 
 ```json
 {
-  "AccountId": "ValueHere",
+  "AccountId": "LongValueHere",
   "Associations": [
     {
-      "AssociationCount": "ValueHere",
+      "AssociationCount": "LongValueHere",
       "UsageType": "ValueHere"
     }
   ],
-  "CustomerId": "ValueHere"
+  "CustomerId": "LongValueHere"
 }
 ```
 

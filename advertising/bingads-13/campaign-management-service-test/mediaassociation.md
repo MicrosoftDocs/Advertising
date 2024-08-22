@@ -28,9 +28,9 @@ You can get this object by calling [GetMediaAssociations](getmediaassociations.m
 
 ```json
 {
-  "EntityId": "ValueHere",
+  "EntityId": "LongValueHere",
   "MediaEnabledEntity": "ValueHere",
-  "MediaId": "ValueHere"
+  "MediaId": "LongValueHere"
 }
 ```
 

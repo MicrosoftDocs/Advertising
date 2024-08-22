@@ -25,7 +25,7 @@ Defines the set of accounts to include in the report.
 ```json
 {
   "AccountIds": [
-    "ValueHere"
+    "LongValueHere"
   ]
 }
 ```

@@ -276,12 +276,12 @@ Below is an example that is applicable if the type of [BiddingScheme](biddingsch
   "BidStrategies": [
     {
       "AssociatedCampaignType": "ValueHere",
-      "AssociationCount": NumbericValueHere,
+      "AssociationCount": IntValueHere,
       "BiddingScheme": {
         "Type": "CommissionBiddingScheme",
-        "CommissionRate": NumbericValueHere
+        "CommissionRate": DoubleValueHere
       },
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Name": "ValueHere"
     }
   ]
@@ -296,11 +296,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```json
 {
   "BidStrategyIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -310,14 +310,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

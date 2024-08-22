@@ -48,7 +48,7 @@ A dynamic search ads setting can only be created within search campaigns. The ca
   "DynamicDescriptionEnabled": "ValueHere",
   "Language": "ValueHere",
   "PageFeedIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "Source": "ValueHere"
 }

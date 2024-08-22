@@ -34,39 +34,39 @@ You can associate a location ad extension with the account or with campaigns in 
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": "IntValueHere",
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": "IntValueHere",
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "LocationAdExtension",
-  "Version": NumbericValueHere,
+  "Version": "IntValueHere",
   "Address": {
     "CityName": "ValueHere",
     "CountryCode": "ValueHere",
@@ -79,8 +79,8 @@ You can associate a location ad extension with the account or with campaigns in 
   "CompanyName": "ValueHere",
   "GeoCodeStatus": "ValueHere",
   "GeoPoint": {
-    "LatitudeInMicroDegrees": NumbericValueHere,
-    "LongitudeInMicroDegrees": NumbericValueHere
+    "LatitudeInMicroDegrees": "IntValueHere",
+    "LongitudeInMicroDegrees": "IntValueHere"
   },
   "PhoneNumber": "ValueHere"
 }

@@ -29,7 +29,7 @@ Defines the DynamicFeedSetting Data Object.
 ```json
 {
   "Type": "DynamicFeedSetting",
-  "FeedId": "ValueHere"
+  "FeedId": "LongValueHere"
 }
 ```
 

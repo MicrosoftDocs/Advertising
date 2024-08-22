@@ -27,21 +27,21 @@ Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcrite
 {
   "Action": "ValueHere",
   "AdGroupCriterion": {
-    "AdGroupId": "ValueHere",
+    "AdGroupId": "LongValueHere",
     "Criterion": {
       "Type": "AgeCriterion",
       "AgeRange": "ValueHere"
     },
-    "Id": "ValueHere",
+    "Id": "LongValueHere",
     "Status": "ValueHere",
     "Type": "BiddableAdGroupCriterion",
     "CriterionBid": {
       "Type": "BidMultiplier",
-      "Multiplier": NumbericValueHere
+      "Multiplier": "DoubleValueHere"
     },
     "CriterionCashback": {
       "Type": "CashbackAdjustment",
-      "CashbackPercent": NumbericValueHere
+      "CashbackPercent": "DoubleValueHere"
     },
     "DestinationUrl": "ValueHere",
     "EditorialStatus": "ValueHere",

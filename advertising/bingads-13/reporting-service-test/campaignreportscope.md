@@ -25,8 +25,8 @@ Defines a campaign to include in the report.
 
 ```json
 {
-  "AccountId": "ValueHere",
-  "CampaignId": "ValueHere"
+  "AccountId": "LongValueHere",
+  "CampaignId": "LongValueHere"
 }
 ```
 

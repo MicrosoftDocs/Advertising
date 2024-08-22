@@ -25,7 +25,7 @@ Defines an object that contains the negative site URLs of an ad group.
 
 ```json
 {
-  "AdGroupId": "ValueHere",
+  "AdGroupId": "LongValueHere",
   "NegativeSites": [
     "ValueHere"
   ]

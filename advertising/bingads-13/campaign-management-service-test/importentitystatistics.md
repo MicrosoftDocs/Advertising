@@ -29,12 +29,12 @@ The statistical import results for an entity type.
 
 ```json
 {
-  "Additions": NumbericValueHere,
-  "Changes": NumbericValueHere,
-  "Deletions": NumbericValueHere,
+  "Additions": "IntValueHere",
+  "Changes": "IntValueHere",
+  "Deletions": "IntValueHere",
   "EntityType": "ValueHere",
-  "Errors": NumbericValueHere,
-  "Total": NumbericValueHere
+  "Errors": "IntValueHere",
+  "Total": "IntValueHere"
 }
 ```
 

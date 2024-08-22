@@ -29,7 +29,7 @@ Defines the profile data for a company.
 {
   "LogoUrl": "ValueHere",
   "Name": "ValueHere",
-  "ProfileId": "ValueHere",
+  "ProfileId": "LongValueHere",
   "Status": "ValueHere"
 }
 ```

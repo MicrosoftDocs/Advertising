@@ -32,17 +32,17 @@ Defines  data object for the seasonality adjustment.
 
 ```json
 {
-  "AdjustmentPercentage": NumbericValueHere,
+  "AdjustmentPercentage": "DoubleValueHere",
   "CampaignAssociations": [
     {
-      "CampaignId": "ValueHere"
+      "CampaignId": "LongValueHere"
     }
   ],
   "CampaignTypeFilter": "ValueHere",
   "Description": "ValueHere",
   "DeviceTypeFilter": "ValueHere",
   "EndDate": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "StartDate": "ValueHere"
 }

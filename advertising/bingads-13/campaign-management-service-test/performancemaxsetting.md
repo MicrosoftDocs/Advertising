@@ -62,7 +62,7 @@ Defines the PerformanceMaxSetting object.
   "CostPerSaleOptOut": "ValueHere",
   "FinalUrlExpansionOptOut": "ValueHere",
   "PageFeedIds": [
-    "ValueHere"
+    "LongValueHere"
   ]
 }
 ```

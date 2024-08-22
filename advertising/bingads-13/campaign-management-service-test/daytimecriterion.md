@@ -39,9 +39,9 @@ The *DayTimeCriterion* criterion can be included within [BiddableAdGroupCriterio
 {
   "Type": "DayTimeCriterion",
   "Day": "ValueHere",
-  "FromHour": NumbericValueHere,
+  "FromHour": "IntValueHere",
   "FromMinute": "ValueHere",
-  "ToHour": NumbericValueHere,
+  "ToHour": "IntValueHere",
   "ToMinute": "ValueHere"
 }
 ```

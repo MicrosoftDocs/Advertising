@@ -31,7 +31,7 @@ A text asset with a unique Microsoft Advertising identifier that can be reused a
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "Type": "TextAsset",
   "Text": "ValueHere"

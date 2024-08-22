@@ -43,21 +43,21 @@ Defines a biddable criterion that you want applied to the specified ad group.
 
 ```json
 {
-  "AdGroupId": "ValueHere",
+  "AdGroupId": "LongValueHere",
   "Criterion": {
     "Type": "AgeCriterion",
     "AgeRange": "ValueHere"
   },
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "Type": "BiddableAdGroupCriterion",
   "CriterionBid": {
     "Type": "BidMultiplier",
-    "Multiplier": NumbericValueHere
+    "Multiplier": "DoubleValueHere"
   },
   "CriterionCashback": {
     "Type": "CashbackAdjustment",
-    "CashbackPercent": NumbericValueHere
+    "CashbackPercent": "DoubleValueHere"
   },
   "DestinationUrl": "ValueHere",
   "EditorialStatus": "ValueHere",

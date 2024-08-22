@@ -42,7 +42,7 @@ Dynamic search ads can only be created within search campaigns that have a [Dyna
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -63,7 +63,7 @@ Dynamic search ads can only be created within search campaigns that have a [Dyna
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "DynamicSearch",

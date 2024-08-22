@@ -25,7 +25,7 @@ Defines an AssetGroupSearchTheme data object.
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "SearchTheme": "ValueHere"
 }
 ```

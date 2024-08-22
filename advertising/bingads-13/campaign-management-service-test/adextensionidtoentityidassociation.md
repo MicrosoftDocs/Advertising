@@ -25,8 +25,8 @@ Defines an object that associates an ad extension to a supported entity, for exa
 
 ```json
 {
-  "AdExtensionId": "ValueHere",
-  "EntityId": "ValueHere"
+  "AdExtensionId": "LongValueHere",
+  "EntityId": "LongValueHere"
 }
 ```
 

@@ -67,39 +67,39 @@ You can associate an image ad extension with the account or with campaigns and a
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": "IntValueHere",
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": "IntValueHere",
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "ImageAdExtension",
-  "Version": NumbericValueHere,
+  "Version": "IntValueHere",
   "AlternativeText": "ValueHere",
   "Description": "ValueHere",
   "DestinationUrl": "ValueHere",
@@ -118,21 +118,21 @@ You can associate an image ad extension with the account or with campaigns and a
   ],
   "FinalUrlSuffix": "ValueHere",
   "ImageMediaIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "Images": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": "IntValueHere",
+        "CropWidth": "IntValueHere",
+        "CropX": "IntValueHere",
+        "CropY": "IntValueHere",
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": "IntValueHere",
+        "TargetWidth": "IntValueHere"
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",

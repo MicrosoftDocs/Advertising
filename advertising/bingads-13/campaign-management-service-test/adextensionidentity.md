@@ -25,8 +25,8 @@ Defines an object that identifies an ad extension revision.
 
 ```json
 {
-  "Id": "ValueHere",
-  "Version": NumbericValueHere
+  "Id": "LongValueHere",
+  "Version": "IntValueHere"
 }
 ```
 

@@ -531,11 +531,11 @@ Below is an example that is applicable if the type of [Ad](ad.md) is [AppInstall
 
 ```json
 {
-  "AdGroupId": "ValueHere",
+  "AdGroupId": "LongValueHere",
   "Ads": [
     {
       "AdFormatPreference": "ValueHere",
-      "DevicePreference": "ValueHere",
+      "DevicePreference": "LongValueHere",
       "EditorialStatus": "ValueHere",
       "FinalAppUrls": [
         {
@@ -556,7 +556,7 @@ Below is an example that is applicable if the type of [Ad](ad.md) is [AppInstall
           "value": "ValueHere"
         }
       ],
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Status": "ValueHere",
       "TrackingUrlTemplate": "ValueHere",
       "Type": "AppInstall",
@@ -585,11 +585,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```json
 {
   "AdIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -599,14 +599,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

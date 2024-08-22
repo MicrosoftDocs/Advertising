@@ -29,7 +29,7 @@ Defines an object that represents the commission bid strategy type (commission p
 ```json
 {
   "Type": "CommissionBiddingScheme",
-  "CommissionRate": NumbericValueHere
+  "CommissionRate": "DoubleValueHere"
 }
 ```
 

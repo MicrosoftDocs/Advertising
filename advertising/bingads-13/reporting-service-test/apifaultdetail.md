@@ -33,16 +33,16 @@ Defines a Reporting API fault detail object that operations return when web serv
   "Type": "ApiFaultDetail",
   "BatchErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": "IntValueHere",
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
-      "Index": NumbericValueHere,
+      "Index": "IntValueHere",
       "Message": "ValueHere"
     }
   ],
   "OperationErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": "IntValueHere",
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

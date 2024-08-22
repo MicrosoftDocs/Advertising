@@ -53,19 +53,19 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
   },
   "Scope": {
     "AccountIds": [
-      "ValueHere"
+      "LongValueHere"
     ],
     "AdGroups": [
       {
-        "AccountId": "ValueHere",
-        "AdGroupId": "ValueHere",
-        "CampaignId": "ValueHere"
+        "AccountId": "LongValueHere",
+        "AdGroupId": "LongValueHere",
+        "CampaignId": "LongValueHere"
       }
     ],
     "Campaigns": [
       {
-        "AccountId": "ValueHere",
-        "CampaignId": "ValueHere"
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
       }
     ]
   }

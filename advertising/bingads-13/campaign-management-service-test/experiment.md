@@ -77,23 +77,23 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
 
 ```json
 {
-  "BaseCampaignId": "ValueHere",
+  "BaseCampaignId": "LongValueHere",
   "EndDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": "IntValueHere",
+    "Month": "IntValueHere",
+    "Year": "IntValueHere"
   },
-  "ExperimentCampaignId": "ValueHere",
+  "ExperimentCampaignId": "LongValueHere",
   "ExperimentStatus": "ValueHere",
   "ExperimentType": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "StartDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": "IntValueHere",
+    "Month": "IntValueHere",
+    "Year": "IntValueHere"
   },
-  "TrafficSplitPercent": NumbericValueHere
+  "TrafficSplitPercent": "IntValueHere"
 }
 ```
 

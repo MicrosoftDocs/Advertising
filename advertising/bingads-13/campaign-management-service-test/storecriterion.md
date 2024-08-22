@@ -31,7 +31,7 @@ Each campaign can have a maximum of 10 excluded stores.
 ```json
 {
   "Type": "StoreCriterion",
-  "StoreId": "ValueHere"
+  "StoreId": "LongValueHere"
 }
 ```
 

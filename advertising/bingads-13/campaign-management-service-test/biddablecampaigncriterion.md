@@ -35,7 +35,7 @@ Defines a biddable criterion that you want applied to the specified campaign.
 
 ```json
 {
-  "CampaignId": "ValueHere",
+  "CampaignId": "LongValueHere",
   "Criterion": {
     "Type": "AgeCriterion",
     "AgeRange": "ValueHere"
@@ -46,16 +46,16 @@ Defines a biddable criterion that you want applied to the specified campaign.
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "Type": "BiddableCampaignCriterion",
   "CriterionBid": {
     "Type": "BidMultiplier",
-    "Multiplier": NumbericValueHere
+    "Multiplier": "DoubleValueHere"
   },
   "CriterionCashback": {
     "Type": "CashbackAdjustment",
-    "CashbackPercent": NumbericValueHere
+    "CashbackPercent": "DoubleValueHere"
   }
 }
 ```

@@ -25,8 +25,8 @@ Defines the relationship between a label and campaign, ad group, ad, or keyword 
 
 ```json
 {
-  "EntityId": "ValueHere",
-  "LabelId": "ValueHere"
+  "EntityId": "LongValueHere",
+  "LabelId": "LongValueHere"
 }
 ```
 

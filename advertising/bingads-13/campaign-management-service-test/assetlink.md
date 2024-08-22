@@ -30,16 +30,16 @@ For example, within a [ResponsiveSearchAd](responsivesearchad.md) there is an ar
 ```json
 {
   "Asset": {
-    "Id": "ValueHere",
+    "Id": "LongValueHere",
     "Name": "ValueHere",
     "Type": "ImageAsset",
-    "CropHeight": NumbericValueHere,
-    "CropWidth": NumbericValueHere,
-    "CropX": NumbericValueHere,
-    "CropY": NumbericValueHere,
+    "CropHeight": "IntValueHere",
+    "CropWidth": "IntValueHere",
+    "CropX": "IntValueHere",
+    "CropY": "IntValueHere",
     "SubType": "ValueHere",
-    "TargetHeight": NumbericValueHere,
-    "TargetWidth": NumbericValueHere
+    "TargetHeight": "IntValueHere",
+    "TargetWidth": "IntValueHere"
   },
   "AssetPerformanceLabel": "ValueHere",
   "EditorialStatus": "ValueHere",

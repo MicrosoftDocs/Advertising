@@ -31,7 +31,7 @@ Search campaigns, Shopping campaigns, [Smart shopping campaigns](../guides/smart
 ```json
 {
   "Type": "MaxConversionValueBiddingScheme",
-  "TargetRoas": NumbericValueHere
+  "TargetRoas": "DoubleValueHere"
 }
 ```
 

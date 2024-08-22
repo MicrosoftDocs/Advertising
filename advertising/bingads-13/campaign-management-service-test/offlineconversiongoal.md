@@ -46,24 +46,24 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": NumbericValueHere,
+  "ConversionWindowInMinutes": "IntValueHere",
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "IsEnhancedConversionsEnabled": "ValueHere",
   "Name": "ValueHere",
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": NumbericValueHere
+    "Value": "DecimalValueHere"
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
-  "TagId": "ValueHere",
+  "TagId": "LongValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "OfflineConversion",
-  "ViewThroughConversionWindowInMinutes": NumbericValueHere,
+  "ViewThroughConversionWindowInMinutes": "IntValueHere",
   "IsExternallyAttributed": "ValueHere"
 }
 ```

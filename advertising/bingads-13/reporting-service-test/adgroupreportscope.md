@@ -26,9 +26,9 @@ Defines an ad group to include in the report.
 
 ```json
 {
-  "AccountId": "ValueHere",
-  "AdGroupId": "ValueHere",
-  "CampaignId": "ValueHere"
+  "AccountId": "LongValueHere",
+  "AdGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere"
 }
 ```
 

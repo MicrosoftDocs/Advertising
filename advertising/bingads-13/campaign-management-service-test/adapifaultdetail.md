@@ -32,7 +32,7 @@ Defines a Campaign Management Ad API fault detail object that operations return 
   "Type": "AdApiFaultDetail",
   "Errors": [
     {
-      "Code": NumbericValueHere,
+      "Code": "IntValueHere",
       "Detail": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

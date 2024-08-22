@@ -25,8 +25,8 @@ Defines an object that contains the unique system identifier of an entity such a
 
 ```json
 {
-  "EntityId": "ValueHere",
-  "ParentId": "ValueHere"
+  "EntityId": "LongValueHere",
+  "ParentId": "LongValueHere"
 }
 ```
 

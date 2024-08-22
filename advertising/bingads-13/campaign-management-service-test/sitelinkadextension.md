@@ -39,39 +39,39 @@ You can associate a sitelink ad extension with the account or with campaigns and
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": "IntValueHere",
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": "IntValueHere",
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "SitelinkAdExtension",
-  "Version": NumbericValueHere,
+  "Version": "IntValueHere",
   "Description1": "ValueHere",
   "Description2": "ValueHere",
   "DestinationUrl": "ValueHere",

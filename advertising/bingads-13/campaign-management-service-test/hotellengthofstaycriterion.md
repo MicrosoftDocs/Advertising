@@ -30,8 +30,8 @@ Criterion for length of hotel stay in nights.
 ```json
 {
   "Type": "HotelLengthOfStayCriterion",
-  "MaxNights": NumbericValueHere,
-  "MinNights": NumbericValueHere
+  "MaxNights": "IntValueHere",
+  "MinNights": "IntValueHere"
 }
 ```
 

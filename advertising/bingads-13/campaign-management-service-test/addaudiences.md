@@ -372,21 +372,21 @@ Below is an example that is applicable if the type of [Audience](audience.md) is
 {
   "Audiences": [
     {
-      "AudienceNetworkSize": "ValueHere",
+      "AudienceNetworkSize": "LongValueHere",
       "CustomerShare": {
         "CustomerAccountShares": [
           {
-            "AccountId": "ValueHere",
+            "AccountId": "LongValueHere",
             "Associations": [
               {
-                "AssociationCount": "ValueHere",
+                "AssociationCount": "LongValueHere",
                 "UsageType": "ValueHere"
               }
             ],
-            "CustomerId": "ValueHere"
+            "CustomerId": "LongValueHere"
           }
         ],
-        "OwnerCustomerId": "ValueHere"
+        "OwnerCustomerId": "LongValueHere"
       },
       "Description": "ValueHere",
       "ForwardCompatibilityMap": [
@@ -395,12 +395,12 @@ Below is an example that is applicable if the type of [Audience](audience.md) is
           "value": "ValueHere"
         }
       ],
-      "Id": "ValueHere",
-      "MembershipDuration": NumbericValueHere,
+      "Id": "LongValueHere",
+      "MembershipDuration": IntValueHere,
       "Name": "ValueHere",
-      "ParentId": "ValueHere",
+      "ParentId": "LongValueHere",
       "Scope": "ValueHere",
-      "SearchSize": "ValueHere",
+      "SearchSize": "LongValueHere",
       "SupportedCampaignTypes": [
         "ValueHere"
       ],
@@ -408,7 +408,7 @@ Below is an example that is applicable if the type of [Audience](audience.md) is
       "CombinationRules": [
         {
           "AudienceIds": [
-            "ValueHere"
+            "LongValueHere"
           ],
           "Operator": "ValueHere"
         }
@@ -426,11 +426,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```json
 {
   "AudienceIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -440,14 +440,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

@@ -25,7 +25,7 @@ An object containing and ID an type for an audience.
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Type": "ValueHere"
 }
 ```

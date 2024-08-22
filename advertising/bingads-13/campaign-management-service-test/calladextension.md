@@ -34,39 +34,39 @@ You can associate a call ad extension with campaigns in the account. Each entity
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": "IntValueHere",
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": "IntValueHere",
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "CallAdExtension",
-  "Version": NumbericValueHere,
+  "Version": "IntValueHere",
   "CountryCode": "ValueHere",
   "IsCallOnly": "ValueHere",
   "IsCallTrackingEnabled": "ValueHere",

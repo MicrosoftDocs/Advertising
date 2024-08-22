@@ -46,31 +46,31 @@ By default, the UET tag logs user visits to pages on your website that allows Mi
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": NumbericValueHere,
+  "ConversionWindowInMinutes": "IntValueHere",
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "IsEnhancedConversionsEnabled": "ValueHere",
   "Name": "ValueHere",
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": NumbericValueHere
+    "Value": "DecimalValueHere"
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
-  "TagId": "ValueHere",
+  "TagId": "LongValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "Event",
-  "ViewThroughConversionWindowInMinutes": NumbericValueHere,
+  "ViewThroughConversionWindowInMinutes": "IntValueHere",
   "ActionExpression": "ValueHere",
   "ActionOperator": "ValueHere",
   "CategoryExpression": "ValueHere",
   "CategoryOperator": "ValueHere",
   "LabelExpression": "ValueHere",
   "LabelOperator": "ValueHere",
-  "Value": NumbericValueHere,
+  "Value": "DecimalValueHere",
   "ValueOperator": "ValueHere"
 }
 ```

@@ -26,12 +26,12 @@ Defines the set of accounts and campaigns to include in the report.
 ```json
 {
   "AccountIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "Campaigns": [
     {
-      "AccountId": "ValueHere",
-      "CampaignId": "ValueHere"
+      "AccountId": "LongValueHere",
+      "CampaignId": "LongValueHere"
     }
   ]
 }

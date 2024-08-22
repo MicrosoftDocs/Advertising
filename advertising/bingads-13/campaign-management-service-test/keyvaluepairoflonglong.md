@@ -34,8 +34,8 @@ The key and value pair of long and long values defined by the Campaign Managemen
 
 ```json
 {
-  "key": "ValueHere",
-  "value": "ValueHere"
+  "key": "LongValueHere",
+  "value": "LongValueHere"
 }
 ```
 

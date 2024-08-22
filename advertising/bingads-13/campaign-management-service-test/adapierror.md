@@ -27,7 +27,7 @@ Defines a Campaign Management Ad API error object that contains the details that
 
 ```json
 {
-  "Code": NumbericValueHere,
+  "Code": "IntValueHere",
   "Detail": "ValueHere",
   "ErrorCode": "ValueHere",
   "Message": "ValueHere"

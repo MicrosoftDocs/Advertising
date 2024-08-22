@@ -46,10 +46,10 @@ Also note that you must consider the location, negative location, and radius cri
 ```json
 {
   "Type": "RadiusCriterion",
-  "LatitudeDegrees": NumbericValueHere,
-  "LongitudeDegrees": NumbericValueHere,
+  "LatitudeDegrees": "DoubleValueHere",
+  "LongitudeDegrees": "DoubleValueHere",
   "Name": "ValueHere",
-  "Radius": "ValueHere",
+  "Radius": "LongValueHere",
   "RadiusUnit": "ValueHere"
 }
 ```

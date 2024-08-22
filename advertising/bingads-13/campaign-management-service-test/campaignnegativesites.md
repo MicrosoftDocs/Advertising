@@ -25,7 +25,7 @@ Defines an object that contains the negative site URLs of a campaign.
 
 ```json
 {
-  "CampaignId": "ValueHere",
+  "CampaignId": "LongValueHere",
   "NegativeSites": [
     "ValueHere"
   ]

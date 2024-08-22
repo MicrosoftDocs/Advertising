@@ -25,7 +25,7 @@ Defines an object that contains a list of entity identifiers.
 ```json
 {
   "Ids": [
-    "ValueHere"
+    "LongValueHere"
   ]
 }
 ```

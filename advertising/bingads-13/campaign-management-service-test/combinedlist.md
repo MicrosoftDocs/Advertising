@@ -35,21 +35,21 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
 
 ```json
 {
-  "AudienceNetworkSize": "ValueHere",
+  "AudienceNetworkSize": "LongValueHere",
   "CustomerShare": {
     "CustomerAccountShares": [
       {
-        "AccountId": "ValueHere",
+        "AccountId": "LongValueHere",
         "Associations": [
           {
-            "AssociationCount": "ValueHere",
+            "AssociationCount": "LongValueHere",
             "UsageType": "ValueHere"
           }
         ],
-        "CustomerId": "ValueHere"
+        "CustomerId": "LongValueHere"
       }
     ],
-    "OwnerCustomerId": "ValueHere"
+    "OwnerCustomerId": "LongValueHere"
   },
   "Description": "ValueHere",
   "ForwardCompatibilityMap": [
@@ -58,12 +58,12 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
-  "MembershipDuration": NumbericValueHere,
+  "Id": "LongValueHere",
+  "MembershipDuration": "IntValueHere",
   "Name": "ValueHere",
-  "ParentId": "ValueHere",
+  "ParentId": "LongValueHere",
   "Scope": "ValueHere",
-  "SearchSize": "ValueHere",
+  "SearchSize": "LongValueHere",
   "SupportedCampaignTypes": [
     "ValueHere"
   ],
@@ -71,7 +71,7 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
   "CombinationRules": [
     {
       "AudienceIds": [
-        "ValueHere"
+        "LongValueHere"
       ],
       "Operator": "ValueHere"
     }

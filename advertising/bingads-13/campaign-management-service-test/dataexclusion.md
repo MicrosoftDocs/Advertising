@@ -33,14 +33,14 @@ Defines a data object for DataExclusion.
 {
   "CampaignAssociations": [
     {
-      "CampaignId": "ValueHere"
+      "CampaignId": "LongValueHere"
     }
   ],
   "CampaignTypeFilter": "ValueHere",
   "Description": "ValueHere",
   "DeviceTypeFilter": "ValueHere",
   "EndDate": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "StartDate": "ValueHere"
 }

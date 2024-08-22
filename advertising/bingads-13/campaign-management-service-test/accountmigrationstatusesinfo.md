@@ -25,7 +25,7 @@ Defines an object that contains migration status for an account.
 
 ```json
 {
-  "AccountId": "ValueHere",
+  "AccountId": "LongValueHere",
   "MigrationStatusInfos": [
     {
       "MigrationType": "ValueHere",

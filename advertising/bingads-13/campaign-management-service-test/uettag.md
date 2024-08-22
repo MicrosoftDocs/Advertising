@@ -40,20 +40,20 @@ You can use one UET tag with all of your conversion goals and audiences. Before 
   "CustomerShare": {
     "CustomerAccountShares": [
       {
-        "AccountId": "ValueHere",
+        "AccountId": "LongValueHere",
         "Associations": [
           {
-            "AssociationCount": "ValueHere",
+            "AssociationCount": "LongValueHere",
             "UsageType": "ValueHere"
           }
         ],
-        "CustomerId": "ValueHere"
+        "CustomerId": "LongValueHere"
       }
     ],
-    "OwnerCustomerId": "ValueHere"
+    "OwnerCustomerId": "LongValueHere"
   },
   "Description": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "TrackingNoScript": "ValueHere",
   "TrackingScript": "ValueHere",

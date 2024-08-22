@@ -28,7 +28,7 @@ Contains the association count for the corresponding usage type.
 
 ```json
 {
-  "AssociationCount": "ValueHere",
+  "AssociationCount": "LongValueHere",
   "UsageType": "ValueHere"
 }
 ```

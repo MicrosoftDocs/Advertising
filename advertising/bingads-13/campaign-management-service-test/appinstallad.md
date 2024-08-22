@@ -46,7 +46,7 @@ The combination of the AppPlatform, AppStoreId, Text, and Title elements make th
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -67,7 +67,7 @@ The combination of the AppPlatform, AppStoreId, Text, and Title elements make th
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "AppInstall",

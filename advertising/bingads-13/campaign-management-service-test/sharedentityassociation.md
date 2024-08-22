@@ -34,10 +34,10 @@ Defines an object that associates a campaign to negative keyword list, or an ad 
 
 ```json
 {
-  "EntityId": "ValueHere",
+  "EntityId": "LongValueHere",
   "EntityType": "ValueHere",
-  "SharedEntityCustomerId": "ValueHere",
-  "SharedEntityId": "ValueHere",
+  "SharedEntityCustomerId": "LongValueHere",
+  "SharedEntityId": "LongValueHere",
   "SharedEntityType": "ValueHere"
 }
 ```

@@ -32,7 +32,7 @@ Defines a Bulk Ad API fault detail object that operations return when generic er
   "Type": "AdApiFaultDetail",
   "Errors": [
     {
-      "Code": NumbericValueHere,
+      "Code": "IntValueHere",
       "Detail": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

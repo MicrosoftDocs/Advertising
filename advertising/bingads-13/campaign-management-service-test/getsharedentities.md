@@ -228,17 +228,17 @@ Below is an example that is applicable if the type of [SharedEntity](sharedentit
 {
   "SharedEntities": [
     {
-      "AssociationCount": NumbericValueHere,
+      "AssociationCount": IntValueHere,
       "ForwardCompatibilityMap": [
         {
           "key": "ValueHere",
           "value": "ValueHere"
         }
       ],
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Name": "ValueHere",
       "Type": "SharedList",
-      "ItemCount": NumbericValueHere
+      "ItemCount": IntValueHere
     }
   ]
 }

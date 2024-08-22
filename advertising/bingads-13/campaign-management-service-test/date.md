@@ -26,9 +26,9 @@ Represents a date.
 
 ```json
 {
-  "Day": NumbericValueHere,
-  "Month": NumbericValueHere,
-  "Year": NumbericValueHere
+  "Day": "IntValueHere",
+  "Month": "IntValueHere",
+  "Year": "IntValueHere"
 }
 ```
 

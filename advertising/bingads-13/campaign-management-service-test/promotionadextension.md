@@ -49,39 +49,39 @@ You can associate a promotion ad extension with the account or with campaigns an
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": "IntValueHere",
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": "IntValueHere",
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": "IntValueHere",
+      "Month": "IntValueHere",
+      "Year": "IntValueHere"
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "PromotionAdExtension",
-  "Version": NumbericValueHere,
+  "Version": "IntValueHere",
   "CurrencyCode": "ValueHere",
   "DiscountModifier": "ValueHere",
   "FinalAppUrls": [
@@ -98,21 +98,21 @@ You can associate a promotion ad extension with the account or with campaigns an
   ],
   "FinalUrlSuffix": "ValueHere",
   "Language": "ValueHere",
-  "MoneyAmountOff": NumbericValueHere,
-  "OrdersOverAmount": NumbericValueHere,
-  "PercentOff": NumbericValueHere,
+  "MoneyAmountOff": "DoubleValueHere",
+  "OrdersOverAmount": "DoubleValueHere",
+  "PercentOff": "DoubleValueHere",
   "PromotionCode": "ValueHere",
   "PromotionEndDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": "IntValueHere",
+    "Month": "IntValueHere",
+    "Year": "IntValueHere"
   },
   "PromotionItem": "ValueHere",
   "PromotionOccasion": "ValueHere",
   "PromotionStartDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": "IntValueHere",
+    "Month": "IntValueHere",
+    "Year": "IntValueHere"
   },
   "TrackingUrlTemplate": "ValueHere",
   "UrlCustomParameters": {

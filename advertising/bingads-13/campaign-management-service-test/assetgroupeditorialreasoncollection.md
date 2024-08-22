@@ -28,15 +28,15 @@ Defines a collection of asset groups that failed editorial review.
 ```json
 {
   "AppealStatus": "ValueHere",
-  "AssetGroupId": "ValueHere",
-  "CampaignId": "ValueHere",
+  "AssetGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere",
   "Reasons": [
     {
       "Location": "ValueHere",
       "PublisherCountries": [
         "ValueHere"
       ],
-      "ReasonCode": NumbericValueHere,
+      "ReasonCode": "IntValueHere",
       "Term": "ValueHere"
     }
   ]

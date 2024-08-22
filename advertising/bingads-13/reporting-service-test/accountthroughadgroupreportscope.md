@@ -27,19 +27,19 @@ Defines the set of accounts, campaigns, and ad groups to include in the report.
 ```json
 {
   "AccountIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "AdGroups": [
     {
-      "AccountId": "ValueHere",
-      "AdGroupId": "ValueHere",
-      "CampaignId": "ValueHere"
+      "AccountId": "LongValueHere",
+      "AdGroupId": "LongValueHere",
+      "CampaignId": "LongValueHere"
     }
   ],
   "Campaigns": [
     {
-      "AccountId": "ValueHere",
-      "CampaignId": "ValueHere"
+      "AccountId": "LongValueHere",
+      "CampaignId": "LongValueHere"
     }
   ]
 }
