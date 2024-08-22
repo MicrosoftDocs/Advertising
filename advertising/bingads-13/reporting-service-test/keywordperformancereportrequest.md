@@ -58,7 +58,7 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
     "AdDistribution": "ValueHere",
     "AdGroupStatus": "ValueHere",
     "AdRelevance": [
-      NumbericValueHere
+      IntValueHere
     ],
     "AdType": "ValueHere",
     "BidMatchType": "ValueHere",
@@ -67,36 +67,36 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
     "DeliveredMatchType": "ValueHere",
     "DeviceType": "ValueHere",
     "ExpectedCtr": [
-      NumbericValueHere
+      IntValueHere
     ],
     "Keywords": [
       "ValueHere"
     ],
     "KeywordStatus": "ValueHere",
     "LandingPageExperience": [
-      NumbericValueHere
+      IntValueHere
     ],
     "Language": "ValueHere",
     "QualityScore": [
-      NumbericValueHere
+      IntValueHere
     ]
   },
-  "MaxRows": NumbericValueHere,
+  "MaxRows": IntValueHere,
   "Scope": {
     "AccountIds": [
-      "ValueHere"
+      "LongValueHere"
     ],
     "AdGroups": [
       {
-        "AccountId": "ValueHere",
-        "AdGroupId": "ValueHere",
-        "CampaignId": "ValueHere"
+        "AccountId": "LongValueHere",
+        "AdGroupId": "LongValueHere",
+        "CampaignId": "LongValueHere"
       }
     ],
     "Campaigns": [
       {
-        "AccountId": "ValueHere",
-        "CampaignId": "ValueHere"
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
       }
     ]
   },
@@ -108,14 +108,14 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
   ],
   "Time": {
     "CustomDateRangeEnd": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "CustomDateRangeStart": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "PredefinedTime": "ValueHere",
     "ReportTimeZone": "ValueHere"

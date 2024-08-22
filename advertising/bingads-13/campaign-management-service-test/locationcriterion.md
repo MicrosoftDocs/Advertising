@@ -50,9 +50,9 @@ Also note that you must consider the location, negative location, and radius cri
   "Type": "LocationCriterion",
   "DisplayName": "ValueHere",
   "EnclosedLocationIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
-  "LocationId": "ValueHere",
+  "LocationId": "LongValueHere",
   "LocationType": "ValueHere"
 }
 ```

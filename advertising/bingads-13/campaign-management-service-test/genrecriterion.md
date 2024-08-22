@@ -111,7 +111,7 @@ These are the possible values for *GenreId*:
 ```json
 {
   "Type": "GenreCriterion",
-  "GenreId": "ValueHere"
+  "GenreId": "LongValueHere"
 }
 ```
 

@@ -25,14 +25,14 @@ Defines a collection of ad extensions that failed editorial review.
 
 ```json
 {
-  "AdExtensionId": "ValueHere",
+  "AdExtensionId": "LongValueHere",
   "Reasons": [
     {
       "Location": "ValueHere",
       "PublisherCountries": [
         "ValueHere"
       ],
-      "ReasonCode": NumbericValueHere,
+      "ReasonCode": IntValueHere,
       "Term": "ValueHere"
     }
   ]

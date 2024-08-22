@@ -78,7 +78,7 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -99,7 +99,7 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "ResponsiveAd",
@@ -118,16 +118,16 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   "Descriptions": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -138,16 +138,16 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   "Headlines": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -157,16 +157,16 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   "Images": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -178,16 +178,16 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   ],
   "LongHeadline": {
     "Asset": {
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Name": "ValueHere",
       "Type": "ImageAsset",
-      "CropHeight": NumbericValueHere,
-      "CropWidth": NumbericValueHere,
-      "CropX": NumbericValueHere,
-      "CropY": NumbericValueHere,
+      "CropHeight": IntValueHere,
+      "CropWidth": IntValueHere,
+      "CropX": IntValueHere,
+      "CropY": IntValueHere,
       "SubType": "ValueHere",
-      "TargetHeight": NumbericValueHere,
-      "TargetWidth": NumbericValueHere
+      "TargetHeight": IntValueHere,
+      "TargetWidth": IntValueHere
     },
     "AssetPerformanceLabel": "ValueHere",
     "EditorialStatus": "ValueHere",
@@ -196,16 +196,16 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   "LongHeadlines": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -225,16 +225,16 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   "Videos": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",

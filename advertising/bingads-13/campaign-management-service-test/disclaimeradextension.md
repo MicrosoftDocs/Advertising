@@ -38,39 +38,39 @@ Defines an ad extension that specifies disclaimer text to include in an expanded
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "DisclaimerAdExtension",
-  "Version": NumbericValueHere,
+  "Version": IntValueHere,
   "DisclaimerLayout": "ValueHere",
   "FinalAppUrls": [
     {

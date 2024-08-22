@@ -39,7 +39,7 @@ Elements of this object are defined in the Microsoft Merchant Center store, and 
 ```json
 {
   "HasCatalog": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "IsActive": "ValueHere",
   "IsProductAdsEnabled": "ValueHere",
   "Name": "ValueHere",

@@ -52,32 +52,32 @@ Defines a data object for AssetGroupPerformanceReportRequest.
   },
   "Scope": {
     "AccountIds": [
-      "ValueHere"
+      "LongValueHere"
     ],
     "AssetGroups": [
       {
-        "AccountId": "ValueHere",
-        "AssetGroupId": "ValueHere",
-        "CampaignId": "ValueHere"
+        "AccountId": "LongValueHere",
+        "AssetGroupId": "LongValueHere",
+        "CampaignId": "LongValueHere"
       }
     ],
     "Campaigns": [
       {
-        "AccountId": "ValueHere",
-        "CampaignId": "ValueHere"
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
       }
     ]
   },
   "Time": {
     "CustomDateRangeEnd": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "CustomDateRangeStart": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "PredefinedTime": "ValueHere",
     "ReportTimeZone": "ValueHere"

@@ -274,17 +274,17 @@ Below is an example that is applicable if the type of [SharedListItem](sharedlis
 ```json
 {
   "SharedEntity": {
-    "AssociationCount": NumbericValueHere,
+    "AssociationCount": IntValueHere,
     "ForwardCompatibilityMap": [
       {
         "key": "ValueHere",
         "value": "ValueHere"
       }
     ],
-    "Id": "ValueHere",
+    "Id": "LongValueHere",
     "Name": "ValueHere",
     "Type": "SharedList",
-    "ItemCount": NumbericValueHere
+    "ItemCount": IntValueHere
   },
   "ListItems": [
     {
@@ -295,7 +295,7 @@ Below is an example that is applicable if the type of [SharedListItem](sharedlis
         }
       ],
       "Type": "BrandItem",
-      "BrandId": "ValueHere"
+      "BrandId": "LongValueHere"
     }
   ],
   "SharedEntityScope": "ValueHere"
@@ -310,11 +310,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```json
 {
   "ListItemIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -324,17 +324,17 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ],
-  "SharedEntityId": "ValueHere"
+  "SharedEntityId": "LongValueHere"
 }
 ```
 

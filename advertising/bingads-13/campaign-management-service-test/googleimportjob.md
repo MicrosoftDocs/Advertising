@@ -41,7 +41,7 @@ An account can have up to 100 scheduled Google import jobs.
 
 ```json
 {
-  "CreatedByUserId": "ValueHere",
+  "CreatedByUserId": "LongValueHere",
   "CreatedByUserName": "ValueHere",
   "CreatedDateTimeInUTC": "ValueHere",
   "Frequency": {
@@ -49,7 +49,7 @@ An account can have up to 100 scheduled Google import jobs.
     "TimeZone": "ValueHere",
     "Type": "ValueHere"
   },
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "ImportOption": {
     "ForwardCompatibilityMap": [
       {
@@ -59,11 +59,11 @@ An account can have up to 100 scheduled Google import jobs.
     ],
     "Type": "GoogleImportOption",
     "AccountUrlOptions": "ValueHere",
-    "AdjustmentForBids": NumbericValueHere,
-    "AdjustmentForCampaignBudgets": NumbericValueHere,
+    "AdjustmentForBids": DoubleValueHere,
+    "AdjustmentForCampaignBudgets": DoubleValueHere,
     "AdScheduleUseSearcherTimezone": "ValueHere",
-    "AssociatedStoreId": "ValueHere",
-    "AssociatedUetTagId": "ValueHere",
+    "AssociatedStoreId": "LongValueHere",
+    "AssociatedUetTagId": "LongValueHere",
     "AutoDeviceBidOptimization": "ValueHere",
     "DeleteRemovedEntities": "ValueHere",
     "EnableAutoCurrencyConversion": "ValueHere",
@@ -186,13 +186,13 @@ An account can have up to 100 scheduled Google import jobs.
     {
       "ActiveAdGroupsOnly": "ValueHere",
       "AdGroupIds": [
-        "ValueHere"
+        "LongValueHere"
       ],
-      "CampaignId": "ValueHere"
+      "CampaignId": "LongValueHere"
     }
   ],
   "CredentialId": "ValueHere",
-  "GoogleAccountId": "ValueHere",
+  "GoogleAccountId": "LongValueHere",
   "GoogleUserName": "ValueHere"
 }
 ```

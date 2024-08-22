@@ -25,8 +25,8 @@ Defines an object that identifies a campaign to download.
 
 ```json
 {
-  "CampaignId": "ValueHere",
-  "ParentAccountId": "ValueHere"
+  "CampaignId": "LongValueHere",
+  "ParentAccountId": "LongValueHere"
 }
 ```
 

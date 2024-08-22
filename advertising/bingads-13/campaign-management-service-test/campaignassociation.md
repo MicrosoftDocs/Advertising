@@ -24,7 +24,7 @@ Defines a data object for which campaigns to associate to data exclusions and se
 
 ```json
 {
-  "CampaignId": "ValueHere"
+  "CampaignId": "LongValueHere"
 }
 ```
 

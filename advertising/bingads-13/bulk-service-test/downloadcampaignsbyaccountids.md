@@ -253,7 +253,7 @@ Below is an example that is applicable if the type of [ApplicationFault](applica
 ```json
 {
   "AccountIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "CompressionType": "ValueHere",
   "DataScope": "ValueHere",

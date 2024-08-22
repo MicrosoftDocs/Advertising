@@ -25,8 +25,8 @@ Defines an AudienceGroupAssetGroupAssociation data object.
 
 ```json
 {
-  "AssetGroupId": "ValueHere",
-  "AudienceGroupId": "ValueHere"
+  "AssetGroupId": "LongValueHere",
+  "AudienceGroupId": "LongValueHere"
 }
 ```
 

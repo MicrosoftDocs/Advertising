@@ -29,16 +29,16 @@ A listing group that corresponds directly to the identifiers specified in the re
 
 ```json
 {
-  "AssetGroupId": "ValueHere",
+  "AssetGroupId": "LongValueHere",
   "AssetGroupListingType": "ValueHere",
   "Dimension": {
     "Attribute": "ValueHere",
     "Operand": "ValueHere",
     "Operator": "ValueHere"
   },
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "IsExcluded": "ValueHere",
-  "ParentListingGroupId": "ValueHere"
+  "ParentListingGroupId": "LongValueHere"
 }
 ```
 

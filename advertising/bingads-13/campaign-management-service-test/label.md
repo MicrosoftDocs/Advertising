@@ -29,7 +29,7 @@ Defines a label object to organize campaigns, ad groups, ads, and keywords into 
 {
   "ColorCode": "ValueHere",
   "Description": "ValueHere",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere"
 }
 ```

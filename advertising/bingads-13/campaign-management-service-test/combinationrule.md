@@ -26,7 +26,7 @@ A combination rule includes logical conditions used to determine who to add to y
 ```json
 {
   "AudienceIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "Operator": "ValueHere"
 }

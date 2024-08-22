@@ -29,9 +29,9 @@ Defines a day of the week and time range for ad extension scheduling.
 ```json
 {
   "Day": "ValueHere",
-  "EndHour": NumbericValueHere,
+  "EndHour": IntValueHere,
   "EndMinute": "ValueHere",
-  "StartHour": NumbericValueHere,
+  "StartHour": IntValueHere,
   "StartMinute": "ValueHere"
 }
 ```

@@ -34,15 +34,15 @@ Defines a media meta data object. The meta data includes download Urls for one o
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "MediaType": "ValueHere",
   "Representations": [
     {
       "Name": "ValueHere",
       "Type": "ImageMediaRepresentation",
       "Url": "ValueHere",
-      "Height": NumbericValueHere,
-      "Width": NumbericValueHere
+      "Height": IntValueHere,
+      "Width": IntValueHere
     }
   ],
   "Text": "ValueHere",

@@ -27,8 +27,8 @@ Defines a collection of ads or keywords that failed editorial review, and the re
 
 ```json
 {
-  "AdGroupId": "ValueHere",
-  "AdOrKeywordId": "ValueHere",
+  "AdGroupId": "LongValueHere",
+  "AdOrKeywordId": "LongValueHere",
   "AppealStatus": "ValueHere",
   "Reasons": [
     {
@@ -36,7 +36,7 @@ Defines a collection of ads or keywords that failed editorial review, and the re
       "PublisherCountries": [
         "ValueHere"
       ],
-      "ReasonCode": NumbericValueHere,
+      "ReasonCode": IntValueHere,
       "Term": "ValueHere"
     }
   ]

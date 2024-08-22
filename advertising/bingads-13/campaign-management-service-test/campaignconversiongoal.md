@@ -25,8 +25,8 @@ Defines the base object of a campaign conversion goal.
 
 ```json
 {
-  "CampaignId": "ValueHere",
-  "GoalId": "ValueHere"
+  "CampaignId": "LongValueHere",
+  "GoalId": "LongValueHere"
 }
 ```
 

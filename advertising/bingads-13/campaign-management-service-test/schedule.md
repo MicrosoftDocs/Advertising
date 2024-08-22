@@ -32,21 +32,21 @@ Use the *StartDate* and *EndDate* elements for calendar level scheduling, and th
   "DayTimeRanges": [
     {
       "Day": "ValueHere",
-      "EndHour": NumbericValueHere,
+      "EndHour": IntValueHere,
       "EndMinute": "ValueHere",
-      "StartHour": NumbericValueHere,
+      "StartHour": IntValueHere,
       "StartMinute": "ValueHere"
     }
   ],
   "EndDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "StartDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "UseSearcherTimeZone": "ValueHere"
 }

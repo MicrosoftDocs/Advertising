@@ -29,18 +29,18 @@ Defines the VideoAsset Data Object.
 
 ```json
 {
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Name": "ValueHere",
   "Type": "VideoAsset",
   "SubType": "ValueHere",
   "ThumbnailImage": {
-    "CropHeight": NumbericValueHere,
-    "CropWidth": NumbericValueHere,
-    "CropX": NumbericValueHere,
-    "CropY": NumbericValueHere,
+    "CropHeight": IntValueHere,
+    "CropWidth": IntValueHere,
+    "CropX": IntValueHere,
+    "CropY": IntValueHere,
     "SubType": "ValueHere",
-    "TargetHeight": NumbericValueHere,
-    "TargetWidth": NumbericValueHere
+    "TargetHeight": IntValueHere,
+    "TargetWidth": IntValueHere
   }
 }
 ```

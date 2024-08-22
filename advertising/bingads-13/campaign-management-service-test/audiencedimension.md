@@ -31,7 +31,7 @@ An object that inherits AudienceGroupDimension.
   "Type": "Audience",
   "Audiences": [
     {
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Type": "ValueHere"
     }
   ]

@@ -25,8 +25,8 @@ Defines an object that contains the longitude and latitude coordinates of a geog
 
 ```json
 {
-  "LatitudeInMicroDegrees": NumbericValueHere,
-  "LongitudeInMicroDegrees": NumbericValueHere
+  "LatitudeInMicroDegrees": IntValueHere,
+  "LongitudeInMicroDegrees": IntValueHere
 }
 ```
 

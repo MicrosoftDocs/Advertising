@@ -47,7 +47,7 @@ The supported criteria varies by campaign type. Microsoft Advertising applies a 
 ```json
 {
   "Type": "ProfileCriterion",
-  "ProfileId": "ValueHere",
+  "ProfileId": "LongValueHere",
   "ProfileType": "ValueHere"
 }
 ```

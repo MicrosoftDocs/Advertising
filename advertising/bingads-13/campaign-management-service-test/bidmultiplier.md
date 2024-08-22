@@ -29,7 +29,7 @@ Defines the multiplier by which to adjust your base bid for the corresponding cr
 ```json
 {
   "Type": "BidMultiplier",
-  "Multiplier": NumbericValueHere
+  "Multiplier": DoubleValueHere
 }
 ```
 

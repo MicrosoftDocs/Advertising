@@ -27,16 +27,16 @@ An object that contains an Action element and a ListingGroup element.
 {
   "Action": "ValueHere",
   "ListingGroup": {
-    "AssetGroupId": "ValueHere",
+    "AssetGroupId": "LongValueHere",
     "AssetGroupListingType": "ValueHere",
     "Dimension": {
       "Attribute": "ValueHere",
       "Operand": "ValueHere",
       "Operator": "ValueHere"
     },
-    "Id": "ValueHere",
+    "Id": "LongValueHere",
     "IsExcluded": "ValueHere",
-    "ParentListingGroupId": "ValueHere"
+    "ParentListingGroupId": "LongValueHere"
   }
 }
 ```

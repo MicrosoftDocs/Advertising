@@ -264,24 +264,24 @@ Below is an example that is applicable if the type of [ConversionGoal](conversio
   "ConversionGoals": [
     {
       "AttributionModelType": "ValueHere",
-      "ConversionWindowInMinutes": NumbericValueHere,
+      "ConversionWindowInMinutes": IntValueHere,
       "CountType": "ValueHere",
       "ExcludeFromBidding": "ValueHere",
       "GoalCategory": "ValueHere",
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "IsEnhancedConversionsEnabled": "ValueHere",
       "Name": "ValueHere",
       "Revenue": {
         "CurrencyCode": "ValueHere",
         "Type": "ValueHere",
-        "Value": NumbericValueHere
+        "Value": DecimalValueHere
       },
       "Scope": "ValueHere",
       "Status": "ValueHere",
-      "TagId": "ValueHere",
+      "TagId": "LongValueHere",
       "TrackingStatus": "ValueHere",
       "Type": "AppInstall",
-      "ViewThroughConversionWindowInMinutes": NumbericValueHere,
+      "ViewThroughConversionWindowInMinutes": IntValueHere,
       "AppPlatform": "ValueHere",
       "AppStoreId": "ValueHere"
     }
@@ -297,11 +297,11 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```json
 {
   "ConversionGoalIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -311,14 +311,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

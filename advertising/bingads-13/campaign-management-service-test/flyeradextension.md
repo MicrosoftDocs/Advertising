@@ -43,39 +43,39 @@ They can display prominently on broad queries like "weekly deals" or "weekly sal
 
 ```json
 {
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "ForwardCompatibilityMap": [
     {
       "key": "ValueHere",
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Scheduling": {
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": NumbericValueHere,
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": NumbericValueHere,
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": NumbericValueHere,
-      "Month": NumbericValueHere,
-      "Year": NumbericValueHere
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "FlyerAdExtension",
-  "Version": NumbericValueHere,
+  "Version": IntValueHere,
   "Description": "ValueHere",
   "FinalAppUrls": [
     {
@@ -92,12 +92,12 @@ They can display prominently on broad queries like "weekly deals" or "weekly sal
   "FinalUrlSuffix": "ValueHere",
   "FlyerName": "ValueHere",
   "ImageMediaIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "ImageMediaUrls": [
     "ValueHere"
   ],
-  "StoreId": "ValueHere",
+  "StoreId": "LongValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "UrlCustomParameters": {
     "Parameters": [

@@ -45,7 +45,7 @@ The combination of the FinalUrls, Path1, Path2, Text, TextPart2, TitlePart1, Tit
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -66,7 +66,7 @@ The combination of the FinalUrls, Path1, Path2, Text, TextPart2, TitlePart1, Tit
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "ExpandedText",

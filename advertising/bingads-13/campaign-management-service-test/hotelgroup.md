@@ -36,7 +36,7 @@ Defines an object that organizes your hotel ads.
     "Operand": "ValueHere"
   },
   "ListingType": "ValueHere",
-  "ParentCriterionId": "ValueHere"
+  "ParentCriterionId": "LongValueHere"
 }
 ```
 

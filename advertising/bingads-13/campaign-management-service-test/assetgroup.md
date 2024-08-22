@@ -49,7 +49,7 @@ Defines an asset group in an advertising campaign.
 {
   "AssetGroupSearchThemes": [
     {
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "SearchTheme": "ValueHere"
     }
   ],
@@ -58,16 +58,16 @@ Defines an asset group in an advertising campaign.
   "Descriptions": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -76,9 +76,9 @@ Defines an asset group in an advertising campaign.
   ],
   "EditorialStatus": "ValueHere",
   "EndDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "FinalMobileUrls": [
     "ValueHere"
@@ -95,36 +95,36 @@ Defines an asset group in an advertising campaign.
   "Headlines": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
       "PinnedField": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Images": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -134,16 +134,16 @@ Defines an asset group in an advertising campaign.
   "LongHeadlines": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -154,9 +154,9 @@ Defines an asset group in an advertising campaign.
   "Path1": "ValueHere",
   "Path2": "ValueHere",
   "StartDate": {
-    "Day": NumbericValueHere,
-    "Month": NumbericValueHere,
-    "Year": NumbericValueHere
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "Status": "ValueHere"
 }

@@ -27,19 +27,19 @@ Defines a AccountThroughAssetGroupReportScope data object.
 ```json
 {
   "AccountIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "AssetGroups": [
     {
-      "AccountId": "ValueHere",
-      "AssetGroupId": "ValueHere",
-      "CampaignId": "ValueHere"
+      "AccountId": "LongValueHere",
+      "AssetGroupId": "LongValueHere",
+      "CampaignId": "LongValueHere"
     }
   ],
   "Campaigns": [
     {
-      "AccountId": "ValueHere",
-      "CampaignId": "ValueHere"
+      "AccountId": "LongValueHere",
+      "CampaignId": "LongValueHere"
     }
   ]
 }

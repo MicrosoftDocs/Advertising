@@ -92,20 +92,20 @@ Defines a campaign.
 ```json
 {
   "AdScheduleUseSearcherTimeZone": "ValueHere",
-  "AudienceAdsBidAdjustment": NumbericValueHere,
+  "AudienceAdsBidAdjustment": IntValueHere,
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": NumbericValueHere
+    "CommissionRate": DoubleValueHere
   },
-  "BidStrategyId": "ValueHere",
-  "BudgetId": "ValueHere",
+  "BidStrategyId": "LongValueHere",
+  "BudgetId": "LongValueHere",
   "BudgetType": "ValueHere",
   "CampaignType": "ValueHere",
-  "DailyBudget": NumbericValueHere,
+  "DailyBudget": DoubleValueHere,
   "DealIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
-  "ExperimentId": "ValueHere",
+  "ExperimentId": "LongValueHere",
   "FinalUrlSuffix": "ValueHere",
   "ForwardCompatibilityMap": [
     {
@@ -114,19 +114,20 @@ Defines a campaign.
     }
   ],
   "GoalIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "IsDealCampaign": "ValueHere",
   "Languages": [
     "ValueHere"
   ],
-  "MultimediaAdsBidAdjustment": NumbericValueHere,
+  "MultimediaAdsBidAdjustment": IntValueHere,
   "Name": "ValueHere",
   "Settings": [
     {
-      "Type": "CallToActionSetting",
-      "AutomatedCallToActionOptOut": "ValueHere"
+      "Type": "AppSetting",
+      "AppId": "ValueHere",
+      "AppStore": "ValueHere"
     }
   ],
   "Status": "ValueHere",

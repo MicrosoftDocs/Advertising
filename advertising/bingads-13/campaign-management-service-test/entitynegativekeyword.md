@@ -26,11 +26,11 @@ Defines an object that contains a set of negative keywords that are only associa
 
 ```json
 {
-  "EntityId": "ValueHere",
+  "EntityId": "LongValueHere",
   "EntityType": "ValueHere",
   "NegativeKeywords": [
     {
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "MatchType": "ValueHere",
       "Text": "ValueHere"
     }

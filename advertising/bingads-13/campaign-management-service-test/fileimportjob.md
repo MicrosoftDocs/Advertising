@@ -29,7 +29,7 @@ FileImportJob is reserved for future use.
 
 ```json
 {
-  "CreatedByUserId": "ValueHere",
+  "CreatedByUserId": "LongValueHere",
   "CreatedByUserName": "ValueHere",
   "CreatedDateTimeInUTC": "ValueHere",
   "Frequency": {
@@ -37,7 +37,7 @@ FileImportJob is reserved for future use.
     "TimeZone": "ValueHere",
     "Type": "ValueHere"
   },
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "ImportOption": {
     "ForwardCompatibilityMap": [
       {
@@ -47,11 +47,11 @@ FileImportJob is reserved for future use.
     ],
     "Type": "GoogleImportOption",
     "AccountUrlOptions": "ValueHere",
-    "AdjustmentForBids": NumbericValueHere,
-    "AdjustmentForCampaignBudgets": NumbericValueHere,
+    "AdjustmentForBids": DoubleValueHere,
+    "AdjustmentForCampaignBudgets": DoubleValueHere,
     "AdScheduleUseSearcherTimezone": "ValueHere",
-    "AssociatedStoreId": "ValueHere",
-    "AssociatedUetTagId": "ValueHere",
+    "AssociatedStoreId": "LongValueHere",
+    "AssociatedUetTagId": "LongValueHere",
     "AutoDeviceBidOptimization": "ValueHere",
     "DeleteRemovedEntities": "ValueHere",
     "EnableAutoCurrencyConversion": "ValueHere",

@@ -30,17 +30,17 @@ Defines a shareable audience or UET tag that a customer owns.
 {
   "CustomerAccountShares": [
     {
-      "AccountId": "ValueHere",
+      "AccountId": "LongValueHere",
       "Associations": [
         {
-          "AssociationCount": "ValueHere",
+          "AssociationCount": "LongValueHere",
           "UsageType": "ValueHere"
         }
       ],
-      "CustomerId": "ValueHere"
+      "CustomerId": "LongValueHere"
     }
   ],
-  "OwnerCustomerId": "ValueHere"
+  "OwnerCustomerId": "LongValueHere"
 }
 ```
 

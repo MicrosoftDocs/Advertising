@@ -358,7 +358,7 @@ Below is an example that is applicable if the type of [CampaignCriterion](campai
 {
   "CampaignCriterions": [
     {
-      "CampaignId": "ValueHere",
+      "CampaignId": "LongValueHere",
       "Criterion": {
         "Type": "AgeCriterion",
         "AgeRange": "ValueHere"
@@ -369,16 +369,16 @@ Below is an example that is applicable if the type of [CampaignCriterion](campai
           "value": "ValueHere"
         }
       ],
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Status": "ValueHere",
       "Type": "BiddableCampaignCriterion",
       "CriterionBid": {
         "Type": "BidMultiplier",
-        "Multiplier": NumbericValueHere
+        "Multiplier": DoubleValueHere
       },
       "CriterionCashback": {
         "Type": "CashbackAdjustment",
-        "CashbackPercent": NumbericValueHere
+        "CashbackPercent": DoubleValueHere
       }
     }
   ],
@@ -394,13 +394,13 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
 ```json
 {
   "CampaignCriterionIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "NestedPartialErrors": [
     {
       "BatchErrors": [
         {
-          "Code": NumbericValueHere,
+          "Code": IntValueHere,
           "Details": "ValueHere",
           "ErrorCode": "ValueHere",
           "FieldPath": "ValueHere",
@@ -410,17 +410,17 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
               "value": "ValueHere"
             }
           ],
-          "Index": NumbericValueHere,
+          "Index": IntValueHere,
           "Message": "ValueHere",
           "Type": "EditorialError",
           "Appealable": "ValueHere",
           "DisapprovedText": "ValueHere",
           "Location": "ValueHere",
           "PublisherCountry": "ValueHere",
-          "ReasonCode": NumbericValueHere
+          "ReasonCode": IntValueHere
         }
       ],
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -430,14 +430,14 @@ Below is an example that is applicable if the type of [BatchErrorCollection](bat
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialErrorCollection",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

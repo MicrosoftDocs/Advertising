@@ -38,7 +38,7 @@ Defines the criteria to use to filter the goals and funnels report data.
   "DeviceOS": "ValueHere",
   "DeviceType": "ValueHere",
   "GoalIds": [
-    "ValueHere"
+    "LongValueHere"
   ],
   "KeywordStatus": "ValueHere"
 }

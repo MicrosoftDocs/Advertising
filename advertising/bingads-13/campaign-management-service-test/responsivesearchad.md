@@ -45,7 +45,7 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -66,7 +66,7 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "ResponsiveSearch",
@@ -81,16 +81,16 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
   "Descriptions": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",
@@ -101,16 +101,16 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
   "Headlines": [
     {
       "Asset": {
-        "Id": "ValueHere",
+        "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": NumbericValueHere,
-        "CropWidth": NumbericValueHere,
-        "CropX": NumbericValueHere,
-        "CropY": NumbericValueHere,
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": NumbericValueHere,
-        "TargetWidth": NumbericValueHere
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",

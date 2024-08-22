@@ -24,7 +24,7 @@ Defines an object that represents the rate amount in percentage form.
 
 ```json
 {
-  "Amount": NumbericValueHere
+  "Amount": DoubleValueHere
 }
 ```
 

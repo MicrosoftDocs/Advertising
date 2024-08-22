@@ -28,39 +28,39 @@ Defines the relationship and editorial status of an ad extension with an account
 ```json
 {
   "AdExtension": {
-    "DevicePreference": "ValueHere",
+    "DevicePreference": "LongValueHere",
     "ForwardCompatibilityMap": [
       {
         "key": "ValueHere",
         "value": "ValueHere"
       }
     ],
-    "Id": "ValueHere",
+    "Id": "LongValueHere",
     "Scheduling": {
       "DayTimeRanges": [
         {
           "Day": "ValueHere",
-          "EndHour": NumbericValueHere,
+          "EndHour": IntValueHere,
           "EndMinute": "ValueHere",
-          "StartHour": NumbericValueHere,
+          "StartHour": IntValueHere,
           "StartMinute": "ValueHere"
         }
       ],
       "EndDate": {
-        "Day": NumbericValueHere,
-        "Month": NumbericValueHere,
-        "Year": NumbericValueHere
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
       },
       "StartDate": {
-        "Day": NumbericValueHere,
-        "Month": NumbericValueHere,
-        "Year": NumbericValueHere
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
       },
       "UseSearcherTimeZone": "ValueHere"
     },
     "Status": "ValueHere",
     "Type": "ActionAdExtension",
-    "Version": NumbericValueHere,
+    "Version": IntValueHere,
     "ActionType": "ValueHere",
     "FinalMobileUrls": [
       "ValueHere"
@@ -82,7 +82,7 @@ Defines the relationship and editorial status of an ad extension with an account
   },
   "AssociationType": "ValueHere",
   "EditorialStatus": "ValueHere",
-  "EntityId": "ValueHere"
+  "EntityId": "LongValueHere"
 }
 ```
 

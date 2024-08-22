@@ -34,12 +34,12 @@ Contains the status, run time, and statistical results for an import job that ha
 {
   "EntityStatistics": [
     {
-      "Additions": NumbericValueHere,
-      "Changes": NumbericValueHere,
-      "Deletions": NumbericValueHere,
+      "Additions": IntValueHere,
+      "Changes": IntValueHere,
+      "Deletions": IntValueHere,
       "EntityType": "ValueHere",
-      "Errors": NumbericValueHere,
-      "Total": NumbericValueHere
+      "Errors": IntValueHere,
+      "Total": IntValueHere
     }
   ],
   "ErrorLogUrl": "ValueHere",
@@ -51,7 +51,7 @@ Contains the status, run time, and statistical results for an import job that ha
   ],
   "Id": "ValueHere",
   "ImportJob": {
-    "CreatedByUserId": "ValueHere",
+    "CreatedByUserId": "LongValueHere",
     "CreatedByUserName": "ValueHere",
     "CreatedDateTimeInUTC": "ValueHere",
     "Frequency": {
@@ -59,7 +59,7 @@ Contains the status, run time, and statistical results for an import job that ha
       "TimeZone": "ValueHere",
       "Type": "ValueHere"
     },
-    "Id": "ValueHere",
+    "Id": "LongValueHere",
     "ImportOption": {
       "ForwardCompatibilityMap": [
         {
@@ -69,11 +69,11 @@ Contains the status, run time, and statistical results for an import job that ha
       ],
       "Type": "GoogleImportOption",
       "AccountUrlOptions": "ValueHere",
-      "AdjustmentForBids": NumbericValueHere,
-      "AdjustmentForCampaignBudgets": NumbericValueHere,
+      "AdjustmentForBids": DoubleValueHere,
+      "AdjustmentForCampaignBudgets": DoubleValueHere,
       "AdScheduleUseSearcherTimezone": "ValueHere",
-      "AssociatedStoreId": "ValueHere",
-      "AssociatedUetTagId": "ValueHere",
+      "AssociatedStoreId": "LongValueHere",
+      "AssociatedUetTagId": "LongValueHere",
       "AutoDeviceBidOptimization": "ValueHere",
       "DeleteRemovedEntities": "ValueHere",
       "EnableAutoCurrencyConversion": "ValueHere",

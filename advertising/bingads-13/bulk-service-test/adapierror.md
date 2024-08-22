@@ -27,7 +27,7 @@ Defines a Bulk Ad API error object that contains the details that explain why th
 
 ```json
 {
-  "Code": NumbericValueHere,
+  "Code": IntValueHere,
   "Detail": "ValueHere",
   "ErrorCode": "ValueHere",
   "Message": "ValueHere"

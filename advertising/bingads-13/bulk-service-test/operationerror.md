@@ -27,7 +27,7 @@ Defines a Bulk operation error object that contains the details that explain why
 
 ```json
 {
-  "Code": NumbericValueHere,
+  "Code": IntValueHere,
   "Details": "ValueHere",
   "ErrorCode": "ValueHere",
   "Message": "ValueHere"

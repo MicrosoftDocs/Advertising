@@ -39,6 +39,7 @@ The Campaign Management service defines the following data objects.
 |[AppInstallAd](appinstallad.md)|Defines an app install ad.|
 |[AppInstallGoal](appinstallgoal.md)|Defines an app install conversion goal.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Campaign Management fault detail objects derive.|
+|[AppSetting](appsetting.md)|Reserved.|
 |[AppUrl](appurl.md)|Defines the operating system platform and URL of the app store download webpage.|
 |[Asset](asset.md)|Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
 |[AssetGroup](assetgroup.md)|Defines an asset group in an advertising campaign.|

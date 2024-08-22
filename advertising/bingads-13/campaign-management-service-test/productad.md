@@ -29,7 +29,7 @@ Defines a product ad. A product ad is not used directly for delivered ad copy.  
 ```json
 {
   "AdFormatPreference": "ValueHere",
-  "DevicePreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
   "EditorialStatus": "ValueHere",
   "FinalAppUrls": [
     {
@@ -50,7 +50,7 @@ Defines a product ad. A product ad is not used directly for delivered ad copy.  
       "value": "ValueHere"
     }
   ],
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",
   "Type": "Product",

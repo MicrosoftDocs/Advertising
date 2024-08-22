@@ -43,7 +43,7 @@ Defines the criteria to use to filter the keyword performance report data.
   "AdDistribution": "ValueHere",
   "AdGroupStatus": "ValueHere",
   "AdRelevance": [
-    NumbericValueHere
+    IntValueHere
   ],
   "AdType": "ValueHere",
   "BidMatchType": "ValueHere",
@@ -52,18 +52,18 @@ Defines the criteria to use to filter the keyword performance report data.
   "DeliveredMatchType": "ValueHere",
   "DeviceType": "ValueHere",
   "ExpectedCtr": [
-    NumbericValueHere
+    IntValueHere
   ],
   "Keywords": [
     "ValueHere"
   ],
   "KeywordStatus": "ValueHere",
   "LandingPageExperience": [
-    NumbericValueHere
+    IntValueHere
   ],
   "Language": "ValueHere",
   "QualityScore": [
-    NumbericValueHere
+    IntValueHere
   ]
 }
 ```

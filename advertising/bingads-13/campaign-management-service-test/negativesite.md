@@ -45,7 +45,7 @@ For more information about managing negative sites and website exclusion lists, 
     }
   ],
   "Type": "NegativeSite",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "Url": "ValueHere"
 }
 ```

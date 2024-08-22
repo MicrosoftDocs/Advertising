@@ -35,7 +35,7 @@ The *AudienceCriterion* can be included within [AdGroupCriterion](adgroupcriteri
 ```json
 {
   "Type": "AudienceCriterion",
-  "AudienceId": "ValueHere",
+  "AudienceId": "LongValueHere",
   "AudienceType": "ValueHere"
 }
 ```

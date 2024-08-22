@@ -386,12 +386,12 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
 
 ```json
 {
-  "CampaignId": "ValueHere",
+  "CampaignId": "LongValueHere",
   "AssetGroups": [
     {
       "AssetGroupSearchThemes": [
         {
-          "Id": "ValueHere",
+          "Id": "LongValueHere",
           "SearchTheme": "ValueHere"
         }
       ],
@@ -400,16 +400,16 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       "Descriptions": [
         {
           "Asset": {
-            "Id": "ValueHere",
+            "Id": "LongValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": NumbericValueHere,
-            "CropWidth": NumbericValueHere,
-            "CropX": NumbericValueHere,
-            "CropY": NumbericValueHere,
+            "CropHeight": IntValueHere,
+            "CropWidth": IntValueHere,
+            "CropX": IntValueHere,
+            "CropY": IntValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": NumbericValueHere,
-            "TargetWidth": NumbericValueHere
+            "TargetHeight": IntValueHere,
+            "TargetWidth": IntValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -418,9 +418,9 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       ],
       "EditorialStatus": "ValueHere",
       "EndDate": {
-        "Day": NumbericValueHere,
-        "Month": NumbericValueHere,
-        "Year": NumbericValueHere
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
       },
       "FinalMobileUrls": [
         "ValueHere"
@@ -437,36 +437,36 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       "Headlines": [
         {
           "Asset": {
-            "Id": "ValueHere",
+            "Id": "LongValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": NumbericValueHere,
-            "CropWidth": NumbericValueHere,
-            "CropX": NumbericValueHere,
-            "CropY": NumbericValueHere,
+            "CropHeight": IntValueHere,
+            "CropWidth": IntValueHere,
+            "CropX": IntValueHere,
+            "CropY": IntValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": NumbericValueHere,
-            "TargetWidth": NumbericValueHere
+            "TargetHeight": IntValueHere,
+            "TargetWidth": IntValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
           "PinnedField": "ValueHere"
         }
       ],
-      "Id": "ValueHere",
+      "Id": "LongValueHere",
       "Images": [
         {
           "Asset": {
-            "Id": "ValueHere",
+            "Id": "LongValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": NumbericValueHere,
-            "CropWidth": NumbericValueHere,
-            "CropX": NumbericValueHere,
-            "CropY": NumbericValueHere,
+            "CropHeight": IntValueHere,
+            "CropWidth": IntValueHere,
+            "CropX": IntValueHere,
+            "CropY": IntValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": NumbericValueHere,
-            "TargetWidth": NumbericValueHere
+            "TargetHeight": IntValueHere,
+            "TargetWidth": IntValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -476,16 +476,16 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       "LongHeadlines": [
         {
           "Asset": {
-            "Id": "ValueHere",
+            "Id": "LongValueHere",
             "Name": "ValueHere",
             "Type": "ImageAsset",
-            "CropHeight": NumbericValueHere,
-            "CropWidth": NumbericValueHere,
-            "CropX": NumbericValueHere,
-            "CropY": NumbericValueHere,
+            "CropHeight": IntValueHere,
+            "CropWidth": IntValueHere,
+            "CropX": IntValueHere,
+            "CropY": IntValueHere,
             "SubType": "ValueHere",
-            "TargetHeight": NumbericValueHere,
-            "TargetWidth": NumbericValueHere
+            "TargetHeight": IntValueHere,
+            "TargetWidth": IntValueHere
           },
           "AssetPerformanceLabel": "ValueHere",
           "EditorialStatus": "ValueHere",
@@ -496,9 +496,9 @@ Below is an example that is applicable if the type of [Asset](asset.md) is [Imag
       "Path1": "ValueHere",
       "Path2": "ValueHere",
       "StartDate": {
-        "Day": NumbericValueHere,
-        "Month": NumbericValueHere,
-        "Year": NumbericValueHere
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
       },
       "Status": "ValueHere"
     }
@@ -515,7 +515,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 {
   "PartialErrors": [
     {
-      "Code": NumbericValueHere,
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -525,14 +525,14 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
           "value": "ValueHere"
         }
       ],
-      "Index": NumbericValueHere,
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": NumbericValueHere
+      "ReasonCode": IntValueHere
     }
   ]
 }

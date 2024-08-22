@@ -29,7 +29,7 @@ Defines the fixed bid to use in the auction.
 ```json
 {
   "Type": "FixedBid",
-  "Amount": NumbericValueHere
+  "Amount": DoubleValueHere
 }
 ```
 

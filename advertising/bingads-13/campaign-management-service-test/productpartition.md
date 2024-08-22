@@ -41,7 +41,7 @@ The *ProductPartition* criterion can be included within [BiddableAdGroupCriterio
     "Operand": "ValueHere",
     "Operator": "ValueHere"
   },
-  "ParentCriterionId": "ValueHere",
+  "ParentCriterionId": "LongValueHere",
   "PartitionType": "ValueHere"
 }
 ```

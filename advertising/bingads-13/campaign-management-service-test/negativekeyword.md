@@ -48,7 +48,7 @@ For more information about managing negative keywords and negative keyword lists
     }
   ],
   "Type": "NegativeKeyword",
-  "Id": "ValueHere",
+  "Id": "LongValueHere",
   "MatchType": "ValueHere",
   "Text": "ValueHere"
 }
