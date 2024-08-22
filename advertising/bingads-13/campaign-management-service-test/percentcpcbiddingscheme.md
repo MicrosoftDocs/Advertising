@@ -29,7 +29,7 @@ Defines an object that represents the percent CPC bid strategy type (total hotel
 ```json
 {
   "Type": "PercentCpcBiddingScheme",
-  "MaxPercentCpc": "DoubleValueHere"
+  "MaxPercentCpc": DoubleValueHere
 }
 ```
 

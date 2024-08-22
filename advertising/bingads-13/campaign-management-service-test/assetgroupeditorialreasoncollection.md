@@ -36,7 +36,7 @@ Defines a collection of asset groups that failed editorial review.
       "PublisherCountries": [
         "ValueHere"
       ],
-      "ReasonCode": "IntValueHere",
+      "ReasonCode": IntValueHere,
       "Term": "ValueHere"
     }
   ]

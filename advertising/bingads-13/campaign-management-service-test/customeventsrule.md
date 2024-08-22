@@ -46,7 +46,7 @@ For a detailed example, see the [Remarks](#remarks) section below.
   "CategoryOperator": "ValueHere",
   "Label": "ValueHere",
   "LabelOperator": "ValueHere",
-  "Value": "DecimalValueHere",
+  "Value": DecimalValueHere,
   "ValueOperator": "ValueHere"
 }
 ```

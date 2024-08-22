@@ -30,7 +30,7 @@ This object is not in use and will be removed from a future version of the API.
 {
   "Type": "MaxRoasBiddingScheme",
   "MaxCpc": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   }
 }
 ```

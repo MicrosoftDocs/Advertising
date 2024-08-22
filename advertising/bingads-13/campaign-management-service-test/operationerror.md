@@ -27,7 +27,7 @@ Defines a Campaign Management operation error that contains the details that exp
 
 ```json
 {
-  "Code": "IntValueHere",
+  "Code": IntValueHere,
   "Details": "ValueHere",
   "ErrorCode": "ValueHere",
   "Message": "ValueHere"

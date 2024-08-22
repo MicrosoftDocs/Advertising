@@ -32,7 +32,7 @@ Defines an error object that identifies the entity with the batch of entities th
 
 ```json
 {
-  "Code": "IntValueHere",
+  "Code": IntValueHere,
   "Details": "ValueHere",
   "ErrorCode": "ValueHere",
   "FieldPath": "ValueHere",
@@ -42,14 +42,14 @@ Defines an error object that identifies the entity with the batch of entities th
       "value": "ValueHere"
     }
   ],
-  "Index": "IntValueHere",
+  "Index": IntValueHere,
   "Message": "ValueHere",
   "Type": "EditorialError",
   "Appealable": "ValueHere",
   "DisapprovedText": "ValueHere",
   "Location": "ValueHere",
   "PublisherCountry": "ValueHere",
-  "ReasonCode": "IntValueHere"
+  "ReasonCode": IntValueHere
 }
 ```
 

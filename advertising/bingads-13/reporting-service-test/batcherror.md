@@ -28,10 +28,10 @@ Defines a Reporting batch error object that identifies the item within the batch
 
 ```json
 {
-  "Code": "IntValueHere",
+  "Code": IntValueHere,
   "Details": "ValueHere",
   "ErrorCode": "ValueHere",
-  "Index": "IntValueHere",
+  "Index": IntValueHere,
   "Message": "ValueHere"
 }
 ```

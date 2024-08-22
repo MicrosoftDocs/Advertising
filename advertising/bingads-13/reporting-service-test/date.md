@@ -26,9 +26,9 @@ Defines a calendar date by month, day, and year.
 
 ```json
 {
-  "Day": "IntValueHere",
-  "Month": "IntValueHere",
-  "Year": "IntValueHere"
+  "Day": IntValueHere,
+  "Month": IntValueHere,
+  "Year": IntValueHere
 }
 ```
 

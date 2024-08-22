@@ -127,29 +127,29 @@ Defines an ad group in an advertising campaign.
     "Type": "ValueHere"
   },
   "AdScheduleUseSearcherTimeZone": "ValueHere",
-  "AudienceAdsBidAdjustment": "IntValueHere",
+  "AudienceAdsBidAdjustment": IntValueHere,
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": "DoubleValueHere"
+    "CommissionRate": DoubleValueHere
   },
   "CommissionRate": {
     "RateAmount": {
-      "Amount": "DoubleValueHere"
+      "Amount": DoubleValueHere
     }
   },
   "CpcBid": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   },
   "CpmBid": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   },
   "CpvBid": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   },
   "EndDate": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "FinalUrlSuffix": "ValueHere",
   "ForwardCompatibilityMap": [
@@ -160,21 +160,21 @@ Defines an ad group in an advertising campaign.
   ],
   "FrequencyCapSettings": [
     {
-      "CapValue": "IntValueHere",
+      "CapValue": IntValueHere,
       "TimeGranularity": "ValueHere"
     }
   ],
   "Id": "LongValueHere",
   "Language": "ValueHere",
   "McpaBid": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   },
-  "MultimediaAdsBidAdjustment": "IntValueHere",
+  "MultimediaAdsBidAdjustment": IntValueHere,
   "Name": "ValueHere",
   "Network": "ValueHere",
   "PercentCpcBid": {
     "RateAmount": {
-      "Amount": "DoubleValueHere"
+      "Amount": DoubleValueHere
     }
   },
   "PrivacyStatus": "ValueHere",
@@ -186,9 +186,9 @@ Defines an ad group in an advertising campaign.
     }
   ],
   "StartDate": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "Status": "ValueHere",
   "TrackingUrlTemplate": "ValueHere",

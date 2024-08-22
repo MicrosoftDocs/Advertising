@@ -33,7 +33,7 @@ Defines a Bulk API fault detail object that operations return when web service-s
   "Type": "ApiFaultDetail",
   "BatchErrors": [
     {
-      "Code": "IntValueHere",
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -43,19 +43,19 @@ Defines a Bulk API fault detail object that operations return when web service-s
           "value": "ValueHere"
         }
       ],
-      "Index": "IntValueHere",
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "IntValueHere"
+      "ReasonCode": IntValueHere
     }
   ],
   "OperationErrors": [
     {
-      "Code": "IntValueHere",
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "Message": "ValueHere"

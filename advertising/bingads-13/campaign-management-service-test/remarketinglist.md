@@ -59,7 +59,7 @@ Defines a remarketing list.
     }
   ],
   "Id": "LongValueHere",
-  "MembershipDuration": "IntValueHere",
+  "MembershipDuration": IntValueHere,
   "Name": "ValueHere",
   "ParentId": "LongValueHere",
   "Scope": "ValueHere",
@@ -76,7 +76,7 @@ Defines a remarketing list.
     "CategoryOperator": "ValueHere",
     "Label": "ValueHere",
     "LabelOperator": "ValueHere",
-    "Value": "DecimalValueHere",
+    "Value": DecimalValueHere,
     "ValueOperator": "ValueHere"
   },
   "TagId": "LongValueHere"

@@ -24,7 +24,7 @@ The highest price that you want to pay each time someone clicks your ad.
 
 ```json
 {
-  "Amount": "DoubleValueHere"
+  "Amount": DoubleValueHere
 }
 ```
 

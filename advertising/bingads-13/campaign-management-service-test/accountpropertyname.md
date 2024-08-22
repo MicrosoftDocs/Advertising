@@ -10,6 +10,19 @@ description: Defines the name of account level properties.(test)
 # AccountPropertyName Value Set Test - Campaign Management
 Defines the name of account level properties.
 
+<a name="segment-info"></a>These are the segments that advertisers can block. Pass the segment ID as *BlockedContentSegments*:
+
+|Segments advertisers can block |Segment ID |Description |
+|-------------------------------|-----------|----------------------------|
+|Politics|1500902|Exclude all content relating to politics as rated by the IAS semantic intelligence engine.|
+|Sensitive Social Issues|1500692|Exclude content relating to negative news or sentiment around disasters such as hurricanes, tropical storms, and the aftermath of such catastrophes such as structural collapses and transit disasters as rated by the IAS semantic intelligence engine.|
+|Kids Content|1510878|Exclude content relating to topics for and about kids, including pages targeted at kids (e.g., movies and TV shows for kids, children’s books and songs, toys) and pages targeted at their parents (e.g., forums and blogs about parenting, traveling with kids, activities to do with kids, children’s health) as rated by the IAS semantic intelligence engine.|
+|Crime|1507654|Exclude all content relating to crime and harmful acts to individuals and society, including human rights violations, as rated by the IAS semantic intelligence engine. This includes educational, informative, and scientific content related to the topic.|
+|Natural Disasters|1500691|Exclude content relating to negative news or sentiment around disasters such as hurricanes, tropical storms, and the aftermath of such catastrophes such as structural collapses and transit disasters as rated by the IAS semantic intelligence engine.|
+|Protests & Demonstrations|1500671|Exclude content relating to protests, demonstrations, brutality, and riots as rated by the IAS semantic intelligence engine.|
+|Infectious Diseases & Outbreaks|1500078|Exclude content relating to infectious diseases, epidemics and outbreaks (e.g., coronavirus, zika, norovirus) as rated by the IAS semantic intelligence engine.|
+|Unscored Traffic|1000001|Exclude content that is not scored or segment is not determined by the IAS semantic intelligence engine.|
+
 ## Syntax
 ```xml
 <xs:simpleType name="AccountPropertyName" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -129,7 +142,7 @@ The [AccountPropertyName](accountpropertyname.md) value set has the following va
 |<a name="allowimageautoretrieve"></a>AllowImageAutoRetrieve|Used to get or set the property that determines whether Microsoft Advertising is allowed to use images from your domain to enhance your ads on the Microsoft Audience Network.<br/><br/>For more information see [AllowImageAutoRetrieve](accountproperty.md#allowimageautoretrieve).|
 |<a name="autoapplyrecommendations"></a>AutoApplyRecommendations|Used to get or set the property that determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.<br/><br/> AutoApplyRecommendations in Campaign Management API is deprecated as of November 30, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. <br/><br/>For more information see [AutoApplyRecommendations](accountproperty.md#autoapplyrecommendations).|
 |<a name="autobiddingviewthroughconversionsvalueattributionweight"></a>AutoBiddingViewThroughConversionsValueAttributionWeight|Reserved.|
-|<a name="blockedcontentsegments"></a>BlockedContentSegments|Reserved.|
+|<a name="blockedcontentsegments"></a>BlockedContentSegments|The segments that advertisers can block. Pass the segment ID. [See the table above](#segment-info) for segment information and IDs.|
 |<a name="businessattributes"></a>BusinessAttributes|Used to get or set the property that determines the account's business attributes meant to help you boost ad performance.<br/><br/>For more information see [BusinessAttributes](accountproperty.md#businessattributes).|
 |<a name="enablemmaunderdsaadgroups"></a>EnableMMAUnderDSAAdgroups|Reserved.|
 |<a name="finalurlsuffix"></a>FinalUrlSuffix|Used to get or set the account's Final URL Suffix.<br/><br/>For more information see [FinalUrlSuffix](accountproperty.md#finalurlsuffix).|

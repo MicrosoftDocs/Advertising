@@ -32,8 +32,8 @@ Say you have a budget of $20 to be used uniformly between two campaigns every da
 
 ```json
 {
-  "Amount": "DecimalValueHere",
-  "AssociationCount": "IntValueHere",
+  "Amount": DecimalValueHere,
+  "AssociationCount": IntValueHere,
   "BudgetType": "ValueHere",
   "Id": "LongValueHere",
   "Name": "ValueHere"

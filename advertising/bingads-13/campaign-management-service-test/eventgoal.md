@@ -46,7 +46,7 @@ By default, the UET tag logs user visits to pages on your website that allows Mi
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": "IntValueHere",
+  "ConversionWindowInMinutes": IntValueHere,
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
@@ -56,21 +56,21 @@ By default, the UET tag logs user visits to pages on your website that allows Mi
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": "DecimalValueHere"
+    "Value": DecimalValueHere
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
   "TagId": "LongValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "Event",
-  "ViewThroughConversionWindowInMinutes": "IntValueHere",
+  "ViewThroughConversionWindowInMinutes": IntValueHere,
   "ActionExpression": "ValueHere",
   "ActionOperator": "ValueHere",
   "CategoryExpression": "ValueHere",
   "CategoryOperator": "ValueHere",
   "LabelExpression": "ValueHere",
   "LabelOperator": "ValueHere",
-  "Value": "DecimalValueHere",
+  "Value": DecimalValueHere,
   "ValueOperator": "ValueHere"
 }
 ```

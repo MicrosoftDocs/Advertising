@@ -34,7 +34,7 @@ Defines a nested list of error object that identifies one of potentially many re
 {
   "BatchErrors": [
     {
-      "Code": "IntValueHere",
+      "Code": IntValueHere,
       "Details": "ValueHere",
       "ErrorCode": "ValueHere",
       "FieldPath": "ValueHere",
@@ -44,17 +44,17 @@ Defines a nested list of error object that identifies one of potentially many re
           "value": "ValueHere"
         }
       ],
-      "Index": "IntValueHere",
+      "Index": IntValueHere,
       "Message": "ValueHere",
       "Type": "EditorialError",
       "Appealable": "ValueHere",
       "DisapprovedText": "ValueHere",
       "Location": "ValueHere",
       "PublisherCountry": "ValueHere",
-      "ReasonCode": "IntValueHere"
+      "ReasonCode": IntValueHere
     }
   ],
-  "Code": "IntValueHere",
+  "Code": IntValueHere,
   "Details": "ValueHere",
   "ErrorCode": "ValueHere",
   "FieldPath": "ValueHere",
@@ -64,14 +64,14 @@ Defines a nested list of error object that identifies one of potentially many re
       "value": "ValueHere"
     }
   ],
-  "Index": "IntValueHere",
+  "Index": IntValueHere,
   "Message": "ValueHere",
   "Type": "EditorialErrorCollection",
   "Appealable": "ValueHere",
   "DisapprovedText": "ValueHere",
   "Location": "ValueHere",
   "PublisherCountry": "ValueHere",
-  "ReasonCode": "IntValueHere"
+  "ReasonCode": IntValueHere
 }
 ```
 

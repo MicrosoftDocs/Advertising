@@ -52,27 +52,27 @@ Defines an ad extension with a video and call-to-action button.
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "IntValueHere",
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "IntValueHere",
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "VideoAdExtension",
-  "Version": "IntValueHere",
+  "Version": IntValueHere,
   "ActionText": "ValueHere",
   "AlternativeText": "ValueHere",
   "DisplayText": "ValueHere",

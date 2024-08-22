@@ -28,7 +28,7 @@ Defines properties for revenue that can be tracked by a conversion goal.
 {
   "CurrencyCode": "ValueHere",
   "Type": "ValueHere",
-  "Value": "DecimalValueHere"
+  "Value": DecimalValueHere
 }
 ```
 

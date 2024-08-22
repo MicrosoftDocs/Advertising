@@ -46,8 +46,8 @@ Also note that you must consider the location, negative location, and radius cri
 ```json
 {
   "Type": "RadiusCriterion",
-  "LatitudeDegrees": "DoubleValueHere",
-  "LongitudeDegrees": "DoubleValueHere",
+  "LatitudeDegrees": DoubleValueHere,
+  "LongitudeDegrees": DoubleValueHere,
   "Name": "ValueHere",
   "Radius": "LongValueHere",
   "RadiusUnit": "ValueHere"

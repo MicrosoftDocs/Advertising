@@ -39,27 +39,27 @@ Defines an array of objects that associate an ad extension and its editorial sta
           "DayTimeRanges": [
             {
               "Day": "ValueHere",
-              "EndHour": "IntValueHere",
+              "EndHour": IntValueHere,
               "EndMinute": "ValueHere",
-              "StartHour": "IntValueHere",
+              "StartHour": IntValueHere,
               "StartMinute": "ValueHere"
             }
           ],
           "EndDate": {
-            "Day": "IntValueHere",
-            "Month": "IntValueHere",
-            "Year": "IntValueHere"
+            "Day": IntValueHere,
+            "Month": IntValueHere,
+            "Year": IntValueHere
           },
           "StartDate": {
-            "Day": "IntValueHere",
-            "Month": "IntValueHere",
-            "Year": "IntValueHere"
+            "Day": IntValueHere,
+            "Month": IntValueHere,
+            "Year": IntValueHere
           },
           "UseSearcherTimeZone": "ValueHere"
         },
         "Status": "ValueHere",
         "Type": "ActionAdExtension",
-        "Version": "IntValueHere",
+        "Version": IntValueHere,
         "ActionType": "ValueHere",
         "FinalMobileUrls": [
           "ValueHere"

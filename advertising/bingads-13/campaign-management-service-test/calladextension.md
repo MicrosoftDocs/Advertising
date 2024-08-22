@@ -46,27 +46,27 @@ You can associate a call ad extension with campaigns in the account. Each entity
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "IntValueHere",
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "IntValueHere",
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "CallAdExtension",
-  "Version": "IntValueHere",
+  "Version": IntValueHere,
   "CountryCode": "ValueHere",
   "IsCallOnly": "ValueHere",
   "IsCallTrackingEnabled": "ValueHere",

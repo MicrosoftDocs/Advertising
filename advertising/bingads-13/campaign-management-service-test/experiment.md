@@ -79,9 +79,9 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
 {
   "BaseCampaignId": "LongValueHere",
   "EndDate": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "ExperimentCampaignId": "LongValueHere",
   "ExperimentStatus": "ValueHere",
@@ -89,11 +89,11 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
   "Id": "LongValueHere",
   "Name": "ValueHere",
   "StartDate": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
-  "TrafficSplitPercent": "IntValueHere"
+  "TrafficSplitPercent": IntValueHere
 }
 ```
 

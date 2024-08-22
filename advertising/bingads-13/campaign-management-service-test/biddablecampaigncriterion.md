@@ -51,11 +51,11 @@ Defines a biddable criterion that you want applied to the specified campaign.
   "Type": "BiddableCampaignCriterion",
   "CriterionBid": {
     "Type": "BidMultiplier",
-    "Multiplier": "DoubleValueHere"
+    "Multiplier": DoubleValueHere
   },
   "CriterionCashback": {
     "Type": "CashbackAdjustment",
-    "CashbackPercent": "DoubleValueHere"
+    "CashbackPercent": DoubleValueHere
   }
 }
 ```

@@ -32,8 +32,8 @@ Defines an image media representation with height and width.
   "Name": "ValueHere",
   "Type": "ImageMediaRepresentation",
   "Url": "ValueHere",
-  "Height": "IntValueHere",
-  "Width": "IntValueHere"
+  "Height": IntValueHere,
+  "Width": IntValueHere
 }
 ```
 

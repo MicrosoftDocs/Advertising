@@ -49,27 +49,27 @@ You can associate a filter link ad extension with the account or with campaigns 
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "IntValueHere",
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "IntValueHere",
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "FilterLinkAdExtension",
-  "Version": "IntValueHere",
+  "Version": IntValueHere,
   "AdExtensionHeaderType": "ValueHere",
   "FinalMobileUrls": [
     "ValueHere"

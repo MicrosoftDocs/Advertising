@@ -32,10 +32,10 @@ An automated bidding strategy to get the target impression share for the ad posi
 {
   "Type": "TargetImpressionShareBiddingScheme",
   "MaxCpc": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   },
   "TargetAdPosition": "ValueHere",
-  "TargetImpressionShare": "DoubleValueHere"
+  "TargetImpressionShare": DoubleValueHere
 }
 ```
 

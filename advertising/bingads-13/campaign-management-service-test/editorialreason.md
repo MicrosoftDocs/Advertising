@@ -31,7 +31,7 @@ Defines an object that you can use to determine the component of an ad or keywor
   "PublisherCountries": [
     "ValueHere"
   ],
-  "ReasonCode": "IntValueHere",
+  "ReasonCode": IntValueHere,
   "Term": "ValueHere"
 }
 ```

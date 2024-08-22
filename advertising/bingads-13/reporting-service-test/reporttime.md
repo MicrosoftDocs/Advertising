@@ -28,14 +28,14 @@ Defines the date range values of a report request.
 ```json
 {
   "CustomDateRangeEnd": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "CustomDateRangeStart": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "PredefinedTime": "ValueHere",
   "ReportTimeZone": "ValueHere"

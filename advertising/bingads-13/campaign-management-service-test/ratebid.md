@@ -32,7 +32,7 @@ RateBid is applicable to Lodging campaigns (formerly Hotel campaigns) with the p
 {
   "Type": "RateBid",
   "RateAmount": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   }
 }
 ```

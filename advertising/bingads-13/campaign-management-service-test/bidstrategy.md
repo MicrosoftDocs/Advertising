@@ -48,10 +48,10 @@ Portfolio bid strategies work best with one goal in mind, using complementary ca
 ```json
 {
   "AssociatedCampaignType": "ValueHere",
-  "AssociationCount": "IntValueHere",
+  "AssociationCount": IntValueHere,
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": "DoubleValueHere"
+    "CommissionRate": DoubleValueHere
   },
   "Id": "LongValueHere",
   "Name": "ValueHere"

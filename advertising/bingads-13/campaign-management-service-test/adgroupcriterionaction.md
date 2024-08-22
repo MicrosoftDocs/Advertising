@@ -37,11 +37,11 @@ Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcrite
     "Type": "BiddableAdGroupCriterion",
     "CriterionBid": {
       "Type": "BidMultiplier",
-      "Multiplier": "DoubleValueHere"
+      "Multiplier": DoubleValueHere
     },
     "CriterionCashback": {
       "Type": "CashbackAdjustment",
-      "CashbackPercent": "DoubleValueHere"
+      "CashbackPercent": DoubleValueHere
     },
     "DestinationUrl": "ValueHere",
     "EditorialStatus": "ValueHere",

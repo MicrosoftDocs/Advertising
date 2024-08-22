@@ -54,13 +54,13 @@ If you do not specify crop settings, the service will automatically crop up to t
   "Id": "LongValueHere",
   "Name": "ValueHere",
   "Type": "ImageAsset",
-  "CropHeight": "IntValueHere",
-  "CropWidth": "IntValueHere",
-  "CropX": "IntValueHere",
-  "CropY": "IntValueHere",
+  "CropHeight": IntValueHere,
+  "CropWidth": IntValueHere,
+  "CropX": IntValueHere,
+  "CropY": IntValueHere,
   "SubType": "ValueHere",
-  "TargetHeight": "IntValueHere",
-  "TargetWidth": "IntValueHere"
+  "TargetHeight": IntValueHere,
+  "TargetWidth": IntValueHere
 }
 ```
 

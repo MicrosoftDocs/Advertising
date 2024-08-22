@@ -44,9 +44,9 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
 {
   "Type": "MaxConversions",
   "MaxCpc": {
-    "Amount": "DoubleValueHere"
+    "Amount": DoubleValueHere
   },
-  "TargetCpa": "DoubleValueHere"
+  "TargetCpa": DoubleValueHere
 }
 ```
 

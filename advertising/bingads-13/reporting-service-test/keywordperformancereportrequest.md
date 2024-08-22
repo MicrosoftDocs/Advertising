@@ -58,7 +58,7 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
     "AdDistribution": "ValueHere",
     "AdGroupStatus": "ValueHere",
     "AdRelevance": [
-      "IntValueHere"
+      IntValueHere
     ],
     "AdType": "ValueHere",
     "BidMatchType": "ValueHere",
@@ -67,21 +67,21 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
     "DeliveredMatchType": "ValueHere",
     "DeviceType": "ValueHere",
     "ExpectedCtr": [
-      "IntValueHere"
+      IntValueHere
     ],
     "Keywords": [
       "ValueHere"
     ],
     "KeywordStatus": "ValueHere",
     "LandingPageExperience": [
-      "IntValueHere"
+      IntValueHere
     ],
     "Language": "ValueHere",
     "QualityScore": [
-      "IntValueHere"
+      IntValueHere
     ]
   },
-  "MaxRows": "IntValueHere",
+  "MaxRows": IntValueHere,
   "Scope": {
     "AccountIds": [
       "LongValueHere"
@@ -108,14 +108,14 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
   ],
   "Time": {
     "CustomDateRangeEnd": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "CustomDateRangeStart": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "PredefinedTime": "ValueHere",
     "ReportTimeZone": "ValueHere"

@@ -70,7 +70,7 @@ window.uetq.push('event', '', {'ecomm_prodid': 'REPLACE_WITH_PRODUCT_ID', 'ecomm
     }
   ],
   "Id": "LongValueHere",
-  "MembershipDuration": "IntValueHere",
+  "MembershipDuration": IntValueHere,
   "Name": "ValueHere",
   "ParentId": "LongValueHere",
   "Scope": "ValueHere",

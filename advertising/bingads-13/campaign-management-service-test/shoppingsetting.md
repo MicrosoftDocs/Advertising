@@ -56,7 +56,7 @@ Supported shopping settings vary by campaign type.
   "Type": "ShoppingSetting",
   "FeedLabel": "ValueHere",
   "LocalInventoryAdsEnabled": "ValueHere",
-  "Priority": "IntValueHere",
+  "Priority": IntValueHere,
   "SalesCountryCode": "ValueHere",
   "ShoppableAdsEnabled": "ValueHere",
   "StoreId": "LongValueHere"

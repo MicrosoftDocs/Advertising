@@ -35,7 +35,7 @@ Defines a pages viewed per visit conversion goal. Use this type of goal to count
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": "IntValueHere",
+  "ConversionWindowInMinutes": IntValueHere,
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
@@ -45,15 +45,15 @@ Defines a pages viewed per visit conversion goal. Use this type of goal to count
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": "DecimalValueHere"
+    "Value": DecimalValueHere
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
   "TagId": "LongValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "PagesViewedPerVisit",
-  "ViewThroughConversionWindowInMinutes": "IntValueHere",
-  "MinimumPagesViewed": "IntValueHere"
+  "ViewThroughConversionWindowInMinutes": IntValueHere,
+  "MinimumPagesViewed": IntValueHere
 }
 ```
 

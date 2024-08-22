@@ -34,8 +34,8 @@ Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.
 ```json
 {
   "Type": "CoOpSetting",
-  "BidBoostValue": "DoubleValueHere",
-  "BidMaxValue": "DoubleValueHere",
+  "BidBoostValue": DoubleValueHere,
+  "BidMaxValue": DoubleValueHere,
   "BidOption": "ValueHere"
 }
 ```

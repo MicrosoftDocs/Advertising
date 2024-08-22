@@ -40,27 +40,27 @@ Defines the relationship and editorial status of an ad extension with an account
       "DayTimeRanges": [
         {
           "Day": "ValueHere",
-          "EndHour": "IntValueHere",
+          "EndHour": IntValueHere,
           "EndMinute": "ValueHere",
-          "StartHour": "IntValueHere",
+          "StartHour": IntValueHere,
           "StartMinute": "ValueHere"
         }
       ],
       "EndDate": {
-        "Day": "IntValueHere",
-        "Month": "IntValueHere",
-        "Year": "IntValueHere"
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
       },
       "StartDate": {
-        "Day": "IntValueHere",
-        "Month": "IntValueHere",
-        "Year": "IntValueHere"
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
       },
       "UseSearcherTimeZone": "ValueHere"
     },
     "Status": "ValueHere",
     "Type": "ActionAdExtension",
-    "Version": "IntValueHere",
+    "Version": IntValueHere,
     "ActionType": "ValueHere",
     "FinalMobileUrls": [
       "ValueHere"

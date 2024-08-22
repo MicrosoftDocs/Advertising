@@ -36,7 +36,7 @@ Defines a collection of ads or keywords that failed editorial review, and the re
       "PublisherCountries": [
         "ValueHere"
       ],
-      "ReasonCode": "IntValueHere",
+      "ReasonCode": IntValueHere,
       "Term": "ValueHere"
     }
   ]

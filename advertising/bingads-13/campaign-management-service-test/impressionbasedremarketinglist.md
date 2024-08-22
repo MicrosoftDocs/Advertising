@@ -54,7 +54,7 @@ Defines a data object for ImpressionBasedRemarketingList.
     }
   ],
   "Id": "LongValueHere",
-  "MembershipDuration": "IntValueHere",
+  "MembershipDuration": IntValueHere,
   "Name": "ValueHere",
   "ParentId": "LongValueHere",
   "Scope": "ValueHere",

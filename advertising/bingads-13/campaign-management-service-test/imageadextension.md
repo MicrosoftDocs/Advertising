@@ -79,27 +79,27 @@ You can associate an image ad extension with the account or with campaigns and a
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "IntValueHere",
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "IntValueHere",
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "ImageAdExtension",
-  "Version": "IntValueHere",
+  "Version": IntValueHere,
   "AlternativeText": "ValueHere",
   "Description": "ValueHere",
   "DestinationUrl": "ValueHere",
@@ -126,13 +126,13 @@ You can associate an image ad extension with the account or with campaigns and a
         "Id": "LongValueHere",
         "Name": "ValueHere",
         "Type": "ImageAsset",
-        "CropHeight": "IntValueHere",
-        "CropWidth": "IntValueHere",
-        "CropX": "IntValueHere",
-        "CropY": "IntValueHere",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
         "SubType": "ValueHere",
-        "TargetHeight": "IntValueHere",
-        "TargetWidth": "IntValueHere"
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
       },
       "AssetPerformanceLabel": "ValueHere",
       "EditorialStatus": "ValueHere",

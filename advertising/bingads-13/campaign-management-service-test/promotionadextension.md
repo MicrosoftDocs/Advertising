@@ -61,27 +61,27 @@ You can associate a promotion ad extension with the account or with campaigns an
     "DayTimeRanges": [
       {
         "Day": "ValueHere",
-        "EndHour": "IntValueHere",
+        "EndHour": IntValueHere,
         "EndMinute": "ValueHere",
-        "StartHour": "IntValueHere",
+        "StartHour": IntValueHere,
         "StartMinute": "ValueHere"
       }
     ],
     "EndDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "StartDate": {
-      "Day": "IntValueHere",
-      "Month": "IntValueHere",
-      "Year": "IntValueHere"
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
     },
     "UseSearcherTimeZone": "ValueHere"
   },
   "Status": "ValueHere",
   "Type": "PromotionAdExtension",
-  "Version": "IntValueHere",
+  "Version": IntValueHere,
   "CurrencyCode": "ValueHere",
   "DiscountModifier": "ValueHere",
   "FinalAppUrls": [
@@ -98,21 +98,21 @@ You can associate a promotion ad extension with the account or with campaigns an
   ],
   "FinalUrlSuffix": "ValueHere",
   "Language": "ValueHere",
-  "MoneyAmountOff": "DoubleValueHere",
-  "OrdersOverAmount": "DoubleValueHere",
-  "PercentOff": "DoubleValueHere",
+  "MoneyAmountOff": DoubleValueHere,
+  "OrdersOverAmount": DoubleValueHere,
+  "PercentOff": DoubleValueHere,
   "PromotionCode": "ValueHere",
   "PromotionEndDate": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "PromotionItem": "ValueHere",
   "PromotionOccasion": "ValueHere",
   "PromotionStartDate": {
-    "Day": "IntValueHere",
-    "Month": "IntValueHere",
-    "Year": "IntValueHere"
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
   },
   "TrackingUrlTemplate": "ValueHere",
   "UrlCustomParameters": {

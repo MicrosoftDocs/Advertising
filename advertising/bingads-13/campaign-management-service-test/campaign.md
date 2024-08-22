@@ -92,16 +92,16 @@ Defines a campaign.
 ```json
 {
   "AdScheduleUseSearcherTimeZone": "ValueHere",
-  "AudienceAdsBidAdjustment": "IntValueHere",
+  "AudienceAdsBidAdjustment": IntValueHere,
   "BiddingScheme": {
     "Type": "CommissionBiddingScheme",
-    "CommissionRate": "DoubleValueHere"
+    "CommissionRate": DoubleValueHere
   },
   "BidStrategyId": "LongValueHere",
   "BudgetId": "LongValueHere",
   "BudgetType": "ValueHere",
   "CampaignType": "ValueHere",
-  "DailyBudget": "DoubleValueHere",
+  "DailyBudget": DoubleValueHere,
   "DealIds": [
     "LongValueHere"
   ],
@@ -121,7 +121,7 @@ Defines a campaign.
   "Languages": [
     "ValueHere"
   ],
-  "MultimediaAdsBidAdjustment": "IntValueHere",
+  "MultimediaAdsBidAdjustment": IntValueHere,
   "Name": "ValueHere",
   "Settings": [
     {

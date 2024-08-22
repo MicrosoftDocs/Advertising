@@ -36,7 +36,7 @@ Defines a URL conversion goal. Use this type of goal to count every time someone
 ```json
 {
   "AttributionModelType": "ValueHere",
-  "ConversionWindowInMinutes": "IntValueHere",
+  "ConversionWindowInMinutes": IntValueHere,
   "CountType": "ValueHere",
   "ExcludeFromBidding": "ValueHere",
   "GoalCategory": "ValueHere",
@@ -46,14 +46,14 @@ Defines a URL conversion goal. Use this type of goal to count every time someone
   "Revenue": {
     "CurrencyCode": "ValueHere",
     "Type": "ValueHere",
-    "Value": "DecimalValueHere"
+    "Value": DecimalValueHere
   },
   "Scope": "ValueHere",
   "Status": "ValueHere",
   "TagId": "LongValueHere",
   "TrackingStatus": "ValueHere",
   "Type": "Url",
-  "ViewThroughConversionWindowInMinutes": "IntValueHere",
+  "ViewThroughConversionWindowInMinutes": IntValueHere,
   "UrlExpression": "ValueHere",
   "UrlOperator": "ValueHere"
 }
