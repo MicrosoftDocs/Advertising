@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test)
+description: Reserved1.(test)
 ---
 # AppSetting Data Object Test - Campaign Management
 Reserved.
