@@ -18,6 +18,7 @@ Defines a list of optional audience properties that you can request when calling
       <xs:restriction base="xs:string">
         <xs:enumeration value="NormalForm" />
         <xs:enumeration value="NumberRuleItem" />
+        <xs:enumeration value="ImpressionBasedRemarketingList" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -26,10 +27,11 @@ Defines a list of optional audience properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [AudienceAdditionalField](audienceadditionalfield.md) value set has the following values: [NormalForm](#normalform), [NumberRuleItem](#numberruleitem).
+The [AudienceAdditionalField](audienceadditionalfield.md) value set has the following values: [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [NormalForm](#normalform), [NumberRuleItem](#numberruleitem).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Request that the [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) element be included when you call the [GetAudiencesByIds](getaudiencesbyids.md) service operation.|
 |<a name="normalform"></a>NormalForm|Request that the [NormalForm](pagevisitorsrule.md#normalform) element be included within each returned [PageVisitorsRule](pagevisitorsrule.md) object.|
 |<a name="numberruleitem"></a>NumberRuleItem|Reserved.|
 
