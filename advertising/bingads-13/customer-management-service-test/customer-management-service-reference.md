@@ -1,12 +1,12 @@
 ---
-title: "Customer Management API"
+title: "Customer Management Test API"
 ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-description: Reference documentation for the Customer Management API.
+description: Reference documentation for the Customer Management API.(test)
 ---
-# Customer Management API
+# Customer Management Test API
 The Customer Management [service](../guides/web-service-addresses.md) defines an Application Programming Interface (API) that you use to manage customers, accounts, and users.
 
 |Interface|Description|
