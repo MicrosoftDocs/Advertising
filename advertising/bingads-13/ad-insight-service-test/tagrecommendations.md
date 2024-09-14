@@ -197,7 +197,7 @@ The *TagRecommendationsRequest* object defines the [body](#request-body) and [he
 |<a name="recommendationtype"></a>RecommendationType|The identifier of the recommendation type that you have applied.<br/><br/>This element cannot be nil or empty. One specific recommendation type per request, e.g., *ResponsiveSearchAdsOpportunity*. |**string**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *TagRecommendationsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

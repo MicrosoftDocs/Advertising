@@ -197,7 +197,7 @@ The *GetCampaignIdsByBidStrategyIdsRequest* object defines the [body](#request-b
 |<a name="bidstrategyids"></a>BidStrategyIds|A list of unique bid strategy identifiers that identify the campaign identifiers to get.<br/><br/>You can specify a maximum of 100 IDs bid strategy IDs, and each bid strategy could be shared by up to 10,000 campaign identifiers. For each bid strategy ID that you specify in the request, an [IdCollection](idcollection.md) that contains between 1 and 10,000 campaign identifers will be returned.<br/><br/>The bid strategy IDs must be in the same account that you specified in the required *CustomerAccountId* header element.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetCampaignIdsByBidStrategyIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

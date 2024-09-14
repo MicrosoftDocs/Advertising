@@ -355,7 +355,7 @@ The *AddImportJobsRequest* object defines the [body](#request-body) and [header]
 |<a name="importjobs"></a>ImportJobs|The import jobs to create.<br/><br/>Although this element is an array, you can include a maximum of one [GoogleImportJob](googleimportjob.md) object per call.<br/><br/>You can set the Google account that you want to import from via the [GoogleAccountId](googleimportjob.md#googleaccountid) element in the [GoogleImportJob](googleimportjob.md) object. The Microsoft Advertising ad account that you want to import to is determined by the required *CustomerAccountId* header element of this [AddImportJobs](addimportjobs.md#request-header) service operation.|[ImportJob](importjob.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddImportJobsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

@@ -178,7 +178,7 @@ The *GetAccountsInfoRequest* object defines the [body](#request-body) and [heade
 |<a name="onlyparentaccounts"></a>OnlyParentAccounts|Determines whether to return only the advertiser accounts that belong to the customer or to also return linked advertiser accounts under other customers.<br/><br/>To limit the results to advertiser accounts directly under the specified customer, set this element to *true*, and otherwise leave it empty or set the property to *false*. The default value is *false*.|**boolean**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAccountsInfoResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

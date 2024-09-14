@@ -170,7 +170,7 @@ The *GetAccountMonthlySpendRequest* object defines the [body](#request-body) and
 |<a name="monthyear"></a>MonthYear|The month and year for which you want to get the monthly spend information (the operation ignores the day and time values).<br/><br/>The service uses the month and year components corresponding to the specified *dateTime*. For example 2020-05-15T00:00:00 and 2020-05 are both valid and will return the same results.<br/><br/>If you specify the current month, the operation returns the month-to-date spend amount. For example, if the current date is May 15, 2020 and you set *MonthYear* to May 2020, the operation returns the spend amount for May 1 to May 15, inclusively.<br/><br/>You cannot specify a future month and year. If you specify a prior month for which there is no data, the call returns 0 (zero).<br/><br/>The spend amount can span multiple insertion orders (IOs). If the credits are greater than the actual spend, the returned monthly spend amount is a negative value.|**dateTime**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAccountMonthlySpendResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

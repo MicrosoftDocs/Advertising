@@ -348,7 +348,7 @@ The *AddAudiencesRequest* object defines the [body](#request-body) and [header](
 |<a name="audiences"></a>Audiences|The list of audiences to add.<br/><br/>The maximum size of the list is 100.<br/><br/>You cannot add [CustomAudience](customaudience.md), [InMarketAudience](inmarketaudience.md), or [SimilarRemarketingList](similarremarketinglist.md) objects. |[Audience](audience.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddAudiencesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

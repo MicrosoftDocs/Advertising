@@ -209,7 +209,7 @@ The *AppealEditorialRejectionsRequest* object defines the [body](#request-body) 
 |<a name="justificationtext"></a>JustificationText|The justification for the appeal. The string can contain a maximum of 1,000 characters. The justification applies to all of the specified entities.<br/><br/>A useful justification should include reasons why the ad or keyword is compliant with editorial policy for example, *JustificationText = "my ads for paint guns are not firearms, they are painting tools"*.|**string**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AppealEditorialRejectionsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

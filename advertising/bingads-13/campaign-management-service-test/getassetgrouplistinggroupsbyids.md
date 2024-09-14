@@ -187,7 +187,7 @@ The *GetAssetGroupListingGroupsByIdsRequest* object defines the [body](#request-
 |<a name="assetgrouplistinggroupids"></a>AssetGroupListingGroupIds|A list of identifiers that identify the listing groups that had the action applied. The list of identifiers corresponds directly to the list of listing groups in the request. <br /><br />If any listing group action failed, then all remaining listing group actions will fail, and all elements in this list will be null.  |**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAssetGroupListingGroupsByIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

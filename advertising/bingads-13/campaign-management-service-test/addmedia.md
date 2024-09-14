@@ -185,7 +185,7 @@ The *AddMediaRequest* object defines the [body](#request-body) and [header](#req
 |<a name="media"></a>Media|An array of *Media* to add to the account's asset library.<br/><br/>You can add a maximum of 10 media in a single call.|[Media](media.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddMediaResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

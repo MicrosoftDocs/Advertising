@@ -225,7 +225,7 @@ The *GetNegativeKeywordsByEntityIdsRequest* object defines the [body](#request-b
 |<a name="parententityid"></a>ParentEntityId|The identifier of the parent entity corresponding to the specified *EntityIds* element.<br/><br/>If the entity type is AdGroup, this element should be set to the campaign identifier that contains all of the specified ad groups.<br/><br/>If the entity type is Campaign, the service uses the *CustomerAccountId* header element and this element is ignored.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetNegativeKeywordsByEntityIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

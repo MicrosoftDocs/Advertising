@@ -222,7 +222,7 @@ The *DeleteListItemsFromSharedListRequest* object defines the [body](#request-bo
 |<a name="sharedlist"></a>SharedList|The negative keyword list or website exclusion list.<br/><br/>If the [SharedEntityScope](#sharedentityscope) is either empty or set to [Account](entityscope.md#account), and if the [SharedList](#sharedlist) is a [NegativeKeywordList](negativekeywordlist.md), then the [ListItemIds](#listitemids) must identify negative keyword ([NegativeKeyword](negativekeyword.md)) objects.<br/><br/>If the [SharedEntityScope](#sharedentityscope) is set to [Customer](entityscope.md#customer), and if the [SharedList](#sharedlist) is a [PlacementExclusionList](placementexclusionlist.md), then the [ListItemIds](#listitemids) must identify negative site ([NegativeSite](negativesite.md)) objects.|[SharedList](sharedlist.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *DeleteListItemsFromSharedListResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

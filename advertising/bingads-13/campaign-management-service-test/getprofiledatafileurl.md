@@ -181,7 +181,7 @@ The *GetProfileDataFileUrlRequest* object defines the [body](#request-body) and 
 |<a name="profiletype"></a>ProfileType|Determines whether you want industry or job function profile data.<br/><br/>The [CompanyName](profiletype.md#companyname) profile type is not supported for this service operation. You can use the [SearchCompanies](searchcompanies.md) operation to search for profile data by company name.|[ProfileType](profiletype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetProfileDataFileUrlResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

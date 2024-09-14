@@ -196,7 +196,7 @@ The *DeleteMediaRequest* object defines the [body](#request-body) and [header](#
 |<a name="mediaids"></a>MediaIds|A maximum of 100 media identifiers to delete from the account's media library.<br/><br/>You cannot delete media that is associated or assigned to an [ImageAdExtension](imageadextension.md) or [ResponsiveAd](responsivead.md) object. Otherwise this operation will return the 4024 CampaignServiceMediaIsAssociated error.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *DeleteMediaResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

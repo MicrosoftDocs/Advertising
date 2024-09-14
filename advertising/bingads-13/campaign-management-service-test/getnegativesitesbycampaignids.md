@@ -210,7 +210,7 @@ The *GetNegativeSitesByCampaignIdsRequest* object defines the [body](#request-bo
 |<a name="campaignids"></a>CampaignIds|An array of identifiers of the campaigns that contain the negative site URLs that you want to get.<br/><br/>The call fails if the sum of all negative site URLs defined in the specified list of campaigns exceeds 30,000 URLs. To ensure that the call succeeds, consider limiting the number of campaigns to 15.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetNegativeSitesByCampaignIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

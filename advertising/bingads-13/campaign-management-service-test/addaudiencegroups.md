@@ -215,7 +215,7 @@ The *AddAudienceGroupsRequest* object defines the [body](#request-body) and [hea
 |<a name="audiencegroups"></a>AudienceGroups|Array of audience groups. The maximum size of the list is 100 items per service request. You can add a maximum of 10,000 audience groups per account.|[AudienceGroup](audiencegroup.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddAudienceGroupsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

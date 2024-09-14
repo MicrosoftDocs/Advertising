@@ -248,7 +248,7 @@ The *GetBidStrategiesByIdsRequest* object defines the [body](#request-body) and 
 |<a name="bidstrategyids"></a>BidStrategyIds|A list of unique bid strategy identifiers that identify the bid strategies to get.<br/><br/>You can include a maximum of 100 IDs in a single call.<br/><br/>The bid strategy IDs must be in the same account that you specified in the required *CustomerAccountId* header element.<br/><br/>If you leave this element nil or empty, then the operation will return all portfolio bid strategies in the account.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetBidStrategiesByIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

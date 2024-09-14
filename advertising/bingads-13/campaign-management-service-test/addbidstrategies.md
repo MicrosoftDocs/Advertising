@@ -251,7 +251,7 @@ The *AddBidStrategiesRequest* object defines the [body](#request-body) and [head
 |<a name="bidstrategies"></a>BidStrategies|An array of [BidStrategy](bidstrategy.md) objects to add to the account's portfolio bid strategy library.<br/><br/>You can include a maximum of 100 bid strategies in a single call. Each account can have up to 11,000 portfolio bid strategies.<br/><br/>The account is determined by the required *CustomerAccountId* header element.|[BidStrategy](bidstrategy.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddBidStrategiesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

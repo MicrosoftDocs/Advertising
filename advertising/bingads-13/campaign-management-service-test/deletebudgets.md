@@ -186,7 +186,7 @@ The *DeleteBudgetsRequest* object defines the [body](#request-body) and [header]
 |<a name="budgetids"></a>BudgetIds|A maximum of 100 budget identifiers to delete from the account's shared budget library.<br/><br/>The account is determined by the required *CustomerAccountId* header element.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *DeleteBudgetsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

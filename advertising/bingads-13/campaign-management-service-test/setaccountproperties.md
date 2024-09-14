@@ -162,7 +162,7 @@ The *SetAccountPropertiesRequest* object defines the [body](#request-body) and [
 |<a name="accountproperties"></a>AccountProperties|The list of account properties that you want to set.<br/><br/>For example, you can enable Microsoft Click Id auto-tagging for tracking offline conversions.<br/><br/>Partial success is not supported i.e., if any account property cannot be set, then none of the account properties will be set.|[AccountProperty](accountproperty.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *SetAccountPropertiesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

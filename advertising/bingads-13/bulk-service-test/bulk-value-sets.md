@@ -14,6 +14,6 @@ The Bulk service defines the following value sets.
 |---|---|
 |[CompressionType](compressiontype.md)|Defines the possible compression types for the file to download with the Bulk service.|
 |[DataScope](datascope.md)|Defines the scope or types of data to download.|
-|DownloadEntity|Defines the entities that may be downloaded and uploaded in bulk.|
+|[DownloadEntity](downloadentity.md)|Defines the entities that may be downloaded and uploaded in bulk.|
 |[DownloadFileType](downloadfiletype.md)|Defines the file formats for a download request.|
 |[ResponseMode](responsemode.md)|Defines elements to specify whether the bulk service should return upload errors with their corresponding data.|

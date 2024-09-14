@@ -204,7 +204,7 @@ The *GetBidLandscapeByKeywordIdsRequest* object defines the [body](#request-body
 |<a name="keywordids"></a>KeywordIds|An array of identifiers of the keywords for which you want to get the list of suggested bid values with estimated performance statistics.<br/><br/>You may specify a maximum of 1,000 keywords.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetBidLandscapeByKeywordIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

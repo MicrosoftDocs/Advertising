@@ -234,7 +234,7 @@ The *GetSharedEntityAssociationsBySharedEntityIdsRequest* object defines the [bo
 |<a name="sharedentitytype"></a>SharedEntityType|The type of shared entity to get associations.<br/><br/>Set this element to "NegativeKeywordList" to get negative keyword list to campaign associations in your ad account shared library.<br/><br/>Set this element to "PlacementExclusionList" to get website exclusion list to ad account associations in your manager account (customer) shared library.|**string**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetSharedEntityAssociationsBySharedEntityIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

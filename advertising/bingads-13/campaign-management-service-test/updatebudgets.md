@@ -192,7 +192,7 @@ The *UpdateBudgetsRequest* object defines the [body](#request-body) and [header]
 |<a name="budgets"></a>Budgets|An array of [Budget](budget.md) objects to update in the account's shared budget library.<br/><br/>You can update a maximum of 100 budgets in a single call.<br/><br/>The account is determined by the required *CustomerAccountId* header element.|[Budget](budget.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *UpdateBudgetsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

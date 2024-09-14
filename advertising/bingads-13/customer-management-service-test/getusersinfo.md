@@ -175,7 +175,7 @@ The *GetUsersInfoRequest* object defines the [body](#request-body) and [header](
 |<a name="statusfilter"></a>StatusFilter|The status value that the operation uses to filter the list of users that it returns. The operation returns only those users with the specified status.|[UserLifeCycleStatus](userlifecyclestatus.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetUsersInfoResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

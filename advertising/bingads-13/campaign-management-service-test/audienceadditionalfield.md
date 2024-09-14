@@ -31,7 +31,7 @@ The [AudienceAdditionalField](audienceadditionalfield.md) value set has the foll
 
 |Value|Description|
 |-----------|---------------|
-|<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Reserved.|
+|<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Request that the [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) element be included when you call the [GetAudiencesByIds](getaudiencesbyids.md) service operation.|
 |<a name="normalform"></a>NormalForm|Request that the [NormalForm](pagevisitorsrule.md#normalform) element be included within each returned [PageVisitorsRule](pagevisitorsrule.md) object.|
 |<a name="numberruleitem"></a>NumberRuleItem|Reserved.|
 

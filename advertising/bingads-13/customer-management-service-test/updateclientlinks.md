@@ -215,7 +215,7 @@ The *UpdateClientLinksRequest* object defines the [body](#request-body) and [hea
 |<a name="clientlinks"></a>ClientLinks|The list of client links to update.<br/><br/>You should limit your request to 10 client links per call.|[ClientLink](clientlink.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *UpdateClientLinksResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

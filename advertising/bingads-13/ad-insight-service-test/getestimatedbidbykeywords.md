@@ -279,7 +279,7 @@ The *GetEstimatedBidByKeywordsRequest* object defines the [body](#request-body) 
 |<a name="targetpositionforads"></a>TargetPositionForAds|The position where you want your ads to appear in the search results.<br/><br/>The default value is *MainLine1*.|[TargetAdPosition](targetadposition.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetEstimatedBidByKeywordsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).
