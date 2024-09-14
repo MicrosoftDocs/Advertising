@@ -214,7 +214,7 @@ The *AddSeasonalityAdjustmentsRequest* object defines the [body](#request-body) 
 |<a name="seasonalityadjustments"></a>SeasonalityAdjustments|The seasonality adjustments to add.|[SeasonalityAdjustment](seasonalityadjustment.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddSeasonalityAdjustmentsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

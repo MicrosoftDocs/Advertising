@@ -193,7 +193,7 @@ The *GetAudienceGroupAssetGroupAssociationsByAudienceGroupIdsRequest* object def
 |<a name="audiencegroupids"></a>AudienceGroupIds|The list of AudienceGroup ids used to fetch the associations.  <br /><br />You can include a maximum of 100 IDs in a single call. |**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAudienceGroupAssetGroupAssociationsByAudienceGroupIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

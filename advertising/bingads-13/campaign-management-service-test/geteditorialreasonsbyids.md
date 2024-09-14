@@ -227,7 +227,7 @@ The *GetEditorialReasonsByIdsRequest* object defines the [body](#request-body) a
 |<a name="entitytype"></a>EntityType|The type of entities that the entity list contains.<br/><br/>The supported entity type values are [Ad](entitytype.md#ad) and [Keyword](entitytype.md#keyword).|[EntityType](entitytype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetEditorialReasonsByIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

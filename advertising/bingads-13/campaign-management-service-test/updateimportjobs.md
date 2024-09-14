@@ -354,7 +354,7 @@ The *UpdateImportJobsRequest* object defines the [body](#request-body) and [head
 |<a name="importjobs"></a>ImportJobs|The import jobs to update.<br/><br/>Although this element is an array, you can include a maximum of one [GoogleImportJob](googleimportjob.md) object per call.|[ImportJob](importjob.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *UpdateImportJobsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

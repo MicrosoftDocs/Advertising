@@ -61,10 +61,10 @@ The [SeasonalityAdjustment](seasonalityadjustment.md) object has the following e
 |<a name="campaigntypefilter"></a>CampaignTypeFilter|Make the seasonality adjustment to these campaign types. |[CampaignType](campaigntype.md)|
 |<a name="description"></a>Description|A description for the seasonality adjustment.|**string**|
 |<a name="devicetypefilter"></a>DeviceTypeFilter|Make the seasonality adjustment to these device types.|[DeviceType](devicetype.md)|
-|<a name="enddate"></a>EndDate|The end date.<br/><br/>**Important:** The value must be in Coordinated Universal Time (UTC). This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
+|<a name="enddate"></a>EndDate|The end date.<br/><br/>**Important:** The value must be in your account time zone. This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
 |<a name="id"></a>Id|The seasonality adjustment ID.|**long**|
 |<a name="name"></a>Name|The name of the seasonality adjustment.|**string**|
-|<a name="startdate"></a>StartDate|The start date.<br/><br/>**Important:** The value must be in Coordinated Universal Time (UTC). This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
+|<a name="startdate"></a>StartDate|The start date.<br/><br/>**Important:** The value must be in your account time zone. This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

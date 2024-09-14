@@ -207,7 +207,7 @@ The *UpdateExperimentsRequest* object defines the [body](#request-body) and [hea
 |<a name="experiments"></a>Experiments|An array of [Experiment](experiment.md) objects to update within the account.<br/><br/>You can update a maximum of 100 experiments in a single call.<br/><br/>The account is determined by the required *CustomerAccountId* header element.|[Experiment](experiment.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *UpdateExperimentsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

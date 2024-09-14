@@ -218,7 +218,7 @@ The *GetVideosByIdsRequest* object defines the [body](#request-body) and [header
 |<a name="videoids"></a>VideoIds|The identifiers of the videos to get.<br/><br/>The maximum size of the list is 1,000 items per service request. If this element is not specified, the operation will return all active videos in the account (1,000 results per page).|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetVideosByIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

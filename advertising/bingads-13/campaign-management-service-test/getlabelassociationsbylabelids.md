@@ -216,7 +216,7 @@ The *GetLabelAssociationsByLabelIdsRequest* object defines the [body](#request-b
 |<a name="pageinfo"></a>PageInfo|Determines the index and size of label association results per page.<br/><br/>Up to 1,000 label associations will be returned per page, so you might need to request multiple pages to get all of the label associations.<br/><br/>If this element is not specified, the defaut page Index is *0* and the default Size is *1,000*.|[Paging](paging.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetLabelAssociationsByLabelIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

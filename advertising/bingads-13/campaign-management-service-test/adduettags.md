@@ -241,7 +241,7 @@ The *AddUetTagsRequest* object defines the [body](#request-body) and [header](#r
 |<a name="uettags"></a>UetTags|An array of [UetTag](uettag.md) objects to add to the customer's shared UET tag library.<br/><br/>The customer is determined by the required *CustomerId* header element.<br/><br/>You can add a maximum of 100 UET tags in a single call, although please note that you can use one UET tag with all of your conversion goals and remarketing lists. Before you create multiple UET tags, see [Reasons for creating more than one UET tag](https://help.ads.microsoft.com/#apex/3/en/56685/2).<br/><br/>If the call is successful, the tracking script that you should add to your website is included in a corresponding [UetTag](uettag.md) within the response message.|[UetTag](uettag.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddUetTagsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

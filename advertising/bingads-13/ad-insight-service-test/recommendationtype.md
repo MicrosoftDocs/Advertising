@@ -35,19 +35,43 @@ Defines the RecommendationType value set.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="RemoveConflictingNegativeKeywordRecommendation">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="UseBroadMatchKeywordRecommendation">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="ResponsiveSearchAdAssetRecommendation">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">6</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [RecommendationType](recommendationtype.md) value set has the following values: [CampaignBudgetRecommendation](#campaignbudgetrecommendation), [KeywordRecommendation](#keywordrecommendation), [ResponsiveSearchAdRecommendation](#responsivesearchadrecommendation).
+The [RecommendationType](recommendationtype.md) value set has the following values: [CampaignBudgetRecommendation](#campaignbudgetrecommendation), [KeywordRecommendation](#keywordrecommendation), [RemoveConflictingNegativeKeywordRecommendation](#removeconflictingnegativekeywordrecommendation), [ResponsiveSearchAdAssetRecommendation](#responsivesearchadassetrecommendation), [ResponsiveSearchAdRecommendation](#responsivesearchadrecommendation), [UseBroadMatchKeywordRecommendation](#usebroadmatchkeywordrecommendation).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="campaignbudgetrecommendation"></a>CampaignBudgetRecommendation|Fix campaigns limited by budget.|
 |<a name="keywordrecommendation"></a>KeywordRecommendation|Add new keywords from all sources.|
+|<a name="removeconflictingnegativekeywordrecommendation"></a>RemoveConflictingNegativeKeywordRecommendation|Reserved.|
+|<a name="responsivesearchadassetrecommendation"></a>ResponsiveSearchAdAssetRecommendation|Reserved.|
 |<a name="responsivesearchadrecommendation"></a>ResponsiveSearchAdRecommendation|Add new responsive search ad.|
+|<a name="usebroadmatchkeywordrecommendation"></a>UseBroadMatchKeywordRecommendation|Reserved.|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

@@ -191,7 +191,7 @@ The *ApplyCustomerListUserDataRequest* object defines the [body](#request-body) 
 |<a name="customerlistuserdata"></a>CustomerListUserData|Defines the CustomerListUserData data object. You can specify one user data type in [CustomerListItemSubtype](./customerlistitemsubtype.md). Use [CustomerListActionType](./customerlistactiontype.md) to specify the action type.<br/><br/>*Note*: The maximum user data for *CustomerListItems* is 1000. |[CustomerListUserData](customerlistuserdata.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *ApplyCustomerListUserDataResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

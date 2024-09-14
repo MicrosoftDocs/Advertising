@@ -210,7 +210,7 @@ The *SetNegativeSitesToCampaignsRequest* object defines the [body](#request-body
 |<a name="campaignnegativesites"></a>CampaignNegativeSites|An array of [CampaignNegativeSites](campaignnegativesites.md) objects that identify the campaigns to update with the specified negative site URLs.<br/><br/>The array can contain a maximum of 5,000 objects.<br/><br/>The total number of URLs that you can specify per request for all ad campaigns combined is 30,000. For example, if you specify 2,500 URLs per campaign, the maximum number of [CampaignNegativeSites](campaignnegativesites.md) objects that you should pass is 12.|[CampaignNegativeSites](campaignnegativesites.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *SetNegativeSitesToCampaignsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

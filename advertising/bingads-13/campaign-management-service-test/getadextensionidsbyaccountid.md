@@ -184,7 +184,7 @@ The *GetAdExtensionIdsByAccountIdRequest* object defines the [body](#request-bod
 |<a name="associationtype"></a>AssociationType|A value that filters the extensions based on whether they?re associated with a specific entity type.<br/><br/>For possible values, see [AssociationType](associationtype.md).<br/><br/>To get all extensions including those not associated with any entity, set this element to NULL.|[AssociationType](associationtype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAdExtensionIdsByAccountIdResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

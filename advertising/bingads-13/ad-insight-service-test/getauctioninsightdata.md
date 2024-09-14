@@ -253,7 +253,7 @@ The *GetAuctionInsightDataRequest* object defines the [body](#request-body) and 
 |<a name="searchparameters"></a>SearchParameters|The search parameters define your criteria and filters for the auction insight data.<br/><br/>You must include exactly one [DateRangeSearchParameter](daterangesearchparameter.md). In addition you can optionally include up to three different [AuctionSegmentSearchParameter](auctionsegmentsearchparameter.md) objects e.g., for Day, DayOfWeek, and Device. Other objects that derive from [SearchParameter](searchparameter.md) are not valid for this operation.|[SearchParameter](searchparameter.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAuctionInsightDataResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

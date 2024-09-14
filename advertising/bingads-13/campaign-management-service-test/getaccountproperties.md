@@ -193,7 +193,7 @@ The *GetAccountPropertiesRequest* object defines the [body](#request-body) and [
 |<a name="accountpropertynames"></a>AccountPropertyNames|The names of account properties that you want to get.<br/><br/>For example, determine whether or not Microsoft Click Id auto-tagging is enabled, include the *MSCLKIDAutoTaggingEnabled* value in your request.|[AccountPropertyName](accountpropertyname.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAccountPropertiesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

@@ -224,7 +224,7 @@ The *DeleteNegativeKeywordsFromEntitiesRequest* object defines the [body](#reque
 |<a name="entitynegativekeywords"></a>EntityNegativeKeywords|An array of negative keyword with associated entity such as a campaign or ad group.<br/><br/>The *EntityType* specified within each *EntityNegativeKeyword* must be set to the same value.<br/><br/>This array can contain a maximum of 1 *EntityNegativeKeyword* element, which contains up to 20,000 negative keywords.|[EntityNegativeKeyword](entitynegativekeyword.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *DeleteNegativeKeywordsFromEntitiesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

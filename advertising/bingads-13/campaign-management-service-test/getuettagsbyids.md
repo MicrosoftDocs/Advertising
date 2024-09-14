@@ -215,7 +215,7 @@ The *GetUetTagsByIdsRequest* object defines the [body](#request-body) and [heade
 |<a name="tagids"></a>TagIds|A maximum of 100 identifiers of the UET tags that you want to get. <br/><br/>If *TagIds* is null or empty, then you are effectively requesting all UET tags that are available for the customer.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetUetTagsByIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

@@ -188,7 +188,7 @@ The *GetGeoLocationsFileUrlRequest* object defines the [body](#request-body) and
 |<a name="version"></a>Version|The version of the location file that you want to download.<br/><br/>Currently the only supported version is 2.0.|**string**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetGeoLocationsFileUrlResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

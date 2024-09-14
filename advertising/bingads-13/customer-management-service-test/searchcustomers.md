@@ -241,7 +241,7 @@ The *SearchCustomersRequest* object defines the [body](#request-body) and [heade
 |<a name="predicates"></a>Predicates|Determines the conditions that all must be met to return customers.<br/><br/>You must include between one and 10 predicates. To filter by the created date range, you can include two predicates with the [Field](predicate.md#field) value set to CreatedDate, and otherwise may only use each predicate field once.<br/><br/>For details about each supported predicate [Field](predicate.md#field) value see [Predicate Remarks](predicate.md#remarks).|[Predicate](predicate.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *SearchCustomersResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

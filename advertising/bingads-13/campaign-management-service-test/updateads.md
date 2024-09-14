@@ -547,7 +547,7 @@ The *UpdateAdsRequest* object defines the [body](#request-body) and [header](#re
 |<a name="ads"></a>Ads|A list of ads to update. You may update a maximum of 50 ads.<br/><br/>The *Id* element must specify the ID of the ad to update. Specify only those elements that you want to update. The call will fail if you specify a non-null value for a read-only element such as *Id*.|[Ad](ad.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *UpdateAdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

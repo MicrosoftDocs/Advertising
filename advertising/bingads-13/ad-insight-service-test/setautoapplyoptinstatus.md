@@ -172,7 +172,7 @@ The *SetAutoApplyOptInStatusRequest* object defines the [body](#request-body) an
 |<a name="autoapplyoptinstatusinputs"></a>AutoApplyOptInStatusInputs|A string array which identifies auto-apply opt-in status of the given recommendation types in the request. Duplicated input keys are not allowed in the same call. <br>This field includes the list of recommendation types with the auto-apply opt-in status to be specified. <br>The existing key and value pairs are as follows (case sensitive): <ul><li>ResponsiveSearchAdsOpportunity = false<li>MultiMediaAdsOpportunity = true <li>RemoveConflictingNegativeKeywordOpportunity = false <li>FixConversionGoalSettingsOpportunity = false <li>CreateConversionGoalOpportunity = false .</li></ul>If the value of a key is set to true, then the account will opt-in auto-apply of the corresponding recommendation type.<br>You may specify a maximum of 100 input elements. |**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *SetAutoApplyOptInStatusResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

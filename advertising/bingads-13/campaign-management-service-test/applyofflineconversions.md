@@ -206,7 +206,7 @@ The *ApplyOfflineConversionsRequest* object defines the [body](#request-body) an
 |<a name="offlineconversions"></a>OfflineConversions|The list of offline conversions for the account.<br/><br/>You can add a maximum of 1,000 offline conversions per service request.<br/><br/>Each offline conversion can be split across multiple click IDs. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion can't be applied more than once. If you send Microsoft Advertising duplicates, the first instance will be used and the others will be ignored.|[OfflineConversion](offlineconversion.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *ApplyOfflineConversionsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

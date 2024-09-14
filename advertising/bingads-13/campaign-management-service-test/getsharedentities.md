@@ -195,7 +195,7 @@ The *GetSharedEntitiesRequest* object defines the [body](#request-body) and [hea
 |<a name="sharedentitytype"></a>SharedEntityType|The type of shared entity to get from the ad account or manager account (customer) library.<br/><br/>Set this element to NegativeKeywordList to get negative keyword lists ([NegativeKeywordList](negativekeywordlist.md)) in your ad account shared library.<br/><br/>Set this element to PlacementExclusionList to get website exclusion lists ([PlacementExclusionList](placementexclusionlist.md)) in your manager account (customer) shared library.|**string**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetSharedEntitiesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

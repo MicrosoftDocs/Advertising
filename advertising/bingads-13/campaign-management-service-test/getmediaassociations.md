@@ -206,7 +206,7 @@ The *GetMediaAssociationsRequest* object defines the [body](#request-body) and [
 |<a name="mediaids"></a>MediaIds|The identifiers of the media to get corresponding entity associations.<br/><br/>You can specify a maximum of 100 media identifiers in a single call.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetMediaAssociationsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

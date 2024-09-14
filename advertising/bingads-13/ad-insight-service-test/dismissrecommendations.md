@@ -175,7 +175,7 @@ The *DismissRecommendationsRequest* object defines the [body](#request-body) and
 |<a name="entities"></a>Entities|The list of operations to dismiss recommendations. There is a limit of 100 operations per request. Required.|[DismissRecommendationEntity](dismissrecommendationentity.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *DismissRecommendationsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

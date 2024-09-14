@@ -203,7 +203,7 @@ The *GetLabelAssociationsByEntityIdsRequest* object defines the [body](#request-
 |<a name="entitytype"></a>EntityType|Filters the returned associations by entity type.<br/><br/>The supported entity type values are [Campaign](entitytype.md#campaign), [AdGroup](entitytype.md#adgroup), [Ad](entitytype.md#ad), and [Keyword](entitytype.md#keyword).|[EntityType](entitytype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetLabelAssociationsByEntityIdsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

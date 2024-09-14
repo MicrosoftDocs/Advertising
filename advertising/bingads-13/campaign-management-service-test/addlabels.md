@@ -195,7 +195,7 @@ The *AddLabelsRequest* object defines the [body](#request-body) and [header](#re
 |<a name="labels"></a>Labels|The list of labels to add to the account.<br/><br/>The maximum size of the list is 100 items per service request.|[Label](label.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *AddLabelsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).

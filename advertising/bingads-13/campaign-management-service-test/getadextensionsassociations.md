@@ -638,7 +638,7 @@ The *GetAdExtensionsAssociationsRequest* object defines the [body](#request-body
 |<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved for future use.|[AdExtensionAdditionalField](adextensionadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
 
 ## <a name="response"></a>Response Elements
 The *GetAdExtensionsAssociationsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).
