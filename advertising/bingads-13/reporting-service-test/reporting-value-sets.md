@@ -10,7 +10,7 @@ description: Value sets reference for the Reporting service.(test)
 # Reporting Test Value Sets
 The Reporting service defines the following value sets.
 
-|Value Set|Description|
+|Value Set |Description |
 |---|---|
 |[AccountPerformanceReportColumn](accountperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AccountPerformanceReportRequest](accountperformancereportrequest.md).|
 |[AccountStatusReportFilter](accountstatusreportfilter.md)|Defines the account status values that you can use to filter the report data.|
