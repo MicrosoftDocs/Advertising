@@ -2888,6 +2888,7 @@
   href: ./migration-guide.md
   items:
   - name: REST API (test)
+    href: ./rest-api-test.md
     items: 
       - name: Campaign Management REST API (test)
         items:
