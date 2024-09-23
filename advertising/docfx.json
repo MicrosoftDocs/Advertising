@@ -79,6 +79,14 @@
       "ms.subservice": {
         "customer-billing-service/**.yml": "customer-billing-api"
       },
+      "_noindex": {
+            "ad-insight-service-test/**.md": true,
+            "bulk-service-test/**.md": true,
+            "campaign-management-service-test/**.md": true,
+            "customer-billing-service-test/**.md": true,
+            "customer-management-service-test/**.md": true,
+            "reporting-service-test/**.md": true
+      },
       "ms.service": 
       { 
         "guides/**.yml": "bing-ads",
