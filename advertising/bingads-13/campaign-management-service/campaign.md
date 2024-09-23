@@ -44,6 +44,13 @@ Defines a campaign.
       </xs:annotation>
     </xs:element>
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+    <xs:element minOccurs="0" name="IsDealCampaign" nillable="true" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="MultimediaAdsBidAdjustment" nillable="true" type="xs:int">
       <xs:annotation>
         <xs:appinfo>
@@ -81,7 +88,7 @@ Defines a campaign.
 
 ## <a name="elements"></a>Elements
 
-The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [BidStrategyId](#bidstrategyid), [BudgetId](#budgetid), [BudgetType](#budgettype), [CampaignType](#campaigntype), [DailyBudget](#dailybudget), [DealIds](#dealids), [ExperimentId](#experimentid), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [GoalIds](#goalids), [Id](#id), [Languages](#languages), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Settings](#settings), [Status](#status), [SubType](#subtype), [TimeZone](#timezone), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters).
+The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [BidStrategyId](#bidstrategyid), [BudgetId](#budgetid), [BudgetType](#budgettype), [CampaignType](#campaigntype), [DailyBudget](#dailybudget), [DealIds](#dealids), [ExperimentId](#experimentid), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [GoalIds](#goalids), [Id](#id), [IsDealCampaign](#isdealcampaign), [Languages](#languages), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Settings](#settings), [Status](#status), [SubType](#subtype), [TimeZone](#timezone), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -99,6 +106,7 @@ The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSea
 |<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for this object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
 |<a name="goalids"></a>GoalIds|Reserved.|**long** array|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the campaign.<br/><br/>**Add:** Read-only<br/>**Update:** Required|**long**|
+|<a name="isdealcampaign"></a>IsDealCampaign|Reserved.|**boolean**|
 |<a name="languages"></a>Languages|Your [ad language](../guides/ad-languages.md#adlanguage) setting determines the language you will use when you write your ads and should be the language of your customers.<br/><br/>**IMPORTANT:** If languages are set at both the ad group and campaign level, the ad group level language will override the campaign level language.<br/><br/>You can specify multiple languages individually in the list, or only include one list item set to All if you want to target all languages.<br/><br/>The supported language strings for Search and Shopping campaigns are: Albanian, Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Latvian, Lithuanian, Maltese, Norwegian, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish, and TraditionalChinese.<br/><br/>**NOTE:** The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Japanese, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.<br/><br/>For Audience campaigns you must include all languages i.e., set this element to All.<br/><br/>For Dynamic Search Ads campaigns, the campaign and ad group level language settings are ignored in favor of the website [domain language](dynamicsearchadssetting.md#language). You should set campaign languages to "All" and leave the ad group level [language](adgroup.md#language) empty.<br/><br/>**Add:** Required for Audience campaigns, and otherwise this element is optional. If there is no campaign language set, then the language of each ad group within the campaign will be required.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. Once campaign languages are set, you cannot delete all of them. The list of languages that you specify during update replaces the previous settings i.e. does not append to the existing set of languages.|**string** array|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Reserved.|**int**|
 |<a name="name"></a>Name|The name of the campaign. The name must be unique among all active or paused campaigns within the account. The name can contain a maximum of 128 characters.<br/><br/>The service performs a case-insensitive comparison when it compares the name to existing campaign names.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
