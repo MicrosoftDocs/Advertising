@@ -70,4 +70,4 @@ Possible values are *Active* or *Deleted*.
 
 **Add:** Optional. The default value is *Active*.  
 **Update:** Read-only  
-**Delete:** Required. The Status must be set to *Deleted*.
+**Delete:** Not applicable. Account negative keyword list can't be deleted.
