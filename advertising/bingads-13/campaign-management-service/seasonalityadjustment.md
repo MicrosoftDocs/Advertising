@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Defines a data object for the seasonality adjustment.
 ---
 # SeasonalityAdjustment Data Object - Campaign Management
-Defines  data object for the seasonality adjustment.
+Defines a data object for the seasonality adjustment.
 
 ## Syntax
 ```xml
