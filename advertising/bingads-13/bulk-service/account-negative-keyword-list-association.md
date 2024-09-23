@@ -78,4 +78,4 @@ This bulk field maps to the *Id* field of the [Account](account.md) record.
 Represents the association status between the account and the account negative keyword list. If the account negative keyword list is not associated with the account, this field's value is Active. To delete the criterion, set the status to Deleted.
 
 **Add:** Read-only. The status will always be set to *Active* when you add criterions. If you upload another value (e.g., *Foo*) the result file will contain the same value even though the criterion is active.
-**Delete:** Required. The Status must be set to *Deleted*.
+**Delete:** Not applicable. Account negative keyword list association can't be deleted.
