@@ -37,7 +37,7 @@ The [CallToActionSetting](calltoactionsetting.md) object has the following eleme
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="automatedcalltoactionoptout"></a>AutomatedCallToActionOptOut|Determines whether to opt out of automatic selection of call to action ad asset for the multimedia ads in the campaign. When opted in, we will use artificial intelligence during ad delivery to choose the call to action asset and ignore the ad's call to action setting.<br/><br/>*Note*: Not everyone has this feature yet. If you don't, don't worry - it's coming soon!<br/><br/>**Add**: Optional. The default value of *false* will be set if not otherwise specified.<br/>**Update**: Optional. If no value is set for the update, this setting is not changed.|**boolean**|
-|<a name="calltoactionoptout"></a>CallToActionOptOut|Determines whether to opt out of call to action ad asset for the audience ads in the campaign. **Add**: Optional. The default value of *false* will be set if not otherwise specified.<br/>**Update**: Optional. If no value is set for the update, this setting is not changed.|**boolean**|
+|<a name="calltoactionoptout"></a>CallToActionOptOut|Determines whether to opt out of call to action ad asset for the audience ads in the campaign.<br/><br/>**Add**: Optional. The default value of *false* will be set if not otherwise specified.<br/>**Update**: Optional. If no value is set for the update, this setting is not changed.|**boolean**|
 
 The [CallToActionSetting](calltoactionsetting.md) object has [Inherited Elements](#inheritedelements).
 
