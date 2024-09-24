@@ -100,12 +100,12 @@
       },
       "_noindex": 
       {
-        "bingads-13/ad-insight-service-test/**/*.md": true,
-        "bingads-13/bulk-service-test/**/*.md": true,
-        "bingads-13/campaign-management-service-test/**/*.md": true,
-        "bingads-13/customer-billing-service-test/**/*.md": true,
-        "bingads-13/customer-management-service-test/**/*.md": true,
-        "bingads-13/reporting-service-test/**/*.md": true
+        "advertising/ad-insight-service-test/**/*.md": true,
+        "advertising/bulk-service-test/**/*.md": true,
+        "advertising/campaign-management-service-test/**/*.md": true,
+        "advertising/customer-billing-service-test/**/*.md": true,
+        "advertising/customer-management-service-test/**/*.md": true,
+        "advertising/reporting-service-test/**/*.md": true
       }
     },
     "template": [],
