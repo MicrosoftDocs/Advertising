@@ -4565,7 +4565,7 @@
           href: ../ad-insight-service-test/targetadposition.md
           - name: TimeInterval
           href: ../ad-insight-service-test/timeinterval.md
-      name: Customer Management API(test)
+      - name: Customer Management API(test)
         items: 
         - name: Customer Management Service Operations
           items: 
