@@ -98,13 +98,14 @@
         "query-message/**.yml": "hotel-ads-query-message",
         "query-control-message/**.yml": "hotel-ads-query-control-message"    
       },
-      "ROBOTS": {
-            "ad-insight-service-test/**.yml": "NOINDEX",
-            "bulk-service-test/**.yml": "NOINDEX",
-            "campaign-management-service-test/**.yml": "NOINDEX",
-            "customer-billing-service-test/**.yml": "NOINDEX",
-            "customer-management-service-test/**.yml": "NOINDEX",
-            "reporting-service-test/**.yml": "NOINDEX"
+      "ROBOTS": 
+      {
+        "ad-insight-service-test/**.yml": "NOINDEX",
+        "bulk-service-test/**.yml": "NOINDEX",
+        "campaign-management-service-test/**.yml": "NOINDEX",
+        "customer-billing-service-test/**.yml": "NOINDEX",
+        "customer-management-service-test/**.yml": "NOINDEX",
+        "reporting-service-test/**.yml": "NOINDEX"
       }
     },
     "template": [],
