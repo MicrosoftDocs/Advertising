@@ -4744,9 +4744,6 @@
           href: ../customer-management-service-test/userlifecyclestatus.md
       - name: Customer Billing API(test)
         items: 
-        - name: Overview
-        href: ../customer-billing-service-test/customer-billing-service-test-reference.md
-        displayName: customer billing service reference customerbillingservice
         - name: Customer Billing Service Operations
           items: 
           - name: Overview
