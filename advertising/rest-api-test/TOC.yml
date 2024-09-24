@@ -1351,7 +1351,7 @@
       href: ../bingads-13/reporting-service-test/sortorder.md
     - name: UserLocationPerformanceReportColumn
       href: ../bingads-13/reporting-service-test/userlocationperformancereportcolumn.md
-- name: Ad Insight API(test)
+- name: Ad Insight API (test)
   items: 
   - name: Ad Insight Service Operations
     items: 
@@ -1674,7 +1674,7 @@
       href: ../bingads-13/ad-insight-service-test/targetadposition.md
     - name: TimeInterval
       href: ../bingads-13/ad-insight-service-test/timeinterval.md
-- name: Customer Management API(test)
+- name: Customer Management API (test)
   items: 
   - name: Customer Management Service Operations
     items: 
@@ -1851,7 +1851,7 @@
       href: ../bingads-13/customer-management-service-test/timezonetype.md
     - name: UserLifeCycleStatus
       href: ../bingads-13/customer-management-service-test/userlifecyclestatus.md
-- name: Customer Billing API(test)
+- name: Customer Billing API (test)
   items: 
   - name: Customer Billing Service Operations
     items: 
