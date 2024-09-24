@@ -105,7 +105,7 @@
             "customer-billing-service-test/**.yml": "NOINDEX",
             "customer-management-service-test/**.yml": "NOINDEX",
             "reporting-service-test/**.yml": "NOINDEX"
-      },
+      }
     },
     "template": [],
     "dest": "advertising",
