@@ -4242,4 +4242,596 @@
             href: ../reporting-service-test/sortorder.md
           - name: UserLocationPerformanceReportColumn
             href: ../reporting-service-test/userlocationperformancereportcolumn.md
-            
+      - name: Ad Insight API(test)
+        items: 
+        - name: Ad Insight Service Operations
+          items: 
+          - name: Overview
+            href: ../ad-insight-service-test/ad-insight-service-operations.md
+            displayName: ad insight service operations
+          - name: ApplyRecommendations
+            href: ../ad-insight-service-test/applyrecommendations.md
+          - name: DismissRecommendations
+            href: ../ad-insight-service-test/dismissrecommendations.md      
+          - name: GetAuctionInsightData
+            href: ../ad-insight-service-test/getauctioninsightdata.md
+          - name: GetAudienceFullEstimation
+            href: ../ad-insight-service-test/getaudiencefullestimation.md
+          - name: GetAutoApplyOptInStatus
+            href: ../ad-insight-service-test/getautoapplyoptinstatus.md      
+          - name: GetBidLandscapeByAdGroupIds
+            href: ../ad-insight-service-test/getbidlandscapebyadgroupids.md
+          - name: GetBidLandscapeByKeywordIds
+            href: ../ad-insight-service-test/getbidlandscapebykeywordids.md
+          - name: GetBidOpportunities
+            href: ../ad-insight-service-test/getbidopportunities.md
+          - name: GetBudgetOpportunities
+            href: ../ad-insight-service-test/getbudgetopportunities.md
+          - name: GetDomainCategories
+            href: ../ad-insight-service-test/getdomaincategories.md
+          - name: GetEstimatedBidByKeywordIds
+            href: ../ad-insight-service-test/getestimatedbidbykeywordids.md
+          - name: GetEstimatedBidByKeywords
+            href: ../ad-insight-service-test/getestimatedbidbykeywords.md
+          - name: GetEstimatedPositionByKeywordIds
+            href: ../ad-insight-service-test/getestimatedpositionbykeywordids.md
+          - name: GetEstimatedPositionByKeywords
+            href: ../ad-insight-service-test/getestimatedpositionbykeywords.md
+          - name: GetHistoricalKeywordPerformance
+            href: ../ad-insight-service-test/gethistoricalkeywordperformance.md
+          - name: GetHistoricalSearchCount
+            href: ../ad-insight-service-test/gethistoricalsearchcount.md
+          - name: GetKeywordCategories
+            href: ../ad-insight-service-test/getkeywordcategories.md
+          - name: GetKeywordDemographics
+            href: ../ad-insight-service-test/getkeyworddemographics.md
+          - name: GetKeywordIdeaCategories
+            href: ../ad-insight-service-test/getkeywordideacategories.md
+          - name: GetKeywordIdeas
+            href: ../ad-insight-service-test/getkeywordideas.md
+          - name: GetKeywordLocations
+            href: ../ad-insight-service-test/getkeywordlocations.md
+          - name: GetKeywordOpportunities
+            href: ../ad-insight-service-test/getkeywordopportunities.md
+          - name: GetKeywordTrafficEstimates
+            href: ../ad-insight-service-test/getkeywordtrafficestimates.md
+          - name: GetPerformanceInsightsDetailDataByAccountId
+            href: ../ad-insight-service-test/getperformanceinsightsdetaildatabyaccountid.md
+          - name: GetRecommendations
+            href: ../ad-insight-service-test/getrecommendations.md
+          - name: GetTextAssetSuggestionsByFinalUrls
+            href: ../ad-insight-service-test/gettextassetsuggestionsbyfinalurls.md
+          - name: RetrieveRecommendations
+            href: ../ad-insight-service-test/retrieverecommendations.md
+          - name: SetAutoApplyOptInStatus
+            href: ../ad-insight-service-test/setautoapplyoptinstatus.md
+          - name: SuggestKeywordsForUrl
+            href: ../ad-insight-service-test/suggestkeywordsforurl.md
+          - name: SuggestKeywordsFromExistingKeywords
+            href: ../ad-insight-service-test/suggestkeywordsfromexistingkeywords.md
+          - name: TagRecommendations
+            href: ../ad-insight-service-test/tagrecommendations.md
+        - name: Ad Insight Data Objects
+          items: 
+          - name: Overview
+            href: ../ad-insight-service-test/ad-insight-data-objects.md
+            displayName: ad insight data objects
+          - name: AdApiError
+            href: ../ad-insight-service-test/adapierror.md
+          - name: AdApiFaultDetail
+            href: ../ad-insight-service-test/adapifaultdetail.md
+          - name: AdGroupBidLandscape
+            href: ../ad-insight-service-test/adgroupbidlandscape.md
+          - name: AdGroupBidLandscapeInput
+            href: ../ad-insight-service-test/adgroupbidlandscapeinput.md
+          - name: AdGroupEstimate
+            href: ../ad-insight-service-test/adgroupestimate.md
+          - name: AdGroupEstimator
+            href: ../ad-insight-service-test/adgroupestimator.md
+          - name: ApiFaultDetail
+            href: ../ad-insight-service-test/apifaultdetail.md
+          - name: ApplicationFault
+            href: ../ad-insight-service-test/applicationfault.md
+          - name: ApplyRecommendationEntity
+            href: ../ad-insight-service-test/applyrecommendationentity.md
+          - name: AuctionInsightEntry
+            href: ../ad-insight-service-test/auctioninsightentry.md
+          - name: AuctionInsightKpi
+            href: ../ad-insight-service-test/auctioninsightkpi.md
+          - name: AuctionInsightResult
+            href: ../ad-insight-service-test/auctioninsightresult.md
+          - name: AuctionSegmentSearchParameter
+            href: ../ad-insight-service-test/auctionsegmentsearchparameter.md
+          - name: AutoApplyRecommendations
+            href: ../ad-insight-service-test/autoapplyrecommendationsinfo.md  
+          - name: BatchError
+            href: ../ad-insight-service-test/batcherror.md
+          - name: BidLandscapePoint
+            href: ../ad-insight-service-test/bidlandscapepoint.md
+          - name: BidOpportunity
+            href: ../ad-insight-service-test/bidopportunity.md
+          - name: BroadMatchKeywordOpportunity
+            href: ../ad-insight-service-test/broadmatchkeywordopportunity.md
+          - name: BroadMatchSearchQueryKPI
+            href: ../ad-insight-service-test/broadmatchsearchquerykpi.md
+          - name: BudgetOpportunity
+            href: ../ad-insight-service-test/budgetopportunity.md
+          - name: BudgetPoint
+            href: ../ad-insight-service-test/budgetpoint.md
+          - name: CampaignBudgetRecommendation
+            href: ../ad-insight-service-test/campaignbudgetrecommendation.md
+          - name: CampaignEstimate
+            href: ../ad-insight-service-test/campaignestimate.md
+          - name: CampaignEstimator
+            href: ../ad-insight-service-test/campaignestimator.md
+          - name: CategorySearchParameter
+            href: ../ad-insight-service-test/categorysearchparameter.md
+          - name: CompetitionSearchParameter
+            href: ../ad-insight-service-test/competitionsearchparameter.md
+          - name: Criterion
+            href: ../ad-insight-service-test/criterion.md
+          - name: DateRangeSearchParameter
+            href: ../ad-insight-service-test/daterangesearchparameter.md
+          - name: DayMonthAndYear
+            href: ../ad-insight-service-test/daymonthandyear.md
+          - name: DecimalRoundedResult
+            href: ../ad-insight-service-test/decimalroundedresult.md
+          - name: DeviceCriterion
+            href: ../ad-insight-service-test/devicecriterion.md
+          - name: DeviceSearchParameter
+            href: ../ad-insight-service-test/devicesearchparameter.md
+          - name: DismissRecommendationEntity
+            href: ../ad-insight-service-test/dismissrecommendationentity.md
+          - name: DomainCategory
+            href: ../ad-insight-service-test/domaincategory.md
+          - name: EstimatedBidAndTraffic
+            href: ../ad-insight-service-test/estimatedbidandtraffic.md
+          - name: EstimatedPositionAndTraffic
+            href: ../ad-insight-service-test/estimatedpositionandtraffic.md
+          - name: ExcludeAccountKeywordsSearchParameter
+            href: ../ad-insight-service-test/excludeaccountkeywordssearchparameter.md
+          - name: Feed
+            href: ../ad-insight-service-test/feed.md
+          - name: HistoricalSearchCountPeriodic
+            href: ../ad-insight-service-test/historicalsearchcountperiodic.md
+          - name: IdeaTextSearchParameter
+            href: ../ad-insight-service-test/ideatextsearchparameter.md
+          - name: ImpressionShareSearchParameter
+            href: ../ad-insight-service-test/impressionsharesearchparameter.md
+          - name: Keyword
+            href: ../ad-insight-service-test/keyword.md
+          - name: KeywordAndConfidence
+            href: ../ad-insight-service-test/keywordandconfidence.md
+          - name: KeywordAndMatchType
+            href: ../ad-insight-service-test/keywordandmatchtype.md
+          - name: KeywordBidLandscape
+            href: ../ad-insight-service-test/keywordbidlandscape.md
+          - name: KeywordCategory
+            href: ../ad-insight-service-test/keywordcategory.md
+          - name: KeywordCategoryResult
+            href: ../ad-insight-service-test/keywordcategoryresult.md
+          - name: KeywordDemographic
+            href: ../ad-insight-service-test/keyworddemographic.md
+          - name: KeywordDemographicResult
+            href: ../ad-insight-service-test/keyworddemographicresult.md
+          - name: KeywordEstimate
+            href: ../ad-insight-service-test/keywordestimate.md
+          - name: KeywordEstimatedBid
+            href: ../ad-insight-service-test/keywordestimatedbid.md
+          - name: KeywordEstimatedPosition
+            href: ../ad-insight-service-test/keywordestimatedposition.md
+          - name: KeywordEstimator
+            href: ../ad-insight-service-test/keywordestimator.md
+          - name: KeywordHistoricalPerformance
+            href: ../ad-insight-service-test/keywordhistoricalperformance.md
+          - name: KeywordIdea
+            href: ../ad-insight-service-test/keywordidea.md
+          - name: KeywordIdeaCategory
+            href: ../ad-insight-service-test/keywordideacategory.md
+          - name: KeywordIdEstimatedBid
+            href: ../ad-insight-service-test/keywordidestimatedbid.md
+          - name: KeywordIdEstimatedPosition
+            href: ../ad-insight-service-test/keywordidestimatedposition.md
+          - name: KeywordKPI
+            href: ../ad-insight-service-test/keywordkpi.md
+          - name: KeywordLocation
+            href: ../ad-insight-service-test/keywordlocation.md
+          - name: KeywordLocationResult
+            href: ../ad-insight-service-test/keywordlocationresult.md
+          - name: KeywordOpportunity
+            href: ../ad-insight-service-test/keywordopportunity.md
+          - name: KeywordRecommendation
+            href: ../ad-insight-service-test/keywordrecommendation.md
+          - name: KeywordSearchCount
+            href: ../ad-insight-service-test/keywordsearchcount.md
+          - name: KeywordSuggestion
+            href: ../ad-insight-service-test/keywordsuggestion.md
+          - name: LanguageCriterion
+            href: ../ad-insight-service-test/languagecriterion.md
+          - name: LanguageSearchParameter
+            href: ../ad-insight-service-test/languagesearchparameter.md
+          - name: LocationCriterion
+            href: ../ad-insight-service-test/locationcriterion.md
+          - name: LocationSearchParameter
+            href: ../ad-insight-service-test/locationsearchparameter.md
+          - name: NegativeKeyword
+            href: ../ad-insight-service-test/negativekeyword.md
+          - name: NetworkCriterion
+            href: ../ad-insight-service-test/networkcriterion.md
+          - name: NetworkSearchParameter
+            href: ../ad-insight-service-test/networksearchparameter.md
+          - name: OperationError
+            href: ../ad-insight-service-test/operationerror.md
+          - name: Opportunity
+            href: ../ad-insight-service-test/opportunity.md
+          - name: PerformanceInsightsDetail
+            href: ../ad-insight-service-test/performanceinsightsdetail.md
+          - name: PerformanceInsightsMessage
+            href: ../ad-insight-service-test/performanceinsightsmessage.md
+          - name: PerformanceInsightsMessageParameter
+            href: ../ad-insight-service-test/performanceinsightsmessageparameter.md
+          - name: QuerySearchParameter
+            href: ../ad-insight-service-test/querysearchparameter.md
+          - name: RadiusTarget
+            href: ../ad-insight-service-test/radiustarget.md
+          - name: RangeResultOfDecimalRoundedResult
+            href: ../ad-insight-service-test/rangeresultofdecimalroundedresult.md
+          - name: RangeResultOfDouble
+            href: ../ad-insight-service-test/rangeresultofdouble.md
+          - name: Recommendation
+            href: ../ad-insight-service-test/recommendation.md
+          - name: RecommendationBase
+            href: ../ad-insight-service-test/recommendationbase.md
+          - name: RecommendationInfo
+            href: ../ad-insight-service-test/recommendationinfo.md
+          - name: ResponsiveSearchAdRecommendation
+            href: ../ad-insight-service-test/responsivesearchadrecommendation.md
+          - name: ResponsiveSearchAdsRecommendation
+            href: ../ad-insight-service-test/responsivesearchadsrecommendation.md
+          - name: RSARecommendationInfo
+            href: ../ad-insight-service-test/rsarecommendationinfo.md
+          - name: SearchCountsByAttributes
+            href: ../ad-insight-service-test/searchcountsbyattributes.md
+          - name: SearchParameter
+            href: ../ad-insight-service-test/searchparameter.md
+          - name: SearchVolumeSearchParameter
+            href: ../ad-insight-service-test/searchvolumesearchparameter.md
+          - name: SelectionOfAgeEnum
+            href: ../ad-insight-service-test/selectionofageenum.md
+          - name: SelectionOfGenderEnum
+            href: ../ad-insight-service-test/selectionofgenderenum.md
+          - name: SelectionOfLong
+            href: ../ad-insight-service-test/selectionoflong.md
+          - name: SuggestedBidSearchParameter
+            href: ../ad-insight-service-test/suggestedbidsearchparameter.md
+          - name: SuggestedResponsiveSearchAd
+            href: ../ad-insight-service-test/suggestedresponsivesearchad.md
+          - name: TextAssetSuggestions
+            href: ../ad-insight-service-test/textassetsuggestions.md
+          - name: TrafficEstimate
+            href: ../ad-insight-service-test/trafficestimate.md
+          - name: UrlSearchParameter
+            href: ../ad-insight-service-test/urlsearchparameter.md
+        - name: Ad Insight Value Sets
+          items: 
+          - name: Overview
+            href: ../ad-insight-service-test/ad-insight-value-sets.md
+            displayName: ad insight value sets
+          - name: AdGroupBidLandscapeType
+            href: ../ad-insight-service-test/adgroupbidlandscapetype.md
+          - name: AdPosition
+            href: ../ad-insight-service-test/adposition.md
+          - name: AuctionInsightKpiAdditionalField
+            href: ../ad-insight-service-test/auctioninsightkpiadditionalfield.md
+          - name: AuctionSegment
+            href: ../ad-insight-service-test/auctionsegment.md
+          - name: BidOpportunityType
+            href: ../ad-insight-service-test/bidopportunitytype.md
+          - name: BudgetLimitType
+            href: ../ad-insight-service-test/budgetlimittype.md
+          - name: BudgetPointType
+            href: ../ad-insight-service-test/budgetpointtype.md
+          - name: CompetitionLevel
+            href: ../ad-insight-service-test/competitionlevel.md
+          - name: Currency
+            href: ../ad-insight-service-test/currency.md
+          - name: CurrencyCode
+            href: ../ad-insight-service-test/currencycode.md
+          - name: EntityType
+            href: ../ad-insight-service-test/entitytype.md
+          - name: KeywordIdeaAttribute
+            href: ../ad-insight-service-test/keywordideaattribute.md
+          - name: KeywordOpportunityType
+            href: ../ad-insight-service-test/keywordopportunitytype.md
+          - name: MatchType
+            href: ../ad-insight-service-test/matchtype.md
+          - name: NetworkType
+            href: ../ad-insight-service-test/networktype.md
+          - name: ParameterType
+            href: ../ad-insight-service-test/parametertype.md
+          - name: PerformanceInsightsEntityType
+            href: ../ad-insight-service-test/performanceinsightsentitytype.md
+          - name: PerformanceInsightsMessageTemplateId
+            href: ../ad-insight-service-test/performanceinsightsmessagetemplateid.md
+          - name: PerformanceInsightsUrlCategory
+            href: ../ad-insight-service-test/performanceinsightsurlcategory.md
+          - name: PerformanceInsightsUrlId
+            href: ../ad-insight-service-test/performanceinsightsurlid.md
+          - name: RecommendationType
+            href: ../ad-insight-service-test/recommendationtype.md
+          - name: SourceType
+            href: ../ad-insight-service-test/sourcetype.md
+          - name: TargetAdPosition
+            href: ../ad-insight-service-test/targetadposition.md
+          - name: TimeInterval
+            href: ../ad-insight-service-test/timeinterval.md
+      - name: Customer Management API(test)
+        items: 
+        - name: Customer Management Service Operations
+          items: 
+          - name: Overview
+            href: ../customer-management-service-test/customer-management-service-operations.md    
+            displayName: customer management service operations
+          - name: AddAccount
+            href: ../customer-management-service-test/addaccount.md
+          - name: AddClientLinks
+            href: ../customer-management-service-test/addclientlinks.md
+          - name: DeleteAccount
+            href: ../customer-management-service-test/deleteaccount.md
+          - name: DeleteCustomer
+            href: ../customer-management-service-test/deletecustomer.md
+          - name: DeleteUser
+            href: ../customer-management-service-test/deleteuser.md
+          - name: DismissNotifications
+            href: ../customer-management-service-test/dismissnotifications.md
+          - name: FindAccounts
+            href: ../customer-management-service-test/findaccounts.md
+          - name: FindAccountsOrCustomersInfo
+            href: ../customer-management-service-test/findaccountsorcustomersinfo.md
+          - name: GetAccount
+            href: ../customer-management-service-test/getaccount.md
+          - name: GetAccountPilotFeatures
+            href: ../customer-management-service-test/getaccountpilotfeatures.md
+          - name: GetAccountsInfo
+            href: ../customer-management-service-test/getaccountsinfo.md
+          - name: GetCustomer
+            href: ../customer-management-service-test/getcustomer.md
+          - name: GetCustomerPilotFeatures
+            href: ../customer-management-service-test/getcustomerpilotfeatures.md
+          - name: GetCustomersInfo
+            href: ../customer-management-service-test/getcustomersinfo.md
+          - name: GetLinkedAccountsAndCustomersInfo
+            href: ../customer-management-service-test/getlinkedaccountsandcustomersinfo.md
+          - name: GetNotifications
+            href: ../customer-management-service-test/getnotifications.md
+          - name: GetUser
+            href: ../customer-management-service-test/getuser.md
+          - name: GetUserMFAStatus
+            href: ../customer-management-service-test/getusermfastatus.md
+          - name: GetUsersInfo
+            href: ../customer-management-service-test/getusersinfo.md
+          - name: SearchAccounts
+            href: ../customer-management-service-test/searchaccounts.md
+          - name: SearchClientLinks
+            href: ../customer-management-service-test/searchclientlinks.md
+          - name: SearchCustomers
+            href: ../customer-management-service-test/searchcustomers.md
+          - name: SearchUserInvitations
+            href: ../customer-management-service-test/searchuserinvitations.md
+          - name: SendUserInvitation
+            href: ../customer-management-service-test/senduserinvitation.md
+          - name: SignupCustomer
+            href: ../customer-management-service-test/signupcustomer.md
+          - name: UpdateAccount
+            href: ../customer-management-service-test/updateaccount.md
+          - name: UpdateClientLinks
+            href: ../customer-management-service-test/updateclientlinks.md
+          - name: UpdateCustomer
+            href: ../customer-management-service-test/updatecustomer.md
+          - name: UpdateUser
+            href: ../customer-management-service-test/updateuser.md
+          - name: UpdateUserRoles
+            href: ../customer-management-service-test/updateuserroles.md
+          - name: ValidateAddress
+            href: ../customer-management-service-test/validateaddress.md
+        - name: Customer Management Data Objects
+          items: 
+          - name: Overview
+            href: ../customer-management-service-test/customer-management-data-objects.md    
+            displayName: customer management data objects
+          - name: AccountInfo
+            href: ../customer-management-service-test/accountinfo.md
+          - name: AccountInfoWithCustomerData
+            href: ../customer-management-service-test/accountinfowithcustomerdata.md
+          - name: AccountTaxCertificate
+            href: ../customer-management-service-test/accounttaxcertificate.md
+          - name: AdApiError
+            href: ../customer-management-service-test/adapierror.md
+          - name: AdApiFaultDetail
+            href: ../customer-management-service-test/adapifaultdetail.md
+          - name: Address
+            href: ../customer-management-service-test/address.md
+          - name: AdvertiserAccount
+            href: ../customer-management-service-test/advertiseraccount.md
+          - name: ApiFault
+            href: ../customer-management-service-test/apifault.md
+          - name: ApplicationFault
+            href: ../customer-management-service-test/applicationfault.md
+          - name: ClientLink
+            href: ../customer-management-service-test/clientlink.md
+          - name: ContactInfo
+            href: ../customer-management-service-test/contactinfo.md
+          - name: Customer
+            href: ../customer-management-service-test/customer.md
+          - name: CustomerInfo
+            href: ../customer-management-service-test/customerinfo.md
+          - name: CustomerRole
+            href: ../customer-management-service-test/customerrole.md
+          - name: DateRange
+            href: ../customer-management-service-test/daterange.md
+          - name: KeyValueEntityOflongint
+            href: ../customer-management-service-test/keyvalueentityoflongint.md
+          - name: KeyValueEntityOfstringstring
+            href: ../customer-management-service-test/keyvalueentityofstringstring.md
+          - name: KeyValuePairOfstringbase64binary
+            href: ../customer-management-service-test/keyvaluepairofstringbase64binary.md
+          - name: KeyValuePairOfstringstring
+            href: ../customer-management-service-test/keyvaluepairofstringstring.md
+          - name: Notification
+            href: ../customer-management-service-test/notification.md
+          - name: OperationError
+            href: ../customer-management-service-test/operationerror.md
+          - name: OrderBy
+            href: ../customer-management-service-test/orderby.md
+          - name: Paging
+            href: ../customer-management-service-test/paging.md
+          - name: PersonName
+            href: ../customer-management-service-test/personname.md
+          - name: Predicate
+            href: ../customer-management-service-test/predicate.md
+          - name: User
+            href: ../customer-management-service-test/user.md
+          - name: UserInfo
+            href: ../customer-management-service-test/userinfo.md
+          - name: UserInvitation
+            href: ../customer-management-service-test/userinvitation.md
+        - name: Customer Management Value Sets
+          items: 
+          - name: Overview
+            href: ../customer-management-service-test/customer-management-value-sets.md    
+            displayName: customer management value sets
+          - name: AccountAdditionalField
+            href: ../customer-management-service-test/accountadditionalfield.md
+          - name: AccountFinancialStatus
+            href: ../customer-management-service-test/accountfinancialstatus.md
+          - name: AccountLifeCycleStatus
+            href: ../customer-management-service-test/accountlifecyclestatus.md
+          - name: AutoTagType
+            href: ../customer-management-service-test/autotagtype.md
+          - name: ClientLinkStatus
+            href: ../customer-management-service-test/clientlinkstatus.md
+          - name: CurrencyCode
+            href: ../customer-management-service-test/currencycode.md
+          - name: CustomerFinancialStatus
+            href: ../customer-management-service-test/customerfinancialstatus.md
+          - name: CustomerLifeCycleStatus
+            href: ../customer-management-service-test/customerlifecyclestatus.md
+          - name: EmailFormat
+            href: ../customer-management-service-test/emailformat.md
+          - name: Industry
+            href: ../customer-management-service-test/industry.md
+          - name: LanguageType
+            href: ../customer-management-service-test/languagetype.md
+          - name: LCID
+            href: ../customer-management-service-test/lcid.md
+          - name: OrderByField
+            href: ../customer-management-service-test/orderbyfield.md
+          - name: PaymentMethodType
+            href: ../customer-management-service-test/paymentmethodtype.md
+          - name: PredicateOperator
+            href: ../customer-management-service-test/predicateoperator.md
+          - name: SecretQuestion
+            href: ../customer-management-service-test/secretquestion.md
+          - name: ServiceLevel
+            href: ../customer-management-service-test/servicelevel.md
+          - name: SortOrder
+            href: ../customer-management-service-test/sortorder.md
+          - name: TaxCertificateStatus
+            href: ../customer-management-service-test/taxcertificatestatus.md
+          - name: TimeZoneType
+            href: ../customer-management-service-test/timezonetype.md
+          - name: UserLifeCycleStatus
+            href: ../customer-management-service-test/userlifecyclestatus.md
+      - name: Customer Billing API(test)
+        items: 
+        - name: Customer Billing Service Operations
+          items: 
+          - name: Overview
+            href: ../customer-billing-service-test/customer-billing-service-operations.md
+            displayName: customer billing service operations
+          - name: AddInsertionOrder
+            href: ../customer-billing-service-test/addinsertionorder.md
+          - name: CheckFeatureAdoptionCouponEligibility
+            href: ../customer-billing-service-test/checkfeatureadoptioncouponeligibility.md
+          - name: ClaimFeatureAdoptionCoupons
+            href: ../customer-billing-service-test/claimfeatureadoptioncoupons.md
+          - name: DispatchCoupons
+            href: ../customer-billing-service-test/dispatchcoupons.md
+          - name: GetAccountMonthlySpend
+            href: ../customer-billing-service-test/getaccountmonthlyspend.md
+          - name: GetBillingDocuments
+            href: ../customer-billing-service-test/getbillingdocuments.md
+          - name: GetBillingDocumentsInfo
+            href: ../customer-billing-service-test/getbillingdocumentsinfo.md
+          - name: RedeemCoupon
+            href: ../customer-billing-service-test/redeemcoupon.md
+          - name: SearchCoupons
+            href: ../customer-billing-service-test/searchcoupons.md
+          - name: SearchInsertionOrders
+            href: ../customer-billing-service-test/searchinsertionorders.md
+          - name: UpdateInsertionOrder
+            href: ../customer-billing-service-test/updateinsertionorder.md
+        - name: Customer Billing Data Objects
+          items: 
+          - name: Overview
+            href: ../customer-billing-service-test/customer-billing-data-objects.md
+            displayName: customer billing data objects
+          - name: AdApiError
+            href: ../customer-billing-service-test/adapierror.md
+          - name: AdApiFaultDetail
+            href: ../customer-billing-service-test/adapifaultdetail.md
+          - name: ApiBatchFault
+            href: ../customer-billing-service-test/apibatchfault.md
+          - name: ApiFault
+            href: ../customer-billing-service-test/apifault.md
+          - name: ApplicationFault
+            href: ../customer-billing-service-test/applicationfault.md
+          - name: BatchError
+            href: ../customer-billing-service-test/batcherror.md
+          - name: BillingDocument
+            href: ../customer-billing-service-test/billingdocument.md
+          - name: BillingDocumentInfo
+            href: ../customer-billing-service-test/billingdocumentinfo.md
+          - name: Coupon
+            href: ../customer-billing-service-test/coupon.md
+          - name: CouponClaimInfo
+            href: ../customer-billing-service-test/couponclaiminfo.md
+          - name: CouponRedemption
+            href: ../customer-billing-service-test/couponredemption.md
+          - name: InsertionOrder
+            href: ../customer-billing-service-test/insertionorder.md
+          - name: InsertionOrderPendingChanges
+            href: ../customer-billing-service-test/insertionorderpendingchanges.md
+          - name: KeyValueEntityOflongdateTime
+            href: ../customer-billing-service-test/keyvalueentityoflongdatetime.md
+          - name: KeyValueEntityOflongstring
+            href: ../customer-billing-service-test/keyvalueentityoflongstring.md
+          - name: OperationError
+            href: ../customer-billing-service-test/operationerror.md
+          - name: OrderBy
+            href: ../customer-billing-service-test/orderby.md
+          - name: Paging
+            href: ../customer-billing-service-test/paging.md
+          - name: Predicate
+            href: ../customer-billing-service-test/predicate.md
+        - name: Customer Billing Value Sets
+          items: 
+          - name: Overview
+            href: ../customer-billing-service-test/customer-billing-value-sets.md
+            displayName: customer billing value sets
+          - name: AccountAdditionalField
+            href: ../customer-billing-service-test/accountadditionalfield.md
+          - name: DataType
+            href: ../customer-billing-service-test/datatype.md
+          - name: InsertionOrderAdditionalField
+            href: ../customer-billing-service-test/Insertionorderadditionalfield.md
+          - name: InsertionOrderStatus
+            href: ../customer-billing-service-test/insertionorderstatus.md
+          - name: InsertionOrderPendingChangesStatus
+            href: ../customer-billing-service-test/insertionorderpendingchangesstatus.md
+          - name: OrderByField
+            href: ../customer-billing-service-test/orderbyfield.md
+          - name: PredicateOperator
+            href: ../customer-billing-service-test/predicateoperator.md
+          - name: SortOrder
+            href: ../customer-billing-service-test/sortorder.md
