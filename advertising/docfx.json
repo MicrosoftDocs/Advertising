@@ -100,12 +100,12 @@
       },
       "_noindex": 
       {
-        "ad-insight-service-test/**.md": true,
-        "bulk-service-test/**.md": true,
-        "campaign-management-service-test/**.md": true,
-        "customer-billing-service-test/**.md": true,
-        "customer-management-service-test/**.md": true,
-        "reporting-service-test/**.md": true
+        "ad-insight-service-test/**/*.md": true,
+        "bulk-service-test/**/*.md": true,
+        "campaign-management-service-test/**/*.md": true,
+        "customer-billing-service-test/**/*.md": true,
+        "customer-management-service-test/**/*.md": true,
+        "reporting-service-test/**/*.md": true
       }
     },
     "template": [],
