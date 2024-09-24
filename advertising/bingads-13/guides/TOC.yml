@@ -4247,7 +4247,7 @@
         - name: Ad Insight Service Operations
           items: 
           - name: Overview
-            href: ../ad-insight-service-test/ad-insight-service-test-operations.md
+            href: ../ad-insight-service-test/ad-insight-service-operations.md
             displayName: ad insight service operations
           - name: ApplyRecommendations
             href: ../ad-insight-service-test/applyrecommendations.md
@@ -4570,7 +4570,7 @@
         - name: Customer Management Service Operations
           items: 
           - name: Overview
-            href: ../customer-management-service-test/customer-management-service-test-operations.md    
+            href: ../customer-management-service-test/customer-management-service-operations.md    
             displayName: customer management service operations
           - name: AddAccount
             href: ../customer-management-service-test/addaccount.md
@@ -4747,7 +4747,7 @@
         - name: Customer Billing Service Operations
           items: 
           - name: Overview
-            href: ../customer-billing-service-test/customer-billing-service-test-operations.md
+            href: ../customer-billing-service-test/customer-billing-service-operations.md
             displayName: customer billing service operations
           - name: AddInsertionOrder
             href: ../customer-billing-service-test/addinsertionorder.md
