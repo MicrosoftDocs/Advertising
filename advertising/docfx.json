@@ -80,12 +80,12 @@
         "customer-billing-service/**.yml": "customer-billing-api"
       },
       "_noindex": {
-            "ad-insight-service-test/**.md": true,
-            "bulk-service-test/**.md": true,
-            "campaign-management-service-test/**.md": true,
-            "customer-billing-service-test/**.md": true,
-            "customer-management-service-test/**.md": true,
-            "reporting-service-test/**.md": true
+            "bingads-13/ad-insight-service-test/**.md": true,
+            "bingads-13/bulk-service-test/**.md": true,
+            "bingads-13/campaign-management-service-test/**.md": true,
+            "bingads-13/customer-billing-service-test/**.md": true,
+            "bingads-13/customer-management-service-test/**.md": true,
+            "bingads-13/reporting-service-test/**.md": true
       },
       "ms.service": 
       { 
