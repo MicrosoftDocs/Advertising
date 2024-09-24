@@ -4250,7 +4250,7 @@
           href: ../ad-insight-service-test/ad-insight-service-test-operations.md
           displayName: ad insight service operations
           - name: ApplyRecommendations
-          href: ../ad-insight-service-test/applyrecommendations.md
+            href: ../ad-insight-service-test/applyrecommendations.md
           - name: DismissRecommendations
           href: ../ad-insight-service-test/dismissrecommendations.md      
           - name: GetAuctionInsightData
