@@ -1,5 +1,5 @@
 - name: Overview
-  href: rest-api-test.md
+  href: index.md
   displayName: overview rest api test docs
 - name: Campaign Management REST API (test)
   items:
