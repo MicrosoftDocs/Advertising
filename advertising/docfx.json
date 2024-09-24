@@ -79,14 +79,6 @@
       "ms.subservice": {
         "customer-billing-service/**.yml": "customer-billing-api"
       },
-      "_noindex": {
-            "ad-insight-service-test/**.yml": true,
-            "bulk-service-test/**.yml": true,
-            "campaign-management-service-test/**.yml": true,
-            "customer-billing-service-test/**.yml": true,
-            "customer-management-service-test/**.yml": true,
-            "reporting-service-test/**.yml": true
-      },
       "ms.service": 
       { 
         "guides/**.yml": "bing-ads",
@@ -105,7 +97,15 @@
         "hint-message/**.yml": "hotel-ads-hint-message",
         "query-message/**.yml": "hotel-ads-query-message",
         "query-control-message/**.yml": "hotel-ads-query-control-message"    
-      }
+      },
+      "ROBOTS": {
+            "ad-insight-service-test/**.yml": "NOINDEX",
+            "bulk-service-test/**.yml": "NOINDEX",
+            "campaign-management-service-test/**.yml": "NOINDEX",
+            "customer-billing-service-test/**.yml": "NOINDEX",
+            "customer-management-service-test/**.yml": "NOINDEX",
+            "reporting-service-test/**.yml": "NOINDEX"
+      },
     },
     "template": [],
     "dest": "advertising",
