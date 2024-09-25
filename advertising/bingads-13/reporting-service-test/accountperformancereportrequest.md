@@ -6,7 +6,6 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 description: Defines an account performance report request.(test)
-ROBOTS: NOINDEX
 ---
 # AccountPerformanceReportRequest Data Object Test - Reporting
 Defines an account performance report request. Use this report to observe long-term account performance and trends.
