@@ -97,15 +97,6 @@
         "hint-message/**.yml": "hotel-ads-hint-message",
         "query-message/**.yml": "hotel-ads-query-message",
         "query-control-message/**.yml": "hotel-ads-query-control-message"    
-      },
-      "ROBOTS": 
-      {
-        "ad-insight-service-test/**.md": "NOINDEX",
-        "bulk-service-test/**.md": "NOINDEX",
-        "campaign-management-service-test/**.md": "NOINDEX",
-        "customer-billing-service-test/**.md": "NOINDEX",
-        "customer-management-service-test/**.md": "NOINDEX",
-        "reporting-service-test/**.md": "NOINDEX"
       }
     },
     "template": [],
