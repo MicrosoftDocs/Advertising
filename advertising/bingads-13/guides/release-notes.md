@@ -30,7 +30,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="newapiinterfaces-september2024"></a>New API Interfaces  
 
-- **Campaign Management API**: [AppSetting](../campaign-management-service/appsetting.md), [AppStore](../campaign-management-service/appstore.md), [FeedLabel](../campaign-management-service/shoppingsetting.md#feedlabel) [ShoppableAdsEnabled](../campaign-management-service/shoppingsetting.md#shoppableadsenabled).
+- **Campaign Management API**: [AppSetting](../campaign-management-service/appsetting.md), [AppStore](../campaign-management-service/appstore.md), [FeedLabel](../campaign-management-service/shoppingsetting.md#feedlabel), [ShoppableAdsEnabled](../campaign-management-service/shoppingsetting.md#shoppableadsenabled).
 
 ### <a name="bulkservice-september2024"></a>Bulk Service
 
