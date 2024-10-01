@@ -20,6 +20,27 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+## <a name="september2024"></a>September 2024
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [New API Interfaces](#newapiinterfaces-september2024)  
+- [Bulk Service](#bulkservice-september2024)  
+- [Bing Ads API SDK Updates](#sdk-september2024)  
+
+### <a name="newapiinterfaces-september2024"></a>New API Interfaces  
+
+- **Campaign Management API**: [AppSetting](../campaign-management-service/appsetting.md), [AppStore](../campaign-management-service/appstore.md), [FeedLabel](../campaign-management-service/shoppingsetting.md#feedlabel) [ShoppableAdsEnabled](../campaign-management-service/shoppingsetting.md#shoppableadsenabled).
+
+### <a name="bulkservice-september2024"></a>Bulk Service
+
+- Added mappings for new fields in BulkCampaign AppSetting: [AppId](../bulk-service/campaign.md#appid) and [AppStore](../bulk-service/campaign.md#appstore).
+- Added mappings for new fields in BulkCampaign ShoppingSetting: [ShoppableAdsEnabled](../bulk-service/campaign.md#shoppableadsenabled) and [FeedLabel](../bulk-service/campaign.md#feedlabel).
+
+### <a name="sdk-september2024"></a>Bing Ads API SDK Updates
+
+The Bing Ads Java and Python SDKs are updated. For details please see release notes for Microsoft Advertising [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.21.2) and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.21.2) SDK version 13.0.21.2.
+
 ## <a name="july2024"></a>July 2024
 
 See below for Bing Ads API updates during this calendar month.  
