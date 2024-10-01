@@ -1646,6 +1646,8 @@
       href: ../campaign-management-service/appinstallgoal.md
     - name: ApplicationFault
       href: ../campaign-management-service/applicationfault.md
+    - name: AppSetting
+      href: ../campaign-management-service/appsetting.md
     - name: AppUrl
       href: ../campaign-management-service/appurl.md
     - name: Asset
@@ -2105,6 +2107,8 @@
       href: ../campaign-management-service/agerange.md
     - name: AppealStatus
       href: ../campaign-management-service/appealstatus.md
+    - name: AppStore
+      href: ../campaign-management-service/appstore.md
     - name: AssetGroupAdditionalField
       href: ../campaign-management-service/assetgroupadditionalfield.md
     - name: AssetGroupEditorialStatus
