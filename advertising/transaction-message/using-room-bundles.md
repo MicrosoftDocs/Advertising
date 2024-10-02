@@ -35,6 +35,8 @@ Here's what a default, base room itinerary looks like:
 
 To add room types and packages to the itinerary, add a [\<RoomBundle>](reference.md#roombundle) element as a child of `Result`. You may add one or more room bundles but one of the room bundles' rate must match the itinerary's rate. You must base the room's rate on its occupancy; 2 and 4 occupancy rooms cannot have the same rate.
 
+> [!NOTE]
+> You must specify the occupancy within a room bundle element.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -59,6 +61,7 @@ To add room types and packages to the itinerary, add a [\<RoomBundle>](reference
       <Baserate currency="USD">159.99</Baserate>
       <Tax currency="USD">20.00</Tax>
       <OtherFees currency="USD">4.00</OtherFees>
+      <Occupancy>2</Occupancy>
     </RoomBundle>
 
     <RoomBundle>
@@ -67,6 +70,7 @@ To add room types and packages to the itinerary, add a [\<RoomBundle>](reference
       <Baserate currency="USD">236.00</Baserate>
       <Tax currency="USD">42.00</Tax>
       <OtherFees currency="USD">4.00</OtherFees>
+      <Occupancy>4</Occupancy>
     </RoomBundle>
 
   </Result>
