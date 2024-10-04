@@ -39,7 +39,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="sdk-september2024"></a>Bing Ads API SDK Updates
 
-The Bing Ads Java and Python SDKs are updated. For details please see release notes for Microsoft Advertising [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.21.2) and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.21.2) SDK version 13.0.21.2.
+The Bing Ads Java SDK is updated. For details please see release notes for Microsoft Advertising [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.21.2) SDK version 13.0.21.2.
 
 ## <a name="july2024"></a>July 2024
 
