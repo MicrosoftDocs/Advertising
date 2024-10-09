@@ -62,12 +62,14 @@ Defines a container object that contains the metadata for rooms and packages.
 Defines the itinerary.
 
 > [!NOTE]
-> Currently, a full price breakdown (Baserate, Tax, and OtherFees) is expected for the US market only. However, prices should display even if tax is *0* in all markets (where you are searching from--not the location of the property) except the US market , as long as *IsInclusive* is true. Prices might still display without *IsInclusive*, or if *IsInclusive* is *false* AND the tax value is *0*, if the country where the hotel is located isn't levying taxes.
+> Currently, a full price breakdown (Baserate, Tax, and OtherFees) is expected for the US market only. However, prices should display, even if tax is *0*, in all markets (where you are searching from--not the location of the property) except the US market, as long as *IsInclusive* is true. Prices might still display without *IsInclusive*, or if *IsInclusive* is *false* AND the tax value is *0*, if the country where the hotel is located isn't levying taxes.
 >
 > Here is an example of a transaction providing all-inclusive prices:
 >
 > ```html
-> <Baserate currency="EUR" all_inclusive="true">1252.88</Baserate><Tax currency="EUR">0.00</Tax><OtherFees currency="EUR">0.00</OtherFees>*
+> <Baserate currency="EUR" all_inclusive="true">1252.88</Baserate>
+> <Tax currency="EUR">0.00</Tax>
+> <OtherFees currency="EUR">0.00</OtherFees>
 > ```
 
 |Element|Description|Children
