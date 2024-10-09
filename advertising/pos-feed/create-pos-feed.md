@@ -111,12 +111,14 @@ Bing uses the following rules to find the best POS match.
 
 - If `Match` does not specify one of the criterion, Bing implicitly matches all values for the criterion. For example, if `Match` specifies language and currency, Bing implicitly matches any country and device. 
   
-- If `Match` specifies one or more criterion, Bing uses the POS with the most explicit matches.  
+- If `Match` specifies one or more criterion, Bing uses the POS with the most explicit matches.
+
+- If there is no explicit rule match, the selection of POS is nondeterministic. We recommend that you add an explicit rule for match criterion.
    
-- If the user matches multiple Landing pages, Bing uses the POS with the best match quality. If multiple Landing pages have the same match quality, Bing uses the first POS that it found with that match quality. Match quality is based on:  
+<!-- - If the user matches multiple Landing pages, Bing uses the POS with the best match quality. If multiple Landing pages have the same match quality, Bing uses the first POS that it found with that match quality. Match quality is based on:  
   - Matches with the highest preference. For example, if one POS matches only on the user's currency and another matches only on the user's device, Bing uses the POS that matches the user's currency because it's higher in the preferred order.  
   - Explicit matches are preferred over implicit matches. For example, if one POS matches explicitly to the user's country and another matches implicitly to the user's country, Bing uses the POS that explicitly matches.
-
+-->
 
 The `Match` element's status attribute determines whether to include or exclude the POS based on matching. If status is *never* and Bing matches all criterion, Bing will not use the POS. To exclude a POS, all criterion must match. In the following example, Bing explicitly excludes the POS if the user is from the United States or France, and implicitly includes it if the user is from any other country.
 
