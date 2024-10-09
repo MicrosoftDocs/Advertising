@@ -9,9 +9,6 @@ ms.author: jonmeyers
 
 # Query message reference
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
-
 If you update your hotels' itinerary data using the Pull or Pull with Hints method, you use the Query message to specify the amount of data that Bing should ask for in its pull requests. This topic describes the elements of the Query message defined by the [Query XSD](https://bhacstatic.blob.core.windows.net/schemas/query.xsd). 
 
 For information about processing Query messages, see [Processing a Query Message](../query-message/process-query-message.md).

@@ -9,11 +9,6 @@ ms.author: jonmeyers
 
 # Query Message
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
->
-> The Query Message and documentation are subject to change.
-
 If you signed up to have Bing pull your itinerary data, Bing sends a Query message to the endpoint that you specify. The query message identifies the itinerary data that you should send back to Bing. For information about working with query messages, see the following sections: 
 
 |Topic|Description

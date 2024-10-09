@@ -10,11 +10,6 @@ ms.author: jonmeyers
 
 # Create a CSV Property feed (formerly Hotel feed) file
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
->
-> The Property feed and documentation are subject to change. 
-
 To provide Microsoft your hotel listings, create a CSV file that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, and geographical coordinates.
 
 For information about creating a feed file using an XML document, see [Creating an XML Property feed file](create-hotel-feed.md).

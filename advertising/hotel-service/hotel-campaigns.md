@@ -11,11 +11,6 @@ ms.author: jonmeyers
 
 [!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
 
-> [!NOTE]
-> This beta release of Hotel price ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
->
-> The API and documentation are subject to change.
-
 Lodging campaigns (formerly Hotel campaigns) is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see [Hotel price ads](https://about.ads.microsoft.com/solutions/ad-products/hotel-price-ads) when they are actively looking to book a hotel. In addition to the Hotel price ads, lodging campaigns allow advertisers to display their hotels on the Bing Maps page via the [Property promotion ads](https://about.ads.microsoft.com/solutions/ad-products/property-promotion-ads).
 
 <a name="benefits"></a>
