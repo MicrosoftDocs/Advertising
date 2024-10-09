@@ -1511,6 +1511,8 @@
       href: ../campaign-management-service/getnegativesitesbyadgroupids.md
     - name: GetNegativeSitesByCampaignIds
       href: ../campaign-management-service/getnegativesitesbycampaignids.md
+    - name: GetOfflineConversionReports
+      href: ../campaign-management-service/getofflineconversionreports.md
     - name: GetProfileDataFileUrl
       href: ../campaign-management-service/getprofiledatafileurl.md
     - name: GetSeasonalityAdjustmentsByAccountId
@@ -1760,6 +1762,8 @@
       href: ../campaign-management-service/customparameter.md
     - name: CustomParameters
       href: ../campaign-management-service/customparameters.md
+    - name: DailySummary
+      href: ../campaign-management-service/dailysummary.md
     - name: DataExclusion
       href: ../campaign-management-service/dataexclusion.md
     - name: Date
