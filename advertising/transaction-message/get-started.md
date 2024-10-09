@@ -9,9 +9,6 @@ ms.author: jonmeyers
 
 # Get started with Price feeds (formerly Transaction messages)
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
-
 If you create hotel ad campaigns in Microsoft Advertising, use Price feeds to update your itinerary data (pricing and availability). 
 
 Before you can send Microsoft Price feeds, you must contact your account manager to sign up.

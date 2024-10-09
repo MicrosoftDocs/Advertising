@@ -9,9 +9,6 @@ ms.author: jonmeyers
 
 # Property feed (formerly Hotel feed) reference
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
-
 If you create hotel price ads in Bing, you must use a Property feed to provide Bing information about the hotels that you advertise. You must define and import your property feed prior to sending Bing [Price feeds](../transaction-message/transaction-message.md). 
 
 For information about creating a property feed, see [Creating a Property feed](../hotel-feed/create-hotel-feed.md).

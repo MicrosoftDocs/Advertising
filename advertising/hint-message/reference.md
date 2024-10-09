@@ -9,9 +9,6 @@ ms.author: jonmeyers
 
 # Hint Message reference
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
-
 If you update your hotels' itinerary data using the Pull with Hints method, you use the Hint response message to specify the itinerary data that Bing should ask for in its pull requests. This topic describes the elements of the Hint response message defined by the [Hint XSD](https://bhacstatic.blob.core.windows.net/schemas/hint.xsd). 
 
 For information about creating a Hint response message, see [Creating a Hint Message](../hint-message/create-hint-message.md).

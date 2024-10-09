@@ -11,11 +11,6 @@ ms.author: jonmeyers
 
 [!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
->
-> The Property feed and documentation are subject to change. 
-
 To provide Microsoft your hotel listings, create an XML document that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, geographical coordinates, amenities, and more.
 
 The document must use UTF-8 encoding and must conform to the [Hotel XSD](https://bhacstatic.blob.core.windows.net/schemas/hotelv2.xsd). 

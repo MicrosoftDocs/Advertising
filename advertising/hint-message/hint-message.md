@@ -9,11 +9,6 @@ ms.author: jonmeyers
 
 # Hint messages
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
->
-> The Hint Message and documentation are subject to change.
-
 If you signed up to have Bing pull your itinerary data, use hint messages to identify the itinerary data that's changed since the last time Bing requested updates. For information about working with hint messages, see the following sections: 
 
 |Topic|Description

@@ -9,9 +9,6 @@ ms.author: jonmeyers
 
 # Landing pages (formerly Points of sale (POS)) reference
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
-
 If you create hotel price ads in Bing, you must use a Landing pages feed to provide Bing the point of sale URLs to include in ads. You must define and import your Landing pages feed prior to sending Bing [Price feeds](../transaction-message/transaction-message.md). 
 
 For information about creating a Landing pages feed, see [Creating a Landing pages Feed](../pos-feed/create-pos-feed.md).

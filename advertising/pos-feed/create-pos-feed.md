@@ -9,9 +9,6 @@ ms.author: jonmeyers
 
 # Create a Landing pages feed (formerly Points of Sale (POS) feed)
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
-
 To provide Bing your Landing pages data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
 
 

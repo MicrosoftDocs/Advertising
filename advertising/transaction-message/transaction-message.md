@@ -9,11 +9,6 @@ ms.author: jonmeyers
 
 # Price feed (formerly Transaction message)
 
-> [!NOTE]
-> This beta release of Hotel Price Ads is available to select participants only. For information about participating in the beta release program, please contact your account manager or [enroll here](https://go.microsoft.com/fwlink/?linkid=2201950).
->
-> The Price feed and documentation are subject to change.
-
 > [!IMPORTANT]
 > Before creating Price feeds, you must first create your [hotel](../hotel-feed/hotel-feed.md) and [point of sale](../pos-feed/pos-feed.md) feeds.
 
