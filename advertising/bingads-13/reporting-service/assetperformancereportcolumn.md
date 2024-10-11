@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines a value set for AssetPerformanceReportColumn.
+description: Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.
 ---
 # AssetPerformanceReportColumn Value Set - Reporting
 |Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
@@ -35,13 +35,18 @@ description: Defines a value set for AssetPerformanceReportColumn.
     <xs:enumeration value="Clicks" />
     <xs:enumeration value="Ctr" />
     <xs:enumeration value="Spend" />
+    <xs:enumeration value="VideoViews" />
+    <xs:enumeration value="VideoViewsAt25Percent" />
+    <xs:enumeration value="VideoViewsAt50Percent" />
+    <xs:enumeration value="VideoViewsAt75Percent" />
+    <xs:enumeration value="VideoCompletionRate" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetContent](#assetcontent), [AssetId](#assetid), [AssetSource](#assetsource), [AssetType](#assettype), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [Ctr](#ctr), [Impressions](#impressions), [Spend](#spend), [TimePeriod](#timeperiod).
+The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetContent](#assetcontent), [AssetId](#assetid), [AssetSource](#assetsource), [AssetType](#assettype), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [Ctr](#ctr), [Impressions](#impressions), [Spend](#spend), [TimePeriod](#timeperiod), [VideoCompletionRate](#videocompletionrate), [VideoViews](#videoviews), [VideoViewsAt25Percent](#videoviewsat25percent), [VideoViewsAt50Percent](#videoviewsat50percent), [VideoViewsAt75Percent](#videoviewsat75percent).
 
 |Value|Description|
 |-----------|---------------|
@@ -60,6 +65,11 @@ The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set ha
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the?Aggregation?element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
+|<a name="videocompletionrate"></a>VideoCompletionRate|Completed video views divided by total number of impressions.|
+|<a name="videoviews"></a>VideoViews|The number of times a potential customer watched the video in its entirety.|
+|<a name="videoviewsat25percent"></a>VideoViewsAt25Percent|The number of times a user completed at least 25% of the video (measured directly).|
+|<a name="videoviewsat50percent"></a>VideoViewsAt50Percent|The number of times a user completed at least 50% of the video (measured directly).|
+|<a name="videoviewsat75percent"></a>VideoViewsAt75Percent|The number of times a user completed at least 75% of the video (measured directly).|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
