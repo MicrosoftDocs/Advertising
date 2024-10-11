@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets the keyword categories to which the specified keywords belong.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetKeywordCategories Service Operation - Ad Insight
 Gets the keyword categories to which the specified keywords belong.
@@ -19,7 +19,7 @@ Gets the keyword categories to which the specified keywords belong.
 > The GetKeywordCategories service operation is deprecated as of August 21, 2023. [Learn more](https://techcommunity.microsoft.com/t5/bing-ads-api-blog/deprecation-of-legacy-ad-insight-keyword-apis-and-features/ba-p/3878600).
 
 ## <a name="request"></a>Request Elements
-The *GetKeywordCategoriesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap).
+The *GetKeywordCategoriesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap).  
 
 > [!NOTE]
 > Unless otherwise noted below, all request elements are required.

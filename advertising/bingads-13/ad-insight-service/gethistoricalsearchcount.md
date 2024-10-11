@@ -7,10 +7,10 @@ author: jonmeyers
 ms.author: jonmeyers
 description: Gets the number of times the normalized term was used in a search during the specified time period.
 dev_langs: 
- - csharp
- - java
- - php
- - python
+- csharp
+- java
+- php
+- python
 ---
 # GetHistoricalSearchCount Service Operation - Ad Insight
 Gets the number of times the normalized term was used in a search during the specified time period. The results are aggregated by device type.
@@ -296,4 +296,4 @@ Here is a table of languages and country/region mapping:
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+Namespace: https\://bingads.microsoft.com/AdInsight/v13

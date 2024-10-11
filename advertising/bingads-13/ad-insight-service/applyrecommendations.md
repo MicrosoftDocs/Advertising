@@ -137,4 +137,4 @@ response=adinsight_service.ApplyRecommendations(
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+Namespace: https\://bingads.microsoft.com/AdInsight/v13
