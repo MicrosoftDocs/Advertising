@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines a value set for SearchInsightPerformanceReportColumn.
+description: Defines the attributes and performance statistics columns that you can include in the SearcyhInsightPerformanceReportRequest.
 ---
 # SearchInsightPerformanceReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [SearcyhInsightPerformanceReportRequest](searchinsightperformancereportrequest.md).

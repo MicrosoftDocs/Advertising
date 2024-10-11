@@ -40,5 +40,6 @@ Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/AdInsight/v13  
 
 ## Used By
+[ResponsiveSearchAdAssetRecommendation](responsivesearchadassetrecommendation.md)  
 [ResponsiveSearchAdRecommendation](responsivesearchadrecommendation.md)  
 [ResponsiveSearchAdsRecommendation](responsivesearchadsrecommendation.md)  

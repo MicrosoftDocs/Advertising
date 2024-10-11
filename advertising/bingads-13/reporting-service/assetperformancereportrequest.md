@@ -5,10 +5,10 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines a data object for AssetPerformanceReportRequest.
+description: Defines an asset performance report request.
 ---
 # AssetPerformanceReportRequest Data Object - Reporting
-Defines a data object for AssetPerformanceReportRequest.
+Defines an asset performance report request.
 
 > [!NOTE]
 > *AssetPerformanceReportRequest* is currently in pilot.
@@ -62,4 +62,4 @@ The [AssetPerformanceReportRequest](assetperformancereportrequest.md) object der
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
-Namespace: https\://bingads.microsoft.com/Reporting/v13  
+Namespace: https\://bingads.microsoft.com/Reporting/v13

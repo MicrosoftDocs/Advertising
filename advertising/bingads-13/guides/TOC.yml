@@ -451,6 +451,10 @@
       href: ../ad-insight-service/recommendationbase.md
     - name: RecommendationInfo
       href: ../ad-insight-service/recommendationinfo.md
+    - name: RemoveConflictingNegativeKeywordRecommendation
+      href: ../ad-insight-service/removeconflictingnegativekeywordrecommendation.md
+    - name: ResponsiveSearchAdAssetRecommendation
+      href: ../ad-insight-service/responsivesearchadassetrecommendation.md
     - name: ResponsiveSearchAdRecommendation
       href: ../ad-insight-service/responsivesearchadrecommendation.md
     - name: ResponsiveSearchAdsRecommendation
@@ -479,6 +483,8 @@
       href: ../ad-insight-service/trafficestimate.md
     - name: UrlSearchParameter
       href: ../ad-insight-service/urlsearchparameter.md
+    - name: UseBroadMatchKeywordRecommendation
+      href: ../ad-insight-service/usebroadmatchkeywordrecommendation.md
   - name: Ad Insight Value Sets
     items: 
     - name: Overview
@@ -1962,6 +1968,8 @@
       href: ../campaign-management-service/percentcpcbiddingscheme.md
     - name: PerformanceMaxSetting
       href: ../campaign-management-service/performancemaxsetting.md
+    - name: PlacementCriterion
+      href: ../campaign-management-service/placementcriterion.md
     - name: PlacementExclusionList
       href: ../campaign-management-service/placementexclusionlist.md
     - name: PriceAdExtension
