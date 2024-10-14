@@ -211,7 +211,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 # [Production URL](#tab/prod)
 
-```Post
+```**Post**
 https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/AssetGroupListingGroupActions/Apply
 ```
 
