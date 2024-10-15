@@ -18,6 +18,7 @@ Defines a list of optional criterion properties that you can request when callin
       <xs:restriction base="xs:string">
         <xs:enumeration value="CriterionCashback" />
         <xs:enumeration value="Operator" />
+        <xs:enumeration value="Placement" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -26,12 +27,13 @@ Defines a list of optional criterion properties that you can request when callin
 
 ## <a name="values"></a>Values
 
-The [CriterionAdditionalField](criterionadditionalfield.md) value set has the following values: [CriterionCashback](#criterioncashback), [Operator](#operator).
+The [CriterionAdditionalField](criterionadditionalfield.md) value set has the following values: [CriterionCashback](#criterioncashback), [Operator](#operator), [Placement](#placement).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="criterioncashback"></a>CriterionCashback|Request that the ```CriterionCashback``` element be included within each returned [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [BiddableCampaignCriterion](biddablecampaigncriterion.md) object.|
 |<a name="operator"></a>Operator|Reserved.|
+|<a name="placement"></a>Placement|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

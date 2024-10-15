@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test-6)
+description: The app setting data object.(test)
 ---
 # AppSetting Data Object Test - Campaign Management
-Reserved.
+The app setting data object.
 
 # [XML](#tab/xml)
 
@@ -55,8 +55,8 @@ The [AppSetting](appsetting.md) object has the following elements: [AppId](#appi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="appid"></a>AppId|Reserved.|**string**|
-|<a name="appstore"></a>AppStore|Reserved.|[AppStore](appstore.md)|
+|<a name="appid"></a>AppId|The unique identifier of the mobile app.|**string**|
+|<a name="appstore"></a>AppStore|The app store where the app is distributed.|[AppStore](appstore.md)|
 
 The [AppSetting](appsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -67,7 +67,7 @@ The [AppSetting](appsetting.md) object derives from the [Setting](setting.md) ob
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting.<br/><br/>For more information, see [Setting Data Object Remarks](setting.md#remarks).|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

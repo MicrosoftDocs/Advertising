@@ -5,10 +5,10 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test-1)
+description: Defines a data object for RemoveConflictingNegativeKeywordRecommendation.(test)
 ---
 # RemoveConflictingNegativeKeywordRecommendation Data Object Test - Ad Insight
-Reserved.
+Defines a data object for RemoveConflictingNegativeKeywordRecommendation.
 
 # [XML](#tab/xml)
 

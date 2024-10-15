@@ -33,7 +33,7 @@ The Campaign Management service defines the following value sets.
 |[AdType](adtype.md)|Defines the type of ad.|
 |[AgeRange](agerange.md)|Defines the possible age range values that you can use to target ads to people.|
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
-|[AppStore](appstore.md)|Reserved.|
+|[AppStore](appstore.md)|The app store the mobile app is distributed in.|
 |[AssetGroupAdditionalField](assetgroupadditionalfield.md)|Defines the possible additional fields for an asset group.|
 |[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|The editorial review status of the asset group, which indicates whether the asset group is pending review, has been approved, or has been disapproved.|
 |[AssetGroupListingType](assetgrouplistingtype.md)|The type of listing group, for example Subdivision or Unit.|

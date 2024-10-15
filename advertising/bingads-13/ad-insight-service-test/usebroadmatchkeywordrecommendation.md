@@ -5,10 +5,10 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test-5)
+description: Defines a data object for UseBroadMatchKeywordRecommendation.(test)
 ---
 # UseBroadMatchKeywordRecommendation Data Object Test - Ad Insight
-Reserved.
+Defines a data object for UseBroadMatchKeywordRecommendation.
 
 # [XML](#tab/xml)
 

@@ -31,7 +31,7 @@ Defines an ad group in an advertising campaign.
     <xs:element minOccurs="0" name="CpcBid" nillable="true" type="tns:Bid" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q20:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q21:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="FrequencyCapSettings" nillable="true" type="tns:ArrayOfFrequencyCapSettings">
       <xs:annotation>
         <xs:appinfo>

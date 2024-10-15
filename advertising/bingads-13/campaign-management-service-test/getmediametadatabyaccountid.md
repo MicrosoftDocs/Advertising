@@ -175,13 +175,13 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 # [Production URL](#tab/prod)
 
-```Post
+```POST
 https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/MediaMetaData/QueryByAccountId
 ```
 
 # [Sandbox URL](#tab/sandbox)
 
-```Post
+```POST
 https://campaign.api.sandbox.bingads.microsoft.com/CampaignManagement/v13/MediaMetaData/QueryByAccountId
 ```
 
@@ -258,7 +258,8 @@ Below is an example that is applicable if the type of [MediaRepresentation](medi
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md). See [Bing Ads API Code Examples](../guides/code-examples.md) for more examples.
+To call REST API through SDKs, you need to upgrade SDK to a certain version and configure the system parameters.The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md).
+See [Bing Ads API Code Examples](../guides/code-examples.md) for more examples.
 ```csharp
 public async Task<GetMediaMetaDataByAccountIdResponse> GetMediaMetaDataByAccountIdAsync(
 	MediaEnabledEntityFilter mediaEnabledEntities,
