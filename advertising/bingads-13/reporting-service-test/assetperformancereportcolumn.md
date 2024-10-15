@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: |Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.(test)
+description: Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.(test)
 ---
 # AssetPerformanceReportColumn Value Set Test - Reporting
 |Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).

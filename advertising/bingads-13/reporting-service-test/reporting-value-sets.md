@@ -10,7 +10,7 @@ description: Value sets reference for the Reporting service.(test)
 # Reporting Test Value Sets
 The Reporting service defines the following value sets.
 
-|Value Set|Description|
+|Value Set |Description |
 |---|---|
 |[AccountPerformanceReportColumn](accountperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AccountPerformanceReportRequest](accountperformancereportrequest.md).|
 |[AccountStatusReportFilter](accountstatusreportfilter.md)|Defines the account status values that you can use to filter the report data.|
@@ -27,7 +27,7 @@ The Reporting service defines the following value sets.
 |[AgeGenderAudienceReportColumn](agegenderaudiencereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md).|
 |[AssetGroupPerformanceReportColumn](assetgroupperformancereportcolumn.md)|Defines a value set for AssetGroupPerformanceReportColumn.|
 |[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|Defines the asset group status values that you can use to filter the report data.|
-|[AssetPerformanceReportColumn](assetperformancereportcolumn.md)||Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).|
+|[AssetPerformanceReportColumn](assetperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).|
 |[AudiencePerformanceReportColumn](audienceperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AudiencePerformanceReportRequest](audienceperformancereportrequest.md).|
 |[BidMatchTypeReportFilter](bidmatchtypereportfilter.md)|Defines the bid match type values that you can use to filter the report data.|
 |[BidStrategyTypeReportFilter](bidstrategytypereportfilter.md)|Defines the possible values that you can use to use to filter the report data by bid strategy type.|
