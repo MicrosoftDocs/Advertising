@@ -16,7 +16,7 @@ Defines an object that contains the negative site URLs of a campaign.
 <xs:complexType name="CampaignNegativeSites" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="CampaignId" type="xs:long" />
-    <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NegativeSites" nillable="true" type="q18:ArrayOfstring" />
+    <xs:element xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NegativeSites" nillable="true" type="q19:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```

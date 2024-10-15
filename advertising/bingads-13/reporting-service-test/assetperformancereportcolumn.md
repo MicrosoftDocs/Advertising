@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.(test)
+description: |Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.(test)
 ---
 # AssetPerformanceReportColumn Value Set Test - Reporting
 |Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
@@ -65,11 +65,11 @@ The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set ha
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the?Aggregation?element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
-|<a name="videocompletionrate"></a>VideoCompletionRate|Reserved.|
-|<a name="videoviews"></a>VideoViews|Reserved.|
-|<a name="videoviewsat25percent"></a>VideoViewsAt25Percent|Reserved.|
-|<a name="videoviewsat50percent"></a>VideoViewsAt50Percent|Reserved.|
-|<a name="videoviewsat75percent"></a>VideoViewsAt75Percent|Reserved.|
+|<a name="videocompletionrate"></a>VideoCompletionRate|Completed video views divided by total number of impressions.|
+|<a name="videoviews"></a>VideoViews|The number of times a potential customer watched the video in its entirety.|
+|<a name="videoviewsat25percent"></a>VideoViewsAt25Percent|The number of times a user completed at least 25% of the video (measured directly).|
+|<a name="videoviewsat50percent"></a>VideoViewsAt50Percent|The number of times a user completed at least 50% of the video (measured directly).|
+|<a name="videoviewsat75percent"></a>VideoViewsAt75Percent|The number of times a user completed at least 75% of the video (measured directly).|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  

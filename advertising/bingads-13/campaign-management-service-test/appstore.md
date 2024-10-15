@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test)
+description: The app store the mobile app is distributed in.(test)
 ---
 # AppStore Value Set Test - Campaign Management
-Reserved.
+The app store the mobile app is distributed in.
 
 ## Syntax
 ```xml
@@ -37,9 +37,9 @@ The [AppStore](appstore.md) value set has the following values: [AppleAppStore](
 
 |Value|Description|
 |-----------|---------------|
-|<a name="appleappstore"></a>AppleAppStore|Reserved.|
-|<a name="googleappstore"></a>GoogleAppStore|Reserved.|
-|<a name="microsoftappstore"></a>MicrosoftAppStore|Reserved.|
+|<a name="appleappstore"></a>AppleAppStore|The app is distributed in the Apple app store.|
+|<a name="googleappstore"></a>GoogleAppStore|The app is distributed in the Google app store.|
+|<a name="microsoftappstore"></a>MicrosoftAppStore|The app is distributed in the Microsoft app store.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

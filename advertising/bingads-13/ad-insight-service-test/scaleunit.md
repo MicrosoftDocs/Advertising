@@ -5,7 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.(test-3)
+description: Reserved.(test)
 ---
 # ScaleUnit Value Set Test - Ad Insight
 Reserved.

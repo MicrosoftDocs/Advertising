@@ -69,4 +69,5 @@ Namespace: http\://schemas.datacontract.org/2004/07/System.Collections.Generic
 [Keyword](keyword.md)  
 [SharedEntity](sharedentity.md)  
 [SharedListItem](sharedlistitem.md)  
+[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)  
 [VerifiedTrackingSetting](verifiedtrackingsetting.md)  

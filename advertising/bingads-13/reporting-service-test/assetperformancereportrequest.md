@@ -5,10 +5,10 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines a data object for AssetPerformanceReportRequest.(test)
+description: Defines an asset performance report request.(test)
 ---
 # AssetPerformanceReportRequest Data Object Test - Reporting
-Defines a data object for AssetPerformanceReportRequest.
+Defines an asset performance report request.
 
 > [!NOTE]
 > *AssetPerformanceReportRequest* is currently in pilot.

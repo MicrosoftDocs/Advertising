@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines  data object for the seasonality adjustment.(test)
+description: Defines a data object for the seasonality adjustment.(test)
 ---
 # SeasonalityAdjustment Data Object Test - Campaign Management
-Defines  data object for the seasonality adjustment.
+Defines a data object for the seasonality adjustment.
 
 # [XML](#tab/xml)
 

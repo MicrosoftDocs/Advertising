@@ -27,7 +27,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="BiddingScheme" nillable="true" type="tns:BiddingScheme" />
     <xs:element minOccurs="0" name="BudgetType" nillable="true" type="tns:BudgetLimitType" />
     <xs:element minOccurs="0" name="DailyBudget" nillable="true" type="xs:double" />
-    <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DealIds" nillable="true" type="q8:ArrayOflong">
+    <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DealIds" nillable="true" type="q9:ArrayOflong">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -36,8 +36,8 @@ Defines a campaign.
     </xs:element>
     <xs:element minOccurs="0" name="ExperimentId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q9:ArrayOfKeyValuePairOfstringstring" />
-    <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q10:ArrayOflong">
+    <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q11:ArrayOflong">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -68,7 +68,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="CampaignType" nillable="true" type="tns:CampaignType" />
     <xs:element minOccurs="0" name="Settings" nillable="true" type="tns:ArrayOfSetting" />
     <xs:element minOccurs="0" name="BudgetId" nillable="true" type="xs:long" />
-    <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Languages" nillable="true" type="q11:ArrayOfstring" />
+    <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Languages" nillable="true" type="q12:ArrayOfstring" />
     <xs:element minOccurs="0" name="AdScheduleUseSearcherTimeZone" nillable="true" type="xs:boolean">
       <xs:annotation>
         <xs:appinfo>

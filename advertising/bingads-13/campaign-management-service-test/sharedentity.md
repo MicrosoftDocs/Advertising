@@ -22,7 +22,7 @@ The [NegativeKeywordList](negativekeywordlist.md), [AccountNegativeKeywordList](
 <xs:complexType name="SharedEntity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="AssociationCount" nillable="true" type="xs:int" />
-    <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q92:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q93:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />

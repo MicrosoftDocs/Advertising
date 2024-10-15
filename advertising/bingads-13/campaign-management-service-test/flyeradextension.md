@@ -24,12 +24,12 @@ They can display prominently on broad queries like "weekly deals" or "weekly sal
       <xs:sequence>
         <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element xmlns:q61="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q61:ArrayOfstring" />
+        <xs:element xmlns:q62="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q62:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q62="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q62:ArrayOfstring" />
+        <xs:element xmlns:q63="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q63:ArrayOfstring" />
         <xs:element minOccurs="0" name="FlyerName" nillable="true" type="xs:string" />
-        <xs:element xmlns:q63="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageMediaIds" nillable="true" type="q63:ArrayOflong" />
-        <xs:element xmlns:q64="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageMediaUrls" nillable="true" type="q64:ArrayOfstring" />
+        <xs:element xmlns:q64="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageMediaIds" nillable="true" type="q64:ArrayOflong" />
+        <xs:element xmlns:q65="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageMediaUrls" nillable="true" type="q65:ArrayOfstring" />
         <xs:element minOccurs="0" name="StoreId" nillable="true" type="xs:long" />
         <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />

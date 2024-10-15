@@ -40,7 +40,7 @@ The Reporting service defines the following data objects.
 |[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)|Defines a data object for AssetGroupPerformanceReportFilter.|
 |[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)|Defines a data object for AssetGroupPerformanceReportRequest.|
 |[AssetGroupReportScope](assetgroupreportscope.md)|Defines a data object for AssetGroupReportScope.|
-|[AssetPerformanceReportRequest](assetperformancereportrequest.md)|Defines a data object for AssetPerformanceReportRequest.|
+|[AssetPerformanceReportRequest](assetperformancereportrequest.md)|Defines an asset performance report request.|
 |[AudiencePerformanceReportFilter](audienceperformancereportfilter.md)|Defines the criteria to use to filter the audience performance report data.|
 |[AudiencePerformanceReportRequest](audienceperformancereportrequest.md)|Defines an audience performance report request.|
 |[BatchError](batcherror.md)|Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|

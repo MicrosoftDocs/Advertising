@@ -39,7 +39,7 @@ The Campaign Management service defines the following data objects.
 |[AppInstallAd](appinstallad.md)|Defines an app install ad.|
 |[AppInstallGoal](appinstallgoal.md)|Defines an app install conversion goal.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Campaign Management fault detail objects derive.|
-|[AppSetting](appsetting.md)|Reserved.|
+|[AppSetting](appsetting.md)|The app setting data object.|
 |[AppUrl](appurl.md)|Defines the operating system platform and URL of the app store download webpage.|
 |[Asset](asset.md)|Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
 |[AssetGroup](assetgroup.md)|Defines an asset group in an advertising campaign.|
@@ -98,6 +98,7 @@ The Campaign Management service defines the following data objects.
 |[CustomEventsRule](customeventsrule.md)|Defines a custom events remarketing rule.|
 |[CustomParameter](customparameter.md)|Defines a key and value custom parameter for URL tracking.|
 |[CustomParameters](customparameters.md)|Defines a collection of key and value custom parameters for URL tracking.|
+|[DailySummary](dailysummary.md)|Defines a data object for a summary of the offline conversion reports for the day.|
 |[DataExclusion](dataexclusion.md)|Defines a data object for DataExclusion.|
 |[Date](date.md)|Represents a date.|
 |[DayTime](daytime.md)|Defines a day of the week and time range for ad extension scheduling.|
@@ -197,6 +198,7 @@ The Campaign Management service defines the following data objects.
 |[Paging](paging.md)|Defines a paging object to request Campaign Management objects in batches.|
 |[PercentCpcBiddingScheme](percentcpcbiddingscheme.md)|Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).|
 |[PerformanceMaxSetting](performancemaxsetting.md)|Defines the PerformanceMaxSetting object.|
+|[PlacementCriterion](placementcriterion.md)|Defines a data object for PlacementCriterion.|
 |[PlacementExclusionList](placementexclusionlist.md)|Defines a website exclusion list in the manager account (customer) shared library.|
 |[PriceAdExtension](priceadextension.md)|Defines an ad extension that includes between 3 and 8 price table rows.|
 |[PriceTableRow](pricetablerow.md)|Defines pricing information by currency and unit that you can use with price ad extensions.|
@@ -219,7 +221,7 @@ The Campaign Management service defines the following data objects.
 |[RuleItem](ruleitem.md)|Defines the base class of a remarketing list rule item.|
 |[RuleItemGroup](ruleitemgroup.md)|Defines an object that contains a list of remarketing list rule items that apply to the same visited page.|
 |[Schedule](schedule.md)|Defines the start and end date ranges for ad extension scheduling.|
-|[SeasonalityAdjustment](seasonalityadjustment.md)|Defines  data object for the seasonality adjustment.|
+|[SeasonalityAdjustment](seasonalityadjustment.md)|Defines a data object for the seasonality adjustment.|
 |[Setting](setting.md)|Defines the base class of a setting.|
 |[SharedEntity](sharedentity.md)|Defines the base class of a shared entity.|
 |[SharedEntityAssociation](sharedentityassociation.md)|Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.|
@@ -238,6 +240,7 @@ The Campaign Management service defines the following data objects.
 |[TargetSettingDetail](targetsettingdetail.md)|Determines whether you want to use the "target and bid" option or the "bid only" target option for the criterion type group.|
 |[TextAd](textad.md)|Defines a text ad.|
 |[TextAsset](textasset.md)|A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
+|[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)|Reserved.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
 |[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|

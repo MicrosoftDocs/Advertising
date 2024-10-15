@@ -31,7 +31,7 @@ Do not try to instantiate an *AdExtension*. You can create one or more of the fo
 <xs:complexType name="AdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="DevicePreference" nillable="true" type="xs:long" />
-    <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q42:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q43:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Scheduling" nillable="true" type="tns:Schedule" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:AdExtensionStatus" />

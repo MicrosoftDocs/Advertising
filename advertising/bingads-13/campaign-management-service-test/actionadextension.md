@@ -18,9 +18,9 @@ Defines an action ad extension with a call-to-action button.
     <xs:extension base="tns:AdExtension">
       <xs:sequence>
         <xs:element name="ActionType" type="tns:ActionAdExtensionActionType" />
-        <xs:element xmlns:q51="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q51:ArrayOfstring" />
+        <xs:element xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q52:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q52:ArrayOfstring" />
+        <xs:element xmlns:q53="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q53:ArrayOfstring" />
         <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />

@@ -25,9 +25,9 @@ You can associate a promotion ad extension with the account or with campaigns an
         <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="DiscountModifier" nillable="true" type="tns:PromotionDiscountModifier" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q56:ArrayOfstring" />
+        <xs:element xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q57:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q57:ArrayOfstring" />
+        <xs:element xmlns:q58="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q58:ArrayOfstring" />
         <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="MoneyAmountOff" nillable="true" type="xs:double" />
         <xs:element minOccurs="0" name="OrdersOverAmount" nillable="true" type="xs:double" />

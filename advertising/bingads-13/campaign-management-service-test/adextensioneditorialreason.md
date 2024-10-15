@@ -16,7 +16,7 @@ Defines an object that you can use to determine the component of an ad extension
 <xs:complexType name="AdExtensionEditorialReason" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
-    <xs:element xmlns:q72="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PublisherCountries" nillable="true" type="q72:ArrayOfstring" />
+    <xs:element xmlns:q73="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PublisherCountries" nillable="true" type="q73:ArrayOfstring" />
     <xs:element minOccurs="0" name="ReasonCode" type="xs:int" />
     <xs:element minOccurs="0" name="Term" nillable="true" type="xs:string" />
   </xs:sequence>

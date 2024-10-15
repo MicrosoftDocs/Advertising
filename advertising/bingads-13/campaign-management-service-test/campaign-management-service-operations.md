@@ -126,6 +126,7 @@ The Campaign Management service defines the following service operations.
 |[GetNegativeKeywordsByEntityIds](getnegativekeywordsbyentityids.md)|Gets the negative keywords that are assigned directly to campaigns or ad groups.|1 *ParentEntityId*<br/><br/>1 *EntityIds*|
 |[GetNegativeSitesByAdGroupIds](getnegativesitesbyadgroupids.md)|Gets the negative sites URLs that are assigned directly to ad groups.|15 *AdGroupIds*<br/><br/>1 *CampaignId*|
 |[GetNegativeSitesByCampaignIds](getnegativesitesbycampaignids.md)|Gets the negative site URLs that are assigned directly to campaigns.|1 *AccountId*<br/><br/>15 *CampaignIds*|
+|[GetOfflineConversionReports](getofflineconversionreports.md)|Gets the offline conversion reports in the requested date range.|N/A.|
 |[GetProfileDataFileUrl](getprofiledatafileurl.md)|Gets a temporary URL that you can use to download industry or job function profile data.|1 *ProfileType*|
 |[GetSeasonalityAdjustmentsByAccountId](getseasonalityadjustmentsbyaccountid.md)|Gets the seasonality adjustments associated with an account.|N/A.|
 |[GetSeasonalityAdjustmentsByIds](getseasonalityadjustmentsbyids.md)|Gets the specified seasonality adjustments associated with an account.|N/A.|
