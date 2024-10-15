@@ -37,7 +37,7 @@ The Ad Insight service defines the following value sets.
 |[PerformanceInsightsUrlId](performanceinsightsurlid.md)|Defines the URL ID for performance insights.|
 |[RadiusUnit](radiusunit.md)|Defines a value set for the RadiusUnit.|
 |[RecommendationType](recommendationtype.md)|Defines the RecommendationType value set.|
-|[ScaleUnit](scaleunit.md)|Reserved.|
+|[ScaleUnit](scaleunit.md)|Defines a value set for the scale unit.|
 |[SourceType](sourcetype.md)|Defines the source or seed for the keyword idea.|
 |[TargetAdPosition](targetadposition.md)|Defines the possible positions where you can target an ad to appear in the search results.|
 |[TimeInterval](timeinterval.md)|Defines the possible time periods that determine the pool of data that the service uses to get the performance statistics of a keyword.|

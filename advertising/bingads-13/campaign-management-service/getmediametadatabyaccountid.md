@@ -27,7 +27,7 @@ The *GetMediaMetaDataByAccountIdRequest* object defines the [body](#request-body
 |-----------|---------------|-------------|
 |<a name="mediaenabledentities"></a>MediaEnabledEntities|Determines the type of media enabled entity to get meta data.<br/><br/>Supported values are ImageAdExtension and ResponsiveAd.<br/><br/>You may include multiple values as flags. How you specify multiple flags depends on the programming language that you use. For example, C# treats these values as flag values and Java treats them as an array of strings. The SOAP should include a string that contains a space-delimited list of values for example, `<MediaEnabledEntities>ImageAdExtension ResponsiveAd</MediaEnabledEntities>`.|[MediaEnabledEntityFilter](mediaenabledentityfilter.md)|
 |<a name="pageinfo"></a>PageInfo|Determines the index and size of media meta data results per page.<br/><br/>By default if this element is not specified, the defaut page Index is 0 and the default Size is 1,000.|[Paging](paging.md)|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[MediaAdditionalField](mediaadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties that you want included within each returned auction insight KPI. The additional field values enable you to get the latest features using the current version of the Ad Insight API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[MediaAdditionalField](mediaadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]

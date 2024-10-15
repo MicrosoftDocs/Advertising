@@ -36,8 +36,8 @@ The [NumberOperator](numberoperator.md) value set has the following values: [Equ
 |<a name="greaterthanequalto"></a>GreaterThanEqualTo|Greater than or equal to the corresponding number value.|
 |<a name="lessthan"></a>LessThan|Less than the corresponding number value.|
 |<a name="lessthanequalto"></a>LessThanEqualTo|Less than or equal to the corresponding number value.|
-|<a name="none"></a>None|Reserved for future use.|
-|<a name="notequals"></a>NotEquals|Reserved.|
+|<a name="none"></a>None|For future use.|
+|<a name="notequals"></a>NotEquals|The field must not equal the specified value.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

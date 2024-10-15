@@ -38,7 +38,7 @@ The [MediaMetaData](mediametadata.md) object has the following elements: [Id](#i
 |<a name="id"></a>Id|The system identifier of the media meta data.|**long**|
 |<a name="mediatype"></a>MediaType|The name of the media subclass.<br/><br/>For an [ImageMediaRepresentation](imagemediarepresentation.md), the *MediaType* is *Image*.|**string**|
 |<a name="representations"></a>Representations|A list of [ImageMediaRepresentation](imagemediarepresentation.md) that each include download URLs for one or more media representations. The number of representations depends on the type of media. For image ad extensions the service will return exactly three [ImageMediaRepresentation](imagemediarepresentation.md) objects with varying height and width properties. For responsive ads the service will return exactly one [ImageMediaRepresentation](imagemediarepresentation.md) object. For more information see [MediaEnabledEntityFilter](mediaenabledentityfilter.md).|[MediaRepresentation](mediarepresentation.md) array|
-|<a name="text"></a>Text|Reserved.|**string**|
+|<a name="text"></a>Text|The media text.|**string**|
 |<a name="type"></a>Type|The type of media in the library.<br/><br/>For an [ImageMediaRepresentation](imagemediarepresentation.md), the only possible value is *ImageMediaRepresentation*.|**string**|
 
 ## Requirements

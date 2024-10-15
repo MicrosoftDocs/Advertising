@@ -5,10 +5,10 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Reserved.
+description: Defines a value set for the scale unit.
 ---
 # ScaleUnit Value Set - Ad Insight
-Reserved.
+Defines a value set for the scale unit.
 
 ## Syntax
 ```xml
@@ -28,10 +28,10 @@ The [ScaleUnit](scaleunit.md) value set has the following values: [Billion](#bil
 
 |Value|Description|
 |-----------|---------------|
-|<a name="billion"></a>Billion|Reserved.|
-|<a name="million"></a>Million|Reserved.|
-|<a name="none"></a>None|Reserved.|
-|<a name="thousand"></a>Thousand|Reserved.|
+|<a name="billion"></a>Billion|The scale unit is billion.|
+|<a name="million"></a>Million|The scale unit is million.|
+|<a name="none"></a>None|There is no scale unit.|
+|<a name="thousand"></a>Thousand|The scale unit is thousand.|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

@@ -39,7 +39,7 @@ The [Media](media.md) object has the following elements: [Id](#id), [MediaType](
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the media.<br/><br/>**Add:** Read-only|**long**|
 |<a name="mediatype"></a>MediaType|The type of media to add to the media library.<br/><br/>The recommended sub type is "GenericImage".<br/><br/>For media that will be used with an [ImageAdExtension](imageadextension.md), the supported values are *GenericImage*, *Image16x9*, *Image15x10*, *Image4x3*, and *Image12x10*.<br/><br/>For media that will be used with a [ResponsiveAd](responsivead.md), the supported values are *GenericImage*, *Image1x1*, *Image191x100*, and *Image4x1*.<br/><br/>For more information about supported aspect ratios, see the [Image Data Object Remarks](image.md#remarks).<br/><br/>**Add:** Required|**string**|
-|<a name="text"></a>Text|Reserved.|**string**|
+|<a name="text"></a>Text|The media text.|**string**|
 |<a name="type"></a>Type|The media type. For more information about media types, see [Remarks](#remarks) below.<br/><br/>**Add:** Read-only|**string**|
 
 ## <a name="remarks"></a>Remarks

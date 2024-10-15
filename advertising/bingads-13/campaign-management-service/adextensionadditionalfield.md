@@ -40,8 +40,8 @@ The [AdExtensionAdditionalField](adextensionadditionalfield.md) value set has th
 |<a name="displaytext"></a>DisplayText|Request that the [DisplayText](imageadextension.md#displaytext) element be included within each returned [ImageAdExtension](imageadextension.md) object.|
 |<a name="images"></a>Images|Request that the [Images](imageadextension.md#images) element be included within each returned [ImageAdExtension](imageadextension.md) object.|
 |<a name="layouts"></a>Layouts|Request that the [Layouts](imageadextension.md#layouts) element be included within each returned [ImageAdExtension](imageadextension.md) object.|
-|<a name="newfilterlinkheaders"></a>NewFilterLinkHeaders|Reserved.|
-|<a name="sourcetype"></a>SourceType|Reserved.|
+|<a name="newfilterlinkheaders"></a>NewFilterLinkHeaders|Request that the [AdExtensionHeaderType](filterlinkadextension.md#adextensionheadertype) element be included within each returned [FilterLinkAdExtension](filterlinkadextension.md) object.|
+|<a name="sourcetype"></a>SourceType|Request that the [SourceType](imageadextension.md#sourcetype) element be included within each returned [ImageAdExtension](imageadextension.md) object|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -5,10 +5,10 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines the CriterionCashback Data Object.
+description: Defines the CriterionCashback data object.
 ---
 # CriterionCashback Data Object - Campaign Management
-Defines the CriterionCashback Data Object.
+Defines the CriterionCashback data object.
 
 ## Syntax
 ```xml
@@ -25,7 +25,7 @@ The [CriterionCashback](criterioncashback.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of criterion cashback.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

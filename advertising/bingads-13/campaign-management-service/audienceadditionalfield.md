@@ -33,7 +33,7 @@ The [AudienceAdditionalField](audienceadditionalfield.md) value set has the foll
 |-----------|---------------|
 |<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Request that the [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) element be included when you call the [GetAudiencesByIds](getaudiencesbyids.md) service operation.|
 |<a name="normalform"></a>NormalForm|Request that the [NormalForm](pagevisitorsrule.md#normalform) element be included within each returned [PageVisitorsRule](pagevisitorsrule.md) object.|
-|<a name="numberruleitem"></a>NumberRuleItem|Reserved.|
+|<a name="numberruleitem"></a>NumberRuleItem|Defines a rule expression that depends on the operand, operator, and value.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

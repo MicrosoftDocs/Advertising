@@ -66,8 +66,8 @@ The [ProfileType](profiletype.md) value set has the following values: [CompanyNa
 |<a name="companyname"></a>CompanyName|Target people at a specific company according to LinkedIn.|
 |<a name="industry"></a>Industry|Target people in a specific industry according to LinkedIn.|
 |<a name="jobfunction"></a>JobFunction|Target people in a specific job function according to LinkedIn.|
-|<a name="jobseniority"></a>JobSeniority|Reserved.|
-|<a name="jobtitle"></a>JobTitle|Reserved.|
+|<a name="jobseniority"></a>JobSeniority|Target people at a specific job seniority level according to LinkedIn.|
+|<a name="jobtitle"></a>JobTitle|Target people with a specific job title according to LinkedIn.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

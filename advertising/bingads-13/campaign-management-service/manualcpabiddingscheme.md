@@ -10,7 +10,7 @@ description: Defines an object that represents the manual CPA bid strategy type.
 # ManualCpaBiddingScheme Data Object - Campaign Management
 Defines an object that represents the manual CPA bid strategy type.
 
-With the ManualCpa (manual cost per click) bid strategy, you set your big per advertiser-specified action.
+With the ManualCpa (manual cost per action) bid strategy, you set your big per advertiser-specified action.
 
 ## Syntax
 ```xml
@@ -37,7 +37,7 @@ The [ManualCpaBiddingScheme](manualcpabiddingscheme.md) object has the following
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="manualcpi"></a>ManualCpi|Reserved.|**double**|
+|<a name="manualcpi"></a>ManualCpi|The manual cost per install.|**double**|
 
 The [ManualCpaBiddingScheme](manualcpabiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 

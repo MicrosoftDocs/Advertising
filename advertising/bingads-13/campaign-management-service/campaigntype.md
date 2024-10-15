@@ -53,7 +53,7 @@ The [CampaignType](campaigntype.md) value set has the following values: [App](#a
 
 |Value|Description|
 |-----------|---------------|
-|<a name="app"></a>App|Reserved.|
+|<a name="app"></a>App|The campaign is an App campaign.|
 |<a name="audience"></a>Audience|The campaign is an Audience campaign.<br/><br/>If the sub type is set to *AudienceVideoAds*, the campaign is a video audience campaign.|
 |<a name="dynamicsearchads"></a>DynamicSearchAds|The campaign is a Dynamic Search Ads campaign.<br/><br/>Dynamic search ads campaign type is no longer supported. Dynamic search ads can be created in "SearchDynamic" ad groups of a search campaign.|
 |<a name="hotel"></a>Hotel|The campaign is a Lodging campaign (formerly Hotel campaigns).|

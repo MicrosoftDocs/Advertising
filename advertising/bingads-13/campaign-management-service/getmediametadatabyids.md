@@ -26,7 +26,7 @@ The *GetMediaMetaDataByIdsRequest* object defines the [body](#request-body) and 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="mediaids"></a>MediaIds|The identifiers of the media to get.<br/><br/>You can specify a maximum of 100 media identifiers in a single call.|**long** array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[MediaAdditionalField](mediaadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties that you want included within each returned auction insight KPI. The additional field values enable you to get the latest features using the current version of the Ad Insight API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[MediaAdditionalField](mediaadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]

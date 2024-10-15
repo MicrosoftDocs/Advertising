@@ -65,9 +65,9 @@ The [AdExtensionHeaderType](adextensionheadertype.md) value set has the followin
 
 |Value|Description|
 |-----------|---------------|
-|<a name="agegroups"></a>AgeGroups|Reserved.|
+|<a name="agegroups"></a>AgeGroups|Use the translated version of *AgeGroups* in the ad extension header.|
 |<a name="amenities"></a>Amenities|Use the translated version of *Amenities* in the ad extension header.|
-|<a name="bestsellers"></a>BestSellers|Reserved.|
+|<a name="bestsellers"></a>BestSellers|Use the translated version of *BestSellers* in the ad extension header.|
 |<a name="brands"></a>Brands|Use the translated version of *Brands* in the ad extension header.|
 |<a name="classes"></a>Classes|Use the translated version of *Classes* in the ad extension header.|
 |<a name="courses"></a>Courses|Use the translated version of *Courses* in the ad extension header.|
@@ -77,7 +77,7 @@ The [AdExtensionHeaderType](adextensionheadertype.md) value set has the followin
 |<a name="departments"></a>Departments|Use the translated version of *Departments* in the ad extension header.|
 |<a name="destinations"></a>Destinations|Use the translated version of *Destinations* in the ad extension header.|
 |<a name="featuredhotels"></a>FeaturedHotels|Use the translated version of *FeaturedHotels* in the ad extension header.|
-|<a name="flowers"></a>Flowers|Reserved.|
+|<a name="flowers"></a>Flowers|Use the translated version of *Flowers* in the ad extension header.|
 |<a name="goods"></a>Goods|Use the translated version of *Goods* in the ad extension header.|
 |<a name="grades"></a>Grades|Use the translated version of *Grades* in the ad extension header.|
 |<a name="highlights"></a>Highlights|Use the translated version of *Highlights* in the ad extension header.|
@@ -87,7 +87,7 @@ The [AdExtensionHeaderType](adextensionheadertype.md) value set has the followin
 |<a name="locations"></a>Locations|Use the translated version of *Locations* in the ad extension header.|
 |<a name="models"></a>Models|Use the translated version of *Models* in the ad extension header.|
 |<a name="neighborhoods"></a>Neighborhoods|Use the translated version of *Neighborhoods* in the ad extension header.|
-|<a name="occasions"></a>Occasions|Reserved.|
+|<a name="occasions"></a>Occasions|Use the translated version of *Occasions* in the ad extension header.|
 |<a name="prices"></a>Prices|Use the translated version of *Prices* in the ad extension header.|
 |<a name="rates"></a>Rates|Use the translated version of *Rates* in the ad extension header.|
 |<a name="ratings"></a>Ratings|Use the translated version of *Ratings* in the ad extension header.|
@@ -100,7 +100,7 @@ The [AdExtensionHeaderType](adextensionheadertype.md) value set has the followin
 |<a name="tools"></a>Tools|Use the translated version of *Tools* in the ad extension header.|
 |<a name="topics"></a>Topics|Use the translated version of *Topics* in the ad extension header.|
 |<a name="types"></a>Types|Use the translated version of *Types* in the ad extension header.|
-|<a name="unknown"></a>Unknown|Reserved for future use.|
+|<a name="unknown"></a>Unknown|For future use.|
 |<a name="vacations"></a>Vacations|Use the translated version of *Vacations* in the ad extension header.|
 |<a name="vehicles"></a>Vehicles|Use the translated version of *Vehicles* in the ad extension header.|
 |<a name="what"></a>What|Use the translated version of *What* in the ad extension header.|
