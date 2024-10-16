@@ -69,7 +69,7 @@ The [VideoAdExtension](videoadextension.md) object derives from the [AdExtension
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the ad extension.|**long**|
 |<a name="scheduling"></a>Scheduling|Determines the calendar day and time ranges when the ad extension is eligible to be shown in ads.|[Schedule](schedule.md)|
 |<a name="status"></a>Status|The status of the ad extension. The value will always be *Active* because the Campaign Management service does not return deleted ad extensions.|[AdExtensionStatus](adextensionstatus.md)|
-|<a name="type"></a>Type|The type of ad extension. <br/><br/>For more information, see [Remarks](#remarks).|**string**|
+|<a name="type"></a>Type|The type of ad extension. <br/><br/>For more information, see [Remarks](./adextension.md#remarks).|**string**|
 |<a name="version"></a>Version|Tracks the number of times the ad extension has been updated.<br/><br/>The version is set to *1* when the ad extension is created, and increments by one after each update.|**int**|
 
 ## Requirements
