@@ -177,7 +177,7 @@ The maximum length is 50 characters.
 
 **Add:** Optional  
 **Update:** Optional  
-**Delete:** Read-only  
+**Delete:** Optional
 
 ## <a name="editoriallocation"></a>Editorial Location
 The component or property of the ad extension that failed editorial review. 
