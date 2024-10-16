@@ -27,9 +27,9 @@ The [AssetGroupReportScope](assetgroupreportscope.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
-|<a name="assetgroupid"></a>AssetGroupId|Reserved.|**long**|
-|<a name="campaignid"></a>CampaignId|Reserved.|**long**|
+|<a name="accountid"></a>AccountId|The ID of the account.|**long**|
+|<a name="assetgroupid"></a>AssetGroupId|The ID of the asset group.|**long**|
+|<a name="campaignid"></a>CampaignId|The ID of the campaign.|**long**|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  

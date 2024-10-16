@@ -30,10 +30,10 @@ The [SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountstatus"></a>AccountStatus|Reserved.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
-|<a name="adgroupstatus"></a>AdGroupStatus|Reserved.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
-|<a name="assetgroupstatus"></a>AssetGroupStatus|Reserved.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
-|<a name="campaignstatus"></a>CampaignStatus|Reserved.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
+|<a name="accountstatus"></a>AccountStatus|The report will only include data for accounts with the specified status. For example, you can use the filter to include data for only active accounts.<br/><br/>You can specify one or more account statuses.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
+|<a name="adgroupstatus"></a>AdGroupStatus|The report will only include data for ad groups with the specified status. For example, you can use the filter to include data for only active ad groups.<br/><br/>You can specify one or more ad group statuses.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
+|<a name="assetgroupstatus"></a>AssetGroupStatus|The report will include data for only the asset group status. For example, you can use the filter to include data for only active asset groups.<br/><br/>You can specify one or more asset group statuses.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
+|<a name="campaignstatus"></a>CampaignStatus|The report will only include data for campaigns with the specified status. For example, you can use the filter to include data for only active campaigns.<br/><br/>You can specify one or more campaign statuses.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
 |<a name="searchcategory"></a>SearchCategory|Reserved.|**string** array|
 |<a name="searchqueries"></a>SearchQueries|Reserved.|**string** array|
 
