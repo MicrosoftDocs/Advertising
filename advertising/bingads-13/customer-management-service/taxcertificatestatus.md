@@ -45,9 +45,9 @@ The [TaxCertificateStatus](taxcertificatestatus.md) value set has the following 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="invalid"></a>Invalid|Reserved.|
-|<a name="pending"></a>Pending|Reserved.|
-|<a name="valid"></a>Valid|Reserved.|
+|<a name="invalid"></a>Invalid|The status of the tax certificate is *Invalid*.|
+|<a name="pending"></a>Pending|The status of the tax certificate is *Pending*.|
+|<a name="valid"></a>Valid|The status of the tax certificate is *Valid*.|
 
 ## Requirements
 Service: [CustomerManagementService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc)  
