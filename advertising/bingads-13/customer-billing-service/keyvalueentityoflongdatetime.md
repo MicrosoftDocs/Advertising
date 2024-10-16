@@ -34,8 +34,8 @@ The [KeyValueEntityOflongdateTime](keyvalueentityoflongdatetime.md) object has t
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="key"></a>Key|Reserved.|**long**|
-|<a name="value"></a>Value|Reserved.|**dateTime**|
+|<a name="key"></a>Key|The key to the value.|**long**|
+|<a name="value"></a>Value|The value mapped to the key.|**dateTime**|
 
 ## Requirements
 Service: [CustomerBillingService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/Billing/v13/CustomerBillingService.svc)  

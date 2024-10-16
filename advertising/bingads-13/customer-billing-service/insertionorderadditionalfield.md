@@ -42,7 +42,7 @@ The [InsertionOrderAdditionalField](insertionorderadditionalfield.md) value set 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="none"></a>None|Reserved.|
+|<a name="none"></a>None|Return no additional fields.|
 |<a name="unlimitedandendlessflags"></a>UnlimitedAndEndlessFlags|Return *IsUnlimited* and *IsEndless* in the response.|
 
 ## Requirements
