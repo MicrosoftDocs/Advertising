@@ -34,12 +34,12 @@ The [RemoveConflictingNegativeKeywordRecommendation](removeconflictingnegativeke
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="negativekeyword"></a>NegativeKeyword|Reserved.|**string**|
-|<a name="negativekeywordid"></a>NegativeKeywordId|Reserved.|**long**|
-|<a name="negativekeywordlistname"></a>NegativeKeywordListName|Reserved.|**string**|
-|<a name="negativekeywordmatchtype"></a>NegativeKeywordMatchType|Reserved.|**int**|
-|<a name="negativekeywordsharedlistid"></a>NegativeKeywordSharedListId|Reserved.|**long**|
-|<a name="source"></a>Source|Reserved.|**string**|
+|<a name="negativekeyword"></a>NegativeKeyword|The negative keyword.|**string**|
+|<a name="negativekeywordid"></a>NegativeKeywordId|The ID of the negative keyword.|**long**|
+|<a name="negativekeywordlistname"></a>NegativeKeywordListName|The list name of the negative keyword.|**string**|
+|<a name="negativekeywordmatchtype"></a>NegativeKeywordMatchType|The match type of the negative keyword.|**int**|
+|<a name="negativekeywordsharedlistid"></a>NegativeKeywordSharedListId|The shared list ID of the negative keyword.|**long**|
+|<a name="source"></a>Source|The source name.|**string**|
 
 The [RemoveConflictingNegativeKeywordRecommendation](removeconflictingnegativekeywordrecommendation.md) object has [Inherited Elements](#inheritedelements).
 
@@ -50,25 +50,26 @@ The [RemoveConflictingNegativeKeywordRecommendation](removeconflictingnegativeke
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
-|<a name="accountname"></a>AccountName|Reserved.|**string**|
-|<a name="adgroupid"></a>AdGroupId|Reserved.|**long**|
-|<a name="adgroupname"></a>AdGroupName|Reserved.|**string**|
-|<a name="campaignid"></a>CampaignId|Reserved.|**long**|
-|<a name="campaignname"></a>CampaignName|Reserved.|**string**|
-|<a name="currentclicks"></a>CurrentClicks|Reserved.|**long**|
-|<a name="currentconversions"></a>CurrentConversions|Reserved.|**long**|
-|<a name="currentcost"></a>CurrentCost|Reserved.|**double**|
-|<a name="currentimpressions"></a>CurrentImpressions|Reserved.|**long**|
-|<a name="dismissed"></a>Dismissed|Reserved.|**boolean**|
-|<a name="estimatedincreaseinclicks"></a>EstimatedIncreaseInClicks|Reserved.|**long**|
-|<a name="estimatedincreaseinconversions"></a>EstimatedIncreaseInConversions|Reserved.|**long**|
-|<a name="estimatedincreaseincost"></a>EstimatedIncreaseInCost|Reserved.|**double**|
-|<a name="estimatedincreaseinimpressions"></a>EstimatedIncreaseInImpressions|Reserved.|**long**|
-|<a name="recommendationhash"></a>RecommendationHash|Reserved.|**string**|
-|<a name="recommendationid"></a>RecommendationId|Reserved.|**string**|
-|<a name="recommendationtype"></a>RecommendationType|Reserved.|**string**|
-|<a name="type"></a>Type|Reserved.|[RecommendationType](recommendationtype.md)|
+|<a name="accountid"></a>AccountId|The identifier of the account. Output only. |**long**|
+|<a name="accountname"></a>AccountName|The name of the account. Output only.|**string**|
+|<a name="adgroupid"></a>AdGroupId|The ad group ID targeted by this recommendation. This will be set only when the recommendation affects a single ad group. Output only.<br/><br/>This field will be set for the following recommendation types: KEYWORD, RESPONSIVE_SEARCH_AD.|**long**|
+|<a name="adgroupname"></a>AdGroupName|The name of the ad group. Output only.|**string**|
+|<a name="campaignid"></a>CampaignId|The campaign ID targeted by this recommendation. Output only.<br/><br/>This field will be set for the following recommendation types: KEYWORD, RESPONSIVE_SEARCH_AD|**long**|
+|<a name="campaignname"></a>CampaignName|The name of the campaign. Output only.|**string**|
+|<a name="currentclicks"></a>CurrentClicks|Actual clicks of the ad group in the past 7 days. Output only. |**long**|
+|<a name="currentconversions"></a>CurrentConversions|Actual conversions of the ad group in the past 7 days. Output only. |**long**|
+|<a name="currentcost"></a>CurrentCost|Actual spending of the ad group in the past 7 days, in the currency of this account.|**double**|
+|<a name="currentimpressions"></a>CurrentImpressions|Actual impressions of the ad group in the past 7 days.|**long**|
+|<a name="dismissed"></a>Dismissed|Whether the recommendation is dismissed or not. Output only. |**boolean**|
+|<a name="estimatedincreaseinclicks"></a>EstimatedIncreaseInClicks|The estimated click opportunities corresponding to the suggested ad.|**long**|
+|<a name="estimatedincreaseinconversions"></a>EstimatedIncreaseInConversions|The estimated impression opportunities corresponding to the suggested ad.|**long**|
+|<a name="estimatedincreaseincost"></a>EstimatedIncreaseInCost|The estimated increase in spend corresponding to the suggested ad.|**double**|
+|<a name="estimatedincreaseinimpressions"></a>EstimatedIncreaseInImpressions|The estimated impressions opportunities corresponding to the suggested ad.|**long**|
+|<a name="recommendationhash"></a>RecommendationHash|The hash of the recommendation.|**string**|
+|<a name="recommendationid"></a>RecommendationId|The identifier of the recommendation.|**string**|
+|<a name="recommendationtype"></a>RecommendationType|The type of recommendation.<br/><br/>*Note*: We currently support *CAMPAIGN_BUDGET*, *KEYWORD*, and *RESPONSIVE_SEARCH_AD*. *RecommendationType* is output only.|**string**|
+|<a name="type"></a>Type|The *RecommendationType* value set has the following values: *CampaignBudgetRecommendation*, *KeywordRecommendation*, *ResponsiveSearchAdRecommendation*.|[RecommendationType](recommendationtype.md)|
+
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

@@ -141,18 +141,18 @@ The [AccountPropertyName](accountpropertyname.md) value set has the following va
 |<a name="adclickparalleltracking"></a>AdClickParallelTracking|Used to get or set the property that determines whether you want to send customers directly to your final URL while click measurement runs in the background.<br/><br/>For more information see [AdClickParallelTracking](accountproperty.md#adclickparalleltracking).|
 |<a name="allowimageautoretrieve"></a>AllowImageAutoRetrieve|Used to get or set the property that determines whether Microsoft Advertising is allowed to use images from your domain to enhance your ads on the Microsoft Audience Network.<br/><br/>For more information see [AllowImageAutoRetrieve](accountproperty.md#allowimageautoretrieve).|
 |<a name="autoapplyrecommendations"></a>AutoApplyRecommendations|Used to get or set the property that determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.<br/><br/> AutoApplyRecommendations in Campaign Management API is deprecated as of November 30, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. <br/><br/>For more information see [AutoApplyRecommendations](accountproperty.md#autoapplyrecommendations).|
-|<a name="autobiddingviewthroughconversionsvalueattributionweight"></a>AutoBiddingViewThroughConversionsValueAttributionWeight|Reserved.|
+|<a name="autobiddingviewthroughconversionsvalueattributionweight"></a>AutoBiddingViewThroughConversionsValueAttributionWeight|The weight of the auto bidding view through conversions value attribution.|
 |<a name="blockedcontentsegments"></a>BlockedContentSegments|The segments that advertisers can block. Pass the segment ID. [See the table above](#segment-info) for segment information and IDs.|
 |<a name="businessattributes"></a>BusinessAttributes|Used to get or set the property that determines the account's business attributes meant to help you boost ad performance.<br/><br/>For more information see [BusinessAttributes](accountproperty.md#businessattributes).|
-|<a name="enablemmaunderdsaadgroups"></a>EnableMMAUnderDSAAdgroups|Reserved.|
+|<a name="enablemmaunderdsaadgroups"></a>EnableMMAUnderDSAAdgroups|Enable Microsoft Monitring Agent under dynamic search ads ad groups.|
 |<a name="finalurlsuffix"></a>FinalUrlSuffix|Used to get or set the account's Final URL Suffix.<br/><br/>For more information see [FinalUrlSuffix](accountproperty.md#finalurlsuffix).|
-|<a name="includeautobiddingviewthroughconversions"></a>IncludeAutoBiddingViewThroughConversions|Reserved.|
+|<a name="includeautobiddingviewthroughconversions"></a>IncludeAutoBiddingViewThroughConversions|Include auto bidding view through conversions.|
 |<a name="includeviewthroughconversions"></a>IncludeViewThroughConversions|Used to get or set the property that determines whether you want to include view-through conversions for campaigns in the account.<br/><br/>For more information see [IncludeViewThroughConversions](accountproperty.md#includeviewthroughconversions).|
-|<a name="loopbackwindowforviewthroughconversions"></a>LoopBackWindowForViewThroughConversions|Reserved.|
+|<a name="loopbackwindowforviewthroughconversions"></a>LoopBackWindowForViewThroughConversions|The loopback window for view through conversions.|
 |<a name="msclkidautotaggingenabled"></a>MSCLKIDAutoTaggingEnabled|Used to get or set the property that determines whether MSCLKID auto-tagging is enabled for the account.<br/><br/>For more information see [MSCLKIDAutoTaggingEnabled](accountproperty.md#msclkidautotaggingenabled).|
-|<a name="netflixtcaccepted"></a>NetflixTCAccepted|Reserved.|
-|<a name="none"></a>None|Reserved for internal use.|
-|<a name="optoutfrommcm"></a>OptOutFromMCM|Reserved.|
+|<a name="netflixtcaccepted"></a>NetflixTCAccepted|The Netflix terms and conditions are accepted.|
+|<a name="none"></a>None|For internal use only.|
+|<a name="optoutfrommcm"></a>OptOutFromMCM|The output from Microsoft Configuration Manager.|
 |<a name="profileexpansionenabled"></a>ProfileExpansionEnabled|Used to get or set the property that determines whether LinkedIn profile targeting expansion is enabled for the account.<br/><br/>For more information see [ProfileExpansionEnabled](accountproperty.md#profileexpansionenabled).|
 |<a name="trackingurltemplate"></a>TrackingUrlTemplate|Used to get or set the account's tracking template.<br/><br/>For more information see [TrackingUrlTemplate](accountproperty.md#trackingurltemplate).|
 

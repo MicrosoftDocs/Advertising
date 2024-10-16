@@ -27,9 +27,9 @@ The [AccountTaxCertificate](accounttaxcertificate.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="status"></a>Status|Reserved.|[TaxCertificateStatus](taxcertificatestatus.md)|
-|<a name="taxcertificateblobcontainername"></a>TaxCertificateBlobContainerName|Reserved.|**string**|
-|<a name="taxcertificates"></a>TaxCertificates|Reserved.|[KeyValuePairOfstringbase64Binary](keyvaluepairofstringbase64binary.md) array|
+|<a name="status"></a>Status|The status of the tax certificate: *Valid*, *Invalid*, or *Pending*.|[TaxCertificateStatus](taxcertificatestatus.md)|
+|<a name="taxcertificateblobcontainername"></a>TaxCertificateBlobContainerName|The container name of the tax certificate.|**string**|
+|<a name="taxcertificates"></a>TaxCertificates|A list of tax certificates.|[KeyValuePairOfstringbase64Binary](keyvaluepairofstringbase64binary.md) array|
 
 ## Requirements
 Service: [CustomerManagementService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc)  

@@ -29,7 +29,7 @@ The [CashbackAdjustment](cashbackadjustment.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="cashbackpercent"></a>CashbackPercent|Reserved.|**double**|
+|<a name="cashbackpercent"></a>CashbackPercent|The percent to receive in cashback.|**double**|
 
 The [CashbackAdjustment](cashbackadjustment.md) object has [Inherited Elements](#inheritedelements).
 
@@ -40,7 +40,7 @@ The [CashbackAdjustment](cashbackadjustment.md) object derives from the [Criteri
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of criterion cashback.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

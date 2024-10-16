@@ -47,11 +47,11 @@ The [CampaignBudgetRecommendation](campaignbudgetrecommendation.md) object deriv
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="accountid"></a>AccountId|The identifier of the account. Output only. |**long**|
-|<a name="accountname"></a>AccountName|Reserved.|**string**|
+|<a name="accountname"></a>AccountName|The name of the account. Output only.|**string**|
 |<a name="adgroupid"></a>AdGroupId|The ad group ID targeted by this recommendation. This will be set only when the recommendation affects a single ad group. Output only.<br/><br/>This field will be set for the following recommendation types: KEYWORD, RESPONSIVE_SEARCH_AD.|**long**|
-|<a name="adgroupname"></a>AdGroupName|Reserved.|**string**|
+|<a name="adgroupname"></a>AdGroupName|The name of the ad group. Output only.|**string**|
 |<a name="campaignid"></a>CampaignId|The campaign ID targeted by this recommendation. Output only.<br/><br/>This field will be set for the following recommendation types: KEYWORD, RESPONSIVE_SEARCH_AD|**long**|
-|<a name="campaignname"></a>CampaignName|Reserved.|**string**|
+|<a name="campaignname"></a>CampaignName|The name of the campaign. Output only.|**string**|
 |<a name="currentclicks"></a>CurrentClicks|Actual clicks of the ad group in the past 7 days. Output only. |**long**|
 |<a name="currentconversions"></a>CurrentConversions|Actual conversions of the ad group in the past 7 days. Output only. |**long**|
 |<a name="currentcost"></a>CurrentCost|Actual spending of the ad group in the past 7 days, in the currency of this account.|**double**|

@@ -29,7 +29,7 @@ The [WebpageConditionOperator](webpageconditionoperator.md) value set has the fo
 |-----------|---------------|
 |<a name="contains"></a>Contains|The property should contain the corresponding argument value.|
 |<a name="equals"></a>Equals|The property should be equal to the corresponding argument value.|
-|<a name="unknown"></a>Unknown|Reserved.|
+|<a name="unknown"></a>Unknown|For future use.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

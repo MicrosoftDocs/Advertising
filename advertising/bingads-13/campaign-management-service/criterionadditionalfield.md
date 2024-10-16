@@ -32,7 +32,7 @@ The [CriterionAdditionalField](criterionadditionalfield.md) value set has the fo
 |Value|Description|
 |-----------|---------------|
 |<a name="criterioncashback"></a>CriterionCashback|Request that the ```CriterionCashback``` element be included within each returned [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [BiddableCampaignCriterion](biddablecampaigncriterion.md) object.|
-|<a name="operator"></a>Operator|Reserved.|
+|<a name="operator"></a>Operator|Defines the relationship between the field and the value.|
 |<a name="placement"></a>Placement|Reserved.|
 
 ## Requirements

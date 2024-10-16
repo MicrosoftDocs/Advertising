@@ -29,7 +29,7 @@ The [DynamicFeedSetting](dynamicfeedsetting.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="feedid"></a>FeedId|Reserved.|**long**|
+|<a name="feedid"></a>FeedId|The ID of the feed.|**long**|
 
 The [DynamicFeedSetting](dynamicfeedsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -40,7 +40,7 @@ The [DynamicFeedSetting](dynamicfeedsetting.md) object derives from the [Setting
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting.<br/><br/>For more information, see [Remarks](setting.md#remarks).|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

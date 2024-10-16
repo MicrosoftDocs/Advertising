@@ -28,7 +28,7 @@ The *ApplyCustomerListItemsRequest* object defines the [body](#request-body) and
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerlistaudience"></a>CustomerListAudience|Reserved.|[CustomerList](customerlist.md)|
+|<a name="customerlistaudience"></a>CustomerListAudience|The customer list associated with the audience.|[CustomerList](customerlist.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]

@@ -604,12 +604,12 @@ The [TimeZoneType](timezonetype.md) value set has the following values: [AbuDhab
 |<a name="moscowstpetersburgvolgograd"></a>MoscowStPetersburgVolgograd|The corresponding time zone type.|
 |<a name="mountaintimeuscanada"></a>MountainTimeUSCanada|The corresponding time zone type.|
 |<a name="nairobi"></a>Nairobi|The corresponding time zone type.|
-|<a name="newfoundland"></a>Newfoundland|Reserved.|
+|<a name="newfoundland"></a>Newfoundland|The corresponding time zone type.|
 |<a name="nukualofa"></a>Nukualofa|The corresponding time zone type.|
 |<a name="osakasapporotokyo"></a>OsakaSapporoTokyo|The corresponding time zone type.|
 |<a name="pacifictimeuscanadatijuana"></a>PacificTimeUSCanadaTijuana|The corresponding time zone type.|
 |<a name="perth"></a>Perth|The corresponding time zone type.|
-|<a name="rangoon"></a>Rangoon|Reserved.|
+|<a name="rangoon"></a>Rangoon|The corresponding time zone type.|
 |<a name="santiago"></a>Santiago|The corresponding time zone type.|
 |<a name="sarajevoskopjewarsawzagreb"></a>SarajevoSkopjeWarsawZagreb|The corresponding time zone type.|
 |<a name="saskatchewan"></a>Saskatchewan|The corresponding time zone type.|

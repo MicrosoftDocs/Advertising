@@ -8,7 +8,7 @@ ms.author: jonmeyers
 description: Represents a number rule item.
 ---
 # NumberRuleItem Data Object - Campaign Management
-Represents a number rule item.
+Defines a rule expression that depends on the operand, operator, and value.
 
 ## Syntax
 ```xml
@@ -31,9 +31,9 @@ The [NumberRuleItem](numberruleitem.md) object has the following elements: [Oper
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="operand"></a>Operand|Reserved.|**string**|
-|<a name="operator"></a>Operator|Reserved.|[NumberOperator](numberoperator.md)|
-|<a name="value"></a>Value|Reserved.|**string**|
+|<a name="operand"></a>Operand|The rule operand or key on the left hand side of the operator. <br/><br/>Supported values are *Url* and *ReferrerUrl*.<br/><br/>For example to define a rule where the page Url must contain *page.html*, set the *Operand* to *Url*, *Operator* to *Contains*, and *Value* to *page.html*.<br/><br/>**Add:** Required<br/>**Update:** Required|**string**|
+|<a name="operator"></a>Operator|The rule item operator.<br/><br/>**Add:** Required<br/>**Update:** Required|[StringOperator](stringoperator.md)|
+|<a name="value"></a>Value|The rule value on the right hand side of the operator.<br/><br/>**Add:** Required<br/>**Update:** Required|**string**|
 
 The [NumberRuleItem](numberruleitem.md) object has [Inherited Elements](#inheritedelements).
 
@@ -44,7 +44,7 @@ The [NumberRuleItem](numberruleitem.md) object derives from the [RuleItem](rulei
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of rule item. For more information, see [RuleItem Data Object Remarks](ruleitem.md#remarks).|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

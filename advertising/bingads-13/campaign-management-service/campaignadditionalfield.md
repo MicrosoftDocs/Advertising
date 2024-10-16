@@ -61,7 +61,7 @@ The [CampaignAdditionalField](campaignadditionalfield.md) value set has the foll
 |<a name="bidstrategyid"></a>BidStrategyId|Request that the [BidStrategyId](campaign.md#bidstrategyid) element be included within each returned [Campaign](campaign.md) object.|
 |<a name="calltoactionoptout"></a>CallToActionOptOut|Request that the [CallToActionOptOut](calltoactionsetting.md#calltoactionoptout) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|
 |<a name="calltoactionsetting"></a>CallToActionSetting|Request that the [CallToActionSetting](calltoactionsetting.md) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|
-|<a name="campaignconversiongoal"></a>CampaignConversionGoal|Reserved.|
+|<a name="campaignconversiongoal"></a>CampaignConversionGoal|The base object of a campaign conversion goal.|
 |<a name="costpersalebiddingscheme"></a>CostPerSaleBiddingScheme|Request that the [CostPerSaleBiddingScheme](costpersalebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="costpersaleoptoutinperformancemaxsettings"></a>CostPerSaleOptOutInPerformanceMaxSettings|Reserved.|
 |<a name="cpvcpmbiddingscheme"></a>CpvCpmBiddingScheme|Request that the [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) or [ManualCpvBiddingScheme](manualcpvbiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.<br/><br/>*Note*: When *CpvCpmBiddingScheme* is not set, campaigns using ManualCPV or ManualCPM bidding schemes are not returned.|

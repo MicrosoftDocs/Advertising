@@ -30,8 +30,8 @@ The [PlacementCriterion](placementcriterion.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="placementid"></a>PlacementId|Reserved.|**long**|
-|<a name="placementname"></a>PlacementName|Reserved.|**string**|
+|<a name="placementid"></a>PlacementId|The ID of the placement.|**long**|
+|<a name="placementname"></a>PlacementName|The name of the placement.|**string**|
 
 The [PlacementCriterion](placementcriterion.md) object has [Inherited Elements](#inheritedelements).
 
@@ -42,7 +42,7 @@ The [PlacementCriterion](placementcriterion.md) object derives from the [Criteri
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of the criterion. This value is *Placement* when you retrieve a placement criterion. For more information about criterion types, see the [Criterion Data Object Remarks](criterion.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

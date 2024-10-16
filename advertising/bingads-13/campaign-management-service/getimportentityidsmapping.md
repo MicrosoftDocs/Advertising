@@ -28,7 +28,7 @@ The *GetImportEntityIdsMappingRequest* object defines the [body](#request-body) 
 |<a name="importentitytype"></a>ImportEntityType|The type of entity to get ID mappings.<br/><br/>For example, set this element to "Campaign" to get campaign ID mappings.|[ImportEntityType](importentitytype.md)|
 |<a name="importtype"></a>ImportType|The type of import job to get entity ID mappings.<br/><br/>To get Google Ads to Microsoft Advertising entity ID mappings for each [GoogleImportJob](googleimportjob.md), set this element to "GoogleImportJob".|**string**|
 |<a name="sourceentityids"></a>SourceEntityIds|The source entity IDs that you want mapped to Microsoft Advertising entity IDs.<br/><br/>If [ImportEntityType](#importentitytype) is set to "Campaign" and [ImportType](#importtype) is set to "GoogleImportJob", the operation will return Google Ads to Microsoft Advertising entity ID mappings.<br/><br/>You can specify a maximum of 100 source IDs.|**long** array|
-|<a name="sourceparentid"></a>SourceParentId|Reserved.|**long**|
+|<a name="sourceparentid"></a>SourceParentId|The ID of the source parent.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]

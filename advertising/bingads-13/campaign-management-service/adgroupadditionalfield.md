@@ -41,13 +41,13 @@ The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the follow
 |-----------|---------------|
 |<a name="adgrouptype"></a>AdGroupType|Request that the [AdGroupType](adgroup.md#adgrouptype) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimeZone|Request that the [AdScheduleUseSearcherTimeZone](adgroup.md#adscheduleusesearchertimezone) element be included within each returned [AdGroup](adgroup.md) object.|
-|<a name="commissionrate"></a>CommissionRate|Reserved.|
+|<a name="commissionrate"></a>CommissionRate|The commission rate charged to the advertiser when someone books a hotel and stays there.|
 |<a name="cpmbid"></a>CpmBid|Request that the [CpmBid](adgroup.md#cpmbid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="cpvbid"></a>CpvBid|Request that the [CpvBid](adgroup.md#cpvbid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="frequencycapsettings"></a>FrequencyCapSettings|Settings for the frequency cap.|
-|<a name="mcpabid"></a>McpaBid|Reserved.|
+|<a name="mcpabid"></a>McpaBid|Request that the [McpaBid](adgroup.md#mcpabid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [AdGroup](adgroup.md) object.|
-|<a name="percentcpcbid"></a>PercentCpcBid|Reserved.|
+|<a name="percentcpcbid"></a>PercentCpcBid|Request that the [PercentCpcBid](adgroup.md#percentcpcbid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|This will be deprecated. Use *UsePredictiveTargeting* instead.|
 |<a name="usepredictivetargeting"></a>UsePredictiveTargeting|Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UsePredictiveTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional.|
 

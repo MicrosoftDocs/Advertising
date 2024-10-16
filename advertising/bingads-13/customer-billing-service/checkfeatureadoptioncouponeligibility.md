@@ -38,7 +38,7 @@ The *CheckFeatureAdoptionCouponEligibilityResponse* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="eligibleaccountids"></a>EligibleAccountIds|Reserved.|**long** array|
+|<a name="eligibleaccountids"></a>EligibleAccountIds|The IDs of eligible accounts.|**long** array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

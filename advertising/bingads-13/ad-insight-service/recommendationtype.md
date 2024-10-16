@@ -68,10 +68,10 @@ The [RecommendationType](recommendationtype.md) value set has the following valu
 |-----------|---------------|
 |<a name="campaignbudgetrecommendation"></a>CampaignBudgetRecommendation|Fix campaigns limited by budget.|
 |<a name="keywordrecommendation"></a>KeywordRecommendation|Add new keywords from all sources.|
-|<a name="removeconflictingnegativekeywordrecommendation"></a>RemoveConflictingNegativeKeywordRecommendation|Reserved.|
-|<a name="responsivesearchadassetrecommendation"></a>ResponsiveSearchAdAssetRecommendation|Reserved.|
+|<a name="removeconflictingnegativekeywordrecommendation"></a>RemoveConflictingNegativeKeywordRecommendation|Remove the recommendation for conflicting negative keywords.|
+|<a name="responsivesearchadassetrecommendation"></a>ResponsiveSearchAdAssetRecommendation|Add bew responsive search ads set.|
 |<a name="responsivesearchadrecommendation"></a>ResponsiveSearchAdRecommendation|Add new responsive search ad.|
-|<a name="usebroadmatchkeywordrecommendation"></a>UseBroadMatchKeywordRecommendation|Reserved.|
+|<a name="usebroadmatchkeywordrecommendation"></a>UseBroadMatchKeywordRecommendation|Use the broad match keyword recommendation.|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
