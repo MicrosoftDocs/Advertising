@@ -62,4 +62,4 @@ The [AssetPerformanceReportRequest](assetperformancereportrequest.md) object der
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
-Namespace: https\://bingads.microsoft.com/Reporting/v13
+Namespace: https\://bingads.microsoft.com/Reporting/v13  

@@ -14,7 +14,7 @@ Defines a Reporting API fault detail object that operations return when web serv
 ```xml
 <xs:complexType name="ApiFaultDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
-    <xs:extension xmlns:q20="https://adapi.microsoft.com" base="q20:ApplicationFault">
+    <xs:extension xmlns:q28="https://adapi.microsoft.com" base="q28:ApplicationFault">
       <xs:sequence>
         <xs:element minOccurs="0" name="BatchErrors" nillable="true" type="tns:ArrayOfBatchError" />
         <xs:element minOccurs="0" name="OperationErrors" nillable="true" type="tns:ArrayOfOperationError" />
