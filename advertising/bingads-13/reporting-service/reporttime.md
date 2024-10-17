@@ -52,6 +52,8 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [BudgetSummaryReportRequest](budgetsummaryreportrequest.md)  
 [CallDetailReportRequest](calldetailreportrequest.md)  
 [CampaignPerformanceReportRequest](campaignperformancereportrequest.md)  
+[CategoryClickCoverageReportRequest](categoryclickcoveragereportrequest.md)  
+[CategoryInsightsReportRequest](categoryinsightsreportrequest.md)  
 [ConversionPerformanceReportRequest](conversionperformancereportrequest.md)  
 [DestinationUrlPerformanceReportRequest](destinationurlperformancereportrequest.md)  
 [DSAAutoTargetPerformanceReportRequest](dsaautotargetperformancereportrequest.md)  

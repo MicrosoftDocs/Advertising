@@ -2667,6 +2667,14 @@
       href: ../reporting-service/campaignperformancereportrequest.md
     - name: CampaignReportScope
       href: ../reporting-service/campaignreportscope.md
+    - name: CategoryClickCoverageReportFilter
+      href: ../reporting-service/categoryclickcoveragereportfilter.md
+    - name: CategoryClickCoverageReportRequest
+      href: ../reporting-service/categoryclickcoveragereportrequest.md
+    - name: CategoryInsightsReportFilter
+      href: ../reporting-service/categoryinsightsreportfilter.md
+    - name: CategoryInsightsReportRequest
+      href: ../reporting-service/categoryinsightsreportrequest.md
     - name: ConversionPerformanceReportFilter
       href: ../reporting-service/conversionperformancereportfilter.md
     - name: ConversionPerformanceReportRequest
@@ -2820,6 +2828,10 @@
       href: ../reporting-service/calldetailreportcolumn.md
     - name: CampaignPerformanceReportColumn
       href: ../reporting-service/campaignperformancereportcolumn.md
+    - name: CategoryClickCoverageReportColumn
+      href: ../reporting-service/categoryclickcoveragereportcolumn.md
+    - name: CategoryInsightsReportColumn
+      href: ../reporting-service/categoryinsightsreportcolumn.md
     - name: CampaignStatusReportFilter
       href: ../reporting-service/campaignstatusreportfilter.md
     - name: ChangeEntityReportFilter

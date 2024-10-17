@@ -33,3 +33,5 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 
 ## Used By
 [AccountPerformanceReportRequest](accountperformancereportrequest.md)  
+[CategoryClickCoverageReportRequest](categoryclickcoveragereportrequest.md)  
+[CategoryInsightsReportRequest](categoryinsightsreportrequest.md)  

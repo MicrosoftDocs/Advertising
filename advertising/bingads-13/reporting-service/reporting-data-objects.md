@@ -40,7 +40,7 @@ The Reporting service defines the following data objects.
 |[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)|Defines a data object for AssetGroupPerformanceReportFilter.|
 |[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)|Defines a data object for AssetGroupPerformanceReportRequest.|
 |[AssetGroupReportScope](assetgroupreportscope.md)|Defines a data object for AssetGroupReportScope.|
-|[AssetPerformanceReportRequest](assetperformancereportrequest.md)|Defines a data object for AssetPerformanceReportRequest.|
+|[AssetPerformanceReportRequest](assetperformancereportrequest.md)|Defines an asset performance report request.|
 |[AudiencePerformanceReportFilter](audienceperformancereportfilter.md)|Defines the criteria to use to filter the audience performance report data.|
 |[AudiencePerformanceReportRequest](audienceperformancereportrequest.md)|Defines an audience performance report request.|
 |[BatchError](batcherror.md)|Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
@@ -50,6 +50,10 @@ The Reporting service defines the following data objects.
 |[CampaignPerformanceReportFilter](campaignperformancereportfilter.md)|Defines the criteria to use to filter the campaign performance report data.|
 |[CampaignPerformanceReportRequest](campaignperformancereportrequest.md)|Defines a campaign performance report request.|
 |[CampaignReportScope](campaignreportscope.md)|Defines a campaign to include in the report.|
+|[CategoryClickCoverageReportFilter](categoryclickcoveragereportfilter.md)|Defines the criteria to use to filter the category click coverage report data.|
+|[CategoryClickCoverageReportRequest](categoryclickcoveragereportrequest.md)|Defines a category click coverage report request.|
+|[CategoryInsightsReportFilter](categoryinsightsreportfilter.md)|Defines the criteria to use to filter the category insights report data.|
+|[CategoryInsightsReportRequest](categoryinsightsreportrequest.md)|Defines a category insights report request.|
 |[ConversionPerformanceReportFilter](conversionperformancereportfilter.md)|Defines the criteria to use to filter the conversion performance report data.|
 |[ConversionPerformanceReportRequest](conversionperformancereportrequest.md)|Defines a conversion performance report request.|
 |[Date](date.md)|Defines a calendar date by month, day, and year.|
