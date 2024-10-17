@@ -25,7 +25,7 @@ The Reporting service defines the following value sets.
 |[AdStatusReportFilter](adstatusreportfilter.md)|Defines the ad status values that you can use to filter the report data.|
 |[AdTypeReportFilter](adtypereportfilter.md)|Defines the ad type values that you can use to filter the report data.|
 |[AgeGenderAudienceReportColumn](agegenderaudiencereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md).|
-|[AssetGroupPerformanceReportColumn](assetgroupperformancereportcolumn.md)|Defines attributes and performance statistics columns that you can include in the [AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md).|
+|[AssetGroupPerformanceReportColumn](assetgroupperformancereportcolumn.md)|Defines a value set for AssetGroupPerformanceReportColumn.|
 |[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|Defines the asset group status values that you can use to filter the report data.|
 |[AssetPerformanceReportColumn](assetperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).|
 |[AudiencePerformanceReportColumn](audienceperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AudiencePerformanceReportRequest](audienceperformancereportrequest.md).|
@@ -35,6 +35,8 @@ The Reporting service defines the following value sets.
 |[CallDetailReportColumn](calldetailreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CallDetailReportRequest](calldetailreportrequest.md).|
 |[CampaignPerformanceReportColumn](campaignperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CampaignPerformanceReportRequest](campaignperformancereportrequest.md).|
 |[CampaignStatusReportFilter](campaignstatusreportfilter.md)|Defines the campaign status values that you can use to filter the report data.|
+|[CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md).|
+|[CategoryInsightsReportColumn](categoryinsightsreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md).|
 |[ChangeEntityReportFilter](changeentityreportfilter.md)|Defines the types of entities by which you can filter the report data.|
 |[ChangeTypeReportFilter](changetypereportfilter.md)|Defines the types of changes to entities by which you can filter the report data.|
 |[ConversionPerformanceReportColumn](conversionperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ConversionPerformanceReportRequest](conversionperformancereportrequest.md).|
