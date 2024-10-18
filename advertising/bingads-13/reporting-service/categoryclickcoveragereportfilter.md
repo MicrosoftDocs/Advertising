@@ -29,9 +29,9 @@ The [CategoryClickCoverageReportFilter](categoryclickcoveragereportfilter.md) ob
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="countrycode"></a>CountryCode|The report will include data for only the specified countries/regions where the user that clicked the ad is located.<br/><br/>For a list of possible values, see [Geographical Location Codes](../guides/geographical-location-codes.md).|**string** array|
-|<a name="l1vertical"></a>L1Vertical|A particular supply sector, such as Travel and Tourism or Apparel.<br/>><br/>Possible values are *Apparel*, *BeautyPersonalCare*, *ComputersConsumerElectronics*, *Finance*, *Health*, *HomeGarden*, *InternetTelecom*, *RetailersGeneralMerchandise*, *SportsFitness*, *TravelTourism*, *Vehicles*.|**string** array|
-|<a name="l2vertical"></a>L2Vertical|A more detailed segment of an L1 vertical. For instance, within the L1 vertical travel and tourism, L2 verticals might include Accommodations or Air travel.<br/>><br/>Possible values are|**string** array|
-|<a name="l3vertical"></a>L3Vertical|The most specific segment within a larger L1 vertical. For example, if the L1 vertical is travel and tourism and the L2 vertical is Accommodations, an L3 vertical might be Bed and Breakfasts or Camping and RV.<br/>><br/>Possible values are|**string** array|
+|<a name="l1vertical"></a>L1Vertical|A particular supply sector, such as Travel and Tourism or Apparel.<br/><br/>Possible values are *Apparel*, *BeautyPersonalCare*, *ComputersConsumerElectronics*, *Finance*, *Health*, *HomeGarden*, *InternetTelecom*, *RetailersGeneralMerchandise*, *SportsFitness*, *TravelTourism*, *Vehicles*.|**string** array|
+|<a name="l2vertical"></a>L2Vertical|A more detailed segment of an L1 vertical. For instance, within the L1 vertical travel and tourism, L2 verticals might include Accommodations or Air travel.|**string** array|
+|<a name="l3vertical"></a>L3Vertical|The most specific segment within a larger L1 vertical. For example, if the L1 vertical is travel and tourism and the L2 vertical is Accommodations, an L3 vertical might be Bed and Breakfasts or Camping and RV.|**string** array|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
