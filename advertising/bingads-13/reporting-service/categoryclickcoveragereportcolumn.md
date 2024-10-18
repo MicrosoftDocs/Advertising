@@ -21,23 +21,25 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="L3Vertical" />
     <xs:enumeration value="WeekStartingMonday" />
     <xs:enumeration value="MarketplaceClickCoverage" />
+    <xs:enumeration value="Country" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md) value set has the following values: [AccountName](#accountname), [CustomerName](#customername), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MarketplaceClickCoverage](#marketplaceclickcoverage), [WeekStartingMonday](#weekstartingmonday).
+The [CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md) value set has the following values: [AccountName](#accountname), [Country](#country), [CustomerName](#customername), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MarketplaceClickCoverage](#marketplaceclickcoverage), [WeekStartingMonday](#weekstartingmonday).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="accountname"></a>AccountName|The account name.|
+|<a name="country"></a>Country|The country-specific Bing marketplace, such as Bing France or Bing India.|
 |<a name="customername"></a>CustomerName|The customer name.|
-|<a name="l1vertical"></a>L1Vertical|Reserved.|
-|<a name="l2vertical"></a>L2Vertical|Reserved.|
-|<a name="l3vertical"></a>L3Vertical|Reserved.|
-|<a name="marketplaceclickcoverage"></a>MarketplaceClickCoverage|Reserved.|
-|<a name="weekstartingmonday"></a>WeekStartingMonday|Reserved.|
+|<a name="l1vertical"></a>L1Vertical|A particular supply sector, such as Travel and Tourism or Apparel.<br/>><br/>Possible values are *Apparel*, *BeautyPersonalCare*, *ComputersConsumerElectronics*, *Finance*, *Health*, *HomeGarden*, *InternetTelecom*, *RetailersGeneralMerchandise*, *SportsFitness*, *TravelTourism*, *Vehicles*.|
+|<a name="l2vertical"></a>L2Vertical|A more detailed segment of an L1 vertical. For instance, within the L1 vertical travel and tourism, L2 verticals might include Accommodations or Air travel.|
+|<a name="l3vertical"></a>L3Vertical|The most specific segment within a larger L1 vertical. For example, if the L1 vertical is travel and tourism and the L2 vertical is Accommodations, an L3 vertical might be Bed and Breakfasts or Camping and RV.|
+|<a name="marketplaceclickcoverage"></a>MarketplaceClickCoverage|The percentage of clicks your account(s) received compared to the total number of clicks by all advertisers for a specific L1 – L3 slice. Clickshare is calculated as your account's clicks divided by total clicks from all market advertisers.|
+|<a name="weekstartingmonday"></a>WeekStartingMonday|The date range for the week that your data is from starting with Monday.|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
