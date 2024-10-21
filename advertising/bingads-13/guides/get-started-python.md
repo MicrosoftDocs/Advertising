@@ -13,7 +13,7 @@ To get started developing Bing Ads API applications with Python, you can start w
 
 You will need user credentials with access to Microsoft Advertising either in [production](https://ads.microsoft.com/) or [sandbox](https://secure.sandbox.bingads.microsoft.com/Auth?EnvContext=Sandbox). For the production environment you will need a [production developer token](get-started.md#get-developer-token). All sandbox clients can use the universal sandbox developer token i.e., **BBD37VB98**. For more information, please see [Get Started With the Bing Ads API](get-started.md) and [Sandbox](sandbox.md#access).  
 
-To authenticate via OAuth, you must also register an application and get the corresponding client identifier. You also need to take note of the client secret and redirect URI if you are developing a web application. For more details about registering an application in production and the authorization code grant flow, see [Authentication with OAuth](authentication-oauth.md) and [Authentication With the SDKs](sdk-authentication.md#oauth). Although in production you must use your own application ID (a.k.a. client ID), all Microsoft Advertising customers can use the public "Tutorial Sample App" client ID in sandbox i.e., **4c0b021c-00c3-4508-838f-d3127e8167ff**. For more information, please see [Sandbox](sandbox.md#access). 
+To authenticate via OAuth, you must also register an application and get the corresponding client identifier. You also need to take note of the client secret and redirect URI if you are developing a web application. For more details about registering an application in production and the authorization code grant flow, see [Authentication with OAuth](authentication-oauth.md) and [Authentication With the SDKs](sdk-authentication.md#oauth). Although in production you must use your own application ID (a.k.a. client ID), all Microsoft Advertising customers can use the public "Tutorial Sample App" client ID in sandbox i.e., **00001111-aaaa-2222-bbbb-3333cccc4444**. For more information, please see [Sandbox](sandbox.md#access). 
 
 ## <a name="dependencies"></a> Dependencies
 The Bing Ads Python SDK uses the [suds-jurko-0.6](https://pypi.org/project/suds-jurko/) library as a proxy for all Bing Ads API programming elements. For more information about using Suds with Microsoft Advertising, see [Using Suds](#suds).
@@ -139,6 +139,3 @@ To call the corresponding methods of a Bing Ads API service operation, you can u
 [Bing Ads API Web Service Addresses](web-service-addresses.md)  
 [Handling Service Errors and Exceptions](handle-service-errors-exceptions.md)  
 [Sandbox](sandbox.md)  
-
-
-

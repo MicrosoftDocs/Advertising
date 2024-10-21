@@ -105,7 +105,7 @@ To programmatically manage a Microsoft Advertising account, you must provide con
     When the PowerShell script successfully runs it should print out the details of your Microsoft Advertising user, including customer roles. For details see [GetUser](../customer-management-service/getuser.md). 
 
 ## <a name="quick-start-sandbox"></a>Sandbox Quick Start
-To authenticate in the sandbox environment you don't need to register an application. Just use the public "Tutorial Sample App" client ID i.e., **4c0b021c-00c3-4508-838f-d3127e8167ff**.  
+To authenticate in the sandbox environment you don't need to register an application. Just use the public "Tutorial Sample App" client ID i.e., **00001111-aaaa-2222-bbbb-3333cccc4444**.  
 
 1. Sign up for a [Microsoft Advertising](https://sandbox.bingads.microsoft.com/) sandbox account. The Microsoft account (MSA) email address must be outlook**-int**.com (for example, someone@outlook-int.com). For more details see [Sandbox](sandbox.md#initial-sign-up).  
 
@@ -113,7 +113,7 @@ To authenticate in the sandbox environment you don't need to register an applica
   
     ```powershell
     # Replace the Tutorial Sample App ID with your registered application ID. 
-    $clientId = "4c0b021c-00c3-4508-838f-d3127e8167ff"
+    $clientId = "00001111-aaaa-2222-bbbb-3333cccc4444"
     
     Start-Process "https://login.windows-ppe.net/consumers/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://api.ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.windows-ppe.net/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
     

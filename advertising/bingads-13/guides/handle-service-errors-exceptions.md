@@ -100,7 +100,7 @@ Please [contact support](#contact-support) for further assistance.
 
 The 700016 error code can be returned with message "Application with identifier '{appIdentifier}' was not found in the directory '{tenantName}'." 
 
-If you have an older application ID (aka Client ID) that is formatted as a hexadecimal value e.g., 0000000012345A67, then you must [register](authentication-oauth-register.md) a new application. Valid application IDs for use with the Microsoft identity platform are formatted as a GUID with dashes e.g., ab01c23d-4e56-7f8a-90bc-1d23efabc45d. If you don't see an existing app in the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908), that's another indication that you should replace it with a new app.  
+If you have an older application ID (aka Client ID) that is formatted as a hexadecimal value e.g., 0000000012345A67, then you must [register](authentication-oauth-register.md) a new application. Valid application IDs for use with the Microsoft identity platform are formatted as a GUID with dashes e.g., 00001111-aaaa-2222-bbbb-3333cccc4444. If you don't see an existing app in the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908), that's another indication that you should replace it with a new app.  
 
 ### <a name="invalid-redirect-uri"></a>Invalid redirect URI
 
@@ -140,7 +140,7 @@ At any time without prior warning Microsoft may determine that user consent shou
 
 If you observe an error such as "unauthorized_client: The client does not exist" or "Application with identifier 'foo' was not found in the directory 'bar'", ensure that the application still exists for the correct target environment i.e., production or sandbox. 
 
-An application not found error could be returned if you are calling the Microsoft identity platform endpoint using a Live SDK application ID with the short hexadecimal format e.g., 0000000012345A67. In that case you must [register](authentication-oauth-register.md) a new application. Valid Microsoft identity platform application IDs are formatted as a GUID with dashes e.g., ab01c23d-4e56-7f8a-90bc-1d23efabc45d. 
+An application not found error could be returned if you are calling the Microsoft identity platform endpoint using a Live SDK application ID with the short hexadecimal format e.g., 0000000012345A67. In that case you must [register](authentication-oauth-register.md) a new application. Valid Microsoft identity platform application IDs are formatted as a GUID with dashes e.g., 00001111-aaaa-2222-bbbb-3333cccc4444. 
 
 If you registered the app in the Azure portal, in the Supported account types section ensure that you selected **Accounts in any organizational directory and personal Microsoft accounts**. (Please see [Register an application](authentication-oauth-register.md)) If you did not choose this option during initial setup, the Azure portal might require that you register a new application. 
 
