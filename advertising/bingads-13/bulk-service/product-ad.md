@@ -203,6 +203,9 @@ In a bulk file, the list of publisher countries or regions are delimited with a 
 ## <a name="status"></a>Status
 The status of the ad.
 
+> [!NOTE]
+> As of December 3, 2024, the delete operation will no longer be supported in the Bulk API for product ad records. This is because the product ad entity is system-generated.
+
 Possible values are *Active*, *Paused*, or *Deleted*. 
 
 **Add:** Optional. The default value is *Active*.  
