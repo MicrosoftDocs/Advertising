@@ -159,7 +159,7 @@ Below is a list of L2 verticals, organized by L1 category.
 
 ## <a name="l3verticals"></a>L3 verticals
 
-Below is a list of L1 verticals, organized by L1 and L2 category.
+Below is a list of L3 verticals, organized by L1 and L2 category.
 
 |**Apparel/ApparelAccessories**|
 |---------------|
