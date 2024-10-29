@@ -557,7 +557,7 @@ With experiment campaigns you cannot update the [Budget](#budget), [Budget Type]
 **Delete:** Read-only  
 
 ## <a name="feedlabel"></a>Feed Label
-Lets you advertise all products with the same feed label in a Shopping or Performance Max campaign.<br/><ul><li>There can only be one feed label per campaign.</li> <li>*FeedLabel* and *SalesCountryCode* are mutually exclusive You can set only one of these properties.</li><li>Each feed label can have a maximum of 20 characters.</li><li>You can't use *FeedLabel* with Shopping CoOp campaigns.</ul>
+Lets you advertise all products with the same feed label in a Shopping or Performance Max campaign.<br/><ul><li>There can only be one feed label per campaign.</li> <li>*FeedLabel* and *SalesCountryCode* are mutually exclusive. You can set only one of these properties.</li><li>Each feed label can have a maximum of 20 characters.</li><li>You can't use *FeedLabel* with Shopping CoOp campaigns.</ul>
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
@@ -736,7 +736,7 @@ The country code for the Microsoft Merchant Center store.
 
 The Microsoft Merchant Center store catalog will be filtered to only include products for the specified country.<br/><br/>To get the list of supported country codes use the [GetBSCCountries](../campaign-management-service/getbsccountries.md) operation. For example, supported country codes include "AU" (Australia), "AT" (Austria), "BE" (Belgium), "CA" (Canada), "CH" (Switzerland), "DE" (Germany), "ES" (Spain), "FR" (France), "GB" (United Kingdom), "IN" (India), "IT" (Italy), "NL" (Netherlands), "SE" (Sweden), and "US" (United States).  
 
-*FeedLabel* and *SalesCountryCode* are mutually exclusive You can set only one of these properties.  
+*FeedLabel* and *SalesCountryCode* are mutually exclusive. You can set only one of these properties.  
 
 **Add:** Optional  
 **Update:** Read-only  
