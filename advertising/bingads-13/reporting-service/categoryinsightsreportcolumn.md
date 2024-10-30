@@ -23,12 +23,12 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="YoYLast1WeekSearches" />
     <xs:enumeration value="YoYLast4WeeksSearches" />
     <xs:enumeration value="SearchesIndexed" />
-    <xs:enumeration value="SearchesPeekWeek" />
+    <xs:enumeration value="SearchesPeakWeek" />
     <xs:enumeration value="WoWClicks" />
     <xs:enumeration value="MoMClicks" />
     <xs:enumeration value="YoYLast1WeekClicks" />
     <xs:enumeration value="ClicksIndexed" />
-    <xs:enumeration value="ClicksPeekWeek" />
+    <xs:enumeration value="ClicksPeakWeek" />
     <xs:enumeration value="YoYLast4WeeksClicks" />
     <xs:enumeration value="Country" />
   </xs:restriction>
@@ -37,12 +37,12 @@ Defines the attributes and performance statistics columns that you can include i
 
 ## <a name="values"></a>Values
 
-The [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md) value set has the following values: [ClicksIndexed](#clicksindexed), [ClicksPeekWeek](#clickspeekweek), [Country](#country), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MoMClicks](#momclicks), [MoMSearches](#momsearches), [SearchesIndexed](#searchesindexed), [SearchesPeekWeek](#searchespeekweek), [WeekStartingMonday](#weekstartingmonday), [WoWClicks](#wowclicks), [WoWSearches](#wowsearches), [YoYLast1WeekClicks](#yoylast1weekclicks), [YoYLast1WeekSearches](#yoylast1weeksearches), [YoYLast4WeeksClicks](#yoylast4weeksclicks), [YoYLast4WeeksSearches](#yoylast4weekssearches).
+The [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md) value set has the following values: [ClicksIndexed](#clicksindexed), [ClicksPeakWeek](#clickspeakweek), [Country](#country), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MoMClicks](#momclicks), [MoMSearches](#momsearches), [SearchesIndexed](#searchesindexed), [SearchesPeakWeek](#searchespeakweek), [WeekStartingMonday](#weekstartingmonday), [WoWClicks](#wowclicks), [WoWSearches](#wowsearches), [YoYLast1WeekClicks](#yoylast1weekclicks), [YoYLast1WeekSearches](#yoylast1weeksearches), [YoYLast4WeeksClicks](#yoylast4weeksclicks), [YoYLast4WeeksSearches](#yoylast4weekssearches).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="clicksindexed"></a>ClicksIndexed|The number of indexed clicks.|
-|<a name="clickspeekweek"></a>ClicksPeekWeek|Peak week represents the week with the highest click volume within your selected date range. We display the percentage by which this week's click volume exceeds the average volume across the entire date range.|
+|<a name="clickspeakweek"></a>ClicksPeakWeek|Peak week represents the week with the highest click volume within your selected date range. We display the percentage by which this week's click volume exceeds the average volume across the entire date range.|
 |<a name="country"></a>Country|The country-specific Bing marketplace, such as Bing France or Bing India.|
 |<a name="l1vertical"></a>L1Vertical|A particular supply sector, such as Travel and Tourism or Apparel.<br/><br/>[View a list of L1 verticals](../guides/reporting-verticals.md#l1verticals).|
 |<a name="l2vertical"></a>L2Vertical|A more detailed segment of an L1 vertical. For instance, within the L1 vertical travel and tourism, L2 verticals might include Accommodations or Air travel.<br/><br/>[View a list of L2 verticals](../guides/reporting-verticals.md#l2verticals).|
@@ -50,7 +50,7 @@ The [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md) value set ha
 |<a name="momclicks"></a>MoMClicks|The change in click volume from the last four-week period to the current four-week period.|
 |<a name="momsearches"></a>MoMSearches|The change in search volume from the last four-week period to the current four-week period.|
 |<a name="searchesindexed"></a>SearchesIndexed|The number of indexed searches.|
-|<a name="searchespeekweek"></a>SearchesPeekWeek|Peak week represents the week with the highest search volume within your selected date range. We display the percentage by which this week's search volume exceeds the average volume across the entire date range.|
+|<a name="searchespeakweek"></a>SearchesPeakWeek|Peak week represents the week with the highest search volume within your selected date range. We display the percentage by which this week's search volume exceeds the average volume across the entire date range.|
 |<a name="weekstartingmonday"></a>WeekStartingMonday|The date range for the week that your data is from starting with Monday.|
 |<a name="wowclicks"></a>WoWClicks|The change in click volume from last week to this week.|
 |<a name="wowsearches"></a>WoWSearches|The change in search volume from last week to this week.|
