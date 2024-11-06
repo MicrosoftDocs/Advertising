@@ -60,8 +60,8 @@ The [RecommendationBase](recommendationbase.md) object has the following element
 |<a name="estimatedincreaseinimpressions"></a>EstimatedIncreaseInImpressions|The estimated impressions opportunities corresponding to the suggested ad.|**long**|
 |<a name="recommendationhash"></a>RecommendationHash|The hash of the recommendation.|**string**|
 |<a name="recommendationid"></a>RecommendationId|The identifier of the recommendation.|**string**|
-|<a name="recommendationtype"></a>RecommendationType|The type of recommendation.<br/><br/>*Note*: We currently support *CAMPAIGN_BUDGET*, *KEYWORD*, and *RESPONSIVE_SEARCH_AD*. *RecommendationType* is output only.|**string**|
-|<a name="type"></a>Type|The *RecommendationType* value set has the following values: *CampaignBudgetRecommendation*, *KeywordRecommendation*, *ResponsiveSearchAdRecommendation*.|[RecommendationType](recommendationtype.md)|
+|<a name="recommendationtype"></a>RecommendationType|The type of recommendation.<br/><br/>*Note*: We currently support *ADD_BROAD_MATCH_KEYWORD*, *CAMPAIGN_BUDGET*, *KEYWORD*, *REMOVE_CONFLICTING_NEGATIVE_KEYWORD*, *RESPONSIVE_SEARCH_AD*, and *RESPONSIVE_SEARCH_AD_ASSET*. *RecommendationType* is output only.|**string**|
+|<a name="type"></a>Type|The *RecommendationType* value set has the following values: *AddBroadMatchKeywordRecommendation*, *CampaignBudgetRecommendation*, *KeywordRecommendation*, *RemoveConflictingNegativeKeywordRecommendation*, *ResponsiveSearchAdRecommendation*, and *ResponsiveSearchAdAssetRecommendation*.|[RecommendationType](recommendationtype.md)|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
