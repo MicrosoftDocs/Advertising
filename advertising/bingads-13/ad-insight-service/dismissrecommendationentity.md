@@ -27,7 +27,7 @@ The [DismissRecommendationEntity](dismissrecommendationentity.md) object has the
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="recommendationid"></a>RecommendationId|The identifier of the recommendation. Required.|**string**|
-|<a name="recommendationtype"></a>RecommendationType|The type of recommendation: CAMPAIGN_BUDGET, KEYWORD or RESPONSIVE_SEARCH_AD. Required. |**string**|
+|<a name="recommendationtype"></a>RecommendationType|The type of recommendation: ADD_BROAD_MATCH_KEYWORD, CAMPAIGN_BUDGET, KEYWORD, REMOVE_CONFLICTING_NEGATIVE_KEYWORD, RESPONSIVE_SEARCH_AD, or RESPONSIVE_SEARCH_AD_ASSET. Required. |**string**|
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
