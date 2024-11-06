@@ -26,7 +26,7 @@ The *RetrieveRecommendationsRequest* object defines the [body](#request-body) an
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="maxcount"></a>MaxCount|The max number of returned recommendations. The default value is *null*. If *MaxCount* is null or 0, it returns all available recommendations. Optional.|**int**|
-|<a name="recommendationtypes"></a>RecommendationTypes|The recommendation type names: CAMPAIGN_BUDGET, KEYWORD, or RESPONSIVE_SEARCH_AD. Required.|**string** array|
+|<a name="recommendationtypes"></a>RecommendationTypes|The recommendation type names: ADD_BROAD_MATCH_KEYWORD, CAMPAIGN_BUDGET, KEYWORD, REMOVE_CONFLICTING_NEGATIVE_KEYWORD, RESPONSIVE_SEARCH_AD, or RESPONSIVE_SEARCH_AD_ASSET. Required.|**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
