@@ -38,7 +38,7 @@ The *RetrieveRecommendationsResponse* object defines the [body](#response-body) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="recommendations"></a>Recommendations|The available recommendations for specific account ID. The types of recommendations are: *CampaignBudgetRecommendation*, *KeywordRecommendation*, *ResponsiveSearchAdRecommendation*.|[RecommendationBase](recommendationbase.md) array|
+|<a name="recommendations"></a>Recommendations|The available recommendations for specific account ID. The types of recommendations are: *AddBroadMatchKeywordRecommendation*, *CampaignBudgetRecommendation*, *KeywordRecommendation*, *RemoveConflictingNegativeKeywordRecommendation*, *ResponsiveSearchAdRecommendation*, and *ResponsiveSearchAdAssetRecommendation*.|[RecommendationBase](recommendationbase.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
