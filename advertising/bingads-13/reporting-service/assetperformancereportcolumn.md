@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: |Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.
 ---
 # AssetPerformanceReportColumn Value Set - Reporting
-|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
+Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
 
 > [!NOTE]
 > *AssetPerformanceReportColumn* is currently in pilot.
