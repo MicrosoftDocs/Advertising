@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines a data object for ad recommendation video suggestion.
 ---
 # AdRecommendationVideoSuggestion Data Object - Campaign Management
-Reserved.
+Defines a data object for ad recommendation video suggestion.
 
 # [XML](#tab/xml)
 
