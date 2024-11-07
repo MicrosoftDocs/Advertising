@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Reserved.
+description: Defines a service operation for create asset group recommendation.
 dev_langs: 
 - csharp
 - java
@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # CreateAssetGroupRecommendation Service Operation - Campaign Management
-Reserved.
+Defines a service operation for create asset group recommendation.
 
 ::: zone pivot="soap"
 
