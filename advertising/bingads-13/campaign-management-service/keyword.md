@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a keyword.
 ---
 # Keyword Data Object - Campaign Management
@@ -21,7 +22,8 @@ As shown above, a keyword can be just a single word, several words, or even a ph
 > [!IMPORTANT]
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Keyword" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -30,10 +32,10 @@ As shown above, a keyword can be just a single word, several words, or even a ph
     <xs:element minOccurs="0" name="DestinationUrl" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="EditorialStatus" nillable="true" type="tns:KeywordEditorialStatus" />
     <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-    <xs:element xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q32:ArrayOfstring" />
+    <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q33:ArrayOfstring" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q33:ArrayOfstring" />
-    <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q34:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q34:ArrayOfstring" />
+    <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q35:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="MatchType" nillable="true" type="tns:MatchType" />
     <xs:element minOccurs="0" name="Param1" nillable="true" type="xs:string" />
@@ -46,6 +48,59 @@ As shown above, a keyword can be just a single word, several words, or even a ph
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Bid": {
+    "Amount": DoubleValueHere
+  },
+  "BiddingScheme": {
+    "Type": "CommissionBiddingScheme",
+    "CommissionRate": DoubleValueHere
+  },
+  "DestinationUrl": "ValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "MatchType": "ValueHere",
+  "Param1": "ValueHere",
+  "Param2": "ValueHere",
+  "Param3": "ValueHere",
+  "Status": "ValueHere",
+  "Text": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

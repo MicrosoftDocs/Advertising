@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the relationship of an asset to an ad.
 ---
 # AssetLink Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines the relationship of an asset to an ad.
 
 For example, within a [ResponsiveSearchAd](responsivesearchad.md) there is an array of asset links that each contain a [TextAsset](textasset.md). 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetLink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,30 @@ For example, within a [ResponsiveSearchAd](responsivesearchad.md) there is an ar
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Asset": {
+    "Id": "LongValueHere",
+    "Name": "ValueHere",
+    "Type": "ImageAsset",
+    "CropHeight": IntValueHere,
+    "CropWidth": IntValueHere,
+    "CropX": IntValueHere,
+    "CropY": IntValueHere,
+    "SubType": "ValueHere",
+    "TargetHeight": IntValueHere,
+    "TargetWidth": IntValueHere
+  },
+  "AssetPerformanceLabel": "ValueHere",
+  "EditorialStatus": "ValueHere",
+  "PinnedField": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

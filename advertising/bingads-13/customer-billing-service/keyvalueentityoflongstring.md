@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a KeyValueEntityOflongstring data object.
 ---
 # KeyValueEntityOflongstring Data Object - Customer Billing
 Defines a KeyValueEntityOflongstring data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeyValueEntityOflongstring" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -27,6 +29,17 @@ Defines a KeyValueEntityOflongstring data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Key": "LongValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

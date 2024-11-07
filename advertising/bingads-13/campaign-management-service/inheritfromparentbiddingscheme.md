@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the inherit from parent bid strategy type.
 ---
 # InheritFromParentBiddingScheme Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that represents the inherit from parent bid strategy type.
 
 This is the default bid strategy type for your ad groups and keywords. Use this bid strategy type to inherit the bid strategy type of the respective parent campaign or ad group.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="InheritFromParentBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -30,6 +32,17 @@ This is the default bid strategy type for your ad groups and keywords. Use this 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "InheritFromParent",
+  "InheritedBidStrategyType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

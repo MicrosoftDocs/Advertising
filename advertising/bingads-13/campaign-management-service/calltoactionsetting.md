@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the CallToActionSetting data object.
 ---
 # CallToActionSetting Data Object - Campaign Management
 Defines the CallToActionSetting data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CallToActionSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,18 @@ Defines the CallToActionSetting data object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "CallToActionSetting",
+  "AutomatedCallToActionOptOut": "ValueHere",
+  "CallToActionOptOut": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Campaign Management operation error that contains the details that explain why the service operation failed.
 ---
 # OperationError Data Object - Campaign Management
 Defines a Campaign Management operation error that contains the details that explain why the service operation failed.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="OperationError" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,19 @@ Defines a Campaign Management operation error that contains the details that exp
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Code": IntValueHere,
+  "Details": "ValueHere",
+  "ErrorCode": "ValueHere",
+  "Message": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

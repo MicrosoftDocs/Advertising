@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that you want applied to the specified campaign.
 ---
 # CampaignCriterion Data Object - Campaign Management
@@ -20,7 +21,7 @@ Do not try to instantiate a *CampaignCriterion*. You can create one or more of t
   <xs:sequence>
     <xs:element name="CampaignId" type="xs:long" />
     <xs:element minOccurs="0" name="Criterion" nillable="true" type="tns:Criterion" />
-    <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q99:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q100:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:CampaignCriterionStatus" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />

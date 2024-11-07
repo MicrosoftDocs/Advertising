@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an asset performance report request.
 ---
 # AssetPerformanceReportRequest Data Object - Reporting
@@ -16,7 +17,8 @@ Defines an asset performance report request.
 > [!NOTE]
 > This report is currently in phase one, which means that ad level and asset group level performance data isn't available. Because the asset group level isn't supported yet, performance data from asset group assets (i.e. in Performance Max or Apps campaigns) will be filtered out if AdGroupId or AdGroupName are selected. The asset group data will be included in the aggregation at account and campaign levels.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -31,6 +33,59 @@ Defines an asset performance report request.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ExcludeColumnHeaders": "ValueHere",
+  "ExcludeReportFooter": "ValueHere",
+  "ExcludeReportHeader": "ValueHere",
+  "Format": "ValueHere",
+  "FormatVersion": "ValueHere",
+  "ReportName": "ValueHere",
+  "ReturnOnlyCompleteData": "ValueHere",
+  "Type": "AssetPerformanceReportRequest",
+  "Aggregation": "ValueHere",
+  "Columns": [
+    "ValueHere"
+  ],
+  "Scope": {
+    "AccountIds": [
+      "LongValueHere"
+    ],
+    "AdGroups": [
+      {
+        "AccountId": "LongValueHere",
+        "AdGroupId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ],
+    "Campaigns": [
+      {
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ]
+  },
+  "Time": {
+    "CustomDateRangeEnd": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "CustomDateRangeStart": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "PredefinedTime": "ValueHere",
+    "ReportTimeZone": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.
 ---
 # CoOpSetting Data Object - Campaign Management
@@ -13,7 +14,8 @@ Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.
 > [!NOTE]
 > This object is reserved for internal use, and will be removed in a future API version.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CoOpSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -27,6 +29,19 @@ Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "CoOpSetting",
+  "BidBoostValue": DoubleValueHere,
+  "BidMaxValue": DoubleValueHere,
+  "BidOption": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

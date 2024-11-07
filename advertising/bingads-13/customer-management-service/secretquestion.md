@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible secret questions that users can choose from to help them recall their password.
 ---
 # SecretQuestion Value Set - Customer Management

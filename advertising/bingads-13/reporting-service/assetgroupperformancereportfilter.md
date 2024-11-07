@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for AssetGroupPerformanceReportFilter.
 ---
 # AssetGroupPerformanceReportFilter Data Object - Reporting
 Defines a data object for AssetGroupPerformanceReportFilter.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetGroupPerformanceReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines a data object for AssetGroupPerformanceReportFilter.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AssetGroupStatus": "ValueHere",
+  "CampaignStatus": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

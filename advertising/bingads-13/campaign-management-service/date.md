@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Represents a date.
 ---
 # Date Data Object - Campaign Management
 Represents a date.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Date" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Represents a date.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Day": IntValueHere,
+  "Month": IntValueHere,
+  "Year": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

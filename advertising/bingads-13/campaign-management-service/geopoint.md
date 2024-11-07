@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the longitude and latitude coordinates of a geographical location.
 ---
 # GeoPoint Data Object - Campaign Management
 Defines an object that contains the longitude and latitude coordinates of a geographical location.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="GeoPoint" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an object that contains the longitude and latitude coordinates of a geog
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "LatitudeInMicroDegrees": IntValueHere,
+  "LongitudeInMicroDegrees": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

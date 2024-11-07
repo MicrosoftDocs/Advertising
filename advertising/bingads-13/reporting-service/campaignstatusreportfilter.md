@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the campaign status values that you can use to filter the report data.
 ---
 # CampaignStatusReportFilter Value Set - Reporting

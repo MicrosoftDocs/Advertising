@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an AudienceGroupAssetGroupAssociation data object.
 ---
 # AudienceGroupAssetGroupAssociation Data Object - Campaign Management
 Defines an AudienceGroupAssetGroupAssociation data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AudienceGroupAssetGroupAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an AudienceGroupAssetGroupAssociation data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssetGroupId": "LongValueHere",
+  "AudienceGroupId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

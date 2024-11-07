@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.
 ---
 # BudgetOpportunity Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains the suggested budget with estimated clicks and i
 > [!NOTE]
 > The budget opportunity is an estimate based on the last 15 days of performance data, and not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BudgetOpportunity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -33,6 +35,34 @@ Defines an object that contains the suggested budget with estimated clicks and i
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "OpportunityKey": "ValueHere",
+  "Type": "BudgetOpportunity",
+  "BudgetPoints": [
+    {
+      "BudgetAmount": DoubleValueHere,
+      "BudgetPointType": "ValueHere",
+      "EstimatedWeeklyClicks": DoubleValueHere,
+      "EstimatedWeeklyCost": DoubleValueHere,
+      "EstimatedWeeklyImpressions": DoubleValueHere
+    }
+  ],
+  "BudgetType": "ValueHere",
+  "CampaignId": "LongValueHere",
+  "CurrentBudget": DoubleValueHere,
+  "IncreaseInClicks": DoubleValueHere,
+  "IncreaseInImpressions": "LongValueHere",
+  "PercentageIncreaseInClicks": IntValueHere,
+  "PercentageIncreaseInImpressions": IntValueHere,
+  "RecommendedBudget": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

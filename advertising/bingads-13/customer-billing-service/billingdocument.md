@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a billing document.
 ---
 # BillingDocument Data Object - Customer Billing
 Defines a billing document.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BillingDocument" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -27,6 +29,19 @@ Defines a billing document.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Data": "ValueHere",
+  "Id": "LongValueHere",
+  "Number": "ValueHere",
+  "Type": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

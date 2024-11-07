@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Contains a list of keyword estimators with your keyword level filter criteria for traffic estimates.
 ---
 # AdGroupEstimator Data Object - Ad Insight
 Contains a list of keyword estimators with your keyword level filter criteria for traffic estimates.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroupEstimator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,27 @@ Contains a list of keyword estimators with your keyword level filter criteria fo
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupId": "LongValueHere",
+  "KeywordEstimators": [
+    {
+      "Keyword": {
+        "Id": "LongValueHere",
+        "MatchType": "ValueHere",
+        "Text": "ValueHere"
+      },
+      "MaxCpc": DoubleValueHere
+    }
+  ],
+  "MaxCpc": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

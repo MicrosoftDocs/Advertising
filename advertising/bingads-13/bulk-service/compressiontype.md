@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible compression types for the file to download with the Bulk service.
 ---
 # CompressionType Value Set - Bulk

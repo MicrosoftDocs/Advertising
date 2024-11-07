@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 ---
 # TextAsset Data Object - Campaign Management
@@ -13,7 +14,8 @@ A text asset with a unique Microsoft Advertising identifier that can be reused a
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry. It's coming soon. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="TextAsset" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,19 @@ A text asset with a unique Microsoft Advertising identifier that can be reused a
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "TextAsset",
+  "Text": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a product audience that you can use to remarket products from your Microsoft Merchant Center store.
 ---
 # ProductAudience Data Object - Campaign Management
@@ -27,7 +28,8 @@ window.uetq = window.uetq || [];
 window.uetq.push('event', '', {'ecomm_prodid': 'REPLACE_WITH_PRODUCT_ID', 'ecomm_pagetype': 'REPLACE_WITH_PAGE_TYPE'});
 ```
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProductAudience" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -40,6 +42,50 @@ window.uetq.push('event', '', {'ecomm_prodid': 'REPLACE_WITH_PRODUCT_ID', 'ecomm
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AudienceNetworkSize": "LongValueHere",
+  "CustomerShare": {
+    "CustomerAccountShares": [
+      {
+        "AccountId": "LongValueHere",
+        "Associations": [
+          {
+            "AssociationCount": "LongValueHere",
+            "UsageType": "ValueHere"
+          }
+        ],
+        "CustomerId": "LongValueHere"
+      }
+    ],
+    "OwnerCustomerId": "LongValueHere"
+  },
+  "Description": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "MembershipDuration": IntValueHere,
+  "Name": "ValueHere",
+  "ParentId": "LongValueHere",
+  "Scope": "ValueHere",
+  "SearchSize": "LongValueHere",
+  "SupportedCampaignTypes": [
+    "ValueHere"
+  ],
+  "Type": "Product",
+  "ProductAudienceType": "ValueHere",
+  "TagId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

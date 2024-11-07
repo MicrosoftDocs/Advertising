@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the text parameter for use with performance insights.
 ---
 # TextParameter Data Object - Ad Insight
 Defines the text parameter for use with performance insights. Derives from *PerformanceInsightsMessageParameter*.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="TextParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,17 @@ Defines the text parameter for use with performance insights. Derives from *Perf
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Text",
+  "SuggestedText": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Criterion for a check-in date range.
 ---
 # HotelCheckInDateCriterion Data Object - Campaign Management
 Criterion for a check-in date range.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HotelCheckInDateCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,18 @@ Criterion for a check-in date range.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "HotelCheckInDateCriterion",
+  "EndDate": "ValueHere",
+  "StartDate": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

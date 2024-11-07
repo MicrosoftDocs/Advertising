@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a AccountThroughAssetGroupReportScope data object.
 ---
 # AccountThroughAssetGroupReportScope Data Object - Reporting
 Defines a AccountThroughAssetGroupReportScope data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AccountThroughAssetGroupReportScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,31 @@ Defines a AccountThroughAssetGroupReportScope data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountIds": [
+    "LongValueHere"
+  ],
+  "AssetGroups": [
+    {
+      "AccountId": "LongValueHere",
+      "AssetGroupId": "LongValueHere",
+      "CampaignId": "LongValueHere"
+    }
+  ],
+  "Campaigns": [
+    {
+      "AccountId": "LongValueHere",
+      "CampaignId": "LongValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the cost per sale bid strategy type.
 ---
 # CostPerSaleBiddingScheme Data Object - Campaign Management
 Defines an object that represents the cost per sale bid strategy type.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CostPerSaleBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,17 @@ Defines an object that represents the cost per sale bid strategy type.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "CostPerSale",
+  "TargetCostPerSale": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

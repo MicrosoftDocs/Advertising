@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a list of keyword historical search counts for the corresponding device attribute.
 ---
 # SearchCountsByAttributes Data Object - Ad Insight
 Defines an object that contains a list of keyword historical search counts for the corresponding device attribute. Each search count in the list is aggregated by day, month, and year.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SearchCountsByAttributes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,26 @@ Defines an object that contains a list of keyword historical search counts for t
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Device": "ValueHere",
+  "HistoricalSearchCounts": [
+    {
+      "DayMonthAndYear": {
+        "Day": IntValueHere,
+        "Month": IntValueHere,
+        "Year": IntValueHere
+      },
+      "SearchCount": "LongValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

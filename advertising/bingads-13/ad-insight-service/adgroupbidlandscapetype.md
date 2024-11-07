@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible values that indicate whether all or a subset of an ad group's existing keywords are used to determine the bid landscape.
 ---
 # AdGroupBidLandscapeType Value Set - Ad Insight

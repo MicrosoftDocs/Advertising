@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a custom events remarketing rule.
 ---
 # CustomEventsRule Data Object - Campaign Management
@@ -14,7 +15,8 @@ Remarketing rules are conditions used to determine who to add to your remarketin
 
 For a detailed example, see the [Remarks](#remarks) section below.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CustomEventsRule" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -33,6 +35,24 @@ For a detailed example, see the [Remarks](#remarks) section below.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "CustomEvents",
+  "Action": "ValueHere",
+  "ActionOperator": "ValueHere",
+  "Category": "ValueHere",
+  "CategoryOperator": "ValueHere",
+  "Label": "ValueHere",
+  "LabelOperator": "ValueHere",
+  "Value": DecimalValueHere,
+  "ValueOperator": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

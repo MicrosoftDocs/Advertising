@@ -5,12 +5,14 @@ ms.subservice: bulk-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that identifies a campaign to download.
 ---
 # CampaignScope Data Object - Bulk
 Defines an object that identifies a campaign to download.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an object that identifies a campaign to download.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CampaignId": "LongValueHere",
+  "ParentAccountId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

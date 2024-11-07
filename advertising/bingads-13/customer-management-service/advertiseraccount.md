@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an advertiser account.
 ---
 # AdvertiserAccount Data Object - Customer Management
 Defines an advertiser account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdvertiserAccount" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -57,6 +59,79 @@ Defines an advertiser account.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountFinancialStatus": "ValueHere",
+  "AccountLifeCycleStatus": "ValueHere",
+  "AccountMode": "ValueHere",
+  "AutoTagType": "ValueHere",
+  "BackUpPaymentInstrumentId": "LongValueHere",
+  "BillingThresholdAmount": DecimalValueHere,
+  "BillToCustomerId": "LongValueHere",
+  "BusinessAddress": {
+    "BusinessName": "ValueHere",
+    "City": "ValueHere",
+    "CountryCode": "ValueHere",
+    "Id": "LongValueHere",
+    "Line1": "ValueHere",
+    "Line2": "ValueHere",
+    "Line3": "ValueHere",
+    "Line4": "ValueHere",
+    "PostalCode": "ValueHere",
+    "StateOrProvince": "ValueHere",
+    "TimeStamp": "ValueHere"
+  },
+  "CurrencyCode": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Language": "ValueHere",
+  "LastModifiedByUserId": "LongValueHere",
+  "LastModifiedTime": "ValueHere",
+  "LinkedAgencies": [
+    {
+      "Id": "LongValueHere",
+      "Name": "ValueHere"
+    }
+  ],
+  "Name": "ValueHere",
+  "Number": "ValueHere",
+  "ParentCustomerId": "LongValueHere",
+  "PauseReason": "ValueHere",
+  "PaymentMethodId": "LongValueHere",
+  "PaymentMethodType": "ValueHere",
+  "PrimaryUserId": "LongValueHere",
+  "SalesHouseCustomerId": "LongValueHere",
+  "SoldToPaymentInstrumentId": "LongValueHere",
+  "TaxCertificate": {
+    "Status": "ValueHere",
+    "TaxCertificateBlobContainerName": "ValueHere",
+    "TaxCertificates": [
+      {
+        "key": "ValueHere",
+        "value": "ValueHere"
+      }
+    ]
+  },
+  "TaxInformation": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "TimeStamp": "ValueHere",
+  "TimeZone": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

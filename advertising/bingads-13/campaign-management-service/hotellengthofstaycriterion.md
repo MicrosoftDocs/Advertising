@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Criterion for length of hotel stay in nights.
 ---
 # HotelLengthOfStayCriterion Data Object - Campaign Management
 Criterion for length of hotel stay in nights.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HotelLengthOfStayCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,18 @@ Criterion for length of hotel stay in nights.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "HotelLengthOfStayCriterion",
+  "MaxNights": IntValueHere,
+  "MinNights": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

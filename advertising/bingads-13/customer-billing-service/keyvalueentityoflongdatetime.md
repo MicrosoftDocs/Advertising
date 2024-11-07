@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a KeyValueEntityOflongdateTime data object.
 ---
 # KeyValueEntityOflongdateTime Data Object - Customer Billing
 Defines a KeyValueEntityOflongdateTime data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeyValueEntityOflongdateTime" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -27,6 +29,17 @@ Defines a KeyValueEntityOflongdateTime data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Key": "LongValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

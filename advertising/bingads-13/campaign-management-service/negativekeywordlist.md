@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a negative keyword list.
 ---
 # NegativeKeywordList Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines a negative keyword list.
 
 You can add negative keywords to a negative keyword list and associate the list with campaigns.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NegativeKeywordList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,14 @@ You can add negative keywords to a negative keyword list and associate the list 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

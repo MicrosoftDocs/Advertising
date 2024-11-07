@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a media meta data object.
 ---
 # MediaMetaData Data Object - Campaign Management
 Defines a media meta data object. The meta data includes download Urls for one or more media representations.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="MediaMetaData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -28,6 +30,28 @@ Defines a media meta data object. The meta data includes download Urls for one o
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "MediaType": "ValueHere",
+  "Representations": [
+    {
+      "Name": "ValueHere",
+      "Type": "ImageMediaRepresentation",
+      "Url": "ValueHere",
+      "Height": IntValueHere,
+      "Width": IntValueHere
+    }
+  ],
+  "Text": "ValueHere",
+  "Type": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

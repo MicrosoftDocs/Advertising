@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the name of account level properties.
 ---
 # AccountPropertyName Value Set - Campaign Management
@@ -128,18 +129,26 @@ Defines the name of account level properties.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="AssetAIEnhancementOptout">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">65536</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AccountPropertyName](accountpropertyname.md) value set has the following values: [AdClickParallelTracking](#adclickparalleltracking), [AllowImageAutoRetrieve](#allowimageautoretrieve), [AutoApplyRecommendations](#autoapplyrecommendations), [AutoBiddingViewThroughConversionsValueAttributionWeight](#autobiddingviewthroughconversionsvalueattributionweight), [BlockedContentSegments](#blockedcontentsegments), [BusinessAttributes](#businessattributes), [EnableMMAUnderDSAAdgroups](#enablemmaunderdsaadgroups), [FinalUrlSuffix](#finalurlsuffix), [IncludeAutoBiddingViewThroughConversions](#includeautobiddingviewthroughconversions), [IncludeViewThroughConversions](#includeviewthroughconversions), [LoopBackWindowForViewThroughConversions](#loopbackwindowforviewthroughconversions), [MSCLKIDAutoTaggingEnabled](#msclkidautotaggingenabled), [NetflixTCAccepted](#netflixtcaccepted), [None](#none), [OptOutFromMCM](#optoutfrommcm), [ProfileExpansionEnabled](#profileexpansionenabled), [TrackingUrlTemplate](#trackingurltemplate).
+The [AccountPropertyName](accountpropertyname.md) value set has the following values: [AdClickParallelTracking](#adclickparalleltracking), [AllowImageAutoRetrieve](#allowimageautoretrieve), [AssetAIEnhancementOptout](#assetaienhancementoptout), [AutoApplyRecommendations](#autoapplyrecommendations), [AutoBiddingViewThroughConversionsValueAttributionWeight](#autobiddingviewthroughconversionsvalueattributionweight), [BlockedContentSegments](#blockedcontentsegments), [BusinessAttributes](#businessattributes), [EnableMMAUnderDSAAdgroups](#enablemmaunderdsaadgroups), [FinalUrlSuffix](#finalurlsuffix), [IncludeAutoBiddingViewThroughConversions](#includeautobiddingviewthroughconversions), [IncludeViewThroughConversions](#includeviewthroughconversions), [LoopBackWindowForViewThroughConversions](#loopbackwindowforviewthroughconversions), [MSCLKIDAutoTaggingEnabled](#msclkidautotaggingenabled), [NetflixTCAccepted](#netflixtcaccepted), [None](#none), [OptOutFromMCM](#optoutfrommcm), [ProfileExpansionEnabled](#profileexpansionenabled), [TrackingUrlTemplate](#trackingurltemplate).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="adclickparalleltracking"></a>AdClickParallelTracking|Used to get or set the property that determines whether you want to send customers directly to your final URL while click measurement runs in the background.<br/><br/>For more information see [AdClickParallelTracking](accountproperty.md#adclickparalleltracking).|
 |<a name="allowimageautoretrieve"></a>AllowImageAutoRetrieve|Used to get or set the property that determines whether Microsoft Advertising is allowed to use images from your domain to enhance your ads on the Microsoft Audience Network.<br/><br/>For more information see [AllowImageAutoRetrieve](accountproperty.md#allowimageautoretrieve).|
+|<a name="assetaienhancementoptout"></a>AssetAIEnhancementOptout|Reserved.|
 |<a name="autoapplyrecommendations"></a>AutoApplyRecommendations|Used to get or set the property that determines whether Microsoft Advertising is allowed to automatically apply ad recommendations meant to help you boost ad performance.<br/><br/> AutoApplyRecommendations in Campaign Management API is deprecated as of November 30, 2022. We strongly encourage you to use the new [Auto-apply Management interface](../guides/ad-insights-auto-apply-management.md) in Ad Insight API. <br/><br/>For more information see [AutoApplyRecommendations](accountproperty.md#autoapplyrecommendations).|
 |<a name="autobiddingviewthroughconversionsvalueattributionweight"></a>AutoBiddingViewThroughConversionsValueAttributionWeight|The weight of the auto bidding view through conversions value attribution.|
 |<a name="blockedcontentsegments"></a>BlockedContentSegments|The segments that advertisers can block. Pass the segment ID. [See the table above](#segment-info) for segment information and IDs.|

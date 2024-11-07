@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a predicate for the list of entities requested using one of the search operations, for example SearchAccounts, SearchClientLinks, SearchCustomers, or SearchUserInvitations.
 ---
 # Predicate Data Object - Customer Management
 Defines a predicate for the list of entities requested using one of the search operations, for example [SearchAccounts](searchaccounts.md), [SearchClientLinks](searchclientlinks.md), [SearchCustomers](searchcustomers.md), or [SearchUserInvitations](searchuserinvitations.md).
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Predicate" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines a predicate for the list of entities requested using one of the search o
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Field": "ValueHere",
+  "Operator": "ValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

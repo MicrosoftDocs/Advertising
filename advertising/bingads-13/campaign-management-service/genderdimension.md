@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a GenderDimension data object.
 ---
 # GenderDimension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines a GenderDimension data object.
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="GenderDimension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,19 @@ Defines a GenderDimension data object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Gender",
+  "GenderTypes": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

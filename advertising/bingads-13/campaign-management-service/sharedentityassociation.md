@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.
 ---
 # SharedEntityAssociation Data Object - Campaign Management
 Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SharedEntityAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -28,6 +30,20 @@ Defines an object that associates a campaign to negative keyword list, or an ad 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "EntityId": "LongValueHere",
+  "EntityType": "ValueHere",
+  "SharedEntityCustomerId": "LongValueHere",
+  "SharedEntityId": "LongValueHere",
+  "SharedEntityType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

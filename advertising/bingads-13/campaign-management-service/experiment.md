@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.
 ---
 # Experiment Data Object - Campaign Management
@@ -55,7 +56,8 @@ You have several options to use what you learned from the experiment.
 
 When you delete an *Experiment*, the experiment [Campaign](campaign.md) will also be deleted, and vice versa; However, the base campaign will not be deleted. When you delete a base campaign, all of its related experiments and experiment campaigns will also be deleted. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Experiment" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -71,6 +73,32 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "BaseCampaignId": "LongValueHere",
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "ExperimentCampaignId": "LongValueHere",
+  "ExperimentStatus": "ValueHere",
+  "ExperimentType": "ValueHere",
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "TrafficSplitPercent": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

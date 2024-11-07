@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the marketplace impact statistics of including broad match type keyword bids.
 ---
 # BroadMatchKeywordOpportunity Data Object - Ad Insight
 Defines an object that contains the marketplace impact statistics of including broad match type keyword bids.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BroadMatchKeywordOpportunity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,44 @@ Defines an object that contains the marketplace impact statistics of including b
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupId": "LongValueHere",
+  "AdGroupName": "ValueHere",
+  "CampaignId": "LongValueHere",
+  "CampaignName": "ValueHere",
+  "Competition": DoubleValueHere,
+  "EstimatedIncreaseInClicks": DoubleValueHere,
+  "EstimatedIncreaseInCost": DoubleValueHere,
+  "EstimatedIncreaseInImpressions": "LongValueHere",
+  "MatchType": IntValueHere,
+  "MonthlySearches": "LongValueHere",
+  "SuggestedBid": DoubleValueHere,
+  "SuggestedKeyword": "ValueHere",
+  "Type": "BroadMatchKeywordOpportunity",
+  "AverageCPC": DoubleValueHere,
+  "AverageCTR": DoubleValueHere,
+  "ClickShare": DoubleValueHere,
+  "ImpressionShare": DoubleValueHere,
+  "ReferenceKeywordBid": DoubleValueHere,
+  "ReferenceKeywordId": "LongValueHere",
+  "ReferenceKeywordMatchType": IntValueHere,
+  "SearchQueryKPIs": [
+    {
+      "AverageCTR": DoubleValueHere,
+      "Clicks": DoubleValueHere,
+      "Impressions": "LongValueHere",
+      "SearchQuery": "ValueHere",
+      "SRPV": "LongValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

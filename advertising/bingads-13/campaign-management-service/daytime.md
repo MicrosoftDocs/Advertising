@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a day of the week and time range for ad extension scheduling.
 ---
 # DayTime Data Object - Campaign Management
 Defines a day of the week and time range for ad extension scheduling. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DayTime" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,20 @@ Defines a day of the week and time range for ad extension scheduling.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Day": "ValueHere",
+  "EndHour": IntValueHere,
+  "EndMinute": "ValueHere",
+  "StartHour": IntValueHere,
+  "StartMinute": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

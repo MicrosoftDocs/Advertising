@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Determines whether an import job should be run once or scheduled on a recurring basis.
 ---
 # Frequency Data Object - Campaign Management
@@ -21,7 +22,8 @@ You can schedule a recurring import e.g., "Every Sunday at 4:00 PM" or you can r
 
 To run the import "now", you can leave the Google import job [Frequency](googleimportjob.md#frequency) element nil or empty. For all other scheduling options, set the frequency [Type](#type) and [Cron](#cron) values. For details about supported frequency values, see the [Remarks](#remarks) below. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Frequency" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,18 @@ To run the import "now", you can leave the Google import job [Frequency](googlei
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Cron": "ValueHere",
+  "TimeZone": "ValueHere",
+  "Type": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

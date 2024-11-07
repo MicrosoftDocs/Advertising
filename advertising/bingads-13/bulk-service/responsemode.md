@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines elements to specify whether the bulk service should return upload errors with their corresponding data.
 ---
 # ResponseMode Value Set - Bulk

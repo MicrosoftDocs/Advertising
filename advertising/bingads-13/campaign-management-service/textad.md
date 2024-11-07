@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a text ad.
 ---
 # TextAd Data Object - Campaign Management
@@ -16,7 +17,8 @@ Defines a text ad.
 > 
 > Standard Text Ads have been deprecated in favor of Expanded Text Ads (EXTAs). Support for adding and updating standard text ads (STAs) ended on July 31, 2017. Now, advertisers can get and delete, but can no longer add new STAs or update existing standard text ads. One exception to the rule, is that you can still update the STA status e.g. from *Active* to *Paused*. Otherwise attempts to add or update STAs will result in the *CampaignServiceAdTypeInvalid* error. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="TextAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -31,6 +33,53 @@ Defines a text ad.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "Text",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "DestinationUrl": "ValueHere",
+  "DisplayUrl": "ValueHere",
+  "Text": "ValueHere",
+  "Title": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

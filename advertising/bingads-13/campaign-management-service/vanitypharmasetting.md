@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for VanityPharmaSetting.
 ---
 # VanityPharmaSetting Data Object - Campaign Management
@@ -13,7 +14,8 @@ Defines a data object for VanityPharmaSetting. You can set the *DisplayUrlMode* 
 > [!NOTE]
 > *Note*: *VanityPharmaSetting* is available for limited pilot usage (e.g., pharmaceutical customers).
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="VanityPharmaSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -39,6 +41,18 @@ Defines a data object for VanityPharmaSetting. You can set the *DisplayUrlMode* 
 </xs:complexType>
 ```
 
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "VanityPharmaSetting",
+  "DisplayUrlMode": "ValueHere",
+  "WebsiteDescription": "ValueHere"
+}
+```
+
+-----
+
 ## <a name="elements"></a>Elements
 
 The [VanityPharmaSetting](vanitypharmasetting.md) object has the following elements: [DisplayUrlMode](#displayurlmode), [WebsiteDescription](#websitedescription).
@@ -59,7 +73,7 @@ The [VanityPharmaSetting](vanitypharmasetting.md) object derives from the [Setti
 |-----------|---------------|-------------|
 |<a name="type"></a>Type|The type of setting.<br/><br/>For more information, see [Remarks](setting.md#remarks).|**string**|
 
-
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+

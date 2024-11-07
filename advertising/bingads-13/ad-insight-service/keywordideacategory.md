@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a keyword idea category.
 ---
 # KeywordIdeaCategory Data Object - Ad Insight
@@ -12,7 +13,8 @@ Defines an object that contains a keyword idea category.
 
 You can use the category identifier in the [CategorySearchParameter](categorysearchparameter.md) when calling [GetKeywordIdeas](getkeywordideas.md).
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordIdeaCategory" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,17 @@ You can use the category identifier in the [CategorySearchParameter](categorysea
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CategoryId": "LongValueHere",
+  "CategoryName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

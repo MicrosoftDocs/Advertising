@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the locations where users were located when they searched for the specified keyword.
 ---
 # KeywordLocationResult Data Object - Ad Insight
 Defines an object that contains the locations where users were located when they searched for the specified keyword.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordLocationResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,23 @@ Defines an object that contains the locations where users were located when they
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Keyword": "ValueHere",
+  "KeywordLocations": [
+    {
+      "Device": "ValueHere",
+      "Location": "ValueHere",
+      "Percentage": DoubleValueHere
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

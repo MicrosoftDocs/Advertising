@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object to retract or restate an online conversion.
 ---
 # OnlineConversionAdjustment Data Object - Campaign Management
 Defines an object to retract or restate an online conversion.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="OnlineConversionAdjustment" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,21 @@ Defines an object to retract or restate an online conversion.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdjustmentCurrencyCode": "ValueHere",
+  "AdjustmentTime": "ValueHere",
+  "AdjustmentType": "ValueHere",
+  "AdjustmentValue": DoubleValueHere,
+  "ConversionName": "ValueHere",
+  "TransactionId": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

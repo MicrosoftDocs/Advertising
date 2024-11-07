@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The key and value pair of string and string values defined by the Campaign Management service.
 ---
 # KeyValuePairOfstringstring Data Object - Campaign Management
 The key and value pair of string and string values defined by the Campaign Management service. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeyValuePairOfstringstring" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -28,6 +30,17 @@ The key and value pair of string and string values defined by the Campaign Manag
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "key": "ValueHere",
+  "value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -57,4 +70,5 @@ Namespace: http\://schemas.datacontract.org/2004/07/System.Collections.Generic
 [Keyword](keyword.md)  
 [SharedEntity](sharedentity.md)  
 [SharedListItem](sharedlistitem.md)  
+[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)  
 [VerifiedTrackingSetting](verifiedtrackingsetting.md)  

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a campaign level product scope with list of conditions that help determine which items from your catalog to include in the campaign e.g., filter by brand or condition.
 ---
 # ProductScope Data Object - Campaign Management
@@ -17,7 +18,8 @@ You can use campaign product scopes with Shopping campaigns, feed-based Audience
 
 The *ProductScope* criterion can only be included within [BiddableCampaignCriterion](biddablecampaigncriterion.md). Also note that ad group level [ProductPartition](productpartition.md) can be added to [BiddableAdGroupCriterion](biddableadgroupcriterion.md) and [NegativeAdGroupCriterion](negativeadgroupcriterion.md). Duplicate or conflicting product conditions attempted within an ad group's [ProductPartition](productpartition.md) group will fail via the [ApplyProductPartitionActions](applyproductpartitionactions.md) operation; however, the operation will not validate whether duplicate or conflicting conditions already exist within the campaign level product scope.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProductScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,23 @@ The *ProductScope* criterion can only be included within [BiddableCampaignCriter
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "ProductScope",
+  "Conditions": [
+    {
+      "Attribute": "ValueHere",
+      "Operand": "ValueHere",
+      "Operator": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

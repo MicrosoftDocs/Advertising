@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible operand values that can be applied to the argument of a webpage condition for dynamic search ads.
 ---
 # WebpageConditionOperand Value Set - Campaign Management

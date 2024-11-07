@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Contains a nested list of suggested keywords for the campaign's ad groups with minimum and maximum traffic estimates.
 ---
 # CampaignEstimate Data Object - Ad Insight
@@ -13,7 +14,8 @@ Contains a nested list of suggested keywords for the campaign's ad groups with m
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignEstimate" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,46 @@ Contains a nested list of suggested keywords for the campaign's ad groups with m
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupEstimates": [
+    {
+      "AdGroupId": "LongValueHere",
+      "KeywordEstimates": [
+        {
+          "Keyword": {
+            "Id": "LongValueHere",
+            "MatchType": "ValueHere",
+            "Text": "ValueHere"
+          },
+          "Maximum": {
+            "AverageCpc": DoubleValueHere,
+            "AveragePosition": DoubleValueHere,
+            "Clicks": DoubleValueHere,
+            "Ctr": DoubleValueHere,
+            "Impressions": DoubleValueHere,
+            "TotalCost": DoubleValueHere
+          },
+          "Minimum": {
+            "AverageCpc": DoubleValueHere,
+            "AveragePosition": DoubleValueHere,
+            "Clicks": DoubleValueHere,
+            "Ctr": DoubleValueHere,
+            "Impressions": DoubleValueHere,
+            "TotalCost": DoubleValueHere
+          }
+        }
+      ]
+    }
+  ],
+  "CampaignId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

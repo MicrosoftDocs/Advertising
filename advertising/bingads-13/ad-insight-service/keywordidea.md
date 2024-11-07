@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a suggested keyword with historical statistics, like monthly search volume, competition, suggested minimum bid, and ad impression share.
 ---
 # KeywordIdea Data Object - Ad Insight
 Defines an object that contains a suggested keyword with historical statistics, like monthly search volume, competition, suggested minimum bid, and ad impression share.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordIdea" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -26,6 +28,26 @@ Defines an object that contains a suggested keyword with historical statistics, 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupId": "LongValueHere",
+  "AdGroupName": "ValueHere",
+  "AdImpressionShare": DoubleValueHere,
+  "Competition": "ValueHere",
+  "Keyword": "ValueHere",
+  "MonthlySearchCounts": [
+    "LongValueHere"
+  ],
+  "Relevance": DoubleValueHere,
+  "Source": "ValueHere",
+  "SuggestedBid": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

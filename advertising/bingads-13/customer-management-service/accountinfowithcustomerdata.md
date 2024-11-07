@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains information that identifies an account and the customer that manages or owns the account.
 ---
 # AccountInfoWithCustomerData Data Object - Customer Management
 Defines an object that contains information that identifies an account and the customer that manages or owns the account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AccountInfoWithCustomerData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,23 @@ Defines an object that contains information that identifies an account and the c
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountLifeCycleStatus": "ValueHere",
+  "AccountMode": "ValueHere",
+  "AccountName": "ValueHere",
+  "AccountNumber": "ValueHere",
+  "CustomerId": "LongValueHere",
+  "CustomerName": "ValueHere",
+  "PauseReason": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

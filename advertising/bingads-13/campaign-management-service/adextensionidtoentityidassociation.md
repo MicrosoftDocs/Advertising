@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that associates an ad extension to a supported entity, for example ad group or campaign.
 ---
 # AdExtensionIdToEntityIdAssociation Data Object - Campaign Management
 Defines an object that associates an ad extension to a supported entity, for example ad group or campaign.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdExtensionIdToEntityIdAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an object that associates an ad extension to a supported entity, for exa
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdExtensionId": "LongValueHere",
+  "EntityId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

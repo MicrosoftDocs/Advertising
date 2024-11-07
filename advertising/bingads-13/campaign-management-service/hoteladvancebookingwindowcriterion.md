@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Criterion for the number of days the booking is made prior to the hotel stay.
 ---
 # HotelAdvanceBookingWindowCriterion Data Object - Campaign Management
 Criterion for the number of days the booking is made prior to the hotel stay.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HotelAdvanceBookingWindowCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,18 @@ Criterion for the number of days the booking is made prior to the hotel stay.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "HotelAdvanceBookingWindowCriterion",
+  "MaxDays": IntValueHere,
+  "MinDays": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible status values that indicate the progress of determining the latitude and longitude values of a business.
 ---
 # BusinessGeoCodeStatus Value Set - Campaign Management

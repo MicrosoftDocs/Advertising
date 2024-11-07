@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the product negative keyword conflict report data.
 ---
 # ProductNegativeKeywordConflictReportFilter Data Object - Reporting
 Defines the criteria to use to filter the product negative keyword conflict report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProductNegativeKeywordConflictReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,19 @@ Defines the criteria to use to filter the product negative keyword conflict repo
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "AssetGroupStatus": "ValueHere",
+  "CampaignStatus": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

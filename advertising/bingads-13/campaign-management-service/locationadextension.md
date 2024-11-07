@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad extension that specifies a business address and phone number to include in a text ad.
 ---
 # LocationAdExtension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an ad extension that specifies a business address and phone number to in
 
 You can associate a location ad extension with the account or with campaigns in the account. Each entity (account or campaign) can be associated with as many location ad extensions as you decide, up to the total number of location ad extensions in your account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="LocationAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -28,6 +30,64 @@ You can associate a location ad extension with the account or with campaigns in 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "LocationAdExtension",
+  "Version": IntValueHere,
+  "Address": {
+    "CityName": "ValueHere",
+    "CountryCode": "ValueHere",
+    "PostalCode": "ValueHere",
+    "ProvinceCode": "ValueHere",
+    "ProvinceName": "ValueHere",
+    "StreetAddress": "ValueHere",
+    "StreetAddress2": "ValueHere"
+  },
+  "CompanyName": "ValueHere",
+  "GeoCodeStatus": "ValueHere",
+  "GeoPoint": {
+    "LatitudeInMicroDegrees": IntValueHere,
+    "LongitudeInMicroDegrees": IntValueHere
+  },
+  "PhoneNumber": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

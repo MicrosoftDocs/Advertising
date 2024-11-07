@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the relationship between a label and campaign, ad group, ad, or keyword entity.
 ---
 # LabelAssociation Data Object - Campaign Management
 Defines the relationship between a label and campaign, ad group, ad, or keyword entity.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="LabelAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines the relationship between a label and campaign, ad group, ad, or keyword 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "EntityId": "LongValueHere",
+  "LabelId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

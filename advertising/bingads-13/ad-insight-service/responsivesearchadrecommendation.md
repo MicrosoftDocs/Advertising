@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a ResponsiveSearchAdRecommendation data object.
 ---
 # ResponsiveSearchAdRecommendation Data Object - Ad Insight
 Defines a ResponsiveSearchAdRecommendation data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ResponsiveSearchAdRecommendation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,45 @@ Defines a ResponsiveSearchAdRecommendation data object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountName": "ValueHere",
+  "AdGroupId": "LongValueHere",
+  "AdGroupName": "ValueHere",
+  "CampaignId": "LongValueHere",
+  "CampaignName": "ValueHere",
+  "CurrentClicks": "LongValueHere",
+  "CurrentConversions": "LongValueHere",
+  "CurrentCost": DoubleValueHere,
+  "CurrentImpressions": "LongValueHere",
+  "Dismissed": "ValueHere",
+  "EstimatedIncreaseInClicks": "LongValueHere",
+  "EstimatedIncreaseInConversions": "LongValueHere",
+  "EstimatedIncreaseInCost": DoubleValueHere,
+  "EstimatedIncreaseInImpressions": "LongValueHere",
+  "RecommendationHash": "ValueHere",
+  "RecommendationId": "ValueHere",
+  "RecommendationType": "ValueHere",
+  "Type": "ResponsiveSearchAdRecommendation",
+  "SuggestedAd": {
+    "Descriptions": [
+      "ValueHere"
+    ],
+    "FinalUrl": "ValueHere",
+    "Headlines": [
+      "ValueHere"
+    ],
+    "Path1": "ValueHere",
+    "Path2": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -62,4 +103,5 @@ The [ResponsiveSearchAdRecommendation](responsivesearchadrecommendation.md) obje
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: https\://bingads.microsoft.com/AdInsight/v13
+Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+

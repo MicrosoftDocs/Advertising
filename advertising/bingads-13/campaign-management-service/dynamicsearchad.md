@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a dynamic search ad.
 ---
 # DynamicSearchAd Data Object - Campaign Management
@@ -20,7 +21,8 @@ Dynamic search ads can only be created within search campaigns that have a [Dyna
 > [!NOTE]
 > You can no longer add, update, or retrieve campaigns that only support dynamic search ads. The campaign type of your existing campaigns has been updated from "DynamicSearchAds" to "Search". The ad groups are now considered "dynamic" ad groups, but there are no structural changes i.e., they contain the same auto targets and dynamic search ads as before.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DynamicSearchAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -35,6 +37,53 @@ Dynamic search ads can only be created within search campaigns that have a [Dyna
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "DynamicSearch",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "Path1": "ValueHere",
+  "Path2": "ValueHere",
+  "Text": "ValueHere",
+  "TextPart2": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

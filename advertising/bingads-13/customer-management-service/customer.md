@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a customer object that contains one or more Microsoft Advertising accounts.
 ---
 # Customer Data Object - Customer Management
 Defines a customer object that contains one or more Microsoft Advertising accounts.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Customer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,46 @@ Defines a customer object that contains one or more Microsoft Advertising accoun
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CustomerAddress": {
+    "BusinessName": "ValueHere",
+    "City": "ValueHere",
+    "CountryCode": "ValueHere",
+    "Id": "LongValueHere",
+    "Line1": "ValueHere",
+    "Line2": "ValueHere",
+    "Line3": "ValueHere",
+    "Line4": "ValueHere",
+    "PostalCode": "ValueHere",
+    "StateOrProvince": "ValueHere",
+    "TimeStamp": "ValueHere"
+  },
+  "CustomerFinancialStatus": "ValueHere",
+  "CustomerLifeCycleStatus": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Industry": "ValueHere",
+  "LastModifiedByUserId": "LongValueHere",
+  "LastModifiedTime": "ValueHere",
+  "MarketCountry": "ValueHere",
+  "MarketLanguage": "ValueHere",
+  "Name": "ValueHere",
+  "Number": "ValueHere",
+  "ServiceLevel": "ValueHere",
+  "TimeStamp": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

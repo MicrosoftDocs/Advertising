@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a campaign.
 ---
 # Campaign Data Object - Campaign Management
@@ -18,7 +19,8 @@ Defines a campaign.
 >  
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Campaign" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -26,7 +28,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="BiddingScheme" nillable="true" type="tns:BiddingScheme" />
     <xs:element minOccurs="0" name="BudgetType" nillable="true" type="tns:BudgetLimitType" />
     <xs:element minOccurs="0" name="DailyBudget" nillable="true" type="xs:double" />
-    <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DealIds" nillable="true" type="q8:ArrayOflong">
+    <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DealIds" nillable="true" type="q9:ArrayOflong">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -35,8 +37,8 @@ Defines a campaign.
     </xs:element>
     <xs:element minOccurs="0" name="ExperimentId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q9:ArrayOfKeyValuePairOfstringstring" />
-    <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q10:ArrayOflong">
+    <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q11:ArrayOflong">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -67,7 +69,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="CampaignType" nillable="true" type="tns:CampaignType" />
     <xs:element minOccurs="0" name="Settings" nillable="true" type="tns:ArrayOfSetting" />
     <xs:element minOccurs="0" name="BudgetId" nillable="true" type="xs:long" />
-    <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Languages" nillable="true" type="q11:ArrayOfstring" />
+    <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Languages" nillable="true" type="q12:ArrayOfstring" />
     <xs:element minOccurs="0" name="AdScheduleUseSearcherTimeZone" nillable="true" type="xs:boolean">
       <xs:annotation>
         <xs:appinfo>
@@ -85,6 +87,66 @@ Defines a campaign.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdScheduleUseSearcherTimeZone": "ValueHere",
+  "AudienceAdsBidAdjustment": IntValueHere,
+  "BiddingScheme": {
+    "Type": "CommissionBiddingScheme",
+    "CommissionRate": DoubleValueHere
+  },
+  "BidStrategyId": "LongValueHere",
+  "BudgetId": "LongValueHere",
+  "BudgetType": "ValueHere",
+  "CampaignType": "ValueHere",
+  "DailyBudget": DoubleValueHere,
+  "DealIds": [
+    "LongValueHere"
+  ],
+  "ExperimentId": "LongValueHere",
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "GoalIds": [
+    "LongValueHere"
+  ],
+  "Id": "LongValueHere",
+  "IsDealCampaign": "ValueHere",
+  "Languages": [
+    "ValueHere"
+  ],
+  "MultimediaAdsBidAdjustment": IntValueHere,
+  "Name": "ValueHere",
+  "Settings": [
+    {
+      "Type": "AppSetting",
+      "AppId": "ValueHere",
+      "AppStore": "ValueHere"
+    }
+  ],
+  "Status": "ValueHere",
+  "SubType": "ValueHere",
+  "TimeZone": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

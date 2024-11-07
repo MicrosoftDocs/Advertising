@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
+zone_pivot_groups: api-reference
 description: Gets a temporary URL that you can use to download industry or job function profile data.
 dev_langs: 
-  - csharp
-  - java
-  - php
-  - python
+- csharp
+- java
+- php
+- python
 ---
 # GetProfileDataFileUrl Service Operation - Campaign Management
 Gets a temporary URL that you can use to download industry or job function profile data. 
@@ -19,6 +21,8 @@ The downloaded CSV file includes profile identifiers that you can use with [Prof
 
 > [!NOTE]
 > You can use the [SearchCompanies](searchcompanies.md) operation to search for profile data by company name. 
+
+::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
 The *GetProfileDataFileUrlRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -144,3 +148,127 @@ response=campaignmanagement_service.GetProfileDataFileUrl(
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
+::: zone-end
+
+::: zone pivot="rest"
+
+## <a name="url"></a>Request Url
+
+# [Production URL](#tab/prod)
+
+```POST
+https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/ProfileDataFileUrl/Query
+```
+
+# [Sandbox URL](#tab/sandbox)
+
+```POST
+https://campaign.api.sandbox.bingads.microsoft.com/CampaignManagement/v13/ProfileDataFileUrl/Query
+```
+
+-----
+
+## <a name="request"></a>Request Elements
+The *GetProfileDataFileUrlRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request.
+
+> [!NOTE]
+> Unless otherwise noted below, all request elements are required.
+
+### <a name="request-body"></a>Request Body Elements
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="languagelocale"></a>LanguageLocale|The language and locale of the profile display names.<br/><br/>The supported language locale values are *zh-Hant* (Traditional Chinese), *en* (English), *fr* (French), *de* (German), *it* (Italian), *pt-BR* (Brazilian Portuguese), and *es* (Spanish). Please note if LinkedIn does not provide the localized profile name, then it will default to the universal name (usually defined in English).|**string**|
+|<a name="profiletype"></a>ProfileType|Determines whether you want industry or job function profile data.<br/><br/>The [CompanyName](profiletype.md#companyname) profile type is not supported for this service operation. You can use the [SearchCompanies](searchcompanies.md) operation to search for profile data by company name.|[ProfileType](profiletype.md)|
+
+### <a name="request-header"></a>Request Header Elements
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
+
+## <a name="response"></a>Response Elements
+The *GetProfileDataFileUrlResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).
+
+### <a name="response-body"></a>Response Body Elements
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="fileurl"></a>FileUrl|The file URL that you can use to download the profile data for the profile type, language, and locale that you requested.<br/><br/>Before you download the file, check whether the date and time of the *LastModifiedTimeUtc* element is later than the date and time of your previous download. You should only download the file if necessary.|**string**|
+|<a name="fileurlexpirytimeutc"></a>FileUrlExpiryTimeUtc|The date and time that the provided file URL will expire.<br/><br/>If you do not download the file prior to the expiration time, then you can call the operation again to request a new file URL. You might observe that the URL is set to expire 15 minutes from the time this operation completes; however, you should not depend on a fixed duration. Future calls to this operation might result in a shorter or longer expiration time. <br/><br/>The value is in Coordinated Universal Time (UTC). The date and time value reflects the date and time at the server, not the client. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
+|<a name="lastmodifiedtimeutc"></a>LastModifiedTimeUtc|The date and time that the profile data for the profile type, language, and locale was last updated.<br/><br/>As a best practice you should store this date and time, and going forward only download the file if this value is updated to a later date and time.<br/><br/>The value is in Coordinated Universal Time (UTC). The date and time value reflects the date and time at the server, not the client. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
+
+### <a name="response-header"></a>Response Header Elements
+[!INCLUDE[response-header](./includes/response-header.md)]
+
+## <a name="request-json"></a>Request JSON
+This template was generated by a tool to show the [body](#request-body) and [header](#request-header) elements for the JSON request. For supported types that you can use with this service operation, see the [Request Body Elements](#request-body) reference above.
+
+```json
+{
+  "LanguageLocale": "ValueHere",
+  "ProfileType": "ValueHere"
+}
+```
+
+## <a name="response-json"></a>Response JSON
+This template was generated by a tool to show the [body](#response-body) and [header](#response-header) elements for the JSON response.
+
+```json
+{
+  "FileUrl": "ValueHere",
+  "FileUrlExpiryTimeUtc": "ValueHere",
+  "LastModifiedTimeUtc": "ValueHere"
+}
+```
+
+## <a name="example"></a>Code Syntax
+To call REST API through SDKs, you need to upgrade SDK to a certain version and configure the system parameters.The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md).
+See [Bing Ads API Code Examples](../guides/code-examples.md) for more examples.
+```csharp
+public async Task<GetProfileDataFileUrlResponse> GetProfileDataFileUrlAsync(
+	string languageLocale,
+	ProfileType profileType)
+{
+	var request = new GetProfileDataFileUrlRequest
+	{
+		LanguageLocale = languageLocale,
+		ProfileType = profileType
+	};
+
+	return (await CampaignManagementService.CallAsync((s, r) => s.GetProfileDataFileUrlAsync(r), request));
+}
+```
+```java
+static GetProfileDataFileUrlResponse getProfileDataFileUrl(
+	java.lang.String languageLocale,
+	ArrayList<ProfileType> profileType) throws RemoteException, Exception
+{
+	GetProfileDataFileUrlRequest request = new GetProfileDataFileUrlRequest();
+
+	request.setLanguageLocale(languageLocale);
+	request.setProfileType(profileType);
+
+	return CampaignManagementService.getService().getProfileDataFileUrl(request);
+}
+```
+```php
+static function GetProfileDataFileUrl(
+	$languageLocale,
+	$profileType)
+{
+
+	$GLOBALS['Proxy'] = $GLOBALS['CampaignManagementProxy'];
+
+	$request = new GetProfileDataFileUrlRequest();
+
+	$request->LanguageLocale = $languageLocale;
+	$request->ProfileType = $profileType;
+
+	return $GLOBALS['CampaignManagementProxy']->GetService()->GetProfileDataFileUrl($request);
+}
+```
+```python
+response=campaignmanagement_service.GetProfileDataFileUrl(
+	LanguageLocale=LanguageLocale,
+	ProfileType=ProfileType)
+```
+
+::: zone-end

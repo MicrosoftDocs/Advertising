@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads to a specific audience.
 ---
 # AudienceCriterion Data Object - Campaign Management
@@ -15,7 +16,8 @@ The *AudienceCriterion* can be included within [AdGroupCriterion](adgroupcriteri
 > [!NOTE]
 > For new Video campaigns, only Remarketing lists, Similar audiences, In-market audiences, and Customer match lists are supported.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AudienceCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -28,6 +30,18 @@ The *AudienceCriterion* can be included within [AdGroupCriterion](adgroupcriteri
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "AudienceCriterion",
+  "AudienceId": "LongValueHere",
+  "AudienceType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

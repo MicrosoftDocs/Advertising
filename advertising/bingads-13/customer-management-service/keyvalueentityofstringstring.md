@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The key and value entity of string and string values.
 ---
 # KeyValueEntityOfstringstring Data Object - Customer Management
 The key and value entity of string and string values.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeyValueEntityOfstringstring" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -27,6 +29,17 @@ The key and value entity of string and string values.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Key": "ValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

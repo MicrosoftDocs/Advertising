@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible positions where you can target an ad to appear in the search results.
 ---
 # TargetAdPosition Value Set - Ad Insight

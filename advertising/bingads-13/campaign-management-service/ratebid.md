@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the rate bid.
 ---
 # RateBid Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that represents the rate bid.
 
 RateBid is applicable to Lodging campaigns (formerly Hotel campaigns) with the percent CPC or commission bid schemes.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="RateBid" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,19 @@ RateBid is applicable to Lodging campaigns (formerly Hotel campaigns) with the p
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "RateBid",
+  "RateAmount": {
+    "Amount": DoubleValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

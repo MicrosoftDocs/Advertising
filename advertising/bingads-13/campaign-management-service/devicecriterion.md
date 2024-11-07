@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads on specific devices.
 ---
 # DeviceCriterion Data Object - Campaign Management
@@ -25,7 +26,8 @@ The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion
 > - For CPV, the bidding adjustment for PC/Mobile/tablet is set to -100, and for CTV to 0.
 >
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DeviceCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -38,6 +40,18 @@ The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "DeviceCriterion",
+  "DeviceName": "ValueHere",
+  "OSName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

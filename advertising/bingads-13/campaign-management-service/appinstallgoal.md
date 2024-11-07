@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an app install conversion goal.
 ---
 # AppInstallGoal Data Object - Campaign Management
@@ -15,7 +16,8 @@ For other conversion goal types you create a Universal Event Tracking (UET) tag,
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AppInstallGoal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -28,6 +30,36 @@ For other conversion goal types you create a Universal Event Tracking (UET) tag,
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AttributionModelType": "ValueHere",
+  "ConversionWindowInMinutes": IntValueHere,
+  "CountType": "ValueHere",
+  "ExcludeFromBidding": "ValueHere",
+  "GoalCategory": "ValueHere",
+  "Id": "LongValueHere",
+  "IsEnhancedConversionsEnabled": "ValueHere",
+  "Name": "ValueHere",
+  "Revenue": {
+    "CurrencyCode": "ValueHere",
+    "Type": "ValueHere",
+    "Value": DecimalValueHere
+  },
+  "Scope": "ValueHere",
+  "Status": "ValueHere",
+  "TagId": "LongValueHere",
+  "TrackingStatus": "ValueHere",
+  "Type": "AppInstall",
+  "ViewThroughConversionWindowInMinutes": IntValueHere,
+  "AppPlatform": "ValueHere",
+  "AppStoreId": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that can be used to manage changes for an approved insertion order.
 ---
 # InsertionOrderPendingChanges Data Object - Customer Billing
@@ -12,7 +13,8 @@ Defines an object that can be used to manage changes for an approved insertion o
 
 If the [Status](insertionorder.md#status) element of the [InsertionOrder](insertionorder.md) is set to PendingUserReview then you cannot update the insertion order via the *InsertionOrderPendingChanges* object. You must initially approve, decline, or cancel via the [Status](insertionorder.md#status) element of the [InsertionOrder](insertionorder.md). Once the insertion order [Status](insertionorder.md#status) is Active, Exhausted, Expired, or NotStarted, then you can either make new changes or approve or decline the current pending changes via the *InsertionOrderPendingChanges* object. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="InsertionOrderPendingChanges" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -30,6 +32,26 @@ If the [Status](insertionorder.md#status) element of the [InsertionOrder](insert
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ChangeStatus": "ValueHere",
+  "Comment": "ValueHere",
+  "EndDate": "ValueHere",
+  "ModifiedDateTime": "ValueHere",
+  "Name": "ValueHere",
+  "NotificationThreshold": DoubleValueHere,
+  "PurchaseOrder": "ValueHere",
+  "ReferenceId": "LongValueHere",
+  "RequestedByUserId": IntValueHere,
+  "SpendCapAmount": DoubleValueHere,
+  "StartDate": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

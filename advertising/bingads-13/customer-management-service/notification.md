@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Notification object.
 ---
 # Notification Data Object - Customer Management
 Defines a Notification object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Notification" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,26 @@ Defines a Notification object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdditionalInfo": [
+    {
+      "Key": "ValueHere",
+      "Value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Message": "ValueHere",
+  "Severity": "ValueHere",
+  "Title": "ValueHere",
+  "TypeId": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad group performance report request.
 ---
 # AdGroupPerformanceReportRequest Data Object - Reporting
@@ -14,7 +15,8 @@ You can request impressions, impression share (%), clicks, spend, and average co
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroupPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -30,6 +32,68 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ExcludeColumnHeaders": "ValueHere",
+  "ExcludeReportFooter": "ValueHere",
+  "ExcludeReportHeader": "ValueHere",
+  "Format": "ValueHere",
+  "FormatVersion": "ValueHere",
+  "ReportName": "ValueHere",
+  "ReturnOnlyCompleteData": "ValueHere",
+  "Type": "AdGroupPerformanceReportRequest",
+  "Aggregation": "ValueHere",
+  "Columns": [
+    "ValueHere"
+  ],
+  "Filter": {
+    "AccountStatus": "ValueHere",
+    "AdDistribution": "ValueHere",
+    "CampaignStatus": "ValueHere",
+    "DeviceOS": "ValueHere",
+    "DeviceType": "ValueHere",
+    "Language": "ValueHere",
+    "Status": "ValueHere"
+  },
+  "Scope": {
+    "AccountIds": [
+      "LongValueHere"
+    ],
+    "AdGroups": [
+      {
+        "AccountId": "LongValueHere",
+        "AdGroupId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ],
+    "Campaigns": [
+      {
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ]
+  },
+  "Time": {
+    "CustomDateRangeEnd": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "CustomDateRangeStart": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "PredefinedTime": "ValueHere",
+    "ReportTimeZone": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible ad sub types.
 ---
 # AdSubType Value Set - Campaign Management
@@ -38,4 +39,5 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
+[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)  
 [ResponsiveAd](responsivead.md)  

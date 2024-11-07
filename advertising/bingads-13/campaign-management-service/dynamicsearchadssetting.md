@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the Dynamic Search Ads setting for a campaign.
 ---
 # DynamicSearchAdsSetting Data Object - Campaign Management
@@ -15,7 +16,8 @@ A dynamic search ads setting can only be created within search campaigns. The ca
 > [!NOTE]
 > You can no longer add, update, or retrieve campaigns that only support dynamic search ads. The campaign type of your existing campaigns has been updated from "DynamicSearchAds" to "Search". The ad groups are now considered "dynamic" ad groups, but there are no structural changes i.e., they contain the same auto targets and dynamic search ads as before.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DynamicSearchAdsSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -37,6 +39,23 @@ A dynamic search ads setting can only be created within search campaigns. The ca
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "DynamicSearchAdsSetting",
+  "DomainName": "ValueHere",
+  "DynamicDescriptionEnabled": "ValueHere",
+  "Language": "ValueHere",
+  "PageFeedIds": [
+    "LongValueHere"
+  ],
+  "Source": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the status of a report request.
 ---
 # ReportRequestStatus Data Object - Reporting
 Defines the status of a report request.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ReportRequestStatus" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines the status of a report request.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ReportDownloadUrl": "ValueHere",
+  "Status": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

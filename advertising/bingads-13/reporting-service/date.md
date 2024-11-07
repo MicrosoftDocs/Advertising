@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a calendar date by month, day, and year.
 ---
 # Date Data Object - Reporting
 Defines a calendar date by month, day, and year.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Date" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines a calendar date by month, day, and year.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Day": IntValueHere,
+  "Month": IntValueHere,
+  "Year": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

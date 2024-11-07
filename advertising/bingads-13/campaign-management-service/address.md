@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a postal address for location ad extensions.
 ---
 # Address Data Object - Campaign Management
 Defines a postal address for location ad extensions.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Address" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -24,6 +26,22 @@ Defines a postal address for location ad extensions.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CityName": "ValueHere",
+  "CountryCode": "ValueHere",
+  "PostalCode": "ValueHere",
+  "ProvinceCode": "ValueHere",
+  "ProvinceName": "ValueHere",
+  "StreetAddress": "ValueHere",
+  "StreetAddress2": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

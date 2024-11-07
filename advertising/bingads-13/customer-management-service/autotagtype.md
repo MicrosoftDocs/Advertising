@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines possible values for an account level setting that determines whether to append or replace the supported UTM tracking codes.
 ---
 # AutoTagType Value Set - Customer Management

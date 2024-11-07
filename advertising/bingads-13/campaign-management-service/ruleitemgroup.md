@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a list of remarketing list rule items that apply to the same visited page.
 ---
 # RuleItemGroup Data Object - Campaign Management
 Defines an object that contains a list of remarketing list rule items that apply to the same visited page. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="RuleItemGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -18,6 +20,23 @@ Defines an object that contains a list of remarketing list rule items that apply
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Items": [
+    {
+      "Type": "Number",
+      "Operand": "ValueHere",
+      "Operator": "ValueHere",
+      "Value": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

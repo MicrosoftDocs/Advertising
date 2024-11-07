@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the operating system platform and URL of the app store download webpage.
 ---
 # AppUrl Data Object - Campaign Management
@@ -13,7 +14,8 @@ Defines the operating system platform and URL of the app store download webpage.
 > [!NOTE]
 > Reserved for future use.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AppUrl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,17 @@ Defines the operating system platform and URL of the app store download webpage.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "OsType": "ValueHere",
+  "Url": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

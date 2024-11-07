@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a product ad.
 ---
 # ProductAd Data Object - Campaign Management
 Defines a product ad. A product ad is not used directly for delivered ad copy.  Instead, the delivery engine generates product ads from the product details that it finds in the customer's Microsoft Merchant Center store.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProductAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,50 @@ Defines a product ad. A product ad is not used directly for delivered ad copy.  
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "Product",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "PromotionalText": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

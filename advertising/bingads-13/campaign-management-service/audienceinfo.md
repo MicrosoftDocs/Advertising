@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: An object containing and ID an type for an audience.
 ---
 # AudienceInfo Data Object - Campaign Management
 An object containing and ID an type for an audience.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AudienceInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ An object containing and ID an type for an audience.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "Type": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

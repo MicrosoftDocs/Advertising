@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the keyword and a list of keyword categories that the keyword might belong to.
 ---
 # KeywordCategoryResult Data Object - Ad Insight
 Defines an object that contains the keyword and a list of keyword categories that the keyword might belong to.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordCategoryResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,22 @@ Defines an object that contains the keyword and a list of keyword categories tha
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Keyword": "ValueHere",
+  "KeywordCategories": [
+    {
+      "Category": "ValueHere",
+      "ConfidenceScore": DoubleValueHere
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

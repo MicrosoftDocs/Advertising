@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the type of parameter such as string, URL, or a list of demand entities.
 ---
 # ParameterType Value Set - Ad Insight

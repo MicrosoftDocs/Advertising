@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a page visitors who did not visit another page remarketing rule.
 ---
 # PageVisitorsWhoDidNotVisitAnotherPageRule Data Object - Campaign Management
@@ -20,7 +21,8 @@ In other words the visitor will be added to your remarketing list if any of the 
 
 For a detailed example, see the [Remarks](#remarks) section below.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PageVisitorsWhoDidNotVisitAnotherPageRule" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -33,6 +35,40 @@ For a detailed example, see the [Remarks](#remarks) section below.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "PageVisitorsWhoDidNotVisitAnotherPage",
+  "ExcludeRuleItemGroups": [
+    {
+      "Items": [
+        {
+          "Type": "Number",
+          "Operand": "ValueHere",
+          "Operator": "ValueHere",
+          "Value": "ValueHere"
+        }
+      ]
+    }
+  ],
+  "IncludeRuleItemGroups": [
+    {
+      "Items": [
+        {
+          "Type": "Number",
+          "Operand": "ValueHere",
+          "Operator": "ValueHere",
+          "Value": "ValueHere"
+        }
+      ]
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

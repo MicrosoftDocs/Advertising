@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a key performance index object for a keyword.
 ---
 # KeywordKPI Data Object - Ad Insight
 Defines a key performance index object for a keyword. The object contains the historical performance statistics of the keyword for the corresponding match type, ad position, device, and network.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordKPI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -26,6 +28,24 @@ Defines a key performance index object for a keyword. The object contains the hi
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdPosition": "ValueHere",
+  "AverageBid": DoubleValueHere,
+  "AverageCPC": DoubleValueHere,
+  "Clicks": IntValueHere,
+  "CTR": DoubleValueHere,
+  "Device": "ValueHere",
+  "Impressions": "LongValueHere",
+  "MatchType": "ValueHere",
+  "TotalCost": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

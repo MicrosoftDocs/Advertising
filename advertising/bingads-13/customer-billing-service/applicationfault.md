@@ -5,6 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the base object from which all Customer Billing fault detail objects derive.
 ---
 # ApplicationFault Data Object - Customer Billing

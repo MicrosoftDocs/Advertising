@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The location search parameter filter that you can include when requesting keyword ideas.
 ---
 # LocationSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The location search parameter filter that you can include when requesting keywor
 
 If you do not include the location search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all locations.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="LocationSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,20 @@ If you do not include the location search parameter when calling [GetKeywordIdea
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Locations": [
+    {
+      "LocationId": "LongValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

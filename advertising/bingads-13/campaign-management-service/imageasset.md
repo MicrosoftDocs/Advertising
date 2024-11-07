@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Applies crop settings to stored image media for a specific aspect ratio.
 ---
 # ImageAsset Data Object - Campaign Management
@@ -15,7 +16,8 @@ Applies crop settings to stored image media for a specific aspect ratio.
 
 If you do not specify crop settings, the service will automatically crop up to the maximum possible area from the center of the image. For example, given a 1000x1000 pixel [image](image.md), for the 1.91:1 aspect ratio, the auto crop setting will be [CropWidth](#cropwidth)=1000, [CropHeight](#cropheight)=524, [CropX](#cropx)=0, and [CropY](#cropy)=238. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ImageAsset" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -45,6 +47,25 @@ If you do not specify crop settings, the service will automatically crop up to t
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "ImageAsset",
+  "CropHeight": IntValueHere,
+  "CropWidth": IntValueHere,
+  "CropX": IntValueHere,
+  "CropY": IntValueHere,
+  "SubType": "ValueHere",
+  "TargetHeight": IntValueHere,
+  "TargetWidth": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

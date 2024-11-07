@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a condition that determines whether a product is selected from a customer's Microsoft Merchant Center catalog file.
 ---
 # ProductCondition Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines a condition that determines whether a product is selected from a custome
 
 You can use campaign level production conditions with Shopping campaigns, feed-based Audience campaigns, and Search campaigns with multimedia ads i.e., those campaigns that leverage a Microsoft Merchant Center [store ID](shoppingsetting.md#storeid). (Note: Not everyone has Search campaigns with multimedia ads yet. If you don't, don't worry - it's coming soon!) Ad group level product conditions can only be used with Shopping campaigns. Asset group level product conditions can only be used with Performance Max campaigns. The product scope allows you to choose which items from your catalog to include in the campaign e.g., filter by  brand or condition.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProductCondition" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -28,6 +30,18 @@ You can use campaign level production conditions with Shopping campaigns, feed-b
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Attribute": "ValueHere",
+  "Operand": "ValueHere",
+  "Operator": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: An insertion order is a contract that establishes the maximum amount you will spend on your account over a specified period of time.
 ---
 # InsertionOrder Data Object - Customer Billing
@@ -24,7 +25,8 @@ Most elements of this object can only be set before the insertion order becomes 
 > 
 > To manage recurring insertion orders in the Microsoft Advertising web application, see the [How do I create and edit an insertion order?](https://help.ads.microsoft.com/#apex/3/en/52094/0) help article.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="InsertionOrder" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -68,6 +70,52 @@ Most elements of this object can only be set before the insertion order becomes 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountNumber": "ValueHere",
+  "BookingCountryCode": "ValueHere",
+  "BudgetRemaining": DoubleValueHere,
+  "BudgetRemainingPercent": DoubleValueHere,
+  "BudgetSpent": DoubleValueHere,
+  "BudgetSpentPercent": DoubleValueHere,
+  "Comment": "ValueHere",
+  "EndDate": "ValueHere",
+  "Id": "LongValueHere",
+  "IsEndless": "ValueHere",
+  "IsInSeries": "ValueHere",
+  "IsUnlimited": "ValueHere",
+  "LastModifiedByUserId": "LongValueHere",
+  "LastModifiedTime": "ValueHere",
+  "Name": "ValueHere",
+  "NotificationThreshold": DoubleValueHere,
+  "PendingChanges": {
+    "ChangeStatus": "ValueHere",
+    "Comment": "ValueHere",
+    "EndDate": "ValueHere",
+    "ModifiedDateTime": "ValueHere",
+    "Name": "ValueHere",
+    "NotificationThreshold": DoubleValueHere,
+    "PurchaseOrder": "ValueHere",
+    "ReferenceId": "LongValueHere",
+    "RequestedByUserId": IntValueHere,
+    "SpendCapAmount": DoubleValueHere,
+    "StartDate": "ValueHere"
+  },
+  "PurchaseOrder": "ValueHere",
+  "ReferenceId": "LongValueHere",
+  "SeriesFrequencyType": "ValueHere",
+  "SeriesName": "ValueHere",
+  "SpendCapAmount": DoubleValueHere,
+  "StartDate": "ValueHere",
+  "Status": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

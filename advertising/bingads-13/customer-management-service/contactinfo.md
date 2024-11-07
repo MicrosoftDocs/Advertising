@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the contact information for a user.
 ---
 # ContactInfo Data Object - Customer Management
 Defines the contact information for a user.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ContactInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -28,6 +30,38 @@ Defines the contact information for a user.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Address": {
+    "BusinessName": "ValueHere",
+    "City": "ValueHere",
+    "CountryCode": "ValueHere",
+    "Id": "LongValueHere",
+    "Line1": "ValueHere",
+    "Line2": "ValueHere",
+    "Line3": "ValueHere",
+    "Line4": "ValueHere",
+    "PostalCode": "ValueHere",
+    "StateOrProvince": "ValueHere",
+    "TimeStamp": "ValueHere"
+  },
+  "ContactByPhone": "ValueHere",
+  "ContactByPostalMail": "ValueHere",
+  "Email": "ValueHere",
+  "EmailFormat": "ValueHere",
+  "Fax": "ValueHere",
+  "HomePhone": "ValueHere",
+  "Id": "LongValueHere",
+  "Mobile": "ValueHere",
+  "Phone1": "ValueHere",
+  "Phone2": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

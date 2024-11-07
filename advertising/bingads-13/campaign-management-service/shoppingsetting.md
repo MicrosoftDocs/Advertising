@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the campaign level settings to leverage your Microsoft Merchant Center store.
 ---
 # ShoppingSetting Data Object - Campaign Management
@@ -18,7 +19,8 @@ Supported shopping settings vary by campaign type.
 - Search campaigns with multimedia ads only support the [StoreId](#storeid) element and the [SalesCountryCode](#salescountrycode) element. (Note: Not everyone has this feature yet. If you don't, don't worry - it's coming soon!)
 - Performance Max campaigns can have a shopping setting if they are associated to a store.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ShoppingSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -47,6 +49,22 @@ Supported shopping settings vary by campaign type.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "ShoppingSetting",
+  "FeedLabel": "ValueHere",
+  "LocalInventoryAdsEnabled": "ValueHere",
+  "Priority": IntValueHere,
+  "SalesCountryCode": "ValueHere",
+  "ShoppableAdsEnabled": "ValueHere",
+  "StoreId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

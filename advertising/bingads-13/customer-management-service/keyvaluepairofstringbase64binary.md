@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The key and value pair of string and base64Binary values defined by the Customer Management service.
 ---
 # KeyValuePairOfstringbase64Binary Data Object - Customer Management
 The key and value pair of string and base64Binary values defined by the Customer Management service.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeyValuePairOfstringbase64Binary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -28,6 +30,17 @@ The key and value pair of string and base64Binary values defined by the Customer
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "key": "ValueHere",
+  "value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

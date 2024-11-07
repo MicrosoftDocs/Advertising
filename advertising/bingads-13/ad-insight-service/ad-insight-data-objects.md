@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Data objects reference for the AdInsight service.
 ---
 # Ad Insight Data Objects
@@ -98,8 +99,8 @@ The Ad Insight service defines the following data objects.
 |[Recommendation](recommendation.md)|Defines the base object of Recommendation.|
 |[RecommendationBase](recommendationbase.md)|Defines the RecommendationBase data object.|
 |[RecommendationInfo](recommendationinfo.md)|Defines the base object of RecommendationInfo.|
-|[RemoveConflictingNegativeKeywordRecommendation](removeconflictingnegativekeywordrecommendation.md)|Reserved.|
-|[ResponsiveSearchAdAssetRecommendation](responsivesearchadassetrecommendation.md)|Reserved.|
+|[RemoveConflictingNegativeKeywordRecommendation](removeconflictingnegativekeywordrecommendation.md)|Defines a data object for RemoveConflictingNegativeKeywordRecommendation.|
+|[ResponsiveSearchAdAssetRecommendation](responsivesearchadassetrecommendation.md)|Defines a data object for ResponsiveSearchAdAssetRecommendation.|
 |[ResponsiveSearchAdRecommendation](responsivesearchadrecommendation.md)|Defines a ResponsiveSearchAdRecommendation data object.|
 |[ResponsiveSearchAdsRecommendation](responsivesearchadsrecommendation.md)|Defines an object that contains the responsive search ads to be suggested.|
 |[RSARecommendationInfo](rsarecommendationinfo.md)|Defines an object that contains the info of responsive search ads recommendation.|
@@ -116,4 +117,4 @@ The Ad Insight service defines the following data objects.
 |[TrafficEstimate](trafficestimate.md)|Defines an object that contains traffic estimates based on the campaign, ad group, and keyword criteria you specified when calling [GetKeywordTrafficEstimates](getkeywordtrafficestimates.md).|
 |[UrlParameter](urlparameter.md)|Defines the URL parameter for use with performance insights.|
 |[UrlSearchParameter](urlsearchparameter.md)|The URL search parameter that you can use as a seed for new keyword ideas.|
-|[UseBroadMatchKeywordRecommendation](usebroadmatchkeywordrecommendation.md)|Reserved.|
+|[UseBroadMatchKeywordRecommendation](usebroadmatchkeywordrecommendation.md)|Defines a data object for UseBroadMatchKeywordRecommendation.|

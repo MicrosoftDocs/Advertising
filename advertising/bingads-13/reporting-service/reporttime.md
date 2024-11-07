@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the date range values of a report request.
 ---
 # ReportTime Data Object - Reporting
 Defines the date range values of a report request.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ReportTime" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,27 @@ Defines the date range values of a report request.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CustomDateRangeEnd": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "CustomDateRangeStart": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "PredefinedTime": "ValueHere",
+  "ReportTimeZone": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

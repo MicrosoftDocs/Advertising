@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an asset group in an advertising campaign.
 ---
 # AssetGroup Data Object - Campaign Management
 Defines an asset group in an advertising campaign.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -26,9 +28,9 @@ Defines an asset group in an advertising campaign.
     <xs:element minOccurs="0" name="Descriptions" nillable="true" type="tns:ArrayOfAssetLink" />
     <xs:element minOccurs="0" name="EditorialStatus" nillable="true" type="tns:AssetGroupEditorialStatus" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
-    <xs:element xmlns:q114="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q114:ArrayOfstring" />
-    <xs:element xmlns:q115="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q115:ArrayOfstring" />
-    <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q116:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q115="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q115:ArrayOfstring" />
+    <xs:element xmlns:q116="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q116:ArrayOfstring" />
+    <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q117:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Headlines" nillable="true" type="tns:ArrayOfAssetLink" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfAssetLink" />
@@ -41,6 +43,127 @@ Defines an asset group in an advertising campaign.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssetGroupSearchThemes": [
+    {
+      "Id": "LongValueHere",
+      "SearchTheme": "ValueHere"
+    }
+  ],
+  "BusinessName": "ValueHere",
+  "CallToAction": "ValueHere",
+  "Descriptions": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "EditorialStatus": "ValueHere",
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Headlines": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Images": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "LongHeadlines": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Name": "ValueHere",
+  "Path1": "ValueHere",
+  "Path2": "ValueHere",
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "Status": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -73,6 +196,8 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AddAssetGroups](addassetgroups.md)  
+[CreateAssetGroupRecommendation](createassetgrouprecommendation.md)  
 [GetAssetGroupsByCampaignId](getassetgroupsbycampaignid.md)  
 [GetAssetGroupsByIds](getassetgroupsbyids.md)  
+[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)  
 [UpdateAssetGroups](updateassetgroups.md)  

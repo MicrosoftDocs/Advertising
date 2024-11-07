@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Contains campaign filter criteria and a nested list of ad group and keyword level filter criteria for traffic estimates.
 ---
 # CampaignEstimator Data Object - Ad Insight
 Contains campaign filter criteria and a nested list of ad group and keyword level filter criteria for traffic estimates.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignEstimator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,43 @@ Contains campaign filter criteria and a nested list of ad group and keyword leve
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupEstimators": [
+    {
+      "AdGroupId": "LongValueHere",
+      "KeywordEstimators": [
+        {
+          "Keyword": {
+            "Id": "LongValueHere",
+            "MatchType": "ValueHere",
+            "Text": "ValueHere"
+          },
+          "MaxCpc": DoubleValueHere
+        }
+      ],
+      "MaxCpc": DoubleValueHere
+    }
+  ],
+  "CampaignId": "LongValueHere",
+  "Criteria": [
+    "ValueHere"
+  ],
+  "DailyBudget": DoubleValueHere,
+  "NegativeKeywords": [
+    {
+      "Id": "LongValueHere",
+      "MatchType": "ValueHere",
+      "Text": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

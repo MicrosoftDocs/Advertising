@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains traffic estimates based on the campaign, ad group, and keyword criteria you specified when calling GetKeywordTrafficEstimates.
 ---
 # TrafficEstimate Data Object - Ad Insight
 Defines an object that contains traffic estimates based on the campaign, ad group, and keyword criteria you specified when calling [GetKeywordTrafficEstimates](getkeywordtrafficestimates.md).
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="TrafficEstimate" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,21 @@ Defines an object that contains traffic estimates based on the campaign, ad grou
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AverageCpc": DoubleValueHere,
+  "AveragePosition": DoubleValueHere,
+  "Clicks": DoubleValueHere,
+  "Ctr": DoubleValueHere,
+  "Impressions": DoubleValueHere,
+  "TotalCost": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

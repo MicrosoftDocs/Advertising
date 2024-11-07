@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Data objects reference for the CampaignManagement service.
 ---
 # Campaign Management Data Objects
@@ -31,6 +32,10 @@ The Campaign Management service defines the following data objects.
 |[AdGroupCriterion](adgroupcriterion.md)|Defines a criterion that you want applied to the specified ad group.|
 |[AdGroupCriterionAction](adgroupcriterionaction.md)|Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), specifically one that contains a [ProductPartition](productpartition.md).|
 |[AdGroupNegativeSites](adgroupnegativesites.md)|Defines an object that contains the negative site URLs of an ad group.|
+|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)|Reserved.|
+|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md)|Reserved.|
+|[AdRecommendationTextSuggestion](adrecommendationtextsuggestion.md)|Reserved.|
+|[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md)|Reserved.|
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
 |[AgeDimension](agedimension.md)|Data object that specifies users by their age.|
@@ -88,7 +93,7 @@ The Campaign Management service defines the following data objects.
 |[CostPerSaleBiddingScheme](costpersalebiddingscheme.md)|Defines an object that represents the cost per sale bid strategy type.|
 |[Criterion](criterion.md)|Defines the base object of a criterion.|
 |[CriterionBid](criterionbid.md)|Defines a base class for criterion bids.|
-|[CriterionCashback](criterioncashback.md)|Defines the CriterionCashback Data Object.|
+|[CriterionCashback](criterioncashback.md)|Defines the CriterionCashback data object.|
 |[CustomAudience](customaudience.md)|Defines a custom audience.|
 |[CustomerAccountShare](customeraccountshare.md)|Defines a customer or account that can use the shared audience or UET tag.|
 |[CustomerAccountShareAssociation](customeraccountshareassociation.md)|Contains the association count for the corresponding usage type.|
@@ -185,7 +190,7 @@ The Campaign Management service defines the following data objects.
 |[NegativeKeyword](negativekeyword.md)|Defines a negative keyword with match type.|
 |[NegativeKeywordList](negativekeywordlist.md)|Defines a negative keyword list.|
 |[NegativeSite](negativesite.md)|Defines a website URL where you do not want your ads displayed.|
-|[NumberRuleItem](numberruleitem.md)|Represents a number rule item.|
+|[NumberRuleItem](numberruleitem.md)|Defines a rule expression that depends on the operand, operator, and value.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
 |[OfflineConversionAdjustment](offlineconversionadjustment.md)|Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.|
 |[OfflineConversionGoal](offlineconversiongoal.md)|Defines an offline conversion goal.|
@@ -198,7 +203,7 @@ The Campaign Management service defines the following data objects.
 |[Paging](paging.md)|Defines a paging object to request Campaign Management objects in batches.|
 |[PercentCpcBiddingScheme](percentcpcbiddingscheme.md)|Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).|
 |[PerformanceMaxSetting](performancemaxsetting.md)|Defines the PerformanceMaxSetting object.|
-|[PlacementCriterion](placementcriterion.md)|Reserved.|
+|[PlacementCriterion](placementcriterion.md)|Defines a data object for PlacementCriterion.|
 |[PlacementExclusionList](placementexclusionlist.md)|Defines a website exclusion list in the manager account (customer) shared library.|
 |[PriceAdExtension](priceadextension.md)|Defines an ad extension that includes between 3 and 8 price table rows.|
 |[PriceTableRow](pricetablerow.md)|Defines pricing information by currency and unit that you can use with price ad extensions.|
@@ -240,6 +245,7 @@ The Campaign Management service defines the following data objects.
 |[TargetSettingDetail](targetsettingdetail.md)|Determines whether you want to use the "target and bid" option or the "bid only" target option for the criterion type group.|
 |[TextAd](textad.md)|Defines a text ad.|
 |[TextAsset](textasset.md)|A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
+|[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)|Reserved.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
 |[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|

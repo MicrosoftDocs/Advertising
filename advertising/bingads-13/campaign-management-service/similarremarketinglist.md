@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an audience that is similar to one of your remarketing lists.
 ---
 # SimilarRemarketingList Data Object - Campaign Management
@@ -19,7 +20,8 @@ You cannot create or edit the similar audience for a remarketing list. Having sa
 >
 > A similar audience takes up to 24 hours to build and targeting for it won't take effect until that point.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SimilarRemarketingList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -31,6 +33,49 @@ You cannot create or edit the similar audience for a remarketing list. Having sa
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AudienceNetworkSize": "LongValueHere",
+  "CustomerShare": {
+    "CustomerAccountShares": [
+      {
+        "AccountId": "LongValueHere",
+        "Associations": [
+          {
+            "AssociationCount": "LongValueHere",
+            "UsageType": "ValueHere"
+          }
+        ],
+        "CustomerId": "LongValueHere"
+      }
+    ],
+    "OwnerCustomerId": "LongValueHere"
+  },
+  "Description": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "MembershipDuration": IntValueHere,
+  "Name": "ValueHere",
+  "ParentId": "LongValueHere",
+  "Scope": "ValueHere",
+  "SearchSize": "LongValueHere",
+  "SupportedCampaignTypes": [
+    "ValueHere"
+  ],
+  "Type": "SimilarRemarketingList",
+  "SourceId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

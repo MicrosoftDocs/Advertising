@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the destination URL performance report data.
 ---
 # DestinationUrlPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the destination URL performance report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DestinationUrlPerformanceReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -24,6 +26,22 @@ Defines the criteria to use to filter the destination URL performance report dat
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdDistribution": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "AdStatus": "ValueHere",
+  "CampaignStatus": "ValueHere",
+  "DeviceType": "ValueHere",
+  "Language": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

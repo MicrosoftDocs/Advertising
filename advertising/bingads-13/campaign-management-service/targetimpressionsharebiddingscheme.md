@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: An automated bidding strategy to get the target impression share for the ad position where you want your ads to appear.
 ---
 # TargetImpressionShareBiddingScheme Data Object - Campaign Management
 An automated bidding strategy to get the target impression share for the ad position where you want your ads to appear.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="TargetImpressionShareBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,21 @@ An automated bidding strategy to get the target impression share for the ad posi
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "TargetImpressionShareBiddingScheme",
+  "MaxCpc": {
+    "Amount": DoubleValueHere
+  },
+  "TargetAdPosition": "ValueHere",
+  "TargetImpressionShare": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

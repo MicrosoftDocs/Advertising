@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Value sets reference for the CampaignManagement service.
 ---
 # Campaign Management Value Sets
@@ -27,6 +28,8 @@ The Campaign Management service defines the following value sets.
 |[AdGroupCriterionType](adgroupcriteriontype.md)|Defines the possible types of ad group criterions.|
 |[AdGroupPrivacyStatus](adgroupprivacystatus.md)|Defines possible values for ad group privacy status in Audience campaigns.|
 |[AdGroupStatus](adgroupstatus.md)|Defines the possible status values of an ad group.|
+|[AdRecommendationTextField](adrecommendationtextfield.md)|Reserved.|
+|[AdRecommendationTextTone](adrecommendationtexttone.md)|Reserved.|
 |[AdRotationType](adrotationtype.md)|Defines the possible ad rotation types that you can apply to an ad group.|
 |[AdStatus](adstatus.md)|Defines the possible status values of an ad.|
 |[AdSubType](adsubtype.md)|Defines the possible ad sub types.|

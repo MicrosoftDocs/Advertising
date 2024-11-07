@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines possible values for ad group privacy status in Audience campaigns.
 ---
 # AdGroupPrivacyStatus Value Set - Campaign Management

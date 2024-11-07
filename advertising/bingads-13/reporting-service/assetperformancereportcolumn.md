@@ -5,7 +5,8 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.
+ms.date: 11/13/2024
+description: |Defines the attributes and performance statistics columns that you can include in the AssetPerformanceReportRequest.
 ---
 # AssetPerformanceReportColumn Value Set - Reporting
 |Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
@@ -39,6 +40,7 @@ description: Defines the attributes and performance statistics columns that you 
     <xs:enumeration value="VideoViewsAt25Percent" />
     <xs:enumeration value="VideoViewsAt50Percent" />
     <xs:enumeration value="VideoViewsAt75Percent" />
+    <xs:enumeration value="CompletedVideoViews" />
     <xs:enumeration value="VideoCompletionRate" />
   </xs:restriction>
 </xs:simpleType>
@@ -46,7 +48,7 @@ description: Defines the attributes and performance statistics columns that you 
 
 ## <a name="values"></a>Values
 
-The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetContent](#assetcontent), [AssetId](#assetid), [AssetSource](#assetsource), [AssetType](#assettype), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [Ctr](#ctr), [Impressions](#impressions), [Spend](#spend), [TimePeriod](#timeperiod), [VideoCompletionRate](#videocompletionrate), [VideoViews](#videoviews), [VideoViewsAt25Percent](#videoviewsat25percent), [VideoViewsAt50Percent](#videoviewsat50percent), [VideoViewsAt75Percent](#videoviewsat75percent).
+The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetContent](#assetcontent), [AssetId](#assetid), [AssetSource](#assetsource), [AssetType](#assettype), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [CompletedVideoViews](#completedvideoviews), [Ctr](#ctr), [Impressions](#impressions), [Spend](#spend), [TimePeriod](#timeperiod), [VideoCompletionRate](#videocompletionrate), [VideoViews](#videoviews), [VideoViewsAt25Percent](#videoviewsat25percent), [VideoViewsAt50Percent](#videoviewsat50percent), [VideoViewsAt75Percent](#videoviewsat75percent).
 
 |Value|Description|
 |-----------|---------------|
@@ -61,6 +63,7 @@ The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set ha
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="clicks"></a>Clicks|Clicks are what you pay for. Clicks typically include a customer clicking an ad on a search results page or on a website on the search network. Clicks can also come from other sources (for example, spiders, robots, and test servers). For more information, see [Microsoft Advertising click measurement: description of methodology](https://about.ads.microsoft.com/resources/policies/microsoft-advertising-click-measurement-description-of-methodology).|
+|<a name="completedvideoviews"></a>CompletedVideoViews|Reserved.|
 |<a name="ctr"></a>Ctr|The click-through rate (CTR) is the number of times an ad was clicked, divided by the number of times the ad was shown (impressions). For example, if your ads got 50 clicks given 2,348 impressions, your CTR is 2.13 (%). The formula for calculating CTR is (*Clicks* / *Impressions*) x 100.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
