@@ -3,6 +3,7 @@ title: "Check for ads or keywords with broken URLs"
 description: "Shows how to check whether an ad's or keyword's URL is valid. The script checks all ads or all keywords in all accounts the user has access to."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---
