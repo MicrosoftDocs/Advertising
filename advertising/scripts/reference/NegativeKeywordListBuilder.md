@@ -3,6 +3,7 @@ title: "NegativeKeywordListBuilder object"
 description: "Contains the methods for defining a negative keyword list."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

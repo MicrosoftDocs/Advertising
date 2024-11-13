@@ -3,6 +3,7 @@ title: "AdGroupTargeting object"
 description: "Contains the methods for managing ad group criteria: audience and location targeting."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

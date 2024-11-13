@@ -3,6 +3,7 @@ title: "AdTextAsset object"
 description: "Contains properties that define a text asset for an ad."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

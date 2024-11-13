@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Get access and refresh tokens using the Microsoft identity platform endpoint for developers.
 ---
 # Get access and refresh tokens

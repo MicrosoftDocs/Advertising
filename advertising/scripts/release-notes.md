@@ -3,6 +3,7 @@ title: "Microsoft Advertising Scripts release notes"
 description: "Describes the changes that were included with each release."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

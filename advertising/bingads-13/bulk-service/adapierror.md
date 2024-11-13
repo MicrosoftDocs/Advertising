@@ -6,6 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
+ms.date: 11/13/2024
 description: Defines a Bulk Ad API error object that contains the details that explain why the service operation failed.
 ---
 # AdApiError Data Object - Bulk

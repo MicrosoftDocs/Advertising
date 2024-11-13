@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Definitions for the report attributes and performance statistics columns.
 ---
 # Report Attributes and Performance Statistics

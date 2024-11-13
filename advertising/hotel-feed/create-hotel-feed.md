@@ -5,6 +5,7 @@ ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ---
 
 # Create an XML Property feed (formerly Hotel feed) file

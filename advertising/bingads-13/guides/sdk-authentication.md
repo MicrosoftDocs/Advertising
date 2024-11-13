@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Learn about authentication and basic service calls with the Bing Ads SDKs.
 dev_langs:
   - csharp
