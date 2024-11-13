@@ -3,8 +3,9 @@ metadata:
   title: "Frequently asked questions"
   ms.service: "bing-ads"
   ms.topic: faq
-  author: rgaritta
-  ms.author: v-rgaritta
+  author: jonmeyers
+  ms.author: jonmeyers
+  ms.date: 11/13/2024
   description: Find answers to some frequently asked questions about the Bing Ads API.
 title: Frequently asked questions
 summary: This article contains answers to some frequently asked questions about the Bing Ads API.
