@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a DecimalRoundedResult data object.
 ---
 # DecimalRoundedResult Data Object - Ad Insight
 Defines a DecimalRoundedResult data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DecimalRoundedResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines a DecimalRoundedResult data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Unit": "ValueHere",
+  "Value": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

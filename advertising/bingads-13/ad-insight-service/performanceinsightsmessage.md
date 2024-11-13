@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the message for performance insights.
 ---
 # PerformanceInsightsMessage Data Object - Ad Insight
 Defines the message for performance insights.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PerformanceInsightsMessage" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,31 @@ Defines the message for performance insights.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "IndentationLevel": IntValueHere,
+  "Parameters": [
+    {
+      "Type": "Entities",
+      "EntityCount": IntValueHere,
+      "EntityDetails": [
+        {
+          "EntityId": "LongValueHere",
+          "EntityName": "ValueHere"
+        }
+      ],
+      "EntityType": "ValueHere",
+      "SuggestedText": "ValueHere"
+    }
+  ],
+  "TemplateId": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

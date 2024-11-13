@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a collection of ads or keywords that failed editorial review, and the reason for the failure.
 ---
 # EditorialReasonCollection Data Object - Campaign Management
 Defines a collection of ads or keywords that failed editorial review, and the reason for the failure.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EditorialReasonCollection" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,28 @@ Defines a collection of ads or keywords that failed editorial review, and the re
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupId": "LongValueHere",
+  "AdOrKeywordId": "LongValueHere",
+  "AppealStatus": "ValueHere",
+  "Reasons": [
+    {
+      "Location": "ValueHere",
+      "PublisherCountries": [
+        "ValueHere"
+      ],
+      "ReasonCode": IntValueHere,
+      "Term": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

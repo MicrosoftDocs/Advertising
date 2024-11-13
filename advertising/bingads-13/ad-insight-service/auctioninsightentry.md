@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an auction insight entry for a domain.
 ---
 # AuctionInsightEntry Data Object - Ad Insight
 Defines an auction insight entry for a domain.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AuctionInsightEntry" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,42 @@ Defines an auction insight entry for a domain.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AggregatedKpi": {
+    "AboveRate": DoubleValueHere,
+    "AbsoluteTopOfPageRate": DoubleValueHere,
+    "AveragePosition": DoubleValueHere,
+    "ImpressionShare": DoubleValueHere,
+    "OutrankingShare": DoubleValueHere,
+    "OverlapRate": DoubleValueHere,
+    "Segments": [
+      "ValueHere"
+    ],
+    "TopOfPageRate": DoubleValueHere
+  },
+  "DisplayDomain": "ValueHere",
+  "SegmentedKpis": [
+    {
+      "AboveRate": DoubleValueHere,
+      "AbsoluteTopOfPageRate": DoubleValueHere,
+      "AveragePosition": DoubleValueHere,
+      "ImpressionShare": DoubleValueHere,
+      "OutrankingShare": DoubleValueHere,
+      "OverlapRate": DoubleValueHere,
+      "Segments": [
+        "ValueHere"
+      ],
+      "TopOfPageRate": DoubleValueHere
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

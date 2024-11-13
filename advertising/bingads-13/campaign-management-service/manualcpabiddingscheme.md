@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the manual CPA bid strategy type.
 ---
 # ManualCpaBiddingScheme Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that represents the manual CPA bid strategy type.
 
 With the ManualCpa (manual cost per action) bid strategy, you set your big per advertiser-specified action.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ManualCpaBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -30,6 +32,17 @@ With the ManualCpa (manual cost per action) bid strategy, you set your big per a
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "ManualCpaBiddingScheme",
+  "ManualCpi": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

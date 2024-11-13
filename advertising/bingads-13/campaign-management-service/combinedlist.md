@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A combined list is an audience created from a combination of multiple existing audiences.
 ---
 # CombinedList Data Object - Campaign Management
@@ -17,7 +18,8 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
 > [!TIP]
 > For an overview and more information about audiences, see the [Audience APIs](../guides/universal-event-tracking.md#audience) technical guide. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CombinedList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,56 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AudienceNetworkSize": "LongValueHere",
+  "CustomerShare": {
+    "CustomerAccountShares": [
+      {
+        "AccountId": "LongValueHere",
+        "Associations": [
+          {
+            "AssociationCount": "LongValueHere",
+            "UsageType": "ValueHere"
+          }
+        ],
+        "CustomerId": "LongValueHere"
+      }
+    ],
+    "OwnerCustomerId": "LongValueHere"
+  },
+  "Description": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "MembershipDuration": IntValueHere,
+  "Name": "ValueHere",
+  "ParentId": "LongValueHere",
+  "Scope": "ValueHere",
+  "SearchSize": "LongValueHere",
+  "SupportedCampaignTypes": [
+    "ValueHere"
+  ],
+  "Type": "CombinedList",
+  "CombinationRules": [
+    {
+      "AudienceIds": [
+        "LongValueHere"
+      ],
+      "Operator": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

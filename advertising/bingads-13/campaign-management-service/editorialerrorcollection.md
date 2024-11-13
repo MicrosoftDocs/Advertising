@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a nested list of error object that identifies one of potentially many reasons why an entity failed editorial review.
 ---
 # EditorialErrorCollection Data Object - Campaign Management
 Defines a nested list of error object that identifies one of potentially many reasons why an entity failed editorial review.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EditorialErrorCollection" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -26,6 +28,55 @@ Defines a nested list of error object that identifies one of potentially many re
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "BatchErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "ErrorCode": "ValueHere",
+      "FieldPath": "ValueHere",
+      "ForwardCompatibilityMap": [
+        {
+          "key": "ValueHere",
+          "value": "ValueHere"
+        }
+      ],
+      "Index": IntValueHere,
+      "Message": "ValueHere",
+      "Type": "EditorialError",
+      "Appealable": "ValueHere",
+      "DisapprovedText": "ValueHere",
+      "Location": "ValueHere",
+      "PublisherCountry": "ValueHere",
+      "ReasonCode": IntValueHere
+    }
+  ],
+  "Code": IntValueHere,
+  "Details": "ValueHere",
+  "ErrorCode": "ValueHere",
+  "FieldPath": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Index": IntValueHere,
+  "Message": "ValueHere",
+  "Type": "EditorialErrorCollection",
+  "Appealable": "ValueHere",
+  "DisapprovedText": "ValueHere",
+  "Location": "ValueHere",
+  "PublisherCountry": "ValueHere",
+  "ReasonCode": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

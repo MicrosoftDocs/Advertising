@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines properties for revenue that can be tracked by a conversion goal.
 ---
 # ConversionGoalRevenue Data Object - Campaign Management
 Defines properties for revenue that can be tracked by a conversion goal.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ConversionGoalRevenue" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines properties for revenue that can be tracked by a conversion goal.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CurrencyCode": "ValueHere",
+  "Type": "ValueHere",
+  "Value": DecimalValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

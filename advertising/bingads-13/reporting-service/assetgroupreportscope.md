@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for AssetGroupReportScope.
 ---
 # AssetGroupReportScope Data Object - Reporting
 Defines a data object for AssetGroupReportScope.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetGroupReportScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines a data object for AssetGroupReportScope.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AssetGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The type of listing group, for example Subdivision or Unit.
 ---
 # AssetGroupListingType Value Set - Campaign Management

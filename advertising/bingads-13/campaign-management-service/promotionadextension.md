@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Promotion Extensions highlight special sales and offers in your text ads.
 ---
 # PromotionAdExtension Data Object - Campaign Management
@@ -15,7 +16,8 @@ You can associate a promotion ad extension with the account or with campaigns an
 > [!NOTE]
 > Promotion Extensions are available for customers in AU, CA, DE, FR, US and UK.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PromotionAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,9 +26,9 @@ You can associate a promotion ad extension with the account or with campaigns an
         <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="DiscountModifier" nillable="true" type="tns:PromotionDiscountModifier" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q56:ArrayOfstring" />
+        <xs:element xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q57:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q57:ArrayOfstring" />
+        <xs:element xmlns:q58="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q58:ArrayOfstring" />
         <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="MoneyAmountOff" nillable="true" type="xs:double" />
         <xs:element minOccurs="0" name="OrdersOverAmount" nillable="true" type="xs:double" />
@@ -43,6 +45,89 @@ You can associate a promotion ad extension with the account or with campaigns an
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "PromotionAdExtension",
+  "Version": IntValueHere,
+  "CurrencyCode": "ValueHere",
+  "DiscountModifier": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "Language": "ValueHere",
+  "MoneyAmountOff": DoubleValueHere,
+  "OrdersOverAmount": DoubleValueHere,
+  "PercentOff": DoubleValueHere,
+  "PromotionCode": "ValueHere",
+  "PromotionEndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "PromotionItem": "ValueHere",
+  "PromotionOccasion": "ValueHere",
+  "PromotionStartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

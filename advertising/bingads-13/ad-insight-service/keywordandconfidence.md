@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a suggested keyword and a confidence score.
 ---
 # KeywordAndConfidence Data Object - Ad Insight
 Defines an object that contains a suggested keyword and a confidence score. The confidence score indicates the probability that the keyword would match a user's search query.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordAndConfidence" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an object that contains a suggested keyword and a confidence score. The 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ConfidenceScore": DoubleValueHere,
+  "SuggestedKeyword": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

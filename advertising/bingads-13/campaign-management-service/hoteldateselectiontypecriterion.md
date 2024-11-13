@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Criterion for the date selection type.
 ---
 # HotelDateSelectionTypeCriterion Data Object - Campaign Management
 Criterion for the date selection type.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HotelDateSelectionTypeCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,17 @@ Criterion for the date selection type.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "HotelDateSelectionTypeCriterion",
+  "HotelDateSelectionType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

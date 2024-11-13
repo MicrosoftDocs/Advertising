@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for DataExclusion.
 ---
 # DataExclusion Data Object - Campaign Management
 Defines a data object for DataExclusion.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DataExclusion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -25,6 +27,27 @@ Defines a data object for DataExclusion.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CampaignAssociations": [
+    {
+      "CampaignId": "LongValueHere"
+    }
+  ],
+  "CampaignTypeFilter": "ValueHere",
+  "Description": "ValueHere",
+  "DeviceTypeFilter": "ValueHere",
+  "EndDate": "ValueHere",
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "StartDate": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

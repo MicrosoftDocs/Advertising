@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a keyword with match type.
 ---
 # Keyword Data Object - Ad Insight
 Defines a keyword with match type.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Keyword" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines a keyword with match type.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "MatchType": "ValueHere",
+  "Text": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

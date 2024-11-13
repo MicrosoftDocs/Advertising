@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a webpage parameter that contains a list of webpage conditions or criteria that help determine whether you want to show dynamic search ads.
 ---
 # Webpage Data Object - Campaign Management
@@ -15,7 +16,8 @@ The *Webpage* criterion can be included within [BiddableAdGroupCriterion](biddab
 A Webpage criterion can only be created within campaigns that have a [DynamicSearchAdsSetting](dynamicsearchadssetting.md) or [PerformanceMaxSetting](performancemaxsetting.md).
 - Search campaigns if the [CampaignType](campaign.md#campaigntype) is set to "Search", if the [ExperimentId](campaign.md#experimentid) element is not set, and if the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchDynamic".   
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Webpage" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -27,6 +29,26 @@ A Webpage criterion can only be created within campaigns that have a [DynamicSea
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Webpage",
+  "Parameter": {
+    "Conditions": [
+      {
+        "Argument": "ValueHere",
+        "Operand": "ValueHere",
+        "Operator": "ValueHere"
+      }
+    ],
+    "CriterionName": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A listing group that corresponds directly to the identifiers specified in the request.
 ---
 # AssetGroupListingGroup Data Object - Campaign Management
 A listing group that corresponds directly to the identifiers specified in the request. If an identifier in the list is not valid, the corresponding item in the response is set to null.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetGroupListingGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,25 @@ A listing group that corresponds directly to the identifiers specified in the re
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssetGroupId": "LongValueHere",
+  "AssetGroupListingType": "ValueHere",
+  "Dimension": {
+    "Attribute": "ValueHere",
+    "Operand": "ValueHere",
+    "Operator": "ValueHere"
+  },
+  "Id": "LongValueHere",
+  "IsExcluded": "ValueHere",
+  "ParentListingGroupId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

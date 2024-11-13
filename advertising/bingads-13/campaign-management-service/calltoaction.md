@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible values for a brief, punchy reason for customers to click your ad right now.
 ---
 # CallToAction Value Set - Campaign Management

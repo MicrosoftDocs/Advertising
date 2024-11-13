@@ -5,22 +5,39 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that you can use to determine the component of an asset group that failed editorial review, and the reason for the failure.
 ---
 # AssetGroupEditorialReason Data Object - Campaign Management
 Defines an object that you can use to determine the component of an asset group that failed editorial review, and the reason for the failure.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetGroupEditorialReason" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
-    <xs:element xmlns:q120="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PublisherCountries" nillable="true" type="q120:ArrayOfstring" />
+    <xs:element xmlns:q121="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PublisherCountries" nillable="true" type="q121:ArrayOfstring" />
     <xs:element minOccurs="0" name="ReasonCode" type="xs:int" />
     <xs:element minOccurs="0" name="Term" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Location": "ValueHere",
+  "PublisherCountries": [
+    "ValueHere"
+  ],
+  "ReasonCode": IntValueHere,
+  "Term": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

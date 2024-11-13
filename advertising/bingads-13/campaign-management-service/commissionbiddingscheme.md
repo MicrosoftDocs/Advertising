@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the commission bid strategy type (commission pay per stay).
 ---
 # CommissionBiddingScheme Data Object - Campaign Management
 Defines an object that represents the commission bid strategy type (commission pay per stay).
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CommissionBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,17 @@ Defines an object that represents the commission bid strategy type (commission p
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "CommissionBiddingScheme",
+  "CommissionRate": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

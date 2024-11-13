@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the name of a user.
 ---
 # PersonName Data Object - Customer Management
 Defines the name of a user.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PersonName" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines the name of a user.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "FirstName": "ValueHere",
+  "LastName": "ValueHere",
+  "MiddleInitial": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

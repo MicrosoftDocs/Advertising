@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible time periods that determine the pool of data that the service uses to get the performance statistics of a keyword.
 ---
 # TimeInterval Value Set - Ad Insight

@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the attribute columns that you can include in the SearchCampaignChangeHistoryReportRequest.
 ---
 # SearchCampaignChangeHistoryReportColumn Value Set - Reporting

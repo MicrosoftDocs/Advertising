@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The date range search parameter that you can include when requesting keyword ideas.
 ---
 # DateRangeSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The date range search parameter that you can include when requesting keyword ide
 
 For more information about the significance of the date range search parameter, see *MonthlySearchCounts* with the [KeywordIdea](keywordidea.md) object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DateRangeSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,25 @@ For more information about the significance of the date range search parameter, 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

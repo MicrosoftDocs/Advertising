@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the manual CPM bid strategy type.
 ---
 # ManualCpmBiddingScheme Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that represents the manual CPM bid strategy type.
 
 With the ManualCpm (manual cost per thousand) bid strategy, you set the highest amount that you'd like to pay per thousand impressions, and Microsoft Advertising uses these bids every time.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ManualCpmBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,14 @@ With the ManualCpm (manual cost per thousand) bid strategy, you set the highest 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

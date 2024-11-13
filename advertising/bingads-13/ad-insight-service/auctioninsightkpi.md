@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an auction insight key performance indicator.
 ---
 # AuctionInsightKpi Data Object - Ad Insight
 Defines an auction insight key performance indicator.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AuctionInsightKpi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,25 @@ Defines an auction insight key performance indicator.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AboveRate": DoubleValueHere,
+  "AbsoluteTopOfPageRate": DoubleValueHere,
+  "AveragePosition": DoubleValueHere,
+  "ImpressionShare": DoubleValueHere,
+  "OutrankingShare": DoubleValueHere,
+  "OverlapRate": DoubleValueHere,
+  "Segments": [
+    "ValueHere"
+  ],
+  "TopOfPageRate": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

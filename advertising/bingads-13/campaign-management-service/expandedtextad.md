@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an expanded text ad.
 ---
 # ExpandedTextAd Data Object - Campaign Management
@@ -19,7 +20,8 @@ This ad format works seamlessly on mobile, tablet and desktop devices so you can
 
 The combination of the FinalUrls, Path1, Path2, Text, TextPart2, TitlePart1, TitlePart2 and TitlePart3 elements make the expanded text ad unique. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ExpandedTextAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -38,6 +40,57 @@ The combination of the FinalUrls, Path1, Path2, Text, TextPart2, TitlePart1, Tit
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "ExpandedText",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "Domain": "ValueHere",
+  "Path1": "ValueHere",
+  "Path2": "ValueHere",
+  "Text": "ValueHere",
+  "TextPart2": "ValueHere",
+  "TitlePart1": "ValueHere",
+  "TitlePart2": "ValueHere",
+  "TitlePart3": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

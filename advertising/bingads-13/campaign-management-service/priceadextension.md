@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad extension that includes between 3 and 8 price table rows.
 ---
 # PriceAdExtension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an ad extension that includes between 3 and 8 price table rows.
 
 You can associate a price ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 price ad extensions.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PriceAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,78 @@ You can associate a price ad extension with the account or with campaigns and ad
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "PriceAdExtension",
+  "Version": IntValueHere,
+  "FinalUrlSuffix": "ValueHere",
+  "Language": "ValueHere",
+  "PriceExtensionType": "ValueHere",
+  "TableRows": [
+    {
+      "CurrencyCode": "ValueHere",
+      "Description": "ValueHere",
+      "FinalMobileUrls": [
+        "ValueHere"
+      ],
+      "FinalUrls": [
+        "ValueHere"
+      ],
+      "Header": "ValueHere",
+      "Price": DoubleValueHere,
+      "PriceQualifier": "ValueHere",
+      "PriceUnit": "ValueHere",
+      "TermsAndConditions": "ValueHere",
+      "TermsAndConditionsUrl": "ValueHere"
+    }
+  ],
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

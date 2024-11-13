@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an AudienceGroup data object.
 ---
 # AudienceGroup Data Object - Campaign Management
 Defines an AudienceGroup data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AudienceGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,27 @@ Defines an AudienceGroup data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssociationCount": IntValueHere,
+  "Description": "ValueHere",
+  "Dimensions": [
+    {
+      "Type": "Age",
+      "AgeRanges": [
+        "ValueHere"
+      ]
+    }
+  ],
+  "Id": "LongValueHere",
+  "Name": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

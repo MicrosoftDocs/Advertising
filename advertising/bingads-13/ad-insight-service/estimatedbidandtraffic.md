@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the corresponding keyword or ad group given the suggested bid.
 ---
 # EstimatedBidAndTraffic Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains estimates of clicks, average cost per click (CPC
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EstimatedBidAndTraffic" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,26 @@ Defines an object that contains estimates of clicks, average cost per click (CPC
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AverageCPC": DoubleValueHere,
+  "CTR": DoubleValueHere,
+  "CurrencyCode": "ValueHere",
+  "EstimatedMinBid": DoubleValueHere,
+  "MatchType": "ValueHere",
+  "MaxClicksPerWeek": DoubleValueHere,
+  "MaxImpressionsPerWeek": "LongValueHere",
+  "MaxTotalCostPerWeek": DoubleValueHere,
+  "MinClicksPerWeek": DoubleValueHere,
+  "MinImpressionsPerWeek": "LongValueHere",
+  "MinTotalCostPerWeek": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

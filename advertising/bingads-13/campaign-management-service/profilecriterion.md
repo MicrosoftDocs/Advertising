@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads to users in a specific company, industry, or job function.
 ---
 # ProfileCriterion Data Object - Campaign Management
@@ -27,7 +28,8 @@ The supported criteria varies by campaign type. Microsoft Advertising applies a 
 |[BiddableAdGroupCriterion](biddableadgroupcriterion.md)|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
 |[NegativeAdGroupCriterion](negativeadgroupcriterion.md)|Audience|
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProfileCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -40,6 +42,18 @@ The supported criteria varies by campaign type. Microsoft Advertising applies a 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "ProfileCriterion",
+  "ProfileId": "LongValueHere",
+  "ProfileType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

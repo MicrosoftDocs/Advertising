@@ -5,16 +5,18 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a fault object that operations such as AddAdGroupCriterions, UpdateAdGroupCriterions, SetAdExtensionsAssociations, and UpdateAdExtensions return when one or more criterion or ad extensions in your request message fail editorial review.
 ---
 # EditorialApiFaultDetail Data Object - Campaign Management
 Defines a fault object that operations such as [AddAdGroupCriterions](addadgroupcriterions.md), [UpdateAdGroupCriterions](updateadgroupcriterions.md), [SetAdExtensionsAssociations](setadextensionsassociations.md), and [UpdateAdExtensions](updateadextensions.md) return when one or more criterion or ad extensions in your request message fail editorial review.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EditorialApiFaultDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
-    <xs:extension xmlns:q29="https://adapi.microsoft.com" base="q29:ApplicationFault">
+    <xs:extension xmlns:q30="https://adapi.microsoft.com" base="q30:ApplicationFault">
       <xs:sequence>
         <xs:element minOccurs="0" name="BatchErrors" nillable="true" type="tns:ArrayOfBatchError" />
         <xs:element minOccurs="0" name="EditorialErrors" nillable="true" type="tns:ArrayOfEditorialError" />
@@ -24,6 +26,56 @@ Defines a fault object that operations such as [AddAdGroupCriterions](addadgroup
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "TrackingId": "ValueHere",
+  "Type": "EditorialApiFaultDetail",
+  "BatchErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "ErrorCode": "ValueHere",
+      "FieldPath": "ValueHere",
+      "ForwardCompatibilityMap": [
+        {
+          "key": "ValueHere",
+          "value": "ValueHere"
+        }
+      ],
+      "Index": IntValueHere,
+      "Message": "ValueHere",
+      "Type": "EditorialError",
+      "Appealable": "ValueHere",
+      "DisapprovedText": "ValueHere",
+      "Location": "ValueHere",
+      "PublisherCountry": "ValueHere",
+      "ReasonCode": IntValueHere
+    }
+  ],
+  "EditorialErrors": [
+    {
+      "Appealable": "ValueHere",
+      "DisapprovedText": "ValueHere",
+      "Location": "ValueHere",
+      "PublisherCountry": "ValueHere",
+      "ReasonCode": IntValueHere
+    }
+  ],
+  "OperationErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "ErrorCode": "ValueHere",
+      "Message": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

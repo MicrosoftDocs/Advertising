@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad extension that specifies an image with alternative text to include in an expanded text ad.
 ---
 # ImageAdExtension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an ad extension that specifies an image with alternative text to include
 
 You can associate an image ad extension with the account or with campaigns and ad groups in the account. For each account, only 1,000 campaigns and 1,000 ad groups can be associated with image ad extensions. Each entity (account, campaign, or ad group) can be associated with up to 6 image ad extensions.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ImageAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,10 +31,10 @@ You can associate an image ad extension with the account or with campaigns and a
           </xs:annotation>
         </xs:element>
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q43:ArrayOfstring" />
+        <xs:element xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q44:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q44:ArrayOfstring" />
-        <xs:element xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageMediaIds" nillable="true" type="q45:ArrayOflong" />
+        <xs:element xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q45:ArrayOfstring" />
+        <xs:element xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageMediaIds" nillable="true" type="q46:ArrayOflong" />
         <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfAssetLink">
           <xs:annotation>
             <xs:appinfo>
@@ -40,7 +42,7 @@ You can associate an image ad extension with the account or with campaigns and a
             </xs:appinfo>
           </xs:annotation>
         </xs:element>
-        <xs:element xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Layouts" nillable="true" type="q46:ArrayOfstring">
+        <xs:element xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Layouts" nillable="true" type="q47:ArrayOfstring">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -61,6 +63,100 @@ You can associate an image ad extension with the account or with campaigns and a
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "ImageAdExtension",
+  "Version": IntValueHere,
+  "AlternativeText": "ValueHere",
+  "Description": "ValueHere",
+  "DestinationUrl": "ValueHere",
+  "DisplayText": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ImageMediaIds": [
+    "LongValueHere"
+  ],
+  "Images": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Layouts": [
+    "ValueHere"
+  ],
+  "SourceType": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

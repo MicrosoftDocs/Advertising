@@ -5,22 +5,39 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a CustomerListUserData data object.
 ---
 # CustomerListUserData Data Object - Campaign Management
 Defines a CustomerListUserData data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CustomerListUserData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element name="ActionType" type="tns:CustomerListActionType" />
     <xs:element name="AudienceId" type="xs:long" />
     <xs:element name="CustomerListItemSubType" type="tns:CustomerListItemSubType" />
-    <xs:element xmlns:q129="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="CustomerListItems" nillable="true" type="q129:ArrayOfstring" />
+    <xs:element xmlns:q130="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="CustomerListItems" nillable="true" type="q130:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ActionType": "ValueHere",
+  "AudienceId": "LongValueHere",
+  "CustomerListItems": [
+    "ValueHere"
+  ],
+  "CustomerListItemSubType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

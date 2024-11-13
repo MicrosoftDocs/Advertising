@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the VerifiedTrackingSetting Data Object.
 ---
 # VerifiedTrackingSetting Data Object - Campaign Management
@@ -17,7 +18,8 @@ Defines the VerifiedTrackingSetting Data Object.
 >
 > Currently, IAS is the only supported vendor (*vendorName*), but other verification providers are coming soon.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="VerifiedTrackingSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,22 @@ Defines the VerifiedTrackingSetting Data Object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "VerifiedTrackingSetting",
+  "Details": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

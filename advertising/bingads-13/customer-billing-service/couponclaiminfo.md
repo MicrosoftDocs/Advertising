@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object containing coupon claim information.
 ---
 # CouponClaimInfo Data Object - Customer Billing
 Defines an object containing coupon claim information.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CouponClaimInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines an object containing coupon claim information.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountNumber": "ValueHere",
+  "ClaimDate": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

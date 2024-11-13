@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that provides parameter information for an entity.
 ---
 # EntityParameter Data Object - Ad Insight
 Defines an object that provides parameter information for an entity.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EntityParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,25 @@ Defines an object that provides parameter information for an entity.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Entities",
+  "EntityCount": IntValueHere,
+  "EntityDetails": [
+    {
+      "EntityId": "LongValueHere",
+      "EntityName": "ValueHere"
+    }
+  ],
+  "EntityType": "ValueHere",
+  "SuggestedText": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

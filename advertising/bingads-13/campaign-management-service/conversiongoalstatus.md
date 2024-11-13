@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible user-determined status values of a conversion goal.
 ---
 # ConversionGoalStatus Value Set - Campaign Management

@@ -5,6 +5,8 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
+zone_pivot_groups: api-reference
 description: Gets the number of times the normalized term was used in a search during the specified time period.
 dev_langs: 
 - csharp
@@ -14,6 +16,8 @@ dev_langs:
 ---
 # GetHistoricalSearchCount Service Operation - Ad Insight
 Gets the number of times the normalized term was used in a search during the specified time period. The results are aggregated by device type.
+
+::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
 The *GetHistoricalSearchCountRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -296,4 +300,288 @@ Here is a table of languages and country/region mapping:
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  
-Namespace: https\://bingads.microsoft.com/AdInsight/v13
+Namespace: https\://bingads.microsoft.com/AdInsight/v13  
+
+::: zone-end
+
+::: zone pivot="rest"
+
+## <a name="url"></a>Request Url
+
+# [Production URL](#tab/prod)
+
+```POST
+https://adinsight.api.bingads.microsoft.com/AdInsight/v13/HistoricalSearchCount/Query
+```
+
+# [Sandbox URL](#tab/sandbox)
+
+```POST
+https://adinsight.api.sandbox.bingads.microsoft.com/AdInsight/v13/HistoricalSearchCount/Query
+```
+
+-----
+
+## <a name="request"></a>Request Elements
+The *GetHistoricalSearchCountRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request.
+
+> [!NOTE]
+> Unless otherwise noted below, all request elements are required.
+
+### <a name="request-body"></a>Request Body Elements
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="devices"></a>Devices|A list of one or more of the following device types: Computers, NonSmartphones, Smartphones, Tablets. The default is Computers.<br/><br/>The response includes search counts for the device types that you specify only, if available.|**string** array|
+|<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the historical search count.<br/><br/>The date cannot be later than today's date, and must be later than or the same as the specified start date.<br/><br/>The effective end date may be adjusted if the specified [TimePeriodRollup](#timeperiodrollup) is Weekly or Monthly.|[DayMonthAndYear](daymonthandyear.md)|
+|<a name="keywords"></a>Keywords|An array of keywords for which you want to determine the number of times that the keyword was used in a search query. The array can contain a maximum of 1,000 keywords, and each keyword can contain a maximum of 100 characters.|**string** array|
+|<a name="language"></a>Language|The language in which the keywords are written.<br/><br/>The countries/regions that you specify in the *PublisherCountries* element must support the specified language.<br/><br/>For possible values, see [Supported Languages](#supported-languages).|**string**|
+|<a name="publishercountries"></a>PublisherCountries|The country codes of the countries/regions to use as the source of the historical data.<br/><br/>You can specify one or more country codes. Each country/region that you specify must support the language specified in the *Language* element.<br/><br/>For possible values, see [Ad Languages](../guides/ad-languages.md#productlanguage).<br/><br/>If Null, the default is all countries/regions that support the specified language.|**string** array|
+|<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the historical search count.<br/><br/>This date must be earlier than or the same as the specified end date. The date should be later than the maximum available historical data range corresponding to the specified [TimePeriodRollup](#timeperiodrollup) element.<br/><br/>The effective start date may be adjusted if the specified [TimePeriodRollup](#timeperiodrollup) is Weekly or Monthly.|[DayMonthAndYear](daymonthandyear.md)|
+|<a name="timeperiodrollup"></a>TimePeriodRollup|You may specify whether to return data aggregated daily, weekly, or monthly.<br/><br/>For a list of supported values, see the [Remarks](#remarks) section below.|**string**|
+
+### <a name="request-header"></a>Request Header Elements
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
+
+## <a name="response"></a>Response Elements
+The *GetHistoricalSearchCountResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).
+
+### <a name="response-body"></a>Response Body Elements
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="keywordsearchcounts"></a>KeywordSearchCounts|An array of [KeywordSearchCount](keywordsearchcount.md) data objects. The array contains an item for each keyword specified in the request. If the keyword is not valid, the corresponding item in the array will be null.<br/><br/>Each [KeywordSearchCount](keywordsearchcount.md) contains an array of [SearchCountsByAttributes](searchcountsbyattributes.md).  The array contains an item for each unique device specified in the request.|[KeywordSearchCount](keywordsearchcount.md) array|
+
+### <a name="response-header"></a>Response Header Elements
+[!INCLUDE[response-header](./includes/response-header.md)]
+
+## <a name="request-json"></a>Request JSON
+This template was generated by a tool to show the [body](#request-body) and [header](#request-header) elements for the JSON request. For supported types that you can use with this service operation, see the [Request Body Elements](#request-body) reference above.
+
+```json
+{
+  "Keywords": [
+    "ValueHere"
+  ],
+  "Language": "ValueHere",
+  "PublisherCountries": [
+    "ValueHere"
+  ],
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "TimePeriodRollup": "ValueHere",
+  "Devices": [
+    "ValueHere"
+  ]
+}
+```
+
+## <a name="response-json"></a>Response JSON
+This template was generated by a tool to show the [body](#response-body) and [header](#response-header) elements for the JSON response.
+
+```json
+{
+  "KeywordSearchCounts": [
+    {
+      "Keyword": "ValueHere",
+      "SearchCountsByAttributes": [
+        {
+          "Device": "ValueHere",
+          "HistoricalSearchCounts": [
+            {
+              "DayMonthAndYear": {
+                "Day": IntValueHere,
+                "Month": IntValueHere,
+                "Year": IntValueHere
+              },
+              "SearchCount": "LongValueHere"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+## <a name="example"></a>Code Syntax
+To call REST API through SDKs, you need to upgrade SDK to a certain version and configure the system parameters.The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md).
+See [Bing Ads API Code Examples](../guides/code-examples.md) for more examples.
+```csharp
+public async Task<GetHistoricalSearchCountResponse> GetHistoricalSearchCountAsync(
+	IList<string> keywords,
+	string language,
+	IList<string> publisherCountries,
+	DayMonthAndYear startDate,
+	DayMonthAndYear endDate,
+	string timePeriodRollup,
+	IList<string> devices)
+{
+	var request = new GetHistoricalSearchCountRequest
+	{
+		Keywords = keywords,
+		Language = language,
+		PublisherCountries = publisherCountries,
+		StartDate = startDate,
+		EndDate = endDate,
+		TimePeriodRollup = timePeriodRollup,
+		Devices = devices
+	};
+
+	return (await AdInsightService.CallAsync((s, r) => s.GetHistoricalSearchCountAsync(r), request));
+}
+```
+```java
+static GetHistoricalSearchCountResponse getHistoricalSearchCount(
+	ArrayOfstring keywords,
+	java.lang.String language,
+	ArrayOfstring publisherCountries,
+	DayMonthAndYear startDate,
+	DayMonthAndYear endDate,
+	java.lang.String timePeriodRollup,
+	ArrayOfstring devices) throws RemoteException, Exception
+{
+	GetHistoricalSearchCountRequest request = new GetHistoricalSearchCountRequest();
+
+	request.setKeywords(keywords);
+	request.setLanguage(language);
+	request.setPublisherCountries(publisherCountries);
+	request.setStartDate(startDate);
+	request.setEndDate(endDate);
+	request.setTimePeriodRollup(timePeriodRollup);
+	request.setDevices(devices);
+
+	return AdInsightService.getService().getHistoricalSearchCount(request);
+}
+```
+```php
+static function GetHistoricalSearchCount(
+	$keywords,
+	$language,
+	$publisherCountries,
+	$startDate,
+	$endDate,
+	$timePeriodRollup,
+	$devices)
+{
+
+	$GLOBALS['Proxy'] = $GLOBALS['AdInsightProxy'];
+
+	$request = new GetHistoricalSearchCountRequest();
+
+	$request->Keywords = $keywords;
+	$request->Language = $language;
+	$request->PublisherCountries = $publisherCountries;
+	$request->StartDate = $startDate;
+	$request->EndDate = $endDate;
+	$request->TimePeriodRollup = $timePeriodRollup;
+	$request->Devices = $devices;
+
+	return $GLOBALS['AdInsightProxy']->GetService()->GetHistoricalSearchCount($request);
+}
+```
+```python
+response=adinsight_service.GetHistoricalSearchCount(
+	Keywords=Keywords,
+	Language=Language,
+	PublisherCountries=PublisherCountries,
+	StartDate=StartDate,
+	EndDate=EndDate,
+	TimePeriodRollup=TimePeriodRollup,
+	Devices=Devices)
+```
+
+## <a name="remarks"></a>Remarks
+The following case-sensitive values may be specified, and data will be returned as far back as the corresponding maximum available historical data range.
+
+|TimePeriodRollup|Available Historical Data|
+|--------------------|-----------------------------|
+|Daily|Up to 45 days prior to the most recent completed day.|
+|Weekly|Up to 15 weeks prior to the most recent completed week.<br/><br/>The specified [StartDate](#startdate) is adjusted back to the nearest Sunday, and the [EndDate](#enddate) is adjusted forward to the nearest Saturday.|
+|Monthly|Up to 24 months prior to the most recent completed month.<br/><br/>The specified [StartDate](#startdate) is adjusted back to the beginning of the month, and the [EndDate](#enddate) is adjusted forward to the end of the month.|
+
+### Supported Languages
+Here are the supported languages for the *Language* request body element:
+
+|Supported Languages|
+|--------------------|
+|Danish|
+|Dutch|
+|English|
+|Finnish|
+|French|
+|German|
+|Italian|
+|Norwegian|
+|Portuguese|
+|SimplifiedChinese|
+|Spanish|
+|Swedish|
+|TraditionalChinese|
+
+#### <a name="languages-and-country-mapping"></a>Languages and Country/Region Mapping
+Here is a table of languages and country/region mapping:
+
+|Language|CountryCode|Country/Region|Language@Country|
+|--------------------|-----|--------------------------|--------------------|
+|Danish|DK|Denmark|	Danish@Denmark|
+|Dutch|NL|Netherlands|Dutch@Netherlands|
+|English|AU|Australia|English@Australia|
+|English|CA|Canada|English@Canada|
+|English|FR|France|English@France|
+|English|DE|Germany|English@Germany|
+|English|IN|India|English@India|
+|English|ID|Indonesia|English@Indonesia|
+|English|IE|Ireland|English@Ireland|
+|English|IT|Italy|English@Italy|
+|English|MY|Malaysia|English@Malaysia|
+|English|NL|Netherlands|English@Netherlands|
+|English|NZ|NewZealand|English@NewZealand|
+|English|PH|Philippines|English@Philippines|
+|English|SG|Singapore|English@Singapore|
+|English|ES|Spain|English@Spain|
+|English|SE|Sweden|English@Sweden|
+|English|CH|Switzerland|English@Switzerland|
+|English|TH|Thailand|English@Thailand|
+|English|GB|United Kingdom|English@UK|
+|English|US|United States|English@US|
+|English|VN|Vietnam|English@Vietnam|
+|Finnish|FI|Finland|Finnish@Finland|
+|French|CA|Canada|French@Canada|
+|French|FR|France|French@France|
+|French|CH|Switzerland|French@Switzerland|
+|French|GB|United Kingdom|French@UK|
+|French|US|United States|French@US|
+|German|AU|Australia|German@Australia|
+|German|AT|Austria|German@Austria|
+|German|CA|Canada|German@Canada|
+|German|FR|France|German@France|
+|German|DE|Germany|German@Germany|
+|German|CH|Switzerland|German@Switzerland|
+|German|GB|United Kingdom|German@UK|
+|German|US|United States|German@US|
+|Italian|IT|Italy|Italian@Italy|
+|Norwegian|NO|Norway|Norwegian@Norway|
+|Portuguese|BR|Brazil|Portuguese@Brazil|
+|SimplifiedChinese|CN|China|SimplifiedChinese@China|
+|Spanish|AR|Argentina|Spanish@Argentina|
+|Spanish|CL|Chile|Spanish@Chile|
+|Spanish|CO|Colombia|Spanish@Colombia|
+|Spanish|MX|Mexico|Spanish@Mexico|
+|Spanish|PE|Peru|Spanish@Peru|
+|Spanish|ES|Spain|Spanish@Spain|
+|Spanish|US|US|Spanish@US|
+|Spanish|VE|Venezuela|Spanish@Venezuela|
+|Swedish|SE|Sweden|Swedish@Sweden|
+|TraditionalChinese|HK|HongKongSAR|TraditionalChinese@HongKongSAR|
+|TraditionalChinese|TW|Taiwan|TraditionalChinese@Taiwan|
+
+::: zone-end

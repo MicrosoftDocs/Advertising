@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the identified media and an associated entity, for example media associated with an ad group.
 ---
 # MediaAssociation Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that represents the identified media and an associated entity,
 
 You can get this object by calling [GetMediaAssociations](getmediaassociations.md), and then use the media identifier with [GetMediaMetaDataByIds](getmediametadatabyids.md), for example.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="MediaAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,18 @@ You can get this object by calling [GetMediaAssociations](getmediaassociations.m
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "EntityId": "LongValueHere",
+  "MediaEnabledEntity": "ValueHere",
+  "MediaId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

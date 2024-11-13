@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Apply a recommendation.
 ---
 # ApplyRecommendationEntity Data Object - Ad Insight
 Apply a recommendation.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ApplyRecommendationEntity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Apply a recommendation.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "RecommendationId": "ValueHere",
+  "RecommendationType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

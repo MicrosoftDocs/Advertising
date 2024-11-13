@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the types of changes to entities by which you can filter the report data.
 ---
 # ChangeTypeReportFilter Value Set - Reporting

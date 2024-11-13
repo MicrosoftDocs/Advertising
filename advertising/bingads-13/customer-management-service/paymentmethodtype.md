@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines possible payment methods for a Microsoft Advertising account.
 ---
 # PaymentMethodType Value Set - Customer Management

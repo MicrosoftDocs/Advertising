@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the goals and funnels report data.
 ---
 # GoalsAndFunnelsReportFilter Data Object - Reporting
 Defines the criteria to use to filter the goals and funnels report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="GoalsAndFunnelsReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -25,6 +27,25 @@ Defines the criteria to use to filter the goals and funnels report data.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdDistribution": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "CampaignStatus": "ValueHere",
+  "DeviceOS": "ValueHere",
+  "DeviceType": "ValueHere",
+  "GoalIds": [
+    "LongValueHere"
+  ],
+  "KeywordStatus": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

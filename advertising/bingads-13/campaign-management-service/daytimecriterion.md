@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads to users during a specific day and time range.
 ---
 # DayTimeCriterion Data Object - Campaign Management
@@ -15,7 +16,8 @@ The *DayTimeCriterion* criterion can be included within [BiddableAdGroupCriterio
 > [!NOTE]
 > You cannot modify the [Day](#day), [FromHour](#fromhour), [FromMinute](#fromminute), [ToHour](#tohour), or [ToMinute](#tominute) values for an existing criterion. To modify the day and time ranges, you must delete the criterion and add a new criterion. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DayTimeCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -31,6 +33,21 @@ The *DayTimeCriterion* criterion can be included within [BiddableAdGroupCriterio
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "DayTimeCriterion",
+  "Day": "ValueHere",
+  "FromHour": IntValueHere,
+  "FromMinute": "ValueHere",
+  "ToHour": IntValueHere,
+  "ToMinute": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

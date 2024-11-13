@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a customer or account that can use the shared audience or UET tag.
 ---
 # CustomerAccountShare Data Object - Campaign Management
@@ -13,7 +14,8 @@ Defines a customer or account that can use the shared audience or UET tag.
 > [!TIP]
 > For an overview of sharing audiences and UET tags in an [account hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy), see the [Share Audiences and UET Tags](../guides/universal-event-tracking.md#hierarchy-share) technical guide. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CustomerAccountShare" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,23 @@ Defines a customer or account that can use the shared audience or UET tag.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "Associations": [
+    {
+      "AssociationCount": "LongValueHere",
+      "UsageType": "ValueHere"
+    }
+  ],
+  "CustomerId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

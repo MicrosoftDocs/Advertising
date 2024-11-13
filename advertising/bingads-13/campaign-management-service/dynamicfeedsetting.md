@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the DynamicFeedSetting Data Object.
 ---
 # DynamicFeedSetting Data Object - Campaign Management
 Defines the DynamicFeedSetting Data Object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DynamicFeedSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,17 @@ Defines the DynamicFeedSetting Data Object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "DynamicFeedSetting",
+  "FeedId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

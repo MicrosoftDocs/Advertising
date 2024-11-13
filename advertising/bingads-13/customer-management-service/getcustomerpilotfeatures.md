@@ -5,6 +5,8 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
+zone_pivot_groups: api-reference
 description: Gets a list of the feature pilot IDs that are enabled for all ad accounts owned by a customer (manager account).
 dev_langs: 
 - csharp
@@ -19,6 +21,8 @@ Gets a list of the feature pilot IDs that are enabled for all ad accounts owned 
 > A pilot flag might only be enabled for a subset of ad accounts under a customer. Use the [GetAccountPilotFeatures](getaccountpilotfeatures.md) operation to get ad account level feature pilot IDs.  
 > 
 > Please note [GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) might also return account level pilot IDs for internal use; however, for account level pilots you should ignore the results of [GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md).  
+
+::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
 The *GetCustomerPilotFeaturesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -131,3 +135,116 @@ response=customermanagement_service.GetCustomerPilotFeatures(
 Service: [CustomerManagementService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/Customer/v13  
 
+::: zone-end
+
+::: zone pivot="rest"
+
+## <a name="url"></a>Request Url
+
+# [Production URL](#tab/prod)
+
+```POST
+https://clientcenter.api.bingads.microsoft.com/CustomerManagement/v13/CustomerPilotFeatures/Query
+```
+
+# [Sandbox URL](#tab/sandbox)
+
+```POST
+https://clientcenter.api.sandbox.bingads.microsoft.com/CustomerManagement/v13/CustomerPilotFeatures/Query
+```
+
+-----
+
+## <a name="request"></a>Request Elements
+The *GetCustomerPilotFeaturesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request.
+
+> [!NOTE]
+> Unless otherwise noted below, all request elements are required.
+
+### <a name="request-body"></a>Request Body Elements
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="customerid"></a>CustomerId|The identifier of the customer used to get a list of feature pilot IDs.|**long**|
+
+### <a name="request-header"></a>Request Header Elements
+[!INCLUDE[request-header](./includes/request-header-rest.md)]
+
+## <a name="response"></a>Response Elements
+The *GetCustomerPilotFeaturesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response JSON](#response-json).
+
+### <a name="response-body"></a>Response Body Elements
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="featurepilotflags"></a>FeaturePilotFlags|A list of integers that identify the feature pilots that are enabled for all accounts owned by a customer (manager account).<br/><br/>For more information about pilot participation please contact your account manager.<br/><br/>For example the following values correspond to customer level feature pilots.<br/><br/>78 - Call Tracking<br/><br/>268 - Dynamic Search Ads<br/><br/>317 - Similar Remarketing Lists<br/><br/>351 - Local Inventory Ads<br/><br/>388 - Microsoft Audience Network<br/><br/>567 - Azure AD Work and School Accounts<br/><br/>574 - Include in Conversions<br/><br/>579 - Customer List Audience<br/><br/>600 - Dynamic Search Ads Text Part 2<br/><br/>616 - View-through conversions<br/><br/>618 - Combined List Audience<br/><br/>626 - Multi-Image Ad Extensions<br/><br/>635 - Custom Parameters Limit Increase Phase 3<br/><br/>636 - Final Url Suffix Phase 3<br/><br/>637 - Cookie-Based Experiments<br/><br/>684 - Shopping Campaigns for Brands<br/><br/>704 - Target ROAS Bid Strategy Type in UK/CA/AU/DE/FR<br/><br/>718 - Smart Shopping Campaigns<br/><br/>720 - Promotion Ad Extensions<br/><br/>721 - Target ROAS Bid Strategy Type in US<br/><br/>734 - Google Import As A Service<br/><br/>762 - Target Impression Share Bid Strategy Type<br/><br/>764 - Site Property Promotion Ad for Hotels<br/><br/>777 - Responsive Ads for Smart Shopping Campaigns<br/><br/>793 - Create Accounts on Behalf of Client<br/><br/>802 - Flyer Ad Extensions<br/><br/>Please note the list of pilot IDs might also include [account level pilot IDs](getaccountpilotfeatures.md#featurepilotflags) for internal use. You should ignore account level pilot IDs returned by this operation and use the [GetAccountPilotFeatures](getaccountpilotfeatures.md) operation instead.|**int** array|
+
+### <a name="response-header"></a>Response Header Elements
+[!INCLUDE[response-header](./includes/response-header.md)]
+
+## <a name="request-json"></a>Request JSON
+This template was generated by a tool to show the [body](#request-body) and [header](#request-header) elements for the JSON request. For supported types that you can use with this service operation, see the [Request Body Elements](#request-body) reference above.
+
+```json
+{
+  "CustomerId": "LongValueHere"
+}
+```
+
+## <a name="response-json"></a>Response JSON
+This template was generated by a tool to show the [body](#response-body) and [header](#response-header) elements for the JSON response.
+
+```json
+{
+  "FeaturePilotFlags": [
+    IntValueHere
+  ]
+}
+```
+
+## <a name="example"></a>Code Syntax
+To call REST API through SDKs, you need to upgrade SDK to a certain version and configure the system parameters.The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md).
+See [Bing Ads API Code Examples](../guides/code-examples.md) for more examples.
+```csharp
+public async Task<GetCustomerPilotFeaturesResponse> GetCustomerPilotFeaturesAsync(
+	long customerId)
+{
+	var request = new GetCustomerPilotFeaturesRequest
+	{
+		CustomerId = customerId
+	};
+
+	return (await CustomerManagementService.CallAsync((s, r) => s.GetCustomerPilotFeaturesAsync(r), request));
+}
+```
+```java
+static GetCustomerPilotFeaturesResponse getCustomerPilotFeatures(
+	java.lang.Long customerId) throws RemoteException, Exception
+{
+	GetCustomerPilotFeaturesRequest request = new GetCustomerPilotFeaturesRequest();
+
+	request.setCustomerId(customerId);
+
+	return CustomerManagementService.getService().getCustomerPilotFeatures(request);
+}
+```
+```php
+static function GetCustomerPilotFeatures(
+	$customerId)
+{
+
+	$GLOBALS['Proxy'] = $GLOBALS['CustomerManagementProxy'];
+
+	$request = new GetCustomerPilotFeaturesRequest();
+
+	$request->CustomerId = $customerId;
+
+	return $GLOBALS['CustomerManagementProxy']->GetService()->GetCustomerPilotFeatures($request);
+}
+```
+```python
+response=customermanagement_service.GetCustomerPilotFeatures(
+	CustomerId=CustomerId)
+```
+
+::: zone-end

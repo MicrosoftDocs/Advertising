@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the predefined time and date range values for a report request.
 ---
 # ReportTimePeriod Value Set - Reporting

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the start and end date ranges for ad extension scheduling.
 ---
 # Schedule Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines the start and end date ranges for ad extension scheduling.
 
 Use the *StartDate* and *EndDate* elements for calendar level scheduling, and then use *DayTimeRanges* to limit scheduling by day of the week, hour, and minute. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Schedule" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,35 @@ Use the *StartDate* and *EndDate* elements for calendar level scheduling, and th
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DayTimeRanges": [
+    {
+      "Day": "ValueHere",
+      "EndHour": IntValueHere,
+      "EndMinute": "ValueHere",
+      "StartHour": IntValueHere,
+      "StartMinute": "ValueHere"
+    }
+  ],
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "UseSearcherTimeZone": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

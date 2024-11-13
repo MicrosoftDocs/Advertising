@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: This is the base class from which keyword idea search parameter objects derive.
 ---
 # SearchParameter Data Object - Ad Insight

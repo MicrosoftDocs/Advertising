@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the Video Data Object.
 ---
 # Video Data Object - Campaign Management
@@ -13,7 +14,8 @@ Defines the Video Data Object.
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Video" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,26 @@ Defines the Video Data Object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AspectRatio": "ValueHere",
+  "CreatedDateTimeInUTC": "ValueHere",
+  "Description": "ValueHere",
+  "DurationInMilliseconds": IntValueHere,
+  "FailureCode": "ValueHere",
+  "Id": "LongValueHere",
+  "ModifiedDateTimeInUTC": "ValueHere",
+  "SourceUrl": "ValueHere",
+  "Status": "ValueHere",
+  "ThumbnailUrl": "ValueHere",
+  "Url": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -56,5 +78,6 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AddVideos](addvideos.md)  
+[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md)  
 [GetVideosByIds](getvideosbyids.md)  
 [UpdateVideos](updatevideos.md)  

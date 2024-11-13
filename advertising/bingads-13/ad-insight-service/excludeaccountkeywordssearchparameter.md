@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The exclude account keywords search parameter filter that you can include when requesting keyword ideas.
 ---
 # ExcludeAccountKeywordsSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The exclude account keywords search parameter filter that you can include when r
 
 If you do not include the exclude account keywords search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned whether or not they already exist in your account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ExcludeAccountKeywordsSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,16 @@ If you do not include the exclude account keywords search parameter when calling
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ExcludeAccountKeywords": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the VideoAsset Data Object.
 ---
 # VideoAsset Data Object - Campaign Management
 Defines the VideoAsset Data Object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="VideoAsset" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,28 @@ Defines the VideoAsset Data Object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "VideoAsset",
+  "SubType": "ValueHere",
+  "ThumbnailImage": {
+    "CropHeight": IntValueHere,
+    "CropWidth": IntValueHere,
+    "CropX": IntValueHere,
+    "CropY": IntValueHere,
+    "SubType": "ValueHere",
+    "TargetHeight": IntValueHere,
+    "TargetWidth": IntValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

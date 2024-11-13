@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible age range values that you can use to target ads to people.
 ---
 # AgeRange Value Set - Campaign Management

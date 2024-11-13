@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the action to apply to a BiddableAdGroupCriterion or NegativeAdGroupCriterion, specifically one that contains a ProductPartition.
 ---
 # AdGroupCriterionAction Data Object - Campaign Management
 Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), specifically one that contains a [ProductPartition](productpartition.md). You can send a group of [AdGroupCriterionAction](adgroupcriterionaction.md) objects, also known as a product group, to the [ApplyProductPartitionActions](applyproductpartitionactions.md) service operation.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroupCriterionAction" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,58 @@ Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcrite
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Action": "ValueHere",
+  "AdGroupCriterion": {
+    "AdGroupId": "LongValueHere",
+    "Criterion": {
+      "Type": "AgeCriterion",
+      "AgeRange": "ValueHere"
+    },
+    "Id": "LongValueHere",
+    "Status": "ValueHere",
+    "Type": "BiddableAdGroupCriterion",
+    "CriterionBid": {
+      "Type": "BidMultiplier",
+      "Multiplier": DoubleValueHere
+    },
+    "CriterionCashback": {
+      "Type": "CashbackAdjustment",
+      "CashbackPercent": DoubleValueHere
+    },
+    "DestinationUrl": "ValueHere",
+    "EditorialStatus": "ValueHere",
+    "FinalAppUrls": [
+      {
+        "OsType": "ValueHere",
+        "Url": "ValueHere"
+      }
+    ],
+    "FinalMobileUrls": [
+      "ValueHere"
+    ],
+    "FinalUrls": [
+      "ValueHere"
+    ],
+    "FinalUrlSuffix": "ValueHere",
+    "TrackingUrlTemplate": "ValueHere",
+    "UrlCustomParameters": {
+      "Parameters": [
+        {
+          "Key": "ValueHere",
+          "Value": "ValueHere"
+        }
+      ]
+    }
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

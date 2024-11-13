@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the auction insight results from calling the GetAuctionInsightData operation.
 ---
 # AuctionInsightResult Data Object - Ad Insight
 Defines the auction insight results from calling the [GetAuctionInsightData](getauctioninsightdata.md) operation.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AuctionInsightResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,51 @@ Defines the auction insight results from calling the [GetAuctionInsightData](get
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Entries": [
+    {
+      "AggregatedKpi": {
+        "AboveRate": DoubleValueHere,
+        "AbsoluteTopOfPageRate": DoubleValueHere,
+        "AveragePosition": DoubleValueHere,
+        "ImpressionShare": DoubleValueHere,
+        "OutrankingShare": DoubleValueHere,
+        "OverlapRate": DoubleValueHere,
+        "Segments": [
+          "ValueHere"
+        ],
+        "TopOfPageRate": DoubleValueHere
+      },
+      "DisplayDomain": "ValueHere",
+      "SegmentedKpis": [
+        {
+          "AboveRate": DoubleValueHere,
+          "AbsoluteTopOfPageRate": DoubleValueHere,
+          "AveragePosition": DoubleValueHere,
+          "ImpressionShare": DoubleValueHere,
+          "OutrankingShare": DoubleValueHere,
+          "OverlapRate": DoubleValueHere,
+          "Segments": [
+            "ValueHere"
+          ],
+          "TopOfPageRate": DoubleValueHere
+        }
+      ]
+    }
+  ],
+  "Segments": [
+    "ValueHere"
+  ],
+  "UsedImpressions": DoubleValueHere,
+  "UsedKeywords": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains search query statistics of including broad match type keyword bids.
 ---
 # BroadMatchSearchQueryKPI Data Object - Ad Insight
 Defines an object that contains search query statistics of including broad match type keyword bids.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BroadMatchSearchQueryKPI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,20 @@ Defines an object that contains search query statistics of including broad match
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AverageCTR": DoubleValueHere,
+  "Clicks": DoubleValueHere,
+  "Impressions": "LongValueHere",
+  "SearchQuery": "ValueHere",
+  "SRPV": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

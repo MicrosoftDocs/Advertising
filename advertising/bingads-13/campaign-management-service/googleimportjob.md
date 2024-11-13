@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Google import job that can be run once or scheduled on a recurring basis.
 ---
 # GoogleImportJob Data Object - Campaign Management
@@ -20,7 +21,8 @@ An account can have up to 100 scheduled Google import jobs.
 > [!TIP]
 > For an implementation overview, see the [Google Ads Import](../guides/google-ads-import.md) technical guide.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="GoogleImportJob" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -35,6 +37,170 @@ An account can have up to 100 scheduled Google import jobs.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CreatedByUserId": "LongValueHere",
+  "CreatedByUserName": "ValueHere",
+  "CreatedDateTimeInUTC": "ValueHere",
+  "Frequency": {
+    "Cron": "ValueHere",
+    "TimeZone": "ValueHere",
+    "Type": "ValueHere"
+  },
+  "Id": "LongValueHere",
+  "ImportOption": {
+    "ForwardCompatibilityMap": [
+      {
+        "key": "ValueHere",
+        "value": "ValueHere"
+      }
+    ],
+    "Type": "GoogleImportOption",
+    "AccountUrlOptions": "ValueHere",
+    "AdjustmentForBids": DoubleValueHere,
+    "AdjustmentForCampaignBudgets": DoubleValueHere,
+    "AdScheduleUseSearcherTimezone": "ValueHere",
+    "AssociatedStoreId": "LongValueHere",
+    "AssociatedUetTagId": "LongValueHere",
+    "AutoDeviceBidOptimization": "ValueHere",
+    "DeleteRemovedEntities": "ValueHere",
+    "EnableAutoCurrencyConversion": "ValueHere",
+    "EnableParentLocationMapping": "ValueHere",
+    "NewAccountNegativeKeywords": "ValueHere",
+    "NewActiveAdsForExistingAdGroups": "ValueHere",
+    "NewActiveCampaignsAndChildEntities": "ValueHere",
+    "NewAdCustomizerFeeds": "ValueHere",
+    "NewAdGroupsAndChildEntitiesForExistingCampaigns": "ValueHere",
+    "NewAdSchedules": "ValueHere",
+    "NewAppAdExtensions": "ValueHere",
+    "NewAudienceTargets": "ValueHere",
+    "NewBrandSuitability": "ValueHere",
+    "NewCallAdExtensions": "ValueHere",
+    "NewCalloutAdExtensions": "ValueHere",
+    "NewConversionGoals": "ValueHere",
+    "NewDemographicTargets": "ValueHere",
+    "NewDeviceTargets": "ValueHere",
+    "NewEntities": "ValueHere",
+    "NewImageAdExtensions": "ValueHere",
+    "NewKeywordsForExistingAdGroups": "ValueHere",
+    "NewKeywordUrls": "ValueHere",
+    "NewLabels": "ValueHere",
+    "NewLeadFormAdExtensions": "ValueHere",
+    "NewLocationAdExtensions": "ValueHere",
+    "NewLocationTargets": "ValueHere",
+    "NewLogoAdExtensions": "ValueHere",
+    "NewNegativeKeywordLists": "ValueHere",
+    "NewNegativeKeywordsForExistingParents": "ValueHere",
+    "NewNegativeSites": "ValueHere",
+    "NewPageFeeds": "ValueHere",
+    "NewPausedAdsForExistingAdGroups": "ValueHere",
+    "NewPausedCampaignsAndChildEntities": "ValueHere",
+    "NewPriceAdExtensions": "ValueHere",
+    "NewProductFilters": "ValueHere",
+    "NewPromotionAdExtensions": "ValueHere",
+    "NewReviewAdExtensions": "ValueHere",
+    "NewSitelinkAdExtensions": "ValueHere",
+    "NewStructuredSnippetAdExtensions": "ValueHere",
+    "NewUrlOptions": "ValueHere",
+    "PauseAIMAdGroupIfAllAudienceCriterionNotImported": "ValueHere",
+    "PauseCampaignsWithoutSupportedLocations": "ValueHere",
+    "PauseNewCampaigns": "ValueHere",
+    "RaiseBidsToMinimum": "ValueHere",
+    "RaiseCampaignBudgetsToMinimum": "ValueHere",
+    "RaiseProductGroupBidsToMinimum": "ValueHere",
+    "RenameCampaignNameWithSuffix": "ValueHere",
+    "SearchAndDsaMixedCampaignAsSearchCampaign": "ValueHere",
+    "SearchAndReplaceForCampaignNames": {
+      "ReplaceString": "ValueHere",
+      "SearchString": "ValueHere"
+    },
+    "SearchAndReplaceForCustomParameters": {
+      "ReplaceString": "ValueHere",
+      "SearchString": "ValueHere"
+    },
+    "SearchAndReplaceForFinalURLSuffix": {
+      "ReplaceString": "ValueHere",
+      "SearchString": "ValueHere"
+    },
+    "SearchAndReplaceForTrackingTemplates": {
+      "ReplaceString": "ValueHere",
+      "SearchString": "ValueHere"
+    },
+    "SearchAndReplaceForUrls": {
+      "ReplaceString": "ValueHere",
+      "SearchString": "ValueHere"
+    },
+    "SuffixForCampaignNames": "ValueHere",
+    "SuffixForTrackingTemplates": "ValueHere",
+    "SuffixForUrls": "ValueHere",
+    "UpdateAccountNegativeKeywords": "ValueHere",
+    "UpdateAdCustomizerAttributes": "ValueHere",
+    "UpdateAdCustomizerFeeds": "ValueHere",
+    "UpdateAdGroupNetwork": "ValueHere",
+    "UpdateAdSchedules": "ValueHere",
+    "UpdateAdUrls": "ValueHere",
+    "UpdateAppAdExtensions": "ValueHere",
+    "UpdateAudienceTargets": "ValueHere",
+    "UpdateBiddingStrategies": "ValueHere",
+    "UpdateBids": "ValueHere",
+    "UpdateBrandSuitability": "ValueHere",
+    "UpdateCallAdExtensions": "ValueHere",
+    "UpdateCalloutAdExtensions": "ValueHere",
+    "UpdateCampaignAdGroupLanguages": "ValueHere",
+    "UpdateCampaignBudgets": "ValueHere",
+    "UpdateCampaignNames": "ValueHere",
+    "UpdateConversionGoals": "ValueHere",
+    "UpdateDemographicTargets": "ValueHere",
+    "UpdateDeviceTargets": "ValueHere",
+    "UpdateEntities": "ValueHere",
+    "UpdateImageAdExtensions": "ValueHere",
+    "UpdateKeywordUrls": "ValueHere",
+    "UpdateLabels": "ValueHere",
+    "UpdateLeadFormAdExtensions": "ValueHere",
+    "UpdateLocationAdExtensions": "ValueHere",
+    "UpdateLocationTargets": "ValueHere",
+    "UpdateLogoAdExtensions": "ValueHere",
+    "UpdateNegativeKeywordLists": "ValueHere",
+    "UpdateNegativeSites": "ValueHere",
+    "UpdatePageFeeds": "ValueHere",
+    "UpdatePriceAdExtensions": "ValueHere",
+    "UpdateProductFilters": "ValueHere",
+    "UpdatePromotionAdExtensions": "ValueHere",
+    "UpdateReviewAdExtensions": "ValueHere",
+    "UpdateSitelinkAdExtensions": "ValueHere",
+    "UpdateSitelinkUrls": "ValueHere",
+    "UpdateStatusForAdGroups": "ValueHere",
+    "UpdateStatusForAds": "ValueHere",
+    "UpdateStatusForCampaigns": "ValueHere",
+    "UpdateStatusForKeywords": "ValueHere",
+    "UpdateStructuredSnippetAdExtensions": "ValueHere",
+    "UpdateUrlOptions": "ValueHere"
+  },
+  "LastRunTimeInUTC": "ValueHere",
+  "Name": "ValueHere",
+  "NotificationEmail": "ValueHere",
+  "NotificationType": "ValueHere",
+  "Status": "ValueHere",
+  "Type": "GoogleImportJob",
+  "CampaignAdGroupIds": [
+    {
+      "ActiveAdGroupsOnly": "ValueHere",
+      "AdGroupIds": [
+        "LongValueHere"
+      ],
+      "CampaignId": "LongValueHere"
+    }
+  ],
+  "CredentialId": "ValueHere",
+  "GoogleAccountId": "LongValueHere",
+  "GoogleUserName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

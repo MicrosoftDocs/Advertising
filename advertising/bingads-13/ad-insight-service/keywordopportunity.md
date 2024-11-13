@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a suggested keyword and bid value.
 ---
 # KeywordOpportunity Data Object - Ad Insight

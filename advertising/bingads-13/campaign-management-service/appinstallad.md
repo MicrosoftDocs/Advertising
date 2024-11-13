@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an app install ad.
 ---
 # AppInstallAd Data Object - Campaign Management
@@ -24,7 +25,8 @@ App Install Ads automatically detect the customer's mobile device and operating 
 
 The combination of the AppPlatform, AppStoreId, Text, and Title elements make the app install ad unique.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AppInstallAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -39,6 +41,53 @@ The combination of the AppPlatform, AppStoreId, Text, and Title elements make th
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "AppInstall",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "AppPlatform": "ValueHere",
+  "AppStoreId": "ValueHere",
+  "Text": "ValueHere",
+  "Title": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

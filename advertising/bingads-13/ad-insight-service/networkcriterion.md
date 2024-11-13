@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The network criterion that you can include when requesting keyword ideas or traffic estimates.
 ---
 # NetworkCriterion Data Object - Ad Insight
 The network criterion that you can include when requesting keyword ideas or traffic estimates.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NetworkCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,16 @@ The network criterion that you can include when requesting keyword ideas or traf
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Network": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

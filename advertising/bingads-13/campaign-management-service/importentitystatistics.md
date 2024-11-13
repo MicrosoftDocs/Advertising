@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The statistical import results for an entity type.
 ---
 # ImportEntityStatistics Data Object - Campaign Management
 The statistical import results for an entity type.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ImportEntityStatistics" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,21 @@ The statistical import results for an entity type.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Additions": IntValueHere,
+  "Changes": IntValueHere,
+  "Deletions": IntValueHere,
+  "EntityType": "ValueHere",
+  "Errors": IntValueHere,
+  "Total": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

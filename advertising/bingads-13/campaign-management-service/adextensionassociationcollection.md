@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an array of objects that associate an ad extension and its editorial status to an account, campaign, or ad group.
 ---
 # AdExtensionAssociationCollection Data Object - Campaign Management
 Defines an array of objects that associate an ad extension and its editorial status to an account, campaign, or ad group.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdExtensionAssociationCollection" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -18,6 +20,75 @@ Defines an array of objects that associate an ad extension and its editorial sta
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdExtensionAssociations": [
+    {
+      "AdExtension": {
+        "DevicePreference": "LongValueHere",
+        "ForwardCompatibilityMap": [
+          {
+            "key": "ValueHere",
+            "value": "ValueHere"
+          }
+        ],
+        "Id": "LongValueHere",
+        "Scheduling": {
+          "DayTimeRanges": [
+            {
+              "Day": "ValueHere",
+              "EndHour": IntValueHere,
+              "EndMinute": "ValueHere",
+              "StartHour": IntValueHere,
+              "StartMinute": "ValueHere"
+            }
+          ],
+          "EndDate": {
+            "Day": IntValueHere,
+            "Month": IntValueHere,
+            "Year": IntValueHere
+          },
+          "StartDate": {
+            "Day": IntValueHere,
+            "Month": IntValueHere,
+            "Year": IntValueHere
+          },
+          "UseSearcherTimeZone": "ValueHere"
+        },
+        "Status": "ValueHere",
+        "Type": "ActionAdExtension",
+        "Version": IntValueHere,
+        "ActionType": "ValueHere",
+        "FinalMobileUrls": [
+          "ValueHere"
+        ],
+        "FinalUrls": [
+          "ValueHere"
+        ],
+        "FinalUrlSuffix": "ValueHere",
+        "Language": "ValueHere",
+        "TrackingUrlTemplate": "ValueHere",
+        "UrlCustomParameters": {
+          "Parameters": [
+            {
+              "Key": "ValueHere",
+              "Value": "ValueHere"
+            }
+          ]
+        }
+      },
+      "AssociationType": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "EntityId": "LongValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

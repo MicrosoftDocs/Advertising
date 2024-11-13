@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A responsive ad format for text ads in the Search network.
 ---
 # ResponsiveSearchAd Data Object - Campaign Management
@@ -22,7 +23,8 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
 > [!NOTE]
 > Responsive search ads can only be created in Search campaigns where the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchStandard". If the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchDynamic", then the ad group does not support responsive search ads.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ResponsiveSearchAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -38,6 +40,90 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "ResponsiveSearch",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "Descriptions": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Domain": "ValueHere",
+  "Headlines": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Path1": "ValueHere",
+  "Path2": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -78,3 +164,6 @@ The [ResponsiveSearchAd](responsivesearchad.md) object derives from the [Ad](ad.
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
+## Used By
+[CreateResponsiveSearchAdRecommendation](createresponsivesearchadrecommendation.md)  
+[RefineResponsiveSearchAdRecommendation](refineresponsivesearchadrecommendation.md)  

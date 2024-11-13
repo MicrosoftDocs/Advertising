@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an offline conversion that you send to Microsoft Advertising.
 ---
 # OfflineConversion Data Object - Campaign Management
@@ -18,7 +19,8 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
 > [!NOTE]
 > Although you can upload offline conversions in sandbox for functional testing, the offline conversion data will not be attributed in sandbox performance reporting data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="OfflineConversion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -46,6 +48,24 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ConversionCurrencyCode": "ValueHere",
+  "ConversionName": "ValueHere",
+  "ConversionTime": "ValueHere",
+  "ConversionValue": DoubleValueHere,
+  "ExternalAttributionCredit": DoubleValueHere,
+  "ExternalAttributionModel": "ValueHere",
+  "HashedEmailAddress": "ValueHere",
+  "HashedPhoneNumber": "ValueHere",
+  "MicrosoftClickId": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

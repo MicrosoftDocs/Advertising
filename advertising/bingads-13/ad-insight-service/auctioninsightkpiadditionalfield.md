@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a list of optional auction insight KPI properties that you can request when calling GetAuctionInsightData.
 ---
 # AuctionInsightKpiAdditionalField Value Set - Ad Insight

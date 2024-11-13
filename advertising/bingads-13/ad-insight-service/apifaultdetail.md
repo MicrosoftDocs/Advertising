@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an Ad Insight API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 ---
 # ApiFaultDetail Data Object - Ad Insight
 Defines an Ad Insight API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ApiFaultDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,34 @@ Defines an Ad Insight API fault detail object that operations return when web se
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "TrackingId": "ValueHere",
+  "Type": "ApiFaultDetail",
+  "BatchErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "ErrorCode": "ValueHere",
+      "Index": IntValueHere,
+      "Message": "ValueHere"
+    }
+  ],
+  "OperationErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "ErrorCode": "ValueHere",
+      "Message": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

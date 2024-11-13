@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the operators that can be applied to remarketing list rule item number values.
 ---
 # NumberOperator Value Set - Campaign Management

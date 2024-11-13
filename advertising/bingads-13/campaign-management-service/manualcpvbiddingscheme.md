@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the manual CPV bid strategy type.
 ---
 # ManualCpvBiddingScheme Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that represents the manual CPV bid strategy type.
 
 With the ManualCpv (manual cost per view) bid strategy, you set the highest amount that you'd like to pay per view or per click on a video ad, and Microsoft Advertising uses these bids every time.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ManualCpvBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,14 @@ With the ManualCpv (manual cost per view) bid strategy, you set the highest amou
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

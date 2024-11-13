@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 ---
 # BatchError Data Object - Reporting
 Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BatchError" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,20 @@ Defines a Reporting batch error object that identifies the item within the batch
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Code": IntValueHere,
+  "Details": "ValueHere",
+  "ErrorCode": "ValueHere",
+  "Index": IntValueHere,
+  "Message": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

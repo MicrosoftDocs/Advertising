@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the suggested bid with estimated clicks and impressions opportunities.
 ---
 # BidOpportunity Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains the suggested bid with estimated clicks and impr
 > [!NOTE]
 > The bid opportunity is an estimate based on the last 7 days of performance data, and not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BidOpportunity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -33,6 +35,26 @@ Defines an object that contains the suggested bid with estimated clicks and impr
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "OpportunityKey": "ValueHere",
+  "Type": "BidOpportunity",
+  "AdGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere",
+  "CurrentBid": DoubleValueHere,
+  "EstimatedIncreaseInClicks": DoubleValueHere,
+  "EstimatedIncreaseInCost": DoubleValueHere,
+  "EstimatedIncreaseInImpressions": "LongValueHere",
+  "KeywordId": "LongValueHere",
+  "MatchType": "ValueHere",
+  "SuggestedBid": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

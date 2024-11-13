@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a keyword performance report column and corresponding sort order.
 ---
 # KeywordPerformanceReportSort Data Object - Reporting
 Defines a keyword performance report column and corresponding sort order.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordPerformanceReportSort" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines a keyword performance report column and corresponding sort order.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "SortColumn": "ValueHere",
+  "SortOrder": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

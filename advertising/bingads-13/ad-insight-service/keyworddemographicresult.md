@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the keyword and percentage of users by age and gender (if known) who searched for the specified keyword.
 ---
 # KeywordDemographicResult Data Object - Ad Insight
 Defines an object that contains the keyword and percentage of users by age and gender (if known) who searched for the specified keyword.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordDemographicResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,30 @@ Defines an object that contains the keyword and percentage of users by age and g
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Keyword": "ValueHere",
+  "KeywordDemographics": [
+    {
+      "AgeUnknown": DoubleValueHere,
+      "Device": "ValueHere",
+      "EighteenToTwentyFour": DoubleValueHere,
+      "Female": DoubleValueHere,
+      "FiftyToSixtyFour": DoubleValueHere,
+      "GenderUnknown": DoubleValueHere,
+      "Male": DoubleValueHere,
+      "SixtyFiveAndAbove": DoubleValueHere,
+      "ThirtyFiveToFourtyNine": DoubleValueHere,
+      "TwentyFiveToThirtyFour": DoubleValueHere
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

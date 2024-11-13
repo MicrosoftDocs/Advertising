@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an image media representation with height and width.
 ---
 # ImageMediaRepresentation Data Object - Campaign Management
 Defines an image media representation with height and width.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ImageMediaRepresentation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,20 @@ Defines an image media representation with height and width.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Name": "ValueHere",
+  "Type": "ImageMediaRepresentation",
+  "Url": "ValueHere",
+  "Height": IntValueHere,
+  "Width": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

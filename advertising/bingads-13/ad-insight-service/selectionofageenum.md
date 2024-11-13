@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for the selection of age targeting.
 ---
 # SelectionOfAgeEnum Data Object - Ad Insight
 Defines a data object for the selection of age targeting.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SelectionOfAgeEnum" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -26,6 +28,21 @@ Defines a data object for the selection of age targeting.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Excludes": [
+    "ValueHere"
+  ],
+  "Includes": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

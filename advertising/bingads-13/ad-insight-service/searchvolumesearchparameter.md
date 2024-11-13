@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The search volume search parameter filter that you can include when requesting keyword ideas.
 ---
 # SearchVolumeSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The search volume search parameter filter that you can include when requesting k
 
 If you do not include the search volume search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned regardless of search volume.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SearchVolumeSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,17 @@ If you do not include the search volume search parameter when calling [GetKeywor
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Maximum": "LongValueHere",
+  "Minimum": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible intent options for location criterion, for example to target people in, searching for, or viewing pages about your targeted location.
 ---
 # IntentOption Value Set - Campaign Management

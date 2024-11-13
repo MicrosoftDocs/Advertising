@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.
 ---
 # BillingDocumentInfo Data Object - Customer Billing
 Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BillingDocumentInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -39,6 +41,25 @@ Defines a billing document identification object that contains information about
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountName": "ValueHere",
+  "AccountNumber": "ValueHere",
+  "Amount": DoubleValueHere,
+  "CampaignId": "LongValueHere",
+  "CurrencyCode": "ValueHere",
+  "CustomerId": IntValueHere,
+  "DocumentDate": "ValueHere",
+  "DocumentId": "LongValueHere",
+  "DocumentNumber": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

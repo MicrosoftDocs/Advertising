@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines possible values for the time zone that you want the Reporting service to use for the selected date range.
 ---
 # ReportTimeZone Value Set - Reporting

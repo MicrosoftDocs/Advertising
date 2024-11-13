@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The competition search parameter filter that you can include when requesting keyword ideas.
 ---
 # CompetitionSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The competition search parameter filter that you can include when requesting key
 
 If you do not include the competition search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all competition levels.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CompetitionSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,18 @@ If you do not include the competition search parameter when calling [GetKeywordI
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CompetitionLevels": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

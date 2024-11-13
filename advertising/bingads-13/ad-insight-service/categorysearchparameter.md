@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The keyword category search parameter that you can use as a seed for new keyword ideas.
 ---
 # CategorySearchParameter Data Object - Ad Insight
@@ -13,7 +14,8 @@ The keyword category search parameter that you can use as a seed for new keyword
 > [!NOTE]
 > The CategorySearchParamater data object is deprecated as of August 21, 2023. [Learn more](https://techcommunity.microsoft.com/t5/bing-ads-api-blog/deprecation-of-legacy-ad-insight-keyword-apis-and-features/ba-p/3878600).
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CategorySearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,16 @@ The keyword category search parameter that you can use as a seed for new keyword
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CategoryId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

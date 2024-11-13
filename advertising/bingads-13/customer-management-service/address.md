@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a postal address for accounts and user contact information.
 ---
 # Address Data Object - Customer Management
 Defines a postal address for accounts and user contact information.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Address" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -28,6 +30,26 @@ Defines a postal address for accounts and user contact information.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "BusinessName": "ValueHere",
+  "City": "ValueHere",
+  "CountryCode": "ValueHere",
+  "Id": "LongValueHere",
+  "Line1": "ValueHere",
+  "Line2": "ValueHere",
+  "Line3": "ValueHere",
+  "Line4": "ValueHere",
+  "PostalCode": "ValueHere",
+  "StateOrProvince": "ValueHere",
+  "TimeStamp": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

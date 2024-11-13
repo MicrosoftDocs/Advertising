@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for which campaigns to associate to data exclusions and seasonality adjustments.
 ---
 # CampaignAssociation Data Object - Campaign Management
 Defines a data object for which campaigns to associate to data exclusions and seasonality adjustments.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -18,6 +20,16 @@ Defines a data object for which campaigns to associate to data exclusions and se
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CampaignId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

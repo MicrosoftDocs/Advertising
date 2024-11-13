@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: An object that inherits AudienceGroupDimension.
 ---
 # AudienceDimension Data Object - Campaign Management
 An object that inherits AudienceGroupDimension.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AudienceDimension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,22 @@ An object that inherits AudienceGroupDimension.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Audience",
+  "Audiences": [
+    {
+      "Id": "LongValueHere",
+      "Type": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
