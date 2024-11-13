@@ -3,6 +3,7 @@ title: "Discovering disapproved ads"
 description: "Shows how to discover disapproved ads for one or more accounts."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---
