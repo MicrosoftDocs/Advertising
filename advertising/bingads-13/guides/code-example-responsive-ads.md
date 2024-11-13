@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Setup Responsive Ads for the Microsoft Audience Network in C#, Java, PHP, or Python.
 dev_langs:
   - csharp

@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Update hotels, hotel groups, and hotel associations with the Bulk API.
 ---
 # Hotel Price Ads Bulk Update

@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Manage Auto Inventory Ads using the bulk API. Add feeds so your ads update dynamically under specific circumstances. 
 ---
 # Auto Inventory Feeds

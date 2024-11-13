@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Get information about changes to Bing Ads API Version 13 by month. 
 ---
 # Bing Ads API Release Notes

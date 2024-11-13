@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Describes the Ad Group Negative Customer List Association fields in a Bulk file.
 dev_langs:
   - csharp

@@ -4,6 +4,7 @@ subtitle: "Scripts"
 description: "Contains the methods used to manage the custom label product group."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

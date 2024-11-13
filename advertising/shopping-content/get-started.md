@@ -5,6 +5,7 @@ author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ---
 
 # Get Started with the Content API

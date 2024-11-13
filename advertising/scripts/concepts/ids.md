@@ -3,6 +3,7 @@ title: "Microsoft Advertising Scripts IDs"
 description: "Describes how IDs are handled in Microsoft Advertising Scripts."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Reference documentation for service operation error codes.
 ---
 # Operation Error Codes
@@ -372,7 +373,7 @@ The operation does not support the specified entity type.
 ApiVersionNoLongerSupported
 
 **Description**
-This version of the Bing Ads API is no longer supported. Please migrate to the latest version of the API. For more details, visit [https://go.microsoft.com/fwlink/?linkid=862106](https://go.microsoft.com/fwlink/?linkid=862106).
+This version of the Bing Ads API is no longer supported. Please [migrate to the latest version of the API](../guides/migration-guide.md).
 
 ***
 
@@ -17459,7 +17460,7 @@ The Customer List Item sub type is not supported.
 CustomerListTermsAndConditionsNotAccepted
 
 **Description**
-The Customer Match 'Terms And Conditions' are not yet Accepted in the Microsoft Advertising web UI. Please visit [https://go.microsoft.com/fwlink/?linkid=2126222](https://go.microsoft.com/fwlink/?linkid=2126222) for details.
+The [Customer Match 'Terms And Conditions'](https://help.ads.microsoft.com/#apex/ads/en/56921/1) are not yet Accepted in the Microsoft Advertising web UI.
 
 ***
 

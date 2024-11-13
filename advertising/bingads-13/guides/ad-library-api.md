@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The Ad Library is a public transparency tool that allows you to view all ads shown on Bing.com.
 ---
 

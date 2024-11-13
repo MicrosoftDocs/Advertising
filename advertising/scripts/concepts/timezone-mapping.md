@@ -3,6 +3,7 @@ title: "Mapping account time zone values"
 description: "Describes how Microsoft Advertising Scripts maps time zones to Bing Ads API time zone values."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

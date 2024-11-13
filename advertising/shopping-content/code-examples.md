@@ -3,6 +3,7 @@ title: "Content API Code Examples"
 description: "A list of links providing more information on each operation available in the Content API."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
 ---

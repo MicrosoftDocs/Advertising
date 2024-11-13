@@ -5,6 +5,7 @@ author: jonmeyers
 ms.service: "bing-ads-shopping-content"
 ms.topic: "article"
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ---
 # Can I Use the API and FTP/SFTP?
 Yes, in the following, very limited cases you may use the API and FTP/SFTP together without conflicts occurring.

@@ -3,6 +3,7 @@ title: "UserListSelector object"
 description: "Contains the methods for filtering and ordering the list of user lists to return."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -3,6 +3,7 @@ title: "Microsoft Ads Scripts single account access"
 description: "Provides an overview of how you use AdsApp to access a single account's entities."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -3,6 +3,7 @@ title: "AudienceBidding object"
 description: "Contains the methods for specifying the audience's bid modifier."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -3,6 +3,7 @@ title: "CampaignExcludedAudience object"
 description: "Contains the methods used to manage a campaign excluded audience association."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

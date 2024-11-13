@@ -3,6 +3,7 @@ title: "Label script examples"
 description: "Shows examples that perform various actions against labels."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

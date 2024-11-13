@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Refer to the list of Bing Ads API Version 13 web service addresses.
 ---
 # Bing Ads API Web Service Addresses

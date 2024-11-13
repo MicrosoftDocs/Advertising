@@ -3,6 +3,7 @@ title: "Structuring Microsoft Advertising scripts"
 description: "Describes how to structure scripts."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

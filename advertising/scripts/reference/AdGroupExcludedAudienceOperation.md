@@ -3,6 +3,7 @@ title: "AdGroupExcludedAudienceOperation object"
 description: "Contains the methods for determining whether the ad group excluded audience was successfully added."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---
