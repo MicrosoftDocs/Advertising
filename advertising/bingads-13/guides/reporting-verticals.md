@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The possible L1, L2, and L3 verticals.
 ---
 # Reporting verticals

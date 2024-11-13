@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Performance Max campaigns are designed to find and convert more customers across the entire network.
 ---
 # Performance Max Campaigns

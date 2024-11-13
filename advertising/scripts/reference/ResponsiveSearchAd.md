@@ -3,6 +3,7 @@ title: "ResponsiveSearchAd object"
 description: "Contains the methods used to manage a responsive search ad."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

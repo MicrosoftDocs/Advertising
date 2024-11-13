@@ -3,6 +3,7 @@ title: "Microsoft Advertising Scripts Editorial Approval"
 description: "Describes how Microsoft Advertising Scripts maps editorial approval statuses to Bing Ads API editorial approval statuses."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

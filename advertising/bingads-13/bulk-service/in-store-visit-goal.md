@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an in store visit conversion goal. Use this type of goal to track every time someone installs your app as a conversion.
 dev_langs:
   - csharp

@@ -4,6 +4,7 @@ subtitle: "Scripts"
 description: "Contains the methods for iterating through a list of product groups."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Setup Expanded Text ads with the Bing Ads API.
 ---
 # Expanded Text Ads

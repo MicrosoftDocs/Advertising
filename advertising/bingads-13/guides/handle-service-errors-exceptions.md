@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Learn about error handling and troubleshooting your application.
 ---
 # Handling Service Errors and Exceptions

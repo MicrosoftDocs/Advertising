@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: These technical guides apply to the Customer Management service and may also depend on other Bing Ads API services.
 ---
 # Customer Management API Guides

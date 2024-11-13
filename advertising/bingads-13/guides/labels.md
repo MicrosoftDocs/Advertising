@@ -4,6 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Labels let you organize campaigns, ad groups, ads, and keywords into groups based on whatever is important to you.
 ---
 # Labels

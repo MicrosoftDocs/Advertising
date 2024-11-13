@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Reference documentation for the Bulk API.
 ---
 # Bulk API

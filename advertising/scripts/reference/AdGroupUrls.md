@@ -3,6 +3,7 @@ title: "AdGroupUrls object"
 description: "Contains the methods for managing the ad group's URLs."
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 ms.service: "bing-ads-scripts"
 ms.topic: "article"
 ---

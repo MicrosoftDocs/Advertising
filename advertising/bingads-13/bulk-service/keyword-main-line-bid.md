@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Describes the Keyword Main Line Bid fields in a Bulk file.
 ---
 # Keyword Main Line Bid Record - Bulk
