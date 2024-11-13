@@ -17460,7 +17460,7 @@ The Customer List Item sub type is not supported.
 CustomerListTermsAndConditionsNotAccepted
 
 **Description**
-The Customer Match 'Terms And Conditions' are not yet Accepted in the Microsoft Advertising web UI. Please visit [https://go.microsoft.com/fwlink/?linkid=2126222](https://go.microsoft.com/fwlink/?linkid=2126222) for details.
+The [Customer Match 'Terms And Conditions'](https://help.ads.microsoft.com/#apex/ads/en/56921/1) are not yet Accepted in the Microsoft Advertising web UI.
 
 ***
 
