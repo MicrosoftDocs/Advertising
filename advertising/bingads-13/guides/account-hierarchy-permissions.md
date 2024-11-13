@@ -4,7 +4,7 @@ ms.service: "bing-ads"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-\ms.date: 11/13/2024
+ms.date: 11/13/2024
 description: Determine user permissions for the account hierarchy. 
 ---
 # Account Hierarchy and User Permissions
