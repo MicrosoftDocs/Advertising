@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Contains redemption and consuming details.
 ---
 # CouponRedemption Data Object - Customer Billing
 Contains redemption and consuming details.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CouponRedemption" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -25,6 +27,23 @@ Contains redemption and consuming details.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountNumber": "ValueHere",
+  "ActivationDate": "ValueHere",
+  "Balance": DoubleValueHere,
+  "CurrencyCode": "ValueHere",
+  "ExpirationDate": "ValueHere",
+  "RedemptionDate": "ValueHere",
+  "SpendToThreshold": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Service operations reference for the Reporting service.
 ---
 # Reporting Service Operations

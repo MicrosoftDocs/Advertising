@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a negative keyword with match type for traffic estimates.
 ---
 # NegativeKeyword Data Object - Ad Insight
 Defines a negative keyword with match type for traffic estimates.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NegativeKeyword" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines a negative keyword with match type for traffic estimates.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "MatchType": "ValueHere",
+  "Text": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

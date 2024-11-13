@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The network search parameter filter that you can include when requesting keyword ideas.
 ---
 # NetworkSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The network search parameter filter that you can include when requesting keyword
 
 If you do not include the network search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all networks.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NetworkSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,18 @@ If you do not include the network search parameter when calling [GetKeywordIdeas
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Network": {
+    "Network": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad extension that specifies a business logo.
 ---
 # LogoAdExtension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an ad extension that specifies a business logo.
 
 Logo Ad Extensions enable advertisers to display eye-catching logos in ads. Build brand recognition to drive more clicks and conversions on your website.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="LogoAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -27,6 +29,52 @@ Logo Ad Extensions enable advertisers to display eye-catching logos in ads. Buil
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "LogoAdExtension",
+  "Version": IntValueHere,
+  "BusinessLogo": "LongValueHere",
+  "BusinessLogoUrl": "ValueHere",
+  "BusinessName": "ValueHere",
+  "DomainName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

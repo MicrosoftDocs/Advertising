@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a collection of asset groups that failed editorial review.
 ---
 # AssetGroupEditorialReasonCollection Data Object - Campaign Management
 Defines a collection of asset groups that failed editorial review.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AssetGroupEditorialReasonCollection" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,28 @@ Defines a collection of asset groups that failed editorial review.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AppealStatus": "ValueHere",
+  "AssetGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere",
+  "Reasons": [
+    {
+      "Location": "ValueHere",
+      "PublisherCountries": [
+        "ValueHere"
+      ],
+      "ReasonCode": IntValueHere,
+      "Term": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

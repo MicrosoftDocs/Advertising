@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a remarketing list.
 ---
 # RemarketingList Data Object - Campaign Management
@@ -16,7 +17,8 @@ Defines a remarketing list.
 > [!NOTE]
 > Microsoft Advertising will automatically generate similar audiences for remarketing lists if you are a pilot participant. You cannot create or edit the similar audience for a remarketing list. Having said that, you can add and delete similar remarketing list associations and exclusions. If you delete the source remarketing list, then the similar audience will also be deleted. If a similar audience is associated with a campaign or ad group, then you cannot delete the source remarketing list. See [SimilarRemarketingList](similarremarketinglist.md) for more details. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="RemarketingList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,60 @@ Defines a remarketing list.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AudienceNetworkSize": "LongValueHere",
+  "CustomerShare": {
+    "CustomerAccountShares": [
+      {
+        "AccountId": "LongValueHere",
+        "Associations": [
+          {
+            "AssociationCount": "LongValueHere",
+            "UsageType": "ValueHere"
+          }
+        ],
+        "CustomerId": "LongValueHere"
+      }
+    ],
+    "OwnerCustomerId": "LongValueHere"
+  },
+  "Description": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "MembershipDuration": IntValueHere,
+  "Name": "ValueHere",
+  "ParentId": "LongValueHere",
+  "Scope": "ValueHere",
+  "SearchSize": "LongValueHere",
+  "SupportedCampaignTypes": [
+    "ValueHere"
+  ],
+  "Type": "RemarketingList",
+  "Rule": {
+    "Type": "CustomEvents",
+    "Action": "ValueHere",
+    "ActionOperator": "ValueHere",
+    "Category": "ValueHere",
+    "CategoryOperator": "ValueHere",
+    "Label": "ValueHere",
+    "LabelOperator": "ValueHere",
+    "Value": DecimalValueHere,
+    "ValueOperator": "ValueHere"
+  },
+  "TagId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

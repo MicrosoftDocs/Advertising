@@ -5,20 +5,35 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the negative site URLs of a campaign.
 ---
 # CampaignNegativeSites Data Object - Campaign Management
 Defines an object that contains the negative site URLs of a campaign.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignNegativeSites" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="CampaignId" type="xs:long" />
-    <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NegativeSites" nillable="true" type="q18:ArrayOfstring" />
+    <xs:element xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NegativeSites" nillable="true" type="q19:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CampaignId": "LongValueHere",
+  "NegativeSites": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

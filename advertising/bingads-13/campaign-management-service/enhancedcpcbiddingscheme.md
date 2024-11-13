@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the enhanced CPC bid strategy type.
 ---
 # EnhancedCpcBiddingScheme Data Object - Campaign Management
@@ -14,7 +15,8 @@ With the *EnhancedCpc* (enhanced cost per click) bid strategy, you set your ad g
 
 Microsoft Advertising will not actually change your stored ad group or keyword bid settings. You can continue to set new bids, and we will use the new values as a starting point at the next opportunity.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EnhancedCpcBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,14 @@ Microsoft Advertising will not actually change your stored ad group or keyword b
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

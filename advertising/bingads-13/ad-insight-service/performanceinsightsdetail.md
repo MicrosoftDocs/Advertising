@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the details for performance insights.
 ---
 # PerformanceInsightsDetail Data Object - Ad Insight
 Defines the details for performance insights.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PerformanceInsightsDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -24,6 +26,81 @@ Defines the details for performance insights.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Actions": [
+    {
+      "IndentationLevel": IntValueHere,
+      "Parameters": [
+        {
+          "Type": "Entities",
+          "EntityCount": IntValueHere,
+          "EntityDetails": [
+            {
+              "EntityId": "LongValueHere",
+              "EntityName": "ValueHere"
+            }
+          ],
+          "EntityType": "ValueHere",
+          "SuggestedText": "ValueHere"
+        }
+      ],
+      "TemplateId": "ValueHere"
+    }
+  ],
+  "Date": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "Description": {
+    "IndentationLevel": IntValueHere,
+    "Parameters": [
+      {
+        "Type": "Entities",
+        "EntityCount": IntValueHere,
+        "EntityDetails": [
+          {
+            "EntityId": "LongValueHere",
+            "EntityName": "ValueHere"
+          }
+        ],
+        "EntityType": "ValueHere",
+        "SuggestedText": "ValueHere"
+      }
+    ],
+    "TemplateId": "ValueHere"
+  },
+  "EntityId": "LongValueHere",
+  "EntityType": "ValueHere",
+  "KPIType": "ValueHere",
+  "RootCauses": [
+    {
+      "IndentationLevel": IntValueHere,
+      "Parameters": [
+        {
+          "Type": "Entities",
+          "EntityCount": IntValueHere,
+          "EntityDetails": [
+            {
+              "EntityId": "LongValueHere",
+              "EntityName": "ValueHere"
+            }
+          ],
+          "EntityType": "ValueHere",
+          "SuggestedText": "ValueHere"
+        }
+      ],
+      "TemplateId": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

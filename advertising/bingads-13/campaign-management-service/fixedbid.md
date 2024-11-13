@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the fixed bid to use in the auction.
 ---
 # FixedBid Data Object - Campaign Management
 Defines the fixed bid to use in the auction.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="FixedBid" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,17 @@ Defines the fixed bid to use in the auction.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "FixedBid",
+  "Amount": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

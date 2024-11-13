@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a hotel ad.
 ---
 # HotelAd Data Object - Campaign Management
 Defines a hotel ad. Hotel ads appear when a traveler searches for a hotel on search or maps.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HotelAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -20,6 +22,14 @@ Defines a hotel ad. Hotel ads appear when a traveler searches for a hotel on sea
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

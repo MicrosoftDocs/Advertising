@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a paging object to request Customer Management objects in batches.
 ---
 # Paging Data Object - Customer Management
 Defines a paging object to request Customer Management objects in batches.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Paging" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines a paging object to request Customer Management objects in batches.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Index": IntValueHere,
+  "Size": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

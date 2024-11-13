@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible status values of a ClientLink.
 ---
 # ClientLinkStatus Value Set - Customer Management

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-description: Represents a number rule item.
+ms.date: 11/13/2024
+description: Defines a rule expression that depends on the operand, operator, and value.
 ---
 # NumberRuleItem Data Object - Campaign Management
 Defines a rule expression that depends on the operand, operator, and value.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NumberRuleItem" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,19 @@ Defines a rule expression that depends on the operand, operator, and value.
 </xs:complexType>
 ```
 
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Number",
+  "Operand": "ValueHere",
+  "Operator": "ValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
+
 ## <a name="elements"></a>Elements
 
 The [NumberRuleItem](numberruleitem.md) object has the following elements: [Operand](#operand), [Operator](#operator), [Value](#value).
@@ -32,7 +47,7 @@ The [NumberRuleItem](numberruleitem.md) object has the following elements: [Oper
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="operand"></a>Operand|The rule operand or key on the left hand side of the operator. <br/><br/>Supported values are *Url* and *ReferrerUrl*.<br/><br/>For example to define a rule where the page Url must contain *page.html*, set the *Operand* to *Url*, *Operator* to *Contains*, and *Value* to *page.html*.<br/><br/>**Add:** Required<br/>**Update:** Required|**string**|
-|<a name="operator"></a>Operator|The rule item operator.<br/><br/>**Add:** Required<br/>**Update:** Required|[StringOperator](stringoperator.md)|
+|<a name="operator"></a>Operator|The rule item operator.<br/><br/>**Add:** Required<br/>**Update:** Required|[NumberOperator](numberoperator.md)|
 |<a name="value"></a>Value|The rule value on the right hand side of the operator.<br/><br/>**Add:** Required<br/>**Update:** Required|**string**|
 
 The [NumberRuleItem](numberruleitem.md) object has [Inherited Elements](#inheritedelements).

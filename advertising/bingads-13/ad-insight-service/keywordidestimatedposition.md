@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the identifier of a keyword and the estimated search results position for the keyword and match type.
 ---
 # KeywordIdEstimatedPosition Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains the identifier of a keyword and the estimated se
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordIdEstimatedPosition" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,34 @@ Defines an object that contains the identifier of a keyword and the estimated se
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "KeywordEstimatedPosition": {
+    "EstimatedPositions": [
+      {
+        "AverageCPC": DoubleValueHere,
+        "CTR": DoubleValueHere,
+        "CurrencyCode": "ValueHere",
+        "EstimatedAdPosition": DoubleValueHere,
+        "MatchType": "ValueHere",
+        "MaxClicksPerWeek": DoubleValueHere,
+        "MaxImpressionsPerWeek": "LongValueHere",
+        "MaxTotalCostPerWeek": DoubleValueHere,
+        "MinClicksPerWeek": DoubleValueHere,
+        "MinImpressionsPerWeek": "LongValueHere",
+        "MinTotalCostPerWeek": DoubleValueHere
+      }
+    ],
+    "Keyword": "ValueHere"
+  },
+  "KeywordId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

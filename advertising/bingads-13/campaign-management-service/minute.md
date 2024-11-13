@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible minute values for ad extension scheduling or day and time criterion.
 ---
 # Minute Value Set - Campaign Management

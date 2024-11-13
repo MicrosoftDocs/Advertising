@@ -5,19 +5,33 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a list of entity identifiers.
 ---
 # IdCollection Data Object - Campaign Management
 Defines an object that contains a list of entity identifiers.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="IdCollection" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/System" minOccurs="0" name="Ids" nillable="true" type="q90:ArrayOfNullableOflong" />
+    <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/System" minOccurs="0" name="Ids" nillable="true" type="q91:ArrayOfNullableOflong" />
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Ids": [
+    "LongValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The impression share search parameter filter that you can include when requesting keyword ideas.
 ---
 # ImpressionShareSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The impression share search parameter filter that you can include when requestin
 
 If you do not include the impression share search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned regardless of impression share.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ImpressionShareSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,17 @@ If you do not include the impression share search parameter when calling [GetKey
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Maximum": DoubleValueHere,
+  "Minimum": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

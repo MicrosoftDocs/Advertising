@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible ad rotation types that you can apply to an ad group.
 ---
 # AdRotationType Value Set - Campaign Management

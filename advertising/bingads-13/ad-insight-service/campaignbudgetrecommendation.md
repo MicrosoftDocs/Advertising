@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the CampaignBudgetRecommendation data object.
 ---
 # CampaignBudgetRecommendation Data Object - Ad Insight
 Defines the CampaignBudgetRecommendation data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignBudgetRecommendation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,46 @@ Defines the CampaignBudgetRecommendation data object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountName": "ValueHere",
+  "AdGroupId": "LongValueHere",
+  "AdGroupName": "ValueHere",
+  "CampaignId": "LongValueHere",
+  "CampaignName": "ValueHere",
+  "CurrentClicks": "LongValueHere",
+  "CurrentConversions": "LongValueHere",
+  "CurrentCost": DoubleValueHere,
+  "CurrentImpressions": "LongValueHere",
+  "Dismissed": "ValueHere",
+  "EstimatedIncreaseInClicks": "LongValueHere",
+  "EstimatedIncreaseInConversions": "LongValueHere",
+  "EstimatedIncreaseInCost": DoubleValueHere,
+  "EstimatedIncreaseInImpressions": "LongValueHere",
+  "RecommendationHash": "ValueHere",
+  "RecommendationId": "ValueHere",
+  "RecommendationType": "ValueHere",
+  "Type": "CampaignBudgetRecommendation",
+  "BudgetPoints": [
+    {
+      "BudgetAmount": DoubleValueHere,
+      "BudgetPointType": "ValueHere",
+      "EstimatedWeeklyClicks": DoubleValueHere,
+      "EstimatedWeeklyCost": DoubleValueHere,
+      "EstimatedWeeklyImpressions": DoubleValueHere
+    }
+  ],
+  "BudgetType": "ValueHere",
+  "CurrentBudget": DoubleValueHere,
+  "RecommendedBudget": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

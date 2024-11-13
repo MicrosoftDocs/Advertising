@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a user identification object that contains information that identifies a user.
 ---
 # UserInfo Data Object - Customer Management
 Defines a user identification object that contains information that identifies a user.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="UserInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines a user identification object that contains information that identifies a
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "UserName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

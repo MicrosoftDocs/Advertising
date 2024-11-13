@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines personal and business contact information about a Microsoft Advertising user.
 ---
 # User Data Object - Customer Management
@@ -15,7 +16,8 @@ Multiple user objects can be assigned to the same person i.e., one user per pers
 > [!TIP]
 > With Microsoft Advertising multi-user credentials you can accept an invitation to manage a separate customer with your existing Microsoft Advertising credentials. For more information, see the [Multi-User Credentials](../guides/account-hierarchy-permissions.md#multi-user-credentials) technical guide.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="User" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -44,6 +46,64 @@ Multiple user objects can be assigned to the same person i.e., one user per pers
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AuthenticationToken": "ValueHere",
+  "ContactInfo": {
+    "Address": {
+      "BusinessName": "ValueHere",
+      "City": "ValueHere",
+      "CountryCode": "ValueHere",
+      "Id": "LongValueHere",
+      "Line1": "ValueHere",
+      "Line2": "ValueHere",
+      "Line3": "ValueHere",
+      "Line4": "ValueHere",
+      "PostalCode": "ValueHere",
+      "StateOrProvince": "ValueHere",
+      "TimeStamp": "ValueHere"
+    },
+    "ContactByPhone": "ValueHere",
+    "ContactByPostalMail": "ValueHere",
+    "Email": "ValueHere",
+    "EmailFormat": "ValueHere",
+    "Fax": "ValueHere",
+    "HomePhone": "ValueHere",
+    "Id": "LongValueHere",
+    "Mobile": "ValueHere",
+    "Phone1": "ValueHere",
+    "Phone2": "ValueHere"
+  },
+  "CustomerId": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "JobTitle": "ValueHere",
+  "LastModifiedByUserId": "LongValueHere",
+  "LastModifiedTime": "ValueHere",
+  "Lcid": "ValueHere",
+  "Name": {
+    "FirstName": "ValueHere",
+    "LastName": "ValueHere",
+    "MiddleInitial": "ValueHere"
+  },
+  "Password": "ValueHere",
+  "SecretAnswer": "ValueHere",
+  "SecretQuestion": "ValueHere",
+  "TimeStamp": "ValueHere",
+  "UserLifeCycleStatus": "ValueHere",
+  "UserName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

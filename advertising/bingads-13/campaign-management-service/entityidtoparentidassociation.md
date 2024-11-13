@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the unique system identifier of an entity such as ad or keyword, and the identifier of its parent.
 ---
 # EntityIdToParentIdAssociation Data Object - Campaign Management
 Defines an object that contains the unique system identifier of an entity such as ad or keyword, and the identifier of its parent. An ad group is the parent of an ad or keyword.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="EntityIdToParentIdAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an object that contains the unique system identifier of an entity such a
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "EntityId": "LongValueHere",
+  "ParentId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

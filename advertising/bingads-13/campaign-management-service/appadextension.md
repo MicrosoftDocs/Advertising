@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an app ad extension that can be included in an ad.
 ---
 # AppAdExtension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an app ad extension that can be included in an ad.
 
 You can associate an app ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with as many app ad extensions as you decide, up to the total number of app ad extensions in your account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AppAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,9 +25,9 @@ You can associate an app ad extension with the account or with campaigns and ad 
         <xs:element minOccurs="0" name="DestinationUrl" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="DisplayText" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q47:ArrayOfstring" />
+        <xs:element xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q48:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q48:ArrayOfstring" />
+        <xs:element xmlns:q49="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q49:ArrayOfstring" />
         <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
       </xs:sequence>
@@ -33,6 +35,74 @@ You can associate an app ad extension with the account or with campaigns and ad 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "AppAdExtension",
+  "Version": IntValueHere,
+  "AppPlatform": "ValueHere",
+  "AppStoreId": "ValueHere",
+  "DestinationUrl": "ValueHere",
+  "DisplayText": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

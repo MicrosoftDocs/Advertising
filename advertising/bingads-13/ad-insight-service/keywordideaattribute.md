@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Determines which properties of the KeywordIdea object you want returned when calling the GetKeywordIdeas operation.
 ---
 # KeywordIdeaAttribute Value Set - Ad Insight

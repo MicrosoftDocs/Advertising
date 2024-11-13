@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad group in an advertising campaign.
 ---
 # AdGroup Data Object - Campaign Management
@@ -13,7 +14,8 @@ Defines an ad group in an advertising campaign.
 > [!NOTE]
 > As of July 2024, you can no longer set the search network where you want your ads to display to *SyndicatedSearchOnly*. If you attempt to set it to *SyndicatedSearchOnly*, the *CampaignServiceInvalidNetwork* error will be returned.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -30,7 +32,7 @@ Defines an ad group in an advertising campaign.
     <xs:element minOccurs="0" name="CpcBid" nillable="true" type="tns:Bid" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q20:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q21:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="FrequencyCapSettings" nillable="true" type="tns:ArrayOfFrequencyCapSettings">
       <xs:annotation>
         <xs:appinfo>
@@ -114,6 +116,97 @@ Defines an ad group in an advertising campaign.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupType": "ValueHere",
+  "AdRotation": {
+    "EndDate": "ValueHere",
+    "StartDate": "ValueHere",
+    "Type": "ValueHere"
+  },
+  "AdScheduleUseSearcherTimeZone": "ValueHere",
+  "AudienceAdsBidAdjustment": IntValueHere,
+  "BiddingScheme": {
+    "Type": "CommissionBiddingScheme",
+    "CommissionRate": DoubleValueHere
+  },
+  "CommissionRate": {
+    "RateAmount": {
+      "Amount": DoubleValueHere
+    }
+  },
+  "CpcBid": {
+    "Amount": DoubleValueHere
+  },
+  "CpmBid": {
+    "Amount": DoubleValueHere
+  },
+  "CpvBid": {
+    "Amount": DoubleValueHere
+  },
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "FrequencyCapSettings": [
+    {
+      "CapValue": IntValueHere,
+      "TimeGranularity": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Language": "ValueHere",
+  "McpaBid": {
+    "Amount": DoubleValueHere
+  },
+  "MultimediaAdsBidAdjustment": IntValueHere,
+  "Name": "ValueHere",
+  "Network": "ValueHere",
+  "PercentCpcBid": {
+    "RateAmount": {
+      "Amount": DoubleValueHere
+    }
+  },
+  "PrivacyStatus": "ValueHere",
+  "Settings": [
+    {
+      "Type": "AppSetting",
+      "AppId": "ValueHere",
+      "AppStore": "ValueHere"
+    }
+  ],
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "UseOptimizedTargeting": "ValueHere",
+  "UsePredictiveTargeting": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

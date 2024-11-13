@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 ---
 # Asset Data Object - Campaign Management

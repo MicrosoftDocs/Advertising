@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads to users in a specific age range.
 ---
 # AgeCriterion Data Object - Campaign Management
@@ -14,7 +15,8 @@ The *AgeCriterion* criterion can be included within [BiddableAdGroupCriterion](b
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AgeCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -26,6 +28,17 @@ The *AgeCriterion* criterion can be included within [BiddableAdGroupCriterion](b
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "AgeCriterion",
+  "AgeRange": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

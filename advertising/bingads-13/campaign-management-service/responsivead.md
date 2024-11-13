@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A responsive ad format for audience ads and multimedia ads.
 ---
 # ResponsiveAd Data Object - Campaign Management
@@ -15,7 +16,8 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
 > [!NOTE]
 > Duplicate responsive ads are allowed in the same ad group.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ResponsiveAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -71,6 +73,179 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "ResponsiveAd",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  },
+  "AdSubType": "ValueHere",
+  "BusinessName": "ValueHere",
+  "CallToAction": "ValueHere",
+  "CallToActionLanguage": "ValueHere",
+  "Descriptions": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Headline": "ValueHere",
+  "Headlines": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "Images": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "ImpressionTrackingUrls": [
+    "ValueHere"
+  ],
+  "LongHeadline": {
+    "Asset": {
+      "Id": "LongValueHere",
+      "Name": "ValueHere",
+      "Type": "ImageAsset",
+      "CropHeight": IntValueHere,
+      "CropWidth": IntValueHere,
+      "CropX": IntValueHere,
+      "CropY": IntValueHere,
+      "SubType": "ValueHere",
+      "TargetHeight": IntValueHere,
+      "TargetWidth": IntValueHere
+    },
+    "AssetPerformanceLabel": "ValueHere",
+    "EditorialStatus": "ValueHere",
+    "PinnedField": "ValueHere"
+  },
+  "LongHeadlines": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "LongHeadlineString": "ValueHere",
+  "Text": "ValueHere",
+  "VerifiedTrackingSettings": {
+    "Details": [
+      {
+        "key": "ValueHere",
+        "value": "ValueHere"
+      }
+    ]
+  },
+  "Videos": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -320,3 +495,6 @@ Given the [GetAdsByAdGroupId](getadsbyadgroupid.md) response example below, plea
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
+## Used By
+[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)  
+[RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)  

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Microsoft Merchant Center store.
 ---
 # BMCStore Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines a Microsoft Merchant Center store.
 
 Elements of this object are defined in the Microsoft Merchant Center store, and read-only in Microsoft Advertising.  Values of elements do not restrict Microsoft Advertising features. For example, a Microsoft Shopping campaign and product ad may be added whether the *IsActive* element is set to true or false.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BMCStore" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -32,6 +34,22 @@ Elements of this object are defined in the Microsoft Merchant Center store, and 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "HasCatalog": "ValueHere",
+  "Id": "LongValueHere",
+  "IsActive": "ValueHere",
+  "IsProductAdsEnabled": "ValueHere",
+  "Name": "ValueHere",
+  "StoreUrl": "ValueHere",
+  "SubType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that pairs one header with between 3 and 10 snippet values that tell customers more about your business.
 ---
 # StructuredSnippetAdExtension Data Object - Campaign Management
@@ -16,19 +17,66 @@ In the following example, *Courses* is the header, and *.NET*, *Java*, *Python*,
 
 You can associate a structured snippet ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 structured snippet ad extensions. An expanded text ad will only include one structured snippet (one headline with 3 - 10 values) per impression.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="StructuredSnippetAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:AdExtension">
       <xs:sequence>
         <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
-        <xs:element xmlns:q53="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Values" nillable="true" type="q53:ArrayOfstring" />
+        <xs:element xmlns:q54="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Values" nillable="true" type="q54:ArrayOfstring" />
       </xs:sequence>
     </xs:extension>
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "StructuredSnippetAdExtension",
+  "Version": IntValueHere,
+  "Header": "ValueHere",
+  "Values": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that specifies additional text about your business, products, or services to include in a text ad.
 ---
 # CalloutAdExtension Data Object - Campaign Management
@@ -14,7 +15,8 @@ You can associate an app ad extension with the account or with campaigns and ad 
 
 Ad extensions that are associated at the ad group level will override ad extensions of the same type that are associated at the campaign level. For example if you have 2 callout extensions set for *Campaign A*, zero callout extensions associated with *Ad Group AA*, and one callout extension associated with *Ad Group AB*, then only *Ad Group AA* is eligible to have its text ads decorated with callouts.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CalloutAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -26,6 +28,49 @@ Ad extensions that are associated at the ad group level will override ad extensi
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "CalloutAdExtension",
+  "Version": IntValueHere,
+  "Text": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

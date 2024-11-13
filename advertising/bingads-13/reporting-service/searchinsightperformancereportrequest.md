@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for SearchInsightPerformanceReportRequest.
 ---
 # SearchInsightPerformanceReportRequest Data Object - Reporting
 Defines a data object for SearchInsightPerformanceReportRequest.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SearchInsightPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -26,6 +28,64 @@ Defines a data object for SearchInsightPerformanceReportRequest.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ExcludeColumnHeaders": "ValueHere",
+  "ExcludeReportFooter": "ValueHere",
+  "ExcludeReportHeader": "ValueHere",
+  "Format": "ValueHere",
+  "FormatVersion": "ValueHere",
+  "ReportName": "ValueHere",
+  "ReturnOnlyCompleteData": "ValueHere",
+  "Type": "SearchInsightPerformanceReportRequest",
+  "Aggregation": "ValueHere",
+  "Columns": [
+    "ValueHere"
+  ],
+  "Filter": {
+    "AccountStatus": "ValueHere",
+    "AdGroupStatus": "ValueHere",
+    "AssetGroupStatus": "ValueHere",
+    "CampaignStatus": "ValueHere",
+    "SearchCategory": [
+      "ValueHere"
+    ],
+    "SearchQueries": [
+      "ValueHere"
+    ]
+  },
+  "Scope": {
+    "AccountIds": [
+      "LongValueHere"
+    ],
+    "Campaigns": [
+      {
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ]
+  },
+  "Time": {
+    "CustomDateRangeEnd": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "CustomDateRangeStart": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "PredefinedTime": "ValueHere",
+    "ReportTimeZone": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

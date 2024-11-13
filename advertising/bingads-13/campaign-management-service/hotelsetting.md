@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA).
 ---
 # HotelSetting Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price
 
 If *HotelSetting* is not specified, ad group will target its hotel for both HPA and PPA ads
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HotelSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,17 @@ If *HotelSetting* is not specified, ad group will target its hotel for both HPA 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "HotelSetting",
+  "HotelAdGroupType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

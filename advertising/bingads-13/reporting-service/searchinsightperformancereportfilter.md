@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for SearchInsightPerformanceReportFilter.
 ---
 # SearchInsightPerformanceReportFilter Data Object - Reporting
 Defines a data object for SearchInsightPerformanceReportFilter.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SearchInsightPerformanceReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,25 @@ Defines a data object for SearchInsightPerformanceReportFilter.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "AssetGroupStatus": "ValueHere",
+  "CampaignStatus": "ValueHere",
+  "SearchCategory": [
+    "ValueHere"
+  ],
+  "SearchQueries": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

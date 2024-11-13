@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the responsive search ads to be suggested.
 ---
 # ResponsiveSearchAdsRecommendation Data Object - Ad Insight
 Defines an object that contains the responsive search ads to be suggested.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ResponsiveSearchAdsRecommendation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,41 @@ Defines an object that contains the responsive search ads to be suggested.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AdGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere",
+  "CurrentClicks": "LongValueHere",
+  "CurrentConversions": "LongValueHere",
+  "CurrentCost": DoubleValueHere,
+  "CurrentImpressions": "LongValueHere",
+  "EstimatedIncreaseInClicks": "LongValueHere",
+  "EstimatedIncreaseInConversions": "LongValueHere",
+  "EstimatedIncreaseInCost": DoubleValueHere,
+  "EstimatedIncreaseInImpressions": "LongValueHere",
+  "RecommendationHash": "ValueHere",
+  "RecommendationId": "ValueHere",
+  "RecommendationType": "ValueHere",
+  "Type": "ResponsiveSearchAdsRecommendation",
+  "SuggestedAd": {
+    "Descriptions": [
+      "ValueHere"
+    ],
+    "FinalUrl": "ValueHere",
+    "Headlines": [
+      "ValueHere"
+    ],
+    "Path1": "ValueHere",
+    "Path2": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an offline conversion goal.
 ---
 # OfflineConversionGoal Data Object - Campaign Management
@@ -21,7 +22,8 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
 > [!IMPORTANT]
 > Every time you add or update a new [DurationGoal](durationgoal.md), [EventGoal](eventgoal.md), [OfflineConversionGoal](offlineconversiongoal.md), [PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md) or [UrlGoal](urlgoal.md) via either the Microsoft Advertising web application or Campaign Management API, the *MSCLKIDAutoTaggingEnabled* value of the corresponding [AccountProperty](accountproperty.md) is set to *True* automatically. If the Scope of the goal is set to *Customer* level, then the [AccountProperty](accountproperty.md) for all accounts under the Customer will be set. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="OfflineConversionGoal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -39,6 +41,35 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AttributionModelType": "ValueHere",
+  "ConversionWindowInMinutes": IntValueHere,
+  "CountType": "ValueHere",
+  "ExcludeFromBidding": "ValueHere",
+  "GoalCategory": "ValueHere",
+  "Id": "LongValueHere",
+  "IsEnhancedConversionsEnabled": "ValueHere",
+  "Name": "ValueHere",
+  "Revenue": {
+    "CurrencyCode": "ValueHere",
+    "Type": "ValueHere",
+    "Value": DecimalValueHere
+  },
+  "Scope": "ValueHere",
+  "Status": "ValueHere",
+  "TagId": "LongValueHere",
+  "TrackingStatus": "ValueHere",
+  "Type": "OfflineConversion",
+  "ViewThroughConversionWindowInMinutes": IntValueHere,
+  "IsExternallyAttributed": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

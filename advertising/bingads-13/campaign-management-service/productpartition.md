@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad group level product partition with one condition that helps determine whether a product from the Microsoft Merchant Center store gets served as a product ad.
 ---
 # ProductPartition Data Object - Campaign Management
@@ -15,7 +16,8 @@ The *ProductPartition* criterion can be included within [BiddableAdGroupCriterio
 > [!TIP]
 > For an implementation overview, see the [Microsoft Shopping Campaigns](../guides/product-ads.md) technical guide.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ProductPartition" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,23 @@ The *ProductPartition* criterion can be included within [BiddableAdGroupCriterio
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "ProductPartition",
+  "Condition": {
+    "Attribute": "ValueHere",
+    "Operand": "ValueHere",
+    "Operator": "ValueHere"
+  },
+  "ParentCriterionId": "LongValueHere",
+  "PartitionType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

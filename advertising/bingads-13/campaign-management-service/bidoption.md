@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Determines whether or not to amplify your partner's bid.
 ---
 # BidOption Value Set - Campaign Management

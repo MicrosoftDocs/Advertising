@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the category insights report data.
 ---
 # CategoryInsightsReportFilter Data Object - Reporting
 Defines the criteria to use to filter the category insights report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CategoryInsightsReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,27 @@ Defines the criteria to use to filter the category insights report data.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CountryCode": [
+    "ValueHere"
+  ],
+  "L1Vertical": [
+    "ValueHere"
+  ],
+  "L2Vertical": [
+    "ValueHere"
+  ],
+  "L3Vertical": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

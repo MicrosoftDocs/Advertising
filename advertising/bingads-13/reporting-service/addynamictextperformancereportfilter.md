@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the ad dynamic text performance report data.
 ---
 # AdDynamicTextPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad dynamic text performance report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdDynamicTextPerformanceReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -25,6 +27,23 @@ Defines the criteria to use to filter the ad dynamic text performance report dat
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdDistribution": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "AdStatus": "ValueHere",
+  "AdType": "ValueHere",
+  "DeviceType": "ValueHere",
+  "KeywordStatus": "ValueHere",
+  "Language": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

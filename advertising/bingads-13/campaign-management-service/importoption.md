@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the base object of an import option.
 ---
 # ImportOption Data Object - Campaign Management
@@ -20,7 +21,7 @@ Do not try to instantiate an *ImportOption*. You can create one or more of the f
 ```xml
 <xs:complexType name="ImportOption" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q142="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q142:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q143="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q143:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>

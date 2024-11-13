@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that determines the intent option for all location and radius criterions of the campaign or ad group.
 ---
 # LocationIntentCriterion Data Object - Campaign Management
@@ -21,7 +22,8 @@ The *LocationIntentCriterion* criterion can be included within [BiddableAdGroupC
 
 Also note that you must consider the location, negative location, and radius criterions as a set of *geo criterions*. If the ad group has any geo criterions, then none of the campaign's geo criterions are inherited. If the ad group doesn't have any geo criterions, then all of the campaign's geo criterions are inherited. The geo criterions can be inherited from the campaign even if the ad group has a location intent criterion. If the ad group's geo criterions are used, then the ad group's location intent criterion is used; if the campaign's geo criterions are inherited, then the campaign's location intent criterion is used and the ad group's location intent criterion is ignored. You cannot delete a campaign or ad group's location intent criterion, although it has no purpose without location or radius criterions. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="LocationIntentCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -33,6 +35,17 @@ Also note that you must consider the location, negative location, and radius cri
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "LocationIntentCriterion",
+  "IntentOption": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

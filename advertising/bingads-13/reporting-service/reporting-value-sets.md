@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Value sets reference for the Reporting service.
 ---
 # Reporting Value Sets
@@ -35,8 +36,8 @@ The Reporting service defines the following value sets.
 |[CallDetailReportColumn](calldetailreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CallDetailReportRequest](calldetailreportrequest.md).|
 |[CampaignPerformanceReportColumn](campaignperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CampaignPerformanceReportRequest](campaignperformancereportrequest.md).|
 |[CampaignStatusReportFilter](campaignstatusreportfilter.md)|Defines the campaign status values that you can use to filter the report data.|
-|[CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md).|
-|[CategoryInsightsReportColumn](categoryinsightsreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md).|
+|[CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the CategoryClickCoverageReportColumn.|
+|[CategoryInsightsReportColumn](categoryinsightsreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the CategoryInsightsReportColumn.|
 |[ChangeEntityReportFilter](changeentityreportfilter.md)|Defines the types of entities by which you can filter the report data.|
 |[ChangeTypeReportFilter](changetypereportfilter.md)|Defines the types of changes to entities by which you can filter the report data.|
 |[ConversionPerformanceReportColumn](conversionperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ConversionPerformanceReportRequest](conversionperformancereportrequest.md).|

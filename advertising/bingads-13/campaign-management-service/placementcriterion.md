@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for PlacementCriterion.
 ---
 # PlacementCriterion Data Object - Campaign Management
 Defines a data object for PlacementCriterion.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PlacementCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,18 @@ Defines a data object for PlacementCriterion.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "PlacementCriterion",
+  "PlacementId": "LongValueHere",
+  "PlacementName": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

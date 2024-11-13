@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Contains the association count for the corresponding usage type.
 ---
 # CustomerAccountShareAssociation Data Object - Campaign Management
@@ -13,7 +14,8 @@ Contains the association count for the corresponding usage type.
 > [!TIP]
 > For an overview of sharing audiences and UET tags in an [account hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy), see the [Share Audiences and UET Tags](../guides/universal-event-tracking.md#hierarchy-share) technical guide. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CustomerAccountShareAssociation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,17 @@ Contains the association count for the corresponding usage type.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssociationCount": "LongValueHere",
+  "UsageType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

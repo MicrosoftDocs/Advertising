@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a biddable criterion that you want applied to the specified campaign.
 ---
 # BiddableCampaignCriterion Data Object - Campaign Management
 Defines a biddable criterion that you want applied to the specified campaign.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BiddableCampaignCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,37 @@ Defines a biddable criterion that you want applied to the specified campaign.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CampaignId": "LongValueHere",
+  "Criterion": {
+    "Type": "AgeCriterion",
+    "AgeRange": "ValueHere"
+  },
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "Type": "BiddableCampaignCriterion",
+  "CriterionBid": {
+    "Type": "BidMultiplier",
+    "Multiplier": DoubleValueHere
+  },
+  "CriterionCashback": {
+    "Type": "CashbackAdjustment",
+    "CashbackPercent": DoubleValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

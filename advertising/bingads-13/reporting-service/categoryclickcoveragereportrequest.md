@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a category click coverage report request.
 ---
 # CategoryClickCoverageReportRequest Data Object - Reporting
 Defines a category click coverage report request.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CategoryClickCoverageReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,59 @@ Defines a category click coverage report request.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ExcludeColumnHeaders": "ValueHere",
+  "ExcludeReportFooter": "ValueHere",
+  "ExcludeReportHeader": "ValueHere",
+  "Format": "ValueHere",
+  "FormatVersion": "ValueHere",
+  "ReportName": "ValueHere",
+  "ReturnOnlyCompleteData": "ValueHere",
+  "Type": "CategoryClickCoverageReportRequest",
+  "Columns": [
+    "ValueHere"
+  ],
+  "Filter": {
+    "CountryCode": [
+      "ValueHere"
+    ],
+    "L1Vertical": [
+      "ValueHere"
+    ],
+    "L2Vertical": [
+      "ValueHere"
+    ],
+    "L3Vertical": [
+      "ValueHere"
+    ]
+  },
+  "Scope": {
+    "AccountIds": [
+      "LongValueHere"
+    ]
+  },
+  "Time": {
+    "CustomDateRangeEnd": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "CustomDateRangeStart": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "PredefinedTime": "ValueHere",
+    "ReportTimeZone": "ValueHere"
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

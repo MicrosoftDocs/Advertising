@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The key and value pair of long and long values defined by the Campaign Management service.
 ---
 # KeyValuePairOflonglong Data Object - Campaign Management
 The key and value pair of long and long values defined by the Campaign Management service.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeyValuePairOflonglong" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -28,6 +30,17 @@ The key and value pair of long and long values defined by the Campaign Managemen
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "key": "LongValueHere",
+  "value": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

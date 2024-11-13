@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a rule expression that depends on the string values of the Url or Referrer Url.
 ---
 # StringRuleItem Data Object - Campaign Management
 Defines a rule expression that depends on the string values of the Url or Referrer Url.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="StringRuleItem" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,19 @@ Defines a rule expression that depends on the string values of the Url or Referr
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "String",
+  "Operand": "ValueHere",
+  "Operator": "ValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

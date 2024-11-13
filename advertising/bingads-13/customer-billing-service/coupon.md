@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a coupon.
 ---
 # Coupon Data Object - Customer Billing
 Defines a coupon.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Coupon" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -39,6 +41,44 @@ Defines a coupon.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ActiveDuration": IntValueHere,
+  "Amount": DoubleValueHere,
+  "ClaimInfo": {
+    "AccountId": "LongValueHere",
+    "AccountNumber": "ValueHere",
+    "ClaimDate": "ValueHere"
+  },
+  "ClassName": "ValueHere",
+  "CouponCode": "ValueHere",
+  "CouponType": "ValueHere",
+  "CurrencyCode": "ValueHere",
+  "EndDate": "ValueHere",
+  "ExpirationDate": "ValueHere",
+  "IsRedeemed": "ValueHere",
+  "PercentOff": DoubleValueHere,
+  "RedemptionInfo": {
+    "AccountId": "LongValueHere",
+    "AccountNumber": "ValueHere",
+    "ActivationDate": "ValueHere",
+    "Balance": DoubleValueHere,
+    "CurrencyCode": "ValueHere",
+    "ExpirationDate": "ValueHere",
+    "RedemptionDate": "ValueHere",
+    "SpendToThreshold": DoubleValueHere
+  },
+  "SendToDate": "ValueHere",
+  "SendToEmail": "ValueHere",
+  "SpendThreshold": DoubleValueHere,
+  "StartDate": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

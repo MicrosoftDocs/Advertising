@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an in-market audience.
 ---
 # InMarketAudience Data Object - Campaign Management
@@ -22,7 +23,8 @@ Defines an in-market audience.
 > [!TIP]
 > For an overview of in-market audiences see the [About in-market audiences](https://help.ads.microsoft.com/#apex/3/en/56851/-1) help topic.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="InMarketAudience" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -32,6 +34,14 @@ Defines an in-market audience.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

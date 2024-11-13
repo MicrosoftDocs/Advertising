@@ -5,12 +5,14 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Customer Billing API batch fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 ---
 # ApiBatchFault Data Object - Customer Billing
 Defines a Customer Billing API batch fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ApiBatchFault" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,31 @@ Defines a Customer Billing API batch fault object that operations return when we
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "OperationErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "Message": "ValueHere"
+    }
+  ],
+  "Type": "ApiBatchFault",
+  "BatchErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "Index": IntValueHere,
+      "Message": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

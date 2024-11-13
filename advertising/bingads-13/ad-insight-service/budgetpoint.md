@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a budget amount and an estimate of weekly impressions, clicks, and cost for this budget amount.
 ---
 # BudgetPoint Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains a budget amount and an estimate of weekly impres
 > [!NOTE]
 > The budget point is an estimate based on the last 15 days of performance data, and not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BudgetPoint" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -25,6 +27,20 @@ Defines an object that contains a budget amount and an estimate of weekly impres
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "BudgetAmount": DoubleValueHere,
+  "BudgetPointType": "ValueHere",
+  "EstimatedWeeklyClicks": DoubleValueHere,
+  "EstimatedWeeklyCost": DoubleValueHere,
+  "EstimatedWeeklyImpressions": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

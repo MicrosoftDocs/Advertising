@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an image that can be added to an account's media library.
 ---
 # Image Data Object - Campaign Management
 Defines an image that can be added to an account's media library.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Image" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,20 @@ Defines an image that can be added to an account's media library.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Id": "LongValueHere",
+  "MediaType": "ValueHere",
+  "Text": "ValueHere",
+  "Type": "Image",
+  "Data": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -77,3 +93,5 @@ Images with animation are not supported. The following MIME types are supported.
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
+## Used By
+[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)  

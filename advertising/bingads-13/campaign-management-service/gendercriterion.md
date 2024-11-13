@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads to users of a specific gender.
 ---
 # GenderCriterion Data Object - Campaign Management
@@ -14,7 +15,8 @@ The *GenderCriterion* criterion can be included within [BiddableAdGroupCriterion
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="GenderCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -26,6 +28,17 @@ The *GenderCriterion* criterion can be included within [BiddableAdGroupCriterion
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "GenderCriterion",
+  "GenderType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

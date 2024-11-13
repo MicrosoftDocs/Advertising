@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object to retract or restate an offline conversion via the ApplyOfflineConversionAdjustments operation.
 ---
 # OfflineConversionAdjustment Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object to retract or restate an offline conversion via the [ApplyOffl
 
 You can adjust the conversion time and value for offline conversions previously applied via the [ApplyOfflineConversions](applyofflineconversions.md) operation. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="OfflineConversionAdjustment" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -40,6 +42,24 @@ You can adjust the conversion time and value for offline conversions previously 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdjustmentCurrencyCode": "ValueHere",
+  "AdjustmentTime": "ValueHere",
+  "AdjustmentType": "ValueHere",
+  "AdjustmentValue": DoubleValueHere,
+  "ConversionName": "ValueHere",
+  "ConversionTime": "ValueHere",
+  "HashedEmailAddress": "ValueHere",
+  "HashedPhoneNumber": "ValueHere",
+  "MicrosoftClickId": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

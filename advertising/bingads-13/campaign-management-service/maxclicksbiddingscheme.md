@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that represents the maximum clicks bid strategy type.
 ---
 # MaxClicksBiddingScheme Data Object - Campaign Management
@@ -17,7 +18,8 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
 > [!IMPORTANT] 
 > For some bid strategy types your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](../guides/universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1). 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="MaxClicksBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,6 +31,19 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "MaxClicks",
+  "MaxCpc": {
+    "Amount": DoubleValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

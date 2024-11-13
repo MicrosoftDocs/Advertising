@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a RangeResultOfDecimalRoundedResult data object.
 ---
 # RangeResultOfDecimalRoundedResult Data Object - Ad Insight
 Defines a RangeResultOfDecimalRoundedResult data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="RangeResultOfDecimalRoundedResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
@@ -26,6 +28,23 @@ Defines a RangeResultOfDecimalRoundedResult data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "High": {
+    "Unit": "ValueHere",
+    "Value": DoubleValueHere
+  },
+  "Low": {
+    "Unit": "ValueHere",
+    "Value": DoubleValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

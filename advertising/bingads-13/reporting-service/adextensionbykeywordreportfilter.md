@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the ad extension by keyword report data.
 ---
 # AdExtensionByKeywordReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad extension by keyword report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdExtensionByKeywordReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,21 @@ Defines the criteria to use to filter the ad extension by keyword report data.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "CampaignStatus": "ValueHere",
+  "DeviceOS": "ValueHere",
+  "DeviceType": "ValueHere",
+  "KeywordStatus": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

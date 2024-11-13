@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the migration type and status for an account.
 ---
 # MigrationStatusInfo Data Object - Campaign Management
 Defines an object that contains the migration type and status for an account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="MigrationStatusInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines an object that contains the migration type and status for an account.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "MigrationType": "ValueHere",
+  "StartTimeInUtc": "ValueHere",
+  "Status": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.
 ---
 # BidStrategy Data Object - Campaign Management
@@ -29,7 +30,8 @@ Portfolio bid strategies work best with one goal in mind, using complementary ca
 |Target impression share|Search|
 |Target ROAS|Performance Max, Search, Shopping|
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BidStrategy" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -41,6 +43,23 @@ Portfolio bid strategies work best with one goal in mind, using complementary ca
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssociatedCampaignType": "ValueHere",
+  "AssociationCount": IntValueHere,
+  "BiddingScheme": {
+    "Type": "CommissionBiddingScheme",
+    "CommissionRate": DoubleValueHere
+  },
+  "Id": "LongValueHere",
+  "Name": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

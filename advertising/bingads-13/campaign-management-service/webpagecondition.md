@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a condition or criterion that helps determine whether you want to show dynamic search ads.
 ---
 # WebpageCondition Data Object - Campaign Management
 Defines a condition or criterion that helps determine whether you want to show dynamic search ads.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="WebpageCondition" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -26,6 +28,18 @@ Defines a condition or criterion that helps determine whether you want to show d
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Argument": "ValueHere",
+  "Operand": "ValueHere",
+  "Operator": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

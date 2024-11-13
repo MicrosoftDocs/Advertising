@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible types of item actions, for example to add, delete, or update the product partition criterion.
 ---
 # ItemAction Value Set - Campaign Management

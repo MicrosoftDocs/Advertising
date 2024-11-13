@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Determines whether you want to use the "target and bid" option or the "bid only" target option for the criterion type group.
 ---
 # TargetSettingDetail Data Object - Campaign Management
 Determines whether you want to use the "target and bid" option or the "bid only" target option for the criterion type group.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="TargetSettingDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Determines whether you want to use the "target and bid" option or the "bid only"
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CriterionTypeGroup": "ValueHere",
+  "TargetAndBid": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

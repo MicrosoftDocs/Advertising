@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the keyword and the estimated bid value for each match type.
 ---
 # KeywordEstimatedBid Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains the keyword and the estimated bid value for each
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordEstimatedBid" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,31 @@ Defines an object that contains the keyword and the estimated bid value for each
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "EstimatedBids": [
+    {
+      "AverageCPC": DoubleValueHere,
+      "CTR": DoubleValueHere,
+      "CurrencyCode": "ValueHere",
+      "EstimatedMinBid": DoubleValueHere,
+      "MatchType": "ValueHere",
+      "MaxClicksPerWeek": DoubleValueHere,
+      "MaxImpressionsPerWeek": "LongValueHere",
+      "MaxTotalCostPerWeek": DoubleValueHere,
+      "MinClicksPerWeek": DoubleValueHere,
+      "MinImpressionsPerWeek": "LongValueHere",
+      "MinTotalCostPerWeek": DoubleValueHere
+    }
+  ],
+  "Keyword": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

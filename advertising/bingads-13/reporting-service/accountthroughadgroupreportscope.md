@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the set of accounts, campaigns, and ad groups to include in the report.
 ---
 # AccountThroughAdGroupReportScope Data Object - Reporting
 Defines the set of accounts, campaigns, and ad groups to include in the report.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AccountThroughAdGroupReportScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,31 @@ Defines the set of accounts, campaigns, and ad groups to include in the report.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountIds": [
+    "LongValueHere"
+  ],
+  "AdGroups": [
+    {
+      "AccountId": "LongValueHere",
+      "AdGroupId": "LongValueHere",
+      "CampaignId": "LongValueHere"
+    }
+  ],
+  "Campaigns": [
+    {
+      "AccountId": "LongValueHere",
+      "CampaignId": "LongValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

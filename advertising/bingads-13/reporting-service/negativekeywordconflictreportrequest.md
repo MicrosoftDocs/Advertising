@@ -5,6 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a negative keyword conflict report request.
 ---
 # NegativeKeywordConflictReportRequest Data Object - Reporting
@@ -14,7 +15,8 @@ You can request negative keywords that conflict with some of your keywords, and 
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NegativeKeywordConflictReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -28,6 +30,50 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ExcludeColumnHeaders": "ValueHere",
+  "ExcludeReportFooter": "ValueHere",
+  "ExcludeReportHeader": "ValueHere",
+  "Format": "ValueHere",
+  "FormatVersion": "ValueHere",
+  "ReportName": "ValueHere",
+  "ReturnOnlyCompleteData": "ValueHere",
+  "Type": "NegativeKeywordConflictReportRequest",
+  "Columns": [
+    "ValueHere"
+  ],
+  "Filter": {
+    "AccountStatus": "ValueHere",
+    "AdGroupStatus": "ValueHere",
+    "CampaignStatus": "ValueHere",
+    "KeywordStatus": "ValueHere"
+  },
+  "Scope": {
+    "AccountIds": [
+      "LongValueHere"
+    ],
+    "AdGroups": [
+      {
+        "AccountId": "LongValueHere",
+        "AdGroupId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ],
+    "Campaigns": [
+      {
+        "AccountId": "LongValueHere",
+        "CampaignId": "LongValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,13 +5,15 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Feed data object.
 ---
 # Feed Data Object - Ad Insight
 Defines a Feed data object.
 ---
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Feed" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,18 @@ Defines a Feed data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "FeedId": "LongValueHere",
+  "FeedType": "LongValueHere",
+  "StoreId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

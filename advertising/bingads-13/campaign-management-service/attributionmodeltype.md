@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Determines which attribution model is used with a conversion goal.
 ---
 # AttributionModelType Value Set - Campaign Management

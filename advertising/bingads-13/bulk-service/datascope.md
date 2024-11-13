@@ -5,6 +5,7 @@ ms.subservice: bulk-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the scope or types of data to download.
 ---
 # DataScope Value Set - Bulk

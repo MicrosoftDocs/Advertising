@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the URL parameter for use with performance insights.
 ---
 # UrlParameter Data Object - Ad Insight
 Defines the URL parameter for use with performance insights. Derives from *PerformanceInsightsMessageParameter*.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="UrlParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,20 @@ Defines the URL parameter for use with performance insights. Derives from *Perfo
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Url",
+  "SuggestedText": "ValueHere",
+  "SuggestedUrl": "ValueHere",
+  "UrlCategory": "ValueHere",
+  "UrlId": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a website URL where you do not want your ads displayed.
 ---
 # NegativeSite Data Object - Campaign Management
@@ -19,7 +20,8 @@ If you associate any [website exclusion lists](placementexclusionlist.md) with a
 
 For more information about managing negative sites and website exclusion lists, see the [Negative Sites](../guides/negative-sites.md) technical guide. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NegativeSite" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -32,6 +34,24 @@ For more information about managing negative sites and website exclusion lists, 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Type": "NegativeSite",
+  "Id": "LongValueHere",
+  "Url": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

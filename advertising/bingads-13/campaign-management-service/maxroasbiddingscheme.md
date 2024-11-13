@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: This object is not in use and will be removed from a future version of the API.
 ---
 # MaxRoasBiddingScheme Data Object - Campaign Management
 This object is not in use and will be removed from a future version of the API.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="MaxRoasBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,19 @@ This object is not in use and will be removed from a future version of the API.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "MaxRoasBiddingScheme",
+  "MaxCpc": {
+    "Amount": DoubleValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for ImpressionBasedRemarketingList.
 ---
 # ImpressionBasedRemarketingList Data Object - Campaign Management
 Defines a data object for ImpressionBasedRemarketingList.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ImpressionBasedRemarketingList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,51 @@ Defines a data object for ImpressionBasedRemarketingList.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AudienceNetworkSize": "LongValueHere",
+  "CustomerShare": {
+    "CustomerAccountShares": [
+      {
+        "AccountId": "LongValueHere",
+        "Associations": [
+          {
+            "AssociationCount": "LongValueHere",
+            "UsageType": "ValueHere"
+          }
+        ],
+        "CustomerId": "LongValueHere"
+      }
+    ],
+    "OwnerCustomerId": "LongValueHere"
+  },
+  "Description": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "MembershipDuration": IntValueHere,
+  "Name": "ValueHere",
+  "ParentId": "LongValueHere",
+  "Scope": "ValueHere",
+  "SearchSize": "LongValueHere",
+  "SupportedCampaignTypes": [
+    "ValueHere"
+  ],
+  "Type": "ImpressionBasedRemarketingList",
+  "AdGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere",
+  "EntityType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

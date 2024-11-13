@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The idea text search parameter filter that you can include when requesting keyword ideas.
 ---
 # IdeaTextSearchParameter Data Object - Ad Insight
@@ -12,7 +13,8 @@ The idea text search parameter filter that you can include when requesting keywo
 
 Use these options to refine what keywords are returned when calling [GetKeywordIdeas](getkeywordideas.md). You can limit the keyword ideas to include or exclude specific keywords. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="IdeaTextSearchParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,29 @@ Use these options to refine what keywords are returned when calling [GetKeywordI
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Excluded": [
+    {
+      "Id": "LongValueHere",
+      "MatchType": "ValueHere",
+      "Text": "ValueHere"
+    }
+  ],
+  "Included": [
+    {
+      "Id": "LongValueHere",
+      "MatchType": "ValueHere",
+      "Text": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

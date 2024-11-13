@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.
 ---
 # UetTag Data Object - Campaign Management
@@ -17,7 +18,8 @@ You can use one UET tag with all of your conversion goals and audiences. Before 
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="UetTag" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -31,6 +33,36 @@ You can use one UET tag with all of your conversion goals and audiences. Before 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CustomerShare": {
+    "CustomerAccountShares": [
+      {
+        "AccountId": "LongValueHere",
+        "Associations": [
+          {
+            "AssociationCount": "LongValueHere",
+            "UsageType": "ValueHere"
+          }
+        ],
+        "CustomerId": "LongValueHere"
+      }
+    ],
+    "OwnerCustomerId": "LongValueHere"
+  },
+  "Description": "ValueHere",
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "TrackingNoScript": "ValueHere",
+  "TrackingScript": "ValueHere",
+  "TrackingStatus": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

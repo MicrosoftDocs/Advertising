@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: FileImportOption is reserved for future use.
 ---
 # FileImportOption Data Object - Campaign Management
 FileImportOption is reserved for future use.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="FileImportOption" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -20,6 +22,14 @@ FileImportOption is reserved for future use.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

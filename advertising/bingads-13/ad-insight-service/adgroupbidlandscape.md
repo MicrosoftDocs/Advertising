@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a list of estimated clicks, cost, and impressions from 1 to 7 days for the ad group identifier given the suggested bid.
 ---
 # AdGroupBidLandscape Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains a list of estimated clicks, cost, and impression
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroupBidLandscape" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -25,6 +27,38 @@ Defines an object that contains a list of estimated clicks, cost, and impression
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupBidLandscapeType": "ValueHere",
+  "AdGroupId": "LongValueHere",
+  "BidLandscapePoints": [
+    {
+      "Bid": DoubleValueHere,
+      "Clicks": DoubleValueHere,
+      "Cost": DoubleValueHere,
+      "CurrencyCode": "ValueHere",
+      "Impressions": "LongValueHere",
+      "MarginalCPC": DoubleValueHere,
+      "TopImpressions": "LongValueHere"
+    }
+  ],
+  "EndDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "StartDate": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

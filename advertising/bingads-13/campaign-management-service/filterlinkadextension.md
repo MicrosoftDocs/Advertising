@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Filter Link Extensions pair one header with between 3 and 10 clickable text values that tell customers more about your business.
 ---
 # FilterLinkAdExtension Data Object - Campaign Management
@@ -12,18 +13,19 @@ Filter Link Extensions pair one header with between 3 and 10 clickable text valu
 
 You can associate a filter link ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 filter link ad extensions. An expanded text ad will only include one filter link extension (one headline with 3 - 10 clickable values) per impression. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="FilterLinkAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:AdExtension">
       <xs:sequence>
         <xs:element minOccurs="0" name="AdExtensionHeaderType" nillable="true" type="tns:AdExtensionHeaderType" />
-        <xs:element xmlns:q58="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q58:ArrayOfstring" />
+        <xs:element xmlns:q59="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q59:ArrayOfstring" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element xmlns:q59="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q59:ArrayOfstring" />
+        <xs:element xmlns:q60="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q60:ArrayOfstring" />
         <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
-        <xs:element xmlns:q60="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Texts" nillable="true" type="q60:ArrayOfstring" />
+        <xs:element xmlns:q61="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Texts" nillable="true" type="q61:ArrayOfstring" />
         <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
       </xs:sequence>
@@ -31,6 +33,69 @@ You can associate a filter link ad extension with the account or with campaigns 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "FilterLinkAdExtension",
+  "Version": IntValueHere,
+  "AdExtensionHeaderType": "ValueHere",
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "Language": "ValueHere",
+  "Texts": [
+    "ValueHere"
+  ],
+  "TrackingUrlTemplate": "ValueHere",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

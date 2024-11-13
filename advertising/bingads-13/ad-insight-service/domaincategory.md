@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains a domain category with website coverage.
 ---
 # DomainCategory Data Object - Ad Insight
 Defines an object that contains a domain category with website coverage. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="DomainCategory" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines an object that contains a domain category with website coverage.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Bid": DoubleValueHere,
+  "CategoryName": "ValueHere",
+  "Coverage": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

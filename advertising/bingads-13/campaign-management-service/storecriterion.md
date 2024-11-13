@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a criterion to exclude one Microsoft Merchant Center store from your shopping campaign for brands.
 ---
 # StoreCriterion Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines a criterion to exclude one Microsoft Merchant Center store from your [sh
 
 Each campaign can have a maximum of 10 excluded stores. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="StoreCriterion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,17 @@ Each campaign can have a maximum of 10 excluded stores.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "StoreCriterion",
+  "StoreId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

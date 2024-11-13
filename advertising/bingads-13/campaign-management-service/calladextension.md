@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that specifies a click-to-call phone number to include in a text ad.
 ---
 # CallAdExtension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Defines an object that specifies a click-to-call phone number to include in a te
 
 You can associate a call ad extension with campaigns in the account. Each entity (campaign) can be associated with one call ad extension.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CallAdExtension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -28,6 +30,53 @@ You can associate a call ad extension with campaigns in the account. Each entity
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DevicePreference": "LongValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Scheduling": {
+    "DayTimeRanges": [
+      {
+        "Day": "ValueHere",
+        "EndHour": IntValueHere,
+        "EndMinute": "ValueHere",
+        "StartHour": IntValueHere,
+        "StartMinute": "ValueHere"
+      }
+    ],
+    "EndDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "StartDate": {
+      "Day": IntValueHere,
+      "Month": IntValueHere,
+      "Year": IntValueHere
+    },
+    "UseSearcherTimeZone": "ValueHere"
+  },
+  "Status": "ValueHere",
+  "Type": "CallAdExtension",
+  "Version": IntValueHere,
+  "CountryCode": "ValueHere",
+  "IsCallOnly": "ValueHere",
+  "IsCallTrackingEnabled": "ValueHere",
+  "PhoneNumber": "ValueHere",
+  "RequireTollFreeTrackingNumber": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

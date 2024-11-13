@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Customer Management API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 ---
 # ApiFault Data Object - Customer Management
 Defines a Customer Management API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ApiFault" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,24 @@ Defines a Customer Management API fault detail object that operations return whe
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "TrackingId": "ValueHere",
+  "Type": "ApiFault",
+  "OperationErrors": [
+    {
+      "Code": IntValueHere,
+      "Details": "ValueHere",
+      "Message": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

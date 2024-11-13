@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the number of times that the keyword was used in a search query during the specified time period.
 ---
 # HistoricalSearchCountPeriodic Data Object - Ad Insight
 Defines an object that contains the number of times that the keyword was used in a search query during the specified time period.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="HistoricalSearchCountPeriodic" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,21 @@ Defines an object that contains the number of times that the keyword was used in
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "DayMonthAndYear": {
+    "Day": IntValueHere,
+    "Month": IntValueHere,
+    "Year": IntValueHere
+  },
+  "SearchCount": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines account access rights for a person who acts on behalf of a specific customer.
 ---
 # CustomerRole Data Object - Customer Management
@@ -17,7 +18,8 @@ Taken individually, a user has the same role on the [CustomerId](customerrole.md
 > [!TIP]
 > Please see the [Account Hierchy and User Permissions](../guides/account-hierarchy-permissions.md) guide for an overview of customer roles with examples. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CustomerRole" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -29,6 +31,24 @@ Taken individually, a user has the same role on the [CustomerId](customerrole.md
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountIds": [
+    "LongValueHere"
+  ],
+  "CustomerId": "LongValueHere",
+  "CustomerLinkPermission": "ValueHere",
+  "LinkedAccountIds": [
+    "LongValueHere"
+  ],
+  "RoleId": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

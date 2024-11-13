@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a negative keyword list that is associated with an account.
 ---
 # AccountNegativeKeywordList Data Object - Campaign Management
 Defines a negative keyword list that is associated with an account.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AccountNegativeKeywordList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -20,6 +22,14 @@ Defines a negative keyword list that is associated with an account.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

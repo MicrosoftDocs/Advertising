@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible targeting source values for dynamic search ads campaigns.
 ---
 # DynamicSearchAdsSource Value Set - Campaign Management

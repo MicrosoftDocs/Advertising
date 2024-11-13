@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: A suggested keyword with minimum and maximum traffic estimates.
 ---
 # KeywordEstimate Data Object - Ad Insight
@@ -13,7 +14,8 @@ A suggested keyword with minimum and maximum traffic estimates. Traffic estimate
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance. The estimates can vary depending on the filter criteria you provide in the [GetKeywordTrafficEstimates](getkeywordtrafficestimates.md) service request.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordEstimate" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -23,6 +25,36 @@ A suggested keyword with minimum and maximum traffic estimates. Traffic estimate
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Keyword": {
+    "Id": "LongValueHere",
+    "MatchType": "ValueHere",
+    "Text": "ValueHere"
+  },
+  "Maximum": {
+    "AverageCpc": DoubleValueHere,
+    "AveragePosition": DoubleValueHere,
+    "Clicks": DoubleValueHere,
+    "Ctr": DoubleValueHere,
+    "Impressions": DoubleValueHere,
+    "TotalCost": DoubleValueHere
+  },
+  "Minimum": {
+    "AverageCpc": DoubleValueHere,
+    "AveragePosition": DoubleValueHere,
+    "Clicks": DoubleValueHere,
+    "Ctr": DoubleValueHere,
+    "Impressions": DoubleValueHere,
+    "TotalCost": DoubleValueHere
+  }
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

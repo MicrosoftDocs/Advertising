@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible options for action text that can be displayed in an action ad extension.
 ---
 # ActionAdExtensionActionType Value Set - Campaign Management

@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the requested bid landscape type for the corresponding ad group identifier.
 ---
 # AdGroupBidLandscapeInput Data Object - Ad Insight
 Defines an object that contains the requested bid landscape type for the corresponding ad group identifier.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroupBidLandscapeInput" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines an object that contains the requested bid landscape type for the corresp
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AdGroupBidLandscapeType": "ValueHere",
+  "AdGroupId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the keyword performance report data.
 ---
 # KeywordPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the keyword performance report data.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordPerformanceReportFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -33,6 +35,41 @@ Defines the criteria to use to filter the keyword performance report data.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountStatus": "ValueHere",
+  "AdDistribution": "ValueHere",
+  "AdGroupStatus": "ValueHere",
+  "AdRelevance": [
+    IntValueHere
+  ],
+  "AdType": "ValueHere",
+  "BidMatchType": "ValueHere",
+  "BidStrategyType": "ValueHere",
+  "CampaignStatus": "ValueHere",
+  "DeliveredMatchType": "ValueHere",
+  "DeviceType": "ValueHere",
+  "ExpectedCtr": [
+    IntValueHere
+  ],
+  "Keywords": [
+    "ValueHere"
+  ],
+  "KeywordStatus": "ValueHere",
+  "LandingPageExperience": [
+    IntValueHere
+  ],
+  "Language": "ValueHere",
+  "QualityScore": [
+    IntValueHere
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

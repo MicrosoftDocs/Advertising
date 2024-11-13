@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a negative keyword with match type.
 ---
 # NegativeKeyword Data Object - Campaign Management
@@ -21,7 +22,8 @@ Negative keywords can also be added and deleted from a shared negative keyword l
 
 For more information about managing negative keywords and negative keyword lists, see the [Negative Keywords](../guides/negative-keywords.md) technical guide. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="NegativeKeyword" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -35,6 +37,25 @@ For more information about managing negative keywords and negative keyword lists
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Type": "NegativeKeyword",
+  "Id": "LongValueHere",
+  "MatchType": "ValueHere",
+  "Text": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

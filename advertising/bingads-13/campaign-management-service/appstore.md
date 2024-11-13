@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The app store the mobile app is distributed in.
 ---
 # AppStore Value Set - Campaign Management

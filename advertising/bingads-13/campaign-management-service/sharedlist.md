@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the base class of a shared list.
 ---
 # SharedList Data Object - Campaign Management
@@ -15,7 +16,8 @@ Do not try to instantiate a *SharedList*. You can create one or more of the foll
 - [PlacementExclusionList](placementexclusionlist.md)  
 - [AccountNegativeKeywordList](accountnegativekeywordlist.md)
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="SharedList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -27,6 +29,26 @@ Do not try to instantiate a *SharedList*. You can create one or more of the foll
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AssociationCount": IntValueHere,
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "SharedList",
+  "ItemCount": IntValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

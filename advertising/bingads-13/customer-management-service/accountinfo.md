@@ -5,12 +5,14 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains an account's identifier, name, and number.
 ---
 # AccountInfo Data Object - Customer Management
 Defines an object that contains an account's identifier, name, and number.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AccountInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,20 @@ Defines an object that contains an account's identifier, name, and number.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountLifeCycleStatus": "ValueHere",
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Number": "ValueHere",
+  "PauseReason": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Campaign Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 ---
 # AdApiFaultDetail Data Object - Campaign Management
 Defines a Campaign Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdApiFaultDetail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,25 @@ Defines a Campaign Management Ad API fault detail object that operations return 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "TrackingId": "ValueHere",
+  "Type": "AdApiFaultDetail",
+  "Errors": [
+    {
+      "Code": IntValueHere,
+      "Detail": "ValueHere",
+      "ErrorCode": "ValueHere",
+      "Message": "ValueHere"
+    }
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

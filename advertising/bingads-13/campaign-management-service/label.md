@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a label object to organize campaigns, ad groups, ads, and keywords into groups.
 ---
 # Label Data Object - Campaign Management
 Defines a label object to organize campaigns, ad groups, ads, and keywords into groups. You can then filter and run reports on your labels to get the data that is most meaningful to you.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="Label" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,19 @@ Defines a label object to organize campaigns, ad groups, ads, and keywords into 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ColorCode": "ValueHere",
+  "Description": "ValueHere",
+  "Id": "LongValueHere",
+  "Name": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an Ad Insight batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 ---
 # BatchError Data Object - Ad Insight
 Defines an Ad Insight batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BatchError" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -22,6 +24,20 @@ Defines an Ad Insight batch error object that identifies the item within the bat
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Code": IntValueHere,
+  "Details": "ValueHere",
+  "ErrorCode": "ValueHere",
+  "Index": IntValueHere,
+  "Message": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

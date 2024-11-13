@@ -5,19 +5,21 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines pricing information by currency and unit that you can use with price ad extensions.
 ---
 # PriceTableRow Data Object - Campaign Management
 Defines pricing information by currency and unit that you can use with price ad extensions.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="PriceTableRow" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-    <xs:element xmlns:q54="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q54:ArrayOfstring" />
-    <xs:element xmlns:q55="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q55:ArrayOfstring" />
+    <xs:element xmlns:q55="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q55:ArrayOfstring" />
+    <xs:element xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q56:ArrayOfstring" />
     <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
     <xs:element name="Price" type="xs:double" />
     <xs:element name="PriceQualifier" type="tns:PriceQualifier" />
@@ -27,6 +29,29 @@ Defines pricing information by currency and unit that you can use with price ad 
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CurrencyCode": "ValueHere",
+  "Description": "ValueHere",
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "Header": "ValueHere",
+  "Price": DoubleValueHere,
+  "PriceQualifier": "ValueHere",
+  "PriceUnit": "ValueHere",
+  "TermsAndConditions": "ValueHere",
+  "TermsAndConditionsUrl": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

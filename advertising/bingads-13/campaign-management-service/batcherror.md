@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a Campaign Management batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 ---
 # BatchError Data Object - Campaign Management
@@ -18,7 +19,7 @@ Defines a Campaign Management batch error object that identifies the item within
     <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="FieldPath" nillable="true" type="xs:string" />
-    <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q13:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q14:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="Index" type="xs:int" />
     <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />

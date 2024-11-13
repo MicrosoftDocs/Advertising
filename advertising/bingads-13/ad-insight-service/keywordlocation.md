@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the location, network, device, and the percentage of time that a user entered a search query.
 ---
 # KeywordLocation Data Object - Ad Insight
 Defines an object that contains the location, network, device, and the percentage of time that a user entered a search query.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="KeywordLocation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines an object that contains the location, network, device, and the percentag
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Device": "ValueHere",
+  "Location": "ValueHere",
+  "Percentage": DoubleValueHere
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

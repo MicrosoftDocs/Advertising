@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Identifies a campaign and the list of its ad groups to import.
 ---
 # CampaignAdGroupIds Data Object - Campaign Management
 Identifies a campaign and the list of its ad groups to import. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CampaignAdGroupIds" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,11 +23,25 @@ Identifies a campaign and the list of its ad groups to import.
         </xs:appinfo>
       </xs:annotation>
     </xs:element>
-    <xs:element xmlns:q143="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="AdGroupIds" nillable="true" type="q143:ArrayOflong" />
+    <xs:element xmlns:q144="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="AdGroupIds" nillable="true" type="q144:ArrayOflong" />
     <xs:element name="CampaignId" type="xs:long" />
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "ActiveAdGroupsOnly": "ValueHere",
+  "AdGroupIds": [
+    "LongValueHere"
+  ],
+  "CampaignId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,6 +5,7 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains estimates of clicks, cost, and impressions  given the suggested bid.
 ---
 # BidLandscapePoint Data Object - Ad Insight
@@ -13,7 +14,8 @@ Defines an object that contains estimates of clicks, cost, and impressions  give
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance. Estimates are for search traffic only, and not based on performance for ads on the content network.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="BidLandscapePoint" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -27,6 +29,22 @@ Defines an object that contains estimates of clicks, cost, and impressions  give
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Bid": DoubleValueHere,
+  "Clicks": DoubleValueHere,
+  "Cost": DoubleValueHere,
+  "CurrencyCode": "ValueHere",
+  "Impressions": "LongValueHere",
+  "MarginalCPC": DoubleValueHere,
+  "TopImpressions": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

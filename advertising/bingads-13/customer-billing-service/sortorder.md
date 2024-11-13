@@ -5,6 +5,7 @@ ms.subservice: customer-billing-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the ascending or descending sort order of results using one of the search operations, for example SearchCoupons or SearchInsertionOrders.
 ---
 # SortOrder Value Set - Customer Billing

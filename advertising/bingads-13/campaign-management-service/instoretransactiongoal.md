@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an in-store transaction goal.
 ---
 # InStoreTransactionGoal Data Object - Campaign Management
@@ -15,7 +16,8 @@ In-store transactions empower retail advertisers with a holistic view of return 
 > [!NOTE]
 > In-store transaction goals are only available for alpha pilot customers. Only one in-store transaction goal can be created per customer. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="InStoreTransactionGoal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -25,6 +27,14 @@ In-store transactions empower retail advertisers with a holistic view of return 
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The app setting data object.
 ---
 # AppSetting Data Object - Campaign Management
 The app setting data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AppSetting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -35,6 +37,18 @@ The app setting data object.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "AppSetting",
+  "AppId": "ValueHere",
+  "AppStore": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

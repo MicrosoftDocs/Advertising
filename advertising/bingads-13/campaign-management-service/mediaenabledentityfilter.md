@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the possible values representing entities that are enabled for media such as images.
 ---
 # MediaEnabledEntityFilter Value Set - Campaign Management

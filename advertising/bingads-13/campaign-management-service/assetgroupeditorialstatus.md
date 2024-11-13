@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: The editorial review status of the asset group, which indicates whether the asset group is pending review, has been approved, or has been disapproved.
 ---
 # AssetGroupEditorialStatus Value Set - Campaign Management

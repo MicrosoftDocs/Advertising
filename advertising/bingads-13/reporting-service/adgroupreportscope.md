@@ -5,12 +5,14 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an ad group to include in the report.
 ---
 # AdGroupReportScope Data Object - Reporting
 Defines an ad group to include in the report.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AdGroupReportScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -20,6 +22,18 @@ Defines an ad group to include in the report.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AdGroupId": "LongValueHere",
+  "CampaignId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

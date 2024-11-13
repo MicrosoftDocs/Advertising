@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines an object that contains the info of responsive search ads recommendation.
 ---
 # RSARecommendationInfo Data Object - Ad Insight
 Defines an object that contains the info of responsive search ads recommendation.  
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="RSARecommendationInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -22,6 +24,19 @@ Defines an object that contains the info of responsive search ads recommendation
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "RecommendationHash": "ValueHere",
+  "RecommendationId": "ValueHere",
+  "Type": "RSARecommendationInfo",
+  "AdId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

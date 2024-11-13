@@ -5,6 +5,7 @@ ms.subservice: customer-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the base object from which all Customer Management fault detail objects derive.
 ---
 # ApplicationFault Data Object - Customer Management

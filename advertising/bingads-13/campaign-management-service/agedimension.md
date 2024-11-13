@@ -5,6 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Data object that specifies users by their age.
 ---
 # AgeDimension Data Object - Campaign Management
@@ -12,7 +13,8 @@ Data object that specifies users by their age.
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AgeDimension" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -24,6 +26,19 @@ Data object that specifies users by their age.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Type": "Age",
+  "AgeRanges": [
+    "ValueHere"
+  ]
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

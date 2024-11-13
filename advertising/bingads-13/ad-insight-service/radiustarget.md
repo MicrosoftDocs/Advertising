@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a RadiusTarget data object.
 ---
 # RadiusTarget Data Object - Ad Insight
 Defines a RadiusTarget data object.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="RadiusTarget" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -21,6 +23,19 @@ Defines a RadiusTarget data object.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "CenterLatitude": DoubleValueHere,
+  "CenterLongitude": DoubleValueHere,
+  "Radius": IntValueHere,
+  "RadiusUnit": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

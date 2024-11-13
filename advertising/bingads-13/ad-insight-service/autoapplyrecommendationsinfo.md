@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines the auto-apply opt-in status for specific recommendation type.
 ---
 # AutoApplyRecommendationsInfo Data Object - Ad Insight
 Defines the auto-apply opt-in status for specific recommendation type. 
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="AutoApplyRecommendationsInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines the auto-apply opt-in status for specific recommendation type.
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AAROptInStatus": "ValueHere",
+  "RecommendationType": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 

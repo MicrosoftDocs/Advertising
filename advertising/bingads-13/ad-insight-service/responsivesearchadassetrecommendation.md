@@ -5,12 +5,14 @@ ms.subservice: ad-insight-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a data object for ResponsiveSearchAdAssetRecommendation.
 ---
 # ResponsiveSearchAdAssetRecommendation Data Object - Ad Insight
 Defines a data object for ResponsiveSearchAdAssetRecommendation.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="ResponsiveSearchAdAssetRecommendation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -23,6 +25,46 @@ Defines a data object for ResponsiveSearchAdAssetRecommendation.
   </xs:complexContent>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "AccountId": "LongValueHere",
+  "AccountName": "ValueHere",
+  "AdGroupId": "LongValueHere",
+  "AdGroupName": "ValueHere",
+  "CampaignId": "LongValueHere",
+  "CampaignName": "ValueHere",
+  "CurrentClicks": "LongValueHere",
+  "CurrentConversions": "LongValueHere",
+  "CurrentCost": DoubleValueHere,
+  "CurrentImpressions": "LongValueHere",
+  "Dismissed": "ValueHere",
+  "EstimatedIncreaseInClicks": "LongValueHere",
+  "EstimatedIncreaseInConversions": "LongValueHere",
+  "EstimatedIncreaseInCost": DoubleValueHere,
+  "EstimatedIncreaseInImpressions": "LongValueHere",
+  "RecommendationHash": "ValueHere",
+  "RecommendationId": "ValueHere",
+  "RecommendationType": "ValueHere",
+  "Type": "ResponsiveSearchAdAssetRecommendation",
+  "RecommendedResponsiveSearchAd": {
+    "Descriptions": [
+      "ValueHere"
+    ],
+    "FinalUrl": "ValueHere",
+    "Headlines": [
+      "ValueHere"
+    ],
+    "Path1": "ValueHere",
+    "Path2": "ValueHere"
+  },
+  "ResponsiveSearchAdId": "LongValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
@@ -61,7 +103,6 @@ The [ResponsiveSearchAdAssetRecommendation](responsivesearchadassetrecommendatio
 |<a name="recommendationid"></a>RecommendationId|The identifier of the recommendation.|**string**|
 |<a name="recommendationtype"></a>RecommendationType|The type of recommendation.<br/><br/>*Note*: We currently support *CAMPAIGN_BUDGET*, *KEYWORD*, and *RESPONSIVE_SEARCH_AD*. *RecommendationType* is output only.|**string**|
 |<a name="type"></a>Type|The *RecommendationType* value set has the following values: *CampaignBudgetRecommendation*, *KeywordRecommendation*, *ResponsiveSearchAdRecommendation*.|[RecommendationType](recommendationtype.md)|
-
 
 ## Requirements
 Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)  

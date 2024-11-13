@@ -5,12 +5,14 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ms.date: 11/13/2024
 description: Defines a key and value custom parameter for URL tracking.
 ---
 # CustomParameter Data Object - Campaign Management
 Defines a key and value custom parameter for URL tracking. Used for campaign, ad group, ad, keyword, sitelink, and ad group criterion URL custom parameters.
 
-## Syntax
+# [XML](#tab/xml)
+
 ```xml
 <xs:complexType name="CustomParameter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
@@ -19,6 +21,17 @@ Defines a key and value custom parameter for URL tracking. Used for campaign, ad
   </xs:sequence>
 </xs:complexType>
 ```
+
+# [JSON](#tab/json)
+
+```json
+{
+  "Key": "ValueHere",
+  "Value": "ValueHere"
+}
+```
+
+-----
 
 ## <a name="elements"></a>Elements
 
