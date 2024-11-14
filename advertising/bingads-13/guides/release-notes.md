@@ -10,6 +10,9 @@ description: Get information about changes to Bing Ads API Version 13 by month.
 # Bing Ads API Release Notes
 See below for information about changes to Bing Ads API Version 13 by month.  
 
+> [!NOTE]
+> As a best practice, we recommend completing significant development work outside of your peak season.
+
 ## <a name="breaking-changes"></a>Breaking changes (recent and upcoming)
 
 > [!IMPORTANT]
@@ -20,6 +23,21 @@ See below for information about changes to Bing Ads API Version 13 by month.
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
+
+## <a name="november2024"></a>November 2024
+
+See below for Bing Ads API updates during this calendar month.  
+ 
+- [REST API Documentation Update](#documentation-november2024)  
+- [Bing Ads API SDK Updates](#sdk-november2024)  
+
+### <a name="documentation-november2024"></a>REST API Documentation Update
+
+We are pleased to announce that our API documentation has been updated to include the new REST API. You will be able to switch between the REST and SOAP APIs within the documentation. See our [blog post](https://techcommunity.microsoft.com/blog/adsapiblog/new-rest-api-and-bing-ads-sdk-may-2024-release-v13-0-20/4126605) about the new REST API to learn more.
+
+### <a name="sdk-november2024"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.22), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.22) SDK version 13.0.22.
 
 ## <a name="september2024"></a>September 2024
 
