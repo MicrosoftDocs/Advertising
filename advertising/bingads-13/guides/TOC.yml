@@ -1720,6 +1720,8 @@
       href: ../campaign-management-service/campaignadgroupids.md
     - name: CampaignAssociation
       href: ../campaign-management-service/campaignassociation.md
+    - name: CampaignConversionGoal
+      href: ../campaign-management-service/campaignconversiongoal.md
     - name: CampaignCriterion
       href: ../campaign-management-service/campaigncriterion.md
     - name: CampaignNegativeSites
