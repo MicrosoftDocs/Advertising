@@ -17,7 +17,7 @@ You can associate a disclaimer with a campaign in the account. Use the [Campaign
 
 You can download all *Disclaimer Ad Extension* records in the account by including the [DownloadEntity](downloadentity.md) value of *DisclaimerAdExtensions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new Disclaimer to the account's shared library. 
+The following Bulk CSV example would add a new Disclaimer to the account's shared library.  
 
 ```csv
 Type,Status,Id,Parent Id,Campaign,Client Id,Modified Time,Start Date,End Date,Ad Schedule,Use Searcher Time Zone,Disclaimer Layout,Name,Popup Text,Title,Final Url,Mobile Final Url
@@ -131,7 +131,7 @@ var entityUploadParameters = new EntityUploadParameters
 var uploadResultEntities = (await BulkServiceManager.UploadEntitiesAsync(entityUploadParameters)).ToList();
 ```
 
-For a *Disclaimer* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Disclaimer* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).  
 
 - [Ad Schedule](#adschedule)
 - [Client Id](#clientid)
@@ -167,28 +167,28 @@ The possible values of *StartMinute* and *EndMinute* range from 00 to 60.
 The following example demonstrates day and time ranges during weekdays from 9:00AM through 9:00PM: *(Monday[09:00-21:00]);(Tuesday[09:00-21:00]);(Wednesday[09:00-21:00]);(Thursday[09:00-21:00]);(Friday[09:00-21:00])*
 
 **Add:** Optional. If you do not set this field, the record will be eligible for scheduling anytime during the calendar [start](#startdate) and [end](#enddate) dates.  
-**Update:** Optional. The individual day and time ranges cannot be updated. You can effectively update the day and time ranges by sending a new set that should replace the prior set. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.    
+**Update:** Optional. The individual day and time ranges cannot be updated. You can effectively update the day and time ranges by sending a new set that should replace the prior set. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.  
 **Delete:** Read-only  
 
 ## <a name="clientid"></a>Client Id
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
 **Add:** Optional  
-**Update:** Optional    
+**Update:** Optional  
 **Delete:** Read-only  
 
 ## <a name="disclaimerlayout"></a>Disclaimer Layout
 The layout of the disclaimer. Can either be *additionalLine* or *popup*.
 
 ## <a name="editoriallocation"></a>Editorial Location
-The component or property of the record that failed editorial review. 
+The component or property of the record that failed editorial review.  
 
 **Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
 
 ## <a name="editorialreasoncode"></a>Editorial Reason Code
-A code that identifies the reason for the failure. For a list of possible reason codes, see [Editorial Reason Codes](../guides/editorial-failure-reason-codes.md). 
+A code that identifies the reason for the failure. For a list of possible reason codes, see [Editorial Reason Codes](../guides/editorial-failure-reason-codes.md).  
 
 **Add:** Read-only  
 **Update:** Read-only  
@@ -225,7 +225,7 @@ The record scheduled end date string formatted as *MM/DD/YYYY*.
 The end date is inclusive. For example, if you set this field to 12/31/2020, the records will stop being shown at 11:59 PM on 12/31/2020.
 
 **Add:** Optional. If you do not specify an end date, the record will continue to be delivered unless you pause the associated campaigns, ad groups, or ads.  
-**Update:** Optional. The end date can be shortened or extended, as long as the start date is either null or occurs before the new end date. If you set this field to the *delete_value* string, then you are effectively removing the end date. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.      
+**Update:** Optional. The end date can be shortened or extended, as long as the start date is either null or occurs before the new end date. If you set this field to the *delete_value* string, then you are effectively removing the end date. The [Ad Schedule](#adschedule), [End Date](#enddate), [Start Date](#startdate), and [Use Searcher Time Zone](#usesearchertimezone) fields depend on each other and are updated together. If you leave all of these fields empty during update, then none of them are updated. If you include values for any of these fields, then the prior values for all of these fields are removed or replaced. To remove all prior schedule settings, set each of these fields to *delete_value*.  
 **Delete:** Read-only  
 
 ## <a name="finalurl"></a>Final Url
@@ -240,7 +240,7 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 - If you specify [Mobile Final Url](#mobilefinalurl), you must also specify [Final Url](#finalurl).  
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.   
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
@@ -262,7 +262,7 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 - If you specify [Mobile Final Url](#mobilefinalurl), you must also specify [Final Url](#finalurl).  
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="modifiedtime"></a>Modified Time
@@ -315,16 +315,16 @@ The start date is inclusive. For example, if you set *StartDate* to 5/5/2020, th
 ## <a name="status"></a>Status
 The status of the record.
 
-Possible values are *Active* or *Deleted*. 
+Possible values are *Active* or *Deleted*.  
 
 **Add:** Optional. The default value is *Active*.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="title"></a>Title
-The title of the popup in popup layout.
+The title of the popup in *popup* layout. *Note*: Title is not allowed in *additionalLine* layout.  
 
-Max. length: 75 characters.
+The disclaimer title must be one of the following values: "Disclaimer info", "Disclaimer", "Disclosure", "More disclaimer info", "Offer Details", "Safety Info", or "Safety Information".  
 
 ## <a name="usesearchertimezone"></a>Use Searcher Time Zone
 Determines whether to use the account time zone or the time zone of the search user where the ads could be delivered.
@@ -339,6 +339,5 @@ Set this property to *TRUE* if you want the records to be shown in the search us
 The number of times the contents of the record has been updated. The version is set to 1 when you add the record and is incremented each time it's revised.
 
 **Add:** Read-only  
-**Update:** Read-only    
+**Update:** Read-only  
 **Delete:** Read-only  
-

@@ -8,15 +8,14 @@ ms.date: 11/13/2024
 description: Language options in Microsoft Advertising give you control over your advertising campaign and experience.
 ---
 # Ad Languages
-Language options in Microsoft Advertising give you control over your advertising campaign and experience. 
+Language options in Microsoft Advertising give you control over your advertising campaign and experience.  
 
 ## <a name="adlanguage"></a>Ad Language
-Your ad language setting determines the language you will use when you write your ads and should be the language of your customers. The campaign level languages setting applies to all ad groups in the campaign; However, if languages are set at both the ad group and campaign level, the ad group-level language will override the campaign-level language. The ad group level language setting applies to all ads in an ad group. 
+Your ad language setting determines the language you will use when you write your ads and should be the language of your customers. The campaign level languages setting applies to all ad groups in the campaign; However, if languages are set at both the ad group and campaign level, the ad group-level language will override the campaign-level language. The ad group level language setting applies to all ads in an ad group.  
 
 Your ad language in combination with your [location targeting](show-ads-target-audience.md) determines who will see your ads. When determining if your ads are eligible to be shown to a particular search user, Microsoft Advertising first determines if your ad language allows for your ad to be shown in a particular country or region then considers the location criteria (and other criteria) settings you have configured. If the target criteria is met and the ad language is available in the country/region, the ad is eligible to display. To learn more, see the Microsoft Advertising help article [How does ad language and location targeting affect who can see my ads?](https://help.ads.microsoft.com/#apex/3/en/51100/0)
 
 The following are the possible languages that you can use to write your ads and keywords.
-
 
 |Language|Language Code|
 |------------|-----------------|
@@ -57,17 +56,17 @@ The following are the possible languages that you can use to write your ads and 
 |Turkish|TR|
 		
 ## <a name="productlanguage"></a>Product Language
-Your [customer](../customer-management-service/customer.md) language determines the language of the Microsoft Advertising interface. 
+Your [customer](../customer-management-service/customer.md) language determines the language of the Microsoft Advertising interface.  
 
 The following country codes are supported per customer language e.g. [aggregators](account-hierarchy-permissions.md#aggregator-hierarchy) can use these languages and countries or regions in the [Customer](../customer-management-service/customer.md) object when calling the [SignupCustomer](../customer-management-service/signupcustomer.md) operation.
 
 > [!NOTE]
-> In New Zealand, Microsoft Advertising is available only on the Microsoft Advertising Network. 
+> In New Zealand, Microsoft Advertising is available only on the Microsoft Advertising Network.  
 
 |Language|Country or Region Code|
 |------------|------------------|
 |Dutch|NL|
-|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PL, PM, PN, PR, PS, PW, RE, RO, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
+|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PM, PN, PR, PS, PW, RE, RO, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
 |Filipino|PH|
 |French|BF, BJ, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|
 |German|AT, CH, DE|
@@ -125,7 +124,7 @@ Countdown customizers let you easily add a countdown (by day, hour, and then min
 |TR|Turkish|
 
 ## <a name="adextensionheaders"></a>Ad Extension Headers
-Structured Snippet headers must be specified in the same language that you intend it to be shown. For example, if you want header *Amenities* in English you must specify the header as *Amenities*. If you want header *Ausstattung* in German you must specify the header as *Ausstattung* (*Amenities* in German). 
+Structured Snippet headers must be specified in the same language that you intend it to be shown. For example, if you want header *Amenities* in English you must specify the header as *Amenities*. If you want header *Ausstattung* in German you must specify the header as *Ausstattung* (*Amenities* in German).  
 
 The following headers are supported per language.
 
@@ -162,11 +161,11 @@ Swedish,Bekvämligheter,Varumärken,Kurser,Utbildningar,Resmål,Hotellval,Varor,
 ```
 
 ## <a name="actionadextension-actiontext"></a>Action Text for Action Ad Extensions
-The action text displayed for action ad extensions will depend on the language that you set when creating or updating the action ad extension. For example, if you want action text displayed as *Act Now* in English you must specify the action type as *ActNow* and set the language to *English*. If you want action text displayed as *Jetzt handeln* in German you must likewise set the action type to *ActNow*, but set the language to *German*. 
+The action text displayed for action ad extensions will depend on the language that you set when creating or updating the action ad extension. For example, if you want action text displayed as *Act Now* in English you must specify the action type as *ActNow* and set the language to *English*. If you want action text displayed as *Jetzt handeln* in German you must likewise set the action type to *ActNow*, but set the language to *German*.  
 
 Microsoft Advertising does not support all action types for all languages. If you attempt to use an unsupported action type and language combination, an error will be returned. This table lists the rare exceptions i.e. where the translated text exceeds 16 characters.
 
-|Language|Action Types Not Supported| 
+|Language|Action Types Not Supported|
 |-----|-----|
 |Dutch|PostJob|
 |French|FindStore,TestDrive,ViewCars,VisitStore|
@@ -174,9 +173,9 @@ Microsoft Advertising does not support all action types for all languages. If yo
 |Italian|FreeQuote|
 |Norwegian|FreeTrial|
 
-As of January 2020, nine action types are deprecated. For example, if you set the action type to "Browse" no error will be returned, but "LearnMore" is the effective value that will be stored and returned when retrieving the action ad extension. Your application should use the replacement values instead of the deprecated values. 
+As of January 2020, nine action types are deprecated. For example, if you set the action type to "Browse" no error will be returned, but "LearnMore" is the effective value that will be stored and returned when retrieving the action ad extension. Your application should use the replacement values instead of the deprecated values.  
 
-|Deprecated Action Type|Replacement Action Type| 
+|Deprecated Action Type|Replacement Action Type|
 |-----|-----|
 |Browse|LearnMore|
 |Explore|LearnMore|
@@ -188,7 +187,7 @@ As of January 2020, nine action types are deprecated. For example, if you set th
 |ViewNow|LearnMore|
 |VisitSite|LearnMore|
 
-When using the Bing Ads API you will always set the action type using an English pascal case enumeration value i.e., one of the language strings in the first comma separated row below. The language translations are documented for your convenience, although you will not use them directly via the Bing Ads API. 
+When using the Bing Ads API you will always set the action type using an English pascal case enumeration value i.e., one of the language strings in the first comma separated row below. The language translations are documented for your convenience, although you will not use them directly via the Bing Ads API.  
 
 > [!NOTE]
 > The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.
