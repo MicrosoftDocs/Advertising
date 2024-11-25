@@ -137,7 +137,7 @@ var entityUploadParameters = new EntityUploadParameters
 var uploadResultEntities = (await BulkServiceManager.UploadEntitiesAsync(entityUploadParameters)).ToList();
 ```
 
-For an *Ad Group* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For an *Ad Group* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).  
 
 - [Ad Group](#adgroup)
 - [Ad Group Type](#adgrouptype)
@@ -179,7 +179,7 @@ The name of the ad group.
 The name must be unique among all active ad groups within the campaign. The name can contain a maximum of 256 characters.
 
 **Add:** Required  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="adgrouptype"></a>Ad Group Type
@@ -194,7 +194,7 @@ This field can be set to *HotelAds* for "Hotel" or "Search" campaign types.
 This field cannot be set for "Audience" or "Shopping" campaign types. When you retrieve an ad group within unsupported campaigns, this field will be empty.
 
 **Add:** Optional. The default value for Search campaigns is "SearchStandard". The default value for "DynamicSearchAds" campaigns is "SearchDynamic".  
-**Update:** Read-only. You cannot update the ad group type.     
+**Update:** Read-only. You cannot update the ad group type.  
 **Delete:** Read-only  
 
 ## <a name="adrotation"></a>Ad Rotation
@@ -212,7 +212,7 @@ If set to *RotateAdsEvenly*, Microsoft Advertising provides more balance in rota
 - The *RotateAdsEvenly* setting will be ignored if the ad group's campaign uses an automated bid strategy i.e., *MaxClicks*, *MaxConversions*, *TargetCpa*, or *TargetRoas*, as these bid strategies prioritize better-performing ads.
 
 **Add:** Optional. The default value is *OptimizeForClicks*.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="adscheduleusesearchertimezone"></a>Ad Schedule Use Searcher Time Zone
@@ -220,15 +220,15 @@ Determines whether to use the account time zone or the time zone of the search u
 
 Set this property to *TRUE* if you want the ads to be shown in the search user's time zone, and otherwise set it to *FALSE*.  
 
-**Add:** Optional. If you do not specify this field or leave it empty, the default value of *TRUE* will be set and the search user's time zone will be used. After September 30, 2020, if you do not specify this field or leave it empty, the default value of *FALSE* is set and the account time zone is used.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.   
+**Add:** Optional. On or before September 30, 2020, if you do not specify this field or leave it empty, the default value of *TRUE* will be set and the search user's time zone will be used. After September 30, 2020, if you do not specify this field or leave it empty, the default value of *FALSE* is set and the account time zone is used.  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="bidadjustment"></a>Bid Adjustment
 The percent amount by which to adjust your bid for audience ads above or below the base ad group or keyword bid.
 
 > [!NOTE]
-> This property is not available with [smart shopping campaigns](../guides/smart-shopping-campaigns.md). 
+> This property is not available with [smart shopping campaigns](../guides/smart-shopping-campaigns.md).  
 
 Supported values are negative one hundred (-100) through positive nine hundred (900). Setting the bid adjustment to -100 percent will prevent audience ads from showing for this ad group.
 
@@ -239,7 +239,7 @@ Set this field to zero (0) if you do not want any bid adjustment for audience ad
 **Delete:** Read-only  
 
 ## <a name="bidboostvalue"></a>Bid Boost Value
-The default bid boost percentage that you'll see in the Microsoft Advertising web application for new product groups. 
+The default bid boost percentage that you'll see in the Microsoft Advertising web application for new product groups.  
 
 This ad group level target setting is not used directly in the auction. The product group [Bid Adjustment](ad-group-product-partition.md#bidadjustment) is used to boost your partner's [Bid](ad-group-product-partition.md#bid).
 
@@ -247,7 +247,7 @@ This ad group level target setting is not used directly in the auction. The prod
 > This setting is only applicable for ad groups in [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative).
 
 **Add:** Required if the [Bid Option](#bidoption) is set to BidBoost, and otherwise you may not set this field.  
-**Update:** Optional if the [Bid Option](#bidoption) is set to BidBoost, and otherwise you may not set this field.       
+**Update:** Optional if the [Bid Option](#bidoption) is set to BidBoost, and otherwise you may not set this field.  
 **Delete:** Read-only  
 
 ## <a name="bidoption"></a>Bid Option
@@ -263,21 +263,21 @@ Please take note of the following impact this setting has on biddable [Ad Group 
 - If this element is set to BidBoost, the auction will use use the [Bid Adjustment](ad-group-product-partition.md#bidadjustment) field of the [Ad Group Product Partition](ad-group-product-partition.md).  
 
 **Add:** Optional. If this field is not set, the default [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative) bidding option for the ad group is BidValue.    
-**Update:** Read-only. If you attempt to change the previous bid option an error will be returned.     
+**Update:** Read-only. If you attempt to change the previous bid option an error will be returned.  
 **Delete:** Read-only  
 
 ## <a name="bidstrategytype"></a>Bid Strategy Type
-The bid strategy type for how you want to manage your bids. 
+The bid strategy type for how you want to manage your bids.  
 
 The bid strategy type for ad groups and keywords is "InheritFromParent".
 
 > [!NOTE]
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.
 
-For details about supported bid strategies per campaign type, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md). 
+For details about supported bid strategies per campaign type, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).  
 
 **Add:** Optional. If you do not set this field, then *InheritFromParent* is used by default.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="campaign"></a>Campaign
@@ -294,7 +294,7 @@ The name of the campaign that contains the ad group.
 Used to associate records in the bulk upload file with records in the results file. The value of this field is not used or stored by the server; it is simply copied from the uploaded record to the corresponding result record. It may be any valid string to up 100 in length.
 
 **Add:** Optional  
-**Update:** Optional    
+**Update:** Optional  
 **Delete:** Read-only  
 
 ## <a name="cpcbid"></a>Cpc Bid
@@ -305,7 +305,7 @@ The minimum and maximum bid range depends on the account's currency. For more in
 Specifying a broad, exact, or phrase match bid at the keyword level overrides the ad group's search bid value for the corresponding match type.
 
 **Add:** Optional. If you do not set a bid, it will be set to the minimum depending on your account's currency.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="customparameter"></a>Custom Parameter
@@ -319,13 +319,13 @@ In a bulk file, the list of custom parameters are formatted as follows.
 
 - A Key cannot contain a semicolon. If a Value contains a semicolon it must be escaped as '\\;'. Additionally if the Value contains a backslash it must also be escaped as '\\'.
 
-- The Key cannot exceed 16 UTF-8 bytes, and the Value cannot exceed 250 UTF-8 bytes. The Key is required and the Value is optional. The maximum size of the Key does not include the braces and underscore i.e., '{', '_', and '}'. 
+- The Key cannot exceed 16 UTF-8 bytes, and the Value cannot exceed 250 UTF-8 bytes. The Key is required and the Value is optional. The maximum size of the Key does not include the braces and underscore i.e., '{', '_', and '}'.  
 
     > [!NOTE] 
     > With the Bulk service the Key must be formatted with surrounding braces and a leading underscore, for example if the Key is promoCode, it must be formatted as {_promoCode}. With the Campaign Management service you cannot specify the surrounding braces and underscore.
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.  
 **Delete:** Read-only  
 
 ## <a name="enddate"></a>End Date
@@ -336,11 +336,11 @@ If you do not specify an end date, the ads will not expire. The end date can be 
 The end date is inclusive. For example, if you set *End Date* to 12/31/2020, the ads in the ad group will expire at 11:59 PM on 12/31/2020. The time is based on the time zone that you specify at the campaign level.
 
 **Add:** Optional. To set no end date when adding an ad group, do not set this field.  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set this field to the "delete_value" string. When you retrieve the ad group next time, this field will not be set.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set this field to the "delete_value" string. When you retrieve the ad group next time, this field will not be set.  
 **Delete:** Read-only  
 
 ## <a name="finalurlsuffix"></a>Final Url Suffix
-The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. For more details and validation rules see [Final URL Suffix](../guides/url-tracking-upgraded-urls.md#finalurlsuffixvalidation) in the technical guides. 
+The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. For more details and validation rules see [Final URL Suffix](../guides/url-tracking-upgraded-urls.md#finalurlsuffixvalidation) in the technical guides.  
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
@@ -366,7 +366,7 @@ The system-generated identifier of the ad group.
 **Delete:** Read-only and Required  
 
 ## <a name="inheritedbidstrategytype"></a>Inherited Bid Strategy Type
-The bid strategy type that is inherited from the parent campaign. 
+The bid strategy type that is inherited from the parent campaign.  
 
 This value is equal to the parent campaign's [Bid Strategy Type](#bidstrategytype) field. Possible values are *EnhancedCpc*, *ManualCpc*, *MaxClicks*, *MaxConversions*, *TargetCpa*, and *TargetRoas*.
 
@@ -386,7 +386,7 @@ If you specify a time period that spans multiple days, the score will be the sam
 
 Data for this column is typically updated 14-18 hours after the UTC day ends.
 
-**Add:** Read-only    
+**Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
 
@@ -402,7 +402,7 @@ If you specify a time period that spans multiple days, the score will be the sam
 
 Data for this column is typically updated 14-18 hours after the UTC day ends.
 
-**Add:** Read-only    
+**Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
 
@@ -418,7 +418,7 @@ If you specify a time period that spans multiple days, the score will be the sam
 
 Data for this column is typically updated 14-18 hours after the UTC day ends.
 
-**Add:** Read-only    
+**Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
 
@@ -426,7 +426,7 @@ Data for this column is typically updated 14-18 hours after the UTC day ends.
 Your [ad language](../guides/ad-languages.md#adlanguage) setting determines the language you will use when you write your ads and should be the language of your customers.  
 
 > [!IMPORTANT]
-> If languages are set at both the ad group and campaign level, the ad group level language will override the campaign level language. 
+> If languages are set at both the ad group and campaign level, the ad group level language will override the campaign level language.  
 
 The supported language strings for Search and Shopping campaigns are: Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Maltese, Norwegian, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish, and TraditionalChinese.
 
@@ -438,7 +438,7 @@ For Dynamic Search Ads campaigns, the campaign and ad group level language setti
 For ad groups in Audience campaigns, ad group level language is not supported, and you must set the [Language](campaign.md#language) field of the ad group's campaign to "All".
 
 **Add:** Optional if the campaign has one or more languages set, and otherwise the language is required for most campaign types. You are not allowed to set this element for ad groups in Audience campaigns.  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To remove the language and defer to the campaign level languages, set this field to *delete_value*. The *delete_value* keyword removes the previous setting.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. To remove the language and defer to the campaign level languages, set this field to *delete_value*. The *delete_value* keyword removes the previous setting.  
 **Delete:** Read-only  
 
 ## <a name="maximumbid"></a>Maximum Bid
@@ -448,7 +448,7 @@ The flat amount of your bid for [Shopping Campaigns for Brands](../guides/produc
 > This setting is only applicable for ad groups in [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative).
 
 **Add:** Required if the [Bid Option](#bidoption) is set to BidBoost, and otherwise you may not set this field.  
-**Update:** Optional if the [Bid Option](#bidoption) is set to BidBoost, and otherwise you may not set this field.       
+**Update:** Optional if the [Bid Option](#bidoption) is set to BidBoost, and otherwise you may not set this field.  
 **Delete:** Read-only  
 
 ## <a name="modifiedtime"></a>Modified Time
@@ -475,7 +475,7 @@ For ad groups in [shopping campaigns for brands](../guides/product-ads.md#setup-
 If you select one of the syndicated search options, you can call the [SetNegativeSitesToAdGroups](../campaign-management-service/setnegativesitestoadgroups.md) or [SetNegativeSitesToCampaigns](../campaign-management-service/setnegativesitestocampaigns.md) operation to prevent the ads from displaying on specific syndicated search websites.
 
 **Add:** Optional. The default is *OwnedAndOperatedAndSyndicatedSearch*.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
@@ -512,7 +512,7 @@ If you run the report multiple times in a day, the quality score values could ch
 
 If you specify a time period that spans multiple days, the quality score is the current and most recently calculated score and will be reported as the same for each day in the time period. Use the historic quality score to find out how quality score may have changed over time. Historical quality score is a daily snapshot of the rolling quality score. For more information on historic quality score, see the *HistoricalQualityScore* column in [Report Attributes and Performance Statistics](../guides/report-attributes-performance-statistics.md).
 
-**Add:** Read-only    
+**Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
 
@@ -531,22 +531,22 @@ The status of the ad group.
 Possible values are *Active*, *Deleted*, *Expired*, and *Paused*. The *Expired* status is read-only.
 
 **Add:** Optional. The default value is *Paused*.  
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Required. The Status must be set to Deleted.
 
 ## <a name="targetsetting"></a>Target Setting
-The target settings that are applicable for criterion types e.g., audiences that are associated with this ad group. 
+The target settings that are applicable for criterion types e.g., audiences that are associated with this ad group.  
 
-Include the criterion type group name in this field if you want the "target and bid" option. In this case we will only deliver ads to people who meet at least one of your criteria, while letting you make bid adjustments for specific criteria. 
+Include the criterion type group name in this field if you want the "target and bid" option. In this case we will only deliver ads to people who meet at least one of your criteria, while letting you make bid adjustments for specific criteria.  
 
 Exclude the criterion type group name from this field if you want the "bid only" option. In this case we will deliver ads to everyone who meets your other targeting criteria, while letting you make bid adjustments for specific criteria.
 
 Each criterion type group name is delimited in the Bulk file by a semicolon (";"), for example *Age;Audience;CompanyName;Gender;Industry;JobFunction*. When you download the Bulk file, only the types that are setup to use the "target and bid" option will be included in this field.
 
-If the [Campaign Type](campaign.md#campaigntype) is set to Audience, the supported values for this field are Age, Audience, CompanyName, Gender, Industry, and JobFunction. Otherwise the only value currently supported for other campaign types e.g., Search campaigns is "Audience". In other words, the "target and bid" option for the Audience criterion type is supported with all campaign types, whereas the "target and bid" option for Age, CompanyName, Gender, Industry, and JobFunction criterion groups is only supported with the Audience campaign type. New values may be supported in the future so you should not depend on a fixed set of values. Having said that, any possible values for this field should also be defined in the [CriterionTypeGroup](../campaign-management-service/criteriontypegroup.md) value set of the Campaign Management API. 
+If the [Campaign Type](campaign.md#campaigntype) is set to Audience, the supported values for this field are Age, Audience, CompanyName, Gender, Industry, and JobFunction. Otherwise the only value currently supported for other campaign types e.g., Search campaigns is "Audience". In other words, the "target and bid" option for the Audience criterion type is supported with all campaign types, whereas the "target and bid" option for Age, CompanyName, Gender, Industry, and JobFunction criterion groups is only supported with the Audience campaign type. New values may be supported in the future so you should not depend on a fixed set of values. Having said that, any possible values for this field should also be defined in the [CriterionTypeGroup](../campaign-management-service/criteriontypegroup.md) value set of the Campaign Management API.  
 
 > [!NOTE]
-> Do not confuse the Audience campaign type with the Audience criterion type group name. 
+> Do not confuse the Audience campaign type with the Audience criterion type group name.  
 
 |Criterion Type Group|Supported Campaigns|Description|
 |-----------------|---------------|---------------|
@@ -557,10 +557,10 @@ If the [Campaign Type](campaign.md#campaigntype) is set to Audience, the support
 |Industry|Audience|If you include the Industry criterion type group name in this field, we will only deliver ads to people who meet at least one of your industry criteria, while letting you make bid adjustments for specific industries. This setting ensures that the people seeing your ads meet your industry criteria.<br/><br/>If you exclude the Industry criterion type group name from this field, we will deliver ads to everyone who meets your other targeting criteria, while letting you make bid adjustments for specific industries. This setting lets you bid more (or less) aggressively for the people who meet specific industry criteria, without restricting your ads to those people.|
 |JobFunction|Audience|If you include the JobFunction criterion type group name in this field, we will only deliver ads to people who meet at least one of your job function criteria, while letting you make bid adjustments for specific job functions. This setting ensures that the people seeing your ads meet your job function criteria.<br/><br/>If you exclude the JobFunction criterion type group name from this field, we will deliver ads to everyone who meets your other targeting criteria, while letting you make bid adjustments for specific job functions. This setting lets you bid more (or less) aggressively for the people who meet specific job function criteria, without restricting your ads to those people.|
 
-An entity such as a remarketing list can be associated with multiple ad groups, and each ad group's target settings (e.g., the Audience criterion group name for remarketing lists) are applied independently for delivery. For example the same remarketing list can be associated with Ad Group A and Ad Group B. The Target Setting field for each ad group are set independently, and therefore the same remarketing list might be associated via the "target and bid" option for Ad Group A while associated via the "bid only" option for Ad Group B. 
+An entity such as a remarketing list can be associated with multiple ad groups, and each ad group's target settings (e.g., the Audience criterion group name for remarketing lists) are applied independently for delivery. For example the same remarketing list can be associated with Ad Group A and Ad Group B. The Target Setting field for each ad group are set independently, and therefore the same remarketing list might be associated via the "target and bid" option for Ad Group A while associated via the "bid only" option for Ad Group B.  
 
 **Add:** Optional. If the criterion type group name is excluded from this field, then the default setting is effectively "bid only".  
-**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all criterion type group names, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of criterion type group names, specify the criterion type group names that you want to keep and omit any that you do not want to keep. The new set of criterion type group names will replace any previous criterion groups that were set for the ad group.    
+**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all criterion type group names, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of criterion type group names, specify the criterion type group names that you want to keep and omit any that you do not want to keep. The new set of criterion type group names will replace any previous criterion groups that were set for the ad group.  
 **Delete:** Read-only  
 
 ## <a name="trackingtemplate"></a>Tracking Template
@@ -572,7 +572,7 @@ The following validation rules apply to tracking templates. For more details abo
 
 - The length of the tracking template is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.
 
-- The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*. 
+- The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*.  
 
 - Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, ad group, criterion, keyword, or ad level, then the landing page URL will be the same.
 
