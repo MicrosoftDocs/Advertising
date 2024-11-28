@@ -11,6 +11,8 @@ description: Defines the conditions or criteria that determine whether you want 
 # WebpageParameter Data Object - Campaign Management
 Defines the conditions or criteria that determine whether you want to show dynamic search ads.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

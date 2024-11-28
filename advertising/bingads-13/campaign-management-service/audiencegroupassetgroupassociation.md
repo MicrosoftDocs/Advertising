@@ -11,6 +11,8 @@ description: Defines an AudienceGroupAssetGroupAssociation data object.
 # AudienceGroupAssetGroupAssociation Data Object - Campaign Management
 Defines an AudienceGroupAssetGroupAssociation data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

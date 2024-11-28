@@ -20,6 +20,8 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
 > [!NOTE]
 > You should not use this report to get performance data for Microsoft Shopping Campaigns. It is only applicable for other campaign types.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

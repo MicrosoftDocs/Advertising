@@ -76,4 +76,5 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [DataExclusion](dataexclusion.md)  
+[DeviceCondition](devicecondition.md)  
 [SeasonalityAdjustment](seasonalityadjustment.md)  

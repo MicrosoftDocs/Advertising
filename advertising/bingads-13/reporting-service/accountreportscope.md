@@ -11,6 +11,8 @@ description: Defines the set of accounts to include in the report.
 # AccountReportScope Data Object - Reporting
 Defines the set of accounts to include in the report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the goals and funnels report 
 # GoalsAndFunnelsReportFilter Data Object - Reporting
 Defines the criteria to use to filter the goals and funnels report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

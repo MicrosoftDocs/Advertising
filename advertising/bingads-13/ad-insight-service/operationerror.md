@@ -11,6 +11,8 @@ description: Defines an Ad Insight operation error object that contains the deta
 # OperationError Data Object - Ad Insight
 Defines an Ad Insight operation error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

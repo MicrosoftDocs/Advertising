@@ -11,6 +11,8 @@ description: Defines a Bulk operation error object that contains the details tha
 # OperationError Data Object - Bulk
 Defines a Bulk operation error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

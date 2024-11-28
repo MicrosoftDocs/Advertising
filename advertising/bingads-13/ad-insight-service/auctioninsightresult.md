@@ -11,6 +11,8 @@ description: Defines the auction insight results from calling the GetAuctionInsi
 # AuctionInsightResult Data Object - Ad Insight
 Defines the auction insight results from calling the [GetAuctionInsightData](getauctioninsightdata.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

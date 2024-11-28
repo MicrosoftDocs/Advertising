@@ -11,6 +11,8 @@ description: Defines an object that contains the locations where users were loca
 # KeywordLocationResult Data Object - Ad Insight
 Defines an object that contains the locations where users were located when they searched for the specified keyword.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

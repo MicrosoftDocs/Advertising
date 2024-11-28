@@ -19,6 +19,8 @@ If you associate any [website exclusion lists](placementexclusionlist.md) with a
 
 For more information about managing negative sites and website exclusion lists, see the [Negative Sites](../guides/negative-sites.md) technical guide. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -34,7 +36,19 @@ For more information about managing negative sites and website exclusion lists, 
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "ItemCount": IntValueHere,
+  "AssociationCount": IntValueHere,
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "PlacementExclusionList"
+}
 ```
 
 -----

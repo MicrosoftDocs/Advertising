@@ -20,6 +20,8 @@ This ad format works seamlessly on mobile, tablet and desktop devices so you can
 
 The combination of the FinalUrls, Path1, Path2, Text, TextPart2, TitlePart1, TitlePart2 and TitlePart3 elements make the expanded text ad unique. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

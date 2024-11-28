@@ -11,6 +11,8 @@ description: Defines a category insights report request.
 # CategoryInsightsReportRequest Data Object - Reporting
 Defines a category insights report request.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -18,6 +18,8 @@ Taken individually, a user has the same role on the [CustomerId](customerrole.md
 > [!TIP]
 > Please see the [Account Hierchy and User Permissions](../guides/account-hierarchy-permissions.md) guide for an overview of customer roles with examples. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

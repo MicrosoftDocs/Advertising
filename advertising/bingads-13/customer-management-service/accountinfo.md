@@ -11,6 +11,8 @@ description: Defines an object that contains an account's identifier, name, and 
 # AccountInfo Data Object - Customer Management
 Defines an object that contains an account's identifier, name, and number.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

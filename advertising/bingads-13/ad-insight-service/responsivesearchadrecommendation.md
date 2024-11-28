@@ -11,6 +11,8 @@ description: Defines a ResponsiveSearchAdRecommendation data object.
 # ResponsiveSearchAdRecommendation Data Object - Ad Insight
 Defines a ResponsiveSearchAdRecommendation data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

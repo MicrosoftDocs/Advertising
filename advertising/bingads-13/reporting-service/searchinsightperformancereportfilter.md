@@ -11,6 +11,8 @@ description: Defines a data object for SearchInsightPerformanceReportFilter.
 # SearchInsightPerformanceReportFilter Data Object - Reporting
 Defines a data object for SearchInsightPerformanceReportFilter.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

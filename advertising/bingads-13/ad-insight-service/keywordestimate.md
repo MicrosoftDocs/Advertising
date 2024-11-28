@@ -14,6 +14,8 @@ A suggested keyword with minimum and maximum traffic estimates. Traffic estimate
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance. The estimates can vary depending on the filter criteria you provide in the [GetKeywordTrafficEstimates](getkeywordtrafficestimates.md) service request.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

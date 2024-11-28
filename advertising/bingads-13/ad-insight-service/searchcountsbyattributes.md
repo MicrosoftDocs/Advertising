@@ -11,6 +11,8 @@ description: Defines an object that contains a list of keyword historical search
 # SearchCountsByAttributes Data Object - Ad Insight
 Defines an object that contains a list of keyword historical search counts for the corresponding device attribute. Each search count in the list is aggregated by day, month, and year.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

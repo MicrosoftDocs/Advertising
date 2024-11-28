@@ -11,6 +11,8 @@ description: Defines a billing document.
 # BillingDocument Data Object - Customer Billing
 Defines a billing document.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

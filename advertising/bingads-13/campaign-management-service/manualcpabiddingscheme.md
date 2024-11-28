@@ -13,6 +13,8 @@ Defines an object that represents the manual CPA bid strategy type.
 
 With the ManualCpa (manual cost per action) bid strategy, you set your big per advertiser-specified action.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

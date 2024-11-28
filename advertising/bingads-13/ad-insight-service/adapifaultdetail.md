@@ -11,6 +11,8 @@ description: Defines an Ad Insight Ad API fault detail object that operations re
 # AdApiFaultDetail Data Object - Ad Insight
 Defines an Ad Insight Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

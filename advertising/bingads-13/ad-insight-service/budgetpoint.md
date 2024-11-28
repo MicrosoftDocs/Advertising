@@ -14,6 +14,8 @@ Defines an object that contains a budget amount and an estimate of weekly impres
 > [!NOTE]
 > The budget point is an estimate based on the last 15 days of performance data, and not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

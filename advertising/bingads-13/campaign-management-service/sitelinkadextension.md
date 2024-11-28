@@ -13,6 +13,8 @@ Defines an object with one sitelink per ad extension. You can use the sitelink t
 
 You can associate a sitelink ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 sitelink ad extensions.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

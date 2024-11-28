@@ -11,6 +11,8 @@ description: Defines an object that contains the migration type and status for a
 # MigrationStatusInfo Data Object - Campaign Management
 Defines an object that contains the migration type and status for an account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

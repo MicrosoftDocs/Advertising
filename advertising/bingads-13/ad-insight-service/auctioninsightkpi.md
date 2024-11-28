@@ -11,6 +11,8 @@ description: Defines an auction insight key performance indicator.
 # AuctionInsightKpi Data Object - Ad Insight
 Defines an auction insight key performance indicator.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

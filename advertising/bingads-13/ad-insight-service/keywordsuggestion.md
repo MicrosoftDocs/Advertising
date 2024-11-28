@@ -11,6 +11,8 @@ description: Defines an object that contains a list of suggested keywords that m
 # KeywordSuggestion Data Object - Ad Insight
 Defines an object that contains a list of suggested keywords that may perform better than the specified keyword.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

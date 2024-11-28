@@ -18,6 +18,8 @@ Defines the VerifiedTrackingSetting Data Object.
 >
 > Currently, IAS is the only supported vendor (*vendorName*), but other verification providers are coming soon.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

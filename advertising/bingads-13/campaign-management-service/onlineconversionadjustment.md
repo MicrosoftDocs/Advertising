@@ -11,6 +11,8 @@ description: Defines an object to retract or restate an online conversion.
 # OnlineConversionAdjustment Data Object - Campaign Management
 Defines an object to retract or restate an online conversion.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

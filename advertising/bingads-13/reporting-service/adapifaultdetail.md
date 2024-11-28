@@ -11,6 +11,8 @@ description: Defines a Reporting Ad API fault detail object that operations retu
 # AdApiFaultDetail Data Object - Reporting
 Defines a Reporting Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

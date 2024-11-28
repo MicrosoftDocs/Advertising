@@ -11,6 +11,8 @@ description: Defines a negative keyword with match type for traffic estimates.
 # NegativeKeyword Data Object - Ad Insight
 Defines a negative keyword with match type for traffic estimates.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

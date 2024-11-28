@@ -20,6 +20,8 @@ You cannot create or edit the similar audience for a remarketing list. Having sa
 >
 > A similar audience takes up to 24 hours to build and targeting for it won't take effect until that point.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

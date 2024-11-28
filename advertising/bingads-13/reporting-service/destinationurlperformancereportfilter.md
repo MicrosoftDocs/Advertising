@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the destination URL performan
 # DestinationUrlPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the destination URL performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the DisclaimerSetting Data Object.
 # DisclaimerSetting Data Object - Campaign Management
 Defines the DisclaimerSetting Data Object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

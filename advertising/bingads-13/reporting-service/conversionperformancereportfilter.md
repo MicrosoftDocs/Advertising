@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the conversion performance re
 # ConversionPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the conversion performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

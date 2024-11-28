@@ -11,6 +11,8 @@ description: Defines a DecimalRoundedResult data object.
 # DecimalRoundedResult Data Object - Ad Insight
 Defines a DecimalRoundedResult data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

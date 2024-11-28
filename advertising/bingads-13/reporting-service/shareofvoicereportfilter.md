@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the share of voice report dat
 # ShareOfVoiceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the share of voice report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

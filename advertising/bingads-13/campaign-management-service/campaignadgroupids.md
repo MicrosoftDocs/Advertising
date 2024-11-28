@@ -11,6 +11,8 @@ description: Identifies a campaign and the list of its ad groups to import.
 # CampaignAdGroupIds Data Object - Campaign Management
 Identifies a campaign and the list of its ad groups to import. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

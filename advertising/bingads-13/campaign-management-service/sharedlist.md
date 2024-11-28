@@ -16,8 +16,7 @@ Do not try to instantiate a *SharedList*. You can create one or more of the foll
 - [PlacementExclusionList](placementexclusionlist.md)  
 - [AccountNegativeKeywordList](accountnegativekeywordlist.md)
 
-# [XML](#tab/xml)
-
+## Syntax
 ```xml
 <xs:complexType name="SharedList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
@@ -29,26 +28,6 @@ Do not try to instantiate a *SharedList*. You can create one or more of the foll
   </xs:complexContent>
 </xs:complexType>
 ```
-
-# [JSON](#tab/json)
-
-```json
-{
-  "AssociationCount": IntValueHere,
-  "ForwardCompatibilityMap": [
-    {
-      "key": "ValueHere",
-      "value": "ValueHere"
-    }
-  ],
-  "Id": "LongValueHere",
-  "Name": "ValueHere",
-  "Type": "SharedList",
-  "ItemCount": IntValueHere
-}
-```
-
------
 
 ## <a name="elements"></a>Elements
 

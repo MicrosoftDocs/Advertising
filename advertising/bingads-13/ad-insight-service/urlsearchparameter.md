@@ -11,6 +11,8 @@ description: The URL search parameter that you can use as a seed for new keyword
 # UrlSearchParameter Data Object - Ad Insight
 The URL search parameter that you can use as a seed for new keyword ideas.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -29,6 +31,7 @@ The URL search parameter that you can use as a seed for new keyword ideas.
 
 ```json
 {
+  "Type": "UrlSearchParameter",
   "Url": "ValueHere"
 }
 ```

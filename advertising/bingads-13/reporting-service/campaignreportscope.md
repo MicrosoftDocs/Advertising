@@ -11,6 +11,8 @@ description: Defines a campaign to include in the report.
 # CampaignReportScope Data Object - Reporting
 Defines a campaign to include in the report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

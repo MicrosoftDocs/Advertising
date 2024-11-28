@@ -11,6 +11,8 @@ description: Defines a KeyValueEntityOflongdateTime data object.
 # KeyValueEntityOflongdateTime Data Object - Customer Billing
 Defines a KeyValueEntityOflongdateTime data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

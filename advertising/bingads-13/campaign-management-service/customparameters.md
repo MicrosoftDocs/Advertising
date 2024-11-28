@@ -11,6 +11,8 @@ description: Defines a collection of key and value custom parameters for URL tra
 # CustomParameters Data Object - Campaign Management
 Defines a collection of key and value custom parameters for URL tracking. Used for campaign, ad group, ad, keyword, sitelink, and ad group criterion URL custom parameters.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

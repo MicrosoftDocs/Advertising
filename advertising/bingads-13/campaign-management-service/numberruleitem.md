@@ -11,6 +11,8 @@ description: Defines a rule expression that depends on the operand, operator, an
 # NumberRuleItem Data Object - Campaign Management
 Defines a rule expression that depends on the operand, operator, and value.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines an object that represents the cost per sale bid strategy ty
 # CostPerSaleBiddingScheme Data Object - Campaign Management
 Defines an object that represents the cost per sale bid strategy type.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

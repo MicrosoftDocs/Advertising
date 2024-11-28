@@ -17,6 +17,8 @@ In the following example, *Courses* is the header, and *.NET*, *Java*, *Python*,
 
 You can associate a structured snippet ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 structured snippet ad extensions. An expanded text ad will only include one structured snippet (one headline with 3 - 10 values) per impression.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

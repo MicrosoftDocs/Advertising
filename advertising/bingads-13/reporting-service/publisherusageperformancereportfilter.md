@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the publisher usage performan
 # PublisherUsagePerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the publisher usage performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

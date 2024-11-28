@@ -11,6 +11,8 @@ description: Criterion for length of hotel stay in nights.
 # HotelLengthOfStayCriterion Data Object - Campaign Management
 Criterion for length of hotel stay in nights.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

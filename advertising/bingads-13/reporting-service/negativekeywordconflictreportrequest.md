@@ -15,6 +15,8 @@ You can request negative keywords that conflict with some of your keywords, and 
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

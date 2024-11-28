@@ -11,6 +11,8 @@ description: Defines the ResponsiveSearchAdsSetting object.
 # ResponsiveSearchAdsSetting Data Object - Campaign Management
 Defines the ResponsiveSearchAdsSetting object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

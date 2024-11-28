@@ -11,6 +11,8 @@ description: Dismiss a recommendation.
 # DismissRecommendationEntity Data Object - Ad Insight
 Dismiss a recommendation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

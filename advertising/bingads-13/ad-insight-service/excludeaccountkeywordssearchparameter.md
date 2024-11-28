@@ -13,6 +13,8 @@ The exclude account keywords search parameter filter that you can include when r
 
 If you do not include the exclude account keywords search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned whether or not they already exist in your account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,6 +33,7 @@ If you do not include the exclude account keywords search parameter when calling
 
 ```json
 {
+  "Type": "ExcludeAccountKeywordsSearchParameter",
   "ExcludeAccountKeywords": "ValueHere"
 }
 ```

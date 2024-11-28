@@ -22,6 +22,8 @@ If the normal form is disjunctive (DNF), the rule item conditions for the same p
 
 For a detailed example, see the [Remarks](#remarks) section below.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

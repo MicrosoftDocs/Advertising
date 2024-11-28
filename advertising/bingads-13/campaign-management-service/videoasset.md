@@ -11,6 +11,8 @@ description: Defines the VideoAsset Data Object.
 # VideoAsset Data Object - Campaign Management
 Defines the VideoAsset Data Object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

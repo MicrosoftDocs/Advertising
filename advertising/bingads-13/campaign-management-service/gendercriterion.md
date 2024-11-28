@@ -15,6 +15,8 @@ The *GenderCriterion* criterion can be included within [BiddableAdGroupCriterion
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

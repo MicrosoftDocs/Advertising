@@ -11,6 +11,8 @@ description: Defines a RadiusTarget data object.
 # RadiusTarget Data Object - Ad Insight
 Defines a RadiusTarget data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the user location performance
 # UserLocationPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the user location performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a criterion that you want to exclude from the specified ad 
 # NegativeAdGroupCriterion Data Object - Campaign Management
 Defines a criterion that you want to exclude from the specified ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -26,7 +28,16 @@ Defines a criterion that you want to exclude from the specified ad group.
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "AdGroupId": "LongValueHere",
+  "Criterion": {
+    "Type": "AgeCriterion",
+    "AgeRange": "ValueHere"
+  },
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "Type": "NegativeAdGroupCriterion"
+}
 ```
 
 -----

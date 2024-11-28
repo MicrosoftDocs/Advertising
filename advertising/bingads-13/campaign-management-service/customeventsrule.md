@@ -15,6 +15,8 @@ Remarketing rules are conditions used to determine who to add to your remarketin
 
 For a detailed example, see the [Remarks](#remarks) section below.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

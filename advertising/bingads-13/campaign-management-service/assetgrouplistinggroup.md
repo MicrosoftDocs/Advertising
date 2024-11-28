@@ -11,6 +11,8 @@ description: A listing group that corresponds directly to the identifiers specif
 # AssetGroupListingGroup Data Object - Campaign Management
 A listing group that corresponds directly to the identifiers specified in the request. If an identifier in the list is not valid, the corresponding item in the response is set to null.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

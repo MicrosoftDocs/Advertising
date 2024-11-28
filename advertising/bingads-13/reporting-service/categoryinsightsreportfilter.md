@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the category insights report 
 # CategoryInsightsReportFilter Data Object - Reporting
 Defines the criteria to use to filter the category insights report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

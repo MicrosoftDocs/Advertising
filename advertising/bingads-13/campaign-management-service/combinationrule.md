@@ -11,6 +11,8 @@ description: A combination rule includes logical conditions used to determine wh
 # CombinationRule Data Object - Campaign Management
 A combination rule includes logical conditions used to determine who to add to your combined list.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

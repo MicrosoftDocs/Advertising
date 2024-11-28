@@ -11,6 +11,8 @@ description: Defines an object that contains a suggested keyword and a confidenc
 # KeywordAndConfidence Data Object - Ad Insight
 Defines an object that contains a suggested keyword and a confidence score. The confidence score indicates the probability that the keyword would match a user's search query.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

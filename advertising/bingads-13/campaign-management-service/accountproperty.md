@@ -11,6 +11,8 @@ description: Maps an account level property name to a string value.
 # AccountProperty Data Object - Campaign Management
 Maps an account level property name to a string value.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

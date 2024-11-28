@@ -30,6 +30,8 @@ Portfolio bid strategies work best with one goal in mind, using complementary ca
 |Target impression share|Search|
 |Target ROAS|Performance Max, Search, Shopping|
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

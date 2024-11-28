@@ -11,6 +11,8 @@ description: Defines an object that contains the marketplace impact statistics o
 # BroadMatchKeywordOpportunity Data Object - Ad Insight
 Defines an object that contains the marketplace impact statistics of including broad match type keyword bids.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

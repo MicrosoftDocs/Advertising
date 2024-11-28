@@ -11,6 +11,8 @@ description: The key and value pair of string and string values defined by the B
 # KeyValuePairOfstringstring Data Object - Bulk
 The key and value pair of string and string values defined by the Bulk service.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

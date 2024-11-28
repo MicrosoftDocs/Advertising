@@ -13,6 +13,8 @@ Defines the relationship of an asset to an ad.
 
 For example, within a [ResponsiveSearchAd](responsivesearchad.md) there is an array of asset links that each contain a [TextAsset](textasset.md). 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

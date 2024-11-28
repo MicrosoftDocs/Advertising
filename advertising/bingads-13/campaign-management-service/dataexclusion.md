@@ -11,6 +11,8 @@ description: Defines a data object for DataExclusion.
 # DataExclusion Data Object - Campaign Management
 Defines a data object for DataExclusion.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

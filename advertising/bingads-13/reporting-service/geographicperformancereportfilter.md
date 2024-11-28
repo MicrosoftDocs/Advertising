@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the geographic performance re
 # GeographicPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the geographic performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

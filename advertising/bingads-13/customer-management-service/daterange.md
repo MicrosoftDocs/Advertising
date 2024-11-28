@@ -11,6 +11,8 @@ description: Defines a date range object.
 # DateRange Data Object - Customer Management
 Defines a date range object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

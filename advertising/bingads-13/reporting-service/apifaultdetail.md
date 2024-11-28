@@ -11,6 +11,8 @@ description: Defines a Reporting API fault detail object that operations return 
 # ApiFaultDetail Data Object - Reporting
 Defines a Reporting API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

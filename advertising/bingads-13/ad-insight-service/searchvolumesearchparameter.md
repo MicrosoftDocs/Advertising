@@ -13,6 +13,8 @@ The search volume search parameter filter that you can include when requesting k
 
 If you do not include the search volume search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned regardless of search volume.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -32,6 +34,7 @@ If you do not include the search volume search parameter when calling [GetKeywor
 
 ```json
 {
+  "Type": "SearchVolumeSearchParameter",
   "Maximum": "LongValueHere",
   "Minimum": "LongValueHere"
 }

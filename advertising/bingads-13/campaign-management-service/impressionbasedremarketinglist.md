@@ -11,6 +11,8 @@ description: Defines a data object for ImpressionBasedRemarketingList.
 # ImpressionBasedRemarketingList Data Object - Campaign Management
 Defines a data object for ImpressionBasedRemarketingList.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

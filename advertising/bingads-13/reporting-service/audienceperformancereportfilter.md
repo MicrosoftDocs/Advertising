@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the audience performance repo
 # AudiencePerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the audience performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

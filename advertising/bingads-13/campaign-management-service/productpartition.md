@@ -16,6 +16,8 @@ The *ProductPartition* criterion can be included within [BiddableAdGroupCriterio
 > [!TIP]
 > For an implementation overview, see the [Microsoft Shopping Campaigns](../guides/product-ads.md) technical guide.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

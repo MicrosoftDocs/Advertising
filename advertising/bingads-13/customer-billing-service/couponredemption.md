@@ -11,6 +11,8 @@ description: Contains redemption and consuming details.
 # CouponRedemption Data Object - Customer Billing
 Contains redemption and consuming details.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -15,6 +15,8 @@ You can set a single daily budget that can be used by any campaign within the sa
 
 Say you have a budget of $20 to be used uniformly between two campaigns every day. On a given day Campaign A spends only $8 (of its $10 budget) because it got a smaller amount of impressions and clicks than usual. Using a Shared Budget, if Campaign B is performing well then Microsoft Advertising will automatically take the remaining $2 and allocate it to Campaign B. This will increase the chances that the remaining budget will be used to send you more traffic. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

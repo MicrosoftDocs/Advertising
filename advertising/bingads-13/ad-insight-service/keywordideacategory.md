@@ -13,6 +13,8 @@ Defines an object that contains a keyword idea category.
 
 You can use the category identifier in the [CategorySearchParameter](categorysearchparameter.md) when calling [GetKeywordIdeas](getkeywordideas.md).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

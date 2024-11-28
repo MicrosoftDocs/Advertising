@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the DSA auto target performan
 # DSAAutoTargetPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the DSA auto target performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

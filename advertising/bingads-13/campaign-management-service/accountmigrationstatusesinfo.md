@@ -11,6 +11,8 @@ description: Defines an object that contains migration status for an account.
 # AccountMigrationStatusesInfo Data Object - Campaign Management
 Defines an object that contains migration status for an account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

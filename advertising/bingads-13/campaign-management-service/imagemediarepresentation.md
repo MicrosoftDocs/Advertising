@@ -11,6 +11,8 @@ description: Defines an image media representation with height and width.
 # ImageMediaRepresentation Data Object - Campaign Management
 Defines an image media representation with height and width.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

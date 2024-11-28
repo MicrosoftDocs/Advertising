@@ -11,6 +11,8 @@ description: Defines an AudienceGroup data object.
 # AudienceGroup Data Object - Campaign Management
 Defines an AudienceGroup data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

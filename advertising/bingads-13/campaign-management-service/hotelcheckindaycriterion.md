@@ -11,6 +11,8 @@ description: Criterion for day of the week the booking is for.
 # HotelCheckInDayCriterion Data Object - Campaign Management
 Criterion for day of the week the booking is for.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

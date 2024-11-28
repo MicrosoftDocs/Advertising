@@ -11,6 +11,8 @@ description: Defines a data object for the selection of age targeting.
 # SelectionOfAgeEnum Data Object - Ad Insight
 Defines a data object for the selection of age targeting.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

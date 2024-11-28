@@ -11,6 +11,8 @@ description: Reserved.
 # ThirdPartyMeasurementSetting Data Object - Campaign Management
 Reserved.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

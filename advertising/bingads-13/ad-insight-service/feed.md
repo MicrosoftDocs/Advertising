@@ -12,6 +12,8 @@ description: Defines a Feed data object.
 Defines a Feed data object.
 ---
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

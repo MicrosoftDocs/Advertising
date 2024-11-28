@@ -11,6 +11,8 @@ description: Defines an object that contains a domain category with website cove
 # DomainCategory Data Object - Ad Insight
 Defines an object that contains a domain category with website coverage. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

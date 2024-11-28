@@ -11,6 +11,8 @@ description: Defines a data object for the selection segment IDs.
 # SelectionOflong Data Object - Ad Insight
 Defines a data object for the selection segment IDs.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

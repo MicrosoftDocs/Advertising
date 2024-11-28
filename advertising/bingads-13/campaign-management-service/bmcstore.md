@@ -13,6 +13,8 @@ Defines a Microsoft Merchant Center store.
 
 Elements of this object are defined in the Microsoft Merchant Center store, and read-only in Microsoft Advertising.  Values of elements do not restrict Microsoft Advertising features. For example, a Microsoft Shopping campaign and product ad may be added whether the *IsActive* element is set to true or false.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

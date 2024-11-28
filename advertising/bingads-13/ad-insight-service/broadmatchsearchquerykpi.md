@@ -11,6 +11,8 @@ description: Defines an object that contains search query statistics of includin
 # BroadMatchSearchQueryKPI Data Object - Ad Insight
 Defines an object that contains search query statistics of including broad match type keyword bids.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

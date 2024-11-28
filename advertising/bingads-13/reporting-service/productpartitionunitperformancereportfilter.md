@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the product partition  perfor
 # ProductPartitionUnitPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the product partition  performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

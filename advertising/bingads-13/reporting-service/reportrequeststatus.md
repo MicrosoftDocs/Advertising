@@ -11,6 +11,8 @@ description: Defines the status of a report request.
 # ReportRequestStatus Data Object - Reporting
 Defines the status of a report request.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

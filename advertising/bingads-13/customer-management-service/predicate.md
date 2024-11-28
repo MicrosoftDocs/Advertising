@@ -11,6 +11,8 @@ description: Defines a predicate for the list of entities requested using one of
 # Predicate Data Object - Customer Management
 Defines a predicate for the list of entities requested using one of the search operations, for example [SearchAccounts](searchaccounts.md), [SearchClientLinks](searchclientlinks.md), [SearchCustomers](searchcustomers.md), or [SearchUserInvitations](searchuserinvitations.md).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

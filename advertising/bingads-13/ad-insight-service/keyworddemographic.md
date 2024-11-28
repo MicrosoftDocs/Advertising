@@ -11,6 +11,8 @@ description: Defines an object that contains the device, age and gender of the u
 # KeywordDemographic Data Object - Ad Insight
 Defines an object that contains the device, age and gender of the user who entered the search query, if known.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

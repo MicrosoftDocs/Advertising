@@ -15,6 +15,8 @@ You can request impressions, impression share (%), impression share lost to budg
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

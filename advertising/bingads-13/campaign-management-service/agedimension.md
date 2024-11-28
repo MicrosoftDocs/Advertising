@@ -13,6 +13,8 @@ Data object that specifies users by their age.
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

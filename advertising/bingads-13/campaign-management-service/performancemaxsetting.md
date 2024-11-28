@@ -11,6 +11,8 @@ description: Defines the PerformanceMaxSetting object.
 # PerformanceMaxSetting Data Object - Campaign Management
 Defines the PerformanceMaxSetting object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

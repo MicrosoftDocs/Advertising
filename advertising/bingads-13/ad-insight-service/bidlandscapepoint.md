@@ -14,6 +14,8 @@ Defines an object that contains estimates of clicks, cost, and impressions  give
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance. Estimates are for search traffic only, and not based on performance for ads on the content network.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

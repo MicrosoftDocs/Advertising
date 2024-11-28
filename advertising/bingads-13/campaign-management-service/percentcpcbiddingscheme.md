@@ -11,6 +11,8 @@ description: Defines an object that represents the percent CPC bid strategy type
 # PercentCpcBiddingScheme Data Object - Campaign Management
 Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

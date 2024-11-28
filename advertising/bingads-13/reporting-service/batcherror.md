@@ -11,6 +11,8 @@ description: Defines a Reporting batch error object that identifies the item wit
 # BatchError Data Object - Reporting
 Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

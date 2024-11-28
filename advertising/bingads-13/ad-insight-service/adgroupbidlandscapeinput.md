@@ -11,6 +11,8 @@ description: Defines an object that contains the requested bid landscape type fo
 # AdGroupBidLandscapeInput Data Object - Ad Insight
 Defines an object that contains the requested bid landscape type for the corresponding ad group identifier.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the multiplier by which to adjust your base bid for the cor
 # BidMultiplier Data Object - Campaign Management
 Defines the multiplier by which to adjust your base bid for the corresponding criterion.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a hotel ad.
 # HotelAd Data Object - Campaign Management
 Defines a hotel ad. Hotel ads appear when a traveler searches for a hotel on search or maps.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -26,7 +28,42 @@ Defines a hotel ad. Hotel ads appear when a traveler searches for a hotel on sea
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "AdFormatPreference": "ValueHere",
+  "DevicePreference": "LongValueHere",
+  "EditorialStatus": "ValueHere",
+  "FinalAppUrls": [
+    {
+      "OsType": "ValueHere",
+      "Url": "ValueHere"
+    }
+  ],
+  "FinalMobileUrls": [
+    "ValueHere"
+  ],
+  "FinalUrls": [
+    "ValueHere"
+  ],
+  "FinalUrlSuffix": "ValueHere",
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "TrackingUrlTemplate": "ValueHere",
+  "Type": "Hotel",
+  "UrlCustomParameters": {
+    "Parameters": [
+      {
+        "Key": "ValueHere",
+        "Value": "ValueHere"
+      }
+    ]
+  }
+}
 ```
 
 -----

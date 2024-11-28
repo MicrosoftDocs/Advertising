@@ -15,6 +15,8 @@ With the *EnhancedCpc* (enhanced cost per click) bid strategy, you set your ad g
 
 Microsoft Advertising will not actually change your stored ad group or keyword bid settings. You can continue to set new bids, and we will use the new values as a starting point at the next opportunity.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -30,7 +32,9 @@ Microsoft Advertising will not actually change your stored ad group or keyword b
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "Type": "EnhancedCpc"
+}
 ```
 
 -----

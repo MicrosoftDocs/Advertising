@@ -14,6 +14,8 @@ Defines an object that contains the suggested budget with estimated clicks and i
 > [!NOTE]
 > The budget opportunity is an estimate based on the last 15 days of performance data, and not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

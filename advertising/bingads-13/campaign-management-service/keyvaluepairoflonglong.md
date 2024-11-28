@@ -11,6 +11,8 @@ description: The key and value pair of long and long values defined by the Campa
 # KeyValuePairOflonglong Data Object - Campaign Management
 The key and value pair of long and long values defined by the Campaign Management service.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a paging object to request Customer Billing objects in batc
 # Paging Data Object - Customer Billing
 Defines a paging object to request Customer Billing objects in batches.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

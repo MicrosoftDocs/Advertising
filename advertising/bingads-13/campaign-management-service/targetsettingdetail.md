@@ -11,6 +11,8 @@ description: Determines whether you want to use the "target and bid" option or t
 # TargetSettingDetail Data Object - Campaign Management
 Determines whether you want to use the "target and bid" option or the "bid only" target option for the criterion type group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

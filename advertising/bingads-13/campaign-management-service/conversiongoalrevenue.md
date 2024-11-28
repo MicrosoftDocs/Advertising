@@ -11,6 +11,8 @@ description: Defines properties for revenue that can be tracked by a conversion 
 # ConversionGoalRevenue Data Object - Campaign Management
 Defines properties for revenue that can be tracked by a conversion goal.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

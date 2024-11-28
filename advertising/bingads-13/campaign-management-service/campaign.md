@@ -19,6 +19,8 @@ Defines a campaign.
 >  
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

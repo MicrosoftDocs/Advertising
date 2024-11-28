@@ -11,6 +11,8 @@ description: Defines pricing information by currency and unit that you can use w
 # PriceTableRow Data Object - Campaign Management
 Defines pricing information by currency and unit that you can use with price ad extensions.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

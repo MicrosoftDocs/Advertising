@@ -13,6 +13,8 @@ Defines the start and end date ranges for ad extension scheduling.
 
 Use the *StartDate* and *EndDate* elements for calendar level scheduling, and then use *DayTimeRanges* to limit scheduling by day of the week, hour, and minute. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

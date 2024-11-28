@@ -21,19 +21,23 @@ Defines the possible age range values that you can use to target ads to people.
     <xs:enumeration value="ThirtyFiveToFourtyNine" />
     <xs:enumeration value="FiftyToSixtyFour" />
     <xs:enumeration value="SixtyFiveAndAbove" />
+    <xs:enumeration value="ThirtyFiveToFiftyFour" />
+    <xs:enumeration value="FiftyFiveAndAbove" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AgeRange](agerange.md) value set has the following values: [EighteenToTwentyFour](#eighteentotwentyfour), [FiftyToSixtyFour](#fiftytosixtyfour), [SixtyFiveAndAbove](#sixtyfiveandabove), [ThirtyFiveToFourtyNine](#thirtyfivetofourtynine), [TwentyFiveToThirtyFour](#twentyfivetothirtyfour), [Unknown](#unknown).
+The [AgeRange](agerange.md) value set has the following values: [EighteenToTwentyFour](#eighteentotwentyfour), [FiftyFiveAndAbove](#fiftyfiveandabove), [FiftyToSixtyFour](#fiftytosixtyfour), [SixtyFiveAndAbove](#sixtyfiveandabove), [ThirtyFiveToFiftyFour](#thirtyfivetofiftyfour), [ThirtyFiveToFourtyNine](#thirtyfivetofourtynine), [TwentyFiveToThirtyFour](#twentyfivetothirtyfour), [Unknown](#unknown).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="eighteentotwentyfour"></a>EighteenToTwentyFour|People from the ages of 18 through 24 years.|
+|<a name="fiftyfiveandabove"></a>FiftyFiveAndAbove|Reserved.|
 |<a name="fiftytosixtyfour"></a>FiftyToSixtyFour|People from the ages of 50 through 64 years.|
 |<a name="sixtyfiveandabove"></a>SixtyFiveAndAbove|People 65 years of age and older.|
+|<a name="thirtyfivetofiftyfour"></a>ThirtyFiveToFiftyFour|Reserved.|
 |<a name="thirtyfivetofourtynine"></a>ThirtyFiveToFourtyNine|People from the ages of 35 through 49 years.|
 |<a name="twentyfivetothirtyfour"></a>TwentyFiveToThirtyFour|People from the ages of 25 through 34 years.|
 |<a name="unknown"></a>Unknown|People with unknown ages.<br/><br/>The unknown option is only available for ad groups in Audience campaigns.|

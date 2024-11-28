@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the professional demographics
 # ProfessionalDemographicsAudienceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the professional demographics audience report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

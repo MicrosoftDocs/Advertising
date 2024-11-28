@@ -11,6 +11,8 @@ description: Defines an object that contains the number of times that the keywor
 # HistoricalSearchCountPeriodic Data Object - Ad Insight
 Defines an object that contains the number of times that the keyword was used in a search query during the specified time period.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

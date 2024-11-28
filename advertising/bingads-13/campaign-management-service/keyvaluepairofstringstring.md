@@ -11,6 +11,8 @@ description: The key and value pair of string and string values defined by the C
 # KeyValuePairOfstringstring Data Object - Campaign Management
 The key and value pair of string and string values defined by the Campaign Management service. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

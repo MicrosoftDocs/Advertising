@@ -13,6 +13,8 @@ Defines an object that represents the maximum conversion value bid strategy type
 
 Search campaigns, Shopping campaigns, [Smart shopping campaigns](../guides/smart-shopping-campaigns.md), and [Performance Max campaigns](../guides/performance-max.md) use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

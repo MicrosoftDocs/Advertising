@@ -16,6 +16,8 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
 > [!NOTE]
 > Duplicate responsive ads are allowed in the same ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

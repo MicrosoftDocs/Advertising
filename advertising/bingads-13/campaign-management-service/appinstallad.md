@@ -25,6 +25,8 @@ App Install Ads automatically detect the customer's mobile device and operating 
 
 The combination of the AppPlatform, AppStoreId, Text, and Title elements make the app install ad unique.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

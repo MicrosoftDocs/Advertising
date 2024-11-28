@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the search query performance 
 # SearchQueryPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the search query performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

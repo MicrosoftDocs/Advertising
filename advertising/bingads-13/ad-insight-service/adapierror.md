@@ -11,6 +11,8 @@ description: Defines an Ad Insight Ad API error object that contains the details
 # AdApiError Data Object - Ad Insight
 Defines an Ad Insight Ad API error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

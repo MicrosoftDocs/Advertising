@@ -11,6 +11,8 @@ description: Defines the fixed bid to use in the auction.
 # FixedBid Data Object - Campaign Management
 Defines the fixed bid to use in the auction.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

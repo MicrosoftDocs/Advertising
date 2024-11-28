@@ -13,6 +13,8 @@ Defines an object that specifies third-party reviews (exact or paraphrased) abou
 
 You can associate a review ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 review ad extensions. An expanded text ad will only include one review per impression.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

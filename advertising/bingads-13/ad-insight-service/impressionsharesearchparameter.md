@@ -13,6 +13,8 @@ The impression share search parameter filter that you can include when requestin
 
 If you do not include the impression share search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned regardless of impression share.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -32,6 +34,7 @@ If you do not include the impression share search parameter when calling [GetKey
 
 ```json
 {
+  "Type": "ImpressionShareSearchParameter",
   "Maximum": DoubleValueHere,
   "Minimum": DoubleValueHere
 }

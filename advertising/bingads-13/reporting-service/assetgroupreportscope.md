@@ -11,6 +11,8 @@ description: Defines a data object for AssetGroupReportScope.
 # AssetGroupReportScope Data Object - Reporting
 Defines a data object for AssetGroupReportScope.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

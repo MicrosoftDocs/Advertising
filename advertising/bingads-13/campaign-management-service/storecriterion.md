@@ -13,6 +13,8 @@ Defines a criterion to exclude one Microsoft Merchant Center store from your [sh
 
 Each campaign can have a maximum of 10 excluded stores. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

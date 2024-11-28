@@ -45,4 +45,5 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
+[LocationCondition](locationcondition.md)  
 [LocationIntentCriterion](locationintentcriterion.md)  

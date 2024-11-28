@@ -11,6 +11,8 @@ description: Defines an object that represents the rate amount in percentage for
 # RateAmount Data Object - Campaign Management
 Defines an object that represents the rate amount in percentage form.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

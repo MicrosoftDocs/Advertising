@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the account performance repor
 # AccountPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the account performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

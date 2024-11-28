@@ -11,6 +11,8 @@ description: An object containing and ID an type for an audience.
 # AudienceInfo Data Object - Campaign Management
 An object containing and ID an type for an audience.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

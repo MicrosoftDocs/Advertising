@@ -14,6 +14,8 @@ Contains a nested list of suggested keywords for the campaign's ad groups with m
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -36,6 +36,8 @@ Microsoft Advertising will import most supported campaigns, ads, targets, ad ext
 
 For more details about what does and doesn't get imported from Google Ads, see [What gets imported](https://help.ads.microsoft.com/#apex/3/en/50851/0). 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

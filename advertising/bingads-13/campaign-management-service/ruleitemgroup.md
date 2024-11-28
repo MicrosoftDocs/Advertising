@@ -11,6 +11,8 @@ description: Defines an object that contains a list of remarketing list rule ite
 # RuleItemGroup Data Object - Campaign Management
 Defines an object that contains a list of remarketing list rule items that apply to the same visited page. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

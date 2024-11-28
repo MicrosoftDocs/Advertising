@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the category click coverage r
 # CategoryClickCoverageReportFilter Data Object - Reporting
 Defines the criteria to use to filter the category click coverage report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

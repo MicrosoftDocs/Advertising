@@ -13,6 +13,8 @@ Defines an object that represents the manual CPM bid strategy type.
 
 With the ManualCpm (manual cost per thousand) bid strategy, you set the highest amount that you'd like to pay per thousand impressions, and Microsoft Advertising uses these bids every time.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -28,7 +30,9 @@ With the ManualCpm (manual cost per thousand) bid strategy, you set the highest 
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "Type": "ManualCpm"
+}
 ```
 
 -----

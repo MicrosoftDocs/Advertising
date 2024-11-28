@@ -13,6 +13,8 @@ Defines an object that represents the rate bid.
 
 RateBid is applicable to Lodging campaigns (formerly Hotel campaigns) with the percent CPC or commission bid schemes.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a Bulk Ad API fault detail object that operations return wh
 # AdApiFaultDetail Data Object - Bulk
 Defines a Bulk Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

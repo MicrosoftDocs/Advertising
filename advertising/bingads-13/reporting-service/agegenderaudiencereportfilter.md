@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the age and gender audience r
 # AgeGenderAudienceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the age and gender audience report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

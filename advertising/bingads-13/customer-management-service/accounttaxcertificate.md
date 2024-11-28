@@ -11,6 +11,8 @@ description: Defines the AccountTaxCertificate Data Object.
 # AccountTaxCertificate Data Object - Customer Management
 Defines the AccountTaxCertificate Data Object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

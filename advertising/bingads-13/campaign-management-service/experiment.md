@@ -56,6 +56,8 @@ You have several options to use what you learned from the experiment.
 
 When you delete an *Experiment*, the experiment [Campaign](campaign.md) will also be deleted, and vice versa; However, the base campaign will not be deleted. When you delete a base campaign, all of its related experiments and experiment campaigns will also be deleted. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

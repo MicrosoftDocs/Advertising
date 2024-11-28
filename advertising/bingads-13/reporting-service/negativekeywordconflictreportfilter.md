@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the negative keyword conflict
 # NegativeKeywordConflictReportFilter Data Object - Reporting
 Defines the criteria to use to filter the negative keyword conflict report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

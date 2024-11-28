@@ -11,6 +11,8 @@ description: Defines an object that provides parameter information for an entity
 # EntityParameter Data Object - Ad Insight
 Defines an object that provides parameter information for an entity.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

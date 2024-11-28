@@ -11,6 +11,8 @@ description: Defines the relationship and editorial status of an ad extension wi
 # AdExtensionAssociation Data Object - Campaign Management
 Defines the relationship and editorial status of an ad extension with an account, campaign, or ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

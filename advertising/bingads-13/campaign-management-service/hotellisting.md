@@ -11,6 +11,8 @@ description: Defines a hotel listing.
 # HotelListing Data Object - Campaign Management
 Defines a hotel listing.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

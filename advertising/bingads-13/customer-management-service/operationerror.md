@@ -11,6 +11,8 @@ description: Defines a Customer Management operation error object that contains 
 # OperationError Data Object - Customer Management
 Defines a Customer Management operation error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a criterion that can be used to show ads for a specific dea
 # DealCriterion Data Object - Campaign Management
 Defines a criterion that can be used to show ads for a specific deal.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

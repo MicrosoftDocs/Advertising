@@ -11,6 +11,8 @@ description: Defines an object that contains the negative site URLs of a campaig
 # CampaignNegativeSites Data Object - Campaign Management
 Defines an object that contains the negative site URLs of a campaign.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

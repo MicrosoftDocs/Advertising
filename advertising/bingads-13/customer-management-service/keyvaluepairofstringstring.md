@@ -11,6 +11,8 @@ description: The key and value pair of string and string values.
 # KeyValuePairOfstringstring Data Object - Customer Management
 The key and value pair of string and string values.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

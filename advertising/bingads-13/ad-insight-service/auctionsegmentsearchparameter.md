@@ -11,6 +11,8 @@ description: Defines an auction segment search parameter.
 # AuctionSegmentSearchParameter Data Object - Ad Insight
 Defines an auction segment search parameter.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -29,6 +31,7 @@ Defines an auction segment search parameter.
 
 ```json
 {
+  "Type": "AuctionSegmentSearchParameter",
   "Segment": "ValueHere"
 }
 ```

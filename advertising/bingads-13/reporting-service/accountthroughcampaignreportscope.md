@@ -11,6 +11,8 @@ description: Defines the set of accounts and campaigns to include in the report.
 # AccountThroughCampaignReportScope Data Object - Reporting
 Defines the set of accounts and campaigns to include in the report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -56,4 +58,5 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 ## Used By
 [BudgetSummaryReportRequest](budgetsummaryreportrequest.md)  
 [CampaignPerformanceReportRequest](campaignperformancereportrequest.md)  
+[CombinationPerformanceReportRequest](combinationperformancereportrequest.md)  
 [SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)  

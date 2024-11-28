@@ -13,6 +13,8 @@ The network search parameter filter that you can include when requesting keyword
 
 If you do not include the network search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all networks.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,6 +33,7 @@ If you do not include the network search parameter when calling [GetKeywordIdeas
 
 ```json
 {
+  "Type": "NetworkSearchParameter",
   "Network": {
     "Network": "ValueHere"
   }

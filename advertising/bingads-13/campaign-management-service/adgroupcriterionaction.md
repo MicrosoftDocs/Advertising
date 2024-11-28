@@ -11,6 +11,8 @@ description: Defines the action to apply to a BiddableAdGroupCriterion or Negati
 # AdGroupCriterionAction Data Object - Campaign Management
 Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), specifically one that contains a [ProductPartition](productpartition.md). You can send a group of [AdGroupCriterionAction](adgroupcriterionaction.md) objects, also known as a product group, to the [ApplyProductPartitionActions](applyproductpartitionactions.md) service operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

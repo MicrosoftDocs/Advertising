@@ -11,6 +11,8 @@ description: Defines an array of objects that associate an ad extension and its 
 # AdExtensionAssociationCollection Data Object - Campaign Management
 Defines an array of objects that associate an ad extension and its editorial status to an account, campaign, or ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

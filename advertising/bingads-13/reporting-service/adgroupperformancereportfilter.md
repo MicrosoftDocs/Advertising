@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the ad group performance repo
 # AdGroupPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad group performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

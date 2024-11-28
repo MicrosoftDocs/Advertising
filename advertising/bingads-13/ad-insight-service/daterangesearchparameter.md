@@ -13,6 +13,8 @@ The date range search parameter that you can include when requesting keyword ide
 
 For more information about the significance of the date range search parameter, see *MonthlySearchCounts* with the [KeywordIdea](keywordidea.md) object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -32,6 +34,7 @@ For more information about the significance of the date range search parameter, 
 
 ```json
 {
+  "Type": "DateRangeSearchParameter",
   "EndDate": {
     "Day": IntValueHere,
     "Month": IntValueHere,

@@ -11,6 +11,8 @@ description: Defines the auto-apply opt-in status for specific recommendation ty
 # AutoApplyRecommendationsInfo Data Object - Ad Insight
 Defines the auto-apply opt-in status for specific recommendation type. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

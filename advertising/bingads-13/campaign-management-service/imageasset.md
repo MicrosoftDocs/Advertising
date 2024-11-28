@@ -16,6 +16,8 @@ Applies crop settings to stored image media for a specific aspect ratio.
 
 If you do not specify crop settings, the service will automatically crop up to the maximum possible area from the center of the image. For example, given a 1000x1000 pixel [image](image.md), for the 1.91:1 aspect ratio, the auto crop setting will be [CropWidth](#cropwidth)=1000, [CropHeight](#cropheight)=524, [CropX](#cropx)=0, and [CropY](#cropy)=238. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

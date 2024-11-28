@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the DSA category performance 
 # DSACategoryPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the DSA category performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

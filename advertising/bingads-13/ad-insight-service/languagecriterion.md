@@ -13,6 +13,8 @@ The language criterion that you can include when requesting keyword ideas or tra
 
 Suggestions are customized for the language you select.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,6 +33,7 @@ Suggestions are customized for the language you select.
 
 ```json
 {
+  "Type": "LanguageCriterion",
   "Language": "ValueHere"
 }
 ```

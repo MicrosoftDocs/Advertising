@@ -11,6 +11,8 @@ description: The statistical import results for an entity type.
 # ImportEntityStatistics Data Object - Campaign Management
 The statistical import results for an entity type.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

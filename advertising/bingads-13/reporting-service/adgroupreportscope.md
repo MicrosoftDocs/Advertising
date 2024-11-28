@@ -11,6 +11,8 @@ description: Defines an ad group to include in the report.
 # AdGroupReportScope Data Object - Reporting
 Defines an ad group to include in the report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

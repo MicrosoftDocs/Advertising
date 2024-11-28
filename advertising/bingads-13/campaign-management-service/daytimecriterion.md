@@ -16,6 +16,8 @@ The *DayTimeCriterion* criterion can be included within [BiddableAdGroupCriterio
 > [!NOTE]
 > You cannot modify the [Day](#day), [FromHour](#fromhour), [FromMinute](#fromminute), [ToHour](#tohour), or [ToMinute](#tominute) values for an existing criterion. To modify the day and time ranges, you must delete the criterion and add a new criterion. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

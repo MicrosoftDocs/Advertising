@@ -11,6 +11,8 @@ description: Defines an auction insight entry for a domain.
 # AuctionInsightEntry Data Object - Ad Insight
 Defines an auction insight entry for a domain.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

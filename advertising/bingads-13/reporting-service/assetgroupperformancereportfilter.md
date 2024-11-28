@@ -11,6 +11,8 @@ description: Defines a data object for AssetGroupPerformanceReportFilter.
 # AssetGroupPerformanceReportFilter Data Object - Reporting
 Defines a data object for AssetGroupPerformanceReportFilter.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

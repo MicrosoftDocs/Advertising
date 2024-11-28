@@ -11,6 +11,8 @@ description: Defines an object that contains the negative site URLs of an ad gro
 # AdGroupNegativeSites Data Object - Campaign Management
 Defines an object that contains the negative site URLs of an ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

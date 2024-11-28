@@ -11,6 +11,8 @@ description: Defines a condition or criterion that helps determine whether you w
 # WebpageCondition Data Object - Campaign Management
 Defines a condition or criterion that helps determine whether you want to show dynamic search ads.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

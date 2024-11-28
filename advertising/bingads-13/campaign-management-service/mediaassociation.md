@@ -13,6 +13,8 @@ Defines an object that represents the identified media and an associated entity,
 
 You can get this object by calling [GetMediaAssociations](getmediaassociations.md), and then use the media identifier with [GetMediaMetaDataByIds](getmediametadatabyids.md), for example.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

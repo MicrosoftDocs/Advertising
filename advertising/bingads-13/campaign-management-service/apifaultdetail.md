@@ -11,6 +11,8 @@ description: Defines a Campaign Management API fault object that operations retu
 # ApiFaultDetail Data Object - Campaign Management
 Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

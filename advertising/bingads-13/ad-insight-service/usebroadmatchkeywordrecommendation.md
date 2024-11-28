@@ -11,6 +11,8 @@ description: Defines a data object for UseBroadMatchKeywordRecommendation.
 # UseBroadMatchKeywordRecommendation Data Object - Ad Insight
 Defines a data object for UseBroadMatchKeywordRecommendation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

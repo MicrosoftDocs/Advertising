@@ -11,6 +11,8 @@ description: Defines an error object that identifies one of potentially many rea
 # EditorialError Data Object - Campaign Management
 Defines an error object that identifies one of potentially many reasons why an entity failed editorial review.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

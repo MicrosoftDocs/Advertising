@@ -11,6 +11,8 @@ description: Defines a Reporting Ad API error object that contains the details t
 # AdApiError Data Object - Reporting
 Defines a Reporting Ad API error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

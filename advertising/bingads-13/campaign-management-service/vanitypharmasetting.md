@@ -14,6 +14,8 @@ Defines a data object for VanityPharmaSetting. You can set the *DisplayUrlMode* 
 > [!NOTE]
 > *Note*: *VanityPharmaSetting* is available for limited pilot usage (e.g., pharmaceutical customers).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

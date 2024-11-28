@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the product dimension perform
 # ProductDimensionPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the product dimension performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

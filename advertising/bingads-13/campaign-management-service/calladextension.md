@@ -13,6 +13,8 @@ Defines an object that specifies a click-to-call phone number to include in a te
 
 You can associate a call ad extension with campaigns in the account. Each entity (campaign) can be associated with one call ad extension.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

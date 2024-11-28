@@ -11,6 +11,8 @@ description: A data object for the BrandItem.
 # BrandItem Data Object - Campaign Management
 A data object for the BrandItem.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -18,6 +18,8 @@ You can use one UET tag with all of your conversion goals and audiences. Before 
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

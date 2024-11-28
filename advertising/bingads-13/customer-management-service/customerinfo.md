@@ -11,6 +11,8 @@ description: Defines an object that contains a customer's identifier and name.
 # CustomerInfo Data Object - Customer Management
 Defines an object that contains a customer's identifier and name.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

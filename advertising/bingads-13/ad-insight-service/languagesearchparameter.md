@@ -13,6 +13,8 @@ The language search parameter filter that you can include when requesting keywor
 
 If you do not include the language search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all languages.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,6 +33,7 @@ If you do not include the language search parameter when calling [GetKeywordIdea
 
 ```json
 {
+  "Type": "LanguageSearchParameter",
   "Languages": [
     {
       "Language": "ValueHere"

@@ -11,6 +11,8 @@ description: Defines a criterion that you want to exclude from the specified cam
 # NegativeCampaignCriterion Data Object - Campaign Management
 Defines a criterion that you want to exclude from the specified campaign.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -26,7 +28,22 @@ Defines a criterion that you want to exclude from the specified campaign.
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "CampaignId": "LongValueHere",
+  "Criterion": {
+    "Type": "AgeCriterion",
+    "AgeRange": "ValueHere"
+  },
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Status": "ValueHere",
+  "Type": "NegativeCampaignCriterion"
+}
 ```
 
 -----

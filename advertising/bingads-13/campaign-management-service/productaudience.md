@@ -28,6 +28,8 @@ window.uetq = window.uetq || [];
 window.uetq.push('event', '', {'ecomm_prodid': 'REPLACE_WITH_PRODUCT_ID', 'ecomm_pagetype': 'REPLACE_WITH_PAGE_TYPE'});
 ```
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

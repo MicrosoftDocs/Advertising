@@ -17,6 +17,8 @@ Defines a remarketing list.
 > [!NOTE]
 > Microsoft Advertising will automatically generate similar audiences for remarketing lists if you are a pilot participant. You cannot create or edit the similar audience for a remarketing list. Having said that, you can add and delete similar remarketing list associations and exclusions. If you delete the source remarketing list, then the similar audience will also be deleted. If a similar audience is associated with a campaign or ad group, then you cannot delete the source remarketing list. See [SimilarRemarketingList](similarremarketinglist.md) for more details. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

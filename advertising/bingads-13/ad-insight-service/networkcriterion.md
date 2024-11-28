@@ -11,6 +11,8 @@ description: The network criterion that you can include when requesting keyword 
 # NetworkCriterion Data Object - Ad Insight
 The network criterion that you can include when requesting keyword ideas or traffic estimates.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -29,6 +31,7 @@ The network criterion that you can include when requesting keyword ideas or traf
 
 ```json
 {
+  "Type": "NetworkCriterion",
   "Network": "ValueHere"
 }
 ```

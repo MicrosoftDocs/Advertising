@@ -11,6 +11,8 @@ description: Defines the details for performance insights.
 # PerformanceInsightsDetail Data Object - Ad Insight
 Defines the details for performance insights.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

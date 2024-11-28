@@ -18,6 +18,7 @@ Defines the possible additional fields for an asset group.
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="AssetGroupSearchThemes" />
+        <xs:enumeration value="AssetGroupUrlTargets" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -26,11 +27,12 @@ Defines the possible additional fields for an asset group.
 
 ## <a name="values"></a>Values
 
-The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the following values: [AssetGroupSearchThemes](#assetgroupsearchthemes).
+The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the following values: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Include the *AssetGroupSearchThemes* field.|
+|<a name="assetgroupurltargets"></a>AssetGroupUrlTargets|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

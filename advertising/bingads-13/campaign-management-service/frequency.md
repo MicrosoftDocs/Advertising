@@ -22,6 +22,8 @@ You can schedule a recurring import e.g., "Every Sunday at 4:00 PM" or you can r
 
 To run the import "now", you can leave the Google import job [Frequency](googleimportjob.md#frequency) element nil or empty. For all other scheduling options, set the frequency [Type](#type) and [Cron](#cron) values. For details about supported frequency values, see the [Remarks](#remarks) below. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

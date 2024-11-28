@@ -11,6 +11,8 @@ description: Defines a data object for SearchInsightPerformanceReportRequest.
 # SearchInsightPerformanceReportRequest Data Object - Reporting
 Defines a data object for SearchInsightPerformanceReportRequest.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

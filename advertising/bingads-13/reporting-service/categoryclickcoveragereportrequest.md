@@ -11,6 +11,8 @@ description: Defines a category click coverage report request.
 # CategoryClickCoverageReportRequest Data Object - Reporting
 Defines a category click coverage report request.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

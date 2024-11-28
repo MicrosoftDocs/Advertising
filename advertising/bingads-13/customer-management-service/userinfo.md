@@ -11,6 +11,8 @@ description: Defines a user identification object that contains information that
 # UserInfo Data Object - Customer Management
 Defines a user identification object that contains information that identifies a user.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

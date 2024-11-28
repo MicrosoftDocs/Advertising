@@ -16,6 +16,8 @@ They can display prominently on broad queries like "weekly deals" or "weekly sal
 > [!NOTE]
 > Flyer Extensions are available for customers in the feature pilot ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 802).  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

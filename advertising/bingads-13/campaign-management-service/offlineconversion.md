@@ -19,6 +19,8 @@ To set up offline conversion tracking, create an [OfflineConversionGoal](offline
 > [!NOTE]
 > Although you can upload offline conversions in sandbox for functional testing, the offline conversion data will not be attributed in sandbox performance reporting data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

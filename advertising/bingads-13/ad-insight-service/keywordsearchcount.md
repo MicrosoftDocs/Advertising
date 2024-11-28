@@ -11,6 +11,8 @@ description: Defines an object that contains a list of search counts for each de
 # KeywordSearchCount Data Object - Ad Insight
 Defines an object that contains a list of search counts for each device and network where the keyword was included in a search query. The data is aggregated based on the attributes specified in the request.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

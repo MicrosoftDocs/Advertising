@@ -13,6 +13,8 @@ Defines a GenderDimension data object.
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

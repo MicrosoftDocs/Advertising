@@ -22,6 +22,8 @@ Negative keywords can also be added and deleted from a shared negative keyword l
 
 For more information about managing negative keywords and negative keyword lists, see the [Negative Keywords](../guides/negative-keywords.md) technical guide. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

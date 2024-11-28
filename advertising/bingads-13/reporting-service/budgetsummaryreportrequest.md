@@ -15,6 +15,8 @@ You can request your monthly budget, how much you have spent to date, and whethe
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

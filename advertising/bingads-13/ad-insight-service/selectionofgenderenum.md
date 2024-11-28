@@ -11,6 +11,8 @@ description: Defines a data object for the selection of gender targeting.
 # SelectionOfGenderEnum Data Object - Ad Insight
 Defines a data object for the selection of gender targeting.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
