@@ -26,7 +26,7 @@ The Campaign Management service defines the following service operations.
 |[AddCampaignCriterions](addcampaigncriterions.md)|Adds one or more campaign criterions that help determine whether ads in each campaign get served.|100 *CampaignCriterions*|
 |[AddCampaigns](addcampaigns.md)|Adds one or more campaigns to the specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[AddConversionGoals](addconversiongoals.md)|Adds new conversion goals to the account's shared conversion goal library.|100 *ConversionGoals*|
-|[AddConversionValueRules](addconversionvaluerules.md)|Reserved.||
+|[AddConversionValueRules](addconversionvaluerules.md)|Reserved.|N/A.|
 |[AddDataExclusions](adddataexclusions.md)|Add a data exclusion to the specified account.|N/A.|
 |[AddExperiments](addexperiments.md)|Adds experiments and creates experiment campaigns based on existing campaigns in an account.|100 *Experiments*|
 |[AddImportJobs](addimportjobs.md)|Creates a new import job.|1 *ImportJobs*|
@@ -48,9 +48,9 @@ The Campaign Management service defines the following service operations.
 |[ApplyOfflineConversions](applyofflineconversions.md)|Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.|1,000 *OfflineConversions*|
 |[ApplyOnlineConversionAdjustments](applyonlineconversionadjustments.md)|Applies online conversion adjustments.|N/A.|
 |[ApplyProductPartitionActions](applyproductpartitionactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [ProductPartition](productpartition.md).|5,000 *CriterionActions*|
-|[CreateAssetGroupRecommendation](createassetgrouprecommendation.md)|Reserved.||
-|[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)|Reserved.||
-|[CreateResponsiveSearchAdRecommendation](createresponsivesearchadrecommendation.md)|Reserved.||
+|[CreateAssetGroupRecommendation](createassetgrouprecommendation.md)|Reserved.|N/A.|
+|[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)|Reserved.|N/A.|
+|[CreateResponsiveSearchAdRecommendation](createresponsivesearchadrecommendation.md)|Reserved.|N/A.|
 |[DeleteAdExtensions](deleteadextensions.md)|Deletes one or more ad extensions from the account's ad extension library.|1 *AccountId*<br/><br/>100 *AdExtensionIds*|
 |[DeleteAdExtensionsAssociations](deleteadextensionsassociations.md)|Removes the specified association from the respective campaigns or ad groups.|1 *AccountId*<br/><br/>100 *AdExtensionIdToEntityIdAssociations*|
 |[DeleteAdGroupCriterions](deleteadgroupcriterions.md)|Deletes the specified ad group criterions.|1 *AccountId*<br/><br/>1,000 *AdGroupCriterionIds*|
@@ -109,8 +109,8 @@ The Campaign Management service defines the following service operations.
 |[GetCampaignsByIds](getcampaignsbyids.md)|Gets the specified campaigns within an account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[GetConversionGoalsByIds](getconversiongoalsbyids.md)|Gets the specified conversion goals.|100 *ConversionGoalIds*|
 |[GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)|Gets the conversion goals that use the specified UET tags.|100 *TagIds*|
-|[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Reserved.||
-|[GetConversionValueRulesByIds](getconversionvaluerulesbyids.md)|Reserved.||
+|[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Reserved.|N/A.|
+|[GetConversionValueRulesByIds](getconversionvaluerulesbyids.md)|Reserved.|N/A.|
 |[GetDataExclusionsByAccountId](getdataexclusionsbyaccountid.md)|Gets the data exclusions associated with an account.|N/A.|
 |[GetDataExclusionsByIds](getdataexclusionsbyids.md)|Gets the specified data exclusions associated with an account.|N/A.|
 |[GetEditorialReasonsByIds](geteditorialreasonsbyids.md)|Gets the reasons why the specified entities failed editorial review and whether the issue is appealable.|1 *AccountId*<br/><br/>1,000 *EntityIdToParentIdAssociations*|
@@ -143,9 +143,9 @@ The Campaign Management service defines the following service operations.
 |[GetSharedEntityAssociationsBySharedEntityIds](getsharedentityassociationsbysharedentityids.md)|Gets the negative keyword list to campaign associations by negative keyword list IDs, or website exclusion list to ad account associations by website exclusion list IDs.|1 *SharedEntityIds*|
 |[GetUetTagsByIds](getuettagsbyids.md)|Gets the specified Universal Event Tracking (UET) tags.|100 *TagIds*|
 |[GetVideosByIds](getvideosbyids.md)|Gets videos by video identifiers.|1,000 *VideoIds*|
-|[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)|Reserved.||
-|[RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)|Reserved.||
-|[RefineResponsiveSearchAdRecommendation](refineresponsivesearchadrecommendation.md)|Reserved.||
+|[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)|Reserved.|N/A.|
+|[RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)|Reserved.|N/A.|
+|[RefineResponsiveSearchAdRecommendation](refineresponsivesearchadrecommendation.md)|Reserved.|N/A.|
 |[SearchCompanies](searchcompanies.md)|Search for profile data by company name.|1 *CompanyNameFilter*|
 |[SetAccountProperties](setaccountproperties.md)|Sets account level properties by name.|Not applicable|
 |[SetAdExtensionsAssociations](setadextensionsassociations.md)|Associates the specified ad extensions with the respective campaigns or ad groups.|1 *AccountId*<br/><br/>100 *AdExtensionIdToEntityIdAssociations*|
@@ -166,8 +166,8 @@ The Campaign Management service defines the following service operations.
 |[UpdateCampaignCriterions](updatecampaigncriterions.md)|Updates one or more campaign criterions.|100 *CampaignCriterions*|
 |[UpdateCampaigns](updatecampaigns.md)|Updates specified campaigns in a specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[UpdateConversionGoals](updateconversiongoals.md)|Updates conversion goals within the account's shared conversion goal library.|100 *ConversionGoals*|
-|[UpdateConversionValueRules](updateconversionvaluerules.md)|Reserved.||
-|[UpdateConversionValueRulesStatus](updateconversionvaluerulesstatus.md)|Reserved.||
+|[UpdateConversionValueRules](updateconversionvaluerules.md)|Reserved.|N/A.|
+|[UpdateConversionValueRulesStatus](updateconversionvaluerulesstatus.md)|Reserved.|N/A.|
 |[UpdateDataExclusions](updatedataexclusions.md)|Make updates to the specified data exclusions.|N/A.|
 |[UpdateExperiments](updateexperiments.md)|Updates the specified experiments.|100 *Experiments*|
 |[UpdateImportJobs](updateimportjobs.md)|Replaces the specified import jobs with new import jobs.|1 *ImportJobs*|
