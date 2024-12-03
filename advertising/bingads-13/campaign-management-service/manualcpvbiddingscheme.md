@@ -13,6 +13,8 @@ Defines an object that represents the manual CPV bid strategy type.
 
 With the ManualCpv (manual cost per view) bid strategy, you set the highest amount that you'd like to pay per view or per click on a video ad, and Microsoft Advertising uses these bids every time.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -28,7 +30,9 @@ With the ManualCpv (manual cost per view) bid strategy, you set the highest amou
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "Type": "ManualCpv"
+}
 ```
 
 -----

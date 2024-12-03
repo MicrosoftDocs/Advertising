@@ -14,6 +14,8 @@ Defines the operating system platform and URL of the app store download webpage.
 > [!NOTE]
 > Reserved for future use.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: A data object for the BrandList.
 # BrandList Data Object - Campaign Management
 A data object for the BrandList.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -26,7 +28,19 @@ A data object for the BrandList.
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "ItemCount": IntValueHere,
+  "AssociationCount": IntValueHere,
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "BrandList"
+}
 ```
 
 -----

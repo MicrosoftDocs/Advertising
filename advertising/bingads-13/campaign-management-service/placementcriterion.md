@@ -11,6 +11,8 @@ description: Defines a data object for PlacementCriterion.
 # PlacementCriterion Data Object - Campaign Management
 Defines a data object for PlacementCriterion.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

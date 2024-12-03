@@ -11,6 +11,8 @@ description: Defines the profile data for a company.
 # Company Data Object - Campaign Management
 Defines the profile data for a company. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

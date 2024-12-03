@@ -11,6 +11,8 @@ description: Defines the set of accounts, campaigns, and ad groups to include in
 # AccountThroughAdGroupReportScope Data Object - Reporting
 Defines the set of accounts, campaigns, and ad groups to include in the report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

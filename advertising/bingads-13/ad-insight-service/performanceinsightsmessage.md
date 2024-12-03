@@ -11,6 +11,8 @@ description: Defines the message for performance insights.
 # PerformanceInsightsMessage Data Object - Ad Insight
 Defines the message for performance insights.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the product search query perf
 # ProductSearchQueryPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the product search query performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

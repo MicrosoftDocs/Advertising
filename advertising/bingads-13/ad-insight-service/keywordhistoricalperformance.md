@@ -11,6 +11,8 @@ description: Defines an object that contains the key performance index data for 
 # KeywordHistoricalPerformance Data Object - Ad Insight
 Defines an object that contains the key performance index data for the specified keyword.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

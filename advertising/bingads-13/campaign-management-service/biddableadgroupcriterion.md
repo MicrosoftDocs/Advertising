@@ -11,6 +11,8 @@ description: Defines a biddable criterion that you want applied to the specified
 # BiddableAdGroupCriterion Data Object - Campaign Management
 Defines a biddable criterion that you want applied to the specified ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

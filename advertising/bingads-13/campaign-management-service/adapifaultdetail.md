@@ -11,6 +11,8 @@ description: Defines a Campaign Management Ad API fault detail object that opera
 # AdApiFaultDetail Data Object - Campaign Management
 Defines a Campaign Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

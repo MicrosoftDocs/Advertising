@@ -13,6 +13,8 @@ Defines a hotel group performance report request that aggregates the performance
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

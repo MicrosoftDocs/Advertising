@@ -11,6 +11,8 @@ description: FileImportOption is reserved for future use.
 # FileImportOption Data Object - Campaign Management
 FileImportOption is reserved for future use.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -26,7 +28,15 @@ FileImportOption is reserved for future use.
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Type": "FileImportOption"
+}
 ```
 
 -----

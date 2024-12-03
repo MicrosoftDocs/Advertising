@@ -12,6 +12,8 @@ description: Defines a data object for AssetGroupPerformanceReportRequest.
 Defines a data object for AssetGroupPerformanceReportRequest.
 ---
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a Customer Management Ad API fault detail object that opera
 # AdApiFaultDetail Data Object - Customer Management
 Defines a Customer Management Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

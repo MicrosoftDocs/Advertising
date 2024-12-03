@@ -11,6 +11,8 @@ description: Defines an object that contains a list of entity identifiers.
 # IdCollection Data Object - Campaign Management
 Defines an object that contains a list of entity identifiers.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

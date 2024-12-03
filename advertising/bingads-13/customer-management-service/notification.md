@@ -11,6 +11,8 @@ description: Defines a Notification object.
 # Notification Data Object - Customer Management
 Defines a Notification object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

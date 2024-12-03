@@ -16,6 +16,8 @@ The *AudienceCriterion* can be included within [AdGroupCriterion](adgroupcriteri
 > [!NOTE]
 > For new Video campaigns, only Remarketing lists, Similar audiences, In-market audiences, and Customer match lists are supported.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

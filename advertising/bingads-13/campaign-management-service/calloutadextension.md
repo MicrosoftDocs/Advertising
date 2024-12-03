@@ -15,6 +15,8 @@ You can associate an app ad extension with the account or with campaigns and ad 
 
 Ad extensions that are associated at the ad group level will override ad extensions of the same type that are associated at the campaign level. For example if you have 2 callout extensions set for *Campaign A*, zero callout extensions associated with *Ad Group AA*, and one callout extension associated with *Ad Group AB*, then only *Ad Group AA* is eligible to have its text ads decorated with callouts.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

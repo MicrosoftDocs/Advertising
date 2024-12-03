@@ -11,6 +11,8 @@ description: Defines an object that contains traffic estimates based on the camp
 # TrafficEstimate Data Object - Ad Insight
 Defines an object that contains traffic estimates based on the campaign, ad group, and keyword criteria you specified when calling [GetKeywordTrafficEstimates](getkeywordtrafficestimates.md).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the FrequencyCapSettings object.
 # FrequencyCapSettings Data Object - Campaign Management
 Defines the FrequencyCapSettings object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

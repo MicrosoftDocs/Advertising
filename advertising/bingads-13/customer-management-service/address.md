@@ -11,6 +11,8 @@ description: Defines a postal address for accounts and user contact information.
 # Address Data Object - Customer Management
 Defines a postal address for accounts and user contact information.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a collection of ads or keywords that failed editorial revie
 # EditorialReasonCollection Data Object - Campaign Management
 Defines a collection of ads or keywords that failed editorial review, and the reason for the failure.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

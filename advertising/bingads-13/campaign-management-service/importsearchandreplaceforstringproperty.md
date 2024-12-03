@@ -11,6 +11,8 @@ description: Defines the string search and replace Google import option.
 # ImportSearchAndReplaceForStringProperty Data Object - Campaign Management
 Defines the string search and replace Google import option. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

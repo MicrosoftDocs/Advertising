@@ -14,6 +14,8 @@ Defines an ad group in an advertising campaign.
 > [!NOTE]
 > As of July 2024, you can no longer set the search network where you want your ads to display to *SyndicatedSearchOnly*. If you attempt to set it to *SyndicatedSearchOnly*, the *CampaignServiceInvalidNetwork* error will be returned.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

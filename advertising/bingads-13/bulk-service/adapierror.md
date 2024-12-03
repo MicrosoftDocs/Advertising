@@ -11,6 +11,8 @@ description: Defines a Bulk Ad API error object that contains the details that e
 # AdApiError Data Object - Bulk
 Defines a Bulk Ad API error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

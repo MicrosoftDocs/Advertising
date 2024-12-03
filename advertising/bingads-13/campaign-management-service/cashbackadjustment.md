@@ -11,6 +11,8 @@ description: Defines the CashbackAdjustment Data Object.
 # CashbackAdjustment Data Object - Campaign Management
 Defines the CashbackAdjustment Data Object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

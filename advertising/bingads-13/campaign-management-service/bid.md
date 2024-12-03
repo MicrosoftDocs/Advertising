@@ -11,6 +11,8 @@ description: The highest price that you want to pay each time someone clicks you
 # Bid Data Object - Campaign Management
 The highest price that you want to pay each time someone clicks your ad.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

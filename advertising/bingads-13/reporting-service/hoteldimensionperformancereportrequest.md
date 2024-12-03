@@ -13,6 +13,8 @@ Defines a hotel dimension performance report request that aggregates the perform
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

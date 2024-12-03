@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the ad dynamic text performan
 # AdDynamicTextPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad dynamic text performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

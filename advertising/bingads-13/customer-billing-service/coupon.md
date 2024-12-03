@@ -11,6 +11,8 @@ description: Defines a coupon.
 # Coupon Data Object - Customer Billing
 Defines a coupon.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

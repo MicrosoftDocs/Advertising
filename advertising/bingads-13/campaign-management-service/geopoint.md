@@ -11,6 +11,8 @@ description: Defines an object that contains the longitude and latitude coordina
 # GeoPoint Data Object - Campaign Management
 Defines an object that contains the longitude and latitude coordinates of a geographical location.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

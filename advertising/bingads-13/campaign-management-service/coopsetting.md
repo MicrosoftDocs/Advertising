@@ -14,6 +14,8 @@ Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.
 > [!NOTE]
 > This object is reserved for internal use, and will be removed in a future API version.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

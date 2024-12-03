@@ -11,6 +11,8 @@ description: Defines a label object to organize campaigns, ad groups, ads, and k
 # Label Data Object - Campaign Management
 Defines a label object to organize campaigns, ad groups, ads, and keywords into groups. You can then filter and run reports on your labels to get the data that is most meaningful to you.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

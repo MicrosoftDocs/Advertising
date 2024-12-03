@@ -13,6 +13,8 @@ Defines an object to retract or restate an offline conversion via the [ApplyOffl
 
 You can adjust the conversion time and value for offline conversions previously applied via the [ApplyOfflineConversions](applyofflineconversions.md) operation. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

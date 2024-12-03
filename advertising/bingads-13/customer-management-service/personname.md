@@ -11,6 +11,8 @@ description: Defines the name of a user.
 # PersonName Data Object - Customer Management
 Defines the name of a user.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

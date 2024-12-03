@@ -39,7 +39,7 @@ The [CategoryClickCoverageReportColumn](categoryclickcoveragereportcolumn.md) va
 |<a name="l1vertical"></a>L1Vertical|A particular supply sector, such as Travel and Tourism or Apparel.<br/><br/>[View a list of L1 verticals](../guides/reporting-verticals.md#l1verticals).|
 |<a name="l2vertical"></a>L2Vertical|A more detailed segment of an L1 vertical. For instance, within the L1 vertical travel and tourism, L2 verticals might include Accommodations or Air travel.<br/><br/>[View a list of L2 verticals](../guides/reporting-verticals.md#l2verticals).|
 |<a name="l3vertical"></a>L3Vertical|The most specific segment within a larger L1 vertical. For example, if the L1 vertical is travel and tourism and the L2 vertical is Accommodations, an L3 vertical might be Bed and Breakfasts or Camping and RV.<br/><br/>[View a list of L3 verticals](../guides/reporting-verticals.md#l3verticals).|
-|<a name="marketplaceclickcoverage"></a>MarketplaceClickCoverage|The percentage of clicks your account(s) received compared to the total number of clicks by all advertisers for a specific L1 – L3 slice. Clickshare is calculated as your account's clicks divided by total clicks from all market advertisers.|
+|<a name="marketplaceclickcoverage"></a>MarketplaceClickCoverage|The percentage of clicks your account(s) received compared to the total number of clicks by all advertisers for a specific L1 ? L3 slice. Clickshare is calculated as your account's clicks divided by total clicks from all market advertisers.|
 |<a name="weekstartingmonday"></a>WeekStartingMonday|The date range for the week that your data is from starting with Monday.|
 
 ## Requirements

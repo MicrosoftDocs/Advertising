@@ -13,6 +13,8 @@ Defines an app ad extension that can be included in an ad.
 
 You can associate an app ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with as many app ad extensions as you decide, up to the total number of app ad extensions in your account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

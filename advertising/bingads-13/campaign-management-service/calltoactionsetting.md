@@ -11,6 +11,8 @@ description: Defines the CallToActionSetting data object.
 # CallToActionSetting Data Object - Campaign Management
 Defines the CallToActionSetting data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

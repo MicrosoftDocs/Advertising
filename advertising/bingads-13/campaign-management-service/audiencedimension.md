@@ -11,6 +11,8 @@ description: An object that inherits AudienceGroupDimension.
 # AudienceDimension Data Object - Campaign Management
 An object that inherits AudienceGroupDimension.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

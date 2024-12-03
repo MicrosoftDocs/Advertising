@@ -11,6 +11,8 @@ description: Defines a rule expression that depends on the string values of the 
 # StringRuleItem Data Object - Campaign Management
 Defines a rule expression that depends on the string values of the Url or Referrer Url.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

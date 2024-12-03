@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the hotel group performance r
 # HotelGroupPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the hotel group performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

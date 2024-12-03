@@ -16,6 +16,8 @@ With the ManualCpc (manual cost per click) bid strategy, you set your ad group a
 > [!NOTE]
 > As of May 2024, you can no longer use the manual CPC bid strategy for audience native campaigns. You can only use manual CPC for audience display and video campaigns, and for lodging campaigns. We will automatically convert any existing manual CPC audience native campaigns to enhanced CPC. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,7 +33,9 @@ With the ManualCpc (manual cost per click) bid strategy, you set your ad group a
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "Type": "ManualCpc"
+}
 ```
 
 -----

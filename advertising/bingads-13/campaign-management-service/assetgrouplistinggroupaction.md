@@ -11,6 +11,8 @@ description: An object that contains an Action element and a ListingGroup elemen
 # AssetGroupListingGroupAction Data Object - Campaign Management
 An object that contains an Action element and a ListingGroup element.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -13,6 +13,8 @@ Defines an object that can be used to manage changes for an approved insertion o
 
 If the [Status](insertionorder.md#status) element of the [InsertionOrder](insertionorder.md) is set to PendingUserReview then you cannot update the insertion order via the *InsertionOrderPendingChanges* object. You must initially approve, decline, or cancel via the [Status](insertionorder.md#status) element of the [InsertionOrder](insertionorder.md). Once the insertion order [Status](insertionorder.md#status) is Active, Exhausted, Expired, or NotStarted, then you can either make new changes or approve or decline the current pending changes via the *InsertionOrderPendingChanges* object. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

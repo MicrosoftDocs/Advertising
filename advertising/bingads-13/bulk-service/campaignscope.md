@@ -11,6 +11,8 @@ description: Defines an object that identifies a campaign to download.
 # CampaignScope Data Object - Bulk
 Defines an object that identifies a campaign to download.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

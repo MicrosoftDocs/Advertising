@@ -11,6 +11,8 @@ description: The key and value entity of string and string values.
 # KeyValueEntityOfstringstring Data Object - Customer Management
 The key and value entity of string and string values.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

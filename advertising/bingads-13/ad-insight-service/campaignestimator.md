@@ -11,6 +11,8 @@ description: Contains campaign filter criteria and a nested list of ad group and
 # CampaignEstimator Data Object - Ad Insight
 Contains campaign filter criteria and a nested list of ad group and keyword level filter criteria for traffic estimates.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -47,7 +49,10 @@ Contains campaign filter criteria and a nested list of ad group and keyword leve
   ],
   "CampaignId": "LongValueHere",
   "Criteria": [
-    "ValueHere"
+    {
+      "Type": "DeviceCriterion",
+      "DeviceName": "ValueHere"
+    }
   ],
   "DailyBudget": DoubleValueHere,
   "NegativeKeywords": [

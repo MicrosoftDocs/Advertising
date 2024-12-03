@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the campaign performance repo
 # CampaignPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the campaign performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

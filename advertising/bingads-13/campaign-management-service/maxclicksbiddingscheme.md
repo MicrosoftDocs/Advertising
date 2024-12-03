@@ -18,6 +18,8 @@ Microsoft Advertising will always respect your overall budget limit, but if you 
 > [!IMPORTANT] 
 > For some bid strategy types your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](../guides/universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1). 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

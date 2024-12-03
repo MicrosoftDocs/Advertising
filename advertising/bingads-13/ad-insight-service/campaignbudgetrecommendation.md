@@ -11,6 +11,8 @@ description: Defines the CampaignBudgetRecommendation data object.
 # CampaignBudgetRecommendation Data Object - Ad Insight
 Defines the CampaignBudgetRecommendation data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

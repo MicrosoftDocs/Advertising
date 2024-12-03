@@ -16,6 +16,8 @@ In-store transactions empower retail advertisers with a holistic view of return 
 > [!NOTE]
 > In-store transaction goals are only available for alpha pilot customers. Only one in-store transaction goal can be created per customer. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,7 +33,27 @@ In-store transactions empower retail advertisers with a holistic view of return 
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "AttributionModelType": "ValueHere",
+  "ConversionWindowInMinutes": IntValueHere,
+  "CountType": "ValueHere",
+  "ExcludeFromBidding": "ValueHere",
+  "GoalCategory": "ValueHere",
+  "Id": "LongValueHere",
+  "IsEnhancedConversionsEnabled": "ValueHere",
+  "Name": "ValueHere",
+  "Revenue": {
+    "CurrencyCode": "ValueHere",
+    "Type": "ValueHere",
+    "Value": DecimalValueHere
+  },
+  "Scope": "ValueHere",
+  "Status": "ValueHere",
+  "TagId": "LongValueHere",
+  "TrackingStatus": "ValueHere",
+  "Type": "InStoreTransaction",
+  "ViewThroughConversionWindowInMinutes": IntValueHere
+}
 ```
 
 -----

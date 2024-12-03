@@ -11,6 +11,8 @@ description: Defines the URL parameter for use with performance insights.
 # UrlParameter Data Object - Ad Insight
 Defines the URL parameter for use with performance insights. Derives from *PerformanceInsightsMessageParameter*.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

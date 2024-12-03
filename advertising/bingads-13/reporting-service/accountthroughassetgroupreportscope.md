@@ -11,6 +11,8 @@ description: Defines a AccountThroughAssetGroupReportScope data object.
 # AccountThroughAssetGroupReportScope Data Object - Reporting
 Defines a AccountThroughAssetGroupReportScope data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

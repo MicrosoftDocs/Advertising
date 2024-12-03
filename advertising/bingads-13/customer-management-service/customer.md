@@ -11,6 +11,8 @@ description: Defines a customer object that contains one or more Microsoft Adver
 # Customer Data Object - Customer Management
 Defines a customer object that contains one or more Microsoft Advertising accounts.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

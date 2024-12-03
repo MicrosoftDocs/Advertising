@@ -11,6 +11,8 @@ description: Defines an object that contains the keyword and percentage of users
 # KeywordDemographicResult Data Object - Ad Insight
 Defines an object that contains the keyword and percentage of users by age and gender (if known) who searched for the specified keyword.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

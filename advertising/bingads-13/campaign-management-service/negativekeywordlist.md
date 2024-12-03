@@ -13,6 +13,8 @@ Defines a negative keyword list.
 
 You can add negative keywords to a negative keyword list and associate the list with campaigns.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -28,7 +30,19 @@ You can add negative keywords to a negative keyword list and associate the list 
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "ItemCount": IntValueHere,
+  "AssociationCount": IntValueHere,
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "NegativeKeywordList"
+}
 ```
 
 -----

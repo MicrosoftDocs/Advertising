@@ -11,6 +11,8 @@ description: Defines the base object of a campaign conversion goal.
 # CampaignConversionGoal Data Object - Campaign Management
 Defines the base object of a campaign conversion goal.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

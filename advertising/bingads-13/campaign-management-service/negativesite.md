@@ -20,6 +20,8 @@ If you associate any [website exclusion lists](placementexclusionlist.md) with a
 
 For more information about managing negative sites and website exclusion lists, see the [Negative Sites](../guides/negative-sites.md) technical guide. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

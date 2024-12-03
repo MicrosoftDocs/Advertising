@@ -28,6 +28,8 @@ The supported criteria varies by campaign type. Microsoft Advertising applies a 
 |[BiddableAdGroupCriterion](biddableadgroupcriterion.md)|Audience<br/>DynamicSearchAds<br/>Search<br/>Shopping|
 |[NegativeAdGroupCriterion](negativeadgroupcriterion.md)|Audience|
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

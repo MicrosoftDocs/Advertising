@@ -11,6 +11,8 @@ description: Defines a data object for the seasonality adjustment.
 # SeasonalityAdjustment Data Object - Campaign Management
 Defines a data object for the seasonality adjustment.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

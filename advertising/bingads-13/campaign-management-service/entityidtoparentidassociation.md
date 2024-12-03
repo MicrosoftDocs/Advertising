@@ -11,6 +11,8 @@ description: Defines an object that contains the unique system identifier of an 
 # EntityIdToParentIdAssociation Data Object - Campaign Management
 Defines an object that contains the unique system identifier of an entity such as ad or keyword, and the identifier of its parent. An ad group is the parent of an ad or keyword.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

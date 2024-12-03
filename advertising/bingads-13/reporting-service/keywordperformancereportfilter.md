@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the keyword performance repor
 # KeywordPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the keyword performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

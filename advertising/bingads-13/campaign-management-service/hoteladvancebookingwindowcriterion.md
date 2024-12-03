@@ -11,6 +11,8 @@ description: Criterion for the number of days the booking is made prior to the h
 # HotelAdvanceBookingWindowCriterion Data Object - Campaign Management
 Criterion for the number of days the booking is made prior to the hotel stay.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

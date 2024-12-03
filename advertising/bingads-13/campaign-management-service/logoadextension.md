@@ -13,6 +13,8 @@ Defines an ad extension that specifies a business logo.
 
 Logo Ad Extensions enable advertisers to display eye-catching logos in ads. Build brand recognition to drive more clicks and conversions on your website.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

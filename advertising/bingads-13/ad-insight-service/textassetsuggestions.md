@@ -11,6 +11,8 @@ description: Defines the text asset suggestions data object.
 # TextAssetSuggestions Data Object - Ad Insight
 Defines the text asset suggestions data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

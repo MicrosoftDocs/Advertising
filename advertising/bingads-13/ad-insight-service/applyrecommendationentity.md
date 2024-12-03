@@ -11,6 +11,8 @@ description: Apply a recommendation.
 # ApplyRecommendationEntity Data Object - Ad Insight
 Apply a recommendation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -19,6 +19,8 @@ A client link does not have a public system identifier. You can identify distinc
 > [!NOTE]
 > Agency customers in the Create Accounts on Behalf of Client pilot ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 793) can also establish ad account level client links via the [SignupCustomer](../customer-management-service/signupcustomer.md) service operation. Please see [SignupCustomer](../customer-management-service/signupcustomer.md) for more information. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

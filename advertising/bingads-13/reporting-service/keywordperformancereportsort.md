@@ -11,6 +11,8 @@ description: Defines a keyword performance report column and corresponding sort 
 # KeywordPerformanceReportSort Data Object - Reporting
 Defines a keyword performance report column and corresponding sort order.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -14,6 +14,8 @@ Defines an object that contains the keyword and the estimated position in the se
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

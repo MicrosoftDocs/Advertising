@@ -11,6 +11,8 @@ description: Defines a RangeResultOfDecimalRoundedResult data object.
 # RangeResultOfDecimalRoundedResult Data Object - Ad Insight
 Defines a RangeResultOfDecimalRoundedResult data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

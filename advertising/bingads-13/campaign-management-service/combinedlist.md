@@ -18,6 +18,8 @@ You can create a maximum of 1,000 combined lists per ad account, and up to 5,000
 > [!TIP]
 > For an overview and more information about audiences, see the [Audience APIs](../guides/universal-event-tracking.md#audience) technical guide. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

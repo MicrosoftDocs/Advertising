@@ -11,6 +11,8 @@ description: Defines a Customer Billing operation error object that contains the
 # OperationError Data Object - Customer Billing
 Defines a Customer Billing operation error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

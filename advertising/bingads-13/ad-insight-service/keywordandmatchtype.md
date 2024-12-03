@@ -11,6 +11,8 @@ description: Defines an object that contains a keyword and corresponding match t
 # KeywordAndMatchType Data Object - Ad Insight
 Defines an object that contains a keyword and corresponding match types.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

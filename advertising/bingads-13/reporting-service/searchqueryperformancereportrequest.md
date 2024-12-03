@@ -19,6 +19,8 @@ Since this data might change over time, please use the [KeywordPerformanceReport
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

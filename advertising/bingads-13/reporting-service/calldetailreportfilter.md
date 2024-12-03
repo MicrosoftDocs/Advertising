@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the call detail report data.
 # CallDetailReportFilter Data Object - Reporting
 Defines the criteria to use to filter the call detail report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

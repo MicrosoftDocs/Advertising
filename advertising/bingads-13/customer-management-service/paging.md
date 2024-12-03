@@ -11,6 +11,8 @@ description: Defines a paging object to request Customer Management objects in b
 # Paging Data Object - Customer Management
 Defines a paging object to request Customer Management objects in batches.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: This object is not in use and will be removed from a future version
 # MaxRoasBiddingScheme Data Object - Campaign Management
 This object is not in use and will be removed from a future version of the API.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

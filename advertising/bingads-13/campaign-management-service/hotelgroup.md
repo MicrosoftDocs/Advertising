@@ -11,6 +11,8 @@ description: Defines an object that organizes your hotel ads.
 # HotelGroup Data Object - Campaign Management
 Defines an object that organizes your hotel ads.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

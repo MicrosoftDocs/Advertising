@@ -13,6 +13,8 @@ Defines an ad extension that specifies a business address and phone number to in
 
 You can associate a location ad extension with the account or with campaigns in the account. Each entity (account or campaign) can be associated with as many location ad extensions as you decide, up to the total number of location ad extensions in your account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

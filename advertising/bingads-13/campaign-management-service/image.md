@@ -11,6 +11,8 @@ description: Defines an image that can be added to an account's media library.
 # Image Data Object - Campaign Management
 Defines an image that can be added to an account's media library.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -16,6 +16,8 @@ You can associate a promotion ad extension with the account or with campaigns an
 > [!NOTE]
 > Promotion Extensions are available for customers in AU, CA, DE, FR, US and UK.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

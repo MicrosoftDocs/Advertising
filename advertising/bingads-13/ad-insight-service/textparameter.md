@@ -11,6 +11,8 @@ description: Defines the text parameter for use with performance insights.
 # TextParameter Data Object - Ad Insight
 Defines the text parameter for use with performance insights. Derives from *PerformanceInsightsMessageParameter*.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

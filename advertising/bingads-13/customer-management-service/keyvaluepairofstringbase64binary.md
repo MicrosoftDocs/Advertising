@@ -11,6 +11,8 @@ description: The key and value pair of string and base64Binary values defined by
 # KeyValuePairOfstringbase64Binary Data Object - Customer Management
 The key and value pair of string and base64Binary values defined by the Customer Management service.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

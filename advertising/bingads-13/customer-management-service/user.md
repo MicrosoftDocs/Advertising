@@ -16,6 +16,8 @@ Multiple user objects can be assigned to the same person i.e., one user per pers
 > [!TIP]
 > With Microsoft Advertising multi-user credentials you can accept an invitation to manage a separate customer with your existing Microsoft Advertising credentials. For more information, see the [Multi-User Credentials](../guides/account-hierarchy-permissions.md#multi-user-credentials) technical guide.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

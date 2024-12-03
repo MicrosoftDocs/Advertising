@@ -11,6 +11,8 @@ description: An automated bidding strategy to get the target impression share fo
 # TargetImpressionShareBiddingScheme Data Object - Campaign Management
 An automated bidding strategy to get the target impression share for the ad position where you want your ads to appear.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

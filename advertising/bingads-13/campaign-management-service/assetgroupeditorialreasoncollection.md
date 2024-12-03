@@ -11,6 +11,8 @@ description: Defines a collection of asset groups that failed editorial review.
 # AssetGroupEditorialReasonCollection Data Object - Campaign Management
 Defines a collection of asset groups that failed editorial review.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

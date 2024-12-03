@@ -11,6 +11,8 @@ description: Defines an object that contains the location, network, device, and 
 # KeywordLocation Data Object - Ad Insight
 Defines an object that contains the location, network, device, and the percentage of time that a user entered a search query.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

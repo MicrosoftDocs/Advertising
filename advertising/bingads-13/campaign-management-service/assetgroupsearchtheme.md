@@ -11,6 +11,8 @@ description: Defines an AssetGroupSearchTheme data object.
 # AssetGroupSearchTheme Data Object - Campaign Management
 Defines an AssetGroupSearchTheme data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

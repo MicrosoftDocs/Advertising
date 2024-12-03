@@ -11,6 +11,8 @@ description: Defines a collection of ad extensions that failed editorial review.
 # AdExtensionEditorialReasonCollection Data Object - Campaign Management
 Defines a collection of ad extensions that failed editorial review.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -16,6 +16,8 @@ For other conversion goal types you create a Universal Event Tracking (UET) tag,
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

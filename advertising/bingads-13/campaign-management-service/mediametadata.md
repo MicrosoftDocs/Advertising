@@ -11,6 +11,8 @@ description: Defines a media meta data object.
 # MediaMetaData Data Object - Campaign Management
 Defines a media meta data object. The meta data includes download Urls for one or more media representations.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

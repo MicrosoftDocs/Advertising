@@ -11,6 +11,8 @@ description: Criterion for the date selection type.
 # HotelDateSelectionTypeCriterion Data Object - Campaign Management
 Criterion for the date selection type.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

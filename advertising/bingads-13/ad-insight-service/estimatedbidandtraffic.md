@@ -14,6 +14,8 @@ Defines an object that contains estimates of clicks, average cost per click (CPC
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

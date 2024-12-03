@@ -11,6 +11,8 @@ description: Defines a Customer Billing Ad API fault detail object that operatio
 # AdApiFaultDetail Data Object - Customer Billing
 Defines a Customer Billing Ad API fault detail object that operations return when generic errors occur, such as an authentication error.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

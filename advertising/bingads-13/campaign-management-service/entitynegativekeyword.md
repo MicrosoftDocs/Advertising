@@ -11,6 +11,8 @@ description: Defines an object that contains a set of negative keywords that are
 # EntityNegativeKeyword Data Object - Campaign Management
 Defines an object that contains a set of negative keywords that are only associated with the corresponding entity such as a campaign or ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

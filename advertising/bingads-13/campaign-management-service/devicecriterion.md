@@ -26,6 +26,8 @@ The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion
 > - For CPV, the bidding adjustment for PC/Mobile/tablet is set to -100, and for CTV to 0.
 >
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

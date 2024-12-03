@@ -11,6 +11,8 @@ description: Defines a negative keyword list that is associated with an account.
 # AccountNegativeKeywordList Data Object - Campaign Management
 Defines a negative keyword list that is associated with an account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -26,7 +28,19 @@ Defines a negative keyword list that is associated with an account.
 # [JSON](#tab/json)
 
 ```json
-{}
+{
+  "ItemCount": IntValueHere,
+  "AssociationCount": IntValueHere,
+  "ForwardCompatibilityMap": [
+    {
+      "key": "ValueHere",
+      "value": "ValueHere"
+    }
+  ],
+  "Id": "LongValueHere",
+  "Name": "ValueHere",
+  "Type": "AccountNegativeKeywordList"
+}
 ```
 
 -----

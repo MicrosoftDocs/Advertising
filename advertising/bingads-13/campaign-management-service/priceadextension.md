@@ -13,6 +13,8 @@ Defines an ad extension that includes between 3 and 8 price table rows.
 
 You can associate a price ad extension with the account or with campaigns and ad groups in the account. Each entity (account, campaign, or ad group) can be associated with up to 20 price ad extensions.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

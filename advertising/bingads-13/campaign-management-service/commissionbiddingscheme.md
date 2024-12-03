@@ -11,6 +11,8 @@ description: Defines an object that represents the commission bid strategy type 
 # CommissionBiddingScheme Data Object - Campaign Management
 Defines an object that represents the commission bid strategy type (commission pay per stay).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

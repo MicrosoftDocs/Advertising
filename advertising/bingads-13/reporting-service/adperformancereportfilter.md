@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the ad performance report req
 # AdPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad performance report request data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

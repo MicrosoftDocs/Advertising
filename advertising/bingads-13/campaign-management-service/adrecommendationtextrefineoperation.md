@@ -6,10 +6,12 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a data object for ad recommendation text refine operation.
+description: Reserved.
 ---
 # AdRecommendationTextRefineOperation Data Object - Campaign Management
-Defines a data object for ad recommendation text refine operation.
+Reserved.
+
+## Syntax
 
 # [XML](#tab/xml)
 

@@ -13,6 +13,8 @@ The competition search parameter filter that you can include when requesting key
 
 If you do not include the competition search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all competition levels.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,6 +33,7 @@ If you do not include the competition search parameter when calling [GetKeywordI
 
 ```json
 {
+  "Type": "CompetitionSearchParameter",
   "CompetitionLevels": [
     "ValueHere"
   ]

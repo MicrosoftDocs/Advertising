@@ -11,6 +11,8 @@ description: Defines the DynamicFeedSetting Data Object.
 # DynamicFeedSetting Data Object - Campaign Management
 Defines the DynamicFeedSetting Data Object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

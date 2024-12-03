@@ -11,6 +11,8 @@ description: The device criterion that you can include when requesting keyword i
 # DeviceCriterion Data Object - Ad Insight
 The device criterion that you can include when requesting keyword ideas or traffic estimates.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -29,6 +31,7 @@ The device criterion that you can include when requesting keyword ideas or traff
 
 ```json
 {
+  "Type": "DeviceCriterion",
   "DeviceName": "ValueHere"
 }
 ```

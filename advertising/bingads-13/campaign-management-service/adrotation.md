@@ -11,6 +11,8 @@ description: Defines an object that specifies the type of ad rotation to apply t
 # AdRotation Data Object - Campaign Management
 Defines an object that specifies the type of ad rotation to apply to the ad group.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

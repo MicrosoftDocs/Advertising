@@ -11,6 +11,8 @@ description: Defines an Ad Insight batch error object that identifies the item w
 # BatchError Data Object - Ad Insight
 Defines an Ad Insight batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

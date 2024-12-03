@@ -14,6 +14,8 @@ Defines an object that contains the estimated search results position and estima
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -13,6 +13,8 @@ The idea text search parameter filter that you can include when requesting keywo
 
 Use these options to refine what keywords are returned when calling [GetKeywordIdeas](getkeywordideas.md). You can limit the keyword ideas to include or exclude specific keywords. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -32,6 +34,7 @@ Use these options to refine what keywords are returned when calling [GetKeywordI
 
 ```json
 {
+  "Type": "IdeaTextSearchParameter",
   "Excluded": [
     {
       "Id": "LongValueHere",

@@ -14,6 +14,8 @@ A text asset with a unique Microsoft Advertising identifier that can be reused a
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry. It's coming soon. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

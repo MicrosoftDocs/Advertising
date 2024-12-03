@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the campaign change history r
 # SearchCampaignChangeHistoryReportFilter Data Object - Reporting
 Defines the criteria to use to filter the campaign change history report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

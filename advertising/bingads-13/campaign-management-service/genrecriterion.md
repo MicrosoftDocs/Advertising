@@ -93,6 +93,8 @@ These are the possible values for *GenreId*:
 |Anime|80|
 |Soap-Opera|81|
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

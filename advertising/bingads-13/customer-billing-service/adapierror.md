@@ -11,6 +11,8 @@ description: Defines a Customer Billing Ad API error object that contains the de
 # AdApiError Data Object - Customer Billing
 Defines a Customer Billing Ad API error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

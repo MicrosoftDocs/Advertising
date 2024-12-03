@@ -25,6 +25,8 @@ Most elements of this object can only be set before the insertion order becomes 
 > 
 > To manage recurring insertion orders in the Microsoft Advertising web application, see the [How do I create and edit an insertion order?](https://help.ads.microsoft.com/#apex/3/en/52094/0) help article.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

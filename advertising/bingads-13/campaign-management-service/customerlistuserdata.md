@@ -11,6 +11,8 @@ description: Defines a CustomerListUserData data object.
 # CustomerListUserData Data Object - Campaign Management
 Defines a CustomerListUserData data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

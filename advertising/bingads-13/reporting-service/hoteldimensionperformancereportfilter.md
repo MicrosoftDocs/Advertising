@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the hotel dimension performan
 # HotelDimensionPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the hotel dimension performance report data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

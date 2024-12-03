@@ -11,6 +11,8 @@ description: Defines an object that you can use to determine the component of an
 # EditorialReason Data Object - Campaign Management
 Defines an object that you can use to determine the component of an ad or keyword that failed editorial review, and the reason for the failure.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -13,6 +13,8 @@ Defines an ad extension that specifies an image with alternative text to include
 
 You can associate an image ad extension with the account or with campaigns and ad groups in the account. For each account, only 1,000 campaigns and 1,000 ad groups can be associated with image ad extensions. Each entity (account, campaign, or ad group) can be associated with up to 6 image ad extensions.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

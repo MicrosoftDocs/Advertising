@@ -11,6 +11,8 @@ description: Defines a RangeResultOfDouble data object.
 # RangeResultOfdouble Data Object - Ad Insight
 Defines a RangeResultOfDouble data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

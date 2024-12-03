@@ -23,6 +23,8 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
 > [!NOTE]
 > Responsive search ads can only be created in Search campaigns where the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchStandard". If the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchDynamic", then the ad group does not support responsive search ads.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

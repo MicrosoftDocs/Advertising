@@ -11,6 +11,8 @@ description: Defines a day of the week and time range for ad extension schedulin
 # DayTime Data Object - Campaign Management
 Defines a day of the week and time range for ad extension scheduling. 
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: The app setting data object.
 # AppSetting Data Object - Campaign Management
 The app setting data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

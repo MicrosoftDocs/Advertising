@@ -11,6 +11,8 @@ description: Criterion for a check-in date range.
 # HotelCheckInDateCriterion Data Object - Campaign Management
 Criterion for a check-in date range.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

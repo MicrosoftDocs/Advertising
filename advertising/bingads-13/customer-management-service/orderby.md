@@ -11,6 +11,8 @@ description: Defines an order for the list of entities returned using one of the
 # OrderBy Data Object - Customer Management
 Defines an order for the list of entities returned using one of the search operations, for example [SearchAccounts](searchaccounts.md), [SearchClientLinks](searchclientlinks.md), or [SearchCustomers](searchcustomers.md).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

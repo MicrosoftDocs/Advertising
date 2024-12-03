@@ -11,6 +11,8 @@ description: Represents a date.
 # Date Data Object - Campaign Management
 Represents a date.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

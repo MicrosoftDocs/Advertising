@@ -21,6 +21,8 @@ Dynamic search ads can only be created within search campaigns that have a [Dyna
 > [!NOTE]
 > You can no longer add, update, or retrieve campaigns that only support dynamic search ads. The campaign type of your existing campaigns has been updated from "DynamicSearchAds" to "Search". The ad groups are now considered "dynamic" ad groups, but there are no structural changes i.e., they contain the same auto targets and dynamic search ads as before.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

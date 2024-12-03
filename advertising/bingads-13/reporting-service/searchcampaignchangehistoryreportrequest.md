@@ -18,6 +18,8 @@ You can request a record of changes made by user and date. For example, you can 
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

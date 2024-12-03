@@ -11,6 +11,8 @@ description: Defines an object containing coupon claim information.
 # CouponClaimInfo Data Object - Customer Billing
 Defines an object containing coupon claim information.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

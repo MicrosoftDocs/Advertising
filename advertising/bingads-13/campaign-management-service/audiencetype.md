@@ -55,6 +55,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [Audience](audience.md)  
+[AudienceConditionItem](audienceconditionitem.md)  
 [AudienceCriterion](audiencecriterion.md)  
 [AudienceInfo](audienceinfo.md)  
 [GetAudiencesByIds](getaudiencesbyids.md)  

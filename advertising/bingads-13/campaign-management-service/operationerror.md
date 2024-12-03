@@ -11,6 +11,8 @@ description: Defines a Campaign Management operation error that contains the det
 # OperationError Data Object - Campaign Management
 Defines a Campaign Management operation error that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

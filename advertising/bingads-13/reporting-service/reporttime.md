@@ -11,6 +11,8 @@ description: Defines the date range values of a report request.
 # ReportTime Data Object - Reporting
 Defines the date range values of a report request.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -77,6 +79,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [CampaignPerformanceReportRequest](campaignperformancereportrequest.md)  
 [CategoryClickCoverageReportRequest](categoryclickcoveragereportrequest.md)  
 [CategoryInsightsReportRequest](categoryinsightsreportrequest.md)  
+[CombinationPerformanceReportRequest](combinationperformancereportrequest.md)  
 [ConversionPerformanceReportRequest](conversionperformancereportrequest.md)  
 [DestinationUrlPerformanceReportRequest](destinationurlperformancereportrequest.md)  
 [DSAAutoTargetPerformanceReportRequest](dsaautotargetperformancereportrequest.md)  

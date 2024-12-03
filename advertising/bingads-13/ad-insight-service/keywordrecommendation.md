@@ -11,6 +11,8 @@ description: Defines a KeywordRecommendation data object.
 # KeywordRecommendation Data Object - Ad Insight
 Defines a KeywordRecommendation data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -14,6 +14,8 @@ Defines an object that contains the suggested bid with estimated clicks and impr
 > [!NOTE]
 > The bid opportunity is an estimate based on the last 7 days of performance data, and not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

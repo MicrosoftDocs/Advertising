@@ -11,6 +11,8 @@ description: Defines a Reporting operation error object that contains the detail
 # OperationError Data Object - Reporting
 Defines a Reporting operation error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

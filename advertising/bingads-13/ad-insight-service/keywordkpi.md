@@ -11,6 +11,8 @@ description: Defines a key performance index object for a keyword.
 # KeywordKPI Data Object - Ad Insight
 Defines a key performance index object for a keyword. The object contains the historical performance statistics of the keyword for the corresponding match type, ad position, device, and network.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

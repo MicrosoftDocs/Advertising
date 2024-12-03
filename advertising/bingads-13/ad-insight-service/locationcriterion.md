@@ -11,6 +11,8 @@ description: The location criterion that you can include when requesting keyword
 # LocationCriterion Data Object - Ad Insight
 The location criterion that you can include when requesting keyword ideas or traffic estimates.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -29,6 +31,7 @@ The location criterion that you can include when requesting keyword ideas or tra
 
 ```json
 {
+  "Type": "LocationCriterion",
   "LocationId": "LongValueHere"
 }
 ```

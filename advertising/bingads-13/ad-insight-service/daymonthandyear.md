@@ -11,6 +11,8 @@ description: Defines an object that you use to specify the start and end dates o
 # DayMonthAndYear Data Object - Ad Insight
 Defines an object that you use to specify the start and end dates of a date range.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

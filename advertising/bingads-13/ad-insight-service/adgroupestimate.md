@@ -14,6 +14,8 @@ Contains a list of suggested keywords for the ad group with minimum and maximum 
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

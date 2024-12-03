@@ -13,6 +13,8 @@ The suggested bid search parameter filter that you can include when requesting k
 
 If you do not include the suggested bid search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned regardless of suggested bid.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -32,6 +34,7 @@ If you do not include the suggested bid search parameter when calling [GetKeywor
 
 ```json
 {
+  "Type": "SuggestedBidSearchParameter",
   "Maximum": DoubleValueHere,
   "Minimum": DoubleValueHere
 }

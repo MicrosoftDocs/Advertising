@@ -11,6 +11,8 @@ description: Contains a keyword estimators with your keyword level filter criter
 # KeywordEstimator Data Object - Ad Insight
 Contains a keyword estimators with your keyword level filter criteria for traffic estimates.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

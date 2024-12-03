@@ -22,6 +22,8 @@ As shown above, a keyword can be just a single word, several words, or even a ph
 > [!IMPORTANT]
 > As of April 2021, you cannot set any bid strategies for ad groups or keywords. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

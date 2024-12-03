@@ -19,6 +19,8 @@ Supported shopping settings vary by campaign type.
 - Search campaigns with multimedia ads only support the [StoreId](#storeid) element and the [SalesCountryCode](#salescountrycode) element. (Note: Not everyone has this feature yet. If you don't, don't worry - it's coming soon!)
 - Performance Max campaigns can have a shopping setting if they are associated to a store.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

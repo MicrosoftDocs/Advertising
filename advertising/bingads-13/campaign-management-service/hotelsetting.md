@@ -13,6 +13,8 @@ Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price
 
 If *HotelSetting* is not specified, ad group will target its hotel for both HPA and PPA ads
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

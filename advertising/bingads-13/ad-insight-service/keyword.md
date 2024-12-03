@@ -11,6 +11,8 @@ description: Defines a keyword with match type.
 # Keyword Data Object - Ad Insight
 Defines a keyword with match type.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines the criteria to use to filter the ad extension detail repor
 # AdExtensionDetailReportFilter Data Object - Reporting
 Defines the criteria to use to filter the ad extension detail report.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

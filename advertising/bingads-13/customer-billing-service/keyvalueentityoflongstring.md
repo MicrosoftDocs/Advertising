@@ -11,6 +11,8 @@ description: Defines a KeyValueEntityOflongstring data object.
 # KeyValueEntityOflongstring Data Object - Customer Billing
 Defines a KeyValueEntityOflongstring data object.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

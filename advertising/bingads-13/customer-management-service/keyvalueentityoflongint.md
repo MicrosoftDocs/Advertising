@@ -11,6 +11,8 @@ description: The key and value entity of long and int values.
 # KeyValueEntityOflongint Data Object - Customer Management
 The key and value entity of long and int values.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

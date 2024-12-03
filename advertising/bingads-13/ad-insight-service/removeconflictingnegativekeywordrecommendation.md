@@ -11,6 +11,8 @@ description: Defines a data object for RemoveConflictingNegativeKeywordRecommend
 # RemoveConflictingNegativeKeywordRecommendation Data Object - Ad Insight
 Defines a data object for RemoveConflictingNegativeKeywordRecommendation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

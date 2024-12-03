@@ -15,6 +15,8 @@ The *AgeCriterion* criterion can be included within [BiddableAdGroupCriterion](b
 
 [!INCLUDE[targeting-demographics](./includes/targeting-demographics.md)]
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

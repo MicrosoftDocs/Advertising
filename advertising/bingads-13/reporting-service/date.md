@@ -11,6 +11,8 @@ description: Defines a calendar date by month, day, and year.
 # Date Data Object - Reporting
 Defines a calendar date by month, day, and year.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

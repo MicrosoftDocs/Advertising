@@ -17,6 +17,8 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
 
 [!INCLUDE[performance-max-columns](./includes/performance-max-columns.md)]
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

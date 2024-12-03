@@ -21,6 +21,8 @@ In other words the visitor will be added to your remarketing list if any of the 
 
 For a detailed example, see the [Remarks](#remarks) section below.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

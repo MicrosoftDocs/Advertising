@@ -15,6 +15,8 @@ You can request impressions, clicks, click-through rate, and average position fo
 
 To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

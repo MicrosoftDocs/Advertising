@@ -13,6 +13,8 @@ The device search parameter filter that you can include when requesting keyword 
 
 If you do not include the device search parameter when calling [GetKeywordIdeas](getkeywordideas.md), then keyword ideas will be returned for all devices.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -31,6 +33,7 @@ If you do not include the device search parameter when calling [GetKeywordIdeas]
 
 ```json
 {
+  "Type": "DeviceSearchParameter",
   "Device": {
     "DeviceName": "ValueHere"
   }

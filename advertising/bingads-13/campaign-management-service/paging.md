@@ -11,6 +11,8 @@ description: Defines a paging object to request Campaign Management objects in b
 # Paging Data Object - Campaign Management
 Defines a paging object to request Campaign Management objects in batches.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

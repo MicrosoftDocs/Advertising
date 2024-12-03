@@ -11,6 +11,8 @@ description: Defines a data object for a summary of the offline conversion repor
 # DailySummary Data Object - Campaign Management
 Defines a data object for a summary of the offline conversion reports for the day.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

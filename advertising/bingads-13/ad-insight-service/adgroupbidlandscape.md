@@ -14,6 +14,8 @@ Defines an object that contains a list of estimated clicks, cost, and impression
 > [!NOTE]
 > The estimates are not a prediction or guarantee of future performance.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

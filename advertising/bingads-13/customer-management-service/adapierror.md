@@ -11,6 +11,8 @@ description: Defines a Customer Management Ad API error object that contains the
 # AdApiError Data Object - Customer Management
 Defines a Customer Management Ad API error object that contains the details that explain why the service operation failed.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

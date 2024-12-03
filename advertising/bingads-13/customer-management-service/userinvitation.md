@@ -20,6 +20,8 @@ You can search for pending invitations by [invitation ID](senduserinvitation.md#
 
 After the invitation has been accepted, you can call [GetUsersInfo](getusersinfo.md) and [GetUser](getuser.md) to access the Microsoft Advertising user details. However, since a recipient can accept the invitation and sign up with credentials that differ from the invitation email address, you cannot determine with certainty the mapping from a [UserInvitation](userinvitation.md) to a [User](user.md) or [UserInfo](userinfo.md) object. With the user ID returned by [GetUsersInfo](getusersinfo.md) or [GetUser](getuser.md), you can call [DeleteUser](deleteuser.md) to remove the user as needed. The Bing Ads API does not support any operations to delete pending user invitations. After you invite a user, the only way to cancel the invitation is through the Microsoft Advertising web application. You can find both pending and accepted invitations in the **Users** section of **Accounts & Billing**.  
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

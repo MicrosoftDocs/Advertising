@@ -11,6 +11,8 @@ description: Defines a postal address for location ad extensions.
 # Address Data Object - Campaign Management
 Defines a postal address for location ad extensions.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

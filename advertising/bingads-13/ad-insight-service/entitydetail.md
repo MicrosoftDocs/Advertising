@@ -11,6 +11,8 @@ description: Defines an object that provides detail information for an entity fo
 # EntityDetail Data Object - Ad Insight
 Defines an object that provides detail information for an entity for performance insights.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

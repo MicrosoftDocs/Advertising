@@ -11,6 +11,8 @@ description: Defines a Customer Billing API batch fault object that operations r
 # ApiBatchFault Data Object - Customer Billing
 Defines a Customer Billing API batch fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

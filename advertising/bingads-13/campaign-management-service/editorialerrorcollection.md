@@ -11,6 +11,8 @@ description: Defines a nested list of error object that identifies one of potent
 # EditorialErrorCollection Data Object - Campaign Management
 Defines a nested list of error object that identifies one of potentially many reasons why an entity failed editorial review.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

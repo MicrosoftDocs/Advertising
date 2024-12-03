@@ -11,6 +11,8 @@ description: Defines an object that describes the suggested responsive search ad
 # SuggestedResponsiveSearchAd Data Object - Ad Insight
 Defines an object that describes the suggested responsive search ads.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

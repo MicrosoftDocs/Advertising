@@ -11,6 +11,8 @@ description: Defines a predicate for the list of insertion orders returned using
 # Predicate Data Object - Customer Billing
 Defines a predicate for the list of insertion orders returned using one of the search operations, for example [SearchCoupons](searchcoupons.md) or [SearchInsertionOrders](searchinsertionorders.md).
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

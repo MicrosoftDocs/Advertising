@@ -11,6 +11,8 @@ description: Defines an advertiser account.
 # AdvertiserAccount Data Object - Customer Management
 Defines an advertiser account.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines a data object for which campaigns to associate to data excl
 # CampaignAssociation Data Object - Campaign Management
 Defines a data object for which campaigns to associate to data exclusions and seasonality adjustments.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

@@ -11,6 +11,8 @@ description: Defines an object that contains a suggested keyword with historical
 # KeywordIdea Data Object - Ad Insight
 Defines an object that contains a suggested keyword with historical statistics, like monthly search volume, competition, suggested minimum bid, and ad impression share.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

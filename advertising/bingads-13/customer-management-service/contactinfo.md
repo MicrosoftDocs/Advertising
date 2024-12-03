@@ -11,6 +11,8 @@ description: Defines the contact information for a user.
 # ContactInfo Data Object - Customer Management
 Defines the contact information for a user.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

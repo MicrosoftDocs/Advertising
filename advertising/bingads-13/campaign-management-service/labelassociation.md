@@ -11,6 +11,8 @@ description: Defines the relationship between a label and campaign, ad group, ad
 # LabelAssociation Data Object - Campaign Management
 Defines the relationship between a label and campaign, ad group, ad, or keyword entity.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

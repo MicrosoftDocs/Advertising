@@ -11,6 +11,8 @@ description: Defines an object that identifies an ad extension revision.
 # AdExtensionIdentity Data Object - Campaign Management
 Defines an object that identifies an ad extension revision.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

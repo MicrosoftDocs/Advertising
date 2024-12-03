@@ -11,6 +11,8 @@ description: The query search parameter that you can use as a seed for new keywo
 # QuerySearchParameter Data Object - Ad Insight
 The query search parameter that you can use as a seed for new keyword ideas.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
@@ -29,6 +31,7 @@ The query search parameter that you can use as a seed for new keyword ideas.
 
 ```json
 {
+  "Type": "QuerySearchParameter",
   "Queries": [
     "ValueHere"
   ]

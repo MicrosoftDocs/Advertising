@@ -11,6 +11,8 @@ description: Defines an Ad Insight API fault detail object that operations retur
 # ApiFaultDetail Data Object - Ad Insight
 Defines an Ad Insight API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml

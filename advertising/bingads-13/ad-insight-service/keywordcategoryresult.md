@@ -11,6 +11,8 @@ description: Defines an object that contains the keyword and a list of keyword c
 # KeywordCategoryResult Data Object - Ad Insight
 Defines an object that contains the keyword and a list of keyword categories that the keyword might belong to.
 
+## Syntax
+
 # [XML](#tab/xml)
 
 ```xml
