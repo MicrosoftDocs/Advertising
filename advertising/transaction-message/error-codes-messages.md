@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 
 # Error codes and messages
 
-When you send Bing your Price feed (formerly Transaction message) to process, Bing may return one of the following HTTP status codes:
+When you send Bing your Price feed to process, Bing may return one of the following HTTP status codes:
 
 |Status Code|Description
 |-|-

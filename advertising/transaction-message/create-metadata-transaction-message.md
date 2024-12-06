@@ -1,5 +1,5 @@
 ---
-title: "Creating a metadata Price feed (formerly Transaction message)"
+title: "Creating a metadata Price feed"
 description: Shows how to create a metadata Price feed that describes room and package data used to create room bundles.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Create a metadata Price feed (formerly Transaction message)
+# Create a metadata Price feed
 
 If you use room bundles, typically you create a Price feed that contains only room and package data. Using a separate message for the metadata is better than including it in the same message with itinerary data since it doesn't change as often as the itinerary data, and it frees up space for the itinerary data.
 

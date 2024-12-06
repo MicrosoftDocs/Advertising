@@ -1,5 +1,5 @@
 ---
-title: "Creating a Property feed (formerly Hotel feed)"
+title: "Creating a Property feed"
 description: Shows how to create an XML property feed file that lists the hotel properties you want to advertise.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Create an XML Property feed (formerly Hotel feed) file
+# Create an XML Property feed file
 
 [!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
 

@@ -22,7 +22,7 @@
     href: ../hint-message/reference.md
   - name: Hint message schema
     href: ../hint-message/schema.md
-- name: Price feed (formerly Transaction message)
+- name: Price feed
   href: ../transaction-message/transaction-message.md
   items:
   - name: Get started
@@ -47,7 +47,7 @@
     href: ../transaction-message/google-bing-transaction-message-differences.md
   - name: Price feed schemas
     href: ../transaction-message/schemas.md
-- name: Property feed (formerly Hotel feed)
+- name: Property feed
   href: ../hotel-feed/hotel-feed.md
   items:
   - name: Create a CSV Property feed
@@ -58,12 +58,12 @@
     href: ../hotel-feed/validate-hotel-feed.md
   - name: Property feed reference
     href: ../hotel-feed/reference.md
-- name: Landing pages feed (formerly Points of sale (POS) feed)
+- name: Landing pages feed
   href: ../pos-feed/pos-feed.md
   items:
-  - name: Create a Landing pages feed (formerly Points of sale (POS) feed)
+  - name: Create a Landing pages feed
     href: ../pos-feed/create-pos-feed.md
-  - name: Validate your Landing pages feed (formerly Points of sale (POS) feed)
+  - name: Validate your Landing pages feed
     href: ../pos-feed/validate-pos-feed.md
-  - name: Landing pages (formerly Points of sale (POS)) reference
+  - name: Landing pages reference
     href: ../pos-feed/reference.md

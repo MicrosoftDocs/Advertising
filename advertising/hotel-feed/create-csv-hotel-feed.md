@@ -1,5 +1,5 @@
 ---
-title: "Create CSV Property feed (formerly Hotel feed)"
+title: "Create CSV Property feed"
 description: Shows how to create a CSV property feed file that lists the hotel properties you want to advertise.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 ---
 
 
-# Create a CSV Property feed (formerly Hotel feed) file
+# Create a CSV Property feed file
 
 To provide Microsoft your hotel listings, create a CSV file that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, and geographical coordinates.
 

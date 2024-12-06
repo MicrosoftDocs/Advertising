@@ -1,5 +1,5 @@
 ---
-title: "Get Started with Price feeds (formerly Transaction messages)"
+title: "Get Started with Price feeds"
 description: Quick start guide to getting started with Price feeds.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Get started with Price feeds (formerly Transaction messages)
+# Get started with Price feeds
 
 If you create hotel ad campaigns in Microsoft Advertising, use Price feeds to update your itinerary data (pricing and availability). 
 
