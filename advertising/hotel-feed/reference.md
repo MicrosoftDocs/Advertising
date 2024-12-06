@@ -1,5 +1,5 @@
 ---
-title: "Property feed (formerly Hotel feed) reference"
+title: "Property feed reference"
 description: Describes the schema used to create a property feed file.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Property feed (formerly Hotel feed) reference
+# Property feed reference
 
 If you create hotel price ads in Bing, you must use a Property feed to provide Bing information about the hotels that you advertise. You must define and import your property feed prior to sending Bing [Price feeds](../transaction-message/transaction-message.md). 
 

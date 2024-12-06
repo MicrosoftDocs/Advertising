@@ -1,5 +1,5 @@
 ---
-title: "Creating a Price feed (formerly Transaction message)"
+title: "Creating a Price feed"
 description: Shows how to create a Price feed that describes your hotels' itineraries.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Create a Price feed (formerly Transaction message)
+# Create a Price feed
 To provide Bing your hotel pricing and availability data, create an XML document that contains a Price feed. The Price feed contains a list of check-in dates, lengths of stay, and pricing. 
 
 Price feeds may contain up to 180 days of advanced booking, and each booking may specify up to a 14 nights stay. A check-in date and length of stay is referred to as an itinerary. If you specify the maximum number of itineraries, the message would contain 2,520 itineraries.

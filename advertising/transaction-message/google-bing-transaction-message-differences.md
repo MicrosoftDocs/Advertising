@@ -1,5 +1,5 @@
 ---
-title: "Differences Between Google&#39;s and Bing&#39;s Price feed (formerly Transaction message) Usage"
+title: "Differences Between Google&#39;s and Bing&#39;s Price feed Usage"
 description: Lists the difference in usage between Bing's and Google's price feed.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Differences between Google's and Bing's Price feed (formerly Transaction message)
+# Differences between Google's and Bing's Price feed Usage
 
 The following are the differences between Google's Price feed implementation and Bing's.
 

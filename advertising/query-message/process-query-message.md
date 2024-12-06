@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 
 # Process a Query message
 
-If you sign up for pull requests or pull with hints requests, Microsoft sends you a [Query](../query-message/query-message.md) message that specifies the itinerary data that you need to send in your next [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md).
+If you sign up for pull requests or pull with hints requests, Microsoft sends you a [Query](../query-message/query-message.md) message that specifies the itinerary data that you need to send in your next [Price feed](../transaction-message/transaction-message.md).
 
 ## Using pull requests
 
@@ -32,7 +32,7 @@ If you use pull requests, Microsoft could send you a request that's similar to t
 
 Depending on the number of hotels you have, Microsoft may break the query up into several smaller queries with each query containing a subset of the hotels in the property list.
 
-When you get the Query message, your response should contain a [Price feed (formerly Transaction message)](../transaction-message/transaction-message.md) with the following \<Result\>.
+When you get the Query message, your response should contain a [Price feed](../transaction-message/transaction-message.md) with the following \<Result\>.
 
 ```xml
   <Result>

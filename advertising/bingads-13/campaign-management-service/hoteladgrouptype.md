@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The ad group type for Lodging campaigns (formerly Hotel campaigns).
+description: The ad group type for Lodging campaigns.
 ---
 # HotelAdGroupType Value Set - Campaign Management
-The ad group type for Lodging campaigns (formerly Hotel campaigns).
+The ad group type for Lodging campaigns.
 
 ## Syntax
 ```xml
