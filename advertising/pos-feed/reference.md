@@ -1,5 +1,5 @@
 ---
-title: "Landing pages (formerly Points of sale (POS)) reference"
+title: "Landing pages reference"
 description: Describes the schema used to create a landing pages feed file.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Landing pages (formerly Points of sale (POS)) reference
+# Landing pages reference
 
 If you create hotel price ads in Bing, you must use a Landing pages feed to provide Bing the point of sale URLs to include in ads. You must define and import your Landing pages feed prior to sending Bing [Price feeds](../transaction-message/transaction-message.md). 
 

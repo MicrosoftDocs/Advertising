@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 
 # Price feed schemas
 
-The Transaction XSD (transaction.xsd) defines the schema for Bing Hotel's price feed. The schema defines the objects that you use to specify itineraries. For information about the objects and elements that Bing uses, see [Price feed (formerly Transaction message) reference](../transaction-message/reference.md).
+The Transaction XSD (transaction.xsd) defines the schema for Bing Hotel's price feed. The schema defines the objects that you use to specify itineraries. For information about the objects and elements that Bing uses, see [Price feed reference](../transaction-message/reference.md).
 
 The following are the XSDs that define the Price feed schema.
 

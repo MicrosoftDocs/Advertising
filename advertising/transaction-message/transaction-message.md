@@ -1,5 +1,5 @@
 ---
-title: "Price feed (formerly Transaction message)"
+title: "Price feed"
 description: Landing page for price feed
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Price feed (formerly Transaction message)
+# Price feed
 
 > [!IMPORTANT]
 > Before creating Price feeds, you must first create your [hotel](../hotel-feed/hotel-feed.md) and [point of sale](../pos-feed/pos-feed.md) feeds.

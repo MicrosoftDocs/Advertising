@@ -1,5 +1,5 @@
 ---
-title: "Creating a Landing pages feed (formerly Points of sale (POS) feed)"
+title: "Creating a Landing pages feed"
 description: Shows how to create a Landing pages feed file that contains a list of booking sites.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Create a Landing pages feed (formerly Points of Sale (POS) feed)
+# Create a Landing pages feed
 
 To provide Bing your Landing pages data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
 
@@ -283,6 +283,6 @@ After creating your feed file, use the [PointsOfSale XSD](https://bhacstatic.blo
 
 Ask your account manager to import the feed file.
 
-Be sure to also import your hotel data. For information about creating your property feed file, see [Property Feed (formerly Hotel feed)](../hotel-feed/hotel-feed.md).
+Be sure to also import your hotel data. For information about creating your property feed file, see [Property Feed](../hotel-feed/hotel-feed.md).
 
 After successfully importing your Landing pages feed and property feed, you may begin sending your hotel pricing and availability data. For information, see [Price feeds](../transaction-message/transaction-message.md). 

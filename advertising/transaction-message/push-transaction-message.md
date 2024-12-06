@@ -1,5 +1,5 @@
 ---
-title: "Sending Microsoft Price feeds (formerly Transaction messages)"
+title: "Sending Microsoft Price feeds"
 description: Provides the details for sending price feeds to Microsoft Advertising.
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Pushing Price feeds (formerly Transaction messages) to Microsoft Advertising
+# Pushing Price feeds to Microsoft Advertising
 
 Before sending a price feed:
 

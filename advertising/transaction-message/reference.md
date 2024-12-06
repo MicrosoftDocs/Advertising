@@ -1,5 +1,5 @@
 ---
-title: "Price feed (formerly Transaction message) reference"
+title: "Price feed reference"
 description: Describes the schema that defines a price feed. 
 ms.service: "bing-ads-hotel-service"
 ms.topic: "article"
@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Price feed (formerly Transaction message) reference
+# Price feed reference
 
 If you create hotel price ads in Bing, use price feeds to provide Bing your itinerary data. This section describes the elements of a price feeddefined by the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
 
