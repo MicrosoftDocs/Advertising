@@ -2405,8 +2405,8 @@
       href: ../customer-management-service/findaccountsorcustomersinfo.md
     - name: GetAccount
       href: ../customer-management-service/getaccount.md
-    - name: GetAccountPilotFeatures
-      href: ../customer-management-service/getaccountpilotfeatures.md
+    #- name: GetAccountPilotFeatures
+    #  href: ../customer-management-service/getaccountpilotfeatures.md
     - name: GetAccountsInfo
       href: ../customer-management-service/getaccountsinfo.md
     - name: GetCustomer
