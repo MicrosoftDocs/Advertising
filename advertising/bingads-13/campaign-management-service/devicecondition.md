@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines a condition to use conversion value rules for specified devices.
 ---
 # DeviceCondition Data Object - Campaign Management
-Reserved.
+Defines a condition to use conversion value rules for specified devices.
 
 ## Syntax
 
@@ -41,8 +41,8 @@ The [DeviceCondition](devicecondition.md) object has the following elements: [De
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="devicetypes"></a>DeviceTypes|Reserved.|[DeviceType](devicetype.md)|
-|<a name="isprimary"></a>IsPrimary|Reserved.|**boolean**|
+|<a name="devicetypes"></a>DeviceTypes|The device types included in the condition.|[DeviceType](devicetype.md)|
+|<a name="isprimary"></a>IsPrimary|Indicates if this is the primary condition. Only 1 primary condition is allowed in a conversion value rule.|**boolean**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

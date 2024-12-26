@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The device type for data exclusions and seasonality adjustments.
+description: Defines the device type value set.
 ---
 # DeviceType Value Set - Campaign Management
-The device type for data exclusions and seasonality adjustments.
+Defines the device type value set.
 
 ## Syntax
 ```xml
