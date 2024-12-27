@@ -828,6 +828,9 @@
     - name: Ad Group Negative Similar Remarketing List Association
       href: ../bulk-service/ad-group-negative-similar-remarketing-list-association.md
       displayName: BulkAdGroupNegativeSimilarRemarketingListAssociation
+    - name: Ad Group Placement Criterion
+      href: ../bulk-service/ad-group-placement-criterion.md
+      displayName: BulkAdGroupNegativeSimilarRemarketingListAssociation
     - name: Ad Group Price Ad Extension
       href: ../bulk-service/ad-group-price-ad-extension.md
       displayName: BulkAdGroupPriceAdExtension
