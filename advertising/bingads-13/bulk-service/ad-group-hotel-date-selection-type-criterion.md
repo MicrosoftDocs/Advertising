@@ -106,9 +106,9 @@ The name of the ad group where this criterion is applied or removed.
 **Delete:** Read-only  
 
 ## <a name="bidadjustment"></a>Bid Adjustment
-The percentage amount that you want to adjust the bid for the corresponding *Target*. 
+The percentage amount that you want to adjust the bid for the corresponding *Target*.  
 
-Supported values are negative ninety (-90) through positive nine hundred (900). 
+Supported values are negative fifty (-50) through positive one hundred (100).  
 
 **Add:** Optional. The bid adjustment will be set to the default of *0* if not included.  
 **Update:** Required  
