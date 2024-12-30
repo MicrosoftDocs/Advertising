@@ -15,6 +15,7 @@ The Campaign Management service defines the following data objects.
 |---|---|
 |[AccountMigrationStatusesInfo](accountmigrationstatusesinfo.md)|Defines an object that contains migration status for an account.|
 |[AccountNegativeKeywordList](accountnegativekeywordlist.md)|Defines a negative keyword list that is associated with an account.|
+|[AccountPlacementExclusionList](accountplacementexclusionlist.md)|Defines a data object for account placement exclusion list.|
 |[AccountProperty](accountproperty.md)|Maps an account level property name to a string value.|
 |[ActionAdExtension](actionadextension.md)|Defines an action ad extension with a call-to-action button.|
 |[Ad](ad.md)|Defines the base object of an ad.|

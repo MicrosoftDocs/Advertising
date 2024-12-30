@@ -68,6 +68,7 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
+[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)  
 [AssetGroup](assetgroup.md)  
 [ImageAdExtension](imageadextension.md)  
 [ResponsiveAd](responsivead.md)  
