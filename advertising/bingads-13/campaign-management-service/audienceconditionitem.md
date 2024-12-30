@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines an audience condition item data object.
 ---
 # AudienceConditionItem Data Object - Campaign Management
-Reserved.
+Defines an audience condition item data object.
 
 ## Syntax
 
@@ -43,9 +43,9 @@ The [AudienceConditionItem](audienceconditionitem.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="name"></a>Name|Reserved.|**string**|
-|<a name="type"></a>Type|Reserved.|[AudienceType](audiencetype.md)|
+|<a name="id"></a>Id|The unique identifier of the audience condition item. Required.|**long**|
+|<a name="name"></a>Name|The name of the audience condition item.|**string**|
+|<a name="type"></a>Type|The type of the audience condition item.|[AudienceType](audiencetype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

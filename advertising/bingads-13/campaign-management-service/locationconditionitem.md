@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines a location condition item data object.
 ---
 # LocationConditionItem Data Object - Campaign Management
-Reserved.
+Defines a location condition item data object.
 
 ## Syntax
 
@@ -43,9 +43,9 @@ The [LocationConditionItem](locationconditionitem.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**int**|
-|<a name="name"></a>Name|Reserved.|**string**|
-|<a name="type"></a>Type|Reserved.|[LocationType](locationtype.md)|
+|<a name="id"></a>Id|The unique identifier of the location condition item. Required.|**int**|
+|<a name="name"></a>Name|The name of the location condition item.|**string**|
+|<a name="type"></a>Type|The type of the location condition item.|[LocationType](locationtype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

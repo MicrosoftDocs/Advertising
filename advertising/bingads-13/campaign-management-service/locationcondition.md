@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines a condition to use conversion value rules in a specific location.
 ---
 # LocationCondition Data Object - Campaign Management
-Reserved.
+Defines a condition to use conversion value rules in a specific location.
 
 ## Syntax
 
@@ -59,11 +59,11 @@ The [LocationCondition](locationcondition.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="excludedlocationintent"></a>ExcludedLocationIntent|Reserved.|[IntentOption](intentoption.md)|
-|<a name="excludedlocations"></a>ExcludedLocations|Reserved.|[LocationConditionItem](locationconditionitem.md) array|
-|<a name="includedlocationintent"></a>IncludedLocationIntent|Reserved.|[IntentOption](intentoption.md)|
-|<a name="includedlocations"></a>IncludedLocations|Reserved.|[LocationConditionItem](locationconditionitem.md) array|
-|<a name="isprimary"></a>IsPrimary|Reserved.|**boolean**|
+|<a name="excludedlocationintent"></a>ExcludedLocationIntent|The intent option for excluded locations.|[IntentOption](intentoption.md)|
+|<a name="excludedlocations"></a>ExcludedLocations|The locations excluded from the condition.|[LocationConditionItem](locationconditionitem.md) array|
+|<a name="includedlocationintent"></a>IncludedLocationIntent|The intent option for included locations.|[IntentOption](intentoption.md)|
+|<a name="includedlocations"></a>IncludedLocations|The locations included in the condition.|[LocationConditionItem](locationconditionitem.md) array|
+|<a name="isprimary"></a>IsPrimary|Indicates if this is the primary condition. Only 1 primary condition is allowed in a conversion value rule.|**boolean**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

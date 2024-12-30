@@ -494,7 +494,7 @@ The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabica
 |<a name="chinesechina"></a>ChineseChina|Chinese (China)|
 |<a name="chinesehongkong"></a>ChineseHongKong|Chinese (Hong Kong SAR)|
 |<a name="chinesetaiwan"></a>ChineseTaiwan|Chinese (Taiwan)|
-|<a name="czechrepubliccz"></a>CzechRepublicCZ|Reserved.|
+|<a name="czechrepubliccz"></a>CzechRepublicCZ|Czech (Czech Republic)|
 |<a name="danishdenmark"></a>DanishDenmark|Danish (Denmark)|
 |<a name="dutchnetherlands"></a>DutchNetherlands|Dutch (Netherlands)|
 |<a name="englishaustralia"></a>EnglishAustralia|English (Australia)|
@@ -517,18 +517,18 @@ The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabica
 |<a name="germanaustria"></a>GermanAustria|German (Austria)|
 |<a name="germangermany"></a>GermanGermany|German (Germany)|
 |<a name="germanswitzerland"></a>GermanSwitzerland|German (Switzerland)|
-|<a name="greekgreece"></a>GreekGreece|Reserved.|
+|<a name="greekgreece"></a>GreekGreece|Greek (Greece)|
 |<a name="hebrewisrael"></a>HebrewIsrael|Hebrew (Israel)|
-|<a name="hindiindia"></a>HindiIndia|Reserved.|
-|<a name="hungaryhu"></a>HungaryHU|Reserved.|
+|<a name="hindiindia"></a>HindiIndia|Hindi (India)|
+|<a name="hungaryhu"></a>HungaryHU|Hungarian (Hungary)|
 |<a name="italianitaly"></a>ItalianItaly|Italian (Italy)|
 |<a name="japanesejapan"></a>JapaneseJapan|Japanese (Japan)|
 |<a name="koreankorea"></a>KoreanKorea|Korean (Korea)|
-|<a name="malaymalaysia"></a>MalayMalaysia|Reserved.|
+|<a name="malaymalaysia"></a>MalayMalaysia|Malay (Malaysia)|
 |<a name="norwegiannorway"></a>NorwegianNorway|Norwegian (Norway)|
-|<a name="polandpolish"></a>PolandPolish|Reserved.|
+|<a name="polandpolish"></a>PolandPolish|Polish (Poland)|
 |<a name="portuguesebrazil"></a>PortugueseBrazil|Portuguese (Brazil)|
-|<a name="romaniaro"></a>RomaniaRO|Reserved.|
+|<a name="romaniaro"></a>RomaniaRO|Romanian (Romania)|
 |<a name="russianrussia"></a>RussianRussia|Russian (Russia)|
 |<a name="spanishargentina"></a>SpanishArgentina|Spanish (Argentina)|
 |<a name="spanishchile"></a>SpanishChile|Spanish (Chile)|
@@ -539,7 +539,7 @@ The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabica
 |<a name="spanishvenezuela"></a>SpanishVenezuela|Spanish (Venezuela)|
 |<a name="swedishsweden"></a>SwedishSweden|Swedish (Sweden)|
 |<a name="turkishturkey"></a>TurkishTurkey|Turkish (Turkey)|
-|<a name="ukrainianukraine"></a>UkrainianUkraine|Reserved.|
+|<a name="ukrainianukraine"></a>UkrainianUkraine|Ukranian (Ukraine)|
 
 ## Requirements
 Service: [CustomerManagementService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc)  

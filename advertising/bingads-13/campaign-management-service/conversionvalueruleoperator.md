@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the conversion value rule operator value set.
 ---
 # ConversionValueRuleOperator Value Set - Campaign Management
-Reserved.
+Defines the conversion value rule operator value set.
 
 ## Syntax
 ```xml
@@ -27,8 +27,8 @@ The [ConversionValueRuleOperator](conversionvalueruleoperator.md) value set has 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="add"></a>Add|Reserved.|
-|<a name="multiply"></a>Multiply|Reserved.|
+|<a name="add"></a>Add|Adds the value.|
+|<a name="multiply"></a>Multiply|Multiplies the value.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
