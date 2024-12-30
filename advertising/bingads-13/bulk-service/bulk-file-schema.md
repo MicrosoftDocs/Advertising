@@ -102,6 +102,7 @@ Record Type  |Supported Campaign Types
 [Ad Group Negative Remarketing List Association](ad-group-negative-remarketing-list-association.md)|All  
 [Ad Group Negative Similar Remarketing List Association](ad-group-negative-similar-remarketing-list-association.md)|All  
 [Ad Group Negative Site](ad-group-negative-site.md)|All  
+[Ad Group Placement Criterion](ad-group-placement-criterion.md)|Audience  
 [Ad Group Price Ad Extension](ad-group-price-ad-extension.md)|Search  
 [Ad Group Product Audience Association](ad-group-product-audience-association.md)|All  
 [Ad Group Product Partition](ad-group-product-partition.md)|Shopping  
