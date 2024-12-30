@@ -96,7 +96,6 @@ For an *Ad Group Placement Criterion* record, the following attribute fields are
 - [Campaign](#campaign)
 - [Client Id](#clientid)
 - [Id](#id)
-- [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
 - [Status](#status)
 - [Target](#target)
