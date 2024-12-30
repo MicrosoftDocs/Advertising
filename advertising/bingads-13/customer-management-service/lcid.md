@@ -466,13 +466,34 @@ Defines a selection of locale values.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="Bulgarian">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1026</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Lithuanian">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1063</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Croatian">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1050</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabicalgeria), [ArabicBahrain](#arabicbahrain), [ArabicEgypt](#arabicegypt), [ArabicIraq](#arabiciraq), [ArabicJordan](#arabicjordan), [ArabicKuwait](#arabickuwait), [ArabicLebanon](#arabiclebanon), [ArabicLibya](#arabiclibya), [ArabicMorocco](#arabicmorocco), [ArabicOman](#arabicoman), [ArabicQatar](#arabicqatar), [ArabicSaudiArabia](#arabicsaudiarabia), [ArabicTunisia](#arabictunisia), [ArabicUnitedArabEmirates](#arabicunitedarabemirates), [ArabicYemen](#arabicyemen), [ChineseChina](#chinesechina), [ChineseHongKong](#chinesehongkong), [ChineseTaiwan](#chinesetaiwan), [CzechRepublicCZ](#czechrepubliccz), [DanishDenmark](#danishdenmark), [DutchNetherlands](#dutchnetherlands), [EnglishAustralia](#englishaustralia), [EnglishCanada](#englishcanada), [EnglishIndia](#englishindia), [EnglishIndonesia](#englishindonesia), [EnglishIreland](#englishireland), [EnglishMalaysia](#englishmalaysia), [EnglishNewZealand](#englishnewzealand), [EnglishPhilippines](#englishphilippines), [EnglishSingapore](#englishsingapore), [EnglishThailand](#englishthailand), [EnglishUK](#englishuk), [EnglishUS](#englishus), [EnglishVietnam](#englishvietnam), [FilipinoPhilippines](#filipinophilippines), [FinnishFinland](#finnishfinland), [FrenchCanada](#frenchcanada), [FrenchFrance](#frenchfrance), [GermanAustria](#germanaustria), [GermanGermany](#germangermany), [GermanSwitzerland](#germanswitzerland), [GreekGreece](#greekgreece), [HebrewIsrael](#hebrewisrael), [HindiIndia](#hindiindia), [HungaryHU](#hungaryhu), [ItalianItaly](#italianitaly), [JapaneseJapan](#japanesejapan), [KoreanKorea](#koreankorea), [MalayMalaysia](#malaymalaysia), [NorwegianNorway](#norwegiannorway), [PolandPolish](#polandpolish), [PortugueseBrazil](#portuguesebrazil), [RomaniaRO](#romaniaro), [RussianRussia](#russianrussia), [SpanishArgentina](#spanishargentina), [SpanishChile](#spanishchile), [SpanishColombia](#spanishcolombia), [SpanishMexico](#spanishmexico), [SpanishPeru](#spanishperu), [SpanishSpain](#spanishspain), [SpanishVenezuela](#spanishvenezuela), [SwedishSweden](#swedishsweden), [TurkishTurkey](#turkishturkey), [UkrainianUkraine](#ukrainianukraine).
+The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabicalgeria), [ArabicBahrain](#arabicbahrain), [ArabicEgypt](#arabicegypt), [ArabicIraq](#arabiciraq), [ArabicJordan](#arabicjordan), [ArabicKuwait](#arabickuwait), [ArabicLebanon](#arabiclebanon), [ArabicLibya](#arabiclibya), [ArabicMorocco](#arabicmorocco), [ArabicOman](#arabicoman), [ArabicQatar](#arabicqatar), [ArabicSaudiArabia](#arabicsaudiarabia), [ArabicTunisia](#arabictunisia), [ArabicUnitedArabEmirates](#arabicunitedarabemirates), [ArabicYemen](#arabicyemen), [Bulgarian](#bulgarian), [ChineseChina](#chinesechina), [ChineseHongKong](#chinesehongkong), [ChineseTaiwan](#chinesetaiwan), [Croatian](#croatian), [CzechRepublicCZ](#czechrepubliccz), [DanishDenmark](#danishdenmark), [DutchNetherlands](#dutchnetherlands), [EnglishAustralia](#englishaustralia), [EnglishCanada](#englishcanada), [EnglishIndia](#englishindia), [EnglishIndonesia](#englishindonesia), [EnglishIreland](#englishireland), [EnglishMalaysia](#englishmalaysia), [EnglishNewZealand](#englishnewzealand), [EnglishPhilippines](#englishphilippines), [EnglishSingapore](#englishsingapore), [EnglishThailand](#englishthailand), [EnglishUK](#englishuk), [EnglishUS](#englishus), [EnglishVietnam](#englishvietnam), [FilipinoPhilippines](#filipinophilippines), [FinnishFinland](#finnishfinland), [FrenchCanada](#frenchcanada), [FrenchFrance](#frenchfrance), [GermanAustria](#germanaustria), [GermanGermany](#germangermany), [GermanSwitzerland](#germanswitzerland), [GreekGreece](#greekgreece), [HebrewIsrael](#hebrewisrael), [HindiIndia](#hindiindia), [HungaryHU](#hungaryhu), [ItalianItaly](#italianitaly), [JapaneseJapan](#japanesejapan), [KoreanKorea](#koreankorea), [Lithuanian](#lithuanian), [MalayMalaysia](#malaymalaysia), [NorwegianNorway](#norwegiannorway), [PolandPolish](#polandpolish), [PortugueseBrazil](#portuguesebrazil), [RomaniaRO](#romaniaro), [RussianRussia](#russianrussia), [SpanishArgentina](#spanishargentina), [SpanishChile](#spanishchile), [SpanishColombia](#spanishcolombia), [SpanishMexico](#spanishmexico), [SpanishPeru](#spanishperu), [SpanishSpain](#spanishspain), [SpanishVenezuela](#spanishvenezuela), [SwedishSweden](#swedishsweden), [TurkishTurkey](#turkishturkey), [UkrainianUkraine](#ukrainianukraine).
 
 |Value|Description|
 |-----------|---------------|
@@ -491,9 +512,11 @@ The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabica
 |<a name="arabictunisia"></a>ArabicTunisia|Arabic (Tunisia)|
 |<a name="arabicunitedarabemirates"></a>ArabicUnitedArabEmirates|Arabic (United Arab Emirates)|
 |<a name="arabicyemen"></a>ArabicYemen|Arabic (Yemen)|
+|<a name="bulgarian"></a>Bulgarian|Bulgarian (Bulgaria)|
 |<a name="chinesechina"></a>ChineseChina|Chinese (China)|
 |<a name="chinesehongkong"></a>ChineseHongKong|Chinese (Hong Kong SAR)|
 |<a name="chinesetaiwan"></a>ChineseTaiwan|Chinese (Taiwan)|
+|<a name="croatian"></a>Croatian|Croatian (Croatia)|
 |<a name="czechrepubliccz"></a>CzechRepublicCZ|Czech (Czech Republic)|
 |<a name="danishdenmark"></a>DanishDenmark|Danish (Denmark)|
 |<a name="dutchnetherlands"></a>DutchNetherlands|Dutch (Netherlands)|
@@ -524,6 +547,7 @@ The [LCID](lcid.md) value set has the following values: [ArabicAlgeria](#arabica
 |<a name="italianitaly"></a>ItalianItaly|Italian (Italy)|
 |<a name="japanesejapan"></a>JapaneseJapan|Japanese (Japan)|
 |<a name="koreankorea"></a>KoreanKorea|Korean (Korea)|
+|<a name="lithuanian"></a>Lithuanian|Lithuanian (Lithuania)|
 |<a name="malaymalaysia"></a>MalayMalaysia|Malay (Malaysia)|
 |<a name="norwegiannorway"></a>NorwegianNorway|Norwegian (Norway)|
 |<a name="polandpolish"></a>PolandPolish|Polish (Poland)|
