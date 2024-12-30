@@ -65,21 +65,34 @@ The following country codes are supported per customer language e.g. [aggregator
 
 |Language|Country or Region Code|
 |------------|------------------|
+|Czech|CZ|
 |Dutch|NL|
-|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PM, PN, PR, PS, PW, RE, RO, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
+|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GU, GW, GY, HR, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PM, PN, PR, PS, PW, RE, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UG, US, UZ, VA, VG, VI, VU, WF, WS, YT, ZA, ZM, ZW|
 |Filipino|PH|
+|Finnish|FI|
 |French|BF, BJ, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|
 |German|AT, CH, DE|
+|Greek|GR|
+|Hindi|IN|
+|Hungarian|HU|
+|Indonesian|ID|
 |Italian|IT|
 |Japanese|JP|
 |Korean|KR|
+|Malay|MY|
+|Norwegian|NO|
+|Polish|PL|
 |Portuguese|AO, BR, MZ, PT, TL|
+|Romnian|RO|
 |Russian|RU|
 |SimplifiedChinese|CN|
 |Spanish|AR, BO, CL, CO, CR, DO, EC, ES, GT, HN, MX, NI, PA, PE, PY, SV, UY, VE|
+|Swedish|SE|
 |Thai|TH|
 |TraditionalChinese|HK, TW|
 |Turkish|TR|
+|Ukranian|UA|
+|Vietnamese|VN|
 		
 ## <a name="countdownlanguage"></a>Countdown Language
 Countdown customizers let you easily add a countdown (by day, hour, and then minute) to an event in your dynamic search ads, expanded text ads, and responsive search ads. The following language codes are supported for [countdown customizers](countdown-customizers.md).

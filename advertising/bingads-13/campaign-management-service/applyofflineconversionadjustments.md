@@ -17,7 +17,10 @@ dev_langs:
 # ApplyOfflineConversionAdjustments Service Operation - Campaign Management
 Applies offline conversion adjustments.  
 
-This operation can be used to adjust the conversion time and value for offline conversions previously applied via the [ApplyOfflineConversions](applyofflineconversions.md) operation. 
+> [!NOTE]
+> If you need to upload many offline conversion adjustments in a short period of time, we recommend you upload as many as possible in each request. You can upload 1,000 offline conversion adjustments per request.
+
+This operation can be used to adjust the conversion time and value for offline conversions previously applied via the [ApplyOfflineConversions](applyofflineconversions.md) operation.  
 
 ::: zone pivot="soap"
 
