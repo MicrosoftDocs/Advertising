@@ -1614,6 +1614,8 @@
       href: ../campaign-management-service/accountmigrationstatusesinfo.md
     - name: AccountNegativeKeywordList
       href: ../campaign-management-service/accountnegativekeywordlist.md
+    - name: AccountPlacementExclusionList
+      href: ../campaign-management-service/accountplacementexclusionlist.md
     - name: AccountProperty
       href: ../campaign-management-service/accountproperty.md
     - name: ActionAdExtension
@@ -1648,6 +1650,8 @@
       href: ../campaign-management-service/adgroupcriterionaction.md
     - name: AdGroupNegativeSites
       href: ../campaign-management-service/adgroupnegativesites.md
+    - name: AdRecommendationImageSuggestion
+      href: ../campaign-management-service/adrecommendationimagesuggestion.md
     - name: AdRotation
       href: ../campaign-management-service/adrotation.md
     - name: AgeCriterion
