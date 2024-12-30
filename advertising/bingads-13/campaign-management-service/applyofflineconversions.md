@@ -17,6 +17,9 @@ dev_langs:
 # ApplyOfflineConversions Service Operation - Campaign Management
 Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.
 
+> [!NOTE]
+> If you need to upload many offline conversions in a short period of time, we recommend you upload as many as possible in each request. You can upload 1,000 offline conversions per request.
+
 Let's say a customer sees your ad, clicks on it, but ends up calling you, leading to a sale that was taken offline. How can you track when your search ad leads to a conversion offline and outside of your website? You can import offline conversions, to better measure what happens after your ad was clicked.
 
 After creating an [OfflineConversionGoal](offlineconversiongoal.md), you'll need to wait two hours before sending Microsoft Advertising any offline conversions. If you do not wait two hours, then your offline conversion data might not be applied. After you send Microsoft Advertising the offline conversions, it can take up to six hours to view conversion data.

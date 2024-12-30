@@ -47,7 +47,7 @@ The [AssetGroupPerformanceReportColumn](assetgroupperformancereportcolumn.md) va
 |<a name="accountname"></a>AccountName|The account name.|
 |<a name="accountstatus"></a>AccountStatus|The account status.|
 |<a name="assetgroupid"></a>AssetGroupId|The Microsoft Advertising assigned identifier of an asset group.|
-|<a name="assetgroupname"></a>AssetGroupName|The asset group name.|
+|<a name="assetgroupname"></a>AssetGroupName|The asset group name.<br/><br/>*Note*: AssetGroupName is required.|
 |<a name="assetgroupstatus"></a>AssetGroupStatus|The current asset group status.|
 |<a name="averagecpc"></a>AverageCpc|The average cost per click (CPC). The total cost of all clicks on an ad divided by the number of clicks. This is the average amount you're actually charged each time your ad is clicked. For example, if you paid a total of 48.35 for 300 clicks, your average CPC is 0.16. The formula for calculating the average CPC is (Spend /Clicks).|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
