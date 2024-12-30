@@ -1315,6 +1315,8 @@
       href: ../campaign-management-service/addcampaigns.md
     - name: AddConversionGoals
       href: ../campaign-management-service/addconversiongoals.md
+    - name: AddConversionValueRules
+      href: ../campaign-management-service/addconversionvaluerules.md
     - name: AddDataExclusions
       href: ../campaign-management-service/adddataexclusions.md
     - name: AddExperiments
@@ -1473,6 +1475,10 @@
       href: ../campaign-management-service/getconversiongoalsbyids.md
     - name: GetConversionGoalsByTagIds
       href: ../campaign-management-service/getconversiongoalsbytagids.md
+    - name: GetConversionValueRulesByAccountId
+      href: ../campaign-management-service/getconversionValuerulesbyaccountid.md
+    - name: GetConversionValueRulesByIds
+      href: ../campaign-management-service/getconversionvaluerulesbyids.md
     - name: GetDataExclusionsByAccountId
       href: ../campaign-management-service/getdataexclusionsbyaccountid.md
     - name: GetDataExclusionsByIds
@@ -1577,6 +1583,10 @@
       href: ../campaign-management-service/updatecampaigns.md
     - name: UpdateConversionGoals
       href: ../campaign-management-service/updateconversiongoals.md
+    - name: UpdateConversionValueRules
+      href: ../campaign-management-service/updateconversionvaluerules.md
+    - name: UpdateConversionValueRulesStatus
+      href: ../campaign-management-service/updateconversionvaluerulesstatus.md
     - name: UpdateDataExclusions
       href: ../campaign-management-service/updatedataexclusions.md
     - name: UpdateExperiments
@@ -1604,6 +1614,8 @@
       href: ../campaign-management-service/accountmigrationstatusesinfo.md
     - name: AccountNegativeKeywordList
       href: ../campaign-management-service/accountnegativekeywordlist.md
+    - name: AccountPlacementExclusionList
+      href: ../campaign-management-service/accountplacementexclusionlist.md
     - name: AccountProperty
       href: ../campaign-management-service/accountproperty.md
     - name: ActionAdExtension
@@ -1638,6 +1650,8 @@
       href: ../campaign-management-service/adgroupcriterionaction.md
     - name: AdGroupNegativeSites
       href: ../campaign-management-service/adgroupnegativesites.md
+    - name: AdRecommendationImageSuggestion
+      href: ../campaign-management-service/adrecommendationimagesuggestion.md
     - name: AdRotation
       href: ../campaign-management-service/adrotation.md
     - name: AgeCriterion
@@ -1672,6 +1686,10 @@
       href: ../campaign-management-service/assetlink.md
     - name: Audience
       href: ../campaign-management-service/audience.md
+    - name: AudienceCondition
+      href: ../campaign-management-service/audiencecondition.md
+    - name: AudienceConditionItem
+      href: ../campaign-management-service/audienceconditionitem.md
     - name: AudienceCriterion
       href: ../campaign-management-service/audiencecriterion.md
     - name: AudienceDimension
@@ -1740,6 +1758,8 @@
       href: ../campaign-management-service/conversiongoal.md
     - name: ConversionGoalRevenue
       href: ../campaign-management-service/conversiongoalrevenue.md
+    - name: ConversionValueRule
+      href: ../campaign-management-service/conversionvaluerule.md
     - name: CoOpSetting
       href: ../campaign-management-service/coopsetting.md
     - name: CostPerSaleBiddingScheme
@@ -1782,6 +1802,8 @@
       href: ../campaign-management-service/daytimecriterion.md
     - name: DealCriterion
       href: ../campaign-management-service/dealcriterion.md
+    - name: DeviceCondition
+      href: ../campaign-management-service/devicecondition.md
     - name: DeviceCriterion
       href: ../campaign-management-service/devicecriterion.md
     - name: DisclaimerAdExtension
@@ -1902,6 +1924,10 @@
       href: ../campaign-management-service/labelassociation.md
     - name: LocationAdExtension
       href: ../campaign-management-service/locationadextension.md
+    - name: LocationCondition
+      href: ../campaign-management-service/locationcondition.md
+    - name: LocationConditionItem
+      href: ../campaign-management-service/locationconditionitem.md
     - name: LocationCriterion
       href: ../campaign-management-service/locationcriterion.md
     - name: LocationIntentCriterion
@@ -2181,6 +2207,8 @@
       href: ../campaign-management-service/conversiongoaltrackingstatus.md
     - name: ConversionGoalType
       href: ../campaign-management-service/conversiongoaltype.md
+    - name: ConversionValueRuleOperator
+      href: ../campaign-management-service/conversionvalueruleoperator.md
     - name: CriterionAdditionalField
       href: ../campaign-management-service/criterionadditionalfield.md
     - name: CriterionTypeGroup
@@ -2229,6 +2257,8 @@
       href: ../campaign-management-service/keywordstatus.md
     - name: LanguageName
       href: ../campaign-management-service/languagename.md
+    - name: LocationType
+      href: ../campaign-management-service/locationtype.md
     - name: LogicalOperator
       href: ../campaign-management-service/logicaloperator.md
     - name: MatchType
@@ -2411,8 +2441,8 @@
       href: ../customer-management-service/getaccountsinfo.md
     - name: GetCustomer
       href: ../customer-management-service/getcustomer.md
-    - name: GetCustomerPilotFeatures
-      href: ../customer-management-service/getcustomerpilotfeatures.md
+    #- name: GetCustomerPilotFeatures
+    #  href: ../customer-management-service/getcustomerpilotfeatures.md
     - name: GetCustomersInfo
       href: ../customer-management-service/getcustomersinfo.md
     - name: GetLinkedAccountsAndCustomersInfo

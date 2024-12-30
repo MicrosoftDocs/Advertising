@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the conversion value rule status value set.
 ---
 # ConversionValueRuleStatus Value Set - Campaign Management
-Reserved.
+Defines the conversion value rule status value set.
 
 ## Syntax
 ```xml
@@ -53,10 +53,10 @@ The [ConversionValueRuleStatus](conversionvaluerulestatus.md) value set has the 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="active"></a>Active|Reserved.|
-|<a name="deleted"></a>Deleted|Reserved.|
-|<a name="invalid"></a>Invalid|Reserved.|
-|<a name="paused"></a>Paused|Reserved.|
+|<a name="active"></a>Active|The rule is active.|
+|<a name="deleted"></a>Deleted|The rule is deleted.|
+|<a name="invalid"></a>Invalid|The rule is invalid.|
+|<a name="paused"></a>Paused|The rule is paused.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

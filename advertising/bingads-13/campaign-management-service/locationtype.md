@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the location type value set.
 ---
 # LocationType Value Set - Campaign Management
-Reserved.
+Defines the location type value set.
 
 ## Syntax
 ```xml
@@ -74,13 +74,13 @@ The [LocationType](locationtype.md) value set has the following values: [City](#
 
 |Value|Description|
 |-----------|---------------|
-|<a name="city"></a>City|Reserved.|
-|<a name="country"></a>Country|Reserved.|
-|<a name="county"></a>County|Reserved.|
-|<a name="metroarea"></a>MetroArea|Reserved.|
-|<a name="neighborhood"></a>Neighborhood|Reserved.|
-|<a name="postalcode"></a>PostalCode|Reserved.|
-|<a name="subgeography"></a>SubGeography|Reserved.|
+|<a name="city"></a>City|The location condition item type is *City*.|
+|<a name="country"></a>Country|The location condition item type is *Country*.|
+|<a name="county"></a>County|The location condition item type is *County*. *Note*: County is not supported for conversion value rules.|
+|<a name="metroarea"></a>MetroArea|The location condition item type is *MetroArea*.|
+|<a name="neighborhood"></a>Neighborhood|The location condition item type is *Neighborhood*.|
+|<a name="postalcode"></a>PostalCode|The location condition item type is *PostalCode*.|
+|<a name="subgeography"></a>SubGeography|The location condition item type is *SubGeography*.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

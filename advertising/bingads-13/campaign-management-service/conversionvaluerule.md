@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defintes a conversion value rule data object.
 ---
 # ConversionValueRule Data Object - Campaign Management
-Reserved.
+Defintes a conversion value rule data object.
 
 ## Syntax
 
@@ -85,15 +85,15 @@ The [ConversionValueRule](conversionvaluerule.md) object has the following eleme
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiencecondition"></a>AudienceCondition|Reserved.|[AudienceCondition](audiencecondition.md)|
-|<a name="currencycode"></a>CurrencyCode|Reserved.|**string**|
-|<a name="devicecondition"></a>DeviceCondition|Reserved.|[DeviceCondition](devicecondition.md)|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="locationcondition"></a>LocationCondition|Reserved.|[LocationCondition](locationcondition.md)|
-|<a name="name"></a>Name|Reserved.|**string**|
-|<a name="operation"></a>Operation|Reserved.|[ConversionValueRuleOperator](conversionvalueruleoperator.md)|
-|<a name="status"></a>Status|Reserved.|[ConversionValueRuleStatus](conversionvaluerulestatus.md)|
-|<a name="value"></a>Value|Reserved.|**decimal**|
+|<a name="audiencecondition"></a>AudienceCondition|The audience condition associated with the conversion value rule. Each conversion value rule can have up to 2 conditions.|[AudienceCondition](audiencecondition.md)|
+|<a name="currencycode"></a>CurrencyCode|The currency code for the conversion value rule.|**string**|
+|<a name="devicecondition"></a>DeviceCondition|The device condition associated with the conversion value rule. Each conversion value rule can have up to 2 conditions.|[DeviceCondition](devicecondition.md)|
+|<a name="id"></a>Id|The unique identifier of the conversion value rule.<br /><br />**Add**: Optional <br />**Update**: Required|**long**|
+|<a name="locationcondition"></a>LocationCondition|The location condition associated with the conversion value rule. Each conversion value rule can have up to 2 conditions.|[LocationCondition](locationcondition.md)|
+|<a name="name"></a>Name|The name of the conversion value rule.|**string**|
+|<a name="operation"></a>Operation|The operation type of the conversion value rule.|[ConversionValueRuleOperator](conversionvalueruleoperator.md)|
+|<a name="status"></a>Status|The status of the conversion value rule.|[ConversionValueRuleStatus](conversionvaluerulestatus.md)|
+|<a name="value"></a>Value|The value of the conversion value rule. It should be greater than 0.<br /><br />**Add**: Required <br />**Update**: Optional|**decimal**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

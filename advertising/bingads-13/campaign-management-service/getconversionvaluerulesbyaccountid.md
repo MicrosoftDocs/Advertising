@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Reserved.
+description: Gets conversion value rules by the account ID.
 dev_langs: 
 - csharp
 - java
@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # GetConversionValueRulesByAccountId Service Operation - Campaign Management
-Reserved.
+Gets conversion value rules by the account ID.
 
 ::: zone pivot="soap"
 
@@ -29,8 +29,8 @@ The *GetConversionValueRulesByAccountIdRequest* object defines the [body](#reque
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
-|<a name="lcid"></a>Lcid|Reserved.|**int**|
+|<a name="accountid"></a>AccountId|Fetch conversion value rules from this account ID.|**long**|
+|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*.|**int**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -42,7 +42,7 @@ The *GetConversionValueRulesByAccountIdResponse* object defines the [body](#resp
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="conversionvaluerules"></a>ConversionValueRules|Reserved.|[ConversionValueRule](conversionvaluerule.md) array|
+|<a name="conversionvaluerules"></a>ConversionValueRules|The conversion value rules associated with the specified account ID.|[ConversionValueRule](conversionvaluerule.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

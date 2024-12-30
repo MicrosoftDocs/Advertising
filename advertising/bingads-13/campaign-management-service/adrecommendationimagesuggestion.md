@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines a data object for ad recommendation image suggestion.
 ---
 # AdRecommendationImageSuggestion Data Object - Campaign Management
-Reserved.
+Defines a data object for ad recommendation image suggestion.
 
 ## Syntax
 
@@ -18,6 +18,7 @@ Reserved.
 ```xml
 <xs:complexType name="AdRecommendationImageSuggestion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
+    <xs:element minOccurs="0" name="AssetLink" nillable="true" type="tns:AssetLink" />
     <xs:element minOccurs="0" name="Image" nillable="true" type="tns:Image" />
     <xs:element minOccurs="0" name="ImageUrl" nillable="true" type="xs:string" />
   </xs:sequence>
@@ -28,6 +29,23 @@ Reserved.
 
 ```json
 {
+  "AssetLink": {
+    "Asset": {
+      "Id": "LongValueHere",
+      "Name": "ValueHere",
+      "Type": "ImageAsset",
+      "CropHeight": IntValueHere,
+      "CropWidth": IntValueHere,
+      "CropX": IntValueHere,
+      "CropY": IntValueHere,
+      "SubType": "ValueHere",
+      "TargetHeight": IntValueHere,
+      "TargetWidth": IntValueHere
+    },
+    "AssetPerformanceLabel": "ValueHere",
+    "EditorialStatus": "ValueHere",
+    "PinnedField": "ValueHere"
+  },
   "Image": {
     "Data": "ValueHere"
   },
@@ -39,12 +57,13 @@ Reserved.
 
 ## <a name="elements"></a>Elements
 
-The [AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) object has the following elements: [Image](#image), [ImageUrl](#imageurl).
+The [AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) object has the following elements: [AssetLink](#assetlink), [Image](#image), [ImageUrl](#imageurl).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="image"></a>Image|Reserved.|[Image](image.md)|
-|<a name="imageurl"></a>ImageUrl|Reserved.|**string**|
+|<a name="assetlink"></a>AssetLink|Defines the relationship of an asset to an ad.|[AssetLink](assetlink.md)|
+|<a name="image"></a>Image|The suggsted image.|[Image](image.md)|
+|<a name="imageurl"></a>ImageUrl|The URL of the suggested image.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
