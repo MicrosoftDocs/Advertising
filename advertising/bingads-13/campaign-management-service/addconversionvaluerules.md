@@ -20,7 +20,7 @@ Create new conversion value rules.
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
-The *AddConversionValueRulesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap).
+The *AddConversionValueRulesRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 
 > [!NOTE]
 > Unless otherwise noted below, all request elements are required.
@@ -237,8 +237,8 @@ The *AddConversionValueRulesRequest* object defines the [body](#request-body) an
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="conversionvaluerules"></a>ConversionValueRules|Reserved.|[ConversionValueRule](conversionvaluerule.md) array|
-|<a name="lcid"></a>Lcid|Reserved.|**int**|
+|<a name="conversionvaluerules"></a>ConversionValueRules|The conversion value rules to be created.|[ConversionValueRule](conversionvaluerule.md) array|
+|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*.|**int**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -250,8 +250,8 @@ The *AddConversionValueRulesResponse* object defines the [body](#response-body) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="conversionvalueruleids"></a>ConversionValueRuleIds|Reserved.|**long** array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="conversionvalueruleids"></a>ConversionValueRuleIds|The IDs of the conversion value rules that were successfully created.|**long** array|
+|<a name="partialerrors"></a>PartialErrors|An array of [BatchError](batcherror.md) objects that contain details for any request items that were not successful.<br/><br/>The list of errors do not correspond directly to the list of items in the request. The list can be empty if there were no errors, or can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

@@ -1362,6 +1362,12 @@
       href: ../campaign-management-service/applyonlineconversionadjustments.md
     - name: ApplyProductPartitionActions
       href: ../campaign-management-service/applyproductpartitionactions.md
+    - name: CreateAssetGroupRecommendation
+      href: ../campaign-management-service/createassetgrouprecommendation.md
+    - name: CreateResponsiveAdRecommendation
+      href: ../campaign-management-service/createresponsiveadrecommendation.md
+    - name: CreateResponsiveSearchAdRecommendation
+      href: ../campaign-management-service/createresponsivesearchadrecommendation.md
     - name: DeleteAdExtensions
       href: ../campaign-management-service/deleteadextensions.md
     - name: DeleteAdExtensionsAssociations
@@ -1546,6 +1552,12 @@
       href: ../campaign-management-service/getuettagsbyids.md
     - name: GetVideosByIds
       href: ../campaign-management-service/getvideosbyids.md
+    - name: RefineAssetGroupRecommendation
+      href: ../campaign-management-service/refineassetgrouprecommendation.md
+    - name: RefineResponsiveAdRecommendation
+      href: ../campaign-management-service/refineresponsiveadrecommendation.md
+    - name: RefineResponsiveSearchAdRecommendation
+      href: ../campaign-management-service/refineresponsivesearchadrecommendation.md
     - name: SearchCompanies
       href: ../campaign-management-service/searchcompanies.md
     - name: SetAccountProperties

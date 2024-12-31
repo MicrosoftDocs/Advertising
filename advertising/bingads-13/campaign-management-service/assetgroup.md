@@ -49,6 +49,13 @@ Defines an asset group in an advertising campaign.
     <xs:element minOccurs="0" name="Path2" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="StartDate" nillable="true" type="tns:Date" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:AssetGroupStatus" />
+    <xs:element minOccurs="0" name="Videos" nillable="true" type="tns:ArrayOfAssetLink">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
@@ -182,7 +189,26 @@ Defines an asset group in an advertising campaign.
     "Month": IntValueHere,
     "Year": IntValueHere
   },
-  "Status": "ValueHere"
+  "Status": "ValueHere",
+  "Videos": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ]
 }
 ```
 
@@ -190,7 +216,7 @@ Defines an asset group in an advertising campaign.
 
 ## <a name="elements"></a>Elements
 
-The [AssetGroup](assetgroup.md) object has the following elements: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [BusinessName](#businessname), [CallToAction](#calltoaction), [Descriptions](#descriptions), [EditorialStatus](#editorialstatus), [EndDate](#enddate), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Headlines](#headlines), [Id](#id), [Images](#images), [LongHeadlines](#longheadlines), [Name](#name), [Path1](#path1), [Path2](#path2), [StartDate](#startdate), [Status](#status).
+The [AssetGroup](assetgroup.md) object has the following elements: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [BusinessName](#businessname), [CallToAction](#calltoaction), [Descriptions](#descriptions), [EditorialStatus](#editorialstatus), [EndDate](#enddate), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Headlines](#headlines), [Id](#id), [Images](#images), [LongHeadlines](#longheadlines), [Name](#name), [Path1](#path1), [Path2](#path2), [StartDate](#startdate), [Status](#status), [Videos](#videos).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -213,6 +239,7 @@ The [AssetGroup](assetgroup.md) object has the following elements: [AssetGroupSe
 |<a name="path2"></a>Path2|The second part of the optional path that will be appended to the domain portion of your display URL. The domain portion of your display URL e.g. https://www.contoso.com will be generated from the domain of your Final URL (FinalUrls element). Then if you have specified a value for Path1 it will be appended to the display URL. If you have also specified a value for Path2, then it will also be appended to the display URL after Path1. For example if your FinalUrls contains https://www.contoso.com, Path1 is set to subdirectory1, and Path2 is set to subdirectory2, then the URL displayed will be https://www.contoso.com/subdirectory1/subdirectory2.<br /><br />You can only specify Path2 if Path1 is also set. <br /><br />No more than 15 characters can be input. The ad will fail to display if the length of the final URL domain and the paths combined exceed 67 characters. <br /><br />For languages with double-width characters e.g. Traditional Chinese no more than 7 final characters can be input. The ad will fail to display if the length of the final URL domain and the paths combined exceed 33 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis. <br /><br />The path cannot contain the forward slash (/) or newline (\n) characters. <br /><br />If the path includes a space, it will be replaced with an underscore (_) when the ad is shown. <br /><br />**Add**: Optional <br />**Update**: Optional |**string**|
 |<a name="startdate"></a>StartDate|The date that the asset group can begin serving; otherwise, the service can begin serving ads the day that the asset group becomes active. <br /><br />The start date is inclusive. For example, if you set the start date to 5/5/2021, the ads created from the asset group will start at 12:00 AM on 5/5/2021. The time is based on the time zone that you specify at the campaign level. <br /><br />**Add**: Optional. If you do not set the start date, then it will default to today's date and the service can begin serving ads as soon as the asset group status is active.<br />**Update**: Optional. If no value is set for the update, this setting is not changed. The start date cannot be updated after the asset group is submitted i.e., once the start date has arrived. |[Date](date.md)|
 |<a name="status"></a>Status|The status of the Asset group. Possible values are *Active*, *Expired* and *Paused*. The *Expired* status is read-only.<br /><br />**Add**: Optional. Default is *Paused*. <br />**Update**: Optional |[AssetGroupStatus](assetgroupstatus.md)|
+|<a name="videos"></a>Videos|Reserved.|[AssetLink](assetlink.md) array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
