@@ -193,8 +193,8 @@ The *UpdateConversionValueRulesStatusRequest* object defines the [body](#request
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="ruleids"></a>RuleIds|Reserved.|**long** array|
-|<a name="status"></a>Status|Reserved.|[ConversionValueRuleStatus](conversionvaluerulestatus.md)|
+|<a name="ruleids"></a>RuleIds|Update the status of the conversion value rules with these IDs.|**long** array|
+|<a name="status"></a>Status|The new status to be applied to the specified conversion value rules.|[ConversionValueRuleStatus](conversionvaluerulestatus.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -206,7 +206,7 @@ The *UpdateConversionValueRulesStatusResponse* object defines the [body](#respon
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of [BatchError](batcherror.md) objects that contain details for any request items that were not successful.<br/><br/>The list of errors do not correspond directly to the list of items in the request. The list can be empty if there were no errors, or can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

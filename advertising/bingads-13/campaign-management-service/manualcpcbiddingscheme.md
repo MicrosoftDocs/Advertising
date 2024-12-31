@@ -24,7 +24,15 @@ With the ManualCpc (manual cost per click) bid strategy, you set your ad group a
 <xs:complexType name="ManualCpcBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:BiddingScheme">
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ManualCpc" nillable="true" type="xs:double">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
     </xs:extension>
   </xs:complexContent>
 </xs:complexType>
@@ -34,13 +42,20 @@ With the ManualCpc (manual cost per click) bid strategy, you set your ad group a
 
 ```json
 {
-  "Type": "ManualCpc"
+  "Type": "ManualCpc",
+  "ManualCpc": DoubleValueHere
 }
 ```
 
 -----
 
 ## <a name="elements"></a>Elements
+
+The [ManualCpcBiddingScheme](manualcpcbiddingscheme.md) object has the following elements: [ManualCpc](#manualcpc).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="manualcpc"></a>ManualCpc|Reserved.|**double**|
 
 The [ManualCpcBiddingScheme](manualcpcbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 

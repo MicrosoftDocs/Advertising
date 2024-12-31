@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Reserved.
+description: Refine a responsive search ad recommendation.
 dev_langs: 
 - csharp
 - java
@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # RefineResponsiveSearchAdRecommendation Service Operation - Campaign Management
-Reserved.
+Refine a responsive search ad recommendation.
 
 ::: zone pivot="soap"
 
