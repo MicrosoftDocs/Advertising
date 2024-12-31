@@ -26,7 +26,7 @@ The Campaign Management service defines the following service operations.
 |[AddCampaignCriterions](addcampaigncriterions.md)|Adds one or more campaign criterions that help determine whether ads in each campaign get served.|100 *CampaignCriterions*|
 |[AddCampaigns](addcampaigns.md)|Adds one or more campaigns to the specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[AddConversionGoals](addconversiongoals.md)|Adds new conversion goals to the account's shared conversion goal library.|100 *ConversionGoals*|
-|[AddConversionValueRules](addconversionvaluerules.md)|Reserved.|N/A.|
+|[AddConversionValueRules](addconversionvaluerules.md)|Create new conversion value rules.|N/A.|
 |[AddDataExclusions](adddataexclusions.md)|Add a data exclusion to the specified account.|N/A.|
 |[AddExperiments](addexperiments.md)|Adds experiments and creates experiment campaigns based on existing campaigns in an account.|100 *Experiments*|
 |[AddImportJobs](addimportjobs.md)|Creates a new import job.|1 *ImportJobs*|
@@ -109,8 +109,8 @@ The Campaign Management service defines the following service operations.
 |[GetCampaignsByIds](getcampaignsbyids.md)|Gets the specified campaigns within an account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[GetConversionGoalsByIds](getconversiongoalsbyids.md)|Gets the specified conversion goals.|100 *ConversionGoalIds*|
 |[GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)|Gets the conversion goals that use the specified UET tags.|100 *TagIds*|
-|[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Reserved.|N/A.|
-|[GetConversionValueRulesByIds](getconversionvaluerulesbyids.md)|Reserved.|N/A.|
+|[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Gets conversion value rules by the account ID.|N/A.|
+|[GetConversionValueRulesByIds](getconversionvaluerulesbyids.md)|Gets conversion value rules by their IDs.|N/A.|
 |[GetDataExclusionsByAccountId](getdataexclusionsbyaccountid.md)|Gets the data exclusions associated with an account.|N/A.|
 |[GetDataExclusionsByIds](getdataexclusionsbyids.md)|Gets the specified data exclusions associated with an account.|N/A.|
 |[GetEditorialReasonsByIds](geteditorialreasonsbyids.md)|Gets the reasons why the specified entities failed editorial review and whether the issue is appealable.|1 *AccountId*<br/><br/>1,000 *EntityIdToParentIdAssociations*|
@@ -166,8 +166,8 @@ The Campaign Management service defines the following service operations.
 |[UpdateCampaignCriterions](updatecampaigncriterions.md)|Updates one or more campaign criterions.|100 *CampaignCriterions*|
 |[UpdateCampaigns](updatecampaigns.md)|Updates specified campaigns in a specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
 |[UpdateConversionGoals](updateconversiongoals.md)|Updates conversion goals within the account's shared conversion goal library.|100 *ConversionGoals*|
-|[UpdateConversionValueRules](updateconversionvaluerules.md)|Reserved.|N/A.|
-|[UpdateConversionValueRulesStatus](updateconversionvaluerulesstatus.md)|Reserved.|N/A.|
+|[UpdateConversionValueRules](updateconversionvaluerules.md)|Update existing conversion value rules.|N/A.|
+|[UpdateConversionValueRulesStatus](updateconversionvaluerulesstatus.md)|Update the status of the specified conversion value rules.|N/A.|
 |[UpdateDataExclusions](updatedataexclusions.md)|Make updates to the specified data exclusions.|N/A.|
 |[UpdateExperiments](updateexperiments.md)|Updates the specified experiments.|100 *Experiments*|
 |[UpdateImportJobs](updateimportjobs.md)|Replaces the specified import jobs with new import jobs.|1 *ImportJobs*|

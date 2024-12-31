@@ -33,7 +33,7 @@ The Campaign Management service defines the following data objects.
 |[AdGroupCriterion](adgroupcriterion.md)|Defines a criterion that you want applied to the specified ad group.|
 |[AdGroupCriterionAction](adgroupcriterionaction.md)|Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), specifically one that contains a [ProductPartition](productpartition.md).|
 |[AdGroupNegativeSites](adgroupnegativesites.md)|Defines an object that contains the negative site URLs of an ad group.|
-|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)|Reserved.|
+|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)|Defines a data object for ad recommendation image suggestion.|
 |[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md)|Reserved.|
 |[AdRecommendationTextSuggestion](adrecommendationtextsuggestion.md)|Reserved.|
 |[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md)|Reserved.|
@@ -57,8 +57,8 @@ The Campaign Management service defines the following data objects.
 |[AssetGroupUrlTarget](assetgroupurltarget.md)|Reserved.|
 |[AssetLink](assetlink.md)|Defines the relationship of an asset to an ad.|
 |[Audience](audience.md)|Defines the base object of an audience.|
-|[AudienceCondition](audiencecondition.md)|Reserved.|
-|[AudienceConditionItem](audienceconditionitem.md)|Reserved.|
+|[AudienceCondition](audiencecondition.md)|Defines a condition to use conversion value rules for specified audiences.|
+|[AudienceConditionItem](audienceconditionitem.md)|Defines an audience condition item data object.|
 |[AudienceCriterion](audiencecriterion.md)|Defines a criterion that can be used to show ads to a specific audience.|
 |[AudienceDimension](audiencedimension.md)|An object that inherits AudienceGroupDimension.|
 |[AudienceGroup](audiencegroup.md)|Defines an AudienceGroup data object.|
@@ -93,7 +93,7 @@ The Campaign Management service defines the following data objects.
 |[Company](company.md)|Defines the profile data for a company.|
 |[ConversionGoal](conversiongoal.md)|Defines the base object of a conversion goal.|
 |[ConversionGoalRevenue](conversiongoalrevenue.md)|Defines properties for revenue that can be tracked by a conversion goal.|
-|[ConversionValueRule](conversionvaluerule.md)|Reserved.|
+|[ConversionValueRule](conversionvaluerule.md)|Defintes a conversion value rule data object.|
 |[CoOpSetting](coopsetting.md)|Defines the ad group level settings for feed-based Microsoft Shopping Campaigns.|
 |[CostPerSaleBiddingScheme](costpersalebiddingscheme.md)|Defines an object that represents the cost per sale bid strategy type.|
 |[Criterion](criterion.md)|Defines the base object of a criterion.|
@@ -114,7 +114,7 @@ The Campaign Management service defines the following data objects.
 |[DayTime](daytime.md)|Defines a day of the week and time range for ad extension scheduling.|
 |[DayTimeCriterion](daytimecriterion.md)|Defines a criterion that can be used to show ads to users during a specific day and time range.|
 |[DealCriterion](dealcriterion.md)|Defines a criterion that can be used to show ads for a specific deal.|
-|[DeviceCondition](devicecondition.md)|Reserved.|
+|[DeviceCondition](devicecondition.md)|Defines a condition to use conversion value rules for specified devices.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
 |[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
@@ -175,8 +175,8 @@ The Campaign Management service defines the following data objects.
 |[Label](label.md)|Defines a label object to organize campaigns, ad groups, ads, and keywords into groups.|
 |[LabelAssociation](labelassociation.md)|Defines the relationship between a label and campaign, ad group, ad, or keyword entity.|
 |[LocationAdExtension](locationadextension.md)|Defines an ad extension that specifies a business address and phone number to include in a text ad.|
-|[LocationCondition](locationcondition.md)|Reserved.|
-|[LocationConditionItem](locationconditionitem.md)|Reserved.|
+|[LocationCondition](locationcondition.md)|Defines a condition to use conversion value rules in a specific location.|
+|[LocationConditionItem](locationconditionitem.md)|Defines a location condition item data object.|
 |[LocationCriterion](locationcriterion.md)|Defines a criterion that can be used to show ads to users in a specific location.|
 |[LocationIntentCriterion](locationintentcriterion.md)|Defines a criterion that determines the intent option for all location and radius criterions of the campaign or ad group.|
 |[LogoAdExtension](logoadextension.md)|Defines an ad extension that specifies a business logo.|

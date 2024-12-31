@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Reserved.
+description: Create a responsive search ad recommendation.
 dev_langs: 
 - csharp
 - java
@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # CreateResponsiveSearchAdRecommendation Service Operation - Campaign Management
-Reserved.
+Create a responsive search ad recommendation.
 
 ::: zone pivot="soap"
 

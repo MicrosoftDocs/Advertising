@@ -237,8 +237,8 @@ The *GetConversionValueRulesByIdsRequest* object defines the [body](#request-bod
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="lcid"></a>Lcid|Reserved.|**int**|
-|<a name="ruleids"></a>RuleIds|Reserved.|**long** array|
+|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*.|**int**|
+|<a name="ruleids"></a>RuleIds|The IDs of the conversion value rules to fetch.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -250,8 +250,8 @@ The *GetConversionValueRulesByIdsResponse* object defines the [body](#response-b
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="conversionvaluerules"></a>ConversionValueRules|Reserved.|[ConversionValueRule](conversionvaluerule.md) array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="conversionvaluerules"></a>ConversionValueRules|The conversion value rules that were succesfully fetched.|[ConversionValueRule](conversionvaluerule.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of [BatchError](batcherror.md) objects that contain details for any request items that were not successful.<br/><br/>The list of errors do not correspond directly to the list of items in the request. The list can be empty if there were no errors, or can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
