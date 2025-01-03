@@ -45,7 +45,7 @@ The [AudienceConditionItem](audienceconditionitem.md) object has the following e
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The unique identifier of the audience condition item. Required.|**long**|
 |<a name="name"></a>Name|The name of the audience condition item.|**string**|
-|<a name="type"></a>Type|The type of the audience condition item.|[AudienceType](audiencetype.md)|
+|<a name="type"></a>Type|The type of the audience condition item. Required.|[AudienceType](audiencetype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

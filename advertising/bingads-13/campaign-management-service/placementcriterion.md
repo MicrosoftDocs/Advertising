@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a data object for PlacementCriterion.
+description: Defines a criterion that can be used to show ads to users in a specific placement.
 ---
 # PlacementCriterion Data Object - Campaign Management
-Defines a data object for PlacementCriterion.
+Defines a criterion that can be used to show ads to users in a specific placement.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ The [PlacementCriterion](placementcriterion.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="placementid"></a>PlacementId|The ID of the placement.|**long**|
+|<a name="placementid"></a>PlacementId|The ID of the placement. Possible values include *12*: Microsoft Edge New Tab Page, *13*: Productivity, *14*: Gaming, *15*: MSN.|**long**|
 |<a name="placementname"></a>PlacementName|The name of the placement.|**string**|
 
 The [PlacementCriterion](placementcriterion.md) object has [Inherited Elements](#inheritedelements).

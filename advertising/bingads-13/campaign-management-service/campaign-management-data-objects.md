@@ -211,7 +211,7 @@ The Campaign Management service defines the following data objects.
 |[Paging](paging.md)|Defines a paging object to request Campaign Management objects in batches.|
 |[PercentCpcBiddingScheme](percentcpcbiddingscheme.md)|Defines an object that represents the percent CPC bid strategy type (total hotel price per night, including taxes and fees).|
 |[PerformanceMaxSetting](performancemaxsetting.md)|Defines the PerformanceMaxSetting object.|
-|[PlacementCriterion](placementcriterion.md)|Defines a data object for PlacementCriterion.|
+|[PlacementCriterion](placementcriterion.md)|Defines a criterion that can be used to show ads to users in a specific placement.|
 |[PlacementExclusionList](placementexclusionlist.md)|Defines a website exclusion list in the manager account (customer) shared library.|
 |[PriceAdExtension](priceadextension.md)|Defines an ad extension that includes between 3 and 8 price table rows.|
 |[PriceTableRow](pricetablerow.md)|Defines pricing information by currency and unit that you can use with price ad extensions.|
