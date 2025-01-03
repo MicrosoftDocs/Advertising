@@ -58,7 +58,7 @@ var bulkAdGroupPlacementCriterion = new BulkAdGroupPlacementCriterion
         Criterion = new PlacementCriterion
         {
             // 'Target' column header in the Bulk file
-            PlacementType = PlacementType.Female
+            PlacementId = placementIdKey
         },
 
         CriterionBid = new BidMultiplier
@@ -113,7 +113,7 @@ The percentage amount that you want to adjust the bid for the corresponding *Tar
 > [!WARNING]
 > We don’t currently support bid adjustment for ad group placement criterion. The bid adjustment value will reset to 0.
 
-**Add:** Optional
+**Add:** Optional  
 **Update:** Optional  
 **Delete:** Read-only  
 

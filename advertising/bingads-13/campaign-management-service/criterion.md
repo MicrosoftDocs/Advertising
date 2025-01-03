@@ -22,6 +22,7 @@ Do not try to instantiate a *Criterion*. You can create one or more of the follo
 - [GenreCriterion](genrecriterion.md)
 - [LocationCriterion](locationcriterion.md)  
 - [LocationIntentCriterion](locationintentcriterion.md)  
+- [PlacementCriterion](placementcriterion.md)  
 - [ProductScope](productscope.md)  
 - [ProductPartition](productpartition.md)  
 - [ProfileCriterion](profilecriterion.md)  

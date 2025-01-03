@@ -45,7 +45,7 @@ The [LocationConditionItem](locationconditionitem.md) object has the following e
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The unique identifier of the location condition item. Required.|**int**|
 |<a name="name"></a>Name|The name of the location condition item.|**string**|
-|<a name="type"></a>Type|The type of the location condition item.|[LocationType](locationtype.md)|
+|<a name="type"></a>Type|The type of the location condition item. Required.|[LocationType](locationtype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
