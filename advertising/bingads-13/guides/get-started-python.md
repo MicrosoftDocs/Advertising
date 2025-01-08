@@ -42,7 +42,7 @@ pip.exe install --upgrade bingads
 Once you have the Bing Ads Python [SDK](client-libraries.md) installed, you can either download the examples from [GitHub](https://github.com/BingAds/BingAds-Python-SDK) or follow one of the application walkthroughs for a [Walkthrough: Bing Ads API Web Application in Python](walkthrough-web-application-python.md) or [Walkthrough: Bing Ads API Desktop Application in Python](walkthrough-desktop-application-python.md) application.
 
 ## <a name="suds"></a>Using Suds
-The Bing Ads Python SDK uses the [suds-jurko-0.6](https://pypi.org/project/suds-jurko/) SOAP SDK to instantiate programming elements for the Bing Ads API i.e., service operations, data objects, and value sets. You will pass Suds factory objects via either a *ServiceClient*, *BulkServiceManager*, or *ReportingServiceManager* class. Since Suds is included as an SDK dependency, you can use Suds directly to call any of the Bing Ads API service operations.
+The Bing Ads Python SDK uses the [suds-community](https://pypi.org/project/suds-community/) SOAP SDK to instantiate programming elements for the Bing Ads API i.e., service operations, data objects, and value sets. You will pass Suds factory objects via either a *ServiceClient*, *BulkServiceManager*, or *ReportingServiceManager* class. Since Suds is included as an SDK dependency, you can use Suds directly to call any of the Bing Ads API service operations.
 
 Please keep in mind the following rules, suggestions, and tips related to Suds in the Bing Ads Python SDK.
 
