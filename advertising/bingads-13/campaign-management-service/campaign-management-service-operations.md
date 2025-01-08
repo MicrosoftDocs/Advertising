@@ -48,9 +48,9 @@ The Campaign Management service defines the following service operations.
 |[ApplyOfflineConversions](applyofflineconversions.md)|Applies offline conversions for the account with Microsoft Click Id among other offline conversion data.|1,000 *OfflineConversions*|
 |[ApplyOnlineConversionAdjustments](applyonlineconversionadjustments.md)|Applies online conversion adjustments.|N/A.|
 |[ApplyProductPartitionActions](applyproductpartitionactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [ProductPartition](productpartition.md).|5,000 *CriterionActions*|
-|[CreateAssetGroupRecommendation](createassetgrouprecommendation.md)|Reserved.|N/A.|
-|[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)|Reserved.|N/A.|
-|[CreateResponsiveSearchAdRecommendation](createresponsivesearchadrecommendation.md)|Reserved.|N/A.|
+|[CreateAssetGroupRecommendation](createassetgrouprecommendation.md)|Create an asset group recommendation.|N/A.|
+|[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)|Create a responsive ad recommendation.|N/A.|
+|[CreateResponsiveSearchAdRecommendation](createresponsivesearchadrecommendation.md)|Create a responsive search ad recommendation.|N/A.|
 |[DeleteAdExtensions](deleteadextensions.md)|Deletes one or more ad extensions from the account's ad extension library.|1 *AccountId*<br/><br/>100 *AdExtensionIds*|
 |[DeleteAdExtensionsAssociations](deleteadextensionsassociations.md)|Removes the specified association from the respective campaigns or ad groups.|1 *AccountId*<br/><br/>100 *AdExtensionIdToEntityIdAssociations*|
 |[DeleteAdGroupCriterions](deleteadgroupcriterions.md)|Deletes the specified ad group criterions.|1 *AccountId*<br/><br/>1,000 *AdGroupCriterionIds*|
@@ -143,9 +143,9 @@ The Campaign Management service defines the following service operations.
 |[GetSharedEntityAssociationsBySharedEntityIds](getsharedentityassociationsbysharedentityids.md)|Gets the negative keyword list to campaign associations by negative keyword list IDs, or website exclusion list to ad account associations by website exclusion list IDs.|1 *SharedEntityIds*|
 |[GetUetTagsByIds](getuettagsbyids.md)|Gets the specified Universal Event Tracking (UET) tags.|100 *TagIds*|
 |[GetVideosByIds](getvideosbyids.md)|Gets videos by video identifiers.|1,000 *VideoIds*|
-|[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)|Reserved.|N/A.|
-|[RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)|Reserved.|N/A.|
-|[RefineResponsiveSearchAdRecommendation](refineresponsivesearchadrecommendation.md)|Reserved.|N/A.|
+|[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)|Refine an asset group recommendation.|N/A.|
+|[RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)|Refine a responsive ad recommendation.|N/A.|
+|[RefineResponsiveSearchAdRecommendation](refineresponsivesearchadrecommendation.md)|Refine a responsive search ad recommendation.|N/A.|
 |[SearchCompanies](searchcompanies.md)|Search for profile data by company name.|1 *CompanyNameFilter*|
 |[SetAccountProperties](setaccountproperties.md)|Sets account level properties by name.|Not applicable|
 |[SetAdExtensionsAssociations](setadextensionsassociations.md)|Associates the specified ad extensions with the respective campaigns or ad groups.|1 *AccountId*<br/><br/>100 *AdExtensionIdToEntityIdAssociations*|
