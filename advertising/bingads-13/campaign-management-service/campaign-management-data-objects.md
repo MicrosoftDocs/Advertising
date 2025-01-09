@@ -198,6 +198,7 @@ The Campaign Management service defines the following data objects.
 |[NegativeKeyword](negativekeyword.md)|Defines a negative keyword with match type.|
 |[NegativeKeywordList](negativekeywordlist.md)|Defines a negative keyword list.|
 |[NegativeSite](negativesite.md)|Defines a website URL where you do not want your ads displayed.|
+|[NewCustomerAcquisitionGoalSetting](newcustomeracquisitiongoalsetting.md)|Defines the new customer acquisition goal setting data object.|
 |[NumberRuleItem](numberruleitem.md)|Defines a rule expression that depends on the operand, operator, and value.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
 |[OfflineConversionAdjustment](offlineconversionadjustment.md)|Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.|
@@ -257,7 +258,7 @@ The Campaign Management service defines the following data objects.
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
 |[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|
-|[VerifiedTrackingSetting](verifiedtrackingsetting.md)|Defines the VerifiedTrackingSetting Data Object.|
+|[VerifiedTrackingSetting](verifiedtrackingsetting.md)|Defines the VerifiedTrackingSetting data object.|
 |[Video](video.md)|Defines the Video Data Object.|
 |[VideoAdExtension](videoadextension.md)|Defines an ad extension with a video and call-to-action button.|
 |[VideoAsset](videoasset.md)|Defines the VideoAsset Data Object.|
