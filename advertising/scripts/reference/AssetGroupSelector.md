@@ -1,6 +1,6 @@
 ---
 title: "AssetGroupSelector object"
-description: "Contains the methods for filtering the list of ad groups to return."
+description: "Contains the methods for filtering the list of asset groups to return."
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
@@ -75,7 +75,7 @@ Applies filter criteria to the asset groups.
 
 Specify the *condition* parameter in the form, "columnName operator value" where: 
 
-- *columnName* is one of the [supported Columns](#supported-asset-group-columns). If *columName* is set to a performance metric column name, you must specify a date range using [forDateRange(String dateRange)](#fordaterange-string-daterange-) or [forDateRange(Object dateFrom, Object dateTo)](#fordaterange-object-datefrom-object-dateto-).
+- *columnName* is one of the [supported Columns](#supported-asset-group-columns).
 - *operator* is one of the supported [operators](#operators).
 
 [!INCLUDE[operators](../includes/operators.md)]
@@ -161,4 +161,4 @@ limit|int|The number of asset groups to return. The actual number may be less.
 
 ## See also
 
-[AdsApp.assetGroups()](AdsApp.md#asset-groups)
+[AdsApp.assetGroups()](AdsApp.md#assetgroups)

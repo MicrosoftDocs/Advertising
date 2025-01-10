@@ -1,6 +1,6 @@
 ---
 title: "AssetGroupIterator object"
-description: "Contains the methods for iterating through a list of ad groups."
+description: "Contains the methods for iterating through a list of asset groups."
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
@@ -18,7 +18,7 @@ Example usage:
     // in the account.
     var iterator = AdsApp.assetGroups().get();
 
-    // Loops through all ad groups in the account.
+    // Loops through all asset groups in the account.
     while (iterator.hasNext()) {
         var assetGroup = iterator.next();
     }
