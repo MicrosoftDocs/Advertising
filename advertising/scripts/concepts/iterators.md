@@ -36,6 +36,7 @@ while (iterator.hasNext()) {
 The following is the list of iterators.
 
 - [AdGroupIterator](../reference/AdGroupIterator.md)
+- [AssetGroupIterator](../reference/AssetGroupIterator.md)
 - [AdIterator](../reference/AdIterator.md)
 - [AdParamIterator](../reference/AdParamIterator.md)
 - [BingAdsAccountIterator](../reference/BingAdsAccountIterator.md)

@@ -29,7 +29,7 @@ The *GetConversionValueRulesByIdsRequest* object defines the [body](#request-bod
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*.|**int**|
+|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*. For more LCID values, see [LCID Value Set](../customer-management-service/lcid.md#values)|**int**|
 |<a name="ruleids"></a>RuleIds|The IDs of the conversion value rules to fetch.|**long** array|
 
 ### <a name="request-header"></a>Request Header Elements

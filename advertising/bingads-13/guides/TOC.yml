@@ -1985,6 +1985,8 @@
       href: ../campaign-management-service/negativekeywordlist.md
     - name: NegativeSite
       href: ../campaign-management-service/negativesite.md
+    - name: NewCustomerAcquisitionGoalSetting
+      href: ../campaign-management-service/newcustomeracquisitiongoalsetting.md
     - name: NumberRuleItem
       href: ../campaign-management-service/numberruleitem.md
     - name: OfflineConversion

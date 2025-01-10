@@ -146,6 +146,14 @@
           href: ./reference/AdUrls.md 
         - name: AdViewSpace
           href: ./reference/AdViewSpace.md 
+        - name: AssetGroup
+          href: ./reference/assetgroup.md 
+        - name: AssetGroupIterator
+          href: ./reference/assetgroupiterator.md 
+        - name: AssetGroupSelector
+          href: ./reference/assetgroupselector.md 
+        - name: AssetGroupUrls
+          href: ./reference/assetgroupurls.md 
         - name: AudienceBidding
           href: ./reference/AudienceBidding.md 
         - name: BingAdsApp
