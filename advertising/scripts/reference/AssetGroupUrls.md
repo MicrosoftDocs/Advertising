@@ -46,7 +46,7 @@ Removes this asset group's optional first path that's appended�
 void|Returns nothing.
 
 
-## <a name="clearpath1"></a>clearPath2
+## <a name="clearpath2"></a>clearPath2
 Removes this asset group's optional second path that's appended to this asset group's display URL.
 
 ### Returns

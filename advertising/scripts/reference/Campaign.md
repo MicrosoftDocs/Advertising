@@ -119,6 +119,17 @@ name|string|The label's case-sensitive name. To get a list of labels in this acc
 void|Returns nothing.
 
 
+## <a name="assetgroups"></a>assetGroups
+
+Gets a [selector](../concepts/selectors.md) used to filter the list of asset groups in this campaign.
+
+### Returns
+
+|Type|Description|
+|-|-
+[AssetGroupSelector](./AssetGroupSelector.md)|A selector used to filter the list of asset groups in this campaign.
+
+
 ## <a name="enable"></a>enable
 Enables this campaign.
 
