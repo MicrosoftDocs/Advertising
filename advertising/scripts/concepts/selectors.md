@@ -65,6 +65,7 @@ var campaigns = AdsApp.campaigns()
 The following is the list of selectors.
 
 - [AdGroupSelector](../reference/AdGroupSelector.md)
+- [AssetGroupSelector](../reference/AssetGroupSelector.md)
 - [AdParamSelector](../reference/AdParamSelector.md)
 - [AdSelector](../reference/AdSelector.md)
 - [BingAdsAccountSelector](../reference/BingAdsAccountSelector.md)

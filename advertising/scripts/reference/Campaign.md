@@ -20,7 +20,8 @@ Contains the methods used to manage a [campaign](/advertising/guides/entity-hier
 [addNegativeKeywordList(NegativeKeywordList negativeKeywordList)](#addnegativekeywordlist-negativekeywordlist-negativekeywordlist-)|void|Adds a negative keyword list to this campaign.
 [adgroups](#adgroups)|[AdGroupSelector](./AdGroupSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of ad groups in this campaign.
 [ads](#ads)|[AdSelector](./AdSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of ads in this campaign.
-[applyLabel(string name)](#applylabel-string-name-)|void|Applies the label to this campaign. 
+[applyLabel(string name)](#applylabel-string-name-)|void|Applies the label to this campaign.
+[assetgroups](#assetgroups)|[AssetGroupSelector](./AssetGroupSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of asset groups in this campaign.
 [enable](#enable)|void|Enables this campaign.
 [excludeLocation(int locationId)](#excludelocation-int-locationid)|[ExcludedLocationOperation](./ExcludedLocationOperation.md)|Creates a location exclusion in this campaign from a location ID.
 [getBiddingStrategyType](#getbiddingstrategytype)|string|Gets this campaign's bidding strategy.

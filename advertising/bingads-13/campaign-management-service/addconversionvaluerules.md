@@ -30,7 +30,7 @@ The *AddConversionValueRulesRequest* object defines the [body](#request-body) an
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="conversionvaluerules"></a>ConversionValueRules|The conversion value rules to be created.|[ConversionValueRule](conversionvaluerule.md) array|
-|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*.|**int**|
+|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*. For more LCID values, see [LCID Value Set](../customer-management-service/lcid.md#values).|**int**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
