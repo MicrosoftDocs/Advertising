@@ -14,7 +14,7 @@ Contains the methods for filtering and sorting a list of asset groups. For infor
 
 Example usage:
 ```javascript
-    var iterator = AdsApp.assetGroups()
+    var iterator = Campaign.assetGroups()
         .withCondition("ClickConversionRate > 0.3")
         .forDateRange("LAST_WEEK")
         .orderBy("Clicks DESC")
@@ -129,7 +129,7 @@ Gets asset groups with the specified IDs.
 [!INCLUDE[with-ids-chaining](../includes/with-ids-chaining.md)] For example, the following call selects only asset group 33333.
 
 ```javascript
-var selector = AdsApp.assetGroups()
+var selector = Campaign.assetGroups()
     .withIds(['11111', '22222', '33333'])
     .withIds(['33333', '44444', '55555']);
 ```
@@ -161,4 +161,4 @@ limit|int|The number of asset groups to return. The actual number may be less.
 
 ## See also
 
-[AdsApp.assetGroups()](AdsApp.md#assetgroups)
+[Campaign.assetGroups()](Campaign.md#assetgroups)
