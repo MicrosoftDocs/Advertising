@@ -20,7 +20,6 @@ This is the top-level object used to access and manage a single account.
 |Method Name|Return Type|Description|
 |-|-|-
 [adGroups](#adgroups)|[AdGroupSelector](./AdGroupSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of ad groups in this account.
-[assetGroups](#assetgroups)|[AssetGroupSelector](./AssetGroupSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of asset groups in this account.
 [ads](#ads)|[AdSelector](./AdSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of ads in this account.
 [budgets](#budgets)|[BudgetSelector](./BudgetSelector.md)|Gets a [selector](../concepts/selectors.md) used to filter the list of shared budgets in this account.
 [campaigns](#campaigns)|[CampaignSelector](./CampaignSelector.md)|Gets a selector used to filter the list of campaigns in this account.
@@ -47,17 +46,6 @@ Gets a [selector](../concepts/selectors.md) used to filter the list of ad groups
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector.md)|A selector used to filter the list of ad groups in the current account.
-
-
-## <a name="assetgroups"></a>assetGroups
-
-Gets a [selector](../concepts/selectors.md) used to filter the list of asset groups in this account. 
-
-### Returns
-
-|Type|Description|
-|-|-
-[AssetGroupSelector](./AssetGroupSelector.md)|A selector used to filter the list of asset groups in the current account.
 
 
 ## <a name="ads"></a>ads
