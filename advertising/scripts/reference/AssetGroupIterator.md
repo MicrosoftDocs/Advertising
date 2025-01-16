@@ -16,7 +16,7 @@ Example usage:
 ```javascript
     // Gets the iterator that iterates all asset groups
     // in the account.
-    var iterator = AdsApp.assetGroups().get();
+    var iterator = Campaign.assetGroups().get();
 
     // Loops through all asset groups in the account.
     while (iterator.hasNext()) {
