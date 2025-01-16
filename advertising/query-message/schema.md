@@ -14,6 +14,6 @@ The Query XSD defines the schema used by Bing Hotel API's Query message. The sch
 
 The following is the XSD that defines query messages.
 
-- [query.xsd](https://bhacstatic.blob.core.windows.net/schemas/query.xsd)
+- [query.xsd](https://bhacstatic.z22.web.core.windows.net/schemas/query.xsd)
 
 For information about processing query messages, see [Processing a Query Message](../query-message/process-query-message.md).

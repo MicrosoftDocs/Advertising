@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 
 # Validate a hint message
 
-Microsoft provides the [QueryControl XSD](https://bhacstatic.blob.core.windows.net/schemas/hint.xsd) that you use to validate your Hint message before sending it to Microsoft. This saves time and round trips by catching document syntax errors. You should always validate your messages before sending them to Microsoft.
+Microsoft provides the [QueryControl XSD](https://bhacstatic.z22.web.core.windows.net/schemas/hint.xsd) that you use to validate your Hint message before sending it to Microsoft. This saves time and round trips by catching document syntax errors. You should always validate your messages before sending them to Microsoft.
 
 The following example shows using xmllint to validate the message contained in SampleHint.xml.
 

@@ -13,7 +13,7 @@ ms.date: 11/13/2024
 To provide Bing your Landing pages data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
 
 
-The document must use UTF-8 encoding and must conform to the [PointsOfSale XSD](https://bhacstatic.blob.core.windows.net/schemas/point_of_sale.xsd). 
+The document must use UTF-8 encoding and must conform to the [PointsOfSale XSD](https://bhacstatic.z22.web.core.windows.net/schemas/point_of_sale.xsd). 
 
 > [!NOTE]
 > Bing does not support all XSD elements. Bing ignores any element or attribute in the document that it does not support. The [Landing pages reference](../pos-feed/reference.md) includes only those elements and attributes that Bing supports. 
@@ -279,7 +279,7 @@ http://partner.com?hotelID=123&checkinDay=23&checkinMonth=05&checkinYear=2021&ni
 
 ## Next steps
 
-After creating your feed file, use the [PointsOfSale XSD](https://bhacstatic.blob.core.windows.net/schemas/point_of_sale.xsd) to validate it.
+After creating your feed file, use the [PointsOfSale XSD](https://bhacstatic.z22.web.core.windows.net/schemas/point_of_sale.xsd) to validate it.
 
 Ask your account manager to import the feed file.
 
