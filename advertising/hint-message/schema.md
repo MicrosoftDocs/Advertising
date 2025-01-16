@@ -14,7 +14,7 @@ The Hint XSD defines the schema used by Bing Hotel API's Hint message. The schem
 
 The following is the XSD that defines hint messages.
 
-- [hint.xsd](https://bhacstatic.blob.core.windows.net/schemas/hint.xsd)
+- [hint.xsd](https://bhacstatic.z22.web.core.windows.net/schemas/hint.xsd)
 
 Use this XSD to validate your message before sending it to Bing. For information, see [Validating your Hint Message](../hint-message/validate-hint-message.md).
 

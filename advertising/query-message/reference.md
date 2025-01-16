@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 
 # Query message reference
 
-If you update your hotels' itinerary data using the Pull or Pull with Hints method, you use the Query message to specify the amount of data that Bing should ask for in its pull requests. This topic describes the elements of the Query message defined by the [Query XSD](https://bhacstatic.blob.core.windows.net/schemas/query.xsd). 
+If you update your hotels' itinerary data using the Pull or Pull with Hints method, you use the Query message to specify the amount of data that Bing should ask for in its pull requests. This topic describes the elements of the Query message defined by the [Query XSD](https://bhacstatic.z22.web.core.windows.net/schemas/query.xsd). 
 
 For information about processing Query messages, see [Processing a Query Message](../query-message/process-query-message.md).
 

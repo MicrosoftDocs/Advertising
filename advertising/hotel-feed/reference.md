@@ -15,7 +15,7 @@ If you create hotel price ads in Bing, you must use a Property feed to provide B
 For information about creating a property feed, see [Creating a Property feed](../hotel-feed/create-hotel-feed.md).
 
 > [!NOTE]
-> The elements must be specified in the order defined by the [Hotel XSD](https://bhacstatic.blob.core.windows.net/schemas/hotelv2.xsd) (and as listed in this topic).
+> The elements must be specified in the order defined by the [Hotel XSD](https://bhacstatic.z22.web.core.windows.net/schemas/hotelv2.xsd) (and as listed in this topic).
 
 ----
 

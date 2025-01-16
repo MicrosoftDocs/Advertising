@@ -17,7 +17,7 @@ Price feeds are limited to 100 MB of uncompressed data or 10 MB of compressed da
 
 A Price feed should contain only itineraries that you're adding or updating&mdash;do not include itineraries that have not changed since the last time you sent a message. 
 
-The document must use UTF-8 encoding and must conform to the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
+The document must use UTF-8 encoding and must conform to the [Transaction XSD](https://bhacstatic.z22.web.core.windows.net/schemas/transaction.xsd). 
 
 > [!IMPORTANT]
 > You must read and follow all Hotel Price Ads policies. For the list of policies, see [Pilot programs policies](https://advertise.bingads.microsoft.com/en-us/resources/policies/pilot-programs#Hotel%20Ads).

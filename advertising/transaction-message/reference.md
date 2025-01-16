@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 
 # Price feed reference
 
-If you create hotel price ads in Bing, use price feeds to provide Bing your itinerary data. This section describes the elements of a price feeddefined by the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd). 
+If you create hotel price ads in Bing, use price feeds to provide Bing your itinerary data. This section describes the elements of a price feeddefined by the [Transaction XSD](https://bhacstatic.z22.web.core.windows.net/schemas/transaction.xsd). 
 
 For information about creating a price feed, see [Creating a price feed](../transaction-message/create-transaction-message.md).
 

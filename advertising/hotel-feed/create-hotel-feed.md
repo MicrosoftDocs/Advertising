@@ -14,7 +14,7 @@ ms.date: 11/13/2024
 
 To provide Microsoft your hotel listings, create an XML document that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, geographical coordinates, amenities, and more.
 
-The document must use UTF-8 encoding and must conform to the [Hotel XSD](https://bhacstatic.blob.core.windows.net/schemas/hotelv2.xsd). 
+The document must use UTF-8 encoding and must conform to the [Hotel XSD](https://bhacstatic.z22.web.core.windows.net/schemas/hotelv2.xsd). 
 
 For information about creating a feed file using CSV or TSV file format, see [Creating a CSV Property feed file](create-csv-hotel-feed.md).
 
@@ -183,7 +183,7 @@ If you remove a hotel and add it back in a later feed with the same property val
 
 ## Next steps
 
-After creating your feed file, use the [Hotel XSD](https://bhacstatic.blob.core.windows.net/schemas/hotelv2.xsd) to validate it.
+After creating your feed file, use the [Hotel XSD](https://bhacstatic.z22.web.core.windows.net/schemas/hotelv2.xsd) to validate it.
 
 Ask your account manager to import the feed file.
 
