@@ -15,7 +15,7 @@ If you create hotel price ads in Bing, you must use a Landing pages feed to prov
 For information about creating a Landing pages feed, see [Creating a Landing pages Feed](../pos-feed/create-pos-feed.md).
 
 > [!NOTE]
-> The elements must be specified in the order defined by the [PointsOfSale XSD](https://bhacstatic.blob.core.windows.net/schemas/point_of_sale.xsd) (and as listed in this topic).
+> The elements must be specified in the order defined by the [PointsOfSale XSD](https://bhacstatic.z22.web.core.windows.net/schemas/point_of_sale.xsd) (and as listed in this topic).
 
 > [!NOTE]
 > Bing ignores any element or attribute not included below.

@@ -71,7 +71,7 @@ The document must use UTF-8 encoding.
 
 ## Validate the message before sending it
 
-Before sending Microsoft the Price feed, use the [Transaction XSD](https://bhacstatic.blob.core.windows.net/schemas/transaction.xsd) to validate the message. This saves time and round trips by catching document syntax errors and constraints imposed by the XSD. 
+Before sending Microsoft the Price feed, use the [Transaction XSD](https://bhacstatic.z22.web.core.windows.net/schemas/transaction.xsd) to validate the message. This saves time and round trips by catching document syntax errors and constraints imposed by the XSD. 
 
 The following example shows using xmllint to validate the message contained in SampleTransaction.xml.
 
