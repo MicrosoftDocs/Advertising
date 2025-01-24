@@ -33,7 +33,7 @@ Example usage:
 |-|-|-
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange-object-datefrom-object-dateto-)|[ProductGroupSelector](./ProductGroupSelector.md)|Applies the start and end dates for selecting performance metrics.
 [forDateRange(string dateRange)](#fordaterange-string-daterange-)|[ProductGroupSelector](./ProductGroupSelector.md)|Applies the predefined date range for selecting performance metrics.
-[get](#get)|[AdGroupIterator](./AdGroupIterator.md)|Gets an iterator used to iterate through the list of product groups.
+[get](#get)|[ProductGroupSelector](./ProductGroupSelector.md)|Gets an iterator used to iterate through the list of product groups.
 [orderBy(string orderBy)](#orderby-string-orderby-)|[ProductGroupSelector](./ProductGroupSelector.md)|Applies the specified ordering to the selected product groups.
 [withCondition(string condition)](#withcondition-string-condition-)|[ProductGroupSelector](./ProductGroupSelector.md)|Applies filter criteria to the product groups.
 [withIds(string[] ids)](#withids-string-ids-)|[ProductGroupSelector](./ProductGroupSelector.md)|Gets product groups with the specified IDs.
@@ -78,7 +78,7 @@ Gets an [iterator](../concepts/iterators.md) used to iterate through the list of
 ### Returns
 |Type|Description|
 |-|-
-[AdGroupIterator](./AdGroupIterator.md)|An iterator used to iterate through the selected product groups.
+[ProductGroupSelector](./ProductGroupSelector.md)|An iterator used to iterate through the selected product groups.
 
 ## <a name="orderby-string-orderby-"></a>orderBy(String orderBy)
 Applies the specified ordering to the selected product groups. 
