@@ -15,7 +15,10 @@ dev_langs:
 - python
 ---
 # SearchCoupons Service Operation - Customer Billing
-Searches for coupons that match a specified criteria.
+Searches for coupons that match a specified criteria from within the set of coupons where the supplied *userID* is identified as the *ownerCustomer*. The *ownerCustomer* designation is assigned to coupons which have been minted specifically for distribution by that user.
+
+> [!NOTE]
+> SearchCoupons allows you to see which coupons associated with your account have been used and which are available. It doesn't return every coupon that is associated with your account.
 
 ::: zone pivot="soap"
 
