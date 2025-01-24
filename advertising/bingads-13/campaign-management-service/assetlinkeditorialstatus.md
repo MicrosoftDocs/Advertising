@@ -34,7 +34,7 @@ The [AssetLinkEditorialStatus](assetlinkeditorialstatus.md) value set has the fo
 |<a name="activelimited"></a>ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of the asset is undergoing editorial review in another market. For example the asset passed editorial review for Canada and is still pending review in the United States.|
 |<a name="disapproved"></a>Disapproved|The asset failed editorial review.|
 |<a name="inactive"></a>Inactive|One or more elements of the asset is undergoing editorial review.|
-|<a name="unknown"></a>Unknown|Reserved for future use.|
+|<a name="unknown"></a>Unknown|The editorial status of the asset is unknown.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
