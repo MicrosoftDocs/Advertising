@@ -216,11 +216,11 @@ The following table defines limits for ad group properties.
 
 ## <a name="ads"></a>Ads
 
-Each ad group can contain between one and 100 ads combined for both active and paused ads of all types i.e., [app install](#appinstallad), [dynamic search](#dynamicsearchad), [expanded text](#expandedtextad), standard text (deprecated), [product](#productad), and [responsive (audience network)](#responsivead) ads. Each ad group can contain 3 active [responsive search](#responsivesearchad) ads.
+Each ad group can contain between one and 100 ads combined for both active and paused ads of all types i.e., [app install](#appinstallad), [dynamic search](#dynamicsearchad), [expanded text](#expandedtextad), standard text (deprecated), [product](#productad), and [responsive (audience network)](#responsivead) ads. Each ad group can contain 3 active [responsive search](#responsivesearchad) ads. Each ad group can contain 3 active (5 total) multimedia ads.  
 
-Each account can have up to 4 million ads.
+Each account can have up to 4 million ads.  
 
-Each customer can have up to 20 million ads.
+Each customer can have up to 20 million ads.  
 
 ### <a name="appinstallad"></a>App Install Ads
 Create an app install ad if your intention is to drive app downloads, and not necessarily to direct leads to a web site. If you want to direct leads to a web site in addition to driving app downloads, then you should create an expanded text ad with app ad extensions.
