@@ -16,7 +16,7 @@ To provide Microsoft your hotel listings, create a CSV file that contains a list
 For information about creating a feed file using an XML document, see [Creating an XML Property feed file](create-hotel-feed.md).
 
 > [!NOTE]
-> The Property feed supports only the English language.
+> The Property feed supports local languages.
 > 
 > CSV format doesn't support images. Use XML format instead.
 
