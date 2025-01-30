@@ -50,7 +50,7 @@ The property feed contains a single, top-level [listings](../hotel-feed/referenc
 
 
 > [!NOTE]
-> We currently support feed data only in English.
+> We currently support feed data in local languages.
 
 The `language` element specifies the language that the data in the feed is written in. To specify the language, use the two-letter ISO 639 language code. For example, use **en** for English.
 
