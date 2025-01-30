@@ -142,7 +142,7 @@ Structured Snippet headers must be specified in the same language that you inten
 The following headers are supported per language.
 
 > [!NOTE]
-> The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.
+> The following languages are not yet available for everyone: Estonian, Latvian, Maltese, Slovak, Slovenian.
 
 ```csv
 Language,Amenities,Brands,Courses,Degree programs,Destinations,Featured hotels,Goods,Insurance coverage,Items,Models,Neighborhoods,Services,Service catalog,Shows,Styles,Types
@@ -203,7 +203,7 @@ As of January 2020, nine action types are deprecated. For example, if you set th
 When using the Bing Ads API you will always set the action type using an English pascal case enumeration value i.e., one of the language strings in the first comma separated row below. The language translations are documented for your convenience, although you will not use them directly via the Bing Ads API.  
 
 > [!NOTE]
-> The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.
+> The following languages are not yet available for everyone: Estonian, Latvian, Maltese, Slovak, Slovenian.
 
 ```csv
 Language,ActNow,ApplyNow,BetNow,BidNow,BookACar,BookHotel,BookNow,BuyNow,ChatNow,Compare,ContactUs,Coupon,Directions,Donate,Download,EmailNow,EnrollNow,FileNow,FindJob,FindStore,FreePlay,FreeQuote,FreeTrial,GetDeals,GetOffer,GetQuote,JoinNow,LearnMore,ListenNow,LogIn,OrderNow,PlayGame,PlayNow,PostJob,Register,RenewNow,RentACar,RentNow,Reorder,Reserve,Sale,SaveNow,Schedule,SeeMenu,SeeOffer,SellNow,ShopNow,Showtimes,SignIn,SignUp,StartNow,Subscribe,SwitchNow,TestDrive,TryNow,ViewCars,ViewPlans,VisitStore,VoteNow,Watch,WatchMore,WatchNow
