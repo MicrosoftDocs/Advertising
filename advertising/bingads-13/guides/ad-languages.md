@@ -145,32 +145,30 @@ The following headers are supported per language.
 > The following languages are not yet available for everyone: Estonian, Latvian, Maltese, Slovak, Slovenian.
 
 ```csv
-Language,Amenities,Brands,Courses,Degree programs,Destinations,Featured hotels,Goods,Insurance coverage,Items,Models,Neighborhoods,Services,Service catalog,Shows,Styles,Types
-Bulgarian,Удобства,Марки,Курсове,Дипломни програми,Дестинации,Препоръчани хотели,Стоки,Застрахователно покритие,Елементи,Модели,Квартали,Услуги,Каталог на услугите,Предавания,Стилове,Типове
-Chinese (Traditional zh-TW),設施,品牌,課程,學位課程,目的地,精選飯店,商品,承保範圍,項目,型號,社區,服務,服務目錄,節目,款式,類型
-Croatian,Pogodnosti,Robne marke,Kolegiji,Diplomski programi,Odredišta,Izdvojeni hoteli,Roba,Polica osiguranja,Stavke,Modeli,Četvrti,Usluge,Katalog usluga,Emisije,Stilovi,Vrste
-Czech,Vybavení,Značky,Kurzy,Studijní programy,Cíle,Doporučené hotely,Zboží,Pojistné krytí,Položky,Modely,Čtvrti,Služby,Katalog služeb,Pořady,Styly,Typy
-Danish,Faciliteter,Mærker,Kurser,Kandidatprogrammer,Destinationer,Udvalgte hoteller,Varer,Forsikringsdækning,Elementer,Modeller,Kvarterer,Serviceydelser,Servicekatalog,Shows,Design,Typer
-Dutch,Voorzieningen,Merken,Cursussen,Studieprogramma's,Bestemmingen,Aanbevolen hotels,Producten,Dekking,Items,Modellen,Buurten,Services,Servicecatalogus,Shows,Stijlen,Typen
-English,Amenities,Brands,Courses,Degree programs,Destinations,Featured hotels,Goods,Insurance coverage,Items,Models,Neighborhoods,Services,Service catalog,Shows,Styles,Types
-Estonian,Soodustused,Kaubamärgid,Kursused,Kraadiõppeprogrammid,Sihtkohad,Esiletõstetud hotellid,Kaubad,Kindlustuskate,Artiklid,Mudelid,Asumid,Teenused,Teenusekataloog,Etendused,Stiilid,Tüübid
-Finnish,Mukavuudet,Tuotemerkit,Kurssit,Tutkinto-ohjelmat,Määränpäät,Esitellyt hotellit,Tavarat,Vakuutuksen kattavuus,Nimikkeet,Mallit,Kaupunginosat,Palvelut,Huoltoluettelo,Esitykset,Tyylit,Tyypit
-French (France),Équipements,Marques,Cours,Programmes d'études,Destinations,Sélection d'hôtels,Biens,Couverture d'assurance,Éléments,Modèles,Quartiers,Services,Catalogue de services,Émissions,Styles,Types
-German,Ausstattung,Marken,Kurse,Studiengänge,Ziele,Vorgestellte Hotels,Waren,Versicherungsleistung,Artikel,Modelle,Viertel,Dienstleistungen,Dienstkatalog,Serien,Stile,Typen
-Greek,Παροχές,Μάρκες,Μαθήματα,Προγράμματα πτυχίου,Προορισμοί,Επιλεγμένα ξενοδοχεία,Αγαθά,Ασφαλιστική κάλυψη,Στοιχεία,Μοντέλα,Γειτονιές,Υπηρεσίες,Κατάλογος υπηρεσιών,Εκπομπές,Στυλ,Τύποι
-Hungarian,Kényelmi szolgáltatások,Márkák,Tanfolyamok,Képzések,Célállomások,Kiemelt szállodák,Áruk,Biztosítási fedezet,Elemek,Modellek,Városrészek,Szolgáltatások,Szolgáltatáskatalógus,Előadások,Stílusok,Típusok
-Italian,Attrattive,Marche,Corsi,Corsi di studio,Destinazioni,Hotel consigliati,Beni,Copertura assicurativa,Articoli,Modelli,Quartieri,Servizi,Catalogo de servizi,Programmi,Stili,Tipi
-Latvian,Ērtības,Zīmoli,Kursi,Studiju programmas,Galamērķi,Piedāvātās viesnīcas,Preces,Apdrošināšanas segums,Vienumi,Modeļi,Apkaimes,Pakalpojumi,Pakalpojumu katalogs,Izrādes,Stili,Veidi
-Lithuanian,Patogumai,Prekių ženklai,Mokymo programos,Programos laipsniui gauti,Kelionės tikslai,Atrinkti viešbučiai,Prekės,Draudimo apsauga,Elementai,Modeliai,Kaimynystė,Paslaugos,Paslaugų katalogas,Parodymai,Stiliai,Tipai
-Maltese,Faċilitajiet,Ditti,Korsijiet,Programmi ta' lawrji,Destinazzjonijiet,Lukandi Msemmija,Oġġetti,Kopertura tal-assigurazzjoni,Items,Mudelli,Viċinanzi,Servizzi,Katalgu tas-servizz,Spettakli,Stili,Tipi
-Norwegian,Fasiliteter,Merkevarer,Kurs,Universitetsprogrammer,Destinasjoner,Fremhevede hoteller,Varer,Forsikring,Gjenstander,Modeller,Nabolag,Tjenester,Servicekatalog,TV-serier,Stiler,Typer
+Language,Disclaimer info,Disclaimer,Disclosure,More disclaimer info,Offer Details,Safety Info,Safety Information
+Bulgarian,Информация за отказ от отговорност,Отричане,Оповестяване,Повече информация за отричане,Подробности за офертата,Информация за безопасност,Информация за безопасност
+Chinese (Traditional zh-TW),免責聲明資訊,免責聲明,揭露,更多免責聲明資訊,優惠詳細內容,安全資訊,安全資訊
+Croatian,Informacije o odricanju od odgovornost,Odricanj,Razotkrivanj,Više informacija o odricanju od odgovornost,Detalji ponud,Sigurnosne informacij,Sigurnosne informacij
+Czech,Informace o právním omezen,Prohlášen,Zveřejněn,Další informace o zřeknutí se odpovědnost,Podrobnosti nabídk,Bezpečnostní informac,Bezpečná informac
+Danish,Oplysninger om ansvarsfraskrivels,Ansvarsfraskrivels,Offentliggørels,Mere ansvarsfraskrivelse inf,Oplysninger om tilbudde,Sikkerhedsoplysninge,Sikkerhedsoplysninge
+Dutch,Disclaimer inf,Disclaime,Openbaarmakin,Meer disclaimer inf,Aanbiedingsdetail,Veiligheidsinformati,Veiligheidsinformati
+English,Disclaimer info,Disclaimer,Disclosure,More disclaimer info,Offer Details,Safety Info,Safety Information
+Finnish,Vastuuvapauslausekkeen tiedo,Vastuuvapauslausek,Julkistamine,Lisätietoja vastuuvapauslausekkeest,Tarjouksen tiedo,Turvallisuustiedo,Turvallisuustiedo
+French (France),Info d'exclusion,Exclusion de responsabilité,Divulgation,Autres informations d’exclusion de responsabilité,Détails de l’offre,Infos de sécurité,Informations de sécurité
+German,Informationen zum Haftungsausschlus,Haftungsausschlus,Offenlegun,Weitere Informationen zum Haftungsausschlus,Angaben zum Angebo,Sicherheitsinformatione,Sicherheitsinformatione
+Greek,Πληροφορίες αποποίησης ευθυνώ,Αποποίηση ευθυνώ,Αποκάλυψ,Περισσότερες πληροφορίες αποποίησης ευθυνώ,Λεπτομέρειες προσφορά,Πληροφορίες ασφάλεια,Πληροφορίες ασφαλεία
+Hungarian,Jogi nyilatkozati információ,Jogi nyilatkoza,Közzététe,További jogi nyilatkozati információ,Ajánlat részlete,Biztonsági adato,Biztonsági információ
+Indonesian,Info sanggaha,Sanggaha,Pengungkapa,Info sanggahan selengkapny,Detail Penawara,Info Keamana,Informasi Keamana
+Italian,Informazioni dichiarazione di non responsabilit,Dichiarazione di non responsabilit,Divulgazion,Ulteriori informazioni sulla dichiarazione di non responsabilit,Dettagli dell'offert,Info sicurezz,Informazioni di sicurezz,Informazioni sulla dichiarazione di non responsabilit
+Lithuanian,Atsakomybės apribojimo informacij,Atsakomybės apribojima,Atskleidima,Daugiau atsakomybės atsisakymo informacijo,Pasiūlymo informacij,Saugos informacij,Saugos informacij
+Norwegian,Informasjon om ansvarsfraskrivels,Ansvarsfraskrivels,Avslørin,Mer informasjon om ansvarsfraskrivels,Detaljer om tilbude,Informasjon om sikkerhe,Sikkerhetsinformasjo
 Polish,Udogodnienia,Marki,Kursy,Studia,Kierunki,Polecane hotele,Produkty,Zakres ubezpieczenia,Pozycje,Modele,Osiedla,Usługi,Katalog usług,Pokazy,Style,Typy
-Portuguese (Brazil pt-BR),Comodidades,Marcas,Cursos,Programas de graduação,Destinos,Hotéis em destaque,Bens,Cobertura do seguro,Itens,Modelos,Vizinhança,Serviços,Catálogo de serviços,Programas,Estilos,Tipos
-Romanian,Dotări,Mărci,Cursuri,Programe educaționale,Destinații,Hoteluri recomandate,Bunuri,Acoperirea asigurării,Articole,Modele,Cartiere,Servicii,Catalog de servicii,Emisiuni,Stiluri,Tipuri
-Slovak,Vybavenie,Značky,Kurzy,Študijné programy,Destinácie,Vybrané hotely,Tovar,Poistné krytie,Položky,Modely,Štvrte,Služby,Katalóg služieb,Relácie,Štýly,Typy
-Slovenian,Dodatna ponudba,Blagovne znamke,Predavanja,Diplomski programi,Kraji,Izpostavljeni hoteli,Izdelki,Zavarovalno kritje,Elementi,Modeli,Mestne četrti,Storitve,Katalog storitev,Oddaje,Slogi,Vrste
-Spanish (Latin America es-419),Servicios adicionales,Marcas,Cursos,Carreras universitarias,Destinos,Hoteles destacados,Artículos,Cobertura de seguro,Elementos,Modelos,Barrios,Servicios,Catálogo de servicios,Programas,Estilos,Tipos
-Swedish,Bekvämligheter,Varumärken,Kurser,Utbildningar,Resmål,Hotellval,Varor,Försäkringstyper,Objekt,Bilmodeller,Grannskap,Tjänster,Servicekatalog,Program,Stilar,Typer
+Portuguese (Brazil pt-BR),Informacje dotyczące zastrzeżeni,Zastrzeżenie prawn,Ujawniani,Więcej informacji o zastrzeżeni,Szczegóły ofert,Informacje o bezpieczeństwi,Informacje o bezpieczeństwi
+Romanian,Pictogramă de avertizar,Exonerare de răspunder,Dezvăluir,Mai multe informații despre exonerarea de răspunder,Detaliile oferte,Informații de siguranț,Informații privind siguranț
+Spanish (Latin America es-419),Información de declinación de responsabilidade,Aviso de declinación de responsabilidade,Revelació,Más información de avisos de declinación de responsabilidade,Detalles de la ofert,Inform. segurida,Información de segurida
+Swedish,Information om ansvarsfriskrivnin,Ansvarsfriskrivnin,Utlämnand,Mer information om ansvarsfriskrivnin,Information om erbjudande,Säkerhets inf,Säkerhetsinformatio
+Thai,ข้อมูลข้อสงวนสิทธิ,ข้อสงวนสิทธิ,การเปิดเผ,ข้อมูลเกี่ยวกับข้อสงวนสิทธิ์เพิ่มเติ,รายละเอียดของข้อเสน,ข้อมูลความปลอดภั,ข้อมูลความปลอดภั
+Vietnamese,Thông tin tuyên bố miễn trừ trách nhiệ,Tuyên bố miễn trừ trách nhiệ,Tiết l,Thông tin tuyên bố miễn trừ trách nhiệm khá,Chi tiết chương trìn,Thông tin An toà
 ```
 
 ## <a name="actionadextension-actiontext"></a>Action Text for Action Ad Extensions
