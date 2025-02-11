@@ -11,7 +11,9 @@ description: Defines the base class of a shared list item.
 # SharedListItem Data Object - Campaign Management
 Defines the base class of a shared list item.
 
-Do not try to instantiate a *SharedListItem*. You can create one or more of the following objects that derive from it.
+Do not try to instantiate a *SharedListItem*. You can create one or more of the following objects that derive from it.  
+
+- [BrandItem](branditem.md)  
 - [NegativeKeyword](negativekeyword.md)  
 - [NegativeSite](negativesite.md)  
 
@@ -37,7 +39,7 @@ The [SharedListItem](sharedlistitem.md) object has the following elements: [Forw
 ## <a name="remarks"></a>Remarks
 For Java and the .NET languages, do not set the *Type* element because the value is determined by the object instance.
 
-If you generate the SOAP manually, use the *Type* attribute of the `<SharedListItem>` node as shown in the following example, to specify whether the shared list item is a negative keyword or negative site.
+If you generate the SOAP manually, use the *Type* attribute of the `<SharedListItem>` node as shown in the following example, to specify whether the shared list item is a brand item, negative keyword, or negative site.
 
 ```xml
 <SharedListItem i:type="-- specify derived type here with the appropriate prefix --">
