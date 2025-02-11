@@ -11,12 +11,14 @@ description: Defines the base class of a shared entity.
 # SharedEntity Data Object - Campaign Management
 Defines the base class of a shared entity.
 
-Do not try to instantiate a *SharedEntity*. You can create one or more of the following objects that derive from it.
+Do not try to instantiate a *SharedEntity*. You can create one or more of the following objects that derive from it.  
+
+- [AccountNegativeKeywordList](accountnegativekeywordlist.md)
+- [BrandList](brandlist.md)  
 - [NegativeKeywordList](negativekeywordlist.md)  
 - [PlacementExclusionList](placementexclusionlist.md)  
-- [AccountNegativeKeywordList](accountnegativekeywordlist.md)
 
-The [NegativeKeywordList](negativekeywordlist.md), [AccountNegativeKeywordList](accountnegativekeywordlist.md), and [PlacementExclusionList](placementexclusionlist.md) are each derived from the [SharedList](sharedlist.md), which derives from the [SharedEntity](sharedentity.md) object.
+The [AccountNegativeKeywordList](accountnegativekeywordlist.md), [BrandList](brandlist.md), [NegativeKeywordList](negativekeywordlist.md), and [PlacementExclusionList](placementexclusionlist.md) are each derived from the [SharedList](sharedlist.md), which derives from the [SharedEntity](sharedentity.md) object.
 
 ## Syntax
 ```xml
@@ -41,7 +43,7 @@ The [SharedEntity](sharedentity.md) object has the following elements: [Associat
 |<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for this object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the shared entity.<br/><br/>**Add:** Read-only<br/>**Update:** Required|**long**|
 |<a name="name"></a>Name|The name of the shared entity.<br/><br/>The maximum string length is 255.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
-|<a name="type"></a>Type|The type of the shared entity.<br/><br/>This value is *NegativeKeywordList* when you retrieve a [NegativeKeywordList](negativekeywordlist.md). This value is *PlacementExclusionList* when you retrieve a [PlacementExclusionList](placementexclusionlist.md). This value is *AccountNegativeKeywordList* when you retrieve an [AccountNegativeKeywordList](accountnegativekeywordlist.md).<br/><br/>For more information about shared entity types, see [SharedEntity Data Object Remarks](sharedentity.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
+|<a name="type"></a>Type|The type of the shared entity.<br/><br/>This value is *AccountNegativeKeywordList* when you retrieve an [AccountNegativeKeywordList](accountnegativekeywordlist.md). This value is *BrandList* when you retrieve a [BrandList](brandlist.md). This value is *NegativeKeywordList* when you retrieve a [NegativeKeywordList](negativekeywordlist.md). This value is *PlacementExclusionList* when you retrieve a [PlacementExclusionList](placementexclusionlist.md). <br/><br/>For more information about shared entity types, see [SharedEntity Data Object Remarks](sharedentity.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 
 ## <a name="remarks"></a>Remarks
 For Java and the .NET languages, do not set the *Type* element because the value is determined by the object instance.
