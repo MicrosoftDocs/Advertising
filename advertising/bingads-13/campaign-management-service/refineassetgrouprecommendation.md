@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # RefineAssetGroupRecommendation Service Operation - Campaign Management
-Refine an asset group recommendation.
+Refine an asset group recommendation.  
 
 ::: zone pivot="soap"
 
