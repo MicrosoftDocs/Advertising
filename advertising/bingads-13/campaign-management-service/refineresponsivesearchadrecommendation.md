@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # RefineResponsiveSearchAdRecommendation Service Operation - Campaign Management
-Refine a responsive search ad recommendation.
+Refine a responsive search ad recommendation.  
 
 ::: zone pivot="soap"
 
