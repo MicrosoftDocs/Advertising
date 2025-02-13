@@ -467,7 +467,7 @@ The *CreateResponsiveAdRecommendationRequest* object defines the [body](#request
 |<a name="adsubtype"></a>AdSubType|Reserved.|[AdSubType](adsubtype.md)|
 |<a name="finalurls"></a>FinalUrls|Reserved.|**string** array|
 |<a name="prompt"></a>Prompt|Reserved.|**string**|
-|<a name="texttone"></a>TextTone|Reserved.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
+|<a name="texttone"></a>TextTone|The text tone. Can be *Friendly*, *Persuasive*, *Cute*, *Inspiring*.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
