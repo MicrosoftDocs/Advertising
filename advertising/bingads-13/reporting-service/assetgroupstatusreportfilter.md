@@ -43,6 +43,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 ## Used By
 [AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)  
 [GeographicPerformanceReportFilter](geographicperformancereportfilter.md)  
+[GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)  
 [ProductDimensionPerformanceReportFilter](productdimensionperformancereportfilter.md)  
 [ProductNegativeKeywordConflictReportFilter](productnegativekeywordconflictreportfilter.md)  
 [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md)  

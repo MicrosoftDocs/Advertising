@@ -58,6 +58,7 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
     "AccountStatus": "ValueHere",
     "AdDistribution": "ValueHere",
     "AdGroupStatus": "ValueHere",
+    "AssetGroupStatus": "ValueHere",
     "CampaignStatus": "ValueHere",
     "DeviceOS": "ValueHere",
     "DeviceType": "ValueHere",
