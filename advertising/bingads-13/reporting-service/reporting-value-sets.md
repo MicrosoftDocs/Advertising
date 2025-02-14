@@ -40,7 +40,7 @@ The Reporting service defines the following value sets.
 |[CategoryInsightsReportColumn](categoryinsightsreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the CategoryInsightsReportColumn.|
 |[ChangeEntityReportFilter](changeentityreportfilter.md)|Defines the types of entities by which you can filter the report data.|
 |[ChangeTypeReportFilter](changetypereportfilter.md)|Defines the types of changes to entities by which you can filter the report data.|
-|[CombinationPerformanceReportColumn](combinationperformancereportcolumn.md)|Reserved.|
+|[CombinationPerformanceReportColumn](combinationperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CombinationPerformanceReportRequest](combinationperformancereportrequest.md).|
 |[ConversionPerformanceReportColumn](conversionperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ConversionPerformanceReportRequest](conversionperformancereportrequest.md).|
 |[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|Defines the delivered match type values that you can use to filter the report data.|
 |[DestinationUrlPerformanceReportColumn](destinationurlperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [DestinationUrlPerformanceReportRequest](destinationurlperformancereportrequest.md).|

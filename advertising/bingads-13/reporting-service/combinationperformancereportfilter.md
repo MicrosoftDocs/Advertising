@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the criteria to use to filter the combination performance report data.
 ---
 # CombinationPerformanceReportFilter Data Object - Reporting
-Reserved.
+Defines the criteria to use to filter the combination performance report data.
 
 ## Syntax
 
