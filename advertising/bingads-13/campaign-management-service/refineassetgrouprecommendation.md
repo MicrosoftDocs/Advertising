@@ -29,7 +29,7 @@ The *RefineAssetGroupRecommendationRequest* object defines the [body](#request-b
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetgroup"></a>AssetGroup|Reserved.|[AssetGroup](assetgroup.md)|
+|<a name="assetgroup"></a>AssetGroup|An asset group object containing recommended text assets.|[AssetGroup](assetgroup.md)|
 |<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
@@ -42,7 +42,7 @@ The *RefineAssetGroupRecommendationResponse* object defines the [body](#response
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="textsuggestions"></a>TextSuggestions|Reserved.|[AdRecommendationTextSuggestion](adrecommendationtextsuggestion.md) array|
+|<a name="textsuggestions"></a>TextSuggestions|An array of text suggestions to be included in the asset group.|[AdRecommendationTextSuggestion](adrecommendationtextsuggestion.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

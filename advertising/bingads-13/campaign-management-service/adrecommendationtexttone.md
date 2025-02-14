@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Reserved.
 ---
 # AdRecommendationTextTone Value Set - Campaign Management
-Reserved.
+A value set for the optional tone for recommended text assets.
 
 ## Syntax
 ```xml
@@ -53,10 +53,10 @@ The [AdRecommendationTextTone](adrecommendationtexttone.md) value set has the fo
 
 |Value|Description|
 |-----------|---------------|
-|<a name="cute"></a>Cute|Reserved.|
-|<a name="friendly"></a>Friendly|Reserved.|
-|<a name="inspiring"></a>Inspiring|Reserved.|
-|<a name="persuasive"></a>Persuasive|Reserved.|
+|<a name="cute"></a>Cute|The text tone is *cute*.|
+|<a name="friendly"></a>Friendly|The text tone is *friendly*.|
+|<a name="inspiring"></a>Inspiring|The text tone is *inspiring*.|
+|<a name="persuasive"></a>Persuasive|The text tone is *persuasive*.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

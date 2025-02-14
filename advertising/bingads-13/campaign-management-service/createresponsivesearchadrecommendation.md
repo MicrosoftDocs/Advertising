@@ -29,9 +29,9 @@ The *CreateResponsiveSearchAdRecommendationRequest* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="finalurls"></a>FinalUrls|Reserved.|**string** array|
-|<a name="prompt"></a>Prompt|Reserved.|**string**|
-|<a name="texttone"></a>TextTone|The text tone. Can be *Friendly*, *Persuasive*, *Cute*, *Inspiring*.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
+|<a name="finalurls"></a>FinalUrls|An array of URLs of the web pages used to create recommended ad assets.|**string** array|
+|<a name="prompt"></a>Prompt|Optional description of the product or service that you want to target with the specific campaign.|**string**|
+|<a name="texttone"></a>TextTone|Optional tone for recommended text assets.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -43,7 +43,7 @@ The *CreateResponsiveSearchAdRecommendationResponse* object defines the [body](#
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="responsivesearchad"></a>ResponsiveSearchAd|Reserved.|[ResponsiveSearchAd](responsivesearchad.md)|
+|<a name="responsivesearchad"></a>ResponsiveSearchAd|A responsive search ad object containing recommended text assets.|[ResponsiveSearchAd](responsivesearchad.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -250,9 +250,9 @@ The *CreateResponsiveSearchAdRecommendationRequest* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="finalurls"></a>FinalUrls|Reserved.|**string** array|
-|<a name="prompt"></a>Prompt|Reserved.|**string**|
-|<a name="texttone"></a>TextTone|Reserved.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
+|<a name="finalurls"></a>FinalUrls|An array of URLs of the web pages used to create recommended ad assets.|**string** array|
+|<a name="prompt"></a>Prompt|Optional description of the product or service that you want to target with the specific campaign.|**string**|
+|<a name="texttone"></a>TextTone|Optional tone for recommended text assets|[AdRecommendationTextTone](adrecommendationtexttone.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -264,7 +264,7 @@ The *CreateResponsiveSearchAdRecommendationResponse* object defines the [body](#
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="responsivesearchad"></a>ResponsiveSearchAd|Reserved.|[ResponsiveSearchAd](responsivesearchad.md)|
+|<a name="responsivesearchad"></a>ResponsiveSearchAd|A responsive search ad object containing recommended text assets.|[ResponsiveSearchAd](responsivesearchad.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
