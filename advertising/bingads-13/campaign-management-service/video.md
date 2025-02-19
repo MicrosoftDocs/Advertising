@@ -62,7 +62,7 @@ The [Video](video.md) object has the following elements: [AspectRatio](#aspectra
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="aspectratio"></a>AspectRatio|The video's aspect ratio. Possible values are 16:9, 5:4, 1:1, 4:5, and 9:16.|**string**|
+|<a name="aspectratio"></a>AspectRatio|The video's aspect ratio. Possible values are 16:9, 9:16, 4:3, 3:4, 1:1, 5:4, and 4:5.|**string**|
 |<a name="createddatetimeinutc"></a>CreatedDateTimeInUTC|The date and time the video was created, in Coordinated Universal Time.|**dateTime**|
 |<a name="description"></a>Description|The description of the video asset.<br/><br/>**Add**: Supported<br/>**Update**: Supported|**string**|
 |<a name="durationinmilliseconds"></a>DurationInMilliseconds|The duration in milliseconds of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**int**|
