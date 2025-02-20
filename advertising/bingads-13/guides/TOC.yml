@@ -1261,7 +1261,9 @@
     - name: Editorial Review and Appeals
       href: ./editorial-review-appeals.md
     - name: Expanded Text Ads
-      href: ./expanded-text-ads.md          
+      href: ./expanded-text-ads.md
+    - name: Generative AI
+      href: ./generative-ai.md  
     - name: Google Ads Import
       href: ./google-ads-import.md
       displayName: google ads import as a service
