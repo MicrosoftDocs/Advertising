@@ -55,8 +55,8 @@ The Reporting service defines the following data objects.
 |[CategoryClickCoverageReportRequest](categoryclickcoveragereportrequest.md)|Defines a category click coverage report request.|
 |[CategoryInsightsReportFilter](categoryinsightsreportfilter.md)|Defines the criteria to use to filter the category insights report data.|
 |[CategoryInsightsReportRequest](categoryinsightsreportrequest.md)|Defines a category insights report request.|
-|[CombinationPerformanceReportFilter](combinationperformancereportfilter.md)|Reserved.|
-|[CombinationPerformanceReportRequest](combinationperformancereportrequest.md)|Reserved.|
+|[CombinationPerformanceReportFilter](combinationperformancereportfilter.md)|Defines the criteria to use to filter the combination performance report data.|
+|[CombinationPerformanceReportRequest](combinationperformancereportrequest.md)|Defines a combination performance report request.|
 |[ConversionPerformanceReportFilter](conversionperformancereportfilter.md)|Defines the criteria to use to filter the conversion performance report data.|
 |[ConversionPerformanceReportRequest](conversionperformancereportrequest.md)|Defines a conversion performance report request.|
 |[Date](date.md)|Defines a calendar date by month, day, and year.|

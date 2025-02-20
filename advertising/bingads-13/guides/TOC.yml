@@ -2716,6 +2716,10 @@
       href: ../reporting-service/campaignperformancereportrequest.md
     - name: CampaignReportScope
       href: ../reporting-service/campaignreportscope.md
+    - name: CombinationPerformanceReportFilter
+      href: ../reporting-service/combinationperformancereportfilter.md
+    - name: CombinationPerformanceReportRequest
+      href: ../reporting-service/combinationperformancereportrequest.md
     - name: ConversionPerformanceReportFilter
       href: ../reporting-service/conversionperformancereportfilter.md
     - name: ConversionPerformanceReportRequest
@@ -2875,6 +2879,8 @@
       href: ../reporting-service/changeentityreportfilter.md
     - name: ChangeTypeReportFilter
       href: ../reporting-service/changetypereportfilter.md
+    - name: CombinationPerformanceReportColumn
+      href: ../reporting-service/combinationperformancereportcolumn.md
     - name: ConversionPerformanceReportColumn
       href: ../reporting-service/conversionperformancereportcolumn.md
     - name: DeliveredMatchTypeReportFilter

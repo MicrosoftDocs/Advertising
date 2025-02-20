@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Reserved.
 ---
 # AdRecommendationTextSuggestion Data Object - Campaign Management
-Reserved.
+A data object the defines the ad recommendation text suggestion.
 
 ## Syntax
 
