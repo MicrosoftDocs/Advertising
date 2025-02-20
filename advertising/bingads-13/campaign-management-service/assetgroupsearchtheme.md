@@ -41,7 +41,7 @@ The [AssetGroupSearchTheme](assetgroupsearchtheme.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|The identifier of the search theme.|**long**|
+|<a name="id"></a>Id|The system generated asset group ID.<br /><br />**Add**: Read-only<br />**Update**: Read-only |**long**|
 |<a name="searchtheme"></a>SearchTheme|The type of search theme.|**string**|
 
 ## Requirements
