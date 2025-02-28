@@ -12,7 +12,7 @@ description: Defines a value set for VanityPharmaWebsiteDescription.
 Defines a value set for VanityPharmaWebsiteDescription. This is the text that shows in the display URL of a text ad when *WebsiteDescription* is the selected display mode for vanity pharma URLs for the campaign.  
 
 > [!NOTE]
-> *Note*: *VanityPharmaWebsiteDescription* is reserved for limited pilot usage (e.g., pharmaceutical customers).
+> *VanityPharmaWebsiteDescription* is reserved for limited pilot usage (e.g., pharmaceutical customers).
 
 ## Syntax
 ```xml
