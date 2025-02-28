@@ -52,13 +52,15 @@ Defines a selection of language values.
     <xs:enumeration value="Bulgarian" />
     <xs:enumeration value="Lithuanian" />
     <xs:enumeration value="Croatian" />
+    <xs:enumeration value="Latvian" />
+    <xs:enumeration value="Slovenian" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [LanguageType](languagetype.md) value set has the following values: [Arabic](#arabic), [Bulgarian](#bulgarian), [Croatian](#croatian), [Czech](#czech), [Danish](#danish), [Dutch](#dutch), [English](#english), [Filipino](#filipino), [Finnish](#finnish), [French](#french), [German](#german), [Greek](#greek), [Hebrew](#hebrew), [Hindi](#hindi), [Hungarian](#hungarian), [Indonesian](#indonesian), [Italian](#italian), [Japanese](#japanese), [Korean](#korean), [Lithuanian](#lithuanian), [Malay](#malay), [Norwegian](#norwegian), [Polish](#polish), [Portuguese](#portuguese), [Romanian](#romanian), [Russian](#russian), [SimplifiedChinese](#simplifiedchinese), [Spanish](#spanish), [Swedish](#swedish), [Thai](#thai), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish), [Ukrainian](#ukrainian), [Vietnamese](#vietnamese).
+The [LanguageType](languagetype.md) value set has the following values: [Arabic](#arabic), [Bulgarian](#bulgarian), [Croatian](#croatian), [Czech](#czech), [Danish](#danish), [Dutch](#dutch), [English](#english), [Filipino](#filipino), [Finnish](#finnish), [French](#french), [German](#german), [Greek](#greek), [Hebrew](#hebrew), [Hindi](#hindi), [Hungarian](#hungarian), [Indonesian](#indonesian), [Italian](#italian), [Japanese](#japanese), [Korean](#korean), [Latvian](#latvian), [Lithuanian](#lithuanian), [Malay](#malay), [Norwegian](#norwegian), [Polish](#polish), [Portuguese](#portuguese), [Romanian](#romanian), [Russian](#russian), [SimplifiedChinese](#simplifiedchinese), [Slovenian](#slovenian), [Spanish](#spanish), [Swedish](#swedish), [Thai](#thai), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish), [Ukrainian](#ukrainian), [Vietnamese](#vietnamese).
 
 |Value|Description|
 |-----------|---------------|
@@ -81,6 +83,7 @@ The [LanguageType](languagetype.md) value set has the following values: [Arabic]
 |<a name="italian"></a>Italian|The corresponding language type.|
 |<a name="japanese"></a>Japanese|The corresponding language type.|
 |<a name="korean"></a>Korean|The corresponding language type.|
+|<a name="latvian"></a>Latvian|The corresponding language type.|
 |<a name="lithuanian"></a>Lithuanian|The corresponding language type.|
 |<a name="malay"></a>Malay|The corresponding language type.|
 |<a name="norwegian"></a>Norwegian|The corresponding language type.|
@@ -89,6 +92,7 @@ The [LanguageType](languagetype.md) value set has the following values: [Arabic]
 |<a name="romanian"></a>Romanian|The corresponding language type.|
 |<a name="russian"></a>Russian|The corresponding language type.|
 |<a name="simplifiedchinese"></a>SimplifiedChinese|The corresponding language type.|
+|<a name="slovenian"></a>Slovenian|The corresponding language type.|
 |<a name="spanish"></a>Spanish|The corresponding language type.|
 |<a name="swedish"></a>Swedish|The corresponding language type.|
 |<a name="thai"></a>Thai|The corresponding language type.|
