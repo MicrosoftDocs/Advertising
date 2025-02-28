@@ -12,7 +12,7 @@ description: Defines a data object for VanityPharmaSetting.
 Defines a data object for VanityPharmaSetting. You can set the *DisplayUrlMode* and *WebsiteDescription*.
 
 > [!NOTE]
-> *Note*: *VanityPharmaSetting* is available for limited pilot usage (e.g., pharmaceutical customers).
+> *VanityPharmaSetting* is available for limited pilot usage (e.g., pharmaceutical customers).
 
 ## Syntax
 

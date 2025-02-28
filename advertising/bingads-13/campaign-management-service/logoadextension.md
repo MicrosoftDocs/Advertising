@@ -11,6 +11,11 @@ description: Defines an ad extension that specifies a business logo.
 # LogoAdExtension Data Object - Campaign Management
 Defines an ad extension that specifies a business logo.  
 
+> [!NOTE]
+> - **Starting on March 17, 2025, we'll automatically add one account-level logo extension to new and existing accounts.** This helps promote your brand and build brand recognition.
+> - You may adjust and/or delete this logo extension, and we won't create it again for your account.
+> - Your account is ineligible for this automatic change if you're an advertiser for pharmaceuticals, financial services, or adult content. Your account will also be ineligible if you've opted out of [automated business logo extensions](https://help.ads.microsoft.com/#apex/ads/en/60006/1), or if you already added logo extensions at the account, campaign, or ad group levels.  
+
 Logo Ad Extensions enable advertisers to display eye-catching logos in ads. Build brand recognition to drive more clicks and conversions on your website.
 
 ## Syntax
