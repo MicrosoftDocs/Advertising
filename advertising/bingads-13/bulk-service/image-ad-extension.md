@@ -152,7 +152,10 @@ In a bulk file, the list of custom parameters are formatted as follows.
 **Delete:** Read-only  
 
 ## <a name="destinationurl"></a>Destination URL
-The URL of the webpage to take the user to when they click the image. 
+The URL of the webpage to take the user to when they click the image.  
+
+> [!IMPORTANT]
+> As of November 2018 the keyword destination URL cannot be added or updated. You can use [Final Url](#finalurl) instead, otherwise Microsoft Advertising will use the ad's Final URL. For more details see [Migrating your keyword destination URLs to final URLs](https://about.ads.microsoft.com/en-us/blog/post/august-2018/migrating-your-keyword-destination-urls-to-final-urls).
 
 The URL can contain dynamic text strings such as {keyword}. For more information, see [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
