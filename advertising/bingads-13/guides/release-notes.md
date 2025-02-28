@@ -18,16 +18,41 @@ See below for information about changes to Bing Ads API Version 13 by month.
 > [!IMPORTANT]
 > The following upcoming changes may require that you take action to avoid disruption of service or loss of functionality.  
 
-- [Multi-factor authentication API notice](#breaking-mfa-required)   
+- [Multi-factor authentication API notice](#breaking-mfa-required)  
 
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+## <a name="february2025"></a>February 2025
+
+See below for Bing Ads API updates during this calendar month.  
+
+- [New API Interfaces](#newapiinterfaces-february2025)  
+- [Bulk Service](#bulkservice-february2025)  
+- [Bing Ads API SDK Updates](#sdk-february2025)  
+
+### <a name="newapiinterfaces-february2025"></a>New API Interfaces  
+
+- **Campaign Management API**:
+  - Generative AI: [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md), [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md), [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md), [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md), [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md) and [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md).
+  - New blocklist functionality: [AccountPlacementExclusionList](../campaign-management-service/accountplacementexclusionlist.md).
+  - NewCustomerConversions, NewCustomerRevenue, NewCustomerConversionRate, NewCustomerCPA, NewCustomerReturnOnAdSpend in [AccountPerformanceReportColumn](../reporting-service/accountperformancereportcolumn.md).
+  - ProportionOfSpend in [CategoryClickCoverageReportColumn](../reporting-service/categoryclickcoveragereportcolumn.md).
+
+### <a name="bulkservice-february2025"></a>Bulk Service
+
+- New mapping for NewCustomerAcquisitionGoalSetting in [BulkCampaign](../bulk-service/campaign.md). New entity BulkNewCustomerAcquisitionGoal.
+- Added SubType, ActionType in [BulkCampaignConversionGoal](../bulk-service/campaign-conversion-goal.md) mapping.
+
+### <a name="sdk-february2025"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.24), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.24) SDK version 13.0.24.
+
 ## <a name="november2024"></a>November 2024
 
 See below for Bing Ads API updates during this calendar month.  
- 
+
 - [REST API Documentation Update](#documentation-november2024)  
 - [Bing Ads API SDK Updates](#sdk-november2024)  
 

@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Searches for coupons that match a specified criteria.
+description: Searches for coupons that match a specified criteria from within the set of coupons where the supplied *customerID* is identified as the *ownerCustomer*.
 dev_langs: 
 - csharp
 - java
