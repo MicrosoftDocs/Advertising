@@ -20,7 +20,14 @@ Ad extension reports give you a closer look at how each ad extension is performi
 |[AdExtensionByAdReportRequest](../reporting-service/adextensionbyadreportrequest.md)|Use this report to compare how well different versions of your ad extensions are performing with each ad.<br/><br/>You can request impressions, clicks, spend, and average cost per click by ad. Once downloaded, this data can be sorted by ad ID, ad title, ad extension type, and ad extension version.|
 |[AdExtensionByKeywordReportRequest](../reporting-service/adextensionbykeywordreportrequest.md)|Use this report to compare how well different versions of your ad extensions are performing for each keyword.<br/><br/>You can request impressions, clicks, spend, and average cost per click of your extensions for each keyword. Once downloaded, this data can be sorted by keyword, keyword ID, ad extension type, and ad extension version.|
 |[AdExtensionDetailReportRequest](../reporting-service/adextensiondetailreportrequest.md)|Use this report to discover the effectiveness of individual ad extension items, for example each link of a sitelink extension.<br/><br/>You can request impressions, clicks, spend, and average cost per click of individual extension items. Once downloaded, this data can be sorted by the individual ad extension display name, ad extension ID, and ad extension type.|
-|[CallDetailReportRequest](../reporting-service/calldetailreportrequest.md)|Use this report to discover which accounts, campaigns, or ad groups are driving the most completed phone calls.<br/><br/>You can request duration and phone spend for each forwarded call that originated from a call ad extension.|
+|[CallDetailReportRequest](../reporting-service/calldetailreportrequest.md)|Use this report to discover which accounts, campaigns, or ad groups are driving the most completed phone calls.<br/><br/>You can request duration and phone spend for each forwarded call that originated from a call ad extension.|  
+
+## <a name="appads"></a>App Ads
+App ads give you a closer look at how your Microsoft app campaigns are performing based on app campaign data.  
+
+|Report|Description|
+|----------|---------------|
+|[AppsPerformanceReportRequest](../reporting-service/appsperformancereportrequest.md)|Use this report to understand how your app campaigns are performing.<br/><br/>You can request impressions, clicks, click-through rate, and purchases for your app ads. Once downloaded, this data can be sorted by individual accounts, campaigns, and asset groups.|  
 
 ## <a name="budget"></a>Billing and Budget
 
