@@ -60,6 +60,7 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
     "AdStatus": "ValueHere",
     "AssetGroupStatus": "ValueHere",
     "CampaignStatus": "ValueHere",
+    "CampaignType": "ValueHere",
     "DeviceType": "ValueHere",
     "Language": "ValueHere"
   },

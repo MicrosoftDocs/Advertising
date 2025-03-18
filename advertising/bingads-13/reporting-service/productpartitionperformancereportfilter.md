@@ -23,6 +23,7 @@ Defines the criteria to use to filter the product partition performance report d
     <xs:element minOccurs="0" name="AdStatus" nillable="true" type="tns:AdStatusReportFilter" />
     <xs:element minOccurs="0" name="AssetGroupStatus" nillable="true" type="tns:AssetGroupStatusReportFilter" />
     <xs:element minOccurs="0" name="CampaignStatus" nillable="true" type="tns:CampaignStatusReportFilter" />
+    <xs:element minOccurs="0" name="CampaignType" nillable="true" type="tns:CampaignTypeReportFilter" />
     <xs:element minOccurs="0" name="DeviceType" nillable="true" type="tns:DeviceTypeReportFilter" />
     <xs:element minOccurs="0" name="Language" nillable="true" type="tns:LanguageReportFilter" />
   </xs:sequence>
@@ -38,6 +39,7 @@ Defines the criteria to use to filter the product partition performance report d
   "AdStatus": "ValueHere",
   "AssetGroupStatus": "ValueHere",
   "CampaignStatus": "ValueHere",
+  "CampaignType": "ValueHere",
   "DeviceType": "ValueHere",
   "Language": "ValueHere"
 }
@@ -47,7 +49,7 @@ Defines the criteria to use to filter the product partition performance report d
 
 ## <a name="elements"></a>Elements
 
-The [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AdGroupStatus](#adgroupstatus), [AdStatus](#adstatus), [AssetGroupStatus](#assetgroupstatus), [CampaignStatus](#campaignstatus), [DeviceType](#devicetype), [Language](#language).
+The [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AdGroupStatus](#adgroupstatus), [AdStatus](#adstatus), [AssetGroupStatus](#assetgroupstatus), [CampaignStatus](#campaignstatus), [CampaignType](#campaigntype), [DeviceType](#devicetype), [Language](#language).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -56,6 +58,7 @@ The [ProductPartitionPerformanceReportFilter](productpartitionperformancereportf
 |<a name="adstatus"></a>AdStatus|The report will include data for only the ad status. For example, you can use the filter to include data for only active ads.<br/><br/>You can specify one or more ad statuses.|[AdStatusReportFilter](adstatusreportfilter.md)|
 |<a name="assetgroupstatus"></a>AssetGroupStatus|The report will include data for only the asset group status. For example, you can use the filter to include data for only active asset groups.<br/><br/>You can specify one or more asset group statuses.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
 |<a name="campaignstatus"></a>CampaignStatus|The report will include data for only the campaign status. For example, you can use the filter to include data for only active campaigns.<br/><br/>You can specify one or more campaign statuses.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
+|<a name="campaigntype"></a>CampaignType|The report will include data for only the campaign type. For example, you can use the filter to include data for only Shopping campaigns.<br/><br/>You can specify one or more campaign types.|[CampaignTypeReportFilter](campaigntypereportfilter.md)|
 |<a name="devicetype"></a>DeviceType|The report will include data for only the specified types of devices on which the ad is displayed. For example, you can use the filter to include data for only ads displayed on computers.<br/><br/>You can specify one or more device types.|[DeviceTypeReportFilter](devicetypereportfilter.md)|
 |<a name="language"></a>Language|The report will include data for only websites that used the specified languages.<br/><br/>You can specify one or more languages.|[LanguageReportFilter](languagereportfilter.md)|
 
