@@ -38,6 +38,8 @@ The Reporting service defines the following data objects.
 |[AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md)|Defines an age and gender audience report request.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Reporting API fault detail object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Reporting fault detail objects derive.|
+|[AppsPerformanceReportFilter](appsperformancereportfilter.md)|Defines the criteria to use to filter the apps performance report data.|
+|[AppsPerformanceReportRequest](appsperformancereportrequest.md)|Defines an app campaign performance report request.|
 |[AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)|Defines a data object for AssetGroupPerformanceReportFilter.|
 |[AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)|Defines a data object for AssetGroupPerformanceReportRequest.|
 |[AssetGroupReportScope](assetgroupreportscope.md)|Defines a data object for AssetGroupReportScope.|

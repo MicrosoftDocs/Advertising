@@ -2692,6 +2692,8 @@
       href: ../reporting-service/apifaultdetail.md
     - name: ApplicationFault
       href: ../reporting-service/applicationfault.md
+    - name: AppsPerformanceReportRequest
+      href: ../reporting-service/appsperformancerportrequest.md
     - name: AssetGroupPerformanceReportFilter
       href: ../reporting-service/assetgroupperformancereportfilter.md
     - name: AssetGroupPerformanceReportRequest
@@ -2859,8 +2861,12 @@
       href: ../reporting-service/adtypereportfilter.md
     - name: AgeGenderAudienceReportColumn
       href: ../reporting-service/agegenderaudiencereportcolumn.md
+    - name: AppsPerformanceReportColumn
+      href: ../reporting-service/appsperformancereportcolumn.md
     - name: AssetGroupPerformanceReportColumn
       href: ../reporting-service/assetgroupperformancereportcolumn.md
+    - name: AssetGroupStatusReportFilter
+      href: ../reporting-service/assetgroupstatusreportfilter.md
     - name: AssetPerformanceReportColumn
       href: ../reporting-service/assetperformancereportcolumn.md
     - name: AudiencePerformanceReportColumn
@@ -2877,6 +2883,8 @@
       href: ../reporting-service/campaignperformancereportcolumn.md
     - name: CampaignStatusReportFilter
       href: ../reporting-service/campaignstatusreportfilter.md
+    - name: CampaignTypeReportFilter
+      href: ../reporting-service/campaigntypereportfilter.md
     - name: ChangeEntityReportFilter
       href: ../reporting-service/changeentityreportfilter.md
     - name: ChangeTypeReportFilter

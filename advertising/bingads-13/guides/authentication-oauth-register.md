@@ -46,6 +46,7 @@ Before your application can authenticate Microsoft Advertising users, you must [
     }
     ~~~
     - After running the above command, you may also need to have your administrator grant consent to your tool provider by running the following URL in your browser. This URL grants consent to SA 360. Please replace "client_id=340615a8-1132-4916-80c7-697a67c6c353" with your tool provider's client ID and replace "tenantID" with your tenant ID: https<span>://login.microsoftonline</span>.com/"tenantID"/v2.0/adminconsent?client_id=340615a8-1132-4916-80c7-697a67c6c353&state=12345&scope=d42ffc93-c136-491d-b4fd-6f18168c68fd/msads.manage
+    - To grant consent to the tool provider Skai, please use "client_id=73ea1e5d-983e-4f8e-8493-537a37a4436a"
     - If you are still experiencing issues after following the above steps, please [contact support](../guides/handle-service-errors-exceptions.md#contact-support).  
 
 ## Next steps

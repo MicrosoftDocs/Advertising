@@ -65,4 +65,5 @@ Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
 
 ## Used By
+[AppsPerformanceReportRequest](appsperformancereportrequest.md)  
 [AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)  
