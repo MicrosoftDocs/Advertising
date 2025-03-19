@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the campaign types by which you can filter the report data.
 ---
 # CampaignTypeReportFilter Value Set - Reporting
 Defines the campaign types by which you can filter the report data.  
