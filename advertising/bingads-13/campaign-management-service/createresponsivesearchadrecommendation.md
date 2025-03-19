@@ -252,7 +252,7 @@ The *CreateResponsiveSearchAdRecommendationRequest* object defines the [body](#r
 |-----------|---------------|-------------|
 |<a name="finalurls"></a>FinalUrls|An array of URLs of the web pages used to create recommended ad assets.|**string** array|
 |<a name="prompt"></a>Prompt|Optional description of the product or service that you want to target with the specific campaign.|**string**|
-|<a name="texttone"></a>TextTone|Optional tone for recommended text assets|[AdRecommendationTextTone](adrecommendationtexttone.md)|
+|<a name="texttone"></a>TextTone|Optional tone for recommended text assets.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
