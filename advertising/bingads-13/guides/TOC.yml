@@ -2692,8 +2692,10 @@
       href: ../reporting-service/apifaultdetail.md
     - name: ApplicationFault
       href: ../reporting-service/applicationfault.md
+    - name: AppsPerformanceReportFilter
+      href: ../reporting-service/appsperformancereportfilter.md
     - name: AppsPerformanceReportRequest
-      href: ../reporting-service/appsperformancerportrequest.md
+      href: ../reporting-service/appsperformancereportrequest.md
     - name: AssetGroupPerformanceReportFilter
       href: ../reporting-service/assetgroupperformancereportfilter.md
     - name: AssetGroupPerformanceReportRequest

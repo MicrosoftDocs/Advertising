@@ -212,7 +212,7 @@ The *GetConversionValueRulesByAccountIdRequest* object defines the [body](#reque
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="accountid"></a>AccountId|Fetch conversion value rules from this account ID.|**long**|
-|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*.|**int**|
+|<a name="lcid"></a>Lcid|The locale identifier (LCID) for the request. The default value is 1033 for *EnglishUS*. For more LCID values, see [LCID Value Set](../customer-management-service/lcid.md#values)|**int**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]

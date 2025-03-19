@@ -48,7 +48,7 @@ The [NewCustomerAcquisitionGoalSetting](newcustomeracquisitiongoalsetting.md) ob
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="additionalconversionvalue"></a>AdditionalConversionValue|The target amount you want to pay for a new customer’s purchase of your product or service.|**decimal**|
+|<a name="additionalconversionvalue"></a>AdditionalConversionValue|The target amount you want to pay for a new customer's purchase of your product or service.|**decimal**|
 |<a name="newcustomeracquisitionbidonlymode"></a>NewCustomerAcquisitionBidOnlyMode|Enable new customer acqisition bid only mode.|**boolean**|
 |<a name="newcustomeracquisitiongoalid"></a>NewCustomerAcquisitionGoalId|The identifier for the new customer acquisition goal.|**long**|
 

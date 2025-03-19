@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: A value set for the optional tone for recommended text assets.
 ---
 # AdRecommendationTextTone Value Set - Campaign Management
 A value set for the optional tone for recommended text assets.
