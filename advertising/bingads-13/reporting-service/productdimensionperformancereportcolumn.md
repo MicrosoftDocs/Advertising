@@ -189,7 +189,7 @@ The [ProductDimensionPerformanceReportColumn](productdimensionperformancereportc
 |<a name="customlabel3"></a>CustomLabel3|The value of the Custom_label_3 field in your Microsoft Merchant Center catalog.|
 |<a name="customlabel4"></a>CustomLabel4|The value of the Custom_label_4 field in your Microsoft Merchant Center catalog.|
 |<a name="devicetype"></a>DeviceType|The device name attribute of a device OS target bid. The type of device which showed ads. The possible values include *Computer*, *Smartphone*, *Tablet*, and *Unknown*.|
-|<a name="feedlabel"></a>FeedLabel|Lets you advertise all products with the same feed label in a Shopping or Performance Max campaign.<br/><ul><li>There can only be one feed label per campaign.</li> <li>*FeedLabel* and *SalesCountryCode* are mutually exclusive You can set only one of these properties.</li><li>Each feed label can have a maximum of 20 characters.</li><li>You can't use *FeedLabel* with Shopping CoOp campaigns.</ul>|
+|<a name="feedlabel"></a>FeedLabel|Group products from multiple feeds based on shared attributes such as language, product category, or brand.|
 |<a name="goal"></a>Goal|The name of the goal you set for the conversions you want, meaning actions customers take after clicking your ad.|
 |<a name="goalid"></a>GoalId|The Microsoft Advertising assigned identifier of a conversion goal.|
 |<a name="goaltype"></a>GoalType|The type of conversion goal.<br/>Possible values include *AppInstall*, *Duration*, *Event*, *InStoreTransaction*, *OfflineConversion*, *PagesViewedPerVisit*, and *Url*.|
