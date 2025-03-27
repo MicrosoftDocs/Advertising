@@ -26,7 +26,7 @@ The Reporting service defines the following value sets.
 |[AdStatusReportFilter](adstatusreportfilter.md)|Defines the ad status values that you can use to filter the report data.|
 |[AdTypeReportFilter](adtypereportfilter.md)|Defines the ad type values that you can use to filter the report data.|
 |[AgeGenderAudienceReportColumn](agegenderaudiencereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md).|
-|[AppsPerformanceReportColumn](appsperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AppsPerformanceReportRequest](../reporting-service/appsperformancereportrequest.md).|
+|[AppsPerformanceReportColumn](appsperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the AppsPerformanceReportRequest.|
 |[AssetGroupPerformanceReportColumn](assetgroupperformancereportcolumn.md)|Defines a value set for AssetGroupPerformanceReportColumn.|
 |[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|Defines the asset group status values that you can use to filter the report data.|
 |[AssetPerformanceReportColumn](assetperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).|

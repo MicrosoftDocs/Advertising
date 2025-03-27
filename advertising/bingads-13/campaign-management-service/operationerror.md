@@ -55,5 +55,7 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
+[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md)  
+[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md)  
 [ApiFaultDetail](apifaultdetail.md)  
 [EditorialApiFaultDetail](editorialapifaultdetail.md)  

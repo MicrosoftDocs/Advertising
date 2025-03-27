@@ -1310,6 +1310,8 @@
       href: ../campaign-management-service/addaudiences.md
     - name: AddBidStrategies
       href: ../campaign-management-service/addbidstrategies.md
+    - name: AddBrandKits
+      href: ../campaign-management-service/addbrandkits.md
     - name: AddBudgets
       href: ../campaign-management-service/addbudgets.md
     - name: AddCampaignConversionGoals
@@ -1390,6 +1392,8 @@
       href: ../campaign-management-service/deleteaudiences.md
     - name: DeleteBidStrategies
       href: ../campaign-management-service/deletebidstrategies.md
+    - name: DeleteBrandKits
+      href: ../campaign-management-service/deletebrandkits.md
     - name: DeleteBudgets
       href: ../campaign-management-service/deletebudgets.md
     - name: DeleteCampaignConversionGoals
@@ -1468,6 +1472,10 @@
       href: ../campaign-management-service/getbidstrategiesbyids.md
     - name: GetBMCStoresByCustomerId
       href: ../campaign-management-service/getbmcstoresbycustomerid.md
+    - name: GetBrandKitsByAccountId
+      href: ../campaign-management-service/getbrandkitsbyaccountid.md
+    - name: GetBrandKitsByIds
+      href: ../campaign-management-service/getbrandkitsbyids.md
     - name: GetBSCCountries
       href: ../campaign-management-service/getbsccountries.md
     - name: GetBudgetsByIds
@@ -1592,6 +1600,8 @@
       href: ../campaign-management-service/updateaudiences.md
     - name: UpdateBidStrategies
       href: ../campaign-management-service/updatebidstrategies.md
+    - name: UpdateBrandKits
+      href: ../campaign-management-service/updatebrandkits.md
     - name: UpdateBudgets
       href: ../campaign-management-service/updatebudgets.md
     - name: UpdateCampaignCriterions
@@ -1667,8 +1677,24 @@
       href: ../campaign-management-service/adgroupcriterionaction.md
     - name: AdGroupNegativeSites
       href: ../campaign-management-service/adgroupnegativesites.md
+    - name: AdRecommendationCustomizedProperty
+      href: ../campaign-management-service/adrecommendationcustomizedproperty.md
+    - name: AdRecommendationImageAssetProperty
+      href: ../campaign-management-service/adrecommendationimageassetproperty.md
+    - name: AdRecommendationImageRefineOperation
+      href: ../campaign-management-service/adrecommendationimagerefineoperation.md
     - name: AdRecommendationImageSuggestion
       href: ../campaign-management-service/adrecommendationimagesuggestion.md
+    - name: AdRecommendationImageSuggestionMetadata
+      href: ../campaign-management-service/adrecommendationimagesuggestionmetadata.md
+    - name: AdRecommendationMediaRefineResult
+      href: ../campaign-management-service/adrecommendationMmdiarefineresult.md
+    - name: AdRecommendationRefinedMedia
+      href: ../campaign-management-service/adrecommendationrefinedmedia.md
+    - name: AdRecommendationTextAssetProperty
+      href: ../campaign-management-service/adrecommendationtextassetproperty.md
+    - name: AdRecommendationTextRefineResult
+      href: ../campaign-management-service/adrecommendationtextrefineresult.md
     - name: AdRotation
       href: ../campaign-management-service/adrotation.md
     - name: AgeCriterion
@@ -1739,6 +1765,16 @@
       href: ../campaign-management-service/bmcstore.md
     - name: BrandItem
       href: ../campaign-management-service/branditem.md
+    - name: BrandKit
+      href: ../campaign-management-service/brandkit.md
+    - name: BrandKitColor
+      href: ../campaign-management-service/brandkitcolor.md
+    - name: BrandKitFont
+      href: ../campaign-management-service/brandkitfont.md
+    - name: BrandKitImage
+      href: ../campaign-management-service/brandkitimage.md
+    - name: BrandKitPalette
+      href: ../campaign-management-service/brandkitpalette.md
     - name: BrandList
       href: ../campaign-management-service/brandlist.md
     - name: Budget
@@ -2154,6 +2190,14 @@
       href: ../campaign-management-service/adgroupprivacystatus.md
     - name: AdGroupStatus
       href: ../campaign-management-service/adgroupstatus.md
+    - name: AdRecommendationAdditionalField
+      href: ../campaign-management-service/adrecommendationadditionalfield.md
+    - name: AdRecommendationImageField
+      href: ../campaign-management-service/adrecommendationimagefield.md
+    - name: AdRecommendationImageRefineType
+      href: ../campaign-management-service/adrecommendationimagerefinetype.md
+    - name: AdRecommendationVideoType
+      href: ../campaign-management-service/adrecommendationvideotype.md
     - name: AdRotationType
       href: ../campaign-management-service/adrotationtype.md
     - name: AdStatus
@@ -2250,6 +2294,8 @@
       href: ../campaign-management-service/entitytype.md
     - name: ExpressionOperator
       href: ../campaign-management-service/expressionoperator.md
+    - name: FontTextAssetType
+      href: ../campaign-management-service/fonttextassettype.md
     - name: FrequencyCapTimeGranularity
       href: ../campaign-management-service/frequencycaptimegranularity.md
     - name: GenderType
