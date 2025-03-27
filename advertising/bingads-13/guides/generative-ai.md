@@ -30,6 +30,24 @@ The following service operations are used with asset recommendations:
 - [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 - [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md)  
 
+### <a name="image-generation"></a>Image Generation  
+
+The following service operations are used with image generation:
+
+- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)  
+- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
+- [AddBrandKits](../campaign-management-service/addbrandkits.md)  
+- [DeleteBrandKits](../campaign-management-service/deletebrandkits.md)  
+- [GetBrandKitsByAccountId](../campaign-management-service/getbrandkitsbyaccountid.md)  
+- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids.md)  
+- [UpdateBrandKits](../campaign-management-service/updatebrandkits.md)  
+
+### <a name="display-ad-recommendation-brand-kit"></a>Display Ad Recommendation with Brand Kit or metadata
+
+The following service operations are used for display ad recommendations with Brand Kit or metadata:
+
+- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
+
 ### <a name="code-samples"></a>Code Samples
 
 The following samples demonstrate building a campaign with generated assets using Bing Ads SDK:  
@@ -86,6 +104,18 @@ The following service operations are used with asset recommendations:
 - [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)  
 - [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
 - [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md)  
+
+### <a name="image-background-change"></a>Image Backround Change  
+
+The following service operations are used with image background change:
+
+- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)  
+- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
+
+### <a name="display-ad-recommendation-metadata"></a>Display ad recommendation with metadata
+The following service operations are used with display ad recommendation with metadata:
+
+- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
 
 ### <a name="asset-generation-rest-api-request-sample"></a>Rest API Request Sample
 

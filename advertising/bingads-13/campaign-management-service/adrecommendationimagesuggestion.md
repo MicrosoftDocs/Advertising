@@ -20,6 +20,13 @@ Defines a data object for ad recommendation image suggestion.
   <xs:sequence>
     <xs:element minOccurs="0" name="AssetLink" nillable="true" type="tns:AssetLink" />
     <xs:element minOccurs="0" name="Image" nillable="true" type="tns:Image" />
+    <xs:element minOccurs="0" name="ImageMetadata" nillable="true" type="tns:AdRecommendationImageSuggestionMetadata">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="ImageUrl" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
@@ -49,6 +56,33 @@ Defines a data object for ad recommendation image suggestion.
   "Image": {
     "Data": "ValueHere"
   },
+  "ImageMetadata": {
+    "CustomizedProperties": [
+      {
+        "AssetTypeName": "ValueHere",
+        "PropertyName": "ValueHere",
+        "PropertyValue": "ValueHere"
+      }
+    ],
+    "ImageAssetProperties": [
+      {
+        "CropHeight": IntValueHere,
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "ImageField": "ValueHere",
+        "ImageUrl": "ValueHere"
+      }
+    ],
+    "TemplateId": "ValueHere",
+    "TemplateVersion": "ValueHere",
+    "TextAssetProperties": [
+      {
+        "Text": "ValueHere",
+        "TextField": "ValueHere"
+      }
+    ]
+  },
   "ImageUrl": "ValueHere"
 }
 ```
@@ -57,12 +91,13 @@ Defines a data object for ad recommendation image suggestion.
 
 ## <a name="elements"></a>Elements
 
-The [AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) object has the following elements: [AssetLink](#assetlink), [Image](#image), [ImageUrl](#imageurl).
+The [AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) object has the following elements: [AssetLink](#assetlink), [Image](#image), [ImageMetadata](#imagemetadata), [ImageUrl](#imageurl).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="assetlink"></a>AssetLink|Defines the relationship of an asset to an ad.|[AssetLink](assetlink.md)|
 |<a name="image"></a>Image|The suggsted image.|[Image](image.md)|
+|<a name="imagemetadata"></a>ImageMetadata|Reserved.|[AdRecommendationImageSuggestionMetadata](adrecommendationimagesuggestionmetadata.md)|
 |<a name="imageurl"></a>ImageUrl|The URL of the suggested image.|**string**|
 
 ## Requirements
@@ -72,3 +107,5 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 ## Used By
 [CreateAssetGroupRecommendation](createassetgrouprecommendation.md)  
 [CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)  
+[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)  
+[RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)  
