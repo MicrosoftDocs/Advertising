@@ -109,6 +109,14 @@ Each of the values correspond to a friendly and readable call to action in a res
     <xs:enumeration value="SeeModels" />
     <xs:enumeration value="SeeOffers" />
     <xs:enumeration value="ViewDemo" />
+    <xs:enumeration value="CustomText" />
+    <xs:enumeration value="Discover" />
+    <xs:enumeration value="Dismiss" />
+    <xs:enumeration value="Apply" />
+    <xs:enumeration value="ViewQuote" />
+    <xs:enumeration value="Join" />
+    <xs:enumeration value="Attend" />
+    <xs:enumeration value="RequestDemo" />
     <xs:enumeration value="Automated">
       <xs:annotation>
         <xs:appinfo>
@@ -122,13 +130,15 @@ Each of the values correspond to a friendly and readable call to action in a res
 
 ## <a name="values"></a>Values
 
-The [CallToAction](calltoaction.md) value set has the following values: [ActNow](#actnow), [AddToCart](#addtocart), [ApplyNow](#applynow), [Automated](#automated), [BetNow](#betnow), [BidNow](#bidnow), [BookACar](#bookacar), [BookHotel](#bookhotel), [BookNow](#booknow), [BookTravel](#booktravel), [Browse](#browse), [BuildNow](#buildnow), [Buy](#buy), [BuyNow](#buynow), [ChatNow](#chatnow), [Compare](#compare), [ContactUs](#contactus), [Coupon](#coupon), [Dealers](#dealers), [Default](#default), [Directions](#directions), [Donate](#donate), [Download](#download), [EmailNow](#emailnow), [EnrollNow](#enrollnow), [Explore](#explore), [FileNow](#filenow), [FindJob](#findjob), [FindStore](#findstore), [FreePlay](#freeplay), [FreeQuote](#freequote), [FreeTrial](#freetrial), [GetDeals](#getdeals), [GetDemo](#getdemo), [GetNow](#getnow), [GetOffer](#getoffer), [GetQuote](#getquote), [GoToDemo](#gotodemo), [Install](#install), [JoinNow](#joinnow), [LearnMore](#learnmore), [ListenNow](#listennow), [LogIn](#login), [Message](#message), [NewCars](#newcars), [NoButton](#nobutton), [OpenLink](#openlink), [OrderNow](#ordernow), [PlayGame](#playgame), [PlayNow](#playnow), [PostJob](#postjob), [Register](#register), [RegisterNow](#registernow), [RenewNow](#renewnow), [RentACar](#rentacar), [RentNow](#rentnow), [Reorder](#reorder), [Reserve](#reserve), [Sale](#sale), [SaveNow](#savenow), [Schedule](#schedule), [SeeDemo](#seedemo), [SeeMenu](#seemenu), [SeeModels](#seemodels), [SeeMore](#seemore), [SeeOffer](#seeoffer), [SeeOffers](#seeoffers), [SellNow](#sellnow), [ShopNow](#shopnow), [Showtimes](#showtimes), [SignIn](#signin), [SignUp](#signup), [StartFree](#startfree), [StartNow](#startnow), [Subscribe](#subscribe), [SwitchNow](#switchnow), [TestDrive](#testdrive), [TryNow](#trynow), [Unknown](#unknown), [UsedCars](#usedcars), [ViewCars](#viewcars), [ViewDemo](#viewdemo), [ViewNow](#viewnow), [ViewPlans](#viewplans), [VisitSite](#visitsite), [VisitStore](#visitstore), [VoteNow](#votenow), [Watch](#watch), [WatchMore](#watchmore), [WatchNow](#watchnow).
+The [CallToAction](calltoaction.md) value set has the following values: [ActNow](#actnow), [AddToCart](#addtocart), [Apply](#apply), [ApplyNow](#applynow), [Attend](#attend), [Automated](#automated), [BetNow](#betnow), [BidNow](#bidnow), [BookACar](#bookacar), [BookHotel](#bookhotel), [BookNow](#booknow), [BookTravel](#booktravel), [Browse](#browse), [BuildNow](#buildnow), [Buy](#buy), [BuyNow](#buynow), [ChatNow](#chatnow), [Compare](#compare), [ContactUs](#contactus), [Coupon](#coupon), [CustomText](#customtext), [Dealers](#dealers), [Default](#default), [Directions](#directions), [Discover](#discover), [Dismiss](#dismiss), [Donate](#donate), [Download](#download), [EmailNow](#emailnow), [EnrollNow](#enrollnow), [Explore](#explore), [FileNow](#filenow), [FindJob](#findjob), [FindStore](#findstore), [FreePlay](#freeplay), [FreeQuote](#freequote), [FreeTrial](#freetrial), [GetDeals](#getdeals), [GetDemo](#getdemo), [GetNow](#getnow), [GetOffer](#getoffer), [GetQuote](#getquote), [GoToDemo](#gotodemo), [Install](#install), [Join](#join), [JoinNow](#joinnow), [LearnMore](#learnmore), [ListenNow](#listennow), [LogIn](#login), [Message](#message), [NewCars](#newcars), [NoButton](#nobutton), [OpenLink](#openlink), [OrderNow](#ordernow), [PlayGame](#playgame), [PlayNow](#playnow), [PostJob](#postjob), [Register](#register), [RegisterNow](#registernow), [RenewNow](#renewnow), [RentACar](#rentacar), [RentNow](#rentnow), [Reorder](#reorder), [RequestDemo](#requestdemo), [Reserve](#reserve), [Sale](#sale), [SaveNow](#savenow), [Schedule](#schedule), [SeeDemo](#seedemo), [SeeMenu](#seemenu), [SeeModels](#seemodels), [SeeMore](#seemore), [SeeOffer](#seeoffer), [SeeOffers](#seeoffers), [SellNow](#sellnow), [ShopNow](#shopnow), [Showtimes](#showtimes), [SignIn](#signin), [SignUp](#signup), [StartFree](#startfree), [StartNow](#startnow), [Subscribe](#subscribe), [SwitchNow](#switchnow), [TestDrive](#testdrive), [TryNow](#trynow), [Unknown](#unknown), [UsedCars](#usedcars), [ViewCars](#viewcars), [ViewDemo](#viewdemo), [ViewNow](#viewnow), [ViewPlans](#viewplans), [ViewQuote](#viewquote), [VisitSite](#visitsite), [VisitStore](#visitstore), [VoteNow](#votenow), [Watch](#watch), [WatchMore](#watchmore), [WatchNow](#watchnow).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="actnow"></a>ActNow|The corresponding call to action in the ad.|
 |<a name="addtocart"></a>AddToCart|The corresponding call to action in the ad.|
+|<a name="apply"></a>Apply|The corresponding call to action in the ad.|
 |<a name="applynow"></a>ApplyNow|The corresponding call to action in the ad.|
+|<a name="attend"></a>Attend|The corresponding call to action in the ad.|
 |<a name="automated"></a>Automated|The corresponding call to action in the ad.|
 |<a name="betnow"></a>BetNow|The corresponding call to action in the ad.|
 |<a name="bidnow"></a>BidNow|The corresponding call to action in the ad.|
@@ -144,9 +154,12 @@ The [CallToAction](calltoaction.md) value set has the following values: [ActNow]
 |<a name="compare"></a>Compare|The corresponding call to action in the ad.|
 |<a name="contactus"></a>ContactUs|The corresponding call to action in the ad.|
 |<a name="coupon"></a>Coupon|Use the *GetCoupon* call to action in the ad.<br/><br/>This value is deprecated as of September 2022 and replaced by *GetCoupon*. If you set the call to action to *Coupon* no error will be returned, but *GetCoupon* is the effective value that will be stored and returned when retrieving the call to action.|
+|<a name="customtext"></a>CustomText|The corresponding call to action in the ad.|
 |<a name="dealers"></a>Dealers|The corresponding call to action in the ad.|
 |<a name="default"></a>Default|The corresponding call to action in the ad.|
 |<a name="directions"></a>Directions|The corresponding call to action in the ad.|
+|<a name="discover"></a>Discover|The corresponding call to action in the ad.|
+|<a name="dismiss"></a>Dismiss|The corresponding call to action in the ad.|
 |<a name="donate"></a>Donate|The corresponding call to action in the ad.|
 |<a name="download"></a>Download|The corresponding call to action in the ad.|
 |<a name="emailnow"></a>EmailNow|The corresponding call to action in the ad.|
@@ -165,6 +178,7 @@ The [CallToAction](calltoaction.md) value set has the following values: [ActNow]
 |<a name="getquote"></a>GetQuote|The corresponding call to action in the ad.|
 |<a name="gotodemo"></a>GoToDemo|The corresponding call to action in the ad.|
 |<a name="install"></a>Install|The corresponding call to action in the ad.|
+|<a name="join"></a>Join|The corresponding call to action in the ad.|
 |<a name="joinnow"></a>JoinNow|The corresponding call to action in the ad.|
 |<a name="learnmore"></a>LearnMore|The corresponding call to action in the ad.|
 |<a name="listennow"></a>ListenNow|The corresponding call to action in the ad.|
@@ -183,6 +197,7 @@ The [CallToAction](calltoaction.md) value set has the following values: [ActNow]
 |<a name="rentacar"></a>RentACar|The corresponding call to action in the ad.|
 |<a name="rentnow"></a>RentNow|The corresponding call to action in the ad.|
 |<a name="reorder"></a>Reorder|The corresponding call to action in the ad.|
+|<a name="requestdemo"></a>RequestDemo|The corresponding call to action in the ad.|
 |<a name="reserve"></a>Reserve|The corresponding call to action in the ad.|
 |<a name="sale"></a>Sale|Use the *SeeSale* call to action in the ad.<br/><br/>This value is deprecated as of September 2022 and replaced by *SeeSale*. If you set the call to action to *Sale* no error will be returned, but *SeeSale* is the effective value that will be stored and returned when retrieving the call to action.|
 |<a name="savenow"></a>SaveNow|The corresponding call to action in the ad.|
@@ -210,6 +225,7 @@ The [CallToAction](calltoaction.md) value set has the following values: [ActNow]
 |<a name="viewdemo"></a>ViewDemo|The corresponding call to action in the ad.|
 |<a name="viewnow"></a>ViewNow|The corresponding call to action in the ad.|
 |<a name="viewplans"></a>ViewPlans|The corresponding call to action in the ad.|
+|<a name="viewquote"></a>ViewQuote|The corresponding call to action in the ad.|
 |<a name="visitsite"></a>VisitSite|The corresponding call to action in the ad.|
 |<a name="visitstore"></a>VisitStore|The corresponding call to action in the ad.|
 |<a name="votenow"></a>VoteNow|The corresponding call to action in the ad.|
