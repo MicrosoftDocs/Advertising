@@ -18,11 +18,11 @@ Asset generation, in addition to the text generation that occurs automatically w
 
 [See market and language availability for Generative AI tools](https://help.ads.microsoft.com/#apex/ads/en/50873/0).
 
-## <a name="asset-recommendations"></a>Asset Recommendations
+## <a name="asset-generation"></a>Asset Generation
 
 Use the following Copilot asset recommendations calls within Microsoft Advertising’s Campaign Management API to get text, image, and video asset recommendations to expedite creation of your Performance Max campaigns, Responsive Search ads, Display ads, Native ads, and Video ads.
 
-### <a name="asset-recommendation-service-operations"></a>Service Operations
+### <a name="asset-generation-service-operations"></a>Service Operations
 
 The following service operations are used with create asset recommendations:
 
@@ -30,27 +30,27 @@ The following service operations are used with create asset recommendations:
 - [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 - [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md)  
 
-### <a name="image-generation-asset-recommendation"></a>Image Generation  
+### <a name="image-generation"></a>Image Generation  
 
 Generate new new images with a text prompt. The following service operations are used with image generation:
 
 - [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)  
 - [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 
-### <a name="background-generation-asset-recommendation"></a>Background Generation
+### <a name="background-generation"></a>Background Generation
 
 Remove and generate a new background for image assets with the help of Copilot. The following service operations are used with background generation:
 
 - [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)  
 - [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 
-### <a name="display-banner-generation-asset-recommendation"></a>Display Banner Generation
+### <a name="display-banner-generation"></a>Display Banner Generation
 
 Generate banner assets for display ads with five editable templates. Copilot will infer your brand elements such as logo, color, and font from your landing page or brand kit. The following service operations are used with display banner generation:
 
 - [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 
-### <a name="brand-kit-asset-recommendation"></a>Brand Kit
+### <a name="brand-kit"></a>Brand Kit
 
 Define your brand guidelines, such as fonts, colors, logo, and other images, to enable Copilot to create brand-aligned assets. The following service operations are used for brand kit:
 
@@ -60,7 +60,7 @@ Define your brand guidelines, such as fonts, colors, logo, and other images, to 
 - [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids.md)  
 - [UpdateBrandKits](../campaign-management-service/updatebrandkits.md)  
 
-### <a name="code-samples"></a>Code Samples
+### <a name="asset-generation-code-samples"></a>Code Samples
 
 The following samples demonstrate building a campaign with generated assets using Bing Ads SDK:  
 
@@ -69,7 +69,7 @@ The following samples demonstrate building a campaign with generated assets usin
 - [Python](https://github.com/BingAds/BingAds-Python-SDK/blob/main/examples/v13/responsive_ad_recommendation.py)  
 - [PHP](https://github.com/BingAds/BingAds-PHP-SDK/blob/main/samples/V13/ResponsiveAdRecommendation.php)  
 
-### <a name="asset-recommendation-rest-api-request-sample"></a>Rest API Request Sample
+### <a name="asset-generation-rest-api-request-sample"></a>Rest API Request Sample
 
 Here is an example of REST API sample code:
 
@@ -105,11 +105,11 @@ To create a recommendation of PMax Asset Group the request is the same as for Na
 Method: POST; Uri: https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/AssetGroupRecommendation/Create 
 ```
 
-## <a name="asset-generation"></a>Asset Generation
+## <a name="asset-refinement"></a>Asset Refinement
 
 Use the following Copilot asset generation calls within Microsoft Advertising’s Campaign Management API to enhance your copywriting. Refine your text assets by easily adjusting your tone of voice for short headlines, long headlines, and descriptions.  
 
-### <a name="asset-generation-service-operations"></a>Service Operations
+### <a name="asset-refinement-service-operations"></a>Service Operations
 
 The following service operations are used with refine asset recommendations:
 
@@ -117,37 +117,7 @@ The following service operations are used with refine asset recommendations:
 - [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
 - [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md)  
 
-### <a name="image-generation-asset-generation"></a>Image Generation
-
-Generate net new images with a text prompt. Remove and generate a new background for image assets with the help of Copilot. The following service operations are used with image generation:
-
-- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)  
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
-
-### <a name="background-generation-asset-generation"></a>Background Generation
-
-Remove and generate a new background for image assets with the help of Copilot. The following service operations are used with background generation:
-
-- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)  
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
-
-### <a name="display-banner-generation-asset-generation"></a>Display Banner Generation
-
-Generate banner assets for display ads with five editable templates. Copilot will infer your brand elements such as logo, color, and font from your landing page or brand kit. The following service operations are used with display banner generation:
-
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
-
-### <a name="brand-kit-asset-generation"></a>Brand Kit
-
-Define your brand guidelines, such as fonts, colors, logo, and other images, to enable Copilot to create brand-aligned assets. The following service operations are used for brand kit:
-
-- [AddBrandKits](../campaign-management-service/addbrandkits.md)  
-- [DeleteBrandKits](../campaign-management-service/deletebrandkits.md)  
-- [GetBrandKitsByAccountId](../campaign-management-service/getbrandkitsbyaccountid.md)  
-- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids.md)  
-- [UpdateBrandKits](../campaign-management-service/updatebrandkits.md)  
-
-### <a name="asset-generation-rest-api-request-sample"></a>Rest API Request Sample
+### <a name="asset-refinement-rest-api-request-sample"></a>Rest API Request Sample
 
 To refine text in a previously created recommendation a corresponding refine method can be used. For example:  
 
