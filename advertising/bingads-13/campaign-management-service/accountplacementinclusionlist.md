@@ -1,22 +1,22 @@
 ---
-title: AccountPlacementExclusionList Data Object - Campaign Management
+title: AccountPlacementInclusionList Data Object - Campaign Management
 ms.service: bing-ads
 ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a data object for account placement exclusion list.
+description: Defines a data object for account placement inclusion list.
 ---
-# AccountPlacementExclusionList Data Object - Campaign Management
-Defines a data object for account placement exclusion list.
+# AccountPlacementInclusionList Data Object - Campaign Management
+Defines a data object for account placement inclusion list.
 
 ## Syntax
 
 # [XML](#tab/xml)
 
 ```xml
-<xs:complexType name="AccountPlacementExclusionList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:complexType name="AccountPlacementInclusionList" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:SharedList">
       <xs:sequence />
@@ -39,7 +39,7 @@ Defines a data object for account placement exclusion list.
   ],
   "Id": "LongValueHere",
   "Name": "ValueHere",
-  "Type": "AccountPlacementExclusionList"
+  "Type": "AccountPlacementInclusionList"
 }
 ```
 
@@ -47,19 +47,19 @@ Defines a data object for account placement exclusion list.
 
 ## <a name="elements"></a>Elements
 
-The [AccountPlacementExclusionList](accountplacementexclusionlist.md) object has [Inherited Elements](#inheritedelements).
+The [AccountPlacementInclusionList](accountplacementinclusionlist.md) object has [Inherited Elements](#inheritedelements).
 
 ## <a name="inheritedelements"></a>Inherited Elements
 
 ### <a name="inheritedelementssharedlist"></a>Inherited Elements from SharedList
-The [AccountPlacementExclusionList](accountplacementexclusionlist.md) object derives from the [SharedList](sharedlist.md) object, and inherits the following elements: [ItemCount](#itemcount). The descriptions below are specific to [AccountPlacementExclusionList](accountplacementexclusionlist.md), and might not apply to other objects that inherit the same elements from the [SharedList](sharedlist.md) object.  
+The [AccountPlacementInclusionList](accountplacementinclusionlist.md) object derives from the [SharedList](sharedlist.md) object, and inherits the following elements: [ItemCount](#itemcount). The descriptions below are specific to [AccountPlacementInclusionList](accountplacementinclusionlist.md), and might not apply to other objects that inherit the same elements from the [SharedList](sharedlist.md) object.  
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="itemcount"></a>ItemCount|The number of [Site](site.md) objects that are added to this shared list.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**int**|
 
 ### <a name="inheritedelementssharedentity"></a>Inherited Elements from SharedEntity
-The [AccountPlacementExclusionList](accountplacementexclusionlist.md) object derives from the [SharedEntity](sharedentity.md) object, and inherits the following elements: [AssociationCount](#associationcount), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [Name](#name), [Type](#type). The descriptions below are specific to [AccountPlacementExclusionList](accountplacementexclusionlist.md), and might not apply to other objects that inherit the same elements from the [SharedEntity](sharedentity.md) object.  
+The [AccountPlacementInclusionList](accountplacementinclusionlist.md) object derives from the [SharedEntity](sharedentity.md) object, and inherits the following elements: [AssociationCount](#associationcount), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [Name](#name), [Type](#type). The descriptions below are specific to [AccountPlacementInclusionList](accountplacementinclusionlist.md), and might not apply to other objects that inherit the same elements from the [SharedEntity](sharedentity.md) object.  
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
