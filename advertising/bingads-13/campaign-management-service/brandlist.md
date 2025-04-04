@@ -56,7 +56,7 @@ The [BrandList](brandlist.md) object derives from the [SharedList](sharedlist.md
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="itemcount"></a>ItemCount|The number of items.|**int**|
+|<a name="itemcount"></a>ItemCount|The number of [SharedListItem](sharedlistitem.md) objects that are added to this shared list.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**int**|
 
 ### <a name="inheritedelementssharedentity"></a>Inherited Elements from SharedEntity
 The [BrandList](brandlist.md) object derives from the [SharedEntity](sharedentity.md) object, and inherits the following elements: [AssociationCount](#associationcount), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [Name](#name), [Type](#type). The descriptions below are specific to [BrandList](brandlist.md), and might not apply to other objects that inherit the same elements from the [SharedEntity](sharedentity.md) object.  
