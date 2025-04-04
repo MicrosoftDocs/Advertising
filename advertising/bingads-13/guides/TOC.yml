@@ -1643,6 +1643,8 @@
       href: ../campaign-management-service/accountnegativekeywordlist.md
     - name: AccountPlacementExclusionList
       href: ../campaign-management-service/accountplacementexclusionlist.md
+    - name: AccountPlacementInclusionList
+      href: ../campaign-management-service/accountplacementinclusionlist.md
     - name: AccountProperty
       href: ../campaign-management-service/accountproperty.md
     - name: ActionAdExtension
@@ -2113,6 +2115,8 @@
       href: ../campaign-management-service/shoppingsetting.md
     - name: SimilarRemarketingList
       href: ../campaign-management-service/similarremarketinglist.md
+    - name: Site
+      href: ../campaign-management-service/site.md
     - name: SitelinkAdExtension
       href: ../campaign-management-service/sitelinkadextension.md
     - name: StoreCriterion

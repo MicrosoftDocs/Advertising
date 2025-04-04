@@ -12,9 +12,12 @@ description: Defines the base class of a shared list.
 Defines the base class of a shared list.
 
 Do not try to instantiate a *SharedList*. You can create one or more of the following objects that derive from it.
+
+- [AccountNegativeKeywordList](accountnegativekeywordlist.md)
+- [AccountPlacementExclusionList](accountplacementexclusionlist.md)  
+- [AccountPlacementInclusionList](accountplacementinclusionlist.md)  
 - [NegativeKeywordList](negativekeywordlist.md)  
 - [PlacementExclusionList](placementexclusionlist.md)  
-- [AccountNegativeKeywordList](accountnegativekeywordlist.md)
 
 ## Syntax
 ```xml
