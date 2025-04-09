@@ -106,17 +106,17 @@ To programmatically manage a Microsoft Advertising account, you must provide con
     When the PowerShell script successfully runs it should print out the details of your Microsoft Advertising user, including customer roles. For details see [GetUser](../customer-management-service/getuser.md). 
 
 ## <a name="quick-start-sandbox"></a>Sandbox Quick Start
-To authenticate in the sandbox environment you don't need to register an application. Just use the public "Tutorial Sample App" client ID i.e., **00001111-aaaa-2222-bbbb-3333cccc4444**.  
+To authenticate in the sandbox environment, you can use the same client ID as production.
 
-1. Sign up for a [Microsoft Advertising](https://sandbox.bingads.microsoft.com/) sandbox account. The Microsoft account (MSA) email address must be outlook**-int**.com (for example, someone@outlook-int.com). For more details see [Sandbox](sandbox.md#initial-sign-up).  
+1. Sign up for a [Microsoft Advertising](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1) sandbox account. The Microsoft account (MSA) email address must be outlook.com (for example, someone@outlook.com). For more details see [Sandbox](sandbox.md#initial-sign-up).  
 
 1. Create a new file and paste into it the following script.  
   
     ```powershell
-    # Replace the Tutorial Sample App ID with your registered application ID. 
-    $clientId = "00001111-aaaa-2222-bbbb-3333cccc4444"
+    # Replace your_client_id with your registered application ID. 
+    $clientId = "your_client_id"
     
-    Start-Process "https://login.windows-ppe.net/consumers/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://api.ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.windows-ppe.net/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
+    Start-Process "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://si.ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
     
     $code = Read-Host "Grant consent in the browser, and then enter the response URI here:"
     $code = $code -match 'code=(.*)\&'
@@ -124,7 +124,7 @@ To authenticate in the sandbox environment you don't need to register an applica
     
     # Get the initial access and refresh tokens. 
     
-    $response = Invoke-WebRequest https://login.windows-ppe.net/consumers/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://api.ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=authorization_code&redirect_uri=https://login.windows-ppe.net/common/oauth2/nativeclient"
+    $response = Invoke-WebRequest https://login.microsoftonline.com/common/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://si.ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=authorization_code&redirect_uri=https%3A%2F%2Flogin.microsoftonline.com%2Fcommon%2Foauth2%2Fnativeclient"
     
     $oauthTokens = ($response.Content | ConvertFrom-Json)  
     Write-Output "Access token: " $oauthTokens.access_token  
@@ -134,7 +134,7 @@ To authenticate in the sandbox environment you don't need to register an applica
     # The access token will expire e.g., after one hour. 
     # Use the refresh token to get new access and refresh tokens. 
     
-    $response = Invoke-WebRequest https://login.windows-ppe.net/consumers/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://api.ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=refresh_token&refresh_token=$($oauthTokens.refresh_token)"
+    $response = Invoke-WebRequest https://login.microsoftonline.com/common/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://si.ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=refresh_token&refresh_token=$($oauthTokens.refresh_token)"
     
     $oauthTokens = ($response.Content | ConvertFrom-Json)  
     Write-Output "Access token: " $oauthTokens.access_token  
@@ -155,7 +155,7 @@ To authenticate in the sandbox environment you don't need to register an applica
     When the PowerShell script successfully runs, it starts a browser session where you enter your Microsoft Advertising credentials. After consenting, the browser's address bar contains the grant code (see ?code=UseThisCode&...).  
   
     ```https
-    https://login.windows-ppe.net/common/oauth2/nativeclient?code=M.R0_CD1.132de532-5105-7550-b1fd-d37f9af2f009
+    https://login.microsoftonline.com/common/oauth2/nativeclient?code=M.R0_CD1.132de532-5105-7550-b1fd-d37f9af2f009
     ```  
   
     Copy the grant code (your own code, not the example M.R0_CD1.132de532-5105-7550-b1fd-d37f9af2f009) and enter it in the console window at the prompt. The PowerShell script then returns the access and refresh tokens. (The script makes a second call to Invoke-WebRequest as an example of how to refresh the tokens.) You should treat the refresh token like you would a password; if someone gets hold of it, they have access to your resources. The refresh token is long lived but it can become invalid. If you ever receive an invalid_grant error, your refresh token is no longer valid and you'll need to run the `Get-Tokens-Sandbox.ps1` PowerShell script again to get user consent and a new refresh token.  
