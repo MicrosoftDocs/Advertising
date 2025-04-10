@@ -22,19 +22,20 @@ Follow these steps to get a new sandbox customer. If you already have a sandbox 
 
 1. Open a browser and navigate to [https://sandbox.bingads.microsoft.com?simpsp=true&id1=1](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1).
 2. Select **Sign up now**.
-3. Select **Create one!** to create a Microsoft Advertising (MSA) account.
-4. Enter an MSA email address. The email server must be outlook.com (for example, someone@outlook.com).
+3. Select **Create an account** to create a Microsoft account (MSA) account.
+4. Select **Get a new email address**.
+5. Enter an MSA email address. The email server must be outlook.com (for example, someone@outlook.com).
 
    > [!IMPORTANT]
    > Sandbox supports MSAs created using an outlook.com email account only. Also, you may not use an email account from another email service (for example, @contoso.com) even if the account is linked to an outlook.com email account.  
 
-5. Finish the MSA work flow by specifying the rest of your user and security information. You will then be redirected to Microsoft Advertising to continue the sandbox customer and account sign up.
-6. Fill out the **Create Account** form.
-7. For **Go Live**, select **Skip payment information**.
+6. Finish the MSA work flow by specifying the rest of your user and security information. You will then be redirected to Microsoft Advertising to continue the sandbox customer and account sign up.
+7. Fill out the **Create Account** form.
+8. For **Go Live**, select **Skip payment information**.
 
 ## <a name="invite-user"></a>Optional: Invite More Users
 
-To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, you need a Microsoft Advertising (MSA) account created with an outlook.com email account. If your sandbox customer does not yet have user credentials via a Microsoft Advertising account, or your sandbox customer was created with an outlook-int.com email account, you need to invite a user to work on your [sandbox](https://secure.sandbox.bingads.microsoft.com/) account via the following steps.
+To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, you need a Microsoft account (MSA) account created with an outlook.com email account. If your sandbox customer does not yet have user credentials via a Microsoft Advertising account, or your sandbox customer was created with an outlook-int.com email account, you need to invite a user to work on your [sandbox](https://secure.sandbox.bingads.microsoft.com/) account via the following steps.
 
 1. In Microsoft Advertising [sandbox](https://secure.sandbox.bingads.microsoft.com/), select **Settings**.
 2. Select **User management**.
@@ -50,7 +51,8 @@ Microsoft Advertising sends an email invite to the user. If the invite doesn't s
 
 1. Open the email from Microsoft Advertising with subject line, Invitation to Microsoft Advertising
 2. Copy the embedded link and open in an **InPrivate mode window** or **another browser**.
-3. Select **Create one!** to create a Microsoft Advertising (MSA) account.
+3. Select **Create an account** to create a Microsoft account (MSA) account.
+4. Select **Get a new email address**.
 5. Enter an MSA email address. The email server must be outlook.com (for example, someone@outlook.com).
 
    > [!IMPORTANT]
@@ -70,9 +72,9 @@ This table includes additional sandbox endpoints.
 
 |Description|Production|Sandbox|
 |---|---|---|
-|Endpoint for OAuth requests|login.microsoftonline.com|login.windows-ppe.net|
+|Endpoint for OAuth requests|login.microsoftonline.com|login.microsoftonline.com|
 |Domain for email used when getting a Microsoft account|Any email address|outlook.com|
-|Endpoint to change the Microsoft account password|[account.live.com/password/change](https://account.live.com/password/change)[account.live.com/password/change](https://account.live.com/password/change)|
+|Endpoint to change the Microsoft account password|[account.live.com/password/change](https://account.live.com/password/change)|[account.live.com/password/change](https://account.live.com/password/change)|
 
 Although in production you must use your own developer token, all Microsoft Advertising customers can use the following universal developer token in sandbox.  
 
@@ -129,20 +131,15 @@ Sandbox supports limited editorial reviews and appeals. You cannot get the reaso
 ### <a name="productads"></a>Product Ads
 Product ads are supported in sandbox in the United States. To be auto-approved you must create a catalog and a Microsoft Merchant Center store that ends with "sandbox" as follows.
 
-1. In the Microsoft Advertising web application click on **Tools**.
-
-2. Under **Management Tools**, click on **Microsoft Merchant Center**.
-
-3. Click **Create store**, and enter a store name that ends with "**sandbox**" (case-insensitive).
-
-4. Add your store info, select **Product Ads** under **Catalog settings**, and click **Finish**.
-
-5. In your new store, click **Catalog management**, and then click **Create catalog**.
-
-6. Add your catalog name, select **Manually upload file later** under **Catalog feed file**, and click **Save**.
+1. In the Microsoft Advertising web application select on **Tools**.
+2. Under **Management Tools**, select on **Microsoft Merchant Center**.
+3. Select **Create store**, and enter a store name that ends with "**sandbox**" (case-insensitive).
+4. Add your store info, select **Product Ads** under **Catalog settings**, and select **Finish**.
+5. In your new store, select **Catalog management**, and then select **Create catalog**.
+6. Add your catalog name, select **Manually upload file later** under **Catalog feed file**, and select **Save**.
 
 ## <a name="billing"></a>Customer Billing Service
-Payment methods are not supported in sandbox. 
+Payment methods are not supported in sandbox.
 
 ## <a name="reporting"></a>Reporting Service
 When you create a keyword, test performance data should be generated within a few hours. The data is provided to test generating, retrieving, and parsing reports in the sandbox. You should not use the test data to infer or expect similar performance for your keywords in production. 
@@ -160,4 +157,3 @@ The following reports can return performance data in sandbox. All other report t
 - [DestinationUrlPerformanceReportRequest](../reporting-service/destinationurlperformancereportrequest.md)  
 - [KeywordPerformanceReportRequest](../reporting-service/keywordperformancereportrequest.md)  
 - [UserLocationPerformanceReportRequest](../reporting-service/userlocationperformancereportrequest.md)  
-
