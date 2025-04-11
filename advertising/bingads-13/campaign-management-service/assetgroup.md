@@ -67,12 +67,14 @@ Defines an asset group in an advertising campaign.
   "AssetGroupSearchThemes": [
     {
       "Id": "LongValueHere",
-      "SearchTheme": "ValueHere"
+      "SearchTheme": "ValueHere",
+      "Status": "ValueHere"
     }
   ],
   "AssetGroupUrlTargets": [
     {
       "Id": "LongValueHere",
+      "Status": "ValueHere",
       "TargetCondition1": "ValueHere",
       "TargetCondition2": "ValueHere",
       "TargetCondition3": "ValueHere",
