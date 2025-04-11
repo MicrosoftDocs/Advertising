@@ -521,12 +521,12 @@ The *CreateResponsiveAdRecommendationRequest* object defines the [body](#request
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="adsubtype"></a>AdSubType|Optional ad sub type to create a recommendation for.|[AdSubType](adsubtype.md)|
-|<a name="brandkitid"></a>BrandKitId|Reserved.|**long**|
+|<a name="brandkitid"></a>BrandKitId|The identifier of the brand kit.|**long**|
 |<a name="finalurls"></a>FinalUrls|An array of URLs of the web pages used to create recommended ad assets.|**string** array|
 |<a name="prompt"></a>Prompt|Optional description of the product or service that you want to target with the specific campaign.|**string**|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Additional fields for the latest features of create responsive ad recommendation.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
 |<a name="texttone"></a>TextTone|Optional tone for recommended text assets|[AdRecommendationTextTone](adrecommendationtexttone.md)|
-|<a name="videotype"></a>VideoType|Reserved.|[AdRecommendationVideoType](adrecommendationvideotype.md)|
+|<a name="videotype"></a>VideoType|The video type, *CTV* or *OLV*.|[AdRecommendationVideoType](adrecommendationvideotype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -539,7 +539,7 @@ The *CreateResponsiveAdRecommendationResponse* object defines the [body](#respon
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the responsive ad.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="promptbrandwarning"></a>PromptBrandWarning|Reserved.|**string**|
+|<a name="promptbrandwarning"></a>PromptBrandWarning|Whether the brand is detected in the request prompt.|**string**|
 |<a name="responsivead"></a>ResponsiveAd|A responsive ad object containing recommended text assets.|[ResponsiveAd](responsivead.md)|
 |<a name="videosuggestions"></a>VideoSuggestions|An array of videos recommended to be included in the responsive ad.|[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md) array|
 

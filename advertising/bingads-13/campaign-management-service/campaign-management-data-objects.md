@@ -16,7 +16,7 @@ The Campaign Management service defines the following data objects.
 |[AccountMigrationStatusesInfo](accountmigrationstatusesinfo.md)|Defines an object that contains migration status for an account.|
 |[AccountNegativeKeywordList](accountnegativekeywordlist.md)|Defines a negative keyword list that is associated with an account.|
 |[AccountPlacementExclusionList](accountplacementexclusionlist.md)|Defines a data object for account placement exclusion list.|
-|[AccountPlacementInclusionList](accountplacementinclusionlist.md)|Reserved.|
+|[AccountPlacementInclusionList](accountplacementinclusionlist.md)|Defines a data object for account placement inclusion list.|
 |[AccountProperty](accountproperty.md)|Maps an account level property name to a string value.|
 |[ActionAdExtension](actionadextension.md)|Defines an action ad extension with a call-to-action button.|
 |[Ad](ad.md)|Defines the base object of an ad.|
@@ -34,16 +34,16 @@ The Campaign Management service defines the following data objects.
 |[AdGroupCriterion](adgroupcriterion.md)|Defines a criterion that you want applied to the specified ad group.|
 |[AdGroupCriterionAction](adgroupcriterionaction.md)|Defines the action to apply to a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), specifically one that contains a [ProductPartition](productpartition.md).|
 |[AdGroupNegativeSites](adgroupnegativesites.md)|Defines an object that contains the negative site URLs of an ad group.|
-|[AdRecommendationCustomizedProperty](adrecommendationcustomizedproperty.md)|Reserved.|
-|[AdRecommendationImageAssetProperty](adrecommendationimageassetproperty.md)|Reserved.|
-|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md)|Reserved.|
+|[AdRecommendationCustomizedProperty](adrecommendationcustomizedproperty.md)|The ad recommendation customized property data object.|
+|[AdRecommendationImageAssetProperty](adrecommendationimageassetproperty.md)|The ad recommendation image asset property data object.|
+|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md)|The ad recommendation image refine operation data object.|
 |[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)|Defines a data object for ad recommendation image suggestion.|
-|[AdRecommendationImageSuggestionMetadata](adrecommendationimagesuggestionmetadata.md)|Reserved.|
-|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md)|Reserved.|
-|[AdRecommendationRefinedMedia](adrecommendationrefinedmedia.md)|Reserved.|
-|[AdRecommendationTextAssetProperty](adrecommendationtextassetproperty.md)|Reserved.|
+|[AdRecommendationImageSuggestionMetadata](adrecommendationimagesuggestionmetadata.md)|The ad recommendation image suggestion metadata data object.|
+|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md)|The ad recommendation media refine result data object.|
+|[AdRecommendationRefinedMedia](adrecommendationrefinedmedia.md)|The ad recommendation refined media data object.|
+|[AdRecommendationTextAssetProperty](adrecommendationtextassetproperty.md)|The ad recommendation text asset property data object.|
 |[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md)|Reserved.|
-|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md)|Reserved.|
+|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md)|The ad recommendation text refine result data object.|
 |[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md)|Reserved.|
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
@@ -72,9 +72,9 @@ The Campaign Management service defines the following data objects.
 |[AudienceGroup](audiencegroup.md)|Defines an AudienceGroup data object.|
 |[AudienceGroupAssetGroupAssociation](audiencegroupassetgroupassociation.md)|Defines an AudienceGroupAssetGroupAssociation data object.|
 |[AudienceGroupDimension](audiencegroupdimension.md)|Defines an AudienceGroupDimension data object.|
-|[AudienceIdName](audienceidname.md)|Reserved.|
+|[AudienceIdName](audienceidname.md)|Defines the audience ID name data object.|
 |[AudienceInfo](audienceinfo.md)|An object containing and ID an type for an audience.|
-|[AudioFilter](audiofilter.md)|Reserved.|
+|[AudioFilter](audiofilter.md)|Defines the audio filter data object.|
 |[BatchError](batcherror.md)|Defines a Campaign Management batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
 |[BatchErrorCollection](batcherrorcollection.md)|Defines an error object that contains batch error details for the top level list index and a list of batch errors corresponding to the  nested list index.|
 |[Bid](bid.md)|The highest price that you want to pay each time someone clicks your ad.|
@@ -85,11 +85,11 @@ The Campaign Management service defines the following data objects.
 |[BidStrategy](bidstrategy.md)|A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.|
 |[BMCStore](bmcstore.md)|Defines a Microsoft Merchant Center store.|
 |[BrandItem](branditem.md)|A data object for the BrandItem.|
-|[BrandKit](brandkit.md)|Reserved.|
-|[BrandKitColor](brandkitcolor.md)|Reserved.|
-|[BrandKitFont](brandkitfont.md)|Reserved.|
-|[BrandKitImage](brandkitimage.md)|Reserved.|
-|[BrandKitPalette](brandkitpalette.md)|Reserved.|
+|[BrandKit](brandkit.md)|The brand kit data object.|
+|[BrandKitColor](brandkitcolor.md)|A data object for the brand kit color.|
+|[BrandKitFont](brandkitfont.md)|A data object for the brand kit font.|
+|[BrandKitImage](brandkitimage.md)|The brand kit image data object.|
+|[BrandKitPalette](brandkitpalette.md)|The brand kit palette data object.|
 |[BrandList](brandlist.md)|A data object for the BrandList.|
 |[Budget](budget.md)|Represents a budget that can be shared by any campaigns in an account.|
 |[CallAdExtension](calladextension.md)|Defines an object that specifies a click-to-call phone number to include in a text ad.|
@@ -102,7 +102,7 @@ The Campaign Management service defines the following data objects.
 |[CampaignCriterion](campaigncriterion.md)|Defines a criterion that you want applied to the specified campaign.|
 |[CampaignNegativeSites](campaignnegativesites.md)|Defines an object that contains the negative site URLs of a campaign.|
 |[CashbackAdjustment](cashbackadjustment.md)|Defines the CashbackAdjustment Data Object.|
-|[ClipchampTemplateInfo](clipchamptemplateinfo.md)|Reserved.|
+|[ClipchampTemplateInfo](clipchamptemplateinfo.md)|Defines the clip champ template info data object.|
 |[CombinationRule](combinationrule.md)|A combination rule includes logical conditions used to determine who to add to your combined list.|
 |[CombinedList](combinedlist.md)|A combined list is an audience created from a combination of multiple existing audiences.|
 |[CommissionBiddingScheme](commissionbiddingscheme.md)|Defines an object that represents the commission bid strategy type (commission pay per stay).|
@@ -214,7 +214,7 @@ The Campaign Management service defines the following data objects.
 |[NegativeKeyword](negativekeyword.md)|Defines a negative keyword with match type.|
 |[NegativeKeywordList](negativekeywordlist.md)|Defines a negative keyword list.|
 |[NegativeSite](negativesite.md)|Defines a website URL where you do not want your ads displayed.|
-|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md)|Reserved.|
+|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md)|Defines the new customer acquisition goal data object.|
 |[NewCustomerAcquisitionGoalSetting](newcustomeracquisitiongoalsetting.md)|Defines the new customer acquisition goal setting data object.|
 |[NumberRuleItem](numberruleitem.md)|Defines a rule expression that depends on the operand, operator, and value.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
@@ -239,8 +239,8 @@ The Campaign Management service defines the following data objects.
 |[ProductPartition](productpartition.md)|Defines an ad group level product partition with one condition that helps determine whether a product from the Microsoft Merchant Center store gets served as a product ad.|
 |[ProductScope](productscope.md)|Defines a campaign level product scope with list of conditions that help determine which items from your catalog to include in the campaign e.g., filter by brand or condition.|
 |[ProfileCriterion](profilecriterion.md)|Defines a criterion that can be used to show ads to users in a specific company, industry, or job function.|
-|[ProfileDimension](profiledimension.md)|Reserved.|
-|[ProfileInfo](profileinfo.md)|Reserved.|
+|[ProfileDimension](profiledimension.md)|Defines the profile dimension data object.|
+|[ProfileInfo](profileinfo.md)|Defines the profile info data object.|
 |[PromotionAdExtension](promotionadextension.md)|Promotion Extensions highlight special sales and offers in your text ads.|
 |[RadiusCriterion](radiuscriterion.md)|Defines a criterion that can be used to show ads to users within the radius of a specific geographical location.|
 |[RateAmount](rateamount.md)|Defines an object that represents the rate amount in percentage form.|
@@ -262,15 +262,15 @@ The Campaign Management service defines the following data objects.
 |[SharedListItem](sharedlistitem.md)|Defines the base class of a shared list item.|
 |[ShoppingSetting](shoppingsetting.md)|Defines the campaign level settings to leverage your Microsoft Merchant Center store.|
 |[SimilarRemarketingList](similarremarketinglist.md)|Defines an audience that is similar to one of your remarketing lists.|
-|[Site](site.md)|Reserved.|
+|[Site](site.md)|Defines a data object for adding a site to an inclusion list.|
 |[SitelinkAdExtension](sitelinkadextension.md)|Defines an object with one sitelink per ad extension.|
 |[StoreCriterion](storecriterion.md)|Defines a criterion to exclude one Microsoft Merchant Center store from your [shopping campaign for brands](../guides/product-ads.md#setup-cooperative).|
 |[StringRuleItem](stringruleitem.md)|Defines a rule expression that depends on the string values of the Url or Referrer Url.|
 |[StructuredSnippetAdExtension](structuredsnippetadextension.md)|Defines an object that pairs one header with between 3 and 10 snippet values that tell customers more about your business.|
-|[SupportedClipchampAudio](supportedclipchampaudio.md)|Reserved.|
-|[SupportedClipchampAudioData](supportedclipchampaudiodata.md)|Reserved.|
-|[SupportedFont](supportedfont.md)|Reserved.|
-|[SupportedFontsData](supportedfontsdata.md)|Reserved.|
+|[SupportedClipchampAudio](supportedclipchampaudio.md)|Defines the supported clip champ audio data object.|
+|[SupportedClipchampAudioData](supportedclipchampaudiodata.md)|Defines the supported clip champ audio data data object.|
+|[SupportedFont](supportedfont.md)|Defines the supported font data object.|
+|[SupportedFontsData](supportedfontsdata.md)|Defines the supported fonts data data object.|
 |[TargetCpaBiddingScheme](targetcpabiddingscheme.md)|Defines an object that represents the target CPA bid strategy type.|
 |[TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md)|An automated bidding strategy to get the target impression share for the ad position where you want your ads to appear.|
 |[TargetRoasBiddingScheme](targetroasbiddingscheme.md)|Defines an object that represents the target ROAS bid strategy type.|
@@ -286,7 +286,7 @@ The Campaign Management service defines the following data objects.
 |[Video](video.md)|Defines the Video Data Object.|
 |[VideoAdExtension](videoadextension.md)|Defines an ad extension with a video and call-to-action button.|
 |[VideoAsset](videoasset.md)|Defines the VideoAsset Data Object.|
-|[VideoTemplateFilter](videotemplatefilter.md)|Reserved.|
+|[VideoTemplateFilter](videotemplatefilter.md)|Defines the video template filter data object.|
 |[Webpage](webpage.md)|Defines a webpage parameter that contains a list of webpage conditions or criteria that help determine whether you want to show dynamic search ads.|
 |[WebpageCondition](webpagecondition.md)|Defines a condition or criterion that helps determine whether you want to show dynamic search ads.|
 |[WebpageParameter](webpageparameter.md)|Defines the conditions or criteria that determine whether you want to show dynamic search ads.|

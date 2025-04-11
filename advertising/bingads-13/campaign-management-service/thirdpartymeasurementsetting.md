@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the third party measurement setting data object.
 ---
 # ThirdPartyMeasurementSetting Data Object - Campaign Management
-Reserved.
+Defines the third party measurement setting data object.
 
 ## Syntax
 

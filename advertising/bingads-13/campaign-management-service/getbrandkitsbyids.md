@@ -42,7 +42,7 @@ The *GetBrandKitsByIdsResponse* object defines the [body](#response-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="brandkits"></a>BrandKits|A list of BrandKits to be crretrieved for the specified account.|[BrandKit](brandkit.md) array|
+|<a name="brandkits"></a>BrandKits|A list of BrandKits to be retrieved for the specified account.|[BrandKit](brandkit.md) array|
 |<a name="partialerrors"></a>PartialErrors|An array *BatchError* that contains details for any request items that were not successful.<br/><br/>The list of errors does not correspond directly to the list of items in the request. The list can be empty if there were no errors, or it can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
@@ -264,7 +264,7 @@ The *GetBrandKitsByIdsResponse* object defines the [body](#response-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="brandkits"></a>BrandKits|A list of BrandKits to be retrieved by their IDs.|[BrandKit](brandkit.md) array|
+|<a name="brandkits"></a>BrandKits|A list of BrandKits to be retrieved for the specified account.|[BrandKit](brandkit.md) array|
 |<a name="partialerrors"></a>PartialErrors|An array *BatchError* that contains details for any request items that were not successful.<br/><br/>The list of errors does not correspond directly to the list of items in the request. The list can be empty if there were no errors, or it can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements

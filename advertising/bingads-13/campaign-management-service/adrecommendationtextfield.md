@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: The ad recommendation text field value set.
 ---
 # AdRecommendationTextField Value Set - Campaign Management
-Reserved.
+The ad recommendation text field value set.
 
 ## Syntax
 ```xml
