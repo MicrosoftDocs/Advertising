@@ -22,7 +22,7 @@ Follow these steps to get a new sandbox customer. If you already have a sandbox 
 
 1. Open a browser and navigate to [https://sandbox.bingads.microsoft.com?simpsp=true&id1=1](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1).
 2. Select **Sign up now**.
-3. Select **Create an account** to create a Microsoft account (MSA) account.
+3. Select **Create an account** to create a Microsoft account (MSA).
 4. Select **Get a new email address**.
 5. Enter an MSA email address. The email server must be outlook.com (for example, someone@outlook.com).
 
@@ -35,7 +35,7 @@ Follow these steps to get a new sandbox customer. If you already have a sandbox 
 
 ## <a name="invite-user"></a>Optional: Invite More Users
 
-To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, you need a Microsoft account (MSA) account created with an outlook.com email account. If your sandbox customer does not yet have user credentials via a Microsoft Advertising account, or your sandbox customer was created with an outlook-int.com email account, you need to invite a user to work on your [sandbox](https://secure.sandbox.bingads.microsoft.com/) account via the following steps.
+To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, you need a Microsoft account (MSA) created with an outlook.com email account. If your sandbox customer does not yet have user credentials via a Microsoft account, or your sandbox customer was created with an outlook-int.com email account, you need to invite a user to work on your [sandbox](https://secure.sandbox.bingads.microsoft.com/) account via the following steps.
 
 1. In Microsoft Advertising [sandbox](https://secure.sandbox.bingads.microsoft.com/), select **Settings**.
 2. Select **User management**.
@@ -51,7 +51,7 @@ Microsoft Advertising sends an email invite to the user. If the invite doesn't s
 
 1. Open the email from Microsoft Advertising with subject line, Invitation to Microsoft Advertising
 2. Copy the embedded link and open in an **InPrivate mode window** or **another browser**.
-3. Select **Create an account** to create a Microsoft account (MSA) account.
+3. Select **Create an account** to create a Microsoft account (MSA).
 4. Select **Get a new email address**.
 5. Enter an MSA email address. The email server must be outlook.com (for example, someone@outlook.com).
 
