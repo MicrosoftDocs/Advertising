@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # GetConversionGoalsByIds Service Operation - Campaign Management
-Gets the specified conversion goals. 
+Gets the specified conversion goals.
 
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.

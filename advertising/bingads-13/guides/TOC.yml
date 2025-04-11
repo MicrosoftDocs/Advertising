@@ -1340,6 +1340,8 @@
       href: ../campaign-management-service/addmedia.md
     - name: AddNegativeKeywordsToEntities
       href: ../campaign-management-service/addnegativekeywordstoentities.md
+    - name: AddNewCustomerAcquisitionGoals
+      href: ../campaign-management-service/addnewcustomeracquisitiongoals.md
     - name: AddSeasonalityAdjustments
       href: ../campaign-management-service/addseasonalityadjustments.md
     - name: AddSharedEntity
@@ -1490,6 +1492,8 @@
       href: ../campaign-management-service/getcampaignsbyaccountid.md
     - name: GetCampaignsByIds
       href: ../campaign-management-service/getcampaignsbyids.md
+    - name: GetClipChampTemplates
+      href: ../campaign-management-service/getclipchamptemplates.md
     - name: GetConversionGoalsByIds
       href: ../campaign-management-service/getconversiongoalsbyids.md
     - name: GetConversionGoalsByTagIds
@@ -1542,6 +1546,8 @@
       href: ../campaign-management-service/getnegativesitesbyadgroupids.md
     - name: GetNegativeSitesByCampaignIds
       href: ../campaign-management-service/getnegativesitesbycampaignids.md
+    - name: GetNewCustomerAcquisitionGoal
+      href: ../campaign-management-service/getnewcustomeracquisitiongoal.md
     - name: GetOfflineConversionReports
       href: ../campaign-management-service/getofflineconversionreports.md
     - name: GetProfileDataFileUrl
@@ -1558,6 +1564,10 @@
       href: ../campaign-management-service/getsharedentityassociationsbyentityids.md
     - name: GetSharedEntityAssociationsBySharedEntityIds
       href: ../campaign-management-service/getsharedentityassociationsbysharedentityids.md
+    - name: GetSupportedClipChampAudio
+      href: ../campaign-management-service/getsupportedclipchampaudio.md
+    - name: GetSupportedFonts
+      href: ../campaign-management-service/getsupportedfonts.md
     - name: GetUetTagsByIds
       href: ../campaign-management-service/getuettagsbyids.md
     - name: GetVideosByIds
@@ -1624,6 +1634,8 @@
       href: ../campaign-management-service/updatekeywords.md
     - name: UpdateLabels
       href: ../campaign-management-service/updatelabels.md
+    - name: UpdateNewCustomerAcquisitionGoals
+      href: ../campaign-management-service/updatenewcustomeracquisitiongoals.md
     - name: UpdateSeasonalityAdjustments
       href: ../campaign-management-service/updateseasonalityadjustments.md
     - name: UpdateSharedEntities
@@ -1745,8 +1757,12 @@
       href: ../campaign-management-service/audiencegroupassetgroupassociation.md
     - name: AudienceGroupDimension
       href: ../campaign-management-service/audiencegroupdimension.md
+    - name: AudienceIdName
+      href: ../campaign-management-service/audienceidname.md
     - name: AudienceInfo
       href: ../campaign-management-service/audienceinfo.md
+    - name: AudioFilter
+      href: ../campaign-management-service/audiofilter.md
     - name: BatchError
       href: ../campaign-management-service/batcherror.md
     - name: BatchErrorCollection
@@ -1801,6 +1817,8 @@
       href: ../campaign-management-service/campaignnegativesites.md
     - name: CashbackAdjustment
       href: ../campaign-management-service/cashbackadjustment.md
+    - name: ClipChampTemplateInfo
+      href: ../campaign-management-service/clipchamptemplateinfo.md
     - name: CombinedList
       href: ../campaign-management-service/combinedlist.md
     - name: CombinationRule
@@ -2025,6 +2043,8 @@
       href: ../campaign-management-service/negativekeywordlist.md
     - name: NegativeSite
       href: ../campaign-management-service/negativesite.md
+    - name: NewCustomerAcquisitionGoal
+      href: ../campaign-management-service/newcustomeracquisitiongoal.md
     - name: NewCustomerAcquisitionGoalSetting
       href: ../campaign-management-service/newcustomeracquisitiongoalsetting.md
     - name: NumberRuleItem
@@ -2073,6 +2093,10 @@
       href: ../campaign-management-service/productscope.md
     - name: ProfileCriterion
       href: ../campaign-management-service/profilecriterion.md
+    - name: ProfileDimension
+      href: ../campaign-management-service/profiledimension.md
+    - name: ProfileInfo
+      href: ../campaign-management-service/profileinfo.md
     - name: PromotionAdExtension
       href: ../campaign-management-service/promotionadextension.md
     - name: RadiusCriterion
@@ -2125,6 +2149,14 @@
       href: ../campaign-management-service/stringruleitem.md
     - name: StructuredSnippetAdExtension
       href: ../campaign-management-service/structuredsnippetadextension.md
+    - name: SupportedClipChampAudio
+      href: ../campaign-management-service/supportedclipchampaudio.md
+    - name: SupportedClipChampAudioData
+      href: ../campaign-management-service/supportedclipchampaudiodata.md
+    - name: SupportedFont
+      href: ../campaign-management-service/supportedfont.md
+    - name: SupportedFontsData
+      href: ../campaign-management-service/supportedfontsdata.md
     - name: TargetCpaBiddingScheme
       href: ../campaign-management-service/targetcpabiddingscheme.md
     - name: TargetImpressionShareBiddingScheme
@@ -2153,6 +2185,8 @@
       href: ../campaign-management-service/videoadextension.md
     - name: VideoAsset
       href: ../campaign-management-service/videoasset.md
+    - name: VideoTemplateFilter
+      href: ../campaign-management-service/videotemplatefilter.md
     - name: Webpage
       href: ../campaign-management-service/webpage.md
     - name: WebpageCondition
@@ -2232,6 +2266,8 @@
       href: ../campaign-management-service/attributionmodeltype.md
     - name: AudienceAdditionalField
       href: ../campaign-management-service/audienceadditionalfield.md
+    - name: AudienceGroupAdditionalField
+      href: ../campaign-management-service/audiencegroupadditionalfield.md
     - name: AudienceGroupDimensionType
       href: ../campaign-management-service/audiencegroupdimensiontype.md
     - name: AudienceType

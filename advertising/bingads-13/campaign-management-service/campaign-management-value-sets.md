@@ -28,8 +28,12 @@ The Campaign Management service defines the following value sets.
 |[AdGroupCriterionType](adgroupcriteriontype.md)|Defines the possible types of ad group criterions.|
 |[AdGroupPrivacyStatus](adgroupprivacystatus.md)|Defines possible values for ad group privacy status in Audience campaigns.|
 |[AdGroupStatus](adgroupstatus.md)|Defines the possible status values of an ad group.|
+|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|Reserved.|
+|[AdRecommendationImageField](adrecommendationimagefield.md)|Reserved.|
+|[AdRecommendationImageRefineType](adrecommendationimagerefinetype.md)|Reserved.|
 |[AdRecommendationTextField](adrecommendationtextfield.md)|Reserved.|
-|[AdRecommendationTextTone](adrecommendationtexttone.md)|Reserved.|
+|[AdRecommendationTextTone](adrecommendationtexttone.md)|A value set for the optional tone for recommended text assets.|
+|[AdRecommendationVideoType](adrecommendationvideotype.md)|Reserved.|
 |[AdRotationType](adrotationtype.md)|Defines the possible ad rotation types that you can apply to an ad group.|
 |[AdStatus](adstatus.md)|Defines the possible status values of an ad.|
 |[AdSubType](adsubtype.md)|Defines the possible ad sub types.|
@@ -45,6 +49,7 @@ The Campaign Management service defines the following value sets.
 |[AssociationType](associationtype.md)|Defines the entity types that can be associated with an ad extension.|
 |[AttributionModelType](attributionmodeltype.md)|Determines which attribution model is used with a conversion goal.|
 |[AudienceAdditionalField](audienceadditionalfield.md)|Defines a list of optional audience properties that you can request when calling [GetAudiencesByIds](getaudiencesbyids.md#returnadditionalfields).|
+|[AudienceGroupAdditionalField](audiencegroupadditionalfield.md)|Reserved.|
 |[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|Defines an AudienceGroupDimensionType value set.|
 |[AudienceType](audiencetype.md)|Defines the possible audience types.|
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
@@ -79,6 +84,7 @@ The Campaign Management service defines the following value sets.
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
+|[FontTextAssetType](fonttextassettype.md)|Reserved.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
 |[HotelAdGroupType](hoteladgrouptype.md)|The ad group type for Lodging campaigns.|

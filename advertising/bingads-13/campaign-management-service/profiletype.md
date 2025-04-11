@@ -77,3 +77,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 ## Used By
 [GetProfileDataFileUrl](getprofiledatafileurl.md)  
 [ProfileCriterion](profilecriterion.md)  
+[ProfileInfo](profileinfo.md)  

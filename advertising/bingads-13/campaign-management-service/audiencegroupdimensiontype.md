@@ -18,19 +18,21 @@ Defines an AudienceGroupDimensionType value set. Contains Age, Audience, and Gen
     <xs:enumeration value="Age" />
     <xs:enumeration value="Gender" />
     <xs:enumeration value="Audience" />
+    <xs:enumeration value="Profile" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AudienceGroupDimensionType](audiencegroupdimensiontype.md) value set has the following values: [Age](#age), [Audience](#audience), [Gender](#gender).
+The [AudienceGroupDimensionType](audiencegroupdimensiontype.md) value set has the following values: [Age](#age), [Audience](#audience), [Gender](#gender), [Profile](#profile).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="age"></a>Age|The age dimension type for an audience group.|
 |<a name="audience"></a>Audience|The audience dimension type for an audience group.|
 |<a name="gender"></a>Gender|The gender dimension type for an audience group.|
+|<a name="profile"></a>Profile|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
