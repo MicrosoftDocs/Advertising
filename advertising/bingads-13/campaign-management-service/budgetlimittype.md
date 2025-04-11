@@ -17,18 +17,20 @@ Defines the possible budget limit types that you can specify for a campaign.
   <xs:restriction base="xs:string">
     <xs:enumeration value="DailyBudgetAccelerated" />
     <xs:enumeration value="DailyBudgetStandard" />
+    <xs:enumeration value="LifetimeBudgetStandard" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [BudgetLimitType](budgetlimittype.md) value set has the following values: [DailyBudgetAccelerated](#dailybudgetaccelerated), [DailyBudgetStandard](#dailybudgetstandard).
+The [BudgetLimitType](budgetlimittype.md) value set has the following values: [DailyBudgetAccelerated](#dailybudgetaccelerated), [DailyBudgetStandard](#dailybudgetstandard), [LifetimeBudgetStandard](#lifetimebudgetstandard).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="dailybudgetaccelerated"></a>DailyBudgetAccelerated|A daily budget that is spent until it is depleted. Depending on the activity, the complete budget could be spent within a couple of minutes, hours, or not at all.<br/><br/>The daily spend will not exceed the daily budget limit and the accumulated daily spend will not exceed the calculated monthly budget limit.<br/><br/>This budget type is only available for Audience campaigns that use unshared campaign-level budgets.|
 |<a name="dailybudgetstandard"></a>DailyBudgetStandard|A daily budget that is spread throughout the day.<br/><br/>The daily spend can exceed the daily budget limit by up to 20%; however, the accumulated daily spend will not exceed the calculated monthly budget limit.|
+|<a name="lifetimebudgetstandard"></a>LifetimeBudgetStandard|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

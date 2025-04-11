@@ -21,6 +21,7 @@ The Campaign Management service defines the following service operations.
 |[AddAudienceGroups](addaudiencegroups.md)|Adds array of audience groups to the account.|N/A.|
 |[AddAudiences](addaudiences.md)|Adds one or more audiences.|100 *Audiences*|
 |[AddBidStrategies](addbidstrategies.md)|Adds bid strategies to an account's portfolio bid strategy library.|100 *BidStrategies*|
+|[AddBrandKits](addbrandkits.md)|Reserved.||
 |[AddBudgets](addbudgets.md)|Adds new budgets to the account's shared budget library.|100 *Budgets*|
 |[AddCampaignConversionGoals](addcampaignconversiongoals.md)|Adds new campaign conversion goals to the account's shared campaign conversion goal library.|N/A.|
 |[AddCampaignCriterions](addcampaigncriterions.md)|Adds one or more campaign criterions that help determine whether ads in each campaign get served.|100 *CampaignCriterions*|
@@ -35,6 +36,7 @@ The Campaign Management service defines the following service operations.
 |[AddListItemsToSharedList](addlistitemstosharedlist.md)|Adds negative keywords to a negative keyword list, or negative sites to a website exclusion list.|1 *SharedList*<br/><br/>5,000 *ListItems*|
 |[AddMedia](addmedia.md)|Adds the specified media to an account's asset library.|1 *AccountId*<br/><br/>10 *Media*|
 |[AddNegativeKeywordsToEntities](addnegativekeywordstoentities.md)|Adds negative keywords to the specified campaign or ad group.|1 *EntityNegativeKeywords*<br/><br/>Each *EntityNegativeKeyword* element can contain up to 20,000 negative keywords.|
+|[AddNewCustomerAcquisitionGoals](addnewcustomeracquisitiongoals.md)|Reserved.||
 |[AddSeasonalityAdjustments](addseasonalityadjustments.md)|Add seasonality adjustments to the specified account.|N/A.|
 |[AddSharedEntity](addsharedentity.md)|Adds a negative keyword list to the ad account library, or adds a website exclusion list to the manager account (customer) library.|1 *SharedEntity*<br/><br/>5,000 *ListItems*|
 |[AddUetTags](adduettags.md)|Adds new Universal Event Tracking (UET) tags that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|100 *UetTags*|
@@ -61,6 +63,7 @@ The Campaign Management service defines the following service operations.
 |[DeleteAudienceGroups](deleteaudiencegroups.md)|Deletes one or more AudienceGroups.|N/A.|
 |[DeleteAudiences](deleteaudiences.md)|Deletes the specified audiences.|100 *AudienceIds*|
 |[DeleteBidStrategies](deletebidstrategies.md)|Deletes bid strategies from an account's portfolio bid strategy library.|100 *BidStrategyIds*|
+|[DeleteBrandKits](deletebrandkits.md)|Reserved.||
 |[DeleteBudgets](deletebudgets.md)|Deletes budgets from the account's shared budget library.|100 *BudgetIds*|
 |[DeleteCampaignConversionGoals](deletecampaignconversiongoals.md)|Deletes a campaign conversion goal.|N/A.|
 |[DeleteCampaignCriterions](deletecampaigncriterions.md)|Deletes one or more campaign criterions.|100 *CampaignCriterionIds*|
@@ -100,6 +103,8 @@ The Campaign Management service defines the following service operations.
 |[GetAudiencesByIds](getaudiencesbyids.md)|Retrieves the specified audiences from the specified account.|100 *AudienceIds*|
 |[GetBidStrategiesByIds](getbidstrategiesbyids.md)|Gets bid strategies in an account's portfolio bid strategy library.|100 *BidStrategyIds*|
 |[GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md)|Gets the Microsoft Merchant Center stores for the specified customer.|Not applicable.|
+|[GetBrandKitsByAccountId](getbrandkitsbyaccountid.md)|Reserved.||
+|[GetBrandKitsByIds](getbrandkitsbyids.md)|Reserved.||
 |[GetBSCCountries](getbsccountries.md)|Gets the list of supported sales country codes for Microsoft Shopping Campaigns.|Not applicable.|
 |[GetBudgetsByIds](getbudgetsbyids.md)|Gets the specified budgets from the account's shared budget library.|100 *BudgetIds*|
 |[GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md)|Gets the specified campaign criterions.|100 *CampaignCriterionIds*<br/><br/>1 *CampaignId*|
@@ -107,6 +112,7 @@ The Campaign Management service defines the following service operations.
 |[GetCampaignIdsByBudgetIds](getcampaignidsbybudgetids.md)|Gets the campaign identifiers that share each specified budget.|100 *BudgetIds*|
 |[GetCampaignsByAccountId](getcampaignsbyaccountid.md)|Gets the campaigns within an account.|1 *AccountId*|
 |[GetCampaignsByIds](getcampaignsbyids.md)|Gets the specified campaigns within an account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
+|[GetClipchampTemplates](getclipchamptemplates.md)|Reserved.||
 |[GetConversionGoalsByIds](getconversiongoalsbyids.md)|Gets the specified conversion goals.|100 *ConversionGoalIds*|
 |[GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)|Gets the conversion goals that use the specified UET tags.|100 *TagIds*|
 |[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Gets conversion value rules by the account ID.|N/A.|
@@ -133,6 +139,7 @@ The Campaign Management service defines the following service operations.
 |[GetNegativeKeywordsByEntityIds](getnegativekeywordsbyentityids.md)|Gets the negative keywords that are assigned directly to campaigns or ad groups.|1 *ParentEntityId*<br/><br/>1 *EntityIds*|
 |[GetNegativeSitesByAdGroupIds](getnegativesitesbyadgroupids.md)|Gets the negative sites URLs that are assigned directly to ad groups.|15 *AdGroupIds*<br/><br/>1 *CampaignId*|
 |[GetNegativeSitesByCampaignIds](getnegativesitesbycampaignids.md)|Gets the negative site URLs that are assigned directly to campaigns.|1 *AccountId*<br/><br/>15 *CampaignIds*|
+|[GetNewCustomerAcquisitionGoalsByAccountId](getnewcustomeracquisitiongoalsbyaccountid.md)|Reserved.||
 |[GetOfflineConversionReports](getofflineconversionreports.md)|Gets the offline conversion reports in the requested date range.|N/A.|
 |[GetProfileDataFileUrl](getprofiledatafileurl.md)|Gets a temporary URL that you can use to download industry or job function profile data.|1 *ProfileType*|
 |[GetSeasonalityAdjustmentsByAccountId](getseasonalityadjustmentsbyaccountid.md)|Gets the seasonality adjustments associated with an account.|N/A.|
@@ -141,6 +148,8 @@ The Campaign Management service defines the following service operations.
 |[GetSharedEntitiesByAccountId](getsharedentitiesbyaccountid.md)|Gets negative keyword lists.|Not applicable.|
 |[GetSharedEntityAssociationsByEntityIds](getsharedentityassociationsbyentityids.md)|Gets the negative keyword list to campaign associations by campaign IDs, or website exclusion list to ad account associations by ad account IDs.|100 *EntityIds*|
 |[GetSharedEntityAssociationsBySharedEntityIds](getsharedentityassociationsbysharedentityids.md)|Gets the negative keyword list to campaign associations by negative keyword list IDs, or website exclusion list to ad account associations by website exclusion list IDs.|1 *SharedEntityIds*|
+|[GetSupportedClipchampAudio](getsupportedclipchampaudio.md)|Reserved.||
+|[GetSupportedFonts](getsupportedfonts.md)|Reserved.||
 |[GetUetTagsByIds](getuettagsbyids.md)|Gets the specified Universal Event Tracking (UET) tags.|100 *TagIds*|
 |[GetVideosByIds](getvideosbyids.md)|Gets videos by video identifiers.|1,000 *VideoIds*|
 |[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)|Refine an asset group recommendation.|N/A.|
@@ -162,6 +171,7 @@ The Campaign Management service defines the following service operations.
 |[UpdateAudienceGroups](updateaudiencegroups.md)|Updates the specified audience groups.|N/A.|
 |[UpdateAudiences](updateaudiences.md)|Updates the specified audiences.|100 *Audiences*|
 |[UpdateBidStrategies](updatebidstrategies.md)|Updates bid strategies in an account's portfolio bid strategy library.|100 *BidStrategies*|
+|[UpdateBrandKits](updatebrandkits.md)|Reserved.||
 |[UpdateBudgets](updatebudgets.md)|Updates the specified budgets in the account's shared budget library.|100 *Budgets*|
 |[UpdateCampaignCriterions](updatecampaigncriterions.md)|Updates one or more campaign criterions.|100 *CampaignCriterions*|
 |[UpdateCampaigns](updatecampaigns.md)|Updates specified campaigns in a specified account.|1 *AccountId*<br/><br/>100 *Campaigns*|
@@ -173,6 +183,7 @@ The Campaign Management service defines the following service operations.
 |[UpdateImportJobs](updateimportjobs.md)|Replaces the specified import jobs with new import jobs.|1 *ImportJobs*|
 |[UpdateKeywords](updatekeywords.md)|Updates the keywords within a specified ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
 |[UpdateLabels](updatelabels.md)|Updates the labels within the account.|100 *Labels*|
+|[UpdateNewCustomerAcquisitionGoals](updatenewcustomeracquisitiongoals.md)|Reserved.||
 |[UpdateSeasonalityAdjustments](updateseasonalityadjustments.md)|Make updates to the specified seasonality adjustments.|N/A.|
 |[UpdateSharedEntities](updatesharedentities.md)|Updates the negative keyword lists or website exclusion lists.|20 *SharedEntities*|
 |[UpdateUetTags](updateuettags.md)|Updates the specified Universal Event Tracking (UET) tags.|100 *UetTags*|
