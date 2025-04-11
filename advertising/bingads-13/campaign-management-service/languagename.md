@@ -313,6 +313,13 @@ Defines the set of supported ad languages.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="Korean">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">64</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
     <xs:enumeration value="All">
       <xs:annotation>
         <xs:appinfo>
@@ -326,7 +333,7 @@ Defines the set of supported ad languages.
 
 ## <a name="values"></a>Values
 
-The [LanguageName](languagename.md) value set has the following values: [Albanian](#albanian), [All](#all), [Arabic](#arabic), [Bosnian](#bosnian), [Bulgarian](#bulgarian), [Croatian](#croatian), [Czech](#czech), [Danish](#danish), [Dutch](#dutch), [English](#english), [Estonian](#estonian), [Finnish](#finnish), [French](#french), [German](#german), [Greek](#greek), [Hebrew](#hebrew), [Hindi](#hindi), [Hungarian](#hungarian), [Icelandic](#icelandic), [Indonesian](#indonesian), [Italian](#italian), [Japanese](#japanese), [Latvian](#latvian), [Lithuanian](#lithuanian), [Macedonian](#macedonian), [Malay](#malay), [Maltese](#maltese), [None](#none), [Norwegian](#norwegian), [Polish](#polish), [Portuguese](#portuguese), [Romanian](#romanian), [Russian](#russian), [Serbian](#serbian), [SimplifiedChinese](#simplifiedchinese), [Slovak](#slovak), [Slovenian](#slovenian), [Spanish](#spanish), [Swedish](#swedish), [Tagalog](#tagalog), [Thai](#thai), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish), [Vietnamese](#vietnamese).
+The [LanguageName](languagename.md) value set has the following values: [Albanian](#albanian), [All](#all), [Arabic](#arabic), [Bosnian](#bosnian), [Bulgarian](#bulgarian), [Croatian](#croatian), [Czech](#czech), [Danish](#danish), [Dutch](#dutch), [English](#english), [Estonian](#estonian), [Finnish](#finnish), [French](#french), [German](#german), [Greek](#greek), [Hebrew](#hebrew), [Hindi](#hindi), [Hungarian](#hungarian), [Icelandic](#icelandic), [Indonesian](#indonesian), [Italian](#italian), [Japanese](#japanese), [Korean](#korean), [Latvian](#latvian), [Lithuanian](#lithuanian), [Macedonian](#macedonian), [Malay](#malay), [Maltese](#maltese), [None](#none), [Norwegian](#norwegian), [Polish](#polish), [Portuguese](#portuguese), [Romanian](#romanian), [Russian](#russian), [Serbian](#serbian), [SimplifiedChinese](#simplifiedchinese), [Slovak](#slovak), [Slovenian](#slovenian), [Spanish](#spanish), [Swedish](#swedish), [Tagalog](#tagalog), [Thai](#thai), [TraditionalChinese](#traditionalchinese), [Turkish](#turkish), [Vietnamese](#vietnamese).
 
 |Value|Description|
 |-----------|---------------|
@@ -352,6 +359,7 @@ The [LanguageName](languagename.md) value set has the following values: [Albania
 |<a name="indonesian"></a>Indonesian|The corresponding language name.|
 |<a name="italian"></a>Italian|The corresponding language name.|
 |<a name="japanese"></a>Japanese|The corresponding language name.|
+|<a name="korean"></a>Korean|The corresponding language name.|
 |<a name="latvian"></a>Latvian|The corresponding language name.|
 |<a name="lithuanian"></a>Lithuanian|The corresponding language name.|
 |<a name="macedonian"></a>Macedonian|The corresponding language name.|

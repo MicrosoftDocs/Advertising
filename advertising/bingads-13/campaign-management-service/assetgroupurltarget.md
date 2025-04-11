@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the asset group URL target data object.
 ---
 # AssetGroupUrlTarget Data Object - Campaign Management
-Reserved.
+Defines the asset group URL target data object.
 
 ## Syntax
 
@@ -19,6 +19,7 @@ Reserved.
 <xs:complexType name="AssetGroupUrlTarget" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+    <xs:element minOccurs="0" name="Status" type="tns:GenericEntityStatus" />
     <xs:element minOccurs="0" name="TargetCondition1" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="TargetCondition2" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="TargetCondition3" nillable="true" type="xs:string" />
@@ -37,6 +38,7 @@ Reserved.
 ```json
 {
   "Id": "LongValueHere",
+  "Status": "ValueHere",
   "TargetCondition1": "ValueHere",
   "TargetCondition2": "ValueHere",
   "TargetCondition3": "ValueHere",
@@ -53,11 +55,12 @@ Reserved.
 
 ## <a name="elements"></a>Elements
 
-The [AssetGroupUrlTarget](assetgroupurltarget.md) object has the following elements: [Id](#id), [TargetCondition1](#targetcondition1), [TargetCondition2](#targetcondition2), [TargetCondition3](#targetcondition3), [TargetConditionOperator1](#targetconditionoperator1), [TargetConditionOperator2](#targetconditionoperator2), [TargetConditionOperator3](#targetconditionoperator3), [TargetValue1](#targetvalue1), [TargetValue2](#targetvalue2), [TargetValue3](#targetvalue3).
+The [AssetGroupUrlTarget](assetgroupurltarget.md) object has the following elements: [Id](#id), [Status](#status), [TargetCondition1](#targetcondition1), [TargetCondition2](#targetcondition2), [TargetCondition3](#targetcondition3), [TargetConditionOperator1](#targetconditionoperator1), [TargetConditionOperator2](#targetconditionoperator2), [TargetConditionOperator3](#targetconditionoperator3), [TargetValue1](#targetvalue1), [TargetValue2](#targetvalue2), [TargetValue3](#targetvalue3).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|Reserved.|**long**|
+|<a name="status"></a>Status|Reserved.|[GenericEntityStatus](genericentitystatus.md)|
 |<a name="targetcondition1"></a>TargetCondition1|Reserved.|**string**|
 |<a name="targetcondition2"></a>TargetCondition2|Reserved.|**string**|
 |<a name="targetcondition3"></a>TargetCondition3|Reserved.|**string**|

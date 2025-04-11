@@ -1707,8 +1707,12 @@
       href: ../campaign-management-service/adrecommendationrefinedmedia.md
     - name: AdRecommendationTextAssetProperty
       href: ../campaign-management-service/adrecommendationtextassetproperty.md
+    - name: AdRecommendationTextRefineOperation
+      href: ../campaign-management-service/adrecommendationtextrefineoperation.md
     - name: AdRecommendationTextRefineResult
       href: ../campaign-management-service/adrecommendationtextrefineresult.md
+    - name: AdRecommendationVideoSuggestion
+      href: ../campaign-management-service/adrecommendationvideosuggestion.md
     - name: AdRotation
       href: ../campaign-management-service/adrotation.md
     - name: AgeCriterion
@@ -1739,6 +1743,8 @@
       href: ../campaign-management-service/assetgrouplistinggroupaction.md
     - name: AssetGroupSearchTheme
       href: ../campaign-management-service/assetgroupsearchtheme.md
+    - name: AssetGroupUrlTarget
+      href: ../campaign-management-service/assetgroupurltarget.md
     - name: AssetLink
       href: ../campaign-management-service/assetlink.md
     - name: Audience
@@ -2171,6 +2177,8 @@
       href: ../campaign-management-service/textad.md
     - name: TextAsset
       href: ../campaign-management-service/textasset.md
+    - name: ThirdPartyMeasurementSetting
+      href: ../campaign-management-service/thirdpartymeasurementsetting.md
     - name: UetTag
       href: ../campaign-management-service/uettag.md
     - name: UrlGoal
@@ -2234,6 +2242,8 @@
       href: ../campaign-management-service/adrecommendationimagefield.md
     - name: AdRecommendationImageRefineType
       href: ../campaign-management-service/adrecommendationimagerefinetype.md
+    - name: AdRecommendationTextField
+      href: ../campaign-management-service/adrecommendationtextfield.md
     - name: AdRecommendationVideoType
       href: ../campaign-management-service/adrecommendationvideotype.md
     - name: AdRotationType
@@ -2340,6 +2350,8 @@
       href: ../campaign-management-service/frequencycaptimegranularity.md
     - name: GenderType
       href: ../campaign-management-service/gendertype.md
+    - name: GenericEntityStatus
+      href: ../campaign-management-service/genericentitystatus.md
     - name: HotelAdGroupType
       href: ../campaign-management-service/hoteladgrouptype.md
     - name: HotelDateSelectionType
