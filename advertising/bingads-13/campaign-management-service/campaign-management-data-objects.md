@@ -42,9 +42,9 @@ The Campaign Management service defines the following data objects.
 |[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md)|The ad recommendation media refine result data object.|
 |[AdRecommendationRefinedMedia](adrecommendationrefinedmedia.md)|The ad recommendation refined media data object.|
 |[AdRecommendationTextAssetProperty](adrecommendationtextassetproperty.md)|The ad recommendation text asset property data object.|
-|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md)|Reserved.|
+|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md)|Defines the ad recommendation text refine operation data object.|
 |[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md)|The ad recommendation text refine result data object.|
-|[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md)|Reserved.|
+|[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md)|Defines the ad recommendation video suggestion data object.|
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
 |[AgeDimension](agedimension.md)|Data object that specifies users by their age.|
@@ -62,7 +62,7 @@ The Campaign Management service defines the following data objects.
 |[AssetGroupListingGroup](assetgrouplistinggroup.md)|A listing group that corresponds directly to the identifiers specified in the request.|
 |[AssetGroupListingGroupAction](assetgrouplistinggroupaction.md)|An object that contains an Action element and a ListingGroup element.|
 |[AssetGroupSearchTheme](assetgroupsearchtheme.md)|Defines an AssetGroupSearchTheme data object.|
-|[AssetGroupUrlTarget](assetgroupurltarget.md)|Reserved.|
+|[AssetGroupUrlTarget](assetgroupurltarget.md)|Defines the asset group URL target data object.|
 |[AssetLink](assetlink.md)|Defines the relationship of an asset to an ad.|
 |[Audience](audience.md)|Defines the base object of an audience.|
 |[AudienceCondition](audiencecondition.md)|Defines a condition to use conversion value rules for specified audiences.|
@@ -278,7 +278,7 @@ The Campaign Management service defines the following data objects.
 |[TargetSettingDetail](targetsettingdetail.md)|Determines whether you want to use the "target and bid" option or the "bid only" target option for the criterion type group.|
 |[TextAd](textad.md)|Defines a text ad.|
 |[TextAsset](textasset.md)|A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
-|[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)|Reserved.|
+|[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)|Defines the third party measurement setting data object.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
 |[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|
