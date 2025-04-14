@@ -11,6 +11,12 @@ description: Defines a data object for ad recommendation image suggestion.
 # AdRecommendationImageSuggestion Data Object - Campaign Management
 Defines a data object for ad recommendation image suggestion.
 
+> [!NOTE]
+>
+> - Expect the E2E P95 latency to be 2x slower after integrating with Dalle (from ~10s to ~20s).  
+>
+> - Azure Active Directory (AAD) callers will receive an error from the public API after integrating with Dalle.  
+
 ## Syntax
 
 # [XML](#tab/xml)
@@ -97,7 +103,7 @@ The [AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) object
 |-----------|---------------|-------------|
 |<a name="assetlink"></a>AssetLink|Defines the relationship of an asset to an ad.|[AssetLink](assetlink.md)|
 |<a name="image"></a>Image|The suggsted image.|[Image](image.md)|
-|<a name="imagemetadata"></a>ImageMetadata|Reserved.|[AdRecommendationImageSuggestionMetadata](adrecommendationimagesuggestionmetadata.md)|
+|<a name="imagemetadata"></a>ImageMetadata|The ad recommendation image suggestion metadata data object.|[AdRecommendationImageSuggestionMetadata](adrecommendationimagesuggestionmetadata.md)|
 |<a name="imageurl"></a>ImageUrl|The URL of the suggested image.|**string**|
 
 ## Requirements
