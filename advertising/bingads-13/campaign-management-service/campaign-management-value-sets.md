@@ -31,7 +31,7 @@ The Campaign Management service defines the following value sets.
 |[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|The ad recommendation additional field value set.|
 |[AdRecommendationImageField](adrecommendationimagefield.md)|The ad recommednation image field value set.|
 |[AdRecommendationImageRefineType](adrecommendationimagerefinetype.md)|The ad recommendation image refine type value set.|
-|[AdRecommendationTextField](adrecommendationtextfield.md)|Reserved.|
+|[AdRecommendationTextField](adrecommendationtextfield.md)|The ad recommendation text field value set.|
 |[AdRecommendationTextTone](adrecommendationtexttone.md)|A value set for the optional tone for recommended text assets.|
 |[AdRecommendationVideoType](adrecommendationvideotype.md)|The ad recommendation video type data object.|
 |[AdRotationType](adrotationtype.md)|Defines the possible ad rotation types that you can apply to an ad group.|
@@ -87,7 +87,7 @@ The Campaign Management service defines the following value sets.
 |[FontTextAssetType](fonttextassettype.md)|A value set for the font text asset type.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
-|[GenericEntityStatus](genericentitystatus.md)|Reserved.|
+|[GenericEntityStatus](genericentitystatus.md)|Defines the generic entity status value set.|
 |[HotelAdGroupType](hoteladgrouptype.md)|The ad group type for Lodging campaigns.|
 |[HotelDateSelectionType](hoteldateselectiontype.md)|Possible hotel date selection types.|
 |[HotelListingType](hotellistingtype.md)|Defines the type of hotel listing.|
