@@ -165,7 +165,8 @@ Defines the types of targeting parameters tracked by the Ad Library.
 
 Like the Ad Library UI, the Ad Library API is publicily available and doesn't require any user sign-up or log-in. However, to protect the security and stability of our platform, unauthenticated requests will face stricter limits on how frequently you can call the API and how many entities you can request per call.
 
-To use the Ad Library API with increased limits, you'll need: 
+To use the Ad Library API with increased limits, you'll need:  
+
 - A Microsoft account
 - A Microsoft Advertising account
 - A developer token
@@ -214,5 +215,7 @@ Enter the above info if you are creating a new email address (email address, pas
 6. At this point, an account has been created and no further information is needed.
 ![Ad Library API Sign-up Step 6](media/ad-library-api-sign-up-step-6.png "Step 6")  
 
-You can now proceed to [Developer Account](https://developers.ads.microsoft.com/Account) to request a token for accessing the API. As part of this, you’ll need to review our [Developer Terms of Use](https://www.microsoft.com/en-us/legal/terms-of-use).
+> [!NOTE]
+> Starting May 31, 2025, the Developer Portal page will be deprecated and replaced with a new version [here](https://ads.microsoft.com/cc/Settings/DevSettings). Please update your bookmarks and begin using the new page to avoid any disruptions. For questions or help, please contact [Support](https://about.ads.microsoft.com/en/support).
 
+You can now proceed to [Developer Account](https://developers.ads.microsoft.com/Account) to request a token for accessing the API. As part of this, you’ll need to review our [Developer Terms of Use](https://www.microsoft.com/en-us/legal/terms-of-use).
