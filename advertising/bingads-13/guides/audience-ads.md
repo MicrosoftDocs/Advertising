@@ -31,7 +31,7 @@ For image-based Audience ads, you'll create an Audience campaign with responsive
 1. Add age, company name, gender, industry, job function, location, or radius criteria for the ad group e.g., via [AddAdGroupCriterions](../campaign-management-service/addadgroupcriterions.md). 
 1. Retrieve the [AdGroup](../campaign-management-service/adgroup.md) e.g., via [GetAdGroupsByIds](../campaign-management-service/getadgroupsbyids.md) and make sure the PrivacyStatus is Active. If your targeting is too narrow then you'll need to include more targeting dimensions e.g., a broader set of industries or locations. 
 
-### <a name="feed-based-audience-ads"></a>Feed-Based Audience Ads
+## <a name="feed-based-audience-ads"></a>Feed-Based Audience Ads
 For feed-based Audience ads, you'll create an Audience campaign with shopping settings.
 
 > [!NOTE]
