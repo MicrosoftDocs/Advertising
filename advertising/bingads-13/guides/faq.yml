@@ -36,7 +36,10 @@ sections:
       - question: |
           What are the requirements to use the Bing Ads API?
         answer: |
-          To [get started](get-started.md), you need to sign up for a [Microsoft Advertising](https://ads.microsoft.com/) account, and then get your developer token at via the [Account](https://developers.ads.microsoft.com/Account) tab of the Developer Portal. 
+          To [get started](get-started.md), you need to sign up for a [Microsoft Advertising](https://ads.microsoft.com/) account, and then get your developer token at via the [Account](https://developers.ads.microsoft.com/Account) tab of the Developer Portal.  
+
+          > [!NOTE]
+          > Starting May 31, 2025, the Developer Portal page will be deprecated and replaced with a new version [here](https://ads.microsoft.com/cc/Settings/DevSettings). Please update your bookmarks and begin using the new page to avoid any disruptions. For questions or help, please contact [Support](https://about.ads.microsoft.com/en/support).
           
       - question: |
           Which programming languages and SDKs are supported?

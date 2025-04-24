@@ -8,7 +8,12 @@ ms.date: 11/13/2024
 description: Find out about geographical location codes supported with the Bing Ads API.
 ---
 # Geographical Location Codes
-Geographical locations data can be used to for [Location Targeting](show-ads-target-audience.md#locationcriterion) e.g. show ads to people in a specific country/region, state/province, county, metro area (Microsoft Market Area in the United States), postal code, or city. You can call the [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md) operation to get a temporary file URL that can be used to download the latest geographical locations data. You can also get the locations data from the [Microsoft Advertising Developer Portal](https://developers.ads.microsoft.com/Account). You must be signed in to the developer portal with a Microsoft account user who has Microsoft Advertising credentials. 
+Geographical locations data can be used to for [Location Targeting](show-ads-target-audience.md#locationcriterion) e.g. show ads to people in a specific country/region, state/province, county, metro area (Microsoft Market Area in the United States), postal code, or city. You can call the [GetGeoLocationsFileUrl](../campaign-management-service/getgeolocationsfileurl.md) operation to get a temporary file URL that can be used to download the latest geographical locations data.  
+
+> [!NOTE]
+> Starting May 31, 2025, the Developer Portal page will be deprecated and replaced with a new version [here](https://ads.microsoft.com/cc/Settings/DevSettings). Please update your bookmarks and begin using the new page to avoid any disruptions. For questions or help, please contact [Support](https://about.ads.microsoft.com/en/support).
+
+You can also get the locations data from the [Microsoft Advertising Developer Portal](https://developers.ads.microsoft.com/Account). You must be signed in to the developer portal with a Microsoft account user who has Microsoft Advertising credentials.  
 
 > [!NOTE]
 > As a best practice you should download the file instead of opening it directly through an application such as Microsoft Excel. If you view the locations data in a text editor, be sure to use UTF-8 encoding instead of ANSI, otherwise some characters will not be displayed accurately.
