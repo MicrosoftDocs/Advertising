@@ -75,7 +75,7 @@ The [CampaignAdditionalField](campaignadditionalfield.md) value set has the foll
 |<a name="dynamicdescriptionsetting"></a>DynamicDescriptionSetting|Reserved.|
 |<a name="dynamicfeedsetting"></a>DynamicFeedSetting|Request that the [DynamicFeedSetting](dynamicfeedsetting.md) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|
 |<a name="isdealcampaign"></a>IsDealCampaign|Reserved.|
-|<a name="lifetimebudgetfields"></a>LifetimeBudgetFields|Reserved.|
+|<a name="lifetimebudgetfields"></a>LifetimeBudgetFields|Request that the *LifetimeBudgetStandard* element be returned within the [BudgetLimitType](budgetlimittype.md) object of each returned [Campaign](campaign.md) object.|
 |<a name="manualcpc"></a>ManualCpc|Reserved.|
 |<a name="manualcpi"></a>ManualCpi|Reserved.|
 |<a name="maxconversionvaluebiddingscheme"></a>MaxConversionValueBiddingScheme|Request that the [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
