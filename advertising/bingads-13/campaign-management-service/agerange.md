@@ -40,7 +40,7 @@ The [AgeRange](agerange.md) value set has the following values: [EighteenToTwent
 |<a name="thirtyfivetofiftyfour"></a>ThirtyFiveToFiftyFour|Reserved.|
 |<a name="thirtyfivetofourtynine"></a>ThirtyFiveToFourtyNine|People from the ages of 35 through 49 years.|
 |<a name="twentyfivetothirtyfour"></a>TwentyFiveToThirtyFour|People from the ages of 25 through 34 years.|
-|<a name="unknown"></a>Unknown|People with unknown ages.<br/><br/>The unknown option is only available for ad groups in Audience campaigns.|
+|<a name="unknown"></a>Unknown|People with unknown ages.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
