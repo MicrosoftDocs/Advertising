@@ -39,6 +39,7 @@ An object that contains an Action element and a ListingGroup element.
     },
     "Id": "LongValueHere",
     "IsExcluded": "ValueHere",
+    "ListingGroupPath": "ValueHere",
     "ParentListingGroupId": "LongValueHere"
   }
 }
