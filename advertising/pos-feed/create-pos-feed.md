@@ -12,18 +12,16 @@ ms.date: 11/13/2024
 
 To provide Bing your Landing pages data, create an XML document that contains a point of sale (POS) for each booking site you support. A POS describes the POS's display name, URL, and criteria for matching the user to a POS.
 
-
-The document must use UTF-8 encoding and must conform to the [PointsOfSale XSD](https://bhacstatic.z22.web.core.windows.net/schemas/point_of_sale.xsd). 
+The document must use UTF-8 encoding and must conform to the [PointsOfSale XSD](https://bhacstatic.z22.web.core.windows.net/schemas/point_of_sale.xsd).
 
 > [!NOTE]
-> Bing does not support all XSD elements. Bing ignores any element or attribute in the document that it does not support. The [Landing pages reference](../pos-feed/reference.md) includes only those elements and attributes that Bing supports. 
-
+> Bing does not support all XSD elements. Bing ignores any element or attribute in the document that it does not support. The [Landing pages reference](../pos-feed/reference.md) includes only those elements and attributes that Bing supports.
 > [!NOTE]
 > The document must specify the elements in the order defined in the PointsOfSale XSD (or as shown in the reference).
 
 ## The top-level element in your feed
 
-The Landing pages feed contains a single, top-level [PointsOfSale](../pos-feed/reference.md#pointsofsale) element. The `PointsOfSale` element requires a [PointOfSale](../pos-feed/reference.md#pointofsaletype) child element for each site that users can use to book a room. 
+The Landing pages feed contains a single, top-level [PointsOfSale](../pos-feed/reference.md#pointsofsale) element. The `PointsOfSale` element requires a [PointOfSale](../pos-feed/reference.md#pointofsaletype) child element for each site that users can use to book a room.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -34,7 +32,6 @@ The Landing pages feed contains a single, top-level [PointsOfSale](../pos-feed/r
   ...
 </PointsOfSale>
 ```
-
 
 The `PointOfSale` element describes the POS's display name, URL, and criteria for matching the user to a POS. For information about defining a POS, see [Defining a point of sale](#defining-a-point-of-sale).
 
@@ -67,10 +64,8 @@ Bing uses the POS that best matches the user based on the POS's matching criteri
 
 The `URL` element specifies the link to the site where the user can book the room. The example shows using dynamic query parameters. Bing substitutes values for the dynamic variables at runtime. For information about using dynamic query parameters, see [Using dynamic query parameters](#using-dynamic-query-parameters).
 
-
 > [!NOTE]
 > If you specify the language and country matching criterion, they must be set to **en** and **US** only.
-
 
 The following shows a complete Landing pages XML document.
 
@@ -91,7 +86,6 @@ The following shows a complete Landing pages XML document.
 </PointsOfSale>
 ```
 
-
 ## Matching Landing pages
 
 Landing pages include a `Match` element that contains the criteria that Bing uses to match a user to a POS. The following are the criterion that Bing uses to match users to Landing pages. The list is in order of preference.
@@ -104,15 +98,14 @@ Landing pages include a `Match` element that contains the criteria that Bing use
 
 Bing uses the following rules to find the best POS match.
 
-  
-- Bing gives the highest preference to country matches and the least preference to device matches. 
+- Bing gives the highest preference to country matches and the least preference to device matches.
 
-- If `Match` does not specify one of the criterion, Bing implicitly matches all values for the criterion. For example, if `Match` specifies language and currency, Bing implicitly matches any country and device. 
+- If `Match` does not specify one of the criterion, Bing implicitly matches all values for the criterion. For example, if `Match` specifies language and currency, Bing implicitly matches any country and device.
   
 - If `Match` specifies one or more criterion, Bing uses the POS with the most explicit matches.
 
 - If there is no explicit rule match, the selection of POS is nondeterministic. We recommend that you add an explicit rule for match criterion.
-   
+  
 <!-- - If the user matches multiple Landing pages, Bing uses the POS with the best match quality. If multiple Landing pages have the same match quality, Bing uses the first POS that it found with that match quality. Match quality is based on:  
   - Matches with the highest preference. For example, if one POS matches only on the user's currency and another matches only on the user's device, Bing uses the POS that matches the user's currency because it's higher in the preferred order.  
   - Explicit matches are preferred over implicit matches. For example, if one POS matches explicitly to the user's country and another matches implicitly to the user's country, Bing uses the POS that explicitly matches.
@@ -120,28 +113,26 @@ Bing uses the following rules to find the best POS match.
 
 The `Match` element's status attribute determines whether to include or exclude the POS based on matching. If status is *never* and Bing matches all criterion, Bing will not use the POS. To exclude a POS, all criterion must match. In the following example, Bing explicitly excludes the POS if the user is from the United States or France, and implicitly includes it if the user is from any other country.
 
-```
+```xml
 <PointOfSale id='exclude-example'>
   . . .
   <Match status='never' country='US' />
   <Match status='never' country='FR' />
   . . .
 </PointOfSale>
-``` 
+```
 
 If status is *yes*, Bing will not eliminate any Landing pages from consideration that do not explicitly match all criterion, but preference is given to the POS that matches the most criterion. In the following example, Bing explicitly matches the user to the POS if the user's country is France. If the user's country is not France, the POS will still be considered until a better match is found. If a better match is not found, Bing will use the POS.
 
-
-```
+```xml
 <PointOfSale id='exclude-example'>
   . . .
   <Match status='yes' country='FR' />
   . . .
 </PointOfSale>
-``` 
+```
 
 Bing recommends using the same matching criteria for each POS. This minimizes the complexity in determining why one POS matched over another.
-
 
 ## Using dynamic query parameters
 
@@ -186,7 +177,6 @@ The following are the possible case-sensitive dynamic variable names that you ma
 |USER-LANGUAGE|The two-letter language code that specifies the display language of the ad. The value is inferred from the end-user's client settings. For example, en.
 |VERIFICATION|A Boolean that indicates whether the Bing generated the link. If Bing generated the link, the value is **true**. Otherwise, **false**.
 
-
 All dates, such as CHECKINDAY, are in the hotel's timezone.
 
 The following shows an example URL that contains dynamic query parameters and encoded entities.
@@ -222,30 +212,29 @@ The following are general rules to follow when using dynamic variables.
   <URL>http://www.partnerdomain.com?checkinDate=(CHECKINDAY)%2F;(CHECKINMONTH)%2F;(CHECKINYEAR)</URL>  
   ```
   
-- For dynamic variables that Bing recognized but does not support, Bing replaces the variable string with an empty string.   
+- For dynamic variables that Bing recognized but does not support, Bing replaces the variable string with an empty string.  
 - Because dynamic query parameters are query parameters, they must follow the question mark symbol (?) in the URL.
-  
-  
+
 ### Using conditional directives
 
 In addition to the variables listed above, you can also use the following directives to create conditional logic.
 
 |Name|Description
 |-|-
-IF-AD-CLICK (Hotel Ads only)|Resolves to *true* if the user click originated from an ad. Resolves to *false* if the user click originated from a free booking link.
-IF-CLICK-TYPE-HOTEL|Resolves to *true* if the user clicked on a listing for a hotel, otherwise resolves to *false*.
-IF-CLICK-TYPE-ROOM|Resolves to *true* if the user clicked on a listing for a Room Bundle, otherwise resolves to *false*.
-IF-CLOSE-RATE-RULE-IDS|Resolves to *true* if one or more conditional rates were unavailable because the user was ineligible, otherwise resolves to *false*. By default, it is *true* if a private rate UI treatment was shown to the user.
-IF-DEFAULT-DATE|Resolves to *true* if the user clicked on a hotel listing where default dates were used, otherwise resolves to *false*.
-IF-HOTEL-CAMPAIGN|Resolves to *true* if the user click originated from a hotel campaign, otherwise resolves to *false*. This distinction is helpful for partners that have multiple campaign types present in Google Ads to allocate attribution.
-IF-PAYMENT-ID (Hotel Ads only)|Resolves to *true* for hotels in the Pay-Per-Stay (PPS) commissions program otherwise resolves to *false*.
-IF-PROMO-CODE|Resolves to *true* if the user clicked on a rate which is based on an ARI promotion or a rate rule with a given PromoCode; otherwise resolves to *false*.
-IF-PROMOTED (Hotel Ads only)|Resolves to *true* if the user clicked on a Property Promotion Ad, otherwise resolves to *false*.
-IF-RATE-RULE-ID|Resolves to *true* if the user selected a conditional rate , otherwise resolves to *false*.
-IF-USER-LIST-ID|Resolves to *true* if the user is a member of a Bing Ads customer list ID you specified when setting bid multipliers for audience lists, otherwise resolves to *false*.
-IF-VERIFICATION|Resolves to *true* if the link was generated by Bing for testing or automated validation, otherwise resolves to *false*.
-ELSE|If the previous condition is not met, Bing inserts the values that follow this directive.  
-ENDIF|Ends the conditional block.
+|IF-AD-CLICK (Hotel Ads only)|Resolves to *true* if the user click originated from an ad. Resolves to *false* if the user click originated from a free booking link.
+|IF-CLICK-TYPE-HOTEL|Resolves to *true* if the user clicked on a listing for a hotel, otherwise resolves to *false*.
+|IF-CLICK-TYPE-ROOM|Resolves to *true* if the user clicked on a listing for a Room Bundle, otherwise resolves to *false*.
+|IF-CLOSE-RATE-RULE-IDS|Resolves to *true* if one or more conditional rates were unavailable because the user was ineligible, otherwise resolves to *false*. By default, it is *true* if a private rate UI treatment was shown to the user.
+|IF-DEFAULT-DATE|Resolves to *true* if the user clicked on a hotel listing where default dates were used, otherwise resolves to *false*.
+|IF-HOTEL-CAMPAIGN|Resolves to *true* if the user click originated from a hotel campaign, otherwise resolves to *false*. This distinction is helpful for partners that have multiple campaign types present in Google Ads to allocate attribution.
+|IF-PAYMENT-ID (Hotel Ads only)|Resolves to *true* for hotels in the Pay-Per-Stay (PPS) commissions program otherwise resolves to *false*.
+|IF-PROMO-CODE|Resolves to *true* if the user clicked on a rate which is based on an ARI promotion or a rate rule with a given PromoCode; otherwise resolves to *false*.
+|IF-PROMOTED (Hotel Ads only)|Resolves to *true* if the user clicked on a Property Promotion Ad, otherwise resolves to *false*.
+|IF-RATE-RULE-ID|Resolves to *true* if the user selected a conditional rate , otherwise resolves to *false*.
+|IF-USER-LIST-ID|Resolves to *true* if the user is a member of a Bing Ads customer list ID you specified when setting bid multipliers for audience lists, otherwise resolves to *false*.
+|IF-VERIFICATION|Resolves to *true* if the link was generated by Bing for testing or automated validation, otherwise resolves to *false*.
+|ELSE|If the previous condition is not met, Bing inserts the values that follow this directive.  
+|ENDIF|Ends the conditional block.
 
 For example, the following URL sets the popup_datepicker query parameter to **true** if the user used default dates instead of specifying dates.
 
@@ -258,13 +247,13 @@ For example, the following URL sets the popup_datepicker query parameter to **tr
 
 If **true**, Bing renders the URL as:
 
-```
+```html
 http://partner.com?hotelID=123&checkinDay=01&checkinMonth=05&checkinYear=2021&nights=1&popup_datepicker=true
 ```
 
 Otherwise, Bing renders the URL as:
 
-```
+```html
 http://partner.com?hotelID=123&checkinDay=23&checkinMonth=05&checkinYear=2021&nights=2&popup_datepicker=false
 ```
 
@@ -283,10 +272,8 @@ http://partner.com?hotelID=123&checkinDay=23&checkinMonth=05&checkinYear=2021&ni
 - If your data includes special characters such as apostrophes or quotes, escape them or use CDATA sections. If you escape them, you may use entity codes or character codes. For example, you can escape Paul's as Paul\&apos;s or Paul\&#39;s.
   
 - Do not include elements that do not contain data. For example, if you do not provide a display name for a hotel, do not include an empty \<DisplayNames\> element.
-    
-- Do not use HTML in your XML elements.
   
-
+- Do not use HTML in your XML elements.
 
 ## Next steps
 
@@ -296,4 +283,4 @@ Ask your account manager to import the feed file.
 
 Be sure to also import your hotel data. For information about creating your property feed file, see [Property Feed](../hotel-feed/hotel-feed.md).
 
-After successfully importing your Landing pages feed and property feed, you may begin sending your hotel pricing and availability data. For information, see [Price feeds](../transaction-message/transaction-message.md). 
+After successfully importing your Landing pages feed and property feed, you may begin sending your hotel pricing and availability data. For information, see [Price feeds](../transaction-message/transaction-message.md).
