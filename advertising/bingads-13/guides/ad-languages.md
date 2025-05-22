@@ -67,10 +67,10 @@ The following country codes are supported per customer language e.g. [aggregator
 |------------|------------------|
 |Czech|CZ|
 |Dutch|NL|
-|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GU, GW, GY, HR, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PM, PN, PR, PS, PW, RE, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UG, US, UZ, VA, VG, VI, VU, WF, WS, YT, ZA, ZM, ZW|
+|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CA, CC, CK, CV, CX, CY, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GU, GW, GY, HR, ID, IE, IL, IN, IS, JM, KE, KG, KH, KI, KM, KN, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PM, PN, PR, PS, PW, RE, RS, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TJ, TK, TM, TO, TT, TV, TZ, UG, US, UZ, VA, VG, VI, VU, WF, WS, YT, ZA, ZM, ZW|
 |Filipino|PH|
 |Finnish|FI|
-|French|BF, BJ, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|
+|French|BF, BJ, CA, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|
 |German|AT, CH, DE|
 |Greek|GR|
 |Hindi|IN|
