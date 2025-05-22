@@ -18,12 +18,12 @@ dev_langs:
 Redeems a coupon to the specified account.
 
 > [!NOTE]
-> Only a user of the account's bill to customer with Super Admin or Standard credentials can redeem coupon. For more information, see the [User Roles](../guides/account-hierarchy-permissions.md#user-roles) technical guide.  
+> Only a user with Super Admin or Standard credentials and approved acces to an account can redeem coupons for that account. For more information, see the [User Roles](../guides/account-hierarchy-permissions.md#user-roles) technical guide.  
 
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
-The *RedeemCouponRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
+The *RedeemCouponRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap).
 
 > [!NOTE]
 > Unless otherwise noted below, all request elements are required.
