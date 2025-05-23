@@ -17736,3 +17736,69 @@ CampaignNotEligibleForCampaignConversionGoal
 
 **Description**
 At the Campaign level, adding/updating `ConversionGoal` is not allowed.
+
+***
+
+**Numeric Code**
+8667
+
+**Symbolic Error Code**
+InvalidExclusionTypeIdOrSubTypeId
+
+**Description**
+The `AnnotationGroupId` isn’t valid.
+
+***
+
+**Numeric Code**
+8668
+
+**Symbolic Error Code**
+AnnotationOptOutJustificationTextTooLong
+
+**Description**
+You’ve exceeded the maximum `JustificationText` length of 100 characters.
+
+***
+
+**Numeric Code**
+8669
+
+**Symbolic Error Code**
+AnnotationOptOutBatchLimitExceeded
+
+**Description**
+The request contains more than the limit of 1,000 `AnnotationOptOuts`.
+
+***
+
+**Numeric Code**
+8670
+
+**Symbolic Error Code**
+AnnotationOptOutCollectionNullOrEmpty
+
+**Description**
+The request doesn’t contain any `AnnotationOptOuts`.
+
+***
+
+**Numeric Code**
+6871
+
+**Symbolic Error Code**
+AnnotationOptOutJustificationTextNullOrEmpty
+
+**Description**
+There is no `JustificationText`.
+
+***
+
+**Numeric Code**
+8672
+
+**Symbolic Error Code**
+AnnotationOptOutAccountOptOutConflictsWithCustomerOptOut
+
+**Description**
+You are opted out of an annotation that the account is attempting to opt in to.
