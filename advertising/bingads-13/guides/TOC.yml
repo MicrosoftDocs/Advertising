@@ -1454,6 +1454,8 @@
       href: ../campaign-management-service/getadsbyeditorialstatus.md
     - name: GetAdsByIds
       href: ../campaign-management-service/getadsbyids.md
+    - name: GetAnnotationOptOut
+      href: ../campaign-management-service/getannotationoptout.md
     - name: GetAssetGroupListingGroupsByIds
       href: ../campaign-management-service/getassetgrouplistinggroupsbyids.md
     - name: GetAssetGroupsByCampaignId
@@ -1602,6 +1604,8 @@
       href: ../campaign-management-service/updateadgroups.md
     - name: UpdateAds
       href: ../campaign-management-service/updateads.md
+    - name: UpdateAnnotationOptOut
+      href: ../campaign-management-service/updateannotationoptout.md
     - name: UpdateAssetGroups
       href: ../campaign-management-service/updateassetgroups.md
     - name: UpdateAudienceGroups
@@ -1719,6 +1723,8 @@
       href: ../campaign-management-service/agecriterion.md
     - name: AgeDimension
       href: ../campaign-management-service/agedimension.md
+    - name: AnnotationOptOut
+      href: ../campaign-management-service/annotationoptout.md
     - name: ApiFaultDetail
       href: ../campaign-management-service/apifaultdetail.md
     - name: AppAdExtension
