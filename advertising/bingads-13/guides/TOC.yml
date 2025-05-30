@@ -1548,8 +1548,8 @@
       href: ../campaign-management-service/getnegativesitesbyadgroupids.md
     - name: GetNegativeSitesByCampaignIds
       href: ../campaign-management-service/getnegativesitesbycampaignids.md
-    - name: GetNewCustomerAcquisitionGoal
-      href: ../campaign-management-service/getnewcustomeracquisitiongoal.md
+    - name: GetNewCustomerAcquisitionGoalsByAccountId
+      href: ../campaign-management-service/getnewcustomeracquisitiongoalsbyaccountid.md
     - name: GetOfflineConversionReports
       href: ../campaign-management-service/getofflineconversionreports.md
     - name: GetProfileDataFileUrl
@@ -1706,7 +1706,7 @@
     - name: AdRecommendationImageSuggestionMetadata
       href: ../campaign-management-service/adrecommendationimagesuggestionmetadata.md
     - name: AdRecommendationMediaRefineResult
-      href: ../campaign-management-service/adrecommendationMmdiarefineresult.md
+      href: ../campaign-management-service/adrecommendationmediarefineresult.md
     - name: AdRecommendationRefinedMedia
       href: ../campaign-management-service/adrecommendationrefinedmedia.md
     - name: AdRecommendationTextAssetProperty
