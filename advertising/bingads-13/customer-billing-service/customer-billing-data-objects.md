@@ -23,6 +23,7 @@ The Customer Billing service defines the following data objects.
 |[BillingDocumentInfo](billingdocumentinfo.md)|Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.|
 |[Coupon](coupon.md)|Defines a coupon.|
 |[CouponClaimInfo](couponclaiminfo.md)|Defines an object containing coupon claim information.|
+|[CouponInfoData](couponinfodata.md)|Defines an object containing coupon info.|
 |[CouponRedemption](couponredemption.md)|Contains redemption and consuming details.|
 |[InsertionOrder](insertionorder.md)|An insertion order is a contract that establishes the maximum amount you will spend on your account over a specified period of time.|
 |[InsertionOrderPendingChanges](insertionorderpendingchanges.md)|Defines an object that can be used to manage changes for an approved insertion order.|

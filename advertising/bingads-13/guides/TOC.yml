@@ -2450,6 +2450,8 @@
       href: ../customer-billing-service/getbillingdocuments.md
     - name: GetBillingDocumentsInfo
       href: ../customer-billing-service/getbillingdocumentsinfo.md
+    - name: GetCouponInfo
+      href: ../customer-billing-service/getcouponinfo.md
     - name: RedeemCoupon
       href: ../customer-billing-service/redeemcoupon.md
     - name: SearchCoupons
@@ -2483,6 +2485,8 @@
       href: ../customer-billing-service/coupon.md
     - name: CouponClaimInfo
       href: ../customer-billing-service/couponclaiminfo.md
+    - name: CouponInfoData
+      href: ../customer-billing-service/couponinfodata.md
     - name: CouponRedemption
       href: ../customer-billing-service/couponredemption.md
     - name: InsertionOrder
