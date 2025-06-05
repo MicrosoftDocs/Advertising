@@ -13,7 +13,7 @@ dev_langs:
 # Ad Group Product Partition Record - Bulk
 Defines an ad group product partition that can be uploaded and downloaded in a bulk file.
 
-You can upload *Ad Group Product Partition* records for multiple ad groups in the same bulk file, as long as the validation rules are satisfied as described below. 
+You can upload *Ad Group Product Partition* records for multiple ad groups in the same bulk file, as long as the validation rules are satisfied as described below.  
 
 - At minimum you must specify at least the root node for the product partition group tree structure. The product partition group's root node must have its [Product Condition 1](#productcondition1) field set to "All" and [Product Value 1](#productvalue1) null or empty. If you are bidding on all products in the catalog equally, set the *Sub Type* field to *Unit*. If you are partitioning the bids based on more specific product conditions, then set the *Sub Type* field to *Subdivision*, the *Parent Criterion Id* to null or empty, and the *Id* to a negative value. You will use the negative value as *Parent Criterion Id* for any child nodes.
 
@@ -175,20 +175,21 @@ The name of the ad group that contains the product partition.
 The amount to bid in the auction.
 
 > [!NOTE]
+> This field is only applicable for campaigns with Enhanced CPC bidding strategies.
 > For ad groups in Microsoft Shopping Campaigns that are setup for Sponsored Products, this field is not applicable if the ad group's [Bid Option](ad-group.md#bidoption) is set to BidBoost. Please see [Bid Adjustment](#bidadjustment) for more information.  
 
-**Add:** Required if [Is Excluded](#isexcluded) is *FALSE* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.       
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Add:** Required if [Is Excluded](#isexcluded) is *FALSE* and the [Sub Type](#subtype) is *Unit*, and otherwise the bid is not allowed.  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="bidadjustment"></a>Bid Adjustment
 The percentage (greater than zero) that allows your Sponsored Products bid to flex.
 
-For example, let's say your partner bids $5 USD in their product group (via the [Bid](#bid) field). If your bid adjustment (this field) is set to 20 (percent) and your ad group's [Maximum Bid](ad-group.md#maximumbid) is 0.50 (50 cents), your share would be 50 cents and not $1 USD. 
+For example, let's say your partner bids $5 USD in their product group (via the [Bid](#bid) field). If your bid adjustment (this field) is set to 20 (percent) and your ad group's [Maximum Bid](ad-group.md#maximumbid) is 0.50 (50 cents), your share would be 50 cents and not $1 USD.  
 
-This field is only applicable if the ad group's [Bid Option](ad-group.md#bidoption) is set to BidBoost. If the ad group's [Bid Option](ad-group.md#bidoption) is set to BidValue, the auction uses the product group's [Bid](#bid). 
+This field is only applicable if the ad group's [Bid Option](ad-group.md#bidoption) is set to BidBoost. If the ad group's [Bid Option](ad-group.md#bidoption) is set to BidValue, the auction uses the product group's [Bid](#bid).  
 
-Supported values are negative ninety (-90) through positive nine hundred (900). 
+Supported values are negative ninety (-90) through positive nine hundred (900).  
 
 > [!NOTE]
 > This setting is only applicable for ad groups in Microsoft Shopping Campaigns that are setup for Sponsored Products. Sponsored Products are only available in the United States and are currently under open beta.
