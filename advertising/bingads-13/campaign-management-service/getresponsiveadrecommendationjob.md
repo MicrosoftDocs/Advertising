@@ -29,7 +29,7 @@ The *GetResponsiveAdRecommendationJobRequest* object defines the [body](#request
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="jobid"></a>JobId|The job identifier.|**long**|
+|<a name="jobid"></a>JobId|The unique identifier of a job.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -471,7 +471,7 @@ The *GetResponsiveAdRecommendationJobRequest* object defines the [body](#request
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="jobid"></a>JobId|The job identifier.|**long**|
+|<a name="jobid"></a>JobId|The unique identifier of a job.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
