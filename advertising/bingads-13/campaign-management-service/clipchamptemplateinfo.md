@@ -28,7 +28,7 @@ Defines the clip champ template info data object.
     <xs:element minOccurs="0" name="TemplateName" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="TemplatePreviewUrl" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="TemplateThumbnailUrl" nillable="true" type="xs:string" />
-    <xs:element xmlns:q176="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Themes" nillable="true" type="q176:ArrayOfstring" />
+    <xs:element xmlns:q177="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Themes" nillable="true" type="q177:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```

@@ -18,7 +18,7 @@ A data object for the brand kit font.
 ```xml
 <xs:complexType name="BrandKitFont" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element minOccurs="0" name="TextAssetType" type="tns:FontTextAssetType" />
+    <xs:element minOccurs="0" name="TextAssetType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Typeface" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Weight" nillable="true" type="xs:string" />
   </xs:sequence>
@@ -43,7 +43,7 @@ The [BrandKitFont](brandkitfont.md) object has the following elements: [TextAsse
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="textassettype"></a>TextAssetType|The font text assset type.|[FontTextAssetType](fonttextassettype.md)|
+|<a name="textassettype"></a>TextAssetType|The font text assset type.|**string**|
 |<a name="typeface"></a>Typeface|The font typeface.|**string**|
 |<a name="weight"></a>Weight|The font weight.|**string**|
 

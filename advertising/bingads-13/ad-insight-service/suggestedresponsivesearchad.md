@@ -52,7 +52,7 @@ The [SuggestedResponsiveSearchAd](suggestedresponsivesearchad.md) object has the
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="descriptions"></a>Descriptions|The list of descriptions of suggested ad with 2-4 descriptions. |**string** array|
-|<a name="finalurl"></a>FinalUrl|The landing page URL. |**string**|
+|<a name="finalurl"></a>FinalUrl|The landing page URL.|**string**|
 |<a name="headlines"></a>Headlines|The list of titles of suggested ads with 3-15 headlines. |**string** array|
 |<a name="path1"></a>Path1|The first part of the optional path that will be appended to the domain portion of your display URL.   |**string**|
 |<a name="path2"></a>Path2|The second part of the optional path that will be appended to the domain portion of your display URL.   |**string**|

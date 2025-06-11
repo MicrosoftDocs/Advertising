@@ -1370,6 +1370,8 @@
       href: ../campaign-management-service/applyproductpartitionactions.md
     - name: CreateAssetGroupRecommendation
       href: ../campaign-management-service/createassetgrouprecommendation.md
+    - name: CreateBrandKitRecommendation
+      href: ../campaign-management-service/createbrandkitrecommendation.md
     - name: CreateResponsiveAdRecommendation
       href: ../campaign-management-service/createresponsiveadrecommendation.md
     - name: CreateResponsiveSearchAdRecommendation
@@ -1516,6 +1518,8 @@
       href: ../campaign-management-service/getfileimportuploadurl.md
     - name: GetGeoLocationsFileUrl
       href: ../campaign-management-service/getgeolocationsfileurl.md
+    - name: GetHealthCheck
+      href: ../campaign-management-service/gethealthcheck.md
     - name: GetImportEntityIdsMapping
       href: ../campaign-management-service/getimportentityidsmapping.md
     - name: GetImportJobsByIds
@@ -1554,6 +1558,8 @@
       href: ../campaign-management-service/getofflineconversionreports.md
     - name: GetProfileDataFileUrl
       href: ../campaign-management-service/getprofiledatafileurl.md
+    - name: GetResponsiveAdRecommendationJob
+      href: ../campaign-management-service/getresponsiveadrecommendationjob.md
     - name: GetSeasonalityAdjustmentsByAccountId
       href: ../campaign-management-service/getseasonalityadjustmentsbyaccountid.md
     - name: GetSeasonalityAdjustmentsByIds
@@ -1705,6 +1711,8 @@
       href: ../campaign-management-service/adrecommendationimagesuggestion.md
     - name: AdRecommendationImageSuggestionMetadata
       href: ../campaign-management-service/adrecommendationimagesuggestionmetadata.md
+    - name: AdRecommendationJobInfo
+      href: ../campaign-management-service/adrecommendationjobinfo.md
     - name: AdRecommendationMediaRefineResult
       href: ../campaign-management-service/adrecommendationmediarefineresult.md
     - name: AdRecommendationRefinedMedia
@@ -1807,6 +1815,8 @@
       href: ../campaign-management-service/brandkitpalette.md
     - name: BrandList
       href: ../campaign-management-service/brandlist.md
+    - name: BrandVoice
+      href: ../campaign-management-service/brandvoice.md
     - name: Budget
       href: ../campaign-management-service/budget.md
     - name: CallAdExtension
@@ -1951,6 +1961,20 @@
       href: ../campaign-management-service/googleimportjob.md
     - name: GoogleImportOption
       href: ../campaign-management-service/googleimportoption.md
+    - name: HealthCheckActionLinkMetadata
+      href: ../campaign-management-service/healthcheckactionlinkmetadata.md
+    - name: HealthCheckColumnMetadata
+      href: ../campaign-management-service/healthcheckcolumnmetadata.md
+    - name: HealthCheckData
+      href: ../campaign-management-service/healthcheckdata.md
+    - name: HealthCheckEntity
+      href: ../campaign-management-service/healthcheckentity.md
+    - name: HealthCheckError
+      href: ../campaign-management-service/healthcheckerror.md
+    - name: HealthCheckMetadata
+      href: ../campaign-management-service/healthcheckmetadata.md
+    - name: HealthCheckSubEntityData
+      href: ../campaign-management-service/healthchecksubentitydata.md
     - name: HotelAd
       href: ../campaign-management-service/hotelad.md
     - name: HotelAdvanceBookingWindowCriterion
@@ -2270,6 +2294,8 @@
       href: ../campaign-management-service/assetgroupadditionalfield.md
     - name: AssetGroupEditorialStatus
       href: ../campaign-management-service/assetgroupeditorialstatus.md
+    - name: AssetGroupListingGroupAdditionalField
+      href: ../campaign-management-service/assetgrouplistinggroupadditionalfield.md
     - name: AssetGroupListingType
       href: ../campaign-management-service/assetgrouplistingtype.md
     - name: AssetGroupStatus
@@ -2294,6 +2320,8 @@
       href: ../campaign-management-service/bmcstoreadditionalfield.md
     - name: BMCStoreSubType
       href: ../campaign-management-service/bmcstoresubtype.md
+    - name: BrandKitAdditionalField
+      href: ../campaign-management-service/brandkitadditionalfield.md
     - name: BudgetLimitType
       href: ../campaign-management-service/budgetlimittype.md
     - name: BusinessGeoCodeStatus
@@ -2854,6 +2882,10 @@
       href: ../reporting-service/dsacategoryperformancereportrequest.md
     - name: DSASearchQueryPerformanceReportFilter
       href: ../reporting-service/dsasearchqueryperformancereportfilter.md
+    - name: FeedItemPerformanceReportFilter
+      href: ../reporting-service/feeditemperformancereportfilter.md
+    - name: FeedItemPerformanceReportRequest
+      href: ../reporting-service/feeditemperformancereportrequest.md
     - name: DSASearchQueryPerformanceReportRequest
       href: ../reporting-service/dsasearchqueryperformancereportrequest.md
     - name: GeographicPerformanceReportFilter
@@ -3019,6 +3051,8 @@
       href: ../reporting-service/dsasearchqueryperformancereportcolumn.md
     - name: DynamicAdTargetStatusReportFilter
       href: ../reporting-service/dynamicadtargetstatusreportfilter.md
+    - name: FeedItemPerformanceReportColumn
+      href: ../reporting-service/feeditemperformancereportcolumn.md
     - name: GeographicPerformanceReportColumn
       href: ../reporting-service/geographicperformancereportcolumn.md
     - name: GoalsAndFunnelsReportColumn

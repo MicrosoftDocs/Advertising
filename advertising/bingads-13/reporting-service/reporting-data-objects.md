@@ -70,6 +70,8 @@ The Reporting service defines the following data objects.
 |[DSACategoryPerformanceReportRequest](dsacategoryperformancereportrequest.md)|Defines a DSA category performance report request.|
 |[DSASearchQueryPerformanceReportFilter](dsasearchqueryperformancereportfilter.md)|Defines the criteria to use to filter the DSA search query performance report data.|
 |[DSASearchQueryPerformanceReportRequest](dsasearchqueryperformancereportrequest.md)|Defines a DSA search query performance report request.|
+|[FeedItemPerformanceReportFilter](feeditemperformancereportfilter.md)|Defines the criteria to use to filter the feed item performance report data.|
+|[FeedItemPerformanceReportRequest](feeditemperformancereportrequest.md)|Defines a feed item performance report request.|
 |[GeographicPerformanceReportFilter](geographicperformancereportfilter.md)|Defines the criteria to use to filter the geographic performance report data.|
 |[GeographicPerformanceReportRequest](geographicperformancereportrequest.md)|Defines a geographic performance report request.|
 |[GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)|Defines the criteria to use to filter the goals and funnels report data.|
@@ -110,5 +112,7 @@ The Reporting service defines the following data objects.
 |[SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)|Defines a search query performance report request.|
 |[ShareOfVoiceReportFilter](shareofvoicereportfilter.md)|Defines the criteria to use to filter the share of voice report data.|
 |[ShareOfVoiceReportRequest](shareofvoicereportrequest.md)|Defines a share of voice (SOV) report request.|
+|[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|Defines the criteria to use to filter the travel query insight report data.|
+|[TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md)|Defines a travel query insight report request.|
 |[UserLocationPerformanceReportFilter](userlocationperformancereportfilter.md)|Defines the criteria to use to filter the user location performance report data.|
 |[UserLocationPerformanceReportRequest](userlocationperformancereportrequest.md)|Defines a user location performance report request.|

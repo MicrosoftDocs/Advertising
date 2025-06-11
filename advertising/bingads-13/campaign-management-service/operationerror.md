@@ -59,3 +59,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md)  
 [ApiFaultDetail](apifaultdetail.md)  
 [EditorialApiFaultDetail](editorialapifaultdetail.md)  
+[HealthCheckError](healthcheckerror.md)  

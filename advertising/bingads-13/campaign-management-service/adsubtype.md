@@ -19,6 +19,13 @@ Defines the possible ad sub types.
       <xs:restriction base="xs:string">
         <xs:enumeration value="Video" />
         <xs:enumeration value="Display" />
+        <xs:enumeration value="HTML5">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -27,11 +34,12 @@ Defines the possible ad sub types.
 
 ## <a name="values"></a>Values
 
-The [AdSubType](adsubtype.md) value set has the following values: [Display](#display), [Video](#video).
+The [AdSubType](adsubtype.md) value set has the following values: [Display](#display), [HTML5](#html5), [Video](#video).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="display"></a>Display|The ad is a display ad.|
+|<a name="html5"></a>HTML5|The ad is an HTML5 ad.|
 |<a name="video"></a>Video|The ad is a video ad.|
 
 ## Requirements

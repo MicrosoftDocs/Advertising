@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The brand kit data object.
+description: Defines the brand kit data object.
 ---
 # BrandKit Data Object - Campaign Management
-The brand kit data object.
+Defines the brand kit data object.
 
 ## Syntax
 
@@ -18,6 +18,20 @@ The brand kit data object.
 ```xml
 <xs:complexType name="BrandKit" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
+    <xs:element minOccurs="0" name="BrandVoice" nillable="true" type="tns:BrandVoice">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
+    <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="Fonts" nillable="true" type="tns:ArrayOfBrandKitFont" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfBrandKitImage" />
@@ -33,6 +47,13 @@ The brand kit data object.
 
 ```json
 {
+  "BrandVoice": {
+    "Personality": "ValueHere",
+    "Tones": [
+      "ValueHere"
+    ]
+  },
+  "BusinessName": "ValueHere",
   "Fonts": [
     {
       "TextAssetType": "ValueHere",
@@ -93,10 +114,12 @@ The brand kit data object.
 
 ## <a name="elements"></a>Elements
 
-The [BrandKit](brandkit.md) object has the following elements: [Fonts](#fonts), [Id](#id), [Images](#images), [LandscapeLogos](#landscapelogos), [Name](#name), [Palettes](#palettes), [SquareLogos](#squarelogos).
+The [BrandKit](brandkit.md) object has the following elements: [BrandVoice](#brandvoice), [BusinessName](#businessname), [Fonts](#fonts), [Id](#id), [Images](#images), [LandscapeLogos](#landscapelogos), [Name](#name), [Palettes](#palettes), [SquareLogos](#squarelogos).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="brandvoice"></a>BrandVoice|The brand's personality and tone.|[BrandVoice](brandvoice.md)|
+|<a name="businessname"></a>BusinessName|The name of the business.|**string**|
 |<a name="fonts"></a>Fonts|The brand kit's fonts.|[BrandKitFont](brandkitfont.md) array|
 |<a name="id"></a>Id|The identifier of the brand kit.|**long**|
 |<a name="images"></a>Images|The brand kit's images.|[BrandKitImage](brandkitimage.md) array|
@@ -111,6 +134,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AddBrandKits](addbrandkits.md)  
+[CreateBrandKitRecommendation](createbrandkitrecommendation.md)  
 [GetBrandKitsByAccountId](getbrandkitsbyaccountid.md)  
 [GetBrandKitsByIds](getbrandkitsbyids.md)  
 [UpdateBrandKits](updatebrandkits.md)  
