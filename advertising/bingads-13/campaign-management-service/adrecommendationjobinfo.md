@@ -45,10 +45,10 @@ The [AdRecommendationJobInfo](adrecommendationjobinfo.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="errorcode"></a>ErrorCode|A symbolic string constant that identifies the error. |**string**|
-|<a name="errormessage"></a>ErrorMessage|A message that describes the error.|**string**|
-|<a name="jobid"></a>JobId|The job identifier.|**long**|
-|<a name="jobstatus"></a>JobStatus|The job status.|**string**|
+|<a name="errorcode"></a>ErrorCode|The error code when the JobStatus is *Failed*.|**string**|
+|<a name="errormessage"></a>ErrorMessage|The error message when the JobStatus is *Failed*.|**string**|
+|<a name="jobid"></a>JobId|The unique identifier of the job.|**long**|
+|<a name="jobstatus"></a>JobStatus|The status of the current job. Possible values are: *Completed*, *InProgress*, *Failed*.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

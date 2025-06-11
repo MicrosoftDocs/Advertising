@@ -48,7 +48,7 @@ The *CreateResponsiveAdRecommendationResponse* object defines the [body](#respon
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the responsive ad.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="jobinfo"></a>JobInfo|The ad recommendation job info data object.|[AdRecommendationJobInfo](adrecommendationjobinfo.md)|
+|<a name="jobinfo"></a>JobInfo|The job information for the video recommendation job.|[AdRecommendationJobInfo](adrecommendationjobinfo.md)|
 |<a name="promptbrandwarning"></a>PromptBrandWarning|Whether the brand is detected in the request prompt.|**string**|
 |<a name="responsivead"></a>ResponsiveAd|A responsive ad object containing recommended text assets.|[ResponsiveAd](responsivead.md)|
 |<a name="videosuggestions"></a>VideoSuggestions|An array of videos recommended to be included in the responsive ad.|[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md) array|
@@ -546,7 +546,7 @@ The *CreateResponsiveAdRecommendationResponse* object defines the [body](#respon
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the responsive ad.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="jobinfo"></a>JobInfo|The ad recommendation job info data object.|[AdRecommendationJobInfo](adrecommendationjobinfo.md)|
+|<a name="jobinfo"></a>JobInfo|The job information for the video recommendation job.|[AdRecommendationJobInfo](adrecommendationjobinfo.md)|
 |<a name="promptbrandwarning"></a>PromptBrandWarning|Whether the brand is detected in the request prompt.|**string**|
 |<a name="responsivead"></a>ResponsiveAd|A responsive ad object containing recommended text assets.|[ResponsiveAd](responsivead.md)|
 |<a name="videosuggestions"></a>VideoSuggestions|An array of videos recommended to be included in the responsive ad.|[AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md) array|
