@@ -18,7 +18,7 @@ A data object for the brand kit color.
 ```xml
 <xs:complexType name="BrandKitColor" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element name="HexCode" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="HexCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>

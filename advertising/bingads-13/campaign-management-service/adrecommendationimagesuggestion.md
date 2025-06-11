@@ -113,5 +113,6 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 ## Used By
 [CreateAssetGroupRecommendation](createassetgrouprecommendation.md)  
 [CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)  
+[GetResponsiveAdRecommendationJob](getresponsiveadrecommendationjob.md)  
 [RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)  
 [RefineResponsiveAdRecommendation](refineresponsiveadrecommendation.md)  

@@ -18,8 +18,8 @@ Defines the audio filter data object.
 ```xml
 <xs:complexType name="AudioFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q177="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AudioNames" nillable="true" type="q177:ArrayOfstring" />
-    <xs:element xmlns:q178="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Categories" nillable="true" type="q178:ArrayOfstring" />
+    <xs:element xmlns:q178="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AudioNames" nillable="true" type="q178:ArrayOfstring" />
+    <xs:element xmlns:q179="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Categories" nillable="true" type="q179:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```
