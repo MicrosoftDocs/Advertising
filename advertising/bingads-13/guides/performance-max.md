@@ -29,7 +29,7 @@ For more information, see [Universal Event Tracking](./universal-event-tracking.
 
 ### <a name="create-campaign"></a>Create the campaign
 
-You can create a Performance Max [campaign](../campaign-management-service/campaign.md) with the [AddCampaigns](../campaign-management-service/addcampaigns.md) operation. You can create a maximum of 100 Performance Max campaigns per ad account.
+You can create a Performance Max [campaign](../campaign-management-service/campaign.md) with the [AddCampaigns](../campaign-management-service/addcampaigns.md) operation. You can create a maximum of 300 Performance Max campaigns per ad account.
 
 - The [CampaignType](../campaign-management-service/campaigntype.md) must be set to *PerformanceMax*.
 - The [BiddingScheme](../campaign-management-service/biddingscheme.md) must be set to [MaxConversionValueBiddingScheme](../campaign-management-service/maxconversionvaluebiddingscheme.md) with optional [TargetRoas](../campaign-management-service/targetroasbiddingscheme.md) or [MaxConversionsBiddingScheme](../campaign-management-service/maxconversionsbiddingscheme.md) with optional [TargetCpa](../campaign-management-service/targetcpabiddingscheme.md). Performance Max campaigns use the Maximize Conversion Value bid strategy (where Microsoft Advertising automatically sets your bids in real time to maximize total conversion value within your budget) and automated targeting to maximize overall revenue numbers with an option to define return on ad spend (ROAS) targets.
