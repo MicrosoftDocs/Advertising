@@ -51,6 +51,7 @@ The Campaign Management service defines the following service operations.
 |[ApplyOnlineConversionAdjustments](applyonlineconversionadjustments.md)|Applies online conversion adjustments.|N/A.|
 |[ApplyProductPartitionActions](applyproductpartitionactions.md)|Applies an add, update, or delete action to each of the specified [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md), which each contain a [ProductPartition](productpartition.md).|5,000 *CriterionActions*|
 |[CreateAssetGroupRecommendation](createassetgrouprecommendation.md)|Create an asset group recommendation.|N/A.|
+|[CreateBrandKitRecommendation](createbrandkitrecommendation.md)|Creates a brand kit recommendation.||
 |[CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)|Create a responsive ad recommendation.|N/A.|
 |[CreateResponsiveSearchAdRecommendation](createresponsivesearchadrecommendation.md)|Create a responsive search ad recommendation.|N/A.|
 |[DeleteAdExtensions](deleteadextensions.md)|Deletes one or more ad extensions from the account's ad extension library.|1 *AccountId*<br/><br/>100 *AdExtensionIds*|
@@ -93,6 +94,7 @@ The Campaign Management service defines the following service operations.
 |[GetAdsByAdGroupId](getadsbyadgroupid.md)|Retrieves the ads within an ad group.|1 *AdGroupId*|
 |[GetAdsByEditorialStatus](getadsbyeditorialstatus.md)|Retrieves the ads that belong to the specified ad group and have the specified editorial review status.|1 *AdGroupId*|
 |[GetAdsByIds](getadsbyids.md)|Retrieves the specified ads from the specified ad group.|1 *AdGroupId*<br/><br/>20 *AdIds*|
+|[GetAnnotationOptOut](getannotationoptout.md)|Returns the current annotation opt-out configuration.||
 |[GetAssetGroupListingGroupsByIds](getassetgrouplistinggroupsbyids.md)|Retrieves the specified AssetGroupListingGroups.|N/A.|
 |[GetAssetGroupsByCampaignId](getassetgroupsbycampaignid.md)|Retrieves the specified AssetGroups.|N/A.|
 |[GetAssetGroupsByIds](getassetgroupsbyids.md)|Retrieves specified AssetGroups.|N/A.|
@@ -123,6 +125,7 @@ The Campaign Management service defines the following service operations.
 |[GetExperimentsByIds](getexperimentsbyids.md)|Gets experiments by experiment identifiers.|5,000 *ExperimentIds*|
 |[GetFileImportUploadUrl](getfileimportuploadurl.md)|GetFileImportUploadUrl is reserved for future use.|N/A.|
 |[GetGeoLocationsFileUrl](getgeolocationsfileurl.md)|Gets a temporary URL that you can use to download a file that contains identifiers for the geographical locations that you can target or exclude.|Not applicable.|
+|[GetHealthCheck](gethealthcheck.md)|Retrieves health check entities and types.||
 |[GetImportEntityIdsMapping](getimportentityidsmapping.md)|Gets mappings of your source entity IDs to Microsoft Advertising entity IDs.|100 *SourceEntityIds*|
 |[GetImportJobsByIds](getimportjobsbyids.md)|Gets import jobs by their type and identifiers.|100 *ImportJobIds*|
 |[GetImportResults](getimportresults.md)|Gets results for import jobs completed within the last 90 days.|100 *ImportJobIds*|
@@ -142,6 +145,7 @@ The Campaign Management service defines the following service operations.
 |[GetNewCustomerAcquisitionGoalsByAccountId](getnewcustomeracquisitiongoalsbyaccountid.md)|Gets the specified new customer acquisition goals.|N/A.|
 |[GetOfflineConversionReports](getofflineconversionreports.md)|Gets the offline conversion reports in the requested date range.|N/A.|
 |[GetProfileDataFileUrl](getprofiledatafileurl.md)|Gets a temporary URL that you can use to download industry or job function profile data.|1 *ProfileType*|
+|[GetResponsiveAdRecommendationJob](getresponsiveadrecommendationjob.md)|Retrieves responsive ad recommentation job.||
 |[GetSeasonalityAdjustmentsByAccountId](getseasonalityadjustmentsbyaccountid.md)|Gets the seasonality adjustments associated with an account.|N/A.|
 |[GetSeasonalityAdjustmentsByIds](getseasonalityadjustmentsbyids.md)|Gets the specified seasonality adjustments associated with an account.|N/A.|
 |[GetSharedEntities](getsharedentities.md)|Gets negative keyword lists or website exclusion lists.|Not applicable.|
@@ -167,6 +171,7 @@ The Campaign Management service defines the following service operations.
 |[UpdateAdGroupCriterions](updateadgroupcriterions.md)|Updates one or more ad group criterions.|1 *AccountId*<br/><br/>1,000 *AdGroupCriterions*|
 |[UpdateAdGroups](updateadgroups.md)|Updates the specified ad groups in a campaign.|1,000 *AdGroups*<br/><br/>1 *CampaignId*|
 |[UpdateAds](updateads.md)|Updates the specified ads within an ad group.|1 *AdGroupId*<br/><br/>50 *Ads*|
+|[UpdateAnnotationOptOut](updateannotationoptout.md)|Updates the annotation opt-out settings for an account.||
 |[UpdateAssetGroups](updateassetgroups.md)|Updates the specified asset groups.|N/A.|
 |[UpdateAudienceGroups](updateaudiencegroups.md)|Updates the specified audience groups.|N/A.|
 |[UpdateAudiences](updateaudiences.md)|Updates the specified audiences.|100 *Audiences*|

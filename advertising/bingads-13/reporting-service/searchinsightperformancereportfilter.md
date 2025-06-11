@@ -57,8 +57,8 @@ The [SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.
 |<a name="adgroupstatus"></a>AdGroupStatus|The report will only include data for ad groups with the specified status. For example, you can use the filter to include data for only active ad groups.<br/><br/>You can specify one or more ad group statuses.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
 |<a name="assetgroupstatus"></a>AssetGroupStatus|The report will include data for only the asset group status. For example, you can use the filter to include data for only active asset groups.<br/><br/>You can specify one or more asset group statuses.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
 |<a name="campaignstatus"></a>CampaignStatus|The report will only include data for campaigns with the specified status. For example, you can use the filter to include data for only active campaigns.<br/><br/>You can specify one or more campaign statuses.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
-|<a name="searchcategory"></a>SearchCategory|The report will only include data for campaigns with the specified search category.|[CategoryInsightsReportFilter](categoryinsightsreportfilter.md)|
-|<a name="searchqueries"></a>SearchQueries|The report will only include data for campaigns with the specified search queries.|[SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)|
+|<a name="searchcategory"></a>SearchCategory|The report will only include data for campaigns with the specified search category.|**string** array|
+|<a name="searchqueries"></a>SearchQueries|The report will only include data for campaigns with the specified search queries.|**string** array|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  

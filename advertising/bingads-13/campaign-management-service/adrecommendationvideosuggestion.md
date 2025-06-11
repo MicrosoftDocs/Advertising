@@ -59,3 +59,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [CreateResponsiveAdRecommendation](createresponsiveadrecommendation.md)  
+[GetResponsiveAdRecommendationJob](getresponsiveadrecommendationjob.md)  

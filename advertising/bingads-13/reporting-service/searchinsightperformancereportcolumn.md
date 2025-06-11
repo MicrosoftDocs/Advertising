@@ -81,8 +81,6 @@ The [SearchInsightPerformanceReportColumn](searchinsightperformancereportcolumn.
 |<a name="searchvolume"></a>SearchVolume|The number of times a specific keyword or phrase is searched within a given timeframe.|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
-|<a name="topimpressionratepercent"></a>TopImpressionRatePercent|The percentage of times your ad showed in the mainline, the top placement where ads appear above the search results, out of your total impressions.<br/><br/>This indicates how changes in ad position can impact performance.<br/><br/>The value of this column is empty if the data is not available. Neither *Hourly* or *HourOfDay* aggregation are supported. If you include this column with *Hourly* or *HourOfDay* aggregation the service will not return an error and you should ignore any performance data returned for this column.|
-|<a name="topvsother"></a>TopVsOther|Indicates whether the ad impression appeared in a top position or elsewhere. The possible values include AOL search - Top, AOL search - Other, Audience network, Bing and Yahoo! search - Top, Bing and Yahoo! search - Other, Syndicated search partners - Top, Syndicated search partners - Other, Content network, and Unknown.|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  

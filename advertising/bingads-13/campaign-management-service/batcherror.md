@@ -115,6 +115,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [GetAdExtensionsEditorialReasons](getadextensionseditorialreasons.md)  
 [GetAdGroupsByIds](getadgroupsbyids.md)  
 [GetAdsByIds](getadsbyids.md)  
+[GetAnnotationOptOut](getannotationoptout.md)  
 [GetAssetGroupsByCampaignId](getassetgroupsbycampaignid.md)  
 [GetAssetGroupsByIds](getassetgroupsbyids.md)  
 [GetAssetGroupsEditorialReasons](getassetgroupseditorialreasons.md)  

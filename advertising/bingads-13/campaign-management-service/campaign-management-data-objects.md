@@ -39,6 +39,7 @@ The Campaign Management service defines the following data objects.
 |[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md)|The ad recommendation image refine operation data object.|
 |[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)|Defines a data object for ad recommendation image suggestion.|
 |[AdRecommendationImageSuggestionMetadata](adrecommendationimagesuggestionmetadata.md)|The ad recommendation image suggestion metadata data object.|
+|[AdRecommendationJobInfo](adrecommendationjobinfo.md)|Defines the ad recommendation job info data object.|
 |[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md)|The ad recommendation media refine result data object.|
 |[AdRecommendationRefinedMedia](adrecommendationrefinedmedia.md)|The ad recommendation refined media data object.|
 |[AdRecommendationTextAssetProperty](adrecommendationtextassetproperty.md)|The ad recommendation text asset property data object.|
@@ -48,6 +49,7 @@ The Campaign Management service defines the following data objects.
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
 |[AgeDimension](agedimension.md)|Data object that specifies users by their age.|
+|[AnnotationOptOut](annotationoptout.md)|Represents the annotation opt-out configuration for an account.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[AppAdExtension](appadextension.md)|Defines an app ad extension that can be included in an ad.|
 |[AppInstallAd](appinstallad.md)|Defines an app install ad.|
@@ -91,6 +93,7 @@ The Campaign Management service defines the following data objects.
 |[BrandKitImage](brandkitimage.md)|The brand kit image data object.|
 |[BrandKitPalette](brandkitpalette.md)|The brand kit palette data object.|
 |[BrandList](brandlist.md)|A data object for the BrandList.|
+|[BrandVoice](brandvoice.md)|Defines the brand voice data object.|
 |[Budget](budget.md)|Represents a budget that can be shared by any campaigns in an account.|
 |[CallAdExtension](calladextension.md)|Defines an object that specifies a click-to-call phone number to include in a text ad.|
 |[CalloutAdExtension](calloutadextension.md)|Defines an object that specifies additional text about your business, products, or services to include in a text ad.|
@@ -162,6 +165,13 @@ The Campaign Management service defines the following data objects.
 |[GeoPoint](geopoint.md)|Defines an object that contains the longitude and latitude coordinates of a geographical location.|
 |[GoogleImportJob](googleimportjob.md)|Defines a Google import job that can be run once or scheduled on a recurring basis.|
 |[GoogleImportOption](googleimportoption.md)|Defines the Google import options that are available via API.|
+|[HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md)|Defines the health check action link metadata data object.|
+|[HealthCheckColumnMetadata](healthcheckcolumnmetadata.md)|Defines the health check column metadata data object.|
+|[HealthCheckData](healthcheckdata.md)|Defines the health check data object.|
+|[HealthCheckEntity](healthcheckentity.md)|Defines the health check entity data object.|
+|[HealthCheckError](healthcheckerror.md)|Defines the health check error data object.|
+|[HealthCheckMetadata](healthcheckmetadata.md)|Defines the health check metadata data object.|
+|[HealthCheckSubEntityData](healthchecksubentitydata.md)|Defines the health check sub entity data object.|
 |[HotelAd](hotelad.md)|Defines a hotel ad.|
 |[HotelAdvanceBookingWindowCriterion](hoteladvancebookingwindowcriterion.md)|Criterion for the number of days the booking is made prior to the hotel stay.|
 |[HotelCheckInDateCriterion](hotelcheckindatecriterion.md)|Criterion for a check-in date range.|

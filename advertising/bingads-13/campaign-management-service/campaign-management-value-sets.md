@@ -43,6 +43,7 @@ The Campaign Management service defines the following value sets.
 |[AppStore](appstore.md)|The app store the mobile app is distributed in.|
 |[AssetGroupAdditionalField](assetgroupadditionalfield.md)|Defines the possible additional fields for an asset group.|
 |[AssetGroupEditorialStatus](assetgroupeditorialstatus.md)|The editorial review status of the asset group, which indicates whether the asset group is pending review, has been approved, or has been disapproved.|
+|[AssetGroupListingGroupAdditionalField](assetgrouplistinggroupadditionalfield.md)|Defines the asset group listing group additional field value set.|
 |[AssetGroupListingType](assetgrouplistingtype.md)|The type of listing group, for example Subdivision or Unit.|
 |[AssetGroupStatus](assetgroupstatus.md)|The status of the AssetGroup.|
 |[AssetLinkEditorialStatus](assetlinkeditorialstatus.md)|Defines the editorial review status values of a linked asset.|
@@ -55,6 +56,7 @@ The Campaign Management service defines the following value sets.
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
 |[BMCStoreAdditionalField](bmcstoreadditionalfield.md)|Defines a list of optional store properties that you can request when calling [GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md).|
 |[BMCStoreSubType](bmcstoresubtype.md)|Defines the possible values for Microsoft Merchant Center store sub types.|
+|[BrandKitAdditionalField](brandkitadditionalfield.md)|Defines the brand kit additional field value set.|
 |[BudgetLimitType](budgetlimittype.md)|Defines the possible budget limit types that you can specify for a campaign.|
 |[BusinessGeoCodeStatus](businessgeocodestatus.md)|Defines the possible status values that indicate the progress of determining the latitude and longitude values of a business.|
 |[CallToAction](calltoaction.md)|Defines the possible values for a brief, punchy reason for customers to click your ad right now.|
@@ -84,7 +86,6 @@ The Campaign Management service defines the following value sets.
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
-|[FontTextAssetType](fonttextassettype.md)|A value set for the font text asset type.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
 |[GenericEntityStatus](genericentitystatus.md)|Defines the generic entity status value set.|

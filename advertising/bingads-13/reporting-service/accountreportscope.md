@@ -51,3 +51,4 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [AccountPerformanceReportRequest](accountperformancereportrequest.md)  
 [CategoryClickCoverageReportRequest](categoryclickcoveragereportrequest.md)  
 [CategoryInsightsReportRequest](categoryinsightsreportrequest.md)  
+[TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md)  
