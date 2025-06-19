@@ -46,7 +46,7 @@ The [AnnotationOptOut](annotationoptout.md) object has the following elements: [
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="accountid"></a>AccountId|The account ID.|**long**|
-|<a name="annotationgroupid"></a>AnnotationGroupId|The annotation group ID.<br/><br/>The possible values are: <list><li>17000 - Dynamic Locations</li><li>17001 - Consumer Ratings</li><li>17002 - Dynamic Ad Enhancements </li><li>17003 - Dynamic Callouts</li><li>17004 - Dynamic Partner Data enhancements</li><li>17005 - Dynamic Sitelink</li><li>17006 - Dynamic Structured Snippets</li><li>17007 - Longer Ad Headlines</li><li>17008 - Previous Visit</li><li>17009 - Seller Ratings</li><li>17011 - Dynamic Multimedia Extensions</li><li>17013 - Syndication Only Decorations </li><li>17014 - Business Logo</li></list>|**long**|
+|<a name="annotationgroupid"></a>AnnotationGroupId|The annotation group ID.<br/><br/>The possible values are: <ul><li>17000 - Dynamic Locations</li><li>17001 - Consumer Ratings</li><li>17002 - Dynamic Ad Enhancements </li><li>17003 - Dynamic Callouts</li><li>17004 - Dynamic Partner Data enhancements</li><li>17005 - Dynamic Sitelink</li><li>17006 - Dynamic Structured Snippets</li><li>17007 - Longer Ad Headlines</li><li>17008 - Previous Visit</li><li>17009 - Seller Ratings</li><li>17011 - Dynamic Multimedia Extensions</li><li>17013 - Syndication Only Decorations </li><li>17014 - Business Logo</li></ul>|**long**|
 |<a name="customerid"></a>CustomerId|The customer ID.|**long**|
 |<a name="isoptout"></a>IsOptOut|Whether or not the entity is opted out.|**boolean**|
 

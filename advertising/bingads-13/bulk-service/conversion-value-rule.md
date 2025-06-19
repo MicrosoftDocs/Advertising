@@ -13,7 +13,7 @@ dev_langs:
 # Conversion Value Rule Record - Bulk
 Defines a conversion value rule. Adjusts your conversion values if the conversion meets certain conditions that are relevant to your business goals.
 
-You can download all *Conversion Value Rule* records in the account by including the [DownloadEntity](downloadentity.md) value of *ConversionValueRules* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datadevicetype.md#entitydata) devicetype. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Conversion Value Rule* records in the account by including the [DownloadEntity](downloadentity.md) value of *ConversionValueRules* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) devicetype. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would add a new conversion value rule.
 
@@ -44,7 +44,7 @@ For a *Conversion Value Rule* record, the following attribute fields are availab
 ## <a name="audiences"></a>Audiences
 The audience condition associated with the conversion value rule. Each conversion value rule can have up to 2 conditions.
 
-## <a name="conversionvaluerulevalue"></a>Conversion Value Rule Operator
+## <a name="conversionvaluerulevalue"></a>Conversion Value Rule Value
 The value of the conversion value rule. It should be greater than 0.  
 
 **Add**: Required  
