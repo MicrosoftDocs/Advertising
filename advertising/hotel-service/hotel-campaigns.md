@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 
-# Lodging campaigns
+# Hotel price ads
 
 [!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
 
