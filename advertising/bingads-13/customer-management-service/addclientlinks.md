@@ -23,7 +23,7 @@ Initiates the client link process to manage the accounts of another customer. Se
 There is no set limit to the amount of client accounts that can be linked to an agency. The client account must have a valid payment instrument set up for post-pay billing. Prepaid accounts are not supported for management by agencies.  
 
 > [!TIP]
-> For more information about the client link lifecycle, see the [Account Hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy) technical guide. For more information about becoming an agency, see the [Resources for agency partners](https://about.ads.microsoft.com/resources/partners-agencies/agency-center). For more information from a client's perspective, see [How to have an agency manage your Microsoft Advertising account](https://help.ads.microsoft.com/#apex/3/en/52004/3).  
+> For more information about the client link lifecycle, see the [Account Hierarchy](../guides/account-hierarchy-permissions.md#account-hierarchy) technical guide. For more information about becoming an agency, see the [Resources for agency partners](https://about.ads.microsoft.com/en/resources/partners-agencies/agency-center). For more information from a client's perspective, see [How to have an agency manage your Microsoft Advertising account](https://help.ads.microsoft.com/#apex/3/en/52004/3).  
 
 > [!NOTE]
 > Agency customers in the Create Accounts on Behalf of Client pilot ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 793) can also establish ad account level client links via the [SignupCustomer](../customer-management-service/signupcustomer.md) service operation. Please see [SignupCustomer](../customer-management-service/signupcustomer.md) for more information. 
