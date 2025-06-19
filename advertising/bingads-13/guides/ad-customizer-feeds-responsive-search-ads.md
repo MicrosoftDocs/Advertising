@@ -1,7 +1,7 @@
 ---
-title: "Ad Customizer Feeds for responsive search ads"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Ad Customizer Feeds for responsive search ads
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

@@ -1,7 +1,7 @@
 ---
-title: "Responsive Search Ads Opportunities"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Responsive Search Ads Opportunities
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

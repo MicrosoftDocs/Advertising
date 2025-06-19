@@ -1,14 +1,14 @@
 ---
-title: "Bing Ads API Web Service Addresses"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Bing Ads API Web Service Addresses
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 description: Refer to the list of Bing Ads API Version 13 web service addresses.
 ---
 # Bing Ads API Web Service Addresses
-Bing Ads API Version 13 includes the following web service addresses. Depending on your application you can use the `?wsdl` or `?singleWsdl` extension. 
+Bing Ads API Version 13 includes the following web service addresses. Depending on your application you can use the `?wsdl` or `?singleWsdl` extension.  
 
 ## <a name="adinsight"></a>Ad Insight API
 
@@ -18,11 +18,9 @@ Bing Ads API Version 13 includes the following web service addresses. Depending 
 [https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl](https://adinsight.api.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl)
 
 ### <a name="adinsight-sandbox"></a>Sandbox
-```html
-https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc
-https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?wsdl
-https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl
-```
+[https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc)
+[https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?wsdl](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?wsdl)
+[https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl](https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13/AdInsightService.svc?singleWsdl)
 
 ## <a name="bulk"></a>Bulk API
 
@@ -83,4 +81,3 @@ https://adinsight.api.sandbox.bingads.microsoft.com/Api/Advertiser/AdInsight/v13
 [https://reporting.api.sandbox.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc](https://reporting.api.sandbox.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)
 [https://reporting.api.sandbox.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc?wsdl](https://reporting.api.sandbox.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc?wsdl)
 [https://reporting.api.sandbox.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc?singleWsdl](https://reporting.api.sandbox.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc?singleWsdl)
-

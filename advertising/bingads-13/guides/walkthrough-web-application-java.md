@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Bing Ads API Web Application in Java"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Walkthrough - Bing Ads API Web Application in Java
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

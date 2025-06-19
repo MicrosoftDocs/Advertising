@@ -1,7 +1,7 @@
 ---
-title: "Product Ads Code Examples"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Product Ads Code Examples
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

@@ -1,7 +1,7 @@
 ---
-title: "Budget and Bid Strategies"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Budget and Bid Strategies
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

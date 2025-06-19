@@ -1,7 +1,7 @@
 ---
-title: "Ad Insight API API Auto-apply management"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Ad Insight API API Auto-apply management
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

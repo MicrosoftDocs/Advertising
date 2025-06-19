@@ -1,7 +1,7 @@
 ---
-title: "Request and Download a Report"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Request and Download a Report
+ms.service: bing-ads
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
