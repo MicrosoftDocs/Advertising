@@ -1,7 +1,8 @@
 ---
-title: "Get Started Using C# with Bing Ads API"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: Get Started Using C# with Bing Ads API
+ms.service: bing-ads
+ms.subservice: guides-api
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

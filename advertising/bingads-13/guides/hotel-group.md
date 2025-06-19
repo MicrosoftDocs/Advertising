@@ -1,7 +1,8 @@
 ---
-title: "Hotel Group Record - Bulk"
+title: Hotel Group Record - Bulk
 ms.service: bing-ads
-ms.topic: "article"
+ms.subservice: guides-api
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024

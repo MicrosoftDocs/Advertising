@@ -1,7 +1,8 @@
 ---
-title: "URL Tracking with Upgraded URLs"
-ms.service: "bing-ads"
-ms.topic: "article"
+title: URL Tracking with Upgraded URLs
+ms.service: bing-ads
+ms.subservice: guides-api
+ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
