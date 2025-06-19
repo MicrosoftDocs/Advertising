@@ -304,7 +304,7 @@ using (StreamWriter streamWriter = new StreamWriter(@"tracelog.txt"))
 The full program using the above snippet can be found in [Program.cs](https://github.com/BingAds/BingAds-dotNet-SDK/blob/main/examples/BingAdsExamples/BingAdsConsoleApp/Program.cs).
 
 #### <a name="net-troubleshooting-fiddler"></a>Fiddler Options
-You can follow these steps to capture the SOAP envelopes from a .NET application using a third-party tool such as [Fiddler](https://fiddler2.com/get-fiddler). 
+You can follow these steps to capture the SOAP envelopes from a .NET application using a third-party tool such as [Fiddler](https://www.telerik.com/download/fiddler-everywhere). 
  - After installing Fiddler, export the Fiddler certificate from the root certificate store. 
  - Click **Tools** &gt; **Fiddler Options**. 
  - Select the **HTTPS** tab, and click the **Decrypt HTTPS traffic** check box. 
@@ -342,7 +342,7 @@ Unless there is a [known service issue](https://developers.ads.microsoft.com/Sup
 To enable programmatic logging of request and response messages, see [Logging service calls](get-started-java.md#logging-service-calls).
 
 #### <a name="java-troubleshooting-fiddler"></a>Fiddler Options
-You can follow these steps to capture the SOAP envelopes from a Java application using a third-party tool such as [Fiddler](https://fiddler2.com/get-fiddler). 
+You can follow these steps to capture the SOAP envelopes from a Java application using a third-party tool such as [Fiddler](https://www.telerik.com/download/fiddler-everywhere). 
 
 1. After installing Fiddler, export the Fiddler certificate from the root certificate store. Click **Tools** &gt; **Fiddler Options**. Select the **HTTPS** tab, and click the **Decrypt HTTPS traffic** check box. Click **OK**, and then follow the prompts to export the Fiddler certificate.
 

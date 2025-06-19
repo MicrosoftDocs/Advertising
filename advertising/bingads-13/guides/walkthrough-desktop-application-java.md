@@ -1,5 +1,5 @@
 ---
-title: Walkthrough: Bing Ads API Desktop Application in Java
+title: Walkthrough - Bing Ads API Desktop Application in Java
 ms.service: bing-ads
 ms.topic: article
 author: jonmeyers

@@ -1,5 +1,5 @@
 ---
-title: Walkthrough: Bing Ads API Desktop Application in C#
+title: Walkthrough - Bing Ads API Desktop Application in C#
 ms.service: bing-ads
 ms.topic: article
 author: jonmeyers

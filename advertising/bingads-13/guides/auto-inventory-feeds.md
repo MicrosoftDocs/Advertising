@@ -9,7 +9,7 @@ description: Manage Auto Inventory Ads using the bulk API. Add feeds so your ads
 ---
 # Auto Inventory Feeds
 
-With Automotive Ads, your ads are feed-based product ads where you can upload all the attributes of your car inventory (make, model, year, trim, image, URLs, etc.) and showcase them on the Microsoft Bing.com, SERP right rail/mainline and the Bing image results page, as well as on native placements on the [Microsoft Audience Network](https://about.ads.microsoft.com/solutions/microsoft-audience-network).
+With Automotive Ads, your ads are feed-based product ads where you can upload all the attributes of your car inventory (make, model, year, trim, image, URLs, etc.) and showcase them on the Microsoft Bing.com, SERP right rail/mainline and the Bing image results page, as well as on native placements in [Audience ads](./audience-ads.md).
 
 Why use auto inventory feeds?
 
