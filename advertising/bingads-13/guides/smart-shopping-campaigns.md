@@ -1,7 +1,6 @@
 ---
 title: Smart Shopping Campaigns
 ms.service: bing-ads
-ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers

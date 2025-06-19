@@ -77,8 +77,7 @@
     },
     "fileMetadata": {
       "ms.subservice": {
-        "customer-billing-service/**.yml": "customer-billing-api",
-        "guides/**.yml": "guides-api"
+        "customer-billing-service/**.yml": "customer-billing-api"
       },
       "ms.service": 
       { 

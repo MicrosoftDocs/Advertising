@@ -1,7 +1,6 @@
 ---
 title: Walkthrough - Bing Ads API Web Application in PHP
 ms.service: bing-ads
-ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
