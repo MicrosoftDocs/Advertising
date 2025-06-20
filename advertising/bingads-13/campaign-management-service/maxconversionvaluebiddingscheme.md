@@ -22,6 +22,13 @@ Search campaigns, Shopping campaigns, [Smart shopping campaigns](../guides/smart
   <xs:complexContent mixed="false">
     <xs:extension base="tns:BiddingScheme">
       <xs:sequence>
+        <xs:element minOccurs="0" name="MaxCpc" nillable="true" type="tns:Bid">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
         <xs:element minOccurs="0" name="TargetRoas" nillable="true" type="xs:double" />
       </xs:sequence>
     </xs:extension>
@@ -34,6 +41,9 @@ Search campaigns, Shopping campaigns, [Smart shopping campaigns](../guides/smart
 ```json
 {
   "Type": "MaxConversionValueBiddingScheme",
+  "MaxCpc": {
+    "Amount": DoubleValueHere
+  },
   "TargetRoas": DoubleValueHere
 }
 ```
@@ -42,10 +52,11 @@ Search campaigns, Shopping campaigns, [Smart shopping campaigns](../guides/smart
 
 ## <a name="elements"></a>Elements
 
-The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object has the following elements: [TargetRoas](#targetroas).
+The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object has the following elements: [MaxCpc](#maxcpc), [TargetRoas](#targetroas).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="maxcpc"></a>MaxCpc|The maximum cost per click filter criteria for all keyword estimates in the ad group.<br/><br/>You can override this setting for specific keywords with the corresponding keyword estimators.|[Bid](bid.md)|
 |<a name="targetroas"></a>TargetRoas|The target return on ad spend.<br/><br/>*Note:* TargetRoas is used by Search, Shopping, Smart Shopping and Performance Max campaigns.|**double**|
 
 The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object has [Inherited Elements](#inheritedelements).
