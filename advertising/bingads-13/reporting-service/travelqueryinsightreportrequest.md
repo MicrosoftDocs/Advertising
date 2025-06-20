@@ -78,7 +78,7 @@ The [TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md) object
 |-----------|---------------|-------------|
 |<a name="columns"></a>Columns|The list of attributes and performance statistics to include in the report. The report will include the columns in the order that you specify them.|[TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md) array|
 |<a name="filter"></a>Filter|The filter information to use to filter the report data.|[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|
-|<a name="scope"></a>Scope|The entity scope of the report.<br/><br/>Use this element to limit the report data to specific accounts, ad groups, or campaigns.|[AccountThroughAdGroupReportScope](accountthroughadgroupreportscope.md)|
+|<a name="scope"></a>Scope|The entity scope of the report.<br/><br/>Use this element to limit the report data to specific accounts, ad groups, or campaigns.|[AccountReportScope](accountreportscope.md)|
 |<a name="time"></a>Time|The time period to use for the report. You can specify a custom date range or select a predefined date range, for example, Today or ThisWeek.<br/><br/>For a list of the time periods that you can specify for each aggregation type, see [Aggregation and Time](../guides/reports.md#aggregation-time).|[ReportTime](reporttime.md)|
 
 The [TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md) object has [Inherited Elements](#inheritedelements).
