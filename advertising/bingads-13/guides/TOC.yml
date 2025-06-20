@@ -2402,6 +2402,8 @@
       href: ../campaign-management-service/intentoption.md
     - name: ItemAction
       href: ../campaign-management-service/itemaction.md
+    - name: KeywordAdditionalField
+      href: ../campaign-management-service/keywordadditionalfield.md
     - name: KeywordEditorialStatus
       href: ../campaign-management-service/keywordeditorialstatus.md
     - name: KeywordStatus
@@ -2428,6 +2430,8 @@
       href: ../campaign-management-service/normalform.md
     - name: NumberOperator
       href: ../campaign-management-service/numberoperator.md
+    - name: PortfolioBidStrategyAdditionalField
+      href: ../campaign-management-service/portfoliobidstrategyadditionalfield.md
     - name: PriceExtensionType
       href: ../campaign-management-service/priceextensiontype.md
     - name: PriceQualifier
