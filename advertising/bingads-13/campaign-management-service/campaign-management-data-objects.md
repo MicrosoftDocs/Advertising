@@ -135,9 +135,9 @@ The Campaign Management service defines the following data objects.
 |[DealCriterion](dealcriterion.md)|Defines a criterion that can be used to show ads for a specific deal.|
 |[DeviceCondition](devicecondition.md)|Defines a condition to use conversion value rules for specified devices.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
-|[DiagnosticCardData](diagnosticcarddata.md)|Reserved.|
-|[DiagnosticCategoryData](diagnosticcategorydata.md)|Reserved.|
-|[DiagnosticTileData](diagnostictiledata.md)|Reserved.|
+|[DiagnosticCardData](diagnosticcarddata.md)|Defines the diagnostic card data data object.|
+|[DiagnosticCategoryData](diagnosticcategorydata.md)|Defines the diagnostic category data data object.|
+|[DiagnosticTileData](diagnostictiledata.md)|Defines the diagnostic tile data data object.|
 |[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
 |[DurationGoal](durationgoal.md)|Defines a duration conversion goal.|
