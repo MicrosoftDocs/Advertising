@@ -185,6 +185,13 @@ Defines a list of optional import properties that you can request when calling [
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="UpdateAssetAutomationCampaignSetting">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8388608</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -193,7 +200,7 @@ Defines a list of optional import properties that you can request when calling [
 
 ## <a name="values"></a>Values
 
-The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewBrandSuitability](#newbrandsuitability), [NewCarouselAd](#newcarouselad), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateBrandSuitability](#updatebrandsuitability), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls).
+The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewBrandSuitability](#newbrandsuitability), [NewCarouselAd](#newcarouselad), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateAssetAutomationCampaignSetting](#updateassetautomationcampaignsetting), [UpdateBrandSuitability](#updatebrandsuitability), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls).
 
 |Value|Description|
 |-----------|---------------|
@@ -215,6 +222,7 @@ The [ImportAdditionalField](importadditionalfield.md) value set has the followin
 |<a name="updateaccountnegativekeywords"></a>UpdateAccountNegativeKeywords|Request that the [UpdateAccountNegativeKeywords](googleimportoption.md#updateaccountnegativekeywords) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateadcustomizerattributes"></a>UpdateAdCustomizerAttributes|Request that the [UpdateAdCustomizerAttributes](googleimportoption.md#updateadcustomizerattributes) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateadurls"></a>UpdateAdUrls|Request that the [UpdateAdUrls](googleimportoption.md#updateadurls) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="updateassetautomationcampaignsetting"></a>UpdateAssetAutomationCampaignSetting|Reserved.|
 |<a name="updatebrandsuitability"></a>UpdateBrandSuitability|Request that the [UpdateBrandSuitability](googleimportoption.md#updatebrandsuitability) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateconversiongoals"></a>UpdateConversionGoals|Request that the [UpdateConversionGoals](googleimportoption.md#updateconversiongoals) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateimageadextensions"></a>UpdateImageAdExtensions|Request that the [UpdateImageAdExtensions](googleimportoption.md#updateimageadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|

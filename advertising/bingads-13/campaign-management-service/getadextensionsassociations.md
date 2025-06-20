@@ -637,7 +637,7 @@ The *GetAdExtensionsAssociationsRequest* object defines the [body](#request-body
 |<a name="accountid"></a>AccountId|The identifier of the account that owns the extensions.|**long**|
 |<a name="adextensiontype"></a>AdExtensionType|Filters the returned associations by ad extension type.<br/><br/>You may include multiple values as flags. How you specify multiple flags depends on the programming language that you use. For example, C# treats these values as flag values and Java treats them as an array of strings. The SOAP should include a string that contains a space-delimited list of values for example, `<AdExtensionType>LocationAdExtension CallAdExtension</AdExtensionType>`.|[AdExtensionsTypeFilter](adextensionstypefilter.md)|
 |<a name="associationtype"></a>AssociationType|Filters the returned associations by entity type.|[AssociationType](associationtype.md)|
-|<a name="entityids"></a>EntityIds|The list of entity identifiers by which you may request the respective ad extension associations.<br/><br/>The maximum number of EntityIds per request is 100.|**long** array|
+|<a name="entityids"></a>EntityIds|The list of entity identifiers by which you may request the respective ad extension associations.<br/><br/>The maximum number of *EntityIds* per request is 100.|**long** array|
 |<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved for future use.|[AdExtensionAdditionalField](adextensionadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
