@@ -121,7 +121,7 @@ The Campaign Management service defines the following service operations.
 |[GetConversionValueRulesByIds](getconversionvaluerulesbyids.md)|Gets conversion value rules by their IDs.|N/A.|
 |[GetDataExclusionsByAccountId](getdataexclusionsbyaccountid.md)|Gets the data exclusions associated with an account.|N/A.|
 |[GetDataExclusionsByIds](getdataexclusionsbyids.md)|Gets the specified data exclusions associated with an account.|N/A.|
-|[GetDiagnostics](getdiagnostics.md)|Reserved.||
+|[GetDiagnostics](getdiagnostics.md)|Defines the get diagnostics service operation.|N/A.|
 |[GetEditorialReasonsByIds](geteditorialreasonsbyids.md)|Gets the reasons why the specified entities failed editorial review and whether the issue is appealable.|1 *AccountId*<br/><br/>1,000 *EntityIdToParentIdAssociations*|
 |[GetExperimentsByIds](getexperimentsbyids.md)|Gets experiments by experiment identifiers.|5,000 *ExperimentIds*|
 |[GetFileImportUploadUrl](getfileimportuploadurl.md)|GetFileImportUploadUrl is reserved for future use.|N/A.|
