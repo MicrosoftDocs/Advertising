@@ -27,6 +27,14 @@ Defines an object containing coupon info.
     <xs:element minOccurs="0" name="PercentOff" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="CouponValue" nillable="true" type="xs:decimal" />
     <xs:element minOccurs="0" name="UpfrontSpending" nillable="true" type="xs:decimal" />
+    <xs:element minOccurs="0" name="ActiveDuration" nillable="true" type="xs:int" />
+    <xs:element minOccurs="0" name="SpendToThreshold" nillable="true" type="xs:decimal" />
+    <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:dateTime" />
+    <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:dateTime" />
+    <xs:element minOccurs="0" name="Balance" nillable="true" type="xs:decimal" />
+    <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="FeatureId" nillable="true" type="xs:int" />
+    <xs:element minOccurs="0" name="CouponType" nillable="true" type="xs:unsignedByte" />
   </xs:sequence>
 </xs:complexType>
 ```
@@ -36,12 +44,20 @@ Defines an object containing coupon info.
 ```json
 {
   "AccountId": IntValueHere,
+  "ActiveDuration": IntValueHere,
+  "Balance": DecimalValueHere,
   "ClaimDate": "ValueHere",
   "CouponId": IntValueHere,
+  "CouponType": "ValueHere",
   "CouponValue": DecimalValueHere,
+  "CurrencyCode": "ValueHere",
+  "EndDate": "ValueHere",
   "ExpirationDate": "ValueHere",
+  "FeatureId": IntValueHere,
   "PercentOff": DoubleValueHere,
   "RedemptionDate": "ValueHere",
+  "SpendToThreshold": DecimalValueHere,
+  "StartDate": "ValueHere",
   "Status": "ValueHere",
   "UpfrontSpending": DecimalValueHere
 }
@@ -51,17 +67,25 @@ Defines an object containing coupon info.
 
 ## <a name="elements"></a>Elements
 
-The [CouponInfoData](couponinfodata.md) object has the following elements: [AccountId](#accountid), [ClaimDate](#claimdate), [CouponId](#couponid), [CouponValue](#couponvalue), [ExpirationDate](#expirationdate), [PercentOff](#percentoff), [RedemptionDate](#redemptiondate), [Status](#status), [UpfrontSpending](#upfrontspending).
+The [CouponInfoData](couponinfodata.md) object has the following elements: [AccountId](#accountid), [ActiveDuration](#activeduration), [Balance](#balance), [ClaimDate](#claimdate), [CouponId](#couponid), [CouponType](#coupontype), [CouponValue](#couponvalue), [CurrencyCode](#currencycode), [EndDate](#enddate), [ExpirationDate](#expirationdate), [FeatureId](#featureid), [PercentOff](#percentoff), [RedemptionDate](#redemptiondate), [SpendToThreshold](#spendtothreshold), [StartDate](#startdate), [Status](#status), [UpfrontSpending](#upfrontspending).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="accountid"></a>AccountId|The account ID.|**int**|
+|<a name="activeduration"></a>ActiveDuration|The length of time in which the coupon may be used.|**int**|
+|<a name="balance"></a>Balance|The balance after the coupon is applied.|**decimal**|
 |<a name="claimdate"></a>ClaimDate|The coupon's claim date.|**dateTime**|
 |<a name="couponid"></a>CouponId|The coupon ID.|**int**|
+|<a name="coupontype"></a>CouponType|The type of coupon.|**unsignedByte**|
 |<a name="couponvalue"></a>CouponValue|The coupon's value.|**decimal**|
+|<a name="currencycode"></a>CurrencyCode|The currency code for the coupon.|**string**|
+|<a name="enddate"></a>EndDate|The coupon's end date.|**dateTime**|
 |<a name="expirationdate"></a>ExpirationDate|The coupon's expiration date.|**dateTime**|
+|<a name="featureid"></a>FeatureId|The feature ID attached to the coupon.|**int**|
 |<a name="percentoff"></a>PercentOff|The coupon's discount percentage.|**double**|
 |<a name="redemptiondate"></a>RedemptionDate|The date the coupon was redeemed.|**dateTime**|
+|<a name="spendtothreshold"></a>SpendToThreshold|The amount that must be spent before the coupon is applied.|**decimal**|
+|<a name="startdate"></a>StartDate|The coupon's start date.|**dateTime**|
 |<a name="status"></a>Status|The coupon's status.|**unsignedByte**|
 |<a name="upfrontspending"></a>UpfrontSpending|The value of the upfront spending coupon.|**decimal**|
 
