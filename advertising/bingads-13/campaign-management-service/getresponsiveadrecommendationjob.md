@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Retrieves responsive ad recommentation job.
+description: Retrieves a responsive ad recommentation job.
 dev_langs: 
 - csharp
 - java

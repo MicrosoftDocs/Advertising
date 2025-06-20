@@ -56,7 +56,6 @@ The Campaign Management service defines the following value sets.
 |[BidOption](bidoption.md)|Determines whether or not to amplify your partner's bid.|
 |[BMCStoreAdditionalField](bmcstoreadditionalfield.md)|Defines a list of optional store properties that you can request when calling [GetBMCStoresByCustomerId](getbmcstoresbycustomerid.md).|
 |[BMCStoreSubType](bmcstoresubtype.md)|Defines the possible values for Microsoft Merchant Center store sub types.|
-|[BrandKitAdditionalField](brandkitadditionalfield.md)|Defines the brand kit additional field value set.|
 |[BudgetLimitType](budgetlimittype.md)|Defines the possible budget limit types that you can specify for a campaign.|
 |[BusinessGeoCodeStatus](businessgeocodestatus.md)|Defines the possible status values that indicate the progress of determining the latitude and longitude values of a business.|
 |[CallToAction](calltoaction.md)|Defines the possible values for a brief, punchy reason for customers to click your ad right now.|
@@ -97,6 +96,7 @@ The Campaign Management service defines the following value sets.
 |[ImpressionBasedEntityType](impressionbasedentitytype.md)|Defines a value set for ImpressionBasedEntityType.|
 |[IntentOption](intentoption.md)|Defines the possible intent options for location criterion, for example to target people in, searching for, or viewing pages about your targeted location.|
 |[ItemAction](itemaction.md)|Defines the possible types of item actions, for example to add, delete, or update the product partition criterion.|
+|[KeywordAdditionalField](keywordadditionalfield.md)|Additional fields for the keyword object.|
 |[KeywordEditorialStatus](keywordeditorialstatus.md)|Defines the editorial review status values of a keyword.|
 |[KeywordStatus](keywordstatus.md)|Defines the possible status values of a keyword.|
 |[LanguageName](languagename.md)|Defines the set of supported ad languages.|
@@ -110,6 +110,7 @@ The Campaign Management service defines the following value sets.
 |[Network](network.md)|Defines the possible search networks on which an ad can display.|
 |[NormalForm](normalform.md)|Defines the possible normal form types.|
 |[NumberOperator](numberoperator.md)|Defines the operators that can be applied to remarketing list rule item number values.|
+|[PortfolioBidStrategyAdditionalField](portfoliobidstrategyadditionalfield.md)|Additional fields for the portfolio bid strategy object.|
 |[PriceExtensionType](priceextensiontype.md)|Defines the possible types of price ad extensions.|
 |[PriceQualifier](pricequalifier.md)|Defines price qualifiers for price ad extensions.|
 |[PriceUnit](priceunit.md)|Defines price units for price ad extensions.|
