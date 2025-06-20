@@ -50,6 +50,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [Keyword](keyword.md)  
 [MaxClicksBiddingScheme](maxclicksbiddingscheme.md)  
 [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md)  
+[MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md)  
 [MaxRoasBiddingScheme](maxroasbiddingscheme.md)  
 [TargetCpaBiddingScheme](targetcpabiddingscheme.md)  
 [TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md)  

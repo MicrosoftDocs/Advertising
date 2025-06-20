@@ -1510,6 +1510,8 @@
       href: ../campaign-management-service/getdataexclusionsbyaccountid.md
     - name: GetDataExclusionsByIds
       href: ../campaign-management-service/getdataexclusionsbyids.md
+    - name: GetDiagnostics
+      href: ../campaign-management-service/getdiagnostics.md
     - name: GetEditorialReasonsByIds
       href: ../campaign-management-service/geteditorialreasonsbyids.md
     - name: GetExperimentsByIds
@@ -1901,6 +1903,12 @@
       href: ../campaign-management-service/devicecondition.md
     - name: DeviceCriterion
       href: ../campaign-management-service/devicecriterion.md
+    - name: DiagnosticCardData
+      href: ../campaign-management-service/diagnosticcarddata.md
+    - name: DiagnosticCategoryData
+      href: ../campaign-management-service/diagnosticcategorydata.md
+    - name: DiagnosticTileData
+      href: ../campaign-management-service/diagnostictiledata.md
     - name: DisclaimerAdExtension
       href: ../campaign-management-service/disclaimeradextension.md
     - name: DisclaimerSetting

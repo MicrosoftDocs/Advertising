@@ -87,7 +87,7 @@ The Campaign Management service defines the following data objects.
 |[BidStrategy](bidstrategy.md)|A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.|
 |[BMCStore](bmcstore.md)|Defines a Microsoft Merchant Center store.|
 |[BrandItem](branditem.md)|A data object for the BrandItem.|
-|[BrandKit](brandkit.md)|The brand kit data object.|
+|[BrandKit](brandkit.md)|Defines the brand kit data object.|
 |[BrandKitColor](brandkitcolor.md)|A data object for the brand kit color.|
 |[BrandKitFont](brandkitfont.md)|A data object for the brand kit font.|
 |[BrandKitImage](brandkitimage.md)|The brand kit image data object.|
@@ -135,6 +135,9 @@ The Campaign Management service defines the following data objects.
 |[DealCriterion](dealcriterion.md)|Defines a criterion that can be used to show ads for a specific deal.|
 |[DeviceCondition](devicecondition.md)|Defines a condition to use conversion value rules for specified devices.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
+|[DiagnosticCardData](diagnosticcarddata.md)|Reserved.|
+|[DiagnosticCategoryData](diagnosticcategorydata.md)|Reserved.|
+|[DiagnosticTileData](diagnostictiledata.md)|Reserved.|
 |[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
 |[DurationGoal](durationgoal.md)|Defines a duration conversion goal.|
@@ -167,7 +170,7 @@ The Campaign Management service defines the following data objects.
 |[GoogleImportOption](googleimportoption.md)|Defines the Google import options that are available via API.|
 |[HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md)|Defines the health check action link metadata data object.|
 |[HealthCheckColumnMetadata](healthcheckcolumnmetadata.md)|Defines the health check column metadata data object.|
-|[HealthCheckData](healthcheckdata.md)|Defines the health check data object.|
+|[HealthCheckData](healthcheckdata.md)|Defines the health check data data object.|
 |[HealthCheckEntity](healthcheckentity.md)|Defines the health check entity data object.|
 |[HealthCheckError](healthcheckerror.md)|Defines the health check error data object.|
 |[HealthCheckMetadata](healthcheckmetadata.md)|Defines the health check metadata data object.|
