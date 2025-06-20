@@ -20,7 +20,7 @@ The Customer Billing service defines the following service operations.
 |[GetAccountMonthlySpend](getaccountmonthlyspend.md)|Gets the amount spent by the account in the specified month.|1 *AccountId*|
 |[GetBillingDocuments](getbillingdocuments.md)|Gets the specified billing documents.|25 *BillingDocumentInfo*|
 |[GetBillingDocumentsInfo](getbillingdocumentsinfo.md)|Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.|Not applicable.|
-|[GetCouponInfo](getcouponinfo.md)|Gets information about coupons associated with a customer ID.||
+|[GetCouponInfo](getcouponinfo.md)|Gets information about coupons associated with a customer ID.|N/A.|
 |[RedeemCoupon](redeemcoupon.md)|Redeems a coupon to the specified account.|1 *CouponCode*|
 |[SearchCoupons](searchcoupons.md)|Searches for coupons that match a specified criteria from within the set of coupons where the supplied *customerID* is identified as the *ownerCustomer*.|4 *Predicates*|
 |[SearchInsertionOrders](searchinsertionorders.md)|Searches for insertion orders that match a specified criteria.|6 *Predicates*|
