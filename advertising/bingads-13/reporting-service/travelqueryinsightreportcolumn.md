@@ -30,22 +30,19 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="BrandImpressions" />
     <xs:enumeration value="BrandClicks" />
     <xs:enumeration value="BrandSpend" />
-    <xs:enumeration value="BingImpressions" />
-    <xs:enumeration value="BingClicks" />
-    <xs:enumeration value="BingSpend" />
+    <xs:enumeration value="MSAImpressions" />
+    <xs:enumeration value="MSAClicks" />
+    <xs:enumeration value="MSASpend" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md) value set has the following values: [BingClicks](#bingclicks), [BingImpressions](#bingimpressions), [BingSpend](#bingspend), [BrandClicks](#brandclicks), [BrandImpressions](#brandimpressions), [BrandSpend](#brandspend), [City](#city), [Country](#country), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MetroArea](#metroarea), [POSCity](#poscity), [POSCountry](#poscountry), [POSRegion](#posregion), [PostalCode](#postalcode), [Region](#region), [SearchQuery](#searchquery).
+The [TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md) value set has the following values: [BrandClicks](#brandclicks), [BrandImpressions](#brandimpressions), [BrandSpend](#brandspend), [City](#city), [Country](#country), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MetroArea](#metroarea), [MSAClicks](#msaclicks), [MSAImpressions](#msaimpressions), [MSASpend](#msaspend), [POSCity](#poscity), [POSCountry](#poscountry), [POSRegion](#posregion), [PostalCode](#postalcode), [Region](#region), [SearchQuery](#searchquery).
 
 |Value|Description|
 |-----------|---------------|
-|<a name="bingclicks"></a>BingClicks|The number of ad clicks originating from ads displayed Bing search results.|
-|<a name="bingimpressions"></a>BingImpressions|The number of impressions of ads displayed in Bing search results.|
-|<a name="bingspend"></a>BingSpend|The total amount of spend on ads displayed in Bing search results.|
 |<a name="brandclicks"></a>BrandClicks|The number of ad clicks originating from ads displayed for a specific brand.|
 |<a name="brandimpressions"></a>BrandImpressions|The number of impressions of ads displayed for a specific brand.|
 |<a name="brandspend"></a>BrandSpend|The total amount of spend on ad impressions for a specific brand.|
@@ -55,6 +52,9 @@ The [TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md) value se
 |<a name="l2vertical"></a>L2Vertical|The secondary vertical category.|
 |<a name="l3vertical"></a>L3Vertical|The tertiary vertical category.|
 |<a name="metroarea"></a>MetroArea|The name of the metroplitan area.|
+|<a name="msaclicks"></a>MSAClicks|The number of Microsoft Advertising ad clicks.|
+|<a name="msaimpressions"></a>MSAImpressions|The number of Microsoft Advertising ad impressions.|
+|<a name="msaspend"></a>MSASpend|The total amount of Microsoft Advertising spend.|
 |<a name="poscity"></a>POSCity|The point of sale city.|
 |<a name="poscountry"></a>POSCountry|The point of sale country.|
 |<a name="posregion"></a>POSRegion|The point of sale region.|
