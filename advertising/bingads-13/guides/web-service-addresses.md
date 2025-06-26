@@ -1,6 +1,7 @@
 ---
 title: Bing Ads API Web Service Addresses
 ms.service: bing-ads
+ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers

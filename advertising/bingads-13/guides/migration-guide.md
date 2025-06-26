@@ -1,6 +1,7 @@
 ---
 title: Migrate to Bing Ads API Version 13
 ms.service: bing-ads
+ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers

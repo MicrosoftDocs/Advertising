@@ -1,6 +1,7 @@
 ---
 title: Campaign Management API Guides
 ms.service: bing-ads
+ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
