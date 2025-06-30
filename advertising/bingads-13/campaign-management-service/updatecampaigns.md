@@ -17,10 +17,13 @@ dev_langs:
 # UpdateCampaigns Service Operation - Campaign Management
 Updates specified campaigns in a specified account.
 
+> [!IMPORTANT]
+> Starting August 4, 2025, the [BiddingScheme in the Campaign object](./campaign.md#biddingscheme) will no longer support *TargetCpaBiddingScheme* and *TargetRoasBiddingScheme*. Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa). Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value.
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
-The *UpdateCampaignsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
+The *UpdateCampaignsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap).
 
 > [!NOTE]
 > Unless otherwise noted below, all request elements are required.
