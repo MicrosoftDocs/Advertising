@@ -12,9 +12,6 @@ description: Defines the attributes and performance statistics columns that you 
 Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
 
 > [!NOTE]
-> *AssetPerformanceReportColumn* is currently in pilot.
-
-> [!NOTE]
 > This report is currently in phase one, which means that ad level and asset group level performance data isn't available. Because the asset group level isn't supported yet, performance data from asset group assets (i.e. in Performance Max or Apps campaigns) will be filtered out if AdGroupId or AdGroupName are selected. The asset group data will be included in the aggregation at account and campaign levels.
 
 ## Syntax
