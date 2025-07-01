@@ -79,5 +79,4 @@ The Reporting service defines the following value sets.
 |[SearchQueryPerformanceReportColumn](searchqueryperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md).|
 |[ShareOfVoiceReportColumn](shareofvoicereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ShareOfVoiceReportRequest](shareofvoicereportrequest.md).|
 |[SortOrder](sortorder.md)|Defines the ascending or descending sort order of values within the specified report column.|
-|[TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the travel query insight report.|
 |[UserLocationPerformanceReportColumn](userlocationperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [UserLocationPerformanceReportRequest](userlocationperformancereportrequest.md).|
