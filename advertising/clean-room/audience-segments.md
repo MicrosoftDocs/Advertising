@@ -1,5 +1,5 @@
 ---
-title: Microsoft Advertising Metadata - Clean Room
+title: Microsoft Audience Segments - Clean Room
 ms.service: bing-ads
 ms.topic: article
 author: jonmeyers
