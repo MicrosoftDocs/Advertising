@@ -122,6 +122,7 @@ Record Type  |Supported Campaign Types
 [Audience Group](audience-group.md)|Performance Max  
 [Audience Group Asset Group Association](audience-group-asset-group-association.md)|Performance Max  
 [Bid Strategy](bid-strategy.md)|Search<br/>Shopping  
+[Brand Kit](brand-kit.md)|All  
 [Budget](budget.md)|All  
 [Call Ad Extension](call-ad-extension.md)|Performance Max<br/>Search  
 [Callout Ad Extension](callout-ad-extension.md)|Performance Max<br/>Search  
