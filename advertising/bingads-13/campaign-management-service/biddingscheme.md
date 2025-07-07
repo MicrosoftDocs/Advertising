@@ -13,9 +13,10 @@ Defines the base object of a bidding scheme for how you want to manage your bids
 
 > [!IMPORTANT]
 > Starting August 4, 2025, the [BiddingScheme in the Campaign object](./campaign.md#biddingscheme) will no longer support *TargetCpaBiddingScheme* and *TargetRoasBiddingScheme*.  
-> Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa).  
-> Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value. Existing campaigns that use the Target CPA and Target ROAS bid strategies will remain unaffected.  
-> Bid strategy consolidation won't impact SA360.  
+> * Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa).  
+> * Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value. 
+> * Existing campaigns that use the Target CPA and Target ROAS bid strategies will remain unaffected.  
+> * Bid strategy consolidation won't impact SA360.  
 
 Do not try to instantiate a *BiddingScheme*. You can create one or more of the following objects that derive from it.  
 
