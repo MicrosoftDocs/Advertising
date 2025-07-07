@@ -891,6 +891,9 @@
     - name: Bid Strategy
       href: ../bulk-service/bid-strategy.md
       displayName: BulkBidStrategy
+    - name: Brand Kit
+      href: ../bulk-service/brand-kit.md
+      displayName: BulkBrandKit
     - name: Budget
       href: ../bulk-service/budget.md
       displayName: BulkBudget
