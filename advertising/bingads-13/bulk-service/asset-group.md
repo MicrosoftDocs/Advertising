@@ -458,6 +458,22 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 },
 {
 	"id": 1234567890000,
+	"subType": "LandscapeLogoMedia",
+	"cropX": 70,
+	"cropY": 0,
+	"cropWidth": 200,
+	"cropHeight": 50
+},
+{
+	"id": 1234567890000,
+	"subType": "SquareLogoMedia",
+	"cropX": 308,
+	"cropY": 0,
+	"cropWidth": 120,
+	"cropHeight": 120
+},
+{
+	"id": 1234567890000,
 	"subType": "ImageMedia201X100",
 	"cropX": 129,
 	"cropY": 0,
