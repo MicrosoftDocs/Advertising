@@ -458,43 +458,35 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 },
 {
 	"id": 1234567890000,
-	"subType": "LandscapeLogoMedia",
-	"cropX": 70,
-	"cropY": 0,
-	"cropWidth": 200,
-	"cropHeight": 50
-},
-{
-	"id": 1234567890000,
-	"subType": "SquareLogoMedia",
-	"cropX": 308,
-	"cropY": 0,
-	"cropWidth": 120,
-	"cropHeight": 120
-},
-{
-	"id": 1234567890000,
-	"subType": "ImageMedia15X10",
+	"subType": "ImageMedia201X100",
 	"cropX": 129,
 	"cropY": 0,
-	"cropWidth": 942,
-	"cropHeight": 628
+	"cropWidth": 612,
+	"cropHeight": 304
 },
 {
 	"id": 1234567890000,
-	"subType": "ImageMedia133X100",
+	"subType": "ImageMedia169X100",
 	"cropX": 183,
 	"cropY": 0,
-	"cropWidth": 835,
-	"cropHeight": 628
+	"cropWidth": 628,
+	"cropHeight": 372
 },
 {
 	"id": 1234567890000,
-	"subType": "ImageMedia178X100",
+	"subType": "ImageMedia153X100",
 	"cropX": 41,
 	"cropY": 0,
-	"cropWidth": 1118,
-	"cropHeight": 628
+	"cropWidth": 306,
+	"cropHeight": 200
+},
+{
+	"id": 1234567890000,
+	"subType": "ImageMedia124X100",
+	"cropX": 41,
+	"cropY": 0,
+	"cropWidth": 104,
+	"cropHeight": 84
 },
 {
 	"id": 1234567890000,
@@ -515,7 +507,7 @@ The image assets are represented in the bulk file as a JSON string. Nine images 
 ```
 
 > [!NOTE]
-> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""id"":1234567890000,""subType"":""LandscapeImageMedia""},{""id"":1234567890000,""subType"":""SquareImageMedia"",""cropX"":286,""cropY"":0,""cropWidth"":628,""cropHeight"":628},{""id"":1234567890000,""subType"":""LandscapeLogoMedia"",""cropX"":70,""cropY"":0,""cropWidth"":200,""cropHeight"":50},{""id"":1234567890000,""subType"":""SquareLogoMedia"",""cropX"":308,""cropY"":0,""cropWidth"":120,""cropHeight"":120},{""id"":1234567890000,""subType"":""ImageMedia15X10"",""cropX"":129,""cropY"":0,""cropWidth"":942,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia133X100"",""cropX"":183,""cropY"":0,""cropWidth"":835,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia178X100"",""cropX"":41,""cropY"":0,""cropWidth"":1118,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia1X2"",""cropX"":41,""cropY"":0,""cropWidth"":500,""cropHeight"":1000},{""id"":1234567890000,""subType"":""ImageMedia4X1"",""cropX"":60,""cropY"":0,""cropWidth"":1000,""cropHeight"":250}]"*.  
+> In the comma separated bulk file you'll need to surround the list of asset links, each attribute key, and each attribute string value with an extra set of double quotes e.g., the above JSON string would be written as *"[{""id"":1234567890000,""subType"":""LandscapeImageMedia""},{""id"":1234567890000,""subType"":""SquareImageMedia"",""cropX"":286,""cropY"":0,""cropWidth"":628,""cropHeight"":628},{""id"":1234567890000,""subType"":""ImageMedia201X100"",""cropX"":129,""cropY"":0,""cropWidth"":612,""cropHeight"":304},{""id"":1234567890000,""subType"":""ImageMedia169X100"",""cropX"":183,""cropY"":0,""cropWidth"":628,""cropHeight"":372},{""id"":1234567890000,""subType"":""ImageMedia153X100"",""cropX"":41,""cropY"":0,""cropWidth"":306,""cropHeight"":200},{""id"":1234567890000,""subType"":""ImageMedia124X100"",""cropX"":41,""cropY"":0,""cropWidth"":104,""cropHeight"":84},{""id"":1234567890000,""subType"":""ImageMedia1X2"",""cropX"":41,""cropY"":0,""cropWidth"":500,""cropHeight"":1000},{""id"":1234567890000,""subType"":""ImageMedia4X1"",""cropX"":60,""cropY"":0,""cropWidth"":1000,""cropHeight"":250}]"*.  
 
 **Add:** Required if its parent campaign does not associate to a store, optional if the parent campaign associates to a store. If the parent campaign associates to a store and you specify Images, you must also specify Headlines, LongHeadlines, and Descriptions. Only the [id](#images-id) and [subType](#images-subtype) are required for each asset link.  
 **Update:** Optional. To retain all of the existing asset links, set or leave this field empty. If you set this field, any images that were previously linked to this ad will be replaced. If you set this field, only the [id](#images-id) and [subType](#images-subtype) are required for each asset link.  
