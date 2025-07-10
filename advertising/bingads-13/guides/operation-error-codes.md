@@ -2061,6 +2061,17 @@ The new campaign budget is less than the amount already spent for the current mo
 ***
 
 **Numeric Code**
+1126
+
+**Symbolic Error Code**
+N/A
+
+**Description**
+The existing account status can't be transitioned to the requested account status.
+
+***
+
+**Numeric Code**
 1129
 
 **Symbolic Error Code**
