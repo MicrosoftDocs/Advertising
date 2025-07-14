@@ -292,6 +292,7 @@ The Campaign Management service defines the following data objects.
 |[TextAd](textad.md)|Defines a text ad.|
 |[TextAsset](textasset.md)|A text asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.|
 |[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)|Defines the third party measurement setting data object.|
+|[TopicCriterion](topiccriterion.md)|Defines a criterion that can be used to show ads to users by a specific topic.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
 |[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|

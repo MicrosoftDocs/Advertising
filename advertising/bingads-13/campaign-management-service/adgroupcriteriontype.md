@@ -17,6 +17,11 @@ Defines the possible types of ad group criterions.
 ## Syntax
 ```xml
 <xs:simpleType name="AdGroupCriterionType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo>
+      <ActualType Name="long" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xs:appinfo>
+  </xs:annotation>
   <xs:list>
     <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -230,6 +235,13 @@ Defines the possible types of ad group criterions.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="Topic">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2147483648</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -238,7 +250,7 @@ Defines the possible types of ad group criterions.
 
 ## <a name="values"></a>Values
 
-The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Genre](#genre), [HotelAdvanceBookingWindow](#hoteladvancebookingwindow), [HotelCheckInDate](#hotelcheckindate), [HotelCheckInDay](#hotelcheckinday), [HotelDateSelectionType](#hoteldateselectiontype), [HotelGroup](#hotelgroup), [HotelLengthOfStay](#hotellengthofstay), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [Placement](#placement), [ProductAudience](#productaudience), [ProductPartition](#productpartition), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Targets](#targets), [Webpage](#webpage).
+The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Genre](#genre), [HotelAdvanceBookingWindow](#hoteladvancebookingwindow), [HotelCheckInDate](#hotelcheckindate), [HotelCheckInDay](#hotelcheckinday), [HotelDateSelectionType](#hoteldateselectiontype), [HotelGroup](#hotelgroup), [HotelLengthOfStay](#hotellengthofstay), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [Placement](#placement), [ProductAudience](#productaudience), [ProductPartition](#productpartition), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Targets](#targets), [Topic](#topic), [Webpage](#webpage).
 
 |Value|Description|
 |-----------|---------------|
@@ -271,6 +283,7 @@ The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following 
 |<a name="remarketinglist"></a>RemarketingList|The ad group criterion is a remarketing list association.<br/><br/>This criterion type value is only used by the [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) operation to request the remarketing list associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the remarketing list, see [RemarketingList](remarketinglist.md).|
 |<a name="similarremarketinglist"></a>SimilarRemarketingList|The ad group criterion is a similar remarketing list association.<br/><br/>This criterion type value is only used by the [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) operation to request the similar remarketing list associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the similar remarketing list, see [SimilarRemarketingList](similarremarketinglist.md).|
 |<a name="targets"></a>Targets|Represents one or more [AgeCriterion](agecriterion.md), [DayTimeCriterion](daytimecriterion.md), [DeviceCriterion](devicecriterion.md), [GenderCriterion](gendercriterion.md), [LocationCriterion](locationcriterion.md), [LocationIntentCriterion](locationintentcriterion.md), [PlacementCriterion](placementcriterion.md), [ProfileCriterion](profilecriterion.md), and [RadiusCriterion](radiuscriterion.md) objects that can be managed together to show ads based on your target criteria.<br/><br/>To add, delete, or update target criterions i.e., age, company name, day and time, device, gender, industry, job function, location, location intent, placement, and radius criterions, you must specify the *CriterionType* value as *Targets*. You can add, delete, and update multiple target criterion types in the same operation. To retrieve these target criterions via [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) you must request the specific type individually i.e., *Age*, *CompanyName*, *DayTime*, *Device*, *Gender*, *Industry*, *JobFunction*, *Location*, *LocationIntent*, *Placement*, and *Radius*.|
+|<a name="topic"></a>Topic|Defines a criterion that can be used to show ads to users by a specific topic.|
 |<a name="webpage"></a>Webpage|The ad group criterion is a webpage criterion.<br/><br/>The *Criterion* element of either the [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md) can be an instance of [Webpage](webpage.md), but webpage criterion are not supported with [BiddableAdGroupCriterion](biddableadgroupcriterion.md). In other words you can include some webpages, and exclude other webpages.<br/><br/>This criterion type can only be used with Dynamic Search Ads campaigns.<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [FixedBid](fixedbid.md) when paired with this criterion type.|
 
 ## Requirements
