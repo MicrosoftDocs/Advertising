@@ -57,6 +57,10 @@ var bulkImpressionBasedRemarketingList = new BulkImpressionBasedRemarketingList
         AdGroupId = AdGroupIdHere,
         // 'Impression Campaign Id' column header in the Bulk file
         CampaignId = CampaignIdHere,
+        // 'Impression Ad Group Ids' column header in the Bulk file
+        AdGroupIds = AdGroupIdsHere,
+        // 'Impression Campaign Ids' column header in the Bulk file
+        CampaignIds = CampaignIdsHere,
         // 'Audience Search Size' column header in the Bulk file
         SearchSize = null,
         // 'Supported Campaign Types' column header in the Bulk file
@@ -93,7 +97,9 @@ For a *Impression Based Remarketing List* record, the following attribute fields
 - [Entity Type](#entitytype)
 - [Id](#id)
 - [Impression Ad Group Id](#impressionadgroupid)
+- [Impression Ad Group Ids](#impressionadgroupids)
 - [Impression Campaign Id](#impressioncampaignid)
+- [Impression Campaign Ids](#impressioncampaignids)
 - [Membership Duration](#membershipduration)
 - [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
@@ -169,10 +175,24 @@ The AdGroupId used to create the impression based remarketing list.
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
+## <a name="impressionadgroupids"></a>Impression Ad Group Ids
+A list of AdGroupIds used to create the impression based remarketing list.  
+
+**Add:** Optional. If Entity Type is *Campaign*, this is empty.  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
+**Delete:** Read-only  
+
 ## <a name="impressioncampaignid"></a>Impression Campaign Id
 The CampaignId used to create the impression based remarketing list.  
 
 **Add:** Required  
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
+**Delete:** Read-only  
+
+## <a name="impressioncampaignids"></a>Impression Campaign Ids
+A list of CampaignIds used to create the impression based remarketing list.  
+
+**Add:** Optional. If Entity Type is *AdGroup*, this is empty.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 

@@ -21,7 +21,21 @@ Defines a data object for ImpressionBasedRemarketingList.
     <xs:extension base="tns:Audience">
       <xs:sequence>
         <xs:element minOccurs="0" name="AdGroupId" nillable="true" type="xs:long" />
+        <xs:element xmlns:q127="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AdGroupIds" nillable="true" type="q127:ArrayOflong">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
         <xs:element minOccurs="0" name="CampaignId" nillable="true" type="xs:long" />
+        <xs:element xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="CampaignIds" nillable="true" type="q128:ArrayOflong">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
         <xs:element minOccurs="0" name="EntityType" type="tns:ImpressionBasedEntityType" />
       </xs:sequence>
     </xs:extension>
@@ -67,7 +81,13 @@ Defines a data object for ImpressionBasedRemarketingList.
   ],
   "Type": "ImpressionBasedRemarketingList",
   "AdGroupId": "LongValueHere",
+  "AdGroupIds": [
+    "LongValueHere"
+  ],
   "CampaignId": "LongValueHere",
+  "CampaignIds": [
+    "LongValueHere"
+  ],
   "EntityType": "ValueHere"
 }
 ```
@@ -76,12 +96,14 @@ Defines a data object for ImpressionBasedRemarketingList.
 
 ## <a name="elements"></a>Elements
 
-The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object has the following elements: [AdGroupId](#adgroupid), [CampaignId](#campaignid), [EntityType](#entitytype).
+The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object has the following elements: [AdGroupId](#adgroupid), [AdGroupIds](#adgroupids), [CampaignId](#campaignid), [CampaignIds](#campaignids), [EntityType](#entitytype).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="adgroupid"></a>AdGroupId|The ad group identifier to associate with the impression-based remarketing list.<br/><br/>*Note*: The *AdGroupId* is null for an impression-based remarketing list with users who have viewed an ad under campaign.|**long**|
+|<a name="adgroupids"></a>AdGroupIds|A list of unique system identifiers corresponding to the ad groups associated with the impression-based remarketing list.<br/><br/>The list of identifiers corresponds directly to the list of ad groups in the request. Items of the list may be returned as null. For each list index where an ad group was not added, the corresponding element will be null.|**long** array|
 |<a name="campaignid"></a>CampaignId|The campaign identifier to associate with the impression-based remarketing list.|**long**|
+|<a name="campaignids"></a>CampaignIds|A list of unique system identifiers corresponding to the campaigns associated with the impression-based remarketing list.<br/><br/>The list of identifiers corresponds directly to the list of campaigns in the request. Items of the list may be returned as null. For each list index where a campaign was not added, the corresponding element will be null.|**long** array|
 |<a name="entitytype"></a>EntityType|The entity type of an impression-based remarketing list.|[ImpressionBasedEntityType](impressionbasedentitytype.md)|
 
 The [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object has [Inherited Elements](#inheritedelements).
