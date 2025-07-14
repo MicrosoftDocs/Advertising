@@ -20,6 +20,7 @@ The brand kit palette data object.
   <xs:sequence>
     <xs:element minOccurs="0" name="ColorType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Colors" nillable="true" type="tns:ArrayOfBrandKitColor" />
+    <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
 ```
@@ -34,7 +35,8 @@ The brand kit palette data object.
       "Name": "ValueHere"
     }
   ],
-  "ColorType": "ValueHere"
+  "ColorType": "ValueHere",
+  "Name": "ValueHere"
 }
 ```
 
@@ -42,12 +44,13 @@ The brand kit palette data object.
 
 ## <a name="elements"></a>Elements
 
-The [BrandKitPalette](brandkitpalette.md) object has the following elements: [Colors](#colors), [ColorType](#colortype).
+The [BrandKitPalette](brandkitpalette.md) object has the following elements: [Colors](#colors), [ColorType](#colortype), [Name](#name).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="colors"></a>Colors|The brand kit's color palettes.|[BrandKitColor](brandkitcolor.md) array|
 |<a name="colortype"></a>ColorType|The color type.|**string**|
+|<a name="name"></a>Name|The name of the brand kit palette.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

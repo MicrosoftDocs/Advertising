@@ -2220,6 +2220,8 @@
       href: ../campaign-management-service/textasset.md
     - name: ThirdPartyMeasurementSetting
       href: ../campaign-management-service/thirdpartymeasurementsetting.md
+    - name: TopicCriterion
+      href: ../campaign-management-service/topiccriterion.md
     - name: UetTag
       href: ../campaign-management-service/uettag.md
     - name: UrlGoal

@@ -93,7 +93,8 @@ Defines the brand kit data object.
           "Name": "ValueHere"
         }
       ],
-      "ColorType": "ValueHere"
+      "ColorType": "ValueHere",
+      "Name": "ValueHere"
     }
   ],
   "SquareLogos": [
