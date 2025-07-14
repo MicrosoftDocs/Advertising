@@ -21,7 +21,7 @@ Defines a CustomerListUserData data object.
     <xs:element name="ActionType" type="tns:CustomerListActionType" />
     <xs:element name="AudienceId" type="xs:long" />
     <xs:element name="CustomerListItemSubType" type="tns:CustomerListItemSubType" />
-    <xs:element xmlns:q130="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="CustomerListItems" nillable="true" type="q130:ArrayOfstring" />
+    <xs:element xmlns:q132="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="CustomerListItems" nillable="true" type="q132:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```
