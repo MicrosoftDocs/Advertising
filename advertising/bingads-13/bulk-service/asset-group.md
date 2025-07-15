@@ -559,9 +559,10 @@ The possible sub type values include LandscapeImageMedia, SquareImageMedia, Land
 |SquareImageMedia|1:1|300 width x 300 height|
 |LandscapeLogoMedia|4:1|160 width x 40 height|
 |SquareLogoMedia|1:1|40 width x 40 height|
-|ImageMedia15x10|1.5:1|300 width x 200 height|
-|ImageMedia133x100|1.33:1|100 width x 75 height|
-|ImageMedia178x100|1.78:1|624 width x 350 height|
+|ImageMedia124x100|1.24:1|104 width x 84 height|
+|ImageMedia153x100|1.53:1|306 width x 200 height|
+|ImageMedia169x100|1.69:1|628 width x 372 height|
+|ImageMedia201x100|2.01:1|612 width x 304 height|
 |ImageMedia1x2|1:2|470 width x 940 height|
 |ImageMedia4x1|4:1|608 width x 152 height|
 

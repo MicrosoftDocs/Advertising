@@ -18,10 +18,10 @@ You can download all *Impression Based Remarketing List* records in the account 
 The following Bulk CSV example would add a new impression based remarketing list.  
 
 ```csv
-Type,Status,Id,Parent Id,Client Id,Modified Time,Name,Description,Membership Duration,Scope,Audience,Impression Campaign Id,Impression Ad Group Id,Entity Type
-Format Version,,,,,,6.0,,,,,,
-Impression Based Remarketing List,Active,-10,ParentIdHere,ClientIdGoesHere,,,New impression based remarketing list description,30,Account,Impression Based Remarketing List Name,CampaignIdHere,AdGroupIdHere,AdGroup
-Impression Based Remarketing List,Active,-11,ParentIdHere,ClientIdGoesHere,,,New impression based remarketing list description,30,Account,Impression Based Remarketing List Name1,CampaignIdHere,,Campaign
+Type,Status,Id,Parent Id,Client Id,Modified Time,Name,Description,Membership Duration,Scope,Audience,Impression Campaign Id,Impression Ad Group Id,Entity Type,Impression Campaign Ids,Impression Ad Group Ids
+Format Version,,,,,,6.0,,,,,,,,
+Impression Based Remarketing List,Active,-10,ParentIdHere,ClientIdGoesHere,,,New impression based remarketing list description,30,Account,Impression Based Remarketing List Name,CampaignIdHere,AdGroupIdHere,AdGroup,,AdGroupIdsHere
+Impression Based Remarketing List,Active,-11,ParentIdHere,ClientIdGoesHere,,,New impression based remarketing list description,30,Account,Impression Based Remarketing List Name1,CampaignIdHere,,Campaign,CampaignIdsHere,
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkImpressionBasedRemarketingList* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.  
