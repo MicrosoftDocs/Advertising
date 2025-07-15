@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines a criterion that can be used to show ads to users by a specific topic.
 ---
 # TopicCriterion Data Object - Campaign Management
-Defines a criterion that can be used to show ads to users by a specific age topic.
+Defines a criterion that can be used to show ads to users by a specific topic.
 
 ## Syntax
 
