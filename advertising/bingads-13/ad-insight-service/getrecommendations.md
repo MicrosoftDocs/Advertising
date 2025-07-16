@@ -17,6 +17,9 @@ dev_langs:
 # GetRecommendations Service Operation - Ad Insight
 Discover your recommendations.
 
+> [!NOTE]
+> As of 9/30/2025, *GetRecommendations* will be deprecated. Please use [*RetrieveRecommendations*](./retrieverecommendations.md).
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
