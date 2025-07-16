@@ -398,16 +398,18 @@ The campaign's budget amount.
 
 > [!WARNING]
 > Your budget is a target; your actual spend might be higher or lower. Variations are caused by a number of factors, such as different traffic volumes in different days of the week, or automatic detection and refunding of fraud clicks that can give money back to a campaign within a few hours of the click. Microsoft Advertising anticipates and automatically compensates for the fluctuations, and usually keeps overspend to less than 100% above your daily limit.
-> 
-> Also note that Microsoft Advertising does not require your campaign budget to be higher than the ad group and keyword bids. In other words ad group and keyword bids are validated independently of the campaign budget. 
+>
+> Also note that Microsoft Advertising does not require your campaign budget to be higher than the ad group and keyword bids. In other words ad group and keyword bids are validated independently of the campaign budget.  
 
-In the context of shared budgets, the budget amount is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. When a campaign is associated to a shared budget the amount returned is that of the shared budget. To determine whether the campaign uses a shared budget, check the value of the [Budget Id](#budgetid) field. 
+In the context of shared budgets, the budget amount is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. When a campaign is associated to a shared budget the amount returned is that of the shared budget. To determine whether the campaign uses a shared budget, check the value of the [Budget Id](#budgetid) field.  
 
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings. 
+With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings.  
+
+*Note*: This field is currently used to set the lifetime budget amount when the budget type is set to *LifetimeBudgetStandard*.
 
 **Add:** Required if the [Budget Id](#budgetid) is not set. Read-only if the campaign uses a shared budget.  
 **Update:** Optional if the [BudgetId](#budgetid) is not set. If no value is set for the update, this setting is not changed. Not allowed if the campaign uses a shared budget. If you try to update the budget amount of a campaign that has a shared budget, the service will return the *CampaignServiceCannotUpdateSharedBudget* error code.  
-**Delete:** Read-only   
+**Delete:** Read-only  
 
 ## <a name="budgetid"></a>Budget Id
 The system-generated identifier of the [Budget](budget.md) that this campaign shares with other campaigns in the account.
@@ -434,17 +436,17 @@ This value corresponds to the *Budget Name* field of the [Budget](budget.md) rec
 **Delete:** Read-only  
 
 ## <a name="budgettype"></a>Budget Type
-The budget type determines how the budget is spent. 
+The budget type determines how the budget is spent.  
 
-The possible values are DailyBudgetAccelerated and DailyBudgetStandard. The DailyBudgetAccelerated budget type is only available for Audience campaigns that use unshared campaign-level budgets. 
+The possible values are *DailyBudgetAccelerated*, *DailyBudgetStandard*, and *LifetimeBudgetStandard*. Both *DailyBudgetAccelerated* and *LifetimeBudgetStandard* budget types are only available for Audience campaigns that use unshared campaign-level budgets.  
 
-In the context of shared budgets, the budget type is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. To determine whether the campaign uses a shared budget, check the value of the [Budget Id](#budgetid) field. 
+In the context of shared budgets, the budget type is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. To determine whether the campaign uses a shared budget, check the value of the [Budget Id](#budgetid) field.  
 
-With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings. 
+With experiment campaigns you cannot update the [Budget](#budget), [Budget Type](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings.  
 
 **Add:** Required if the [Budget Id](#budgetid) is not set. Read-only if the campaign uses a shared budget.  
 **Update:** Optional if the [BudgetId](#budgetid) is not set. If no value is set for the update, this setting is not changed. Not allowed if the campaign uses a shared budget. If you try to update the budget type of a campaign that has a shared budget, the service will return the *CampaignServiceCannotUpdateSharedBudget* error code.  
-**Delete:** Read-only   
+**Delete:** Read-only  
 
 ## <a name="campaign"></a>Campaign
 The name of the campaign.
