@@ -9,9 +9,11 @@ ms.date: 07/16/2025
 description: PowerShell scripts designed to automate the setup of Azure AD App Registrations for seamless integration with the Microsoft Advertising API.
 ---
 
+# PowerShell Scripts for MSA API Integration
+
 ## Tools and resources
 
-- [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli)
+- [Azure CLI](/cli/azure/install-azure-cli)
 - MSA Developer token
 
 ## What are PowerShell scripts?
@@ -31,7 +33,7 @@ Before running the scripts, ensure you have:
 ### Azure Access
 
 - Global Admin or Application Admin role
-- [Azure CLI installed](https://docs.microsoft.com/cli/azure/install-azure-cli)
+- [Azure CLI installed](/cli/azure/install-azure-cli)
 
 ### PowerShell Modules
 
