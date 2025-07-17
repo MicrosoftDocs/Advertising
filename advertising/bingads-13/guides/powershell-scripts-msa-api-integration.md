@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 07/16/2025
 description: PowerShell scripts designed to automate the setup of Azure AD App Registrations for seamless integration with the Microsoft Advertising API.
+searchscope: exclude
 ---
 
 # PowerShell Scripts for MSA API Integration
