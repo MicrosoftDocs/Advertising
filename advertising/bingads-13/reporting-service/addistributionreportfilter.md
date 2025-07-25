@@ -25,6 +25,13 @@ Defines the ad distribution medium values that you can use to filter the report 
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="CrossNetwork">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -33,11 +40,12 @@ Defines the ad distribution medium values that you can use to filter the report 
 
 ## <a name="values"></a>Values
 
-The [AdDistributionReportFilter](addistributionreportfilter.md) value set has the following values: [Audience](#audience), [Search](#search).
+The [AdDistributionReportFilter](addistributionreportfilter.md) value set has the following values: [Audience](#audience), [CrossNetwork](#crossnetwork), [Search](#search).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="audience"></a>Audience|The report will contain audience ads.|
+|<a name="crossnetwork"></a>CrossNetwork|The report will contain audience and search ads.|
 |<a name="search"></a>Search|The report will contain search ads.|
 
 ## Requirements
