@@ -46,7 +46,7 @@ The [TopicCriterion](topiccriterion.md) object has the following elements: [Topi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="topicid"></a>TopicId|The unique identifier of the topic.|**long**|
+|<a name="topicid"></a>TopicId|The ID of the topic. Possible values include:<br/><br/><ul><li>1: Games</li><li>2: Shopping</li><li>3: Business & Industrial</li><li>4: Sports</li><li>5: Home & Garden</li><li>6: News</li><li>7: Travel & Transportation</li><li>8: Finance</li><li>9: Health</li><li>10: Jobs & Education</li><li>11: Arts & Entertainment</li><li>12: Autos & Vehicles</li><li>13: Computers & Electronics</li><li>14: Real Estate</li><li>15: Hobbies & Leisure</li><li>16: Beauty & Fitness</li><li>17: Internet & Telecom</li><li>18: Books & Literature</li><li>19: Law & Government</li><li>20: Food & Drink</li><li>21: People & Society</li><li>22: Online Communities</li><li>23: Science</li><li>24: Pets & Animals</li><li>25: Reference</li><li>26: World Localities</li></ul>|**long**|
 |<a name="topicname"></a>TopicName|The name of the topic.|**string**|
 
 The [TopicCriterion](topiccriterion.md) object has [Inherited Elements](#inheritedelements).
