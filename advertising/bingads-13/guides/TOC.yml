@@ -861,6 +861,9 @@
     - name: Ad Group Structured Snippet Ad Extension
       href: ../bulk-service/ad-group-structured-snippet-ad-extension.md
       displayName: BulkAdGroupStructuredSnippetAdExtension
+    - name: Ad Group Topic Criterion
+      href: ../bulk-service/ad-group-topic-criterion.md
+      displayName: BulkAdGroupTopicCriterion
     - name: Ad Group Video Ad Extension
       href: ../bulk-service/ad-group-video-ad-extension.md
       displayName: BulkAdGroupVideoAdExtension
