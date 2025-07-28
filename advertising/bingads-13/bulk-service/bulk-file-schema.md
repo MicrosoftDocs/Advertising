@@ -113,6 +113,7 @@ Record Type  |Supported Campaign Types
 [Ad Group Similar Remarketing List Association](ad-group-similar-remarketing-list-association.md)|All  
 [Ad Group Sitelink Ad Extension](ad-group-sitelink-ad-extension.md)|Search  
 [Ad Group Structured Snippet Ad Extension](ad-group-structured-snippet-ad-extension.md)|Search  
+[Ad Group Topic Criterion](ad-group-topic-criterion.md)|Audience  
 [Ad Group Video Ad Extension](ad-group-video-ad-extension.md)|Search  
 [App Ad Extension](app-ad-extension.md)|Performance Max<br/>Search  
 [App Install Ad](app-install-ad.md)|Search  
