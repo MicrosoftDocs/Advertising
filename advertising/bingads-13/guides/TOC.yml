@@ -68,6 +68,9 @@
   - name: Register an application
     href: ./authentication-oauth-register.md
     displayName: authentication oauth access refresh token scope client_id client id client_secret client secret bingads.manage ads.manage msads.manage
+  - name: PowerShell scripts for API integration
+    href: ./powershell-scripts-api-integration.md
+    displayName: powershell scripts access refresh token scope client_id client id client_secret client secret bingads.manage ads.manage msads.manage
   - name: Request user consent
     href: ./authentication-oauth-consent.md
     displayName: authentication oauth access refresh token scope client_id client id client_secret client secret bingads.manage ads.manage msads.manage
