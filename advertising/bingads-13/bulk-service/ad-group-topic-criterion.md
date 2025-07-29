@@ -151,13 +151,12 @@ This bulk field maps to the *Id* field of the [Ad Group](ad-group.md) record.
 Represents the association status between the ad group and the criterion. If the criterion is applied to the ad group, this field's value is *Active*. To delete the criterion, set the status to *Deleted*.
 
 **Add:** Read-only. The status will always be set to *Active* when you add criterions. If you upload another value e.g., *Foo* the result file will contain the same value although the criterion is active.  
-**Update:** Optional  
-**Delete:** Required. The Status must be set to *Deleted*. To delete a specific gender criterion bid, you must upload the [Status](#status), [Id](#id), and [Parent Id](#parentid).
+**Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="target"></a>Target
 The topic that you want to target with the corresponding *Bid Adjustment*.  
 
-Supported values are *12-NTP*, *13-productivity*, *14-Gaming*, *15-MSN*.
+Possible values include:<ul><li>1: Games</li><li>2: Shopping</li><li>3: Business & Industrial</li><li>4: Sports</li><li>5: Home & Garden</li><li>6: News</li><li>7: Travel & Transportation</li><li>8: Finance</li><li>9: Health</li><li>10: Jobs & Education</li><li>11: Arts & Entertainment</li><li>12: Autos & Vehicles</li><li>13: Computers & Electronics</li><li>14: Real Estate</li><li>15: Hobbies & Leisure</li><li>16: Beauty & Fitness</li><li>17: Internet & Telecom</li><li>18: Books & Literature</li><li>19: Law & Government</li><li>20: Food & Drink</li><li>21: People & Society</li><li>22: Online Communities</li><li>23: Science</li><li>24: Pets & Animals</li><li>25: Reference</li><li>26: World Localities</li></ul>  
 
 **Add:** Required  
 **Update:** Required  
