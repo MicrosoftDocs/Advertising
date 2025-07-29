@@ -1,5 +1,5 @@
 ---
-title: PowerShell Scripts for API Integration
+title: PowerShell scripts for API integration
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
@@ -10,7 +10,7 @@ description: PowerShell scripts designed to automate the setup of Azure AD App R
 searchscope: exclude
 ---
 
-# PowerShell Scripts for API Integration
+# PowerShell scripts for API integration
 
 ## Tools and resources
 
