@@ -62,7 +62,7 @@ The [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md) object has the
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="maxcpc"></a>MaxCpc|The maximum cost per click that you want to spend.<br/><br/>*Note:* MaxCpc shouldn't be set for Smart Shopping or Performance Max campaigns as it doesn't apply.<br/><br/>**Add:** Optional<br/>**Update:** Optional|[Bid](bid.md)|
-|<a name="targetcpa"></a>TargetCpa|The target cost per action that you want to spend.<br/><br/>*Note:* TargetCpa is used by Audience, Smart Shopping, and Performance Max campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**double**|
+|<a name="targetcpa"></a>TargetCpa|The target cost per action that you want to spend.<br/><br/>*Note:* TargetCpa is used by Audience, Search, Smart Shopping, and Performance Max campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**double**|
 
 The [MaxConversionsBiddingScheme](maxconversionsbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 
