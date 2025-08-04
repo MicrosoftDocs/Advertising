@@ -1,13 +1,13 @@
 ---
-title: Exposure Feed - Clean Room
+title: Exposure feed - Clean Room
 ms.service: bing-ads
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The clean room exposure feed.
+description: This dataset provides granular, pseudonymized event-level data to support ad measurement and analysis in a privacy-compliant clean room environment.
 ---
-# Exposure Feed
+# Exposure feed
 
 This dataset provides granular, pseudonymized event-level data to support ad measurement and analysis in a privacy-compliant clean room environment. This feed helps advertisers and partners evaluate campaign performance, user engagement, and media delivery, all while maintaining data security standards required in clean room infrastructures.
 
@@ -23,7 +23,7 @@ This dataset provides granular, pseudonymized event-level data to support ad mea
 | 09           | operating_system       | STRING            | The name of the operating system.                             |
 | 10           | browser                | STRING            | The name of the browser.                                      |
 | 11           | publisher_id           | INTEGER           | A unique identifier for the publisher of the placement.       |
-| 12           | publisher_name         | STRING            | A value for the PublisherID.                                  |
+| 12           | publisher_name         | STRING            | A name for the Publisher.                                     |
 | 13           | site_domain            | STRING            | The most granular identifier of the site available.           |
 | 14           | advertiser_account_id  | LONG              | A unique identifier for an advertiser.                        |
 | 16           | campaign_id            | LONG              | A unique identifier for a campaign.                           |
