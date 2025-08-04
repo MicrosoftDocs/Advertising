@@ -1070,7 +1070,9 @@
       displayName: BulkCampaignVideoAdExtension
     - name: Combined List
       href: ../bulk-service/combined-list.md
-      displayName: BulkCombinedList
+    - name: Content Placement
+      href: ../bulk-service/content-placement.md
+      displayName: BulkContentPlacement
     - name: Custom Audience
       href: ../bulk-service/custom-audience.md
       displayName: BulkCustomAudience
@@ -1238,6 +1240,9 @@
     - name: Text Ad Label
       href: ../bulk-service/text-ad-label.md
       displayName: BulkTextAdLabel
+    - name: Topic
+      href: ../bulk-service/topic.md
+      displayName: BulkTopic
     - name: URL Goal
       href: ../bulk-service/url-goal.md
       displayName: BulkUrlGoal
