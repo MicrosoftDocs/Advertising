@@ -23,7 +23,7 @@ This dataset provides granular, pseudonymized event-level data to support ad mea
 | 09           | operating_system       | STRING            | The name of the operating system.                             |
 | 10           | browser                | STRING            | The name of the browser.                                      |
 | 11           | publisher_id           | INTEGER           | A unique identifier for the publisher of the placement.       |
-| 12           | publisher_name         | STRING            | A name for the Publisher.                                     |
+| 12           | publisher_name         | STRING            | The name of the publisher.                                      |
 | 13           | site_domain            | STRING            | The most granular identifier of the site available.           |
 | 14           | advertiser_account_id  | LONG              | A unique identifier for an advertiser.                        |
 | 16           | campaign_id            | LONG              | A unique identifier for a campaign.                           |
@@ -31,7 +31,7 @@ This dataset provides granular, pseudonymized event-level data to support ad mea
 | 20           | ad_id                  | LONG              | An identifier for an ad from a specific campaign.             |
 | 22           | device_unique_id       | STRING            | A unique identifier representing the mobile device.           |
 | 23           | device_type_id         | INTEGER           | A unique identifier for the device type.                      |
-| 24           | device_type_name       | STRING            | A value for the DeviceTypeID.                                 |
+| 24           | device_type_name       | STRING            | The name of the device type.                                    |
 | 25           | postal_code            | INTEGER           | The postal code of the user's location.                       |
 | 26           | bidded_keyword         | STRING            | The keyword targeted by the winning campaign.                 |
 | 27           | query_id               | STRING            | An identifier for a unique query string.                      |

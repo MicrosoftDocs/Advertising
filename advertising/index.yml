@@ -158,10 +158,10 @@ conceptualContent:
           text: Overview
         - url: /advertising/clean-room/audience-segments
           itemType: reference
-          text: Audience Segments
+          text: Audience segments
         - url: /advertising/clean-room/exposure-feed
           itemType: reference
-          text: Exposure Feed
-        - url: /advertising/clean-room/msa-metadata
+          text: Exposure feed
+        - url: /advertising/clean-room/metadata
           itemType: reference
-          text: Microsoft Curate
+          text: Metadata
