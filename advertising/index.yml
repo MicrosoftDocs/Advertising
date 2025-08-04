@@ -150,3 +150,18 @@ conceptualContent:
         - url: /xandr/supply-partners
           itemType: reference
           text: Supply Partners
+      # Card
+    - title: Clean Room
+      links:
+        - url: /advertising/clean-room/
+          itemType: overview
+          text: Overview
+        - url: /advertising/clean-room/audience-segments
+          itemType: reference
+          text: Audience Segments
+        - url: /advertising/clean-room/exposure-feed
+          itemType: reference
+          text: Exposure Feed
+        - url: /advertising/clean-room/msa-metadata
+          itemType: reference
+          text: Microsoft Curate

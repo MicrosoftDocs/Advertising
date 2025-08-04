@@ -1,13 +1,13 @@
 ---
-title: Microsoft Audience Segments - Clean Room
+title: Audience segments - Clean Room
 ms.service: bing-ads
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Microsoft Advertising audience segments.
+description: This dataset identifies and categorizes users into Microsoft Advertising's audience segments, using hashed identifiers to preserve privacy while enabling audience targeting and analytics.
 ---
-# Microsoft Audience Segments
+# Audience segments
 
 This dataset identifies and categorizes users into Microsoft Advertising's audience segments, using hashed identifiers to preserve privacy while enabling audience targeting and analytics. This feed is especially valuable for audience analysis, campaign targeting, personalization strategies, and cross-segment performance comparisons—all without exposing personally identifiable information.
 
