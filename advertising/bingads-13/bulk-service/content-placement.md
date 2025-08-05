@@ -13,11 +13,9 @@ dev_langs:
 # Content Placement Record - Bulk
 Defines a content placement that can be downloaded in a bulk file.
 
-You can download all *Content Placement* records in the account by including the [DownloadEntity](downloadentity.md) value of *ContentPlacements* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
+You can download all *Content Placement* records in the account by including the [DownloadEntity](downloadentity.md) value of *ContentPlacement* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to and download the *BulkContentPlacement* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.  
-
-The following Bulk CSV example would add a new content placement.
+The following Bulk CSV example is for content placement download.
 
 ```csv
 Type,Status,Id,Parent Id,Name
