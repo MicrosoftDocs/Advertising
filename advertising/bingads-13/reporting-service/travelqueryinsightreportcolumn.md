@@ -43,24 +43,24 @@ The [TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md) value se
 
 |Value|Description|
 |-----------|---------------|
-|<a name="brandclicks"></a>BrandClicks|The number of ad clicks originating from ads displayed for a specific brand.|
-|<a name="brandimpressions"></a>BrandImpressions|The number of impressions of ads displayed for a specific brand.|
-|<a name="brandspend"></a>BrandSpend|The total amount of spend on ad impressions for a specific brand.|
-|<a name="city"></a>City|The name of the city.|
-|<a name="country"></a>Country|The name of the country.|
-|<a name="l1vertical"></a>L1Vertical|The primary vertical category.|
-|<a name="l2vertical"></a>L2Vertical|The secondary vertical category.|
-|<a name="l3vertical"></a>L3Vertical|The tertiary vertical category.|
-|<a name="metroarea"></a>MetroArea|The name of the metroplitan area.|
-|<a name="msaclicks"></a>MSAClicks|The number of Microsoft Advertising ad clicks.|
-|<a name="msaimpressions"></a>MSAImpressions|The number of Microsoft Advertising ad impressions.|
-|<a name="msaspend"></a>MSASpend|The total amount of Microsoft Advertising spend.|
-|<a name="poscity"></a>POSCity|The point of sale city.|
-|<a name="poscountry"></a>POSCountry|The point of sale country.|
-|<a name="posregion"></a>POSRegion|The point of sale region.|
-|<a name="postalcode"></a>PostalCode|The point of sale postal/ZIP code.|
-|<a name="region"></a>Region|The name of the region.|
-|<a name="searchquery"></a>SearchQuery|The search query text.|
+|<a name="brandclicks"></a>BrandClicks|Your brand's ad clicks.|
+|<a name="brandimpressions"></a>BrandImpressions|Your brand's ad impressions.|
+|<a name="brandspend"></a>BrandSpend|Your brand's ad spend.|
+|<a name="city"></a>City|The city of interest.|
+|<a name="country"></a>Country|The country of interest.|
+|<a name="l1vertical"></a>L1Vertical|The primary supply vertical.|
+|<a name="l2vertical"></a>L2Vertical|The secondary supply vertical.|
+|<a name="l3vertical"></a>L3Vertical|The tertiary supply vertical.|
+|<a name="metroarea"></a>MetroArea|The metro area of interest.|
+|<a name="msaclicks"></a>MSAClicks|The number of Microsoft Advertising clicks for this query.|
+|<a name="msaimpressions"></a>MSAImpressions|The number of Microsoft Advertising impressions for this query.|
+|<a name="msaspend"></a>MSASpend|The Microsoft Advertising spend on this query.|
+|<a name="poscity"></a>POSCity|The searcher's location at the city level.|
+|<a name="poscountry"></a>POSCountry|The searcher's location at the country level.|
+|<a name="posregion"></a>POSRegion|The searcher's location at the region level.|
+|<a name="postalcode"></a>PostalCode|The searcher's location at the postal code level.|
+|<a name="region"></a>Region|The region of interest.|
+|<a name="searchquery"></a>SearchQuery|The search query entered by the user.|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
