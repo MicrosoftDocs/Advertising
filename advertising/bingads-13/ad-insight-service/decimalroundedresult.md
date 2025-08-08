@@ -49,5 +49,6 @@ Service: [AdInsightService.svc v13](https://adinsight.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/AdInsight/v13  
 
 ## Used By
+[GetAudienceBreakdown](getaudiencebreakdown.md)  
 [GetAudienceFullEstimation](getaudiencefullestimation.md)  
 [RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)  

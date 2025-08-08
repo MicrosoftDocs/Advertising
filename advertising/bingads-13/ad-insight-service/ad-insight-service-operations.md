@@ -16,6 +16,7 @@ The Ad Insight service defines the following service operations.
 |[ApplyRecommendations](applyrecommendations.md)|Apply one or more recommendations.|N/A.|
 |[DismissRecommendations](dismissrecommendations.md)|Dismiss one or more recommendations.|N/A.|
 |[GetAuctionInsightData](getauctioninsightdata.md)|Gets auction insight data for an account, campaigns, ad groups, or keywords.|200 *EntityIds*|
+|[GetAudienceBreakdown](getaudiencebreakdown.md)|Gets the audience breakdown.|N/A.|
 |[GetAudienceFullEstimation](getaudiencefullestimation.md)|Gets the audience full estimation.|N/A.|
 |[GetAutoApplyOptInStatus](getautoapplyoptinstatus.md)|Get the auto-apply recommendations opt-in status for a single account.|The number of distinct recommendation types is no more than 100 |
 |[GetBidLandscapeByAdGroupIds](getbidlandscapebyadgroupids.md)|Given a list of existing ad groups, this operation returns for each a list of suggested bids and estimated performance statistics.|1,000 *AdGroupBidLandscapeInput*|
