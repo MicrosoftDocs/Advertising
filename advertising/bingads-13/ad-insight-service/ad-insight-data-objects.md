@@ -30,6 +30,8 @@ The Ad Insight service defines the following data objects.
 |[BatchError](batcherror.md)|Defines an Ad Insight batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
 |[BidLandscapePoint](bidlandscapepoint.md)|Defines an object that contains estimates of clicks, cost, and impressions  given the suggested bid.|
 |[BidOpportunity](bidopportunity.md)|Defines an object that contains the suggested bid with estimated clicks and impressions opportunities.|
+|[Breakdown](breakdown.md)|Defines an object for a specific audience breakdown category.|
+|[Breakdowns](breakdowns.md)|Defines an object for the audience breakdown categories.|
 |[BroadMatchKeywordOpportunity](broadmatchkeywordopportunity.md)|Defines an object that contains the marketplace impact statistics of including broad match type keyword bids.|
 |[BroadMatchSearchQueryKPI](broadmatchsearchquerykpi.md)|Defines an object that contains search query statistics of including broad match type keyword bids.|
 |[BudgetOpportunity](budgetopportunity.md)|Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.|
@@ -82,7 +84,9 @@ The Ad Insight service defines the following data objects.
 |[KeywordSuggestion](keywordsuggestion.md)|Defines an object that contains a list of suggested keywords that may perform better than the specified keyword.|
 |[LanguageCriterion](languagecriterion.md)|The language criterion that you can include when requesting keyword ideas or traffic estimates.|
 |[LanguageSearchParameter](languagesearchparameter.md)|The language search parameter filter that you can include when requesting keyword ideas.|
+|[LocationBreakdown](locationbreakdown.md)|Defines the location breakdown data object.|
 |[LocationCriterion](locationcriterion.md)|The location criterion that you can include when requesting keyword ideas or traffic estimates.|
+|[LocationInfo](locationinfo.md)|Defines the location info data object.|
 |[LocationSearchParameter](locationsearchparameter.md)|The location search parameter filter that you can include when requesting keyword ideas.|
 |[NegativeKeyword](negativekeyword.md)|Defines a negative keyword with match type for traffic estimates.|
 |[NetworkCriterion](networkcriterion.md)|The network criterion that you can include when requesting keyword ideas or traffic estimates.|
