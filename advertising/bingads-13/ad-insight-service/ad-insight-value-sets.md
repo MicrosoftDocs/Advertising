@@ -19,6 +19,7 @@ The Ad Insight service defines the following value sets.
 |[AuctionInsightKpiAdditionalField](auctioninsightkpiadditionalfield.md)|Defines a list of optional auction insight KPI properties that you can request when calling [GetAuctionInsightData](getauctioninsightdata.md).|
 |[AuctionSegment](auctionsegment.md)|Defines the possible auction segment values.|
 |[BidOpportunityType](bidopportunitytype.md)|Defines the possible bid opportunity types you can request when calling [GetBidOpportunities](getbidopportunities.md).|
+|[BreakdownCategory](breakdowncategory.md)|Defines the type of audience breakdown category.|
 |[BudgetLimitType](budgetlimittype.md)|Defines the possible types of campaign budgets.|
 |[BudgetPointType](budgetpointtype.md)|Defines the possible values of a campaign budget point.|
 |[CompetitionLevel](competitionlevel.md)|Competition levels are defined by the number of advertisers bidding on this keyword, relative to all other keywords across Microsoft Advertising.|
