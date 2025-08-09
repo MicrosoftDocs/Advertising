@@ -225,6 +225,8 @@
       href: ../ad-insight-service/dismissrecommendations.md      
     - name: GetAuctionInsightData
       href: ../ad-insight-service/getauctioninsightdata.md
+    - name: GetAudienceBreakdown
+      href: ../ad-insight-service/getaudiencebreakdown.md
     - name: GetAudienceFullEstimation
       href: ../ad-insight-service/getaudiencefullestimation.md
     - name: GetAutoApplyOptInStatus
@@ -320,6 +322,10 @@
       href: ../ad-insight-service/bidlandscapepoint.md
     - name: BidOpportunity
       href: ../ad-insight-service/bidopportunity.md
+    - name: Breakdown
+      href: ../ad-insight-service/breakdown.md
+    - name: Breakdowns
+      href: ../ad-insight-service/breakdowns.md
     - name: BroadMatchKeywordOpportunity
       href: ../ad-insight-service/broadmatchkeywordopportunity.md
     - name: BroadMatchSearchQueryKPI
@@ -420,8 +426,12 @@
       href: ../ad-insight-service/languagecriterion.md
     - name: LanguageSearchParameter
       href: ../ad-insight-service/languagesearchparameter.md
+    - name: LocationBreakdown
+      href: ../ad-insight-service/locationbreakdown.md
     - name: LocationCriterion
       href: ../ad-insight-service/locationcriterion.md
+    - name: LocationInfo
+      href: ../ad-insight-service/locationinfo.md
     - name: LocationSearchParameter
       href: ../ad-insight-service/locationsearchparameter.md
     - name: NegativeKeyword
@@ -503,6 +513,8 @@
       href: ../ad-insight-service/auctionsegment.md
     - name: BidOpportunityType
       href: ../ad-insight-service/bidopportunitytype.md
+    - name: BreakdownCategory
+      href: ../ad-insight-service/breakdowncategory.md
     - name: BudgetLimitType
       href: ../ad-insight-service/budgetlimittype.md
     - name: BudgetPointType
