@@ -178,6 +178,7 @@ Record Type  |Supported Campaign Types
 [Campaign Structured Snippet Ad Extension](campaign-structured-snippet-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Video Ad Extension](campaign-video-ad-extension.md)|Performance Max<br/>Search  
 [Combined List](combined-list.md)|All  
+[Content Placement](content-placement.md)|Audience  
 [Custom Audience](custom-audience.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom audience using the Bing Ads API.|All  
 [Customer List](customer-list.md)|All  
 [Customer List Item](customer-list-item.md)<br/><br/>Bulk download of customer list items is not supported.|All  
@@ -223,6 +224,7 @@ Record Type  |Supported Campaign Types
 [Structured Snippet Ad Extension](structured-snippet-ad-extension.md)|Performance Max<br/>Search  
 [Text Ad](text-ad.md)|Search  
 [Text Ad Label](text-ad-label.md)|Search  
+[Topic](topic.md)|Audience  
 [Video](video.md)|Audience  
 [Video Ad Extension](video-ad-extension.md)|Performance Max<br/>Search  
 
