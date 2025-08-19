@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 description: Request user consent for authentication.
+ms.custom: sfi-ropc-blocked
 ---
 # Request user consent
 
