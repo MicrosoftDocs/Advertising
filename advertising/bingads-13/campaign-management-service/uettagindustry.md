@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defomes the UET tag industry.
+description: Defines the UET tag industry.
 ---
 # UetTagIndustry Value Set - Campaign Management
 Defines the UET tag industry.

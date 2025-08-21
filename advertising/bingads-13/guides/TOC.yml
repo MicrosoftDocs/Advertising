@@ -350,6 +350,10 @@
       href: ../ad-insight-service/daterangesearchparameter.md
     - name: DayMonthAndYear
       href: ../ad-insight-service/daymonthandyear.md
+    - name: DecimalRoundedByType
+      href: ../ad-insight-service/decimalroundedbytype.md
+    - name: DecimalRoundedRangeResultByType
+      href: ../ad-insight-service/decimalroundedrangeresultbytype.md
     - name: DecimalRoundedResult
       href: ../ad-insight-service/decimalroundedresult.md
     - name: DeviceCriterion
@@ -454,6 +458,8 @@
       href: ../ad-insight-service/querysearchparameter.md
     - name: RadiusTarget
       href: ../ad-insight-service/radiustarget.md
+    - name: RangeResultByTypeOfDouble
+      href: ../ad-insight-service/rangeresultbytypeofdouble.md
     - name: RangeResultOfDecimalRoundedResult
       href: ../ad-insight-service/rangeresultofdecimalroundedresult.md
     - name: RangeResultOfDouble
@@ -2486,6 +2492,8 @@
       href: ../campaign-management-service/promotionoccasion.md
     - name: StringOperator
       href: ../campaign-management-service/stringoperator.md
+    - name: UetTagIndustry
+      href: ../campaign-management-service/uettagindustry.md
     - name: UetTagTrackingStatus
       href: ../campaign-management-service/uettagtrackingstatus.md
     - name: ValueOperator
