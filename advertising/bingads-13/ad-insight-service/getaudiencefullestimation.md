@@ -40,6 +40,7 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
+|<a name="includeimpressionsbreakdown"></a>IncludeImpressionsBreakdown|Include impressions in the audience breakdown.|**boolean**|
 |<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
@@ -61,12 +62,20 @@ The *GetAudienceFullEstimationResponse* object defines the [body](#response-body
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estclick"></a>EstClick|Monthly estimated user count with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estclickbytype"></a>EstClickByType|The estimated user count by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estcostpereventbytype"></a>EstCostPerEventByType|The estimated cost per event by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
+|<a name="estcpcbytype"></a>EstCPCByType|The estimated cost per click by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estctr"></a>EstCTR|Estimated click-through rate (CTR) with range result. Output only.|[RangeResultOfdouble](rangeresultofdouble.md)|
+|<a name="estctrbytype"></a>EstCTRByType|The estimated click-through rate by type.|[RangeResultByTypeOfdouble](rangeresultbytypeofdouble.md) array|
 |<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estimpressionbytype"></a>EstImpressionByType|The estimated impressions by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estreachaudiencesize"></a>EstReachAudienceSize|Monthly estimated user count with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
 |<a name="estreachimpression"></a>EstReachImpression|Monthly estimated impression with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="estreachimpressionbytype"></a>EstReachImpressionByType|The estimated reach of impressions by type.|[DecimalRoundedByType](decimalroundedbytype.md) array|
 |<a name="estspend"></a>EstSpend|Monthly estimated spend with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estspendbytype"></a>EstSpendByType|The estimated spend by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
+|<a name="estviewbytype"></a>EstViewByType|The estimated views by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="eventslosttobid"></a>EventsLostToBid|Indicates event lost count due to insufficient input bid. The event lost type varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: Click<br/>ManualCPM: Impression|**int**|
 |<a name="eventslosttobudget"></a>EventsLostToBudget|Indicates the event lost count due to insufficient input budget. The event lost type varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: Click<br/>ManualCPM: Impression|**int**|
 |<a name="suggestedbid"></a>SuggestedBid|Suggested bid value under the current targeting. Output only.|**decimal**|
@@ -167,6 +176,7 @@ This template was generated by a tool to show the [order](../guides/services-pro
       <StartDate i:nil="false">ValueHere</StartDate>
       <EndDate i:nil="false">ValueHere</EndDate>
       <TotalBudget i:nil="false">ValueHere</TotalBudget>
+      <IncludeImpressionsBreakdown i:nil="false">ValueHere</IncludeImpressionsBreakdown>
     </GetAudienceFullEstimationRequest>
   </s:Body>
 </s:Envelope>
@@ -249,6 +259,38 @@ This template was generated by a tool to show the order of the [body](#response-
         <Unit d4p1:nil="false">ValueHere</Unit>
       </EstReachImpression>
       <Currency d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">ValueHere</Currency>
+      <EstImpressionByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedRangeResultByType>
+        </DecimalRoundedRangeResultByType>
+      </EstImpressionByType>
+      <EstClickByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedRangeResultByType>
+        </DecimalRoundedRangeResultByType>
+      </EstClickByType>
+      <EstSpendByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedRangeResultByType>
+        </DecimalRoundedRangeResultByType>
+      </EstSpendByType>
+      <EstCostPerEventByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedRangeResultByType>
+        </DecimalRoundedRangeResultByType>
+      </EstCostPerEventByType>
+      <EstCPCByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedRangeResultByType>
+        </DecimalRoundedRangeResultByType>
+      </EstCPCByType>
+      <EstViewByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedRangeResultByType>
+        </DecimalRoundedRangeResultByType>
+      </EstViewByType>
+      <EstCTRByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <RangeResultByTypeOfdouble>
+        </RangeResultByTypeOfdouble>
+      </EstCTRByType>
+      <EstReachImpressionByType d4p1:nil="false" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance">
+        <DecimalRoundedByType>
+        </DecimalRoundedByType>
+      </EstReachImpressionByType>
     </GetAudienceFullEstimationResponse>
   </s:Body>
 </s:Envelope>
@@ -275,7 +317,8 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 	int? multiAdTypes,
 	DateTime? startDate,
 	DateTime? endDate,
-	decimal? totalBudget)
+	decimal? totalBudget,
+	bool? includeImpressionsBreakdown)
 {
 	var request = new GetAudienceFullEstimationRequest
 	{
@@ -296,7 +339,8 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 		MultiAdTypes = multiAdTypes,
 		StartDate = startDate,
 		EndDate = endDate,
-		TotalBudget = totalBudget
+		TotalBudget = totalBudget,
+		IncludeImpressionsBreakdown = includeImpressionsBreakdown
 	};
 
 	return (await AdInsightService.CallAsync((s, r) => s.GetAudienceFullEstimationAsync(r), request));
@@ -321,7 +365,8 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	int multiAdTypes,
 	Calendar startDate,
 	Calendar endDate,
-	decimal totalBudget) throws RemoteException, Exception
+	decimal totalBudget,
+	boolean includeImpressionsBreakdown) throws RemoteException, Exception
 {
 	GetAudienceFullEstimationRequest request = new GetAudienceFullEstimationRequest();
 
@@ -343,6 +388,7 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	request.setStartDate(startDate);
 	request.setEndDate(endDate);
 	request.setTotalBudget(totalBudget);
+	request.setIncludeImpressionsBreakdown(includeImpressionsBreakdown);
 
 	return AdInsightService.getService().getAudienceFullEstimation(request);
 }
@@ -366,7 +412,8 @@ static function GetAudienceFullEstimation(
 	$multiAdTypes,
 	$startDate,
 	$endDate,
-	$totalBudget)
+	$totalBudget,
+	$includeImpressionsBreakdown)
 {
 
 	$GLOBALS['Proxy'] = $GLOBALS['AdInsightProxy'];
@@ -391,6 +438,7 @@ static function GetAudienceFullEstimation(
 	$request->StartDate = $startDate;
 	$request->EndDate = $endDate;
 	$request->TotalBudget = $totalBudget;
+	$request->IncludeImpressionsBreakdown = $includeImpressionsBreakdown;
 
 	return $GLOBALS['AdInsightProxy']->GetService()->GetAudienceFullEstimation($request);
 }
@@ -414,7 +462,8 @@ response=adinsight_service.GetAudienceFullEstimation(
 	MultiAdTypes=MultiAdTypes,
 	StartDate=StartDate,
 	EndDate=EndDate,
-	TotalBudget=TotalBudget)
+	TotalBudget=TotalBudget,
+	IncludeImpressionsBreakdown=IncludeImpressionsBreakdown)
 ```
 
 ## Requirements
@@ -436,7 +485,7 @@ https://adinsight.api.bingads.microsoft.com/AdInsight/v13/AudienceFullEstimation
 # [Sandbox URL](#tab/sandbox)
 
 ```POST
-https://adinsight.api.bingads.microsoft.com/AdInsight/v13/AudienceFullEstimation/Query
+https://adinsight.api.sandbox.bingads.microsoft.com/AdInsight/v13/AudienceFullEstimation/Query
 ```
 
 -----
@@ -462,6 +511,7 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
+|<a name="includeimpressionsbreakdown"></a>IncludeImpressionsBreakdown|Include impressions in the audience breakdown.|**boolean**|
 |<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
@@ -483,12 +533,22 @@ The *GetAudienceFullEstimationResponse* object defines the [body](#response-body
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estclick"></a>EstClick|Monthly estimated user count with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estclickbytype"></a>EstClickByType|Reserved.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estclickbytype"></a>EstClickByType|The estimated user count by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
+|<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estcostpereventbytype"></a>EstCostPerEventByType|The estimated cost per event by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
+|<a name="estcpcbytype"></a>EstCPCByType|The estimated cost per click by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estctr"></a>EstCTR|Estimated click-through rate (CTR) with range result. Output only.|[RangeResultOfdouble](rangeresultofdouble.md)|
+|<a name="estctrbytype"></a>EstCTRByType|The estimated click-through rate by type.|[RangeResultByTypeOfdouble](rangeresultbytypeofdouble.md) array|
 |<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estimpressionbytype"></a>EstImpressionByType|The estimated impressions by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estreachaudiencesize"></a>EstReachAudienceSize|Monthly estimated user count with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
 |<a name="estreachimpression"></a>EstReachImpression|Monthly estimated impression with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="estreachimpressionbytype"></a>EstReachImpressionByType|The estimated reach of impressions by type.|[DecimalRoundedByType](decimalroundedbytype.md) array|
 |<a name="estspend"></a>EstSpend|Monthly estimated spend with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estspendbytype"></a>EstSpendByType|The estimated spend by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
+|<a name="estviewbytype"></a>EstViewByType|The estimated views by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="eventslosttobid"></a>EventsLostToBid|Indicates event lost count due to insufficient input bid. The event lost type varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: Click<br/>ManualCPM: Impression|**int**|
 |<a name="eventslosttobudget"></a>EventsLostToBudget|Indicates the event lost count due to insufficient input budget. The event lost type varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: Click<br/>ManualCPM: Impression|**int**|
 |<a name="suggestedbid"></a>SuggestedBid|Suggested bid value under the current targeting. Output only.|**decimal**|
@@ -579,7 +639,8 @@ This template was generated by a tool to show the [body](#request-body) and [hea
   "MultiAdTypes": IntValueHere,
   "StartDate": "ValueHere",
   "EndDate": "ValueHere",
-  "TotalBudget": DecimalValueHere
+  "TotalBudget": DecimalValueHere,
+  "IncludeImpressionsBreakdown": "ValueHere"
 }
 ```
 
@@ -654,7 +715,31 @@ This template was generated by a tool to show the [body](#response-body) and [he
     "Unit": "ValueHere",
     "Value": DoubleValueHere
   },
-  "Currency": "ValueHere"
+  "Currency": "ValueHere",
+  "EstImpressionByType": [
+    ""
+  ],
+  "EstClickByType": [
+    ""
+  ],
+  "EstSpendByType": [
+    ""
+  ],
+  "EstCostPerEventByType": [
+    ""
+  ],
+  "EstCPCByType": [
+    ""
+  ],
+  "EstViewByType": [
+    ""
+  ],
+  "EstCTRByType": [
+    ""
+  ],
+  "EstReachImpressionByType": [
+    ""
+  ]
 }
 ```
 
@@ -680,7 +765,8 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 	int? multiAdTypes,
 	DateTime? startDate,
 	DateTime? endDate,
-	decimal? totalBudget)
+	decimal? totalBudget,
+	bool? includeImpressionsBreakdown)
 {
 	var request = new GetAudienceFullEstimationRequest
 	{
@@ -701,7 +787,8 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 		MultiAdTypes = multiAdTypes,
 		StartDate = startDate,
 		EndDate = endDate,
-		TotalBudget = totalBudget
+		TotalBudget = totalBudget,
+		IncludeImpressionsBreakdown = includeImpressionsBreakdown
 	};
 
 	return (await AdInsightService.CallAsync((s, r) => s.GetAudienceFullEstimationAsync(r), request));
@@ -726,7 +813,8 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	int multiAdTypes,
 	Calendar startDate,
 	Calendar endDate,
-	decimal totalBudget) throws RemoteException, Exception
+	decimal totalBudget,
+	boolean includeImpressionsBreakdown) throws RemoteException, Exception
 {
 	GetAudienceFullEstimationRequest request = new GetAudienceFullEstimationRequest();
 
@@ -748,6 +836,7 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	request.setStartDate(startDate);
 	request.setEndDate(endDate);
 	request.setTotalBudget(totalBudget);
+	request.setIncludeImpressionsBreakdown(includeImpressionsBreakdown);
 
 	return AdInsightService.getService().getAudienceFullEstimation(request);
 }
@@ -771,7 +860,8 @@ static function GetAudienceFullEstimation(
 	$multiAdTypes,
 	$startDate,
 	$endDate,
-	$totalBudget)
+	$totalBudget,
+	$includeImpressionsBreakdown)
 {
 
 	$GLOBALS['Proxy'] = $GLOBALS['AdInsightProxy'];
@@ -796,6 +886,7 @@ static function GetAudienceFullEstimation(
 	$request->StartDate = $startDate;
 	$request->EndDate = $endDate;
 	$request->TotalBudget = $totalBudget;
+	$request->IncludeImpressionsBreakdown = $includeImpressionsBreakdown;
 
 	return $GLOBALS['AdInsightProxy']->GetService()->GetAudienceFullEstimation($request);
 }
@@ -819,7 +910,8 @@ response=adinsight_service.GetAudienceFullEstimation(
 	MultiAdTypes=MultiAdTypes,
 	StartDate=StartDate,
 	EndDate=EndDate,
-	TotalBudget=TotalBudget)
+	TotalBudget=TotalBudget,
+	IncludeImpressionsBreakdown=IncludeImpressionsBreakdown)
 ```
 
 ::: zone-end

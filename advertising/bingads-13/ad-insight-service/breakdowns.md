@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The audience breakdown categories.
+description: Defines an object for the audience breakdown categories.
 ---
 # Breakdowns Data Object - Ad Insight
-The audience breakdown categories.
+Defines an object for the audience breakdown categories.
 
 ## Syntax
 
