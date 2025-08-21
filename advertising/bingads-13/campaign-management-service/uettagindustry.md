@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the UET tag industry.
+description: Defines the industry of the website associated with your UET tag.
 ---
 # UetTagIndustry Value Set - Campaign Management
-Defines the UET tag industry.
+Defines the industry of the website associated with your UET tag.
 
 ## Syntax
 ```xml

@@ -121,7 +121,7 @@ The Campaign Management service defines the following value sets.
 |[PromotionOccasion](promotionoccasion.md)|Defines the possible types of promotion occasions.|
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
 |[UetTagAdditionalField](uettagadditionalfield.md)|Defines a list of optional UET tag properties that you can request when calling GetUetTagsByIds.|
-|[UetTagIndustry](uettagindustry.md)|Defines the UET tag industry.|
+|[UetTagIndustry](uettagindustry.md)|Defines the industry of the website associated with your UET tag.|
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|
 |[ValueOperator](valueoperator.md)|Defines the operators that can be applied to values within a conversion event goal.|
 |[VanityPharmaDisplayUrlMode](vanitypharmadisplayurlmode.md)|Defines a value set for VanityPharmaDisplayUrlMode.|
