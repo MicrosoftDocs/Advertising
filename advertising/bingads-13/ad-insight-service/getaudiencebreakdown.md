@@ -31,7 +31,6 @@ The *GetAudienceBreakdownRequest* object defines the [body](#request-body) and [
 |-----------|---------------|-------------|
 |<a name="age"></a>Age|The selection of age targeting. Possible values are: *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, *SixtyFiveAndAbove*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfAgeEnum](selectionofageenum.md)|
 |<a name="audience"></a>Audience|The selection of audience targeting. Supported audience types are: Custom audiences, Combined lists, Customer match lists, Dynamic remarketing lists, In-market audiences, Remarketing lists, and Similar audiences. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
-|<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="breakdownreturncategory"></a>BreakdownReturnCategory|The category of audience breakdown. Possible values include: *All*,  *Demographics*, *Device*, *Location*, *Interest*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|[BreakdownCategory](breakdowncategory.md)|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
 |<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
@@ -57,8 +56,8 @@ The *GetAudienceBreakdownResponse* object defines the [body](#response-body) and
 |-----------|---------------|-------------|
 |<a name="breakdowns"></a>Breakdowns|The audience breakdown categories.|[Breakdowns](breakdowns.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
-|<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
 |<a name="isimpressiontoospecific"></a>IsImpressionTooSpecific|Indicates if the impression is too specific.|**boolean**|
 |<a name="isprivacycheckpassed"></a>IsPrivacyCheckPassed|Indicates if the estimated audience size passes the privacy check.|**boolean**|
 |<a name="suggestedbid"></a>SuggestedBid|Suggested bid value under the current targeting. Output only.|**decimal**|
@@ -493,7 +492,7 @@ https://adinsight.api.bingads.microsoft.com/AdInsight/v13/AudienceBreakdown/Quer
 # [Sandbox URL](#tab/sandbox)
 
 ```POST
-https://adinsight.api.bingads.microsoft.com/AdInsight/v13/AudienceBreakdown/Query
+https://adinsight.api.sandbox.bingads.microsoft.com/AdInsight/v13/AudienceBreakdown/Query
 ```
 
 -----
@@ -510,7 +509,6 @@ The *GetAudienceBreakdownRequest* object defines the [body](#request-body) and [
 |-----------|---------------|-------------|
 |<a name="age"></a>Age|The selection of age targeting. Possible values are: *EighteenToTwentyFour*, *TwentyFiveToThirtyFour*, *ThirtyFiveToFourtyNine*, *FiftyToSixtyFour*, *SixtyFiveAndAbove*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfAgeEnum](selectionofageenum.md)|
 |<a name="audience"></a>Audience|The selection of audience targeting. Supported audience types are: Custom audiences, Combined lists, Customer match lists, Dynamic remarketing lists, In-market audiences, Remarketing lists, and Similar audiences. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
-|<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="breakdownreturncategory"></a>BreakdownReturnCategory|The category of audience breakdown. Possible values include: *All*,  *Demographics*, *Device*, *Location*, *Interest*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|[BreakdownCategory](breakdowncategory.md)|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
 |<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
@@ -536,8 +534,8 @@ The *GetAudienceBreakdownResponse* object defines the [body](#response-body) and
 |-----------|---------------|-------------|
 |<a name="breakdowns"></a>Breakdowns|The audience breakdown categories.|[Breakdowns](breakdowns.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
-|<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
-|<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estaudiencesize"></a>EstAudienceSize|Monthly estimated reach user count with rounded results. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
+|<a name="estimpression"></a>EstImpression|Monthly estimated impression with range result. Output only.|[DecimalRoundedResult](decimalroundedresult.md)|
 |<a name="isimpressiontoospecific"></a>IsImpressionTooSpecific|Indicates if the impression is too specific.|**boolean**|
 |<a name="isprivacycheckpassed"></a>IsPrivacyCheckPassed|Indicates if the estimated audience size passes the privacy check.|**boolean**|
 |<a name="suggestedbid"></a>SuggestedBid|Suggested bid value under the current targeting. Output only.|**decimal**|
