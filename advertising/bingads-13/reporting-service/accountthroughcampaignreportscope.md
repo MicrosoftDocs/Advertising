@@ -56,6 +56,7 @@ Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
 
 ## Used By
+[BidStrategyReportRequest](bidstrategyreportrequest.md)  
 [BudgetSummaryReportRequest](budgetsummaryreportrequest.md)  
 [CampaignPerformanceReportRequest](campaignperformancereportrequest.md)  
 [CombinationPerformanceReportRequest](combinationperformancereportrequest.md)  
