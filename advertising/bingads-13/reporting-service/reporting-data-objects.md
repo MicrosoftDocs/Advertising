@@ -47,6 +47,8 @@ The Reporting service defines the following data objects.
 |[AudiencePerformanceReportFilter](audienceperformancereportfilter.md)|Defines the criteria to use to filter the audience performance report data.|
 |[AudiencePerformanceReportRequest](audienceperformancereportrequest.md)|Defines an audience performance report request.|
 |[BatchError](batcherror.md)|Defines a Reporting batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
+|[BidStrategyReportFilter](bidstrategyreportfilter.md)|Defines the criteria to use to filter the bid strategy report data.|
+|[BidStrategyReportRequest](bidstrategyreportrequest.md)|Defines a bid strategy report request.|
 |[BudgetSummaryReportRequest](budgetsummaryreportrequest.md)|Defines a budget summary report request.|
 |[CallDetailReportFilter](calldetailreportfilter.md)|Defines the criteria to use to filter the call detail report data.|
 |[CallDetailReportRequest](calldetailreportrequest.md)|Defines a call detail report request.|

@@ -75,6 +75,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [AssetGroupPerformanceReportRequest](assetgroupperformancereportrequest.md)  
 [AssetPerformanceReportRequest](assetperformancereportrequest.md)  
 [AudiencePerformanceReportRequest](audienceperformancereportrequest.md)  
+[BidStrategyReportRequest](bidstrategyreportrequest.md)  
 [BudgetSummaryReportRequest](budgetsummaryreportrequest.md)  
 [CallDetailReportRequest](calldetailreportrequest.md)  
 [CampaignPerformanceReportRequest](campaignperformancereportrequest.md)  
