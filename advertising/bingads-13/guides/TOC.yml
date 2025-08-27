@@ -2894,6 +2894,10 @@
       href: ../reporting-service/audienceperformancereportrequest.md
     - name: BatchError
       href: ../reporting-service/batcherror.md
+    - name: BidStrategyReportFilter
+      href: ../reporting-service/bidstrategyreportfilter.md
+    - name: BidStrategyReportRequest
+      href: ../reporting-service/bidstrategyreportrequest.md
     - name: BudgetSummaryReportRequest
       href: ../reporting-service/budgetsummaryreportrequest.md
     - name: CallDetailReportFilter
@@ -3063,6 +3067,8 @@
       href: ../reporting-service/audienceperformancereportcolumn.md
     - name: BidMatchTypeReportFilter
       href: ../reporting-service/bidmatchtypereportfilter.md
+    - name: BidStrategyReportColumn
+      href: ../reporting-service/bidstrategyreportcolumn.md
     - name: BidStrategyTypeReportFilter
       href: ../reporting-service/bidstrategytypereportfilter.md
     - name: BudgetSummaryReportColumn
