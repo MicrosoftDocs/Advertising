@@ -32,7 +32,7 @@ The Reporting service defines the following value sets.
 |[AssetPerformanceReportColumn](assetperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).|
 |[AudiencePerformanceReportColumn](audienceperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [AudiencePerformanceReportRequest](audienceperformancereportrequest.md).|
 |[BidMatchTypeReportFilter](bidmatchtypereportfilter.md)|Defines the bid match type values that you can use to filter the report data.|
-|[BidStrategyReportColumn](bidstrategyreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [BidStrategyReportRequest](bidstrategyreportcolumn).|
+|[BidStrategyReportColumn](bidstrategyreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [BidStrategyReportRequest](bidstrategyreportrequest.md).|
 |[BidStrategyTypeReportFilter](bidstrategytypereportfilter.md)|Defines the possible values that you can use to use to filter the report data by bid strategy type.|
 |[BudgetSummaryReportColumn](budgetsummaryreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [BudgetSummaryReportRequest](budgetsummaryreportrequest.md).|
 |[CallDetailReportColumn](calldetailreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [CallDetailReportRequest](calldetailreportrequest.md).|
