@@ -19,7 +19,7 @@ Defines the health check sub entity data object.
 <xs:complexType name="HealthCheckSubEntityData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="SubEntityHealthIssueCount" type="xs:int" />
-    <xs:element xmlns:q184="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SubEntityIds" nillable="true" type="q184:ArrayOflong" />
+    <xs:element xmlns:q187="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SubEntityIds" nillable="true" type="q187:ArrayOflong" />
     <xs:element minOccurs="0" name="SubEntityLevel" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>

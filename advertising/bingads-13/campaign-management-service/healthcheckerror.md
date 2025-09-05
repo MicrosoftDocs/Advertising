@@ -62,5 +62,4 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
-[GetDiagnostics](getdiagnostics.md)  
 [GetHealthCheck](gethealthcheck.md)  
