@@ -124,6 +124,7 @@ For a *Asset Group* record, the following attribute fields are available in the 
 - [Call To Action](#calltoaction)
 - [Campaign](#campaign)
 - [Client Id](#clientid)
+- [Custom Parameter](#customparameter)
 - [Descriptions](#descriptions)
 - [Editorial Appeal Status](#editorialappealstatus)
 - [Editorial Location](#editoriallocation)
@@ -132,6 +133,7 @@ For a *Asset Group* record, the following attribute fields are available in the 
 - [Editorial Term](#editorialterm)
 - [End Date](#enddate)
 - [Final Url](#finalurl)
+- [Final Url Suffix](#finalurlsuffix)
 - [Headlines](#headlines)
 - [Id](#id)
 - [Images](#images)
@@ -143,6 +145,7 @@ For a *Asset Group* record, the following attribute fields are available in the 
 - [Path 2](#path2)
 - [Status](#status)
 - [Start Date](#startdate)
+- [Tracking Template](#trackingtemplate)
 
 ## <a name="assetgroup"></a>Asset Group
 The name of the asset group.
@@ -186,6 +189,26 @@ Used to associate records in the bulk upload file with records in the results fi
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.   
+**Delete:** Read-only  
+
+## <a name="customparameter"></a>Custom Parameter
+Your custom collection of key and value parameters for URL tracking.
+
+In a bulk file, the list of custom parameters are formatted as follows.
+
+- Format each custom parameter pair as Key=Value, for example {_promoCode}=PROMO1.
+
+- Microsoft Advertising will accept the first 8 custom parameter key and value pairs that you include, and if you include more than 8 custom parameters an error will be returned. Each key and value pair are delimited by a semicolon and space ("; "), for example {_promoCode}=PROMO1; {_season}=summer.  
+
+- A Key cannot contain a semicolon. If a Value contains a semicolon it must be escaped as '\\;'. Additionally if the Value contains a backslash it must also be escaped as '\\'.
+
+- The Key cannot exceed 16 UTF-8 bytes, and the Value cannot exceed 250 UTF-8 bytes. The Key is required and the Value is optional. The maximum size of the Key does not include the braces and underscore i.e., '{', '_', and '}'.  
+
+    > [!NOTE] 
+    > With the Bulk service the Key must be formatted with surrounding braces and a leading underscore, for example if the Key is promoCode, it must be formatted as {_promoCode}. With the Campaign Management service you cannot specify the surrounding braces and underscore.
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. To remove all custom parameters, set this field to *delete_value*. The *delete_value* keyword removes the previous setting. To remove a subset of custom parameters, specify the custom parameters that you want to keep and omit any that you do not want to keep. The new set of custom parameters will replace any previous custom parameter set.  
 **Delete:** Read-only  
 
 ## <a name="descriptions"></a>Descriptions
@@ -260,7 +283,7 @@ The `id` attribute is a unique Microsoft Advertising identifier for the asset in
 The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account. After you upload a text asset the result file will include the asset identifier e.g., `""id:""123`, whether the asset is new or already existed in the account's asset library. 
 
 ### <a name="description-text"></a>text
-Each description's `text` attribute must contain at least one word. The maximum input length of each description's `text` attribute is 90 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 45 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or ad group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
+Each description's `text` attribute must contain at least one word. The maximum input length of each description's `text` attribute is 90 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 45 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or asset group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
 
 The `text` attribute cannot contain the newline (\n) character.  
 
@@ -352,6 +375,13 @@ The following validation rules apply to Final URLs and Final Mobile URLs.
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
+## <a name="finalurlsuffix"></a>Final Url Suffix
+The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. For more details and validation rules see [Final URL Suffix](../guides/url-tracking-upgraded-urls.md#finalurlsuffixvalidation) in the technical guides.  
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
+**Delete:** Read-only  
+
 ## <a name="headlines"></a>Headlines
 The list of headlines that Bing can use to optimize the ad layout.
 
@@ -424,7 +454,7 @@ The `id` attribute is a unique Microsoft Advertising identifier for the asset in
 The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account. After you upload a text asset the result file will include the asset identifier e.g., `""id:""123`, whether the asset is new or already existed in the account's asset library. 
 
 ### <a name="headline-text"></a>text
-Each headline's `text` attribute must contain at least one word. The maximum input length of each headline's `text` attribute is 30 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 15 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or ad group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
+Each headline's `text` attribute must contain at least one word. The maximum input length of each headline's `text` attribute is 30 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 15 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or asset group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
 
 The `text` attribute cannot contain the newline (\n) character.
 
@@ -638,7 +668,7 @@ The `id` attribute is a unique Microsoft Advertising identifier for the asset in
 The same asset can be used by multiple ads. For example if "Seamless Integration" is a text asset, it will have the same asset identifier across all ads in the same Microsoft Advertising account. After you upload a text asset the result file will include the asset identifier e.g., `""id:""123`, whether the asset is new or already existed in the account's asset library.
 
 ### <a name="longheadline-text"></a>text
-Each long headline's `text` attribute must contain at least one word. The maximum input length of each headline's `text` attribute is 90 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 45 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or ad group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
+Each long headline's `text` attribute must contain at least one word. The maximum input length of each headline's `text` attribute is 90 characters. For languages with double-width characters e.g. Traditional Chinese the maximum input length is 45 characters. The double-width characters are determined by the characters you use instead of the character set of the campaign or asset group language settings. Double-width characters include Korean, Japanese and Chinese languages characters as well as Emojis.
 
 The `text` attribute cannot contain the newline (\n) character.
 
@@ -678,7 +708,7 @@ The system-generated identifier of the campaign that contains the asset group.
 
 This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 
-**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are adding new ad groups to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are adding new asset groups to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
 
@@ -737,4 +767,21 @@ The start date is inclusive. For example, if you set *Start Date* to 5/5/2020, t
 
 **Add:** Optional. If you do not set this field or if the date you submit is prior to today's date, then today's date will be set and the service can begin serving the asset group as soon as the asset group status is active.  
 **Update:** Optional. If no value is set for the update, this setting is not changed. The start date cannot be updated after the asset group is submitted i.e., once the start date has arrived.  
+**Delete:** Read-only  
+
+## <a name="trackingtemplate"></a>Tracking Template
+The tracking template to use as a default for all URLs in your asset group.
+
+The following validation rules apply to tracking templates. For more details about supported templates and parameters, see the Microsoft Advertising help article [What tracking or URL parameters can I use?](https://help.ads.microsoft.com/#apex/3/en/56799/2)
+
+- Tracking templates defined for lower level entities e.g. ads override those set for higher level entities e.g. campaign. For more information, see [Entity Limits](../guides/entity-hierarchy-limits.md).
+
+- The length of the tracking template is limited to 2,048 characters. The HTTP or HTTPS protocol string does count towards the 2,048 character limit.
+
+- The tracking template must be a well-formed URL beginning with one of the following: *http://*, *https://*, *{lpurl}*, or *{unescapedlpurl}*.  
+
+- Microsoft Advertising does not validate whether custom parameters exist. If you use custom parameters in your tracking template and they do not exist, then the landing page URL will include the key and value placeholders of your custom parameters without substitution. For example, if your tracking template is *`https://tracker.example.com/?season={_season}&promocode={_promocode}&u={lpurl}`*, and neither *{_season}* or *{_promocode}* are defined at the campaign, asset group, criterion, keyword, or ad level, then the landing page URL will be the same.
+
+**Add:** Optional  
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
