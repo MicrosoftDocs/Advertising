@@ -19,6 +19,9 @@ Defines the possible additional fields for an asset group.
       <xs:restriction base="xs:string">
         <xs:enumeration value="AssetGroupSearchThemes" />
         <xs:enumeration value="AssetGroupUrlTargets" />
+        <xs:enumeration value="TrackingUrlTemplate" />
+        <xs:enumeration value="FinalUrlSuffix" />
+        <xs:enumeration value="UrlCustomParameters" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -27,12 +30,15 @@ Defines the possible additional fields for an asset group.
 
 ## <a name="values"></a>Values
 
-The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the following values: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets).
+The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the following values: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [FinalUrlSuffix](#finalurlsuffix), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters).
 
 |Value|Description|
 |-----------|---------------|
-|<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Include the *AssetGroupSearchThemes* field.|
-|<a name="assetgroupurltargets"></a>AssetGroupUrlTargets|Reserved.|
+|<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Request that the [AssetGroupSearchThemes](assetgroup.md#assetgroupsearchthemes) element be included within each returned [AssetGroup](assetgroup.md) object.|
+|<a name="assetgroupurltargets"></a>AssetGroupUrlTargets|Request that the [AssetGroupUrlTargets](assetgroup.md#assetgroupurltargets) element be included within each returned [AssetGroup](assetgroup.md) object.|
+|<a name="finalurlsuffix"></a>FinalUrlSuffix|Request that the [FinalUrlSuffix](assetgroup.md#finalurlsuffix) element be included within each returned [AssetGroup](assetgroup.md) object.|
+|<a name="trackingurltemplate"></a>TrackingUrlTemplate|Request that the [TrackingUrlTemplate](assetgroup.md#trackingurltemplate) element be included within each returned [AssetGroup](assetgroup.md) object.|
+|<a name="urlcustomparameters"></a>UrlCustomParameters|Request that the [UrlCustomParameters](assetgroup.md#urlcustomparameters) element be included within each returned [AssetGroup](assetgroup.md) object.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
