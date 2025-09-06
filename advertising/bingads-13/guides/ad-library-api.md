@@ -12,7 +12,12 @@ ms.custom: sfi-image-nochange
 
 # Ad Library API Overview
 
-The Ad Library is a public transparency tool that allows you to view all ads shown on Bing.com. You can search for ads by advertiser name and keywords present in the ad copy, and you will see both the ad content and additional ad details. The ad library is part of a compliance effort to ensure we are creating a safe and open internet for our users. 
+The Ad Library is a public transparency tool that allows you to view all ads shown on Bing.com. You can search for ads by advertiser name and keywords present in the ad copy, and you will see both the ad content and additional ad details. The ad library is part of a compliance effort to ensure we are creating a safe and open internet for our users.  
+
+> [!NOTE]
+> The Ad Library is designed to meet EU legal compliance requirements. It contains only advertisements served within the European Economic Area (EEA) and is primarily intended for regulatory visibility rather than performance analysis.
+>
+> For most reporting and optimization needs, we recommend using the [Reporting APIs](../reporting-service/reporting-service-reference.md), such as [UserLocationPerformanceReportRequest](../reporting-service/userlocationperformancereportrequest.md), which provide more detailed metrics including impressions, clicks, and spend. These APIs also offer lower latency, improved performance, and broader support for production use cases.  
 
 ## <a name="resource"></a>Ad Library API Resource
 
@@ -30,7 +35,7 @@ To create the endpoints used to query the Ad Library, append the appropriate tem
 | ----------- | ----- | ------------------------- | -------------- |
 | Advertisers | Get | Get Advertisers by Name<br/><br/>Parameters:<br/>- top (int32, default 3)<br/>- skip (int32, default 0)<br/>- searchText (string, default “”) | Array\<Advertiser> |
 | Advertisers({AdvertiserId})<br/>or<br/>Advertisers/{AdvertiserId} | Get | Get Advertiser by Id<br/><br/>Parameters: none<br/><br/>*Note*: AdvertiserId may be an AccountId or VerifiedAdvertiserId. Multiple accounts may be verified under the same identity. If a verified AccountId is requested the parent VerifiedAdvertiserId will be returned instead. | Advertiser |
-| Ads  | Get | Get Ads by Advertiser/Content<br/><br/>Parameters:<br/>• top (int32, default 12)<br/>• skip (int64, default 0)<br/>• startDate (string)<br/>• endDate (string)<br/>    • Dates in format ‘yyyy-MM-dd’<br/>• countryCodes (string)<br/><br/>Comma separated values, i.e. ’10,26,53’<br/>• advertiserId (int64)<br/>• searchText (string) | Array\<Ad> |
+| Ads  | Get | Get Ads by Advertiser/Content<br/><br/>Parameters:<br/>• top (int32, default 12)<br/>• skip (int64, default 0)<br/>• startDate (string)<br/>• endDate (string)<br/>    • Dates in format ‘yyyy-MM-dd’<br/>• countryCodes (string)<br/><br/>Comma separated values, i.e. ’10,26,53’<br/>• advertiserId (int64)<br/>• searchText (string)<br/><br/>*Note*:  You can only request *AdDetails* when querying for a single *Ad*. *AdDetails* isn't supported when querying for multiple *Ads*.| Array\<Ad> |
 Ads({AdId})<br/>or<br/>Ads/{AdId} | Get | Get Ad by Id<br/><br/>Parameters: none | Ad |
 
 ### <a name="data-objects"></a>Data Objects
@@ -76,6 +81,13 @@ Defines an ad.
 
 Defines additional details for an ad.
 
+> [!TIP]
+> Use the `$expand` query to include *AdDetails* for an *Ad* object. For example, `adlibrary.api.bingads.microsoft.com/api/v1/Ads/your_ad_number?expand=AdDetails`
+>
+> Use the *ImpressionsByCountry* or *Targets* expand options to fetch for those details. For example, `adlibrary.api.bingads.microsoft.com/api/v1/Ads/your_ad_number?expand=AdDetails(expand=ImpressionsByCountry,Targets)`
+> [!WARNING]
+> You can only request *AdDetails* when querying for a single *Ad*. *AdDetails* isn't supported when querying for multiple *Ads*.  
+
 | Name | Value | Type |
 | ----------- | -------------------------------- | ------------ |
 | PaidForByName | The name of the customer who paid for the ad if different than the account owner. | String |
@@ -83,7 +95,7 @@ Defines additional details for an ad.
 | EndDate | The UTC date when the ad last ran, or when the last eligible impression was recorded by the Ad Library.<br/><br/>*Note*: In addition to the above note, there may be a 1-3 day delay in information appearing in the Ad Library, so the EndDate may not reflect newer impressions shown in the last few days if an ad is still active. | String |
 | TotalImpressionsRange | A range representing the total number of impressions the ad has received in the EU and EEA. | String
 | ImpressionsByCountry | A list of key-value pairs representing the percentage share of impressions for each EU or EEA member country. | array\<CountryImpressionShareObject> |
-| TargetTypes | A list of target types used for ad targeting, and whether they were also used for exclusion.<br/><br/>*Note*: This is an aggregate list of all target types used at any point during the ad run for all eligible impressions and may not necessarily indicate which factors were used for a specific impression. | array\<TargetTypeDetails> |
+| Targets | A list of targets used for ad targeting, and whether they were also used for exclusion.<br/><br/>*Note*: This is an aggregate list of all targets used at any point during the ad run for all eligible impressions and may not necessarily indicate which factors were used for a specific impression.| array\<TargetDetails> |
 | RestrictionReason | If present, the reason an ad has been restricted from serving further or displaying in the Ad Library. | RestrictionReason
 
 #### <a name="countryimpressionshare"></a>CountryImpressionShare
