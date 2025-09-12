@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 description: The UET Conversion API integration (CAPI) guide provides a comprehensive overview for advertisers on how to implement Microsoft's Universal Event Tracking (UET) server-to-server event tracking solution.
 ---
-# UET Conversion API Integration Guide (CAPI)
+# UET Conversion API Integration (CAPI) Guide 
 
 UET Conversion API Integration outlines how advertisers can implement server-side tracking for conversions using Microsoft Advertising’s Universal Event Tracking (UET). By leveraging the Conversion API, businesses can capture key user actions—such as purchases, subscriptions, and custom goals—even when client-side tracking is limited by browser restrictions or ad blockers. The guide walks through setup steps, payload formatting, and SDK usage for apps, enabling more accurate attribution and campaign optimization across platforms.
 
