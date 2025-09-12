@@ -52,7 +52,7 @@ We recommend you instrument this ID sync pixel on as many site pages as possible
 
 Please include the following parameters:
 
-- **Red3** – (required) Microsoft assigned customer id in the format BACID_<CID>
+- **Red3** – (required) Microsoft assigned customer id in the format `BACID_<CID>`
 - **VID** – (required) guest user anonymous id, preferably a GUID
 - **UID** – (optional) authenticated user id (anonymized)
 
@@ -429,7 +429,7 @@ In most cases it will make sense to pass the same value for revenue and ecommTot
 
 ### Hotel Conversions
 
-For hotel conversions you can send the following additional fields. See here for more information: https://learn.microsoft.com/hu-hu/advertising/hotel-service/conversion-metrics
+For hotel conversions you can send the following additional fields. [Learn more](../../hotel-ads/)
 
 Please also send currency and revenue value as appropriate.
 
