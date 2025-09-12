@@ -429,7 +429,7 @@ In most cases it will make sense to pass the same value for revenue and ecommTot
 
 ### Hotel Conversions
 
-For hotel conversions you can send the following additional fields. [Learn more](../../hotel-ads/)
+For hotel conversions you can send the following additional fields. [Learn more](../../hotel-ads/index.md)
 
 Please also send currency and revenue value as appropriate.
 
