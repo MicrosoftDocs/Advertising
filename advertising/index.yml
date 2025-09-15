@@ -151,17 +151,17 @@ conceptualContent:
           itemType: reference
           text: Supply Partners
       # Card
-    - title: Clean Room
+    - title: Data Clean Room
       links:
-        - url: /advertising/clean-room/
+        - url: /advertising/data-clean-room/
           itemType: overview
           text: Overview
-        - url: /advertising/clean-room/audience-segments
-          itemType: reference
-          text: Audience segments
-        - url: /advertising/clean-room/exposure-feed
+        - url: /advertising/data-clean-room/exposure-feed
           itemType: reference
           text: Exposure feed
-        - url: /advertising/clean-room/metadata
+        - url: /advertising/data-clean-room/audience-segments
+          itemType: reference
+          text: Audience segments
+        - url: /advertising/data-clean-room/metadata
           itemType: reference
           text: Metadata
