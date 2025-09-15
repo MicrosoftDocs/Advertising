@@ -1,5 +1,5 @@
 ---
-title: Audience segments - Clean Room
+title: Audience segments - Data Clean Room
 ms.service: bing-ads
 ms.topic: article
 author: jonmeyers
