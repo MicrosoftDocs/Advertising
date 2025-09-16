@@ -112,7 +112,7 @@ Defines an error.
 |----|-----|----
 |domain|For internal use only.|String
 |location|Not used.|String
-|locationType|Not used.|String|See the **type** attribute of the \<location\> element  
+|locationType|Not used.|String
 |message|A description of the error.|String
 |reason|The reason why the request failed. For example, the product failed validation.|String
 
@@ -147,7 +147,7 @@ Defines an item in a batch request.
 |batchId|A user-defined ID that identifies this item in the batch request. For example, if the batch contains 10 items, you can assign them IDs 1 through 10.|Unsigned Integer
 |errors|An error object that contains a list of validation errors that occurred. The response includes this field only when an error occurs.|[BatchItemError](#batchitemerror)
 |merchantId|The Merchant Center store ID.|Unsigned Long
-|method|The action to apply to the item. The possible values are `insert`, `get`, and `delete`. If the item is adding or updating a product offering, set **method** to `insert`; if the item is deleting a product, set **method** to `delete`; and if the item is getting a product, set **method** to ```get```. The strings are case insensitive.|String|See the `method` attribute of the \<entry\> element
+|method|The action to apply to the item. The possible values are `insert`, `get`, and `delete`. If the item is adding or updating a product offering, set **method** to `insert`; if the item is deleting a product, set **method** to `delete`; and if the item is getting a product, set **method** to ```get```. The strings are case insensitive.|String
 |product|The product offering. Specify this field in a request only if inserting (updating) a product. The response will include this field for gets and inserts (updates) only.|[Product](#product)
 |productId|The fully qualified product ID (for example, Online:en:US:Sku123). Include this field only when getting or deleting a product offering.<br/><br/>Do not include multiple items with the same product ID in a batch request.|String
 
@@ -289,7 +289,7 @@ Defines the item's shipping weight.
 
 |Name|Value|Type
 |----|-----|----
-|unit|Gets or sets the unit of measure.|String|`unit` attribute.<br/><br/>For example, \<shipping_weight unit="oz"\>.
+|unit|Gets or sets the unit of measure.|String
 |value|Gets or sets the item's weight, which is used to calculate the item's shipping cost.|String
 
 ### <a name="producttax"></a>ProductTax
