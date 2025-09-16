@@ -16,5 +16,4 @@ Content API is a RESTful API that provides standard CRUD (Create, Read, Update, 
 |---------|---------------
 |[Products](products-resource.md)|Resource used to manage products in a catalog.
 |[Inventory](inventory-resource.md)|Resource used to update product pricing and availability in a catalog.
-|[Status](status-resource.md)|Resource used to get the status of product offers uploaded to a catalog.
 |[Catalogs](catalogs-resource.md)|Resource used to create and manage catalogs.

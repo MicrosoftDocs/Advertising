@@ -24,7 +24,7 @@ If you manage catalogs on behalf of other customers, you must set:
 - The [CustomerId](../shopping-content/products-resource.md#customerid) header to the customer ID of the customer whose store you're managing.
 - The [CustomerAccountId](../shopping-content/products-resource.md#customeraccountid) header to the account ID of any of the customer's accounts that you manage (it doesn't matter which managed account).
 
-By default, the Content API uses JSON objects to represent the product offer. To use XML, set the [alt](../shopping-content/products-resource.md#alt) query parameter to XML.
+By default, the Content API uses JSON objects to represent the product offer.
 
 For details about using the Products resource, see the following sections.
 
@@ -141,7 +141,7 @@ If you specify a field that is unknown to the Content API, the service ignores t
 
 When you insert an offer, the service performs basic validations on the offer and returns errors and warnings as appropriate. If an error occurs, the response contains an `ErrorResponse` object. If warnings occur, the response contains a `Product` object and the `warnings` field lists the warnings. 
 
-If the offer passes the basic validations, it undergoes offline validations and reviews, such as editorial reviews, that can take up to 36 hours. The offer won't serve until all validations and reviews are complete. To determine the status of an offer, use the [Status](../shopping-content/status-resource.md) resource.
+If the offer passes the basic validations, it undergoes offline validations and reviews, such as editorial reviews, that can take up to 36 hours. The offer won't serve until all validations and reviews are complete.
 
 Note that the API does not provide concurrency controls such as ETags. If two apps are trying to add or update the same product, the last one wins.   
 

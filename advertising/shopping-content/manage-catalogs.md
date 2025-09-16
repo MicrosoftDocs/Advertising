@@ -24,7 +24,7 @@ If you manage catalogs on behalf of other customers, you must set:
 - The [CustomerId](../shopping-content/catalogs-resource.md#customerid) header to the customer ID of the customer whose store you're managing.
 - The [CustomerAccountId](../shopping-content/catalogs-resource.md#customeraccountid) header to the account ID of any of the customer's accounts that you manage (it doesn't matter which managed account).
 
-By default, the Content API uses JSON objects to represent the catalogs. To use XML, set the [alt](../shopping-content/products-resource.md#alt) query parameter to XML.
+By default, the Content API uses JSON objects to represent the catalogs.
 
 For details about using the Catalogs resource, see the following sections.
 
