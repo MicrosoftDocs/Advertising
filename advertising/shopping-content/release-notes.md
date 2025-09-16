@@ -102,8 +102,6 @@ For an overview and reference information about the `catalogs` resource, see the
 ## <a name="october2015"></a>October 2015
 For information about the changes to the Content API  services included in this release, see the following sections.
 
--   [Status Resource](#staturesource-october2015)
-
 -   [Documentation Reorganization](#docreorg-october2015)
 
 ### <a name="docreorg-october2015"></a>Documentation Reorganization
