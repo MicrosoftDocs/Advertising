@@ -29,13 +29,6 @@ This section provides code examples that show how to use the resources available
 <a name="batchinventoryupdate"></a>
 [Updating pricing and availability for a batch of products](code-example-batch-product-update.md)
 
-
-## Catalog status resource code examples
-
-<a name="status"></a>
-[Downloading the Catalog Status Report](code-example-download-catalog-status-report.md)   
-
-
 ## Catalog resource code examples
 
 <a name="catalog"></a>
