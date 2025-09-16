@@ -157,6 +157,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Feed Label](#feedlabel)|Performance Max<br/>Search|
 |[Final Url Suffix](#finalurlsuffix)|All|
 |[Id](#id)|All|
+|[IsPolitical](#ispolitical)|All|
 |[Keyword Relevance](#keywordrelevance)|All|
 |[Landing Page Relevance](#landingpagerelevance)|All|
 |[Landing Page User Experience](#landingpageuserexperience)|All|
@@ -585,6 +586,16 @@ The system-generated identifier of the campaign.
 
 ## <a name="ismultichannelcampaign"></a>Is Multi Channel Campaign
 Reserved for future use.
+
+## <a name="ispolitical"></a>Is Political
+Indicates whether a campaign is political. Microsoft doesn't currently support political campaigns. If *IsPolitical* is set to *true*, attempts to add or update the campaign will fail with the error: *PoliticalCampaignsAreNotSupported*. Additionally, if this field is empty or null in a GET call or bulk download, its value is treated as *false*.
+
+**Add:** Optional. If set to *true*, the add will fail.  
+**Update:** Optional. If set to *true*, the update will fail.  
+**Delete:** Read-only  
+
+> [!NOTE]
+> For update and delete, you must specify either the [Id](#id) or [Campaign](#campaign) field.
 
 ## <a name="keywordrelevance"></a>Keyword Relevance
 A numeric score that indicates how likely your ads will be clicked and how well your keyword competes against other keywords targeting the same traffic. This score predicts whether your keyword is likely to lead to a click on your ads, taking into account how well your keyword has performed in the past relative to your ad's position.
