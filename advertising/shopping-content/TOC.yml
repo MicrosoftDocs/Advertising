@@ -20,8 +20,6 @@
   href: manage-catalogs.md
 - name: Managing your stores
   href: manage-stores.md
-- name: How do I get the status of product offers?
-  href: how-get-status-product-offers.md
 - name: Code Examples
   href: code-examples.md
   displayName: .net c# csharp java
