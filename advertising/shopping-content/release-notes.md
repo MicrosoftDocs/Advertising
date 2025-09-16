@@ -106,13 +106,6 @@ For information about the changes to the Content API  services included in this 
 
 -   [Documentation Reorganization](#docreorg-october2015)
 
-### <a name="staturesource-october2015"></a>Status Resource
-This release introduces the `status` resource.
-
-For an overview and reference information about the `status` resource, see the topic [Catalog Status Resource](../shopping-content/status-resource.md).
-
-For an example of using the `status` resource in code, see the topic [Catalog Status Resource Code Examples](../shopping-content/code-examples.md#catalog).
-
 ### <a name="docreorg-october2015"></a>Documentation Reorganization
 The Content API was previously documented as "Version 1" and "Version 2". To make the documentation consistent, the version number used in documentation has been changed to use the version in the URI.
 
