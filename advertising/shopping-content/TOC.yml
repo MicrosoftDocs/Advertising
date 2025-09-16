@@ -36,15 +36,11 @@
     href: code-example-batch-product-update.md
   - name: Managing catalogs
     href: code-example-manage-catalogs.md
-  - name: Downloading a catalog status report
-    href: code-example-download-catalog-status-report.md
-- name: JSON and XML examples
-  href: json-xml-examples.md
+- name: JSON examples
+  href: json-examples.md
   items:
   - name: Example JSON product offer
     href: example-json-product-offer.md
-  - name: Example XML product offer
-    href: example-xml-product-offer.md
   - name: Error response example
     href: error-response-example.md
 - name: API Reference
@@ -59,8 +55,6 @@
     href: products-resource.md
   - name: ProductStatuses resource
     href: productstatus-resource.md
-  - name: Status resource
-    href: status-resource.md
   - name: Store resource
     href: store-resource.md
 - name: Release notes

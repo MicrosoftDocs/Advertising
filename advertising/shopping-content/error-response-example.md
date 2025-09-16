@@ -8,9 +8,9 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 ---
 # Error Response Example
-The error response varies depending on the URI being called. See the following responses for JSON and XML examples.
+The error response varies depending on the URI being called. See the following responses for JSON examples.
 
-The following shows a JSON error response when trying to insert a single offer. 
+The following shows a JSON error response when trying to insert a single offer.
 
 ```json
 {
@@ -75,42 +75,4 @@ The following shows a JSON error response when trying to insert an offer in a ba
     }
   ]
 }
-```
-
-The following shows an XML error response when trying to insert a single offer.
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<errors xmlns="http://schemas.google.com/g/2005">
-  <error>
-    <reason>validation/internal</reason>
-    <internalReason>Internal error occurred. Please retry...</internalReason>
-    <domain>sc</domain>
-  </error>
-  <warning> 
-    <reason>validation</reason> 
-    <internalReason>The GTIN is required.</internalReason> 
-    <domain>content.ContentErrorDomain</domain> 
-  </warning> 
-  <code>400</code> 
-</errors>
-```
-
-
-The following shows an XML error response when trying to insert an offer in a batch request. 
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<batch>
-  <entry batch_id="1" method="insert">
-    <merchant_id>37724</merchant_id>
-    <errors xmlns="http://schemas.google.com/g/2005">
-      <error>
-        <internalReason>Invalid value for...</internalReason>
-        <domain>GData</domain>
-        <code>invalid</code>
-      </error>
-    </errors>
-  </entry>
-</batch>
 ```
