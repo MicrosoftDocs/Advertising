@@ -18,9 +18,9 @@ You can download all *Campaign* records in the account by including the [Downloa
 The following Bulk CSV example would add one Search campaign. 
 
 ```csv
-Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Language,Target Setting,Priority,Tracking Template,Final Url Suffix,Custom Parameter,Bid Strategy Type,Domain Language,Source
+Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Language,Target Setting,Priority,Tracking Template,Final Url Suffix,Custom Parameter,Bid Strategy Type,Domain Language,Source,Is Political
 Format Version,,,,,,,,,,,,,,6.0,,,,,,,,,,,,
-Campaign,Active,-111,0,Women's Shoes,,ClientIdGoesHere,,PacificTimeUSCanadaTijuana,,,50,DailyBudgetStandard,10,,,,Search,All,Audience,,,,{_promoCode}=PROMO1; {_season}=summer,EnhancedCpc,,
+Campaign,Active,-111,0,Women's Shoes,,ClientIdGoesHere,,PacificTimeUSCanadaTijuana,,,50,DailyBudgetStandard,10,,,,Search,All,Audience,,,,{_promoCode}=PROMO1; {_season}=summer,EnhancedCpc,,False
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkCampaign* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
