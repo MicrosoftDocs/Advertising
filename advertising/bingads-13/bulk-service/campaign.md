@@ -18,7 +18,7 @@ You can download all *Campaign* records in the account by including the [Downloa
 The following Bulk CSV example would add one Search campaign. 
 
 ```csv
-Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Language,Target Setting,Priority,Tracking Template,Final Url Suffix,Custom Parameter,Bid Strategy Type,Domain Language,Source,Is Political
+Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Language,Target Setting,Priority,Tracking Template,Final Url Suffix,Custom Parameter,Bid Strategy Type,Domain Language,Source,Is political
 Format Version,,,,,,,,,,,,,,6.0,,,,,,,,,,,,
 Campaign,Active,-111,0,Women's Shoes,,ClientIdGoesHere,,PacificTimeUSCanadaTijuana,,,50,DailyBudgetStandard,10,,,,Search,All,Audience,,,,{_promoCode}=PROMO1; {_season}=summer,EnhancedCpc,,False
 ```
@@ -590,8 +590,8 @@ Reserved for future use.
 ## <a name="ispolitical"></a>Is Political
 Indicates whether a campaign is political. Microsoft doesn't currently support political campaigns. If *IsPolitical* is set to *true*, attempts to add or update the campaign will fail with the error: *PoliticalCampaignsAreNotSupported*. Additionally, if this field is empty or null in a GET call or bulk download, its value is treated as *false*.
 
-**Add:** Optional. If set to *true*, the add will fail.  
-**Update:** Optional. If set to *true*, the update will fail.  
+**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* is set.   
+**Update:** Optional. If you do not specify this field or leave it empty, the default value of *false* is set.  
 **Delete:** Read-only  
 
 > [!NOTE]
