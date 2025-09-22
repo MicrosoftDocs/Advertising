@@ -66,7 +66,7 @@ If the data aggregation is not available for a given report, it will be noted as
 |[Ad Group Performance Report](../reporting-service/adgroupperformancereportrequest.md)|Ad Group|6|36|36|36|36|36|
 |[Audience Performance Report](../reporting-service/audienceperformancereportrequest.md)|Audiences|6|36|36|36|36|36|
 |[Campaign Performance Report](../reporting-service/campaignperformancereportrequest.md)|Campaign|6|36|36|36|36|36|
-|[Combination Performance Report](../reporting-service/combinationperformancereportrequest.md)|Combination|30 days|30 days|30 days|30 days|30 days|30 days|
+|[Combination Performance Report](../reporting-service/combinationperformancereportrequest.md)|Combination|6|36|36|36|36|36|
 |[Destination Url Performance Report](../reporting-service/destinationurlperformancereportrequest.md)|Destination URL|6|36|36|36|36|36|
 |[Keyword Performance Report](../reporting-service/keywordperformancereportrequest.md)|Keyword|6|36|36|36|36|36|
 |[Publisher Usage Performance Report](../reporting-service/publisherusageperformancereportrequest.md)|Website URL (publisher)|2|36|36|36|36|36|
