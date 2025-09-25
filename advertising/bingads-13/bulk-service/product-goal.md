@@ -91,9 +91,9 @@ The category used to segment the conversion goal.
 
 Categorize your conversion goals however makes sense for your business. Goal categories don't affect performance - they are here to help you segment your goals and their performance metrics.
 
-The supported category values vary by conversion goal type. Product goals only support the [Download](../campaign-management-service/conversiongoalcategory.md#download) category.
+The supported category values vary by conversion goal type. Product goals only support the [Purchase](../campaign-management-service/conversiongoalcategory.md#purchase) category.
 
-**Add**: Optional. If you leave this element nil or empty, the default category will be set to [Download](../campaign-management-service/conversiongoalcategory.md#download).  
+**Add**: Optional. If you leave this element nil or empty, the default category will be set to [Purchase](../campaign-management-service/conversiongoalcategory.md#purchase).  
 **Update**: Optional. If no value is set for the update, this setting is not changed.
 
 ## <a name="id"></a>Id
