@@ -25,6 +25,25 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+## <a name="september2025"></a>September 2025
+
+> [!NOTE]
+> The European Union (EU) Regulation 2024/900 about the transparency and targeting of political advertising will take effect on October 10, 2025. We have updated our political advertising policies to include the EU regulatory requirements. To comply with the regulation, you are required to declare whether campaigns are intended for political advertising before campaign creation and import. If it is, any political advertising must be removed to proceed.  
+>
+> Microsoft Advertising doesn't allow political advertising on its platform. Campaigns intended for political advertising won't be allowed to proceed as per our policies. We expect our customers to take steps to ensure compliance with this policy.  
+
+- [New API Interfaces](#newapiinterfaces-september2025)  
+- [Bulk Service](#bulkservice-september2025)  
+
+### <a name="newapiinterfaces-september2025"></a>New API Interfaces  
+
+- **Campaign Management API**:
+  - New element IsPolitical in Campaign data object: [Campaign](../campaign-management-service/campaign.md#ispolitical).
+
+### <a name="bulkservice-september2025"></a>Bulk Service
+
+- New entity IsPolitical in [BulkCampaign](../bulk-service/campaign.md#ispolitical).
+
 ## <a name="february2025"></a>February 2025
 
 See below for Bing Ads API updates during this calendar month.  
