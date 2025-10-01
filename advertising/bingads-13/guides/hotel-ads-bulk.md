@@ -10,8 +10,6 @@ description: Update hotels, hotel groups, and hotel associations with the Bulk A
 ---
 # Hotel Price Ads Bulk Update
 
-[!INCLUDE[coming-soon](../../hotel-ads/includes/property-center-coming-soon.md)]
-
 > [!NOTE]
 > Hotel Price Ads is available to select beta participants only. For more information see [Hotel Price Ads](/advertising/hotel-ads/index). 
 
