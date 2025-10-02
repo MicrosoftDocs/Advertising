@@ -118,7 +118,7 @@ conceptualContent:
           itemType: reference
           text: Reference
     # Card
-    - title: Xandr Platform
+    - title: Buying and Selling Platforms
       links:
         - url: /xandr/industry-reference
           itemType: concept
