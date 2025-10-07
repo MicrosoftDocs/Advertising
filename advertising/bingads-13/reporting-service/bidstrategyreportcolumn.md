@@ -35,11 +35,11 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="Clicks" />
     <xs:enumeration value="Ctr" />
     <xs:enumeration value="Spend" />
-    <xs:enumeration value="Conversions" />
+    <xs:enumeration value="ConversionsQualified" />
     <xs:enumeration value="ConversionRate" />
     <xs:enumeration value="AverageCpc" />
     <xs:enumeration value="ConversionDelay" />
-    <xs:enumeration value="CPA" />
+    <xs:enumeration value="CostPerConversionQualified" />
     <xs:enumeration value="ROAS" />
     <xs:enumeration value="AvgTargetCPA" />
     <xs:enumeration value="AvgTargetRoas" />
@@ -51,7 +51,7 @@ Defines the attributes and performance statistics columns that you can include i
 
 ## <a name="values"></a>Values
 
-The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AverageCpc](#averagecpc), [AvgTargetCPA](#avgtargetcpa), [AvgTargetImpressionShare](#avgtargetimpressionshare), [AvgTargetRoas](#avgtargetroas), [BidStrategyType](#bidstrategytype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Clicks](#clicks), [ConversionDelay](#conversiondelay), [ConversionRate](#conversionrate), [Conversions](#conversions), [CPA](#cpa), [Ctr](#ctr), [CurrentMaxCpc](#currentmaxcpc), [Impressions](#impressions), [ImpressionSharePercent](#impressionsharepercent), [NumOfCampaigns](#numofcampaigns), [PortfolioBidStrategyName](#portfoliobidstrategyname), [PortfolioBidStrategyStatus](#portfoliobidstrategystatus), [ROAS](#roas), [Spend](#spend), [TargetAdPositionType](#targetadpositiontype), [TargetCPA](#targetcpa), [TargetImpressionShare](#targetimpressionshare), [TargetRoas](#targetroas), [TimePeriod](#timeperiod).
+The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AverageCpc](#averagecpc), [AvgTargetCPA](#avgtargetcpa), [AvgTargetImpressionShare](#avgtargetimpressionshare), [AvgTargetRoas](#avgtargetroas), [BidStrategyType](#bidstrategytype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Clicks](#clicks), [ConversionDelay](#conversiondelay), [ConversionRate](#conversionrate), [ConversionsQualified](#conversionsqualified), [CostPerConversionQualified](#costperconversionqualified), [Ctr](#ctr), [CurrentMaxCpc](#currentmaxcpc), [Impressions](#impressions), [ImpressionSharePercent](#impressionsharepercent), [NumOfCampaigns](#numofcampaigns), [PortfolioBidStrategyName](#portfoliobidstrategyname), [PortfolioBidStrategyStatus](#portfoliobidstrategystatus), [ROAS](#roas), [Spend](#spend), [TargetAdPositionType](#targetadpositiontype), [TargetCPA](#targetcpa), [TargetImpressionShare](#targetimpressionshare), [TargetRoas](#targetroas), [TimePeriod](#timeperiod).
 
 |Value|Description|
 |-----------|---------------|
@@ -69,8 +69,8 @@ The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the foll
 |<a name="clicks"></a>Clicks|Clicks are what you pay for. Clicks typically include a customer clicking an ad on a search results page or on a website on the search network. Clicks can also come from other sources (for example, spiders, robots, and test servers). For more information, see [Microsoft Advertising click measurement: description of methodology](https://help.ads.microsoft.com/#apex/ads/en/60220/0).|
 |<a name="conversiondelay"></a>ConversionDelay|The time gap between when a user clicks on an ad and when they complete a desired action, such as making a purchase, signing up, or downloading an app.|
 |<a name="conversionrate"></a>ConversionRate|The conversion rate as a percentage.<br/><br/>The number of conversions, divided by the total number of clicks. For example, if the ads in your campaign got 300 clicks and four conversions, the conversion rate is 1.33 (%).<br/><br/>The formula for calculating the conversion rate is (Conversions / Clicks) x 100.<br/><br/>Data will be excluded from the [ConversionRate](#conversionrate) report column for any conversion goal with the [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) property set to true.<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
-|<a name="conversions"></a>Conversions|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.|
-|<a name="cpa"></a>CPA|The actual cost per acquisition (CPA).|
+|<a name="conversionsqualified"></a>ConversionsQualified|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.|
+|<a name="costperconversionqualified"></a>CostPerConversionQualified|The actual cost per conversion (CPC).|
 |<a name="ctr"></a>Ctr|The click-through rate (CTR) is the number of times an ad was clicked, divided by the number of times the ad was shown (impressions). For example, if your ads got 50 clicks given 2,348 impressions, your CTR is 2.13 (%). The formula for calculating CTR is (*Clicks* / *Impressions*) x 100.|
 |<a name="currentmaxcpc"></a>CurrentMaxCpc|In the account/portfolio scope, the maximum cost per click bid that was in effect at the time the report was generated. It's not a moving historical bid throughout the report time period.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions, there are no clicks or conversions.|

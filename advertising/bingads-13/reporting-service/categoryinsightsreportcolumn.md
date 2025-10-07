@@ -32,13 +32,15 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="ClicksPeakWeek" />
     <xs:enumeration value="YoYLast4WeeksClicks" />
     <xs:enumeration value="Country" />
+    <xs:enumeration value="MarketplaceClickCoverage" />
+    <xs:enumeration value="ProportionOfSpend" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md) value set has the following values: [ClicksIndexed](#clicksindexed), [ClicksPeakWeek](#clickspeakweek), [Country](#country), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MoMClicks](#momclicks), [MoMSearches](#momsearches), [SearchesIndexed](#searchesindexed), [SearchesPeakWeek](#searchespeakweek), [WeekStartingMonday](#weekstartingmonday), [WoWClicks](#wowclicks), [WoWSearches](#wowsearches), [YoYLast1WeekClicks](#yoylast1weekclicks), [YoYLast1WeekSearches](#yoylast1weeksearches), [YoYLast4WeeksClicks](#yoylast4weeksclicks), [YoYLast4WeeksSearches](#yoylast4weekssearches).
+The [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md) value set has the following values: [ClicksIndexed](#clicksindexed), [ClicksPeakWeek](#clickspeakweek), [Country](#country), [L1Vertical](#l1vertical), [L2Vertical](#l2vertical), [L3Vertical](#l3vertical), [MarketplaceClickCoverage](#marketplaceclickcoverage), [MoMClicks](#momclicks), [MoMSearches](#momsearches), [ProportionOfSpend](#proportionofspend), [SearchesIndexed](#searchesindexed), [SearchesPeakWeek](#searchespeakweek), [WeekStartingMonday](#weekstartingmonday), [WoWClicks](#wowclicks), [WoWSearches](#wowsearches), [YoYLast1WeekClicks](#yoylast1weekclicks), [YoYLast1WeekSearches](#yoylast1weeksearches), [YoYLast4WeeksClicks](#yoylast4weeksclicks), [YoYLast4WeeksSearches](#yoylast4weekssearches).
 
 |Value|Description|
 |-----------|---------------|
@@ -48,8 +50,10 @@ The [CategoryInsightsReportColumn](categoryinsightsreportcolumn.md) value set ha
 |<a name="l1vertical"></a>L1Vertical|A particular supply sector, such as Travel and Tourism or Apparel.<br/><br/>[View a list of L1 verticals](../guides/reporting-verticals.md#l1verticals).|
 |<a name="l2vertical"></a>L2Vertical|A more detailed segment of an L1 vertical. For instance, within the L1 vertical travel and tourism, L2 verticals might include Accommodations or Air travel.<br/><br/>[View a list of L2 verticals](../guides/reporting-verticals.md#l2verticals).|
 |<a name="l3vertical"></a>L3Vertical|The most specific segment within a larger L1 vertical. For example, if the L1 vertical is travel and tourism and the L2 vertical is Accommodations, an L3 vertical might be Bed and Breakfasts or Camping and RV.<br/><br/>[View a list of L3 verticals](../guides/reporting-verticals.md#l3verticals).|
+|<a name="marketplaceclickcoverage"></a>MarketplaceClickCoverage|The percentage of clicks your account(s) received compared to the total number of clicks by all advertisers for a specific L1 ? L3 slice. Clickshare is calculated as your account's clicks divided by total clicks from all market advertisers.|
 |<a name="momclicks"></a>MoMClicks|The change in click volume from the last four-week period to the current four-week period.|
 |<a name="momsearches"></a>MoMSearches|The change in search volume from the last four-week period to the current four-week period.|
+|<a name="proportionofspend"></a>ProportionOfSpend|The percentage of total spend allocated to a specific category in your campaign.|
 |<a name="searchesindexed"></a>SearchesIndexed|The number of indexed searches.|
 |<a name="searchespeakweek"></a>SearchesPeakWeek|Peak week represents the week with the highest search volume within your selected date range. We display the percentage by which this week's search volume exceeds the average volume across the entire date range.|
 |<a name="weekstartingmonday"></a>WeekStartingMonday|The date range for the week that your data is from starting with Monday.|
