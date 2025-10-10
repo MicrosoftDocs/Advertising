@@ -10,8 +10,6 @@ ms.date: 11/13/2024
 
 # Create an XML Property feed file
 
-[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
-
 To provide Microsoft your hotel listings, create an XML document that contains a listing of each hotel you want to advertise. A listing describes the hotel's name, address, telephone number, geographical coordinates, amenities, and more.
 
 The document must use UTF-8 encoding and must conform to the [Hotel XSD](https://bhacstatic.z22.web.core.windows.net/schemas/hotelv2.xsd). 
