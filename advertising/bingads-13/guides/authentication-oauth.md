@@ -12,6 +12,9 @@ description: Authenticate for Bing Ads API using OAuth.
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+> [!NOTE]
+> Microsoft Advertising APIs use Azure Entra ID (formerly Azure AD) for authentication. If you encounter issues related to app registration, tenant access, admin consent, or OAuth token acquisition, please [contact Azure Support](https://azure.microsoft.com/support) or your tenant administrator.
+
 Consider the user that you want to sign in e.g., example@contoso.com. The Bing Ads API will not accept that email address and password. Instead you need to set the AuthenticationToken header element that contains a user access token. You can think of an access token as representing a user name and password.
 
 How can you get an access token for a user? As an application developer you'll use a Microsoft authorization URL to prompt the Microsoft Advertising user for consent. Once a user provides consent, you can get an access token and act on behalf of the user.  

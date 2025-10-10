@@ -10,8 +10,6 @@ ms.date: 11/13/2024
 
 # Hotel price ads
 
-[!INCLUDE[coming-soon](../hotel-ads/includes/property-center-coming-soon.md)]
-
 Lodging campaigns is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices. Travelers can see [Hotel price ads](https://help.ads.microsoft.com/#apex/ads/en/56880/1) when they are actively looking to book a hotel. In addition to the Hotel price ads, lodging campaigns allow advertisers to display their hotels on the Bing Maps page via the [Property promotion ads](https://help.ads.microsoft.com/apex/index/3/en/60173).
 
 <a name="benefits"></a>
