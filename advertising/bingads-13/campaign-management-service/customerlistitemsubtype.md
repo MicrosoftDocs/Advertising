@@ -17,18 +17,20 @@ Defines a CustomerListItemSubType value set.
   <xs:restriction base="xs:string">
     <xs:enumeration value="Email" />
     <xs:enumeration value="CRM" />
+    <xs:enumeration value="Phone" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CustomerListItemSubType](customerlistitemsubtype.md) value set has the following values: [CRM](#crm), [Email](#email).
+The [CustomerListItemSubType](customerlistitemsubtype.md) value set has the following values: [CRM](#crm), [Email](#email), [Phone](#phone).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="crm"></a>CRM|The user data type is CRM.|
 |<a name="email"></a>Email|The user data type is email.|
+|<a name="phone"></a>Phone|THe user data type is phone.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
