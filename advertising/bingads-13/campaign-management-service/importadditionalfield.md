@@ -192,6 +192,27 @@ Defines a list of optional import properties that you can request when calling [
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="EnableCopilot">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16777216</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="NewTopicTargets">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">33554432</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="UpdateTopicTargets">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">67108864</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -200,13 +221,14 @@ Defines a list of optional import properties that you can request when calling [
 
 ## <a name="values"></a>Values
 
-The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewBrandSuitability](#newbrandsuitability), [NewCarouselAd](#newcarouselad), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateAssetAutomationCampaignSetting](#updateassetautomationcampaignsetting), [UpdateBrandSuitability](#updatebrandsuitability), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls).
+The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [EnableCopilot](#enablecopilot), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewBrandSuitability](#newbrandsuitability), [NewCarouselAd](#newcarouselad), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [NewTopicTargets](#newtopictargets), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateAssetAutomationCampaignSetting](#updateassetautomationcampaignsetting), [UpdateBrandSuitability](#updatebrandsuitability), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls), [UpdateTopicTargets](#updatetopictargets).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="activeadgroupsonly"></a>ActiveAdGroupsOnly|Request that the [ActiveAdGroupsOnly](campaignadgroupids.md#activeadgroupsonly) element be returned within the [CampaignAdGroupIds](googleimportjob.md#campaignadgroupids) element of each returned [GoogleImportJob](googleimportjob.md) object.|
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimezone|Request that the [AdScheduleUseSearcherTimezone](googleimportoption.md#adscheduleusesearchertimezone) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="autodevicebidoptimization"></a>AutoDeviceBidOptimization|Request that the [AutoDeviceBidOptimization](googleimportoption.md#autodevicebidoptimization) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="enablecopilot"></a>EnableCopilot|Reserved.|
 |<a name="newaccountnegativekeywords"></a>NewAccountNegativeKeywords|Request that the [NewAccountNegativeKeywords](googleimportoption.md#newaccountnegativekeywords) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newbrandsuitability"></a>NewBrandSuitability|Request that the [NewBrandSuitability](googleimportoption.md#newbrandsuitability) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newcarouselad"></a>NewCarouselAd|Request that the [NewCarouselAd](googleimportoption.md#newcarouselad) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
@@ -214,6 +236,7 @@ The [ImportAdditionalField](importadditionalfield.md) value set has the followin
 |<a name="newimageadextensions"></a>NewImageAdExtensions|Request that the [NewImageAdExtensions](googleimportoption.md#newimageadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newleadformadextensions"></a>NewLeadFormAdExtensions|Request that the [NewLeadFormAdExtensions](googleimportoption.md#newleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="newlogoadextensions"></a>NewLogoAdExtensions|Request that the [NewLogoAdExtensions](googleimportoption.md#newlogoadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="newtopictargets"></a>NewTopicTargets|Import topic targets that haven't previously been imported.<br/><br/>This option is enabled by default, or effectively set to *true*. Set this element *false* to turn off this option.<br/><br/>This option is available in the Microsoft Advertising UI via *Import from Google Ads* > *Choose import options* > *What to import* > *Items not previously imported into Microsoft Advertising* > *Targeting* > *Topic targets*.|
 |<a name="none"></a>None|Reserved for internal use.|
 |<a name="notificationemail"></a>NotificationEmail|Request that the [NotificationEmail](googleimportjob.md#notificationemail) element be included within each returned [GoogleImportJob](googleimportjob.md) object.|
 |<a name="renamecampaignnamewithsuffix"></a>RenameCampaignNameWithSuffix|Request that the [RenameCampaignNameWithSuffix](googleimportoption.md#renamecampaignnamewithsuffix) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
@@ -229,6 +252,7 @@ The [ImportAdditionalField](importadditionalfield.md) value set has the followin
 |<a name="updateleadformadextensions"></a>UpdateLeadFormAdExtensions|Request that the [UpdateLeadFormAdExtensions](googleimportoption.md#updateleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updatelogoadextensions"></a>UpdateLogoAdExtensions|Request that the [UpdateLogoAdExtensions](googleimportoption.md#updatelogoadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updatesitelinkurls"></a>UpdateSitelinkUrls|Request that the [UpdateSitelinkUrls](googleimportoption.md#updatesitelinkurls) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="updatetopictargets"></a>UpdateTopicTargets|Import updates to existing topic targets.<br/><br/>This option is only honored if *UpdateEntities* is also enabled.<br/><br/>This option is enabled by default, or effectively set to *true*. Set this element *false* to turn off this option.<br/><br/>This option is available in the Microsoft Advertising UI via *Import from Google Ads* > *Choose import options* > *What to import* > *Updates to existing items* > *Targeting* > *Topic targets*.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
