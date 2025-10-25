@@ -25,6 +25,7 @@ The Ad Insight service defines the following value sets.
 |[CompetitionLevel](competitionlevel.md)|Competition levels are defined by the number of advertisers bidding on this keyword, relative to all other keywords across Microsoft Advertising.|
 |[Currency](currency.md)|Defines a value set of currencies.|
 |[CurrencyCode](currencycode.md)|Defines currency codes for the Ad Insight service.|
+|[DeviceEnum](deviceenum.md)|Defines a value set for device.|
 |[EntityType](entitytype.md)|Defines the entity types for retrieving auction insights.|
 |[GenderEnum](genderenum.md)|Defines a value set for gender.|
 |[KeywordIdeaAttribute](keywordideaattribute.md)|Determines which properties of the [KeywordIdea](keywordidea.md) object you want returned when calling the [GetKeywordIdeas](getkeywordideas.md) operation.|
