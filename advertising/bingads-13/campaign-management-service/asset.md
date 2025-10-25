@@ -12,6 +12,7 @@ description: Defines the base object of an asset with a unique Microsoft Adverti
 Defines the base object of an asset with a unique Microsoft Advertising identifier that can be reused across multiple ads.
 
 Do not try to instantiate an *Asset*. You can create one or more of the following objects that derive from it.
+
 - [ImageAsset](imageasset.md)
 - [TextAsset](textasset.md)
 - [VideoAsset](videoasset.md)

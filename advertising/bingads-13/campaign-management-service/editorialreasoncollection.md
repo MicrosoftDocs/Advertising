@@ -54,9 +54,9 @@ The [EditorialReasonCollection](editorialreasoncollection.md) object has the fol
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adgroupid"></a>AdGroupId|Identifies the ad group which is the parent of the ad or keyword that failed editorial review.|**long**|
-|<a name="adorkeywordid"></a>AdOrKeywordId|Identifies the ad or keyword that failed editorial review.|**long**|
-|<a name="appealstatus"></a>AppealStatus|A value that determines whether you can appeal the issues found by the editorial review.|[AppealStatus](appealstatus.md)|
+|<a name="adgroupid"></a>AdGroupId|Identifies the ad group which is the parent of the ad or keyword that failed editorial review. *Note*: *AdGroupId* is always 0 for an asset since it doesn't belong to an ad group.|**long**|
+|<a name="adorkeywordid"></a>AdOrKeywordId|Identifies the ad or keyword that failed editorial review. *Note*: *AdOrKeywordId* is the ID of the asset.|**long**|
+|<a name="appealstatus"></a>AppealStatus|A value that determines whether you can appeal the issues found by the editorial review. *Note*: *AppealStatus* is based on information in the `catalog.AssetEditorialStatus` table. It's a combination of *Appealability* and *IsAppealPending*. |[AppealStatus](appealstatus.md)|
 |<a name="reasons"></a>Reasons|An array of editorial reasons that you can use to determine the component of an ad or keyword that failed editorial review, and the reason for the failure.|[EditorialReason](editorialreason.md) array|
 
 ## Requirements

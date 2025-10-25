@@ -30,11 +30,11 @@ The [AssetLinkEditorialStatus](assetlinkeditorialstatus.md) value set has the fo
 
 |Value|Description|
 |-----------|---------------|
-|<a name="active"></a>Active|The asset passed editorial review.|
-|<a name="activelimited"></a>ActiveLimited|The asset passed editorial review in one or more markets, and one or more elements of the asset is undergoing editorial review in another market. For example the asset passed editorial review for Canada and is still pending review in the United States.|
-|<a name="disapproved"></a>Disapproved|The asset failed editorial review.|
-|<a name="inactive"></a>Inactive|One or more elements of the asset is undergoing editorial review.|
-|<a name="unknown"></a>Unknown|The editorial status of the asset is unknown.|
+|<a name="active"></a>Active|Approved. The asset passed editorial review.|
+|<a name="activelimited"></a>ActiveLimited|ApprovedLimited. The asset passed editorial review in one or more markets, and one or more elements of the asset is undergoing editorial review in another market. For example the asset passed editorial review for Canada and is still pending review in the United States.|
+|<a name="disapproved"></a>Disapproved|Rejected. The asset failed editorial review.|
+|<a name="inactive"></a>Inactive|Pending. One or more elements of the asset is undergoing editorial review.|
+|<a name="unknown"></a>Unknown|Unknown. The editorial status of the asset is unknown. This is relevant when the record doesn't exist in *AssetEditorialStatus*.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
