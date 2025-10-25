@@ -50,5 +50,6 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md)  
 [ProductPartitionUnitPerformanceReportFilter](productpartitionunitperformancereportfilter.md)  
 [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancereportfilter.md)  
+[ProfessionalDemographicsAudienceReportFilter](professionaldemographicsaudiencereportfilter.md)  
 [PublisherUsagePerformanceReportFilter](publisherusageperformancereportfilter.md)  
 [SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.md)  

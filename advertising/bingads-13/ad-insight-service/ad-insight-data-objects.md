@@ -44,6 +44,8 @@ The Ad Insight service defines the following data objects.
 |[Criterion](criterion.md)|This is the base class from which keyword planner criterion objects derive.|
 |[DateRangeSearchParameter](daterangesearchparameter.md)|The date range search parameter that you can include when requesting keyword ideas.|
 |[DayMonthAndYear](daymonthandyear.md)|Defines an object that you use to specify the start and end dates of a date range.|
+|[DecimalRoundedByType](decimalroundedbytype.md)|Defines the decimal rounded by type data object.|
+|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md)|Defines the decimal rounded range result by type data object.|
 |[DecimalRoundedResult](decimalroundedresult.md)|Defines a DecimalRoundedResult data object.|
 |[DeviceCriterion](devicecriterion.md)|The device criterion that you can include when requesting keyword ideas or traffic estimates.|
 |[DeviceSearchParameter](devicesearchparameter.md)|The device search parameter filter that you can include when requesting keyword ideas.|
@@ -98,6 +100,7 @@ The Ad Insight service defines the following data objects.
 |[PerformanceInsightsMessageParameter](performanceinsightsmessageparameter.md)|Defines the message parameters for performance insights.|
 |[QuerySearchParameter](querysearchparameter.md)|The query search parameter that you can use as a seed for new keyword ideas.|
 |[RadiusTarget](radiustarget.md)|Defines a RadiusTarget data object.|
+|[RangeResultByTypeOfdouble](rangeresultbytypeofdouble.md)|Defines the range result by type of double data object.|
 |[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|Defines a RangeResultOfDecimalRoundedResult data object.|
 |[RangeResultOfdouble](rangeresultofdouble.md)|Defines a RangeResultOfDouble data object.|
 |[Recommendation](recommendation.md)|Defines the base object of Recommendation.|
@@ -112,6 +115,7 @@ The Ad Insight service defines the following data objects.
 |[SearchParameter](searchparameter.md)|This is the base class from which keyword idea search parameter objects derive.|
 |[SearchVolumeSearchParameter](searchvolumesearchparameter.md)|The search volume search parameter filter that you can include when requesting keyword ideas.|
 |[SelectionOfAgeEnum](selectionofageenum.md)|Defines a data object for the selection of age targeting.|
+|[SelectionOfDeviceEnum](selectionofdeviceenum.md)|Reserved.|
 |[SelectionOfGenderEnum](selectionofgenderenum.md)|Defines a data object for the selection of gender targeting.|
 |[SelectionOflong](selectionoflong.md)|Defines a data object for the selection segment IDs.|
 |[SuggestedBidSearchParameter](suggestedbidsearchparameter.md)|The suggested bid search parameter filter that you can include when requesting keyword ideas.|
