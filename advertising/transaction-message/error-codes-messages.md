@@ -1,7 +1,8 @@
 ---
 title: "Error Codes and Messages"
 description: Lists the possible error codes and messages that Bing returns if the Price feed is not valid. 
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

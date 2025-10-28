@@ -1,7 +1,8 @@
 ---
 title: "Price feed Schemas"
 description: Lists the schemas that define a price feed.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

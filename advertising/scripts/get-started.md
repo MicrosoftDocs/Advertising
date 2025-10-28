@@ -4,7 +4,8 @@ description: "Shows you how to get started quickly using Microsoft Advertising S
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-ms.service: "bing-ads-scripts"
+ms.service: "bing-ads"
+ms.subservice: "advertising-scripts"
 ms.topic: "article"
 ---
 

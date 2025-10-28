@@ -1,7 +1,8 @@
 ---
 title: "Creating a Price feed"
 description: Shows how to create a Price feed that describes your hotels' itineraries.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

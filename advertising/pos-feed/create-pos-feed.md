@@ -1,7 +1,8 @@
 ---
 title: "Creating a Landing pages feed"
 description: Shows how to create a Landing pages feed file that contains a list of booking sites.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

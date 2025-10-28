@@ -1,7 +1,8 @@
 ---
 title: "Validating your Landing pages feed"
 description: Shows how to validate your landing pages feed file before sending it to Microsoft Advertising.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

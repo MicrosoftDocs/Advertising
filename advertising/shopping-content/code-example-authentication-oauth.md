@@ -2,7 +2,8 @@
 title: "Authenticating Microsoft Account Credentials Code Example"
 description: "Code samples showing Microsoft Account Crendential authentication."
 author: jonmeyers
-ms.service: "bing-ads-shopping-content"
+ms.service: "bing-ads"
+ms.subservice: "shopping-content"
 ms.topic: "article"
 ms.author: jonmeyers
 ms.date: 11/13/2024

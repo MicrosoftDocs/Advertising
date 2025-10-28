@@ -1,7 +1,8 @@
 ---
 title: "Landing pages feed"
 description: Landing pages
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

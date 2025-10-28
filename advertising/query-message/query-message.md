@@ -1,7 +1,8 @@
 ---
 title: Query Message
 description: Landing page for Query Message
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

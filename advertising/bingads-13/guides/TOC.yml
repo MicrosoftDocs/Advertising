@@ -488,6 +488,8 @@
       href: ../ad-insight-service/searchvolumesearchparameter.md
     - name: SelectionOfAgeEnum
       href: ../ad-insight-service/selectionofageenum.md
+    - name: SelectionOfDeviceEnum
+      href: ../ad-insight-service/selectionofdeviceenum.md
     - name: SelectionOfGenderEnum
       href: ../ad-insight-service/selectionofgenderenum.md
     - name: SelectionOfLong
@@ -531,6 +533,8 @@
       href: ../ad-insight-service/currency.md
     - name: CurrencyCode
       href: ../ad-insight-service/currencycode.md
+    - name: DeviceEnum
+      href: ../ad-insight-service/deviceenum.md
     - name: EntityType
       href: ../ad-insight-service/entitytype.md
     - name: KeywordIdeaAttribute
@@ -2910,6 +2914,10 @@
       href: ../reporting-service/campaignperformancereportrequest.md
     - name: CampaignReportScope
       href: ../reporting-service/campaignreportscope.md
+    - name: CategoryClickCoverageReportFilter
+      href: ../reporting-service/categoryclickcoveragereportfilter.md
+    - name: CategoryClickCoverageReportRequest
+      href: ../reporting-service/categoryclickcoveragereportrequest.md
     - name: CombinationPerformanceReportFilter
       href: ../reporting-service/combinationperformancereportfilter.md
     - name: CombinationPerformanceReportRequest
@@ -3081,6 +3089,10 @@
       href: ../reporting-service/campaignstatusreportfilter.md
     - name: CampaignTypeReportFilter
       href: ../reporting-service/campaigntypereportfilter.md
+    - name: CategoryClickCoverageReportColumn
+      href: ../reporting-service/categoryclickcoveragereportcolumn.md
+    - name: CategoryInsightsReportColumn
+      href: ../reporting-service/categoryinsightsreportcolumn.md
     - name: ChangeEntityReportFilter
       href: ../reporting-service/changeentityreportfilter.md
     - name: ChangeTypeReportFilter

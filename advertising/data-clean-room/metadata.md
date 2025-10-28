@@ -1,6 +1,7 @@
 ---
 title: Metadata - Data Clean Room
 ms.service: bing-ads
+ms.subservice: data-clean-room
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers

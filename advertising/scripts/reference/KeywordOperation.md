@@ -4,7 +4,8 @@ description: "Contains the methods for determining whether the keyword was succe
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-ms.service: "bing-ads-scripts"
+ms.service: "bing-ads"
+ms.subservice: "advertising-scripts"
 ms.topic: "article"
 ---
 

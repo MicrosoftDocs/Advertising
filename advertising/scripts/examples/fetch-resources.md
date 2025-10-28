@@ -4,7 +4,8 @@ description: "Use UrlFetchApp's methods to GET, POST, PUT, and DELETE web resour
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-ms.service: "bing-ads-scripts"
+ms.service: "bing-ads"
+ms.subservice: "advertising-scripts"
 ms.topic: "article"
 ---
 

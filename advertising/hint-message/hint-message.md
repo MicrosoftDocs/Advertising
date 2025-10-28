@@ -1,7 +1,8 @@
 ---
 title: Hint messages
 description: Landing page for hint message content.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

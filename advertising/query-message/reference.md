@@ -1,7 +1,8 @@
 ---
 title: Query message reference
 description: Describes the schema elements of a Query message.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

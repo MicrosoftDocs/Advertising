@@ -2,7 +2,8 @@
 title: "Example JSON Product Offer"
 description: "Shows example json representing a product offer returned by the Content API."
 author: jonmeyers
-ms.service: "bing-ads-shopping-content"
+ms.service: "bing-ads"
+ms.subservice: "shopping-content"
 ms.topic: "article"
 ms.author: jonmeyers
 ms.date: 11/13/2024
