@@ -2915,9 +2915,9 @@
     - name: CampaignReportScope
       href: ../reporting-service/campaignreportscope.md
     - name: CategoryClickCoverageReportFilter
-      href: ../reporting-service/categoryclickcoveragefilter.md
+      href: ../reporting-service/categoryclickcoveragereportfilter.md
     - name: CategoryClickCoverageReportRequest
-      href: ../reporting-service/categoryclickcoveragerequest.md
+      href: ../reporting-service/categoryclickcoveragereportrequest.md
     - name: CombinationPerformanceReportFilter
       href: ../reporting-service/combinationperformancereportfilter.md
     - name: CombinationPerformanceReportRequest
