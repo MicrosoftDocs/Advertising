@@ -2,7 +2,7 @@
 title: "Get Started with Price feeds"
 description: Quick start guide to getting started with Price feeds.
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

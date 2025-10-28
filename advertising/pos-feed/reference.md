@@ -2,7 +2,7 @@
 title: "Landing pages reference"
 description: Describes the schema used to create a landing pages feed file.
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

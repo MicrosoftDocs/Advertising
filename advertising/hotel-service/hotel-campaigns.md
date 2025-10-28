@@ -2,7 +2,7 @@
 title: "Hotel price ads"
 description: Lodging campaigns is a new campaign type that enables advertisers to showcase their hotels on Bing.com across devices.
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

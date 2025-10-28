@@ -2,7 +2,7 @@
 title: "Price feed reference"
 description: Describes the schema that defines a price feed. 
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

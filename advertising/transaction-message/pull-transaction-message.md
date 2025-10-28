@@ -2,7 +2,7 @@
 title: "Having Microsoft Advertising pull Price feeds"
 description: Provides the details for having Microsoft Advertising pull price feeds.
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

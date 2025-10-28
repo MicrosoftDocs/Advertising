@@ -6,7 +6,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 ms.service: "bing-ads"
-ms.subservice: "scripts"
+ms.subservice: "advertising-scripts"
 ms.topic: "article"
 ---
 

@@ -2,7 +2,7 @@
 title: Differences between Google and Bing hint messages differences
 description: Lists the differences between Google and Bing hint messages
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

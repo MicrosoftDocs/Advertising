@@ -1,7 +1,8 @@
 ---
 title: "Using room bundles"
 description: Shows how to include room bundles in your itinerary data.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

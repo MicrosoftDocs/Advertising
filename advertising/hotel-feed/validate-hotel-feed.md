@@ -2,7 +2,7 @@
 title: "Validating your Property feed"
 description: Shows how to validate your property feed file before sending it to Bing.
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

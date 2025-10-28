@@ -2,7 +2,7 @@
 title: Hint message reference
 description: Describes the schema that defines the elements for creating a hint message.
 ms.service: "bing-ads"
-ms.subservice: "hotel-service"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

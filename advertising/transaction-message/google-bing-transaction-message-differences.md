@@ -1,7 +1,8 @@
 ---
 title: "Differences Between Google&#39;s and Bing&#39;s Price feed Usage"
 description: Lists the difference in usage between Bing's and Google's price feed.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
