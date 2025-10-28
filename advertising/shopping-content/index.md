@@ -2,7 +2,8 @@
 title: "Content API Overview"
 description: "Describes the Content API, what it does, and who should use it."
 author: jonmeyers
-ms.service: "bing-ads-shopping-content"
+ms.service: "bing-ads"
+ms.subservice: "shopping-content"
 ms.topic: "article"
 ms.author: jonmeyers
 ms.date: 11/13/2024

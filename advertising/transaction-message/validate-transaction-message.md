@@ -1,7 +1,8 @@
 ---
 title: "Validating your Price feed"
 description: Shows how to validate a price feed.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

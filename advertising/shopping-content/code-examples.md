@@ -4,7 +4,8 @@ description: "A list of links providing more information on each operation avail
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-ms.service: "bing-ads-shopping-content"
+ms.service: "bing-ads"
+ms.subservice: "shopping-content"
 ms.topic: "article"
 ---
 

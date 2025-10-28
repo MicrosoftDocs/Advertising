@@ -4,7 +4,8 @@ description: "Shows examples that perform various actions against shared budgets
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-ms.service: "bing-ads-scripts"
+ms.service: "bing-ads"
+ms.subservice: "scripts"
 ms.topic: "article"
 ---
 

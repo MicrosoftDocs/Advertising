@@ -1,7 +1,8 @@
 ---
 title: Process a Query message
 description: Shows how to process a Query message that Microsoft Advertising sends you requesting your hotel itinerary data. 
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

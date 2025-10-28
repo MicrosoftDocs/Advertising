@@ -1,7 +1,8 @@
 ---
 title: Validate a hint message
 description: Shows how to validate a hint message before sending it to Microsoft Advertising.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

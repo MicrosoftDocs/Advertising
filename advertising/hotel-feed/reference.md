@@ -1,7 +1,8 @@
 ---
 title: "Property feed reference"
 description: Describes the schema used to create a property feed file.
-ms.service: "bing-ads-hotel-service"
+ms.service: "bing-ads"
+ms.subservice: "hotel-service"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers

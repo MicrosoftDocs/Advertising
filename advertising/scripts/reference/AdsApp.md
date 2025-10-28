@@ -4,7 +4,8 @@ description: "The top-level object used in single-account scripts to navigate al
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-ms.service: "bing-ads-scripts"
+ms.service: "bing-ads"
+ms.subservice: "scripts"
 ms.topic: "article"
 ---
 
