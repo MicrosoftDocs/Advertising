@@ -109,6 +109,9 @@ Parameter tables for page load and custom events are shown below. The following 
 
 Use the UET `tagID` and token for authorization. Contact your account manager to obtain the token.
 
+> [!NOTE]
+> You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is currently in pilot.
+
 ### Data Schema
 
 | Field | Type | Required | Description | Example |
@@ -262,6 +265,17 @@ Fire zero or more custom events to send richer, event-level data to Microsoft.
     "eventLabel": "my_label"
   }
 }
+```
+
+**Deduplication example:**
+
+In this scenario, deduplication refers to a client choosing to use the same UET tag ID for both UET JS and the Conversions API.
+
+```javascript
+<script>  
+   window.uetq = window.uetq || [];  
+   window.uetq.push ('event', 'Replace_with_Event_Action', {'event_category': 'Replace_with_Event_Category', 'event_label': 'Replace_with_Event_Label', 'event_value': 'Replace_with_Event_Value', 'event_id': '1234567-54422'}); 
+</script>
 ```
 
 ## Variable Revenue
