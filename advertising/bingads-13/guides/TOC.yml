@@ -2918,6 +2918,10 @@
       href: ../reporting-service/categoryclickcoveragereportfilter.md
     - name: CategoryClickCoverageReportRequest
       href: ../reporting-service/categoryclickcoveragereportrequest.md
+    - name: CategoryInsightsReportFilter
+      href: ../reporting-service/categoryinsightsreportfilter.md
+    - name: CategoryInsightsReportRequest
+      href: ../reporting-service/categoryinsightsreportrequest.md
     - name: CombinationPerformanceReportFilter
       href: ../reporting-service/combinationperformancereportfilter.md
     - name: CombinationPerformanceReportRequest
