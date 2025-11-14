@@ -157,13 +157,13 @@ To **refine your existing ad copy** for your asset group or ad, use one of these
 - [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)
 - [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md)
 
-Each method, takes in:
+Each method takes in:
 
 - An ad ([ResponsiveAd](../campaign-management-service/responsivead.md) or [ResponsiveSearchAd](../campaign-management-service/responsivesearchad.md)) or asset group ([AssetGroup](../campaign-management-service/assetgroup.md))  
 - A list of ad copy ([AdRecommendationTextRefineOperation](../campaign-management-service/adrecommendationtextrefineoperation.md) array)
-- Text field index number (int)
-- [AdRecommendationTextField](../campaign-management-service/adrecommendationtextfield.md) = _Headline, LongHeadline, Description,_ or _CallToAction_  
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+  - Text field index number (int)
+  - [AdRecommendationTextField](../campaign-management-service/adrecommendationtextfield.md) = _Headline, LongHeadline, Description,_ or _CallToAction_  
+  - Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 
 Copilot will return:
 
@@ -183,15 +183,15 @@ Lastly, apply changes with one of these service operations:
 - [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)
 - [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)
 
-Each method, takes in:
+Each method takes in:
 
 - An ad ([ResponsiveAd](../campaign-management-service/responsivead.md)) or asset group ([AssetGroup](../campaign-management-service/assetgroup.md))  
 - A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion.md) array)
 - A list of background descriptions
     ([AdRecommendationImageRefineOperation](../campaign-management-service/adrecommendationimagerefineoperation.md) array)
-- Image index number (int)
-- [AdRecommendationImageRefineType](../campaign-management-service/adrecommendationimagerefinetype.md) _\= BackgroundChange_
-- Description of image background (string)
+  - Image index number (int)
+  - [AdRecommendationImageRefineType](../campaign-management-service/adrecommendationimagerefinetype.md) _\= BackgroundChange_
+  - Description of image background (string)
 
 Copilot will return:
 
@@ -234,15 +234,15 @@ To **create a Brand Kit with a URL**, use [CreateBrandKitRecommendation](../camp
 Copilot will return:
 
 - Brand Kit ([BrandKit](../campaign-management-service/brandkit.md))
-- Brand Kit Id (long)
-- Brand Kit Name (string)
-- BrandVoice ([BrandVoice](../campaign-management-service/brandvoice.md))
-- BusinessName (string)
-- Fonts ([BrandKitFont](../campaign-management-service/brandkitfont.md) array)
-- Images ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
-- LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
-- SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
-- Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette.md) array)
+  - Brand Kit Id (long)
+  - Brand Kit Name (string)
+  - BrandVoice ([BrandVoice](../campaign-management-service/brandvoice.md))
+  - BusinessName (string)
+  - Fonts ([BrandKitFont](../campaign-management-service/brandkitfont.md) array)
+  - Images ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+  - LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+  - SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+  - Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette.md) array)
 
 Lastly, use **[AddBrandKits](../campaign-management-service/addbrandkits.md)** to save a Brand Kit to an account.
 
@@ -250,15 +250,15 @@ To **create a Brand Kit manually**, use [AddBrandKits](../campaign-management-se
 
 - Account ID (long)
 - Brand Kit ([BrandKit](../campaign-management-service/brandkit.md))
-- Brand Kit Id (long)
-- Brand Kit Name (string)
-- BrandVoice ([BrandVoice](../campaign-management-service/brandvoice.md))
-- BusinessName (string)
-- Fonts ([BrandKitFont](../campaign-management-service/brandkitfont.md) array)
-- Images ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
-- LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
-- SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
-- Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette.md) array)
+  - Brand Kit Id (long)
+  - Brand Kit Name (string)
+  - BrandVoice ([BrandVoice](../campaign-management-service/brandvoice.md))
+  - BusinessName (string)
+  - Fonts ([BrandKitFont](../campaign-management-service/brandkitfont.md) array)
+  - Images ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+  - LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+  - SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+  - Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette.md) array)
 
 To **create with a bulk file** via Bulk API, use [Brand Kit](../bulk-service/brand-kit.md) with the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md):
 
