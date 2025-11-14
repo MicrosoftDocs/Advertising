@@ -9,157 +9,327 @@ ms.date: 11/13/2024
 description: With Copilot asset creation via Campaign Management API, advertisers, agencies, and partners who access Microsoft Advertising via API can use generative AI capabilities to create campaigns with ease and save time.
 ---
 
-# Generative AI
+# Generative AI API
 
-With Copilot asset creation via Campaign Management API, advertisers, agencies, and partners who access Microsoft Advertising via API can use generative AI capabilities to create campaigns with ease and save time.
+Advertisers, agencies, and partners who access Microsoft Advertising via API can use Copilot in Microsoft Advertising Platform's generative AI capabilities to create and optimize campaign creatives at scale.
 
-Asset recommendations populate campaigns by leveraging generative AI to generate ad copy, recommend images, and assemble video and display banner assets based on a website URL and a text prompt (optional).
+Ad generation quickly build ads and asset groups by leveraging generative AI to generate ad copy, recommend images, and assemble video and display banner assets based on a website URL and a text prompt.  
 
-Asset generation, in addition to the text generation that occurs automatically when you use Asset recommendations in your campaign creation workflow, also includes ad copy tone refinement. This generates text based on the website URL and text prompt (optional) + text tone (optional). Net new video or image generation is not available at this time.
+Asset generation leverages generative AI to scale production and refinement of text, image, background image, and banner assets. With Brand Kit, your assets can look and read like your brand.
 
-[See market and language availability for Generative AI tools](https://help.ads.microsoft.com/#apex/ads/en/50873/0).
+[See market and language availability for Generative AI tools](https://help.ads.microsoft.com/#apex/ads/en/50873/0).  
 
-## <a name="asset-generation"></a>Asset Generation
+## Ad Generation
 
-Use the following Copilot asset recommendations calls within Microsoft Advertising’s Campaign Management API to get text, image, and video asset recommendations to expedite creation of your Performance Max campaigns, Responsive Search ads, Display ads, Native ads, and Video ads.
+Copilot makes it easy to generate high volumes of custom ads and asset groups.
 
-### <a name="asset-generation-service-operations"></a>Service Operations
+### Performance Max
 
-The following service operations are used with create asset recommendations:
+To create an asset group for a Performance Max campaign with AI-generated text and recommended images use [CreateAssetGroupRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createassetgrouprecommendation?view=bingads-13).
 
-- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)  
-- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
-- [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md)  
+- A list of Final URLs (string array)
+- Optional: [AdRecommendationTextTone](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtexttone?view=bingads-13) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: Prompt = Description of campaign theme, used for generating ad copy, and get image recommendations (string)
 
-### <a name="image-generation"></a>Image Generation  
+Copilot will return:
 
-Generate new new images with a text prompt. The following service operations are used with image generation:
+- An asset group ([AssetGroup](https://learn.microsoft.com/en-us/advertising/campaign-management-service/assetgroup?view=bingads-13))  
+- A list of images ([AdRecommendationImageSuggestion](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagesuggestion?view=bingads-13) array)
 
-- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)  
-- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
+Then, use [AddMedia](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addmedia?view=bingads-13) to add image assets to an account:
 
-### <a name="background-generation"></a>Background Generation
+- Account ID (long)
+- An array of _Media_ to add to the account's asset library. ([Media](https://learn.microsoft.com/en-us/advertising/campaign-management-service/media?view=bingads-13) array)
+    You can add a maximum of 10 media in a single call.
 
-Remove and generate a new background for image assets with the help of Copilot. The following service operations are used with background generation:
+Lastly, use [AddAssetGroups](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addassetgroups?view=bingads-13) to add a new one to a specified campaign or [UpdateAssetGroups](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateassetgroups?view=bingads-13) to update an existing asset group:
 
-- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)  
-- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
+- Campaign ID (long)
+- Array of asset groups to update for the specified campaign. ([AssetGroup](https://learn.microsoft.com/en-us/advertising/campaign-management-service/assetgroup?view=bingads-13) array) A maximum of 100 asset groups can be specified in a single call.
 
-### <a name="display-banner-generation"></a>Display Banner Generation
+### Responsive Search ads
 
-Generate banner assets for display ads with five editable templates. Copilot will infer your brand elements such as logo, color, and font from your landing page or brand kit. The following service operations are used with display banner generation:
+To create a Responsive Search ad with AI-generated text, use [CreateResponsiveSearchAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsivesearchadrecommendation?view=bingads-13).
 
-- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
+- A list of Final URLs (string array)
+- Optional: [AdRecommendationTextTone](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtexttone?view=bingads-13) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: Prompt = Description of campaign theme, used for generating ad copy (string)
 
-### <a name="brand-kit"></a>Brand Kit
+Copilot will return:
 
-Define your brand guidelines, such as fonts, colors, logo, and other images, to enable Copilot to create brand-aligned assets. The following service operations are used for brand kit:
+- A Responsive Search ad ([ResponsiveSearchAd](https://learn.microsoft.com/en-us/advertising/campaign-management-service/responsivesearchad?view=bingads-13))  
 
-- [AddBrandKits](../campaign-management-service/addbrandkits.md)  
-- [DeleteBrandKits](../campaign-management-service/deletebrandkits.md)  
-- [GetBrandKitsByAccountId](../campaign-management-service/getbrandkitsbyaccountid.md)  
-- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids.md)  
-- [UpdateBrandKits](../campaign-management-service/updatebrandkits.md)  
+Lastly, use [AddAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addads?view=bingads-13) to add ads to an ad group:
 
-### <a name="asset-generation-code-samples"></a>Code Samples
+- Ad Group ID (long)
+- A list of ads to update. ([Ad](https://learn.microsoft.com/en-us/advertising/campaign-management-service/ad?view=bingads-13) array) You may update or add a maximum of 50 ads.
 
-The following samples demonstrate building a campaign with generated assets using Bing Ads SDK:  
+### Native ads
 
-- [Java](https://github.com/BingAds/BingAds-Java-SDK/tree/main/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ResponsiveAdRecommendation.java)  
-- [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/tree/main/examples/BingAdsExamples/BingAdsExamplesLibrary/v13/ResponsiveAdRecommendation.cs)  
-- [Python](https://github.com/BingAds/BingAds-Python-SDK/blob/main/examples/v13/responsive_ad_recommendation.py)  
-- [PHP](https://github.com/BingAds/BingAds-PHP-SDK/blob/main/samples/V13/ResponsiveAdRecommendation.php)  
+To create a native ad with AI-generated text and recommended images use [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13)  
 
-### <a name="asset-generation-rest-api-request-sample"></a>Rest API Request Sample
+- A list of Final URLs (string array)
+- Optional: Brand kit ID (long)
+- Optional: [AdRecommendationTextTone](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtexttone?view=bingads-13) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: Prompt = Description of campaign theme, used for generating ad copy, and get image recommendations (string)
 
-Here is an example of REST API sample code:
+Copilot will return:
 
-```javascript
-Method: POST; Uri: https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/ResponsiveAdRecommendation/Create  
+- A native ad ([ResponsiveAd](https://learn.microsoft.com/en-us/advertising/campaign-management-service/responsivead?view=bingads-13))  
+- A list of images ([AdRecommendationImageSuggestion](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagesuggestion?view=bingads-13) array)
 
-{"FinalUrls":["https://contoso.com"],"Prompt":null,"TextTone":null}  
-```
+Then, use [AddMedia](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addmedia?view=bingads-13) to add image assets to an account:
 
-*FinalUrls* is a required parameter (it accepts multiple URLs for future extensibility, but currently we are using just one).  
+- Account ID (long)
+- An array of _Media_ to add to the account's asset library. ([Media](https://learn.microsoft.com/en-us/advertising/campaign-management-service/media?view=bingads-13) array)
+    You can add a maximum of 10 media in a single call.
 
-*Prompt* is an optional parameter to set a theme for the ad, for example "Holiday sale".  
+Lastly, use [AddAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addads?view=bingads-13) to add ads to an ad group or [UpdateAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateads?view=bingads-13) to change existing ads:
 
-*TextTone* is an optional parameter and accepts values *Friendly*, *Persuasive*, *Cute*, *Inspiring*.  
+- Ad Group ID (long)
+- A list of ads to update. ([Ad](https://learn.microsoft.com/en-us/advertising/campaign-management-service/ad?view=bingads-13) array) You may update or add a maximum of 50 ads.
 
-The response contains a *ResponsiveAd* object with the text fields filled out. This is the same object as the [ResponsiveAd](../campaign-management-service/responsivead.md) data object. It also has an *ImageSuggestions* field, which has URLs for generated images. The caller can inspect these images and upload the ones that should be added to the ad by calling the [AddMedia](../campaign-management-service/addmedia.md) method and using the returned image *Id* in the ad object.  
+### Display ads
 
-To create a recommendation for a Display Ad we need to add an *AdSubType* parameter to the request:  
+To create a display ad with AI-generated text and recommended images use [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13)  
 
-```javascript
-{"AdSubType":"Display","FinalUrls":["https://contoso.com"],"Prompt":null,"TextTone":null}  
-```
+- A list of Final URLs (string array)
+- [AdSubType](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adsubtype?view=bingads-13) = _Display_  
+- Optional: Brand kit ID (long)
+- Optional: [AdRecommendationTextTone](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtexttone?view=bingads-13) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: Prompt = Description of campaign theme, used for generating banner assets containing ad copy and images from final URL or stock (string)
 
-Similarly, for a Video Ad we need to set *AdSubType* to "Video":  
+Copilot will return:
 
-```javascript
-{"AdSubType":"Video","FinalUrls":["https://contoso.com"],"Prompt":null,"TextTone":null}  
-```
+- A display ad ([ResponsiveAd](https://learn.microsoft.com/en-us/advertising/campaign-management-service/responsivead?view=bingads-13))  
+- A list of images ([AdRecommendationImageSuggestion](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagesuggestion?view=bingads-13) array)
 
-To create a recommendation of PMax Asset Group the request is the same as for Native Ad, but the URL is different:  
+Then, use [AddMedia](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addmedia?view=bingads-13) to add image assets to an account:
 
-```javascript
-Method: POST; Uri: https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/AssetGroupRecommendation/Create 
-```
+- Account ID (long)
+- An array of _Media_ to add to the account's asset library. ([Media](https://learn.microsoft.com/en-us/advertising/campaign-management-service/media?view=bingads-13) array)
+    You can add a maximum of 10 media in a single call.
 
-## <a name="asset-refinement"></a>Asset Refinement
+Lastly, use [AddAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addads?view=bingads-13) to add ads to an ad group or [UpdateAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateads?view=bingads-13) to change existing ads:
 
-Use the following Copilot asset generation calls within Microsoft Advertising’s Campaign Management API to enhance your copywriting. Refine your text assets by easily adjusting your tone of voice for short headlines, long headlines, and descriptions.  
+- Ad Group ID (long)
+- A list of ads to update. ([Ad](https://learn.microsoft.com/en-us/advertising/campaign-management-service/ad?view=bingads-13) array) You may update or add a maximum of 50 ads.
 
-### <a name="asset-refinement-service-operations"></a>Service Operations
+### Video ads
 
-The following service operations are used with refine asset recommendations:
+To create a video ad with AI-generated text and recommended videos use [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13)  
 
-- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)  
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)  
-- [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md)  
+- A list of Final URLs (string array)
+- [AdSubType](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adsubtype?view=bingads-13) = _Video_
+- [AdRecommendationVideoType](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationvideotype?view=bingads-13) _\= CTV_ or _OLV_  
+- Optional: Brand kit ID (long)
+- Optional: [AdRecommendationTextTone](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtexttone?view=bingads-13) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: Prompt = Description of campaign theme, used for generating videos from containing ad copy and images from final URL or stock (string)
 
-### <a name="asset-refinement-rest-api-request-sample"></a>Rest API Request Sample
+Then, use [AddVideos](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addvideos?view=bingads-13) to add video assets to an account:
 
-To refine text in a previously created recommendation a corresponding refine method can be used. For example:  
+- Account ID (long)
+- The list of videos to add to the account. ([Video](https://learn.microsoft.com/en-us/advertising/campaign-management-service/video?view=bingads-13) array)
+    The maximum size of the list is 100 items per service request.
 
-```javascript
-Method: POST; Uri: https://campaign.api.bingads.microsoft.com/CampaignManagement/v13/ResponsiveAdRecommendation/Refine  
+Lastly, use [AddAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addads?view=bingads-13) to add ads to an ad group or [UpdateAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateads?view=bingads-13) to change existing ads:
 
-{  
-  "ResponsiveAd": {  
-    "Descriptions": [  
-      {  
-        "Asset": {  
-          "Text": "Description 0",  
-          "Type": "TextAsset"  
-        }  
-      },  
-      {  
-        "Asset": {  
-          "Text": "Description 1",  
-          "Type": "TextAsset"  
-        }  
-      }  
-    ],  
-    "Headlines": [  
-      {  
-        "Asset": {  
-          "Text": "Short headline 0",  
-          "Type": "TextAsset"  
-        }  
-      }  
-    ],  
-    "FinalUrls": [ "https://www.nike.com" ],  
-    "Type": "ResponsiveAd"  
-  },  
-  "TextRefineOperations": [  
-    {  
-      "TextField": "Description",  
-      "TextFieldIndex": 1,  
-      "TextTone": "Inspiring"  
-    }  
-  ]  
-}  
-```
+- Ad Group ID (long)
+- A list of ads to update. ([Ad](https://learn.microsoft.com/en-us/advertising/campaign-management-service/ad?view=bingads-13) array) You may update or add a maximum of 50 ads.
 
-*ResponsiveAd* should be the object returned from the create recommendation response, with the text fields populated. *TextRefineOperations* is a list of operations (specific text fields and corresponding tones) for which refined text values should be returned.  
+## Asset Generation
+
+Copilot enables you to generate and refine assets at scale.
+
+### Text generation
+
+To **generate new ad copy** for your Performance Max asset group, Responsive Search ad, and Native ad, use one of these service operations:
+
+- [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13)
+- [CreateResponsiveSearchAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsivesearchadrecommendation?view=bingads-13)
+- [CreateAssetGroupRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createassetgrouprecommendation?view=bingads-13)
+
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate custom ad copy. Instructions above in [Ad Generation](bookmark://_Ad_Generation) section of this guide.
+
+To **refine your existing ad copy** for your asset group or ad, use one of these service operations:
+
+- [RefineAssetGroupRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineassetgrouprecommendation?view=bingads-13)
+- [RefineResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineresponsiveadrecommendation?view=bingads-13)
+- [RefineResponsiveSearchAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineresponsivesearchadrecommendation?view=bingads-13)
+
+Each method, takes in:
+
+- An ad ([ResponsiveAd](https://learn.microsoft.com/en-us/advertising/campaign-management-service/responsivead?view=bingads-13) or [ResponsiveSearchAd](https://learn.microsoft.com/en-us/advertising/campaign-management-service/responsivesearchad?view=bingads-13)) or asset group ([AssetGroup](https://learn.microsoft.com/en-us/advertising/campaign-management-service/assetgroup?view=bingads-13))  
+- A list of ad copy ([AdRecommendationTextRefineOperation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextrefineoperation?view=bingads-13) array)
+- Text field index number (int)
+- [AdRecommendationTextField](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextfield?view=bingads-13) = _Headline, LongHeadline, Description,_ or _CallToAction_  
+- Optional: [AdRecommendationTextTone](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtexttone?view=bingads-13) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+
+Copilot will return:
+
+- A list of text assets ([AdRecommendationTextRefineResult](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextrefineresult?view=bingads-13))
+
+Lastly, apply changes with one of these service operations:
+
+- [AddAssetGroups](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addassetgroups?view=bingads-13) to add new asset groups
+- [UpdateAssetGroups](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateassetgroups?view=bingads-13) to adjust existing asset groups
+- [AddAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addads?view=bingads-13) to add new ads
+- [UpdateAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateads?view=bingads-13) to adjust existing ads
+
+### Background generation
+
+**Generate a new background for your existing image**, using one of these service operations, to refine it within its asset group or ad:
+
+- [RefineAssetGroupRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineassetgrouprecommendation?view=bingads-13)
+- [RefineResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineresponsiveadrecommendation?view=bingads-13)
+
+Each method, takes in:
+
+- An ad ([ResponsiveAd](https://learn.microsoft.com/en-us/advertising/campaign-management-service/responsivead?view=bingads-13)) or asset group ([AssetGroup](https://learn.microsoft.com/en-us/advertising/campaign-management-service/assetgroup?view=bingads-13))  
+- A list of images ([AdRecommendationImageSuggestion](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagesuggestion?view=bingads-13) array)
+- A list of background descriptions
+    ([AdRecommendationImageRefineOperation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagerefineoperation?view=bingads-13) array)
+- Image index number (int)
+- [AdRecommendationImageRefineType](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagerefinetype?view=bingads-13) _\= BackgroundChange_
+- Description of image background (string)
+
+Copilot will return:
+
+- A list of refined images ([AdRecommendationMediaRefineResult](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationmediarefineresult?view=bingads-13))
+
+Then, use [AddMedia](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addmedia?view=bingads-13) to add image assets to an account:
+
+- Account ID (long)
+- An array of _Media_ to add to the account's asset library. ([Media](https://learn.microsoft.com/en-us/advertising/campaign-management-service/media?view=bingads-13) array)
+    You can add a maximum of 10 media in a single call.
+
+Lastly, apply changes to ads and asset groups with one of these service operations:
+
+- [AddAssetGroups](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addassetgroups?view=bingads-13) to add new asset groups
+- [UpdateAssetGroups](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateassetgroups?view=bingads-13) to adjust existing asset groups
+- [AddAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addads?view=bingads-13) to add new ads
+- [UpdateAds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updateads?view=bingads-13) to adjust existing ads
+
+### Banner generation
+
+**Build a new display banner asset** for your display ad, use [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13).  
+
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate banner assets as you create a display ad. Instructions above in [Ad Generation](bookmark://_Display_ads) section of this guide.
+
+### Video generation
+
+**Build a new video asset** for your Video ad, use [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13).  
+
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate video assets as you create an online video and premium streaming ad. Instructions above in [Ad Generation](bookmark://_Video_ads) section of this guide.
+
+### Brand Kit
+
+Brand Kit allows users to specify a brand's fonts, logos, color palettes, and voice to be used by Copilot in ad and asset generation. There are three ways to set up a brand kit: create with a URL, manually, or with a bulk file.
+
+To **create a Brand Kit with a URL**, use [CreateBrandKitRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createbrandkitrecommendation?view=bingads-13)
+
+- Account ID (long)
+- URL (string)
+
+Copilot will return:
+
+- Brand Kit ([BrandKit](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkit?view=bingads-13))
+- Brand Kit Id (long)
+- Brand Kit Name (string)
+- BrandVoice ([BrandVoice](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandvoice?view=bingads-13))
+- BusinessName (string)
+- Fonts ([BrandKitFont](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitfont?view=bingads-13) array)
+- Images ([BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13) array)
+- LandscapeLogos ([BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13) array)
+- SquareLogos ([BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13) array)
+- Palettes ([BrandKitPalette](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitpalette?view=bingads-13) array)
+
+Lastly, use **[AddBrandKits](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addbrandkits?view=bingads-13)** to save a Brand Kit to an account.
+
+To **create a Brand Kit manually**, use [AddBrandKits](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addbrandkits?view=bingads-13):
+
+- Account ID (long)
+- Brand Kit ([BrandKit](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkit?view=bingads-13))
+- Brand Kit Id (long)
+- Brand Kit Name (string)
+- BrandVoice ([BrandVoice](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandvoice?view=bingads-13))
+- BusinessName (string)
+- Fonts ([BrandKitFont](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitfont?view=bingads-13) array)
+- Images ([BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13) array)
+- LandscapeLogos ([BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13) array)
+- SquareLogos ([BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13) array)
+- Palettes ([BrandKitPalette](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitpalette?view=bingads-13) array)
+
+To **create with a bulk file** via Bulk API, use [Brand Kit](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13) with the following attribute fields are available in the [Bulk File Schema](https://learn.microsoft.com/en-us/advertising/bulk-service/bulk-file-schema?view=bingads-13):
+
+- [Brand Voice](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#brandvoice)
+- [Business Name](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#businessname)
+- [Fonts](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#fonts)
+- [Id](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#id)
+- [Images](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#images)
+- [Landscape Logos](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#landscapelogos)
+- [Name](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#name)
+- [Palettes](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#palettes)
+- [Status](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#status)
+- [SquareLogos](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13#squarelogos)
+
+Additionally, service operations related to Brand Kits:
+
+- [GetBrandKitsByAccount ID](https://learn.microsoft.com/en-us/advertising/campaign-management-service/getbrandkitsbyaccountid?view=bingads-13)
+- [GetBrandKitsByIds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/getbrandkitsbyids?view=bingads-13)
+- [UpdateBrandKits](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updatebrandkits?view=bingads-13)
+
+## All Service Operations, Data Objects, Value Sets  
+
+### Campaign Management API
+
+#### Service Operations
+
+- [CreateResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsiveadrecommendation?view=bingads-13)
+- [CreateResponsiveSearchAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createresponsivesearchadrecommendation?view=bingads-13)
+- [CreateAssetGroupRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createassetgrouprecommendation?view=bingads-13)
+- [GetResponsiveAdRecommendationJob](https://learn.microsoft.com/en-us/advertising/campaign-management-service/getresponsiveadrecommendationjob?view=bingads-13)
+- [RefineAssetGroupRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineassetgrouprecommendation?view=bingads-13)
+- [RefineResponsiveAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineresponsiveadrecommendation?view=bingads-13)
+- [RefineResponsiveSearchAdRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/refineresponsivesearchadrecommendation?view=bingads-13)
+- [CreateBrandKitRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createbrandkitrecommendation?view=bingads-13)
+- [AddBrandKits](https://learn.microsoft.com/en-us/advertising/campaign-management-service/addbrandkits?view=bingads-13)
+- [CreateBrandKitRecommendation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/createbrandkitrecommendation?view=bingads-13)
+- [GetBrandKitsByAccount ID](https://learn.microsoft.com/en-us/advertising/campaign-management-service/getbrandkitsbyaccountid?view=bingads-13)
+- [GetBrandKitsByIds](https://learn.microsoft.com/en-us/advertising/campaign-management-service/getbrandkitsbyids?view=bingads-13)
+- [UpdateBrandKits](https://learn.microsoft.com/en-us/advertising/campaign-management-service/updatebrandkits?view=bingads-13)
+
+#### Data Objects
+
+- [AdRecommendationImageRefineOperation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagerefineoperation?view=bingads-13)
+- [AdRecommendationImageSuggestion](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagesuggestion?view=bingads-13)
+- [AdRecommendationImageSuggestionMetadata](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagesuggestionmetadata?view=bingads-13)
+- [AdRecommendationTextAssetProperty](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextassetproperty?view=bingads-13)
+- [AdRecommendationImageAssetProperty](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimageassetproperty?view=bingads-13)
+- [AdRecommendationCustomizedProperty](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationcustomizedproperty?view=bingads-13)
+- [AdRecommendationJobInfo](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationjobinfo?view=bingads-13)
+- [AdRecommendationMediaRefineResult](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationmediarefineresult?view=bingads-13)
+- [AdRecommendationRefinedMedia](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationrefinedmedia?view=bingads-13)
+- [AdRecommendationTextRefineOperation](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextrefineoperation?view=bingads-13)
+- [AdRecommendationTextRefineResult](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextrefineresult?view=bingads-13)
+- [AdRecommendationVideoSuggestion](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationvideosuggestion?view=bingads-13)
+- [BrandKit](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkit?view=bingads-13)
+- [BrandKitFont](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitfont?view=bingads-13)
+- [BrandKitImage](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitimage?view=bingads-13)
+- [BrandVoice](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandvoice?view=bingads-13)
+- [BrandKitPalette](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitpalette?view=bingads-13)
+- [BrandKitColor](https://learn.microsoft.com/en-us/advertising/campaign-management-service/brandkitcolor?view=bingads-13)
+
+#### Value Sets
+
+- [AdRecommendationAdditionalField](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationadditionalfield?view=bingads-13)
+- [AdRecommendationImageField](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagefield?view=bingads-13)
+- [AdRecommendationImageRefineType](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationimagerefinetype?view=bingads-13)
+- [AdRecommendationTextField](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationtextfield?view=bingads-13)
+- [AdRecommendationVideoType](https://learn.microsoft.com/en-us/advertising/campaign-management-service/adrecommendationvideotype?view=bingads-13)
+
+### Bulk API
+
+#### Bulk File Schema
+
+- [Brand Kit](https://learn.microsoft.com/en-us/advertising/bulk-service/brand-kit?view=bingads-13)
