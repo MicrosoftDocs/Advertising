@@ -25,117 +25,117 @@ Copilot makes it easy to generate high volumes of custom ads and asset groups.
 
 ### Performance Max
 
-To create an asset group for a Performance Max campaign with AI-generated text and recommended images use [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation).
+To create an asset group for a Performance Max campaign with AI-generated text and recommended images use [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md).
 
 - A list of Final URLs (string array)
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 - Optional: Prompt = Description of campaign theme, used for generating ad copy, and get image recommendations (string)
 
 Copilot will return:
 
-- An asset group ([AssetGroup](../campaign-management-service/assetgroup))  
-- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion) array)
+- An asset group ([AssetGroup](../campaign-management-service/assetgroup.md))  
+- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion.md) array)
 
-Then, use [AddMedia](../campaign-management-service/addmedia) to add image assets to an account:
+Then, use [AddMedia](../campaign-management-service/addmedia.md) to add image assets to an account:
 
 - Account ID (long)
-- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media) array)
+- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media.md) array)
     You can add a maximum of 10 media in a single call.
 
-Lastly, use [AddAssetGroups](../campaign-management-service/addassetgroups) to add a new one to a specified campaign or [UpdateAssetGroups](../campaign-management-service/updateassetgroups) to update an existing asset group:
+Lastly, use [AddAssetGroups](../campaign-management-service/addassetgroups.md) to add a new one to a specified campaign or [UpdateAssetGroups](../campaign-management-service/updateassetgroups.md) to update an existing asset group:
 
 - Campaign ID (long)
-- Array of asset groups to update for the specified campaign. ([AssetGroup](../campaign-management-service/assetgroup) array) A maximum of 100 asset groups can be specified in a single call.
+- Array of asset groups to update for the specified campaign. ([AssetGroup](../campaign-management-service/assetgroup.md) array) A maximum of 100 asset groups can be specified in a single call.
 
 ### Responsive Search ads
 
-To create a Responsive Search ad with AI-generated text, use [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation).
+To create a Responsive Search ad with AI-generated text, use [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md).
 
 - A list of Final URLs (string array)
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 - Optional: Prompt = Description of campaign theme, used for generating ad copy (string)
 
 Copilot will return:
 
-- A Responsive Search ad ([ResponsiveSearchAd](../campaign-management-service/responsivesearchad))  
+- A Responsive Search ad ([ResponsiveSearchAd](../campaign-management-service/responsivesearchad.md))  
 
-Lastly, use [AddAds](../campaign-management-service/addads) to add ads to an ad group:
+Lastly, use [AddAds](../campaign-management-service/addads.md) to add ads to an ad group:
 
 - Ad Group ID (long)
-- A list of ads to update. ([Ad](../campaign-management-service/ad) array) You may update or add a maximum of 50 ads.
+- A list of ads to update. ([Ad](../campaign-management-service/ad.md) array) You may update or add a maximum of 50 ads.
 
 ### Native ads
 
-To create a native ad with AI-generated text and recommended images use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation)  
+To create a native ad with AI-generated text and recommended images use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 
 - A list of Final URLs (string array)
 - Optional: Brand kit ID (long)
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 - Optional: Prompt = Description of campaign theme, used for generating ad copy, and get image recommendations (string)
 
 Copilot will return:
 
-- A native ad ([ResponsiveAd](../campaign-management-service/responsivead))  
-- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion) array)
+- A native ad ([ResponsiveAd](../campaign-management-service/responsivead.md))  
+- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion.md) array)
 
-Then, use [AddMedia](../campaign-management-service/addmedia) to add image assets to an account:
+Then, use [AddMedia](../campaign-management-service/addmedia.md) to add image assets to an account:
 
 - Account ID (long)
-- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media) array)
+- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media.md) array)
     You can add a maximum of 10 media in a single call.
 
-Lastly, use [AddAds](../campaign-management-service/addads) to add ads to an ad group or [UpdateAds](../campaign-management-service/updateads) to change existing ads:
+Lastly, use [AddAds](../campaign-management-service/addads.md) to add ads to an ad group or [UpdateAds](../campaign-management-service/updateads.md) to change existing ads:
 
 - Ad Group ID (long)
-- A list of ads to update. ([Ad](../campaign-management-service/ad) array) You may update or add a maximum of 50 ads.
+- A list of ads to update. ([Ad](../campaign-management-service/ad.md) array) You may update or add a maximum of 50 ads.
 
 ### Display ads
 
-To create a display ad with AI-generated text and recommended images use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation)  
+To create a display ad with AI-generated text and recommended images use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 
 - A list of Final URLs (string array)
-- [AdSubType](../campaign-management-service/adsubtype) = _Display_  
+- [AdSubType](../campaign-management-service/adsubtype.md) = _Display_  
 - Optional: Brand kit ID (long)
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 - Optional: Prompt = Description of campaign theme, used for generating banner assets containing ad copy and images from final URL or stock (string)
 
 Copilot will return:
 
-- A display ad ([ResponsiveAd](../campaign-management-service/responsivead))  
-- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion) array)
+- A display ad ([ResponsiveAd](../campaign-management-service/responsivead.md))  
+- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion.md) array)
 
-Then, use [AddMedia](../campaign-management-service/addmedia) to add image assets to an account:
+Then, use [AddMedia](../campaign-management-service/addmedia.md) to add image assets to an account:
 
 - Account ID (long)
-- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media) array)
+- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media.md) array)
     You can add a maximum of 10 media in a single call.
 
-Lastly, use [AddAds](../campaign-management-service/addads) to add ads to an ad group or [UpdateAds](../campaign-management-service/updateads) to change existing ads:
+Lastly, use [AddAds](../campaign-management-service/addads.md) to add ads to an ad group or [UpdateAds](../campaign-management-service/updateads.md) to change existing ads:
 
 - Ad Group ID (long)
-- A list of ads to update. ([Ad](../campaign-management-service/ad) array) You may update or add a maximum of 50 ads.
+- A list of ads to update. ([Ad](../campaign-management-service/ad.md) array) You may update or add a maximum of 50 ads.
 
 ### Video ads
 
-To create a video ad with AI-generated text and recommended videos use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation)  
+To create a video ad with AI-generated text and recommended videos use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)  
 
 - A list of Final URLs (string array)
-- [AdSubType](../campaign-management-service/adsubtype) = _Video_
-- [AdRecommendationVideoType](../campaign-management-service/adrecommendationvideotype) _\= CTV_ or _OLV_  
+- [AdSubType](../campaign-management-service/adsubtype.md) = _Video_
+- [AdRecommendationVideoType](../campaign-management-service/adrecommendationvideotype.md) _\= CTV_ or _OLV_  
 - Optional: Brand kit ID (long)
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 - Optional: Prompt = Description of campaign theme, used for generating videos from containing ad copy and images from final URL or stock (string)
 
-Then, use [AddVideos](../campaign-management-service/addvideos) to add video assets to an account:
+Then, use [AddVideos](../campaign-management-service/addvideos.md) to add video assets to an account:
 
 - Account ID (long)
-- The list of videos to add to the account. ([Video](../campaign-management-service/video) array)
+- The list of videos to add to the account. ([Video](../campaign-management-service/video.md) array)
     The maximum size of the list is 100 items per service request.
 
-Lastly, use [AddAds](../campaign-management-service/addads) to add ads to an ad group or [UpdateAds](../campaign-management-service/updateads) to change existing ads:
+Lastly, use [AddAds](../campaign-management-service/addads.md) to add ads to an ad group or [UpdateAds](../campaign-management-service/updateads.md) to change existing ads:
 
 - Ad Group ID (long)
-- A list of ads to update. ([Ad](../campaign-management-service/ad) array) You may update or add a maximum of 50 ads.
+- A list of ads to update. ([Ad](../campaign-management-service/ad.md) array) You may update or add a maximum of 50 ads.
 
 ## Asset Generation
 
@@ -145,139 +145,139 @@ Copilot enables you to generate and refine assets at scale.
 
 To **generate new ad copy** for your Performance Max asset group, Responsive Search ad, and Native ad, use one of these service operations:
 
-- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation)
-- [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation)
-- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation)
+- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)
+- [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md)
+- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)
 
-Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate custom ad copy. Instructions above in [Ad Generation](bookmark://_Ad_Generation) section of this guide.
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate custom ad copy. Instructions above in [Ad Generation](#ad-generation) section of this guide.
 
 To **refine your existing ad copy** for your asset group or ad, use one of these service operations:
 
-- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation)
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation)
-- [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation)
+- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)
+- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)
+- [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md)
 
 Each method, takes in:
 
-- An ad ([ResponsiveAd](../campaign-management-service/responsivead) or [ResponsiveSearchAd](../campaign-management-service/responsivesearchad)) or asset group ([AssetGroup](../campaign-management-service/assetgroup))  
-- A list of ad copy ([AdRecommendationTextRefineOperation](../campaign-management-service/adrecommendationtextrefineoperation) array)
+- An ad ([ResponsiveAd](../campaign-management-service/responsivead.md) or [ResponsiveSearchAd](../campaign-management-service/responsivesearchad.md)) or asset group ([AssetGroup](../campaign-management-service/assetgroup.md))  
+- A list of ad copy ([AdRecommendationTextRefineOperation](../campaign-management-service/adrecommendationtextrefineoperation.md) array)
 - Text field index number (int)
-- [AdRecommendationTextField](../campaign-management-service/adrecommendationtextfield) = _Headline, LongHeadline, Description,_ or _CallToAction_  
-- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone) = _Cute, Friendly, Inspiring,_ or _Persuasive_
+- [AdRecommendationTextField](../campaign-management-service/adrecommendationtextfield.md) = _Headline, LongHeadline, Description,_ or _CallToAction_  
+- Optional: [AdRecommendationTextTone](../campaign-management-service/adrecommendationtexttone.md) = _Cute, Friendly, Inspiring,_ or _Persuasive_
 
 Copilot will return:
 
-- A list of text assets ([AdRecommendationTextRefineResult](../campaign-management-service/adrecommendationtextrefineresult))
+- A list of text assets ([AdRecommendationTextRefineResult](../campaign-management-service/adrecommendationtextrefineresult.md))
 
 Lastly, apply changes with one of these service operations:
 
-- [AddAssetGroups](../campaign-management-service/addassetgroups) to add new asset groups
-- [UpdateAssetGroups](../campaign-management-service/updateassetgroups) to adjust existing asset groups
-- [AddAds](../campaign-management-service/addads) to add new ads
-- [UpdateAds](../campaign-management-service/updateads) to adjust existing ads
+- [AddAssetGroups](../campaign-management-service/addassetgroups.md) to add new asset groups
+- [UpdateAssetGroups](../campaign-management-service/updateassetgroups.md) to adjust existing asset groups
+- [AddAds](../campaign-management-service/addads.md) to add new ads
+- [UpdateAds](../campaign-management-service/updateads.md) to adjust existing ads
 
 ### Background generation
 
 **Generate a new background for your existing image**, using one of these service operations, to refine it within its asset group or ad:
 
-- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation)
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation)
+- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)
+- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)
 
 Each method, takes in:
 
-- An ad ([ResponsiveAd](../campaign-management-service/responsivead)) or asset group ([AssetGroup](../campaign-management-service/assetgroup))  
-- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion) array)
+- An ad ([ResponsiveAd](../campaign-management-service/responsivead.md)) or asset group ([AssetGroup](../campaign-management-service/assetgroup.md))  
+- A list of images ([AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion.md) array)
 - A list of background descriptions
-    ([AdRecommendationImageRefineOperation](../campaign-management-service/adrecommendationimagerefineoperation) array)
+    ([AdRecommendationImageRefineOperation](../campaign-management-service/adrecommendationimagerefineoperation.md) array)
 - Image index number (int)
-- [AdRecommendationImageRefineType](../campaign-management-service/adrecommendationimagerefinetype) _\= BackgroundChange_
+- [AdRecommendationImageRefineType](../campaign-management-service/adrecommendationimagerefinetype.md) _\= BackgroundChange_
 - Description of image background (string)
 
 Copilot will return:
 
-- A list of refined images ([AdRecommendationMediaRefineResult](../campaign-management-service/adrecommendationmediarefineresult))
+- A list of refined images ([AdRecommendationMediaRefineResult](../campaign-management-service/adrecommendationmediarefineresult.md))
 
-Then, use [AddMedia](../campaign-management-service/addmedia) to add image assets to an account:
+Then, use [AddMedia](../campaign-management-service/addmedia.md) to add image assets to an account:
 
 - Account ID (long)
-- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media) array)
+- An array of _Media_ to add to the account's asset library. ([Media](../campaign-management-service/media.md) array)
     You can add a maximum of 10 media in a single call.
 
 Lastly, apply changes to ads and asset groups with one of these service operations:
 
-- [AddAssetGroups](../campaign-management-service/addassetgroups) to add new asset groups
-- [UpdateAssetGroups](../campaign-management-service/updateassetgroups) to adjust existing asset groups
-- [AddAds](../campaign-management-service/addads) to add new ads
-- [UpdateAds](../campaign-management-service/updateads) to adjust existing ads
+- [AddAssetGroups](../campaign-management-service/addassetgroups.md) to add new asset groups
+- [UpdateAssetGroups](../campaign-management-service/updateassetgroups.md) to adjust existing asset groups
+- [AddAds](../campaign-management-service/addads.md) to add new ads
+- [UpdateAds](../campaign-management-service/updateads.md) to adjust existing ads
 
 ### Banner generation
 
-**Build a new display banner asset** for your display ad, use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation).  
+**Build a new display banner asset** for your display ad, use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md).  
 
-Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate banner assets as you create a display ad. Instructions above in [Ad Generation](bookmark://_Display_ads) section of this guide.
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate banner assets as you create a display ad. Instructions above in [Ad Generation](#display-ads) section of this guide.
 
 ### Video generation
 
-**Build a new video asset** for your Video ad, use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation).  
+**Build a new video asset** for your Video ad, use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md).  
 
-Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate video assets as you create an online video and premium streaming ad. Instructions above in [Ad Generation](bookmark://_Video_ads) section of this guide.
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate video assets as you create an online video and premium streaming ad. Instructions above in [Ad Generation](#video-ads) section of this guide.
 
 ### Brand Kit
 
 Brand Kit allows users to specify a brand's fonts, logos, color palettes, and voice to be used by Copilot in ad and asset generation. There are three ways to set up a brand kit: create with a URL, manually, or with a bulk file.
 
-To **create a Brand Kit with a URL**, use [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation)
+To **create a Brand Kit with a URL**, use [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation.md)
 
 - Account ID (long)
 - URL (string)
 
 Copilot will return:
 
-- Brand Kit ([BrandKit](../campaign-management-service/brandkit))
+- Brand Kit ([BrandKit](../campaign-management-service/brandkit.md))
 - Brand Kit Id (long)
 - Brand Kit Name (string)
-- BrandVoice ([BrandVoice](../campaign-management-service/brandvoice))
+- BrandVoice ([BrandVoice](../campaign-management-service/brandvoice.md))
 - BusinessName (string)
-- Fonts ([BrandKitFont](../campaign-management-service/brandkitfont) array)
-- Images ([BrandKitImage](../campaign-management-service/brandkitimage) array)
-- LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage) array)
-- SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage) array)
-- Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette) array)
+- Fonts ([BrandKitFont](../campaign-management-service/brandkitfont.md) array)
+- Images ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+- LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+- SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+- Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette.md) array)
 
-Lastly, use **[AddBrandKits](../campaign-management-service/addbrandkits)** to save a Brand Kit to an account.
+Lastly, use **[AddBrandKits](../campaign-management-service/addbrandkits.md)** to save a Brand Kit to an account.
 
-To **create a Brand Kit manually**, use [AddBrandKits](../campaign-management-service/addbrandkits):
+To **create a Brand Kit manually**, use [AddBrandKits](../campaign-management-service/addbrandkits.md):
 
 - Account ID (long)
-- Brand Kit ([BrandKit](../campaign-management-service/brandkit))
+- Brand Kit ([BrandKit](../campaign-management-service/brandkit.md))
 - Brand Kit Id (long)
 - Brand Kit Name (string)
-- BrandVoice ([BrandVoice](../campaign-management-service/brandvoice))
+- BrandVoice ([BrandVoice](../campaign-management-service/brandvoice.md))
 - BusinessName (string)
-- Fonts ([BrandKitFont](../campaign-management-service/brandkitfont) array)
-- Images ([BrandKitImage](../campaign-management-service/brandkitimage) array)
-- LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage) array)
-- SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage) array)
-- Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette) array)
+- Fonts ([BrandKitFont](../campaign-management-service/brandkitfont.md) array)
+- Images ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+- LandscapeLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+- SquareLogos ([BrandKitImage](../campaign-management-service/brandkitimage.md) array)
+- Palettes ([BrandKitPalette](../campaign-management-service/brandkitpalette.md) array)
 
-To **create with a bulk file** via Bulk API, use [Brand Kit](../bulk-service/brand-kit) with the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema):
+To **create with a bulk file** via Bulk API, use [Brand Kit](../bulk-service/brand-kit.md) with the following attribute fields are available in the [Bulk File Schema](../bulk-service/bulk-file-schema.md):
 
-- [Brand Voice](../bulk-service/brand-kit#brandvoice)
-- [Business Name](../bulk-service/brand-kit#businessname)
-- [Fonts](../bulk-service/brand-kit#fonts)
-- [Id](../bulk-service/brand-kit#id)
-- [Images](../bulk-service/brand-kit#images)
-- [Landscape Logos](../bulk-service/brand-kit#landscapelogos)
-- [Name](../bulk-service/brand-kit#name)
-- [Palettes](../bulk-service/brand-kit#palettes)
-- [Status](../bulk-service/brand-kit#status)
-- [SquareLogos](../bulk-service/brand-kit#squarelogos)
+- [Brand Voice](../bulk-service/brand-kit.md#brandvoice)
+- [Business Name](../bulk-service/brand-kit.md#businessname)
+- [Fonts](../bulk-service/brand-kit.md#fonts)
+- [Id](../bulk-service/brand-kit.md#id)
+- [Images](../bulk-service/brand-kit.md#images)
+- [Landscape Logos](../bulk-service/brand-kit.md#landscapelogos)
+- [Name](../bulk-service/brand-kit.md#name)
+- [Palettes](../bulk-service/brand-kit.md#palettes)
+- [Status](../bulk-service/brand-kit.md#status)
+- [SquareLogos](../bulk-service/brand-kit.md#squarelogos)
 
 Additionally, service operations related to Brand Kits:
 
-- [GetBrandKitsByAccount ID](../campaign-management-service/getbrandkitsbyaccountid)
-- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids)
-- [UpdateBrandKits](../campaign-management-service/updatebrandkits)
+- [GetBrandKitsByAccount ID](../campaign-management-service/getbrandkitsbyaccountid.md)
+- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids.md)
+- [UpdateBrandKits](../campaign-management-service/updatebrandkits.md)
 
 ## All Service Operations, Data Objects, Value Sets  
 
@@ -285,51 +285,51 @@ Additionally, service operations related to Brand Kits:
 
 #### Service Operations
 
-- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation)
-- [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation)
-- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation)
-- [GetResponsiveAdRecommendationJob](../campaign-management-service/getresponsiveadrecommendationjob)
-- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation)
-- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation)
-- [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation)
-- [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation)
-- [AddBrandKits](../campaign-management-service/addbrandkits)
-- [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation)
-- [GetBrandKitsByAccount ID](../campaign-management-service/getbrandkitsbyaccountid)
-- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids)
-- [UpdateBrandKits](../campaign-management-service/updatebrandkits)
+- [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md)
+- [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md)
+- [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)
+- [GetResponsiveAdRecommendationJob](../campaign-management-service/getresponsiveadrecommendationjob.md)
+- [RefineAssetGroupRecommendation](../campaign-management-service/refineassetgrouprecommendation.md)
+- [RefineResponsiveAdRecommendation](../campaign-management-service/refineresponsiveadrecommendation.md)
+- [RefineResponsiveSearchAdRecommendation](../campaign-management-service/refineresponsivesearchadrecommendation.md)
+- [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation.md)
+- [AddBrandKits](../campaign-management-service/addbrandkits.md)
+- [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation.md)
+- [GetBrandKitsByAccount ID](../campaign-management-service/getbrandkitsbyaccountid.md)
+- [GetBrandKitsByIds](../campaign-management-service/getbrandkitsbyids.md)
+- [UpdateBrandKits](../campaign-management-service/updatebrandkits.md)
 
 #### Data Objects
 
-- [AdRecommendationImageRefineOperation](../campaign-management-service/adrecommendationimagerefineoperation)
-- [AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion)
-- [AdRecommendationImageSuggestionMetadata](../campaign-management-service/adrecommendationimagesuggestionmetadata)
-- [AdRecommendationTextAssetProperty](../campaign-management-service/adrecommendationtextassetproperty)
-- [AdRecommendationImageAssetProperty](../campaign-management-service/adrecommendationimageassetproperty)
-- [AdRecommendationCustomizedProperty](../campaign-management-service/adrecommendationcustomizedproperty)
-- [AdRecommendationJobInfo](../campaign-management-service/adrecommendationjobinfo)
-- [AdRecommendationMediaRefineResult](../campaign-management-service/adrecommendationmediarefineresult)
-- [AdRecommendationRefinedMedia](../campaign-management-service/adrecommendationrefinedmedia)
-- [AdRecommendationTextRefineOperation](../campaign-management-service/adrecommendationtextrefineoperation)
-- [AdRecommendationTextRefineResult](../campaign-management-service/adrecommendationtextrefineresult)
-- [AdRecommendationVideoSuggestion](../campaign-management-service/adrecommendationvideosuggestion)
-- [BrandKit](../campaign-management-service/brandkit)
-- [BrandKitFont](../campaign-management-service/brandkitfont)
-- [BrandKitImage](../campaign-management-service/brandkitimage)
-- [BrandVoice](../campaign-management-service/brandvoice)
-- [BrandKitPalette](../campaign-management-service/brandkitpalette)
-- [BrandKitColor](../campaign-management-service/brandkitcolor)
+- [AdRecommendationImageRefineOperation](../campaign-management-service/adrecommendationimagerefineoperation.md)
+- [AdRecommendationImageSuggestion](../campaign-management-service/adrecommendationimagesuggestion.md)
+- [AdRecommendationImageSuggestionMetadata](../campaign-management-service/adrecommendationimagesuggestionmetadata.md)
+- [AdRecommendationTextAssetProperty](../campaign-management-service/adrecommendationtextassetproperty.md)
+- [AdRecommendationImageAssetProperty](../campaign-management-service/adrecommendationimageassetproperty.md)
+- [AdRecommendationCustomizedProperty](../campaign-management-service/adrecommendationcustomizedproperty.md)
+- [AdRecommendationJobInfo](../campaign-management-service/adrecommendationjobinfo.md)
+- [AdRecommendationMediaRefineResult](../campaign-management-service/adrecommendationmediarefineresult.md)
+- [AdRecommendationRefinedMedia](../campaign-management-service/adrecommendationrefinedmedia.md)
+- [AdRecommendationTextRefineOperation](../campaign-management-service/adrecommendationtextrefineoperation.md)
+- [AdRecommendationTextRefineResult](../campaign-management-service/adrecommendationtextrefineresult.md)
+- [AdRecommendationVideoSuggestion](../campaign-management-service/adrecommendationvideosuggestion.md)
+- [BrandKit](../campaign-management-service/brandkit.md)
+- [BrandKitFont](../campaign-management-service/brandkitfont.md)
+- [BrandKitImage](../campaign-management-service/brandkitimage.md)
+- [BrandVoice](../campaign-management-service/brandvoice.md)
+- [BrandKitPalette](../campaign-management-service/brandkitpalette.md)
+- [BrandKitColor](../campaign-management-service/brandkitcolor.md)
 
 #### Value Sets
 
-- [AdRecommendationAdditionalField](../campaign-management-service/adrecommendationadditionalfield)
-- [AdRecommendationImageField](../campaign-management-service/adrecommendationimagefield)
-- [AdRecommendationImageRefineType](../campaign-management-service/adrecommendationimagerefinetype)
-- [AdRecommendationTextField](../campaign-management-service/adrecommendationtextfield)
-- [AdRecommendationVideoType](../campaign-management-service/adrecommendationvideotype)
+- [AdRecommendationAdditionalField](../campaign-management-service/adrecommendationadditionalfield.md)
+- [AdRecommendationImageField](../campaign-management-service/adrecommendationimagefield.md)
+- [AdRecommendationImageRefineType](../campaign-management-service/adrecommendationimagerefinetype.md)
+- [AdRecommendationTextField](../campaign-management-service/adrecommendationtextfield.md)
+- [AdRecommendationVideoType](../campaign-management-service/adrecommendationvideotype.md)
 
 ### Bulk API
 
 #### Bulk File Schema
 
-- [Brand Kit](../bulk-service/brand-kit)
+- [Brand Kit](../bulk-service/brand-kit.md)
