@@ -149,7 +149,7 @@ To **generate new ad copy** for your Performance Max asset group, Responsive Sea
 - [CreateResponsiveSearchAdRecommendation](../campaign-management-service/createresponsivesearchadrecommendation.md)
 - [CreateAssetGroupRecommendation](../campaign-management-service/createassetgrouprecommendation.md)
 
-Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate custom ad copy. Instructions above in [Ad Generation](bookmark://_Ad_Generation) section of this guide.
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate custom ad copy. Instructions above in [Ad Generation](#ad-generation) section of this guide.
 
 To **refine your existing ad copy** for your asset group or ad, use one of these service operations:
 
@@ -214,13 +214,13 @@ Lastly, apply changes to ads and asset groups with one of these service operatio
 
 **Build a new display banner asset** for your display ad, use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md).  
 
-Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate banner assets as you create a display ad. Instructions above in [Ad Generation](bookmark://_Display_ads) section of this guide.
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate banner assets as you create a display ad. Instructions above in [Ad Generation](#display-ads) section of this guide.
 
 ### Video generation
 
 **Build a new video asset** for your Video ad, use [CreateResponsiveAdRecommendation](../campaign-management-service/createresponsiveadrecommendation.md).  
 
-Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate video assets as you create an online video and premium streaming ad. Instructions above in [Ad Generation](bookmark://_Video_ads) section of this guide.
+Copilot uses your landing page URL, tone of voice (optional), and prompt (optional) to generate video assets as you create an online video and premium streaming ad. Instructions above in [Ad Generation](#video-ads) section of this guide.
 
 ### Brand Kit
 
