@@ -110,9 +110,12 @@ For a *Bid Strategy* record, the following attribute fields are available in the
 - [Bid Strategy Type](#bidstrategytype)
 - [Campaign Type](#campaigntype)
 - [Client Id](#clientid)
+- [Currency Code](#currencycode)
 - [Id](#id)
 - [Modified Time](#modifiedtime)
 - [Parent Id](#parentid)
+- [Reporting Time Zone](#reportingtimezone)
+- [Scope](#scope)
 - [Status](#status)
 
 ## <a name="bidstrategymaxcpc"></a>Bid Strategy MaxCpc
@@ -123,7 +126,7 @@ This field is only used if the [Bid Strategy Type](#bidstrategytype) field is se
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
 **Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.   
+**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.  
 **Delete:** Read-only  
 
 ## <a name="bidstrategyname"></a>Bid Strategy Name
@@ -153,31 +156,31 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 **Delete:** Read-only  
 
 ## <a name="bidstrategytargetcpa"></a>Bid Strategy TargetCpa
-The target cost per acquisition (CPA) that you want used by Microsoft Advertising to maximize conversions. 
+The target cost per acquisition (CPA) that you want used by Microsoft Advertising to maximize conversions.  
 
 This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*, and otherwise this field is ignored.
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
 **Add:** Required if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetCpa*, optional if the [Bid Strategy Type](#bidstrategytype) field is set to *MaximizeConversions*. Otherwise, this field is ignored.
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="bidstrategytargetimpressionshare"></a>Bid Strategy TargetImpressionShare
-The target impression share for the ad position where you want your ads to appear. 
+The target impression share for the ad position where you want your ads to appear.  
 
 This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetImpressionShare*, and otherwise this field is ignored.
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
 **Add:** Required if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetImpressionShare*, and otherwise this field is ignored.   
-**Update:** Optional. If no value is set for the update, this setting is not changed.    
+**Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
 ## <a name="bidstrategytargetroas"></a>Bid Strategy TargetRoas
-The target return on ad spend (ROAS) that you want used by Microsoft Advertising to maximize conversions. 
+The target return on ad spend (ROAS) that you want used by Microsoft Advertising to maximize conversions.  
 
-The supported target ROAS values range from 0.01 (1 percent) to 1,000.00 (100,000 percent). 
+The supported target ROAS values range from 0.01 (1 percent) to 1,000.00 (100,000 percent).  
 
 This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to *TargetRoas*, and otherwise this field is ignored.  
 
@@ -188,7 +191,7 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 **Delete:** Read-only  
 
 ## <a name="bidstrategytype"></a>Bid Strategy Type
-The bid strategy type for how you want to manage your bids. 
+The bid strategy type for how you want to manage your bids.  
 
 Portfolio bid strategies work best with one goal in mind, using complementary campaign and bid strategy types. You cannot change a portfolio's bid strategy type. If you want a campaign in the portfolio to use a different bid strategy you can move it to another portfolio. Once you choose a campaign type, the portfolio can only include campaigns of that type.  
 
@@ -243,6 +246,9 @@ Used to associate records in the bulk upload file with records in the results fi
 **Update:** Optional  
 **Delete:** Read-only  
 
+## <a name="currencycode"></a>Currency Code
+The currency for the cross-account poortfolio. It must match the account currency provided. If *null*, it defaults to the account’s currency. This field can't be updated.
+
 ## <a name="id"></a>Id
 The system-generated identifier of the bid strategy.
 
@@ -268,6 +274,12 @@ This bulk field maps to the *Id* field of the [Account](account.md) record.
 **Add:** Read-only  
 **Update:** Read-only  
 **Delete:** Read-only  
+
+## <a name="reportingtimezone"></a>Reporting Time Zone
+Specifies the reporting timezone for the campaign. If no value is provided, it defaults to the account’s timezone. This field can be updated.
+
+## <a name="scope"></a>Scope
+A nullable field that indicates whether the bid strategy is created at the customer level or the account level. If no value is provided, the default scope is *Account*.
 
 ## <a name="status"></a>Status
 The status of the bid strategy.
