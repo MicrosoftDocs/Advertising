@@ -329,8 +329,8 @@ Orders can be sent to PromoteIQ by using:
 2. /conversion endpoint directly from Client side (does not support CORS)
 3. JavaScript client
     - Available via HTTP and HTTPS
-    - [Javascript Minified](https://cdn.tagdelivery.com/data/client/standard.js)
-    - [Javascript Unminified](https://cdn.tagdelivery.com/data/client/standard.full.js)
+    - Javascript Minified - `https://cdn.tagdelivery.com/data/client/standard.js`
+    - Javascript Unminified - `https://cdn.tagdelivery.com/data/client/standard.full.js`
 
 ### a) Conversion Endpoint (recommended)
 
