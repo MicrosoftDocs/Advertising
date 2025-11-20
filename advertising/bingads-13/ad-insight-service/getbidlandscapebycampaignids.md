@@ -20,7 +20,7 @@ Given a list of existing campaigns, this operation returns for each a list of su
 The estimates are based on the last 7 days of performance data, and not a prediction or guarantee of future performance.
 
 > [!NOTE]
-> This operation is for search campaigns using the enhanced CPC bid strategy.  
+> This operation applies to Search, Shopping, and Performance Max campaigns that use Target CPA or Target ROAS bid strategies, and is not available for shared budgets. We'll expand supported campaign types in the future.
 
 ::: zone pivot="soap"
 
