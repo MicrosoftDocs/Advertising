@@ -18,9 +18,9 @@ Defines an object that describes the suggested responsive search ads.
 ```xml
 <xs:complexType name="SuggestedResponsiveSearchAd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Descriptions" nillable="true" type="q27:ArrayOfstring" />
+    <xs:element xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Descriptions" nillable="true" type="q28:ArrayOfstring" />
     <xs:element minOccurs="0" name="FinalUrl" nillable="true" type="xs:string" />
-    <xs:element xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Headlines" nillable="true" type="q28:ArrayOfstring" />
+    <xs:element xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Headlines" nillable="true" type="q29:ArrayOfstring" />
     <xs:element minOccurs="0" name="Path1" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Path2" nillable="true" type="xs:string" />
   </xs:sequence>

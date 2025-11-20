@@ -110,13 +110,14 @@ Defines currency codes for the Ad Insight service.
     <xs:enumeration value="YUN" />
     <xs:enumeration value="ZAR" />
     <xs:enumeration value="ZWD" />
+    <xs:enumeration value="UNSPECIFY" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CurrencyCode](currencycode.md) value set has the following values: [AED](#aed), [ALL](#all), [AMD](#amd), [ARS](#ars), [AUD](#aud), [AZM](#azm), [BGL](#bgl), [BHD](#bhd), [BND](#bnd), [BOB](#bob), [BRL](#brl), [BYB](#byb), [BZD](#bzd), [CAD](#cad), [CHF](#chf), [CLP](#clp), [CNY](#cny), [COP](#cop), [CRC](#crc), [CZK](#czk), [DKK](#dkk), [DOP](#dop), [DZD](#dzd), [EEK](#eek), [EGP](#egp), [EUR](#eur), [GBP](#gbp), [GEL](#gel), [GTQ](#gtq), [HKD](#hkd), [HNL](#hnl), [HRK](#hrk), [HUF](#huf), [IDR](#idr), [ILS](#ils), [INR](#inr), [IQD](#iqd), [IRR](#irr), [ISK](#isk), [JMD](#jmd), [JOD](#jod), [JPY](#jpy), [KES](#kes), [KGS](#kgs), [KRW](#krw), [KWD](#kwd), [KZT](#kzt), [LBP](#lbp), [LTL](#ltl), [LVL](#lvl), [LYD](#lyd), [MAD](#mad), [MKD](#mkd), [MNT](#mnt), [MOP](#mop), [MVR](#mvr), [MXN](#mxn), [MYR](#myr), [NIO](#nio), [NOK](#nok), [NZD](#nzd), [OMR](#omr), [PAB](#pab), [PEN](#pen), [PHP](#php), [PKR](#pkr), [PLN](#pln), [PYG](#pyg), [QAR](#qar), [ROL](#rol), [RUR](#rur), [SAR](#sar), [SEK](#sek), [SGD](#sgd), [SIT](#sit), [SKK](#skk), [SYP](#syp), [THB](#thb), [TND](#tnd), [TRY](#try), [TTD](#ttd), [TWD](#twd), [UAH](#uah), [USD](#usd), [UYU](#uyu), [UZS](#uzs), [VEF](#vef), [VND](#vnd), [YER](#yer), [YUN](#yun), [ZAR](#zar), [ZWD](#zwd).
+The [CurrencyCode](currencycode.md) value set has the following values: [AED](#aed), [ALL](#all), [AMD](#amd), [ARS](#ars), [AUD](#aud), [AZM](#azm), [BGL](#bgl), [BHD](#bhd), [BND](#bnd), [BOB](#bob), [BRL](#brl), [BYB](#byb), [BZD](#bzd), [CAD](#cad), [CHF](#chf), [CLP](#clp), [CNY](#cny), [COP](#cop), [CRC](#crc), [CZK](#czk), [DKK](#dkk), [DOP](#dop), [DZD](#dzd), [EEK](#eek), [EGP](#egp), [EUR](#eur), [GBP](#gbp), [GEL](#gel), [GTQ](#gtq), [HKD](#hkd), [HNL](#hnl), [HRK](#hrk), [HUF](#huf), [IDR](#idr), [ILS](#ils), [INR](#inr), [IQD](#iqd), [IRR](#irr), [ISK](#isk), [JMD](#jmd), [JOD](#jod), [JPY](#jpy), [KES](#kes), [KGS](#kgs), [KRW](#krw), [KWD](#kwd), [KZT](#kzt), [LBP](#lbp), [LTL](#ltl), [LVL](#lvl), [LYD](#lyd), [MAD](#mad), [MKD](#mkd), [MNT](#mnt), [MOP](#mop), [MVR](#mvr), [MXN](#mxn), [MYR](#myr), [NIO](#nio), [NOK](#nok), [NZD](#nzd), [OMR](#omr), [PAB](#pab), [PEN](#pen), [PHP](#php), [PKR](#pkr), [PLN](#pln), [PYG](#pyg), [QAR](#qar), [ROL](#rol), [RUR](#rur), [SAR](#sar), [SEK](#sek), [SGD](#sgd), [SIT](#sit), [SKK](#skk), [SYP](#syp), [THB](#thb), [TND](#tnd), [TRY](#try), [TTD](#ttd), [TWD](#twd), [UAH](#uah), [UNSPECIFY](#unspecify), [USD](#usd), [UYU](#uyu), [UZS](#uzs), [VEF](#vef), [VND](#vnd), [YER](#yer), [YUN](#yun), [ZAR](#zar), [ZWD](#zwd).
 
 |Value|Description|
 |-----------|---------------|
@@ -203,6 +204,7 @@ The [CurrencyCode](currencycode.md) value set has the following values: [AED](#a
 |<a name="ttd"></a>TTD|The corresponding currency type.|
 |<a name="twd"></a>TWD|The corresponding currency type.|
 |<a name="uah"></a>UAH|The corresponding currency type.|
+|<a name="unspecify"></a>UNSPECIFY|The currency type is unspecified.|
 |<a name="usd"></a>USD|The corresponding currency type.|
 |<a name="uyu"></a>UYU|The corresponding currency type.|
 |<a name="uzs"></a>UZS|The corresponding currency type.|
@@ -219,6 +221,7 @@ Namespace: https\://bingads.microsoft.com/AdInsight/v13
 
 ## Used By
 [BidLandscapePoint](bidlandscapepoint.md)  
+[CampaignBidLandscapePoint](campaignbidlandscapepoint.md)  
 [EstimatedBidAndTraffic](estimatedbidandtraffic.md)  
 [EstimatedPositionAndTraffic](estimatedpositionandtraffic.md)  
 [GetEstimatedBidByKeywords](getestimatedbidbykeywords.md)  

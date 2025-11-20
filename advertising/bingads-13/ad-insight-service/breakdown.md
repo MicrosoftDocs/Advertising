@@ -15,9 +15,9 @@ Defines an object for a specific audience breakdown category.
 ```xml
 <xs:complexType name="Breakdown" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Keys" nillable="true" type="q34:ArrayOfstring" />
-    <xs:element xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Values" nillable="true" type="q35:ArrayOfint" />
-    <xs:element xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GlobalValues" nillable="true" type="q36:ArrayOfint" />
+    <xs:element xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Keys" nillable="true" type="q35:ArrayOfstring" />
+    <xs:element xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Values" nillable="true" type="q36:ArrayOfint" />
+    <xs:element xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GlobalValues" nillable="true" type="q37:ArrayOfint" />
   </xs:sequence>
 </xs:complexType>
 ```

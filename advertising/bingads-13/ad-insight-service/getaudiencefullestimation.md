@@ -556,7 +556,7 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="dailybudget"></a>DailyBudget|The daily campaign budget value. If set to null, the suggested budget is used to perform estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|**decimal**|
-|<a name="device"></a>Device|Reserved.|[SelectionOfDeviceEnum](selectionofdeviceenum.md)|
+|<a name="device"></a>Device|The type of device.|[SelectionOfDeviceEnum](selectionofdeviceenum.md)|
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
