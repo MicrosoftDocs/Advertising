@@ -19,7 +19,7 @@ Defines the text asset suggestions data object.
 <xs:complexType name="TextAssetSuggestions" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="FinalUrl" nillable="true" type="xs:string" />
-    <xs:element xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TextAssets" nillable="true" type="q30:ArrayOfstring" />
+    <xs:element xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TextAssets" nillable="true" type="q31:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```

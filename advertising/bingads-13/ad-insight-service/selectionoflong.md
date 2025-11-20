@@ -25,8 +25,8 @@ Defines a data object for the selection segment IDs.
     </xs:appinfo>
   </xs:annotation>
   <xs:sequence>
-    <xs:element xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Includes" nillable="true" type="q32:ArrayOflong" />
-    <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Excludes" nillable="true" type="q33:ArrayOflong" />
+    <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Includes" nillable="true" type="q33:ArrayOflong" />
+    <xs:element xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Excludes" nillable="true" type="q34:ArrayOflong" />
   </xs:sequence>
 </xs:complexType>
 ```

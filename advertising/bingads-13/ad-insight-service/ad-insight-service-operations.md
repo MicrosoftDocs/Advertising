@@ -20,6 +20,7 @@ The Ad Insight service defines the following service operations.
 |[GetAudienceFullEstimation](getaudiencefullestimation.md)|Gets the audience full estimation.|N/A.|
 |[GetAutoApplyOptInStatus](getautoapplyoptinstatus.md)|Get the auto-apply recommendations opt-in status for a single account.|The number of distinct recommendation types is no more than 100 |
 |[GetBidLandscapeByAdGroupIds](getbidlandscapebyadgroupids.md)|Given a list of existing ad groups, this operation returns for each a list of suggested bids and estimated performance statistics.|1,000 *AdGroupBidLandscapeInput*|
+|[GetBidLandscapeByCampaignIds](getbidlandscapebycampaignids.md)|Given a list of existing campaigns, this operation returns for each a list of suggested bids and estimated performance statistics.|1,000 *CampaignBidLandscapeInput*|
 |[GetBidLandscapeByKeywordIds](getbidlandscapebykeywordids.md)|Given a list of existing keywords, this operation returns for each a list of suggested bids and estimated performance statistics from 1 to  7 days.|1,000 *KeywordIds*|
 |[GetBidOpportunities](getbidopportunities.md)|Gets the keyword bid opportunities of the specified ad group.|1 *AdGroupId*<br/>1 *CampaignId*|
 |[GetBudgetOpportunities](getbudgetopportunities.md)|Gets the campaign budget opportunities of the specified campaign.|1 *CampaignId*|

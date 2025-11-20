@@ -233,6 +233,8 @@
       href: ../ad-insight-service/getautoapplyoptinstatus.md      
     - name: GetBidLandscapeByAdGroupIds
       href: ../ad-insight-service/getbidlandscapebyadgroupids.md
+    - name: GetBidLandscapeByCampaignIds
+      href: ../ad-insight-service/getbidlandscapebycampaignids.md
     - name: GetBidLandscapeByKeywordIds
       href: ../ad-insight-service/getbidlandscapebykeywordids.md
     - name: GetBidOpportunities
@@ -334,6 +336,10 @@
       href: ../ad-insight-service/budgetopportunity.md
     - name: BudgetPoint
       href: ../ad-insight-service/budgetpoint.md
+    - name: CampaignBidLandscape
+      href: ../ad-insight-service/campaignbidlandscape.md
+    - name: CampaignBidLandscapePoint
+      href: ../ad-insight-service/campaignbidlandscapepoint.md
     - name: CampaignBudgetRecommendation
       href: ../ad-insight-service/campaignbudgetrecommendation.md
     - name: CampaignEstimate
@@ -527,6 +533,8 @@
       href: ../ad-insight-service/budgetlimittype.md
     - name: BudgetPointType
       href: ../ad-insight-service/budgetpointtype.md
+    - name: CampaignBidLandscapeType
+      href: ../ad-insight-service/campaignbidlandscapetype.md
     - name: CompetitionLevel
       href: ../ad-insight-service/competitionlevel.md
     - name: Currency
