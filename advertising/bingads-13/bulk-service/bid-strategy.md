@@ -13,9 +13,6 @@ dev_langs:
 # Bid Strategy Record - Bulk
 Defines a bid strategy that can be uploaded and downloaded in a bulk file.  
 
-> [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
-
 A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.
 
 We automatically adjust your bids to balance under- and over-performing campaigns that share the same strategy, whether to maximize conversions, clicks, target impression share, or other performance goals. Portfolio bid strategies could be a great option for advertisers who want to make sure their entire budgets are spent efficiently.
@@ -247,7 +244,7 @@ Used to associate records in the bulk upload file with records in the results fi
 **Delete:** Read-only  
 
 ## <a name="currencycode"></a>Currency Code
-The currency for the cross-account poortfolio. It must match the account currency provided. If *null*, it defaults to the account’s currency. This field can't be updated.
+The currency for the cross-account portfolio. It must match the account currency provided. If *null*, it defaults to the account’s currency. This field can't be updated.
 
 ## <a name="id"></a>Id
 The system-generated identifier of the bid strategy.
