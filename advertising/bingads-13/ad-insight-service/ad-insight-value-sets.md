@@ -22,10 +22,11 @@ The Ad Insight service defines the following value sets.
 |[BreakdownCategory](breakdowncategory.md)|Defines the type of audience breakdown category.|
 |[BudgetLimitType](budgetlimittype.md)|Defines the possible types of campaign budgets.|
 |[BudgetPointType](budgetpointtype.md)|Defines the possible values of a campaign budget point.|
+|[CampaignBidLandscapeType](campaignbidlandscapetype.md)|Defines the possible types of campaign bid landscapes.|
 |[CompetitionLevel](competitionlevel.md)|Competition levels are defined by the number of advertisers bidding on this keyword, relative to all other keywords across Microsoft Advertising.|
 |[Currency](currency.md)|Defines a value set of currencies.|
 |[CurrencyCode](currencycode.md)|Defines currency codes for the Ad Insight service.|
-|[DeviceEnum](deviceenum.md)|Defines a value set for device.|
+|[DeviceEnum](deviceenum.md)|Defines a value set for the type of device.|
 |[EntityType](entitytype.md)|Defines the entity types for retrieving auction insights.|
 |[GenderEnum](genderenum.md)|Defines a value set for gender.|
 |[KeywordIdeaAttribute](keywordideaattribute.md)|Determines which properties of the [KeywordIdea](keywordidea.md) object you want returned when calling the [GetKeywordIdeas](getkeywordideas.md) operation.|

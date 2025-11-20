@@ -36,6 +36,8 @@ The Ad Insight service defines the following data objects.
 |[BroadMatchSearchQueryKPI](broadmatchsearchquerykpi.md)|Defines an object that contains search query statistics of including broad match type keyword bids.|
 |[BudgetOpportunity](budgetopportunity.md)|Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.|
 |[BudgetPoint](budgetpoint.md)|Defines an object that contains a budget amount and an estimate of weekly impressions, clicks, and cost for this budget amount.|
+|[CampaignBidLandscape](campaignbidlandscape.md)|Defines the *CampaignBidLandscape* data object, which suggests bids or targets, and contains estimated performance statistics.|
+|[CampaignBidLandscapePoint](campaignbidlandscapepoint.md)|Defines a data object for the total estimated performance from *StartDate* to *EndDate* by the bid or target.|
 |[CampaignBudgetRecommendation](campaignbudgetrecommendation.md)|Defines the CampaignBudgetRecommendation data object.|
 |[CampaignEstimate](campaignestimate.md)|Contains a nested list of suggested keywords for the campaign's ad groups with minimum and maximum traffic estimates.|
 |[CampaignEstimator](campaignestimator.md)|Contains campaign filter criteria and a nested list of ad group and keyword level filter criteria for traffic estimates.|
@@ -115,7 +117,7 @@ The Ad Insight service defines the following data objects.
 |[SearchParameter](searchparameter.md)|This is the base class from which keyword idea search parameter objects derive.|
 |[SearchVolumeSearchParameter](searchvolumesearchparameter.md)|The search volume search parameter filter that you can include when requesting keyword ideas.|
 |[SelectionOfAgeEnum](selectionofageenum.md)|Defines a data object for the selection of age targeting.|
-|[SelectionOfDeviceEnum](selectionofdeviceenum.md)|Reserved.|
+|[SelectionOfDeviceEnum](selectionofdeviceenum.md)|Defines a data object that includes or excludes device types.|
 |[SelectionOfGenderEnum](selectionofgenderenum.md)|Defines a data object for the selection of gender targeting.|
 |[SelectionOflong](selectionoflong.md)|Defines a data object for the selection segment IDs.|
 |[SuggestedBidSearchParameter](suggestedbidsearchparameter.md)|The suggested bid search parameter filter that you can include when requesting keyword ideas.|
