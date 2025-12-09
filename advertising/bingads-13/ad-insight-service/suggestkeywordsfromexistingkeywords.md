@@ -17,6 +17,9 @@ dev_langs:
 # SuggestKeywordsFromExistingKeywords Service Operation - Ad Insight
 Suggests keywords that could perform better than the specified keywords.
 
+> [!NOTE]
+> Starting January 7, the *SuggestionType* request body element will no longer be supported, and all responses will default to provider type *4*.
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
