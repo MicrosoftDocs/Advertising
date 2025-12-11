@@ -14,7 +14,11 @@ dev_langs:
 Defines a customer list that can be downloaded and uploaded in a bulk file. 
 
 > [!IMPORTANT]
-> Before you can upload customer list data via Bulk API, you must first create one customer list audience and accept the terms and conditions in the Microsoft Advertising UI. The initial customer list doesn't need to contain any customer data, but you must select I ACCEPT. By selecting "I accept" you (1) agree that you are able to lawfully disclose audience details, which is personal data, to Microsoft and (2) accept the Customer Match Terms, the Microsoft Advertising Agreement, and the Microsoft Advertising policies. Microsoft will use the data that you upload in accordance with the [Customer Match Terms](https://help.ads.microsoft.com/#apex/ads/en/56921/1).
+> **Programmatic Terms Acceptance (Recommended):** You can now accept Customer Match terms programmatically when uploading customer data via Bulk API by setting the `Accept Customer Match Term` field to `True` in your bulk file. This eliminates the requirement to accept terms through the Microsoft Advertising UI.
+>
+> **Legacy Requirement (if not using the new field):** Before you can upload customer list data via Bulk API without using the `Accept Customer Match Term` field, you must first create one customer list audience and accept the terms and conditions in the Microsoft Advertising UI. The initial customer list doesn't need to contain any customer data, but you must select I ACCEPT.
+>
+> By selecting "I accept" in the UI or by setting `Accept Customer Match Term=True` in the bulk file, you (1) agree that you are able to lawfully disclose audience details, which is personal data, to Microsoft and (2) accept the Customer Match Terms, the Microsoft Advertising Agreement, and the Microsoft Advertising policies. Microsoft will use the data that you upload in accordance with the [Customer Match Terms](https://help.ads.microsoft.com/#apex/ads/en/56921/1).
 
 A customer list is a set of customer contact information that you have compiled to enable customer match. Each list can include multiple Email items. 
 - Include the [Customer List](customer-list.md) record in the Bulk upload file and set its [Action Type](customer-list.md#actiontype) field to "Add", "Remove", or "Replace". 
@@ -29,16 +33,17 @@ After 48 hours, check the Audience Size fields e.g., [Audience Search Size](#aud
 
 You can download all *Customer List* records in the account by including the [DownloadEntity](downloadentity.md) value of *CustomerLists* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new customer list. 
+The following Bulk CSV example would add a new customer list with programmatic terms acceptance.
 
 ```csv
-Type,Status,Id,Parent Id,Client Id,Modified Time,Name,Description,Scope,Audience,Action Type
+Type,Status,Id,Parent Id,Client Id,Modified Time,Name,Description,Scope,Audience,Action Type,Accept Customer Match Term,Membership Duration
 Format Version,,,,,,6.0,,,,,,
-Customer List,Active,-10,,ClientIdGoesHere,,,New customer list description,Customer,New Customer List,Add
+Customer List,Active,-10,,ClientIdGoesHere,,,New customer list description,Account,New Customer List,Add,True,30
 ```
 
-For a *Customer List* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Customer List* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).
 
+- [Accept Customer Match Term](#acceptcustomermatchterm)
 - [Action Type](#actiontype)
 - [Audience](#audience)
 - [Audience Network Size](#audiencenetworksize)
@@ -53,6 +58,16 @@ For a *Customer List* record, the following attribute fields are available in th
 - [Status](#status)
 - [Supported Campaign Types](#supportedcampaigntypes)
 
+
+## <a name="acceptcustomermatchterm"></a>Accept Customer Match Term
+Optional flag to accept Customer Match terms for this bulk upload.
+
+- **`True`**: Accept terms and process customer data
+- **`False`**: Explicitly reject terms and the upload will fail
+
+**Add:** Optional
+**Update:** Optional
+**Delete:** Read-only
 
 ## <a name="actiontype"></a>Action Type
 Determines whether to add, remove, or replace the [Customer List Item](customer-list-item.md) records that you include in the same Bulk upload file. 
