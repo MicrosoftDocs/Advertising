@@ -20,11 +20,12 @@ Defines the ApplyCustomerListUserData service operation.
 ## Overview
 This operation allows you to add, remove, or replace customer list user data for Customer Match targeting.
 
-**Important:** You can now accept Customer Match terms programmatically using the `AcceptCustomerMatchTerm` parameter when uploading customer data. This eliminates the need to accept terms through the Microsoft Advertising UI.
+**What's New:** You can now accept Customer Match terms programmatically using the `AcceptCustomerMatchTerm` parameter when uploading customer data. This eliminates the need to accept terms through the Microsoft Advertising UI.
 
 ### Terms Acceptance Behavior
 - **`AcceptCustomerMatchTerm = true`**: Accepts Customer Match terms for this request and processes the data
 - **`AcceptCustomerMatchTerm = false`**: Explicitly rejects terms and returns error 8003 (CustomerListTermsAndConditionsNotAccepted)
+- **`AcceptCustomerMatchTerm` not set** Fallback to previous behavior in which to accept terms through the Microsoft Advertising UI.
 
 For more information about Customer Match and privacy requirements, see the [Customer Match Terms](https://help.ads.microsoft.com/apex/index/3/en/56921).
 

@@ -64,6 +64,7 @@ Optional flag to accept Customer Match terms for this bulk upload.
 
 - **`True`**: Accept terms and process customer data
 - **`False`**: Explicitly reject terms and the upload will fail
+- **Not set** Fallback to previous behavior in which to accept terms through the Microsoft Advertising UI.
 
 **Add:** Optional
 **Update:** Optional
