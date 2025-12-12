@@ -24,7 +24,7 @@ This operation allows you to add, remove, or replace customer list user data for
 
 ### Terms Acceptance Behavior
 - **`AcceptCustomerMatchTerm = true`**: Accepts Customer Match terms for this request and processes the data
-- **`AcceptCustomerMatchTerm = false`**: Explicitly rejects terms and returns error 3913 (TermsAndConditionsNotAccepted)
+- **`AcceptCustomerMatchTerm = false`**: Explicitly rejects terms and returns error 8003 (CustomerListTermsAndConditionsNotAccepted)
 
 For more information about Customer Match and privacy requirements, see the [Customer Match Terms](https://help.ads.microsoft.com/apex/index/3/en/56921).
 

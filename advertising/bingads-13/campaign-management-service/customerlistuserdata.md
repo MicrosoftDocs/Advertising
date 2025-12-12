@@ -49,7 +49,7 @@ The [CustomerListUserData](customerlistuserdata.md) object has the following ele
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="acceptcustomermatchterm"></a>AcceptCustomerMatchTerm|Optional flag to accept Customer Match terms for this request.<br/><br/>- `true`: Accept terms and process customer data<br/>- `false`: Reject terms and return error 3913 (TermsAndConditionsNotAccepted)<br/><br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
+|<a name="acceptcustomermatchterm"></a>AcceptCustomerMatchTerm|Optional flag to accept Customer Match terms for this request.<br/><br/>- `true`: Accept terms and process customer data<br/>- `false`: Reject terms and return error 8003 (CustomerListTermsAndConditionsNotAccepted)<br/><br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
 |<a name="actiontype"></a>ActionType|The action type when uploading user data.|[CustomerListActionType](customerlistactiontype.md)|
 |<a name="audienceid"></a>AudienceId|The Microsoft Advertising assigned identifier of an audience, for example the customer list ID.|**long**|
 |<a name="customerlistitems"></a>CustomerListItems|An array of customer list items. When [CustomerListItemSubType](#customerlistitemsubtype) is "Email", each item must be a SHA-256 hashed email address (lowercase hexadecimal string of 64 characters). For example, the email `test@contoso.com` should be hashed as `a8e34c39d390c30c3ff245256c46c7076cecb7dfcfd60f7534d1037e901fad76`.|**string** array|
