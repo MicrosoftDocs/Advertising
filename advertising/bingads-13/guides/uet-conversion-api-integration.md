@@ -107,10 +107,10 @@ Parameter tables for page load and custom events are shown below. The following 
 
 ### Authorization
 
-Use the UET `tagID` and token for authorization. Contact your account manager to obtain the token.
+Use the UET `tagID` and token for authorization.  
 
 > [!NOTE]
-> You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is currently in pilot.
+> You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is in pilot. Contact your account manager to join.
 
 ### Data Schema
 
