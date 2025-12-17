@@ -45,13 +45,16 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="AvgTargetRoas" />
     <xs:enumeration value="AvgTargetImpressionShare" />
     <xs:enumeration value="ImpressionSharePercent" />
+    <xs:enumeration value="Owner" />
+    <xs:enumeration value="TimeZone" />
+    <xs:enumeration value="Currency" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AverageCpc](#averagecpc), [AvgTargetCPA](#avgtargetcpa), [AvgTargetImpressionShare](#avgtargetimpressionshare), [AvgTargetRoas](#avgtargetroas), [BidStrategyType](#bidstrategytype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Clicks](#clicks), [ConversionDelay](#conversiondelay), [ConversionRate](#conversionrate), [ConversionsQualified](#conversionsqualified), [CostPerConversionQualified](#costperconversionqualified), [Ctr](#ctr), [CurrentMaxCpc](#currentmaxcpc), [Impressions](#impressions), [ImpressionSharePercent](#impressionsharepercent), [NumOfCampaigns](#numofcampaigns), [PortfolioBidStrategyName](#portfoliobidstrategyname), [PortfolioBidStrategyStatus](#portfoliobidstrategystatus), [ROAS](#roas), [Spend](#spend), [TargetAdPositionType](#targetadpositiontype), [TargetCPA](#targetcpa), [TargetImpressionShare](#targetimpressionshare), [TargetRoas](#targetroas), [TimePeriod](#timeperiod).
+The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AverageCpc](#averagecpc), [AvgTargetCPA](#avgtargetcpa), [AvgTargetImpressionShare](#avgtargetimpressionshare), [AvgTargetRoas](#avgtargetroas), [BidStrategyType](#bidstrategytype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Clicks](#clicks), [ConversionDelay](#conversiondelay), [ConversionRate](#conversionrate), [ConversionsQualified](#conversionsqualified), [CostPerConversionQualified](#costperconversionqualified), [Ctr](#ctr), [Currency](#currency), [CurrentMaxCpc](#currentmaxcpc), [Impressions](#impressions), [ImpressionSharePercent](#impressionsharepercent), [NumOfCampaigns](#numofcampaigns), [Owner](#owner), [PortfolioBidStrategyName](#portfoliobidstrategyname), [PortfolioBidStrategyStatus](#portfoliobidstrategystatus), [ROAS](#roas), [Spend](#spend), [TargetAdPositionType](#targetadpositiontype), [TargetCPA](#targetcpa), [TargetImpressionShare](#targetimpressionshare), [TargetRoas](#targetroas), [TimePeriod](#timeperiod), [TimeZone](#timezone).
 
 |Value|Description|
 |-----------|---------------|
@@ -72,10 +75,12 @@ The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the foll
 |<a name="conversionsqualified"></a>ConversionsQualified|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.|
 |<a name="costperconversionqualified"></a>CostPerConversionQualified|The actual cost per conversion (CPC).|
 |<a name="ctr"></a>Ctr|The click-through rate (CTR) is the number of times an ad was clicked, divided by the number of times the ad was shown (impressions). For example, if your ads got 50 clicks given 2,348 impressions, your CTR is 2.13 (%). The formula for calculating CTR is (*Clicks* / *Impressions*) x 100.|
+|<a name="currency"></a>Currency|The currency of the bid strategy.|
 |<a name="currentmaxcpc"></a>CurrentMaxCpc|In the account/portfolio scope, the maximum cost per click bid that was in effect at the time the report was generated. It's not a moving historical bid throughout the report time period.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions, there are no clicks or conversions.|
 |<a name="impressionsharepercent"></a>ImpressionSharePercent|The estimated percentage of impressions, out of the total available impressions in the market you were targeting.<br/><br/>The value of this column is empty if the data is not available. For example, out of estimated 59,000 impressions that occurred on this day in your targeted market, you got only about 2,300, or 3%. If you try to include this column with *Hourly* or *HourOfDay* aggregation the service will return code *2053*.<br/><br/>If you include this column, then you may not include restricted attributes in the same report request. Likewise if you include any of the restricted attribute columns, then you must exclude this column. For more information, see [Column Restrictions](../guides/reports.md#columnrestrictions). Data for this column is typically updated 14-18 hours after the UTC day ends. For Microsoft Shopping Campaigns, this data is only available with the campaign and ad group performance reports.|
 |<a name="numofcampaigns"></a>NumOfCampaigns|In the account/portfolio scope, the number of campaigns belonging to the account/portfolio.|
+|<a name="owner"></a>Owner|The bid strategy owner.|
 |<a name="portfoliobidstrategyname"></a>PortfolioBidStrategyName|The bid strategy name.|
 |<a name="portfoliobidstrategystatus"></a>PortfolioBidStrategyStatus|The current bid strategy status.|
 |<a name="roas"></a>ROAS|The return on ad spend (ROAS).<br/><br/>The formula for calculating the ROAS is (*Revenue* / *Spend*).<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
@@ -85,6 +90,7 @@ The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the foll
 |<a name="targetimpressionshare"></a>TargetImpressionShare|In the account/portfolio scope, the current target impression share belonging to the account/portfolio.|
 |<a name="targetroas"></a>TargetRoas|In the account/portfolio scope, the current target ROAS belonging to the account/portfolio.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to *Summary*. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
+|<a name="timezone"></a>TimeZone|Determines the time zone that is used to establish today's date.|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
