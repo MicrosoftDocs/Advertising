@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a data object for the total estimated performance from StartDate to EndDate by the bid or target.
+description: Defines a data object for the total estimated performance from *StartDate* to *EndDate* by the bid or target.
 ---
 # CampaignBidLandscapePoint Data Object - Ad Insight
 Defines a data object for the total estimated performance from *StartDate* to *EndDate* by the bid or target.
