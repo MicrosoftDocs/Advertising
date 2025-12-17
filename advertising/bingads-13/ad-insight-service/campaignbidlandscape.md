@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the CampaignBidLandscape data object, which suggests bids or targets, and contains estimated performance statistics.
+description: Defines the *CampaignBidLandscape* data object, which suggests bids or targets, and contains estimated performance statistics.
 ---
 # CampaignBidLandscape Data Object - Ad Insight
 Defines the *CampaignBidLandscape* data object, which suggests bids or targets, and contains estimated performance statistics.
