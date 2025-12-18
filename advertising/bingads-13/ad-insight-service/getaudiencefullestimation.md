@@ -69,7 +69,7 @@ The *GetAudienceFullEstimationResponse* object defines the [body](#response-body
 |<a name="estclickbytype"></a>EstClickByType|The estimated user count by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estcostpereventbytype"></a>EstCostPerEventByType|The estimated cost per event by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
-|<a name="estcpc"></a>EstCPC|Indicates the estimated cost per click by type.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estcpc"></a>EstCPC|Indicates the estimated cost per click.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estcpcbytype"></a>EstCPCByType|The estimated cost per click by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estctr"></a>EstCTR|Estimated click-through rate (CTR) with range result. Output only.|[RangeResultOfdouble](rangeresultofdouble.md)|
 |<a name="estctrbytype"></a>EstCTRByType|The estimated click-through rate by type.|[RangeResultByTypeOfdouble](rangeresultbytypeofdouble.md) array|
@@ -608,7 +608,7 @@ The *GetAudienceFullEstimationResponse* object defines the [body](#response-body
 |<a name="estclickbytype"></a>EstClickByType|The estimated user count by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estcostperevent"></a>EstCostPerEvent|Indicates the estimated cost per event. The field meaning varies with *CampaignBiddingStrategy* request field. Output only.<br/><br/>EnhancedCPC: CPC<br/>ManualCPM: CPM|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estcostpereventbytype"></a>EstCostPerEventByType|The estimated cost per event by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
-|<a name="estcpc"></a>EstCPC|Indicates the estimated cost per click by type.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
+|<a name="estcpc"></a>EstCPC|Indicates the estimated cost per click.|[RangeResultOfDecimalRoundedResult](rangeresultofdecimalroundedresult.md)|
 |<a name="estcpcbytype"></a>EstCPCByType|The estimated cost per click by type.|[DecimalRoundedRangeResultByType](decimalroundedrangeresultbytype.md) array|
 |<a name="estctr"></a>EstCTR|Estimated click-through rate (CTR) with range result. Output only.|[RangeResultOfdouble](rangeresultofdouble.md)|
 |<a name="estctrbytype"></a>EstCTRByType|The estimated click-through rate by type.|[RangeResultByTypeOfdouble](rangeresultbytypeofdouble.md) array|
