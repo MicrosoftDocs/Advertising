@@ -30,9 +30,11 @@ The Campaign Management service defines the following service operations.
 |[AddConversionValueRules](addconversionvaluerules.md)|Create new conversion value rules.|N/A.|
 |[AddDataExclusions](adddataexclusions.md)|Add a data exclusion to the specified account.|N/A.|
 |[AddExperiments](addexperiments.md)|Adds experiments and creates experiment campaigns based on existing campaigns in an account.|100 *Experiments*|
+|[AddHTML5s](addhtml5s.md)|Adds array of HTML5 assets to a specified campaign.||
 |[AddImportJobs](addimportjobs.md)|Creates a new import job.|1 *ImportJobs*|
 |[AddKeywords](addkeywords.md)|Adds one or more keywords to an ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
 |[AddLabels](addlabels.md)|Adds one or more labels to an account.|100 *Labels*|
+|[AddLinkedInSegments](addlinkedinsegments.md)|Adds array of LinkedIn segments to a specified campaign.||
 |[AddListItemsToSharedList](addlistitemstosharedlist.md)|Adds negative keywords to a negative keyword list, or negative sites to a website exclusion list.|1 *SharedList*<br/><br/>5,000 *ListItems*|
 |[AddMedia](addmedia.md)|Adds the specified media to an account's asset library.|1 *AccountId*<br/><br/>10 *Media*|
 |[AddNegativeKeywordsToEntities](addnegativekeywordstoentities.md)|Adds negative keywords to the specified campaign or ad group.|1 *EntityNegativeKeywords*<br/><br/>Each *EntityNegativeKeyword* element can contain up to 20,000 negative keywords.|
@@ -71,10 +73,12 @@ The Campaign Management service defines the following service operations.
 |[DeleteCampaigns](deletecampaigns.md)|Deletes one or more campaigns in a specified account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[DeleteDataExclusions](deletedataexclusions.md)|Deletes the specified data exclusions from the specified account.|N/A.|
 |[DeleteExperiments](deleteexperiments.md)|Deletes one or more experiments.|100 *ExperimentIds*|
+|[DeleteHTML5s](deletehtml5s.md)|Deletes array of HTML5 assets to a specified campaign.||
 |[DeleteImportJobs](deleteimportjobs.md)|Deletes the import jobs.|1 *ImportJobs*|
 |[DeleteKeywords](deletekeywords.md)|Deletes one or more keywords in a specified ad group.|1 *AdGroupId*<br/><br/>1,000 *KeywordIds*|
 |[DeleteLabelAssociations](deletelabelassociations.md)|Deletes label associations.|100 *LabelAssociations*|
 |[DeleteLabels](deletelabels.md)|Deletes one or more labels from the account.|100 *LabelIds*|
+|[DeleteLinkedInSegments](deletelinkedinsegments.md)|Reserved.||
 |[DeleteListItemsFromSharedList](deletelistitemsfromsharedlist.md)|Deletes negative keywords from a negative keyword list, or negative sites from a website exclusion list.|1 *SharedList*<br/><br/>5,000 *ListItemIds*|
 |[DeleteMedia](deletemedia.md)|Deletes the specified media from an account's media library.|1 *AccountId*<br/><br/>100*MediaIds*|
 |[DeleteNegativeKeywordsFromEntities](deletenegativekeywordsfromentities.md)|Deletes negative keywords from the specified campaign or ad group.|1 *EntityNegativeKeywords*<br/><br/>Each *EntityNegativeKeyword* element can contain up to 20,000 negative keywords.|
@@ -127,6 +131,7 @@ The Campaign Management service defines the following service operations.
 |[GetFileImportUploadUrl](getfileimportuploadurl.md)|GetFileImportUploadUrl is reserved for future use.|N/A.|
 |[GetGeoLocationsFileUrl](getgeolocationsfileurl.md)|Gets a temporary URL that you can use to download a file that contains identifiers for the geographical locations that you can target or exclude.|Not applicable.|
 |[GetHealthCheck](gethealthcheck.md)|Retrieves health check entities and types.|N/A.|
+|[GetHTML5sByIds](gethtml5sbyids.md)|Retrieve HTML5 assets by their IDs.||
 |[GetImportEntityIdsMapping](getimportentityidsmapping.md)|Gets mappings of your source entity IDs to Microsoft Advertising entity IDs.|100 *SourceEntityIds*|
 |[GetImportJobsByIds](getimportjobsbyids.md)|Gets import jobs by their type and identifiers.|100 *ImportJobIds*|
 |[GetImportResults](getimportresults.md)|Gets results for import jobs completed within the last 90 days.|100 *ImportJobIds*|
@@ -189,6 +194,7 @@ The Campaign Management service defines the following service operations.
 |[UpdateImportJobs](updateimportjobs.md)|Replaces the specified import jobs with new import jobs.|1 *ImportJobs*|
 |[UpdateKeywords](updatekeywords.md)|Updates the keywords within a specified ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
 |[UpdateLabels](updatelabels.md)|Updates the labels within the account.|100 *Labels*|
+|[UpdateLinkedInSegments](updatelinkedinsegments.md)|Updates the specified LinkedIn segments.||
 |[UpdateNewCustomerAcquisitionGoals](updatenewcustomeracquisitiongoals.md)|Update the specificed new customer acquisition goals.|N/A.|
 |[UpdateSeasonalityAdjustments](updateseasonalityadjustments.md)|Make updates to the specified seasonality adjustments.|N/A.|
 |[UpdateSharedEntities](updatesharedentities.md)|Updates the negative keyword lists or website exclusion lists.|20 *SharedEntities*|

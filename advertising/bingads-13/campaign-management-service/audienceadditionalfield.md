@@ -21,6 +21,7 @@ Defines a list of optional audience properties that you can request when calling
         <xs:enumeration value="NumberRuleItem" />
         <xs:enumeration value="ImpressionBasedRemarketingList" />
         <xs:enumeration value="CampaignIdsAdGroupIds" />
+        <xs:enumeration value="CustomSegment" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -29,11 +30,12 @@ Defines a list of optional audience properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [AudienceAdditionalField](audienceadditionalfield.md) value set has the following values: [CampaignIdsAdGroupIds](#campaignidsadgroupids), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [NormalForm](#normalform), [NumberRuleItem](#numberruleitem).
+The [AudienceAdditionalField](audienceadditionalfield.md) value set has the following values: [CampaignIdsAdGroupIds](#campaignidsadgroupids), [CustomSegment](#customsegment), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [NormalForm](#normalform), [NumberRuleItem](#numberruleitem).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="campaignidsadgroupids"></a>CampaignIdsAdGroupIds|Request that the [AdGroupIds](impressionbasedremarketinglist.md#adgroupids) and [CampaignIds](impressionbasedremarketinglist.md#campaignids) elements be included within each returned [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) object.|
+|<a name="customsegment"></a>CustomSegment|Request that the [CustomSegment](customsegment.md) data object is returned.|
 |<a name="impressionbasedremarketinglist"></a>ImpressionBasedRemarketingList|Request that the [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md) element be included when you call the [GetAudiencesByIds](getaudiencesbyids.md) service operation.|
 |<a name="normalform"></a>NormalForm|Request that the [NormalForm](pagevisitorsrule.md#normalform) element be included within each returned [PageVisitorsRule](pagevisitorsrule.md) object.|
 |<a name="numberruleitem"></a>NumberRuleItem|Defines a rule expression that depends on the operand, operator, and value.|

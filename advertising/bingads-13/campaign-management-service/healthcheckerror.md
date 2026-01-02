@@ -53,9 +53,9 @@ The [HealthCheckError](healthcheckerror.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="errors"></a>Errors|Reserved.|[OperationError](operationerror.md) array|
-|<a name="healthcheckentity"></a>HealthCheckEntity|Reserved.|[HealthCheckEntity](healthcheckentity.md)|
-|<a name="healthcheckname"></a>HealthCheckName|Reserved.|**string**|
+|<a name="errors"></a>Errors|An array of *OperationError* objects corresponding to errors encountered during the system processing of the bulk file after your download request was submitted.|[OperationError](operationerror.md) array|
+|<a name="healthcheckentity"></a>HealthCheckEntity|The health check entity.|[HealthCheckEntity](healthcheckentity.md)|
+|<a name="healthcheckname"></a>HealthCheckName|The health check name.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
