@@ -88,9 +88,9 @@ If you allow five days advanced booking and stays of up to three-nights, your me
     <Property>13579</Property>
     <Checkin>2017-05-26</Checkin>
     <Nights>2</Nights>
-    <Baserate currency="USD">159.99</Baserate>
-    <Tax currency="USD">20.00</Tax>
-    <OtherFees currency="USD">4.00</OtherFees>
+    <Baserate currency="USD">319.98</Baserate>
+    <Tax currency="USD">40.00</Tax>
+    <OtherFees currency="USD">8.00</OtherFees>
     <AllowablePointsOfSale>
       <PointOfSale id="mobile"/>
       <PointOfSale id="desktop"/>
@@ -100,9 +100,9 @@ If you allow five days advanced booking and stays of up to three-nights, your me
     <Property>13579</Property>
     <Checkin>2017-05-26</Checkin>
     <Nights>3</Nights>
-    <Baserate currency="USD">159.99</Baserate>
-    <Tax currency="USD">20.00</Tax>
-    <OtherFees currency="USD">4.00</OtherFees>
+    <Baserate currency="USD">479.97</Baserate>
+    <Tax currency="USD">60.00</Tax>
+    <OtherFees currency="USD">12.00</OtherFees>
     <AllowablePointsOfSale>
       <PointOfSale id="mobile"/>
       <PointOfSale id="desktop"/>
