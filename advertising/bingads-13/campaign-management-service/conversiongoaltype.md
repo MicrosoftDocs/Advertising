@@ -24,6 +24,7 @@ Defines the current possible types of conversion goals.
         <xs:enumeration value="AppInstall" />
         <xs:enumeration value="OfflineConversion" />
         <xs:enumeration value="InStoreTransaction" />
+        <xs:enumeration value="AppDownload" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -32,10 +33,11 @@ Defines the current possible types of conversion goals.
 
 ## <a name="values"></a>Values
 
-The [ConversionGoalType](conversiongoaltype.md) value set has the following values: [AppInstall](#appinstall), [Duration](#duration), [Event](#event), [InStoreTransaction](#instoretransaction), [OfflineConversion](#offlineconversion), [PagesViewedPerVisit](#pagesviewedpervisit), [Url](#url).
+The [ConversionGoalType](conversiongoaltype.md) value set has the following values: [AppDownload](#appdownload), [AppInstall](#appinstall), [Duration](#duration), [Event](#event), [InStoreTransaction](#instoretransaction), [OfflineConversion](#offlineconversion), [PagesViewedPerVisit](#pagesviewedpervisit), [Url](#url).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="appdownload"></a>AppDownload|Refers to an [AppDownloadGoal](appdownloadgoal.md).|
 |<a name="appinstall"></a>AppInstall|Refers to an [AppInstallGoal](appinstallgoal.md)|
 |<a name="duration"></a>Duration|Refers to a [DurationGoal](durationgoal.md)|
 |<a name="event"></a>Event|Refers to an [EventGoal](eventgoal.md)|

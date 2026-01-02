@@ -64,6 +64,7 @@ The Campaign Management service defines the following value sets.
 |[CampaignCriterionType](campaigncriteriontype.md)|Defines the possible types of campaign criterions.|
 |[CampaignStatus](campaignstatus.md)|Defines the possible status values of a campaign.|
 |[CampaignType](campaigntype.md)|Defines the possible campaign types.|
+|[CompanyNameStatus](companynamestatus.md)|Defines the possible company name status values.|
 |[CompressionType](compressiontype.md)|Defines the possible compression types for the file to download with the Campaign Management service.|
 |[ConversionGoalAdditionalField](conversiongoaladditionalfield.md)|Defines a list of optional conversion goal properties that you can request when calling [GetConversionGoalsByIds](getconversiongoalsbyids.md) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md).|
 |[ConversionGoalCategory](conversiongoalcategory.md)|Defines categories used to segment conversion goals.|
@@ -78,10 +79,12 @@ The Campaign Management service defines the following value sets.
 |[CriterionTypeGroup](criteriontypegroup.md)|The type used to group criterions.|
 |[CustomerListActionType](customerlistactiontype.md)|Defines a CustomerListActionType value set.|
 |[CustomerListItemSubType](customerlistitemsubtype.md)|Defines a CustomerListItemSubType value set.|
+|[CustomSegmentEditorialStatus](customsegmenteditorialstatus.md)|Defines the possible custom segment editorial status values.|
 |[Day](day.md)|Defines the day values that you can specify for day and time criterion.|
 |[DeviceType](devicetype.md)|Defines the device type value set.|
 |[DistanceUnit](distanceunit.md)|Defines the possible distance units of a geographical location.|
 |[DynamicSearchAdsSource](dynamicsearchadssource.md)|Defines the possible targeting source values for dynamic search ads campaigns.|
+|[EffectiveEditorialStatus](effectiveeditorialstatus.md)|Defines the possible effective editorial status values.|
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
@@ -100,6 +103,7 @@ The Campaign Management service defines the following value sets.
 |[KeywordEditorialStatus](keywordeditorialstatus.md)|Defines the editorial review status values of a keyword.|
 |[KeywordStatus](keywordstatus.md)|Defines the possible status values of a keyword.|
 |[LanguageName](languagename.md)|Defines the set of supported ad languages.|
+|[LinkedInSegmentStatus](linkedinsegmentstatus.md)|Defines the possible LinkedIn segment status values.|
 |[LocationType](locationtype.md)|Defines the location type value set.|
 |[LogicalOperator](logicaloperator.md)|Defines the supported set of logical operators for combined list audiences.|
 |[MatchType](matchtype.md)|Defines the possible match types for a keyword or negative keyword.|

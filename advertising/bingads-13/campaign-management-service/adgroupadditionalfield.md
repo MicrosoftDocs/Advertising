@@ -29,6 +29,7 @@ Defines a list of optional ad group properties that you can request when calling
         <xs:enumeration value="FrequencyCapSettings" />
         <xs:enumeration value="UsePredictiveTargeting" />
         <xs:enumeration value="MaxConversionValueWithMaxCpc" />
+        <xs:enumeration value="BaseDomain" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -37,12 +38,13 @@ Defines a list of optional ad group properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the following values: [AdGroupType](#adgrouptype), [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [CommissionRate](#commissionrate), [CpmBid](#cpmbid), [CpvBid](#cpvbid), [FrequencyCapSettings](#frequencycapsettings), [MaxConversionValueWithMaxCpc](#maxconversionvaluewithmaxcpc), [McpaBid](#mcpabid), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [PercentCpcBid](#percentcpcbid), [UseOptimizedTargeting](#useoptimizedtargeting), [UsePredictiveTargeting](#usepredictivetargeting).
+The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the following values: [AdGroupType](#adgrouptype), [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BaseDomain](#basedomain), [CommissionRate](#commissionrate), [CpmBid](#cpmbid), [CpvBid](#cpvbid), [FrequencyCapSettings](#frequencycapsettings), [MaxConversionValueWithMaxCpc](#maxconversionvaluewithmaxcpc), [McpaBid](#mcpabid), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [PercentCpcBid](#percentcpcbid), [UseOptimizedTargeting](#useoptimizedtargeting), [UsePredictiveTargeting](#usepredictivetargeting).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="adgrouptype"></a>AdGroupType|Request that the [AdGroupType](adgroup.md#adgrouptype) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimeZone|Request that the [AdScheduleUseSearcherTimeZone](adgroup.md#adscheduleusesearchertimezone) element be included within each returned [AdGroup](adgroup.md) object.|
+|<a name="basedomain"></a>BaseDomain|The fundamentsl part of the URL (e.g., contoso.com).|
 |<a name="commissionrate"></a>CommissionRate|The commission rate charged to the advertiser when someone books a hotel and stays there.|
 |<a name="cpmbid"></a>CpmBid|Request that the [CpmBid](adgroup.md#cpmbid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="cpvbid"></a>CpvBid|Request that the [CpvBid](adgroup.md#cpvbid) element be included within each returned [AdGroup](adgroup.md) object.|

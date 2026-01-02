@@ -24,6 +24,27 @@ Additional fields for the portfolio bid strategy object.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="Scope">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="CurrencyCode">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="ReportingTimeZone">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -32,11 +53,14 @@ Additional fields for the portfolio bid strategy object.
 
 ## <a name="values"></a>Values
 
-The [PortfolioBidStrategyAdditionalField](portfoliobidstrategyadditionalfield.md) value set has the following values: [MaxConversionValueWithMaxCpc](#maxconversionvaluewithmaxcpc).
+The [PortfolioBidStrategyAdditionalField](portfoliobidstrategyadditionalfield.md) value set has the following values: [CurrencyCode](#currencycode), [MaxConversionValueWithMaxCpc](#maxconversionvaluewithmaxcpc), [ReportingTimeZone](#reportingtimezone), [Scope](#scope).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="currencycode"></a>CurrencyCode|Reserved.|
 |<a name="maxconversionvaluewithmaxcpc"></a>MaxConversionValueWithMaxCpc|Inlcude the MaxCpc element within each returned [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object.|
+|<a name="reportingtimezone"></a>ReportingTimeZone|Reserved.|
+|<a name="scope"></a>Scope|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

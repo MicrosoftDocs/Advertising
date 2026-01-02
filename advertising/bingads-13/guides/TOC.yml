@@ -1372,12 +1372,16 @@
       href: ../campaign-management-service/adddataexclusions.md
     - name: AddExperiments
       href: ../campaign-management-service/addexperiments.md
+    - name: AddHtml5s
+      href: ../campaign-management-service/addhtml5s.md
     - name: AddImportJobs
       href: ../campaign-management-service/addimportjobs.md
     - name: AddKeywords
       href: ../campaign-management-service/addkeywords.md
     - name: AddLabels
       href: ../campaign-management-service/addlabels.md
+    - name: AddLinkedInSegments
+      href: ../campaign-management-service/addlinkedinsegments.md
     - name: AddListItemsToSharedList
       href: ../campaign-management-service/addlistitemstosharedlist.md
     - name: AddMedia
@@ -1454,6 +1458,8 @@
       href: ../campaign-management-service/deletedataexclusions.md
     - name: DeleteExperiments
       href: ../campaign-management-service/deleteexperiments.md
+    - name: DeleteHtml5s
+      href: ../campaign-management-service/deletehtml5s.md
     - name: DeleteImportJobs
       href: ../campaign-management-service/deleteimportjobs.md
     - name: DeleteKeywords
@@ -1462,6 +1468,8 @@
       href: ../campaign-management-service/deletelabelassociations.md
     - name: DeleteLabels
       href: ../campaign-management-service/deletelabels.md
+    - name: DeleteLinkedInSegments
+      href: ../campaign-management-service/deletelinkedinsegments.md
     - name: DeleteListItemsFromSharedList
       href: ../campaign-management-service/deletelistitemsfromsharedlist.md
     - name: DeleteMedia
@@ -1566,6 +1574,8 @@
       href: ../campaign-management-service/getgeolocationsfileurl.md
     - name: GetHealthCheck
       href: ../campaign-management-service/gethealthcheck.md
+    - name: GetHtml5sByIds
+      href: ../campaign-management-service/gethtml5sbyids.md
     - name: GetImportEntityIdsMapping
       href: ../campaign-management-service/getimportentityidsmapping.md
     - name: GetImportJobsByIds
@@ -1690,6 +1700,8 @@
       href: ../campaign-management-service/updatekeywords.md
     - name: UpdateLabels
       href: ../campaign-management-service/updatelabels.md
+    - name: UpdateLinkedInSegments
+      href: ../campaign-management-service/updatelinkedinsegments.md
     - name: UpdateNewCustomerAcquisitionGoals
       href: ../campaign-management-service/updatenewcustomeracquisitiongoals.md
     - name: UpdateSeasonalityAdjustments
@@ -1783,6 +1795,8 @@
       href: ../campaign-management-service/apifaultdetail.md
     - name: AppAdExtension
       href: ../campaign-management-service/appadextension.md
+    - name: AppDownloadGoal
+      href: ../campaign-management-service/appdownloadgoal.md
     - name: AppInstallAd
       href: ../campaign-management-service/appinstallad.md
     - name: AppInstallGoal
@@ -1829,10 +1843,14 @@
       href: ../campaign-management-service/audienceinfo.md
     - name: AudioFilter
       href: ../campaign-management-service/audiofilter.md
+    - name: AuditPointResult
+      href: ../campaign-management-service/auditpointresult.md
     - name: BatchError
       href: ../campaign-management-service/batcherror.md
     - name: BatchErrorCollection
       href: ../campaign-management-service/batcherrorcollection.md
+    - name: BaseDomainSetting
+      href: ../campaign-management-service/basedomainsetting.md
     - name: Bid
       href: ../campaign-management-service/bid.md
     - name: BiddableAdGroupCriterion
@@ -1885,6 +1903,8 @@
       href: ../campaign-management-service/campaignnegativesites.md
     - name: CashbackAdjustment
       href: ../campaign-management-service/cashbackadjustment.md
+    - name: CategoryResult
+      href: ../campaign-management-service/categoryresult.md
     - name: ClipChampTemplateInfo
       href: ../campaign-management-service/clipchamptemplateinfo.md
     - name: CombinedList
@@ -1895,6 +1915,10 @@
       href: ../campaign-management-service/commissionbiddingscheme.md
     - name: Company
       href: ../campaign-management-service/company.md
+    - name: CompanyList
+      href: ../campaign-management-service/companylist.md
+    - name: CompanyName
+      href: ../campaign-management-service/companyname.md
     - name: ConversionGoal
       href: ../campaign-management-service/conversiongoal.md
     - name: ConversionGoalRevenue
@@ -1931,6 +1955,10 @@
       href: ../campaign-management-service/customparameter.md
     - name: CustomParameters
       href: ../campaign-management-service/customparameters.md
+    - name: CustomSegment
+      href: ../campaign-management-service/customsegment.md
+    - name: CustomSegmentCatalog
+      href: ../campaign-management-service/customsegmentcatalog.md
     - name: DailySummary
       href: ../campaign-management-service/dailysummary.md
     - name: DataExclusion
@@ -1951,6 +1979,14 @@
       href: ../campaign-management-service/diagnosticcarddata.md
     - name: DiagnosticCategoryData
       href: ../campaign-management-service/diagnosticcategorydata.md
+    - name: DiagnosticsEntity
+      href: ../campaign-management-service/diagnosticsentity.md
+    - name: DiagnosticsFilter
+      href: ../campaign-management-service/diagnosticsfilter.md
+    - name: DiagnosticsRequestStatus
+      href: ../campaign-management-service/diagnosticsrequeststatus.md
+    - name: DiagnosticsSettings
+      href: ../campaign-management-service/diagnosticssettings.md
     - name: DiagnosticTileData
       href: ../campaign-management-service/diagnostictiledata.md
     - name: DisclaimerAdExtension
@@ -1981,6 +2017,8 @@
       href: ../campaign-management-service/entityidtoparentidassociation.md
     - name: EntityNegativeKeyword
       href: ../campaign-management-service/entitynegativekeyword.md
+    - name: EntityResult
+      href: ../campaign-management-service/entityresult.md
     - name: EventGoal
       href: ../campaign-management-service/eventgoal.md
     - name: ExpandedTextAd
@@ -2045,6 +2083,8 @@
       href: ../campaign-management-service/hotellisting.md
     - name: HotelSetting
       href: ../campaign-management-service/hotelsetting.md
+    - name: HTML5
+      href: ../campaign-management-service/html5.md
     - name: IdCollection
       href: ../campaign-management-service/idcollection.md
     - name: Image
@@ -2083,6 +2123,8 @@
       href: ../campaign-management-service/label.md
     - name: LabelAssociation
       href: ../campaign-management-service/labelassociation.md
+    - name: LinkedInSegment
+      href: ../campaign-management-service/linkedinsegment.md
     - name: LocationAdExtension
       href: ../campaign-management-service/locationadextension.md
     - name: LocationCondition
@@ -2392,6 +2434,8 @@
       href: ../campaign-management-service/campaignstatus.md
     - name: CampaignType
       href: ../campaign-management-service/campaigntype.md
+    - name: CampanyNameStatus
+      href: ../campaign-management-service/companynamestatus.md
     - name: CompressionType
       href: ../campaign-management-service/compressiontype.md
     - name: ConversionGoalAdditionalField
@@ -2418,6 +2462,8 @@
       href: ../campaign-management-service/customerlistactiontype.md
     - name: CustomerListItemSubType
       href: ../campaign-management-service/customerlistitemsubtype.md
+    - name: CustomSegmentEditorialStatus
+      href: ../campaign-management-service/customsegmenteditorialstatus.md
     - name: Day
       href: ../campaign-management-service/day.md
     - name: DeviceType
@@ -2426,6 +2472,8 @@
       href: ../campaign-management-service/distanceunit.md
     - name: DynamicSearchAdsSource
       href: ../campaign-management-service/dynamicsearchadssource.md
+    - name: EffectiveEditorialStatus
+      href: ../campaign-management-service/effectiveeditorialstatus.md
     - name: EntityScope
       href: ../campaign-management-service/entityscope.md
     - name: EntityType
@@ -2464,6 +2512,8 @@
       href: ../campaign-management-service/keywordstatus.md
     - name: LanguageName
       href: ../campaign-management-service/languagename.md
+    - name: LinkedInSegmentStatus
+      href: ../campaign-management-service/linkedinsegmentstatus.md
     - name: LocationType
       href: ../campaign-management-service/locationtype.md
     - name: LogicalOperator

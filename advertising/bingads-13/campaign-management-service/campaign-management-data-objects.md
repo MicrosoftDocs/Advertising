@@ -52,6 +52,7 @@ The Campaign Management service defines the following data objects.
 |[AnnotationOptOut](annotationoptout.md)|Represents the annotation opt-out configuration for an account.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[AppAdExtension](appadextension.md)|Defines an app ad extension that can be included in an ad.|
+|[AppDownloadGoal](appdownloadgoal.md)|Defines an app install download goal.|
 |[AppInstallAd](appinstallad.md)|Defines an app install ad.|
 |[AppInstallGoal](appinstallgoal.md)|Defines an app install conversion goal.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Campaign Management fault detail objects derive.|
@@ -77,6 +78,8 @@ The Campaign Management service defines the following data objects.
 |[AudienceIdName](audienceidname.md)|Defines the audience ID name data object.|
 |[AudienceInfo](audienceinfo.md)|An object containing and ID an type for an audience.|
 |[AudioFilter](audiofilter.md)|Defines the audio filter data object.|
+|[AuditPointResult](auditpointresult.md)|Defines the AuditPointResult data object.|
+|[BaseDomainSetting](basedomainsetting.md)|Defines the BaseDomainSetting data object.|
 |[BatchError](batcherror.md)|Defines a Campaign Management batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
 |[BatchErrorCollection](batcherrorcollection.md)|Defines an error object that contains batch error details for the top level list index and a list of batch errors corresponding to the  nested list index.|
 |[Bid](bid.md)|The highest price that you want to pay each time someone clicks your ad.|
@@ -105,11 +108,14 @@ The Campaign Management service defines the following data objects.
 |[CampaignCriterion](campaigncriterion.md)|Defines a criterion that you want applied to the specified campaign.|
 |[CampaignNegativeSites](campaignnegativesites.md)|Defines an object that contains the negative site URLs of a campaign.|
 |[CashbackAdjustment](cashbackadjustment.md)|Defines the CashbackAdjustment Data Object.|
+|[CategoryResult](categoryresult.md)|Defines the CategoryResult data object.|
 |[ClipchampTemplateInfo](clipchamptemplateinfo.md)|Defines the clip champ template info data object.|
 |[CombinationRule](combinationrule.md)|A combination rule includes logical conditions used to determine who to add to your combined list.|
 |[CombinedList](combinedlist.md)|A combined list is an audience created from a combination of multiple existing audiences.|
 |[CommissionBiddingScheme](commissionbiddingscheme.md)|Defines an object that represents the commission bid strategy type (commission pay per stay).|
 |[Company](company.md)|Defines the profile data for a company.|
+|[CompanyList](companylist.md)|Defines the CompanyList data object.|
+|[CompanyName](companyname.md)|Defines the CompanyName data object.|
 |[ConversionGoal](conversiongoal.md)|Defines the base object of a conversion goal.|
 |[ConversionGoalRevenue](conversiongoalrevenue.md)|Defines properties for revenue that can be tracked by a conversion goal.|
 |[ConversionValueRule](conversionvaluerule.md)|Defintes a conversion value rule data object.|
@@ -127,6 +133,8 @@ The Campaign Management service defines the following data objects.
 |[CustomEventsRule](customeventsrule.md)|Defines a custom events remarketing rule.|
 |[CustomParameter](customparameter.md)|Defines a key and value custom parameter for URL tracking.|
 |[CustomParameters](customparameters.md)|Defines a collection of key and value custom parameters for URL tracking.|
+|[CustomSegment](customsegment.md)|Defines the CustomSegment data object.|
+|[CustomSegmentCatalog](customsegmentcatalog.md)|Defines the CustomSegmentCatalog data object.|
 |[DailySummary](dailysummary.md)|Defines a data object for a summary of the offline conversion reports for the day.|
 |[DataExclusion](dataexclusion.md)|Defines a data object for DataExclusion.|
 |[Date](date.md)|Represents a date.|
@@ -135,9 +143,10 @@ The Campaign Management service defines the following data objects.
 |[DealCriterion](dealcriterion.md)|Defines a criterion that can be used to show ads for a specific deal.|
 |[DeviceCondition](devicecondition.md)|Defines a condition to use conversion value rules for specified devices.|
 |[DeviceCriterion](devicecriterion.md)|Defines a criterion that can be used to show ads on specific devices.|
-|[DiagnosticCardData](diagnosticcarddata.md)|Defines the diagnostic card data data object.|
-|[DiagnosticCategoryData](diagnosticcategorydata.md)|Defines the diagnostic category data data object.|
-|[DiagnosticTileData](diagnostictiledata.md)|Defines the diagnostic tile data data object.|
+|[DiagnosticsEntity](diagnosticsentity.md)|Defines the DiagnosticsEntity data object.|
+|[DiagnosticsFilter](diagnosticsfilter.md)|Defines the DiagnosticsFilter data object.|
+|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|Defines the DiagnosticsRequestStatus data object.|
+|[DiagnosticsSettings](diagnosticssettings.md)|Defines the DiagnosticsSettings data object.|
 |[DisclaimerAdExtension](disclaimeradextension.md)|Defines an ad extension that specifies disclaimer text to include in an expanded text ad or responsive search ad.|
 |[DisclaimerSetting](disclaimersetting.md)|Defines the DisclaimerSetting Data Object.|
 |[DurationGoal](durationgoal.md)|Defines a duration conversion goal.|
@@ -152,6 +161,7 @@ The Campaign Management service defines the following data objects.
 |[EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md)|Defines an object that represents the enhanced CPC bid strategy type.|
 |[EntityIdToParentIdAssociation](entityidtoparentidassociation.md)|Defines an object that contains the unique system identifier of an entity such as ad or keyword, and the identifier of its parent.|
 |[EntityNegativeKeyword](entitynegativekeyword.md)|Defines an object that contains a set of negative keywords that are only associated with the corresponding entity such as a campaign or ad group.|
+|[EntityResult](entityresult.md)|Defines the EntityResult data object.|
 |[EventGoal](eventgoal.md)|Defines a custom event conversion goal.|
 |[ExpandedTextAd](expandedtextad.md)|Defines an expanded text ad.|
 |[Experiment](experiment.md)|Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.|
@@ -184,6 +194,7 @@ The Campaign Management service defines the following data objects.
 |[HotelLengthOfStayCriterion](hotellengthofstaycriterion.md)|Criterion for length of hotel stay in nights.|
 |[HotelListing](hotellisting.md)|Defines a hotel listing.|
 |[HotelSetting](hotelsetting.md)|Defines whether the ad group will target Hotel Price Ads (HPA) or Property Price Ads (PPA).|
+|[HTML5](html5.md)|Defines the HTML5 asset data object.|
 |[IdCollection](idcollection.md)|Defines an object that contains a list of entity identifiers.|
 |[Image](image.md)|Defines an image that can be added to an account's media library.|
 |[ImageAdExtension](imageadextension.md)|Defines an ad extension that specifies an image with alternative text to include in an expanded text ad.|
@@ -203,6 +214,7 @@ The Campaign Management service defines the following data objects.
 |[Keyword](keyword.md)|Defines a keyword.|
 |[Label](label.md)|Defines a label object to organize campaigns, ad groups, ads, and keywords into groups.|
 |[LabelAssociation](labelassociation.md)|Defines the relationship between a label and campaign, ad group, ad, or keyword entity.|
+|[LinkedInSegment](linkedinsegment.md)|Defines the LinkedInSegment data object.|
 |[LocationAdExtension](locationadextension.md)|Defines an ad extension that specifies a business address and phone number to include in a text ad.|
 |[LocationCondition](locationcondition.md)|Defines a condition to use conversion value rules in a specific location.|
 |[LocationConditionItem](locationconditionitem.md)|Defines a location condition item data object.|
