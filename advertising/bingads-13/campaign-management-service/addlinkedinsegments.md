@@ -204,7 +204,7 @@ The *AddLinkedInSegmentsRequest* object defines the [body](#request-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="linkedinsegments"></a>LinkedInSegments|Reserved.|[LinkedInSegment](linkedinsegment.md) array|
+|<a name="linkedinsegments"></a>LinkedInSegments|Array of LinkedIn segments to add to the specified campaign.|[LinkedInSegment](linkedinsegment.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -216,8 +216,8 @@ The *AddLinkedInSegmentsResponse* object defines the [body](#response-body) and 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="linkedinsegmentids"></a>LinkedInSegmentIds|Reserved.|**long** array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="linkedinsegmentids"></a>LinkedInSegmentIds|The LinkedIn segment IDs.|**long** array|
+|<a name="partialerrors"></a>PartialErrors|An array of *BatchError* objects that contain details for any request items that weren't successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
