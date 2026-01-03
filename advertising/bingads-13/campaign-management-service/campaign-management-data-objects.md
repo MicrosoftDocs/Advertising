@@ -52,7 +52,7 @@ The Campaign Management service defines the following data objects.
 |[AnnotationOptOut](annotationoptout.md)|Represents the annotation opt-out configuration for an account.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[AppAdExtension](appadextension.md)|Defines an app ad extension that can be included in an ad.|
-|[AppDownloadGoal](appdownloadgoal.md)|Defines an app install download goal.|
+|[AppDownloadGoal](appdownloadgoal.md)|Defines an app download conversion goal.|
 |[AppInstallAd](appinstallad.md)|Defines an app install ad.|
 |[AppInstallGoal](appinstallgoal.md)|Defines an app install conversion goal.|
 |[ApplicationFault](applicationfault.md)|Defines the base object from which all Campaign Management fault detail objects derive.|

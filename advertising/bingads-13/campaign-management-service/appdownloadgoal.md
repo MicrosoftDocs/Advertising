@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines an app download conversion goal.
 ---
 # AppDownloadGoal Data Object - Campaign Management
-Defines an app install download goal.
+Defines an app download conversion goal.
 
 ## Syntax
 
