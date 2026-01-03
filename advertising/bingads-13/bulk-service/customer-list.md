@@ -60,15 +60,15 @@ For a *Customer List* record, the following attribute fields are available in th
 
 
 ## <a name="acceptcustomermatchterm"></a>Accept Customer Match Term
-Optional flag to accept Customer Match terms for this bulk upload.
+Optional flag to accept Customer Match terms for this bulk upload.  
 
-- **`True`**: Accept terms and process customer data
-- **`False`**: Explicitly reject terms and the upload will fail
-- **Not set** Fallback to previous behavior in which to accept terms through the Microsoft Advertising UI.
+- **`True`**: Accept terms and process customer data.  
+- **`False`**: Explicitly reject terms and the upload will fail.  
+- **`Not set`** Fallback to previous behavior in which to accept terms through the Microsoft Advertising UI.  
 
-**Add:** Optional
-**Update:** Optional
-**Delete:** Read-only
+**Add:** Optional  
+**Update:** Optional  
+**Delete:** Read-only  
 
 ## <a name="actiontype"></a>Action Type
 Determines whether to add, remove, or replace the [Customer List Item](customer-list-item.md) records that you include in the same Bulk upload file. 
