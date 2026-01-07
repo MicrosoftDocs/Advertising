@@ -18,7 +18,13 @@ Defines a CustomerListUserData data object.
 ```xml
 <xs:complexType name="CustomerListUserData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element minOccurs="0" name="AcceptCustomerMatchTerm" nillable="true" type="xs:boolean" />
+    <xs:element minOccurs="0" name="AcceptCustomerMatchTerm" nillable="true" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element name="ActionType" type="tns:CustomerListActionType" />
     <xs:element name="AudienceId" type="xs:long" />
     <xs:element name="CustomerListItemSubType" type="tns:CustomerListItemSubType" />
@@ -31,7 +37,7 @@ Defines a CustomerListUserData data object.
 
 ```json
 {
-  "AcceptCustomerMatchTerm": "BooleanValueHere",
+  "AcceptCustomerMatchTerm": "ValueHere",
   "ActionType": "ValueHere",
   "AudienceId": "LongValueHere",
   "CustomerListItems": [
