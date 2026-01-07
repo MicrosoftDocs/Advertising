@@ -64,7 +64,7 @@ If the data aggregation is not available for a given report, it will be noted as
 |[Ad Performance Report](../reporting-service/adperformancereportrequest.md)|Ad|6|36|36|36|36|36|
 |[Ad Dynamic Text Performance Report](../reporting-service/addynamictextperformancereportrequest.md)|Ad Dynamic Text|6|36|36|36|36|36|
 |[Ad Group Performance Report](../reporting-service/adgroupperformancereportrequest.md)|Ad Group|6|36|36|36|36|36|
-|[Asset Performance Report](../reporting-service/assetperformancereportrequest.md)|Asset Performance|n/a|30|30|30|30|30|
+|[Asset Performance Report](../reporting-service/assetperformancereportrequest.md)|Asset Performance|n/a|30 days|30 days|30 days|30 days|30 days|
 |[Audience Performance Report](../reporting-service/audienceperformancereportrequest.md)|Audiences|6|36|36|36|36|36|
 |[Campaign Performance Report](../reporting-service/campaignperformancereportrequest.md)|Campaign|6|36|36|36|36|36|
 |[Combination Performance Report](../reporting-service/combinationperformancereportrequest.md)|Combination|6|36|36|36|36|36|
