@@ -18,10 +18,8 @@ For a list of columns that you must include, please see the [Required Columns](#
 To see how far back daily, weekly, monthly, yearly and summary aggregated data can be retrieved for a report, see [Report Data Retention Time Periods](../guides/report-data-retention-time-periods.md).  
 
 > [!NOTE]
-> The ImpressionSharePercent, ImpressionLostToBudgetPercent, and ImpressionLostToRankAggPercent columns are the only applicable Share of Voice data available for Microsoft Advertising Shopping Campaigns. 
-
-> [!WARNING]
-> Share of Voice reporting isn't supported for Dynamic Search ads (DSA).
+> Share of Voice reporting isn't supported for Dynamic Search ads (DSA).  
+> The ImpressionSharePercent, ImpressionLostToBudgetPercent, and ImpressionLostToRankAggPercent columns are the only applicable Share of Voice data available for Microsoft Advertising Shopping Campaigns.  
 
 ## Syntax
 ```xml
