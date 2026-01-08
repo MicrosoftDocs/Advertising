@@ -20,6 +20,9 @@ To see how far back daily, weekly, monthly, yearly and summary aggregated data c
 > [!NOTE]
 > The ImpressionSharePercent, ImpressionLostToBudgetPercent, and ImpressionLostToRankAggPercent columns are the only applicable Share of Voice data available for Microsoft Advertising Shopping Campaigns. 
 
+> [!WARNING]
+> Share of Voice reporting isn't supported for Dynamic Search ads (DSA).
+
 ## Syntax
 ```xml
 <xs:simpleType name="ShareOfVoiceReportColumn" xmlns:xs="http://www.w3.org/2001/XMLSchema">
