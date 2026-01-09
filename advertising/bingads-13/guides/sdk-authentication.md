@@ -369,10 +369,89 @@ user = customer_service.GetUser(UserId = None).User
 ```
 
 > [!IMPORTANT]
-> If you set the *AuthenticationToken*, *CustomerId*, *AccountId*, or *DeveloperToken* header elements in the request parameter e.g., *GetUserRequest*, they will be ignored. [Service Client](#serviceclient) always uses the [AuthorizationData](#authorization-data) provided with its initialization.
+> If you set the *AuthenticationToken*, *CustomerId*, *AccountId*, or *DeveloperToken* header elements in the request parameter e.g., *GetUserRequest*, they will be ignored. [Service Client](#serviceclient) always uses the [AuthorizationData](#authorization-data) provided with its initialization.  
 
+Here’s a **Microsoft‑style–aligned, clarity‑optimized, accessibility‑ready** revision of your Markdown content.  
+I applied guidance from your style resources  — including sentence casing, scannability, concise steps, and Copilot‑friendly structure. [\[Prompt guide | Word\]](https://microsoft.sharepoint.com/teams/AdsUA/Shared%20Documents/General/AI%20Agent%20Testing/Prompt%20guide.docx), [\[AI agent k...ledge base | Word\]](https://microsoft.sharepoint.com/teams/AdsUA/Shared%20Documents/General/AI%20Agent%20Testing/AI%20agent%20knowledge%20base.docx)
+
+***
+
+## <a name="googlelogin"></a>Google Login Support
+
+Starting with **Bing Ads SDK version 13.0.26**, you can sign in to Microsoft Advertising using your **Google account** instead of creating a Microsoft account.
+
+The SDK includes two classes for Google authentication:
+
+* `GoogleOAuthDesktopMobileAuthCodeGrant`
+* `GoogleOAuthWebAuthCodeGrant`
+
+These work similarly to the existing OAuth code grant classes for desktop, mobile, and web apps.
+
+### Important notes
+
+* Both Google OAuth classes require a **client secret**. The standard `OAuthDesktopMobileAuthCodeGrant` class does not.
+* When you refresh an access token with a **Google refresh token**, Google does not return a new refresh token. The original refresh token stays valid until it expires or is revoked.
+
+### How to authorize with Google
+
+#### 1. Create the authorization object
+
+Create a `GoogleOAuthWebAuthCodeGrant` instance to manage Google account authorization.
+
+Replace the client ID, client secret, and redirect URI with the values from your registered application.
+
+```csharp
+var googleOAuthWebAuthCodeGrant =
+    new GoogleOAuthWebAuthCodeGrant(ClientId, ClientSecret, new Uri(RedirectionUri), ApiEnvironment);
+
+// Provide a non‑guessable state parameter to help prevent CSRF attacks.
+googleOAuthWebAuthCodeGrant.State = "ClientStateGoesHere";
+```
+
+#### 2. Request user consent
+
+Redirect the user to the Google authorization endpoint by calling `GetAuthorizationEndpoint()`.
+
+```csharp
+return Redirect(googleOAuthWebAuthCodeGrant.GetAuthorizationEndpoint().ToString());
+```
+
+The user is prompted to grant your app permission to manage their Microsoft Advertising accounts.  
+After consent, Google calls your redirect URI with an authorization code.
+
+Example callback:
+
+```https://contoso.com/redirect/?code=CODE&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent```
+
+Use the authorization code immediately in the next step.
+
+#### 3. Exchange the authorization code for tokens
+
+Pass the **full callback URI** to request the access and refresh tokens.
+
+```csharp
+if (Request["code"] != null)
+{
+    await googleOAuthWebAuthCodeGrant.RequestAccessAndRefreshTokensAsync(Request.Url);
+}
+```
+
+After this step, your app can manage the user's Microsoft Advertising accounts.
+
+#### 4. Refresh the access token
+
+Use the refresh token whenever the access token expires.
+
+```csharp
+// Use an existing refresh token to request new access tokens.
+if (GetRefreshToken(out refreshToken))
+{
+    googleOAuthWebAuthCodeGrant.RequestAccessAndRefreshTokensAsync(refreshToken);
+}
+```
 
 ## See Also
+
 [Sandbox](sandbox.md)  
-[Bing Ads API Code Examples](code-examples.md)    
+[Bing Ads API Code Examples](code-examples.md)  
 [Bing Ads API Web Service Addresses](web-service-addresses.md)  
