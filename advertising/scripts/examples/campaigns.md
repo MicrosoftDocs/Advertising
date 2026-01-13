@@ -13,6 +13,8 @@ ms.topic: "article"
 
 The following sections show examples of scripts that perform various actions against campaigns.
 
+> [!NOTE]
+> Managing Performance Max campaigns with scripts isn't supported.
 
 ## Get all campaigns
 
