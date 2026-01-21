@@ -678,6 +678,9 @@
     - name: Account Callout Ad Extension
       href: ../bulk-service/account-callout-ad-extension.md
       displayName: BulkAccountCalloutAdExtension
+    - name: Account Content Negative Keyword List
+      href: ../bulk-service/account-content-negative-keyword-list.md
+      displayName: BulkAccountContentNegativeKeywordList
     - name: Account Filter Link Ad Extension
       href: ../bulk-service/account-filter-link-ad-extension.md
       displayName: BulkAccountFilterLinkAdExtension
@@ -753,6 +756,9 @@
     - name: Ad Group Custom Audience Association
       href: ../bulk-service/ad-group-custom-audience-association.md
       displayName: BulkAdGroupCustomAudienceAssociation
+    - name: Ad Group Custom Segment Association
+      href: ../bulk-service/ad-group-custom-segment-association.md
+      displayName: BulkAdGroupCustomSegmentAssociation
     - name: Ad Group Customer List Association
       href: ../bulk-service/ad-group-customer-list-association.md
       displayName: BulkAdGroupCustomerListAssociation
@@ -1106,6 +1112,9 @@
     - name: Custom Audience
       href: ../bulk-service/custom-audience.md
       displayName: BulkCustomAudience
+    - name: Custom Segment
+      href: ../bulk-service/custom-segment.md
+      displayName: BulkCustomSegment
     - name: Customer List
       href: ../bulk-service/customer-list.md
       displayName: BulkCustomerList

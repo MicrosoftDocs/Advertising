@@ -33,7 +33,8 @@ Defines the CategoryResult data object.
       "Description": "ValueHere",
       "Details": "ValueHere",
       "Key": "ValueHere",
-      "Severity": "ValueHere"
+      "Severity": "ValueHere",
+      "Timestamp": "ValueHere"
     }
   ],
   "Key": "ValueHere"
