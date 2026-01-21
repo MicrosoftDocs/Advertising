@@ -20,12 +20,6 @@ Defines a custom segment that can be downloaded and uploaded in a bulk file.
 >
 > By selecting "I accept" in the UI or by setting `Accept Customer Match Term=True` in the bulk file, you (1) agree that you are able to lawfully disclose audience details, which is personal data, to Microsoft and (2) accept the Customer Match Terms, the Microsoft Advertising Agreement, and the Microsoft Advertising policies. Microsoft will use the data that you upload in accordance with the [Customer Match Terms](https://help.ads.microsoft.com/#apex/ads/en/56921/1).
 
-A custom segment is a set of customer contact information that you have compiled to enable customer match. Each list can include multiple Email items. 
-- Include the [Custom Segment](custom-segment.md) record in the Bulk upload file and set its [Action Type](custom-segment.md#actiontype) field to "Add", "Remove", or "Replace". 
-- Include one or more [Custom Segment Item](custom-segment-item.md) records in the same Bulk upload file and set the [Parent Id](custom-segment-item.md#parentid), [Sub Type](custom-segment-item.md#subtype), and [Text](custom-segment-item.md#text) fields. 
-
-You can add or update a [Custom Segment](custom-segment.md) record without any [Custom Segment Item](custom-segment-item.md) records in the same Bulk upload file; however, you cannot upload any [Custom Segment Item](custom-segment-item.md) records without the accompanying parent [Custom Segment](custom-segment.md) record. 
-
 After 48 hours, check the Audience Size fields e.g., [Audience Search Size](#audiencesearchsize) to see how many of these customers we matched on the Bing Network. At that point, your ads can start showing for this new audience.
 
 > [!TIP]
@@ -105,7 +99,7 @@ The description can contain a maximum of 1,024 characters.
 ## <a name="id"></a>Id
 The system-generated identifier of the custom segment.
 
-**Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the custom segment can then be referenced in the *Parent Id* field of dependent record types such as [custom segment item](custom-segment-item.md#parentid). This is required if you are adding a new custom segment and new custom segment items in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the custom segment can then be referenced in the *Parent Id* field of dependent record types. This is required if you are adding a new custom segment and new custom segment items in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
 **Delete:** Read-only and Required  
 
