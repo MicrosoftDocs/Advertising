@@ -69,6 +69,7 @@ Record Type  |Supported Campaign Types
 [Ad Group Combined List Association](ad-group-combined-list-association.md)|All  
 [Ad Group Company Name Criterion](ad-group-company-name-criterion.md)|All  
 [Ad Group Custom Audience Association](ad-group-custom-audience-association.md)|All  
+[Ad Group Custom Segment Association](ad-group-custom-segment-association.md)|All  
 [Ad Group Customer List Association](ad-group-customer-list-association.md)|All  
 [Ad Group DayTime Criterion](ad-group-daytime-criterion.md)|All  
 [Ad Group DeviceOS Criterion](ad-group-deviceos-criterion.md)|All  
@@ -180,6 +181,7 @@ Record Type  |Supported Campaign Types
 [Combined List](combined-list.md)|All  
 [Content Placement](content-placement.md)|Audience  
 [Custom Audience](custom-audience.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom audience using the Bing Ads API.|All  
+[Custom Segment](custom-segment.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom segment using the Bing Ads API.|All  
 [Customer List](customer-list.md)|All  
 [Customer List Item](customer-list-item.md)<br/><br/>Bulk download of customer list items is not supported.|All  
 [Data Exclusion](data-exclusion.md)|Performance Max<br/>Search<br/>Shopping  
