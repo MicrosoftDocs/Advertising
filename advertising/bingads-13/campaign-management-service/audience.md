@@ -15,6 +15,7 @@ Do not try to instantiate an *Audience*. You can create one or more of the follo
 
 - [CombinedList](combinedlist.md)  
 - [CustomAudience](customaudience.md)  
+- [CustomSegment](customsegment.md)  
 - [CustomerList](customerlist.md)  
 - [ImpressionBasedRemarketingList](impressionbasedremarketinglist.md)  
 - [InMarketAudience](inmarketaudience.md)  

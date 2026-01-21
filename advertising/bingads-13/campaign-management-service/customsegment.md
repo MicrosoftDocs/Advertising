@@ -84,8 +84,8 @@ The [CustomSegment](customsegment.md) object has the following elements: [Custom
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customsegmentcataloglist"></a>CustomSegmentCatalogList|Reserved.|[CustomSegmentCatalog](customsegmentcatalog.md) array|
-|<a name="editorialstatus"></a>EditorialStatus|Reserved.|[CustomSegmentEditorialStatus](customsegmenteditorialstatus.md)|
+|<a name="customsegmentcataloglist"></a>CustomSegmentCatalogList|A list of custom segment catalogs.<br/><br/>**Add**: Required<br/>**Update**: Optional, if no value is set for the update, this setting isn't changed.|[CustomSegmentCatalog](customsegmentcatalog.md) array|
+|<a name="editorialstatus"></a>EditorialStatus|The custom segment editorial status.<br/><br/>**Add**: Read-only<br/>**Update**: Read-only|[CustomSegmentEditorialStatus](customsegmenteditorialstatus.md)|
 
 The [CustomSegment](customsegment.md) object has [Inherited Elements](#inheritedelements).
 
