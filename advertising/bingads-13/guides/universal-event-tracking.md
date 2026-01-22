@@ -126,7 +126,7 @@ A customer list is a set of customer contact information that you have compiled 
 > Customer lists are available via the [Bulk API](#audience-bulk), but not yet available via the [Campaign Management API](#audience-campaign). 
 
 > [!IMPORTANT]
-> **Programmatic Terms Acceptance (Recommended):** You can now accept Customer Match terms programmatically when uploading customer data via the [ApplyCustomerListUserData](applycustomerlistuserdata.md) operation by setting the `AcceptCustomerMatchTerm` parameter to `true`. This eliminates the requirement to accept terms through the Microsoft Advertising UI.
+> **Programmatic Terms Acceptance (Recommended):** You can now accept Customer Match terms programmatically when uploading customer data via the [ApplyCustomerListUserData](../campaign-management-service/applycustomerlistuserdata.md) operation by setting the `AcceptCustomerMatchTerm` parameter to `true`. This eliminates the requirement to accept terms through the Microsoft Advertising UI.
 >
 > **Legacy Requirement (if not using the new parameter):** Before you create customer list data via Campaign Management API without using the `AcceptCustomerMatchTerm` parameter, you must first create one customer list audience and accept the terms and conditions in the Microsoft Advertising UI. The initial customer list doesn't need to contain any customer data, but you must select I ACCEPT.
 >
