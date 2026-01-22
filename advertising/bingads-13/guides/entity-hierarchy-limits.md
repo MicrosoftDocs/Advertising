@@ -376,7 +376,7 @@ The following table defines limits for campaign properties.
 |Property|Limit|
 |------------|---------|
 |Description|The string can contain a maximum of 1,000 characters.|
-|Name|The string can contain a maximum of 128 characters.|
+|Name|The string can contain a maximum of 400 characters.|
 |Tracking Url Template|The string can contain a maximum of 2,048 characters.|
 
 ## <a name="conversiongoals"></a>Conversion Goals
