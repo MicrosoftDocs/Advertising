@@ -126,9 +126,13 @@ A customer list is a set of customer contact information that you have compiled 
 > Customer lists are available via the [Bulk API](#audience-bulk), but not yet available via the [Campaign Management API](#audience-campaign). 
 
 > [!IMPORTANT]
-> Before you can upload customer list data via Bulk API, you must first create one customer list audience and accept the terms and conditions in the Microsoft Advertising UI. The initial customer list doesn't need to contain any customer data, but you must select I ACCEPT. 
-> 
-> By selecting "I accept" you (1) agree that you are able to lawfully disclose audience details, which is personal data, to Microsoft and (2) accept the Customer Match Terms, the Microsoft Advertising Agreement, and the Microsoft Advertising policies. Microsoft will use the data that you upload in accordance with the [Customer Match Terms](https://help.ads.microsoft.com/apex/index/3/en/56921).  
+> **Programmatic Terms Acceptance (Recommended):** You can now accept Customer Match terms programmatically when uploading customer data via the [ApplyCustomerListUserData](applycustomerlistuserdata.md) operation by setting the `AcceptCustomerMatchTerm` parameter to `true`. This eliminates the requirement to accept terms through the Microsoft Advertising UI.
+>
+> **Legacy Requirement (if not using the new parameter):** Before you create customer list data via Campaign Management API without using the `AcceptCustomerMatchTerm` parameter, you must first create one customer list audience and accept the terms and conditions in the Microsoft Advertising UI. The initial customer list doesn't need to contain any customer data, but you must select I ACCEPT.
+>
+> By selecting "I accept" in the UI or by setting `AcceptCustomerMatchTerm=true` in the API, you (1) agree that you are able to lawfully disclose audience details, which is personal data, to Microsoft and (2) accept the Customer Match Terms, the Microsoft Advertising Agreement, and the Microsoft Advertising policies. Microsoft will use the data that you upload in accordance with the [Customer Match Terms](https://go.microsoft.com/fwlink/?linkid=2106709).
+>
+> You don’t need to accept the Customer Match terms if you create a customer list via the API without customer data. Once you add customer data, you must accept the terms in each API call.
 
 Each list can include multiple Email items. 
 - Include the [Customer List](../bulk-service/customer-list.md) record in the Bulk upload file and set its [Action Type](../bulk-service/customer-list.md#actiontype) field to "Add", "Remove", or "Replace". 
