@@ -18,7 +18,7 @@ Defines a CustomerList data object.
 >
 > By selecting "I accept" in the UI or by setting `AcceptCustomerMatchTerm=true` in the API, you (1) agree that you are able to lawfully disclose audience details, which is personal data, to Microsoft and (2) accept the Customer Match Terms, the Microsoft Advertising Agreement, and the Microsoft Advertising policies. Microsoft will use the data that you upload in accordance with the [Customer Match Terms](https://go.microsoft.com/fwlink/?linkid=2106709).
 >
-> You don’t need to accept the Customer Match terms if you create a customer list via the API without customer data. Once you add customer data, you must accept the terms in each API call.
+> You don't need to accept the Customer Match terms if you create a customer list via the API without customer data. Once you add customer data, you must accept the terms in each API call.
 
 ## Syntax
 
