@@ -17,7 +17,7 @@ The Customer Billing service defines the following service operations.
 |[CheckFeatureAdoptionCouponEligibility](checkfeatureadoptioncouponeligibility.md)|Check the FAC eligibility of an account.|100 *AccountIds*|
 |[ClaimFeatureAdoptionCoupons](claimfeatureadoptioncoupons.md)|Claim feature adoption coupons.|100 *AccountCouponPairs*|
 |[DispatchCoupons](dispatchcoupons.md)|Dispatch coupons of the specified coupon class name owned by the specified customer.|1 *CouponClassName*|
-|[DistributeCoupons](distributecoupons.md)|Distribute coupons of the specified coupon class name to the specified accounts.||
+|[DistributeCoupons](distributecoupons.md)|Distribute coupons of the specified coupon class name to the specified accounts.|N/A.|
 |[GetAccountMonthlySpend](getaccountmonthlyspend.md)|Gets the amount spent by the account in the specified month.|1 *AccountId*|
 |[GetBillingDocuments](getbillingdocuments.md)|Gets the specified billing documents.|25 *BillingDocumentInfo*|
 |[GetBillingDocumentsInfo](getbillingdocumentsinfo.md)|Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.|Not applicable.|

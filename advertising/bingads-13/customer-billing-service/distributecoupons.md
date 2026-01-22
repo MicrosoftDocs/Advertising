@@ -45,7 +45,7 @@ The *DistributeCouponsResponse* object defines the [body](#response-body) and [h
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="operationerrors"></a>OperationErrors|An array of operation errors that contains the reasons that explain why the service operation failed when the error is not related to a specific item in the batch of items.|[OperationError](operationerror.md) array|
-|<a name="partialerrors"></a>PartialErrors|An array of [BatchError](batcherror.md) objects that correspond to any email addresses where the coupon code could not be sent to.<br/><br/>The list can be empty if there were no errors.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of [OperationError](operationerror.md) objects that correspond to any email addresses where the coupon could not be distributed.<br/><br/>The list can be empty if there were no errors.|[OperationError](operationerror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -219,7 +219,7 @@ The *DistributeCouponsResponse* object defines the [body](#response-body) and [h
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="operationerrors"></a>OperationErrors|An array of operation errors that contains the reasons that explain why the service operation failed when the error is not related to a specific item in the batch of items.|[OperationError](operationerror.md) array|
-|<a name="partialerrors"></a>PartialErrors|An array of [BatchError](batcherror.md) objects that correspond to any email addresses where the coupon code could not be sent to.<br/><br/>The list can be empty if there were no errors.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of [OperationError](operationerror.md) objects that correspond to any email addresses where the coupon could not be distributed.<br/><br/>The list can be empty if there were no errors.|[OperationError](operationerror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
