@@ -11,9 +11,9 @@ dev_langs:
   - csharp
 ---
 # Ad Group Custom Segment Association Record - Bulk
-Defines an Ad Group Custom Segment Association that can be uploaded and downloaded in a bulk file. 
+Defines an Ad Group Custom Segment Association that can be uploaded and downloaded in a bulk file.  
 
-Audience targets cannot be set both campaign and ad group level. If you set any biddable campaign level audience criteria, then you cannot set any biddable ad group level audience criteria. Audience exclusions can be set at both campaign and ad group level. Microsoft Advertising applies a union of both campaign and ad group level exclusions.
+Custom segment association is supported only at the ad group level for biddable audience criteria.  
 
 > [!TIP]
 > For an overview and more information about audiences, see the [Audience APIs](../guides/universal-event-tracking.md#audience) technical guide. 
