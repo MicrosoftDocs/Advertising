@@ -678,9 +678,6 @@
     - name: Account Callout Ad Extension
       href: ../bulk-service/account-callout-ad-extension.md
       displayName: BulkAccountCalloutAdExtension
-    - name: Account Content Negative Keyword List
-      href: ../bulk-service/account-content-negative-keyword-list.md
-      displayName: BulkAccountContentNegativeKeywordList
     - name: Account Filter Link Ad Extension
       href: ../bulk-service/account-filter-link-ad-extension.md
       displayName: BulkAccountFilterLinkAdExtension
@@ -1726,6 +1723,9 @@
     - name: Overview
       href: ../campaign-management-service/campaign-management-data-objects.md
       displayName: campaign management data objects
+    - name: AccountContentNegativeKeywordList
+      href: ../campaign-management-service/accountcontentnegativekeywordlist.md
+      displayName: AccountContentNegativeKeywordList
     - name: AccountMigrationStatusesInfo
       href: ../campaign-management-service/accountmigrationstatusesinfo.md
     - name: AccountNegativeKeywordList
