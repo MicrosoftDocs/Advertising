@@ -22,6 +22,7 @@ Defines the AuditPointResult data object.
     <xs:element xmlns:q189="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Details" nillable="true" type="q189:ArrayOfKeyValueOfstringstring" />
     <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Severity" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="Timestamp" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
 ```
@@ -33,7 +34,8 @@ Defines the AuditPointResult data object.
   "Description": "ValueHere",
   "Details": "ValueHere",
   "Key": "ValueHere",
-  "Severity": "ValueHere"
+  "Severity": "ValueHere",
+  "Timestamp": "ValueHere"
 }
 ```
 
@@ -41,7 +43,7 @@ Defines the AuditPointResult data object.
 
 ## <a name="elements"></a>Elements
 
-The [AuditPointResult](auditpointresult.md) object has the following elements: [Description](#description), [Details](#details), [Key](#key), [Severity](#severity).
+The [AuditPointResult](auditpointresult.md) object has the following elements: [Description](#description), [Details](#details), [Key](#key), [Severity](#severity), [Timestamp](#timestamp).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -49,6 +51,7 @@ The [AuditPointResult](auditpointresult.md) object has the following elements: [
 |<a name="details"></a>Details|Reserved.|[ArrayOfKeyValueOfstringstring](arrayofkeyvalueofstringstring.md)|
 |<a name="key"></a>Key|Reserved.|**string**|
 |<a name="severity"></a>Severity|Reserved.|**string**|
+|<a name="timestamp"></a>Timestamp|Reserved.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

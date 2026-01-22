@@ -13,6 +13,7 @@ The Campaign Management service defines the following data objects.
 
 |Data Object|Description|
 |---|---|
+|[AccountContentNegativeKeywordList](accountcontentnegativekeywordlist.md)|Defines an account content negative keyword list.|
 |[AccountMigrationStatusesInfo](accountmigrationstatusesinfo.md)|Defines an object that contains migration status for an account.|
 |[AccountNegativeKeywordList](accountnegativekeywordlist.md)|Defines a negative keyword list that is associated with an account.|
 |[AccountPlacementExclusionList](accountplacementexclusionlist.md)|Defines a data object for account placement exclusion list.|

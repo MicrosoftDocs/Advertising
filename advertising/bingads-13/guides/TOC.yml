@@ -753,6 +753,9 @@
     - name: Ad Group Custom Audience Association
       href: ../bulk-service/ad-group-custom-audience-association.md
       displayName: BulkAdGroupCustomAudienceAssociation
+    - name: Ad Group Custom Segment Association
+      href: ../bulk-service/ad-group-custom-segment-association.md
+      displayName: BulkAdGroupCustomSegmentAssociation
     - name: Ad Group Customer List Association
       href: ../bulk-service/ad-group-customer-list-association.md
       displayName: BulkAdGroupCustomerListAssociation
@@ -1106,6 +1109,9 @@
     - name: Custom Audience
       href: ../bulk-service/custom-audience.md
       displayName: BulkCustomAudience
+    - name: Custom Segment
+      href: ../bulk-service/custom-segment.md
+      displayName: BulkCustomSegment
     - name: Customer List
       href: ../bulk-service/customer-list.md
       displayName: BulkCustomerList
@@ -1717,6 +1723,9 @@
     - name: Overview
       href: ../campaign-management-service/campaign-management-data-objects.md
       displayName: campaign management data objects
+    - name: AccountContentNegativeKeywordList
+      href: ../campaign-management-service/accountcontentnegativekeywordlist.md
+      displayName: AccountContentNegativeKeywordList
     - name: AccountMigrationStatusesInfo
       href: ../campaign-management-service/accountmigrationstatusesinfo.md
     - name: AccountNegativeKeywordList
