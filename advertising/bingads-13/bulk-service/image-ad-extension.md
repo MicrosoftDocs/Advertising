@@ -22,7 +22,7 @@ The following Bulk CSV example would add a new Image Ad Extension to the account
 ```csv
 Type,Status,Id,Parent Id,Campaign,Ad Group,Client Id,Modified Time,Start Date,End Date,Device Preference,Name,Ad Schedule,Use Searcher Time Zone,Alternative Text,Media Ids,Final Url Suffix
 Format Version,,,,,,,,,,,6.0,,,,,
-Image Ad Extension,Active,-14,0,,,ClientIdGoesHere,,,,,,,FALSE,ImageAdExtension Alternative Text,ImageMediaIdHere,
+Image Ad Extension,Active,-14,0,,,ClientIdGoesHere,,,,,,,FALSE,Images,Alternative Text,Eligible Layout,
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkImageAdExtension* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
@@ -42,16 +42,22 @@ var bulkImageAdExtension = new BulkImageAdExtension
     // ImageAdExtension object of the Campaign Management service.
     ImageAdExtension = new ImageAdExtension
     {
-        // 'Alternative Text' column header in the Bulk file
-        AlternativeText = "ImageAdExtension Alternative Text",
-        // 'Destination Url' column header in the Bulk file
-        DestinationUrl = null,
-        // 'Id' column header in the Bulk file
-        Id = imageAdExtensionIdKey,
-        // 'Media Ids' column header in the Bulk file
-        ImageMediaIds = new long[] { ImageMediaIdHere },
-        // 'Status' column header in the Bulk file
-        Status = AdExtensionStatus.Active,
+	// 'Images' column header in the Bulk file
+	Images =
+    	new AssetLink[] {
+        	new AssetLink
+        	{
+            	Asset = new ImageAsset
+            {
+                AssetAssociationType = AssetAssociationType.LandscapeImageMedia,
+                Id = imageassetid,
+            }
+        }
+    },
+	// 'Alternative Text' column header in the Bulk file
+    AlternativeText = "Test",
+	// 'Eligible Layout' column header in the Bulk file
+    EligibleLayout = AdExtensionEligibleLayoutType.SingleAndAudience,
     },
 };
 
