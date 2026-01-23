@@ -42,22 +42,22 @@ var bulkImageAdExtension = new BulkImageAdExtension
     // ImageAdExtension object of the Campaign Management service.
     ImageAdExtension = new ImageAdExtension
     {
-	// 'Images' column header in the Bulk file
-	Images =
-    	new AssetLink[] {
-        	new AssetLink
-        	{
-            	Asset = new ImageAsset
-            {
-                AssetAssociationType = AssetAssociationType.LandscapeImageMedia,
-                Id = imageassetid,
-            }
-        }
-    },
-	// 'Alternative Text' column header in the Bulk file
-    AlternativeText = "Test",
-	// 'Eligible Layout' column header in the Bulk file
-    EligibleLayout = AdExtensionEligibleLayoutType.SingleAndAudience,
+		// 'Images' column header in the Bulk file
+		Images =
+	    	new AssetLink[] {
+	        	new AssetLink
+	        	{
+	            	Asset = new ImageAsset
+	            {
+	                AssetAssociationType = AssetAssociationType.LandscapeImageMedia,
+	                Id = imageassetid,
+	            }
+	        }
+	    },
+		// 'Alternative Text' column header in the Bulk file
+	    AlternativeText = "Test",
+		// 'Eligible Layout' column header in the Bulk file
+	    EligibleLayout = AdExtensionEligibleLayoutType.SingleAndAudience,
     },
 };
 
