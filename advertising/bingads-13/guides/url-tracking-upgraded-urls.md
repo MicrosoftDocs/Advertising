@@ -58,10 +58,7 @@ Also note the following validation rules for ad and site link final URLs.
 - If the ad or site link's tracking template or custom parameters are specified, then at least one final URL is required.  
 
 ## <a name="finalurlsuffixvalidation"></a>Final URL Suffix
-The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page.
-
-> [!NOTE]
-> Final URL suffix is now available at the account, campaign, ad group, ad group criterion, ad, and keyword level for all customers. Final URL suffix is available at the action, price, and sitelink ad extension level for Phase 3 pilot customers ([GetCustomerPilotFeatures](../customer-management-service/getcustomerpilotfeatures.md) returns 636).   
+The final URL suffix can include tracking parameters that will be appended to the end of your landing page URL. We recommend placing tracking parameters that your landing page requires in a final URL suffix so that your customers are always sent to your landing page. Learn more about [Using a final URL suffix](https://help.ads.microsoft.com/#apex/ads/en/56925/2).
 
 Final URL suffixes defined for lower level entities e.g. ads override those set for higher level entities e.g. campaign. For more information, see [Entity Limits](entity-hierarchy-limits.md). 
 
