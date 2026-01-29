@@ -20,9 +20,9 @@ You can download all *Image Ad Extension* records in the account by including th
 The following Bulk CSV example would add a new Image Ad Extension to the account's shared library. 
 
 ```csv
-Type,Status,Id,Parent Id,Campaign,Ad Group,Client Id,Modified Time,Start Date,End Date,Device Preference,Name,Ad Schedule,Use Searcher Time Zone,Alternative Text,Media Ids,Final Url Suffix
-Format Version,,,,,,,,,,,6.0,,,,,
-Image Ad Extension,Active,-14,0,,,ClientIdGoesHere,,,,,,,FALSE,Images,Alternative Text,Eligible Layout,
+Type,Status,Id,Account Id,Name,Alternative Text,Layouts,Images
+Format Version,,,,6.0,,,
+Image Ad Extension,Active,-14,0,,Image Alt Text,SearchSingle;SearchMultiple,"[{""id"":imageassetid,""subType"":""LandscapeImageMedia""}]"
 ```
 
 If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkImageAdExtension* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file. 
@@ -57,7 +57,7 @@ var bulkImageAdExtension = new BulkImageAdExtension
 		// 'Alternative Text' column header in the Bulk file
 	    AlternativeText = "Test",
 		// 'Eligible Layout' column header in the Bulk file
-	    EligibleLayout = AdExtensionEligibleLayoutType.SingleAndAudience,
+	    AdExtensionEligibleLayoutType.SingleAndMulti.EligibleLayout = AdExtensionEligibleLayoutType.SingleAndMulti,
     },
 };
 
