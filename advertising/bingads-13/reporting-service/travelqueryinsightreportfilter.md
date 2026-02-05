@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines the criteria to use to filter the travel query insight report data.
 ---
 # TravelQueryInsightReportFilter Data Object - Reporting
-Defines the criteria to use to filter the travel query insight report data.
+*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.* Defines the criteria to use to filter the travel query insight report data.
 
 ## Syntax
 

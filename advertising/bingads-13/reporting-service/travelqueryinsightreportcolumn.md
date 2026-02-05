@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines the attributes and performance statistics columns that you can include in the travel query insight report.
 ---
 # TravelQueryInsightReportColumn Value Set - Reporting
-Defines the attributes and performance statistics columns that you can include in the travel query insight report.
+*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.* Defines the attributes and performance statistics columns that you can include in the travel query insight report.
 
 ## Syntax
 ```xml
