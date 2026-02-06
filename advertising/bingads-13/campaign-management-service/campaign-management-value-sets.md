@@ -77,7 +77,6 @@ The Campaign Management service defines the following value sets.
 |[ConversionValueRuleStatus](conversionvaluerulestatus.md)|Defines the conversion value rule status value set.|
 |[CriterionAdditionalField](criterionadditionalfield.md)|Defines a list of optional criterion properties that you can request when calling [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) and [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md).|
 |[CriterionTypeGroup](criteriontypegroup.md)|The type used to group criterions.|
-|[CropType](croptype.md)|Reserved.|
 |[CustomerListActionType](customerlistactiontype.md)|Defines a CustomerListActionType value set.|
 |[CustomerListItemSubType](customerlistitemsubtype.md)|Defines a CustomerListItemSubType value set.|
 |[CustomSegmentEditorialStatus](customsegmenteditorialstatus.md)|Defines the possible custom segment editorial status values.|
@@ -88,7 +87,6 @@ The Campaign Management service defines the following value sets.
 |[EffectiveEditorialStatus](effectiveeditorialstatus.md)|Defines the possible effective editorial status values.|
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
-|[ExperimentAdditionalField](experimentadditionalfield.md)|Reserved.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
