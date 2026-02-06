@@ -166,6 +166,7 @@ The Campaign Management service defines the following data objects.
 |[EventGoal](eventgoal.md)|Defines a custom event conversion goal.|
 |[ExpandedTextAd](expandedtextad.md)|Defines an expanded text ad.|
 |[Experiment](experiment.md)|Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.|
+|[ExperimentArm](experimentarm.md)|Reserved.|
 |[FileImportJob](fileimportjob.md)|FileImportJob is reserved for future use.|
 |[FileImportOption](fileimportoption.md)|FileImportOption is reserved for future use.|
 |[FilterLinkAdExtension](filterlinkadextension.md)|Filter Link Extensions pair one header with between 3 and 10 clickable text values that tell customers more about your business.|
@@ -245,7 +246,10 @@ The Campaign Management service defines the following data objects.
 |[NumberRuleItem](numberruleitem.md)|Defines a rule expression that depends on the operand, operator, and value.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
 |[OfflineConversionAdjustment](offlineconversionadjustment.md)|Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.|
+|[OfflineConversionAlert](offlineconversionalert.md)|Defines a data object for detailed information about unattributed conversions.|
 |[OfflineConversionGoal](offlineconversiongoal.md)|Defines an offline conversion goal.|
+|[OfflineGoalConversionSummary](offlinegoalconversionsummary.md)|Defines a data object for a container that stores offline conversion metrics for a specific goal.|
+|[OfflineGoalDailySummary](offlinegoaldailysummary.md)|Defines a data object for the granular, date-specific metrics for a conversion goal.|
 |[OnlineConversionAdjustment](onlineconversionadjustment.md)|Defines an object to retract or restate an online conversion.|
 |[OperationError](operationerror.md)|Defines a Campaign Management operation error that contains the details that explain why the service operation failed.|
 |[PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md)|Defines a pages viewed per visit conversion goal.|

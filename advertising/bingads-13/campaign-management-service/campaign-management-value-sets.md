@@ -77,6 +77,7 @@ The Campaign Management service defines the following value sets.
 |[ConversionValueRuleStatus](conversionvaluerulestatus.md)|Defines the conversion value rule status value set.|
 |[CriterionAdditionalField](criterionadditionalfield.md)|Defines a list of optional criterion properties that you can request when calling [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) and [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md).|
 |[CriterionTypeGroup](criteriontypegroup.md)|The type used to group criterions.|
+|[CropType](croptype.md)|Reserved.|
 |[CustomerListActionType](customerlistactiontype.md)|Defines a CustomerListActionType value set.|
 |[CustomerListItemSubType](customerlistitemsubtype.md)|Defines a CustomerListItemSubType value set.|
 |[CustomSegmentEditorialStatus](customsegmenteditorialstatus.md)|Defines the possible custom segment editorial status values.|
@@ -87,6 +88,7 @@ The Campaign Management service defines the following value sets.
 |[EffectiveEditorialStatus](effectiveeditorialstatus.md)|Defines the possible effective editorial status values.|
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
+|[ExperimentAdditionalField](experimentadditionalfield.md)|Reserved.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
@@ -114,6 +116,8 @@ The Campaign Management service defines the following value sets.
 |[Network](network.md)|Defines the possible search networks on which an ad can display.|
 |[NormalForm](normalform.md)|Defines the possible normal form types.|
 |[NumberOperator](numberoperator.md)|Defines the operators that can be applied to remarketing list rule item number values.|
+|[OfflineConversionUnattributedReason](offlineconversionunattributedreason.md)|Indicates why a conversion failed to be attributed.|
+|[OfflineConversionUploadChannel](offlineconversionuploadchannel.md)|The source of offline conversion data. You can combine multiple values.|
 |[PortfolioBidStrategyAdditionalField](portfoliobidstrategyadditionalfield.md)|Additional fields for the portfolio bid strategy object.|
 |[PriceExtensionType](priceextensiontype.md)|Defines the possible types of price ad extensions.|
 |[PriceQualifier](pricequalifier.md)|Defines price qualifiers for price ad extensions.|
