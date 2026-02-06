@@ -19,7 +19,7 @@ Defines the supported font data object.
 <xs:complexType name="SupportedFont" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="FontFamily" nillable="true" type="xs:string" />
-    <xs:element xmlns:q185="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FontWeights" nillable="true" type="q185:ArrayOfstring" />
+    <xs:element xmlns:q187="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FontWeights" nillable="true" type="q187:ArrayOfstring" />
   </xs:sequence>
 </xs:complexType>
 ```

@@ -14,7 +14,6 @@ description: Defines a data object for detailed information about unattributed c
 # OfflineConversionAlert Data Object - Campaign Management
 Defines a data object for detailed information about unattributed conversions.
 
-
 ## Syntax
 
 # [XML](#tab/xml)

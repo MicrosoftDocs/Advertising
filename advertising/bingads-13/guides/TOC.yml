@@ -1616,6 +1616,8 @@
       href: ../campaign-management-service/getnegativesitesbycampaignids.md
     - name: GetNewCustomerAcquisitionGoalsByAccountId
       href: ../campaign-management-service/getnewcustomeracquisitiongoalsbyaccountid.md
+    - name: GetOfflineConversionReportByGoalIds
+      href: ../campaign-management-service/getofflineconversionreportbygoalids.md
     - name: GetOfflineConversionReports
       href: ../campaign-management-service/getofflineconversionreports.md
     - name: GetProfileDataFileUrl
@@ -2192,8 +2194,14 @@
       href: ../campaign-management-service/offlineconversion.md
     - name: OfflineConversionAdjustment
       href: ../campaign-management-service/offlineconversionadjustment.md
+    - name: OfflineConversionAlert
+      href: ../campaign-management-service/offlineconversionalert.md
     - name: OfflineConversionGoal
       href: ../campaign-management-service/offlineconversiongoal.md
+    - name: OfflineGoalConversionSummary
+      href: ../campaign-management-service/offlinegoalconversionsummary.md
+    - name: OfflineGoalDailySummary
+      href: ../campaign-management-service/offlinegoaldailysummary.md
     - name: OnlineConversionAdjustment
       href: ../campaign-management-service/onlineconversionadjustment.md
     - name: OperationError
@@ -2543,6 +2551,10 @@
       href: ../campaign-management-service/normalform.md
     - name: NumberOperator
       href: ../campaign-management-service/numberoperator.md
+    - name: OfflineConversionUnattributedReason
+      href: ../campaign-management-service/offlineconversionunattributedreason.md
+    - name: OfflineConversionUploadChannel
+      href: ../campaign-management-service/offlineconversionuploadchannel.md
     - name: PortfolioBidStrategyAdditionalField
       href: ../campaign-management-service/portfoliobidstrategyadditionalfield.md
     - name: PriceExtensionType
