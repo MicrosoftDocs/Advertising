@@ -114,7 +114,7 @@ The Reporting service defines the following data objects.
 |[SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)|Defines a search query performance report request.|
 |[ShareOfVoiceReportFilter](shareofvoicereportfilter.md)|Defines the criteria to use to filter the share of voice report data.|
 |[ShareOfVoiceReportRequest](shareofvoicereportrequest.md)|Defines a share of voice (SOV) report request.|
-|[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.*<br/><br/>Defines the criteria to use to filter the travel query insight report data.|
-|[TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md)|*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.*<br/><br/>Defines a travel query insight report request.|
+|[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.* Defines the criteria to use to filter the travel query insight report data.|
+|[TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md)|*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.* Defines a travel query insight report request.|
 |[UserLocationPerformanceReportFilter](userlocationperformancereportfilter.md)|Defines the criteria to use to filter the user location performance report data.|
 |[UserLocationPerformanceReportRequest](userlocationperformancereportrequest.md)|Defines a user location performance report request.|

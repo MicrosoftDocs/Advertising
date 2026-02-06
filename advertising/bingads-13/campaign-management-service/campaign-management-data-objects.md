@@ -245,7 +245,10 @@ The Campaign Management service defines the following data objects.
 |[NumberRuleItem](numberruleitem.md)|Defines a rule expression that depends on the operand, operator, and value.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
 |[OfflineConversionAdjustment](offlineconversionadjustment.md)|Defines an object to retract or restate an offline conversion via the [ApplyOfflineConversionAdjustments](applyofflineconversionadjustments.md) operation.|
+|[OfflineConversionAlert](offlineconversionalert.md)|Defines a data object for detailed information about unattributed conversions.|
 |[OfflineConversionGoal](offlineconversiongoal.md)|Defines an offline conversion goal.|
+|[OfflineGoalConversionSummary](offlinegoalconversionsummary.md)|Defines a data object for a container that stores offline conversion metrics for a specific goal.|
+|[OfflineGoalDailySummary](offlinegoaldailysummary.md)|Defines a data object for the granular, date-specific metrics for a conversion goal.|
 |[OnlineConversionAdjustment](onlineconversionadjustment.md)|Defines an object to retract or restate an online conversion.|
 |[OperationError](operationerror.md)|Defines a Campaign Management operation error that contains the details that explain why the service operation failed.|
 |[PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md)|Defines a pages viewed per visit conversion goal.|

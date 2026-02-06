@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines a travel query insight report request.
 ---
 # TravelQueryInsightReportRequest Data Object - Reporting
-Defines a travel query insight report request.
+*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.* Defines a travel query insight report request.
 
 ## Syntax
 

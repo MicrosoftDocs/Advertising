@@ -153,6 +153,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [GetNegativeKeywordsByEntityIds](getnegativekeywordsbyentityids.md)  
 [GetNegativeSitesByAdGroupIds](getnegativesitesbyadgroupids.md)  
 [GetNegativeSitesByCampaignIds](getnegativesitesbycampaignids.md)  
+[GetOfflineConversionReportByGoalIds](getofflineconversionreportbygoalids.md)  
 [GetSeasonalityAdjustmentsByAccountId](getseasonalityadjustmentsbyaccountid.md)  
 [GetSeasonalityAdjustmentsByIds](getseasonalityadjustmentsbyids.md)  
 [GetSharedEntityAssociationsByEntityIds](getsharedentityassociationsbyentityids.md)  

@@ -114,6 +114,8 @@ The Campaign Management service defines the following value sets.
 |[Network](network.md)|Defines the possible search networks on which an ad can display.|
 |[NormalForm](normalform.md)|Defines the possible normal form types.|
 |[NumberOperator](numberoperator.md)|Defines the operators that can be applied to remarketing list rule item number values.|
+|[OfflineConversionUnattributedReason](offlineconversionunattributedreason.md)|Indicates why a conversion failed to be attributed.|
+|[OfflineConversionUploadChannel](offlineconversionuploadchannel.md)|The source of offline conversion data. You can combine multiple values.|
 |[PortfolioBidStrategyAdditionalField](portfoliobidstrategyadditionalfield.md)|Additional fields for the portfolio bid strategy object.|
 |[PriceExtensionType](priceextensiontype.md)|Defines the possible types of price ad extensions.|
 |[PriceQualifier](pricequalifier.md)|Defines price qualifiers for price ad extensions.|
