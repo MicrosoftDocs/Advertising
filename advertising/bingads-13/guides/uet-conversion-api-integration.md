@@ -27,7 +27,7 @@ Most advertisers use a JavaScript tag provided by Microsoft called the UET tag. 
 
 For advertisers who cannot or choose not to use the UET JavaScript, we offer an alternative solution. The Conversions API can be used independently or in conjunction with UET JavaScript tracking.
 
-The Conversions API allows you to format and send event data from your backend without running any Microsoft JavaScript in the end user’s browser. While the data is captured server-side, an optional client-side user ID sync pixel can be used to connect Microsoft and customer-assigned user IDs.
+The Conversions API allows you to format and send event data from your backend without running any Microsoft JavaScript in the end user’s browser. While the data is captured server-side, a client-side user ID sync pixel can be used to connect Microsoft and customer-assigned user IDs.
 
 Note that the integration effort required for this approach is significantly greater than that of using the UET JavaScript.
 
@@ -39,6 +39,9 @@ There are two data flows you should implement for the Conversions API:
 2. ID sync pixels sent from client to server
 
 ### Client-side ID-Sync
+
+> [!NOTE]
+> ID Sync is recommended for conversion measurement. It’s required for remarketing and audience building because these features rely on user identity resolution, such as *MUID* or *StableId*.
 
 ID sync allows your internal IDs to be mapped to Microsoft IDs. This is strongly recommended for any Microsoft Advertising products that need to identify users off-site, such as remarketing. You must fire the ID sync beacon client-side, as this enables Microsoft to capture our third-party cookie IDs for your users.
 
