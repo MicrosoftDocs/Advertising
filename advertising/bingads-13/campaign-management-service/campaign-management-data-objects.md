@@ -166,7 +166,6 @@ The Campaign Management service defines the following data objects.
 |[EventGoal](eventgoal.md)|Defines a custom event conversion goal.|
 |[ExpandedTextAd](expandedtextad.md)|Defines an expanded text ad.|
 |[Experiment](experiment.md)|Defines an experiment where you split a campaign's budget and traffic, and then run an A/B test during a limited date range.|
-|[ExperimentArm](experimentarm.md)|Reserved.|
 |[FileImportJob](fileimportjob.md)|FileImportJob is reserved for future use.|
 |[FileImportOption](fileimportoption.md)|FileImportOption is reserved for future use.|
 |[FilterLinkAdExtension](filterlinkadextension.md)|Filter Link Extensions pair one header with between 3 and 10 clickable text values that tell customers more about your business.|
