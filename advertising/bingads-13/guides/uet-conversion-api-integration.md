@@ -166,6 +166,7 @@ Use the UET `tagID` and token for authorization.
 | partnerHotelId | string | | ID that you used to identify the hotel in your property feed | example_hotel |
 | bookingHref | string | | Encrypted or obfuscated booking reference number | X2N5531APZ |
 | continueOnValidationError | boolean | | Use for batch uploads: true – if you want to skip invalid events, false (default) – entire request will not be processed | false |
+| dataProvider | string | | Custom string to include in integrations to support analysis, debugging, and monitoring | example_data_provider |
 
 ### Example
 
@@ -229,7 +230,8 @@ Use the UET `tagID` and token for authorization.
       }
     }
   ],
-  "continueOnValidationError": false
+  "continueOnValidationError": false,
+  "dataProvider": "example_data_provider"
 }
 ```
 
