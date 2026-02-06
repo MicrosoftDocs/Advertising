@@ -48,7 +48,7 @@ The [AuditPointResult](auditpointresult.md) object has the following elements: [
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="description"></a>Description|Reserved.|**string**|
-|<a name="details"></a>Details|Reserved.|[ArrayOfKeyValueOfstringstring](arrayofkeyvalueofstringstring.md)|
+|<a name="details"></a>Details|Reserved.|**ArrayOfKeyValueOfstringstring**|
 |<a name="key"></a>Key|Reserved.|**string**|
 |<a name="severity"></a>Severity|Reserved.|**string**|
 |<a name="timestamp"></a>Timestamp|Reserved.|**string**|
