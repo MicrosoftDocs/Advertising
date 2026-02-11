@@ -41,7 +41,7 @@ There are two data flows you should implement for the Conversions API:
 ### Client-side ID-Sync
 
 > [!NOTE]
-> ID Sync is recommended for conversion measurement. It’s required for remarketing and audience building because these features rely on user identity resolution, such as *MUID* or *StableId*.
+> ID Sync is recommended for conversion measurement. It’s required for remarketing and audience building because these features rely on user identity resolution.
 
 ID sync allows your internal IDs to be mapped to Microsoft IDs. This is strongly recommended for any Microsoft Advertising products that need to identify users off-site, such as remarketing. You must fire the ID sync beacon client-side, as this enables Microsoft to capture our third-party cookie IDs for your users.
 
