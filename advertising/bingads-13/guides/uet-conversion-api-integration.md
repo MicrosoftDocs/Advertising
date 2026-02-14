@@ -19,7 +19,7 @@ With the Conversions API, advertisers can implement server-side tracking for con
 
 Universal Event Tracking (UET) is a Microsoft framework that captures user engagement data on your website, enabling features such as conversion tracking (e.g., purchases or leads), audience targeting (e.g., remarketing), automated bidding, and integration with Microsoft Bing for Commerce. This document outlines the integration process for the Conversions API.
 
-For more information, see the [UET documentation](https://help.ads.microsoft.com/#apex/ads/en/56681/2) on the Microsoft Advertising help site: 
+For more information, see the [UET documentation](https://help.ads.microsoft.com/#apex/ads/en/56681/2) on the Microsoft Advertising help site.
 
 ### Direct Integration
 
@@ -114,6 +114,13 @@ Use the UET `tagID` and token for authorization.
 
 > [!NOTE]
 > You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is in pilot. Contact your account manager to join.
+
+### Restate / Retract
+
+Restate and retract let you correct conversion data. Restate updates the revenue value for an existing conversion and affects only the **Conv. value** and **All Conv. value** columns, leaving the conversion count unchanged. Retract removes the conversion from the count entirely by setting its value to 0, which impacts the **Conv.**, **Conv. value**, and **All Conv. value** columns.
+
+> [!NOTE]
+> CAPI supports restate/retract when there is a *transactionId*. Call the [OnlineConversionAdjustment](../campaign-management/onlineconversionadjustment.md) object to use restate/retract.
 
 ### Data Schema
 
