@@ -120,7 +120,7 @@ Use the UET `tagID` and token for authorization.
 Restate and retract let you correct conversion data. Restate updates the revenue value for an existing conversion and affects only the **Conv. value** and **All Conv. value** columns, leaving the conversion count unchanged. Retract removes the conversion from the count entirely by setting its value to 0, which impacts the **Conv.**, **Conv. value**, and **All Conv. value** columns.
 
 > [!NOTE]
-> CAPI supports restate/retract when there is a *transactionId*. Call the [OnlineConversionAdjustment](../campaign-management/onlineconversionadjustment.md) object to use restate/retract.
+> CAPI supports restate/retract when there is a *transactionId*. Call the [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md) object to use restate/retract.
 
 ### Data Schema
 
