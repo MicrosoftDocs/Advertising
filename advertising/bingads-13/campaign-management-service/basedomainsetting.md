@@ -44,7 +44,7 @@ The [BaseDomainSetting](basedomainsetting.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="basedomain"></a>BaseDomain|The fundamental part of the URL (e.g., contoso.com).<br/><br/>*Note*: *BaseDomain* is initially set automatically, you can't set it. For existing ad groups, if *BaseDomain* isn't the same, it will be backfilled.<br/><br/>**Add:** Read only.<br/>**Update:** Read only.|**string**|
+|<a name="basedomain"></a>BaseDomain|The fundamental part of the URL (e.g., contoso.com).<br/><br/>*Note*: *BaseDomain* is initially set automatically, you can't set it.<br/><br/>**Add:** Read only.<br/>**Update:** Read only.|**string**|
 
 The [BaseDomainSetting](basedomainsetting.md) object has [Inherited Elements](#inheritedelements).
 
