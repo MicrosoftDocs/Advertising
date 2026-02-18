@@ -44,7 +44,7 @@ The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the follow
 |-----------|---------------|
 |<a name="adgrouptype"></a>AdGroupType|Request that the [AdGroupType](adgroup.md#adgrouptype) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="adscheduleusesearchertimezone"></a>AdScheduleUseSearcherTimeZone|Request that the [AdScheduleUseSearcherTimeZone](adgroup.md#adscheduleusesearchertimezone) element be included within each returned [AdGroup](adgroup.md) object.|
-|<a name="basedomain"></a>BaseDomain|The fundamental part of the URL (e.g., contoso.com).<br/><br/>*Note*: *BaseDomain* is initially set automatically, you can't set it. For existing ad groups, if *BaseDomain* isn't the same, it will be backfilled.<br/><br/>**Add:** Read only.<br/>**Update:** Read only.|
+|<a name="basedomain"></a>BaseDomain|The fundamental part of the URL (e.g., contoso.com).<br/><br/>*Note*: *BaseDomain* is initially set automatically, you can't set it.<br/><br/>**Add:** Read only.<br/>**Update:** Read only.|
 |<a name="commissionrate"></a>CommissionRate|The commission rate charged to the advertiser when someone books a hotel and stays there.|
 |<a name="cpmbid"></a>CpmBid|Request that the [CpmBid](adgroup.md#cpmbid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="cpvbid"></a>CpvBid|Request that the [CpvBid](adgroup.md#cpvbid) element be included within each returned [AdGroup](adgroup.md) object.|
