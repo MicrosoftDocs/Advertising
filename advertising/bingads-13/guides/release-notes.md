@@ -86,7 +86,8 @@ The Bing Ads .NET and Java SDKs are updated. For details, please see release not
 > Microsoft Advertising doesn't allow political advertising on its platform. Campaigns intended for political advertising won't be allowed to proceed as per our policies. We expect our customers to take steps to ensure compliance with this policy.  
 
 - [New API Interfaces](#newapiinterfaces-september2025)  
-- [Bulk Service](#bulkservice-september2025)  
+- [Bulk Service](#bulkservice-september2025)
+- [Bing Ads API SDK Updates](#sdk-september2025)  
 
 ### <a name="newapiinterfaces-september2025"></a>New API Interfaces  
 
@@ -96,6 +97,42 @@ The Bing Ads .NET and Java SDKs are updated. For details, please see release not
 ### <a name="bulkservice-september2025"></a>Bulk Service
 
 - New entity IsPolitical in [BulkCampaign](../bulk-service/campaign.md#ispolitical).
+
+### <a name="sdk-september2025"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.25.3), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.25.3) SDK version 13.0.25.3.
+
+## <a name="july2025"></a>July 2025
+
+See below for Bing Ads API updates during this calendar month.  
+
+- [New API Interfaces](#newapiinterfaces-july2025)  
+- [Bulk Service](#bulkservice-july2025)  
+- [Bing Ads API SDK Updates](#sdk-july2025)  
+
+### <a name="newapiinterfaces-july2025"></a>New API Interfaces  
+
+- **Campaign Management API**:
+  - New Annotation service operations: [GetAnnotationOptOut](../campaign-management-service/getannotationoptout.md) and [UpdateAnnotationOptOut](../campaign-management-service/updateannotationoptout.md).
+  - New [CreateBrandKitRecommendation](../campaign-management-service/createbrandkitrecommendation.md) service operation.
+  - New [GetResponsiveAdRecommendationJob](../campaign-management-service/getresponsiveadrecommendationjob.md) service operation.
+  - New field _ListingGroupPath_ in [AssetGroupListingGroup](../campaign-management-service/assetgrouplistinggroup.md#listinggrouppath).
+  - New field _IsAutoGoal_ in [ConversionGoal](../campaign-management-service/conversiongoal.md#isautogoal).
+  - New field _MaxCpc_ in [MaxConversionValueBiddingScheme](../campaign-management-service/maxconeversionvaluebiddingscheme.md#maxcpc).
+- **Customer Billing API**:
+  - New [GetCouponInfo](../customer-billing-service/getcouponinfo.md) service operation.
+- **Reporting API**:
+  - New reports [AppsPerformanceReportColumn](../reporting-service/appsperformancereportcolumn.md), [TravelQueryInsightReportColumn](../reporting-service/travelqueryinsightreportcolumn.md) and [FeedItemPerformanceReportColumn](../reporting-service/feeditemperformancereportcolumn.md).
+  - Support [CampaignTypeReportFilter](../reporting-service/campaigntypereportfilter.md)
+
+### <a name="bulkservice-july2025"></a>Bulk Service
+
+- Added bulk mappings for Site Exclusion: [BulkAccountPlacementExclusionList](../bulk-service/account-placement-exclusion-list.md), [BulkSharedListNegativeSite](../bulk-service/share-list-negative-site.md), [BulkAccountPlacementExclusionListAssociation](../bulk-service/account-placement-exclusion-list-association.md), [BulkAccountPlacementInclusionList](../bulk-service/account-placement-inclusion-list.md), [BulkSharedListSite](../bulk-service/shared-list-site.md) and [BulkAccountPlacementInclusionListAssociation](../bulk-service/account-placement-inclusion-list-association.md).
+- Add bulk mappings for [Topic](../bulk-service/topic.md), [Placement](../bulk-service/placement.md), [TopicCriterion](../bulk-service/topic-criterion.md).
+
+### <a name="sdk-july2025"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.25), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.25) SDK version 13.0.25.
 
 ## <a name="february2025"></a>February 2025
 
