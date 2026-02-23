@@ -118,7 +118,7 @@ See below for Bing Ads API updates during this calendar month.
   - New [GetResponsiveAdRecommendationJob](../campaign-management-service/getresponsiveadrecommendationjob.md) service operation.
   - New field _ListingGroupPath_ in [AssetGroupListingGroup](../campaign-management-service/assetgrouplistinggroup.md#listinggrouppath).
   - New field _IsAutoGoal_ in [ConversionGoal](../campaign-management-service/conversiongoal.md#isautogoal).
-  - New field _MaxCpc_ in [MaxConversionValueBiddingScheme](../campaign-management-service/maxconeversionvaluebiddingscheme.md#maxcpc).
+  - New field _MaxCpc_ in [MaxConversionValueBiddingScheme](../campaign-management-service/maxconversionvaluebiddingscheme.md#maxcpc).
 - **Customer Billing API**:
   - New [GetCouponInfo](../customer-billing-service/getcouponinfo.md) service operation.
 - **Reporting API**:
@@ -127,8 +127,8 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="bulkservice-july2025"></a>Bulk Service
 
-- Added bulk mappings for Site Exclusion: [BulkAccountPlacementExclusionList](../bulk-service/account-placement-exclusion-list.md), [BulkSharedListNegativeSite](../bulk-service/share-list-negative-site.md), [BulkAccountPlacementExclusionListAssociation](../bulk-service/account-placement-exclusion-list-association.md), [BulkAccountPlacementInclusionList](../bulk-service/account-placement-inclusion-list.md), [BulkSharedListSite](../bulk-service/shared-list-site.md) and [BulkAccountPlacementInclusionListAssociation](../bulk-service/account-placement-inclusion-list-association.md).
-- Add bulk mappings for [Topic](../bulk-service/topic.md), [Placement](../bulk-service/placement.md), [TopicCriterion](../bulk-service/topic-criterion.md).
+- Added bulk mappings for Site Exclusion: _BulkAccountPlacementExclusionList_, _BulkSharedListNegativeSite_, _BulkAccountPlacementExclusionListAssociation_, _BulkAccountPlacementInclusionList_, _BulkSharedListSite_ and _BulkAccountPlacementInclusionListAssociation_.
+- Add bulk mappings for _Topic_, _Placement_, and _TopicCriterion_.
 
 ### <a name="sdk-july2025"></a>Bing Ads API SDK Updates
 
