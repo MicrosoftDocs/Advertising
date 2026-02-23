@@ -39,7 +39,8 @@ See below for information about changes to Bing Ads API Version 13 by month.
 See below for Bing Ads API updates during this calendar month.  
 
 - [New API Interfaces](#newapiinterfaces-december2025)  
-- [Bulk Service](#bulkservice-december2025)  
+- [Bulk Service](#bulkservice-december2025)
+- [Google Login](#google-login-december2025)  
 - [Bing Ads API SDK Updates](#sdk-december2025)  
 
 ### <a name="newapiinterfaces-december2025"></a>New API Interfaces  
@@ -68,6 +69,10 @@ See below for Bing Ads API updates during this calendar month.
 - Add _TrackingTemplate_, _FinalUrlSuffix_ and _CustomParameter_ in [BulkAssetGroup](../bulk-service/asset-group.md) mapping.
 - Add _BidStrategyScope_, _CurrencyCode_, and _TimeZone_ in [BulkBidStrategy](../bulk-service/bid-strategy.md) mapping.
 - Add _BidStrategyScope_ in [BulkCampaign](../bulk-service/campaign.md) mapping.
+
+### <a name="google-login-december2025"></a>Google Login
+
+Support for Google login is now available. You can use GoogleOAuthDesktopMobileAuthCodeGrant or GoogleOAuthWebAuthCodeGrant to sign in with a Google account and access the Bing Ads API. [Learn more](../guides/sdk-authentication.md#googlelogin)
 
 ### <a name="sdk-december2025"></a>Bing Ads API SDK Updates
 
