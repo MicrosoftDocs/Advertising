@@ -72,7 +72,7 @@ See below for Bing Ads API updates during this calendar month.
 
 ### <a name="google-login-december2025"></a>Google Login
 
-Support for Google login is now available. You can use _GoogleOAuthDesktopMobileAuthCodeGrant_ or _GoogleOAuthWebAuthCodeGrant_ to sign in with a Google account and access the Bing Ads API. [Learn more](../guides/sdk-authentication.md#googlelogin)
+Support for Google login is now available. You can use _GoogleOAuthDesktopMobileAuthCodeGrant_ or _GoogleOAuthWebAuthCodeGrant_ to sign in with a Google account and access the Bing Ads API. [Learn more](../guides/sdk-authentication.md#google-login)
 
 ### <a name="sdk-december2025"></a>Bing Ads API SDK Updates
 
