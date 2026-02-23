@@ -376,7 +376,7 @@ I applied guidance from your style resources  — including sentence casing, sca
 
 ***
 
-## <a name="googlelogin"></a>Google Login Support
+## <a name="google-login"></a>Google Login Support
 
 Starting with **Bing Ads SDK version 13.0.26**, you can sign in to Microsoft Advertising using your **Google account** instead of creating a Microsoft account.
 
