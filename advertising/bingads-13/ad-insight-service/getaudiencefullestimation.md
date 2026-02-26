@@ -47,10 +47,10 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="multiadtypes"></a>MultiAdTypes|The audience full estimation ad type. Possible values indlude: *DisplayAds*, *StaticAds*, *VideoAds*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|**int**|
-|<a name="placement"></a>Placement|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="placement"></a>Placement|The selection of placement targeting. The values stored in selection refer to placement IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="radiustargets"></a>RadiusTargets|Represents the desired geographical area in terms of miles/kilometers.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[RadiusTarget](radiustarget.md) array|
 |<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be earlier than or the same as the specified end date.|**dateTime**|
-|<a name="topic"></a>Topic|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="topic"></a>Topic|The selection of topic targeting. The values stored in selection refer to topic IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="totalbudget"></a>TotalBudget|The total budget.|**decimal**|
 
 ### <a name="request-header"></a>Request Header Elements
