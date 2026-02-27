@@ -17,8 +17,6 @@ dev_langs:
 # UpdateConversionGoals Service Operation - Campaign Management
 Updates conversion goals within the account's shared conversion goal library. 
 
-> [!NOTE]
-> To create an enhanced conversion goal and set `isEnhancedConversionsEnabled=true`, you must create a conversion goal for the account via the Microsoft Advertising UI with the enhanced conversion setting selected and the associated checkbox checked.
 > [!TIP]
 > For an implementation overview, see the [Universal Event Tracking](../guides/universal-event-tracking.md) technical guide.
 
