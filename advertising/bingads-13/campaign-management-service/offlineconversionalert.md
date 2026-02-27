@@ -7,9 +7,6 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 description: Defines a data object for detailed information about unattributed conversions.
-
-
-
 ---
 # OfflineConversionAlert Data Object - Campaign Management
 Defines a data object for detailed information about unattributed conversions.

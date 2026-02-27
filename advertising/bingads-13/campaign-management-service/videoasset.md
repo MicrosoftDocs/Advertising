@@ -38,6 +38,7 @@ Defines the VideoAsset Data Object.
   "SubType": "ValueHere",
   "ThumbnailImage": {
     "CropHeight": IntValueHere,
+    "CroppingType": "ValueHere",
     "CropWidth": IntValueHere,
     "CropX": IntValueHere,
     "CropY": IntValueHere,

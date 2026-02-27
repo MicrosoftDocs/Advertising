@@ -43,6 +43,7 @@ The ad recommendation text refine result data object.
         "Name": "ValueHere",
         "Type": "ImageAsset",
         "CropHeight": IntValueHere,
+        "CroppingType": "ValueHere",
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,

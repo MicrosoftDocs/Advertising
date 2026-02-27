@@ -37,6 +37,7 @@ For example, within a [ResponsiveSearchAd](responsivesearchad.md) there is an ar
     "Name": "ValueHere",
     "Type": "ImageAsset",
     "CropHeight": IntValueHere,
+    "CroppingType": "ValueHere",
     "CropWidth": IntValueHere,
     "CropX": IntValueHere,
     "CropY": IntValueHere,

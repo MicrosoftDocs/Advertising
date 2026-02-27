@@ -22,6 +22,7 @@ Defines a list of optional ad properties that you can request when calling [GetA
         <xs:enumeration value="LongHeadlines" />
         <xs:enumeration value="ImageTargetDimension" />
         <xs:enumeration value="AdSubType" />
+        <xs:enumeration value="CroppingType" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -30,11 +31,12 @@ Defines a list of optional ad properties that you can request when calling [GetA
 
 ## <a name="values"></a>Values
 
-The [AdAdditionalField](adadditionalfield.md) value set has the following values: [AdSubType](#adsubtype), [ImageTargetDimension](#imagetargetdimension), [ImpressionTrackingUrls](#impressiontrackingurls), [LongHeadlines](#longheadlines), [Videos](#videos).
+The [AdAdditionalField](adadditionalfield.md) value set has the following values: [AdSubType](#adsubtype), [CroppingType](#croppingtype), [ImageTargetDimension](#imagetargetdimension), [ImpressionTrackingUrls](#impressiontrackingurls), [LongHeadlines](#longheadlines), [Videos](#videos).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="adsubtype"></a>AdSubType|Defines the possible ad sub types.|
+|<a name="croppingtype"></a>CroppingType|Defines the possible cropping types.|
 |<a name="imagetargetdimension"></a>ImageTargetDimension|The target dimension of an image asset.|
 |<a name="impressiontrackingurls"></a>ImpressionTrackingUrls|Request that the [ImpressionTrackingUrls](responsivead.md#impressiontrackingurls) element be included within each returned [ResponsiveAd](responsivead.md) object.|
 |<a name="longheadlines"></a>LongHeadlines|Request that the [LongHeadlines](responsivead.md#longheadlines) element be included within each returned [ResponsiveAd](responsivead.md) object.|
