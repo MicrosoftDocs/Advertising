@@ -1800,6 +1800,8 @@
       href: ../campaign-management-service/agecriterion.md
     - name: AgeDimension
       href: ../campaign-management-service/agedimension.md
+    - name: AISearchSetting
+      href: ../campaign-management-service/aisearchsetting.md
     - name: AnnotationOptOut
       href: ../campaign-management-service/annotationoptout.md
     - name: ApiFaultDetail
