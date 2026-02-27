@@ -16,16 +16,13 @@ Before your application can authenticate Microsoft Advertising users, you must [
 
 1. Navigate to the Microsoft identity platform for developers in the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) page. You can log in using or a Work or School Account. *Note*: You can no longer log in using a personal Microsoft account.
 1. Select **New registration**.
-1. When the **Register an application page** appears, enter your application's registration information: 
+1. When the **Register an application page** appears, enter your application's registration information:  
     - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example `My browserless client`.
-    - In the **Supported account types** section, select **Accounts in any organizational directory and personal Microsoft accounts**.
+    - In the **Supported account types** section, select **Any Entra ID Tenant + Personal Microsoft accounts**.
 
     ![Supported account types](media/supported-account-types.png "Supported account types")  
 
-    > [!IMPORTANT]
-    > You must select **Accounts in any organizational directory and personal Microsoft accounts** during the initial app registration. This setting cannot be updated later in the portal unless you modify the [application manifest](/azure/active-directory/develop/reference-app-manifest) e.g., ```"signInAudience": "AzureADandPersonalMicrosoftAccount"```.  
-
-1. Select **Register** to create the application. 
+1. Select **Register** to create the application.  
 1. On the app **Overview** page, find the **Application (client) ID** value and record it for later. You will use it as the `client_id` when you [request user consent](authentication-oauth-consent.md) and [get an access token](authentication-oauth-get-tokens.md).  
 1. Select the **Add a Redirect URI** link and then you should see the **Redirect URIs** page.
    - For web applications, provide the base URL of your application. For example, http://localhost:31544 might be the URL for a web application running on your local machine. Users would use this URL to sign into a web client application.  
