@@ -149,7 +149,7 @@ The Campaign Management service defines the following service operations.
 |[GetNegativeSitesByAdGroupIds](getnegativesitesbyadgroupids.md)|Gets the negative sites URLs that are assigned directly to ad groups.|15 *AdGroupIds*<br/><br/>1 *CampaignId*|
 |[GetNegativeSitesByCampaignIds](getnegativesitesbycampaignids.md)|Gets the negative site URLs that are assigned directly to campaigns.|1 *AccountId*<br/><br/>15 *CampaignIds*|
 |[GetNewCustomerAcquisitionGoalsByAccountId](getnewcustomeracquisitiongoalsbyaccountid.md)|Gets the specified new customer acquisition goals.|N/A.|
-|[GetOfflineConversionReportByGoalIds](getofflineconversionreportbygoalids.md)|Retrieves offline conversion statistics and diagnostics for your accounts. Includes high‑level summaries and detailed daily breakdowns to help you understand and troubleshoot unattributed offline conversions.|N/A|
+|[GetOfflineConversionReportByGoalIds](getofflineconversionreportbygoalids.md)|Retrieves offline conversion statistics and diagnostics for your accounts.|N/A|
 |[GetOfflineConversionReports](getofflineconversionreports.md)|Gets the offline conversion reports in the requested date range.|N/A.|
 |[GetProfileDataFileUrl](getprofiledatafileurl.md)|Gets a temporary URL that you can use to download industry or job function profile data.|1 *ProfileType*|
 |[GetResponsiveAdRecommendationJob](getresponsiveadrecommendationjob.md)|Retrieves a responsive ad recommentation job.|N/A.|

@@ -65,8 +65,22 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
   <xs:sequence>
     <xs:element minOccurs="0" name="BaseCampaignId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
+    <xs:element minOccurs="0" name="ExperimentArms" nillable="true" type="tns:ArrayOfExperimentArm">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="ExperimentCampaignId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="ExperimentStatus" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="ExperimentSubType" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="ExperimentType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -86,8 +100,19 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
     "Month": IntValueHere,
     "Year": IntValueHere
   },
+  "ExperimentArms": [
+    {
+      "CampaignIds": [
+        "LongValueHere"
+      ],
+      "Id": "LongValueHere",
+      "IsControlArm": "ValueHere",
+      "TrafficSplit": IntValueHere
+    }
+  ],
   "ExperimentCampaignId": "LongValueHere",
   "ExperimentStatus": "ValueHere",
+  "ExperimentSubType": "ValueHere",
   "ExperimentType": "ValueHere",
   "Id": "LongValueHere",
   "Name": "ValueHere",
@@ -104,14 +129,16 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
 
 ## <a name="elements"></a>Elements
 
-The [Experiment](experiment.md) object has the following elements: [BaseCampaignId](#basecampaignid), [EndDate](#enddate), [ExperimentCampaignId](#experimentcampaignid), [ExperimentStatus](#experimentstatus), [ExperimentType](#experimenttype), [Id](#id), [Name](#name), [StartDate](#startdate), [TrafficSplitPercent](#trafficsplitpercent).
+The [Experiment](experiment.md) object has the following elements: [BaseCampaignId](#basecampaignid), [EndDate](#enddate), [ExperimentArms](#experimentarms), [ExperimentCampaignId](#experimentcampaignid), [ExperimentStatus](#experimentstatus), [ExperimentSubType](#experimentsubtype), [ExperimentType](#experimenttype), [Id](#id), [Name](#name), [StartDate](#startdate), [TrafficSplitPercent](#trafficsplitpercent).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="basecampaignid"></a>BaseCampaignId|The Microsoft Advertising identifier of the campaign used as the base for the experiment campaign.<br/><br/>You can create up to 10 nonconcurrent experiments per base campaign. In other words multiple experiments for the same base campaign cannot have overlapping time intervals.<br/><br/>Experiments are only available for Search campaigns. If the campaign uses a shared budget, then you cannot use it as the base campaign for an experiment.<br/><br/>**Add:** Read-only and Required.<br/>**Update:** Read-only. You cannot change the base campaign of an experiment.|**long**|
 |<a name="enddate"></a>EndDate|The date that the experiment will expire.<br/><br/>If you do not specify an end date, the ads will not expire. Once the end date has passed, the end date cannot be extended.<br/><br/>The end date is inclusive. For example, if you set the end date to 12/31/2020, the experiment will end at 11:59 PM on 12/31/2020. The time is relative to the [base campaign](#basecampaignid) time zone.<br/><br/>**Add:**  Optional. If you leave this element nil or empty the experiment will not expire until you take further action e.g., set the experiment [status](#experimentstatus) to *Ended*.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. To delete the current end date and effectively set no end date, set the [Day](date.md#day), [Month](date.md#month), and [Year](date.md#year) each to '0' (zero). When you retrieve the experiment next time, this element will not be set.|[Date](date.md)|
+|<a name="experimentarms"></a>ExperimentArms|Defines an array of the experiment arm data object.|[ExperimentArm](experimentarm.md) array|
 |<a name="experimentcampaignid"></a>ExperimentCampaignId|The Microsoft Advertising identifier of the campaign that is created as a copy of the [base campaign](#basecampaignid).<br/><br/>All base campaign settings, including ad groups, ads, ad extension associations, and target settings are copied to the new experiment campaign.<br/><br/>After the experiment campaign is created you can update all of its settings except for the campaign [Budget](campaign.md#dailybudget), [BudgetType](campaign.md#budgettype), and [TimeZone](campaign.md#timezone). The budget and time zone of an experiment campaign are always inherited from the base campaign settings.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**long**|
 |<a name="experimentstatus"></a>ExperimentStatus|The status of the experiment.<br/><br/>Possible status values are described in the [remarks](#remarks) below.<br/><br/>**Add:** Required. You must set the status to *Active*; however, the status will be set automatically by Microsoft Advertising to *Creating*, and the next time you retrieve the experiment its status will be either *Active*, *Creating*, *CreationFailed*, *Paused*, or *Scheduled*.<br/>**Update:** Read-only|**string**|
+|<a name="experimentsubtype"></a>ExperimentSubType|The experiment sub type.|**string**|
 |<a name="experimenttype"></a>ExperimentType|Determines whether to show individual customers ads from the experiment and the original campaign randomly, or only from one or the other.<br/><br/>The possible values include TrafficBased and CookieBased.<br/><br/>TrafficBased: This is also known as the search-based option. Every time customers search, they are randomly shown either ads from your experiment or ads from your original campaign. This means that individual customers could see ads from both sources if they search multiple times.<br/><br/>CookieBased: When individual customers search, we show ads from either your experiment or your original campaign, and use a cookie to ensure that, going forward, they will only see ads from this source. The cookie-based option has an important trade-off to consider: On one hand, you may get more accurate data, since you're ensuring that an individual customer is only responding to one source or the other. On the other hand, it may take you longer to build up statistically significant comparison data than with the search-based option.<br/><br/>**Add:** Optional. The default is TrafficBased.<br/>**Update:** Read-only. You cannot update the experiment type.|**string**|
 |<a name="id"></a>Id|The unique Microsoft Advertising identifier of the experiment.<br/><br/>**Add:** Read-only<br/>**Update:** Required|**long**|
 |<a name="name"></a>Name|The name of the experiment.<br/><br/>The [name](campaign.md#name) of the [experiment campaign](#experimentcampaignid) that is created from the [base campaign](#basecampaignid) will match the experiment name, and vice versa. If the experiment name is updated, the experiment campaign's name will automatically be updated to match, and vice versa.<br/><br/>The name must be unique (case-insensitive) among all campaigns and experiments within the account. The name can contain a maximum of 128 characters.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|

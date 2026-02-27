@@ -36,9 +36,23 @@ Defines the brand kit data object.
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfBrandKitImage" />
     <xs:element minOccurs="0" name="LandscapeLogos" nillable="true" type="tns:ArrayOfBrandKitImage" />
+    <xs:element xmlns:q175="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MessagingRestrictions" nillable="true" type="q175:ArrayOfstring">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Palettes" nillable="true" type="tns:ArrayOfBrandKitPalette" />
     <xs:element minOccurs="0" name="SquareLogos" nillable="true" type="tns:ArrayOfBrandKitImage" />
+    <xs:element xmlns:q176="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TermExclusions" nillable="true" type="q176:ArrayOfstring">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
@@ -84,6 +98,9 @@ Defines the brand kit data object.
       "Url": "ValueHere"
     }
   ],
+  "MessagingRestrictions": [
+    "ValueHere"
+  ],
   "Name": "ValueHere",
   "Palettes": [
     {
@@ -107,6 +124,9 @@ Defines the brand kit data object.
       "ThumbnailUrl": "ValueHere",
       "Url": "ValueHere"
     }
+  ],
+  "TermExclusions": [
+    "ValueHere"
   ]
 }
 ```
@@ -115,7 +135,7 @@ Defines the brand kit data object.
 
 ## <a name="elements"></a>Elements
 
-The [BrandKit](brandkit.md) object has the following elements: [BrandVoice](#brandvoice), [BusinessName](#businessname), [Fonts](#fonts), [Id](#id), [Images](#images), [LandscapeLogos](#landscapelogos), [Name](#name), [Palettes](#palettes), [SquareLogos](#squarelogos).
+The [BrandKit](brandkit.md) object has the following elements: [BrandVoice](#brandvoice), [BusinessName](#businessname), [Fonts](#fonts), [Id](#id), [Images](#images), [LandscapeLogos](#landscapelogos), [MessagingRestrictions](#messagingrestrictions), [Name](#name), [Palettes](#palettes), [SquareLogos](#squarelogos), [TermExclusions](#termexclusions).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -125,9 +145,11 @@ The [BrandKit](brandkit.md) object has the following elements: [BrandVoice](#bra
 |<a name="id"></a>Id|The identifier of the brand kit.|**long**|
 |<a name="images"></a>Images|The brand kit's images.|[BrandKitImage](brandkitimage.md) array|
 |<a name="landscapelogos"></a>LandscapeLogos|The brand kit's landscape logos.|[BrandKitImage](brandkitimage.md) array|
+|<a name="messagingrestrictions"></a>MessagingRestrictions|The messaging restrictions to use with your brand kit.|**string** array|
 |<a name="name"></a>Name|The brand kit's name.|**string**|
 |<a name="palettes"></a>Palettes|The brand kit's palettes.|[BrandKitPalette](brandkitpalette.md) array|
 |<a name="squarelogos"></a>SquareLogos|The brand kit's square logos.|[BrandKitImage](brandkitimage.md) array|
+|<a name="termexclusions"></a>TermExclusions|The term exclusions to use with your brand kit.|**string** array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
