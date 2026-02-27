@@ -170,8 +170,6 @@ The unique Microsoft Advertising identifier for the conversion goal.
 ## <a name="isenhancedconversionsenabled"></a>Is Enhanced Conversions Enabled
 Determines whether enhanced conversions are enabled for a conversion goal.
 
-Note: To create an enhanced conversion goal and set `isEnhancedConversionsEnabled=true`, you must create a conversion goal for the account via the Microsoft Advertising UI with the enhanced conversion setting selected and the associated checkbox checked.
-
 **Add**: Optional  
 **Update**: Optional  
 
