@@ -22,6 +22,7 @@ Defines the possible additional fields for an asset group.
         <xs:enumeration value="TrackingUrlTemplate" />
         <xs:enumeration value="FinalUrlSuffix" />
         <xs:enumeration value="UrlCustomParameters" />
+        <xs:enumeration value="CroppingType" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -30,12 +31,13 @@ Defines the possible additional fields for an asset group.
 
 ## <a name="values"></a>Values
 
-The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the following values: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [FinalUrlSuffix](#finalurlsuffix), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters).
+The [AssetGroupAdditionalField](assetgroupadditionalfield.md) value set has the following values: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [CroppingType](#croppingtype), [FinalUrlSuffix](#finalurlsuffix), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|Request that the [AssetGroupSearchThemes](assetgroup.md#assetgroupsearchthemes) element be included within each returned [AssetGroup](assetgroup.md) object.|
 |<a name="assetgroupurltargets"></a>AssetGroupUrlTargets|Request that the [AssetGroupUrlTargets](assetgroup.md#assetgroupurltargets) element be included within each returned [AssetGroup](assetgroup.md) object.|
+|<a name="croppingtype"></a>CroppingType|Request that the CroppingType element be included within each returned [AssetGroup](assetgroup.md) object.|
 |<a name="finalurlsuffix"></a>FinalUrlSuffix|Request that the [FinalUrlSuffix](assetgroup.md#finalurlsuffix) element be included within each returned [AssetGroup](assetgroup.md) object.|
 |<a name="trackingurltemplate"></a>TrackingUrlTemplate|Request that the [TrackingUrlTemplate](assetgroup.md#trackingurltemplate) element be included within each returned [AssetGroup](assetgroup.md) object.|
 |<a name="urlcustomparameters"></a>UrlCustomParameters|Request that the [UrlCustomParameters](assetgroup.md#urlcustomparameters) element be included within each returned [AssetGroup](assetgroup.md) object.|

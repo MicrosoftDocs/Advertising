@@ -130,6 +130,7 @@ You can associate an image ad extension with the account or with campaigns and a
         "Name": "ValueHere",
         "Type": "ImageAsset",
         "CropHeight": IntValueHere,
+        "CroppingType": "ValueHere",
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,

@@ -29,6 +29,13 @@ If you do not specify crop settings, the service will automatically crop up to t
         <xs:element minOccurs="0" name="CropWidth" nillable="true" type="xs:int" />
         <xs:element minOccurs="0" name="CropX" nillable="true" type="xs:int" />
         <xs:element minOccurs="0" name="CropY" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="CroppingType" nillable="true" type="tns:CropType">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
         <xs:element minOccurs="0" name="SubType" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="TargetHeight" nillable="true" type="xs:int">
           <xs:annotation>
@@ -58,6 +65,7 @@ If you do not specify crop settings, the service will automatically crop up to t
   "Name": "ValueHere",
   "Type": "ImageAsset",
   "CropHeight": IntValueHere,
+  "CroppingType": "ValueHere",
   "CropWidth": IntValueHere,
   "CropX": IntValueHere,
   "CropY": IntValueHere,
@@ -71,11 +79,12 @@ If you do not specify crop settings, the service will automatically crop up to t
 
 ## <a name="elements"></a>Elements
 
-The [ImageAsset](imageasset.md) object has the following elements: [CropHeight](#cropheight), [CropWidth](#cropwidth), [CropX](#cropx), [CropY](#cropy), [SubType](#subtype), [TargetHeight](#targetheight), [TargetWidth](#targetwidth).
+The [ImageAsset](imageasset.md) object has the following elements: [CropHeight](#cropheight), [CroppingType](#croppingtype), [CropWidth](#cropwidth), [CropX](#cropx), [CropY](#cropy), [SubType](#subtype), [TargetHeight](#targetheight), [TargetWidth](#targetwidth).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="cropheight"></a>CropHeight|The number of pixels to use from the image asset source, starting from the CropY position and moving upwards.<br/><br/>**Add:** Optional. If you do not set this element, the service will automatically crop according to the aspect ratio of the [SubType](#subtype).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**int**|
+|<a name="croppingtype"></a>CroppingType|Defines the possible cropping types.|[CropType](croptype.md)|
 |<a name="cropwidth"></a>CropWidth|The number of pixels to use from the image asset source, starting from the CropX position and moving to the right.<br/><br/>**Add:** Optional. If you do not set this element, the service will automatically crop according to the aspect ratio of the [SubType](#subtype).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**int**|
 |<a name="cropx"></a>CropX|Starting from the lower left corner of image asset source, this is the number of pixels to skip to the right on the x-axis before applying the CropWidth.<br/><br/>**Add:** Optional. If you do not set this element, the service will automatically crop according to the aspect ratio of the [SubType](#subtype).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**int**|
 |<a name="cropy"></a>CropY|Starting from the lower left corner of image asset source, this is the number of pixels to skip upwards on the y-axis before applying the CropHeight.<br/><br/>**Add:** Optional. If you do not set this element, the service will automatically crop according to the aspect ratio of the [SubType](#subtype).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**int**|

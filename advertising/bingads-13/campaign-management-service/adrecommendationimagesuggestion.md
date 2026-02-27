@@ -48,6 +48,7 @@ Defines a data object for ad recommendation image suggestion.
       "Name": "ValueHere",
       "Type": "ImageAsset",
       "CropHeight": IntValueHere,
+      "CroppingType": "ValueHere",
       "CropWidth": IntValueHere,
       "CropX": IntValueHere,
       "CropY": IntValueHere,

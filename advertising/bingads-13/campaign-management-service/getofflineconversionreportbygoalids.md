@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Retrieves offline conversion statistics and diagnostics for your accounts. Includes high‑level summaries and detailed daily breakdowns to help you understand and troubleshoot unattributed offline conversions.
+description: Retrieves offline conversion statistics and diagnostics for your accounts.
 dev_langs: 
 - csharp
 - java
@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # GetOfflineConversionReportByGoalIds Service Operation - Campaign Management
-Retrieves offline conversion statistics and diagnostics for your accounts. Includes high‑level summaries and detailed daily breakdowns to help you understand and troubleshoot unattributed offline conversions.
+Retrieves offline conversion statistics and diagnostics for your accounts. Includes high-level summaries and detailed daily breakdowns to help you understand and troubleshoot unattributed offline conversions.
 
 ::: zone pivot="soap"
 
@@ -259,7 +259,6 @@ The *GetOfflineConversionReportByGoalIdsResponse* object defines the [body](#res
 |-----------|---------------|-------------|
 |<a name="offlinegoalconversionsummaries"></a>OfflineGoalConversionSummaries|An array containing daily conversion performance summaries, grouped by individual Goal ID.|[OfflineGoalConversionSummary](offlinegoalconversionsummary.md) array|
 |<a name="partialerrors"></a>PartialErrors|An array of error objects for specific Goal IDs that failed to retrieve data. Returns successful data for some goals while reporting failures for others.|[BatchError](batcherror.md) array|
-
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The source of offline conversion data. You can combine multiple values.
+description: The source of offline conversion data.
 ---
 # OfflineConversionUploadChannel Value Set - Campaign Management
 The source of offline conversion data. You can combine multiple values.
