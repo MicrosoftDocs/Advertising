@@ -130,7 +130,7 @@ Restate and retract let you correct conversion data. Restate updates the revenue
 | eventType | string | Yes | Event type, use "pageLoad" or "custom" | pageLoad OR custom |
 | eventId | string | | EventID for deduplication | 1234567-54422 |
 | eventName | string | | Event action for custom conversion goals, if used | checkout_complete |
-| eventTime | integer($int64) | Yes | Timestamp of the event (UNIX epoch time UTC) in seconds | 1710438591 |
+| eventTime | integer($int64) | Yes | Timestamp of the event (UNIX epoch time UTC) in seconds. *eventTime* must be within the last 7 days. | 1710438591 |
 | eventSourceUrl | string | Required for pageLoad events | URL of the page, used for ex. "destination URL" goals | https://www.bing.com/search?q=wal+clock |
 | pageLoadId | string | | Page load id that links to 0+ custom events from the same page. Format as a v4 UUID | bcf3000b-65fa-4cd2-808a-8a6cf2b1d0a5 |
 | referrerUrl | string | | Referrer of the page, used for ex. "referral" remarketing lists | https://www.bing.com/ |
@@ -698,6 +698,12 @@ Invalid parameters.
         "index": 0,
         "propertyName": "data[0].userData.ph",
         "errorMessage": "'ph' must be a valid SHA256 string."
+      },
+      {
+        "index": 0,
+        "propertyName": "data[0].eventTime",
+        "attemptedValue": 1767793837,
+        "errorMessage": "'eventTime' must be a valid UNIX UTC timestamp in seconds within last 7 days."
       }
     ]
   }
