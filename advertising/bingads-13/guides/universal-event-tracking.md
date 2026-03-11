@@ -122,9 +122,6 @@ Once the integration has been completed, your custom audiences will appear in th
 #### <a name="customerlist"></a>Customer List
 A customer list is a set of customer contact information that you have compiled to enable customer match. 
 
-> [!NOTE]
-> Customer lists are available via the [Bulk API](#audience-bulk), but not yet available via the [Campaign Management API](#audience-campaign). 
-
 > [!IMPORTANT]
 > **Programmatic Terms Acceptance (Recommended):** You can now accept Customer Match terms programmatically when uploading customer data via the [ApplyCustomerListUserData](../campaign-management-service/applycustomerlistuserdata.md) operation by setting the `AcceptCustomerMatchTerm` parameter to `true`. This eliminates the requirement to accept terms through the Microsoft Advertising UI.
 >
