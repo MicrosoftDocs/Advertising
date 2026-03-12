@@ -152,6 +152,143 @@ For more details about OAuth errors, please see [Common OAuth Errors](handle-ser
 > [!div class="nextstepaction"]
 > [Make your first API call](authentication-oauth-quick-start.md)
 
+## Get Access and Refresh Tokens with Google OAuth
+
+After the user completes the consent flow and your application receives an authorization code, the next step is to exchange that code for an **access token** and a **refresh token** from Google’s OAuth 2.0 token endpoint.
+
+This process follows the standard OAuth 2.0 authorization code exchange described in [Google’s documentation for web server applications](https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-code).  
+
+### Token Exchange Request
+
+To exchange the authorization code for tokens, your backend must send a `POST` request to Google’s token endpoint:
+
+```http
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+````
+
+### Request Body Parameters
+
+```text
+code={AUTHORIZATION_CODE}
+&client_id={GOOGLE_CLIENT_ID}
+&client_secret={GOOGLE_CLIENT_SECRET}
+&redirect_uri={REGISTERED_REDIRECT_URI}
+&grant_type=authorization_code
+```
+
+#### Parameter Details
+
+* **code**  
+    The authorization code returned to your `redirect_uri` after the user grants consent.
+
+* **client\_id**  
+    Your Google OAuth Client ID from the Google Cloud Console.
+
+* **client\_secret**  
+    Your Google OAuth Client Secret.
+
+* **redirect\_uri**  
+    Must exactly match the redirect URI used in the authorization request.
+
+* **grant\_type**  
+    Must be set to `authorization_code` for the initial token exchange.
+
+### Token Response
+
+A successful response from Google returns a JSON payload similar to the following:
+
+```json
+{
+  "access_token": "ACCESS_TOKEN_VALUE",
+  "expires_in": 3599,
+  "refresh_token": "REFRESH_TOKEN_VALUE",
+  "scope": "openid email profile",
+  "token_type": "Bearer"
+}
+```
+
+#### Response Fields
+
+* **access\_token**  
+    A short-lived token used to authorize API calls.
+
+* **expires\_in**  
+    The lifetime of the access token, in seconds.
+
+* **refresh\_token**  
+    A long-lived token used to obtain new access tokens.
+
+* **scope**  
+    The OAuth scopes granted by the user.
+
+* **token\_type**  
+    The type of token returned (typically `Bearer`).
+
+> **Note**  
+> A refresh token is returned only if offline access (`access_type=offline`) was requested during the consent flow.
+
+Store both the access token and refresh token securely. The access token is used when calling Microsoft Advertising APIs, and the refresh token is used to obtain new access tokens when the current one expires.
+
+### Refreshing an Access Token
+
+When the access token expires, you can request a new one using the refresh token without prompting the user again.
+
+Send a `POST` request to the same token endpoint:
+
+```http
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+```
+
+#### Request Body Parameters
+
+```text
+client_id={GOOGLE_CLIENT_ID}
+&client_secret={GOOGLE_CLIENT_SECRET}
+&refresh_token={REFRESH_TOKEN}
+&grant_type=refresh_token
+```
+
+A successful response returns a new access token and typically includes an updated `expires_in` value. Google does not always return a new refresh token; the original refresh token remains valid until it is revoked or expires.
+
+### Example: Token Exchange (cURL)
+
+#### Exchange Authorization Code for Tokens
+
+```bash
+curl -X POST https://oauth2.googleapis.com/token \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "code=AUTH_CODE_HERE&client_id=GOOGLE_CLIENT_ID&client_secret=GOOGLE_CLIENT_SECRET&redirect_uri=YOUR_REDIRECT_URI&grant_type=authorization_code"
+```
+
+#### Refresh an Access Token
+
+```bash
+curl -X POST https://oauth2.googleapis.com/token \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "client_id=GOOGLE_CLIENT_ID&client_secret=GOOGLE_CLIENT_SECRET&refresh_token=REFRESH_TOKEN&grant_type=refresh_token"
+```
+
+### Integration with Microsoft Advertising API
+
+After obtaining an access token from Google:
+
+* Include the token in the request headers when calling the Microsoft Advertising API.
+* Add the following request header:
+
+    ```text
+    IdentityProvider: Google
+    ```
+
+* Include your Microsoft Advertising **Developer Token**, **CustomerId**, and **AccountId** as required. These values remain unchanged from the existing authentication workflow.
+
+The Google OAuth access token is used only for user authentication. Microsoft Advertising APIs continue to enforce their own authorization rules and permission checks.
+
+### References
+
+* [Google OAuth 2.0 — Using OAuth 2.0 for Web Server Applications](https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-code).
+
 ## See Also
 
 [Get started](get-started.md)
