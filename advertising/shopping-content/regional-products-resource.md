@@ -141,7 +141,7 @@ Contains a region.
 |-----------|-------|------|-------------------|
 | `id` | User-defined ID of the region you're creating. The region ID is case insensitive and limited to 50 characters. You can't change this field after adding the region to the store because the region ID is used to create the region ID. | String | Yes |
 | `displayName` | The display text for the region you're creating. The display name is case insensitive. | String | Yes |
-| `countryCode` | 2-letter country code of the target country.<br><br>Supported countries: US, CA, BR, GB, FR, DE, HU, CH, NL, AU, NZ, IN, ID, MY | String | Yes |
+| `countryCode` | 2-letter country code of the target country/region.<br><br>Supported countries/regions: US, CA, BR, GB, FR, DE, HU, CH, NL, AU, NZ, IN, ID, MY | String | Yes |
 | `postalCodes` | List of postal codes – individual postal codes or a group of codes between begin and end codes. | A list of object PostalCodeRange | No |
 | `geoTargetArea` | List of location IDs<br><br>A non-empty list of Bing location IDs (states only) | String | Either postalCodes or geotargetArea |
 | `isActive` | Read-only response field that indicates whether the region entity is active. | Boolean | No |
@@ -164,7 +164,7 @@ Contains a region.
 | `begin` | Required | string | A postal code or a pattern of the form prefix* denoting the inclusive lower bound of the range defining the area. Examples values: "94108", "9410*", "9*". |
 | `end` | Optional | string | A postal code or a pattern of the form prefix* denoting the inclusive upper bound of the range defining the area. It must have the same length as postalCodeRangeBegin: if postalCodeRangeBegin is a postal code then postalCodeRangeEnd must be a postal code too; if postalCodeRangeBegin is a pattern then postalCodeRangeEnd must be a pattern with the same prefix length. Optional: if not set, then the area is defined as being all the postal codes matching postalCodeRangeBegin. |
 
-> **Note**: For Bing Location IDs, see [Geographical Location Codes - Microsoft Advertising API | Microsoft Learn](https://docs.microsoft.com/en-us/advertising/guides/geographical-location-codes)
+> **Note**: For Bing Location IDs, see [Geographical Location Codes - Microsoft Advertising API | Microsoft Learn](../advertising/guides/geographical-location-codes)
 
 ### Regions
 
@@ -243,7 +243,7 @@ POST content/v.x/bmc/?{merchantId}/products/{productId}/regionalinventory?bmc-ca
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `merchantId` | string | The ID of the merchant center |
-| `productId` | string | Product.id<br><br>Product ID of the SKU from the primary online feed (corresponding to the same Feed label/target Country) |
+| `productId` | string | Product.id<br><br>Product ID of the SKU from the primary online feed (corresponding to the same Feed label/target country/region) |
 | `catalogId` | string | Catalog/Feed ID of the respective regional Inventory feed in merchant center |
 
 #### Request body
@@ -398,10 +398,10 @@ A batch entry that encodes a single non-batch regional inventory request.
 | `regionId` | Yes | string | Output only. Immutable. The ID uniquely identifying each region. |
 | `merchantId` | Yes | string (int64 format) | Output only. Immutable. Merchant that owns the region. |
 | `displayName` | Yes | string | The display name of the region. |
-| `countryCode` | Required | string | Country the postal code group applies to |
+| `countryCode` | Required | string | Country/region the postal code group applies to. |
 | `postalCodes[]` | Required | string (int64 format) | A range of postal codes. |
-| `geotargetArea` | Either postalCode or geotargetArea | string (int64 format) | A non-empty list of location IDs (states only) |
-| `regionalInventoryEligible` | | boolean | Output only. Indicates if the region(country) is eligible to use in the Regional pos.inventory configuration. |
+| `geotargetArea` | Either postalCode or geotargetArea | string (int64 format) | A non-empty list of location IDs (states only). |
+| `regionalInventoryEligible` | | boolean | Output only. Indicates if the country/region is eligible to use in the regional pos.inventory configuration. |
 
 ### JSON Representation PostalCodeArea
 
