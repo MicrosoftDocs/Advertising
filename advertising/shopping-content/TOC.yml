@@ -53,6 +53,8 @@
     href: products-resource.md
   - name: ProductStatuses resource
     href: productstatus-resource.md
+  - name: Regional products resource
+    href: regional-products-resource.md
   - name: Store resource
     href: store-resource.md
 - name: Release notes
