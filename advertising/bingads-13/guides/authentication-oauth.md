@@ -50,7 +50,7 @@ Microsoft Advertising APIs support **Google OAuth 2.0** as an additional authent
 - A new request header, `IdentityProvider`, is introduced.
 - The **Developer Token requirement remains unchanged**.
 
-1. [Register an application]((authentication-oauth-register.md#register-your-application-with-google-oauth))
+1. [Register an application](authentication-oauth-register.md#register-your-application-with-google-oauth)
 
 2. [Request user consent](authentication-oauth-consent.md#request-user-consent-with-google-oauth) for your application to manage their Google accounts.
 
