@@ -138,6 +138,10 @@ Now you can get access and refresh tokens for your Microsoft Advertising user an
 > [!TIP]
 > For details about how to get access and refresh tokens using the Bing Ads SDKs, see [Authentication With the SDKs](sdk-authentication.md#oauth).  
 
+## <a name="access-google-oauth"></a>Get API Access for Google oAuth
+
+Create a Google account at [https://accounts.google.com](https://accounts.google.com).
+
 ## <a name="bestpractices"></a>Sandbox Best Practices
 
 Sandbox should not be used in the same capacity as production.

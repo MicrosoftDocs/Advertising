@@ -10,19 +10,13 @@ description: Authenticate for Bing Ads API using OAuth.
 ---
 # Authentication with OAuth
 
+## Authentication with Entra ID
+
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
 > [!NOTE]
 > Microsoft Advertising APIs use Azure Entra ID (formerly Azure AD) for authentication. If you encounter issues related to app registration, tenant access, admin consent, or OAuth token acquisition, please [contact Azure Support](https://azure.microsoft.com/support) or your tenant administrator.
 >
-> [!IMPORTANT]
-> Microsoft Advertising APIs now support **Google OAuth 2.0** as an additional authentication option, alongside **Microsoft identity (Azure Entra ID)**.
->
-> - Google OAuth is added as an **alternative identity provider**, not a replacement.
-> - **Microsoft identity OAuth** continues to be supported with no behavior changes.
-> - **Google OAuth 2.0** is a newly supported authentication option.
-> - A new request header, `IdentityProvider`, is introduced.
-> - The **Developer Token requirement remains unchanged**.
 
 Consider the user that you want to sign in e.g., example@contoso.com. The Bing Ads API will not accept that email address and password. Instead you need to set the AuthenticationToken header element that contains a user access token. You can think of an access token as representing a user name and password.
 
@@ -32,38 +26,43 @@ Microsoft Advertising leverages the [Microsoft identity platform endpoint for de
 
 1. [Register an application](authentication-oauth-register.md)
 
-1. [Request user consent](authentication-oauth-consent.md) for your application to manage their Microsoft Advertising accounts
+2. [Request user consent](authentication-oauth-consent.md) for your application to manage their Microsoft Advertising accounts
 
-1. [Get access and refresh tokens](authentication-oauth-get-tokens.md)  
+3. [Get access and refresh tokens](authentication-oauth-get-tokens.md)  
 
-1. [Make your first API call](authentication-oauth-quick-start.md)  
+4. [Make your first API call](authentication-oauth-quick-start.md)  
 
 > [!TIP]
 > For details about how to get access and refresh tokens using the Bing Ads SDKs, see [Authentication With the SDKs](sdk-authentication.md#oauth).  
 
-## Register your application with Google OAuth
-
-To authenticate users using Google OAuth 2.0, you must register your application in the Google Cloud Console and create OAuth 2.0 credentials (a Client ID and Client Secret).
-
-1. Open the [Google Cloud Console OAuth credentials page](https://console.cloud.google.com/apis/credentials/oauthclient).
-
-2. Select an existing project or create a new one.
-
-3. Configure the **OAuth consent screen**, if it hasn't already been set up.
-
-4. In the **Credentials** section, select **Create Credentials** and select **OAuth client ID**.
-
-5. Choose the appropriate **Application type** (e.g., **Web application**) and configure your **Authorized redirect URIs**.
-
-6. After the credentials are created, copy the **Client ID** and **Client Secret**. These values are required for the OAuth flow.
-
-If you encounter issues, refer to the official Google documentation, [Get started with the Google Auth Platform (Google Cloud Platform Console Help)](https://support.google.com/cloud/answer/15544987?hl=en&ref_topic=15540269&sjid=4811528590365052532-NC).
-
-## Next steps
+### Next steps (Entra ID)
 
 > [!div class="nextstepaction"]
-> [Register an application](authentication-oauth-register.md)
+> [Register an application](authentication-oauth-register.md#)
 
+## Authentication with Google OAuth
+
+Microsoft Advertising APIs support **Google OAuth 2.0** as an additional authentication option, alongside **Microsoft identity (Azure Entra ID)**.
+
+- Google OAuth is added as an **alternative identity provider**, not a replacement.
+- **Microsoft identity OAuth** continues to be supported with no behavior changes.
+- **Google OAuth 2.0** is a newly supported authentication option.
+- A new request header, `IdentityProvider`, is introduced.
+- The **Developer Token requirement remains unchanged**.
+
+1. [Register an application]((authentication-oauth-register.md#register-your-application-with-google-oauth))
+
+2. [Request user consent](authentication-oauth-consent.md#request-user-consent-with-google-oauth) for your application to manage their Google accounts.
+
+3. [Get access and refresh tokens](authentication-oauth-get-tokens.md#get-access-and-refresh-tokens-with-google-oauth)  
+
+4. [Make your first API call](authentication-oauth-quick-start.md)  
+
+### Next steps (Google OAuth)
+
+> [!div class="nextstepaction"]
+> [Register an application](authentication-oauth-register.md#register-your-application-with-google-oauth)
 
 ## See Also
+
 [Get started](get-started.md)

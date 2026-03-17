@@ -10,6 +10,8 @@ description: Get access and refresh tokens using the Microsoft identity platform
 ---
 # Get access and refresh tokens
 
+## Get access and refresh tokens for Entra ID
+
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
 Once a user has granted consent for you to manage their Microsoft Advertising account, you can redeem the authorization ``code`` for an access token.  
@@ -56,7 +58,7 @@ Write-Output "Refresh token: " $oauthTokens.refresh_token
 > [!TIP]
 > For troubleshooting help, see the [Common OAuth errors](handle-service-errors-exceptions.md#common-oauth-errors) guide.
 
-## <a name="request-accesstoken"></a>Access token request details
+### <a name="request-accesstoken"></a>Access token request details
 
 You can redeem the `code` for an `access_token` to the desired resource. Do this by sending a `POST` request to the `/token` endpoint:
 
@@ -93,7 +95,7 @@ The following table includes parameters that Bing Ads API clients can include in
 |`scope`|required|A space-separated list of scopes. The scopes requested in this leg must be equivalent to or a subset of the scopes included when you [requested user consent](authentication-oauth-consent.md). If the scopes specified in this request span multiple resource servers, then the Microsoft identity platform endpoint will return a token for the resource specified in the first scope. For a more detailed explanation of scopes, refer to [permissions, consent, and scopes](/azure/active-directory/develop/v2-permissions-and-consent).|
 |`tenant`|required|The `{tenant}` value in the path of the request can be used to control who can sign into the application. To ensure that your application supports both MSA personal accounts and Azure AD work or school accounts, we suggest that you use `common` as the tenant for Bing Ads API authentication.<br/><br/>In case your application requires another tenant, see [Microsoft identity platform endpoints](/azure/active-directory/develop/active-directory-v2-protocols#endpoints) for more information.|
 
-## <a name="refresh-accesstoken"></a>Refresh token request details
+### <a name="refresh-accesstoken"></a>Refresh token request details
 
 Access tokens are short lived, and you must refresh them after they expire to continue accessing resources. You can do so by submitting another `POST` request to the `/token` endpoint, this time providing the `refresh_token` instead of the `code`.  Refresh tokens are valid for all permissions that your client has already received consent.  
 
@@ -147,27 +149,56 @@ You will encounter the same error if you try to request new access and refresh t
 
 For more details about OAuth errors, please see [Common OAuth Errors](handle-service-errors-exceptions.md#common-oauth-errors) and [Authentication and authorization error codes](/azure/active-directory/develop/reference-aadsts-error-codes). 
 
-## Next steps
+### Next steps (Entra ID)
 
 > [!div class="nextstepaction"]
 > [Make your first API call](authentication-oauth-quick-start.md)
 
-## Get Access and Refresh Tokens with Google OAuth
+## Get access and refresh tokens with Google OAuth
 
 After the user completes the consent flow and your application receives an authorization code, the next step is to exchange that code for an **access token** and a **refresh token** from Google’s OAuth 2.0 token endpoint.
 
 This process follows the standard OAuth 2.0 authorization code exchange described in [Google’s documentation for web server applications](https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-code).  
 
-### Token Exchange Request
+```powershell
+# Replace your_client_id with your registered application ID. 
+$clientId = "your_client_id" 
+$secret = "your_client_secret" 
+
+Start-Process "https://accounts.google.com/o/oauth2/v2/auth?client_id=$clientId&response_type=code&scope=profile%20email&access_type=offline&redirect_uri=http://localhost/myapp&prompt=consent&state=12345" 
+
+$code = Read-Host "Grant consent in the browser, and then enter the response URI here:" 
+$code = $code -match 'code=(.*)\&' 
+$code = $Matches[1] 
+
+# Get the initial access and refresh tokens.  
+$response = Invoke-WebRequest https://oauth2.googleapis.com/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&client_secret=$secret&scope=profile%20email&code=$code&grant_type=authorization_code&redirect_uri=http://localhost/myapp" 
+
+$oauthTokens = ($response.Content | ConvertFrom-Json)   
+Write-Output "Access token: " $oauthTokens.access_token   
+Write-Output "Access token expires in: " $oauthTokens.expires_in   
+Write-Output "Refresh token: " $oauthTokens.refresh_token  
+
+# The access token will expire e.g., after one hour.  
+# Use the refresh token to get new access and refresh tokens.  
+
+$response = Invoke-WebRequest https://oauth2.googleapis.com/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&client_secret=$secret&grant_type=refresh_token&refresh_token=$($oauthTokens.refresh_token)" 
+
+$oauthTokens = ($response.Content | ConvertFrom-Json)   
+Write-Output "Access token: " $oauthTokens.access_token   
+Write-Output "Access token expires in: " $oauthTokens.expires_in  
+```
+
+### Token exchange request
 
 To exchange the authorization code for tokens, your backend must send a `POST` request to Google’s token endpoint:
 
 ```http
 POST https://oauth2.googleapis.com/token
 Content-Type: application/x-www-form-urlencoded
-````
+```
 
-### Request Body Parameters
+### Request body parameters for a token exchange request
 
 ```text
 code={AUTHORIZATION_CODE}
@@ -177,7 +208,7 @@ code={AUTHORIZATION_CODE}
 &grant_type=authorization_code
 ```
 
-#### Parameter Details
+#### Parameter details
 
 * **code**  
     The authorization code returned to your `redirect_uri` after the user grants consent.
@@ -194,7 +225,7 @@ code={AUTHORIZATION_CODE}
 * **grant\_type**  
     Must be set to `authorization_code` for the initial token exchange.
 
-### Token Response
+### Token response
 
 A successful response from Google returns a JSON payload similar to the following:
 
@@ -208,7 +239,7 @@ A successful response from Google returns a JSON payload similar to the followin
 }
 ```
 
-#### Response Fields
+#### Response fields
 
 * **access\_token**  
     A short-lived token used to authorize API calls.
@@ -230,7 +261,7 @@ A successful response from Google returns a JSON payload similar to the followin
 
 Store both the access token and refresh token securely. The access token is used when calling Microsoft Advertising APIs, and the refresh token is used to obtain new access tokens when the current one expires.
 
-### Refreshing an Access Token
+### Refreshing an access token
 
 When the access token expires, you can request a new one using the refresh token without prompting the user again.
 
@@ -241,7 +272,7 @@ POST https://oauth2.googleapis.com/token
 Content-Type: application/x-www-form-urlencoded
 ```
 
-#### Request Body Parameters
+#### Request body parameters for refreshing an access token
 
 ```text
 client_id={GOOGLE_CLIENT_ID}
@@ -252,9 +283,9 @@ client_id={GOOGLE_CLIENT_ID}
 
 A successful response returns a new access token and typically includes an updated `expires_in` value. Google does not always return a new refresh token; the original refresh token remains valid until it is revoked or expires.
 
-### Example: Token Exchange (cURL)
+### Example: Token exchange (cURL)
 
-#### Exchange Authorization Code for Tokens
+#### Exchange authorization code for rokens
 
 ```bash
 curl -X POST https://oauth2.googleapis.com/token \
@@ -262,7 +293,7 @@ curl -X POST https://oauth2.googleapis.com/token \
   -d "code=AUTH_CODE_HERE&client_id=GOOGLE_CLIENT_ID&client_secret=GOOGLE_CLIENT_SECRET&redirect_uri=YOUR_REDIRECT_URI&grant_type=authorization_code"
 ```
 
-#### Refresh an Access Token
+#### Refresh an access token
 
 ```bash
 curl -X POST https://oauth2.googleapis.com/token \
@@ -288,6 +319,11 @@ The Google OAuth access token is used only for user authentication. Microsoft Ad
 ### References
 
 * [Google OAuth 2.0 — Using OAuth 2.0 for Web Server Applications](https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-code).
+
+### Next steps (Google OAuth)
+
+> [!div class="nextstepaction"]
+> [Make your first API call](authentication-oauth-quick-start.md)
 
 ## See Also
 

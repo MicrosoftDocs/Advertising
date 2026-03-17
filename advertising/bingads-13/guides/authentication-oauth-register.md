@@ -10,6 +10,8 @@ description: Authenticate for Bing Ads API using the Microsoft identity platform
 ---
 # Register an application
 
+## Register an application with Entra ID
+
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
 Before your application can authenticate Microsoft Advertising users, you must [register your application in an Azure Active Directory (AAD) tenant](/entra/identity-platform/quickstart-register-app#register-an-application) and get the corresponding client ID and client secret.  
@@ -26,31 +28,54 @@ Before your application can authenticate Microsoft Advertising users, you must [
 1. On the app **Overview** page, find the **Application (client) ID** value and record it for later. You will use it as the `client_id` when you [request user consent](authentication-oauth-consent.md) and [get an access token](authentication-oauth-get-tokens.md).  
 1. Select the **Add a Redirect URI** link and then you should see the **Redirect URIs** page.
    - For web applications, provide the base URL of your application. For example, http://localhost:31544 might be the URL for a web application running on your local machine. Users would use this URL to sign into a web client application.  
-   - For public applications, locate the **Suggested Redirect URIs for public clients (mobile, desktop)** section. Select the **https://login.microsoftonline.com/common/oauth2/nativeclient** URI.
-   
+   - For public applications, locate the **Suggested Redirect URIs for public clients (mobile, desktop)** section. Select the [https://login.microsoftonline.com/common/oauth2/nativeclient](https://login.microsoftonline.com/common/oauth2/nativeclient) URI.
+
     > [!IMPORTANT]
     > Clients running apps on services that span regions and devices such as Microsoft Azure should register a web application with client secret. You can get a refresh token on one device and refresh it on another so long as you have the same client ID and client secret. If you register a public application without a client secret, then you cannot use a refresh token across devices. A confidential token is bound to the client secret.
 
 1. For web applications, select **Certificates & secrets** under **Manage**. Select the **New client secret** button. Enter a value in **Description**, select any option for **Expires** and choose **Add**. Copy the client secret value before leaving the page. You will use it later as the `client_secret` to [get an access token](authentication-oauth-get-tokens.md). 
 
-## Application behavior 
+### Application behavior
+
 1. Registered application behavior is determined by how your Azure AAD tenant has been set up and how users can provide the consent for any app during authentication process. Your Azure AAD tenant administrator can review user consent settings here: [https://learn.microsoft.com/azure/active-directory/manage-apps/configure-user-consent?pivots=portal#configure-user-consent-settings](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal#configure-user-consent-settings).
     - If you are trying to authenticate but receive error [AADSTS650052](../guides//handle-service-errors-exceptions.md#aadsts650052), there are a few different root causes for this issue. This likely means that the Microsoft Advertising application ID (d42ffc93-c136-491d-b4fd-6f18168c68fd) doesn't exist in your tenant. This can happen if you are trying to authenticate to a tool provider and never created your own Azure App registration and added *msads.manage* to it. To fix this, you will need to contact the Active Directory administrator and have them run the following Graph API call to add the Microsoft Advertising app to your tenant.<br/>
-    ~~~
+
+    ~~~html
     POST https://graph.microsoft.com/v1.0/servicePrincipals
     Content-type: application/json
     {
       "appId": "d42ffc93-c136-491d-b4fd-6f18168c68fd"
     }
     ~~~
+
     - After running the above command, you may also need to have your administrator grant consent to your tool provider by running the following URL in your browser. This URL grants consent to SA 360. Please replace "client_id=340615a8-1132-4916-80c7-697a67c6c353" with your tool provider's client ID and replace "tenantID" with your tenant ID: https<span>://login.microsoftonline</span>.com/"tenantID"/v2.0/adminconsent?client_id=340615a8-1132-4916-80c7-697a67c6c353&state=12345&scope=d42ffc93-c136-491d-b4fd-6f18168c68fd/msads.manage
     - To grant consent to the tool provider Skai, please use "client_id=73ea1e5d-983e-4f8e-8493-537a37a4436a"
     - If you are still experiencing issues after following the above steps, please [contact support](../guides/handle-service-errors-exceptions.md#contact-support).  
 
-## Next steps
+### Next steps
+
 > [!div class="nextstepaction"]
 > [Request user consent](authentication-oauth-consent.md)
 
+## Register your application with Google OAuth
+
+To authenticate users using Google OAuth 2.0, you must register your application in the Google Cloud Console and create OAuth 2.0 credentials (a Client ID and Client Secret).
+
+1. Open the [Google Cloud Console OAuth credentials page](https://console.cloud.google.com/apis/credentials/oauthclient).
+
+2. In the **Credentials** section, select **Create Credentials** and select **OAuth client ID**.
+
+3. Choose the appropriate **Application type** (e.g., **Web application**) and configure your **Authorized redirect URIs**.
+
+4. After the credentials are created, copy the **Client ID** and **Client Secret**. These values are required for the OAuth flow.
+
+If you encounter issues, refer to the official Google documentation, [Get started with the Google Auth Platform (Google Cloud Platform Console Help)](https://support.google.com/cloud/answer/15544987?hl=en&ref_topic=15540269&sjid=4811528590365052532-NC).
+
+### Next steps
+
+> [!div class="nextstepaction"]
+> [Request user consent](authentication-oauth-consent.md)
 
 ## See Also
+
 [Get started](get-started.md)

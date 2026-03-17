@@ -8,7 +8,7 @@ ms.author: jonmeyers
 ms.date: 11/13/2024
 description: Make your first API call with an access token.
 ---
-# Make Your First API Call — Updated for Google OAuth Support
+# Make your first API call
 
 This article explains how to authenticate and make your first Microsoft Advertising API call. Microsoft Advertising now supports authenticating users with **either Microsoft OAuth (Azure identity)** or **Google OAuth 2.0**.
 
@@ -24,7 +24,7 @@ Microsoft Advertising supports the following authentication providers:
 
 Regardless of the authentication provider, all API requests must include a valid **Microsoft Advertising Developer Token**.
 
-## Production Quick Start (Google OAuth Users)
+## Production Quick Start
 
 Once you obtain an OAuth access token—whether from Microsoft identity or Google OAuth—you can make production calls to the Microsoft Advertising API.
 
@@ -38,7 +38,7 @@ The API request logic does **not** change based on the OAuth provider. The acces
 # API call logic remains the same regardless of OAuth provider
 ```
 
-## Make Your First API Call
+## Make your first API call with an access token
 
 After obtaining an access token from Microsoft OAuth or Google OAuth:
 
