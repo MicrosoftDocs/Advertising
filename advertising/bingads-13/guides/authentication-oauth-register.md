@@ -61,11 +61,13 @@ Before your application can authenticate Microsoft Advertising users, you must [
 
 To authenticate users using Google OAuth 2.0, you must register your application in the Google Cloud Console and create OAuth 2.0 credentials (a Client ID and Client Secret).
 
-1. Open the [Google Cloud Console OAuth credentials page](https://console.cloud.google.com/apis/credentials/oauthclient).
+1. Open the [Google Cloud Console OAuth page](https://console.cloud.google.com/apis/credentials/oauthclient).
 
-2. In the **Credentials** section, select **Create Credentials** and select **OAuth client ID**.
+2. Create or select a project.
 
-3. Choose the appropriate **Application type** (e.g., **Web application**) and configure your **Authorized redirect URIs**.
+3. Create a client under this project.
+
+4. Choose the appropriate **Application type** (e.g., **Web application**) and configure your **Authorized redirect URIs**.
 
 4. After the credentials are created, copy the **Client ID** and **Client Secret**. These values are required for the OAuth flow.
 

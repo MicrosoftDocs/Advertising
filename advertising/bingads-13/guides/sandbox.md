@@ -86,21 +86,12 @@ You can create a new sandbox customer using a Google account.
 4. Complete the Google OAuth authentication flow:
    - Sign in with your Google account.
    - Review and grant consent to allow Microsoft Advertising to access your account.
-   - Approve the requested scopes (`identity`, `email`, `profile`) if prompted.
+   - Approve the requested scopes (`email`, `profile`) if prompted.
 
 5. After successful authentication, you are redirected back to Microsoft Advertising to continue sandbox customer creation.
 
 6. Complete the **Create Account** form.
    - For **Go Live**, select **Skip payment information**.
-
-## Optional: Invite Additional Users (Google oAuth)
-
-The current sandbox invitation flow requires invited users to authenticate with Microsoft accounts (`outlook.com`). This flow should be updated to support Google OAuth users.
-
-Recommended updates:
-
-- Allow non-`outlook.com` email domains when the invited user will authenticate via Google OAuth.
-- Clearly indicate that the sandbox environment supports Google sign-in for user invitations.
 
 ## Accepting an Invitation with Google OAuth
 
