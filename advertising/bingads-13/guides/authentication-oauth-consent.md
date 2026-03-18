@@ -143,8 +143,8 @@ After receiving the authorization code, your application must exchange it for an
 
 ### Related Google documentation
 
-* ```<https://developers.google.com/identity/oauth2/web/guides/how-user-authz-works>```
-* ```<https://developers.google.com/identity/protocols/oauth2/web-server>```
+* [How user authorization works](https://developers.google.com/identity/oauth2/web/guides/how-user-authz-works)
+* [Using OAuth 2.0 for Web Server Applications](https://developers.google.com/identity/protocols/oauth2/web-server)
 
 ## See also
 
