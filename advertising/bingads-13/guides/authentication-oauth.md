@@ -10,10 +10,13 @@ description: Authenticate for Bing Ads API using OAuth.
 ---
 # Authentication with OAuth
 
+## Authentication with Entra ID
+
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
 > [!NOTE]
 > Microsoft Advertising APIs use Azure Entra ID (formerly Azure AD) for authentication. If you encounter issues related to app registration, tenant access, admin consent, or OAuth token acquisition, please [contact Azure Support](https://azure.microsoft.com/support) or your tenant administrator.
+>
 
 Consider the user that you want to sign in e.g., example@contoso.com. The Bing Ads API will not accept that email address and password. Instead you need to set the AuthenticationToken header element that contains a user access token. You can think of an access token as representing a user name and password.
 
@@ -23,20 +26,43 @@ Microsoft Advertising leverages the [Microsoft identity platform endpoint for de
 
 1. [Register an application](authentication-oauth-register.md)
 
-1. [Request user consent](authentication-oauth-consent.md) for your application to manage their Microsoft Advertising accounts
+2. [Request user consent](authentication-oauth-consent.md) for your application to manage their Microsoft Advertising accounts
 
-1. [Get access and refresh tokens](authentication-oauth-get-tokens.md)  
+3. [Get access and refresh tokens](authentication-oauth-get-tokens.md)  
 
-1. [Make your first API call](authentication-oauth-quick-start.md)  
+4. [Make your first API call](authentication-oauth-quick-start.md)  
 
 > [!TIP]
 > For details about how to get access and refresh tokens using the Bing Ads SDKs, see [Authentication With the SDKs](sdk-authentication.md#oauth).  
 
-## Next steps
+### Next steps (Entra ID)
 
 > [!div class="nextstepaction"]
-> [Register an application](authentication-oauth-register.md)
+> [Register an application](authentication-oauth-register.md#)
 
+## Authentication with Google OAuth
+
+Microsoft Advertising APIs support **Google OAuth 2.0** as an additional authentication option, alongside **Microsoft identity (Azure Entra ID)**.
+
+- Google OAuth is added as an **alternative identity provider**, not a replacement.
+- **Microsoft identity OAuth** continues to be supported with no behavior changes.
+- **Google OAuth 2.0** is a newly supported authentication option.
+- A new request header, `IdentityProvider`, is introduced.
+- The **Developer Token requirement remains unchanged**.
+
+1. [Register an application](authentication-oauth-register.md#register-your-application-with-google-oauth)
+
+2. [Request user consent](authentication-oauth-consent.md#request-user-consent-with-google-oauth) for your application to manage their Google accounts.
+
+3. [Get access and refresh tokens](authentication-oauth-get-tokens.md#get-access-and-refresh-tokens-with-google-oauth)  
+
+4. [Make your first API call](authentication-oauth-quick-start.md)  
+
+### Next steps (Google OAuth)
+
+> [!div class="nextstepaction"]
+> [Register an application](authentication-oauth-register.md#register-your-application-with-google-oauth)
 
 ## See Also
+
 [Get started](get-started.md)

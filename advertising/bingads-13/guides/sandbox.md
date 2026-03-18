@@ -65,6 +65,45 @@ Microsoft Advertising sends an email invite to the user. If the invite doesn't s
 > [!NOTE]
 > The MSA signup process returns you to the SI Microsoft Advertising user interface (ads-int.microsoft.com). After completing the MSA process, sign out of the SI interface and then sign in using your new outlook.com email address at [https://secure.sandbox.bingads.microsoft.com/](https://secure.sandbox.bingads.microsoft.com/).
 
+## Sandbox Environment — Google OAuth Support
+
+The Microsoft Advertising **sandbox** and **production** environments use separate credentials. In addition to Microsoft accounts, you can now create sandbox customers and authenticate users using **Google OAuth 2.0**.
+
+This enables developers and advertisers to test Microsoft Advertising APIs in the sandbox using a Google identity, without requiring an `outlook.com` Microsoft account.
+
+## Initial Customer Sign-Up (Sandbox) — Google OAuth
+
+You can create a new sandbox customer using a Google account.
+
+### Steps to Create a New Sandbox Customer with Google OAuth
+
+1. Open a browser and navigate to the [sandbox sign-up page](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1):  
+
+2. Select **Sign up now**.
+
+3. Choose **Sign up with Google**.
+
+4. Complete the Google OAuth authentication flow:
+   - Sign in with your Google account.
+   - Review and grant consent to allow Microsoft Advertising to access your account.
+   - Approve the requested scopes (`email`, `profile`) if prompted.
+
+5. After successful authentication, you are redirected back to Microsoft Advertising to continue sandbox customer creation.
+
+6. Complete the **Create Account** form.
+   - For **Go Live**, select **Skip payment information**.
+
+## Accepting an Invitation with Google OAuth
+
+Invited users can accept sandbox invitations using Google OAuth as follows:
+
+1. Open the invitation link.
+2. Select **Sign in with Google**.
+3. Complete the Google OAuth authentication flow.
+4. After successful sign-in, the user is added to the sandbox account.
+
+This enhanced sandbox support allows teams to test Microsoft Advertising APIs with Google-authenticated users while maintaining the same API behavior as production.
+
 ## <a name="access"></a>Get API Access
 
 The [sandbox and production environments](web-service-addresses.md) use separate credentials.  
@@ -89,6 +128,10 @@ Now you can get access and refresh tokens for your Microsoft Advertising user an
 
 > [!TIP]
 > For details about how to get access and refresh tokens using the Bing Ads SDKs, see [Authentication With the SDKs](sdk-authentication.md#oauth).  
+
+## <a name="access-google-oauth"></a>Get API Access for Google oAuth
+
+Create a Google account at [https://accounts.google.com](https://accounts.google.com).
 
 ## <a name="bestpractices"></a>Sandbox Best Practices
 

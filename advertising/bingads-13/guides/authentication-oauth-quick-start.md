@@ -10,195 +10,149 @@ description: Make your first API call with an access token.
 ---
 # Make your first API call
 
-[!INCLUDE[request-header](./includes/mfa-required.md)]
+This article explains how to authenticate and make your first Microsoft Advertising API call. Microsoft Advertising now supports authenticating users with **either Microsoft OAuth (Azure identity)** or **Google OAuth 2.0**.
 
-If you just want to get something working right away, follow these steps to get your Microsoft Advertising user information.
+## Important
 
-## <a name="quick-start-production"></a>Production Quick Start
-To authenticate in the production environment you should first [register an application](authentication-oauth-register.md). Sign in with your Microsoft account credentials and grant [your app](/entra/identity-platform/quickstart-register-app) consent to manage your Microsoft Advertising accounts.
+Microsoft Advertising supports the following authentication providers:
 
-1. Create a new file and paste into it the following script. Set `$clientId` to the Application Id of your registered app. If you registered a web application with client secret, then you'll also need to include `$client_secret=YourWebAppClientSecret` when requesting the access tokens.
+- **Microsoft OAuth (Azure identity)**  
+  The existing and default authentication method.
 
-> [!NOTE]
-> Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
+- **Google OAuth 2.0**  
+  A newly supported authentication flow for users who sign in with Google accounts.
 
-```powershell
-# Replace your_client_id with your registered application ID. 
-$clientId = "your_client_id"
+Regardless of the authentication provider, all API requests must include a valid **Microsoft Advertising Developer Token**.
 
-Start-Process "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
+## Production Quick Start
 
-$code = Read-Host "Grant consent in the browser, and then enter the response URI here:"
-$code = $code -match 'code=(.*)\&'
-$code = $Matches[1]
+Once you obtain an OAuth access token—whether from Microsoft identity or Google OAuth—you can make production calls to the Microsoft Advertising API.
 
-# Get the initial access and refresh tokens. 
+The API request logic does **not** change based on the OAuth provider. The access token is always passed in the same request header.
 
-$response = Invoke-WebRequest https://login.microsoftonline.com/common/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=authorization_code&redirect_uri=https%3A%2F%2Flogin.microsoftonline.com%2Fcommon%2Foauth2%2Fnativeclient"
+- The access token is included in the `AuthenticationToken` header.
+- The OAuth provider (Microsoft or Google) does not affect API behavior.
 
-$oauthTokens = ($response.Content | ConvertFrom-Json)  
-Write-Output "Access token: " $oauthTokens.access_token  
-Write-Output "Access token expires in: " $oauthTokens.expires_in  
-Write-Output "Refresh token: " $oauthTokens.refresh_token 
-
-# The access token will expire e.g., after one hour. 
-# Use the refresh token to get new access and refresh tokens. 
-
-$response = Invoke-WebRequest https://login.microsoftonline.com/common/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=refresh_token&refresh_token=$($oauthTokens.refresh_token)"
-
-$oauthTokens = ($response.Content | ConvertFrom-Json)  
-Write-Output "Access token: " $oauthTokens.access_token  
-Write-Output "Access token expires in: " $oauthTokens.expires_in  
-Write-Output "Refresh token: " $oauthTokens.refresh_token
+```text
+# Pseudocode
+# API call logic remains the same regardless of OAuth provider
 ```
 
-Save the file and name it `Get-Tokens-Production.ps1` (you can name it anything you want but the extension must be .ps1).
+## Make your first API call with an access token
 
-To programmatically manage a Microsoft Advertising account, you must provide consent at least once through the web application consent flow. From then on you can use the latest refresh token to request new access and refresh tokens without any further user interaction.  
+After obtaining an access token from Microsoft OAuth or Google OAuth:
 
-1. Now to run `Get-Tokens-Production.ps1` open a console window. At the command prompt, navigate to the folder where you saved `Get-Tokens-Production.ps1` and enter the following command:  
-  
-    ```console
-    powershell.exe -File .\Get-Tokens-Production.ps1
-    ```  
+1. Store the access token and refresh token securely.
+2. Include the access token in your API request along with:
+    - `DeveloperToken`
+    - `CustomerId` (if required)
+    - `AccountId` (if required)
+3. Call a Microsoft Advertising API operation (for example, `GetUser`).
 
-    When the PowerShell script successfully runs, it starts a browser session where you enter your Microsoft Advertising credentials. After consenting, the browser's address bar contains the grant code (see ?code=UseThisCode&...).  
+The access token is always sent in the `AuthenticationToken` header, regardless of how it was obtained.
 
-    ```https
-    https://login.microsoftonline.com/common/oauth2/nativeclient?code=M.R4_BAY.f202904c-2269-4daf-1e21-862ed4d49143
-    ```  
+## Example: Make an API Call (PowerShell)
 
-    Copy the grant code (your own code, not the example M.R4_BAY.f202904c-2269-4daf-1e21-862ed4d49143) and enter it in the console window at the prompt. The PowerShell script then returns the access and refresh tokens. (The script makes a second call to Invoke-WebRequest as an example of how to refresh the tokens.) You should treat the refresh token like you would a password; if someone gets hold of it, they have access to your resources. The refresh token is long lived but it can become invalid. If you ever receive an invalid_grant error, your refresh token is no longer valid and you'll need to run the `Get-Tokens-Production.ps1` PowerShell script again to get user consent and a new refresh token. 
-  
-1. Create a new file and paste into it the following script. Set the `accessToken` to the value you received from `Get-Tokens-Production.ps1` and set `$developerToken` to the developer token you received by following steps outlined [here](get-started.md#get-developer-token). 
+```powershell
+$accessToken = "AccessTokenGoesHere"
+$developerToken = "DeveloperTokenGoesHere"
+$identityProvider = "Google"
 
-    ```powershell
-    $accessToken = "AccessTokenGoesHere";
-    $developerToken = "DeveloperTokenGoesHere";
-    
-    [xml]$getUserRequest = 
-    '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v13="https://bingads.microsoft.com/Customer/v13">
-    <soapenv:Header>
-       <v13:DeveloperToken>{0}</v13:DeveloperToken>
-       <v13:AuthenticationToken>{1}</v13:AuthenticationToken>
-    </soapenv:Header>
-    <soapenv:Body>
-       <v13:GetUserRequest>
-          <v13:UserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-       </v13:GetUserRequest>
-    </soapenv:Body>
-    </soapenv:Envelope>' -f $developerToken, $accessToken
-    
-    $headers = @{"SOAPAction" = "GetUser"}
-    
-    $uri = "https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc"
-    $response = Invoke-WebRequest $uri -Method post -ContentType 'text/xml' -Body $getUserRequest -Headers $headers
-    Write-Output $response.Content
-    ```  
+[xml]$getUserRequest = '
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:v13="https://bingads.microsoft.com/Customer/v13">
+  <soapenv:Header>
+    <v13:DeveloperToken>{0}</v13:DeveloperToken>
+    <v13:AuthenticationToken>{1}</v13:AuthenticationToken>
+    <v13:IdentityProvider>{2}</v13:IdentityProvider>
+  </soapenv:Header>
+  <soapenv:Body>
+    <v13:GetUserRequest>
+      <v13:UserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </v13:GetUserRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
+' -f $developerToken, $accessToken, $identityProvider
 
-    Save the file and name it `Get-User.ps1` (you can name it anything you want but the extension must be .ps1).
+$headers = @{
+  "SOAPAction" = "GetUser"
+}
 
-1. Now to run `Get-User.ps1` open a console window. At the command prompt, navigate to the folder where you saved `Get-User.ps1` and enter the following command:  
-  
-    ```console
-    powershell.exe -File .\Get-User.ps1
-    ```  
+$uri = "https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc"
 
-    When the PowerShell script successfully runs it should print out the details of your Microsoft Advertising user, including customer roles. For details see [GetUser](../customer-management-service/getuser.md).
+$response = Invoke-WebRequest `
+  -Uri $uri `
+  -Method Post `
+  -ContentType "text/xml" `
+  -Body $getUserRequest `
+  -Headers $headers
 
-## <a name="quick-start-sandbox"></a>Sandbox Quick Start
-To authenticate in the sandbox environment, you can use the same client ID as production.
+Write-Output $response.Content
+```
 
-1. Sign up for a [Microsoft Advertising](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1) sandbox account. The Microsoft account (MSA) email address must be outlook.com (for example, someone@outlook.com). For more details see [Sandbox](sandbox.md#initial-sign-up).  
+### Run the Script
 
-1. Create a new file and paste into it the following script. Set `$clientId` to the Application Id of your registered app. If you registered a web application with client secret, then you'll also need to include `$client_secret=YourWebAppClientSecret` when requesting the access tokens.
+Save the file as `Get-User.ps1`, then run:
 
-    > [!NOTE]
-    > Replace *your_client_id* below with the application (client) ID that the [Azure portal - App registrations](https://go.microsoft.com/fwlink/?linkid=2083908) portal assigned your app.
+```text
+powershell.exe -File .\Get-User.ps1
+```
 
-    ```powershell
-    # Replace your_client_id with your registered application ID. 
-    $clientId = "your_client_id"
-    
-    Start-Process "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=$clientId&scope=openid%20profile%20https://si.ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=https://login.microsoftonline.com/common/oauth2/nativeclient&state=ClientStateGoesHere&prompt=login"
-    
-    $code = Read-Host "Grant consent in the browser, and then enter the response URI here:"
-    $code = $code -match 'code=(.*)\&'
-    $code = $Matches[1]
-    
-    # Get the initial access and refresh tokens. 
-    
-    $response = Invoke-WebRequest https://login.microsoftonline.com/common/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://si.ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=authorization_code&redirect_uri=https%3A%2F%2Flogin.microsoftonline.com%2Fcommon%2Foauth2%2Fnativeclient"
-    
-    $oauthTokens = ($response.Content | ConvertFrom-Json)  
-    Write-Output "Access token: " $oauthTokens.access_token  
-    Write-Output "Access token expires in: " $oauthTokens.expires_in  
-    Write-Output "Refresh token: " $oauthTokens.refresh_token 
-    
-    # The access token will expire e.g., after one hour. 
-    # Use the refresh token to get new access and refresh tokens. 
-    
-    $response = Invoke-WebRequest https://login.microsoftonline.com/common/oauth2/v2.0/token -ContentType application/x-www-form-urlencoded -Method POST -Body "client_id=$clientId&scope=https://si.ads.microsoft.com/msads.manage%20offline_access&code=$code&grant_type=refresh_token&refresh_token=$($oauthTokens.refresh_token)"
-    
-    $oauthTokens = ($response.Content | ConvertFrom-Json)  
-    Write-Output "Access token: " $oauthTokens.access_token  
-    Write-Output "Access token expires in: " $oauthTokens.expires_in  
-    Write-Output "Refresh token: " $oauthTokens.refresh_token 
-    ```  
+If the script runs successfully, it outputs the details of your Microsoft Advertising user, including customer roles. For more information, see **GetUser**.
 
-    Save the file and name it `Get-Tokens-Sandbox.ps1` (you can name it anything you want but the extension must be .ps1).
+## Sandbox Quick Start
 
-    A user must provide consent at least once through the web application consent flow. From then on you can use the latest refresh token to request new access and refresh tokens without any further user interaction.  
-  
-1. Now to run `Get-Tokens-Sandbox.ps1` open a console window. At the command prompt, navigate to the folder where you saved `Get-Tokens-Sandbox.ps1` and enter the following command:  
-  
-    ```console
-    powershell.exe -File .\Get-Tokens-Sandbox.ps1
-    ```  
-  
-    When the PowerShell script successfully runs, it starts a browser session where you enter your Microsoft Advertising credentials. After consenting, the browser's address bar contains the grant code (see ?code=UseThisCode&...).  
-  
-    ```https
-    https://login.microsoftonline.com/common/oauth2/nativeclient?code=M.R0_CD1.132de532-5105-7550-b1fd-d37f9af2f009
-    ```  
-  
-    Copy the grant code (your own code, not the example M.R0_CD1.132de532-5105-7550-b1fd-d37f9af2f009) and enter it in the console window at the prompt. The PowerShell script then returns the access and refresh tokens. (The script makes a second call to Invoke-WebRequest as an example of how to refresh the tokens.) You should treat the refresh token like you would a password; if someone gets hold of it, they have access to your resources. The refresh token is long lived but it can become invalid. If you ever receive an invalid_grant error, your refresh token is no longer valid and you'll need to run the `Get-Tokens-Sandbox.ps1` PowerShell script again to get user consent and a new refresh token.  
-  
-1. Create a new file and paste into it the following script. Set the `accessToken` to the value you received from `Get-Tokens-Sandbox.ps1`.  
+Authentication in the sandbox environment works the same way as in production.
 
-    ```powershell
-    $accessToken = "AccessTokenGoesHere";
-    $developerToken = "BBD37VB98";
-    
-    [xml]$getUserRequest = 
-    '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v13="https://bingads.microsoft.com/Customer/v13">
-    <soapenv:Header>
-       <v13:DeveloperToken>{0}</v13:DeveloperToken>
-       <v13:AuthenticationToken>{1}</v13:AuthenticationToken>
-    </soapenv:Header>
-    <soapenv:Body>
-       <v13:GetUserRequest>
-          <v13:UserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-       </v13:GetUserRequest>
-    </soapenv:Body>
-    </soapenv:Envelope>' -f $developerToken, $accessToken
-    
-    $headers = @{"SOAPAction" = "GetUser"}
-    
-    $uri = "https://clientcenter.api.sandbox.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc"
-    $response = Invoke-WebRequest $uri -Method post -ContentType 'text/xml' -Body $getUserRequest -Headers $headers
-    Write-Output $response.Content
-    ```  
+- The OAuth flow for obtaining tokens is identical.
+- Sandbox calls use sandbox-specific endpoints and developer tokens.
+- Both Microsoft OAuth and Google OAuth access tokens are supported.
 
-    Save the file and name it `Get-User.ps1` (you can name it anything you want but the extension must be .ps1).
+## Sandbox Quick Start (Google OAuth Users)
 
-1. Now to run `Get-User.ps1` open a console window. At the command prompt, navigate to the folder where you saved `Get-User.ps1` and enter the following command:  
-  
-    ```console
-    powershell.exe -File .\Get-User.ps1
-    ```  
+Once you obtain an OAuth access token (from Microsoft or Google), you can use it to make sandbox API calls. The way you include the access token in requests is identical to production.
 
-    When the PowerShell script successfully runs it should print out the details of your Microsoft Advertising user, including customer roles. For details see [GetUser](../customer-management-service/getuser.md).
+## Example: Make an API Call in Sandbox
+
+```powershell
+$accessToken = "AccessTokenGoesHere"
+$developerToken = "BBD37VB98"
+$identityProvider = "Google"
+
+[xml]$getUserRequest = '
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:v13="https://bingads.microsoft.com/Customer/v13">
+  <soapenv:Header>
+    <v13:DeveloperToken>{0}</v13:DeveloperToken>
+    <v13:AuthenticationToken>{1}</v13:AuthenticationToken>
+    <v13:IdentityProvider>{2}</v13:IdentityProvider>
+  </soapenv:Header>
+  <soapenv:Body>
+    <v13:GetUserRequest>
+      <v13:UserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </v13:GetUserRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
+' -f $developerToken, $accessToken, $identityProvider
+
+$headers = @{
+  "SOAPAction" = "GetUser"
+}
+
+$uri = "https://clientcenter.api.sandbox.bingads.microsoft.com/Api/CustomerManagement/v13/CustomerManagementService.svc"
+
+$response = Invoke-WebRequest `
+  -Uri $uri `
+  -Method Post `
+  -ContentType "text/xml" `
+  -Body $getUserRequest `
+  -Headers $headers
+
+Write-Output $response.Content
+```
+
+Save the script as `Get-User.ps1` and run it as shown above. When successful, the script outputs the sandbox user details, including assigned roles.
 
 ## See Also
+
 [Get started](get-started.md)

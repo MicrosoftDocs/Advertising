@@ -11,6 +11,8 @@ ms.custom: sfi-ropc-blocked
 ---
 # Request user consent
 
+## Request user consent with Entra ID authentication
+
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
 Once you have registered an application you need to get user consent for you to manage their Microsoft Advertising account.  
@@ -72,11 +74,78 @@ The following table includes parameters that Bing Ads API clients can include in
 |`state`|recommended|A value included in the request that will also be returned in the token response. It can be a string of any content that you wish. A randomly generated unique value is typically used for [preventing cross-site request forgery attacks](https://tools.ietf.org/html/rfc6749#section-10.12). The value can also encode information about the user's state in the app before the authentication request occurred, such as the page or view they were on.|
 |`tenant`|required|The `{tenant}` value in the path of the request can be used to control who can sign into the application. To ensure that your application supports both MSA personal accounts and Azure AD work or school accounts, we suggest that you use `common` as the tenant for Bing Ads API authentication.<br/><br/>In case your application requires another tenant, see [Microsoft identity platform endpoints](/azure/active-directory/develop/active-directory-v2-protocols#endpoints) for more information.|
 
-
-## Next steps
+### Next steps (Entra ID)
 
 > [!div class="nextstepaction"]
 > [Get access and refresh tokens](authentication-oauth-get-tokens.md)
 
-## See Also
+## Request user consent with Google OAuth
+
+After registering your application with Google OAuth, you must request user consent to allow your application to authenticate the user and call Microsoft Advertising APIs on their behalf. This process uses the standard **OAuth 2.0 authorization code flow** provided by Google.
+
+Each user must complete the consent flow at least once in a web browser before your application can access their Microsoft Advertising accounts.
+
+See an overview of [Google’s OAuth consent and authorization process](https://developers.google.com/identity/oauth2/web/guides/how-user-authz-works).
+
+### Authorization request
+
+To request user consent, redirect the user’s browser to the Google OAuth 2.0 authorization endpoint with the required query parameters:
+
+```html
+https://accounts.google.com/o/oauth2/v2/auth?
+  client_id={GOOGLE_CLIENT_ID}
+  &response_type=code
+  &redirect_uri={REGISTERED_REDIRECT_URI}
+  &scope=profile email
+  &access_type=offline
+  &prompt=consent
+  &state={STATE}
+```
+
+### Authorization request parameters
+
+| Parameter             | Description                                                                                        |
+| --------------------- | -------------------------------------------------------------------------------------------------- |
+| `client_id`           | The Google OAuth Client ID obtained from the Google Cloud Console.                                 |
+| `response_type`       | Must be set to `code` to receive an authorization code.                                            |
+| `redirect_uri`        | Must exactly match one of the redirect URIs registered for your Google OAuth client.               |
+| `scope`               | OAuth scopes requested from Google (for example, `profile email`).                          |
+| `access_type=offline` | Requests a refresh token so the application can obtain new access tokens without user interaction. |
+| `prompt=consent`      | Forces the consent screen to be displayed to ensure a refresh token is issued.                     |
+| `state`               | A recommended value used to maintain request state and protect against CSRF attacks.               |
+
+For a complete list of supported parameters, see:  
+<https://developers.google.com/identity/protocols/oauth2/web-server>
+
+### User consent flow
+
+1. The user is redirected to the Google authorization endpoint.
+2. The user signs in with their Google account, if not already signed in.
+3. Google displays a consent screen describing the permissions requested by your application.
+4. If the user grants consent, Google redirects the browser to your `redirect_uri` with an authorization code:
+
+```html
+https://yourapp.com/oauth/callback?code=AUTH_CODE&state={STATE}
+```
+
+If the user denies consent, the redirect includes an error parameter instead of an authorization code.
+
+### Next steps (Google OAuth)
+
+After receiving the authorization code, your application must exchange it for an access token and refresh token using Google’s token endpoint. The access token is then used when making Microsoft Advertising API calls.
+
+> [!NOTE]
+> Using Google OAuth affects only how the user authenticates.  
+> Microsoft Advertising API request headers, developer token requirements, and permission checks remain unchanged.
+>
+> [!div class="nextstepaction"]
+> [Get access and refresh tokens](authentication-oauth-get-tokens.md#get-access-and-refresh-tokens-with-google-oauth)
+
+### Related Google documentation
+
+* ```<https://developers.google.com/identity/oauth2/web/guides/how-user-authz-works>```
+* ```<https://developers.google.com/identity/protocols/oauth2/web-server>```
+
+## See also
+
 [Get started](get-started.md)
