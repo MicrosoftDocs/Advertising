@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the AI search setting data object.
+description: Enable or opt out of AI search settings.
 ---
 # AISearchSetting Data Object - Campaign Management
-Defines the AI search setting data object.
+Enable or opt out of AI search settings.
 
 ## Syntax
 

@@ -88,7 +88,7 @@ The Campaign Management service defines the following value sets.
 |[EffectiveEditorialStatus](effectiveeditorialstatus.md)|Defines the possible effective editorial status values.|
 |[EntityScope](entityscope.md)|Defines values that you can use to determine whether the remarketing list can only be associated with ad groups within one specified account, or can be associated with any ad groups across all of the customer's accounts.|
 |[EntityType](entitytype.md)|Defines entity types for association and editorial service operations.|
-|[ExperimentAdditionalField](experimentadditionalfield.md)|Defines a list of optional properties that you can request with the [Experiment](experiment.md) object.|
+|[ExperimentAdditionalField](experimentadditionalfield.md)|Defines a list of optional properties that you can request when using the Experiment object.|
 |[ExpressionOperator](expressionoperator.md)|Defines the operators that can be applied to expressions within a conversion goal.|
 |[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|Defines the possible values for FrequencyCapTimeGranularity.|
 |[GenderType](gendertype.md)|Defines the genders that are available for gender criterion.|
