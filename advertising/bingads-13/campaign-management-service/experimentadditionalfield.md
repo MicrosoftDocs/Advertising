@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a list of optional properties that you can request when using the experiment object.
+description: Defines a list of optional properties that you can request when using the Experiment object.
 ---
 # ExperimentAdditionalField Value Set - Campaign Management
-Defines a list of optional properties that you can request when using the experiment object.
+Defines a list of optional properties that you can request when using the Experiment object.
 
 ## Syntax
 ```xml

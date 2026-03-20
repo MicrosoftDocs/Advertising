@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: The crop type applied to the image
+description: The crop type applied to the image.
 ---
 # CropType Value Set - Campaign Management
-The crop type applied to the image
+The crop type applied to the image.
 
 ## Syntax
 ```xml
