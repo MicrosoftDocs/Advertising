@@ -338,6 +338,4 @@ if __name__ == '__main__':
 
 For complete migration guide with more examples, see:
 
-- [`BingAdsApiSDK/Python-Rest-MigrationGuide.md`](../BingAdsApiSDK/Python-Rest-MigrationGuide.md)
-- SOAP Examples: [`BingAdsApiSDK/python/examples/v13/`](../BingAdsApiSDK/python/examples/v13/)
-- REST Examples: [`BingAdsApiSDK/python_rest/examples/v13/`](../BingAdsApiSDK/python_rest/examples/v13/)
+- [Python SDK SOAP to REST Migration Guide](python-sdk-migration-soap-to-rest.md)
