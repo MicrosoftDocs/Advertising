@@ -192,6 +192,17 @@ Your organization requires you to use your work email address to access Microsof
 ***
 
 **Numeric Code**
+126
+
+**Symbolic Error Code**
+IdentityTypeMismatch
+
+**Description**
+The identity type you used doesn’t match the account previously registered for this email. Sign in with the correct account.
+
+***
+
+**Numeric Code**
 200
 
 **Symbolic Error Code**
