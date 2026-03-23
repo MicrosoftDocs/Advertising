@@ -1,32 +1,17 @@
 ---
-title: Upgrade to Bing Ads Java SDK 13.0.20
+title: Upgrade to latest Bing Ads Java SDK
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
-description: Upgrade the Bing Ads Java SDK and discover code examples.
+ms.date: 3/23/2026
+description: Starting from version 13.0.22 Bing Ads Java SDK has switched from the existing XML-based SOAP API to a new JSON-based REST API for reducing service call latency and network traffic.
 ---
 
-# Upgrade to Bing Ads Java SDK 13.0.20
+# Upgrade to latest Bing Ads Java SDK
 
-Bing Ads Java SDK 13.0.20 includes changes to switch from the existing XML-based SOAP API to a new JSON-based REST API for reducing service call latency and network traffic.
-
-This release covers Campaign Management, Bulk, and Reporting services. Support for other services will be added in future versions.
-
-If you run into any issue due to the new implementation, you can switch back to the old implementation by setting a corresponding system property for the affected service.
-
-```java
-// For CampaignManagement service
-System.setProperty("com.microsoft.bingads.ICampaignManagementService.DisableRestApi", "true"); 
-
-// For Bulk service
-System.setProperty("com.microsoft.bingads.IBulkService.DisableRestApi", "true"); 
-
-// For Reporting service
-System.setProperty("com.microsoft.bingads.IReportingService.DisableRestApi", "true");
-```
+Starting from version 13.0.22 Bing Ads Java SDK has switched from the existing XML-based SOAP API to a new JSON-based REST API for reducing service call latency and network traffic.
 
 Please note that the new behavior includes a few implementation changes that might affect your application if it depends on any of these details:
 
