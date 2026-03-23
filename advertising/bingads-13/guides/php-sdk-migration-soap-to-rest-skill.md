@@ -591,4 +591,4 @@ try {
 
 For complete migration guide with more examples, see:
 
-- [`BingAdsApiSDK/PHP-Rest-MigrationGuide.md`](../../BingAdsApiSDK/PHP-Rest-MigrationGuide.md)
+- [PHP SDK SOAP to REST Migration Guide](php-sdk-migration-soap-to-rest.md)
