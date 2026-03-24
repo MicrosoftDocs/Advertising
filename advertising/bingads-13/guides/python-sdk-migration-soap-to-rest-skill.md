@@ -1,5 +1,5 @@
 ---
-title: Python SDK SOAP to REST Migration Skill
+title: Migration Skill - SOAP to REST for Python SDK
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
@@ -10,7 +10,7 @@ description: This skill guides AI assistants through migrating Bing Ads Python S
 dev_langs:
   - python
 ---
-# Bing Ads Python SDK SOAP to REST Migration Skill
+# Migration Skill - SOAP to REST for Python SDK
 
 This skill guides AI assistants through migrating Bing Ads Python SDK code from the legacy SOAP-based implementation (`bingads`) to the new REST API-based implementation (`msads`).
 

@@ -21,11 +21,11 @@ If you are using a version of BingAds Java SDK lower than 13.0.22, please [Upgra
 
 ## Python SDK
 
-If you are using any version of the `bingads` package, please [Upgrade to new msads package](python-sdk-migration-soap-to-rest.md)
+If you are using any version of the `bingads` package, please [Upgrade to new msads package](python-sdk-migration-soap-to-rest.md).
 
 ## PHP SDK
 
-If you are using any version of the `bingads` package, please [Upgrade to new msads package](php-sdk-migration-soap-to-rest.md)
+If you are using any version of the `bingads` package, please [Upgrade to new msads package](php-sdk-migration-soap-to-rest.md).
 
 ## No SDK
 
