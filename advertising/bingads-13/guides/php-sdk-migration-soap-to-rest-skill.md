@@ -1,5 +1,5 @@
 ---
-title: PHP SDK SOAP to REST Migration Skill
+title: Migration Skill - SOAP to REST for PHP SDK
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
@@ -10,7 +10,7 @@ description: This skill guides AI assistants through migrating Bing Ads PHP SDK 
 dev_langs:
   - php
 ---
-# Bing Ads PHP SDK SOAP to REST Migration Skill
+# Migration Skill - SOAP to REST for PHP SDK
 
 This skill guides AI assistants through migrating Bing Ads PHP SDK code from the legacy SOAP-based implementation (`microsoft/bingads`) to the new REST API-based implementation (`microsoft/msads`).
 

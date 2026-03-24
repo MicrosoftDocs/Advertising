@@ -1,5 +1,5 @@
 ---
-title: Python SDK SOAP to REST Migration Guide
+title: Migration Guide - SOAP to REST for Python SDK
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
@@ -10,7 +10,7 @@ description: This guide provides comprehensive instructions for migrating from t
 dev_langs:
   - python
 ---
-# Bing Ads Python SDK SOAP to REST Migration Guide
+# Migration Guide - SOAP to REST for Python SDK
 
 This guide provides comprehensive instructions for migrating from the legacy SOAP-based Bing Ads Python SDK (`bingads`) to the new REST API-based Python SDK (`msads`). The REST SDK offers better performance, simpler architecture, and modern Python language features.
 

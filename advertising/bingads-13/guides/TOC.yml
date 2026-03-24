@@ -47,10 +47,10 @@
     - name: Walkthrough - Bing Ads API Web Application in PHP
       href: ./walkthrough-web-application-php.md
       displayName: php get started
-    - name: PHP SDK SOAP to REST Migration Guide
+    - name: Migration Guide - SOAP to REST for PHP SDK
       href: ./php-sdk-migration-soap-to-rest.md
       displayName: php soap to rest migration guide
-    - name: PHP SDK SOAP to REST Migration Skill
+    - name: Migration Skill - SOAP to REST for PHP SDK
       href: ./php-sdk-migration-soap-to-rest-skill.md
       displayName: php soap to rest migration skill
   - name: Get Started Using Python
@@ -64,10 +64,10 @@
     - name: Walkthrough - Bing Ads API Web Application in Python
       href: ./walkthrough-web-application-python.md
       displayName: python get started
-    - name: Python SDK SOAP to REST Migration Guide
+    - name: Migration Guide - SOAP to REST for Python SDK
       href: ./python-sdk-migration-soap-to-rest.md
       displayName: python soap to rest migration guide
-    - name: Python SDK SOAP to REST Migration Skill
+    - name: Migration Skill - SOAP to REST for Python SDK
       href: ./python-sdk-migration-soap-to-rest-skill.md
       displayName: python soap to rest migration skill
 - name: Authentication with OAuth
