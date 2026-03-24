@@ -1,5 +1,5 @@
 ---
-title: Upgrade to latest Bing Ads .NET SDK
+title: Upgrade to the latest Bing Ads .NET SDK
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 3/23/2026
 description: Starting from version 13.0.22 Bing Ads .NET SDK has switched from the existing XML-based SOAP API to a new JSON-based REST API for reducing service call latency and network traffic.
 ---
 
-# Upgrade to latest Bing Ads .NET SDK
+# Upgrade to the latest Bing Ads .NET SDK
 
 Starting from version 13.0.22 Bing Ads .NET SDK has switched from the existing XML-based SOAP API to a new JSON-based REST API for reducing service call latency and network traffic.
 
