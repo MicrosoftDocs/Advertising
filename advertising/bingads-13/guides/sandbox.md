@@ -21,7 +21,7 @@ The [sandbox and production environments](web-service-addresses.md) use separate
 
 Follow these steps to get a new sandbox customer. If you already have a sandbox customer and want to add a new user e.g., with Microsoft account credentials, you can skip to the [user invitation](#invite-user) steps.
 
-1. Open a browser and navigate to [https://sandbox.bingads.microsoft.com?simpsp=true&id1=1](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1).
+1. Open a browser and navigate to the [sandbox sign-up page](https://sandbox.bingads.microsoft.com).
 2. Select **Sign up now**.
 3. Select **Create an account** to create a Microsoft account (MSA).
 4. Select **Get a new email address**.
@@ -77,7 +77,7 @@ You can create a new sandbox customer using a Google account.
 
 ### Steps to Create a New Sandbox Customer with Google OAuth
 
-1. Open a browser and navigate to the [sandbox sign-up page](https://sandbox.bingads.microsoft.com?simpsp=true&id1=1):  
+1. Open a browser and navigate to the [sandbox sign-up page](https://sandbox.bingads.microsoft.com):  
 
 2. Select **Sign up now**.
 
