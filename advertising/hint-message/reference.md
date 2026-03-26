@@ -6,7 +6,7 @@ ms.subservice: "lodging-campaigns"
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 3/26/2026
 ---
 
 # Hint Message reference
@@ -21,7 +21,7 @@ For information about creating a Hint response message, see [Creating a Hint Mes
 
 
 > [!NOTE]
-> The elements must be specified in the order defined by the Hint XSD (and as listed in this topic).
+> The elements must be specified in the order defined by the Hint XSD (and as listed in this topic). Microsoft will check for hints throughout the day.
 
 ----
 
