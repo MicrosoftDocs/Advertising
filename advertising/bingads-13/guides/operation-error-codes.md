@@ -198,7 +198,9 @@ Your organization requires you to use your work email address to access Microsof
 IdentityTypeMismatch
 
 **Description**
-The identity type you used doesn’t match the account previously registered for this email. Sign in with the correct account.
+The identity type you used doesn’t match the account previously registered for this email. Sign in with the correct account.  
+
+For example, this error can occur if the email was originally registered using Google Sign‑In but you're now trying to sign in with a Microsoft account, or the other way around.
 
 ***
 
