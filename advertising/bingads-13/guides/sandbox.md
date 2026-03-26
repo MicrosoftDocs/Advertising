@@ -77,7 +77,7 @@ You can create a new sandbox customer using a Google account.
 
 ### Steps to Create a New Sandbox Customer with Google OAuth
 
-1. Open a browser and navigate to the [sandbox sign-up page](https://sandbox.bingads.microsoft.com):  
+1. Open a browser and navigate to the [sandbox sign-up page](https://sandbox.bingads.microsoft.com).
 
 2. Select **Sign up now**.
 
