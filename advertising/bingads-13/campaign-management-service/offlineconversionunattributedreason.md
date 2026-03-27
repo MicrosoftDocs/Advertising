@@ -87,7 +87,7 @@ The [OfflineConversionUnattributedReason](offlineconversionunattributedreason.md
 
 |Value|Description|
 |-----------|---------------|
-|<a name="accountmismatch"></a>AccountMismatch|Matching clicks were found, but all clicks are from other customers or accounts.|
+|<a name="accountmismatch"></a>AccountMismatch|Matching clicks were found, but all clicks are from other accounts.|
 |<a name="adjustmentoriginalnotfound"></a>AdjustmentOriginalNotFound|The record is an adjustment (restate or retract) but the corresponding original conversion record doesn't exist.|
 |<a name="clicktimestampafterconversion"></a>ClickTimestampAfterConversion|The click time is after the conversion time.|
 |<a name="conversionalreadyretracted"></a>ConversionAlreadyRetracted|The conversion record has already been retracted. A second adjust attempt isn't permitted.|
