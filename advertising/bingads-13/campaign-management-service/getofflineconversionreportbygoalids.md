@@ -30,7 +30,7 @@ The *GetOfflineConversionReportByGoalIdsRequest* object defines the [body](#requ
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="enddateutc"></a>EndDateUtc|The end date of the report range in Coordinated Universal Time (UTC). The date range is up to 7 days.|**dateTime**|
-|<a name="goalids"></a>GoalIds|An array of conversion goal IDs used to filter the report. Up to 100 goal IDs.|**long** array|
+|<a name="goalids"></a>GoalIds|An array of conversion goal IDs used to filter the report. You can specify up to 20 goal IDs.|**long** array|
 |<a name="startdateutc"></a>StartDateUtc|The start date of the report range in Coordinated Universal Time (UTC). The date range is up to 7 days.|**dateTime**|
 |<a name="uploadchannelfilter"></a>UploadChannelFilter|A bitwise combination of upload channel flags. If null, the report includes data from all channels.|[OfflineConversionUploadChannel](offlineconversionuploadchannel.md)|
 
@@ -243,7 +243,7 @@ The *GetOfflineConversionReportByGoalIdsRequest* object defines the [body](#requ
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="enddateutc"></a>EndDateUtc|The end date of the report range in Coordinated Universal Time (UTC). The date range is up to 7 days.|**dateTime**|
-|<a name="goalids"></a>GoalIds|An array of conversion goal IDs used to filter the report. Up to 100 goal IDs.|**long** array|
+|<a name="goalids"></a>GoalIds|An array of conversion goal IDs used to filter the report. You can specify up to 20 goal IDs.|**long** array|
 |<a name="startdateutc"></a>StartDateUtc|The start date of the report range in Coordinated Universal Time (UTC). The date range is up to 7 days.|**dateTime**|
 |<a name="uploadchannelfilter"></a>UploadChannelFilter|A bitwise combination of upload channel flags. If null, the report includes data from all channels.|[OfflineConversionUploadChannel](offlineconversionuploadchannel.md)|
 
