@@ -26,9 +26,9 @@ The Bing Ads Python [SDK](client-libraries.md) supports Python 3.3 or higher. Yo
 To install the Bing Ads Python [SDK](client-libraries.md) for the first time, run the following either from your IDE or command line prompt.
 
 ```powershell
-pip.exe install bingads
+pip.exe install msads
 ```
-To confirm that the Bing Ads Python SDK is installed, run the following. You should see *bingads (&lt;version&gt;)* in the output list.
+To confirm that the Bing Ads Python SDK is installed, run the following. You should see *msads (&lt;version&gt;)* in the output list.
 
 ```powershell
 pip.exe list
@@ -36,7 +36,7 @@ pip.exe list
 If you already have the Bing Ads Python SDK installed, you can run this command to get the latest bits.
 
 ```powershell
-pip.exe install --upgrade bingads
+pip.exe install --upgrade msads
 ```
 
 ## <a name="walkthrough"></a>Walkthroughs
