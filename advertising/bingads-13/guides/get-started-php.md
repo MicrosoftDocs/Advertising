@@ -22,14 +22,14 @@ You will need user credentials with access to Microsoft Advertising either in [p
 To authenticate via OAuth, you must also register an application and get the corresponding client identifier. You also need to take note of the client secret and redirect URI if you are developing a web application. For more details about registering an application in production and the authorization code grant flow, see [Authentication with OAuth](authentication-oauth.md) and [Authentication With the SDKs](sdk-authentication.md#oauth). Although in production you must use your own application ID (a.k.a. client ID), all Microsoft Advertising customers can use the public "Tutorial Sample App" client ID in sandbox i.e., **00001111-aaaa-2222-bbbb-3333cccc4444**. For more information, please see [Sandbox](sandbox.md#access). 
 
 ## <a name="installation"></a>Install the SDK
-You can install the Bing Ads PHP [SDK](client-libraries.md) using the [Composer](https://getcomposer.org/doc/00-intro.md#introduction) package manager to fetch from [Packagist](https://packagist.org/packages/microsoft/bingads), or you can clone the source from [GitHub](https://github.com/BingAds/BingAds-PHP-SDK/). This guide describes how you can use Composer to get the latest version of the Bing Ads PHP SDK. 
+You can install the Bing Ads PHP [SDK](client-libraries.md) using the [Composer](https://getcomposer.org/doc/00-intro.md#introduction) package manager to fetch from [Packagist](https://packagist.org/packages/microsoft/msads), or you can clone the source from [GitHub](https://github.com/BingAds/BingAds-PHP-SDK/). This guide describes how you can use Composer to get the latest version of the Bing Ads PHP SDK. 
 
 1. Download and install [Composer](https://getcomposer.org/doc/00-intro.md#introduction). Microsoft Windows users should also add composer.phar to your *PATH* variable.
 
-2. Open a command prompt and type `composer require microsoft/bingads`. 
+2. Open a command prompt and type `composer require microsoft/msads`. 
 
     > [!NOTE]
-    > Windows users who did not add *composer.phar* to the *PATH* will need to type `php composer.phar require microsoft/bingads` instead.
+    > Windows users who did not add *composer.phar* to the *PATH* will need to type `php composer.phar require microsoft/msads` instead.
 
 3. To get updates going forward, type `composer update`. If any updates are available at packagist, composer will install the latest version.
 
