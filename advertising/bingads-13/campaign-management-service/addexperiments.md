@@ -18,7 +18,7 @@ dev_langs:
 Adds experiments and creates experiment campaigns based on existing campaigns in an account.
 
 > [!NOTE]
-> Experiments are only available for Search campaigns. If the campaign uses a shared budget, then you cannot use it as the base campaign for an experiment. 
+> Experiments are available for Audience, Search, Shopping, and Performance Max campaigns. If the campaign uses a shared budget, then you cannot use it as the base campaign for an experiment. 
 
 ::: zone pivot="soap"
 
