@@ -28,9 +28,9 @@ The [CustomerListItemSubType](customerlistitemsubtype.md) value set has the foll
 
 |Value|Description|
 |-----------|---------------|
-|<a name="crm"></a>CRM|The user data type is CRM.|
+|<a name="crm"></a>CRM|Not currently supported.|
 |<a name="email"></a>Email|The user data type is email.|
-|<a name="phone"></a>Phone|THe user data type is phone.|
+|<a name="phone"></a>Phone|Not currently supported.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
