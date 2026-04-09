@@ -12,7 +12,7 @@ description: Various ways to migrate to the REST API.
 # Migrate to REST API
 
 > [!IMPORTANT]
-> Microsoft Advertising is transitioning from the legacy SOAP API to a REST API.  
+> Microsoft Advertising is transitioning from the legacy SOAP API to the REST API.  
 >
 > Starting **October 1, 2026**, all new Microsoft Advertising API features and enhancements will be available **only** through the REST API. Existing SOAP integrations will continue to run during a **6‑month migration window**. The SOAP API is scheduled for **full deprecation on January 31, 2027**.  
 >
