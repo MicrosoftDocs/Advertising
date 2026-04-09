@@ -15,7 +15,7 @@ description: Find out if the Bing Ads API is right for you.
 >
 > Starting **October 1, 2026**, all new Microsoft Advertising API features and enhancements will be available **only** through the REST API. Existing SOAP integrations will continue to run during a **6‑month migration window**. The SOAP API is scheduled for **full deprecation on January 31, 2027**.  
 >
-> To avoid any impact to your API access, we recommend migrating to the REST API before October 1, 2026. SDK and non‑SDK migration guides are available. If you need additional time due to integration complexity or scale, contact Microsoft Advertising support to discuss an extended migration plan. [Learh more](migrate-to-rest.md)
+> To avoid any impact to your API access, we recommend migrating to the REST API before October 1, 2026. SDK and non‑SDK migration guides are available. If you need additional time due to integration complexity or scale, contact Microsoft Advertising support to discuss an extended migration plan. [Learn more](migrate-to-rest.md)
 
 Microsoft Advertising is a pay-per-click (PPC) advertising platform used to display ads based on the keywords used in a user's search query. For advertisers placing a large number of ads or developers building advertising tools, the Bing Ads API provides programmatic access to Microsoft Advertising. Using the Bing Ads API is the most efficient way to manage many large campaigns or to integrate your marketing with other in-house systems. Some organizations may choose a hybrid approach; using the web UI for most tasks but automating reporting or campaign optimization with the API. 
 
