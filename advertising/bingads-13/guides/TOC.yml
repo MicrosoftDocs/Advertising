@@ -692,6 +692,12 @@
     - name: Account Callout Ad Extension
       href: ../bulk-service/account-callout-ad-extension.md
       displayName: BulkAccountCalloutAdExtension
+    - name: Account Content Negative Keyword List
+      href: ../bulk-service/account-content-negative-keyword-list.md
+      displayName: BulkAccountContentNegativeKeywordList
+    - name: Account Content Negative Keyword List Association
+      href: ../bulk-service/account-content-negative-keyword-list-association.md
+      displayName: BulkAccountContentNegativeKeywordListAssociation
     - name: Account Filter Link Ad Extension
       href: ../bulk-service/account-filter-link-ad-extension.md
       displayName: BulkAccountFilterLinkAdExtension
@@ -725,12 +731,15 @@
     - name: Account Shared Negative Keyword
       href: ../bulk-service/account-shared-negative-keyword.md
       displayName: BulkAccountSharedNegativeKeyword
+    - name: Account Shared Content Negative Keyword
+      href: ../bulk-service/account-shared-content-negative-keyword.md
+      displayName: BulkAccountSharedContentNegativeKeyword
     - name: Account Sitelink Ad Extension
       href: ../bulk-service/account-sitelink-ad-extension.md
       displayName: BulkAccountSitelinkAdExtension
     - name: Account Structured Snippet Ad Extension
       href: ../bulk-service/account-structured-snippet-ad-extension.md
-      displayName: BulkAccountVideoAdExtension
+      displayName: BulkAccountStructuredSnippetAdExtension
     - name: Account Video Ad Extension
       href: ../bulk-service/account-video-ad-extension.md
       displayName: BulkAccountVideoAdExtension
