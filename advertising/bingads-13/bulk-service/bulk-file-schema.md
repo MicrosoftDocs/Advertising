@@ -48,6 +48,8 @@ Record Type  |Supported Campaign Types
 [Account Action Ad Extension](account-action-ad-extension.md)|Performance Max<br/>Search  
 [Account App Ad Extension](account-app-ad-extension.md)|Performance Max<br/>Search  
 [Account Callout Ad Extension](account-callout-ad-extension.md)|Performance Max<br/>Search  
+[Account Content Negative Keyword List](account-content-negative-keyword-list.md)|All  
+[Account Content Negative Keyword List Association](account-content-negative-keyword-list-association.md)|All  
 [Account Filter Link Ad Extension](account-filter-link-ad-extension.md)|Performance Max<br/>Search  
 [Account Flyer Ad Extension](account-flyer-ad-extension.md)|Performance Max<br/>Search  
 [Account Image Ad Extension](account-image-ad-extension.md)|Performance Max<br/>Search  
@@ -57,6 +59,7 @@ Record Type  |Supported Campaign Types
 [Account Price Ad Extension](account-price-ad-extension.md)|Performance Max<br/>Search  
 [Account Promotion Ad Extension](account-promotion-ad-extension.md)|Performance Max<br/>Search  
 [Account Shared Negative Keyword](account-shared-negative-keyword.md)|All  
+[Account Shared Content Negative Keyword](account-shared-content-negative-keyword.md)|All  
 [Account Sitelink Ad Extension](account-sitelink-ad-extension.md)|Performance Max<br/>Search  
 [Account Structured Snippet Ad Extension](account-structured-snippet-ad-extension.md)|Performance Max<br/>Search  
 [Account Video Ad Extension](account-video-ad-extension.md)|Performance Max<br/>Search  
