@@ -22,7 +22,7 @@ This example demonstrates how to add, get, and delete extensions for an account'
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/AdExtensions.java)]
 
-[!code-php[Main](https://github.com/BingAds/BingAds-PHP-REST-SDK/blob/main/test/CampaignManagementService/AdExtensionsTest.php)]
+[!code-php[Main](https://github.com/BingAds/BingAds-PHP-REST-SDK/test/CampaignManagementService/AdExtensionsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/rest_beta/examples/v13/ad_extensions_test.py)]
 
