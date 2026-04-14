@@ -11,11 +11,11 @@ dev_langs:
   - csharp
 ---
 # Account Shared Content Negative Keyword Record - Bulk
-Defines a negative keyword that is shared in an account negative keyword list and can be downloaded and uploaded in a Bulk file.
+Defines a negative keyword that is shared in an account content negative keyword list and can be downloaded and uploaded in a Bulk file.
 
 You can download all *Account Shared Content Negative Keyword* records in the account by including the [DownloadEntity](downloadentity.md) value of *AccountNegativeKeyword* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add a new negative keyword to a negative keyword list given a valid account negative keyword list [Id](#id) ([Parent Id](#parentid)).
+The following Bulk CSV example would add a new negative keyword to a negative keyword list given a valid account content negative keyword list [Id](#id) ([Parent Id](#parentid)).
 
 ```csv
 Type,Status,Id,Parent Id,Campaign,Ad Group,Client Id,Modified Time,Keyword,Match Type,Name
@@ -76,11 +76,11 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The system-generated identifier of the account negative keyword list that contains the negative keyword.
+The system-generated identifier of the account content negative keyword list that contains the negative keyword.
 
-This bulk field maps to the *Id* field of the [Account Negative Keyword List](account-negative-keyword-list.md) record.
+This bulk field maps to the *Id* field of the [Account Content Negative Keyword List](account-content-negative-keyword-list.md) record.
 
-**Add:** Read-only and Required. You must either specify an existing negative keyword list identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Account Negative Keyword List](account-negative-keyword-list.md) record. This is recommended if you are adding new negative keywords to a new account negative keyword list in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
+**Add:** Read-only and Required. You must either specify an existing negative keyword list identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Account Content Negative Keyword List](account-content-negative-keyword-list.md) record. This is recommended if you are adding new negative keywords to a new account content negative keyword list in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Not applicable. A negative keyword can be added and deleted, but cannot be updated.
 **Delete:** Read-only  
 
@@ -88,9 +88,9 @@ This bulk field maps to the *Id* field of the [Account Negative Keyword List](ac
 > For add and delete, you must specify either the [Parent Id](#parentid) or [Account](account.md) field.  
 
 ## <a name="status"></a>Status
-Represents the association status between the account negative keyword list and the negative keyword.  
+Represents the association status between the account content negative keyword list and the negative keyword.  
 
-If the negative keyword is associated with the account negative keyword list, this field's value is *Active*.  
+If the negative keyword is associated with the account content negative keyword list, this field's value is *Active*.  
 
 Possible values are *Active* or *Deleted*.
 
