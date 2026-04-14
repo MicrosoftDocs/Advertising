@@ -45,8 +45,6 @@ Previously in version 12, the data contract namespace for some entities had vari
 
 Clients who encode the SOAP envelope e.g. PHP clients who encode a `SoapVar` for [DateRangeSearchParameter](../ad-insight-service/daterangesearchparameter.md), you'll need to update to the Ad Insight Version 13 target namespace i.e., `https://bingads.microsoft.com/AdInsight/v13`.
 
-Bing Ads Python SDK clients will need to update several namespace prefixes for the [SUDS](get-started-python.md#suds) client factory objects e.g., if you used *ns4:DateRangeSearchParameter* in Bing Ads API Version 12 you'll use *DateRangeSearchParameter* (without the 'ns4' prefix) in version 13. See [Using SUDS](get-started-python.md#suds) for details about how to determine the namespace prefix.
-
 ## <a name="bulk"></a>Bulk
 For comprehensive version 13 service reference documentation see [Bulk](../bulk-service/bulk-service-reference.md).  
 
