@@ -24,7 +24,7 @@ This example demonstrates how to add, get, and delete extensions for an account'
 
 [!code-php[Main](../../../BingAds-PHP-REST-SDK/test/CampaignManagementService/AdExtensionsTest.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/ad_extensions_test.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/rest_beta/examples/v13/ad_extensions_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  
