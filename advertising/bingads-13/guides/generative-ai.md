@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: With Copilot asset creation via Campaign Management API, advertisers, agencies, and partners who access Microsoft Advertising via API can use generative AI capabilities to create campaigns with ease and save time.
 ---
 
-# Generative AI API
+# Generative AI
 
 Advertisers, agencies, and partners who access Microsoft Advertising via API can use Copilot in Microsoft Advertising Platform's generative AI capabilities to create and optimize campaign creatives at scale.
 
