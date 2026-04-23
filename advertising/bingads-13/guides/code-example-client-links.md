@@ -24,7 +24,7 @@ This example demonstrates how to use agency credentials to invite a client, and 
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ClientLinks.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/client_links.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/client_links_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  
