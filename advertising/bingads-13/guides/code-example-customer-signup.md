@@ -24,7 +24,7 @@ This example demonstrates how an aggregator can call SignupCustomer to create a 
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/CustomerSignup.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/customer_signup.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/customer_signup_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  
