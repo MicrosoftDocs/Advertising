@@ -24,7 +24,7 @@ This example demonstrates how to setup Responsive Ads for the Microsoft Audience
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ResponsiveAds.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/responsive_ads.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/responsive_ads_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

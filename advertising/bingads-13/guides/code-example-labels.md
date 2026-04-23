@@ -24,7 +24,7 @@ This example demonstrates how to add labels and associate them with campaigns an
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/Labels.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/labels.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/labels_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

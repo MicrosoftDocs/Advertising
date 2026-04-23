@@ -24,7 +24,7 @@ This example demonstrates how to setup Responsive Search Ads for a search advert
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ResponsiveSearchAds.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/responsive_search_ads.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/responsive_search_ads_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

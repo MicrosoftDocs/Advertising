@@ -24,7 +24,7 @@ This example demonstrates how to download the comma separated value (CSV) file t
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/GeographicalLocations.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/geographical_locations.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/geographical_locations_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

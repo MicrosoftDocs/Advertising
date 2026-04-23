@@ -24,7 +24,7 @@ This example demonstrates how to associate remarketing lists with a new ad group
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/RemarketingLists.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/remarketing_lists.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/remarketing_lists_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  
