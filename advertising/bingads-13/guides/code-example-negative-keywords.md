@@ -24,7 +24,7 @@ This example demonstrates how to associate negative keywords and negative keywor
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/NegativeKeywords.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/negative_keywords.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/negative_keywords_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

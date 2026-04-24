@@ -24,7 +24,7 @@ This example demonstrates how to search for accounts that can be managed by the 
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/SearchUserAccounts.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/search_user_accounts.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/search_user_accounts_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

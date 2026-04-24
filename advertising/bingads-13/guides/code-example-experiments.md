@@ -24,7 +24,7 @@ This example demonstrates how to create experiment campaigns from a base campaig
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/Experiments.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/experiments.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/experiments_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

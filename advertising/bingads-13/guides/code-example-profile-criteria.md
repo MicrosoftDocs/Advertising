@@ -24,7 +24,7 @@ This example demonstrates how to use company, industry, and job function criteri
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ProfileCriteria.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/profile_criteria.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/profile_criteria_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

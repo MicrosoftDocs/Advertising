@@ -24,7 +24,7 @@ This example demonstrates how to apply product conditions for Product Ads in Mic
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ProductAds.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/product_ads.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/product_ads_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

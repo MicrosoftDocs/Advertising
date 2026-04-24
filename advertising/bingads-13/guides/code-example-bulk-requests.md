@@ -24,7 +24,7 @@ This example demonstrates how to download campaigns, ad groups, and ads in a .cs
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/BulkDownloadUpload.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/bulk_service_manager_demo.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/bulk_download_upload_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

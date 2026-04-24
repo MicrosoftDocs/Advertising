@@ -24,7 +24,7 @@ This example demonstrates how to use location criteria to show ads to your targe
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/TargetCriteria.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/target_criteria.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/target_criteria_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

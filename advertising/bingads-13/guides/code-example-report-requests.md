@@ -24,7 +24,7 @@ This example demonstrates how to request and retrieve performance reports.
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ReportRequests.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/report_requests.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/submit_generate_report_rest.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

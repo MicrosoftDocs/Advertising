@@ -24,7 +24,7 @@ This example demonstrates how to invite a user to manage Microsoft Advertising a
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/InviteUser.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/invite_user.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/invite_user_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

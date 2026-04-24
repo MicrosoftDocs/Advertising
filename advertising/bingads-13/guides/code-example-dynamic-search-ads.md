@@ -27,7 +27,7 @@ This example uses the Campaign Management API to setup a Dynamic Search Ads (DSA
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/DynamicSearchAds.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/dynamic_search_ads.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/dynamic_search_ads_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  

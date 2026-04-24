@@ -26,7 +26,7 @@ This example demonstrates how to setup Expanded Text Ads for a search advertisin
 
 [!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ExpandedTextAds.php)]
 
-[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/expanded_text_ads.py)]
+[!code-python[Main](../../../BingAds-Python-SDK/examples/v13/expanded_text_ads_test.py)]
 
 ## See Also
 [Get Started with the Bing Ads API](get-started.md)  
