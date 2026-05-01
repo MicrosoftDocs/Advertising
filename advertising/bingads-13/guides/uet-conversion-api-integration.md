@@ -11,6 +11,9 @@ description: The Conversions API (CAPI) guide provides a comprehensive overview 
 
 # Conversions API (CAPI) Guide
 
+> [!NOTE]
+> You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is in pilot. Contact your account manager to join.
+
 With the Conversions API, advertisers can implement server-side tracking for conversions using Microsoft Advertising’s Universal Event Tracking (UET). By leveraging the API, businesses can capture key user actions—such as purchases, subscriptions, and custom goals—even when client-side tracking is limited by browser restrictions or ad blockers. This guide outlines the setup process, payload formatting, and SDK usage for apps, enabling more accurate attribution and improved campaign optimization across platforms.
 
 ## Overview
@@ -111,9 +114,6 @@ Parameter tables for page load and custom events are shown below. The following 
 ### Authorization
 
 Use the UET `tagID` and token for authorization.  
-
-> [!NOTE]
-> You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is in pilot. Contact your account manager to join.
 
 ### Restate / Retract
 
