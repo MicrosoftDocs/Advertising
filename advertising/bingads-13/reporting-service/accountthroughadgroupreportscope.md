@@ -86,6 +86,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [HotelDimensionPerformanceReportRequest](hoteldimensionperformancereportrequest.md)  
 [HotelGroupPerformanceReportRequest](hotelgroupperformancereportrequest.md)  
 [KeywordPerformanceReportRequest](keywordperformancereportrequest.md)  
+[MMMPerformanceReportRequest](mmmperformancereportrequest.md)  
 [NegativeKeywordConflictReportRequest](negativekeywordconflictreportrequest.md)  
 [ProductDimensionPerformanceReportRequest](productdimensionperformancereportrequest.md)  
 [ProductMatchCountReportRequest](productmatchcountreportrequest.md)  

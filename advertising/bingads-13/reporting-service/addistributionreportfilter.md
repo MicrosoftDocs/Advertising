@@ -64,6 +64,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [GeographicPerformanceReportFilter](geographicperformancereportfilter.md)  
 [GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)  
 [KeywordPerformanceReportFilter](keywordperformancereportfilter.md)  
+[MMMPerformanceReportFilter](mmmperformancereportfilter.md)  
 [ProfessionalDemographicsAudienceReportFilter](professionaldemographicsaudiencereportfilter.md)  
 [PublisherUsagePerformanceReportFilter](publisherusageperformancereportfilter.md)  
 [SearchCampaignChangeHistoryReportFilter](searchcampaignchangehistoryreportfilter.md)  
