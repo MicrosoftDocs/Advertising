@@ -61,6 +61,8 @@ The Reporting service defines the following value sets.
 |[KeywordPerformanceReportColumn](keywordperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [KeywordPerformanceReportRequest](keywordperformancereportrequest.md).|
 |[KeywordStatusReportFilter](keywordstatusreportfilter.md)|Defines the keyword status values that you can use to filter the report data.|
 |[LanguageReportFilter](languagereportfilter.md)|Defines the language values that you can use to filter the report data.|
+|[MMMPerformanceReportColumn](mmmperformancereportcolumn.md)|Reserved.|
+|[MSClickIdPerformanceReportColumn](msclickidperformancereportcolumn.md)|Reserved.|
 |[NegativeKeywordConflictReportColumn](negativekeywordconflictreportcolumn.md)|Defines the attributes columns that you can include in the [NegativeKeywordConflictReportRequest](negativekeywordconflictreportrequest.md).|
 |[ProductDimensionPerformanceReportColumn](productdimensionperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ProductDimensionPerformanceReportRequest](productdimensionperformancereportrequest.md).|
 |[ProductMatchCountReportColumn](productmatchcountreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ProductMatchCountReportRequest](productmatchcountreportrequest.md).|

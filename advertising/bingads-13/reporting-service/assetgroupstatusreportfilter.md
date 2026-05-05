@@ -41,10 +41,12 @@ Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
 
 ## Used By
+[AgeGenderAudienceReportFilter](agegenderaudiencereportfilter.md)  
 [AppsPerformanceReportFilter](appsperformancereportfilter.md)  
 [AssetGroupPerformanceReportFilter](assetgroupperformancereportfilter.md)  
 [GeographicPerformanceReportFilter](geographicperformancereportfilter.md)  
 [GoalsAndFunnelsReportFilter](goalsandfunnelsreportfilter.md)  
+[MMMPerformanceReportFilter](mmmperformancereportfilter.md)  
 [ProductDimensionPerformanceReportFilter](productdimensionperformancereportfilter.md)  
 [ProductNegativeKeywordConflictReportFilter](productnegativekeywordconflictreportfilter.md)  
 [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md)  
@@ -53,3 +55,4 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [ProfessionalDemographicsAudienceReportFilter](professionaldemographicsaudiencereportfilter.md)  
 [PublisherUsagePerformanceReportFilter](publisherusageperformancereportfilter.md)  
 [SearchInsightPerformanceReportFilter](searchinsightperformancereportfilter.md)  
+[SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)  

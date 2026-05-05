@@ -105,6 +105,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [DSASearchQueryPerformanceReportFilter](dsasearchqueryperformancereportfilter.md)  
 [GeographicPerformanceReportFilter](geographicperformancereportfilter.md)  
 [KeywordPerformanceReportFilter](keywordperformancereportfilter.md)  
+[MMMPerformanceReportFilter](mmmperformancereportfilter.md)  
 [ProductDimensionPerformanceReportFilter](productdimensionperformancereportfilter.md)  
 [ProductPartitionPerformanceReportFilter](productpartitionperformancereportfilter.md)  
 [ProductPartitionUnitPerformanceReportFilter](productpartitionunitperformancereportfilter.md)  

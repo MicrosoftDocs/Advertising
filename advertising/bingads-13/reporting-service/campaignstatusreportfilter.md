@@ -90,6 +90,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [HotelDimensionPerformanceReportFilter](hoteldimensionperformancereportfilter.md)  
 [HotelGroupPerformanceReportFilter](hotelgroupperformancereportfilter.md)  
 [KeywordPerformanceReportFilter](keywordperformancereportfilter.md)  
+[MMMPerformanceReportFilter](mmmperformancereportfilter.md)  
 [NegativeKeywordConflictReportFilter](negativekeywordconflictreportfilter.md)  
 [ProductDimensionPerformanceReportFilter](productdimensionperformancereportfilter.md)  
 [ProductNegativeKeywordConflictReportFilter](productnegativekeywordconflictreportfilter.md)  

@@ -22,6 +22,13 @@ Defines the criteria to use to filter the search query performance report data.
     <xs:element minOccurs="0" name="AdGroupStatus" nillable="true" type="tns:AdGroupStatusReportFilter" />
     <xs:element minOccurs="0" name="AdStatus" nillable="true" type="tns:AdStatusReportFilter" />
     <xs:element minOccurs="0" name="AdType" nillable="true" type="tns:AdTypeReportFilter" />
+    <xs:element minOccurs="0" name="AssetGroupStatus" nillable="true" type="tns:AssetGroupStatusReportFilter">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="CampaignStatus" nillable="true" type="tns:CampaignStatusReportFilter" />
     <xs:element minOccurs="0" name="DeliveredMatchType" nillable="true" type="tns:DeliveredMatchTypeReportFilter" />
     <xs:element minOccurs="0" name="ExcludeZeroClicks" type="xs:boolean" />
@@ -40,6 +47,7 @@ Defines the criteria to use to filter the search query performance report data.
   "AdGroupStatus": "ValueHere",
   "AdStatus": "ValueHere",
   "AdType": "ValueHere",
+  "AssetGroupStatus": "ValueHere",
   "CampaignStatus": "ValueHere",
   "DeliveredMatchType": "ValueHere",
   "ExcludeZeroClicks": "ValueHere",
@@ -55,7 +63,7 @@ Defines the criteria to use to filter the search query performance report data.
 
 ## <a name="elements"></a>Elements
 
-The [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AdGroupStatus](#adgroupstatus), [AdStatus](#adstatus), [AdType](#adtype), [CampaignStatus](#campaignstatus), [DeliveredMatchType](#deliveredmatchtype), [ExcludeZeroClicks](#excludezeroclicks), [KeywordStatus](#keywordstatus), [Language](#language), [SearchQueries](#searchqueries).
+The [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md) object has the following elements: [AccountStatus](#accountstatus), [AdGroupStatus](#adgroupstatus), [AdStatus](#adstatus), [AdType](#adtype), [AssetGroupStatus](#assetgroupstatus), [CampaignStatus](#campaignstatus), [DeliveredMatchType](#deliveredmatchtype), [ExcludeZeroClicks](#excludezeroclicks), [KeywordStatus](#keywordstatus), [Language](#language), [SearchQueries](#searchqueries).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -63,6 +71,7 @@ The [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md) 
 |<a name="adgroupstatus"></a>AdGroupStatus|The report will include data for only the ad group status. For example, you can use the filter to include data for only active ad groups.<br/><br/>You can specify one or more ad group statuses.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
 |<a name="adstatus"></a>AdStatus|The report will include data for ads that have the specified status value. You can specify one or more status values.|[AdStatusReportFilter](adstatusreportfilter.md)|
 |<a name="adtype"></a>AdType|The report will include data for only the specified ad types. For example, the report can include data for product or expanded text ads. You can specify one or more ad types.|[AdTypeReportFilter](adtypereportfilter.md)|
+|<a name="assetgroupstatus"></a>AssetGroupStatus|Reserved.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
 |<a name="campaignstatus"></a>CampaignStatus|The report will include data for campaigns that have the specified status value. You can specify one or more status values.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
 |<a name="deliveredmatchtype"></a>DeliveredMatchType|The report will include data for only the specified delivered match types (as opposed to the bid match type). For example, you can use the filter to include data for ads that were delivered using the exact or phrase match type.<br/><br/>You can specify one or more delivered match types.|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|
 |<a name="excludezeroclicks"></a>ExcludeZeroClicks|If the value of this element is set to *true*, search terms that had one or more ad impressions but resulted in zero clicks in the specified time duration will be excluded from the report.<br/><br/>The default value is *false*, in which case the report will include zero click search term data.<br/><br/>Regardless of the value of this filter, search terms with zero clicks in the last 30 days will always be excluded.|**boolean**|

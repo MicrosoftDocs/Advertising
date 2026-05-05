@@ -1,33 +1,29 @@
 ---
-title: AgeGenderAudienceReportRequest Data Object - Reporting
+title: MSClickIdPerformanceReportRequest Data Object - Reporting
 ms.service: bing-ads
 ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines an age and gender audience report request.
+description: Defines an MSClickID performance report request.
 ---
-# AgeGenderAudienceReportRequest Data Object - Reporting
-Defines an age and gender audience report request. Use this report to discover how your campaigns and ad groups are resonating with different age groups and genders.
-
-You can request the impressions, clicks, spend, and average cost-per-click for each ad group, organized by gender and age group. 
-
-To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
+# MSClickIdPerformanceReportRequest Data Object - Reporting
+Defines an MSClickID performance report request.
 
 ## Syntax
 
 # [XML](#tab/xml)
 
 ```xml
-<xs:complexType name="AgeGenderAudienceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:complexType name="MSClickIdPerformanceReportRequest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:ReportRequest">
       <xs:sequence>
         <xs:element name="Aggregation" type="tns:ReportAggregation" />
-        <xs:element name="Columns" nillable="true" type="tns:ArrayOfAgeGenderAudienceReportColumn" />
-        <xs:element minOccurs="0" name="Filter" nillable="true" type="tns:AgeGenderAudienceReportFilter" />
-        <xs:element name="Scope" nillable="true" type="tns:AccountThroughAdGroupReportScope" />
+        <xs:element name="Columns" nillable="true" type="tns:ArrayOfMSClickIdPerformanceReportColumn" />
+        <xs:element minOccurs="0" name="Filter" nillable="true" type="tns:MSClickIdPerformanceReportFilter" />
+        <xs:element name="Scope" nillable="true" type="tns:AccountThroughCampaignReportScope" />
         <xs:element name="Time" nillable="true" type="tns:ReportTime" />
       </xs:sequence>
     </xs:extension>
@@ -46,29 +42,15 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
   "FormatVersion": "ValueHere",
   "ReportName": "ValueHere",
   "ReturnOnlyCompleteData": "ValueHere",
-  "Type": "AgeGenderAudienceReportRequest",
+  "Type": "MSClickIdPerformanceReportRequest",
   "Aggregation": "ValueHere",
   "Columns": [
     "ValueHere"
   ],
-  "Filter": {
-    "AccountStatus": "ValueHere",
-    "AdDistribution": "ValueHere",
-    "AdGroupStatus": "ValueHere",
-    "AssetGroupStatus": "ValueHere",
-    "CampaignStatus": "ValueHere",
-    "Language": "ValueHere"
-  },
+  "Filter": {},
   "Scope": {
     "AccountIds": [
       "LongValueHere"
-    ],
-    "AdGroups": [
-      {
-        "AccountId": "LongValueHere",
-        "AdGroupId": "LongValueHere",
-        "CampaignId": "LongValueHere"
-      }
     ],
     "Campaigns": [
       {
@@ -98,22 +80,22 @@ To request a report of this type, pass this object to the [SubmitGenerateReport]
 
 ## <a name="elements"></a>Elements
 
-The [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md) object has the following elements: [Aggregation](#aggregation), [Columns](#columns), [Filter](#filter), [Scope](#scope), [Time](#time).
+The [MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md) object has the following elements: [Aggregation](#aggregation), [Columns](#columns), [Filter](#filter), [Scope](#scope), [Time](#time).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="aggregation"></a>Aggregation|The type of aggregation to use to aggregate the report data. For example, you can aggregate the report data by day or week, or request a summary report.<br/><br/>The default aggregation is Summary. It is important to note that if you do not include TimePeriod in the list of [Columns](#columns), the aggregation you chose will be ignored and Summary aggregation will be used regardless.|[ReportAggregation](reportaggregation.md)|
-|<a name="columns"></a>Columns|The list of attributes and performance statistics to include in the report. The report will include the columns in the order that you specify them.|[AgeGenderAudienceReportColumn](agegenderaudiencereportcolumn.md) array|
-|<a name="filter"></a>Filter|The filter information to use to filter the report data.|[AgeGenderAudienceReportFilter](agegenderaudiencereportfilter.md)|
-|<a name="scope"></a>Scope|The entity scope of the report.<br/><br/>Use this element to limit the report data to specific accounts, ad groups, or campaigns.|[AccountThroughAdGroupReportScope](accountthroughadgroupreportscope.md)|
-|<a name="time"></a>Time|The time period to use for the report. You can specify a custom date range or select a predefined date range, for example, Today or ThisWeek.<br/><br/>For a list of the time periods that you can specify for each aggregation type, see [Aggregation and Time](../guides/reports.md#aggregation-time).|[ReportTime](reporttime.md)|
+|<a name="columns"></a>Columns|The list of attributes and performance statistics to include in the report. The report will include the columns in the order that you specify them.|[AccountPerformanceReportColumn](accountperformancereportcolumn.md) array|
+|<a name="filter"></a>Filter|The filter information to use to filter the report data.|[AccountPerformanceReportFilter](accountperformancereportfilter.md)|
+|<a name="scope"></a>Scope|The entity scope of the report.<br/><br/>Use this element to limit the report data to specific accounts.|[AccountReportScope](accountreportscope.md)|
+|<a name="time"></a>Time|The time period to use for the report. You can specify a custom date range or select a predefined date range, for example, Today or ThisWeek.<br/><br/>For a list of the time periods that you can specify for each aggregation type, see [Aggregation and Time](../guides/reports.md#aggregation-time).<br/><br/>You can set the time zone within the [ReportTime](reporttime.md) object, which helps you accurately scope data for the requested time period.<br/><br/>If you do not choose a time zone, the Reporting service uses PacificTimeUSCanadaTijuana by default.|[ReportTime](reporttime.md)|
 
-The [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md) object has [Inherited Elements](#inheritedelements).
+The [MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md) object has [Inherited Elements](#inheritedelements).
 
 ## <a name="inheritedelements"></a>Inherited Elements
 
 ### <a name="inheritedelementsreportrequest"></a>Inherited Elements from ReportRequest
-The [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md) object derives from the [ReportRequest](reportrequest.md) object, and inherits the following elements: [ExcludeColumnHeaders](#excludecolumnheaders), [ExcludeReportFooter](#excludereportfooter), [ExcludeReportHeader](#excludereportheader), [Format](#format), [FormatVersion](#formatversion), [ReportName](#reportname), [ReturnOnlyCompleteData](#returnonlycompletedata). The descriptions below are specific to [AgeGenderAudienceReportRequest](agegenderaudiencereportrequest.md), and might not apply to other objects that inherit the same elements from the [ReportRequest](reportrequest.md) object.  
+The [MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md) object derives from the [ReportRequest](reportrequest.md) object, and inherits the following elements: [ExcludeColumnHeaders](#excludecolumnheaders), [ExcludeReportFooter](#excludereportfooter), [ExcludeReportHeader](#excludereportheader), [Format](#format), [FormatVersion](#formatversion), [ReportName](#reportname), [ReturnOnlyCompleteData](#returnonlycompletedata). The descriptions below are specific to [MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md), and might not apply to other objects that inherit the same elements from the [ReportRequest](reportrequest.md) object.  
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
