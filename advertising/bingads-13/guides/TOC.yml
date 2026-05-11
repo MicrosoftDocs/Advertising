@@ -1663,6 +1663,8 @@
       href: ../campaign-management-service/getsupportedclipchampaudio.md
     - name: GetSupportedFonts
       href: ../campaign-management-service/getsupportedfonts.md
+    - name: GetUetTagAuthKey
+      href: ../campaign-management-service/getuettagauthkey.md
     - name: GetUetTagsByIds
       href: ../campaign-management-service/getuettagsbyids.md
     - name: GetVideosByIds

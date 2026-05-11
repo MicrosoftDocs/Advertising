@@ -158,6 +158,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [GetSeasonalityAdjustmentsByIds](getseasonalityadjustmentsbyids.md)  
 [GetSharedEntityAssociationsByEntityIds](getsharedentityassociationsbyentityids.md)  
 [GetSharedEntityAssociationsBySharedEntityIds](getsharedentityassociationsbysharedentityids.md)  
+[GetUetTagAuthKey](getuettagauthkey.md)  
 [GetUetTagsByIds](getuettagsbyids.md)  
 [GetVideosByIds](getvideosbyids.md)  
 [SetAdExtensionsAssociations](setadextensionsassociations.md)  
