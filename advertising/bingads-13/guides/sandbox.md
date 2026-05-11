@@ -36,9 +36,9 @@ Follow these steps to get a new sandbox customer. If you already have a sandbox 
 
 ## <a name="invite-user"></a>Optional: Invite More Users
 
-To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, you need a Microsoft account (MSA) created with an outlook.com email account. If your sandbox customer does not yet have user credentials via a Microsoft account, or your sandbox customer was created with an outlook-int.com email account, you need to invite a user to work on your [sandbox](https://secure.sandbox.bingads.microsoft.com/) account via the following steps.
+To [authenticate with OAuth](authentication-oauth-quick-start.md) in sandbox, you need a Microsoft account (MSA) created with an outlook.com email account. If your sandbox customer does not yet have user credentials via a Microsoft account, or your sandbox customer was created with an outlook-int.com email account, you need to invite a user to work on your [sandbox](https://sandbox.bingads.microsoft.com/) account via the following steps.
 
-1. In Microsoft Advertising [sandbox](https://secure.sandbox.bingads.microsoft.com/), select **Settings**.
+1. In Microsoft Advertising [sandbox](https://sandbox.bingads.microsoft.com/), select **Settings**.
 2. Select **User management**.
 3. Select **Invite user**.
 4. Enter the email address of the user to invite. The email server must be outlook.com (for example, someone@outlook.com).
@@ -63,7 +63,7 @@ Microsoft Advertising sends an email invite to the user. If the invite doesn't s
 7. Exit Microsoft Advertising after completing the MSA process.
 
 > [!NOTE]
-> The MSA signup process returns you to the SI Microsoft Advertising user interface (ads-int.microsoft.com). After completing the MSA process, sign out of the SI interface and then sign in using your new outlook.com email address at [https://secure.sandbox.bingads.microsoft.com/](https://secure.sandbox.bingads.microsoft.com/).
+> The MSA signup process returns you to the SI Microsoft Advertising user interface (ads-int.microsoft.com). After completing the MSA process, sign out of the SI interface and then sign in using your new outlook.com email address at [https://sandbox.bingads.microsoft.com/](https://sandbox.bingads.microsoft.com/).
 
 ## Sandbox Environment — Google OAuth Support
 

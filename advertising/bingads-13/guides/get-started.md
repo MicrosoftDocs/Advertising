@@ -41,7 +41,7 @@ How can you get an access token for a user? As an application developer you'll u
 To use Bing Ads APIs, you must have a developer token and valid user credentials. If you do not yet have a Microsoft Advertising account, you can sign up via the [Microsoft Advertising web application](https://ads.microsoft.com/).  
 
 > [!NOTE]
-> The sandbox and production environments use separate credentials. You can sign up for a [Sandbox](sandbox.md) account [here](https://secure.sandbox.bingads.microsoft.com/). Everyone can use the universal sandbox developer token i.e., **BBD37VB98**.  
+> The sandbox and production environments use separate credentials. You can sign up for a [Sandbox](sandbox.md) account [here](https://sandbox.bingads.microsoft.com/). Everyone can use the universal sandbox developer token i.e., **BBD37VB98**.  
 
 You can follow these steps to get a developer token for production.
 
