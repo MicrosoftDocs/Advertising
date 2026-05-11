@@ -161,6 +161,7 @@ The Campaign Management service defines the following service operations.
 |[GetSharedEntityAssociationsBySharedEntityIds](getsharedentityassociationsbysharedentityids.md)|Gets the negative keyword list to campaign associations by negative keyword list IDs, or website exclusion list to ad account associations by website exclusion list IDs.|1 *SharedEntityIds*|
 |[GetSupportedClipchampAudio](getsupportedclipchampaudio.md)|Gets the specified supported clip champ audio.|N/A.|
 |[GetSupportedFonts](getsupportedfonts.md)|Gets the specified supported fonts.|N/A.|
+|[GetUetTagAuthKey](getuettagauthkey.md)|Gets an authentication key for a UET (Universal Event Tracking) tag. The key is used to authenticate server-side UET events sent through the Conversions API (CAPI). If a key already exists for the tag, it’s returned. If not, a new key is generated and stored.||
 |[GetUetTagsByIds](getuettagsbyids.md)|Gets the specified Universal Event Tracking (UET) tags.|100 *TagIds*|
 |[GetVideosByIds](getvideosbyids.md)|Gets videos by video identifiers.|1,000 *VideoIds*|
 |[RefineAssetGroupRecommendation](refineassetgrouprecommendation.md)|Refine an asset group recommendation.|N/A.|
