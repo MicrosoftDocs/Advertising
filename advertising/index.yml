@@ -148,7 +148,7 @@ conceptualContent:
           itemType: reference
           text: Supply Partners
       # Card
-    - title: Data Clean Room
+    - title: LiveRamp MAP Clean Room
       links:
         - url: /advertising/data-clean-room/
           itemType: overview
