@@ -1,5 +1,5 @@
 ---
-title: Data Clean Room
+title: LiveRamp MAP Clean Room
 ms.service: bing-ads
 ms.subservice: data-clean-room
 ms.topic: article
