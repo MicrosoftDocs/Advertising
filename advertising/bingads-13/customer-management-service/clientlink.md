@@ -47,6 +47,13 @@ A client link does not have a public system identifier. You can identify distinc
     <xs:element minOccurs="0" name="Timestamp" nillable="true" type="xs:base64Binary" />
     <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" />
     <xs:element minOccurs="0" name="CustomerLinkPermission" nillable="true" type="xs:string" />
+    <xs:element minOccurs="0" name="ClientEntityCustomerNumber" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
@@ -55,6 +62,7 @@ A client link does not have a public system identifier. You can identify distinc
 
 ```json
 {
+  "ClientEntityCustomerNumber": "ValueHere",
   "ClientEntityId": "LongValueHere",
   "ClientEntityName": "ValueHere",
   "ClientEntityNumber": "ValueHere",
@@ -88,13 +96,14 @@ A client link does not have a public system identifier. You can identify distinc
 
 ## <a name="elements"></a>Elements
 
-The [ClientLink](clientlink.md) object has the following elements: [ClientEntityId](#cliententityid), [ClientEntityName](#cliententityname), [ClientEntityNumber](#cliententitynumber), [CustomerLinkPermission](#customerlinkpermission), [ForwardCompatibilityMap](#forwardcompatibilitymap), [InviterEmail](#inviteremail), [InviterName](#invitername), [InviterPhone](#inviterphone), [IsBillToClient](#isbilltoclient), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedDateTime](#lastmodifieddatetime), [ManagingCustomerId](#managingcustomerid), [ManagingCustomerName](#managingcustomername), [ManagingCustomerNumber](#managingcustomernumber), [Name](#name), [Note](#note), [StartDate](#startdate), [Status](#status), [SuppressNotification](#suppressnotification), [Timestamp](#timestamp), [Type](#type).
+The [ClientLink](clientlink.md) object has the following elements: [ClientEntityCustomerNumber](#cliententitycustomernumber), [ClientEntityId](#cliententityid), [ClientEntityName](#cliententityname), [ClientEntityNumber](#cliententitynumber), [CustomerLinkPermission](#customerlinkpermission), [ForwardCompatibilityMap](#forwardcompatibilitymap), [InviterEmail](#inviteremail), [InviterName](#invitername), [InviterPhone](#inviterphone), [IsBillToClient](#isbilltoclient), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedDateTime](#lastmodifieddatetime), [ManagingCustomerId](#managingcustomerid), [ManagingCustomerName](#managingcustomername), [ManagingCustomerNumber](#managingcustomernumber), [Name](#name), [Note](#note), [StartDate](#startdate), [Status](#status), [SuppressNotification](#suppressnotification), [Timestamp](#timestamp), [Type](#type).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="cliententityid"></a>ClientEntityId|The identifier of the client advertiser account or client customer to manage<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. Either the *ClientEntityId* or *ClientEntityNumber* is required, but specifying both will cause the operation to fail.<br/>**Update:** Read-only and Required.|**long**|
+|<a name="cliententitycustomernumber"></a>ClientEntityCustomerNumber|The number of the client advertiser account’s customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is only applicable and required if [Type](#type) isn't set or set to *AccountLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the account ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|
+|<a name="cliententityid"></a>ClientEntityId|The identifier of the client advertiser account or client customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. Either the *ClientEntityId* or *ClientEntityNumber* is required, but specifying both will cause the operation to fail.<br/>**Update:** Read-only and Required.|**long**|
 |<a name="cliententityname"></a>ClientEntityName|The name of the client advertiser account or client customer to manage<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
-|<a name="cliententitynumber"></a>ClientEntityNumber|The number of the client advertiser account or client customer to manage<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. Either the *ClientEntityId* or *ClientEntityNumber* is required, but specifying both will cause the operation to fail.<br/>**Update:** Read-only and Required.|**string**|
+|<a name="cliententitynumber"></a>ClientEntityNumber|The number of the client advertiser account or client customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is required if [Type](#type) is *CustomerLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the customer ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|
 |<a name="customerlinkpermission"></a>CustomerLinkPermission|Determines whether the user's access to the accounts is restricted by customer hierarchy i.e., customer level client linking.<br/><br/>This element is only applicable if [Type](#type) is set to CustomerLink. In that case, the possible values include Administrative and Standard. Otherwise this field should be nil or empty.<br/><br/>If this field is set to "Administrative", the user has access to the [ClientEntityId](#cliententityid) through an Administrative customer [link](clientlink.md).<br/><br/>If this field is set to "Standard", the user has access to the [ClientEntityId](#cliententityid) through a Standard customer [link](clientlink.md).<br/><br/>The [ClientEntityId](#cliententityid) is part of a customer [link](clientlink.md) hierarchy whereby the user can access other customers below it.<br/><br/>For more information, see the [User Roles](../guides/account-hierarchy-permissions.md#user-roles) technical guide.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**string**|
 |<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br/><br/>Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for the *ClientLink* object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
 |<a name="inviteremail"></a>InviterEmail|The email of the user who created the client link request.<br/><br/>This value does not need to be the same as, nor is it used to modify, the email already stored in Microsoft Advertising for the current authenticated user.<br/><br/>If not specified, the service will set this value to the email already stored in Microsoft Advertising for the current authenticated user.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**string**|
