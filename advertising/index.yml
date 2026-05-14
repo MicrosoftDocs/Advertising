@@ -153,12 +153,3 @@ conceptualContent:
         - url: /advertising/data-clean-room/
           itemType: overview
           text: Overview
-        - url: /advertising/data-clean-room/exposure-feed
-          itemType: reference
-          text: Exposure feed
-        - url: /advertising/data-clean-room/audience-segments
-          itemType: reference
-          text: Audience segments
-        - url: /advertising/data-clean-room/metadata
-          itemType: reference
-          text: Metadata
