@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Reserved.
+description: Defines the criteria to use to filter the MMM performance report data.
 ---
 # MMMPerformanceReportFilter Data Object - Reporting
-Reserved.
+Defines the criteria to use to filter the MMM performance report data.
 
 ## Syntax
 
@@ -53,13 +53,13 @@ The [MMMPerformanceReportFilter](mmmperformancereportfilter.md) object has the f
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountstatus"></a>AccountStatus|Reserved.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
-|<a name="addistribution"></a>AdDistribution|Reserved.|[AdDistributionReportFilter](addistributionreportfilter.md)|
-|<a name="adgroupstatus"></a>AdGroupStatus|Reserved.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
-|<a name="assetgroupstatus"></a>AssetGroupStatus|Reserved.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
-|<a name="campaignstatus"></a>CampaignStatus|Reserved.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
-|<a name="countrycode"></a>CountryCode|Reserved.|**string** array|
-|<a name="language"></a>Language|Reserved.|[LanguageReportFilter](languagereportfilter.md)|
+|<a name="accountstatus"></a>AccountStatus|The report will include data for only the account status. For example, you can use the filter to include data for only active accounts.<br/><br/>You can specify one or more account statuses.|[AccountStatusReportFilter](accountstatusreportfilter.md)|
+|<a name="addistribution"></a>AdDistribution|The report will include data for only the specified distribution medium. For example, you can use the filter to include data for only search ads.<br/><br/>You can specify one or more distribution mediums.|[AdDistributionReportFilter](addistributionreportfilter.md)|
+|<a name="adgroupstatus"></a>AdGroupStatus|The report will include data for only the ad group status. For example, you can use the filter to include data for only active ad groups.<br/><br/>You can specify one or more ad group statuses.|[AdGroupStatusReportFilter](adgroupstatusreportfilter.md)|
+|<a name="assetgroupstatus"></a>AssetGroupStatus|The report will include data for only the asset group status. For example, you can use the filter to include data for only active asset groups.<br/><br/>You can specify one or more asset group statuses.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
+|<a name="campaignstatus"></a>CampaignStatus|The report will include data for only the campaign status. For example, you can use the filter to include data for only active campaigns.<br/><br/>You can specify one or more campaign statuses.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
+|<a name="countrycode"></a>CountryCode|The report will include data for only the specified countries/regions where the user that clicked the ad is located.<br/><br/>For a list of possible values, see [Geographical Location Codes](../guides/geographical-location-codes.md).|**string** array|
+|<a name="language"></a>Language|The report will include data for only websites that used the specified languages.<br/><br/>You can specify one or more languages.|[LanguageReportFilter](languagereportfilter.md)|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
