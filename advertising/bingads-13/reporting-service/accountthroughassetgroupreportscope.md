@@ -18,7 +18,7 @@ Defines a AccountThroughAssetGroupReportScope data object.
 ```xml
 <xs:complexType name="AccountThroughAssetGroupReportScope" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AccountIds" nillable="true" type="q17:ArrayOflong" />
+    <xs:element minOccurs="0" name="AccountIds" nillable="true" type="q17:ArrayOflong" xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="AssetGroups" nillable="true" type="tns:ArrayOfAssetGroupReportScope" />
     <xs:element minOccurs="0" name="Campaigns" nillable="true" type="tns:ArrayOfCampaignReportScope" />
   </xs:sequence>

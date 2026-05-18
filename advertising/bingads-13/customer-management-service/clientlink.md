@@ -22,7 +22,6 @@ A client link does not have a public system identifier. You can identify distinc
 > [!WARNING]
 > The *ClientEntityCustomerNumber* field is optional. It will be required in a future release.
 
-
 ## Syntax
 
 # [XML](#tab/xml)
@@ -104,7 +103,7 @@ The [ClientLink](clientlink.md) object has the following elements: [ClientEntity
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="cliententitycustomernumber"></a>ClientEntityCustomerNumber|The number of the client advertiser accountâ€™s customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is only applicable and required if [Type](#type) isn't set or set to *AccountLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the account ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|
+|<a name="cliententitycustomernumber"></a>ClientEntityCustomerNumber|The number of the client advertiser account’s customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is only applicable and required if [Type](#type) isn't set or set to *AccountLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the account ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|
 |<a name="cliententityid"></a>ClientEntityId|The identifier of the client advertiser account or client customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. Either the *ClientEntityId* or *ClientEntityNumber* is required, but specifying both will cause the operation to fail.<br/>**Update:** Read-only and Required.|**long**|
 |<a name="cliententityname"></a>ClientEntityName|The name of the client advertiser account or client customer to manage<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 |<a name="cliententitynumber"></a>ClientEntityNumber|The number of the client advertiser account or client customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is required if [Type](#type) is *CustomerLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the customer ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|

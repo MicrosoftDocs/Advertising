@@ -66,7 +66,6 @@ The [MSClickIdPerformanceReportColumn](msclickidperformancereportcolumn.md) valu
 |<a name="pagenumber"></a>PageNumber|The page number in the search results where the ad appeared.|
 |<a name="revenue"></a>Revenue|The revenue optionally reported by the advertiser as a result of conversions<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
 |<a name="searchquery"></a>SearchQuery|The search term used by your potential audience.|
-|<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
 |<a name="state"></a>State|The state where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
 |<a name="topvsother"></a>TopVsOther|Indicates whether the ad impression appeared in a top position or elsewhere. The possible values include AOL search - Top, AOL search - Other, Audience network, Bing and Yahoo! search - Top, Bing and Yahoo! search - Other, Syndicated search partners - Top, Syndicated search partners - Other, Content network, and Unknown.|
