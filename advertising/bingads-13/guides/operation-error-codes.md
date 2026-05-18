@@ -56,9 +56,11 @@ The request message is null.
 InvalidCredentials
 
 **Description**
-Authentication failed. Either supplied credentials are invalid or the account is inactive.
+Authentication failed. Reasons include, *AccountInactive*, *InvalidAccessToken*, or *UserNotFound*. Either supplied credentials are invalid or the account is inactive.  
 
-Typically indicates usage of an incorrect access token (AuthenticationToken header element) or developer token for the target environment. For example your credentials may be valid in production; however, when targeting sandbox you would observe code 105.
+- *AccountInactive*: The account is inactive.
+- *InvalidAccessToeken*: Typically indicates usage of an incorrect access token (AuthenticationToken header element) or developer token for the target environment. For example your credentials may be valid in production; however, when targeting sandbox you would observe code 105.
+- *UserNotFound*: The supplied credentials are invalid.
 
 ***
 
@@ -165,7 +167,7 @@ WorkIdentityNotAvailable
 **Description**
 You must use a personal Microsoft account to sign in to Microsoft Advertising.
 
-This error is returned for example, when the user selected their Azure Active Directory (AAD) identity via the consent prompt, and they only have a personal account with Microsoft Advertising.  
+This error is returned for example, when the user selected their Microsoft Entra ID via the consent prompt, and they only have a personal account with Microsoft Advertising.  
 
 ***
 
@@ -176,7 +178,7 @@ This error is returned for example, when the user selected their Azure Active Di
 PersonalIdentityMigratedToWork
 
 **Description**
-You can no longer use this personal Microsoft account to access Microsoft Advertising. Please sign in using your work account instead.
+You can no longer use this personal Microsoft account to access Microsoft Advertising. Please sign in using your work account (Microsoft Entra ID) instead.
 
 ***
 
