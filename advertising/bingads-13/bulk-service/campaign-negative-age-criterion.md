@@ -21,9 +21,9 @@ The maximum number of age criterions that you can specify per campaign is five, 
 Negative age criterions at the campaign level are only supported for Performance Max campaigns.
 
 > **Tip**
-> For an overview of how to use target criterions, see [Show Ads to Your Target Audience](../guides/show-ads-target-audience).
+> For an overview of how to use target criterions, see [Show Ads to Your Target Audience](../guides/show-ads-target-audience.md).
 
-You can download all Campaign Negative Age Criterion records in the account by including the [DownloadEntity](downloadentity) value of *CampaignTargetCriterions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids) service request. Additionally the download request must include the [EntityData](datascope#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload).
+You can download all Campaign Negative Age Criterion records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignTargetCriterions* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope#entitydata.md) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
 The following Bulk CSV example would add a new campaign negative age criterion if a valid *Parent Id* value is provided.
 
@@ -33,7 +33,7 @@ Format Version,,,,,,,,,,6.0,,,,,,,,
 Campaign Negative Age Criterion,Active,,-111,,,ClientIdGoesHere,,EighteenToTwentyFour,,,,,,,,,,
 ```
 
-If you are using the [Bing Ads SDKs](../guides/client-libraries) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager) to upload and download the *BulkCampaignNegativeAgeCriterion* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.
+If you are using the [Bing Ads SDKs](../guides/client-libraries.md) for .NET, Java, or Python, you can save time using the [BulkServiceManager](../guides/sdk-bulk-service-manager.md) to upload and download the *BulkCampaignNegativeAgeCriterion* object, instead of calling the service operations directly and writing custom code to parse each field in the bulk file.
 
 ```csharp
 var uploadEntities = new List<BulkEntity>();
@@ -82,7 +82,7 @@ var entityUploadParameters = new EntityUploadParameters
 var uploadResultEntities = (await BulkServiceManager.UploadEntitiesAsync(entityUploadParameters)).ToList();
 ```
 
-For a Campaign Negative Age Criterion record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema).
+For a Campaign Negative Age Criterion record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md).
 
 - [Campaign](#campaign)
 - [Client Id](#clientid)
@@ -127,9 +127,9 @@ The date and time that the entity was last updated. The value is in Coordinated 
 
 The identifier of the campaign where this criterion is applied or removed.
 
-This bulk field maps to the *Id* field of the [Campaign](campaign) record.
+This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 
-**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign) record. This is recommended if you are adding new criterions to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](bulk-file-schema#referencekeys).
+**Add:** Read-only and Required. You must either specify an existing campaign identifier, or specify a negative identifier that is equal to the *Id* field of the parent [Campaign](campaign.md) record. This is recommended if you are adding new criterions to a new campaign in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](bulk-file-schema.md#referencekeys).
 **Delete:** Read-only and Required
 
 ## Status
