@@ -17,6 +17,9 @@ dev_langs:
 # GetUetTagAuthKey Service Operation - Campaign Management
 Gets an authentication key for a UET (Universal Event Tracking) tag. The key is used to authenticate server-side UET events sent through the Conversions API (CAPI). If a key already exists for the tag, it’s returned. If not, a new key is generated and stored.
 
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
