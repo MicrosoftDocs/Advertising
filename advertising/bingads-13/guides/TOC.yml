@@ -1046,6 +1046,9 @@
     - name: Campaign Logo Ad Extension
       href: ../bulk-service/campaign-logo-ad-extension.md
       displayName: BulkCampaignLogoAdExtension
+    - name: Campaign Negative Age Criterion
+      href: ../bulk-service/campaign-negative-age-criterion.md
+      displayName: BulkCampaignNegativeAgeCriterion
     - name: Campaign Negative Combined List Association
       href: ../bulk-service/campaign-negative-combined-list-association.md
       displayName: BulkCampaignNegativeCombinedListAssociation
@@ -1058,6 +1061,9 @@
     - name: Campaign Negative Dynamic Search Ad Target
       href: ../bulk-service/campaign-negative-dynamic-search-ad-target.md
       displayName: BulkCampaignNegativeDynamicSearchAdTarget
+    - name: Campaign Negative Gender Criterion
+      href: ../bulk-service/campaign-negative-gender-criterion.md
+      displayName: BulkCampaignNegativeGenderCriterion
     - name: Campaign Negative Impression Based Remarketing List Association
       href: ../bulk-service/campaign-negative-impression-based-remarketing-list-association.md
       displayName: BulkCampaignNegativeImpressionBasedRemarketingListAssociation
