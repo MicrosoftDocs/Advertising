@@ -154,12 +154,14 @@ Record Type  |Supported Campaign Types
 [Campaign Job Function Criterion](campaign-deviceos-criterion.md)|Search<br/>Shopping  
 [Campaign Label](campaign-label.md)|All  
 [Campaign Location Ad Extension](campaign-location-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Negative Age Criterion](campaign-negative-age-criterion.md)|Performance Max  
 [Campaign Location Criterion](campaign-location-criterion.md)|All  
 [Campaign Location Intent Criterion](campaign-location-intent-criterion.md)|All  
 [Campaign Negative Combined List Association](campaign-negative-combined-list-association.md)|All  
 [Campaign Negative Custom Audience Association](campaign-negative-custom-audience-association.md)|All  
 [Campaign Negative Customer List Association](campaign-negative-customer-list-association.md)|All  
 [Campaign Negative Dynamic Search Ad Target](campaign-negative-dynamic-search-ad-target.md)|Search  
+[Campaign Negative Gender Criterion](campaign-negative-gender-criterion.md)|Performance Max  
 [Campaign Negative Impression Based Remarketing List Association](campaign-negative-impression-based-remarketing-list-association.md)|Search<br/>Shopping  
 [Campaign Negative In Market Audience Association](campaign-negative-in-market-audience-association.md)|Search<br/>Shopping  
 [Campaign Negative Keyword](campaign-negative-keyword.md)|All  
