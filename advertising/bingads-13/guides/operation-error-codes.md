@@ -56,10 +56,10 @@ The request message is null.
 InvalidCredentials
 
 **Description**
-Authentication failed. Reasons include, *AccountInactive*, *InvalidAccessToken*, or *UserNotFound*. Either supplied credentials are invalid or the account is inactive.  
+Authentication failed. Reasons include, *AccountInactive*, *InvalidAccessToken*, or *UserNotFound*.
 
 - *AccountInactive*: The account is inactive.
-- *InvalidAccessToeken*: Typically indicates usage of an incorrect access token (AuthenticationToken header element) or developer token for the target environment. For example your credentials may be valid in production; however, when targeting sandbox you would observe code 105.
+- *InvalidAccessToken*: Typically indicates usage of an incorrect access token (AuthenticationToken header element) or developer token for the target environment. For example your credentials may be valid in production; however, when targeting sandbox you would observe code 105.
 - *UserNotFound*: The supplied credentials are invalid.
 
 ***
@@ -197,12 +197,14 @@ Your organization requires you to use your work email address to access Microsof
 126
 
 **Symbolic Error Code**
-IdentityTypeMismatch
+AuthTypeMismatchForSameEmail
 
 **Description**
-The identity type you used doesn’t match the account previously registered for this email. Sign in with the correct account.  
+The selected sign-in method is not valid for this account. Reasons include, *GoogleAccountIsRequired*, *PersonalAccountIsRequired*, or *WorkAccountIsRequired*.  
 
-For example, this error can occur if the email was originally registered using Google Sign‑In but you're now trying to sign in with a Microsoft account, or the other way around.
+- *PersonalAccountIsRequired*: This account requires a personal account. Verify the account type and sign in using your personal credentials.  
+- *GoogleAccountIsRequired*: This account requires a Google account. Verify the account type and sign in using your Google credentials.  
+- *WorkAccountIsRequired*: This account requires a work account. Verify the account type and sign in using your work credentials.  
 
 ***
 
