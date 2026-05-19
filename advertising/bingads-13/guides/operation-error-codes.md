@@ -197,10 +197,10 @@ Your organization requires you to use your work email address to access Microsof
 126
 
 **Symbolic Error Code**
-AuthTypeMismatchForSameEmail
+IdentityTypeMismatch
 
 **Description**
-The selected sign-in method is not valid for this account. Reasons include, *GoogleAccountIsRequired*, *PersonalAccountIsRequired*, or *WorkAccountIsRequired*.  
+The identity type you used doesn’t match the account previously registered for this email. Sign in with the correct account. Reasons include *GoogleAccountIsRequired*, *PersonalAccountIsRequired*, or *WorkAccountIsRequired*.  
 
 - *PersonalAccountIsRequired*: This account requires a personal account. Verify the account type and sign in using your personal credentials.  
 - *GoogleAccountIsRequired*: This account requires a Google account. Verify the account type and sign in using your Google credentials.  
