@@ -25,7 +25,7 @@ This example uses the Campaign Management API to setup a Dynamic Search Ads (DSA
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/DynamicSearchAds.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/DynamicSearchAds.php)]
+[!code-php[Main](./code-example-rest-php/DynamicSearchAdsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/dynamic_search_ads_test.py)]
 

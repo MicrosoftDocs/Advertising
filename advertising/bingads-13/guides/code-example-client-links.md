@@ -22,7 +22,7 @@ This example demonstrates how to use agency credentials to invite a client, and 
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ClientLinks.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ClientLinks.php)]
+[!code-php[Main](./code-example-rest-php/ClientLinksTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/client_links_test.py)]
 

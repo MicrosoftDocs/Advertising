@@ -22,7 +22,7 @@ This example demonstrates how to associate negative keywords and negative keywor
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/NegativeKeywords.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/NegativeKeywords.php)]
+[!code-php[Main](./code-example-rest-php/NegativeKeywordsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/negative_keywords_test.py)]
 

@@ -22,7 +22,7 @@ This example demonstrates how to associate remarketing lists with a new ad group
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/RemarketingLists.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/RemarketingLists.php)]
+[!code-php[Main](./code-example-rest-php/RemarketingListsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/remarketing_lists_test.py)]
 

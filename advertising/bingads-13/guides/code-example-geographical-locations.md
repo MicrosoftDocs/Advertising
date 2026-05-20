@@ -22,7 +22,7 @@ This example demonstrates how to download the comma separated value (CSV) file t
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/GeographicalLocations.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/GeographicalLocations.php)]
+[!code-php[Main](./code-example-rest-php/GeographicalLocationsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/geographical_locations_test.py)]
 

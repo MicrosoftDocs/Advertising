@@ -22,7 +22,7 @@ This example demonstrates how to send Microsoft Advertising your offline convers
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/OfflineConversions.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/OfflineConversions.php)]
+[!code-php[Main](./code-example-rest-php/OfflineConversionsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/offline_conversions_test.py)]
 

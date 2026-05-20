@@ -22,7 +22,7 @@ This example demonstrates how to apply product conditions for Product Ads in Mic
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ProductAds.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ProductAds.php)]
+[!code-php[Main](./code-example-rest-php/ProductAdsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/product_ads_test.py)]
 

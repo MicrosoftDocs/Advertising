@@ -22,7 +22,7 @@ This example demonstrates how to invite a user to manage Microsoft Advertising a
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/InviteUser.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/InviteUser.php)]
+[!code-php[Main](./code-example-rest-php/InviteUserTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/invite_user_test.py)]
 

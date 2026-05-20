@@ -24,7 +24,7 @@ This example demonstrates how to setup Expanded Text Ads for a search advertisin
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ExpandedTextAds.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ExpandedTextAds.php)]
+[!code-php[Main](./code-example-rest-php/ExpandedTextAdsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/expanded_text_ads_test.py)]
 
