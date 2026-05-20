@@ -22,7 +22,7 @@ This example demonstrates how to setup Responsive Ads for the Microsoft Audience
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ResponsiveAds.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ResponsiveAds.php)]
+[!code-php[Main](./code-example-rest-php/ResponsiveAdsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/responsive_ad_recommendation_test.py)]
 

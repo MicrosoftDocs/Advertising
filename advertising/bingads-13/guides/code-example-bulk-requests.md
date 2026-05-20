@@ -22,7 +22,7 @@ This example demonstrates how to download campaigns, ad groups, and ads in a .cs
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/BulkServiceManagerDemo.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/BulkDownloadUpload.php)]
+[!code-php[Main](./code-example-rest-php/BulkDownloadUploadTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/bulk_download_upload_test.py)]
 

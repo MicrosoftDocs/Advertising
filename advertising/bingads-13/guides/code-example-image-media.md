@@ -22,7 +22,7 @@ This example demonstrates how to add media for responsive ads and image ad exten
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ImageMedia.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ImageMedia.php)]
+[!code-php[Main](./code-example-rest-php/ImageMediaTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/image_media_test.py)]
 

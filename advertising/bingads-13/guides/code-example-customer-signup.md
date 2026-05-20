@@ -22,7 +22,7 @@ This example demonstrates how an aggregator can call SignupCustomer to create a 
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/CustomerSignup.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/CustomerSignup.php)]
+[!code-php[Main](./code-example-rest-php/CustomerSignupTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/customer_signup_test.py)]
 

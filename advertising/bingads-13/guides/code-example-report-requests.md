@@ -22,7 +22,7 @@ This example demonstrates how to request and retrieve performance reports.
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ReportRequests.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ReportRequests.php)]
+[!code-php[Main](./code-example-rest-php/ReportRequestsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/submit_generate_report_rest.py)]
 

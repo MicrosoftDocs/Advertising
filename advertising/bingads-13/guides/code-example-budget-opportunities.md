@@ -22,7 +22,7 @@ This example demonstrates how to get the budget opportunities for each campaign 
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/BudgetOpportunities.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/BudgetOpportunities.php)]
+[!code-php[Main](./code-example-rest-php/BudgetOpportunitiesTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/budget_opportunities_test.py)]
 

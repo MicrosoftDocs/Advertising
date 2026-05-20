@@ -22,7 +22,7 @@ This example demonstrates how to use company, industry, and job function criteri
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/ProfileCriteria.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/ProfileCriteria.php)]
+[!code-php[Main](./code-example-rest-php/ProfileCriteriaTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/profile_criteria_test.py)]
 

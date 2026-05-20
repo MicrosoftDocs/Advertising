@@ -22,7 +22,7 @@ This example demonstrates how to get keyword ideas and traffic estimates for sea
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/KeywordPlanner.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/KeywordPlanner.php)]
+[!code-php[Main](./code-example-rest-php/KeywordPlannerTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/keyword_planner_test.py)]
 

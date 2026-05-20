@@ -22,7 +22,7 @@ This example demonstrates how to use location criteria to show ads to your targe
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/TargetCriteria.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/TargetCriteria.php)]
+[!code-php[Main](./code-example-rest-php/TargetCriteriaTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/target_criteria_test.py)]
 

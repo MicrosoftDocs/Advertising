@@ -22,7 +22,7 @@ This example demonstrates how to create experiment campaigns from a base campaig
 
 [!code-java[Main](../../../BingAds-Java-SDK/examples/BingAdsDesktopApp/src/main/java/com/microsoft/bingads/examples/v13/Experiments.java)]
 
-[!code-php[Main](../../../BingAds-PHP-SDK/samples/V13/Experiments.php)]
+[!code-php[Main](./code-example-rest-php/ExperimentsTest.php)]
 
 [!code-python[Main](../../../BingAds-Python-SDK/examples/v13/experiments_test.py)]
 
