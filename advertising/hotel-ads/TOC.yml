@@ -9,7 +9,7 @@
     href: ../query-message/reference.md
   - name: Query message schema
     href: ../query-message/schema.md
-  - name: Live query
+  - name: Live Query
     href: ../query-message/live-query.md
 - name: Hint Message
   href: ../hint-message/hint-message.md
