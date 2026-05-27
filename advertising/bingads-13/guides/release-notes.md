@@ -25,6 +25,26 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
 
+## <a name="may2026"></a>May 2026
+
+- [New API Interfaces](#newapiinterfaces-may2026)  
+
+### <a name="newapiinterfaces-may2026"></a>New API Interfaces  
+
+- New requirement for dual ID for account linking APIs: [ClientLink](../customer-management-service/clientlink.md)
+- New setting: [AISearchSetting](../campaign-management-service/aisearchsetting.md)
+- New report: [MSClickIdPerformanceReport](../reporting-service/msclickidperformancereportcolumn.md)
+- New Campaign Management API: [GetUetTagAuthKey](../campaign-management-service/getuettaguathkey.md)
+- New Billing APIs: *GetBillingGroups*, *GetUngroupedAccounts*, and *UpdateBillingGroupAccounts*.
+
+### <a name="bulkservice-may2026"></a>Bulk Service
+
+- Add *AISearchSetting* to BulkCampaign mapping.
+- Add *BaseDomainSetting* to BulkAdGroup mapping.
+- New goal type: *BulkAppDownloadGoal*.
+- New mapping: *BulkAccountContentNegativeKeywordList*.
+- New mapping for Performance Max campaign-level negative age/gender.
+
 ## <a name="february2026"></a>February 2026
 
 - [New API Interfaces](#newapiinterfaces-september2025)  
