@@ -91,7 +91,7 @@ Send all S2S Direct events to this endpoint:
 https://capi.uet.microsoft.com/v1/{tagID}/events
 ```
 
-Include your specific UET tag ID in the URL format `/v1/{tagId}/events`. Contact your Account Manager to obtain the token. The token should be included in the header "Authorization". POST-requests with a JSON body are accepted.
+Include your specific UET tag ID in the URL format `/v1/{tagId}/events`. The token is provided in the Microsoft Advertising UI, in the **UET Tag** section during tag setup. The token should be included in the header "Authorization". POST-requests with a JSON body are accepted.
 
 Use the Bearer scheme for the authorization header as follows:
 
