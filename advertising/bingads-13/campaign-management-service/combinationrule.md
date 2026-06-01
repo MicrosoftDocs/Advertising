@@ -18,7 +18,7 @@ A combination rule includes logical conditions used to determine who to add to y
 ```xml
 <xs:complexType name="CombinationRule" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q126="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="AudienceIds" nillable="true" type="q126:ArrayOflong" />
+    <xs:element name="AudienceIds" nillable="true" type="q126:ArrayOflong" xmlns:q126="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element name="Operator" type="tns:LogicalOperator" />
   </xs:sequence>
 </xs:complexType>
