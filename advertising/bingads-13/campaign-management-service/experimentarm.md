@@ -18,7 +18,7 @@ Defines the experiment arm data object.
 ```xml
 <xs:complexType name="ExperimentArm" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element xmlns:q143="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="CampaignIds" nillable="true" type="q143:ArrayOflong" />
+    <xs:element minOccurs="0" name="CampaignIds" nillable="true" type="q143:ArrayOflong" xmlns:q143="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="IsControlArm" type="xs:boolean" />
     <xs:element minOccurs="0" name="TrafficSplit" type="xs:int" />

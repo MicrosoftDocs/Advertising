@@ -18,8 +18,8 @@ Defines the base object of a campaign conversion goal.
 ```xml
 <xs:complexType name="CampaignConversionGoal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element name="CampaignId" type="xs:long" />
-    <xs:element name="GoalId" type="xs:long" />
+    <xs:element minOccurs="0" name="CampaignId" type="xs:long" />
+    <xs:element minOccurs="0" name="GoalId" type="xs:long" />
   </xs:sequence>
 </xs:complexType>
 ```

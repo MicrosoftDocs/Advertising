@@ -48,7 +48,7 @@ A client link does not have a public system identifier. You can identify distinc
     <xs:element minOccurs="0" name="LastModifiedDateTime" type="xs:dateTime" />
     <xs:element minOccurs="0" name="LastModifiedByUserId" type="xs:long" />
     <xs:element minOccurs="0" name="Timestamp" nillable="true" type="xs:base64Binary" />
-    <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="CustomerLinkPermission" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ClientEntityCustomerNumber" nillable="true" type="xs:string">
       <xs:annotation>
@@ -103,7 +103,7 @@ The [ClientLink](clientlink.md) object has the following elements: [ClientEntity
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="cliententitycustomernumber"></a>ClientEntityCustomerNumber|The number of the client advertiser account’s customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is only applicable and required if [Type](#type) isn't set or set to *AccountLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the account ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|
+|<a name="cliententitycustomernumber"></a>ClientEntityCustomerNumber|The number of the client advertiser account?s customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is only applicable and required if [Type](#type) isn't set or set to *AccountLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the account ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|
 |<a name="cliententityid"></a>ClientEntityId|The identifier of the client advertiser account or client customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. Either the *ClientEntityId* or *ClientEntityNumber* is required, but specifying both will cause the operation to fail.<br/>**Update:** Read-only and Required.|**long**|
 |<a name="cliententityname"></a>ClientEntityName|The name of the client advertiser account or client customer to manage<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 |<a name="cliententitynumber"></a>ClientEntityNumber|The number of the client advertiser account or client customer to manage.<br/><br/>The [Type](#type) element determines whether the link is to a client advertiser account or a client customer.<br/><br/>**Add:** Required. This element is required if [Type](#type) is *CustomerLink*. If required and missing, a *ClientLinkFieldInvalid* error is returned. If the customer ID doesn't match, a *LinkPairMismatch* error is returned.<br/>**Update:** Read-only and Required.|**string**|

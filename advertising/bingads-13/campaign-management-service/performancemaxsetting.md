@@ -42,7 +42,7 @@ Defines the PerformanceMaxSetting object.
           </xs:annotation>
         </xs:element>
         <xs:element minOccurs="0" name="FinalUrlExpansionOptOut" type="xs:boolean" />
-        <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PageFeedIds" nillable="true" type="q7:ArrayOflong">
+        <xs:element minOccurs="0" name="PageFeedIds" nillable="true" type="q7:ArrayOflong" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />

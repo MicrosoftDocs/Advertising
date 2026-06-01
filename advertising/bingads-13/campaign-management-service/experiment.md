@@ -65,13 +65,7 @@ When you delete an *Experiment*, the experiment [Campaign](campaign.md) will als
   <xs:sequence>
     <xs:element minOccurs="0" name="BaseCampaignId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
-    <xs:element minOccurs="0" name="ExperimentArms" nillable="true" type="tns:ArrayOfExperimentArm">
-      <xs:annotation>
-        <xs:appinfo>
-          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
-        </xs:appinfo>
-      </xs:annotation>
-    </xs:element>
+    <xs:element minOccurs="0" name="ExperimentArms" nillable="true" type="tns:ArrayOfExperimentArm" />
     <xs:element minOccurs="0" name="ExperimentCampaignId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="ExperimentStatus" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ExperimentSubType" nillable="true" type="xs:string">

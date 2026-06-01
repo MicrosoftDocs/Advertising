@@ -7,7 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
 zone_pivot_groups: api-reference
-description: Gets an authentication key for a UET (Universal Event Tracking) tag. The key is used to authenticate server-side UET events sent through the Conversions API (CAPI). If a key already exists for the tag, it’s returned. If not, a new key is generated and stored.
+description: Gets an authentication key for a UET (Universal Event Tracking) tag.
 dev_langs: 
 - csharp
 - java
@@ -15,7 +15,7 @@ dev_langs:
 - python
 ---
 # GetUetTagAuthKey Service Operation - Campaign Management
-Gets an authentication key for a UET (Universal Event Tracking) tag. The key is used to authenticate server-side UET events sent through the Conversions API (CAPI). If a key already exists for the tag, it’s returned. If not, a new key is generated and stored.
+Gets an authentication key for a UET (Universal Event Tracking) tag. The key is used to authenticate server-side UET events sent through the Conversions API (CAPI). If a key already exists for the tag, it's returned. If not, a new key is generated and stored.
 
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
