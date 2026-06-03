@@ -3168,6 +3168,10 @@
       href: ../reporting-service/searchqueryperformancereportfilter.md
     - name: SearchQueryPerformanceReportRequest
       href: ../reporting-service/searchqueryperformancereportrequest.md
+    - name: SearchTermLandingPageReportFilter
+      href: ../reporting-service/searchtermlandingpagereportfilter.md
+    - name: SearchTermLandingPageReportRequest
+      href: ../reporting-service/searchtermlandingpagereportrequest.md
     - name: ShareOfVoiceReportFilter
       href: ../reporting-service/shareofvoicereportfilter.md
     - name: ShareOfVoiceReportRequest
@@ -3313,6 +3317,8 @@
       href: ../reporting-service/searchinsightperformancereportcolumn.md
     - name: SearchQueryPerformanceReportColumn
       href: ../reporting-service/searchqueryperformancereportcolumn.md
+    - name: SearchTermLandingPageReportColumn
+      href: ../reporting-service/searchtermlandingpagereportcolumn.md
     - name: ShareOfVoiceReportColumn
       href: ../reporting-service/shareofvoicereportcolumn.md
     - name: SortOrder

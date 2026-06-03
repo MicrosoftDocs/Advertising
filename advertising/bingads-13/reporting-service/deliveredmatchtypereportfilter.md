@@ -22,6 +22,7 @@ Defines the delivered match type values that you can use to filter the report da
         <xs:enumeration value="Broad" />
         <xs:enumeration value="ExactCloseVariant" />
         <xs:enumeration value="PhraseCloseVariant" />
+        <xs:enumeration value="AIOptimized" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -30,10 +31,11 @@ Defines the delivered match type values that you can use to filter the report da
 
 ## <a name="values"></a>Values
 
-The [DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md) value set has the following values: [Broad](#broad), [Exact](#exact), [ExactCloseVariant](#exactclosevariant), [Phrase](#phrase), [PhraseCloseVariant](#phraseclosevariant).
+The [DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md) value set has the following values: [AIOptimized](#aioptimized), [Broad](#broad), [Exact](#exact), [ExactCloseVariant](#exactclosevariant), [Phrase](#phrase), [PhraseCloseVariant](#phraseclosevariant).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="aioptimized"></a>AIOptimized|Reserved.|
 |<a name="broad"></a>Broad|The report will contain ads that were delivered using a broad match comparison.|
 |<a name="exact"></a>Exact|The report will contain ads that were delivered by using an exact match comparison.|
 |<a name="exactclosevariant"></a>ExactCloseVariant|The report will contain ads that were delivered by using a close variant exact match comparison.<br/><br/>Examples of the types of close variations that are considered include plurals, stemming, misspellings, abbreviations, and acronyms. For more information and examples, see the help topic [What are keyword match types, and how do I use them?](https://help.ads.microsoft.com/#apex/3/en/50822/1)<br/><br/>This filter option can only be included in the [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md) object.|
@@ -47,4 +49,5 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 ## Used By
 [KeywordPerformanceReportFilter](keywordperformancereportfilter.md)  
 [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)  
+[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)  
 [ShareOfVoiceReportFilter](shareofvoicereportfilter.md)  

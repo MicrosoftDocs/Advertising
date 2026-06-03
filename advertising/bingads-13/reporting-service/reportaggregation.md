@@ -90,5 +90,6 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [PublisherUsagePerformanceReportRequest](publisherusageperformancereportrequest.md)  
 [SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)  
 [SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)  
+[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)  
 [ShareOfVoiceReportRequest](shareofvoicereportrequest.md)  
 [UserLocationPerformanceReportRequest](userlocationperformancereportrequest.md)  
