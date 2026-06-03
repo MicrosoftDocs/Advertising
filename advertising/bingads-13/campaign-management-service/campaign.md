@@ -34,7 +34,28 @@ Defines a campaign.
       </xs:annotation>
     </xs:element>
     <xs:element minOccurs="0" name="BiddingScheme" nillable="true" type="tns:BiddingScheme" />
+    <xs:element minOccurs="0" name="BrandColor" nillable="true" type="tns:ArrayOfAssetLink">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
+    <xs:element minOccurs="0" name="BrandLogo" nillable="true" type="tns:ArrayOfAssetLink">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="BudgetType" nillable="true" type="tns:BudgetLimitType" />
+    <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="DailyBudget" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="DealIds" nillable="true" type="q9:ArrayOflong" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
       <xs:annotation>
@@ -143,8 +164,49 @@ Defines a campaign.
   },
   "BidStrategyId": "LongValueHere",
   "BidStrategyScope": "ValueHere",
+  "BrandColor": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CroppingType": "ValueHere",
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
+  "BrandLogo": [
+    {
+      "Asset": {
+        "Id": "LongValueHere",
+        "Name": "ValueHere",
+        "Type": "ImageAsset",
+        "CropHeight": IntValueHere,
+        "CroppingType": "ValueHere",
+        "CropWidth": IntValueHere,
+        "CropX": IntValueHere,
+        "CropY": IntValueHere,
+        "SubType": "ValueHere",
+        "TargetHeight": IntValueHere,
+        "TargetWidth": IntValueHere
+      },
+      "AssetPerformanceLabel": "ValueHere",
+      "EditorialStatus": "ValueHere",
+      "PinnedField": "ValueHere"
+    }
+  ],
   "BudgetId": "LongValueHere",
   "BudgetType": "ValueHere",
+  "BusinessName": "ValueHere",
   "CampaignType": "ValueHere",
   "DailyBudget": DoubleValueHere,
   "DealIds": [
@@ -202,7 +264,7 @@ Defines a campaign.
 
 ## <a name="elements"></a>Elements
 
-The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [BidStrategyId](#bidstrategyid), [BidStrategyScope](#bidstrategyscope), [BudgetId](#budgetid), [BudgetType](#budgettype), [CampaignType](#campaigntype), [DailyBudget](#dailybudget), [DealIds](#dealids), [EndDate](#enddate), [ExperimentId](#experimentid), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [GoalIds](#goalids), [Id](#id), [IsDealCampaign](#isdealcampaign), [IsPolitical](#ispolitical), [Languages](#languages), [MarketingObjective](#marketingobjective), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Settings](#settings), [StartDate](#startdate), [Status](#status), [SubType](#subtype), [TimeZone](#timezone), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [UseCampaignLevelDates](#usecampaignleveldates).
+The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [BidStrategyId](#bidstrategyid), [BidStrategyScope](#bidstrategyscope), [BrandColor](#brandcolor), [BrandLogo](#brandlogo), [BudgetId](#budgetid), [BudgetType](#budgettype), [BusinessName](#businessname), [CampaignType](#campaigntype), [DailyBudget](#dailybudget), [DealIds](#dealids), [EndDate](#enddate), [ExperimentId](#experimentid), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [GoalIds](#goalids), [Id](#id), [IsDealCampaign](#isdealcampaign), [IsPolitical](#ispolitical), [Languages](#languages), [MarketingObjective](#marketingobjective), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Settings](#settings), [StartDate](#startdate), [Status](#status), [SubType](#subtype), [TimeZone](#timezone), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [UseCampaignLevelDates](#usecampaignleveldates).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -211,8 +273,11 @@ The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSea
 |<a name="biddingscheme"></a>BiddingScheme|The bid strategy type for how you want to manage your bids.<br/><br/>For details about supported bid strategies per campaign type, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).<br/><br/>**IMPORTANT:** For some bid strategy types your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](../guides/universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1).<br/><br/>This element will be nil or empty by default if the campaign uses the [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) or [TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md) bid strategy. To get the [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) or [TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md) objects, include the respective [MaxConversionValueBiddingScheme](campaignadditionalfield.md#maxconversionvaluebiddingscheme) and [TargetImpressionShareBiddingScheme](campaignadditionalfield.md#targetimpressionsharebiddingscheme) values in the ReturnAdditionalFields element when you call the [GetCampaignsByAccountId](getcampaignsbyaccountid.md#returnadditionalfields) and [GetCampaignsByIds](getcampaignsbyids.md#returnadditionalfields) service operations.<br/><br/>*Note*: Starting August 4, 2025, the *BiddingScheme* will no longer support *TargetCpaBiddingScheme* and *TargetRoasBiddingScheme*. Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa). Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value. Existing campaigns that use the Target CPA and Target ROAS bid strategies will remain unaffected.<br/><br/>**Add:** Optional. The default bid strategy type for Search and DynamicSearchAds campaigns is [EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md). The default bid strategy type for most Shopping campaigns is [EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md); however, the only supported bid strategy types for [smart shopping campaigns](../guides/smart-shopping-campaigns.md) are [MaxConversionsBiddingScheme](../campaign-management-service/maxconversionsbiddingscheme.md) and [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md). The supported bid strategy types for Audience campaigns are [EnhancedCpcBiddingScheme](enhancedcpcbiddingscheme.md), [ManualCpcBiddingScheme](manualcpcbiddingscheme.md), [ManualCpmBiddingScheme](manualcpmbiddingscheme.md), and [TargetCpaBiddingScheme](targetcpabiddingscheme.md). The supported bid strategy types for lodging campaigns are [CommissionBiddingScheme](commissionbiddingscheme.md), [ManualCpcBiddingScheme](manualcpcbiddingscheme.md), and [PercentCpcBiddingScheme](percentcpcbiddingscheme.md). The supported bid strategies for Performance Max campaigns are [MaxConversionsBiddingScheme](../campaign-management-service/maxconversionsbiddingscheme.md) (with optional TCPA) and [MaxConversionValueBiddingScheme](../campaign-management-service/maxconversionvaluebiddingscheme.md) (with optional TROAS). The supported bid strategies for new Video campaigns are [ManualCpmBiddingScheme](../campaign-management-service/manualcpmbiddingscheme.md) and [ManualCpvBiddingScheme](../campaign-management-service/manualcpvbiddingscheme.md). **NOTE:** As of May 2024, you can no longer use the manual CPC bid strategy for audience native campaigns. You can only use manual CPC for audience display and video campaigns, and for lodging campaigns. We will automatically convert any existing manual CPC audience native campaigns to enhanced CPC. If you attempt to set manual CPC for any other campaign type, the request will be ignored without error and the bid strategy will be set to enhanced CPC. As of April 2021, you cannot set any bid strategies for ad groups or keywords. Bid strategies can only be set at the campaign level. If you attempt to set bid strategies for ad groups or keywords, the request will be ignored without error. Ad groups and keywords will inherit their campaign's bid strategy.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[BiddingScheme](biddingscheme.md)|
 |<a name="bidstrategyid"></a>BidStrategyId|The system-generated identifier of the [BidStrategy](bidstrategy.md) that this campaign shares with other campaigns in the account.<br/><br/>If the field is empty, then the campaign is not using a portfolio bid strategy. If the field is not empty and the value is greater than zero, then the campaign is using a portfolio bid strategy. If the campaign is using a portfolio bid strategy, and you prefer that it use its own bid strategy, set this field to '0' (zero).<br/><br/>**Note:** Portfolio bid strategies are not supported with [smart shopping campaigns](../guides/smart-shopping-campaigns.md) or Performance Max campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**long**|
 |<a name="bidstrategyscope"></a>BidStrategyScope|A nullable field that indicates whether the *BidStrategyId* associated with the campaign is defined at the customer level or the account level. If no value is provided, the default scope is set to *Account*.|[EntityScope](entityscope.md)|
+|<a name="brandcolor"></a>BrandColor|Reserved.|[AssetLink](assetlink.md) array|
+|<a name="brandlogo"></a>BrandLogo|Reserved.|[AssetLink](assetlink.md) array|
 |<a name="budgetid"></a>BudgetId|The unique Microsoft Advertising identifier of the [Budget](budget.md) that this campaign shares with other campaigns in the account.<br/><br/>If the value is not null and greater than zero, then the campaign is using a shared budget. If the value is null, then the campaign is not using a shared budget. If the campaign is using a shared budget, and you prefer that it use its own budget e.g. [DailyBudget](#dailybudget) amount, set this element to '0' (zero) and set [DailyBudget](#dailybudget) to a valid budget amount.<br/><br/>**Note:** Shared budgets are not supported with [smart shopping campaigns](../guides/smart-shopping-campaigns.md) or Performance Max campaigns. With [smart shopping campaigns](../guides/smart-shopping-campaigns.md), you must set the [DailyBudget](#dailybudget) amount.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**long**|
 |<a name="budgettype"></a>BudgetType|The budget type determines how the budget is spent.<br/><br/>The possible values are *DailyBudgetAccelerated*, *DailyBudgetStandard*, and *LifetimeBudgetStandard*. Both *DailyBudgetAccelerated* and *LifetimeBudgetStandard* budget types are only available for Audience campaigns that use unshared campaign-level budgets.<br/><br/>In the context of shared budgets, the budget type is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. To determine whether the campaign uses a shared budget, check the value of the [BudgetId](#budgetid) element as described above.<br/><br/>With experiment campaigns you cannot set the [Budget](#dailybudget), [BudgetType](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings.<br/><br/>**Add:** Required if the [BudgetId](#budgetid) is not set. Read-only if the campaign uses a shared budget.<br/>**Update:** Optional if the [BudgetId](#budgetid) is not set. If no value is set for the update, this setting is not changed. Not allowed if the campaign uses a shared budget. If you try to update the budget type of a campaign that has a shared budget, the service will return the *CampaignServiceCannotUpdateSharedBudget* error code.|[BudgetLimitType](budgetlimittype.md)|
+|<a name="businessname"></a>BusinessName|Reserved.|**string**|
 |<a name="campaigntype"></a>CampaignType|The campaign type determines whether the campaign is an Audience, Dynamic Search Ads, Search, Shopping campaign, Hotel Ads, or Performance Max.<br/><br/>**Add:** Optional. If not specified, then default value of *Search* is used.<br/>**Update:** Not allowed.|[CampaignType](campaigntype.md)|
 |<a name="dailybudget"></a>DailyBudget|The amount to spend daily on the campaign.<br/><br/>You must set the daily budget amount if [BudgetId](#budgetid) is not set.<br/><br/>Your budget is a target; your actual spend might be higher or lower. Variations are caused by a number of factors, such as different traffic volumes in different days of the week, or automatic detection and refunding of fraud clicks that can give money back to a campaign within a few hours of the click. Microsoft Advertising anticipates and automatically compensates for the fluctuations, and usually keeps overspend to less than 100% above your daily limit.<br/><br/>Also note that Microsoft Advertising does not require your campaign budget to be higher than the ad group and keyword bids. In other words ad group and keyword bids are validated independently of the campaign budget.<br/><br/>In the context of shared budgets, the budget amount is a read-only property that is always returned regardless of whether or not the campaign uses a shared budget. When a campaign is associated to a shared budget the amount returned is that of the shared budget. To determine whether the campaign uses a shared budget, check the value of the [BudgetId](#budgetid) element as described above.<br/><br/>With experiment campaigns you cannot set the [Budget](#dailybudget), [BudgetType](#budgettype), or [Status](#status). The budget, and status of an experiment campaign are always inherited from the base campaign settings.<br/><br/>*Note*: This field is currently used to set the lifetime budget amount when the budget type is set to *LifetimeBudgetStandard*.<br/><br/>**Add:** Required if the [BudgetId](#budgetid) is not set. Read-only if the campaign uses a shared budget.<br/>**Update:** Optional if the [BudgetId](#budgetid) is not set. If no value is set for the update, this setting is not changed. Not allowed if the campaign uses a shared budget. If you try to update the budget amount of a campaign that has a shared budget, the service will return the *CampaignServiceCannotUpdateSharedBudget* error code.|**double**|
 |<a name="dealids"></a>DealIds|A list of unique system identifiers corresponding to the deals that were added.<br/><br/>The list of identifiers corresponds directly to the list of deals in the request. Items of the list may be returned as null. For each list index where a deal was not added, the corresponding element will be null.|**long** array|

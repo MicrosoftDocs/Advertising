@@ -108,7 +108,7 @@ The Campaign Management service defines the following data objects.
 |[CampaignAssociation](campaignassociation.md)|Defines a data object for which campaigns to associate to data exclusions and seasonality adjustments.|
 |[CampaignConversionGoal](campaignconversiongoal.md)|Defines the base object of a campaign conversion goal.|
 |[CampaignCriterion](campaigncriterion.md)|Defines a criterion that you want applied to the specified campaign.|
-|[CampaignFrequencyCapSetting](campaignfrequencycapsetting.md)|Defines the campaignn frequency cap setting data object.|
+|[CampaignFrequencyCapSetting](campaignfrequencycapsetting.md)|Defines the campaign frequency cap setting data object.|
 |[CampaignNegativeSites](campaignnegativesites.md)|Defines an object that contains the negative site URLs of a campaign.|
 |[CashbackAdjustment](cashbackadjustment.md)|Defines the CashbackAdjustment Data Object.|
 |[CategoryResult](categoryresult.md)|Defines the CategoryResult data object.|
@@ -279,7 +279,7 @@ The Campaign Management service defines the following data objects.
 |[RadiusCriterion](radiuscriterion.md)|Defines a criterion that can be used to show ads to users within the radius of a specific geographical location.|
 |[RateAmount](rateamount.md)|Defines an object that represents the rate amount in percentage form.|
 |[RateBid](ratebid.md)|Defines an object that represents the rate bid.|
-|[ReachOptimizationGoalSetting](reachoptimizationgoalsetting.md)|Defines the reach optimization setting data object.|
+|[ReachOptimizationGoalSetting](reachoptimizationgoalsetting.md)|Defines the reach optimization goal setting data object.|
 |[RemarketingList](remarketinglist.md)|Defines a remarketing list.|
 |[RemarketingRule](remarketingrule.md)|Defines the base object of a remarketing rule.|
 |[ResponsiveAd](responsivead.md)|A responsive ad format for audience ads and multimedia ads.|

@@ -72,6 +72,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md)  
 [AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md)  
 [AssetGroup](assetgroup.md)  
+[Campaign](campaign.md)  
 [ImageAdExtension](imageadextension.md)  
 [ResponsiveAd](responsivead.md)  
 [ResponsiveSearchAd](responsivesearchad.md)  

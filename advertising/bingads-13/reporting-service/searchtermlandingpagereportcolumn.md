@@ -47,13 +47,14 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="Revenue" />
     <xs:enumeration value="ReturnOnAdSpend" />
     <xs:enumeration value="TimePeriod" />
+    <xs:enumeration value="ConversionsQualified" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalURLExpansion](#finalurlexpansion), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [LandingPageUrl](#landingpageurl), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
+The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalURLExpansion](#finalurlexpansion), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [LandingPageUrl](#landingpageurl), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
 
 |Value|Description|
 |-----------|---------------|
@@ -72,6 +73,7 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="clicks"></a>Clicks|Reserved.|
 |<a name="conversionrate"></a>ConversionRate|Reserved.|
 |<a name="conversions"></a>Conversions|Reserved.|
+|<a name="conversionsqualified"></a>ConversionsQualified|Reserved.|
 |<a name="costperconversion"></a>CostPerConversion|Reserved.|
 |<a name="ctr"></a>Ctr|Reserved.|
 |<a name="deliveredmatchtype"></a>DeliveredMatchType|Reserved.|
