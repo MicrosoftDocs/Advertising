@@ -175,6 +175,13 @@ Defines the possible types of campaign criterions.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="JobSeniority">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16777216</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -183,7 +190,7 @@ Defines the possible types of campaign criterions.
 
 ## <a name="values"></a>Values
 
-The [CampaignCriterionType](campaigncriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductScope](#productscope), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Store](#store), [Targets](#targets), [Webpage](#webpage).
+The [CampaignCriterionType](campaigncriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [DayTime](#daytime), [Device](#device), [Gender](#gender), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [JobSeniority](#jobseniority), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductScope](#productscope), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Store](#store), [Targets](#targets), [Webpage](#webpage).
 
 |Value|Description|
 |-----------|---------------|
@@ -200,6 +207,7 @@ The [CampaignCriterionType](campaigncriteriontype.md) value set has the followin
 |<a name="industry"></a>Industry|The campaign criterion is an industry profile criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *Industry*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="inmarketaudience"></a>InMarketAudience|The campaign criterion is an in-market audience association.<br/><br/>This criterion type value is only used by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the in-market audience associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the in-market audience, see [InMarketAudience](inmarketaudience.md).|
 |<a name="jobfunction"></a>JobFunction|The campaign criterion is a job function profile criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *JobFunction*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
+|<a name="jobseniority"></a>JobSeniority|Reserved.|
 |<a name="location"></a>Location|The campaign criterion is a location criterion.<br/><br/>The *Criterion* element of either a [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [LocationCriterion](locationcriterion.md). In other words you can include some locations, and exclude other locations.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="locationintent"></a>LocationIntent|The campaign criterion is a location intent criterion.<br/><br/>The *Criterion* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) can be an instance of [LocationIntentCriterion](locationintentcriterion.md), but location intent criterion are not supported with [NegativeCampaignCriterion](negativecampaigncriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be nil or empty when paired with this criterion type.|
 |<a name="productaudience"></a>ProductAudience|The campaign criterion is product audience association.<br/><br/>This criterion type value is only used by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the product audience associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the product audience, see [ProductAudience](productaudience.md).<br/><br/>This audience type can only be used with Audience campaigns that have a [ShoppingSetting](shoppingsetting.md).|

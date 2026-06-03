@@ -48,3 +48,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AdGroup](adgroup.md)  
+[NetworkDistributionSetting](networkdistributionsetting.md)  

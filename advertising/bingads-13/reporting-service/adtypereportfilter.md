@@ -98,3 +98,4 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [KeywordPerformanceReportFilter](keywordperformancereportfilter.md)  
 [ProductSearchQueryPerformanceReportFilter](productsearchqueryperformancereportfilter.md)  
 [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)  
+[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)  

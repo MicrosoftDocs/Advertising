@@ -1943,6 +1943,8 @@
       href: ../campaign-management-service/campaignconversiongoal.md
     - name: CampaignCriterion
       href: ../campaign-management-service/campaigncriterion.md
+    - name: CampaignFrequencyCapSetting
+      href: ../campaign-management-service/campaignfrequencycapsetting.md
     - name: CampaignNegativeSites
       href: ../campaign-management-service/campaignnegativesites.md
     - name: CashbackAdjustment
@@ -2151,6 +2153,8 @@
       href: ../campaign-management-service/importsearchandreplaceforstringproperty.md
     - name: ImpressionBasedRemarketingList
       href: ../campaign-management-service/impressionbasedremarketinglist.md
+    - name: ImpressionTrackingSetting
+      href: ../campaign-management-service/impressiontrackingsetting.md
     - name: InheritFromParentBiddingScheme
       href: ../campaign-management-service/inheritfromparentbiddingscheme.md
     - name: InMarketAudience
@@ -2217,6 +2221,8 @@
       href: ../campaign-management-service/negativekeywordlist.md
     - name: NegativeSite
       href: ../campaign-management-service/negativesite.md
+    - name: NetworkDistributionSetting
+      href: ../campaign-management-service/networkdistributionsetting.md
     - name: NewCustomerAcquisitionGoal
       href: ../campaign-management-service/newcustomeracquisitiongoal.md
     - name: NewCustomerAcquisitionGoalSetting
@@ -2285,6 +2291,8 @@
       href: ../campaign-management-service/rateamount.md
     - name: RateBid
       href: ../campaign-management-service/ratebid.md
+    - name: ReachOptimizationGoalSetting
+      href: ../campaign-management-service/reachoptimizationgoalsetting.md
     - name: RemarketingList
       href: ../campaign-management-service/remarketinglist.md
     - name: RemarketingRule
@@ -2606,6 +2614,10 @@
       href: ../campaign-management-service/promotiondiscountmodifier.md
     - name: PromotionOccasion
       href: ../campaign-management-service/promotionoccasion.md
+    - name: ReachOptimizationGoal
+      href: ../campaign-management-service/reachoptimizationgoal.md
+    - name: SharedEntityAssociationAdditionalField
+      href: ../campaign-management-service/sharedentityassociationadditionalfield.md
     - name: StringOperator
       href: ../campaign-management-service/stringoperator.md
     - name: UetTagIndustry
@@ -2642,14 +2654,20 @@
       href: ../customer-billing-service/getbillingdocuments.md
     - name: GetBillingDocumentsInfo
       href: ../customer-billing-service/getbillingdocumentsinfo.md
+    - name: GetBillingGroups
+      href: ../customer-billing-service/getbillinggroups.md
     - name: GetCouponInfo
       href: ../customer-billing-service/getcouponinfo.md
+    - name: GetUngroupedAccounts
+      href: ../customer-billing-service/getungroupedaccounts.md
     - name: RedeemCoupon
       href: ../customer-billing-service/redeemcoupon.md
     - name: SearchCoupons
       href: ../customer-billing-service/searchcoupons.md
     - name: SearchInsertionOrders
       href: ../customer-billing-service/searchinsertionorders.md
+    - name: UpdateBillingGroupAccounts
+      href: ../customer-billing-service/updatebillinggroupaccounts.md
     - name: UpdateInsertionOrder
       href: ../customer-billing-service/updateinsertionorder.md
   - name: Customer Billing Data Objects
@@ -2673,6 +2691,8 @@
       href: ../customer-billing-service/billingdocument.md
     - name: BillingDocumentInfo
       href: ../customer-billing-service/billingdocumentinfo.md
+    - name: BillingGroup
+      href: ../customer-billing-service/billinggroup.md
     - name: Coupon
       href: ../customer-billing-service/coupon.md
     - name: CouponClaimInfo
@@ -2697,6 +2717,10 @@
       href: ../customer-billing-service/paging.md
     - name: Predicate
       href: ../customer-billing-service/predicate.md
+    - name: SearchCoupons
+      href: ../customer-billing-service/searchcoupons.md
+    - name: UngroupedAccount
+      href: ../customer-billing-service/ungroupedaccount.md
   - name: Customer Billing Value Sets
     items: 
     - name: Overview
@@ -3144,6 +3168,10 @@
       href: ../reporting-service/searchqueryperformancereportfilter.md
     - name: SearchQueryPerformanceReportRequest
       href: ../reporting-service/searchqueryperformancereportrequest.md
+    - name: SearchTermLandingPageReportFilter
+      href: ../reporting-service/searchtermlandingpagereportfilter.md
+    - name: SearchTermLandingPageReportRequest
+      href: ../reporting-service/searchtermlandingpagereportrequest.md
     - name: ShareOfVoiceReportFilter
       href: ../reporting-service/shareofvoicereportfilter.md
     - name: ShareOfVoiceReportRequest
@@ -3289,6 +3317,8 @@
       href: ../reporting-service/searchinsightperformancereportcolumn.md
     - name: SearchQueryPerformanceReportColumn
       href: ../reporting-service/searchqueryperformancereportcolumn.md
+    - name: SearchTermLandingPageReportColumn
+      href: ../reporting-service/searchtermlandingpagereportcolumn.md
     - name: ShareOfVoiceReportColumn
       href: ../reporting-service/shareofvoicereportcolumn.md
     - name: SortOrder

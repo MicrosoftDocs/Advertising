@@ -62,3 +62,4 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [CombinationPerformanceReportRequest](combinationperformancereportrequest.md)  
 [MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md)  
 [SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)  
+[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)  

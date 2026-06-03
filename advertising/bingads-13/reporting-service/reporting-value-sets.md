@@ -80,6 +80,7 @@ The Reporting service defines the following value sets.
 |[SearchCampaignChangeHistoryReportColumn](searchcampaignchangehistoryreportcolumn.md)|Defines the attribute columns that you can include in the [SearchCampaignChangeHistoryReportRequest](searchcampaignchangehistoryreportrequest.md).|
 |[SearchInsightPerformanceReportColumn](searchinsightperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [SearcyhInsightPerformanceReportRequest](searchinsightperformancereportrequest.md).|
 |[SearchQueryPerformanceReportColumn](searchqueryperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md).|
+|[SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).|
 |[ShareOfVoiceReportColumn](shareofvoicereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ShareOfVoiceReportRequest](shareofvoicereportrequest.md).|
 |[SortOrder](sortorder.md)|Defines the ascending or descending sort order of values within the specified report column.|
 |[TravelQueryInsightReportColumn](travelqueryinsightreportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the travel query insight report.|

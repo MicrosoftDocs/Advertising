@@ -105,6 +105,7 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [SearchCampaignChangeHistoryReportRequest](searchcampaignchangehistoryreportrequest.md)  
 [SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)  
 [SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)  
+[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)  
 [ShareOfVoiceReportRequest](shareofvoicereportrequest.md)  
 [TravelQueryInsightReportRequest](travelqueryinsightreportrequest.md)  
 [UserLocationPerformanceReportRequest](userlocationperformancereportrequest.md)  

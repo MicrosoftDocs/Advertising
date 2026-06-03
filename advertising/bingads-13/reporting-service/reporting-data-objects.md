@@ -85,7 +85,7 @@ The Reporting service defines the following data objects.
 |[KeywordPerformanceReportFilter](keywordperformancereportfilter.md)|Defines the criteria to use to filter the keyword performance report data.|
 |[KeywordPerformanceReportRequest](keywordperformancereportrequest.md)|Defines a keyword performance report request.|
 |[KeywordPerformanceReportSort](keywordperformancereportsort.md)|Defines a keyword performance report column and corresponding sort order.|
-|[MMMPerformanceReportFilter](mmmperformancereportfilter.md)|Reserved.|
+|[MMMPerformanceReportFilter](mmmperformancereportfilter.md)|Defines the criteria to use to filter the MMM performance report data.|
 |[MMMPerformanceReportRequest](mmmperformancereportrequest.md)|Reserved.|
 |[MSClickIdPerformanceReportFilter](msclickidperformancereportfilter.md)|Defines the criteria to use to filter the MSClickId performance report data.|
 |[MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md)|Defines an MSClickID performance report request.|
@@ -116,6 +116,8 @@ The Reporting service defines the following data objects.
 |[SearchInsightPerformanceReportRequest](searchinsightperformancereportrequest.md)|Defines a data object for SearchInsightPerformanceReportRequest.|
 |[SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)|Defines the criteria to use to filter the search query performance report data.|
 |[SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)|Defines a search query performance report request.|
+|[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)|Defines the criteria to use to filter the search term landing page report data.|
+|[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)|Defines a search term landing page report request.|
 |[ShareOfVoiceReportFilter](shareofvoicereportfilter.md)|Defines the criteria to use to filter the share of voice report data.|
 |[ShareOfVoiceReportRequest](shareofvoicereportrequest.md)|Defines a share of voice (SOV) report request.|
 |[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|Defines the criteria to use to filter the travel query insight report data.|

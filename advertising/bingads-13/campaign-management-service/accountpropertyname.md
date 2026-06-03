@@ -143,13 +143,27 @@ Defines the name of account level properties.
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="ImageMissingWarningOptout">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">262144</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="OptOutFromSystemSourcedImagesInSWF">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">524288</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AccountPropertyName](accountpropertyname.md) value set has the following values: [AcceptNielsenTermsAndConditions](#acceptnielsentermsandconditions), [AdClickParallelTracking](#adclickparalleltracking), [AllowImageAutoRetrieve](#allowimageautoretrieve), [AssetAIEnhancementOptout](#assetaienhancementoptout), [AutoApplyRecommendations](#autoapplyrecommendations), [AutoBiddingViewThroughConversionsValueAttributionWeight](#autobiddingviewthroughconversionsvalueattributionweight), [BlockedContentSegments](#blockedcontentsegments), [BusinessAttributes](#businessattributes), [EnableMMAUnderDSAAdgroups](#enablemmaunderdsaadgroups), [FinalUrlSuffix](#finalurlsuffix), [IncludeAutoBiddingViewThroughConversions](#includeautobiddingviewthroughconversions), [IncludeViewThroughConversions](#includeviewthroughconversions), [LoopBackWindowForViewThroughConversions](#loopbackwindowforviewthroughconversions), [MSCLKIDAutoTaggingEnabled](#msclkidautotaggingenabled), [NetflixTCAccepted](#netflixtcaccepted), [None](#none), [OptOutFromMCM](#optoutfrommcm), [ProfileExpansionEnabled](#profileexpansionenabled), [TrackingUrlTemplate](#trackingurltemplate).
+The [AccountPropertyName](accountpropertyname.md) value set has the following values: [AcceptNielsenTermsAndConditions](#acceptnielsentermsandconditions), [AdClickParallelTracking](#adclickparalleltracking), [AllowImageAutoRetrieve](#allowimageautoretrieve), [AssetAIEnhancementOptout](#assetaienhancementoptout), [AutoApplyRecommendations](#autoapplyrecommendations), [AutoBiddingViewThroughConversionsValueAttributionWeight](#autobiddingviewthroughconversionsvalueattributionweight), [BlockedContentSegments](#blockedcontentsegments), [BusinessAttributes](#businessattributes), [EnableMMAUnderDSAAdgroups](#enablemmaunderdsaadgroups), [FinalUrlSuffix](#finalurlsuffix), [ImageMissingWarningOptout](#imagemissingwarningoptout), [IncludeAutoBiddingViewThroughConversions](#includeautobiddingviewthroughconversions), [IncludeViewThroughConversions](#includeviewthroughconversions), [LoopBackWindowForViewThroughConversions](#loopbackwindowforviewthroughconversions), [MSCLKIDAutoTaggingEnabled](#msclkidautotaggingenabled), [NetflixTCAccepted](#netflixtcaccepted), [None](#none), [OptOutFromMCM](#optoutfrommcm), [OptOutFromSystemSourcedImagesInSWF](#optoutfromsystemsourcedimagesinswf), [ProfileExpansionEnabled](#profileexpansionenabled), [TrackingUrlTemplate](#trackingurltemplate).
 
 |Value|Description|
 |-----------|---------------|
@@ -163,6 +177,7 @@ The [AccountPropertyName](accountpropertyname.md) value set has the following va
 |<a name="businessattributes"></a>BusinessAttributes|Used to get or set the property that determines the account's business attributes meant to help you boost ad performance.<br/><br/>For more information see [BusinessAttributes](accountproperty.md#businessattributes).|
 |<a name="enablemmaunderdsaadgroups"></a>EnableMMAUnderDSAAdgroups|Enable Microsoft Monitring Agent under dynamic search ads ad groups.|
 |<a name="finalurlsuffix"></a>FinalUrlSuffix|Used to get or set the account's Final URL Suffix.<br/><br/>For more information see [FinalUrlSuffix](accountproperty.md#finalurlsuffix).|
+|<a name="imagemissingwarningoptout"></a>ImageMissingWarningOptout|Reserved.|
 |<a name="includeautobiddingviewthroughconversions"></a>IncludeAutoBiddingViewThroughConversions|Include auto bidding view through conversions.|
 |<a name="includeviewthroughconversions"></a>IncludeViewThroughConversions|Used to get or set the property that determines whether you want to include view-through conversions for campaigns in the account.<br/><br/>For more information see [IncludeViewThroughConversions](accountproperty.md#includeviewthroughconversions).|
 |<a name="loopbackwindowforviewthroughconversions"></a>LoopBackWindowForViewThroughConversions|The loopback window for view through conversions.|
@@ -170,6 +185,7 @@ The [AccountPropertyName](accountpropertyname.md) value set has the following va
 |<a name="netflixtcaccepted"></a>NetflixTCAccepted|The Netflix terms and conditions are accepted.|
 |<a name="none"></a>None|For internal use only.|
 |<a name="optoutfrommcm"></a>OptOutFromMCM|The output from Microsoft Configuration Manager.|
+|<a name="optoutfromsystemsourcedimagesinswf"></a>OptOutFromSystemSourcedImagesInSWF|Reserved.|
 |<a name="profileexpansionenabled"></a>ProfileExpansionEnabled|Used to get or set the property that determines whether LinkedIn profile targeting expansion is enabled for the account.<br/><br/>For more information see [ProfileExpansionEnabled](accountproperty.md#profileexpansionenabled).|
 |<a name="trackingurltemplate"></a>TrackingUrlTemplate|Used to get or set the account's tracking template.<br/><br/>For more information see [TrackingUrlTemplate](accountproperty.md#trackingurltemplate).|
 

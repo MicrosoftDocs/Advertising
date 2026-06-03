@@ -55,3 +55,4 @@ Namespace: https\://bingads.microsoft.com/Customer/v13/Exception
 [ApiFault](apifault.md)  
 [ClaimFeatureAdoptionCoupons](claimfeatureadoptioncoupons.md)  
 [DistributeCoupons](distributecoupons.md)  
+[UpdateBillingGroupAccounts](updatebillinggroupaccounts.md)  

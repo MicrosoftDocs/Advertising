@@ -18,6 +18,13 @@ Defines an asset group in an advertising campaign.
 ```xml
 <xs:complexType name="AssetGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
+    <xs:element minOccurs="0" name="AssetContext" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="AssetGroupSearchThemes" nillable="true" type="tns:ArrayOfAssetGroupSearchTheme">
       <xs:annotation>
         <xs:appinfo>
@@ -37,7 +44,7 @@ Defines an asset group in an advertising campaign.
     <xs:element minOccurs="0" name="Descriptions" nillable="true" type="tns:ArrayOfAssetLink" />
     <xs:element minOccurs="0" name="EditorialStatus" nillable="true" type="tns:AssetGroupEditorialStatus" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
-    <xs:element xmlns:q115="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalMobileUrls" nillable="true" type="q115:ArrayOfstring" />
+    <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q115:ArrayOfstring" xmlns:q115="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string">
       <xs:annotation>
         <xs:appinfo>
@@ -45,8 +52,8 @@ Defines an asset group in an advertising campaign.
         </xs:appinfo>
       </xs:annotation>
     </xs:element>
-    <xs:element xmlns:q116="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="FinalUrls" nillable="true" type="q116:ArrayOfstring" />
-    <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q117:ArrayOfKeyValuePairOfstringstring" />
+    <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q116:ArrayOfstring" xmlns:q116="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q117:ArrayOfKeyValuePairOfstringstring" xmlns:q117="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Headlines" nillable="true" type="tns:ArrayOfAssetLink" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfAssetLink" />
@@ -85,6 +92,7 @@ Defines an asset group in an advertising campaign.
 
 ```json
 {
+  "AssetContext": "ValueHere",
   "AssetGroupSearchThemes": [
     {
       "Id": "LongValueHere",
@@ -254,10 +262,11 @@ Defines an asset group in an advertising campaign.
 
 ## <a name="elements"></a>Elements
 
-The [AssetGroup](assetgroup.md) object has the following elements: [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [BusinessName](#businessname), [CallToAction](#calltoaction), [Descriptions](#descriptions), [EditorialStatus](#editorialstatus), [EndDate](#enddate), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Headlines](#headlines), [Id](#id), [Images](#images), [LongHeadlines](#longheadlines), [Name](#name), [Path1](#path1), [Path2](#path2), [StartDate](#startdate), [Status](#status), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [Videos](#videos).
+The [AssetGroup](assetgroup.md) object has the following elements: [AssetContext](#assetcontext), [AssetGroupSearchThemes](#assetgroupsearchthemes), [AssetGroupUrlTargets](#assetgroupurltargets), [BusinessName](#businessname), [CallToAction](#calltoaction), [Descriptions](#descriptions), [EditorialStatus](#editorialstatus), [EndDate](#enddate), [FinalMobileUrls](#finalmobileurls), [FinalUrls](#finalurls), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Headlines](#headlines), [Id](#id), [Images](#images), [LongHeadlines](#longheadlines), [Name](#name), [Path1](#path1), [Path2](#path2), [StartDate](#startdate), [Status](#status), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [Videos](#videos).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="assetcontext"></a>AssetContext|Reserved.|**string**|
 |<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|A list of asset group search themes.|[AssetGroupSearchTheme](assetgroupsearchtheme.md) array|
 |<a name="assetgroupurltargets"></a>AssetGroupUrlTargets|Reserved.|[AssetGroupUrlTarget](assetgroupurltarget.md) array|
 |<a name="businessname"></a>BusinessName|The name of the business.<br/><br/>Your business's name may appear in your ad, depending on the ad placement.<br/><br/>The length of the string is limited to 25 characters.<br/><br/>**Add:** Required. If not provided and parent campaign associates to a store, the store name will be used as the business name.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|

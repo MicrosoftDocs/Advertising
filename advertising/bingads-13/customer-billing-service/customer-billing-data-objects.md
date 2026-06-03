@@ -21,6 +21,7 @@ The Customer Billing service defines the following data objects.
 |[BatchError](batcherror.md)|Defines a Customer Billing batch error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.|
 |[BillingDocument](billingdocument.md)|Defines a billing document.|
 |[BillingDocumentInfo](billingdocumentinfo.md)|Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.|
+|[BillingGroup](billinggroup.md)|Defines the billing group data object.|
 |[Coupon](coupon.md)|Defines a coupon.|
 |[CouponClaimInfo](couponclaiminfo.md)|Defines an object containing coupon claim information.|
 |[CouponInfoData](couponinfodata.md)|Defines an object containing coupon info.|
@@ -33,3 +34,4 @@ The Customer Billing service defines the following data objects.
 |[OrderBy](orderby.md)|Defines an order for the list of insertion orders returned using one of the search operations, for example [SearchCoupons](searchcoupons.md) or [SearchInsertionOrders](searchinsertionorders.md).|
 |[Paging](paging.md)|Defines a paging object to request Customer Billing objects in batches.|
 |[Predicate](predicate.md)|Defines a predicate for the list of insertion orders returned using one of the search operations, for example [SearchCoupons](searchcoupons.md) or [SearchInsertionOrders](searchinsertionorders.md).|
+|[UngroupedAccount](ungroupedaccount.md)|Defines the ungrouped account data object.|

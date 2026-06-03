@@ -113,5 +113,6 @@ Namespace: https\://bingads.microsoft.com/Reporting/v13
 [ProfessionalDemographicsAudienceReportFilter](professionaldemographicsaudiencereportfilter.md)  
 [PublisherUsagePerformanceReportFilter](publisherusageperformancereportfilter.md)  
 [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)  
+[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)  
 [ShareOfVoiceReportFilter](shareofvoicereportfilter.md)  
 [UserLocationPerformanceReportFilter](userlocationperformancereportfilter.md)  
