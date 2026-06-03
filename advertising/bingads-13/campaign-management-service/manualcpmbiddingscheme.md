@@ -21,7 +21,15 @@ With the ManualCpm (manual cost per thousand) bid strategy, you set the highest 
 <xs:complexType name="ManualCpmBiddingScheme" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:BiddingScheme">
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MaxCpm" nillable="true" type="xs:decimal">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
     </xs:extension>
   </xs:complexContent>
 </xs:complexType>
@@ -31,13 +39,20 @@ With the ManualCpm (manual cost per thousand) bid strategy, you set the highest 
 
 ```json
 {
-  "Type": "ManualCpm"
+  "Type": "ManualCpm",
+  "MaxCpm": DecimalValueHere
 }
 ```
 
 -----
 
 ## <a name="elements"></a>Elements
+
+The [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) object has the following elements: [MaxCpm](#maxcpm).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="maxcpm"></a>MaxCpm|Reserved.|**decimal**|
 
 The [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 

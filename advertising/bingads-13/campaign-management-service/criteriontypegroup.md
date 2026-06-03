@@ -25,23 +25,27 @@ You can use one of the criterion type group values in each [TargetSettingDetail]
     <xs:enumeration value="JobFunction" />
     <xs:enumeration value="Industry" />
     <xs:enumeration value="IncomeRange" />
+    <xs:enumeration value="JobSeniority" />
+    <xs:enumeration value="CustomLinkedIn" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CriterionTypeGroup](criteriontypegroup.md) value set has the following values: [Age](#age), [Audience](#audience), [CompanyName](#companyname), [Gender](#gender), [IncomeRange](#incomerange), [Industry](#industry), [JobFunction](#jobfunction), [Unknown](#unknown).
+The [CriterionTypeGroup](criteriontypegroup.md) value set has the following values: [Age](#age), [Audience](#audience), [CompanyName](#companyname), [CustomLinkedIn](#customlinkedin), [Gender](#gender), [IncomeRange](#incomerange), [Industry](#industry), [JobFunction](#jobfunction), [JobSeniority](#jobseniority), [Unknown](#unknown).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="age"></a>Age|The age criterion type group.|
 |<a name="audience"></a>Audience|The audience criterion type group.|
 |<a name="companyname"></a>CompanyName|The company name criterion type group.|
+|<a name="customlinkedin"></a>CustomLinkedIn|Reserved.|
 |<a name="gender"></a>Gender|The gender criterion type group.|
 |<a name="incomerange"></a>IncomeRange|Reserved for future use.|
 |<a name="industry"></a>Industry|The industry criterion type group.|
 |<a name="jobfunction"></a>JobFunction|The job function criterion type group.|
+|<a name="jobseniority"></a>JobSeniority|Reserved.|
 |<a name="unknown"></a>Unknown|Reserved for future use.|
 
 ## Requirements

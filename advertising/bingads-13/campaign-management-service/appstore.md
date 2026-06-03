@@ -26,6 +26,13 @@ The app store the mobile app is distributed in.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="XboxStore">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -34,13 +41,14 @@ The app store the mobile app is distributed in.
 
 ## <a name="values"></a>Values
 
-The [AppStore](appstore.md) value set has the following values: [AppleAppStore](#appleappstore), [GoogleAppStore](#googleappstore), [MicrosoftAppStore](#microsoftappstore).
+The [AppStore](appstore.md) value set has the following values: [AppleAppStore](#appleappstore), [GoogleAppStore](#googleappstore), [MicrosoftAppStore](#microsoftappstore), [XboxStore](#xboxstore).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="appleappstore"></a>AppleAppStore|The app is distributed in the Apple app store.|
 |<a name="googleappstore"></a>GoogleAppStore|The app is distributed in the Google app store.|
 |<a name="microsoftappstore"></a>MicrosoftAppStore|The app is distributed in the Microsoft app store.|
+|<a name="xboxstore"></a>XboxStore|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

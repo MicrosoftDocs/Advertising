@@ -30,6 +30,8 @@ Defines a list of optional ad group properties that you can request when calling
         <xs:enumeration value="UsePredictiveTargeting" />
         <xs:enumeration value="MaxConversionValueWithMaxCpc" />
         <xs:enumeration value="BaseDomain" />
+        <xs:enumeration value="TargetSettingForJobSeniority" />
+        <xs:enumeration value="TargetSettingForCustomLinkedIn" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -38,7 +40,7 @@ Defines a list of optional ad group properties that you can request when calling
 
 ## <a name="values"></a>Values
 
-The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the following values: [AdGroupType](#adgrouptype), [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BaseDomain](#basedomain), [CommissionRate](#commissionrate), [CpmBid](#cpmbid), [CpvBid](#cpvbid), [FrequencyCapSettings](#frequencycapsettings), [MaxConversionValueWithMaxCpc](#maxconversionvaluewithmaxcpc), [McpaBid](#mcpabid), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [PercentCpcBid](#percentcpcbid), [UseOptimizedTargeting](#useoptimizedtargeting), [UsePredictiveTargeting](#usepredictivetargeting).
+The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the following values: [AdGroupType](#adgrouptype), [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [BaseDomain](#basedomain), [CommissionRate](#commissionrate), [CpmBid](#cpmbid), [CpvBid](#cpvbid), [FrequencyCapSettings](#frequencycapsettings), [MaxConversionValueWithMaxCpc](#maxconversionvaluewithmaxcpc), [McpaBid](#mcpabid), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [PercentCpcBid](#percentcpcbid), [TargetSettingForCustomLinkedIn](#targetsettingforcustomlinkedin), [TargetSettingForJobSeniority](#targetsettingforjobseniority), [UseOptimizedTargeting](#useoptimizedtargeting), [UsePredictiveTargeting](#usepredictivetargeting).
 
 |Value|Description|
 |-----------|---------------|
@@ -53,6 +55,8 @@ The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the follow
 |<a name="mcpabid"></a>McpaBid|Request that the [McpaBid](adgroup.md#mcpabid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="percentcpcbid"></a>PercentCpcBid|Request that the [PercentCpcBid](adgroup.md#percentcpcbid) element be included within each returned [AdGroup](adgroup.md) object.|
+|<a name="targetsettingforcustomlinkedin"></a>TargetSettingForCustomLinkedIn|Reserved.|
+|<a name="targetsettingforjobseniority"></a>TargetSettingForJobSeniority|Reserved.|
 |<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|This will be deprecated. Use *UsePredictiveTargeting* instead.|
 |<a name="usepredictivetargeting"></a>UsePredictiveTargeting|Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UsePredictiveTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional.|
 

@@ -36,7 +36,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="BiddingScheme" nillable="true" type="tns:BiddingScheme" />
     <xs:element minOccurs="0" name="BudgetType" nillable="true" type="tns:BudgetLimitType" />
     <xs:element minOccurs="0" name="DailyBudget" nillable="true" type="xs:double" />
-    <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="DealIds" nillable="true" type="q9:ArrayOflong">
+    <xs:element minOccurs="0" name="DealIds" nillable="true" type="q9:ArrayOflong" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -52,8 +52,8 @@ Defines a campaign.
     </xs:element>
     <xs:element minOccurs="0" name="ExperimentId" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-    <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" />
-    <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GoalIds" nillable="true" type="q11:ArrayOflong">
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q10:ArrayOfKeyValuePairOfstringstring" xmlns:q10="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="GoalIds" nillable="true" type="q11:ArrayOflong" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -69,6 +69,13 @@ Defines a campaign.
       </xs:annotation>
     </xs:element>
     <xs:element minOccurs="0" name="IsPolitical" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
+    <xs:element minOccurs="0" name="MarketingObjective" nillable="true" type="xs:string">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -105,7 +112,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="CampaignType" nillable="true" type="tns:CampaignType" />
     <xs:element minOccurs="0" name="Settings" nillable="true" type="tns:ArrayOfSetting" />
     <xs:element minOccurs="0" name="BudgetId" nillable="true" type="xs:long" />
-    <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Languages" nillable="true" type="q12:ArrayOfstring" />
+    <xs:element minOccurs="0" name="Languages" nillable="true" type="q12:ArrayOfstring" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="AdScheduleUseSearcherTimeZone" nillable="true" type="xs:boolean">
       <xs:annotation>
         <xs:appinfo>
@@ -161,6 +168,7 @@ Defines a campaign.
   "Languages": [
     "ValueHere"
   ],
+  "MarketingObjective": "ValueHere",
   "MultimediaAdsBidAdjustment": IntValueHere,
   "Name": "ValueHere",
   "Settings": [
@@ -194,7 +202,7 @@ Defines a campaign.
 
 ## <a name="elements"></a>Elements
 
-The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [BidStrategyId](#bidstrategyid), [BidStrategyScope](#bidstrategyscope), [BudgetId](#budgetid), [BudgetType](#budgettype), [CampaignType](#campaigntype), [DailyBudget](#dailybudget), [DealIds](#dealids), [EndDate](#enddate), [ExperimentId](#experimentid), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [GoalIds](#goalids), [Id](#id), [IsDealCampaign](#isdealcampaign), [IsPolitical](#ispolitical), [Languages](#languages), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Settings](#settings), [StartDate](#startdate), [Status](#status), [SubType](#subtype), [TimeZone](#timezone), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [UseCampaignLevelDates](#usecampaignleveldates).
+The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSearcherTimeZone](#adscheduleusesearchertimezone), [AudienceAdsBidAdjustment](#audienceadsbidadjustment), [BiddingScheme](#biddingscheme), [BidStrategyId](#bidstrategyid), [BidStrategyScope](#bidstrategyscope), [BudgetId](#budgetid), [BudgetType](#budgettype), [CampaignType](#campaigntype), [DailyBudget](#dailybudget), [DealIds](#dealids), [EndDate](#enddate), [ExperimentId](#experimentid), [FinalUrlSuffix](#finalurlsuffix), [ForwardCompatibilityMap](#forwardcompatibilitymap), [GoalIds](#goalids), [Id](#id), [IsDealCampaign](#isdealcampaign), [IsPolitical](#ispolitical), [Languages](#languages), [MarketingObjective](#marketingobjective), [MultimediaAdsBidAdjustment](#multimediaadsbidadjustment), [Name](#name), [Settings](#settings), [StartDate](#startdate), [Status](#status), [SubType](#subtype), [TimeZone](#timezone), [TrackingUrlTemplate](#trackingurltemplate), [UrlCustomParameters](#urlcustomparameters), [UseCampaignLevelDates](#usecampaignleveldates).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -217,6 +225,7 @@ The [Campaign](campaign.md) object has the following elements: [AdScheduleUseSea
 |<a name="isdealcampaign"></a>IsDealCampaign|The campaign is a deal campaign if *true*.|**boolean**|
 |<a name="ispolitical"></a>IsPolitical|Indicates whether a campaign is political. Microsoft doesn't currently support political campaigns. If *IsPolitical* is set to *true*, attempts to add or update the campaign will fail with the error: *PoliticalCampaignsAreNotSupported*. Additionally, if this field is empty or null in a GET call or bulk download, its value is treated as *false*.<br/><br/>**Add:** Optional. If you do not specify this field or leave it empty, the default value of *false* is set.<br/>**Update:** Optional. If you do not specify this field or leave it empty, the default value of *false* is set.<br/>**Delete:** Read-only  |**boolean**|
 |<a name="languages"></a>Languages|Your [ad language](../guides/ad-languages.md#adlanguage) setting determines the language you will use when you write your ads and should be the language of your customers.<br/><br/>**IMPORTANT:** If languages are set at both the ad group and campaign level, the ad group level language will override the campaign level language.<br/><br/>You can specify multiple languages individually in the list, or only include one list item set to All if you want to target all languages.<br/><br/>The supported language strings for Search and Shopping campaigns are: Albanian, Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Latvian, Lithuanian, Maltese, Norwegian, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish, and TraditionalChinese.<br/><br/>**NOTE:** The following languages are not yet available for everyone: Bulgarian, Croatian, Czech, Estonian, Greek, Hungarian, Japanese, Latvian, Lithuanian, Maltese, Polish, Romanian, Slovak, Slovenian.<br/><br/>For Audience campaigns you must include all languages i.e., set this element to All.<br/><br/>For Dynamic Search Ads campaigns, the campaign and ad group level language settings are ignored in favor of the website [domain language](dynamicsearchadssetting.md#language). You should set campaign languages to "All" and leave the ad group level [language](adgroup.md#language) empty.<br/><br/>**Add:** Required for Audience campaigns, and otherwise this element is optional. If there is no campaign language set, then the language of each ad group within the campaign will be required.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. Once campaign languages are set, you cannot delete all of them. The list of languages that you specify during update replaces the previous settings i.e. does not append to the existing set of languages.|**string** array|
+|<a name="marketingobjective"></a>MarketingObjective|Reserved.|**string**|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|The percent amount by which to adjust your bid for multimedia ads above or below the base ad group or keyword bid|**int**|
 |<a name="name"></a>Name|The name of the campaign. The name must be unique among all active or paused campaigns within the account. The name can contain a maximum of 128 characters.<br/><br/>The service performs a case-insensitive comparison when it compares the name to existing campaign names.<br/><br/>**Add:** Required<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
 |<a name="settings"></a>Settings|The supported settings that vary by campaign type.<br/><br/>*Note*: [VerifiedTrackingSetting](verifiedtrackingsetting.md) is not currently available.<br/><br/>You can include a maximum of one object per setting type in the list of settings e.g., one [TargetSetting](targetsetting.md).<br/><br/>If the [CampaignType](#campaigntype) is set to *Search* and if the [ExperimentId](#experimentid) element is not set, this list can optionally include a [DynamicSearchAdsSetting](dynamicsearchadssetting.md) object. Experiment campaigns and base campaigns of experiments cannot include dynamic search ads settings. If you intend to use this campaign for experiments, do not include dynamic search ads settings. If an existing experiment is already based on this campaign, you cannot update the campaign to include dynamic search ads settings.<br/><br/>If the [CampaignType](#campaigntype) is set to *Shopping*, this list must include a [ShoppingSetting](shoppingsetting.md) object.<br/><br/>If the [CampaignType](#campaigntype) is set to *Audience*, this list may or may not include a [ShoppingSetting](shoppingsetting.md) object, depending on whether or not the Audience campaign supports product ads.<br/><br/>If the [CampaignType](#campaigntype) is set to *DynamicSearchAds*, this list must include a [DynamicSearchAdsSetting](dynamicsearchadssetting.md) object.<br/><br/>If the [CampaignType](#campaigntype) is set to *Hotel*, this list must include a [HotelSetting](hotelsetting.md) object.<br/><br/>If the [CampaignType](#campaigntype) is set to *PerformanceMax*, this list must include a [PerformanceMaxSetting](performancemaxsetting.md) object. If the Performance Max campaign associates to a store, it also supports a [ShoppingSetting](shoppingsetting.md).<br/><br/>The [TargetSetting](targetsetting.md) can be used with any campaign type except Performace Max, and determines whether the Audience criterions associated with this campaign use the "target and bid" option or the "bid only" target option. Within the [TargetSetting](targetsetting.md) you can have one [TargetSettingDetail](targetsettingdetail.md) objects i.e., one per supported [CriterionTypeGroup](criteriontypegroup.md). The only criterion type value currently supported for the campaign level target setting is "Audience". The [TargetSetting](targetsetting.md) object is not returned by default. To get this object, include the [TargetSetting](campaignadditionalfield.md#targetsetting) value in the ReturnAdditionalFields element when you call the [GetCampaignsByAccountId](getcampaignsbyaccountid.md#returnadditionalfields) and [GetCampaignsByIds](getcampaignsbyids.md#returnadditionalfields) service operations.<br/><br/>**Add:** Required if the [CampaignType](#campaigntype) is set to *DynamicSearchAds* or *Shopping*, and otherwise this element is optional. If this element does not include a [TargetSetting](targetsetting.md) object, the default bid option for all criterion type groups is effectively "bid only".<br/>**Update:** Optional. If no value is set for the update, this setting is not changed. The [DynamicSearchAdsSetting](dynamicsearchadssetting.md) and [ShoppingSetting](shoppingsetting.md) objects cannot be removed during update.|[Setting](setting.md) array|
