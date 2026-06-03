@@ -21,11 +21,11 @@ The Customer Billing service defines the following service operations.
 |[GetAccountMonthlySpend](getaccountmonthlyspend.md)|Gets the amount spent by the account in the specified month.|1 *AccountId*|
 |[GetBillingDocuments](getbillingdocuments.md)|Gets the specified billing documents.|25 *BillingDocumentInfo*|
 |[GetBillingDocumentsInfo](getbillingdocumentsinfo.md)|Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.|Not applicable.|
-|[GetBillingGroups](getbillinggroups.md)|Retrieves billing groups.||
+|[GetBillingGroups](getbillinggroups.md)|Retrieves billing groups.|N/A.|
 |[GetCouponInfo](getcouponinfo.md)|Gets information about coupons associated with a customer ID.|N/A.|
-|[GetUngroupedAccounts](getungroupedaccounts.md)|Retrieves ungrouped accounts.||
+|[GetUngroupedAccounts](getungroupedaccounts.md)|Retrieves ungrouped accounts.|N/A.|
 |[RedeemCoupon](redeemcoupon.md)|Redeems a coupon to the specified account.|1 *CouponCode*|
 |[SearchCoupons](searchcoupons.md)|Searches for coupons that match a specified criteria from within the set of coupons where the supplied *customerID* is identified as the *ownerCustomer*.|4 *Predicates*|
 |[SearchInsertionOrders](searchinsertionorders.md)|Searches for insertion orders that match a specified criteria.|6 *Predicates*|
-|[UpdateBillingGroupAccounts](updatebillinggroupaccounts.md)|Updates billing group accounts.||
+|[UpdateBillingGroupAccounts](updatebillinggroupaccounts.md)|Updates billing group accounts.|N/A.|
 |[UpdateInsertionOrder](updateinsertionorder.md)|Updates an insertion order within the specified account.|1 *AccountId*<br/>1 *InsertionOrder*|
