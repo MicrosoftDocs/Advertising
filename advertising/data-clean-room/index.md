@@ -74,44 +74,44 @@ Supported campaign types include:
 
 ### map_ad_events table
 
-| Column name              | Data type              | Description                                                                 | Supported campaign types  |
-|--------------------------|------------------------|-----------------------------------------------------------------------------|---------------------------|
-| rguid                    | STRING                 | A 128-bit unique identifier for an ad request.                              | All                       |
-| date_time                | LONG (Unix timestamp)  | The date and time of the event in UTC.                                      | All                       |
-| event_type_id            | INTEGER                | Identifier for the event type (for example, impression or click).           |                           |
-| hashed_email             | STRING                 | SHA256-hashed email representing the user.                                  | All                       |
-| hashed_ip_address        | STRING                 | SHA256-hashed IP address representing the user.                             | All                       |
-| country                  | STRING                 | Country code for the event (for example, US, CA).                           | All                       |
-| region                   | STRING                 | Geographic region of the event (for example, state in the US).              | All                       |
-| operating_system         | STRING                 | Operating system of the device.                                             | All                       |
-| browser                  | STRING                 | Browser used for the event.                                                 | All                       |
-| publisher_id             | INTEGER                | Unique identifier for the publisher.                                        | All                       |
-| publisher_name           | STRING                 | Human-readable name of the publisher.                                       | All                       |
-| site_domain              | STRING                 | Most granular site identifier available.                                    | All                       |
-| advertiser_account_id    | INTEGER                | MAP – unique identifier for the advertiser.                                 | All                       |
-| campaign_id              | LONG                   | MAP – unique identifier for the campaign.                                   | All                       |
-| ad_group_id              | LONG                   | MAP – unique identifier for the ad group.                                   |                           |
-| ad_id                    | LONG                   | MAP – unique identifier for the ad (creative).                              |                           |
-| device_type_id           | INTEGER                | Identifier for the device type.                                             | All                       |
-| device_type_name         | STRING                 | Human-readable device type (for example, mobile, PC).                       | All                       |
-| postal_code              | STRING                 | Postal code where the event occurred (if available).                        | All                       |
-| bidded_keyword           | STRING                 | Keyword targeted by the winning campaign.                                   | Search                    |
-| query_id                 | STRING                 | Identifier for a unique query string.                                       | Search                    |
-| spend                    | DECIMAL                | Cost of the media (CPM).                                                    | All                       |
-| advertiser_account_name  | STRING                 | MAP – human-readable advertiser name.                                       | All                       |
-| campaign_name            | STRING                 | MAP – human-readable campaign name.                                         | All                       |
-| ad_group_name            | STRING                 | MAP – human-readable ad group name.                                         |                           |
-| start_date               | TIMESTAMP              | Start date of the campaign or ad group.                                     |                           |
-| end_date                 | TIMESTAMP              | End date of the campaign or ad group.                                       |                           |
-| record_date              | STRING                 | Date the record was collected.                                              | All                       |
-| campaign_type            | STRING                 | Campaign type (for example, SWF, AWF).                                      | All                       |
-| ad_group_type            | STRING                 | Ad group type (for example, Search Standard, Search Dynamic).               |                           |
-| ad_group_price_type      | STRING                 | Ad group pricing type (for example, CPC, CPM, CPA).                         |                           |
-| asset_group_id           | INTEGER                | Identifier for the asset group.                                             | PMax                      |
-| asset_group_name         | STRING                 | Name of the asset group.                                                    | PMax                      |
-| asset_group_start_date   | TIMESTAMP              | Start date of the asset group.                                              | PMax                      |
-| asset_group_end_date     | TIMESTAMP              | End date of the asset group.                                                | PMax                      |
-| event_type_name          | STRING                 | Human-readable event type name (for example, impression, click, view).      |                           |
+| Column name              | Data type              | Description                                                                   | Supported campaign types  |
+|--------------------------|------------------------|-------------------------------------------------------------------------------|---------------------------|
+| rguid                    | STRING                 | A 128-bit unique identifier for an ad request.                                | All                       |
+| date_time                | LONG (Unix timestamp)  | The date and time of the event in UTC.                                        | All                       |
+| event_type_id            | INTEGER                | Identifier for the event type. Valid values: 1 = *Impressions*, 2 = *Clicks*. |                           |
+| hashed_email             | STRING                 | SHA256-hashed email representing the user.                                    | All                       |
+| hashed_ip_address        | STRING                 | SHA256-hashed IP address representing the user.                               | All                       |
+| country                  | STRING                 | Country code for the event (for example, US, CA).                             | All                       |
+| region                   | STRING                 | Geographic region of the event (for example, state in the US).                | All                       |
+| operating_system         | STRING                 | Operating system of the device.                                               | All                       |
+| browser                  | STRING                 | Browser used for the event.                                                   | All                       |
+| publisher_id             | INTEGER                | Unique identifier for the publisher.                                          | All                       |
+| publisher_name           | STRING                 | Human-readable name of the publisher.                                         | All                       |
+| site_domain              | STRING                 | Most granular site identifier available.                                      | All                       |
+| advertiser_account_id    | INTEGER                | MAP – unique identifier for the advertiser.                                   | All                       |
+| campaign_id              | LONG                   | MAP – unique identifier for the campaign.                                     | All                       |
+| ad_group_id              | LONG                   | MAP – unique identifier for the ad group.                                     |                           |
+| ad_id                    | LONG                   | MAP – unique identifier for the ad (creative).                                |                           |
+| device_type_id           | INTEGER                | Identifier for the device type.                                               | All                       |
+| device_type_name         | STRING                 | Human-readable device type (for example, mobile, PC).                         | All                       |
+| postal_code              | STRING                 | Postal code where the event occurred (if available).                          | All                       |
+| bidded_keyword           | STRING                 | Keyword targeted by the winning campaign.                                     | Search                    |
+| query_id                 | STRING                 | Identifier for a unique query string.                                         | Search                    |
+| spend                    | DECIMAL                | Cost of the media (CPM).                                                      | All                       |
+| advertiser_account_name  | STRING                 | MAP – human-readable advertiser name.                                         | All                       |
+| campaign_name            | STRING                 | MAP – human-readable campaign name.                                           | All                       |
+| ad_group_name            | STRING                 | MAP – human-readable ad group name.                                           |                           |
+| start_date               | TIMESTAMP              | Start date of the campaign or ad group.                                       |                           |
+| end_date                 | TIMESTAMP              | End date of the campaign or ad group.                                         |                           |
+| record_date              | STRING                 | Date the record was collected.                                                | All                       |
+| campaign_type            | STRING                 | Campaign type (for example, SWF, AWF).                                        | All                       |
+| ad_group_type            | STRING                 | Ad group type (for example, Search Standard, Search Dynamic).                 |                           |
+| ad_group_price_type      | STRING                 | Ad group pricing type (for example, CPC, CPM, CPA).                           |                           |
+| asset_group_id           | INTEGER                | Identifier for the asset group.                                               | PMax                      |
+| asset_group_name         | STRING                 | Name of the asset group.                                                      | PMax                      |
+| asset_group_start_date   | TIMESTAMP              | Start date of the asset group.                                                | PMax                      |
+| asset_group_end_date     | TIMESTAMP              | End date of the asset group.                                                  | PMax                      |
+| event_type_name          | STRING                 | Human-readable event type name (for example, impression, click, view).        |                           |
 
 ---
 
@@ -268,7 +268,7 @@ A conversion is considered ad-attributed if a user received a traffic event with
 | transaction_type               | STRING    | No                          | Transaction type (for example, pre-order, purchase).                        |
 | iso_country_code               | STRING    | No                          | Country code where the event occurred.                                      |
 | order_id                       | STRING    | No                          | Unique transaction ID associated with the purchase.                         |
-| xbox_id                        | LONG      | Yes                         | XUID associated with the purchase.                                          |
+| hashed_xbox_id                 | LONG      | Yes                         | XUID associated with the purchase.                                          |
 
 ---
 
