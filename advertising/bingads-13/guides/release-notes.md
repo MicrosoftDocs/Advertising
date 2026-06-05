@@ -42,8 +42,8 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 ### <a name="bulkservice-may2026"></a>Bulk Service
 
-- Add *AISearchSetting* to BulkCampaign mapping.
-- Add *BaseDomainSetting* to BulkAdGroup mapping.
+- Add [AISearchSetting](../bulk-service/campaign.md#aisearchsetting) to *BulkCampaign* mapping.
+- Add [BaseDomainSetting](../bulk-service/ad-group.md#basedomainsetting) to *BulkAdGroup* mapping.
 - New goal type: *BulkAppDownloadGoal*.
 - New mapping: [BulkAccountContentNegativeKeywordList](../bulk-service/account-content-negative-keyword-list.md)
 - New mapping for Performance Max campaign-level negative age/gender.
