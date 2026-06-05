@@ -74,9 +74,9 @@ The Bing Ads .NET and Java SDKs are updated. For details, please see release not
   - New fields **TermExclusions** and **MessagingRestrictions** in [BrandKit](../campaign-management-service/brandkit.md)
   - New fields **ExperimentSubType** and **ExperimentArms** in [Experiment](../campaign-management-service/experiment.md)
   - New field [CroppingType](../campaign-management-service/imageasset.md#croppingtype) in `ImageAsset`
+  - New setting [AISearchSetting](../campaign-management-service/aisearchsetting.md)
 - **Reporting API**:
   - New columns **Owner**, **TimeZone**, and **Currency** in [BidStrategyReportColumn]
-  - New setting [AISearchSetting](../campaign-management-service/aisearchsetting.md)
 
 ### <a name="bulkservice-march2026"></a>Other Features
 
