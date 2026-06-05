@@ -189,7 +189,7 @@ See below for Bing Ads API updates during this calendar month.
 ### <a name="bulkservice-july2025"></a>Bulk Service
 
 - Added bulk mappings for Site Exclusion: _BulkAccountPlacementExclusionList_, _BulkSharedListNegativeSite_, _BulkAccountPlacementExclusionListAssociation_, _BulkAccountPlacementInclusionList_, _BulkSharedListSite_ and _BulkAccountPlacementInclusionListAssociation_.
-- Add bulk mappings for [Topic](../bulk-service/topic.md), [Placement](../bulk-service/placement.md), and [TopicCriterion](../bulk-service/ad-group-topic-criterion.md).
+- Add bulk mappings for [Topic](../bulk-service/topic.md), [Placement](../bulk-service/content-placement.md), and [TopicCriterion](../bulk-service/ad-group-topic-criterion.md).
 
 ### <a name="sdk-july2025"></a>Bing Ads API SDK Updates
 
