@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: Determine user permissions for the account hierarchy. 
 ---
 # Account Hierarchy and User Permissions

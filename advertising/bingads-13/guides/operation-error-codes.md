@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 5/19/2026
 description: Reference documentation for service operation error codes.
 ---
 # Operation Error Codes

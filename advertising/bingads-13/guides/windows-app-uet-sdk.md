@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 8/15/2025
 description: For the Microsoft Store app, we provide an SDK to fire UET events. However, this works slightly differently than web based UET.
 ms.custom: sfi-image-nochange
 ---

@@ -5,11 +5,11 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: Reference documentation for editorial failure reason codes. 
 ---
 # Editorial Reason Codes
-The following are the possible reason codes for an ad or keyword that failed editorial review. 
+The following are the possible reason codes for an ad or keyword that failed editorial review.
 
 ## <a name="editorial-codes"></a>Editorial Codes
 

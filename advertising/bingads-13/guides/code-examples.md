@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 3/23/2026
 description: Discover code examples in C#, Java, PHP, and Python.
 ---
 # Bing Ads API Code Examples

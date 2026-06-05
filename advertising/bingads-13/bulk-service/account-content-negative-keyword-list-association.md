@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 4/13/2026
 description: Describes the Account Content Negative Keyword List Association fields in a Bulk file.
 dev_langs:
   - csharp

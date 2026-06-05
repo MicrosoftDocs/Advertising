@@ -5,11 +5,11 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: Determine whether the ad, ad extensions, or keyword passed or failed the editorial review.
 ---
 # Editorial Review and Appeals
-For an ad to be eligible to be served, it must meet the editorial guidelines of the market that it serves. The same is true for ad extensions and keywords. 
+For an ad to be eligible to be served, it must meet the editorial guidelines of the market that it serves. The same is true for ad extensions and keywords.
 
 > [!TIP]
 > For editorial guidelines, see the [Microsoft Advertising Policies](https://help.ads.microsoft.com/#apex/3/en/52023/1) help article.

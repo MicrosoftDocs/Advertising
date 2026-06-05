@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 5/20/2026
 description: Download campaigns, ad groups, and ads in a .csv file using the Bulk service in C#, Java, or Python.
 dev_langs:
   - csharp

@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 4/8/2026
 description: Find out if the Bing Ads API is right for you. 
 ---
 # Bing Ads API Overview

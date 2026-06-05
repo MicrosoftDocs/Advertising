@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: Manage Auto Inventory Ads using the bulk API. Add feeds so your ads update dynamically under specific circumstances. 
 ---
 # Auto Inventory Feeds

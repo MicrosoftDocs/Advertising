@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 1/7/2026
 description: Reference the data retention time periods for Microsoft Advertising performance data.
 ---
 # Reporting Data Retention Time Periods

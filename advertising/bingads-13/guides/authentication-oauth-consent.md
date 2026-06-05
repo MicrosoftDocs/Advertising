@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 3/18/2026
 description: Request user consent for authentication.
 ms.custom: sfi-ropc-blocked
 ---

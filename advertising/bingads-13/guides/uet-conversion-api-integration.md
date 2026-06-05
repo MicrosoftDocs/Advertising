@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/1/2026
 description: The Conversions API (CAPI) guide provides a comprehensive overview for advertisers on how to implement Microsoft's Universal Event Tracking (UET) server-to-server event tracking solution.
 ---
 

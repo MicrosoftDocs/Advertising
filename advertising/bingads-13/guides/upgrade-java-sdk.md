@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 3/23/2026
+ms.date: 3/24/2026
 description: Starting from version 13.0.22 Bing Ads Java SDK has switched from the existing XML-based SOAP API to a new JSON-based REST API for reducing service call latency and network traffic.
 ---
 

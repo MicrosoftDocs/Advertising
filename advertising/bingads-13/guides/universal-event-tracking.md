@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 3/11/2026
 description: Universal event tracking is a prerequisite for conversion tracking and remarketing in paid search.
 ---
 # Universal Event Tracking

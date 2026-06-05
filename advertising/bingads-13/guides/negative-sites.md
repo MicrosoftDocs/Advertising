@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: You can use negative sites to prevent your ad from being displayed on specific website URLs.
 ---
 # Negative Sites

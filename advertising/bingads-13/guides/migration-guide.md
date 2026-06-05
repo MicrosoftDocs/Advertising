@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 4/13/2026
 description: Get details about migrating to Bing Ads API version 13.
 ---
 # Migrate to Version 13
