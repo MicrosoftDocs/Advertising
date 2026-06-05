@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 7/7/2025
 description: Defines a brand kit that can be downloaded and uploaded in a bulk file.
 dev_langs:
   - csharp

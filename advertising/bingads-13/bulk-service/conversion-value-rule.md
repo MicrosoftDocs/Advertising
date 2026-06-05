@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/19/2025
 description: Defines a conversion value rule. Adjusts your conversion values if the conversion meets certain conditions that are relevant to your business goals.
 dev_langs:
   - csharp

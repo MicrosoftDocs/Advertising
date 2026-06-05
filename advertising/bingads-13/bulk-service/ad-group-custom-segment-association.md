@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 1/22/2026
 description: Describes the Ad Group Custom Segment Association fields in a Bulk file.
 dev_langs:
   - csharp

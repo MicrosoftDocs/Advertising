@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 1/3/2025
 description: Describes the Ad Group Placement Criterion fields in a Bulk file.
 dev_langs:
   - csharp
