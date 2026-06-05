@@ -59,10 +59,10 @@ The Bing Ads .NET and Java SDKs are updated. For details, please see release not
 ### <a name="newapiinterfaces-march2026"></a>New API Interfaces  
 
 - **Ad Insight API**:
-  - New fields **AutoTargeting** and **EstCPC** in [GetAudienceFullEstimationRequest](../ad-insight-service/getaudiencefullestimationrequest.md)
+  - New fields **AutoTargeting** and **EstCPC** in [GetAudienceFullEstimationRequest](../ad-insight-service/getaudiencefullestimation.md)
 - **Campaign Management API**:
   - Add [AcceptNielsenTermsAndConditions](../campaign-management-service/accountpropertyname.md#acceptnielsentermsandconditions) as an [AccountPropertyName](../campaign-management-service/accountpropertyname.md)
-  - New setting [BaseDomainSetting](../campaign-management-service/getaudiencefullestimationrequest.md)
+  - New setting [BaseDomainSetting](../campaign-management-service/basedomainsetting.md)
   - New field [CustomSegmentCatalogList](../campaign-management-service/customsegment.md#customsegmentcataloglist) in `CustomSegment`
   - New APIs: [AddHTML5s](../campaign-management-service/addhtml5s.md), [GetHTML5sByIds](../campaign-management-service/gethtml5sbyids.md), [DeleteHTML5s](../campaign-management-service/deletehtml5s.md)
   - New options **NewPortfolioBidStrategy** and **NewAIMaxSettings** in [GoogleImportOption](../campaign-management-service/googleimportoption.md)
