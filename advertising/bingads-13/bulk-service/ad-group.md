@@ -143,6 +143,7 @@ For an *Ad Group* record, the following attribute fields are available in the [B
 - [Ad Group Type](#adgrouptype)
 - [Ad Rotation](#adrotation)
 - [Ad Schedule Use Searcher Time Zone](#adscheduleusesearchertimezone)
+- [Base Domain Setting](#basedomainsetting)
 - [Bid Adjustment](#bidadjustment)
 - [Bid Boost Value](#bidboostvalue)
 - [Bid Option](#bidoption)
@@ -222,6 +223,16 @@ Set this property to *TRUE* if you want the ads to be shown in the search user's
 
 **Add:** Optional. On or before September 30, 2020, if you do not specify this field or leave it empty, the default value of *TRUE* will be set and the search user's time zone will be used. After September 30, 2020, if you do not specify this field or leave it empty, the default value of *FALSE* is set and the account time zone is used.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
+**Delete:** Read-only  
+
+## <a name="basedomainsetting"></a>Base Domain Setting
+The fundamental part of the URL (e.g., contoso.com).
+
+> [!NOTE]
+> *BaseDomainSetting* is initially set automatically, you can't set it.
+
+**Add:** Read-only  
+**Update:** Read-only  
 **Delete:** Read-only  
 
 ## <a name="bidadjustment"></a>Bid Adjustment
