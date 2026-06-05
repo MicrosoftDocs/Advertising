@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 06/04/2026
 description: Get information about changes to Bing Ads API Version 13 by month. 
 ---
 # Bing Ads API Release Notes
@@ -31,11 +31,14 @@ See below for information about changes to Bing Ads API Version 13 by month.
 
 ### <a name="newapiinterfaces-may2026"></a>New API Interfaces  
 
-- New requirement for dual ID for account linking APIs: [ClientLink](../customer-management-service/clientlink.md)
-- New setting: [AISearchSetting](../campaign-management-service/aisearchsetting.md)
-- New report: [MSClickIdPerformanceReport](../reporting-service/msclickidperformancereportcolumn.md)
-- New Campaign Management API: [GetUetTagAuthKey](../campaign-management-service/getuettagauthkey.md)
-- New Billing APIs: *GetBillingGroups*, *GetUngroupedAccounts*, and *UpdateBillingGroupAccounts*.
+- **Campaign Management API**:
+  - New requirement for dual ID for account linking APIs: [ClientLink](../customer-management-service/clientlink.md)
+  - New setting: [AISearchSetting](../campaign-management-service/aisearchsetting.md)
+  - New service operation: [GetUetTagAuthKey](../campaign-management-service/getuettagauthkey.md)
+- **Customer Billing API**:
+  - New Billing APIs: [GetBillingGroups](../customer-billing-service/getbillinggroups.md), [GetUngroupedAccounts](../customer-billing-service/getungroupedaccounts.md), and [UpdateBillingGroupAccounts](../customer-billing-service/updatebillinggroupaccounts.md).
+- **Reporting API**:
+  - New report: [MSClickIdPerformanceReport](../reporting-service/msclickidperformancereportcolumn.md)
 
 ### <a name="bulkservice-may2026"></a>Bulk Service
 
@@ -44,6 +47,44 @@ See below for information about changes to Bing Ads API Version 13 by month.
 - New goal type: *BulkAppDownloadGoal*.
 - New mapping: *BulkAccountContentNegativeKeywordList*.
 - New mapping for Performance Max campaign-level negative age/gender.
+
+### <a name="sdk-may2026"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.28), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.28), [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.28), [PHP](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.28) SDK version 13.0.28.
+
+## <a name="march2026"></a>March 2026
+
+- [New API Interfaces](#newapiinterfaces-march2026)  
+
+### <a name="newapiinterfaces-march2026"></a>New API Interfaces  
+
+- **Ad Insight API**:
+  - New fields **AutoTargeting** and **EstCPC** in [GetAudienceFullEstimationRequest](../ad-insight-service/getaudiencefullestimationrequest.md)
+- **Campaign Management API**:
+  - Add [AcceptNielsenTermsAndConditions](../campaign-management-service/accountpropertyname.md#acceptnielsentermsandconditions) as an [AccountPropertyName](../campaign-management-service/accountpropertyname.md)
+  - New setting [BaseDomainSetting](../campaign-management-service/getaudiencefullestimationrequest.md)
+  - New field [CustomSegmentCatalogList](../campaign-management-service/customsegment.md#customsegmentcataloglist) in `CustomSegment`
+  - New APIs: [AddHTML5s](../campaign-management-service/addhtml5s.md), [GetHTML5sByIds](../campaign-management-service/gethtml5sbyids.md), [DeleteHTML5s](../campaign-management-service/deletehtml5s.md)
+  - New options **NewPortfolioBidStrategy** and **NewAIMaxSettings** in [GoogleImportOption](../campaign-management-service/googleimportoption.md)
+  - New APIs: [AddLinkedInSegments](../campaign-management-service/addlinkedinsegments.md), [DeleteLinkedInSegments](../campaign-management-service/deletelinkedinsegments.md), [UpdateLinkedInSegments](../campaign-management-service/updatelinkedinsegments.md)
+  - New `AdGroupCriterionType`: [CustomSegment](../campaign-management-service/adgroupcriteriontype.md#customsegment)
+  - New `ConversionGoal`: [AppDownloadGoal](../campaign-management-service/appdownloadgoal.md)
+  - New `NegativeKeyword`: [AccountContentNegativeKeywordList](../campaign-management-service/accountcontentnegativekeywordlist.md)
+  - New API: [GetOfflineConversionReportByGoalIds](../campaign-management-service/getofflineconversionreportbygoalids.md)
+  - New fields **TermExclusions** and **MessagingRestrictions** in [BrandKit](../campaign-management-service/brandkit.md)
+  - New fields **ExperimentSubType** and **ExperimentArms** in [Experiment](../campaign-management-service/experiment.md)
+  - New field [CroppingType](../campaign-management-service/imageasset.md#croppingtype) in `ImageAsset`
+- **Reporting API**:
+  - New columns **Owner**, **TimeZone**, and **Currency** in [BidStrategyReportColumn]
+  - New setting [AISearchSetting](../campaign-management-service/aisearchsetting.md)
+
+### <a name="bulkservice-march2026"></a>Other Features
+
+- Preserve the Google login refresh token, as Google doesn’t issue a new one during token refresh.
+
+### <a name="sdk-march2026"></a>Bing Ads API SDK Updates
+
+The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.27), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.27), [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.27), [PHP](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.27) SDK version 13.0.27.
 
 ## <a name="february2026"></a>February 2026
 
