@@ -45,7 +45,7 @@ See below for information about changes to Bing Ads API Version 13 by month.
 - Add *AISearchSetting* to BulkCampaign mapping.
 - Add *BaseDomainSetting* to BulkAdGroup mapping.
 - New goal type: *BulkAppDownloadGoal*.
-- New mapping: *BulkAccountContentNegativeKeywordList*.
+- New mapping: [BulkAccountContentNegativeKeywordList](../bulk-service/account-content-negative-keyword-list.md)
 - New mapping for Performance Max campaign-level negative age/gender.
 
 ### <a name="sdk-may2026"></a>Bing Ads API SDK Updates
@@ -59,24 +59,24 @@ The Bing Ads .NET and Java SDKs are updated. For details, please see release not
 ### <a name="newapiinterfaces-march2026"></a>New API Interfaces  
 
 - **Ad Insight API**:
-  - New fields **AutoTargeting** and **EstCPC** in [GetAudienceFullEstimationRequest](../ad-insight-service/getaudiencefullestimation.md)
+  - New fields *AutoTargeting* and *EstCPC* in [GetAudienceFullEstimationRequest](../ad-insight-service/getaudiencefullestimation.md)
 - **Campaign Management API**:
   - Add [AcceptNielsenTermsAndConditions](../campaign-management-service/accountpropertyname.md#acceptnielsentermsandconditions) as an [AccountPropertyName](../campaign-management-service/accountpropertyname.md)
   - New setting [BaseDomainSetting](../campaign-management-service/basedomainsetting.md)
-  - New field [CustomSegmentCatalogList](../campaign-management-service/customsegment.md#customsegmentcataloglist) in `CustomSegment`
+  - New field [CustomSegmentCatalogList](../campaign-management-service/customsegment.md#customsegmentcataloglist) in *CustomSegment*
   - New APIs: [AddHTML5s](../campaign-management-service/addhtml5s.md), [GetHTML5sByIds](../campaign-management-service/gethtml5sbyids.md), [DeleteHTML5s](../campaign-management-service/deletehtml5s.md)
-  - New options **NewPortfolioBidStrategy** and **NewAIMaxSettings** in [GoogleImportOption](../campaign-management-service/googleimportoption.md)
+  - New options *NewPortfolioBidStrategy* and *NewAIMaxSettings* in [GoogleImportOption](../campaign-management-service/googleimportoption.md)
   - New APIs: [AddLinkedInSegments](../campaign-management-service/addlinkedinsegments.md), [DeleteLinkedInSegments](../campaign-management-service/deletelinkedinsegments.md), [UpdateLinkedInSegments](../campaign-management-service/updatelinkedinsegments.md)
-  - New `AdGroupCriterionType`: [CustomSegment](../campaign-management-service/adgroupcriteriontype.md#customsegment)
-  - New `ConversionGoal`: [AppDownloadGoal](../campaign-management-service/appdownloadgoal.md)
-  - New `NegativeKeyword`: [AccountContentNegativeKeywordList](../campaign-management-service/accountcontentnegativekeywordlist.md)
+  - New *AdGroupCriterionType*: [CustomSegment](../campaign-management-service/adgroupcriteriontype.md#customsegment)
+  - New *ConversionGoal*: [AppDownloadGoal](../campaign-management-service/appdownloadgoal.md)
+  - New *NegativeKeyword*: [AccountContentNegativeKeywordList](../campaign-management-service/accountcontentnegativekeywordlist.md)
   - New API: [GetOfflineConversionReportByGoalIds](../campaign-management-service/getofflineconversionreportbygoalids.md)
-  - New fields **TermExclusions** and **MessagingRestrictions** in [BrandKit](../campaign-management-service/brandkit.md)
-  - New fields **ExperimentSubType** and **ExperimentArms** in [Experiment](../campaign-management-service/experiment.md)
-  - New field [CroppingType](../campaign-management-service/imageasset.md#croppingtype) in `ImageAsset`
+  - New fields *TermExclusions* and *MessagingRestrictions* in [BrandKit](../campaign-management-service/brandkit.md)
+  - New fields *ExperimentSubType* and *ExperimentArms* in [Experiment](../campaign-management-service/experiment.md)
+  - New field [CroppingType](../campaign-management-service/imageasset.md#croppingtype) in *ImageAsset*
   - New setting [AISearchSetting](../campaign-management-service/aisearchsetting.md)
 - **Reporting API**:
-  - New columns **Owner**, **TimeZone**, and **Currency** in [BidStrategyReportColumn]
+  - New columns *Owner*, *TimeZone*, and *Currency* in [BidStrategyReportColumn]
 
 ### <a name="bulkservice-march2026"></a>Other Features
 
@@ -189,7 +189,7 @@ See below for Bing Ads API updates during this calendar month.
 ### <a name="bulkservice-july2025"></a>Bulk Service
 
 - Added bulk mappings for Site Exclusion: _BulkAccountPlacementExclusionList_, _BulkSharedListNegativeSite_, _BulkAccountPlacementExclusionListAssociation_, _BulkAccountPlacementInclusionList_, _BulkSharedListSite_ and _BulkAccountPlacementInclusionListAssociation_.
-- Add bulk mappings for _Topic_, _Placement_, and _TopicCriterion_.
+- Add bulk mappings for [Topic](../bulk-service/topic.md), [Placement](../bulk-service/placement.md), and [TopicCriterion](../bulk-service/ad-group-topic-criterion.md).
 
 ### <a name="sdk-july2025"></a>Bing Ads API SDK Updates
 
