@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 3/23/2026
+ms.date: 3/24/2026
 description: This guide helps you migrate from the Bing Ads PHP SOAP SDK (`microsoft/bingads`) to the new Bing Ads PHP REST SDK (`microsoft/msads`). The new REST SDK offers improved performance, modern architecture, and native async support.
 dev_langs:
   - php

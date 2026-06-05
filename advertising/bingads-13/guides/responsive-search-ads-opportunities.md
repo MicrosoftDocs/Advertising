@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: Ad Insight API enables you to discover high-quality recommendations to create responsive search ads and tag them as applied or dismissed.
 ---
 # Responsive Search Ads Opportunities

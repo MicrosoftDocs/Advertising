@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 3/23/2026
+ms.date: 3/24/2026
 description: This skill guides AI assistants through migrating Bing Ads PHP SDK code from the legacy SOAP-based implementation (`microsoft/bingads`) to the new REST API-based implementation (`microsoft/msads`).
 dev_langs:
   - php

@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 11/16/2025
 description: Ad Insight API enables you to discover high-quality text assets which can be used as headlines or descriptions to create ads or improve your existing ads. 
 ---
 # Text Assets

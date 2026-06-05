@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 3/23/2026
+ms.date: 4/8/2026
 description: Various ways to migrate to the REST API.
 ---
 

@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 4/1/2026
 description: Each report type aggregates the data at a different level or with a different focus.
 ---
 # Report Types

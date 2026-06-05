@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 3/17/2026
 description: Get access and refresh tokens using the Microsoft identity platform endpoint for developers.
 ---
 # Get access and refresh tokens

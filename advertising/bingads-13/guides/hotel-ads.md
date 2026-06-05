@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 10/1/2025
 description: Setup Hotel ads with the Bing Ads API.
 ---
 # Hotel Ads

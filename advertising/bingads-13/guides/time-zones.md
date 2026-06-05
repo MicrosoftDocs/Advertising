@@ -5,13 +5,13 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: Find out about time zones supported with the Bing Ads API.
 ---
 # Time Zones
 The following table describes the possible campaign time zone values.
 
-## Time Zones
+## Time Zones table
 
 |Value|Description|Offset from UTC (fractions of hours are shown as decimal equivalents)|
 |---------|---------------|-------------------------------------------------------------------------|

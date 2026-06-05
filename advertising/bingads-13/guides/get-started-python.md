@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 5/11/2026
 description: Install the Bing Ads Python SDK and get started with the REST API.
 dev_langs:
   - python

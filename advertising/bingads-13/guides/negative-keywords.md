@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 6/26/2025
 description: You can use negative keywords to prevent your ad from being displayed if the user's search query contains one of your negative keywords.
 ---
 # Negative Keywords
