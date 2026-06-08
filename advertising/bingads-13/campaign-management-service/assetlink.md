@@ -41,6 +41,7 @@ For example, within a [ResponsiveSearchAd](responsivesearchad.md) there is an ar
     "CropWidth": IntValueHere,
     "CropX": IntValueHere,
     "CropY": IntValueHere,
+    "Excluded": "ValueHere",
     "SubType": "ValueHere",
     "TargetHeight": IntValueHere,
     "TargetWidth": IntValueHere

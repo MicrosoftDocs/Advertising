@@ -75,6 +75,7 @@ Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.micros
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
 
 ## Used By
+[CustomLinkedInCriterion](customlinkedincriterion.md)  
 [GetProfileDataFileUrl](getprofiledatafileurl.md)  
 [LinkedInSegment](linkedinsegment.md)  
 [ProfileCriterion](profilecriterion.md)  
