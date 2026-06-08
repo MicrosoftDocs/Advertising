@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the attributes and performance statistics columns that you can include in the SearchTermLandingPageReportRequest.
+description: Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).
 ---
 # SearchTermLandingPageReportColumn Value Set - Reporting
-Defines the attributes and performance statistics columns that you can include in the SearchTermLandingPageReportRequest.
+Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).
 
 ## Syntax
 ```xml
@@ -33,7 +33,6 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="LandingPageUrl" />
     <xs:enumeration value="FinalUrl" />
     <xs:enumeration value="FinalUrlSource" />
-    <xs:enumeration value="FinalURLExpansion" />
     <xs:enumeration value="Impressions" />
     <xs:enumeration value="Clicks" />
     <xs:enumeration value="Ctr" />
@@ -54,7 +53,7 @@ Defines the attributes and performance statistics columns that you can include i
 
 ## <a name="values"></a>Values
 
-The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalURLExpansion](#finalurlexpansion), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [LandingPageUrl](#landingpageurl), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
+The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [LandingPageUrl](#landingpageurl), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
 
 |Value|Description|
 |-----------|---------------|
@@ -78,7 +77,6 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="ctr"></a>Ctr|Reserved.|
 |<a name="deliveredmatchtype"></a>DeliveredMatchType|Reserved.|
 |<a name="finalurl"></a>FinalUrl|Reserved.|
-|<a name="finalurlexpansion"></a>FinalURLExpansion|Reserved.|
 |<a name="finalurlsource"></a>FinalUrlSource|Reserved.|
 |<a name="headline"></a>Headline|Reserved.|
 |<a name="impressions"></a>Impressions|Reserved.|
