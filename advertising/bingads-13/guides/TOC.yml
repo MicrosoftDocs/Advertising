@@ -1997,6 +1997,8 @@
       href: ../campaign-management-service/customershare.md
     - name: CustomEventsRule
       href: ../campaign-management-service/customeventsrule.md
+    - name: CustomLinkedInCriterion
+      href: ../campaign-management-service/customlinkedincriterion.md
     - name: CustomParameter
       href: ../campaign-management-service/customparameter.md
     - name: CustomParameters
@@ -2365,6 +2367,8 @@
       href: ../campaign-management-service/topiccriterion.md
     - name: UetTag
       href: ../campaign-management-service/uettag.md
+    - name: UnifiedAutomationSetting
+      href: ../campaign-management-service/unifiedautomationsetting.md
     - name: UrlGoal
       href: ../campaign-management-service/urlgoal.md
     - name: VanityPharmaSetting

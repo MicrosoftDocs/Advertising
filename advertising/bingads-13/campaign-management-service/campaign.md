@@ -175,6 +175,7 @@ Defines a campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -195,6 +196,7 @@ Defines a campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere

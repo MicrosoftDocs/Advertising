@@ -134,6 +134,7 @@ The Campaign Management service defines the following data objects.
 |[CustomerListUserData](customerlistuserdata.md)|Defines a CustomerListUserData data object.|
 |[CustomerShare](customershare.md)|Defines a shareable audience or UET tag that a customer owns.|
 |[CustomEventsRule](customeventsrule.md)|Defines a custom events remarketing rule.|
+|[CustomLinkedInCriterion](customlinkedincriterion.md)|Defines the custom LinkedIn criterion data object.|
 |[CustomParameter](customparameter.md)|Defines a key and value custom parameter for URL tracking.|
 |[CustomParameters](customparameters.md)|Defines a collection of key and value custom parameters for URL tracking.|
 |[CustomSegment](customsegment.md)|Defines the CustomSegment data object.|
@@ -316,6 +317,7 @@ The Campaign Management service defines the following data objects.
 |[ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md)|Defines the third party measurement setting data object.|
 |[TopicCriterion](topiccriterion.md)|Defines a criterion that can be used to show ads to users by a specific topic.|
 |[UetTag](uettag.md)|Defines a Universal Event Tracking (UET) tag that you can add to your website to allow Microsoft Advertising to collect actions people take on your website.|
+|[UnifiedAutomationSetting](unifiedautomationsetting.md)|Defines the unified automation setting data object.|
 |[UrlGoal](urlgoal.md)|Defines a URL conversion goal.|
 |[VanityPharmaSetting](vanitypharmasetting.md)|Defines a data object for VanityPharmaSetting.|
 |[VerifiedTrackingSetting](verifiedtrackingsetting.md)|Defines the VerifiedTrackingSetting Data Object.|

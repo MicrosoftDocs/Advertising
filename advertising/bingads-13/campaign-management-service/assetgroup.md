@@ -128,6 +128,7 @@ Defines an asset group in an advertising campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -167,6 +168,7 @@ Defines an asset group in an advertising campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -188,6 +190,7 @@ Defines an asset group in an advertising campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -208,6 +211,7 @@ Defines an asset group in an advertising campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -246,6 +250,7 @@ Defines an asset group in an advertising campaign.
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
+        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
