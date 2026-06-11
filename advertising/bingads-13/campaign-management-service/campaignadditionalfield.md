@@ -89,9 +89,9 @@ The [CampaignAdditionalField](campaignadditionalfield.md) value set has the foll
 |<a name="dynamicdescriptionsetting"></a>DynamicDescriptionSetting|Reserved.|
 |<a name="dynamicfeedsetting"></a>DynamicFeedSetting|Request that the [DynamicFeedSetting](dynamicfeedsetting.md) object be returned within the [Settings](campaign.md#settings) element of each returned [Campaign](campaign.md) object.|
 |<a name="isdealcampaign"></a>IsDealCampaign|Reserved.|
-|<a name="lifetimebudgetfields"></a>LifetimeBudgetFields|Request that the *LifetimeBudgetStandard* element be returned within the [BudgetLimitType](budgetlimittype.md) object of each returned [Campaign](campaign.md) object.|
-|<a name="manualcpc"></a>ManualCpc|Reserved.|
-|<a name="manualcpi"></a>ManualCpi|Reserved.|
+|<a name="lifetimebudgetfields"></a>LifetimeBudgetFields|Request that the *LifetimeBudgetStandard* element be returned within the [BudgetLimitType](budgetlimittype.md) object of each returned [Campaign](campaign.md) object.<br/><br/>*Note*: If *LifetimeBudgetFields* isn't set, lifetime budget campaigns are excluded from the response.|
+|<a name="manualcpc"></a>ManualCpc|Request that the ManualCpc element be included within each returned [ManualCpcBiddingScheme](manualcpcbiddingscheme.md#manualcpc) object.|
+|<a name="manualcpi"></a>ManualCpi|Request that the ManualCpi element be included within each returned [ManualCpaBiddingScheme](manualcpabiddingscheme.md#manualcpi) object.|
 |<a name="maxconversionvaluebiddingscheme"></a>MaxConversionValueBiddingScheme|Request that the [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object be returned within the [BiddingScheme](campaign.md#biddingscheme) element of each returned [Campaign](campaign.md) object.|
 |<a name="maxconversionvaluewithmaxcpc"></a>MaxConversionValueWithMaxCpc|Request that the MaxCpc element be included within each returned [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [Campaign](campaign.md) object.|
