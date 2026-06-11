@@ -219,6 +219,22 @@ Configure limits based on endpoint capacity.
 > [!NOTE]
 > The 4-second latency requirement is enforced during ad serving. Lower response times improve coverage.
 
+## Endpoint URL and case sensitivity
+
+Live Query requests are sent to the exact URL configured in your price feed settings. The API doesn't normalize the URL path or query string. Requests are processed as case-sensitive.
+
+### Case sensitivity by element
+
+| Element                        | Case-sensitive | Details                                                                 |
+|--------------------------------|----------------|-------------------------------------------------------------------------|
+| Endpoint URL path              | Yes            | `/LiveQuery` and `/livequery` are treated as different paths.          |
+| `<Property>` value in request  | Yes            | Must match the Advertiser Hotel ID exactly as registered.              |
+| XML element names              | Yes            | Must follow XML specification (for example, `<Checkin>` not `<checkin>`). |
+| Custom header names            | No             | HTTP headers are case-insensitive per RFC 7230.                        |
+| Custom header values           | Yes            | Passed exactly as configured.                                          |
+
+Use consistent casing for endpoint URLs and property IDs that matches your registration.
+
 ## See also
 
 * [Price feed](../transaction-message/transaction-message.md)
