@@ -1,10 +1,12 @@
 ---
 title: Add Images to Your Ad with Image Extensions
+ms.service: msa-help
+ms.subservice: msa-general
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+ms.date: 6/11/2026
 description: Add visual elements to your ad with image extensions.
-ms.date: 05-30-2026
-ms.service: bing-ads
-ms.subservice:
-ms.author: shsrinivasan
 ---
 
 # Add images to your ad with image extensions
@@ -36,7 +38,7 @@ If you only have one image to share (such as your logo), choose the **Single Ima
 
 Up to 25 images can be associated with each account, campaign, or ad group. All uploaded images will be rotated one at a time during ad delivery. On computers, a single image layout displays as a rectangle that's cropped in various aspect ratios. On mobile devices, single images are cropped to a 1:1 square aspect ratio.
 
-Single image extension on mobile
+:::image type="content" source="media/BA_Conc_ImageExtension.png" alt-text="Single image extension on mobile.":::
 
 **Multi-image layout**
 
@@ -44,27 +46,27 @@ If you want us to show multiple images in an ad, choose the **Multi-Image Extens
 
 On computer devices, three images are displayed, and potential customers can advance the carousel to see more. On mobile devices, one image is displayed with the option to swipe to see more.
 
-Multi-image extension on computer
+:::image type="content" source="media/BA_CONC_Extension_MultiImage.png" alt-text="Multi-image extension on computer.":::
 
 Also consider our image policies and how to best leverage stock images:
 
 - [Image guidelines and policies](hlp_BA_CONC_ImageGuidelines.md)
 - [About stock images](hlp_BA_CONC_StockImages.md)
 
-- **About image dimensions for image extensions**
+### About image dimensions for image extensions
 
-  You're required to upload an image that meets the minimum dimensions of 703 x 368 pixels for the 1.91 : 1 aspect ratio. Then, we'll automatically crop your image so that it can serve in ad placements that use 1.78 : 1, 1.72 : 1, 1.69 : 1, 1.55 : 1, 1.5 : 1, 1.33 : 1, and 0.93 : 1 aspect ratios.
+You're required to upload an image that meets the minimum dimensions of 703 x 368 pixels for the 1.91 : 1 aspect ratio. Then, we'll automatically crop your image so that it can serve in ad placements that use 1.78 : 1, 1.72 : 1, 1.69 : 1, 1.55 : 1, 1.5 : 1, 1.33 : 1, and 0.93 : 1 aspect ratios.
 
-  | Aspect ratio | Required or optional? | Min. dimensions (pixels) | Max. dimensions (pixels) |
-  | --- | --- | --- | --- |
-  | 1.91 : 1<br>(Landscape) | Required | 703 x 368 | 2048 x 2592 |
-  | 1.78 : 1 | Optional | 624 x 350 | 2048 x 2592 |
-  | 1.72 : 1 | Optional | 300 x 172 | 2048 x 2592 |
-  | 1.69 : 1 | Optional | 622 x 368 | 2048 x 2592 |
-  | 1.55 : 1 | Optional | 300 x 194 | 2048 x 2592 |
-  | 1.5 : 1 | Optional | 300 x 200 | 2048 x 2592 |
-  | 1.33 : 1 | Optional | 100 x 75 | 2048 x 2592 |
-  | 0.93 : 1 | Optional | 311 x 333 | 2048 x 2592 |
+| Aspect ratio | Required or optional? | Min. dimensions (pixels) | Max. dimensions (pixels) |
+| --- | --- | --- | --- |
+| **1.91 : 1<br>(Landscape)** | Required | 703 x 368 | 2048 x 2592 |
+| **1.78 : 1** | Optional | 624 x 350 | 2048 x 2592 |
+| **1.72 : 1** | Optional | 300 x 172 | 2048 x 2592 |
+| **1.69 : 1** | Optional | 622 x 368 | 2048 x 2592 |
+| **1.55 : 1** | Optional | 300 x 194 | 2048 x 2592 |
+| **1.5 : 1** | Optional | 300 x 200 | 2048 x 2592 |
+| **1.33 : 1** | Optional | 100 x 75 | 2048 x 2592 |
+| **0.93 : 1** | Optional | 311 x 333 | 2048 x 2592 |
 
 ## Get started with image extensions
 

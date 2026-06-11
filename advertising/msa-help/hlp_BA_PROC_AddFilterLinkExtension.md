@@ -1,10 +1,12 @@
 ---
-title: Filter Link Extensions: Add Clickable Product or Feature Categories
+title: "Filter Link Extensions: Add Clickable Product or Feature Categories"
+ms.service: msa-help
+ms.subservice: msa-general
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+ms.date: 6/11/2026
 description: Add multiple categories of products or features with unique links to each of these offerings.
-ms.date: 05-30-2026
-ms.service: bing-ads
-ms.subservice:
-ms.author: shsrinivasan
 ---
 
 # Filter link extensions: Add clickable product or feature categories
@@ -13,7 +15,7 @@ If you have multiple products, services or offerings that have dedicated pages o
 
 Use filter link extensions to list multiple categories of products or features with unique links to each of these offerings. Easily combined with other extensions, filter link extensions can enlarge your ad format even further and present multiple avenues to different parts of your site, in addition to your final URL.
 
-Filter link extensions
+:::image type="content" source="media/BA_Conc_Extension_FilterLink.png" alt-text="Filter link extensions.":::
 
 Choose from 36 header categories for example, Price, Deals, or Flowers. Then you can list up to 10 key products and offerings for each category—each with their own URLs—so users can quickly navigate to these additional destinations.
 
@@ -29,7 +31,7 @@ Clicks on each link within the filter link extension will be charged the same co
 
 Here are some things to consider before you build your filter link extension:
 
-- **Header**: The category that describes the filters for your products and services that you would like to highlight. You can choose from 36 predefined header options. Here you can [download](FilterLinkHeaders_xlsx.md) a list of the headers.
+- **Header**: The category that describes the filters for your products and services that you would like to highlight. You can choose from 36 predefined header options. Here you can [download](TODO-FWLINK-2153937) a list of the headers.
 - **Value**: Between three and 10 specific products or services that relate to the chosen header. Each value has a maximum character limit of 25. A minimum of three values must be entered, with a maximum of 10 supported. For each value you need to set the Final URL or landing page where customers will be taken after clicking your header.
 
 > [!NOTE]
@@ -44,11 +46,11 @@ Standard ad extension reports are available. Filter link extensions are reported
 
 |  | Callout | Filter link | Structured snippet |
 | --- | --- | --- | --- |
-| When to use | Showcase what makes your products or services unique. | Create multiple links in your ad to specific products or services. | Provide more context on specific aspects of your products or services. |
-| Example | "Free shipping • 24/7 Support" | "Price: Under $20 • $20-$30 • $30-$50 • $50-$100 • $100-$150 • $150+" | "Brands: Windows, Xbox, Skype" |
-| Character limit | 25 characters per callout | 25 characters per value | 25 characters per value |
-| Minimum number | 2 callouts | 3 values | 3 values |
-| Maximum number | 4 callouts | 10 values | Based on value length and screen size |
+| **When to use** | Showcase what makes your products or services unique. | Create multiple links in your ad to specific products or services. | Provide more context on specific aspects of your products or services. |
+| **Example** | "Free shipping • 24/7 Support" | "Price: Under $20 • $20-$30 • $30-$50 • $50-$100 • $100-$150 • $150+" | "Brands: Windows, Xbox, Skype" |
+| **Character limit** | 25 characters per callout | 25 characters per value | 25 characters per value |
+| **Minimum number** | 2 callouts | 3 values | 3 values |
+| **Maximum number** | 4 callouts | 10 values | Based on value length and screen size |
 
 ## Get started with filter link extensions
 

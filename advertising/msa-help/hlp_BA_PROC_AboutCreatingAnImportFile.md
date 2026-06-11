@@ -1,10 +1,12 @@
 ---
 title: Import Data Using a File
+ms.service: msa-help
+ms.subservice: msa-general
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+ms.date: 6/11/2026
 description: You can import your campaigns from other advertising programs using a file.
-ms.date: 05-30-2026
-ms.service: bing-ads
-ms.subservice:
-ms.author: shsrinivasan
 ---
 
 # Import data using a file
@@ -35,10 +37,8 @@ First, you'll need to download the template from Microsoft Advertising and then 
 
    | Column Name | Description |
    | --- | --- |
-   | Summary | Shows how many entities were imported successfully and how many had errors. Click the ellipsis 
-                     ellipse
-                    to see details. |
-   | Actions | If you had errors, you will see a link to download the error file which you can review. |
+   | **Summary** | Shows how many entities were imported successfully and how many had errors. Click the ellipsis ![ellipse](media/BA_ScreenCap_DeliveryDetails.png) to see details. |
+   | **Actions** | If you had errors, you will see a link to download the error file which you can review. |
 1. Select **Browse** and open the file.
 1. Choose either **Microsoft Advertising format** or **Google format**.
 1. Select **Continue**.

@@ -1,10 +1,12 @@
 ---
-title: Call Extensions: Add a Phone Number
+title: "Call Extensions: Add a Phone Number"
+ms.service: msa-help
+ms.subservice: msa-general
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+ms.date: 6/11/2026
 description: Add a phone number to your ad that is appropriate for all locations where your ads display.
-ms.date: 05-30-2026
-ms.service: bing-ads
-ms.subservice:
-ms.author: shsrinivasan
 ---
 
 # Call extensions: Add a phone number
@@ -15,7 +17,7 @@ ms.author: shsrinivasan
 
 Want customers to contact you quickly with just a click or a call? Include a link to your company’s phone number using a call extension. Use a call extension to provide a phone number that's not associated with a particular location but can be used for all locations where your ads are showing. A call extension is a phone number that is displayed directly in your Search ad. You can enter one call extension per campaign.
 
-Call extensions
+:::image type="content" source="media/BA_CONC_Extension_Call.png" alt-text="Call extensions.":::
 
 You can either use your own phone number or use a Microsoft Advertising forwarding phone number. A Microsoft Advertising forwarding phone number is a unique phone number that is routed to your business phone number. With a Microsoft Advertising forwarding number, you can track all calls from your ad so that you can analyze the ad’s performance. Any calls you receive from ads that are clicked are charged per click like regular Search ads.
 
@@ -24,7 +26,7 @@ You can either use your own phone number or use a Microsoft Advertising forwardi
 
 Call extensions have the added benefit of allowing you to specify if you want to show just your phone number or both your website and phone number. When selecting the **Show just the phone number** in the **Mobile Format** option, you'll only pay for the clicks to your phone number. Clicking on the phone number link will initiate a call to that number and you will be charged up to your bid amount (just as if the user had clicked on a website link).
 
-You cannot target specific locations with call extensions. Call extensions can be used together with [location extensions](LocationExtensions.md). You typically use location extensions to provide an address and local phone number associated with a local location. Using a call extension, you can provide a phone number that is not associated with a particular location, but is appropriate for all locations where your ads display. When these two features are used at the same time, the phone numbers displayed and the availability of click-to-call depend on the device where the ad is being viewed. To understand what to expect when using these features together, see [How call and location extensions work together](hlp_BA_CONC_CallNLocExtensions.md)
+You cannot target specific locations with call extensions. Call extensions can be used together with [location extensions](https://go.microsoft.com/fwlink/?linkid=524153). You typically use location extensions to provide an address and local phone number associated with a local location. Using a call extension, you can provide a phone number that is not associated with a particular location, but is appropriate for all locations where your ads display. When these two features are used at the same time, the phone numbers displayed and the availability of click-to-call depend on the device where the ad is being viewed. To understand what to expect when using these features together, see [How call and location extensions work together](hlp_BA_CONC_CallNLocExtensions.md)
 
 ## Get started with call extensions
 
@@ -43,7 +45,7 @@ Your call extension might have low or no impressions due to the following reason
 - **Geographical availability:** Call forwarding is only available in specific markets (AU, UK, and US). Ensure your campaign is targeting these markets.
 - **Ad group eligibility:** If your ad group isn't eligible to serve yet, it won't be assigned a forwarding number. Ads will deliver with the advertiser's phone number only on smartphones, without any phone number on computer and tablet devices.
 
-For more assistance, [contact Support](Contact_adCenterSupport.md).
+For more assistance, [contact Support](https://go.microsoft.com/fwlink/?linkid=398371).
 
 ## Related videos
 

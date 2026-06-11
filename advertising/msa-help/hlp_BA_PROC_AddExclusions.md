@@ -1,10 +1,12 @@
 ---
 title: How to Prevent Your Ads from Showing to Certain People
+ms.service: msa-help
+ms.subservice: msa-general
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+ms.date: 6/11/2026
 description: Prevent your ad from appearing in specific locations, on specific web sites within the Microsoft Advertising Network, or from displaying to certain IP addresses. You can set exclusions on a each ad or across multiple ads at the same time.
-ms.date: 05-30-2026
-ms.service: bing-ads
-ms.subservice:
-ms.author: shsrinivasan
 ---
 
 # How to prevent your ads from showing to certain people

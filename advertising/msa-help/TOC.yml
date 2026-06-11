@@ -1,0 +1,78 @@
+- name: Import data using a file
+  href: ./hlp_BA_PROC_AboutCreatingAnImportFile.md
+- name: About Performance Max campaigns
+  href: ./hlp_BA_PROC_AboutPmax.md
+- name: How to change payment methods and bill-to customer
+  href: ./hlp_BA_PROC_Account_AssociateCCard.md
+- name: Action extensions -  Add a call to action button with action extensions
+  href: ./hlp_BA_PROC_AddActionExtension.md
+- name: Add a backup payment method
+  href: ./hlp_BA_PROC_AddBackupPM.md
+- name: Paying by credit and debit card
+  href: ./hlp_BA_PROC_AddBilling.md
+- name: Call extensions -  Add a phone number
+  href: ./hlp_BA_PROC_AddCallExtension.md
+- name: Callout extensions - Highlight your store's products or offers
+  href: ./hlp_BA_PROC_AddCalloutExtension.md
+- name: How to prevent your ads from showing to certain people
+  href: ./hlp_BA_PROC_AddExclusions.md
+- name: Filter link extensions - Add clickable product or feature categories
+  href: ./hlp_BA_PROC_AddFilterLinkExtension.md
+- name: Add funds to a prepay account
+  href: ./hlp_BA_PROC_AddFunds.md
+- name: Add images to your ad with image extensions
+  href: ./hlp_BA_PROC_AddImageExtension.md
+- name: How to add or delete keywords
+  href: ./hlp_BA_PROC_AddKeywordsOrder.md
+- name: Location extensions - Show your business address
+  href: ./hlp_BA_PROC_AddLocationExtension.md
+- name: Logo extensions - Add a logo to your ad
+  href: ./hlp_BA_PROC_AddLogoExtension.md
+- name: How to add keywords that won't trigger my ads (negative keywords)
+  href: ./hlp_BA_PROC_AddNegativeKeywords.md
+- name: Price extensions - Add prices of your products or services
+  href: ./hlp_BA_PROC_AddPriceExtension.md
+- name: Promotion extensions - Highlight special offers for different occasions
+  href: ./hlp_BA_PROC_AddPromotionExtension.md
+- name: Review extensions - Share positive reviews
+  href: ./hlp_BA_PROC_AddReviewExtension.md
+- name: Sitelink extensions - Take people to specific pages on your website
+  href: ./hlp_BA_PROC_AddSitelinkExtension.md
+- name: Structured snippet extensions - Add snippets that highlight your store's products or offers
+  href: ./hlp_BA_PROC_AddStructuredSnippetExtension.md
+- name: Video extensions - Express your brand identity
+  href: ./hlp_BA_PROC_AddVideoExtension.md
+- name: Managing your clients as an agency on Microsoft Advertising
+  href: ./hlp_BA_PROC_AgencyEnable.md
+- name: Why is my account on hold?
+  href: ./hlp_BA_PROC_AlertAcctHold.md
+- name: Fix the Campaign out of budget/Budget pause status
+  href: ./hlp_BA_PROC_AlertBudgetDepleted.md
+- name: Update your credit card expiration date
+  href: ./hlp_BA_PROC_AlertCardExpire.md
+- name: Critical alert - No payment method has been added
+  href: ./hlp_BA_PROC_AlertNoPI.md
+- name: Opting out of Automated Extensions
+  href: ./hlp_BA_PROC_AutomatedExtensionsOptOut.md
+- name: What is auto-recharge and how does it work?
+  href: ./hlp_BA_PROC_AutoRecharge.md
+- name: Edit, pause, or delete automated rules
+  href: ./hlp_BA_PROC_AutoRuleManage.md
+- name: Get billing alerts
+  href: ./hlp_BA_PROC_BillingEmails.md
+- name: Get email notifications for Microsoft Merchant Center
+  href: ./hlp_BA_PROC_BMC_AddEmail.md
+- name: Automatic item update
+  href: ./hlp_BA_PROC_BMC_AutoItem.md
+- name: Submit online product inventory update feeds
+  href: ./hlp_BA_PROC_BMC_ProductInventoryFeed.md
+- name: Schedule downloading of feed files in Microsoft Merchant Center
+  href: ./hlp_BA_PROC_BMC_ScheduleDownloadFeed.md
+- name: Paying with Boleto Bancario
+  href: ./hlp_BA_PROC_Boleto.md
+- name: Send your customers to a specific landing page
+  href: ./hlp_BA_PROC_ChangeLandingPage.md
+- name: Change my password or user name
+  href: ./hlp_BA_PROC_ChangePassword.md
+- name: Change your status, bid, and other settings
+  href: ./hlp_BA_PROC_ChgSettings.md
