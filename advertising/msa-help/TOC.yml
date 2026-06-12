@@ -76,3 +76,6 @@
   href: ./hlp_BA_PROC_ChangePassword.md
 - name: Change your status, bid, and other settings
   href: ./hlp_BA_PROC_ChgSettings.md
+- name: Everything you need to know about setting up UET
+  href: ./hlp_BA_CONC_UET_Setup_Master.md
+  
