@@ -48,6 +48,18 @@ See below for information about changes to Bing Ads API Version 13 by month.
 - New mapping: [BulkAccountContentNegativeKeywordList](../bulk-service/account-content-negative-keyword-list.md)
 - New mapping for Performance Max campaign-level negative age/gender.
 
+### <a name="otherfeatures-may2026"></a>Other Features
+
+#### ImageAdExtension V2 update
+
+[ImageAdExtension](../campaign-management-service/imageadextension.md) now uses a V2 model (`AssetLink[]`/`Images`) with aspect ratios, replacing `ImageMediaIds`.
+
+The API auto-converts V1 requests on write. No client changes required. Read responses now return `Images`.
+
+If only V1 fields are provided, the API:
+- Converts media IDs to `Images`
+- Sets `EligibleLayout` to `Single`
+
 ### <a name="sdk-may2026"></a>Bing Ads API SDK Updates
 
 The Bing Ads .NET and Java SDKs are updated. For details, please see release notes for Microsoft Advertising [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.28), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.28), [PHP](https://github.com/BingAds/BingAds-PHP-SDK/releases/tag/v13.0.28), [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.28) SDK version 13.0.28.
@@ -78,7 +90,7 @@ The Bing Ads .NET and Java SDKs are updated. For details, please see release not
 - **Reporting API**:
   - New columns *Owner*, *TimeZone*, and *Currency* in [BidStrategyReportColumn]
 
-### <a name="bulkservice-march2026"></a>Other Features
+### <a name="otherfeatures-march2026"></a>Other Features
 
 - Preserve the Google login refresh token, as Google doesn’t issue a new one during token refresh.
 
