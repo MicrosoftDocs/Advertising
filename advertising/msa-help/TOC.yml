@@ -1,3 +1,7 @@
+﻿- name: Choosing a payment method for Microsoft Advertising
+  href: ./hlp_BA_CONC_PaymentMethodsV2.md
+- name: Everything you need to know about setting up UET
+  href: ./hlp_BA_CONC_UET_Setup_Master.md
 - name: Import data using a file
   href: ./hlp_BA_PROC_AboutCreatingAnImportFile.md
 - name: About Performance Max campaigns
@@ -76,6 +80,151 @@
   href: ./hlp_BA_PROC_ChangePassword.md
 - name: Change your status, bid, and other settings
   href: ./hlp_BA_PROC_ChgSettings.md
-- name: Everything you need to know about setting up UET
-  href: ./hlp_BA_CONC_UET_Setup_Master.md
-  
+- name: Verify and claim your website's URL
+  href: ./hlp_BA_PROC_ClaimYourDomain.md
+- name: Combine similar bills into a single invoice (Enhanced consolidated billing)
+  href: ./hlp_BA_PROC_ConsolidatedBilling.md
+- name: Copy and paste campaigns, ad groups, ads, and keywords
+  href: ./hlp_BA_PROC_CopyPaste.md
+- name: How do I create a Search campaign?
+  href: ./hlp_BA_PROC_Create1stAd.md
+- name: Create additional accounts
+  href: ./hlp_BA_PROC_CreateAcctSelfServe.md
+- name: How do I create an Audience campaign?
+  href: ./hlp_BA_PROC_CreateAudienceCampaign.md
+- name: Create a Microsoft Merchant Center store
+  href: ./hlp_BA_PROC_CreateBingMerchantCenterStore.md
+- name: How to create or edit expanded text ads
+  href: ./hlp_BA_PROC_CreateEXTA.md
+- name: How do I create Native ads?
+  href: ./hlp_BA_PROC_CreateNative.md
+- name: Create a Performance Max campaign
+  href: ./hlp_BA_PROC_CreatePmax.md
+- name: Create Product ads in a Shopping campaign
+  href: ./hlp_BA_PROC_CreateProductTargetAndAd.md
+- name: Understanding the Report Builder
+  href: ./hlp_BA_PROC_CreateReport.md
+- name: If an account is deactivated or deleted
+  href: ./hlp_BA_PROC_DeleteAcct.md
+- name: Deleting a payment method
+  href: ./hlp_BA_PROC_DeleteCard.md
+- name: How do I disable ad-blocking extensions?
+  href: ./hlp_BA_PROC_DisableAdBlock.md
+- name: Change contact information
+  href: ./hlp_BA_PROC_EditMySettings.md
+- name: Setting email preferences
+  href: ./hlp_BA_PROC_EmailNotifications.md
+- name: Business data feeds
+  href: ./hlp_BA_PROC_Feeds_WorkingWith.md
+- name: I forgot my user name or password
+  href: ./hlp_BA_PROC_ForgotPassword.md
+- name: Making bulk changes to your properties
+  href: ./hlp_BA_PROC_HotelAds_BulkEdit.md
+- name: Import campaigns directly from Meta Ads
+  href: ./hlp_BA_PROC_Import_FB_Campaign.md
+- name: Import campaigns directly from Pinterest Ads
+  href: ./hlp_BA_PROC_Import_PI_Campaign.md
+- name: Import campaigns directly from Google Ads
+  href: ./hlp_BA_PROC_ImportCampaign.md
+- name: How do I access Microsoft Advertising as an invited user?
+  href: ./hlp_BA_PROC_InviteNewUser.md
+- name: Using keyboard shortcuts
+  href: ./hlp_BA_PROC_KeyboardShortcuts.md
+- name: How to get my ads on the first page using estimated bids?
+  href: ./hlp_BA_PROC_Location_Opportunity.md
+- name: Pay your account balance
+  href: ./hlp_BA_PROC_MakePayment.md
+- name: Managing your addresses
+  href: ./hlp_BA_PROC_ManagingAddresses.md
+- name: Auto-tagging of Microsoft Click ID
+  href: ./hlp_BA_PROC_MicrosoftClickID.md
+- name: Apply for monthly invoice billing
+  href: ./hlp_BA_PROC_MonthlyInvoiceApply.md
+- name: About Performance Max page feeds
+  href: ./hlp_BA_PROC_PageFeedsPMAX.md
+- name: Pause, enable, or delete your campaigns
+  href: ./hlp_BA_PROC_PauseEnableCampaign.md
+- name: Paying by bank transfer
+  href: ./hlp_BA_PROC_PayByCheck.md
+- name: Best practices for Performance Max campaigns
+  href: ./hlp_BA_PROC_PmaxBestPractices.md
+- name: How do I challenge a disapproval?
+  href: ./hlp_BA_PROC_RequestException.md
+- name: Add the words people are searching for as keywords or negative keywords
+  href: ./hlp_BA_PROC_SearchTerm.md
+- name: Paying with SEPA Direct Debit
+  href: ./hlp_BA_PROC_SEPA.md
+- name: About smart image cropping
+  href: ./hlp_BA_PROC_SmartCropping.md
+- name: How do I switch my payment settings?
+  href: ./hlp_BA_PROC_SwitchPaymentSettingV2.md
+- name: How to target customers
+  href: ./hlp_BA_PROC_TargetingAgeGender.md
+- name: Example custom events for e-commerce customers
+  href: ./hlp_BA_PROC_UET_ExampleEventsEcommerce.md
+- name: Set up UET tags using Google Tag Manager, Tealium, and other tag management systems
+  href: ./hlp_BA_PROC_UET_TMS.md
+- name: Set up UET tags using Google Tag Manager, Tealium, and other tag management systems
+  href: ./hlp_BA_PROC_UET_TMS_2.md
+- name: Set up UET tags using Adobe Dynamic Tag Management
+  href: ./hlp_BA_PROC_UET_TMS_AdobeDTM.md
+- name: Set up UET tags using Adobe Experience Platform
+  href: ./hlp_BA_PROC_UET_TMS_AdobeLaunch.md
+- name: Set up UET tags using Ensighten
+  href: ./hlp_BA_PROC_UET_TMS_Ensighten.md
+- name: Set up UET tags using Google Tag Manager
+  href: ./hlp_BA_PROC_UET_TMS_GTM.md
+- name: Set up UET with Google Tag Manager using direct integration
+  href: ./hlp_BA_PROC_UET_TMS_GTM_DI.md
+- name: Set up UET tags using Qubit Opentag
+  href: ./hlp_BA_PROC_UET_TMS_Qubit.md
+- name: Set up UET tags using Signal
+  href: ./hlp_BA_PROC_UET_TMS_Signal.md
+- name: Set up UET tags using Tealium
+  href: ./hlp_BA_PROC_UET_TMS_Tealium.md
+- name: Set up UET tags using Shopify, WordPress.com, and other website platforms
+  href: ./hlp_BA_PROC_UET_WebPlatform.md
+- name: Set up UET tags using Shopify, WordPress.com, and other website platforms
+  href: ./hlp_BA_PROC_UET_WebPlatform_2.md
+- name: Set up UET tags using BigCommerce
+  href: ./hlp_BA_PROC_UET_WebPlatform_BigCommerce.md
+- name: Set up UET tags using Shopify
+  href: ./hlp_BA_PROC_UET_WebPlatform_Shopify.md
+- name: Set up UET tags using Squarespace
+  href: ./hlp_BA_PROC_UET_WebPlatform_SquareSpace.md
+- name: Set up UET tags using Wix
+  href: ./hlp_BA_PROC_UET_WebPlatform_Wix.md
+- name: Set up UET tags using WordPress.com
+  href: ./hlp_BA_PROC_UET_WebPlatform_WordPress.md
+- name: How do I add a UET tag to my website?
+  href: ./hlp_BA_PROC_UETv2AddTag.md
+- name: How do I create a conversion goal?
+  href: ./hlp_BA_PROC_UETv2CreateGoal.md
+- name: How do I create a UET tag?
+  href: ./hlp_BA_PROC_UETv2CreateTag.md
+- name: How do I delete a conversion goal?
+  href: ./hlp_BA_PROC_UETv2DeleteConversionGoal.md
+- name: How do I delete a UET tag?
+  href: ./hlp_BA_PROC_UETv2DeleteTag.md
+- name: Track mobile app installs as conversions
+  href: ./hlp_BA_PROC_UETv2MobileApp.md
+- name: How to use regular expressions when building destination URLs or custom event type goals
+  href: ./hlp_BA_PROC_UETv2RegExpression.md
+- name: Is my UET tag working?
+  href: ./hlp_BA_PROC_UETv2TBTag.md
+- name: Why track custom events
+  href: ./hlp_BA_PROC_UETv2TrackCustomEvent.md
+- name: Why track variable revenue
+  href: ./hlp_BA_PROC_UETv2TrackRev.md
+- name: How do I manage my conversion goals?
+  href: ./hlp_BA_PROC_UETv2ViewGoals.md
+- name: Is my UET tag working?
+  href: ./hlp_BA_PROC_UETv2ViewTag.md
+- name: Use inline recommendations to update keyword and bids
+  href: ./hlp_BA_PROC_UseSuggestionsOpportunities.md
+- name: Sign in to Microsoft Advertising
+  href: ./hlp_BA_PROC_UseWLIDv2.md
+- name: How do I preview my ad in Bing search results?
+  href: ./hlp_BA_PROC_UsingAdPreviewTool.md
+- name: Download and print a billing statement or invoice
+  href: ./hlp_BA_PROC_ViewBillingPg.md

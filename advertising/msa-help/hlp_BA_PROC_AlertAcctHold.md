@@ -1,12 +1,11 @@
 ---
 title: Why Is My Account on Hold?
+description: Have you run into a payment problem? Don't worry. We'll guide you through the process of removing the hold from your account. Read this article to find out how.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Have you run into a payment problem? Don't worry. We'll guide you through the process of removing the hold from your account. Read this article to find out how.
 ---
 
 # Why is my account on hold?
@@ -17,11 +16,10 @@ We've all been there: A payment slips through the cracks or is declined by your 
 
 An account is placed on hold in the following situations:
 
-- **Excessive chargebacks.**Accounts that have excessive chargebacks, where multiple transactions have been disputed, are placed on hold.
-- **Postpay threshold account.**We tried to process a payment and the charges were declined by credit/debit card company. There are a number of reasons that this can happen. For example, your card has been blocked, you've reached your authorized credit limit, or your card has expired. Any Microsoft Advertising account that uses that card is now on hold.
-- **Monthly invoice account.**We haven't received one or more of your invoiced payments. Accounts that have overdue payments are placed on hold.
-
-**Suspicious changes detected.** If suspicious changes are detected, a temporary hold for up to 30 days will be placed on your account.
+- **Excessive chargebacks.** Accounts that have excessive chargebacks, where multiple transactions have been disputed, are placed on hold.
+- **Postpay threshold account.** We tried to process a payment and the charges were declined by credit/debit card company. There are a number of reasons that this can happen. For example, your card has been blocked, you've reached your authorized credit limit, or your card has expired. Any Microsoft Advertising account that uses that card is now on hold.
+- **Monthly invoice account.** We haven't received one or more of your invoiced payments. Accounts that have overdue payments are placed on hold.
+- **Suspicious changes detected.** If suspicious changes are detected, a temporary hold for up to 30 days will be placed on your account.
 
 Remember, when an account is on hold none of your campaigns are running and the ads in those accounts are not eligible for display. So, you'll want to get the hold removed as quickly as possible. If you don't remove the hold, we might need to put all of your accounts on hold, regardless of whether they have declined or overdue payments.
 

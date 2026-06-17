@@ -1,12 +1,12 @@
 ---
 title: "Location Extensions: Show Your Business Address"
+description: Learn how to show the address of your business location that's closest to the customer with location extensions.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Learn how to show the address of your business location that's closest to the customer with location extensions.
 ---
 
 # Location extensions: Show your business address

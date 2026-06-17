@@ -1,12 +1,12 @@
 ---
 title: "Video Extensions: Express Your Brand Identity"
+description: Create engaging experiences alongside your ad with a video extension.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Create engaging experiences alongside your ad with a video extension.
 ---
 
 # Video extensions: Express your brand identity
@@ -57,7 +57,7 @@ On computer, when a user clicks on your thumbnail image, your video plays in a f
 ## Video requirements
 
 - **Length**: Must range from 6 to 120 seconds
-- **File formats**: We recommend MPEG-2, MP4, or MOV. We support all [Azure Media Services v3](TODO-FWLINK-2175202) input file formats.
+- **File formats**: We recommend MPEG-2, MP4, or MOV. We support all [Azure Media Services v3](https://go.microsoft.com/fwlink/?linkid=2175202) input file formats.
 - **Aspect ratio**: Must range from 16:9 to 9:16 (e.g. 1:1 is acceptable)
 - **Resolution**: As high as possible. At least 720x720 pixels recommended, at least 120x120 pixels required.
 - **Maximum file size**: 10 GB

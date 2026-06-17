@@ -1,12 +1,12 @@
 ---
 title: Get Billing Alerts
+description: Find out how to sign up for billing notifications, including notifications with links to your end-of-month summaries of your payments for the previous month.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Find out how to sign up for billing notifications, including notifications with links to your end-of-month summaries of your payments for the previous month.
 ---
 
 # Get billing alerts

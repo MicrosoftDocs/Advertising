@@ -1,12 +1,12 @@
 ---
 title: Get Email Notifications for Microsoft Merchant Center
+description: Learn how to sign up for email notifications for Microsoft Merchant Center.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Learn how to sign up for email notifications for Microsoft Merchant Center.
 ---
 
 # Get email notifications for Microsoft Merchant Center

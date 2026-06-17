@@ -1,12 +1,12 @@
 ---
-title: How to Prevent Your Ads from Showing to Certain People
+title: How to Prevent your Ads from Showing to Certain People
+description: Learn how to use exclusions to prevent your ads from showing to certain people based on specific locations, websites, IP addresses, and more.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Prevent your ad from appearing in specific locations, on specific web sites within the Microsoft Advertising Network, or from displaying to certain IP addresses. You can set exclusions on a each ad or across multiple ads at the same time.
+author: jonmeyers
 ---
 
 # How to prevent your ads from showing to certain people
@@ -15,7 +15,7 @@ If you want to prevent your ad from appearing in specific locations, on specific
 
 ## To prevent your ads from showing in specific locations
 
-- **To exclude specific locations at the campaign level**
+**To exclude specific locations at the campaign level**
 
   1. From the navigation menu on the left, select **Campaigns**.
   1. Select the name of the campaign that you want to edit (in the **Campaign** column).
@@ -24,7 +24,7 @@ If you want to prevent your ad from appearing in specific locations, on specific
   1. Select locations you want to exclude—cities and metro areas within the United States, Canada, United Kingdom, France, and Australia; states/provinces; countries/regions; or postal codes—by searching for your specific location and selecting **Exclude** from the search results. (Note: You cannot exclude using radius targeting.)
   1. Select **Done**.
 
-- **To exclude specific locations at the ad group level**
+**To exclude specific locations at the ad group level**
 
   1. From the navigation menu on the left, hover over **Campaigns** and select **Ad groups** > **Ad groups**.
   1. Select the ad group that you want to edit (in the **Ad group** column).

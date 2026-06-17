@@ -1,12 +1,12 @@
 ---
 title: "Promotion Extensions: Highlight Special Offers for Different Occasions"
+description: Promotion extensions highlight special offers for different occasions.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Promotion extensions highlight special offers for different occasions.
+author: jonmeyers
 ---
 
 # Promotion extensions: Highlight special offers for different occasions
@@ -92,13 +92,13 @@ There are three different date ranges to keep in mind for promotion extension to
 - You can add one minimum purchase amount and/or one promotion code.
 - The promotion landing page must include details of the promotion.
 
-The table below indicates when your promotion extension will serve based on whether you select from the [preset list of occasions](#Occasions) and schedule a **Start date** and **End date**:
+The table below indicates when your promotion extension will serve based on whether you select from the [preset list of occasions](#occasions-available-for-promotion-extensions) and schedule a **Start date** and **End date**:
 
 | Did you select an occasion from the preset list? | Did you schedule a **Start date** and **End date** for your extension? | Does the occasion's date range overlap with your scheduled **Start date** and **End date**? | When will the extension serve? |
 | --- | --- | --- | --- |
 | **Yes** | Yes | Yes | During your scheduled **Start date** and **End date** |
 | **Yes** | Yes | No | During your scheduled **Start date** and **End date** |
-| **Yes** | No | No | Every year during the [occasion's date range](#Occasions) |
+| **Yes** | No | No | Every year during the [occasion's date range](#occasions-available-for-promotion-extensions) |
 | **No** | Yes | No | During your scheduled **Start date** and **End date** |
 | **No** | No | No | The extension will always serve |
 

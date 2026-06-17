@@ -1,0 +1,1 @@
+*We accept Mastercard and Visa. We do not accept prepaid cards. Microsoft may use information provided by the issuing bank or applicable payment network to confirm the information connected to the payment method remains current.

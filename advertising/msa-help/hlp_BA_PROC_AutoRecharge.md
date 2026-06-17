@@ -1,12 +1,12 @@
 ---
 title: What Is Auto-recharge and How Does It Work?
+description: Make sure that your prepay account has funds so that your ads are eligible to run uninterrupted.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Make sure that your prepay account has funds so that your ads are eligible to run uninterrupted.
 ---
 
 # What is auto-recharge and how does it work?
@@ -23,7 +23,7 @@ Each time your account balance reaches 20% of the recharge amount, or we estimat
 > - For prepay auto-recharge: [Manually add funds to your prepay account](hlp_BA_PROC_AddFunds.md).
 > - For postpay threshold: [Pay your account balance](hlp_BA_PROC_MakePayment.md).
 >
-> Microsoft Advertising will remove all stored card information from the portal to address [directives from the Reserve Bank of India restricting the storage of card data, effective September 30, 2022](TODO-FWLINK-2210014). This directive prevents Microsoft Advertising and other online merchants from storing the card information of customers located in India.
+> Microsoft Advertising will remove all stored card information from the portal to address [directives from the Reserve Bank of India restricting the storage of card data, effective September 30, 2022](https://go.microsoft.com/fwlink/?linkid=2210014). This directive prevents Microsoft Advertising and other online merchants from storing the card information of customers located in India.
 >
 > Starting October 1, 2022, you must add your card details for tokenization purposes and [verify your payment method in Microsoft Advertising](https://go.microsoft.com/fwlink/?linkid=2103725) to add funds to your account or settle any balances.
 >

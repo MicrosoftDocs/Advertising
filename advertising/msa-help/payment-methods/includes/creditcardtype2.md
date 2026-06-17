@@ -1,0 +1,1 @@
+*We accept Mastercard and Visa. Prepaid cards can only be used to fund prepay accounts. We do not accept cards that require you to enter a PIN/security verification when making a payment. Microsoft may use information provided by the issuing bank or applicable payment network to confirm the information connected to the payment method remains current.

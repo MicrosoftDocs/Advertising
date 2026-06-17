@@ -1,12 +1,12 @@
 ---
 title: Send Your Customers to a Specific Landing Page
+description: You can use URL variables to send people to the landing pages that are most relevant to the customer's search queries or other input.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: You can use URL variables to send people to the landing pages that are most relevant to the customer's search queries or other input.
+author: jonmeyers
 ---
 
 # Send your customers to a specific landing page
@@ -27,14 +27,14 @@ For example, if you sell shoes and you're bidding on the keyword *running shoes*
 
 ## How to set a landing page (Final URL) for your ads and sitelink extensions
 
-- **Set a Final URL for your ads**
+**Set a Final URL for your ads**
 
   1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Ads**.
   1. Select the pencil icon ![edit icon](media/BA_icon_edit.png) next to the appropriate ad to edit it.
   1. Below **Final URL**, enter your landing page URL.
   1. Select **Save**.
 
-- **Set a Final URL for your sitelink extensions**
+**Set a Final URL for your sitelink extensions**
 
   1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Extensions**.
   1. Select **Sitelink extensions** from the dropdown.

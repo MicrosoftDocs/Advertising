@@ -1,12 +1,12 @@
 ---
 title: "Callout Extensions: Highlight Your Store's Products or Offers"
+description: Add extra snippets of text that highlights your store's products or offers.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Add extra snippets of text that highlights your store's products or offers.
 ---
 
 # Callout extensions: Highlight your store's products or offers

@@ -1,12 +1,12 @@
 ---
 title: Opting Out of Automated Extensions
+description: Learn how to manage Automated Extensions
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Learn how to manage Automated Extensions
 ---
 
 # Opting out of Automated Extensions
@@ -15,8 +15,9 @@ Like regular ad extensions, [Automated Extensions](hlp_BA_CONC_AutomatedExtensio
 
 ## Opt out of Automated Extensions
 
-> [!NOTE]
-> You can only opt out of Automated Extensions at the account level.
+### Note
+
+: You can only opt out of Automated Extensions at the account level.
 
 1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Automated Extensions**.
 1. Select **Manage Automated Extensions**.

@@ -1,12 +1,12 @@
 ---
 title: How to Add or Delete Keywords
+description: An ad group must contain at least one keyword, and all keywords must adhere to Microsoft Advertising policies.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: An ad group must contain at least one keyword, and all keywords must adhere to Microsoft Advertising policies.
 ---
 
 # How to add or delete keywords

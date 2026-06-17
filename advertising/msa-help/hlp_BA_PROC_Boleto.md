@@ -1,20 +1,21 @@
 ---
 title: Paying with Boleto Bancário
+description: Step-by-step instructions on how to pay for Microsoft Advertising in Brazil using Boleto Bancário.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Step-by-step instructions on how to pay for Microsoft Advertising in Brazil using Boleto Bancário.
 ---
 
 # Paying with Boleto Bancário
 
 You can add a Boleto Bancário payment method at any time, but you can only use a Boleto Bancário if your billing address is in Brazil and the account currency is the Brazilian real. Boleto Bancário payments can be made at a bank, post office, lottery agent, and some supermarkets.
 
-> [!NOTE]
-> Only users with full permissions (Super Admins) can add, edit, or delete a payment method. Learn more [about user roles.](hlp_BA_CONC_SSUserRoles.md)
+### Please note:
+
+Only users with full permissions (Super Admins) can add, edit, or delete a payment method. Learn more [about user roles.](hlp_BA_CONC_SSUserRoles.md)
 
 ## How to pay using Boleto Bancário
 

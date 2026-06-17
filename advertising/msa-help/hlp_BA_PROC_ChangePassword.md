@@ -1,12 +1,12 @@
 ---
 title: Change My Password or User Name
+description: Learn how to change your password if you are signing in with a Microsoft Advertising user name or an email address (a Microsoft account).
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Learn how to change your password if you are signing in with a Microsoft Advertising user name or an email address (a Microsoft account).
+author: jonmeyers
 ---
 
 # Change my password or user name
@@ -20,6 +20,7 @@ The steps to change your password depend on how you are signing in to Microsoft 
 - **Using an email address**(a ). You’re required to use an email address for Microsoft Advertising access. Learn more about [Signing in with a work account](hlp_BA_CONC_AAD.md)
 - **Using a Microsoft Advertising user name**. Only customers who signed up before October 2013 and haven’t transitioned to using an email address can sign in with a Microsoft Advertising user name.
 
+**Here are the steps for both sign-in methods**
 1. Sign in to Microsoft Advertising.
 1. From the navigation menu on the left, hover over **Settings** and select **My settings**.
 1. Next to **Password**, you will see one of two things:
@@ -40,7 +41,7 @@ The steps to change your password depend on how you are signing in to Microsoft 
 
 If you are still signing in to Microsoft Advertising with a user name, you can't change your user name, but you can transition to signing in with an email address (a Microsoft account). Signing in with an email address will be required for all Microsoft Advertising customers in the future.
 
-Now, let's clarify what we mean by "changing your email address." If you are just trying to change your contact email address, the email address that Microsoft Advertising uses to send you information about your account, see [Change contact information](hlp_BA_PROC_EditMySettings.md). If you want to change the email address that you use to sign in, you need to follow the steps below to add (or invite) yourself as a new user (using a new email address) and then delete your old user profile. If you need help with this change, you can [contact support](https://go.microsoft.com/fwlink/?linkid=398371).
+Now, let's clarify what we mean by "changing your email address." If you are just trying to change your contact email address, the email address that Microsoft Advertising uses to send you information about your account, see [Change contact information](hlp_BA_PROC_EditMySettings.md). If you want to change the email address that you use to sign in, you need to follow the steps below to add (or invite) yourself as a new user (using a new email address) and then delete your old user profile. If you need help with this change, you can [contact support](TODO-FWLINK-398371).
 
 ## Change the email address you sign in with
 

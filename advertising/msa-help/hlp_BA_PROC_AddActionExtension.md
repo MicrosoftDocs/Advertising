@@ -1,19 +1,19 @@
 ---
-title: "Action Extensions: Add a Call to Action Button with Action Extensions"
+title: Add a Call to Action Button with Action Extensions
+description: Learn how to add a call to action button to your ads using action extensions in Microsoft Advertising.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Add a clickable button to your ad with action extensions.
+author: jonmeyers
 ---
 
 # Action extensions: Add a call to action button with action extensions
 
 Add a clickable button in your text ad with action extensions. Clicking on the button lets customers instantly interact with the ad to place an order, book a hotel, send a message, and more. Take a look at all of the preset action types that you can choose from by [downloading a spreadsheet containing the full list](https://aka.ms/ads/ActionExtensionsText2025). Advertisers can easily choose from a curated list of pre-defined actions and enter the URL for the destination page. This helps streamline the process of adding action extensions to ads and ensures consistency for potential customers when they click on the action extension.
 
-:::image type="content" source="media/BA_CONC_Extension_Action.png" alt-text="Action extensions.":::
+Action extensions
 
 This extension is clickable and will appear next to your ad's description. You can use action extensions with other ad extensions.
 
@@ -25,10 +25,10 @@ Due to character limit restrictions, not all action types are available per supp
 
 | Language | Action types not supported |
 | --- | --- |
-| **Dutch** | Post Job |
-| **French** | Find Store, Test Drive, View Cars, Visit Store |
-| **German** | Free Play, Free Quote, Free Trial |
-| **Italian** | Free Quote |
+| Dutch | Post Job |
+| French | Find Store, Test Drive, View Cars, Visit Store |
+| German | Free Play, Free Quote, Free Trial |
+| Italian | Free Quote |
 
 Action extensions can be created or edited at the account, campaign, or ad group level. To select the level you want to make the changes in, select **Account**, **Campaign**, or **Ad group** below the **Ad Extensions** tab.
 

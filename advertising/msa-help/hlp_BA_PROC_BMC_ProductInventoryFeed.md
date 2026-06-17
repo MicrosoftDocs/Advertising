@@ -1,12 +1,12 @@
 ---
 title: Submit Online Product Inventory Update Feeds
+description: Here is how you create a feed file using a spreadsheet program.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Here is how you create a feed file using a spreadsheet program.
+author: jonmeyers
 ---
 
 # Submit online product inventory update feeds
@@ -29,7 +29,7 @@ You'll also want to use the online product inventory update feed when you want t
 - You can make updates only to these attributes without having to update the entire feed file, and
 - If there is an error with the update feed file, it won't impact the main product feed file.
 
-The online product inventory update feed can be uploaded manually through the update feed tab or via FTP/SFTP. Once the feed has been processed, the report will be available in the update feed tab on the top banner. Below, you can learn how to [upload a feed file via FTP/SFTP](#UploadFTPSFTP), [upload a feed file manually](#UploadManually), and [check the feed status](#CheckFeedStatus). You can also see [an example of an online product inventory feed](#Example), [file format requirements](#FileFormat), and [accepted symbols in feed files](#AcceptedSymbols).
+The online product inventory update feed can be uploaded manually through the update feed tab or via FTP/SFTP. Once the feed has been processed, the report will be available in the update feed tab on the top banner. Below, you can learn how to [upload a feed file via FTP/SFTP](#upload-a-feed-file-via-ftpsftp-files-under-1gb), [upload a feed file manually](#upload-a-feed-file-manually-files-under-4mb), and [check the feed status](#check-feed-status). You can also see [an example of an online product inventory feed](#example-submissions-of-the-online-product-inventory-update-feed), [file format requirements](#file-format-requirements), and [accepted symbols in feed files](#accepted-symbols-in-feed-files).
 
 ## Upload a feed file via FTP/SFTP (files under 1GB)
 

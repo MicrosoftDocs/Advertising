@@ -1,12 +1,12 @@
 ---
 title: "Filter Link Extensions: Add Clickable Product or Feature Categories"
+description: Add multiple categories of products or features with unique links to each of these offerings.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Add multiple categories of products or features with unique links to each of these offerings.
 ---
 
 # Filter link extensions: Add clickable product or feature categories
@@ -23,15 +23,19 @@ Filter link extensions operate nearly the same as structured snippet extensions.
 
 Clicks on each link within the filter link extension will be charged the same cost per click (CPC) as on the ad headline.
 
-**Ability to set up in:** All Bing markets
+- **Ability to set up in:**
 
-**Serves in**: All Bing markets, except China.
+  All Bing markets
+
+- **Serves in**
+
+  : All Bing markets, except China.
 
 ## Get to know filter link extensions
 
 Here are some things to consider before you build your filter link extension:
 
-- **Header**: The category that describes the filters for your products and services that you would like to highlight. You can choose from 36 predefined header options. Here you can [download](TODO-FWLINK-2153937) a list of the headers.
+- **Header**: The category that describes the filters for your products and services that you would like to highlight. You can choose from 36 predefined header options. Here you can [download](https://go.microsoft.com/fwlink/?linkid=2153937) a list of the headers.
 - **Value**: Between three and 10 specific products or services that relate to the chosen header. Each value has a maximum character limit of 25. A minimum of three values must be entered, with a maximum of 10 supported. For each value you need to set the Final URL or landing page where customers will be taken after clicking your header.
 
 > [!NOTE]

@@ -1,12 +1,12 @@
 ---
 title: About Performance Max Campaigns
+description: Learn about Performance Max campaigns in Microsoft Advertising, including their benefits, use cases, and frequently asked questions.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Learn more about Performance Max campaigns.
+author: jonmeyers
 ---
 
 # About Performance Max campaigns
@@ -55,11 +55,11 @@ You can also apply [brand exclusion lists](hlp_BA_CONC_BrandLists.md) to your Pe
 
 - **What is the learning period for Performance Max campaigns and how long does it take for them to go live?**
 
-  Performance Max campaigns should get their first impression within three days after you set them up (for campaigns serving Product ads) or four days (for campaigns not serving Product ads). The learning period upon making optimizations and adding new assets should be two to four weeks or two to three conversion cycles (e.g., the amount of time it takes for a click to result in a conversion). If you experience longer periods, escalate to your Microsoft Account team or [contact Support](https://go.microsoft.com/fwlink/?linkid=398371) as soon as possible.
+  Performance Max campaigns should get their first impression within three days after you set them up (for campaigns serving Product ads) or four days (for campaigns not serving Product ads). The learning period upon making optimizations and adding new assets should be two to four weeks or two to three conversion cycles (e.g., the amount of time it takes for a click to result in a conversion). If you experience longer periods, escalate to your Microsoft Account team or Contact_adCenterSupport.md) as soon as possible.
 
 - **How long does the editorial review of new or edited asset groups take?**
 
-  Most reviews are completed within 48 hours. If your content still has the **Under Review** delivery status after two business days, please [contact Support](https://go.microsoft.com/fwlink/?linkid=398371) for assistance.
+  Most reviews are completed within 48 hours. If your content still has the **Under Review** delivery status after two business days, please [contact Support](Contact_adCenterSupport.md) for assistance.
 
 - **What is IndexNow and how can it benefit Performance Max campaigns?**
 
@@ -71,10 +71,7 @@ You can also apply [brand exclusion lists](hlp_BA_CONC_BrandLists.md) to your Pe
 
 - **How do Performance Max campaigns work with third-party tool providers?**
 
-  There is support for third-party tool providers such as Skai, Adobe, SA360, and Marin, and we're working with additional partners on support. This is coming soon. To learn more about how these third-party tool providers work with Performance Max, see the pages below.
-
-  > [!NOTE]
-  > For Skai, you'll need to log in before visiting their help center to see what's supported for Performance Max campaigns.
+  There is support for third-party tool providers such as Skai, Adobe, SA360, and Marin, and we're working with additional partners on support. This is coming soon. To learn more about how these third-party tool providers work with Performance Max, see the pages below. *Note:* For Skai, you'll need to log in before visiting their help center to see what's supported for Performance Max campaigns.
 
   - [Skai](https://skai.io/)
   - [Adobe](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/management/campaigns/campaigns/campaign-settings-by-network/campaign-settings-microsoft)
@@ -101,7 +98,7 @@ You can also apply [brand exclusion lists](hlp_BA_CONC_BrandLists.md) to your Pe
 
 - **What is the editorial review and how long does the review take after adding a new asset group?**
 
-  When you add a new asset group, it will undergo an [editorial review](hlp_BA_CONC_EditProcess.md) to ensure it meets our [policy guidelines](hlp_BA_CONC_EditorialGuidelines.md). Most reviews are completed within 48 hours. If your content still displays the **Under Revew** or **Disapproved** status after two business days, please [contact Support](https://go.microsoft.com/fwlink/?linkid=398371).
+  When you add a new asset group, it will undergo an [editorial review](hlp_BA_CONC_EditProcess.md) to ensure it meets our [policy guidelines](hlp_BA_CONC_EditorialGuidelines.md). Most reviews are completed within 48 hours. If your content still displays the **Under Revew** or **Disapproved** status after two business days, please [contact Support](Contact_adCenterSupport.md).
 
   A **Disapproved** status for an asset group indicates that certain elements within your assets may not comply with our guidelines. If you believe your asset group adheres to all guidelines and would like to request an exception for a disapproval, see [How do I challenge a disapproval?](hlp_BA_PROC_RequestException.md)
 
@@ -125,5 +122,7 @@ You can also apply [brand exclusion lists](hlp_BA_CONC_BrandLists.md) to your Pe
 ## Related videos
 
 - [Revolutionize your advertising with Performance Max campaigns](https://www.youtube.com/watch?v=DxvNUqZofls)
+
 - [Embrace the power of Microsoft Advertising AI](https://www.youtube.com/watch?v=KGwXlSMyrGk)
+
 - [Which campaign type is right for me?](https://www.youtube.com/watch?v=cCM5BUpSJ38)

@@ -1,17 +1,17 @@
 ---
 title: "Review Extensions: Share Positive Reviews"
+description: Add reputable third-party reviews to your ad with a review extension.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Add reputable third-party reviews to your ad with a review extension.
+author: jonmeyers
 ---
 
 # Review extensions: Share positive reviews
 
-Potential customers like to know about other customers' experiences when searching for products or services. Share positive reviews from a reputable third-party source about your website in your ads with a review extension. You can paraphrase or use an exact quote from the source. See [below](#Partners) for our list of supported review partners.
+Potential customers like to know about other customers' experiences when searching for products or services. Share positive reviews from a reputable third-party source about your website in your ads with a review extension. You can paraphrase or use an exact quote from the source. See [below](#supported-review-partners) for our list of supported review partners.
 
 :::image type="content" source="media/BA_Conc_Extension_Review.svg" alt-text="Review extensions.":::
 

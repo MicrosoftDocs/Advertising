@@ -1,12 +1,12 @@
 ---
 title: "Sitelink Extensions: Take People to Specific Pages on Your Website"
+description: Sitelink extensions take people to specific pages on your website.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Sitelink extensions take people to specific pages on your website.
 ---
 
 # Sitelink extensions: Take people to specific pages on your website

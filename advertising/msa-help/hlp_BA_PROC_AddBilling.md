@@ -1,12 +1,12 @@
 ---
 title: Paying by Credit and Debit Card
+description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto Bancário, SEPA direct debit, and virtual bank account.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto Bancário, SEPA direct debit, and virtual bank account.
 ---
 
 # Paying by credit and debit card
@@ -15,7 +15,9 @@ description: Step-by-step instructions on how to add a credit or debit card, Pay
 
 A credit card is the most widely accepted form of payment in Microsoft Advertising. We also accept debit cards and prepaid cards with some restrictions. For the complete list of payment methods available in your country/region, please see [Choosing a payment method for Microsoft Advertising](hlp_BA_CONC_PaymentMethodsV2.md)
 
-**Don't forget:** Adding a payment method is just one step to getting your ads up and running. For postpay threshold accounts, you'll need to designate a primary payment method as described below. For prepay accounts, you'll need to [add funds](hlp_BA_PROC_AddFunds.md).
+### Don't forget:
+
+Adding a payment method is just one step to getting your ads up and running. For postpay threshold accounts, you'll need to designate a primary payment method as described below. For prepay accounts, you'll need to [add funds](hlp_BA_PROC_AddFunds.md).
 
 ## FAQ
 
@@ -90,23 +92,23 @@ A credit card is the most widely accepted form of payment in Microsoft Advertisi
 
   The authorization hold feature for credit and debit cards on postpaid threshold accounts will earmark funds for potential advertising fees. With authorization hold for postpaid threshold accounts, you'll experience enhanced security and predictability for your advertising expenses. Simply ensure your card details are current.
 
-  **What to expect**
+  - **What to expect**
 
-  - Once you select a credit or debit card as a primary payment method for the postpaid threshold account, we may set up the authorization hold for the postpaid fee.
-  - We may also set up the authorization hold for your postpaid threshold accounts that have active campaigns.
-  - The authorization hold will depend on the total estimated amount of the transaction. It will be removed either when the time limit for the hold is up (usually, it's seven days) or upon receipt of funds for the final transaction, whichever comes first.
-  - The authorization hold for postpay threshold accounts is typically 120% of the account's current billing threshold. For example, if your billing threshold is $50, the authorization hold would be $60. This hold is temporary and will be removed either after seven days or upon receipt of funds for the final transaction, whichever comes first. If necessary, subsequent authorization holds may be applied for additional fees.
-  - If necessary, we may also set up subsequent authorization holds for additional postpaid advertising fees.
-  - If the authorization fails, your postpaid account will be put on hold, in which case you'll receive an email from us. The pre-authorization hold is an amount of your postpay threshold. If this hold fails, we'll retry the hold amount again during that same day.
+    - Once you select a credit or debit card as a primary payment method for the postpaid threshold account, we may set up the authorization hold for the postpaid fee.
+    - We may also set up the authorization hold for your postpaid threshold accounts that have active campaigns.
+    - The authorization hold will depend on the total estimated amount of the transaction. It will be removed either when the time limit for the hold is up (usually, it's seven days) or upon receipt of funds for the final transaction, whichever comes first.
+    - The authorization hold for postpay threshold accounts is typically 120% of the account's current billing threshold. For example, if your billing threshold is $50, the authorization hold would be $60. This hold is temporary and will be removed either after seven days or upon receipt of funds for the final transaction, whichever comes first. If necessary, subsequent authorization holds may be applied for additional fees.
+    - If necessary, we may also set up subsequent authorization holds for additional postpaid advertising fees.
+    - If the authorization fails, your postpaid account will be put on hold, in which case you'll receive an email from us. The pre-authorization hold is an amount of your postpay threshold. If this hold fails, we'll retry the hold amount again during that same day.
 
-  **How to resolve an on hold account**
+  - **How to resolve an on hold account**
 
-  To remove the account hold, you can either:
+    To remove the account hold, you can either:
 
-  - Check back in up to six hours.
-  - Switch to a different bank card as the primary payment method.
+    - Check back in up to six hours.
+    - Switch to a different bank card as the primary payment method.
 
-  Once authorization succeeds, we'll lift your hold.
+    Once authorization succeeds, we'll lift your hold.
 
 > [!NOTE]
 > - Only users with full permissions (Super Admins) can add, edit, or delete a payment method. Learn more [about user roles.](hlp_BA_CONC_SSUserRoles.md)

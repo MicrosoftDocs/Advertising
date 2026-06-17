@@ -1,18 +1,18 @@
 ---
 title: Managing Your Clients as an Agency on Microsoft Advertising
+description: If you're an ad agency and want to manage your client's Microsoft Advertising account, read about our recommended process, which makes it a seamless experience for you and your client.
+ms.date: 05-30-2026
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article
-author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/11/2026
-description: If you're an ad agency and want to manage your client's Microsoft Advertising account, read about our recommended process, which makes it a seamless experience for you and your client.
+author: jonmeyers
 ---
 
 # Managing your clients as an agency on Microsoft Advertising
 
 > [!NOTE]
-> We've temporarily placed a limit on the number of accounts you can link. If you encounter any issues, please [contact Support](https://go.microsoft.com/fwlink/?linkid=398371) or your account representative for assistance.
+> We've temporarily placed a limit on the number of accounts you can link. If you encounter any issues, please [contact Support](Contact_adCenterSupport.md) or your account representative for assistance.
 
 Do you currently manage or plan to manage other people's Microsoft Advertising accounts? If the answer is "yes," then you can directly link to your client's Microsoft Advertising account. This recommended process will help make this a seamless experience for you and your client.
 
@@ -47,7 +47,7 @@ Before you send the request to your client, there are a few things you should kn
   - If you are trying to fund a prepay account and your client is in a country/region with tax requirements, we might be required to deduct tax from the prepay amount. Here are [tax requirements for each country/region](hlp_BA_CONC_TaxVATInfo.md).
 - If your client has a monthly invoice account: You can create and manage insertion orders on your client's behalf even if you are not the bill-to customer. You will need to be a [Super Admin or Standard User to do so](hlp_BA_CONC_SSUserRoles.md).
 
-To request permission to manage a client's account:
+**To request permission to manage a client's account:**
 
 1. From the navigation menu on the left, select **Tools** > **All accounts**.
 1. Select **Accounts Summary** > **Requests**.
@@ -90,7 +90,7 @@ For information on the linking process from the client's side, see [How to have 
   - You don't have the role of Super Admin assigned to your username. This role is required to send a request to link to or manage a customer's account.
   - Your account is inactive or restricted.
 
-  If you still need assistance, please [contact Support](https://go.microsoft.com/fwlink/?linkid=398371).
+  If you still need assistance, please [contact Support](Contact_adCenterSupport.md).
 
 - **Do I need a separate account for each client?**
 
