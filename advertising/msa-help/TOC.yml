@@ -1,230 +1,1486 @@
-﻿- name: Choosing a payment method for Microsoft Advertising
-  href: ./hlp_BA_CONC_PaymentMethodsV2.md
-- name: Everything you need to know about setting up UET
-  href: ./hlp_BA_CONC_UET_Setup_Master.md
-- name: Import data using a file
-  href: ./hlp_BA_PROC_AboutCreatingAnImportFile.md
-- name: About Performance Max campaigns
-  href: ./hlp_BA_PROC_AboutPmax.md
-- name: How to change payment methods and bill-to customer
-  href: ./hlp_BA_PROC_Account_AssociateCCard.md
-- name: Action extensions -  Add a call to action button with action extensions
-  href: ./hlp_BA_PROC_AddActionExtension.md
-- name: Add a backup payment method
-  href: ./hlp_BA_PROC_AddBackupPM.md
-- name: Paying by credit and debit card
-  href: ./hlp_BA_PROC_AddBilling.md
-- name: Call extensions -  Add a phone number
-  href: ./hlp_BA_PROC_AddCallExtension.md
-- name: Callout extensions - Highlight your store's products or offers
-  href: ./hlp_BA_PROC_AddCalloutExtension.md
-- name: How to prevent your ads from showing to certain people
-  href: ./hlp_BA_PROC_AddExclusions.md
-- name: Filter link extensions - Add clickable product or feature categories
-  href: ./hlp_BA_PROC_AddFilterLinkExtension.md
-- name: Add funds to a prepay account
-  href: ./hlp_BA_PROC_AddFunds.md
-- name: Add images to your ad with image extensions
-  href: ./hlp_BA_PROC_AddImageExtension.md
-- name: How to add or delete keywords
-  href: ./hlp_BA_PROC_AddKeywordsOrder.md
-- name: Location extensions - Show your business address
-  href: ./hlp_BA_PROC_AddLocationExtension.md
-- name: Logo extensions - Add a logo to your ad
-  href: ./hlp_BA_PROC_AddLogoExtension.md
-- name: How to add keywords that won't trigger my ads (negative keywords)
-  href: ./hlp_BA_PROC_AddNegativeKeywords.md
-- name: Price extensions - Add prices of your products or services
-  href: ./hlp_BA_PROC_AddPriceExtension.md
-- name: Promotion extensions - Highlight special offers for different occasions
-  href: ./hlp_BA_PROC_AddPromotionExtension.md
-- name: Review extensions - Share positive reviews
-  href: ./hlp_BA_PROC_AddReviewExtension.md
-- name: Sitelink extensions - Take people to specific pages on your website
-  href: ./hlp_BA_PROC_AddSitelinkExtension.md
-- name: Structured snippet extensions - Add snippets that highlight your store's products or offers
-  href: ./hlp_BA_PROC_AddStructuredSnippetExtension.md
-- name: Video extensions - Express your brand identity
-  href: ./hlp_BA_PROC_AddVideoExtension.md
-- name: Managing your clients as an agency on Microsoft Advertising
-  href: ./hlp_BA_PROC_AgencyEnable.md
-- name: Why is my account on hold?
-  href: ./hlp_BA_PROC_AlertAcctHold.md
-- name: Fix the Campaign out of budget/Budget pause status
-  href: ./hlp_BA_PROC_AlertBudgetDepleted.md
-- name: Update your credit card expiration date
-  href: ./hlp_BA_PROC_AlertCardExpire.md
-- name: Critical alert - No payment method has been added
-  href: ./hlp_BA_PROC_AlertNoPI.md
-- name: Opting out of Automated Extensions
-  href: ./hlp_BA_PROC_AutomatedExtensionsOptOut.md
-- name: What is auto-recharge and how does it work?
-  href: ./hlp_BA_PROC_AutoRecharge.md
-- name: Edit, pause, or delete automated rules
-  href: ./hlp_BA_PROC_AutoRuleManage.md
-- name: Get billing alerts
-  href: ./hlp_BA_PROC_BillingEmails.md
-- name: Get email notifications for Microsoft Merchant Center
-  href: ./hlp_BA_PROC_BMC_AddEmail.md
-- name: Automatic item update
-  href: ./hlp_BA_PROC_BMC_AutoItem.md
-- name: Submit online product inventory update feeds
-  href: ./hlp_BA_PROC_BMC_ProductInventoryFeed.md
-- name: Schedule downloading of feed files in Microsoft Merchant Center
-  href: ./hlp_BA_PROC_BMC_ScheduleDownloadFeed.md
-- name: Paying with Boleto Bancario
-  href: ./hlp_BA_PROC_Boleto.md
-- name: Send your customers to a specific landing page
-  href: ./hlp_BA_PROC_ChangeLandingPage.md
-- name: Change my password or user name
-  href: ./hlp_BA_PROC_ChangePassword.md
-- name: Change your status, bid, and other settings
-  href: ./hlp_BA_PROC_ChgSettings.md
-- name: Verify and claim your website's URL
-  href: ./hlp_BA_PROC_ClaimYourDomain.md
-- name: Combine similar bills into a single invoice (Enhanced consolidated billing)
-  href: ./hlp_BA_PROC_ConsolidatedBilling.md
-- name: Copy and paste campaigns, ad groups, ads, and keywords
-  href: ./hlp_BA_PROC_CopyPaste.md
-- name: How do I create a Search campaign?
-  href: ./hlp_BA_PROC_Create1stAd.md
-- name: Create additional accounts
-  href: ./hlp_BA_PROC_CreateAcctSelfServe.md
-- name: How do I create an Audience campaign?
-  href: ./hlp_BA_PROC_CreateAudienceCampaign.md
-- name: Create a Microsoft Merchant Center store
-  href: ./hlp_BA_PROC_CreateBingMerchantCenterStore.md
-- name: How to create or edit expanded text ads
-  href: ./hlp_BA_PROC_CreateEXTA.md
-- name: How do I create Native ads?
-  href: ./hlp_BA_PROC_CreateNative.md
-- name: Create a Performance Max campaign
-  href: ./hlp_BA_PROC_CreatePmax.md
-- name: Create Product ads in a Shopping campaign
-  href: ./hlp_BA_PROC_CreateProductTargetAndAd.md
-- name: Understanding the Report Builder
-  href: ./hlp_BA_PROC_CreateReport.md
-- name: If an account is deactivated or deleted
-  href: ./hlp_BA_PROC_DeleteAcct.md
-- name: Deleting a payment method
-  href: ./hlp_BA_PROC_DeleteCard.md
-- name: How do I disable ad-blocking extensions?
-  href: ./hlp_BA_PROC_DisableAdBlock.md
-- name: Change contact information
-  href: ./hlp_BA_PROC_EditMySettings.md
-- name: Setting email preferences
-  href: ./hlp_BA_PROC_EmailNotifications.md
-- name: Business data feeds
-  href: ./hlp_BA_PROC_Feeds_WorkingWith.md
-- name: I forgot my user name or password
-  href: ./hlp_BA_PROC_ForgotPassword.md
-- name: Making bulk changes to your properties
-  href: ./hlp_BA_PROC_HotelAds_BulkEdit.md
-- name: Import campaigns directly from Meta Ads
-  href: ./hlp_BA_PROC_Import_FB_Campaign.md
-- name: Import campaigns directly from Pinterest Ads
-  href: ./hlp_BA_PROC_Import_PI_Campaign.md
-- name: Import campaigns directly from Google Ads
-  href: ./hlp_BA_PROC_ImportCampaign.md
-- name: How do I access Microsoft Advertising as an invited user?
-  href: ./hlp_BA_PROC_InviteNewUser.md
-- name: Using keyboard shortcuts
-  href: ./hlp_BA_PROC_KeyboardShortcuts.md
-- name: How to get my ads on the first page using estimated bids?
-  href: ./hlp_BA_PROC_Location_Opportunity.md
-- name: Pay your account balance
-  href: ./hlp_BA_PROC_MakePayment.md
-- name: Managing your addresses
-  href: ./hlp_BA_PROC_ManagingAddresses.md
-- name: Auto-tagging of Microsoft Click ID
-  href: ./hlp_BA_PROC_MicrosoftClickID.md
-- name: Apply for monthly invoice billing
-  href: ./hlp_BA_PROC_MonthlyInvoiceApply.md
-- name: About Performance Max page feeds
-  href: ./hlp_BA_PROC_PageFeedsPMAX.md
-- name: Pause, enable, or delete your campaigns
-  href: ./hlp_BA_PROC_PauseEnableCampaign.md
-- name: Paying by bank transfer
-  href: ./hlp_BA_PROC_PayByCheck.md
-- name: Best practices for Performance Max campaigns
-  href: ./hlp_BA_PROC_PmaxBestPractices.md
-- name: How do I challenge a disapproval?
-  href: ./hlp_BA_PROC_RequestException.md
-- name: Add the words people are searching for as keywords or negative keywords
-  href: ./hlp_BA_PROC_SearchTerm.md
-- name: Paying with SEPA Direct Debit
-  href: ./hlp_BA_PROC_SEPA.md
-- name: About smart image cropping
-  href: ./hlp_BA_PROC_SmartCropping.md
-- name: How do I switch my payment settings?
-  href: ./hlp_BA_PROC_SwitchPaymentSettingV2.md
-- name: How to target customers
-  href: ./hlp_BA_PROC_TargetingAgeGender.md
-- name: Example custom events for e-commerce customers
-  href: ./hlp_BA_PROC_UET_ExampleEventsEcommerce.md
-- name: Set up UET tags using Google Tag Manager, Tealium, and other tag management systems
-  href: ./hlp_BA_PROC_UET_TMS.md
-- name: Set up UET tags using Google Tag Manager, Tealium, and other tag management systems
-  href: ./hlp_BA_PROC_UET_TMS_2.md
-- name: Set up UET tags using Adobe Dynamic Tag Management
-  href: ./hlp_BA_PROC_UET_TMS_AdobeDTM.md
-- name: Set up UET tags using Adobe Experience Platform
-  href: ./hlp_BA_PROC_UET_TMS_AdobeLaunch.md
-- name: Set up UET tags using Ensighten
-  href: ./hlp_BA_PROC_UET_TMS_Ensighten.md
-- name: Set up UET tags using Google Tag Manager
-  href: ./hlp_BA_PROC_UET_TMS_GTM.md
-- name: Set up UET with Google Tag Manager using direct integration
-  href: ./hlp_BA_PROC_UET_TMS_GTM_DI.md
-- name: Set up UET tags using Qubit Opentag
-  href: ./hlp_BA_PROC_UET_TMS_Qubit.md
-- name: Set up UET tags using Signal
-  href: ./hlp_BA_PROC_UET_TMS_Signal.md
-- name: Set up UET tags using Tealium
-  href: ./hlp_BA_PROC_UET_TMS_Tealium.md
-- name: Set up UET tags using Shopify, WordPress.com, and other website platforms
-  href: ./hlp_BA_PROC_UET_WebPlatform.md
-- name: Set up UET tags using Shopify, WordPress.com, and other website platforms
-  href: ./hlp_BA_PROC_UET_WebPlatform_2.md
-- name: Set up UET tags using BigCommerce
-  href: ./hlp_BA_PROC_UET_WebPlatform_BigCommerce.md
-- name: Set up UET tags using Shopify
-  href: ./hlp_BA_PROC_UET_WebPlatform_Shopify.md
-- name: Set up UET tags using Squarespace
-  href: ./hlp_BA_PROC_UET_WebPlatform_SquareSpace.md
-- name: Set up UET tags using Wix
-  href: ./hlp_BA_PROC_UET_WebPlatform_Wix.md
-- name: Set up UET tags using WordPress.com
-  href: ./hlp_BA_PROC_UET_WebPlatform_WordPress.md
-- name: How do I add a UET tag to my website?
-  href: ./hlp_BA_PROC_UETv2AddTag.md
-- name: How do I create a conversion goal?
-  href: ./hlp_BA_PROC_UETv2CreateGoal.md
-- name: How do I create a UET tag?
-  href: ./hlp_BA_PROC_UETv2CreateTag.md
-- name: How do I delete a conversion goal?
-  href: ./hlp_BA_PROC_UETv2DeleteConversionGoal.md
-- name: How do I delete a UET tag?
-  href: ./hlp_BA_PROC_UETv2DeleteTag.md
-- name: Track mobile app installs as conversions
-  href: ./hlp_BA_PROC_UETv2MobileApp.md
-- name: How to use regular expressions when building destination URLs or custom event type goals
-  href: ./hlp_BA_PROC_UETv2RegExpression.md
-- name: Is my UET tag working?
-  href: ./hlp_BA_PROC_UETv2TBTag.md
-- name: Why track custom events
-  href: ./hlp_BA_PROC_UETv2TrackCustomEvent.md
-- name: Why track variable revenue
-  href: ./hlp_BA_PROC_UETv2TrackRev.md
-- name: How do I manage my conversion goals?
-  href: ./hlp_BA_PROC_UETv2ViewGoals.md
-- name: Is my UET tag working?
-  href: ./hlp_BA_PROC_UETv2ViewTag.md
-- name: Use inline recommendations to update keyword and bids
-  href: ./hlp_BA_PROC_UseSuggestionsOpportunities.md
-- name: Sign in to Microsoft Advertising
-  href: ./hlp_BA_PROC_UseWLIDv2.md
-- name: How do I preview my ad in Bing search results?
-  href: ./hlp_BA_PROC_UsingAdPreviewTool.md
-- name: Download and print a billing statement or invoice
-  href: ./hlp_BA_PROC_ViewBillingPg.md
+- name: Setup and Basics
+  items:
+    - name: Microsoft Advertising basics
+      items:
+        - name: Explore Microsoft Advertising
+          items:
+            - name: Learn how Microsoft Advertising works
+              href: ./hlp_BA_CONC_NewAd_HowBingAdsWorks.md
+            - name: Microsoft Advertising features
+              href: ./hlp_BA_CONC_NewAd_BingAdsFeatures.md
+            - name: Understanding the Microsoft Advertisingnavigation experience
+              href: ./hlp_BA_CONC_NavigationRefresh.md
+            - name: What's new in Microsoft Advertising?
+              href: ./hlp_BA_CONC_WhatsNew.md
+            - name: Using keyboard shortcuts
+              href: ./hlp_BA_PROC_KeyboardShortcuts.md
+        - name: Sign in
+          items:
+            - name: Create a Microsoft Advertising account and campaign
+              href: ./hlp_BA_CONC_PMAXlite_CreateAcct.md
+            - name: Microsoft Advertising system requirements
+              href: ./hlp_BA_CONC_SystemReqs.md
+            - name: I forgot my user name or password
+              href: ./hlp_BA_PROC_ForgotPassword.md
+            - name: Sign in to Microsoft Advertising
+              href: ./hlp_BA_PROC_UseWLIDv2.md
+        - name: Getting started
+          items:
+            - name: Ad types that you can create with Microsoft Advertising
+              href: ./hlp_BA_CONC_AdOptions.md
+            - name: Free coaching to help you get started
+              href: ./hlp_BA_CONC_AboutQuickLaunch.md
+            - name: Setting up your billing
+              href: ./hlp_BA_CONC_NewAd_SetUpBilling.md
+            - name: Understand your billing options
+              href: ./hlp_BA_CONC_NewAd_HowBillingWorks.md
+            - name: Use vertical-based Product ads to showcase dynamic product and service feeds
+              href: ./hlp_BA_CONC_VerticalBasedProductAds.md
+            - name: What is "ad position"?
+              href: ./hlp_BA_CONC_WhatIsAdPosition.md
+            - name: Where your ads will appear with Microsoft Advertising
+              href: ./hlp_BA_CONC_NewAd_WhereWillMyAdsAppear.md
+        - name: Generative AI
+          items:
+            - name: About Ads in Copilot
+              href: ./hlp_BA_CONC_AdsForCopilot.md
+            - name: Copilot in Microsoft Advertising Platform
+              href: ./hlp_BA_CONC_CopilotMSAPlatform.md
+            - name: Using generative AI to improve campaigns and find the answers you need
+              href: ./hlp_BA_CONC_GenerativeAITools.md
+    - name: Microsoft Advertising video tutorials
+      items:
+        - name: New to Microsoft Advertising?
+          items:
+        - name: Set up your account and start advertising
+          items:
+        - name: Get your campaign going
+          items:
+    - name: Create ads and campaigns
+      items:
+        - name: Improve your campaign
+          items:
+            - name: About automatic Cash back promotions
+              href: ./hlp_BA_CONC_CashBackPromos.md
+            - name: About improving ad relevance
+              href: ./hlp_BA_CONC_AboutIncreasingAdRelevance.md
+            - name: About performance insights
+              href: ./hlp_BA_CONC_PerformanceInsights.md
+            - name: About search insights
+              href: ./hlp_BA_CONC_SearchInsights.md
+            - name: About the campaign diagnostics tile
+              href: ./hlp_BA_CONC_Campaign_DiagnosticTiles.md
+            - name: Add your keywords
+              href: ./hlp_BA_CONC_NewAd_AddYourKeywords.md
+            - name: Create a new ad group
+              href: ./hlp_BA_CONC_NewAd_CreateANewAdGroup.md
+            - name: Monitor your account with the Overview tab
+              href: ./hlp_BA_CONC_Overview_Tab.md
+            - name: One display domain per ad group
+              href: ./hlp_BA_CONC_OneDisplayDomainPerAdGroup.md
+            - name: Set your campaign budget and bid amounts
+              href: ./hlp_BA_CONC_NewAd_SetCampaignBudgetAndBidAmounts.md
+            - name: Copy and paste campaigns, ad groups, ads, and keywords
+              href: ./hlp_BA_PROC_CopyPaste.md
+        - name: Set up a new campaign
+          items:
+            - name: About brand lists
+              href: ./hlp_BA_CONC_BrandLists.md
+            - name: About Dynamic Search ads
+              href: ./hlp_BA_CONC_DynamicSearchAds.md
+            - name: About Dynamic Search ads page feeds
+              href: ./hlp_BA_CONC_DynamicSearchAds_PageFeeds.md
+            - name: About Linked In campaigns
+              href: ./hlp_BA_CONC_LinkedInCampaigns.md
+            - name: Create a Mobile App campaign
+              href: ./hlp_BA_CONC_MobileCampaigns.md
+            - name: Disclaimer in ads
+              href: ./hlp_BA_CONC_DisclaimerInAds.md
+            - name: Getting ad campaigns up and running in Microsoft Advertising
+              href: ./hlp_BA_CONC_adcenter_flow.md
+            - name: Make bulk changes to your campaigns and ad groups within Microsoft Advertising
+              href: ./hlp_BA_CONC_BulkManage.md
+            - name: Using Index Now to enhance ad performance
+              href: ./hlp_BA_CONC_IndexNow.md
+            - name: About Performance Max campaigns
+              href: ./hlp_BA_PROC_AboutPmax.md
+            - name: About Performance Max page feeds
+              href: ./hlp_BA_PROC_PageFeedsPMAX.md
+            - name: Best practices for Performance Max campaigns
+              href: ./hlp_BA_PROC_PmaxBestPractices.md
+            - name: Create a Performance Max campaign
+              href: ./hlp_BA_PROC_CreatePmax.md
+            - name: How do I create a Search campaign?
+              href: ./hlp_BA_PROC_Create1stAd.md
+            - name: How do I create an Audience campaign?
+              href: ./hlp_BA_PROC_CreateAudienceCampaign.md
+            - name: Pause, enable, or delete your campaigns
+              href: ./hlp_BA_PROC_PauseEnableCampaign.md
+        - name: Import campaigns
+          items:
+            - name: Bulk import preference
+              href: ./hlp_BA_CONC_ImportBulkPref.md
+            - name: Edit your scheduled imports and review import history and results
+              href: ./hlp_BA_CONC_ImportScheduleHistory.md
+            - name: Import Shopping campaigns from Microsoft Advertising
+              href: ./hlp_BA_CONC_MapMMCStoreToGoogleMCStore.md
+            - name: What gets imported from Microsoft Advertising
+              href: ./hlp_BA_CONC_Import_FB_WhatInfo.md
+            - name: What gets imported from Microsoft Advertising
+              href: ./hlp_BA_CONC_ImportWhatInfo.md
+            - name: What gets imported from Pinterest Ads
+              href: ./hlp_BA_CONC_Import_PI_WhatInfo.md
+            - name: Import campaigns directly from Microsoft Advertising
+              href: ./hlp_BA_PROC_Import_FB_Campaign.md
+            - name: Import campaigns directly from Microsoft Advertising
+              href: ./hlp_BA_PROC_ImportCampaign.md
+            - name: Import campaigns directly from Pinterest Ads
+              href: ./hlp_BA_PROC_Import_PI_Campaign.md
+            - name: Import data using a file
+              href: ./hlp_BA_PROC_AboutCreatingAnImportFile.md
+        - name: Set up ads
+          items:
+            - name: About Ad strength
+              href: ./hlp_BA_CONC_AdStrength.md
+            - name: About Ads Studio
+              href: ./hlp_BA_CONC_AdStudio.md
+            - name: About Display ads
+              href: ./hlp_BA_CONC_DisplayAds.md
+            - name: About IF functions
+              href: ./hlp_BA_CONC_IFfunction.md
+            - name: About Online Video ads
+              href: ./hlp_BA_CONC_AboutVideoAds.md
+            - name: About Premium Streaming campaigns
+              href: ./hlp_BA_CONC_AboutPremiumStreamingCampaigns.md
+            - name: About Responsive Search ads
+              href: ./hlp_BA_CONC_ResponsiveSearchAds.md
+            - name: App Install ads - Drive app downloads
+              href: ./hlp_BA_CONC_AppInstallAds.md
+            - name: Asset guidelines and accepted file types
+              href: ./hlp_BA_CONC_AssetGuidelines.md
+            - name: Best practices for creating effective Responsive Search ads
+              href: ./hlp_BA_CONC_RSA_BestPractices.md
+            - name: Connecting to third-party measurement partners
+              href: ./hlp_BA_CONC_ConnectingThirdParty.md
+            - name: Disclaimer in ads
+              href: ./hlp_BA_CONC_feeds_DisclaimerInAds.md
+            - name: FAQ - Expanded text ads
+              href: ./hlp_BA_CONC_EXTA_FAQ.md
+            - name: MMA Search
+              href: ./hlp_BA_CONC_MMA_Search.md
+            - name: MMA Search GTEST
+              href: ./hlp_BA_CONC_MMA_Search_GTEST.md
+            - name: Show a countdown to an event in your ad
+              href: ./hlp_BA_CONC_Countdown.md
+            - name: Use Asset library to manage all your creative assets
+              href: ./hlp_BA_CONC_AssetLibrary.md
+            - name: What makes an effective ad?
+              href: ./hlp_BA_CONC_AboutWritingEffectiveAds.md
+            - name: How do I create Native ads?
+              href: ./hlp_BA_PROC_CreateNative.md
+            - name: How to create or edit expanded text ads
+              href: ./hlp_BA_PROC_CreateEXTA.md
+            - name: Send your customers to a specific landing page
+              href: ./hlp_BA_PROC_ChangeLandingPage.md
+        - name: Set up mobile ads
+          items:
+        - name: Set up Smart Pages
+          items:
+            - name: Best practices for optimizing your Smart Page
+              href: ./hlp_BA_CONC_SmartPageOptimization.md
+            - name: Build a free business website with Smart Pages
+              href: ./hlp_BA_CONC_SmartPages.md
+            - name: Edit your Smart Page
+              href: ./hlp_BA_CONC_SmartPageEdit.md
+            - name: Get to know your Smart Pages custom domains
+              href: ./hlp_BA_CONC_SmartPagesCustomDomains.md
+            - name: How to book appointments through your Smart Page
+              href: ./hlp_BA_CONC_SmartPagesBooking.md
+            - name: The default columns in key tables
+              href: ./hlp_BA_CONC_TabTest.md
+    - name: Choose where and when ads appear
+      items:
+        - name: Show ads to specific locations and languages
+          items:
+            - name: How can I get my ads in front of my customers?
+              href: ./hlp_BA_CONC_Targeting.md
+            - name: How does ad language and location targeting affect who can see my ads?
+              href: ./hlp_BA_CONC_LocTargetAndLang.md
+            - name: Inline location targeting recommendations
+              href: ./hlp_BA_CONC_SettingsGrid_LocationTargetingRecommendations.md
+            - name: Market availability for Microsoft Advertisingand its features
+              href: ./hlp_BA_CONC_Countries.md
+            - name: How to target customers
+              href: ./hlp_BA_PROC_TargetingAgeGender.md
+        - name: Show ads on Bing and other search sites
+          items:
+            - name: About content suitability
+              href: ./hlp_BA_CONC_BrandSafety.md
+            - name: About the Ad preview hub
+              href: ./hlp_BA_CONC_AdPreviewHub.md
+            - name: About website control lists
+              href: ./hlp_BA_CONC_WebExclusionsTargetedWebsites.md
+            - name: Ad distribution settings
+              href: ./hlp_BA_CONC_AboutAdDistributionHidden.md
+            - name: Get my ad to the top of the search results page
+              href: ./hlp_BA_CONC_ImproveAdPosition.md
+            - name: Microsoft Advertising in Microsoft Advertising
+              href: ./hlp_BA_CONC_AboutSearchCharmAds.md
+            - name: What are Search ads?
+              href: ./hlp_BA_CONC_SearchNetContentNet.md
+            - name: What is the Microsoft Advertising Network?
+              href: ./hlp_BA_CONC_AboutAdvertisingNetwork.md
+            - name: How to prevent your ads from showing to certain people
+              href: ./hlp_BA_PROC_AddExclusions.md
+        - name: Schedule ads
+          items:
+        - name: Microsoft Audience ads
+          items:
+            - name: About content targeting
+              href: ./hlp_BA_CONC_ContentTargeting.md
+            - name: Best practices for Audience ad images
+              href: ./hlp_BA_CONC_ImagesForAudienceAds.md
+            - name: Forecast campaign results with the Audience planner
+              href: ./hlp_BA_CONC_Audiences_NetworkPlanner.md
+            - name: What are Audience campaigns?
+              href: ./hlp_BA_CONC_NativeAds.md
+    - name: Find out if your ad is running
+      items:
+        - name: Find out if your ad is running
+          items:
+            - name: Are my ads live?
+              href: ./hlp_BA_CONC_pitfalls.md
+            - name: Understand your ad group status
+              href: ./hlp_BA_CONC_NewAd_UnderstandingAdGroupStatus.md
+            - name: Why can't I find my ad?
+              href: ./hlp_BA_CONC_WhereIsAd.md
+            - name: How do I disable ad-blocking extensions?
+              href: ./hlp_BA_PROC_DisableAdBlock.md
+            - name: How do I preview my ad in Bing search results?
+              href: ./hlp_BA_PROC_UsingAdPreviewTool.md
+    - name: Account management and security
+      items:
+        - name: Account basics
+          items:
+            - name: About language options in Microsoft Advertising
+              href: ./hlp_BA_CONC_AboutLanguageOptions.md
+            - name: About the Ad Library
+              href: ./hlp_BA_CONC_AboutAdLibrary.md
+            - name: Account access troubleshooting
+              href: ./hlp_BA_CONC_AccountAccess.md
+            - name: Account Errors
+              href: ./hlp_BA_CONC_AccountErrors.md
+            - name: Choosing your account currency
+              href: ./hlp_BA_CONC_Currency.md
+            - name: Get the big picture from the Accounts summary page
+              href: ./hlp_BA_CONC_AccountsSummary.md
+            - name: How should I organize my accounts and campaigns?
+              href: ./hlp_BA_CONC_AboutAccts.md
+            - name: Monitor all accounts from the Manager account overview
+              href: ./hlp_BA_CONC_MgrAcctOverview.md
+            - name: Stay on top of your notifications
+              href: ./hlp_BA_CONC_Notifications.md
+            - name: Why is my account pending?
+              href: ./hlp_BA_CONC_PendingAccount.md
+            - name: Managing your addresses
+              href: ./hlp_BA_PROC_ManagingAddresses.md
+        - name: Share access
+          items:
+            - name: Choosing between a hierarchy or multi-user access
+              href: ./hlp_BA_CONC_HierarchiesVersusMU.md
+            - name: Hierarchies in Microsoft Advertising
+              href: ./hlp_BA_CONC_Hierarchies.md
+            - name: How do I give someone access to my Microsoft Advertising account?
+              href: ./hlp_BA_CONC_SSUserRoles.md
+            - name: Linking to an existing account
+              href: ./hlp_BA_CONC_MultiAccount.md
+            - name: Managing your user name to access multiple accounts
+              href: ./hlp_BA_CONC_UserNamePermissions.md
+            - name: How do I access Microsoft Advertising as an invited user?
+              href: ./hlp_BA_PROC_InviteNewUser.md
+        - name: Account tasks
+          items:
+            - name: How do I delete my account?
+              href: ./hlp_BA_CONC_AcctDeletion.md
+            - name: Change contact information
+              href: ./hlp_BA_PROC_EditMySettings.md
+            - name: Change my password or user name
+              href: ./hlp_BA_PROC_ChangePassword.md
+            - name: Create additional accounts
+              href: ./hlp_BA_PROC_CreateAcctSelfServe.md
+            - name: If an account is deactivated or deleted
+              href: ./hlp_BA_PROC_DeleteAcct.md
+            - name: Setting email preferences
+              href: ./hlp_BA_PROC_EmailNotifications.md
+        - name: Account security
+          items:
+            - name: Best practices to help protect your Microsoft Advertising account
+              href: ./hlp_BA_CONC_SecurityBestPractices.md
+        - name: Agency management
+          items:
+            - name: About Account map
+              href: ./hlp_BA_CONC_AccountMap.md
+            - name: How to have an agency manage your Microsoft Advertising account
+              href: ./hlp_BA_CONC_AboutAgencyClientProcess.md
+            - name: Managing your clients as an agency on Microsoft Advertising
+              href: ./hlp_BA_PROC_AgencyEnable.md
+        - name: Agency management
+          items:
+    - name: Microsoft Advertising policies and agreements
+      items:
+        - name: Policies and guidelines
+          items:
+            - name: Ad Extensions Policies
+              href: ./hlp_BA_CONC_Policy_AdExtensionPolicies.md
+            - name: Ad Relevance and Landing Page Quality
+              href: ./hlp_BA_CONC_Policy_RelevanceAndQuality.md
+            - name: Duplicate Ads in Search
+              href: ./hlp_BA_CONC_Policy_DuplicateAds.md
+            - name: General Ad Requirements
+              href: ./hlp_BA_CONC_Policy_GeneralAdRequirements.md
+            - name: Intellectual Property Policies
+              href: ./hlp_BA_CONC_Policy_IntellectualPolicies.md
+            - name: Introduction to Microsoft Advertising Network Policies
+              href: ./hlp_BA_CONC_Policy_Introduction.md
+            - name: Policy Creative Specs
+              href: ./hlp_BA_CONC_Policy_CreativeSpecs.md
+            - name: Policy Disallowed Content
+              href: ./hlp_BA_CONC_Policy_DisallowedContent.md
+            - name: Policy Restricted Content
+              href: ./hlp_BA_CONC_Policy_RestrictedContent.md
+            - name: Privacy and Personalization
+              href: ./hlp_BA_CONC_Policy_LegalPrivacyPersonalization.md
+            - name: Product Ads Policies
+              href: ./hlp_BA_CONC_Policy_ProductAdPolicies.md
+            - name: What Happens When an Ad Policy is Violated
+              href: ./hlp_BA_CONC_Policy_ImpactToYourMicrosoftAdsAccount.md
+        - name: Additional policies and agreements
+          items:
+            - name: Arbitration Agreement and Class Action Waiver (united States)
+              href: ./hlp_BA_CONC_Policy_Agreement_Arbitration.md
+            - name: Disapproved Healthcare Products and Supplements
+              href: ./hlp_BA_CONC_Policy_DisapprovedHealthcareProdSupp.md
+            - name: Microsoft Advertising Agreement
+              href: ./hlp_BA_CONC_Policy_AgreementPDF.md
+            - name: Microsoft Advertising Agreement Change Log
+              href: ./hlp_BA_CONC_Policy_Agreement_ChangeLog.md
+            - name: Microsoft Advertising Click Measurement - Description of Methodology
+              href: ./hlp_BA_CONC_Policy_ClickMeasurement.md
+            - name: Microsoft Advertising Policies
+              href: ./hlp_BA_CONC_Policy_LanguageTOC.md
+            - name: Microsoft Advertising Policies Change Log
+              href: ./hlp_BA_CONC_Policy_ChangeLog.md
+            - name: Microsoft Curate Advertising Agreement
+              href: ./hlp_BA_CONC_Policy_CuratePDF.md
+            - name: Microsoft Curate Advertising Agreement Change Log
+              href: ./hlp_BA_CONC_Policy_Agreement_CurateChangeLog.md
+            - name: Microsoft Monetize Advertising Agreement
+              href: ./hlp_BA_CONC_Policy_MonetizePDF.md
+            - name: Microsoft Monetize Advertising Agreement Change Log
+              href: ./hlp_BA_CONC_Policy_Agreement_MonetizeChangeLog.md
+            - name: Microsoft Standard Terms for Media Buyers
+              href: ./hlp_BA_CONC_Policy_InvestPDF.md
+            - name: Pilot Programs Policies
+              href: ./hlp_BA_CONC_Policy_PilotPrograms.md
+            - name: Publisher Preferences
+              href: ./hlp_BA_CONC_PublisherPreferences.md
+            - name: Traffic Quality Center
+              href: ./hlp_BA_CONC_Policy_TrafficQuality.md
+            - name: Why is This URL in My Search Advertising Dashboard?
+              href: ./hlp_BA_CONC_Policy_SearchDashboard.md
+- name: Manage Ads
+  items:
+    - name: Ads and approvals
+      items:
+        - name: Add more info to your ad
+          items:
+            - name: About ad extensions
+              href: ./hlp_BA_CONC_AboutAdExtensions.md
+            - name: About stock images
+              href: ./hlp_BA_CONC_StockImages.md
+            - name: Add a Get a Ride icon to your ad
+              href: ./hlp_BA_CONC_GetARideExtension.md
+            - name: App extensions - Promote and link to your apps
+              href: ./hlp_BA_CONC_AdExtensionAppExtension.md
+            - name: Enhance ads with automated extensions
+              href: ./hlp_BA_CONC_AutomatedExtensions.md
+            - name: Enhance Product ads with automated extensions
+              href: ./hlp_BA_CONC_ProductAds_AutomatedExtensions.md
+            - name: How call and location extensions work together
+              href: ./hlp_BA_CONC_CallNLocExtensions.md
+            - name: Image guidelines and policies
+              href: ./hlp_BA_CONC_ImageGuidelines.md
+            - name: Set up ad extensions scheduling
+              href: ./hlp_BA_CONC_AboutAdExtensionScheduling.md
+            - name: What are merchant ratings?
+              href: ./hlp_BA_CONC_MerchantRatings.md
+            - name: About smart image cropping
+              href: ./hlp_BA_PROC_SmartCropping.md
+            - name: Action extensions - Add a call to action button with action extensions
+              href: ./hlp_BA_PROC_AddActionExtension.md
+            - name: Add images to your ad with image extensions
+              href: ./hlp_BA_PROC_AddImageExtension.md
+            - name: Call extensions - Add a phone number
+              href: ./hlp_BA_PROC_AddCallExtension.md
+            - name: Callout extensions - Highlight your store's products or offers
+              href: ./hlp_BA_PROC_AddCalloutExtension.md
+            - name: Filter link extensions - Add clickable product or feature categories
+              href: ./hlp_BA_PROC_AddFilterLinkExtension.md
+            - name: Lead form extensions - Add a form to your ad
+              href: ./hlp_BA_PROC_AddLeadFormExtension.md
+            - name: Location extensions - Show your business address
+              href: ./hlp_BA_PROC_AddLocationExtension.md
+            - name: Logo extensions - Add a logo to your ad
+              href: ./hlp_BA_PROC_AddLogoExtension.md
+            - name: Opting out of Automated Extensions
+              href: ./hlp_BA_PROC_AutomatedExtensionsOptOut.md
+            - name: Price extensions - Add prices of your products or services
+              href: ./hlp_BA_PROC_AddPriceExtension.md
+            - name: Promotion extensions - Highlight special offers for different occasions
+              href: ./hlp_BA_PROC_AddPromotionExtension.md
+            - name: Review extensions - Share positive reviews
+              href: ./hlp_BA_PROC_AddReviewExtension.md
+            - name: Sitelink extensions - Take people to specific pages on your website
+              href: ./hlp_BA_PROC_AddSitelinkExtension.md
+            - name: Structured snippet extensions - Add snippets that highlight your store's products or offers
+              href: ./hlp_BA_PROC_AddStructuredSnippetExtension.md
+            - name: Video extensions - Express your brand identity
+              href: ./hlp_BA_PROC_AddVideoExtension.md
+        - name: Dynamically generate text ads
+          items:
+            - name: About ad customizer feeds
+              href: ./hlp_BA_CONC_Feeds_AdCustomizers.md
+            - name: About ad customizer for ads
+              href: ./hlp_BA_CONC_AdCustomizer_RSA.md
+            - name: Automatically customize your ads with dynamic text parameters
+              href: ./hlp_BA_CONC_AboutParameters.md
+            - name: Dynamic text - Capitalization of the keyword placeholder
+              href: ./hlp_BA_CONC_AboutParametersKeyWord.md
+            - name: Location insertion for Responsive Search ads and Multimedia ads
+              href: ./hlp_BA_CONC_ResponsiveLocation.md
+            - name: Business data feeds
+              href: ./hlp_BA_PROC_Feeds_WorkingWith.md
+        - name: Create Product ads
+          items:
+        - name: Lodging campaigns
+          items:
+            - name: About Hotel Price ads (HPA)
+              href: ./hlp_BA_CONC_HotelAds_Intro.md
+            - name: About Lodging campaigns
+              href: ./hlp_BA_CONC_HotelCampaigns.md
+            - name: About Property Center
+              href: ./hlp_BA_CONC_HotelAds_PropertyCenter.md
+            - name: About Property Promotion ads
+              href: ./hlp_BA_CONC_HotelAds_PPA.md
+            - name: Lodging property categories
+              href: ./hlp_BA_CONC_HotelAds_LodgingCategories.md
+            - name: Making bulk changes to your properties
+              href: ./hlp_BA_PROC_HotelAds_BulkEdit.md
+        - name: Fix ad approval issues
+          items:
+            - name: Editorial Status
+              href: ./hlp_BA_CONC_EditorialStatus.md
+            - name: Fix a Disapproved or Approved Limited status
+              href: ./hlp_BA_CONC_EditorialDisapprovalReasons.md
+            - name: Microsoft Advertising policies
+              href: ./hlp_BA_CONC_EditorialGuidelines.md
+            - name: What does Approved Limited status mean?
+              href: ./hlp_BA_CONC_ApprovedLimited.md
+            - name: How do I challenge a disapproval?
+              href: ./hlp_BA_PROC_RequestException.md
+            - name: The editorial review
+              href: ./hlp_BA_CONC_EditProcess.md
+        - name: Vertical ads
+          items:
+            - name: About tracking templates and conversion goals for Vertical ads
+              href: ./hlp_BA_CONC_Feeds_Optimization.md
+            - name: About Vertical Ads
+              href: ./hlp_BA_CONC_AboutVerticalAds.md
+            - name: Feed item reporting for Vertical ads
+              href: ./hlp_BA_CONC_Feeds_Reporting.md
+            - name: Pinned call extensions for Vertical ads
+              href: ./hlp_BA_CONC_VAPinnedCallExt.md
+            - name: Use Automotive ads to showcase your models and inventory
+              href: ./hlp_BA_CONC_Feeds_Autos.md
+            - name: Use Credit Card ads to showcase your products and promotions
+              href: ./hlp_BA_CONC_Feeds_CreditCards.md
+            - name: Use Cruise ads to showcase your cruise vacations
+              href: ./hlp_BA_CONC_Feeds_Cruises.md
+            - name: Use Job Listing ads to connect your customers to the right job offerings
+              href: ./hlp_BA_CONC_Feeds_JobListing.md
+            - name: Use Professional Services ads to showcase your professional services
+              href: ./hlp_BA_CONC_Feeds_ProfessionalServices.md
+            - name: Use Tours and Activities ads to showcase specific tours and activities
+              href: ./hlp_BA_CONC_Feeds_ToursActivities.md
+    - name: Budgets and bids
+      items:
+        - name: Choose your bid amount
+          items:
+            - name: About the Cost per completed view (CPCV) bid strategy for premium streaming
+              href: ./hlp_BA_CONC_CPCV.md
+            - name: Bid landscape - View impression and cost simulations before changing your bid
+              href: ./hlp_BA_CONC_bidLandscape.md
+            - name: Data exclusions for auto-bidding
+              href: ./hlp_BA_CONC_DataExclusions.md
+            - name: Did I bid high enough?
+              href: ./hlp_BA_CONC_BiddingStrategy.md
+            - name: How to target my customers by adjusting my bids
+              href: ./hlp_BA_CONC_AboutAdvancedBidding.md
+            - name: Let Microsoft Advertising manage your bids with bid strategies
+              href: ./hlp_BA_CONC_BidStrategy.md
+            - name: Managing bid adjustments in bulk
+              href: ./hlp_BA_CONC_SettingsGrid_BulkBidAdjustment.md
+            - name: Monitor and optimize your bidding strategies
+              href: ./hlp_BA_CONC_MonitorOptimizeBidding.md
+            - name: Portfolio bid strategies - Auto-bidding for performance goals
+              href: ./hlp_BA_CONC_BidStrategy_Portfolio.md
+            - name: Refine your bids
+              href: ./hlp_BA_CONC_NewAd_RefineBids.md
+            - name: Seasonality adjustments for auto-bidding
+              href: ./hlp_BA_CONC_SeasonalityAdjustments.md
+            - name: Change your status, bid, and other settings
+              href: ./hlp_BA_PROC_ChgSettings.md
+        - name: Manage your budget
+          items:
+            - name: About Budget Center
+              href: ./hlp_BA_CONC_BudgetCenter.md
+            - name: Discover your budget options
+              href: ./hlp_BA_CONC_AboutBudgetType.md
+            - name: Share a budget across multiple campaigns
+              href: ./hlp_BA_CONC_SharedBudgets.md
+            - name: What can I do to change Eligible (limited) or Out of Budget delivery status?
+              href: ./hlp_BA_CONC_LimitedOrOutBudget.md
+            - name: What if I reach my daily budget limit?
+              href: ./hlp_BA_CONC_BudgetLimit.md
+            - name: Fix the Campaign out of budget/Budget pause status
+              href: ./hlp_BA_PROC_AlertBudgetDepleted.md
+    - name: Keywords
+      items:
+        - name: Keyword basics
+          items:
+            - name: About broad match
+              href: ./hlp_BA_CONC_BroadMatch.md
+            - name: About duplicate keywords
+              href: ./hlp_BA_CONC_Normalization.md
+            - name: Build your campaign - Improve keywords
+              href: ./hlp_BA_CONC_NewAd_BuildCampaign_Keywords.md
+            - name: What are keyword match types, and how do I use them?
+              href: ./hlp_BA_CONC_MatchOptions.md
+        - name: Get keyword suggestions
+          items:
+            - name: How to use keyword planner
+              href: ./hlp_BA_CONC_KeywordPlannerIntro.md
+            - name: Improve campaign performance with Microsoft Advertising Suggestions
+              href: ./hlp_BA_CONC_AboutSuggestionsOpportunities.md
+            - name: Understanding your keyword planner statistics and traffic estimates
+              href: ./hlp_BA_CONC_KeywordPlanner_StatisticsTrafficEstimates.md
+            - name: Add the words people are searching for as keywords or negative keywords
+              href: ./hlp_BA_PROC_SearchTerm.md
+        - name: Choose your keywords
+          items:
+            - name: What are keywords and how should I build my keyword list?
+              href: ./hlp_BA_CONC_AboutKW.md
+            - name: How to add or delete keywords
+              href: ./hlp_BA_PROC_AddKeywordsOrder.md
+        - name: Use negative keywords
+          items:
+            - name: Learn about using negative keywords to get to the right customers
+              href: ./hlp_BA_CONC_AboutNegativeKeywords.md
+            - name: Understanding negative keyword conflicts and their reports
+              href: ./hlp_BA_CONC_IntentionalNKWConflicts.md
+            - name: How to add keywords that won't trigger my ads (negative keywords)
+              href: ./hlp_BA_PROC_AddNegativeKeywords.md
+    - name: Manage campaigns
+      items:
+        - name: Automate campaigns
+          items:
+            - name: Save time by automating your campaign
+              href: ./hlp_BA_CONC_AutoRuleIntro.md
+            - name: Ways to use automated rules
+              href: ./hlp_BA_CONC_AutoRuleExamples.md
+            - name: Edit, pause, or delete automated rules
+              href: ./hlp_BA_PROC_AutoRuleManage.md
+        - name: Bulk Upload
+          items:
+            - name: Download a spreadsheet for bulk upload
+              href: ./hlp_BA_CONC_BulkDownload.md
+            - name: How do I edit my downloaded spreadsheet for bulk upload?
+              href: ./hlp_BA_CONC_BulkEditing.md
+            - name: Make updates across accounts with bulk upload
+              href: ./hlp_BA_CONC_AboutBulk.md
+            - name: Manage bulk download emails
+              href: ./hlp_BA_CONC_ManageDownloadEmails.md
+            - name: Upload an edited spreadsheet
+              href: ./hlp_BA_CONC_BulkUpload.md
+            - name: What does this bulk upload error mean?
+              href: ./hlp_BA_CONC_BulkUploadErrors.md
+        - name: Experiment with your campaigns
+          items:
+            - name: Create a Performance Max upgrade experiment
+              href: ./hlp_BA_CONC_Experiments_Upgrade.md
+            - name: Create an Uplift experiment for Performance Max
+              href: ./hlp_BA_CONC_Experiments_Uplift.md
+            - name: Discover the possibilities with Search optimization experiments
+              href: ./hlp_BA_CONC_Experiments_About.md
+            - name: Examples and tips for working with Search optimization experiments
+              href: ./hlp_BA_CONC_Experiments_BestPractices.md
+    - name: Reach your audience
+      items:
+        - name: Basics of audience targeting
+          items:
+            - name: About audience signals
+              href: ./hlp_BA_CONC_AudienceSignals.md
+            - name: Associate audiences with ad groups or campaigns
+              href: ./hlp_BA_CONC_Audiences_AssociateAdGroup.md
+            - name: Create an audience
+              href: ./hlp_BA_CONC_Audiences_CreateAudience.md
+            - name: What is audience targeting?
+              href: ./hlp_BA_CONC_Audiences_WhatIs.md
+            - name: What's my audience targeting status?
+              href: ./hlp_BA_CONC_Audiences_AudienceStatus.md
+        - name: Requirement - Universal Event Tracking (UET)
+          items:
+        - name: Optimize for audience targeting
+          items:
+            - name: Enable, pause, and delete audience associations
+              href: ./hlp_BA_CONC_Audiences_Status.md
+            - name: How do I edit the targeting setting for an association?
+              href: ./hlp_BA_CONC_Audiences_TargetSettings.md
+            - name: Optimize for audience targeting
+              href: ./hlp_BA_CONC_Audiences_Optimize.md
+            - name: Set up bid boost
+              href: ./hlp_BA_CONC_Audiences_BidBoost.md
+            - name: Where do I view audience performance data?
+              href: ./hlp_BA_CONC_Audiences_ViewData.md
+        - name: Types of audiences
+          items:
+            - name: Auto-generated remarketing lists
+              href: ./hlp_BA_CONC_Audiences_SystemGenerated.md
+            - name: Combined lists - Mix and match audiences to reach just the right customers
+              href: ./hlp_BA_CONC_Audiences_CustomCombo.md
+            - name: Custom audiences - Create richer user segments with your own data
+              href: ./hlp_BA_CONC_Audiences_CustomAudience.md
+            - name: Custom segments - Reach your ideal audience based on their interests and behaviors
+              href: ./hlp_BA_CONC_Audiences_CustomSegments.md
+            - name: Customer match - Use your own data to find customers
+              href: ./hlp_BA_CONC_Audiences_CustomerMatch.md
+            - name: Dynamic remarketing lists - Remarketing for products
+              href: ./hlp_BA_CONC_Audiences_ProductAudience.md
+            - name: Impression-based remarketing - Reach people who have viewed your ads
+              href: ./hlp_BA_CONC_Audiences_ImpressionRemarketing.md
+            - name: In-market audiences - Reach people who are ready to buy
+              href: ./hlp_BA_CONC_Audiences_InMarketAudience.md
+            - name: Microsoft Advertising profile targeting
+              href: ./hlp_BA_CONC_LinkedInTargeting.md
+            - name: Predictive Targeting
+              href: ./hlp_BA_CONC_PredictiveTargeting.md
+            - name: Remarketing - Target people who have visited your site before
+              href: ./hlp_BA_CONC_Audiences_Remarketing.md
+            - name: Remarketing lists based on UET parameters
+              href: ./hlp_BA_CONC_UET_Remarketing.md
+            - name: Similar audiences - Reach a wider qualified set of customers
+              href: ./hlp_BA_CONC_Audiences_SimilarAudience.md
+            - name: What are my options for audiences?
+              href: ./hlp_BA_CONC_Audiences_Options.md
+        - name: Universal Event Tracking (UET)
+          items:
+            - name: Code-free conversion goals with UET and Clarity
+              href: ./hlp_BA_CONC_UET_Clarity_CodeFree.md
+            - name: Conversion value rules
+              href: ./hlp_BA_CONC_UET_ConversionValueRules.md
+            - name: Everything you need to know about setting up UET
+              href: ./hlp_BA_CONC_UET_Setup_Master_2.md
+            - name: FAQ - Modeled conversions
+              href: ./hlp_BA_CONC_UET_ModeledConversionsFAQ.md
+            - name: FAQ - UET and user consent
+              href: ./hlp_BA_CONC_UET_ConsentFAQ.md
+            - name: FAQ - Universal Event Tracking
+              href: ./hlp_BA_CONC_UET_FAQ_2.md
+            - name: Google Tag Manager template - Consent mode
+              href: ./hlp_BA_CONC_UET_DynamicConsentGTM.md
+            - name: Setting up UET for Consent Mode
+              href: ./hlp_BA_CONC_UET_Consent.md
+            - name: Transparency and Consent Framework (TCF) for UET
+              href: ./hlp_BA_CONC_UET_TCF.md
+            - name: UET and Clarity integration
+              href: ./hlp_BA_CONC_UET_Clarity.md
+            - name: Update your UET tags to the new syntax
+              href: ./hlp_BA_CONC_UETv2SyntaxUpdate_2.md
+            - name: What is UET and how can it help me?
+              href: ./hlp_BA_CONC_UETv2WhatIsTag_2.md
+            - name: Set up UET tags using Google Tag Manager, Tealium, and other tag management systems
+              href: ./hlp_BA_PROC_UET_TMS_2.md
+            - name: Set up UET tags using Shopify, Word Press.com, and other website platforms
+              href: ./hlp_BA_PROC_UET_WebPlatform_2.md
+    - name: Product ads
+      items:
+        - name: Basics of Shopping campaigns
+          items:
+            - name: About Smart Shopping campaigns
+              href: ./hlp_BA_CONC_BSC_SmartShopping.md
+            - name: Advertise software subscriptions with Microsoft Advertising
+              href: ./hlp_BA_CONC_BSC_ShoppingSubscriptions.md
+            - name: Best practices for Microsoft Advertising and Product ads
+              href: ./hlp_BA_CONC_productAdBestPractices.md
+            - name: Get started with Microsoft Advertising
+              href: ./hlp_BA_CONC_BSC_GetStarted.md
+            - name: Microsoft Advertising Training
+              href: ./hlp_BA_CONC_MMCTraining.md
+            - name: Minimum bid for Microsoft Advertising
+              href: ./hlp_BA_CONC_ProductAds_MinBid.md
+            - name: Understand and use product groups
+              href: ./hlp_BA_CONC_BSC_AboutProductGroups.md
+            - name: What are Product ads?
+              href: ./hlp_BA_CONC_AboutProductAds.md
+            - name: What are product categories?
+              href: ./hlp_BA_CONC_BMCProductCategores.md
+            - name: What are the benefits of Shopping campaigns?
+              href: ./hlp_BA_CONC_BSC_Overview.md
+            - name: What is Microsoft Advertising?
+              href: ./hlp_BA_CONC_AboutBingMerchantCenter.md
+            - name: Why are my Shopping and Performance Max campaigns showing the â€œProduct offers not foundâ€ error?
+              href: ./hlp_BA_CONC_BSC_Error.md
+            - name: Create Product ads in a Shopping campaign
+              href: ./hlp_BA_PROC_CreateProductTargetAndAd.md
+        - name: Step 1 - Create a store
+          items:
+            - name: Make your store Universal Commerce Protocol (UCP) ready
+              href: ./hlp_BA_CONC_BMC_UCP.md
+            - name: Using structured data markup
+              href: ./hlp_BA_CONC_BMC_StructuredDataMarkup.md
+            - name: Create a Microsoft Advertising store
+              href: ./hlp_BA_PROC_CreateBingMerchantCenterStore.md
+            - name: Verify and claim your website's URL
+              href: ./hlp_BA_PROC_ClaimYourDomain.md
+        - name: Step 2 - Create a feed
+          items:
+            - name: About Bing Merchant Center Catalog File
+              href: ./hlp_BA_CONC_AboutBingMerchantCenterCatalogFile.md
+            - name: BMC Merchant Promo
+              href: ./hlp_BA_CONC_BMC_MerchantPromo.md
+            - name: Creating and organizing Microsoft Advertisingfeed files
+              href: ./hlp_BA_CONC_BMCWhatIsCatalog.md
+            - name: Import your Microsoft Advertisingproduct offers to Microsoft Advertising
+              href: ./hlp_BA_CONC_BMC_GMCImportIntro.md
+            - name: What Microsoft Advertising feed file attributes can I use?
+              href: ./hlp_BA_CONC_BMCGoogleAttributes.md
+        - name: Step 3 - Upload a feed file
+          items:
+        - name: Optimize your product offers
+          items:
+            - name: About Product listings
+              href: ./hlp_BA_CONC_BSC_ProductListings.md
+            - name: About the Shopping Tab
+              href: ./hlp_BA_CONC_BSC_ShoppingTab.md
+            - name: Free shipping settings
+              href: ./hlp_BA_CONC_BMC_FreeShipping.md
+            - name: Microsoft Advertisingon Microsoft Advertising - The Microsoft Ads and Listings app
+              href: ./hlp_BA_CONC_BMC_BigCommerce.md
+            - name: Microsoft Advertisingon Microsoft Advertising - The Microsoft Ads and Listings module
+              href: ./hlp_BA_CONC_BMC_PrestaShop.md
+            - name: Microsoft Advertisingon Microsoft Advertising - The Microsoft Channel app
+              href: ./hlp_BA_CONC_BMC_Shopify.md
+            - name: What are Product Ratings?
+              href: ./hlp_BA_CONC_BSC_ProductRatings.md
+            - name: Automatic item update
+              href: ./hlp_BA_PROC_BMC_AutoItem.md
+            - name: Get email notifications for Microsoft Advertising
+              href: ./hlp_BA_PROC_BMC_AddEmail.md
+            - name: Schedule downloading of feed files in Microsoft Advertising
+              href: ./hlp_BA_PROC_BMC_ScheduleDownloadFeed.md
+            - name: Submit online product inventory update feeds
+              href: ./hlp_BA_PROC_BMC_ProductInventoryFeed.md
+        - name: Merchant Promotions
+          items:
+        - name: Local Inventory Ads
+          items:
+            - name: About storefront hosting for Local Inventory Ads
+              href: ./hlp_BA_CONC_LocalInventoryAds_Storefront.md
+            - name: Import business location data
+              href: ./hlp_BA_CONC_LocalInventoryAds_ImportGMB.md
+            - name: Setting up Local inventory ads
+              href: ./hlp_BA_CONC_LocalInventoryAds_Master.md
+            - name: Using Local inventory ad reports
+              href: ./hlp_BA_CONC_LocalInventoryAds_Reporting.md
+            - name: What are Local Inventory Ads?
+              href: ./hlp_BA_CONC_LocalInventoryAds_Intro.md
+        - name: Cooperative bidding
+          items:
+            - name: About Shopping campaigns for brands
+              href: ./hlp_BA_PROC_BMC_CoopBid.md
+        - name: What you need to know
+          items:
+            - name: About Microsoft Advertising feed files
+              href: ./hlp_BA_CONC_BMC_FeedFiles.md
+            - name: æŽ’æŸ¥ Microsoft Advertisingé”™è¯¯
+              href: ./hlp_BA_CONC_BMCErrorMessages_GTEST.md
+            - name: BMC Intro
+              href: ./hlp_BA_CONC_BMC_Intro.md
+            - name: Diagnostic report for untargeted offers in Microsoft Advertising
+              href: ./hlp_BA_CONC_BMC_DiagnosticReport.md
+            - name: How to appeal a rejected offer
+              href: ./hlp_BA_CONC_BMCHowToAppeal.md
+            - name: Microsoft Advertising feed tax policy
+              href: ./hlp_BA_CONC_BMCTax.md
+            - name: My rejected offer is non-appealable. What do I do?
+              href: ./hlp_BA_CONC_BMCRejectedOffer.md
+            - name: Product Ads Aggregator
+              href: ./hlp_BA_CONC_ProductAds_Aggregator.md
+            - name: Troubleshoot Microsoft Advertising errors
+              href: ./hlp_BA_CONC_BMCErrorMessages.md
+            - name: Using the API and FTP/SFTP in Microsoft Advertising
+              href: ./hlp_BA_CONC_BMC_APIandFTP.md
+            - name: What are the FTP/SFTP server requirements?
+              href: ./hlp_BA_CONC_BMCFTPRequirements.md
+        - name: Other resources
+          items:
+        - name: Importing product offers
+          items:
+- name: Measure Results
+  items:
+    - name: Customize data and run reports
+      items:
+        - name: Organize data
+          items:
+            - name: Create custom columns to show data you want
+              href: ./hlp_BA_CONC_CustomColumns.md
+            - name: Customize what data shows in the table
+              href: ./hlp_BA_CONC_CustomizeData.md
+            - name: How can I compare performance by date ranges?
+              href: ./hlp_BA_CONC_POP.md
+            - name: Segment your performance data
+              href: ./hlp_BA_CONC_Segmentation.md
+            - name: Use graphs to see data for every level of your campaign
+              href: ./hlp_BA_CONC_CampaignPageGraphs.md
+            - name: What can I do with labels?
+              href: ./hlp_BA_CONC_Labels.md
+        - name: Create reports
+          items:
+            - name: About asset reporting
+              href: ./hlp_BA_CONC_AssetReport.md
+            - name: Instant reports - Download your Campaigns performance data
+              href: ./hlp_BA_CONC_DownloadTableAsReport.md
+            - name: Monitor and optimize your bid strategies
+              href: ./hlp_BA_CONC_BidStrategyReport.md
+            - name: Run a search term report
+              href: ./hlp_BA_CONC_AboutSearchQueryReport.md
+            - name: Search terms insights
+              href: ./hlp_BA_CONC_AboutSearchTermsInsights.md
+            - name: See where ad traffic comes from with the Geographic report
+              href: ./hlp_BA_CONC_GeoLocationReport.md
+            - name: The share of voice report shows how well you're competing
+              href: ./hlp_BA_CONC_ImprShareReports.md
+            - name: Understanding the Ad extension report
+              href: ./hlp_BA_CONC_UnderstandingTheAdExtensionsReport.md
+            - name: What do the report columns mean?
+              href: ./hlp_BA_CONC_ReportFields.md
+            - name: About reporting data retention
+              href: ./hlp_BA_PROC_DataRetention.md
+            - name: Understanding the Report Builder
+              href: ./hlp_BA_PROC_CreateReport.md
+        - name: Analyze the numbers
+          items:
+            - name: Changing your account time zone
+              href: ./hlp_BA_CONC_ChangeTimeZone.md
+            - name: How does the account time zone impact data?
+              href: ./hlp_BA_CONC_TimeZone.md
+            - name: Is my data updated in real time?
+              href: ./hlp_BA_CONC_DataFreshness.md
+            - name: More ways to track and improve campaign performance
+              href: ./hlp_BA_CONC_ReportsWhatsNext.md
+            - name: Review your campaign data by a specific pivot or dimension
+              href: ./hlp_BA_CONC_AboutDimensionsTab.md
+            - name: What changes were made to my campaigns and can I undo them?
+              href: ./hlp_BA_CONC_ChangeHistoryGraph.md
+            - name: What the numbers mean in performance reports
+              href: ./hlp_BA_CONC_ReportsWhatResultsMean.md
+    - name: Understanding your data
+      items:
+        - name: Improve ad and keyword performance
+          items:
+            - name: About upgrading Dynamic Search ads to Performance Max
+              href: ./hlp_BA_CONC_DSA_PMAX_Upgrade.md
+            - name: About your optimization score
+              href: ./hlp_BA_CONC_OptScore.md
+            - name: Ad recommendations can help boost performance
+              href: ./hlp_BA_CONC_AdsByBing.md
+            - name: Auto-apply recommendation settings
+              href: ./hlp_BA_CONC_AutoApplyRec.md
+            - name: How do I improve my ad campaign performance?
+              href: ./hlp_BA_CONC_AboutImprovingCampaignPerformance.md
+            - name: New campaign recommendations
+              href: ./hlp_BA_CONC_NewCampaignRec.md
+            - name: Use recommendations to enhance your campaigns
+              href: ./hlp_BA_CONC_Recommendations.md
+            - name: How to get my ads on the first page using estimated bids?
+              href: ./hlp_BA_PROC_Location_Opportunity.md
+        - name: Additional performance insights
+          items:
+            - name: About the Competition tab
+              href: ./hlp_BA_CONC_CompetitionTab.md
+            - name: Monitoring clicks - Telling the good from the bad
+              href: ./hlp_BA_CONC_AboutPreventingInvalidClicks.md
+            - name: Quality score and quality impact in depth
+              href: ./hlp_BA_CONC_AboutQualityScore.md
+            - name: See how you compete with the auction insights report
+              href: ./hlp_BA_CONC_AuctionInsighs.md
+            - name: Understanding and setting performance targets
+              href: ./hlp_BA_CONC_PerformanceTargets.md
+            - name: Understanding conversion delay
+              href: ./hlp_BA_CONC_ConversionDelay.md
+            - name: Understanding reach and frequency metrics
+              href: ./hlp_BA_CONC_ReachFrequencyMetrics.md
+    - name: Track sales and other conversions
+      items:
+        - name: Basics of conversion tracking
+          items:
+            - name: How does conversion tracking work?
+              href: ./hlp_BA_CONC_UETv2HowCTWorks.md
+            - name: Use goal categories to segment your conversion goals
+              href: ./hlp_BA_CONC_UET_GoalCategory.md
+            - name: What are conversion goals and goal types?
+              href: ./hlp_BA_CONC_UETv2CTGoalType.md
+            - name: What is conversion tracking?
+              href: ./hlp_BA_CONC_UETv2WhatIsCT.md
+            - name: How do I create a conversion goal?
+              href: ./hlp_BA_PROC_UETv2CreateGoal.md
+        - name: Required - Universal Event Tracking (UET)
+          items:
+        - name: Managing conversion tracking
+          items:
+            - name: Change how you count conversions
+              href: ./hlp_BA_CONC_UETv2Count.md
+            - name: Conversion goals - "Conversions" versus "All conversions"
+              href: ./hlp_BA_CONC_ConvsVsAllConvs.md
+            - name: Performance Max UET and conversion issues
+              href: ./hlp_BA_CONC_PMax_UET_Conversion_Issues.md
+            - name: Where do I view conversion goal metric data?
+              href: ./hlp_BA_CONC_UETv2HowCTWhereViewData.md
+            - name: Why am I not recording conversions or tracked revenue?
+              href: ./hlp_BA_CONC_UET_TroubleshootCT.md
+            - name: Why do I see a discrepancy between Microsoft Advertising conversion counts and those from Google Analytics and Microsoft Advertising (or my own logs)?
+              href: ./hlp_BA_CONC_UET_BAAWDiscrepancy.md
+            - name: How do I add a UET tag to my website?
+              href: ./hlp_BA_PROC_UETv2AddTag.md
+            - name: How do I create a UET tag?
+              href: ./hlp_BA_PROC_UETv2CreateTag.md
+            - name: How do I delete a conversion goal?
+              href: ./hlp_BA_PROC_UETv2DeleteConversionGoal.md
+            - name: How do I delete a UET tag?
+              href: ./hlp_BA_PROC_UETv2DeleteTag.md
+            - name: How do I manage my conversion goals?
+              href: ./hlp_BA_PROC_UETv2ViewGoals.md
+        - name: Advanced conversion tracking
+          items:
+            - name: How to report variable revenue with UET
+              href: ./hlp_BA_CONC_UETv2RevenueVariables.md
+            - name: How to track custom events with UET
+              href: ./hlp_BA_CONC_UETv2CustomEvent.md
+            - name: Overriding UET tag tracking code
+              href: ./hlp_BA_CONC_UETv2OverrideUetTag.md
+            - name: Reasons for creating more than one UET tag
+              href: ./hlp_BA_CONC_UETv2MutliTags.md
+            - name: Tracking offline conversions
+              href: ./hlp_BA_CONC_UETv2OfflineConversion.md
+            - name: UET Dashboard
+              href: ./hlp_BA_CONC_UET_Dashboard.md
+            - name: UET Enhanced Conversions
+              href: ./hlp_BA_CONC_UET_EnhancedConversions.md
+            - name: UET technical safeguards for sensitive data
+              href: ./hlp_BA_CONC_UETTechnicalSafeguards.md
+            - name: Use Microsoft UET tag with Content Security Policy
+              href: ./hlp_BA_CONC_UETv2CSP.md
+            - name: Using the Java Script UET tag tracking code
+              href: ./hlp_BA_CONC_UETv2NonJS.md
+            - name: What are campaign level conversions?
+              href: ./hlp_BA_CONC_CampaignLevelConv.md
+            - name: What are view-through conversions?
+              href: ./hlp_BA_CONC_ViewThroughConv.md
+            - name: Where can I find information about the Conversions API (CAPI)?
+              href: ./hlp_BA_CONC_AboutCAPI.md
+            - name: How to use regular expressions when building destination URLs or custom event type goals
+              href: ./hlp_BA_PROC_UETv2RegExpression.md
+            - name: Track mobile app installs as conversions
+              href: ./hlp_BA_PROC_UETv2MobileApp.md
+            - name: Why track custom events
+              href: ./hlp_BA_PROC_UETv2TrackCustomEvent.md
+            - name: Why track variable revenue
+              href: ./hlp_BA_PROC_UETv2TrackRev.md
+        - name: Advanced tips for UET
+          items:
+        - name: Advanced tips for conversion tracking
+          items:
+        - name: Set up offline conversion tracking
+          items:
+        - name: Requirements for conversion tracking
+          items:
+            - name: Everything you need to know about setting up UET
+              href: ./hlp_BA_CONC_UET_Setup_Master.md
+            - name: FAQ - Universal Event Tracking
+              href: ./hlp_BA_CONC_UET_FAQ.md
+            - name: Test conversion goals and audiences with UET Tag Helper
+              href: ./hlp_BA_CONC_UET_TagHelper.md
+            - name: Update your UET tags to the new syntax
+              href: ./hlp_BA_CONC_UETv2SyntaxUpdate.md
+            - name: What is UET and how can it help me?
+              href: ./hlp_BA_CONC_UETv2WhatIsTag.md
+            - name: Is my UET tag working?
+              href: ./hlp_BA_PROC_UETv2ViewTag.md
+            - name: Set up UET tags using Google Tag Manager, Tealium, and other tag management systems
+              href: ./hlp_BA_PROC_UET_TMS.md
+            - name: Set up UET tags using Shopify, Word Press.com, and other website platforms
+              href: ./hlp_BA_PROC_UET_WebPlatform.md
+    - name: URL tracking and analytics
+      items:
+        - name: Tracking in Microsoft Advertising
+          items:
+            - name: How do I add UTM tags to my landing page URL?
+              href: ./hlp_BA_CONC_AutoTag.md
+            - name: How do I see if Microsoft Advertising auto-tagging works?
+              href: ./hlp_BA_CONC_MicrosoftClickIDCheck.md
+            - name: How do I set up final URL tracking?
+              href: ./hlp_BA_CONC_GoogleAnalytics.md
+            - name: What is URL tracking in Microsoft Advertising?
+              href: ./hlp_BA_CONC_UpgradeURL_WhatIsTracking.md
+            - name: What tracking or URL parameters can I use?
+              href: ./hlp_BA_CONC_UpgradeURL_URLParameters.md
+            - name: Auto-tagging of Microsoft Click ID
+              href: ./hlp_BA_PROC_MicrosoftClickID.md
+        - name: Upgraded URLs
+          items:
+            - name: Add additional tracking templates to my campaigns
+              href: ./hlp_BA_CONC_UpgradeURL_TrackTemplateCampaignLevel.md
+            - name: Can I use custom parameters?
+              href: ./hlp_BA_CONC_UpgradeURL_TrackTemplateCustomParam.md
+            - name: Create an account tracking template
+              href: ./hlp_BA_CONC_UpgradeURL_TrackTemplateGlobalParam.md
+            - name: Test your URL tracking
+              href: ./hlp_BA_CONC_UpgradeURL_TestButton.md
+            - name: Using a final URL suffix
+              href: ./hlp_BA_CONC_UpgradeURL_FinalURLSuffix.md
+            - name: What are Upgraded URLs and how do I upgrade?
+              href: ./hlp_BA_CONC_UpgradeURL_MigrateFAQ.md
+        - name: Tips and best practices
+          items:
+            - name: Can I set a separate URL for my mobile website?
+              href: ./hlp_BA_CONC_UpgradeURL_Mobile.md
+            - name: Can I use {param1}, {param2}, and {param3} for keyword level tracking with Upgraded URLs and final URLs?
+              href: ./hlp_BA_CONC_UpgradeURL_Param.md
+            - name: FAQ - Upgraded URLs
+              href: ./hlp_BA_CONC_UpgradeURL_FAQ.md
+            - name: How is my Upgraded URL created?
+              href: ./hlp_BA_CONC_UpgradeURL_ServingRules.md
+            - name: Parallel tracking gets customers to your landing page more quickly
+              href: ./hlp_BA_CONC_ParallelTracking.md
+            - name: Why isn't my tracking template working?
+              href: ./hlp_BA_CONC_UpgradeURL_NotWorking.md
+- name: Billing and Payments
+  items:
+    - name: How you pay
+      items:
+        - name: When you pay
+          items:
+            - name: What are my billing options? Pay now or pay later
+              href: ./hlp_BA_CONC_HowBillingWorks.md
+            - name: What is billing threshold and how does it work?
+              href: ./hlp_BA_CONC_BillingThreshold.md
+            - name: What you need to know about monthly invoice billing
+              href: ./hlp_BA_CONC_MonthlyInvoiceBilling.md
+            - name: Apply for monthly invoice billing
+              href: ./hlp_BA_PROC_MonthlyInvoiceApply.md
+            - name: What is auto-recharge and how does it work?
+              href: ./hlp_BA_PROC_AutoRecharge.md
+        - name: What you pay with
+          items:
+            - name: Choosing a payment method for Microsoft Advertising
+              href: ./hlp_BA_CONC_PaymentMethodsV2.md
+            - name: How do I create and edit an insertion order?
+              href: ./hlp_BA_CONC_EIO.md
+            - name: The Payment Methods page
+              href: ./hlp_BA_CONC_AvailablePaymentMethods.md
+            - name: Using Microsoft Advertising to pay your charges
+              href: ./hlp_BA_CONC_PayPal.md
+            - name: Paying by bank transfer
+              href: ./hlp_BA_PROC_PayByCheck.md
+            - name: Paying by credit and debit card
+              href: ./hlp_BA_PROC_AddBilling.md
+            - name: Paying with Boleto Bancário
+              href: ./hlp_BA_PROC_Boleto.md
+            - name: Paying with SEPA Direct Debit
+              href: ./hlp_BA_PROC_SEPA.md
+        - name: Microsoft Invest
+          items:
+            - name: Microsoft Advertising Contract Cut-over FAQ
+              href: ./hlp_BA_CONC_Billing_InvestFAQ.md
+    - name: Billing and taxes
+      items:
+        - name: Basic billing tasks
+          items:
+            - name: Add a backup payment method
+              href: ./hlp_BA_PROC_AddBackupPM.md
+            - name: Add funds to a prepay account
+              href: ./hlp_BA_PROC_AddFunds.md
+            - name: Deleting a payment method
+              href: ./hlp_BA_PROC_DeleteCard.md
+            - name: How do I switch my payment settings?
+              href: ./hlp_BA_PROC_SwitchPaymentSettingV2.md
+            - name: How to change payment methods and bill-to customer
+              href: ./hlp_BA_PROC_Account_AssociateCCard.md
+            - name: Pay your account balance
+              href: ./hlp_BA_PROC_MakePayment.md
+        - name: Tax and VAT
+          items:
+            - name: Tax or VAT information
+              href: ./hlp_BA_CONC_TaxVATInfo.md
+            - name: Why we need your business location (and maybe VAT information)
+              href: ./hlp_BA_CONC_EuropaFAQ.md
+        - name: Billing documents
+          items:
+            - name: Settings Per SAP ID (enhanced)
+              href: ./hlp_BA_CONC_BillingSettingsEnhanced.md
+            - name: Combine similar bills into a single invoice (Enhanced consolidated billing)
+              href: ./hlp_BA_PROC_ConsolidatedBilling.md
+            - name: Download and print a billing statement or invoice
+              href: ./hlp_BA_PROC_ViewBillingPg.md
+            - name: Get billing alerts
+              href: ./hlp_BA_PROC_BillingEmails.md
+    - name: Payment and billing issues
+      items:
+        - name: Payment and billing issues
+          items:
+            - name: About credits, refunds, and adjustments
+              href: ./hlp_BA_CONC_CreditsRefunds.md
+            - name: How do I fix a declined payment?
+              href: ./hlp_BA_CONC_PaymentDeclined.md
+            - name: I'm having trouble adding a credit card or debit card
+              href: ./hlp_BA_CONC_TshootCreditCards.md
+            - name: Critical alert - No payment method has been added
+              href: ./hlp_BA_PROC_AlertNoPI.md
+            - name: Payment Processing
+              href: ./hlp_BA_CONC_PaymentProcessing.md
+            - name: Update your credit card expiration date
+              href: ./hlp_BA_PROC_AlertCardExpire.md
+            - name: Why is my account on hold?
+              href: ./hlp_BA_PROC_AlertAcctHold.md
+    - name: Coupons and promotions
+      items:
+        - name: About ads for social impact
+          href: ./hlp_BA_CONC_AboutAdsforSocialImpact.md
+        - name: Existing customer coupon offer details
+          href: ./hlp_BA_CONC_AboutPBCDetails.md
+        - name: Microsoft Advertising promotional offers (coupons)
+          href: ./hlp_BA_CONC_AboutPromoOffers.md
+        - name: New customer coupon offer details
+          href: ./hlp_BA_CONC_NewCustomerAboutPBCDetails.md
+- name: Unmapped Topics
+  items:
+    - name: Concepts (CONC)
+      items:
+        - name: A note about how we verify our advertisers
+          href: ./hlp_BA_CONC_AdvertiserIdentityVerificationCustomer.md
+        - name: About China Advertiser identity verification
+          href: ./hlp_BA_CONC_AdvertiserIdentityVerificationChina.md
+        - name: About Lift measurement
+          href: ./hlp_BA_CONC_LiftMeasurement.md
+        - name: About Microsoft Advertising
+          href: ./hlp_BA_CONC_AboutDesktop.md
+        - name: About Microsoft Advertising
+          href: ./hlp_BA_CONC_StoreAds_Intro.md
+        - name: About UK Financial services verification
+          href: ./hlp_BA_CONC_UKFinancialServicesVerification.md
+        - name: Account status and financial status
+          href: ./hlp_BA_CONC_AboutAcctStatus.md
+        - name: Ads not showing - What can I do?
+          href: ./hlp_BA_CONC_AdsNotShowing.md
+        - name: Advertiser identity verification
+          href: ./hlp_BA_CONC_AdvertiserIdentityVerification.md
+        - name: Advertiser identity verification appeals
+          href: ./hlp_BA_CONC_AIVAppeals.md
+        - name: Advertiser identity verification2
+          href: ./hlp_BA_CONC_AIVTest1.md
+        - name: AIV Table Test
+          href: ./hlp_BA_CONC_AIVTableTEST.md
+        - name: All about Smart campaigns
+          href: ./hlp_BA_CONC_SmartCamps_Intro.md
+        - name: Animals and Wildlife
+          href: ./hlp_BA_CONC_Policy_DisallowedEndangered.md
+        - name: APEX TAB SAMPLE Microsoft Advertising?
+          href: ./hlp_BA_CONC_ApexTabSample.md
+        - name: Areas of Questionable Legality
+          href: ./hlp_BA_CONC_Policy_DisallowedAreas.md
+        - name: Automotive listing inventory ads' dynamic data feeds
+          href: ./hlp_BA_CONC_FeedsAttributes_Autos.md
+        - name: Beauty and Cosmetics
+          href: ./hlp_BA_CONC_Policy_RestrictedBeauty.md
+        - name: Billing Summary in depth (enhanced)
+          href: ./hlp_BA_CONC_BillingTabEnhanced.md
+        - name: Copilot in Microsoft Advertising
+          href: ./hlp_BA_CONC_CopilotMSA.md
+        - name: Credit Card ads' dynamic data feeds
+          href: ./hlp_BA_CONC_FeedsAttributes_CreditCards.md
+        - name: Cruise ads' dynamic data feeds
+          href: ./hlp_BA_CONC_FeedsAttributes_Cruises.md
+        - name: Dating and companionship
+          href: ./hlp_BA_CONC_Policy_RestrictedDating.md
+        - name: Deceptive Products and Services
+          href: ./hlp_BA_CONC_Policy_DisallowedDeceptive.md
+        - name: Drugs and Related Paraphernalia
+          href: ./hlp_BA_CONC_Policy_DisallowedDrugs.md
+        - name: FAQ - Remarketing
+          href: ./hlp_BA_CONC_Remarketing_FAQ.md
+        - name: Feeds Attributes Autos GTEST
+          href: ./hlp_BA_CONC_FeedsAttributes_Autos_GTEST.md
+        - name: Feeds Events
+          href: ./hlp_BA_CONC_Feeds_Events.md
+        - name: Fireworks and Dangerous Materials
+          href: ./hlp_BA_CONC_Policy_DisallowedFireworks.md
+        - name: Gambling and games
+          href: ./hlp_BA_CONC_Policy_RestrictedGambling.md
+        - name: Get Started with Microsoft Advertising
+          href: ./hlp_BA_CONC_GetStarted2017.md
+        - name: Get Started with Microsoft Advertising
+          href: ./hlp_BA_CONC_GetStarted2020.md
+        - name: Get to know your Microsoft Advertising account modes
+          href: ./hlp_BA_CONC_SmartVsExpert.md
+        - name: Government Services and Products
+          href: ./hlp_BA_CONC_Policy_RestrictedGov.md
+        - name: Healthcare and Pharmaceutical Ad Policy
+          href: ./hlp_BA_CONC_Policy_RestrictedPharma.md
+        - name: Hidden Copilot reference topic
+          href: ./hlp_BA_CONC_CopilotHiddenTopic.md
+        - name: How can I automate my campaigns with Microsoft Advertising scripts?
+          href: ./hlp_BA_CONC_AboutScripts.md
+        - name: How do I setup conversion tracking?
+          href: ./hlp_BA_CONC_UETv3SetUpConversionTracking.md
+        - name: Identity verification status
+          href: ./hlp_BA_CONC_AIVStatus.md
+        - name: Imposto sobre Serviços
+          href: ./hlp_BA_CONC_ISS.md
+        - name: Information Integrity and Misleading Content
+          href: ./hlp_BA_CONC_Policy_DisallowedInformation.md
+        - name: Job listing ads' dynamic data feeds
+          href: ./hlp_BA_CONC_FeedsAttributes_JobListing.md
+        - name: Malaysia Sales and Service Tax
+          href: ./hlp_BA_CONC_MYSToDS.md
+        - name: Malware, Malicious and Unwanted Software, and Phishing
+          href: ./hlp_BA_CONC_Policy_DisallowedMalware.md
+        - name: Manage your Microsoft Advertisingcampaigns
+          href: ./hlp_BA_CONC_StoreAds_Manage.md
+        - name: Managing your India tax ID
+          href: ./hlp_BA_CONC_IndiaPANFAQ.md
+        - name: Microsoft Advertising Agreement
+          href: ./hlp_BA_CONC_Policy_Agreement_MicrosoftAdvertising.md
+        - name: Microsoft Advertising Agreement
+          href: ./hlp_BA_CONC_TermsandConditions.md
+        - name: Microsoft Advertising click measurement - Description of methodology (DOM)
+          href: ./hlp_BA_CONC_DOM2.md
+        - name: Microsoft Advertising Contract Cut-over FAQ
+          href: ./hlp_BA_CONC_Policy_InvestImpactOverview.md
+        - name: Microsoft Advertising video tutorials
+          href: ./hlp_BA_CONC_VidDirectory.md
+        - name: Navigating Microsoft Advertising
+          href: ./hlp_BA_CONC_HotelAds_Navigate.md
+        - name: New campaign creation experience goal selections
+          href: ./hlp_BA_CONC_Redesign.md
+        - name: New Zealand Goods and Services Tax
+          href: ./hlp_BA_CONC_NZGST.md
+        - name: Nudity and Suggestive Content
+          href: ./hlp_BA_CONC_Policy_RestrictedNudityandSuggestive.md
+        - name: Offensive, Harmful, or Violent Content
+          href: ./hlp_BA_CONC_Policy_DisallowedOffensive.md
+        - name: Other Market Restricted Products and Services
+          href: ./hlp_BA_CONC_Policy_RestrictedOther.md
+        - name: People Finder and Research Sites
+          href: ./hlp_BA_CONC_Policy_RestrictedPeople.md
+        - name: policy disallowed Inaccessible
+          href: ./hlp_BA_CONC_policy_disallowedInaccessible.md
+        - name: Policy Disallowed Non Indexed
+          href: ./hlp_BA_CONC_Policy_DisallowedNonIndexed.md
+        - name: Policy Disallowed Piracy
+          href: ./hlp_BA_CONC_Policy_DisallowedPiracy.md
+        - name: Policy Disallowed Sensitive
+          href: ./hlp_BA_CONC_Policy_DisallowedSensitive.md
+        - name: Policy Restricted Adult
+          href: ./hlp_BA_CONC_Policy_RestrictedAdult.md
+        - name: Policy Restricted Alcohol
+          href: ./hlp_BA_CONC_Policy_RestrictedAlcohol.md
+        - name: Policy Restricted Finance
+          href: ./hlp_BA_CONC_Policy_RestrictedFinance.md
+        - name: Policy Restricted Food
+          href: ./hlp_BA_CONC_Policy_RestrictedFood.md
+        - name: Policy Restricted Legal
+          href: ./hlp_BA_CONC_Policy_RestrictedLegal.md
+        - name: Policy Restricted Online
+          href: ./hlp_BA_CONC_Policy_RestrictedOnline.md
+        - name: Policy Restricted Political
+          href: ./hlp_BA_CONC_Policy_RestrictedPolitical.md
+        - name: Policy Restricted Pricing
+          href: ./hlp_BA_CONC_Policy_RestrictedPricing.md
+        - name: Policy Restricted Religious
+          href: ./hlp_BA_CONC_Policy_RestrictedReligious.md
+        - name: Policy Restricted Spy
+          href: ./hlp_BA_CONC_Policy_RestrictedSpy.md
+        - name: Policy Restricted Ticket
+          href: ./hlp_BA_CONC_Policy_RestrictedTicket.md
+        - name: Policy Restricted Tolled
+          href: ./hlp_BA_CONC_Policy_RestrictedTolled.md
+        - name: Policy Restricted Travel
+          href: ./hlp_BA_CONC_Policy_RestrictedTravel.md
+        - name: Policy Text Guidelines
+          href: ./hlp_BA_CONC_Policy_TextGuidelines.md
+        - name: Professional Services ads' dynamic data feeds
+          href: ./hlp_BA_CONC_FeedsAttributes_ProfessionalServices.md
+        - name: Promotion of third-party products and services
+          href: ./hlp_BA_CONC_Policy_RestrictedThirdParty.md
+        - name: Psychics, Tarot Reading, and Mediums
+          href: ./hlp_BA_CONC_Policy_RestrictedPsychics.md
+        - name: Public Service Announcements (psa) and Awareness Campaigns
+          href: ./hlp_BA_CONC_Policy_RestrictedPublic.md
+        - name: Reviewing the left pane
+          href: ./hlp_BA_CONC_UCM_Test_Jon1A.md
+        - name: Signing in with a work account
+          href: ./hlp_BA_CONC_AAD.md
+        - name: Simplified conversion goal setup
+          href: ./hlp_BA_CONC_UET_AutoConversions.md
+        - name: Singapore Goods and Services Tax
+          href: ./hlp_BA_CONC_SGGST.md
+        - name: Sitelinks Hidden Topic
+          href: ./hlp_BA_CONC_SitelinksHiddenTopic.md
+        - name: Smart campaigns - Add the tracking tag to your website
+          href: ./hlp_BA_CONC_SmartCT_AddTag.md
+        - name: Smart campaigns - Add tracking tags using Big Commerce
+          href: ./hlp_BA_CONC_SmartCT_WebPlat_BigComm.md
+        - name: Smart campaigns - Code-free conversion goals
+          href: ./hlp_BA_CONC_SmartCamps_CodeFree.md
+        - name: Smart campaigns - Creating effective ads
+          href: ./hlp_BA_CONC_SmartCamps_EffectiveAds.md
+        - name: Smart campaigns - Define special pages of your website
+          href: ./hlp_BA_CONC_SmartCT_SpecialPages.md
+        - name: Smart campaigns - How your settings for locations, products, and services affect who sees your ads
+          href: ./hlp_BA_CONC_SmartCamps_Targeting.md
+        - name: Smart campaigns - Microsoft Advertising policies
+          href: ./hlp_BA_CONC_SmartCamps_Policies.md
+        - name: Smart campaigns - Monitor your campaign's performance
+          href: ./hlp_BA_CONC_SmartCamps_Monitor.md
+        - name: Smart campaigns - Set up tracking tags using Shopify
+          href: ./hlp_BA_CONC_SmartCT_WebPlat_Shopify.md
+        - name: Smart campaigns - Set up tracking tags using Wix
+          href: ./hlp_BA_CONC_SmartCT_WebPlat_Wix.md
+        - name: Smart campaigns - Set up tracking tags using Word Press.com
+          href: ./hlp_BA_CONC_SmartCT_WebPlat_WordPress.md
+        - name: Smart campaigns - Track what customers do after they click your ad
+          href: ./hlp_BA_CONC_SmartCT_Intro.md
+        - name: Smart campaigns - Where and when will my ads appear?
+          href: ./hlp_BA_CONC_SmartCamps_AdNetwork.md
+        - name: Smart Camps Budget
+          href: ./hlp_BA_CONC_SmartCamps_Budget.md
+        - name: Smart Goals
+          href: ./hlp_BA_CONC_SmartGoals.md
+        - name: Software Download Products and Services, Freeware, and Shareware
+          href: ./hlp_BA_CONC_Policy_RestrictedSoft.md
+        - name: Solicitation of Funds and Fund-Raising
+          href: ./hlp_BA_CONC_Policy_RestrictedSolicit.md
+        - name: Styles for Microsoft Advertising
+          href: ./hlp_BA_CONC_aaaStylesTest.md
+        - name: Tattoos and Body Piercings
+          href: ./hlp_BA_CONC_Policy_RestrictedTattoo.md
+        - name: This is a concise heading
+          href: ./hlp_BA_CONC_Policy_aaaGuide.md
+        - name: Tobacco and Vaping Products
+          href: ./hlp_BA_CONC_Policy_DisallowedTobacco.md
+        - name: Tours and Activities ads' dynamic data feeds
+          href: ./hlp_BA_CONC_FeedsAttributes_ToursActivities.md
+        - name: Trafficking or Exploitation
+          href: ./hlp_BA_CONC_Policy_DisallowedTrafficking.md
+        - name: Transferring accounts to a new owner
+          href: ./hlp_BA_CONC_Accounts_Reparenting.md
+        - name: Truncation of Expanded Text Ads
+          href: ./hlp_BA_CONC_EXTA_Truncation.md
+        - name: UET Parameters Table
+          href: ./hlp_BA_CONC_UET_Parameters_Table.md
+        - name: UET tag not found
+          href: ./hlp_BA_CONC_UETTagNotFound.md
+        - name: Understanding Egregious Violation Suspensions
+          href: ./hlp_BA_CONC_Policy_UnderstandingViolation.md
+        - name: Understanding performance estimates and keyword suggestions
+          href: ./hlp_BA_CONC_UnderstandingPerfEsts.md
+        - name: Understanding Strike Violations
+          href: ./hlp_BA_CONC_Policy_StrikeViolations.md
+        - name: Universal Event Tracking (UET) using an IMG tag
+          href: ./hlp_BA_CONC_UET_IMG_Tag.md
+        - name: Unmoderated User-Generated Content
+          href: ./hlp_BA_CONC_Policy_DisallowedUnregulated.md
+        - name: Using the manager dashboard
+          href: ./hlp_BA_CONC_ManagerDashboard.md
+        - name: Using the product conversion goal
+          href: ./hlp_BA_CONC_UETv2ProductGoal.md
+        - name: Weapons, Firearms, and Ammunition
+          href: ./hlp_BA_CONC_Policy_RestrictedWeapons.md
+        - name: Welcome to Microsoft Advertising Help
+          href: ./hlp_BA_CONC_Home.md
+        - name: Welcome to Microsoft Advertising Help
+          href: ./hlp_BA_CONC_Home2020.md
+        - name: Welcome to the redesigned Microsoft Advertising
+          href: ./hlp_BA_CONC_NewVersion.md
+        - name: Welcome to UCM-A Help Center (Jon Version w/ expandos)
+          href: ./hlp_BA_CONC_UCM_Test_JonExp.md
+        - name: Welcome to UCM-A Help Center (Jon Version)
+          href: ./hlp_BA_CONC_UCM_Test_Jon1.md
+        - name: Welcome to UCM-A Help Center (Sasha Version)
+          href: ./hlp_BA_CONC_UCM_Test_Sasha.md
+        - name: What does “Other Payment Methods” mean?
+          href: ./hlp_BA_CONC_OtherPaymentMethods.md
+        - name: What gets imported from Microsoft Advertising for Smart campaigns
+          href: ./hlp_BA_CONC_ImportWhatInfoSC.md
+        - name: What is Microsoft Advertising?
+          href: ./hlp_BA_CONC_DesignMockup.md
+        - name: What's new in Microsoft Advertising?
+          href: ./hlp_BA_CONC_WhatsNew_Alert_NoUS.md
+        - name: Where are my Campaign Analytics goals?
+          href: ./hlp_BA_CONC_UETDepCA.md
+        - name: Where can I find information about the Microsoft Advertising?
+          href: ./hlp_BA_CONC_AboutTheAPI.md
+    - name: Procedures (PROC)
+      items:
+        - name: Example custom events for e-commerce customers
+          href: ./hlp_BA_PROC_UET_ExampleEventsEcommerce.md
+        - name: How do I create and submit local product feeds?
+          href: ./hlp_BA_PROC_LocalInventoryAds_CreateLocalProductFeed.md
+        - name: How do I create and submit local product inventory update feeds?
+          href: ./hlp_BA_PROC_LocalInventoryAds_CreateLocalProdInvenUpdateFeed.md
+        - name: How do I create local product inventory feeds?
+          href: ./hlp_BA_PROC_LocalInventoryAds_CreateLocalProdInvenFeed.md
+        - name: How do I enable Local inventory ads?
+          href: ./hlp_BA_PROC_LocalInventoryAds_EnableLIA.md
+        - name: Set up UET tags using Adobe Dynamic Tag Management
+          href: ./hlp_BA_PROC_UET_TMS_AdobeDTM.md
+        - name: Set up UET tags using Adobe Experience Platform
+          href: ./hlp_BA_PROC_UET_TMS_AdobeLaunch.md
+        - name: Set up UET tags using Big Commerce
+          href: ./hlp_BA_PROC_UET_WebPlatform_BigCommerce.md
+        - name: Set up UET tags using Ensighten
+          href: ./hlp_BA_PROC_UET_TMS_Ensighten.md
+        - name: Set up UET tags using Google Tag Manager
+          href: ./hlp_BA_PROC_UET_TMS_GTM.md
+        - name: Set up UET tags using Qubit Opentag
+          href: ./hlp_BA_PROC_UET_TMS_Qubit.md
+        - name: Set up UET tags using Shopify
+          href: ./hlp_BA_PROC_UET_WebPlatform_Shopify.md
+        - name: Set up UET tags using Signal
+          href: ./hlp_BA_PROC_UET_TMS_Signal.md
+        - name: Set up UET tags using Squarespace
+          href: ./hlp_BA_PROC_UET_WebPlatform_SquareSpace.md
+        - name: Set up UET tags using Tealium
+          href: ./hlp_BA_PROC_UET_TMS_Tealium.md
+        - name: Set up UET tags using Wix
+          href: ./hlp_BA_PROC_UET_WebPlatform_Wix.md
+        - name: Set up UET tags using Word Press.com
+          href: ./hlp_BA_PROC_UET_WebPlatform_WordPress.md
+        - name: Set up UET with Google Tag Manager using direct integration
+          href: ./hlp_BA_PROC_UET_TMS_GTM_DI.md
+        - name: Troubleshoot UET tag
+          href: ./hlp_BA_PROC_UETv2TBTag.md
+        - name: Use inline recommendations to update keyword and bids
+          href: ./hlp_BA_PROC_UseSuggestionsOpportunities.md
+        - name: Where do I find the UET tag tracking code in Microsoft Advertising?
+          href: ./hlp_BA_PROC_UETv2FindTag.md
