@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).
+description: Defines the search term landing page report request.
 ---
 # SearchTermLandingPageReportRequest Data Object - Reporting
-Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).
+Defines the search term landing page report request.
 
 ## Syntax
 

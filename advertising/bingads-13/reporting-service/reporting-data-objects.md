@@ -86,7 +86,7 @@ The Reporting service defines the following data objects.
 |[KeywordPerformanceReportRequest](keywordperformancereportrequest.md)|Defines a keyword performance report request.|
 |[KeywordPerformanceReportSort](keywordperformancereportsort.md)|Defines a keyword performance report column and corresponding sort order.|
 |[MMMPerformanceReportFilter](mmmperformancereportfilter.md)|Defines the criteria to use to filter the MMM performance report data.|
-|[MMMPerformanceReportRequest](mmmperformancereportrequest.md)|Reserved.|
+|[MMMPerformanceReportRequest](mmmperformancereportrequest.md)|Defines an MMM performance report request.|
 |[MSClickIdPerformanceReportFilter](msclickidperformancereportfilter.md)|Defines the criteria to use to filter the MSClickId performance report data.|
 |[MSClickIdPerformanceReportRequest](msclickidperformancereportrequest.md)|Defines an MSClickID performance report request.|
 |[NegativeKeywordConflictReportFilter](negativekeywordconflictreportfilter.md)|Defines the criteria to use to filter the negative keyword conflict report data.|

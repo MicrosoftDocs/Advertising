@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).
+description: Defines the attributes and performance statistics columns that you can include in the SearchTermLandingPageReportRequest.
 ---
 # SearchTermLandingPageReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).
@@ -30,30 +30,125 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="BidMatchType" />
     <xs:enumeration value="DeliveredMatchType" />
     <xs:enumeration value="Headline" />
-    <xs:enumeration value="LandingPageUrl" />
-    <xs:enumeration value="FinalUrl" />
-    <xs:enumeration value="FinalUrlSource" />
-    <xs:enumeration value="Impressions" />
-    <xs:enumeration value="Clicks" />
-    <xs:enumeration value="Ctr" />
-    <xs:enumeration value="AverageCpc" />
-    <xs:enumeration value="Spend" />
-    <xs:enumeration value="Conversions" />
-    <xs:enumeration value="ConversionRate" />
-    <xs:enumeration value="CostPerConversion" />
-    <xs:enumeration value="AbsoluteTopImpressionRatePercent" />
-    <xs:enumeration value="TopImpressionRatePercent" />
-    <xs:enumeration value="Revenue" />
-    <xs:enumeration value="ReturnOnAdSpend" />
-    <xs:enumeration value="TimePeriod" />
-    <xs:enumeration value="ConversionsQualified" />
+    <xs:enumeration value="FinalUrl">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="FinalUrlSource">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">17</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Impressions">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">18</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Clicks">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">19</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Ctr">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">20</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="AverageCpc">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">21</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Spend">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">22</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Conversions">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">23</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="ConversionRate">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">24</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="CostPerConversion">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">25</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="AbsoluteTopImpressionRatePercent">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">26</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="TopImpressionRatePercent">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">27</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Revenue">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">28</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="ReturnOnAdSpend">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">29</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="TimePeriod">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">30</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="ConversionsQualified">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">31</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [LandingPageUrl](#landingpageurl), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
+The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
 
 |Value|Description|
 |-----------|---------------|
@@ -81,7 +176,6 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="headline"></a>Headline|Reserved.|
 |<a name="impressions"></a>Impressions|Reserved.|
 |<a name="keyword"></a>Keyword|Reserved.|
-|<a name="landingpageurl"></a>LandingPageUrl|Reserved.|
 |<a name="language"></a>Language|Reserved.|
 |<a name="returnonadspend"></a>ReturnOnAdSpend|Reserved.|
 |<a name="revenue"></a>Revenue|Reserved.|

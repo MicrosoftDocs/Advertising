@@ -3114,6 +3114,10 @@
       href: ../reporting-service/keywordperformancereportrequest.md
     - name: KeywordPerformanceReportSort
       href: ../reporting-service/keywordperformancereportsort.md
+    - name: MMMPerformanceReportFilter
+      href: ../reporting-service/mmmperformancereportfilter.md
+    - name: MMMPerformanceReportRequest
+      href: ../reporting-service/mmmperformancereportrequest.md
     - name: MSClickIdPerformanceReportFilter
       href: ../reporting-service/msclickidperformancereportfilter.md
     - name: MSClickIdPerformanceReportRequest
@@ -3285,6 +3289,8 @@
       href: ../reporting-service/keywordstatusreportfilter.md
     - name: LanguageReportFilter
       href: ../reporting-service/languagereportfilter.md
+    - name: MMMPerformanceReportColumn
+      href: ../reporting-service/mmmperformancereportcolumn.md
     - name: MSClickIdPerformanceReportColumn
       href: ../reporting-service/msclickidperformancereportcolumn.md
     - name: NegativeKeywordConflictReportColumn
