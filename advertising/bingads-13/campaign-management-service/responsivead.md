@@ -129,7 +129,6 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -151,7 +150,6 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -172,7 +170,6 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -195,7 +192,6 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
       "CropWidth": IntValueHere,
       "CropX": IntValueHere,
       "CropY": IntValueHere,
-      "Excluded": "ValueHere",
       "SubType": "ValueHere",
       "TargetHeight": IntValueHere,
       "TargetWidth": IntValueHere
@@ -215,7 +211,6 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -246,7 +241,6 @@ The ResponsiveAd object is used for both [Multimedia ads](https://help.ads.micro
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere

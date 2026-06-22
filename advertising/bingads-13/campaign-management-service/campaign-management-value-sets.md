@@ -127,7 +127,6 @@ The Campaign Management service defines the following value sets.
 |[ProfileType](profiletype.md)|Defines the possible types of profile criterions.|
 |[PromotionDiscountModifier](promotiondiscountmodifier.md)|Defines the possible types of promotion discount modifiers.|
 |[PromotionOccasion](promotionoccasion.md)|Defines the possible types of promotion occasions.|
-|[ReachOptimizationGoal](reachoptimizationgoal.md)|Defines the reach optimization goal value set.|
 |[SharedEntityAssociationAdditionalField](sharedentityassociationadditionalfield.md)|Defines the shared entity association additional field value set.|
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
 |[UetTagAdditionalField](uettagadditionalfield.md)|Defines a list of optional UET tag properties that you can request when calling GetUetTagsByIds.|

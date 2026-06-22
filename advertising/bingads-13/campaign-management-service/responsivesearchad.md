@@ -92,7 +92,6 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere
@@ -114,7 +113,6 @@ When you create responsive search ads the [Descriptions](#descriptions) and [Hea
         "CropWidth": IntValueHere,
         "CropX": IntValueHere,
         "CropY": IntValueHere,
-        "Excluded": "ValueHere",
         "SubType": "ValueHere",
         "TargetHeight": IntValueHere,
         "TargetWidth": IntValueHere

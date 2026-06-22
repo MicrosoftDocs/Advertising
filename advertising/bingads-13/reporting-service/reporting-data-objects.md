@@ -117,7 +117,7 @@ The Reporting service defines the following data objects.
 |[SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)|Defines the criteria to use to filter the search query performance report data.|
 |[SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)|Defines a search query performance report request.|
 |[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)|Defines the criteria to use to filter the search term landing page report data.|
-|[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)|Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md).|
+|[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)|Defines a search term landing page report request.|
 |[ShareOfVoiceReportFilter](shareofvoicereportfilter.md)|Defines the criteria to use to filter the share of voice report data.|
 |[ShareOfVoiceReportRequest](shareofvoicereportrequest.md)|Defines a share of voice (SOV) report request.|
 |[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|Defines the criteria to use to filter the travel query insight report data.|

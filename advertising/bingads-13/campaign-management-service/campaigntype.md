@@ -42,13 +42,6 @@ Defines the possible campaign types.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
-        <xs:enumeration value="Unified">
-          <xs:annotation>
-            <xs:appinfo>
-              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1024</EnumerationValue>
-            </xs:appinfo>
-          </xs:annotation>
-        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -57,7 +50,7 @@ Defines the possible campaign types.
 
 ## <a name="values"></a>Values
 
-The [CampaignType](campaigntype.md) value set has the following values: [App](#app), [Audience](#audience), [DynamicSearchAds](#dynamicsearchads), [Hotel](#hotel), [PerformanceMax](#performancemax), [Search](#search), [Shopping](#shopping), [Unified](#unified).
+The [CampaignType](campaigntype.md) value set has the following values: [App](#app), [Audience](#audience), [DynamicSearchAds](#dynamicsearchads), [Hotel](#hotel), [PerformanceMax](#performancemax), [Search](#search), [Shopping](#shopping).
 
 |Value|Description|
 |-----------|---------------|
@@ -68,7 +61,6 @@ The [CampaignType](campaigntype.md) value set has the following values: [App](#a
 |<a name="performancemax"></a>PerformanceMax|The campaign is a Performance max campaign.|
 |<a name="search"></a>Search|The campaign is a Search campaign.|
 |<a name="shopping"></a>Shopping|The campaign is a Microsoft Shopping campaign.<br/><br/>You should also check the campaign [SubType](campaign.md#subtype) to determine whether the shopping campaign is setup for [Shopping Campaigns for Brands](../guides/product-ads.md#setup-cooperative).|
-|<a name="unified"></a>Unified|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

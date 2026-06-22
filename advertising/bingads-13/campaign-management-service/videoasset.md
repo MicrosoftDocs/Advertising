@@ -42,7 +42,6 @@ Defines the VideoAsset Data Object.
     "CropWidth": IntValueHere,
     "CropX": IntValueHere,
     "CropY": IntValueHere,
-    "Excluded": "ValueHere",
     "SubType": "ValueHere",
     "TargetHeight": IntValueHere,
     "TargetWidth": IntValueHere
