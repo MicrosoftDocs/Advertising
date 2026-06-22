@@ -6,10 +6,14 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines an MMM performance report request.
+description: Defines a marketing mix modeling (MMM) performance report request.
 ---
 # MMMPerformanceReportRequest Data Object - Reporting
-Defines an MMM performance report request.
+Defines a marketing mix modeling (MMM) performance report request. Use this report to retrieve aggregated Microsoft Advertising performance data for marketing mix models (MMMs)—statistical models that measure how much each marketing channel contributes to overall sales or conversions. This data helps you or your MMM provider quantify the incremental impact of Microsoft Advertising alongside other marketing channels and make more informed budget allocation decisions.
+
+You can request spend, impressions, clicks, and qualified conversions for each ad group. The report includes columns for the time period, account, campaign, ad group, and geographic location (country, state, and metro area) where ads were served. Data is aggregated at the ad group level for each time period, providing the consistent historical data required for MMM analysis.
+
+To request a report of this type, pass this object to the [SubmitGenerateReport](submitgeneratereport.md) operation.
 
 ## Syntax
 
