@@ -1,7 +1,7 @@
 ---
 title: What Is Auto-recharge and How Does It Work?
 description: Make sure that your prepay account has funds so that your ads are eligible to run uninterrupted.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

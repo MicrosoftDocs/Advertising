@@ -1,7 +1,7 @@
 ---
 title: How Do I Create a UET Tag?
 description: Before you can track conversions or target audiences using a remarketing list, you need to create a UET tag and then add the UET tag tracking code to every page of your website.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Is My UET Tag Working?
 description: The UET tags page has all the information you need to see if your UET tag is working correctly. Learn what each column is and why it's important.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

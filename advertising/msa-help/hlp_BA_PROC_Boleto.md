@@ -1,7 +1,7 @@
 ---
 title: Paying with Boleto Bancário
 description: Step-by-step instructions on how to pay for Microsoft Advertising in Brazil using Boleto Bancário.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
 ms.topic: article

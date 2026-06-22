@@ -1,7 +1,7 @@
 ---
 title: How Do I Preview My Ad in Bing Search Results?
 description: The Ad preview and diagnostics tool lets you quickly confirm that your ad is showing correctly on Bing without impacting impressions or clicks. If your ad isn't on the first page of search results, we explain why and offer suggestions on getting it there.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

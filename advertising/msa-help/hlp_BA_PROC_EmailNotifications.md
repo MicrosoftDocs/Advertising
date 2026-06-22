@@ -1,7 +1,7 @@
 ---
 title: Setting Email Preferences
 description: You can opt in and out of certain account-related and marketing emails from Microsoft Advertising.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Filter Link Extensions: Add Clickable Product or Feature Categories"
 description: Add multiple categories of products or features with unique links to each of these offerings.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

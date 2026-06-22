@@ -1,7 +1,7 @@
 ---
 title: Copy and Paste Campaigns, Ad Groups, Ads, and Keywords
 description: Learn how to copy campaigns, ad groups, ads, and keywords.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

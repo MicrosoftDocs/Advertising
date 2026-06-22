@@ -1,7 +1,7 @@
 ---
 title: Add Images to Your Ad with Image Extensions
 description: Add visual elements to your ad with image extensions.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

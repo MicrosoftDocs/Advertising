@@ -1,7 +1,7 @@
 ---
 title: Business Data Feeds
 description: Learn how to upload, update, and manage your Business data feeds.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
 ms.topic: article

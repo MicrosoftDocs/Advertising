@@ -1,7 +1,7 @@
 ---
 title: Automatic Item Update
 description: Enable Automatic item update to reduce mismatches between your Microsoft Merchant Center offers and your site.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
 ms.topic: article

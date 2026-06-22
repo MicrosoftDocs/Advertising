@@ -1,7 +1,7 @@
 ---
 title: How to Use Regular Expressions When Building Destination URLs or Custom Event Type Goals
 description: Find out how to use regular expressions to build destination URLs or custom event conversion goals.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

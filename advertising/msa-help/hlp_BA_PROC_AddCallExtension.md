@@ -1,7 +1,7 @@
 ---
 title: "Call Extensions: Add a Phone Number"
 description: Add a phone number to your ad that is appropriate for all locations where your ads display.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

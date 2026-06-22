@@ -1,7 +1,7 @@
 ---
 title: Best Practices for Performance Max Campaigns
 description: Learn all about the best practices for Performance Max.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

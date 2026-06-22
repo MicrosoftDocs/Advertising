@@ -1,7 +1,7 @@
 ---
 title: Pay Your Account Balance
 description: Want to pay the charges on your postpay account? You don't have to wait until your next billing cycle.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Create a Microsoft Merchant Center Store
 description: If you want to list your feed on search placements across the Microsoft Advertising Network, you first need to create Microsoft Merchant Center store.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

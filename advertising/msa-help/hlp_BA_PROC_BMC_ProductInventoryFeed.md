@@ -1,7 +1,7 @@
 ---
 title: Submit Online Product Inventory Update Feeds
 description: Here is how you create a feed file using a spreadsheet program.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
 ms.topic: article

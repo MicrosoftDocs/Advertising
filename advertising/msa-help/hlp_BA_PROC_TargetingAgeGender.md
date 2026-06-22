@@ -1,7 +1,7 @@
 ---
 title: How to Target Customers
 description: You can target your ads using a variety of variables, and then you can increase your bid amount to improve the chance that your ads are displayed.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

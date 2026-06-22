@@ -1,7 +1,7 @@
 ---
 title: "Price Extensions: Add Prices of Your Products or Services"
 description: Add prices of your products or services on your ads for potential customers.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

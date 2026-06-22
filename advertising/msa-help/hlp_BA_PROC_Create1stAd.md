@@ -1,7 +1,7 @@
 ---
 title: How Do I Create a Search Campaign?
 description: Creating a Search campaign is a snap! Here are some quick steps to get an ad campaign up and running.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

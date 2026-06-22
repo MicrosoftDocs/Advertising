@@ -1,7 +1,7 @@
 ---
 title: How Do I Create a Conversion Goal?
 description: Learn how to create a conversion goals that allows you to track how many times a certain action, called conversion, happens after someone clicks on your ad.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

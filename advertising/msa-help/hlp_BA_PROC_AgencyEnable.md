@@ -1,7 +1,7 @@
 ---
 title: Managing Your Clients as an Agency on Microsoft Advertising
 description: If you're an ad agency and want to manage your client's Microsoft Advertising account, read about our recommended process, which makes it a seamless experience for you and your client.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article

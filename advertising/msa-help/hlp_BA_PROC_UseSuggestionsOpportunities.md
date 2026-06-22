@@ -1,7 +1,7 @@
 ---
 title: Use Inline Recommendations to Update Keyword and Bids
 description: Use the inline recommendation on the Campaigns tab to update your keywords and bids.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

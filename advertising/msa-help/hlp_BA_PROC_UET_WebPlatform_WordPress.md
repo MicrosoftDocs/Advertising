@@ -1,7 +1,7 @@
 ---
 title: Set up UET Tags Using WordPress.com
 description: If you built your website on WordPress.com, read this article to learn how to set up UET tags on it.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

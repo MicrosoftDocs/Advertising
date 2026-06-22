@@ -1,7 +1,7 @@
 ---
 title: How Do I Access Microsoft Advertising as an Invited User?
 description: Now that you've been invited by an administrator to join Microsoft Advertising, find out what you need to do to get signed in and started.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

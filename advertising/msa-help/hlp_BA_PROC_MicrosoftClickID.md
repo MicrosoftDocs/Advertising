@@ -1,7 +1,7 @@
 ---
 title: Auto-tagging of Microsoft Click ID
 description: When a customer clicks your ad, Microsoft Advertising automatically appends a unique click ID to the landing page URL with Auto-tagging of Microsoft Click ID.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

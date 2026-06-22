@@ -1,7 +1,7 @@
 ---
 title: Why Track Variable Revenue
 description: Find out the benefit of tracking revenue value with each conversion goal.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

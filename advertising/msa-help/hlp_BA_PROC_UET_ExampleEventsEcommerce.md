@@ -1,7 +1,7 @@
 ---
 title: Example Custom Events for E-commerce Customers
 description: The following examples show the UET tag modification recommended for various scenarios and page types.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

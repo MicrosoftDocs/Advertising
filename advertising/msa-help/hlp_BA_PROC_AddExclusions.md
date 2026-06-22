@@ -1,7 +1,7 @@
 ---
 title: How to Prevent your Ads from Showing to Certain People
 description: Learn how to use exclusions to prevent your ads from showing to certain people based on specific locations, websites, IP addresses, and more.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

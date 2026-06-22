@@ -1,7 +1,7 @@
 ---
 title: "Critical Alert: No Payment Method Has Been Added"
 description: If you are seeing the alert "No payment method has been added for Account ...." then you *might* still need to add a payment method.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

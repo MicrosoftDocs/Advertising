@@ -1,7 +1,7 @@
 ---
 title: How to Add Keywords That Won't Trigger My Ads (Negative Keywords)
 description: Negative keywords are specific words or phrases that help prevent your ad from showing to customers who are unlikely to click your ad. They help filter out irrelevant traffic and, in turn, help increase click-through rate (CTR), ad position, and cost per click (CPC).
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

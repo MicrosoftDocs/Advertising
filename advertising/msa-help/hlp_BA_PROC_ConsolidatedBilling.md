@@ -1,7 +1,7 @@
 ---
 title: Combine Similar Bills into a Single Invoice (Enhanced Consolidated Billing)
 description: Do you have multiple invoiced accounts? Did you know that you can combine all invoices that have the same currency into a single invoice. Read this article to find out how this works.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Understanding the Report Builder
 description: Use report information to help improve your campaign's relevance and the conversion rates for your ads. Here’s how you create a new report and schedule regular reports to be emailed to you.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

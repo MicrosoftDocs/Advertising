@@ -1,7 +1,7 @@
 ---
 title: Set up UET Tags Using Google Tag Manager, Tealium, and Other Tag Management Systems
 description: Third-party tag managers such as Google Tag Manager and Tealium allow you to manage your website tags in one place.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

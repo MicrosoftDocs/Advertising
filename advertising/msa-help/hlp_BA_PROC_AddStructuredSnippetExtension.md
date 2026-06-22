@@ -1,7 +1,7 @@
 ---
 title: "Structured Snippet Extensions: Add Snippets That Highlight Your Store's Products or Offers"
 description: Add extra snippets of text that highlights your store's products or offers.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

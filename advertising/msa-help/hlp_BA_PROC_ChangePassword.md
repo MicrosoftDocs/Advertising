@@ -1,7 +1,7 @@
 ---
 title: Change My Password or User Name
 description: Learn how to change your password if you are signing in with a Microsoft Advertising user name or an email address (a Microsoft account).
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

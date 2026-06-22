@@ -1,7 +1,7 @@
 ---
 title: Deleting a Payment Method
 description: You can delete a payment method at any time as long as it is not set as the primary payment method for an active account.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

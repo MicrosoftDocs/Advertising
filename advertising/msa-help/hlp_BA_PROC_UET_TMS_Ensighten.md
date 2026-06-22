@@ -1,7 +1,7 @@
 ---
 title: Set up UET Tags Using Ensighten
 description: Third-party tag managers allow you to manage your website tags in one place. Learn how to set up UET tags using Ensighten.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

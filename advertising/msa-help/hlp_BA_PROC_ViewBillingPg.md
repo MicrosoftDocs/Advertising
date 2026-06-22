@@ -1,7 +1,7 @@
 ---
 title: Download and Print a Billing Statement or Invoice
 description: How to download and print your billing statements, invoices, or other billing documents.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

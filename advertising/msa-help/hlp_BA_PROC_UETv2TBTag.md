@@ -1,7 +1,7 @@
 ---
 title: Is my UET tag working?
 description: You can troubleshoot the UET tag by using the tracking status in Microsoft Advertising or the UET Tag Helper browser extension.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

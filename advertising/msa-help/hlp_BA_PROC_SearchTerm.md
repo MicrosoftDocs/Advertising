@@ -1,7 +1,7 @@
 ---
 title: Add the Words People Are Searching for as Keywords or Negative Keywords
 description: Want to know your customer's search terms? Learn how to add search terms to your keyword list.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

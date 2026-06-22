@@ -1,7 +1,7 @@
 ---
 title: How Do I Create Native Ads?
 description: Learn how to create a campaign that will run ads natively on the Microsoft Advertising Network.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

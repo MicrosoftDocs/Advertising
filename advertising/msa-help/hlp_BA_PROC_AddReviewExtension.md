@@ -1,7 +1,7 @@
 ---
 title: "Review Extensions: Share Positive Reviews"
 description: Add reputable third-party reviews to your ad with a review extension.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Send Your Customers to a Specific Landing Page
 description: You can use URL variables to send people to the landing pages that are most relevant to the customer's search queries or other input.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Making Bulk Changes to Your Properties
 description: Learn how to make bulk changes in Property Center.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

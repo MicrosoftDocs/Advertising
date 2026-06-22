@@ -1,7 +1,7 @@
 ---
 title: Paying by Bank Transfer
 description: Step-by-step instructions on how to pay by bank transfer.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

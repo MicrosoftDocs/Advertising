@@ -1,7 +1,7 @@
 ---
 title: Managing Your Addresses
 description: Your company's legally registered business address is critical information that you will need to keep on file and up to date. You will also need to provide your mailing address if it is different from your business address.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: How Do I Add a UET Tag to My Website?
 description: Once you've created a UET tag, you'll need to add it to your website. Learn how to do this in JavaScript, using a tag manager, or for single-page application (SPA) websites.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

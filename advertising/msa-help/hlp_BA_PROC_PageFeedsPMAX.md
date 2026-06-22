@@ -1,7 +1,7 @@
 ---
 title: About Performance Max Page Feeds
 description: Learn all about page feeds for Performance Max.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

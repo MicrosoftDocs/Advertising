@@ -1,7 +1,7 @@
 ---
 title: How Do I Manage My Conversion Goals?
 description: The data grid on the conversion goals page allows you to view the goals you created and edit the name and description inline.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
 ms.topic: article

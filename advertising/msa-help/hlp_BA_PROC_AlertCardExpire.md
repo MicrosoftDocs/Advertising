@@ -1,7 +1,7 @@
 ---
 title: Update Your Credit Card Expiration Date
 description: If your card expires, the card issuer (bank or other financial institution) might decline payment for your account charges.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

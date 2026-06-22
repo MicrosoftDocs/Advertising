@@ -1,7 +1,7 @@
 ---
 title: If an Account Is Deactivated or Deleted
 description: If an account is deactivated or deleted, it could be because an owner or manager closed it, or it was deactivated under Microsoft Advertising policy for being inactive too long. Here's what that means and what you can do.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

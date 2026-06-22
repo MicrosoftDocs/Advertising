@@ -1,7 +1,7 @@
 ---
 title: How to Create or Edit Expanded Text Ads
 description: Expanded text ads are displayed on the Microsoft Search Network on computers, tablets, and smartphones. To help make editing text ads easier, you can make changes to multiple text ads at the same time.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

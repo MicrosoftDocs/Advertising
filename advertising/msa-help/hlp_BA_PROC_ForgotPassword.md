@@ -1,7 +1,7 @@
 ---
 title: I Forgot My User Name or Password
 description: Forgot your user name or password? It happens. Here are the steps to get you up and running again.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

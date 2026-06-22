@@ -1,7 +1,7 @@
 ---
 title: "Logo Extensions: Add a Logo to Your Ad"
 description: Learn more about adding Logo extensions to your ads.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Paying by Credit and Debit Card
 description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto Bancário, SEPA direct debit, and virtual bank account.
-ms.date: 05-30-2026
+ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
