@@ -16,7 +16,7 @@ Callout extensions provide an extra snippet of text that highlights your website
 > [!IMPORTANT]
 > Callout text may not duplicate what is already stated in the ad. Our full list of callout extension policies can be found [here](hlp_BA_CONC_Policy_AdExtensionPolicies.md).
 
-:::image type="content" source="media/BA_CONC_Extension_Callout.svg" alt-text="callout extensions.":::
+:::image type="content" source="media/BA_CONC_Extension_Callout.png" alt-text="callout extensions.":::
 
 Each campaign and ad group can have 20 callout extensions associated with it and a minimum of two callouts must be associated with the campaign or ad group for the callout to serve. Keep in mind that your ads won’t always show callouts. If they do, the format may vary. Callout extensions are free to add to your ad.
 

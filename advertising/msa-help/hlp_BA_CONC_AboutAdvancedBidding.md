@@ -14,7 +14,7 @@ description: Use bid adjustments to increase your bid for the demographics (e.g.
 > [!NOTE]
 > If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
 
-:::image type="content" source="media/BA_Conc_Target.svg" alt-text="Target.":::
+:::image type="content" source="media/BA_Conc_Target.png" alt-text="Target.":::
 
 Bid adjustments increase or decrease your bid for specifically targeted customers. They provide the capability to fine-tune your bids on the fly, offering control over how much you bid in different scenarios. By using bid adjustments, you can strategically increase or decrease your bids in response to factors that you believe will impact the likelihood of conversion.Please note that if you're using [automated bid strategies](hlp_BA_CONC_BidStrategy.md), we'll utilize bid adjustments as signals to optimize performance.
 

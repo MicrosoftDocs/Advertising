@@ -11,7 +11,7 @@ ms.author: jonmeyers
 
 # Paying by credit and debit card
 
-:::image type="content" source="media/BA_Conc_CreditCard.svg" alt-text="Credit Card.":::
+:::image type="content" source="media/BA_Conc_CreditCard.png" alt-text="Credit Card.":::
 
 A credit card is the most widely accepted form of payment in Microsoft Advertising. We also accept debit cards and prepaid cards with some restrictions. For the complete list of payment methods available in your country/region, please see [Choosing a payment method for Microsoft Advertising](hlp_BA_CONC_PaymentMethodsV2.md)
 

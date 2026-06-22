@@ -11,7 +11,7 @@ ms.author: jonmeyers
 
 # Import campaigns directly from Google Ads
 
-:::image type="content" source="media/BA_Conc_Import.svg" alt-text="Directional arrow from left to right.":::
+:::image type="content" source="media/BA_Conc_Import.png" alt-text="Directional arrow from left to right.":::
 
 If you already are using Google Ads to advertise on Google, you can import these campaigns into Microsoft Advertising so that you can run the same ads on Bing. This is an easy way to expand your online advertising reach.
 

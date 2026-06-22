@@ -11,7 +11,7 @@ description: Everything you need to know about using promotional offers on Micro
 
 # Microsoft Advertising promotional offers (coupons)
 
-:::image type="content" source="media/BA_Conc_Coupon.svg" alt-text="Coupon.":::
+:::image type="content" source="media/BA_Conc_Coupon.png" alt-text="Coupon.":::
 
 Microsoft Advertising occasionally runs promotional offers, sometimes called *coupons*. Typically geared for new customers, promotional offers require you to spend money on your advertising campaigns first, and then we give you a credit toward advertising at no additional cost to you. Although you can't request a promotional offer, you can find them through Microsoft Advertising promotional events, online marketing drives, or other special offers.
 

@@ -19,7 +19,7 @@ App extensions are additional elements of your ad that promote your app across P
 
 With app extensions, a customer's device and operating system is automatically detected and will take the user directly to the correct app store.
 
-:::image type="content" source="media/BA_Conc_Extension_App.svg" alt-text="App extension.":::
+:::image type="content" source="media/BA_Conc_Extension_App.png" alt-text="App extension.":::
 
 - **Ability to set up in**: Australia, Brazil, Canada, France, Germany, India, the United Kingdom, and the United States
 

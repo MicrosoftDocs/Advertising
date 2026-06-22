@@ -13,7 +13,7 @@ author: jonmeyers
 
 Potential customers like to know about other customers' experiences when searching for products or services. Share positive reviews from a reputable third-party source about your website in your ads with a review extension. You can paraphrase or use an exact quote from the source. See [below](#supported-review-partners) for our list of supported review partners.
 
-:::image type="content" source="media/BA_Conc_Extension_Review.svg" alt-text="Review extensions.":::
+:::image type="content" source="media/BA_Conc_Extension_Review.png" alt-text="Review extensions.":::
 
 Each campaign and ad group can have up to 20 review extensions associated with it. As with other extensions, the review extension won't always show with your ads. You can add a review extension for free and when customers click on it, they'll be directed to a third-party review source.
 

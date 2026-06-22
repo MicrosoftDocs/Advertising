@@ -15,7 +15,7 @@ Structured snippet extensions give potential customers more context on a specifi
 
 This extension, similar to other extensions, will appear beneath your ad’s description. Structured snippets have no impact on the other extensions you’re already using.
 
-:::image type="content" source="media/BA_CONC_Extension_Snippet.svg" alt-text="Structured snippet extensions.":::
+:::image type="content" source="media/BA_CONC_Extension_Snippet.png" alt-text="Structured snippet extensions.":::
 
 > [!IMPORTANT]
 > Structured snippets may not duplicate what is already stated in the ad. Our full list of structured snippet extension policies can be found [here](hlp_BA_CONC_Policy_AdExtensionPolicies.md).

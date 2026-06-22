@@ -14,7 +14,7 @@ ms.author: jonmeyers
 > [!NOTE]
 > While Meta Ads import is available globally, we'll only import Audience campaigns where they're available. [Learn more](hlp_BA_PROC_CreateAudienceCampaign.md)
 
-:::image type="content" source="media/BA_Conc_Import.svg" alt-text="Directional arrow from left to right.":::
+:::image type="content" source="media/BA_Conc_Import.png" alt-text="Directional arrow from left to right.":::
 
 If you're already using Meta Ads to advertise on Facebook, you can import your campaigns into Microsoft Advertising so that you can run the same ads on the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md). This is an easy way to expand your online advertising reach.
 
