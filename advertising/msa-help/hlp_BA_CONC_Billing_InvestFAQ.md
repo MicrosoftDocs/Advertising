@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: 
+description: If you were previously a Xandr customer who has recently signed a new agreement with Microsoft Advertising, please note the following.
 ---
 
 # Microsoft Advertising Contract Cut-over FAQ

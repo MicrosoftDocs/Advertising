@@ -35,7 +35,7 @@ Clicks on each link within the filter link extension will be charged the same co
 
 Here are some things to consider before you build your filter link extension:
 
-- **Header**: The category that describes the filters for your products and services that you would like to highlight. You can choose from 36 predefined header options. Here you can [download](https://go.microsoft.com/fwlink/?linkid=2153937) a list of the headers.
+- **Header**: The category that describes the filters for your products and services that you would like to highlight. You can choose from 36 predefined header options.
 - **Value**: Between three and 10 specific products or services that relate to the chosen header. Each value has a maximum character limit of 25. A minimum of three values must be entered, with a maximum of 10 supported. For each value you need to set the Final URL or landing page where customers will be taken after clicking your header.
 
 > [!NOTE]

@@ -5,7 +5,8 @@ ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
-ms.author: shsrinivasan
+author: jonmeyers
+ms.author: jonmeyers
 ---
 
 # Add images to your ad with image extensions

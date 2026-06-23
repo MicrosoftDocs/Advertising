@@ -47,7 +47,7 @@ You can sign in using one of these options:
    :::image type="content" source="media/BA_ScreenCap_Sign_In.png" alt-text="Login panel with box to enter email address or user name.":::
 1. You'll be prompted to enter your password in a new page.
 
-   :::image type="content" source="media/BA_ScreenCap_Sign_In_Email.PNG" alt-text="Login panel with box to enter email address or user name.":::
+   :::image type="content" source="media/BA_ScreenCap_Sign_In_Email.PNG" alt-text="Login panel with box to enter password.":::
 
 > [!NOTE]
 > - Because your email address can be used to sign in to other Microsoft products, we don't recommend sharing your email address with others. For more information on how multiple users can share access, see [How do I give someone access to my Microsoft Advertising account?](Hlp_BA_CONC_SSUserRoles.md)

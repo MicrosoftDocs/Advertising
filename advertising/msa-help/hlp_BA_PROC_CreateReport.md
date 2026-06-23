@@ -37,11 +37,11 @@ Microsoft Advertising’s Report Builder gives you full control to create custom
      - Specify the date range for your report using the date range selector, located in the top-right corner of the Report Builder.
   1. Once you’re finished building your report, select **Save**.
 
-  :::image type="content" source="media/BA_CONC_ReportBuilderCreate.png" alt-text="Compare Modes.":::
+  :::image type="content" source="media/BA_CONC_ReportBuilderCreate.png" alt-text="Compare Modes create.":::
 
-  :::image type="content" source="media/BA_CONC_ReportBuilderAddBreakdowns.png" alt-text="Compare Modes.":::
+  :::image type="content" source="media/BA_CONC_ReportBuilderAddBreakdowns.png" alt-text="Compare Modes add breakdowns.":::
 
-  :::image type="content" source="media/BA_CONC_ReportBuilderModify.png" alt-text="Compare Modes.":::
+  :::image type="content" source="media/BA_CONC_ReportBuilderModify.png" alt-text="Compare Modes builder modify.":::
 
 > [!NOTE]
 > - Reports will not include campaigns, ad groups, keywords, or other entities with zero impressions.
@@ -62,7 +62,7 @@ Recommended templates are based on what is currently popular with advertisers, l
 
   Optionally, you can use the search bar to find specific templates by entering relevant keywords.
 
-  :::image type="content" source="media/BA_CONC_ReportBuilderHome.png" alt-text="Compare Modes.":::
+  :::image type="content" source="media/BA_CONC_ReportBuilderHome.png" alt-text="Compare Modes report builder.":::
 
 - **Choose the report you want**
 
@@ -357,7 +357,7 @@ Recommended templates are based on what is currently popular with advertisers, l
   1. In the left panel, you can rearrange the column order of **Breakdown** or **Metrics** by selecting to place in your desired order.
   1. Once you’re finished with the modifications, select **Save** from the upper right corner of the report.
 
-  :::image type="content" source="media/BA_ReportBuilder_ModifyTemplate.png" alt-text="Compare Modes.":::
+  :::image type="content" source="media/BA_ReportBuilder_ModifyTemplate.png" alt-text="Compare Modes modify template.":::
 
 - **Visualize your report with graphs**
 
@@ -430,7 +430,7 @@ Recommended templates are based on what is currently popular with advertisers, l
   > - To access your saved reports, from **Home**, under **My reports**, select **Saved customized reports**.
   > - You can rename your report to help you more easily find and reuse your custom report. From the **Report name** column, hover over the report you want to rename, then select the pencil icon.
 
-  :::image type="content" source="media/BA_CONC_ReportBuilderSchedule.png" alt-text="Compare Modes.":::
+  :::image type="content" source="media/BA_CONC_ReportBuilderSchedule.png" alt-text="Compare Modes report builder schedule.":::
 
 - **Schedule or email your report**
 

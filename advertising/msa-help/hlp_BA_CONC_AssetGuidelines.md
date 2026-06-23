@@ -9,8 +9,6 @@ ms.date: 6/18/2026
 description: Learn more about asset guidelines and accepted file types.
 ---
 
-<a id="Top"></a>
-
 # Asset guidelines and accepted file types
 
 ## Image guidelines and requirements

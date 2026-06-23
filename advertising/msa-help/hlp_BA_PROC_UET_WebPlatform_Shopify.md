@@ -28,7 +28,7 @@ If you created and manage your website with Shopify, you can add and manage your
 
    1. Type "customer events" into the search box and select **Customer events**. <br><br> <br> <br> <br>
 
-      :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Search.png" alt-text="Customer events.":::
+      :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Search.png" alt-text="Search.":::
 
       :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Customer_Events.png" alt-text="Customer events.":::
    1. Select the **Add custom pixel** button. <br><br> <br>
@@ -36,7 +36,7 @@ If you created and manage your website with Shopify, you can add and manage your
       :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Add_Custom_Pixel.png" alt-text="Custom pixel.":::
    1. Configure the privacy settings. <br><br> <br>
 
-      :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Privacy_Settings.png" alt-text="COnfigure privacy settings.":::
+      :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Privacy_Settings.png" alt-text="Configure privacy settings.":::
    1. Add the following code to the **Code** section: <br><br> <br> 
       ```
       `// Step 1. Initialize the JavaScript pixel SDK (make sure to exclude HTML)
@@ -123,7 +123,7 @@ If you created and manage your website with Shopify, you can add and manage your
 
       :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Test_Button.png" alt-text="Test button.":::
 
-      :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Pixel_Helper.png" alt-text="Test button.":::
+      :::image type="content" source="media/BA_PROC_UET_WebPlatform_Shopify_Pixel_Helper.png" alt-text="Pixel helper.":::
 
       > [!IMPORTANT]
       > If you use the UET tag helper for validation, please expect the warning "A UET event was fired from within an iframe." We use the Shopify web pixel API which utilizes an iframe solution. This is expected behavior. All events are collected correctly.

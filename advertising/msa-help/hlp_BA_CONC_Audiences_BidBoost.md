@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: Optimize your ad group or campaign by setting a different bid amount, customizing ads, and broadening keywords.
+description: Once you create an audience and associate it with an ad group or campaign, you can then increase/decrease the bid amount, or bid boost, for it.
 ---
 
 # Set up bid boost

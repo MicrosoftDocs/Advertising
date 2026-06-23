@@ -1,6 +1,6 @@
 ---
 title: How Do I Create an Audience Campaign?
-description: Learn how to create a campaign that will run ads natively on the Microsoft Advertising Network.
+description: With Audience campaigns, you have the option to create a campaign that serves one ad type or multiple ad types.
 ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general

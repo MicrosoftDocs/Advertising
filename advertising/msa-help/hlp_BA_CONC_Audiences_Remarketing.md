@@ -51,12 +51,10 @@ Before you start setting up remarketing, make sure you have:
   1. The choices are:
 
       - **Visitor of a page**
-        
 
        > [!NOTE]
        > - When you choose **Match every rule group**, keep in mind that a rule group takes effect when ANY of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. A URL that contains X AND Y or a URL that contains X OR Y satisfies the requirement.
        > - When you choose **Match any rule group**, keep in mind that a rule group takes effect only when ALL of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. Only a URL that contains X AND Y satisfies the requirement.
-
 
            - Defined as two rule groups: <br> 
                - Group1: A rule group that has 2 rules (Rule1, Rule2) 
@@ -83,7 +81,7 @@ Before you start setting up remarketing, make sure you have:
              - Visited Page1: An expression that has 2 rules (Rule1, Rule2) 
              - Visited Page2: An expression that has 2 rules (Rule3, Rule4)
 
-           - Where:
+         - Where:
                - Rule1 = URL contains X
                - Rule2 = URL does not start with Y
                - Rule3 = Referral URL equals Z
@@ -103,7 +101,7 @@ Before you start setting up remarketing, make sure you have:
              - Visited Page1: An expression that has 2 rules (Rule1, Rule2)
              -  Didn't visit Page2: An expression that has 2 rules (Rule3, Rule4)
 
-           - Where:
+         - Where:
                - Rule1 = URL contains X
                - Rule2 = URL does not start with Y
                - Rule3 = Referral URL equals Z

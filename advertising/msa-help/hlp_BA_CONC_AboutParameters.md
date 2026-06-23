@@ -85,7 +85,7 @@ If *any* default value appears in your ads in this way, then default values for 
 
 Let's say you create an ad that includes dynamic text in the ad title and ad text:
 
-<u><font color="0000FF" size="2">All the Best {keyword:Coffee}</font></u> <br>We have the very best luxury coffee selection! Buy {keyword:coffee} starting at {param1:$7} per pound. <br><font color="008000" face="arial">www.fourthcoffee.com</font>
+<u><span style="color:#0000FF; font-size:1.5em">All the Best {keyword:Coffee}</span></u> <br />We have the very best luxury coffee selection! Buy {keyword:coffee} starting at {param1:$7} per pound. <br /><span style="color:#008000; font-family:arial">www.fourthcoffee.com</span>
 
 On the **Keywords** tab, you enter the following variables for these keywords:
 
@@ -96,13 +96,13 @@ On the **Keywords** tab, you enter the following variables for these keywords:
 
 If someone searches for "sumatra" and your keyword bid is high enough, your ads are displayed like this:
 
-<u><font color="0000FF" size="2">All the Best Sumatra</font></u> <br> We have the very best luxury coffee selection! Buy Sumatra starting at $9 per pound. <br><font color="008000" face="arial">www.fourthcoffee.com</font>
+<u><span style="color:0000FF; font-size:1.5em">All the Best Sumatra</span></u> <br/> We have the very best luxury coffee selection! Buy Sumatra starting at $9 per pound. <br/><span style="color:#008000; font-family:arial">www.fourthcoffee.com</span>
 
 Please make sure that the ad title exceeds 30 characters after "Decaffeinated Arabica" is translated.
 
 However, for a search on "decaffeinated arabica," your ad title part would exceed 30 characters, and your ad text would exceed 90 characters. But if you have set up default text, it would display as:
 
-<u><font color="0000FF" size="2">All the Best Coffee</font></u> <br>We have the very best luxury coffee selection! Buy coffee starting at $7 per pound. <br><font color="008000" face="arial">www.fourthcoffee.com</font>
+<u><span style="color:0000FF; font-size:1.5em">All the Best Coffee</span></u> <br/>We have the very best luxury coffee selection! Buy coffee starting at $7 per pound. <br/><span style="color:#008000; font-family:arial">www.fourthcoffee.com</span>
 
 Note that the {param1} default value was used also. Remember, if default text is used anywhere in the ad (here it was used for {keyword}), it will be used for all parameters in the ad. Thus it was used for {param1} also.
 

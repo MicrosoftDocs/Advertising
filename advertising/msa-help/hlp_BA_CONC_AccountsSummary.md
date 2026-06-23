@@ -38,9 +38,9 @@ There are shortcuts just above the **Performance**, **Management**, and **Import
 
 Like other tables in Microsoft Advertising, you can filter your results and select the columns you want to view. Here are the default columns for the **Performance**, **Management**, **Notifications**, **Requests**, and **Import** tabs:
 
-| Performance tab | Management tab | Requests tab (Sent) | Requests tab (Received) | Import tab | |
+| Performance tab | Management tab | Notifications tab | Requests tab (Sent) | Requests tab (Received) | Import tab |
 | --- | --- | --- | --- | --- | --- |
-| **Errors** | Errors | Account Name | Account | Account | Account name |  
+| **Errors** | Errors | Account Name | Account | Account | Account name |
 | **Account name** | Account name | Severity | Account owner | Account owner | Errors |
 | **Currency** | Actions | Category | Request type | Request type | Last import start time |
 | **Owner** | Owner | Type | Who Pays | Requested by | Import name |
@@ -55,6 +55,7 @@ Like other tables in Microsoft Advertising, you can filter your results and sele
 |  | Primary contact |  |  |  |  |
 
 > [!NOTE]
+>
 > - The **Accounts summary** page is your landing page after you sign in to Microsoft Advertising. Want to change this? At the bottom of the page, select **When I sign in, take me to the Campaigns page**.
 > - Some table cells will have dashes when there isn't enough data to show any result.
 > - If your accounts are in different currencies, you won't see overall totals for performance metrics and budget data that provide financial information (for example, average CPC, spend, IO budget).

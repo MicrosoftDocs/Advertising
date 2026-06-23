@@ -230,9 +230,9 @@ Here are the different types of automated extensions available from Microsoft Ad
 
   When you enable a location extension, you can choose to show the address of your business location that is closest to the customer and also include a local phone number. Better yet, if the customer is viewing your ad on a smartphone, they can click that number to give you a call.
 
-  :::image type="content" source="media/BA_CONC_Extension_Location_PC.png" alt-text="Location extensions.":::
+  :::image type="content" source="media/BA_CONC_Extension_Location_PC.png" alt-text="Location extensions PC.":::
 
-  :::image type="content" source="media/BA_CONC_Extension_Location_Mobile.png" alt-text="Location extensions.":::
+  :::image type="content" source="media/BA_CONC_Extension_Location_Mobile.png" alt-text="Location extensions mobile.":::
 
 - **Dynamic multimedia extensions**
 

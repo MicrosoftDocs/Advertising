@@ -26,7 +26,7 @@ Here's some information about what you'll see in each step.
 > [!NOTE]
 > You can create additional ad groups in **Campaigns** > **Ad groups** after saving your campaign. See [Create additional ad groups](#create-additional-ad-groups) for more information.
 
-## FAQ
+## FAQ 1
 
 - **1. Campaign settings**
 
@@ -177,7 +177,7 @@ You can either create a Standard ad group for Multimedia ads and Responsive Sear
 1. Select **Create**.
 1. The ad group creation wizard will then walk you through the process:
 
-## FAQ
+## FAQ 2
 
 - **Create a Standard ad group**
 

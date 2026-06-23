@@ -13,9 +13,9 @@ description: Learn about resources for the Conversions API (CAPI).
 
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
-
+>
 > [!IMPORTANT]
-> For more information, see the [CAPI guide.](https://learn.microsoft.com/advertising/guides/uet-conversion-api-integration).
+> For more information, see the [CAPI guide.](../bingads-13/guides/uet-conversion-api-integration).
 
 The Microsoft Advertising Conversions API (CAPI) enables advertisers to send conversion and engagement events directly from their servers using Universal Event Tracking (UET). By moving conversion tracking server-side, CAPI helps ensure more reliable measurement when browser restrictions, privacy controls, or ad blockers limit client-side tracking. It supports key business actions such as purchases, subscriptions, and custom goals, improving attribution accuracy and campaign optimization across web and app environments.
 

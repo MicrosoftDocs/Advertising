@@ -13,9 +13,9 @@ ms.author: jonmeyers
 
 When you enable a location extension, you can choose to show the address of your business location that is closest to the customer and also include a local phone number. Better yet, if the customer is viewing your ad on a smartphone, they can click that number to give you a call.
 
-:::image type="content" source="media/BA_CONC_Extension_Location_PC.png" alt-text="Location extensions.":::
+:::image type="content" source="media/BA_CONC_Extension_Location_PC.png" alt-text="Location extensions PC":::
 
-:::image type="content" source="media/BA_CONC_Extension_Location_Mobile.png" alt-text="Location extensions.":::
+:::image type="content" source="media/BA_CONC_Extension_Location_Mobile.png" alt-text="Location extensions mobile":::
 
 A particularly powerful feature of location extensions is that the address shown to the customer is typically the business location that is closest to them. If you have multiple business locations set up for your campaign, Microsoft Advertising will display the address and phone number for the location that is closest to the customer. The radius for the location display is about 50 miles. If you don't have a business location entered that is within 50 miles of the customer, no location will be shown in your ad.
 
