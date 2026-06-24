@@ -3,8 +3,7 @@
 To process your payment, include your **8-digit Microsoft Advertising account number** and the word "Prepay" (if funding a prepay account) in your bank transfer's payment details. If we do not receive your account number, **your payment will be returned**.
 
 **Bank transfer information:**
-
-| | |
+| Field | Value |
 | --- | --- |
 | Bank name | HSBC México |
 | Bank address | Av. Paseo de la Reforma 347, Col. Cuauhtemoc, Z.C 06500, México City |

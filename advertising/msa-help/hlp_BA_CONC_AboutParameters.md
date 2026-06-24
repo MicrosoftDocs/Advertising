@@ -85,7 +85,7 @@ If *any* default value appears in your ads in this way, then default values for 
 
 Let's say you create an ad that includes dynamic text in the ad title and ad text:
 
-<u><span style="color:#0000FF; font-size:1.5em">All the Best {keyword:Coffee}</span></u> <br />We have the very best luxury coffee selection! Buy {keyword:coffee} starting at {param1:$7} per pound. <br /><span style="color:#008000; font-family:arial">www.fourthcoffee.com</span>
+:::image type="content" source="media/BA_CONC_ABoutParameters_1.png" alt-text="Stylized ad 1":::
 
 On the **Keywords** tab, you enter the following variables for these keywords:
 
@@ -96,13 +96,13 @@ On the **Keywords** tab, you enter the following variables for these keywords:
 
 If someone searches for "sumatra" and your keyword bid is high enough, your ads are displayed like this:
 
-<u><span style="color:0000FF; font-size:1.5em">All the Best Sumatra</span></u> <br/> We have the very best luxury coffee selection! Buy Sumatra starting at $9 per pound. <br/><span style="color:#008000; font-family:arial">www.fourthcoffee.com</span>
+:::image type="content" source="media/BA_CONC_ABoutParameters_2.png" alt-text="Stylized ad 2":::
 
 Please make sure that the ad title exceeds 30 characters after "Decaffeinated Arabica" is translated.
 
 However, for a search on "decaffeinated arabica," your ad title part would exceed 30 characters, and your ad text would exceed 90 characters. But if you have set up default text, it would display as:
 
-<u><span style="color:0000FF; font-size:1.5em">All the Best Coffee</span></u> <br/>We have the very best luxury coffee selection! Buy coffee starting at $7 per pound. <br/><span style="color:#008000; font-family:arial">www.fourthcoffee.com</span>
+:::image type="content" source="media/BA_CONC_AboutParameters_3.png" alt-text="Stylized ad 3":::
 
 Note that the {param1} default value was used also. Remember, if default text is used anywhere in the ad (here it was used for {keyword}), it will be used for all parameters in the ad. Thus it was used for {param1} also.
 

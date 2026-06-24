@@ -5,8 +5,7 @@ To process your payment, include your **8-digit Microsoft Advertising account nu
 > **Reminder:** ARS isn't accepted by Microsoft Online, Inc. Please make a bank transfer in USD for the ARS monthly invoice.
 
 **Bank transfer information:**
-
-| | |
+| Field | Value |
 | --- | --- |
 | Bank name | Bank of America |
 | Bank address | 901 Main St., 7th Floor, Dallas, Texas 75202, USA |

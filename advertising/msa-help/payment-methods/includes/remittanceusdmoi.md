@@ -3,8 +3,7 @@
 To process your payment, include your **8-digit Microsoft Advertising account number** and your Microsoft Advertising manager account name in your bank transfer's payment details. If we do not receive your account number, **your payment will be returned**.
 
 **Bank transfer information:**
-
-| | |
+| Field | Value |
 | --- | --- |
 | Bank name | Bank of America |
 | Bank address | 901 Main St., 7th Floor, Dallas, TX 75202 |

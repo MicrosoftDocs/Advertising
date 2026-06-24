@@ -56,89 +56,89 @@ Before you start setting up remarketing, make sure you have:
        > - When you choose **Match every rule group**, keep in mind that a rule group takes effect when ANY of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. A URL that contains X AND Y or a URL that contains X OR Y satisfies the requirement.
        > - When you choose **Match any rule group**, keep in mind that a rule group takes effect only when ALL of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. Only a URL that contains X AND Y satisfies the requirement.
 
-           - Defined as two rule groups: <br> 
-               - Group1: A rule group that has 2 rules (Rule1, Rule2) 
-               - Group2: A rule group that has 2 rules (Rule3, Rule4)
+      - Defined as two rule groups: <br> 
+          - Group1: A rule group that has 2 rules (Rule1, Rule2) 
+          - Group2: A rule group that has 2 rules (Rule3, Rule4)
 
-           - Where: 
-               - Rule1 = URL contains X 
-               - Rule2 = URL does not start with Y
-               - Rule3 = Referral URL equals Z 
-               - Rule4 = URL starts with A
+      - Where: 
+          - Rule1 = URL contains X 
+          - Rule2 = URL does not start with Y
+          - Rule3 = Referral URL equals Z 
+          - Rule4 = URL starts with A
 
-           - When you choose **Match every rule group**: 
-               - Equals people who have visited any webpage where ((URL Contains X) OR (URL does not start with Y)) AND ((Referral URL equals Z) OR (URL starts with A))
+      - When you choose **Match every rule group**: 
+          - Equals people who have visited any webpage where ((URL Contains X) OR (URL does not start with Y)) AND ((Referral URL equals Z) OR (URL starts with A))
 
-           - When you choose **Match any rule group**: 
-               - Equals people who have visited any webpage where ((URL Contains X) AND (URL does not start with Y)) OR ((Referral URL equals Z) AND (URL stars with A))
+      - When you choose **Match any rule group**: 
+          - Equals people who have visited any webpage where ((URL Contains X) AND (URL does not start with Y)) OR ((Referral URL equals Z) AND (URL stars with A))
 
-     - **Visitor of a page who also visited another page**
+      - **Visitor of a page who also visited another page**
 
-       > [!NOTE]
-       > Keep in mind that a rule group takes effect only when ALL of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. Only a URL that contains X AND Y satisfies the requirement.
+      > [!NOTE]
+      > Keep in mind that a rule group takes effect only when ALL of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. Only a URL that contains X AND Y satisfies the requirement.
 
-         - Defined as two expressions:
-             - Visited Page1: An expression that has 2 rules (Rule1, Rule2) 
-             - Visited Page2: An expression that has 2 rules (Rule3, Rule4)
+      - Defined as two expressions:
+          - Visited Page1: An expression that has 2 rules (Rule1, Rule2) 
+          - Visited Page2: An expression that has 2 rules (Rule3, Rule4)
 
-         - Where:
-               - Rule1 = URL contains X
-               - Rule2 = URL does not start with Y
-               - Rule3 = Referral URL equals Z
-               - Rule4 = URL starts with A
+      - Where:
+            - Rule1 = URL contains X
+            - Rule2 = URL does not start with Y
+            - Rule3 = Referral URL equals Z
+            - Rule4 = URL starts with A
 
-           - Equals people who have visited one or more pages that satisfy ((URL Contains X) OR (URL does not start with Y)) AND ((Referral URL equals Z) OR (URL starts with A))
+      - Equals people who have visited one or more pages that satisfy ((URL Contains X) OR (URL does not start with Y)) AND ((Referral URL equals Z) OR (URL starts with A))
 
-       > [!NOTE]
-       > If a user visits just one page that satisfies rules across the 2 expressions (say Rule1 and Rule 4), the user will still be added to the list. In other words, even if user visits just 1 page, they will be part of the list.
+      > [!NOTE]
+      > If a user visits just one page that satisfies rules across the 2 expressions (say Rule1 and Rule 4), the user will still be added to the list. In other words, even if user visits just 1 page, they will be part of the list.
 
-     - **Visitor of a page who did not visit another page**
+      - **Visitor of a page who did not visit another page**
 
-       > [!NOTE]
-       > Keep in mind that a rule group takes effect only when ALL of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. Only a URL that contains X AND Y satisfies the requirement.
+      > [!NOTE]
+      > Keep in mind that a rule group takes effect only when ALL of its rules have been met. For example, say you have a rule group that contains two rules: URL contains X and URL contains Y. Only a URL that contains X AND Y satisfies the requirement.
 
-         - Defined as two expressions:
-             - Visited Page1: An expression that has 2 rules (Rule1, Rule2)
-             -  Didn't visit Page2: An expression that has 2 rules (Rule3, Rule4)
+      - Defined as two expressions:
+          - Visited Page1: An expression that has 2 rules (Rule1, Rule2)
+          - Didn't visit Page2: An expression that has 2 rules (Rule3, Rule4)
 
-         - Where:
-               - Rule1 = URL contains X
-               - Rule2 = URL does not start with Y
-               - Rule3 = Referral URL equals Z
-               - Rule4 = URL starts with A
+      - Where:
+            - Rule1 = URL contains X
+            - Rule2 = URL does not start with Y
+            - Rule3 = Referral URL equals Z
+            - Rule4 = URL starts with A
 
-           - Equals people who have visited pages where (URL Contains X) OR (URL does not start with Y)EXCLUDE users that visited pages where (Referral URL equals Z) OR (URL start with A)
+      - Equals people who have visited pages where (URL Contains X) OR (URL does not start with Y)EXCLUDE users that visited pages where (Referral URL equals Z) OR (URL start with A)
 
-       > [!NOTE]
-       > If a user visits just one page that satisfies rules across the 2 expressions (say Rule1 and Rule4), the user will not be added to the list. In other words, even if a user visits just one page, they will not be part of the list.
+      > [!NOTE]
+      > If a user visits just one page that satisfies rules across the 2 expressions (say Rule1 and Rule4), the user will not be added to the list. In other words, even if a user visits just one page, they will not be part of the list.
 
-     - **Custom Events**
+      - **Custom Events**
 
-       At least one of the conditions must be specified. If more than 1 is specified, the conditions are joined using AND.
+      At least one of the conditions must be specified. If more than 1 is specified, the conditions are joined using AND.
 
-         - Operators for Category, Action, Label are: 
-             - Equals/Not equals
-             - Contains/ Does not contain
-             - Starts with/Does not start with
-             - Ends with/Does not end with
+      - Operators for Category, Action, Label are: 
+          - Equals/Not equals
+          - Contains/ Does not contain
+          - Starts with/Does not start with
+          - Ends with/Does not end with
 
-         - Operators for Value are: 
-             - Equal to
-             - Greater than
-             - Less than
-             - Greater than or equal to
-             - Less than or equal to
+      - Operators for Value are: 
+          - Equal to
+          - Greater than
+          - Less than
+          - Greater than or equal to
+          - Less than or equal to
 
-         - Category, Action, Label values are string, whereas Value is a number > 0.
-         - Input the string and condition to use when matching the webpage URL with the string.
-             - **equals**: In this case, the input string must exactly match with the URL on which the UET event fired. However, http(s) and www are ignored (rest of the string must match). For example, if you provide an input string of contoso.com, and the URL is http://www.contoso.com or https://www.contoso.com, Microsoft Advertising will consider it as a match and vice versa will also be true.
-             - **contains**: When this operator is used, Microsoft Advertising verifies if the input string is present anywhere in the URL reported by the UET tag.
-             - **starts with**: This matches identical characters starting from the beginning of the string up to and including the last character in the input string. However, http(s) and www are ignored (rest of the string must match). Use this option when your page URLs are generally unvarying but when they include additional parameters at the end that you want to exclude. For example, if you provide an input string of contoso, and the URL is http://www.contoso.com or https://www.contoso.com, Microsoft Advertising will consider it as a match and vice versa will also be true.
-             - **ends with**: This matches identical characters at the end of the string up to and including the first character in the input string.
-             - **not equals**: The input string doesn't match the URL that people visited.
-             - **does not contain**: The input string isn't present anywhere in the URL that people visited.
-             - **does not start with**: The input string doesn't match the beginning of the URL that people visited.
-             - **does not end with**: The input string doesn't match the end of the URL that people visited.
+      - Category, Action, Label values are string, whereas Value is a number > 0.
+      - Input the string and condition to use when matching the webpage URL with the string.
+          - **equals**: In this case, the input string must exactly match with the URL on which the UET event fired. However, http(s) and www are ignored (rest of the string must match). For example, if you provide an input string of contoso.com, and the URL is http://www.contoso.com or https://www.contoso.com, Microsoft Advertising will consider it as a match and vice versa will also be true.
+          - **contains**: When this operator is used, Microsoft Advertising verifies if the input string is present anywhere in the URL reported by the UET tag.
+          - **starts with**: This matches identical characters starting from the beginning of the string up to and including the last character in the input string. However, http(s) and www are ignored (rest of the string must match). Use this option when your page URLs are generally unvarying but when they include additional parameters at the end that you want to exclude. For example, if you provide an input string of contoso, and the URL is http://www.contoso.com or https://www.contoso.com, Microsoft Advertising will consider it as a match and vice versa will also be true.
+          - **ends with**: This matches identical characters at the end of the string up to and including the first character in the input string.
+          - **not equals**: The input string doesn't match the URL that people visited.
+          - **does not contain**: The input string isn't present anywhere in the URL that people visited.
+          - **does not start with**: The input string doesn't match the beginning of the URL that people visited.
+          - **does not end with**: The input string doesn't match the end of the URL that people visited.
   1. Under **Membership duration**, specify how far back in time Microsoft Advertising should look for actions that match your remarketing list definition in order to add people to your list.
   1. Optional: enter a description to help you remember what audience you are targeting with this remarketing list.
   1. Under **Sharing**, select the accounts you want the remarketing list to apply to. You can either select one account or all accounts.

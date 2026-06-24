@@ -13,7 +13,7 @@ ms.author: jonmeyers
 
 - **What are regular expressions**
 
-  : Regular expressions, often abbreviated as regex, is broadly understood as a technology to do string matching. Systems that support regular expressions allow users to use a special string, called the pattern, built using the rules of regular expressions, to perform complex string searches. This technology is meant for advanced technical users and is extremely effective. [Learn more](https://learn.microsoft.com/dotnet/standard/base-types/regular-expressions)
+  : Regular expressions, often abbreviated as regex, is broadly understood as a technology to do string matching. Systems that support regular expressions allow users to use a special string, called the pattern, built using the rules of regular expressions, to perform complex string searches. This technology is meant for advanced technical users and is extremely effective. [Learn more](/dotnet/standard/base-types/regular-expressions)
 
 - **When to use regular expressions in destination URL type goal**
 

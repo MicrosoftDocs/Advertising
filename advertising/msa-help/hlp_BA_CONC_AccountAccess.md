@@ -81,7 +81,7 @@ Visit [Get help with your Microsoft account](https://support.microsoft.com/en-us
 
     - Use a personal Microsoft email to sign up. Choose “Personal” when prompted. [Learn more](https://support.microsoft.com/en-us/account-billing/how-to-sign-in-to-a-microsoft-account-2ffedaca-6e1b-bc18-f28c-58539e1cb6d3)
     - If it's a work account, verify with your IT administrator that you're authorized to access it.
-    - If you're still blocked, contact your IT administrator to add you as an authorized user. Share [this link](https://learn.microsoft.com/entra/identity/enterprise-apps/configure-user-consent?tabs=azure-portal&pivots=portal) for reference.
+    - If you're still blocked, contact your IT administrator to add you as an authorized user. Share [this link](/entra/identity/enterprise-apps/configure-user-consent?tabs=azure-portal&pivots=portal) for reference.
 
 - **“Something went wrong and we can't sign you in right now. Please try again later.”**
 

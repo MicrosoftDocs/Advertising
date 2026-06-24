@@ -43,9 +43,9 @@ Whether or not your ad shows on mobile devices only depends on several things, i
 
 Your App ID can be found in the URL of the app from the respective app store.
 
-- Windows Store <br> https://apps.microsoft.com/windows/en-us/app/example-app-name/**12345678-9abc-1234-1234-1234567890ab**
-- Google Play <br> https://play.google.com/store/apps/details?id=**com.example.appname**
-- Apple App Store <br> https://itunes.apple.com/us/app/example-app-name/id**#########**
+- Windows Store <br> `https://apps.microsoft.com/windows/en-us/app/example-app-name/**12345678-9abc-1234-1234-1234567890ab**`
+- Google Play <br> `https://play.google.com/store/apps/details?id=**com.example.appname**`
+- Apple App Store <br> `https://itunes.apple.com/us/app/example-app-name/id**#########**`
 
 ## Create a new App Install ad
 
