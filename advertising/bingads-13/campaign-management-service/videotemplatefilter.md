@@ -18,12 +18,12 @@ Defines the video template filter data object.
 ```xml
 <xs:complexType name="VideoTemplateFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
-    <xs:element minOccurs="0" name="AspectRatios" nillable="true" type="q182:ArrayOfstring" xmlns:q182="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-    <xs:element minOccurs="0" name="Durations" nillable="true" type="q183:ArrayOfint" xmlns:q183="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="AspectRatios" nillable="true" type="q183:ArrayOfstring" xmlns:q183="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="Durations" nillable="true" type="q184:ArrayOfint" xmlns:q184="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="MaxMediaAssetCount" type="xs:int" />
     <xs:element minOccurs="0" name="MaxTextAssetCount" type="xs:int" />
-    <xs:element minOccurs="0" name="TemplateIds" nillable="true" type="q184:ArrayOfstring" xmlns:q184="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-    <xs:element minOccurs="0" name="Themes" nillable="true" type="q185:ArrayOfstring" xmlns:q185="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="TemplateIds" nillable="true" type="q185:ArrayOfstring" xmlns:q185="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="Themes" nillable="true" type="q186:ArrayOfstring" xmlns:q186="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   </xs:sequence>
 </xs:complexType>
 ```

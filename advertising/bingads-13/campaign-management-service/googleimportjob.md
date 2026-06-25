@@ -31,6 +31,13 @@ An account can have up to 100 scheduled Google import jobs.
     <xs:extension base="tns:ImportJob">
       <xs:sequence>
         <xs:element minOccurs="0" name="CampaignAdGroupIds" nillable="true" type="tns:ArrayOfCampaignAdGroupIds" />
+        <xs:element minOccurs="0" name="CampaignTypes" nillable="true" type="q148:ArrayOfstring" xmlns:q148="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
         <xs:element name="CredentialId" nillable="true" type="xs:string" />
         <xs:element name="GoogleAccountId" nillable="true" type="xs:long" />
         <xs:element minOccurs="0" name="GoogleUserName" nillable="true" type="xs:string" />
@@ -77,6 +84,9 @@ An account can have up to 100 scheduled Google import jobs.
       "CampaignId": "LongValueHere"
     }
   ],
+  "CampaignTypes": [
+    "ValueHere"
+  ],
   "CredentialId": "ValueHere",
   "GoogleAccountId": "LongValueHere",
   "GoogleUserName": "ValueHere"
@@ -87,11 +97,12 @@ An account can have up to 100 scheduled Google import jobs.
 
 ## <a name="elements"></a>Elements
 
-The [GoogleImportJob](googleimportjob.md) object has the following elements: [CampaignAdGroupIds](#campaignadgroupids), [CredentialId](#credentialid), [GoogleAccountId](#googleaccountid), [GoogleUserName](#googleusername).
+The [GoogleImportJob](googleimportjob.md) object has the following elements: [CampaignAdGroupIds](#campaignadgroupids), [CampaignTypes](#campaigntypes), [CredentialId](#credentialid), [GoogleAccountId](#googleaccountid), [GoogleUserName](#googleusername).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="campaignadgroupids"></a>CampaignAdGroupIds|The list of campaigns and their ad groups to import from Google Ads.<br/><br/>The identifiers are saved but not validated when you create an import job. If you include invalid campaign or ad group IDs, or if they become invalid e.g., the entities are deleted later from Google Ads, the invalid entities will be skipped during import.<br/><br/>**Add:** Optional. If this element is not set, then all of the campaigns and ad groups in the [Google Ads account](#googleaccountid) are eligible for import. The set of imported entities also depends on your [import options](#importoption).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[CampaignAdGroupIds](campaignadgroupids.md) array|
+|<a name="campaigntypes"></a>CampaignTypes|Reserved.|**string** array|
 |<a name="credentialid"></a>CredentialId|Authorizes a Google Ads user to import accounts to Microsoft Advertising.<br/><br/>This element is not returned when you get the [GoogleImportJob](googleimportjob.md).<br/><br/>See the [Get an Import Credential ID](../guides/google-ads-import.md#get-credentialid) guide for more details.<br/><br/>**Add:** Required<br/>**Update:** Read-only|**string**|
 |<a name="googleaccountid"></a>GoogleAccountId|The Google Ads account to import.<br/><br/>**Add:** Required<br/>**Update:** Read-only|**long**|
 |<a name="googleusername"></a>GoogleUserName|The Google account i.e., the Google user credentials with access to the Google Ads [account](#googleaccountid).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|

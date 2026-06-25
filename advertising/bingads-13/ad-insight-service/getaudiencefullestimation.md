@@ -35,6 +35,8 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
 |<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
+|<a name="channel"></a>Channel|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="channelplacement"></a>ChannelPlacement|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="dailybudget"></a>DailyBudget|The daily campaign budget value. If set to null, the suggested budget is used to perform estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|**decimal**|
@@ -42,14 +44,17 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
+|<a name="genre"></a>Genre|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="includeimpressionsbreakdown"></a>IncludeImpressionsBreakdown|Include impressions in the audience breakdown.|**boolean**|
 |<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="jobseniority"></a>JobSeniority|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="multiadtypes"></a>MultiAdTypes|The audience full estimation ad type. Possible values indlude: *DisplayAds*, *StaticAds*, *VideoAds*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|**int**|
 |<a name="placement"></a>Placement|The selection of placement targeting. The values stored in selection refer to placement IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="radiustargets"></a>RadiusTargets|Represents the desired geographical area in terms of miles/kilometers.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[RadiusTarget](radiustarget.md) array|
 |<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be earlier than or the same as the specified end date.|**dateTime**|
+|<a name="subchannel"></a>SubChannel|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="topic"></a>Topic|The selection of topic targeting. The values stored in selection refer to topic IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="totalbudget"></a>TotalBudget|The total budget.|**decimal**|
 
@@ -207,6 +212,46 @@ This template was generated by a tool to show the [order](../guides/services-pro
       <TotalBudget i:nil="false">ValueHere</TotalBudget>
       <IncludeImpressionsBreakdown i:nil="false">ValueHere</IncludeImpressionsBreakdown>
       <AutoTargeting i:nil="false">ValueHere</AutoTargeting>
+      <JobSeniority i:nil="false">
+        <Includes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Includes>
+        <Excludes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Excludes>
+      </JobSeniority>
+      <Genre i:nil="false">
+        <Includes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Includes>
+        <Excludes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Excludes>
+      </Genre>
+      <Channel i:nil="false">
+        <Includes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Includes>
+        <Excludes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Excludes>
+      </Channel>
+      <ChannelPlacement i:nil="false">
+        <Includes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Includes>
+        <Excludes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Excludes>
+      </ChannelPlacement>
+      <SubChannel i:nil="false">
+        <Includes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Includes>
+        <Excludes i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <a1:long>ValueHere</a1:long>
+        </Excludes>
+      </SubChannel>
     </GetAudienceFullEstimationRequest>
   </s:Body>
 </s:Envelope>
@@ -362,7 +407,12 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 	DateTime? endDate,
 	decimal? totalBudget,
 	bool? includeImpressionsBreakdown,
-	bool? autoTargeting)
+	bool? autoTargeting,
+	SelectionOflong jobSeniority,
+	SelectionOflong genre,
+	SelectionOflong channel,
+	SelectionOflong channelPlacement,
+	SelectionOflong subChannel)
 {
 	var request = new GetAudienceFullEstimationRequest
 	{
@@ -388,7 +438,12 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 		EndDate = endDate,
 		TotalBudget = totalBudget,
 		IncludeImpressionsBreakdown = includeImpressionsBreakdown,
-		AutoTargeting = autoTargeting
+		AutoTargeting = autoTargeting,
+		JobSeniority = jobSeniority,
+		Genre = genre,
+		Channel = channel,
+		ChannelPlacement = channelPlacement,
+		SubChannel = subChannel
 	};
 
 	return (await AdInsightService.CallAsync((s, r) => s.GetAudienceFullEstimationAsync(r), request));
@@ -418,7 +473,12 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	Calendar endDate,
 	decimal totalBudget,
 	boolean includeImpressionsBreakdown,
-	boolean autoTargeting) throws RemoteException, Exception
+	boolean autoTargeting,
+	SelectionOflong jobSeniority,
+	SelectionOflong genre,
+	SelectionOflong channel,
+	SelectionOflong channelPlacement,
+	SelectionOflong subChannel) throws RemoteException, Exception
 {
 	GetAudienceFullEstimationRequest request = new GetAudienceFullEstimationRequest();
 
@@ -445,6 +505,11 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	request.setTotalBudget(totalBudget);
 	request.setIncludeImpressionsBreakdown(includeImpressionsBreakdown);
 	request.setAutoTargeting(autoTargeting);
+	request.setJobSeniority(jobSeniority);
+	request.setGenre(genre);
+	request.setChannel(channel);
+	request.setChannelPlacement(channelPlacement);
+	request.setSubChannel(subChannel);
 
 	return AdInsightService.getService().getAudienceFullEstimation(request);
 }
@@ -473,7 +538,12 @@ static function GetAudienceFullEstimation(
 	$endDate,
 	$totalBudget,
 	$includeImpressionsBreakdown,
-	$autoTargeting)
+	$autoTargeting,
+	$jobSeniority,
+	$genre,
+	$channel,
+	$channelPlacement,
+	$subChannel)
 {
 
 	$GLOBALS['Proxy'] = $GLOBALS['AdInsightProxy'];
@@ -503,6 +573,11 @@ static function GetAudienceFullEstimation(
 	$request->TotalBudget = $totalBudget;
 	$request->IncludeImpressionsBreakdown = $includeImpressionsBreakdown;
 	$request->AutoTargeting = $autoTargeting;
+	$request->JobSeniority = $jobSeniority;
+	$request->Genre = $genre;
+	$request->Channel = $channel;
+	$request->ChannelPlacement = $channelPlacement;
+	$request->SubChannel = $subChannel;
 
 	return $GLOBALS['AdInsightProxy']->GetService()->GetAudienceFullEstimation($request);
 }
@@ -531,7 +606,12 @@ response=adinsight_service.GetAudienceFullEstimation(
 	EndDate=EndDate,
 	TotalBudget=TotalBudget,
 	IncludeImpressionsBreakdown=IncludeImpressionsBreakdown,
-	AutoTargeting=AutoTargeting)
+	AutoTargeting=AutoTargeting,
+	JobSeniority=JobSeniority,
+	Genre=Genre,
+	Channel=Channel,
+	ChannelPlacement=ChannelPlacement,
+	SubChannel=SubChannel)
 ```
 
 ## Requirements
@@ -574,6 +654,8 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
 |<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
+|<a name="channel"></a>Channel|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="channelplacement"></a>ChannelPlacement|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="dailybudget"></a>DailyBudget|The daily campaign budget value. If set to null, the suggested budget is used to perform estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|**decimal**|
@@ -581,14 +663,17 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
+|<a name="genre"></a>Genre|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="includeimpressionsbreakdown"></a>IncludeImpressionsBreakdown|Include impressions in the audience breakdown.|**boolean**|
 |<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
+|<a name="jobseniority"></a>JobSeniority|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="multiadtypes"></a>MultiAdTypes|The audience full estimation ad type. Possible values indlude: *DisplayAds*, *StaticAds*, *VideoAds*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|**int**|
 |<a name="placement"></a>Placement|The selection of placement targeting. The values stored in selection refer to placement IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="radiustargets"></a>RadiusTargets|Represents the desired geographical area in terms of miles/kilometers.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[RadiusTarget](radiustarget.md) array|
 |<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be earlier than or the same as the specified end date.|**dateTime**|
+|<a name="subchannel"></a>SubChannel|Reserved.|[SelectionOflong](selectionoflong.md)|
 |<a name="topic"></a>Topic|The selection of topic targeting. The values stored in selection refer to topic IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="totalbudget"></a>TotalBudget|The total budget.|**decimal**|
 
@@ -736,7 +821,47 @@ This template was generated by a tool to show the [body](#request-body) and [hea
   "EndDate": "ValueHere",
   "TotalBudget": DecimalValueHere,
   "IncludeImpressionsBreakdown": "ValueHere",
-  "AutoTargeting": "ValueHere"
+  "AutoTargeting": "ValueHere",
+  "JobSeniority": {
+    "Excludes": [
+      "LongValueHere"
+    ],
+    "Includes": [
+      "LongValueHere"
+    ]
+  },
+  "Genre": {
+    "Excludes": [
+      "LongValueHere"
+    ],
+    "Includes": [
+      "LongValueHere"
+    ]
+  },
+  "Channel": {
+    "Excludes": [
+      "LongValueHere"
+    ],
+    "Includes": [
+      "LongValueHere"
+    ]
+  },
+  "ChannelPlacement": {
+    "Excludes": [
+      "LongValueHere"
+    ],
+    "Includes": [
+      "LongValueHere"
+    ]
+  },
+  "SubChannel": {
+    "Excludes": [
+      "LongValueHere"
+    ],
+    "Includes": [
+      "LongValueHere"
+    ]
+  }
 }
 ```
 
@@ -876,7 +1001,12 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 	DateTime? endDate,
 	decimal? totalBudget,
 	bool? includeImpressionsBreakdown,
-	bool? autoTargeting)
+	bool? autoTargeting,
+	SelectionOflong jobSeniority,
+	SelectionOflong genre,
+	SelectionOflong channel,
+	SelectionOflong channelPlacement,
+	SelectionOflong subChannel)
 {
 	var request = new GetAudienceFullEstimationRequest
 	{
@@ -902,7 +1032,12 @@ public async Task<GetAudienceFullEstimationResponse> GetAudienceFullEstimationAs
 		EndDate = endDate,
 		TotalBudget = totalBudget,
 		IncludeImpressionsBreakdown = includeImpressionsBreakdown,
-		AutoTargeting = autoTargeting
+		AutoTargeting = autoTargeting,
+		JobSeniority = jobSeniority,
+		Genre = genre,
+		Channel = channel,
+		ChannelPlacement = channelPlacement,
+		SubChannel = subChannel
 	};
 
 	return (await AdInsightService.CallAsync((s, r) => s.GetAudienceFullEstimationAsync(r), request));
@@ -932,7 +1067,12 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	Calendar endDate,
 	decimal totalBudget,
 	boolean includeImpressionsBreakdown,
-	boolean autoTargeting) throws RemoteException, Exception
+	boolean autoTargeting,
+	SelectionOflong jobSeniority,
+	SelectionOflong genre,
+	SelectionOflong channel,
+	SelectionOflong channelPlacement,
+	SelectionOflong subChannel) throws RemoteException, Exception
 {
 	GetAudienceFullEstimationRequest request = new GetAudienceFullEstimationRequest();
 
@@ -959,6 +1099,11 @@ static GetAudienceFullEstimationResponse getAudienceFullEstimation(
 	request.setTotalBudget(totalBudget);
 	request.setIncludeImpressionsBreakdown(includeImpressionsBreakdown);
 	request.setAutoTargeting(autoTargeting);
+	request.setJobSeniority(jobSeniority);
+	request.setGenre(genre);
+	request.setChannel(channel);
+	request.setChannelPlacement(channelPlacement);
+	request.setSubChannel(subChannel);
 
 	return AdInsightService.getService().getAudienceFullEstimation(request);
 }
@@ -987,7 +1132,12 @@ static function GetAudienceFullEstimation(
 	$endDate,
 	$totalBudget,
 	$includeImpressionsBreakdown,
-	$autoTargeting)
+	$autoTargeting,
+	$jobSeniority,
+	$genre,
+	$channel,
+	$channelPlacement,
+	$subChannel)
 {
 
 	$GLOBALS['Proxy'] = $GLOBALS['AdInsightProxy'];
@@ -1017,6 +1167,11 @@ static function GetAudienceFullEstimation(
 	$request->TotalBudget = $totalBudget;
 	$request->IncludeImpressionsBreakdown = $includeImpressionsBreakdown;
 	$request->AutoTargeting = $autoTargeting;
+	$request->JobSeniority = $jobSeniority;
+	$request->Genre = $genre;
+	$request->Channel = $channel;
+	$request->ChannelPlacement = $channelPlacement;
+	$request->SubChannel = $subChannel;
 
 	return $GLOBALS['AdInsightProxy']->GetService()->GetAudienceFullEstimation($request);
 }
@@ -1045,7 +1200,12 @@ response=adinsight_service.GetAudienceFullEstimation(
 	EndDate=EndDate,
 	TotalBudget=TotalBudget,
 	IncludeImpressionsBreakdown=IncludeImpressionsBreakdown,
-	AutoTargeting=AutoTargeting)
+	AutoTargeting=AutoTargeting,
+	JobSeniority=JobSeniority,
+	Genre=Genre,
+	Channel=Channel,
+	ChannelPlacement=ChannelPlacement,
+	SubChannel=SubChannel)
 ```
 
 ::: zone-end

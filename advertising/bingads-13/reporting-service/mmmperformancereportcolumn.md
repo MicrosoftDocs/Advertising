@@ -31,13 +31,14 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="Clicks" />
     <xs:enumeration value="Spend" />
     <xs:enumeration value="ConversionsQualified" />
+    <xs:enumeration value="MetroArea" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [MMMPerformanceReportColumn](mmmperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [ConversionsQualified](#conversionsqualified), [Country](#country), [Impressions](#impressions), [Spend](#spend), [State](#state), [TimePeriod](#timeperiod).
+The [MMMPerformanceReportColumn](mmmperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [ConversionsQualified](#conversionsqualified), [Country](#country), [Impressions](#impressions), [MetroArea](#metroarea), [Spend](#spend), [State](#state), [TimePeriod](#timeperiod).
 
 |Value|Description|
 |-----------|---------------|
@@ -54,6 +55,7 @@ The [MMMPerformanceReportColumn](mmmperformancereportcolumn.md) value set has th
 |<a name="conversionsqualified"></a>ConversionsQualified|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.<br/><br/>You should expect the data type as **double** whether or not there are partial externally attributed offline conversions.<br/><br/>Not everyone has this feature yet. If you don't, don't worry - it's coming soon!|
 |<a name="country"></a>Country|The country or region where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions.|
+|<a name="metroarea"></a>MetroArea|The metro area (Microsoft Market Area in the United States) where the user was physically located when they clicked the ad.|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
 |<a name="state"></a>State|The state where the user was physically located when they clicked the ad.<br/><br/>The *LocationType* column identifies whether the user was located in, searching for, or viewing pages about the location.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|

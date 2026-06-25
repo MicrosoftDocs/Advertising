@@ -19,6 +19,13 @@ Defines the DiagnosticsSettings data object.
 <xs:complexType name="DiagnosticsSettings" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="EnableCache" type="xs:boolean" />
+    <xs:element minOccurs="0" name="EnablePilot" type="xs:boolean">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="LastCheckTimeUTC" nillable="true" type="xs:string" />
   </xs:sequence>
 </xs:complexType>
@@ -29,6 +36,7 @@ Defines the DiagnosticsSettings data object.
 ```json
 {
   "EnableCache": "ValueHere",
+  "EnablePilot": "ValueHere",
   "LastCheckTimeUTC": "ValueHere"
 }
 ```
@@ -37,11 +45,12 @@ Defines the DiagnosticsSettings data object.
 
 ## <a name="elements"></a>Elements
 
-The [DiagnosticsSettings](diagnosticssettings.md) object has the following elements: [EnableCache](#enablecache), [LastCheckTimeUTC](#lastchecktimeutc).
+The [DiagnosticsSettings](diagnosticssettings.md) object has the following elements: [EnableCache](#enablecache), [EnablePilot](#enablepilot), [LastCheckTimeUTC](#lastchecktimeutc).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="enablecache"></a>EnableCache|The cache is enabled if *True*.|**boolean**|
+|<a name="enablepilot"></a>EnablePilot|The pilot is enabled if *True*.|**boolean**|
 |<a name="lastchecktimeutc"></a>LastCheckTimeUTC|The last-checked time in UTC.|**string**|
 
 ## Requirements

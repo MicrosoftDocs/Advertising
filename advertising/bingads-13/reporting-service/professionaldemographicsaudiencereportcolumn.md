@@ -34,6 +34,9 @@ To see how far back hourly, daily, weekly, monthly, yearly and summary aggregate
     <xs:enumeration value="JobFunctionName" />
     <xs:enumeration value="JobSeniorityName" />
     <xs:enumeration value="CustomLinkedInName" />
+    <xs:enumeration value="LinkedInSegment" />
+    <xs:enumeration value="LinkedInSegmentId" />
+    <xs:enumeration value="LinkedInType" />
     <xs:enumeration value="AdDistribution" />
     <xs:enumeration value="Impressions" />
     <xs:enumeration value="Clicks" />
@@ -67,7 +70,7 @@ To see how far back hourly, daily, weekly, monthly, yearly and summary aggregate
 
 ## <a name="values"></a>Values
 
-The [ProfessionalDemographicsAudienceReportColumn](professionaldemographicsaudiencereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AccountStatus](#accountstatus), [AdDistribution](#addistribution), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AllConversions](#allconversions), [AllConversionsQualified](#allconversionsqualified), [AllRevenue](#allrevenue), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [AssetGroupStatus](#assetgroupstatus), [Assists](#assists), [AveragePosition](#averageposition), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [CampaignType](#campaigntype), [Clicks](#clicks), [CompanyName](#companyname), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CustomLinkedInName](#customlinkedinname), [Goal](#goal), [GoalType](#goaltype), [Impressions](#impressions), [IndustryName](#industryname), [JobFunctionName](#jobfunctionname), [JobSeniorityName](#jobseniorityname), [Language](#language), [Revenue](#revenue), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent), [ViewThroughConversions](#viewthroughconversions), [ViewThroughConversionsQualified](#viewthroughconversionsqualified), [ViewThroughRevenue](#viewthroughrevenue).
+The [ProfessionalDemographicsAudienceReportColumn](professionaldemographicsaudiencereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AccountStatus](#accountstatus), [AdDistribution](#addistribution), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AllConversions](#allconversions), [AllConversionsQualified](#allconversionsqualified), [AllRevenue](#allrevenue), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [AssetGroupStatus](#assetgroupstatus), [Assists](#assists), [AveragePosition](#averageposition), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [CampaignType](#campaigntype), [Clicks](#clicks), [CompanyName](#companyname), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CustomLinkedInName](#customlinkedinname), [Goal](#goal), [GoalType](#goaltype), [Impressions](#impressions), [IndustryName](#industryname), [JobFunctionName](#jobfunctionname), [JobSeniorityName](#jobseniorityname), [Language](#language), [LinkedInSegment](#linkedinsegment), [LinkedInSegmentId](#linkedinsegmentid), [LinkedInType](#linkedintype), [Revenue](#revenue), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent), [ViewThroughConversions](#viewthroughconversions), [ViewThroughConversionsQualified](#viewthroughconversionsqualified), [ViewThroughRevenue](#viewthroughrevenue).
 
 |Value|Description|
 |-----------|---------------|
@@ -104,6 +107,9 @@ The [ProfessionalDemographicsAudienceReportColumn](professionaldemographicsaudie
 |<a name="jobfunctionname"></a>JobFunctionName|The name of the job function (according to LinkedIn) of the person who viewed the ad.|
 |<a name="jobseniorityname"></a>JobSeniorityName|Reserved.|
 |<a name="language"></a>Language|This is The language of the publisher where the ad was shown.|
+|<a name="linkedinsegment"></a>LinkedInSegment|Reserved.|
+|<a name="linkedinsegmentid"></a>LinkedInSegmentId|Reserved.|
+|<a name="linkedintype"></a>LinkedInType|Reserved.|
 |<a name="revenue"></a>Revenue|The revenue optionally reported by the advertiser as a result of conversions.<br/><br/>Data will be excluded from the [Revenue](#revenue) report column for any conversion goal with the [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) property set to true. The [AllRevenue](#allrevenue) column will include data for all conversion goals regardless of their [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) setting.<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
 |<a name="spend"></a>Spend|The sum of your cost-per-click (CPC) charges for your ads and keywords.<br/>Spend helps you keep track of your budget.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to Summary. If you include the *TimePeriod* column, the column label in the downloaded report depends on the aggregation level that you specify in the report request. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|

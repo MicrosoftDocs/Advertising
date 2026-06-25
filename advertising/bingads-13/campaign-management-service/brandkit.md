@@ -36,7 +36,7 @@ Defines the brand kit data object.
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfBrandKitImage" />
     <xs:element minOccurs="0" name="LandscapeLogos" nillable="true" type="tns:ArrayOfBrandKitImage" />
-    <xs:element minOccurs="0" name="MessagingRestrictions" nillable="true" type="q175:ArrayOfstring" xmlns:q175="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <xs:element minOccurs="0" name="MessagingRestrictions" nillable="true" type="q176:ArrayOfstring" xmlns:q176="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -46,7 +46,7 @@ Defines the brand kit data object.
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Palettes" nillable="true" type="tns:ArrayOfBrandKitPalette" />
     <xs:element minOccurs="0" name="SquareLogos" nillable="true" type="tns:ArrayOfBrandKitImage" />
-    <xs:element minOccurs="0" name="TermExclusions" nillable="true" type="q176:ArrayOfstring" xmlns:q176="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <xs:element minOccurs="0" name="TermExclusions" nillable="true" type="q177:ArrayOfstring" xmlns:q177="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
       <xs:annotation>
         <xs:appinfo>
           <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />

@@ -19,7 +19,7 @@ Defines the AuditPointResult data object.
 <xs:complexType name="AuditPointResult" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="Details" nillable="true" type="q193:ArrayOfKeyValueOfstringstring" xmlns:q193="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="Details" nillable="true" type="q194:ArrayOfKeyValueOfstringstring" xmlns:q194="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Severity" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Timestamp" nillable="true" type="xs:string" />

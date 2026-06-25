@@ -19,7 +19,7 @@ Defines the brand voice data object.
 <xs:complexType name="BrandVoice" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Personality" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="Tones" nillable="true" type="q177:ArrayOfstring" xmlns:q177="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="Tones" nillable="true" type="q178:ArrayOfstring" xmlns:q178="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   </xs:sequence>
 </xs:complexType>
 ```
