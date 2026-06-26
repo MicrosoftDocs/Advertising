@@ -1,5 +1,5 @@
 ---
-title: Search Terms Insights
+title: Search terms insights
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

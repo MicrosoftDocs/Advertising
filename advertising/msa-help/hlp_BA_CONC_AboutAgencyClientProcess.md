@@ -1,5 +1,5 @@
 ---
-title: How to Have an Agency Manage Your Microsoft Advertising Account
+title: How to have an agency manage your Microsoft Advertising account
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -50,7 +50,7 @@ We strongly recommend that you or the agency create a separate account for you t
 
 - **Get help finding an agency**
 
-  If you want to find an agency to manage your Microsoft Advertising account, you can check out our [directory of accredited Microsoft Advertising partners who are experts in online advertising and campaign management.](TODO-FWLINK-2293706).
+  If you want to find an agency to manage your Microsoft Advertising account, you can check out our [directory of accredited Microsoft Advertising partners who are experts in online advertising and campaign management.](https://go.microsoft.com/fwlink/?linkid=2293706).
 
 - **Stop an agency from managing your account**
 

@@ -1,5 +1,5 @@
 ---
-title: Enable, Pause, and Delete Audience Associations
+title: Enable, pause, and delete audience associations
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

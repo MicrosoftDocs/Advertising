@@ -1,5 +1,5 @@
 ---
-title: Optimize for Audience Targeting
+title: Optimize for audience targeting
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Set up Bid Boost
+title: Set up bid boost
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

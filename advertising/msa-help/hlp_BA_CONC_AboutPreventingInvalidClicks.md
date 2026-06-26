@@ -1,5 +1,5 @@
 ---
-title: "Monitoring Clicks: Telling the Good from the Bad"
+title: Monitoring clicks - Telling the good from the bad
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: To get the most from your ad campaign, you want as many good clicks (or standard-quality clicks) as possible. One way to do that is to monitor your ad click traffic for certain unexplained changes.
 ---
 
-# Monitoring clicks: Telling the good from the bad
+# Monitoring clicks - Telling the good from the bad
 
 Each time your ad is clicked, Microsoft Advertising categorizes the click as either a *standard-quality click*, a *low-quality click*, or an *invalid click*.
 

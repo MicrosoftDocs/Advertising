@@ -1,5 +1,5 @@
 ---
-title: About Online Video Ads
+title: About online video ads
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn how to create Online Video ads.
 ---
 
-# About Online Video ads
+# About online video ads
 
 > [!NOTE]
 > - Learn more about where [Video ads are available](hlp_BA_CONC_Countries.md).

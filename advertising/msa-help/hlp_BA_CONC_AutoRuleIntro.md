@@ -1,5 +1,5 @@
 ---
-title: Save Time by Automating Your Campaign
+title: Save time by automating your campaign
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

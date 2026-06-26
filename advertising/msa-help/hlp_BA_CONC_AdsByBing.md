@@ -1,5 +1,5 @@
 ---
-title: Ad Recommendations Can Help Boost Performance
+title: Ad recommendations can help boost performance
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

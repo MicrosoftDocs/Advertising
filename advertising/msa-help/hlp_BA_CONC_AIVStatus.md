@@ -1,5 +1,5 @@
 ---
-title: Identity Verification Status
+title: Identity verification status
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -17,9 +17,9 @@ description: Learn about the identity verification status.
 
 After moving through [the advertiser identity verification process](hlp_BA_CONC_AdvertiserIdentityVerification.md) and waiting for the 3-5 business day review, you'll be granted an identity verification status. Below are the different statuses you might be granted:
 
-- **Action required:** While the verification has been submitted, some additional requested information hasn't been received. You need to submit the information to complete the verification application soon, or your ads may stop showing in the European Economic Area (EEA) compliant countries/regions. [Learn more about EEA compliant countries/regions.](TODO-FWLINK-2243004)
-- **Failed:** We couldn't verify your identity, so we may stop showing your ads in certain countries/regions. [Learn more about EEA compliant countries/regions.](TODO-FWLINK-2243004) Please review your account information and submit a new application or [appeal the decision](hlp_BA_CONC_AIVAppeals.md). You can also [contact Support](https://go.microsoft.com/fwlink/?linkid=398371).
-- **Not verified:** The account hasn't been verified. This might happen if an application for verification hasn't yet been submitted. You need to submit the information to complete the verification application soon, or your ads may stop showing in the European Economic Area (EEA) compliant countries/regions. [Learn more about EEA compliant countries/regions.](TODO-FWLINK-2243004)
+- **Action required:** While the verification has been submitted, some additional requested information hasn't been received. You need to submit the information to complete the verification application soon, or your ads may stop showing in the European Economic Area (EEA) compliant countries/regions. [Learn more about EEA compliant countries/regions.](https://go.microsoft.com/fwlink/?linkid=2243004)
+- **Failed:** We couldn't verify your identity, so we may stop showing your ads in certain countries/regions. [Learn more about EEA compliant countries/regions.](https://go.microsoft.com/fwlink/?linkid=2243004) Please review your account information and submit a new application or [appeal the decision](hlp_BA_CONC_AIVAppeals.md). You can also [contact Support](https://go.microsoft.com/fwlink/?linkid=398371).
+- **Not verified:** The account hasn't been verified. This might happen if an application for verification hasn't yet been submitted. You need to submit the information to complete the verification application soon, or your ads may stop showing in the European Economic Area (EEA) compliant countries/regions. [Learn more about EEA compliant countries/regions.](https://go.microsoft.com/fwlink/?linkid=2243004)
 - **Pending:** The application for verification is under review. We'll send an email with updates and, if necessary, requests for additional information.
 - **Verification not needed:** The account doesn't need verification or hasn't been selected for this pilot.
 - **Verified advertiser:** The account has been verified.

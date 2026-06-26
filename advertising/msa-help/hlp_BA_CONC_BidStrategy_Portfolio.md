@@ -1,5 +1,5 @@
 ---
-title: "Portfolio Bid Strategies: Auto-bidding for Performance Goals"
+title: Portfolio bid strategies - Auto-bidding for performance goals
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Portfolio bid strategies manage bids across campaigns and adjust bids on your behalf.
 ---
 
-# Portfolio bid strategies: Auto-bidding for performance goals
+# Portfolio bid strategies - Auto-bidding for performance goals
 
 > [!NOTE]
 > Not everyone has cross-account portfolio bid strategies yet. If you don't, don't worry—it's coming soon!

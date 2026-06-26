@@ -1,5 +1,5 @@
 ---
-title: Asset Guidelines and Accepted File Types
+title: Asset guidelines and accepted file types
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

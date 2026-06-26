@@ -1,5 +1,5 @@
 ---
-title: Microsoft Advertising Promotional Offers (Coupons)
+title: Microsoft Advertising promotional offers (coupons)
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

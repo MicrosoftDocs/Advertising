@@ -1,5 +1,5 @@
 ---
-title: Monitor and Optimize Your Bid Strategies
+title: Monitor and optimize your bid strategies
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

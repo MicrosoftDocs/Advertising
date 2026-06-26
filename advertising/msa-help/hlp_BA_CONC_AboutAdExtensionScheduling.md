@@ -1,5 +1,5 @@
 ---
-title: Set up Ad Extensions Scheduling
+title: Set up ad extensions scheduling
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

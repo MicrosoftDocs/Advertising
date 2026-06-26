@@ -1,5 +1,5 @@
 ---
-title: See How You Compete with the Auction Insights Report
+title: See how you compete with the auction insights report
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
 ms.topic: article

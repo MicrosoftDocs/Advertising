@@ -1,5 +1,5 @@
 ---
-title: What Are My Options for Audiences?
+title: What are my options for audiences?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

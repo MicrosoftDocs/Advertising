@@ -1,5 +1,5 @@
 ---
-title: Advertiser Identity Verification
+title: Advertiser identity verification
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

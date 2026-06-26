@@ -1,5 +1,5 @@
 ---
-title: About the Ad Preview Hub
+title: About the Ad preview hub
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

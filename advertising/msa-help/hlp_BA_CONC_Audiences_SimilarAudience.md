@@ -1,5 +1,5 @@
 ---
-title: "Similar Audiences: Reach a Wider Qualified Set of Customers"
+title: Similar audiences - Reach a wider qualified set of customers
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Auto-generated Remarketing Lists
+title: Auto-generated remarketing lists
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

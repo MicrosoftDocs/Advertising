@@ -1,5 +1,5 @@
 ---
-title: Product Attributes
+title: Product attributes
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

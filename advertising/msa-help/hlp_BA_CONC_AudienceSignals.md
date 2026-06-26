@@ -1,5 +1,5 @@
 ---
-title: About Audience Signals
+title: About audience signals
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

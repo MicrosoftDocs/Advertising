@@ -1,5 +1,5 @@
 ---
-title: "Custom Audiences: Create Richer User Segments with Your Own Data"
+title: Custom Audiences - Create richer user segments with your own data
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn about creating custom audiences to create richer user segments.
 ---
 
-# Custom audiences: Create richer user segments with your own data
+# Custom audiences - Create richer user segments with your own data
 
 > [!NOTE]
 > Custom audiences are available in [all Microsoft Advertising markets](hlp_BA_CONC_Countries.md) except within the European Union, Norway, Switzerland, and the United Kingdom.

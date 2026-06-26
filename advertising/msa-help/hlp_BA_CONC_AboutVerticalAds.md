@@ -1,5 +1,5 @@
 ---
-title: Vertical Ads
+title: Vertical ads
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -29,7 +29,7 @@ These ads include:
   - Tax services
 - [Tours and Activities](hlp_BA_CONC_Feeds_ToursActivities.md)
 
-Look out for more Vertical ads coming soon! If you don't see your area of business covered above, [we'd love to hear from you](TODO-FWLINK-2277210).
+Look out for more Vertical ads coming soon! If you don't see your area of business covered above, [we'd love to hear from you](https://go.microsoft.com/fwlink/?linkid=2277210).
 
 ## How Vertical ads work
 

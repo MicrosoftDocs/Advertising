@@ -1,5 +1,5 @@
 ---
-title: The Payment Methods Page
+title: The Payment Methods page
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

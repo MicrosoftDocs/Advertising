@@ -1,5 +1,5 @@
 ---
-title: Discover Your Budget Options
+title: Discover your budget options
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

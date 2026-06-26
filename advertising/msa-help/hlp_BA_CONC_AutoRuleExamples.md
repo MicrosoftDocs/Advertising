@@ -1,5 +1,5 @@
 ---
-title: Ways to Use Automated Rules
+title: Ways to use automated rules
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

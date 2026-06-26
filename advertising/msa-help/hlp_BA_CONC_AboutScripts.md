@@ -1,5 +1,5 @@
 ---
-title: How Can I Automate My Campaigns with Microsoft Advertising Scripts?
+title: How can I automate my campaigns with Microsoft Advertising scripts?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

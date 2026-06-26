@@ -1,5 +1,5 @@
 ---
-title: "In-market Audiences: Reach People Who Are Ready to Buy"
+title: In-market audiences - Reach people who are ready to buy
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn how to use in-market audiences to increase conversions and improve bids and targeting.
 ---
 
-# In-market audiences: Reach people who are ready to buy
+# In-market audiences - Reach people who are ready to buy
 
 > [!NOTE]
 > Learn more about where [in-market audiences are available](hlp_BA_CONC_Countries.md).

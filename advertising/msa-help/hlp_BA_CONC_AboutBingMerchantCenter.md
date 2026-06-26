@@ -1,5 +1,5 @@
 ---
-title: What Is Microsoft Merchant Center?
+title: What is Microsoft Merchant Center?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

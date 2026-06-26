@@ -1,5 +1,5 @@
 ---
-title: Forecast Campaign Results with the Audience Planner
+title: Forecast campaign results with the Audience planner
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

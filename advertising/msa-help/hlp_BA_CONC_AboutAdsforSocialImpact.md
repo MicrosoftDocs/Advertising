@@ -1,5 +1,5 @@
 ---
-title: About Ads for Social Impact
+title: About ads for social impact
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -14,7 +14,7 @@ description: Everything you need to know about particpating in Microsoft Adverti
 > [!NOTE]
 > Microsoft Advertising's Ads for Social Impact ad grant program will end effective December 2025. As a result, we are no longer accepting new program applicants. To learn about more nonprofit offers from Microsoft, visit [this page](https://www.microsoft.com/en-us/nonprofits).
 
-Ads for social impact is a pilot program offered by Microsoft Advertising. Eligible [Microsoft nonprofit partners](TODO-FWLINK-2245309) can qualify for support for nonprofit organizations in raising awareness about their missions, attracting new donors and volunteers, and advancing their mission outcomes.
+Ads for social impact is a pilot program offered by Microsoft Advertising. Eligible [Microsoft nonprofit partners](https://go.microsoft.com/fwlink/?linkid=2245309) can qualify for support for nonprofit organizations in raising awareness about their missions, attracting new donors and volunteers, and advancing their mission outcomes.
 
 ## Program details
 
@@ -27,7 +27,7 @@ Participants receive monthly grants on Microsoft's advertising platform to build
   Organizations must:
 
   - Hold a valid charity status (e.g.,501(c)(3) in the U.S.)
-  - Hold a Microsoft-approved nonprofit organization status. For more information, please see [nonprofit offers](TODO-FWLINK-2245407).
+  - Hold a Microsoft-approved nonprofit organization status. For more information, please see [nonprofit offers](https://go.microsoft.com/fwlink/?linkid=2245407).
   - Use a Microsoft Advertising Expert mode account.
   - Attest to Microsoft’s anti-discrimination policy.
   - Have a website that provides details about the nonprofit and its mission.
@@ -39,7 +39,7 @@ Participants receive monthly grants on Microsoft's advertising platform to build
   - Childcare centers
   - Academic institutions
 
-  For a complete list of requirements, see [Non profit grants and credits eligibility](TODO-FWLINK-2247851).
+  For a complete list of requirements, see [Non profit grants and credits eligibility](https://go.microsoft.com/fwlink/?linkid=2247851).
 
 - **How do I participate?**
 
@@ -48,10 +48,10 @@ Participants receive monthly grants on Microsoft's advertising platform to build
 
   You can use the following to prepare for participation:
 
-  - [Register](TODO-FWLINK-2245309) to become an approved Microsoft nonprofit.
+  - [Register](https://go.microsoft.com/fwlink/?linkid=2245309) to become an approved Microsoft nonprofit.
   - While grant funds are not available at this time, you can begin using Microsoft Advertising to promote your nonprofit.
-  - Access the nonprofit hub: Once approved, sign in to the [nonprofit digital skills trainings](TODO-FWLINK-2245407) and explore more learning paths tailored for nonprofit employees.
-  - [Sign up](TODO-FWLINK-2247648) to receive updates on program developments, future advertising grants, and nonprofit-specific offers.
+  - Access the nonprofit hub: Once approved, sign in to the [nonprofit digital skills trainings](https://go.microsoft.com/fwlink/?linkid=2245407) and explore more learning paths tailored for nonprofit employees.
+  - [Sign up](https://go.microsoft.com/fwlink/?linkid=2247648) to receive updates on program developments, future advertising grants, and nonprofit-specific offers.
 
 - **How we calculate grant amounts**
 

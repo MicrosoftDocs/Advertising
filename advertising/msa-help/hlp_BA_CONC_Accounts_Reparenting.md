@@ -1,5 +1,5 @@
 ---
-title: Transferring Accounts to a New Owner
+title: Transferring accounts to a new owner
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article

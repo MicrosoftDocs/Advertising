@@ -1,5 +1,5 @@
 ---
-title: Create an Audience
+title: Create an audience
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

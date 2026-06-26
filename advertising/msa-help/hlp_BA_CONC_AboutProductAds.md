@@ -1,5 +1,5 @@
 ---
-title: What Are Product Ads?
+title: What are Product ads?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

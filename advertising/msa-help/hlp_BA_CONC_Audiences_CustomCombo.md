@@ -1,5 +1,5 @@
 ---
-title: "Combined Lists: Mix and Match Audiences to Reach Just the Right Customers"
+title: Combined Lists - Mix and match audiences to reach just the right customers
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn how to combine audiences to reach just the right set of customers.
 ---
 
-# Combined lists: Mix and match audiences to reach just the right customers
+# Combined lists - Mix and match audiences to reach just the right customers
 
 > [!IMPORTANT]
 > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!

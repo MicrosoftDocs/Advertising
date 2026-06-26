@@ -1,5 +1,5 @@
 ---
-title: About Asset Reporting
+title: About asset reporting
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

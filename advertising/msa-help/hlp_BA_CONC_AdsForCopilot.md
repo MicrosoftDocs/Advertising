@@ -1,5 +1,5 @@
 ---
-title: About Ads in Copilot
+title: About ads in Copilot
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,10 +9,10 @@ ms.date: 6/18/2026
 description: Learn all about advertising in Copilot
 ---
 
-# About Ads in Copilot
+# About ads in Copilot
 
 > [!NOTE]
-> This article refers to ad formats that are eligible to serve in [Copilot](TODO-FWLINK-2291145). To learn more about how Copilot in the Microsoft Adverting Platform can assist you with your campaigns, see [Copilot in Microsoft Advertising Platform](hlp_BA_CONC_CopilotMSAPlatform.md).
+> This article refers to ad formats that are eligible to serve in [Copilot](https://go.microsoft.com/fwlink/?linkid=2291145). To learn more about how Copilot in the Microsoft Adverting Platform can assist you with your campaigns, see [Copilot in Microsoft Advertising Platform](hlp_BA_CONC_CopilotMSAPlatform.md).
 
 Copilot in Bing is an AI-powered web assistant providing a conversational chat experience that finds relevant answers in response to people's queries by summarizing web search results. Copilot also generates creative content, such as poems, jokes, and letters. Microsoft Advertising serves ads in [varying formats](#eligible-campaign-and-ad-types) which are displayed in Copilot's responses.
 
@@ -22,7 +22,7 @@ Ads in Copilot are automatically created using your campaign's existing assets, 
 > Negative keyword matching applies to Copilot and works the same as it does for web searches on the Micrsoft Advertising Network. This means that your ads won't display against the negative keywords that you've added to your account, campaigns, or ad groups. See [Negative keyword matching](#negative-keyword-matching) to learn more about negative keyword matching in Copilot.
 
 > [!NOTE]
-> Microsoft Advertising does not currently support specific metrics for ads served in [Copilot](TODO-FWLINK-2291145).
+> Microsoft Advertising does not currently support specific metrics for ads served in [Copilot](https://go.microsoft.com/fwlink/?linkid=2291145).
 
 ## The benefits of serving ads in Copilot
 

@@ -1,5 +1,5 @@
 ---
-title: About Ad Strength
+title: About Ad strength
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

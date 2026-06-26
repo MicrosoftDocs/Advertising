@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Remarketing Lists: Remarketing for Products"
+title: Dynamic remarketing lists - Remarketing for products
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

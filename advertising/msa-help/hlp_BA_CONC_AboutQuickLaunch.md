@@ -1,5 +1,5 @@
 ---
-title: Free Coaching to Help You Get Started
+title: Free coaching to help you get started
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

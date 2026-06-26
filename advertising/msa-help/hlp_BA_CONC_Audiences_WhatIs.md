@@ -1,5 +1,5 @@
 ---
-title: What Is Audience Targeting?
+title: What is audience targeting?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

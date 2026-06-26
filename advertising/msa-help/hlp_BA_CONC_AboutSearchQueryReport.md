@@ -1,5 +1,5 @@
 ---
-title: Run a Search Term Report
+title: Run a search term report
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

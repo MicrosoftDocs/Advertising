@@ -1,5 +1,5 @@
 ---
-title: "Remarketing: Target People Who Have Visited Your Site Before"
+title: Remarketing - Target people who have visited your site before
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

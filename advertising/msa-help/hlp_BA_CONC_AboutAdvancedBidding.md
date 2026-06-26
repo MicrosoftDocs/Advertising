@@ -1,5 +1,5 @@
 ---
-title: How to Target My Customers by Adjusting My Bids
+title: How to target my customers by adjusting my bids
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Make Updates Across Accounts with Bulk Upload
+title: Make updates across accounts with bulk upload
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

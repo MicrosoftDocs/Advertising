@@ -1,5 +1,5 @@
 ---
-title: Advertiser Identity Verification Appeals
+title: Advertiser identity verification appeals
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

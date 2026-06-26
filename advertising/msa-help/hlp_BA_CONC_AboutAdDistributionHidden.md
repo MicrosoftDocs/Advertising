@@ -1,5 +1,5 @@
 ---
-title: Ad Distribution Settings
+title: Ad distribution settings
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -39,18 +39,18 @@ You can choose to show your ads on the following:
 - **The entire Microsoft Advertising Network (recommended)**. This option includes:
 
   - Microsoft sites (Microsoft Bing, MSN, and Outlook.com).
-  - Select partner traffic with ad performance and conversion rates similar to Microsoft Bing's. [Learn more about Microsoft Bing Network traffic](TODO-FWLINK-2201528). <br> <br>
+  - Select partner traffic with ad performance and conversion rates similar to Microsoft Bing's. [Learn more about Microsoft Bing Network traffic](https://go.microsoft.com/fwlink/?linkid=2201528). <br> <br>
 
     > [!NOTE]
     > Because these sites are reported in aggregate, you cannot see individual reports for each domain.
-  - Additional partner traffic (including Microsoft Bing and Yahoo search partners, such as Ask.com, Forbes, and others) for extended reach and lower cost per click. [Learn more about Microsoft Bing Network traffic](TODO-FWLINK-2201528).
+  - Additional partner traffic (including Microsoft Bing and Yahoo search partners, such as Ask.com, Forbes, and others) for extended reach and lower cost per click. [Learn more about Microsoft Bing Network traffic](https://go.microsoft.com/fwlink/?linkid=2201528).
 
   > [!NOTE]
   > We recommend this option because it can extend your ad reach, drive conversions, and provide a lower cost per click. You can also see which syndicated partners extend your campaign's reach by running your Website URL (publisher) report (available on the **Reports** page). You can then use the Exclusions feature to exclude specific sites that you don't want your ads to run on. To learn more, see [How to prevent your ads from showing to certain people](hlp_BA_PROC_AddExclusions.md).
 - **Microsoft sites and select traffic**. This option includes:
 
   - Microsoft sites (Bing, MSN, and Outlook.com).
-  - Select partner traffic with ad performance and conversion rates similar to Microsoft Bing's. [Learn more about Microsoft Bing Network traffic](TODO-FWLINK-2201528). <br> <br>
+  - Select partner traffic with ad performance and conversion rates similar to Microsoft Bing's. [Learn more about Microsoft Bing Network traffic](https://go.microsoft.com/fwlink/?linkid=2201528). <br> <br>
 
     > [!NOTE]
     > Because these sites are reported in aggregate, you cannot see individual reports for each domain.

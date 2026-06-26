@@ -1,5 +1,5 @@
 ---
-title: About Ad Extensions
+title: About ad extensions
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

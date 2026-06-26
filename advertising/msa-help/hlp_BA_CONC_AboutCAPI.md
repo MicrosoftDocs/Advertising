@@ -1,5 +1,5 @@
 ---
-title: Where Can I Find Information About the Conversions API (CAPI)?
+title: Where can I find information about the Conversions API (CAPI)?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

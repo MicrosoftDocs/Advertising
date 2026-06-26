@@ -1,5 +1,5 @@
 ---
-title: How Do I Delete My Account?
+title: How do I delete my account?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -34,7 +34,7 @@ Deactivating an account makes it "inactive." While inactive accounts can be reac
   >  
   > In order to delete an account, you must first deactivate it. Before doing so, make sure your campaign is paused and you've paid any pending charges. Next, follow the steps below to deactivate your account. (Please note that you can only do this through the web app and not the mobile or desktop app.) Your account and its associated customer data will be deleted 180 days after deactivation. Please contact [Support](https://go.microsoft.com/fwlink/?linkid=398371) to request to expedite the process or with any further questions.
 
-  1. [Sign in to your Microsoft Advertising account](TODO-FWLINK-2255807).
+  1. [Sign in to your Microsoft Advertising account](https://go.microsoft.com/fwlink/?linkid=2255807).
   1. From the navigation menu on the left, select **Campaigns**.
   1. Select the checkbox next to the campaigns you wish to pause.
   1. On the blue bar, select **Edit** > **Pause**.

@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Text: Capitalization of the Keyword Placeholder"
+title: Dynamic text - Capitalization of the keyword placeholder
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: You can use the {KeyWord} placeholder to make your ad title, ad text, and display URL display keywords that match, or closely match, the search queries or other input.
 ---
 
-# Dynamic text: Capitalization of the keyword placeholder
+# Dynamic text - Capitalization of the keyword placeholder
 
 You can use the {KeyWord} placeholder to make your ad title, ad text, and display URL display keywords that match, or closely match, the text that a customer types. Write your ad, and then insert the {KeyWord} placeholder where you want the keyword to appear. However, the way you capitalize {KeyWord} determines how the words in the keyword are capitalized in your ad.
 

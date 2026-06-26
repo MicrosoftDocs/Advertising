@@ -1,5 +1,5 @@
 ---
-title: Let Microsoft Advertising Manage Your Bids with Bid Strategies
+title: Let Microsoft Advertising manage your bids with bid strategies
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -106,7 +106,7 @@ Review our [auto-bidding](#auto-bidding-strategies) and [manual bid](#manual-bid
   > Maximize conversion value is available for:
   >
   > - Search campaigns.
-  > - [Shopping search](TODO-FWLINK-2263702) campaigns, [where available](hlp_BA_CONC_Countries.md).
+  > - [Shopping search](https://go.microsoft.com/fwlink/?linkid=2263702) campaigns, [where available](hlp_BA_CONC_Countries.md).
 
   > [!IMPORTANT]
   > Maximize conversion value is not supported for Microsoft Store ads.

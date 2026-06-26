@@ -1,5 +1,5 @@
 ---
-title: Signing in with a Work Account
+title: Signing in with a work account
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -105,7 +105,7 @@ You'll need to keep a few things in mind to make sure that users don't lose acce
 
   Switching to work accounts can be confusing for users who also have a personal account with the same email address. For example, during sign in they might be prompted to choose between their work and personal account.
 
-  To stop receiving this message, follow the steps in [I want to use a different email address or phone number to sign in](TODO-FWLINK-2168463) support section to change the email address that you use to sign in to your personal Microsoft account. Doing this changes the way you sign in to your personal account, but it won't affect any of the data associated with it.
+  To stop receiving this message, follow the steps in [I want to use a different email address or phone number to sign in](https://go.microsoft.com/fwlink/?linkid=2168463) support section to change the email address that you use to sign in to your personal Microsoft account. Doing this changes the way you sign in to your personal account, but it won't affect any of the data associated with it.
 
 - **Check for any third-party software dependencies**
 

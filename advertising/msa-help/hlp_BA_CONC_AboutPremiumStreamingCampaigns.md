@@ -1,5 +1,5 @@
 ---
-title: About Premium Streaming Campaigns
+title: About Premium Streaming campaigns
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

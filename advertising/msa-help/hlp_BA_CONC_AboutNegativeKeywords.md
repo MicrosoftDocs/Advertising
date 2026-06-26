@@ -1,5 +1,5 @@
 ---
-title: Learn About Using Negative Keywords to Get to the Right Customers
+title: Learn about using negative keywords to get to the right customers
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: About Ad Customizer for Ads
+title: About ad customizer for ads
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

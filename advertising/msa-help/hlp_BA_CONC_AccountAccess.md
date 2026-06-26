@@ -1,5 +1,5 @@
 ---
-title: Account Access Troubleshooting
+title: Account access troubleshooting
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article

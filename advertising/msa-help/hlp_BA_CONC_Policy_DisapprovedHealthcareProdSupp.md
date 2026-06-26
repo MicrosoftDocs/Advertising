@@ -1,0 +1,611 @@
+---
+title: Disapproved healthcare products and supplements
+ms.service: msa-help
+ms.subservice: msa-policies-compliance
+ms.topic: article
+author: jonmeyers
+ms.author: jonmeyers
+ms.date: 6/18/2026
+description: Here are non-exhaustive lists of healthcare products and supplements that cannot be advertised through Microsoft Advertising.
+---
+
+# Disapproved healthcare products and supplements
+
+Here are non-exhaustive lists of healthcare products and supplements that cannot be advertised through Microsoft Advertising. Advertisers for pharmacy and healthcare products must also comply with all applicable regulatory policies and local laws, and the [Pharmacy and Healthcare Products and Services Policies](hlp_BA_CONC_Policy_RestrictedContent.md).
+
+> [!NOTE]
+> Microsoft reserves the right to disallow the promotion of any healthcare products and supplements, at any time and without prior notice, that may be of questionable legality or could potentially be harmful to users.
+
+## FAQ
+
+- **Disapproved non-pharmaceutical controlled substances**
+
+  - 1-benzylpiperazine
+  - Acedicon
+  - Acetylcodone
+  - Acetyldihydrocodeine
+  - Acetylhydrocodone
+  - Acetylmethadol
+  - Adaphol
+  - AKB-48
+  - Algeril
+  - Alpha-Ethyltryptamine
+  - Alpha-Methylfentanyl
+  - Alpha-Methylthiofentanyl
+  - Alphameprodine
+  - Alphamethadol
+  - Benzethidine
+  - Benzylpiperazine
+  - Beta-Hydroxy-3-methylfentanyl
+  - Betacetylmethadol
+  - Betameprodine
+  - Betamethadol
+  - Betaprodine
+  - Cannabicyclohexanol
+  - Cannabis
+  - Captagon
+  - Cliradon
+  - Clonitazene
+  - Copholco
+  - Cyprenorphine
+  - Desomorphine
+  - Dextromoramide
+  - Diacetylmorphine
+  - Diamorphine
+  - Diconal
+  - Diethylthiambutene
+  - Diethyltryptamine
+  - Difenoxin
+  - Dihydromorphine
+  - Dimenoxadol
+  - Dimepheptanol
+  - Dimethylthiambutene
+  - Dimethyltryptamine
+  - Dioxaphetyl butyrate
+  - Dipipanone
+  - DMA
+  - Drotebanol
+  - Ecstasy
+  - Ethylmethylthiambutene
+  - Etonitazene
+  - Etoxeridine
+  - Fenethylline
+  - Furethidine
+  - Gamma Hydroxybutyric Acid
+  - Heroin
+  - Hydromorphinol
+  - Hydroxypethidine
+  - Ketobemidone
+  - Lantuss
+  - Lealgin
+  - Levophenacylmorphan
+  - LSD
+  - Lysergic acid diethylamide
+  - Lysergide
+  - Lyspafen
+  - Mappine
+  - MDEA
+  - MDPV
+  - Mecloqualone
+  - Mescaline
+  - Methadyl acetate
+  - Methaqualone
+  - Methcathinone
+  - Methyldesorphine
+  - Methyldihydromorphine
+  - MMDA
+  - Morpheridine
+  - MPPP
+  - Myrophine
+  - Naphyrone
+  - Narcolo
+  - NEA
+  - Nicocodeine
+  - Noracymethadol
+  - Norlevorphanol
+  - Normorphine
+  - Norpipanone
+  - Nubarene
+  - Operidine
+  - Oxymethebanol
+  - Palfium
+  - Para-Fluorofentanyl
+  - Parahexyl
+  - PCP
+  - Pentedrone
+  - Pentylone
+  - PEPAP
+  - Peyote
+  - Phenadoxone
+  - Phenomorphan
+  - Phenoperidine
+  - Phenyldimazone
+  - Phenylpiperone HCl
+  - Pholcodine
+  - Pholcolin
+  - PHP
+  - Piridolan
+  - Piritramide
+  - Proheptazine
+  - Promedolum
+  - Properidine
+  - Psilocin
+  - Psilocybin
+  - Psilocyn
+  - Quaalude
+  - Racemoramide
+  - STP
+  - Synhexyl
+  - TCP
+  - TCPy
+  - Tenocyclidine
+  - Thiofentanyl
+  - Tilidine
+  - TMA
+  - Trimeperidine
+
+- **Disapproved healthcare products and supplements**
+
+  - Arche Pearl Cream
+  - Brasil Cacau Cadiveu
+  - Brazilian Blowout Anti Residue Shampoo
+  - Brazilian Blowout Anti-Frizz Shampoo Maintaining Product
+  - Brazilian Blowout Professional Brazilian Blowout Solution
+  - Brazilian Blowout Shampoo
+  - Brazilian Blowout Solution
+  - Brazilian Gloss Keratin Smoothing Gloss
+  - Cocochoco Keratin Hair Repair
+  - Cream Aghader
+  - Crema Aguamary
+  - Crème Diana C.T.R.
+  - E Beaute Total Revitalizer Night Cream
+  - Fasco
+  - Global Keratin Functional Keratin Hair Taming System Blonde
+  - Global Keratin Functional Keratin Hair Taming System Light Wave Coloured Chocolate
+  - Hairegenerator (by Hang Cheong Lung Pharmaceutical Limited)
+  - HydroSpa Keratin Smoothing Treatment (Trichovedic)
+  - Jiao Li
+  - Kera Green Keratin
+  - Kerastraight Treatment
+  - Keratin Complex Smoothing Therapy
+  - Keratin Complex Smoothing Therapy Express Blow Out
+  - Keratin Complex Smoothing Therapy Natural Keratin Smoothing Treatment
+  - Keratin Complex Smoothing Therapy Natural Keratin Smoothing Treatment Blonde
+  - Keratin Express Brazilian Smoother
+  - Keratin Express Brazilian Smoothing Treatment
+  - Keratin-based treatment
+  - Lemon Herbal Whiting Cream
+  - Lulanjina - White Cream
+  - Lulanjina - Yellow Cream
+  - Marcia Teixeira Advanced Brazilian Keratin Treatment
+  - Marcia Teixeira Brazilian Keratin Treatment
+  - Marcia Teixeira Chocolate Extreme de-frizzing treatment
+  - Marcia Teixeira Extreme De-Frizzing Treatment
+  - Milk Cream
+  - MS Wellmood Lightening Complex
+  - Nano Keratin Brazilian Relaxer
+  - Nanokeratin System Hair Therapy Hair Power
+  - Putih Gebu Sun-Block Collagen Lotion
+  - Qian Mei – white cream
+  - Qian Mei – yellow cream
+  - QOD Gold Solution
+  - Revitalise Brazilian Keratin Treatment - Seduction
+  - Sans Dynamic Intensive Light Cream
+  - Savon pour L'acné Diana soap
+  - Soft-Liss Professional Line Keratin Treatment
+  - Stillman’s Skin Bleach Cream
+  - Tahe Thermo Keratin No. 2 Active Treatment
+
+- **Related to weight loss**
+
+  - 1 Day Diet
+  - 2 Day Diet
+  - 2x Powerful Slimming
+  - 3x Slimming Power
+  - 5x Imelda Perfect Slimming
+  - 7 Days Brazilian Slimming Coffee
+  - 7 Days Herbal Slim
+  - 7 Days Slimming Coffee
+  - ABC Acai Berry
+  - Acai Berry Living-XS
+  - Apple's Quick-Impact Weight Loss
+  - Baschi Quick Slimming Capsules
+  - Beautiful Slim Body
+  - Bella Vi BTrim Max
+  - Bella Vi BTrim Ultimate Boost
+  - Bella Vi Extreme Accelerator
+  - Bella Vi Insane Bee Pollen
+  - Best Slim
+  - Best Slim 40 Capsule
+  - Botanical Slimming Soft Gel
+  - Brazil Potent Slimming Coffee
+  - Brazilian Slimming Coffee
+  - Collagen Slim
+  - Dr. Mao Slimming Capsules
+  - Dr. Ming's Herbal Tea
+  - Dream Body Slimming Capsule
+  - Esmeralda
+  - ESV Extra Strong Version soft gel capsules
+  - Ever Slim Dietary Supplement
+  - Fashion Slimming Coffee
+  - Fatloss Jimpness Beauty
+  - Forte Slimming Capsule
+  - Fruit and Plant Slimming
+  - Fruta Bio
+  - Grease Discharging Machine Capsules
+  - Green Natural Slimming Capsules
+  - Herbal Diet Natural Capsule
+  - JaDera
+  - Japan Hokkaido Slimming Pills
+  - Japan Rapid Weight Loss Diet Pills Green
+  - Japan Weight Loss Blue
+  - Jianfeijindan Activity Girl
+  - Jimpness Beauty Fat Loss Capsules
+  - KaBaNa L-Carnitine 360 Slimming Coffee
+  - L-CarnitinL 360 Slimming Coffee
+  - Leisure 18 Slimming Coffee
+  - Leptin HCA Weight Loss Milk Tea
+  - Lida DaiDaihua Slimming Capsule
+  - Lipro Diet Pills
+  - Lishou
+  - Magic Slim
+  - Majestic Slimming Capsules
+  - Maxi Gold
+  - Meizitang
+  - Meizitang Strong Version
+  - Mince Belle Dietary Supplement
+  - MSV Strong Version soft gel capsules
+  - My Slimmer Me
+  - Natural Miaotiaoyishen Capsules
+  - Natural Slim Capsules
+  - Naturally Kouxan Best Slim capsules
+  - Paiyouji Natural Slimming Capsules
+  - Paiyouji Plus - Fast Acting Slimming Tea
+  - Perfect Figure Slimming
+  - PhenTabz
+  - RL Rapid Loss soft gel capsules
+  - S-shape Slim capsules
+  - Slim Forte
+  - Slim Forte Double Power Slimming Capsules
+  - Slimbionic
+  - SlimDemand
+  - Slimina
+  - Sliminate
+  - Slimlean
+  - Slimming Beauty Bitter Orange Slimming Capsules
+  - Slimming Kapsul
+  - St Nirvana Herbal Slimming Capsules
+  - Super Fat Burner
+  - Super Fat Burning Bomb - 3rd-Generation All-Body Slimmer
+  - Super Fat Burning Bomb - 3rd-Generation Leg Slimmer
+  - Super Fat Burning Bomb - 4th-Generation All-Body Slimmer
+  - Super Slim Pomegranate
+  - Tenga Diet Pills
+  - V12 Fruit Slimming
+  - V26 Coffee Slimming granules
+  - V26 Slimming Coffee
+  - Whole Body Slimming Coffee
+  - Xiu Zhi Su L-Carnitine Slimming Capsule
+  - Yixiu L-Carnitine Slimming Capsule
+  - Zhen de Shou
+  - Zi Xiu Tang
+
+- **Related to sexual enhancement**
+
+  - 3 Hard Knights
+  - African Black Ant
+  - Alpha Male
+  - Bad Boy’s Natural Herbal Male Tonic
+  - Best Whips
+  - Black Ant
+  - Black Ant King
+  - Black Ant Strong
+  - Control All Natural Sexual Enhancement
+  - Dick’s Hard Up
+  - Dragon Natural Herbal Male Tonic
+  - E.O.D. Erection on Demand
+  - Ecstasy Sex
+  - Erecta capsules
+  - Erectra Capsules
+  - Erectra King
+  - Extenzone
+  - Eyeful
+  - Full Throttle On Demand
+  - Germany Niubian
+  - GoldReallas
+  - Honey Sex
+  - iErect
+  - Innerget Instant Erection
+  - Jimpness Beauty Fat Loss Capsules
+  - Jinqiangbudor Red Dragon
+  - Libido Sexual Enhancer
+  - Liu Bian Li
+  - Magic for Men
+  - Maxman
+  - Maxman II
+  - Maxman III
+  - Maxman IV
+  - Maxman IX
+  - Maxman V
+  - Maxman XI
+  - Maxtremezen
+  - MME Naturally Maxman
+  - MSS Maximum Sexual Stimulant tablets
+  - MV5 Days
+  - My Man His Enhancer
+  - Night Bullet 3-day Sexual Stimulant
+  - Penisole
+  - Play Hard For Men
+  - Regenerect
+  - Rhino 5
+  - Rush Natural Herbal Male Tonic
+  - S.W.A.G.
+  - Santi Bovine Penis Erecting Capsule
+  - Santi Scalper Penis Erection Capsules
+  - Sex Plus
+  - Sex-Love-Secret Code
+  - Sexcellence
+  - Sexpresso
+  - SexRx
+  - Sexual Virility Max
+  - SexVoltz
+  - Sexvoltz 72 Hour
+  - SeXXX Drive
+  - Sexy Monkey
+  - Spider Sex
+  - Stree Overlord
+  - Stree Overlord Strong
+  - Super Penis 1800 mg capsules
+  - Super Power
+  - SX For Better Sex
+  - SXL Sexcellence sachets
+  - The Best Sexual Enhancer
+  - The Erector
+  - Top Man 3
+  - Triple MiracleZen Platinum
+  - True Man Sexual Energy Nutrient Capsules
+  - VIA XTREME ULTIMATE SEXUAL ENHANCER
+  - Via Xtreme Ultimate Sexual Enhancer Dietary Supplement For Men
+  - Vierect
+  - Weekend Warrior
+  - Wood-E
+  - X-ROCK for ERECTILE REFUNCTION The (3) Day Pill
+  - Xcess Natural Herbal Male Tonic
+  - XZen 1200
+  - Xzen Gold
+  - Xzen XPress
+  - XZone Premium
+  - Zenerect
+  - Zhen Gong Fu
+
+- **Related to bodybuilding**
+
+  - 3-D Explosion
+  - 357 Xtreme Pre-Workout Fuel
+  - Abomination
+  - Absolute Pump
+  - Adaptodren
+  - Addieup
+  - After Math M1-D Mass
+  - Altered Mass
+  - Angel Dust
+  - Arime PCT Stage 5
+  - Assault
+  - Atomizer
+  - Beast Plexx
+  - Bionic
+  - BioSurge
+  - Black Bombs Thermogenic Detonator
+  - Chaos
+  - CO2 Xtreme Fat Burner
+  - Craze
+  - Cyborg
+  - Dimethavar
+  - DMAA
+  - DMZ-15
+  - Dymethaberry Steel Crushers
+  - EphedraX
+  - EPI 150
+  - Epi 18
+  - Epi-Tren
+  - Epi-Tren Rx
+  - Epistane Andro Rx
+  - Ergo Pump
+  - Evolve
+  - Genetic Psycho
+  - Halo Suspension
+  - Halobolin
+  - Halodex
+  - Halotren Platinum
+  - High Performance GF
+  - Inferno
+  - Iron Horse Show Time
+  - Juiced
+  - Lean 650
+  - Locked and Loaded
+  - M-sten
+  - M-Sten RX
+  - M.Sten
+  - Mass trauma
+  - Maximise
+  - Megasten
+  - Metabolic Tattoo
+  - Metha-Drol Extreme
+  - Methyl Masterzine
+  - Methylzine
+  - Msten-4
+  - Mutant Mayhem
+  - MyostatQ-4
+  - OxyElite Pro
+  - OxyElite Pro Super Thermo capsules
+  - OxyElite Pro Super Thermo Powder
+  - OxyElite Pro Ultra-Intense Thermo capsules
+  - OxyFire
+  - Oxylean 1-3D
+  - Oxyphen XR
+  - Ph0rce
+  - Phantom
+  - Phenadrine
+  - Phorce
+  - Plasmatic EP
+  - Plexus Slim Accelerator
+  - PrePost
+  - Red Vipers
+  - Ripped Freak
+  - Ripped Juice
+  - Savage
+  - Sledge
+  - Spawn
+  - Super DMZ
+  - Supernova S-2
+  - Swoll-250
+  - Symply Magic Symmetry
+  - Tank
+  - Therm-O
+  - Thermo Gold
+  - Tiger Claw DMAA
+  - TR3N
+  - Tren Attack
+  - Trenavar
+  - Trenzilla
+  - Ultradrol
+  - V Ripped
+  - Vaporizer XR
+  - Vazodrol
+  - Versa-1
+  - War Hammer
+  - Xtreme Epi-Drol
+  - Xtreme Tren-Z
+  - Xtreme Triple Stack
+  - Yok3d
+
+- **Disapproved steroids**
+
+  - 4-AD
+  - 4-androstenediol
+  - 4-Androstenedione
+  - 4-chlorotestosterone
+  - 4-dihydrotestosterone
+  - 5-Androstenediol
+  - 5-Androstenedione
+  - Adroyd
+  - Alfa-Trofodermin
+  - Anabol-4-19
+  - Anabolex
+  - Anadroid-F
+  - Anamidol
+  - Anapolon
+  - Anasteron
+  - Anavar
+  - Andractim
+  - Android
+  - Android-T
+  - Androlan
+  - androst-4-en-3,17-dione
+  - androst-5-en-3,17-dione
+  - Androstanedione
+  - Androstenediol
+  - Androstenedione
+  - Androviron
+  - Assimil
+  - Balnimax
+  - Bolasterone
+  - Boldenone
+  - Boldione
+  - Calusterone
+  - Clostebol
+  - Clostene
+  - DECA-Durabolin
+  - Dehydrochloromethyl testosterone
+  - dehydrotestosterone
+  - Delta1-dihydrotestosterone
+  - Depotest
+  - Desoxymethyl testosterone
+  - Drolban
+  - Drostanolone
+  - Durabolin
+  - Duraboral
+  - Equipoise
+  - Ermalone
+  - Esiclene
+  - estr-4-en-3,17-dione
+  - estr-5-en-3,17-dione
+  - Finajet
+  - Finaplix-S
+  - Formebolone
+  - Frazalon
+  - Furazabol
+  - Genabol
+  - Halotestin
+  - Hubernol
+  - Lentabol
+  - Lonavar
+  - Lutenin
+  - Masterid
+  - Matenon
+  - Matronal
+  - Maxibolin
+  - Mestanolone
+  - Metabolina
+  - Methandienone
+  - Methasterone
+  - Methenolone
+  - Methosarb
+  - Methybol
+  - Methyldienolone
+  - Methyltrienolone
+  - Metribolone
+  - Mibolerone
+  - Miotolon
+  - Nandrolone
+  - Nerobol
+  - Nilevar
+  - Norbolethone
+  - Norclostebol
+  - Norethandrolone
+  - Normethandrolone
+  - Ora-Testryl
+  - Orabolin
+  - Oral-Turinabol
+  - Oranabol
+  - Oreton
+  - Orgasteron
+  - Oxymesterone
+  - Parabolan
+  - Pardroyd
+  - Parenabol
+  - Perbolin
+  - Permastril
+  - Pesomax
+  - Primobolan
+  - Pronabol
+  - Proviron
+  - Provitar
+  - Qu Zhi Shu
+  - Sinesex
+  - Solevar
+  - Stanolone
+  - Stenbolone
+  - Stenediol
+  - Tantarone
+  - Teolit
+  - Teslac
+  - Testiwop
+  - Tetrahydrogestrinone
+  - THG
+  - Trenbolone
+  - Troformone
+  - Turinabol
+  - Vasorome
+  - Vebonol
+  - Virilon
+  - Winstrol
+
+## Additional resources
+
+- [Exception process](hlp_BA_PROC_RequestException.md)
+- [History of changes to policies (change log)](hlp_BA_CONC_Policy_ChangeLog.md)
+- [Publisher preferences](hlp_BA_CONC_PublisherPreferences.md)
+- [Contact us](https://go.microsoft.com/fwlink/?linkid=2189081)
+- [Pilot programs policies](hlp_BA_CONC_Policy_PilotPrograms.md)
+- [CN pilot for policy](https://help.ads.microsoft.com/resources/microsoft_advertising_policy/microsoft-advertising-pilot-policy-cn.pdf)

@@ -1,5 +1,5 @@
 ---
-title: Where Can I Find Information About the Bing Ads API?
+title: Where can I find information about the Bing Ads API?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Getting Ad Campaigns up and Running in Microsoft Advertising
+title: Getting ad campaigns up and running in Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

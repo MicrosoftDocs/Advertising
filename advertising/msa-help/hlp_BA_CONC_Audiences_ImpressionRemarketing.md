@@ -1,5 +1,5 @@
 ---
-title: "Impression-based Remarketing: Reach People Who Have Viewed Your Ads"
+title: Impression-based remarketing - Reach people who have viewed your ads
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

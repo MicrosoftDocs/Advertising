@@ -1,5 +1,5 @@
 ---
-title: About China Advertiser Identity Verification
+title: About China advertiser identity verification
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn about how advertiser identity verification in China helps ensure trust in the ads that we show.
 ---
 
-# About China Advertiser identity verification
+# About China advertiser identity verification
 
 Microsoft Advertising requires advertiser identity verification to ensure that customers see ads from trusted sources to improve their overall experience. In China, we request advertisers to become a verified advertiser before they can deliver their ads.
 

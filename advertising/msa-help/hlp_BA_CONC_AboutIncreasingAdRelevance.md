@@ -1,5 +1,5 @@
 ---
-title: About Improving Ad Relevance
+title: About improving ad relevance
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

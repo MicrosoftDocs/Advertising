@@ -1,5 +1,5 @@
 ---
-title: Did I Bid High Enough?
+title: Did I bid high enough?
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
 ms.topic: article

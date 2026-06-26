@@ -1,5 +1,5 @@
 ---
-title: Auto-apply Recommendation Settings
+title: Auto-apply recommendation settings
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

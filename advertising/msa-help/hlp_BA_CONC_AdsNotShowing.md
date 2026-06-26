@@ -1,5 +1,5 @@
 ---
-title: "Ads Not Showing: What Can I Do?"
+title: Ads not showing - What can I do?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: If your ads aren't running and Microsoft Advertising can't determine why, here are some possible solutions.
 ---
 
-# Ads not showing: What can I do?
+# Ads not showing - What can I do?
 
 Your ads aren't showing for this keyword at the moment, and Microsoft Advertising can't determine why. It could be because it's a new keyword, your quality score is too low, your bid is too low, or some other reason.
 

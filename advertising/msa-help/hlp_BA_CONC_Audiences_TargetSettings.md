@@ -1,5 +1,5 @@
 ---
-title: How Do I Edit the Targeting Setting for an Association?
+title: How do I edit the targeting setting for an association?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

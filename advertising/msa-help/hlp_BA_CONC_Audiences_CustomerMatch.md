@@ -1,5 +1,5 @@
 ---
-title: "Customer Match: Use Your Own Data to Find Customers"
+title: Customer Match - Use your own data to find customers
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn how to upload your own customer match lists to Microsoft Advertising and then target this audience.
 ---
 
-# Customer match: Use your own data to find customers
+# Customer match - Use your own data to find customers
 
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
@@ -88,7 +88,7 @@ Customer lists are just one of our [audience targeting options](hlp_BA_CONC_Audi
 
 Streamline your customer match lists by integrating Zapier with your Microsoft Advertising account. Zapier is a third-party partner that automates data transfers and updates between the applications you use for your business, such as Salesforce, HubSpot, and Microsoft Excel. Zapier applies those updates to your Microsoft Advertising account.
 
-We currently support creating customer match lists and adding/removing contacts with Zapier. For more information, see [Zapier's Microsoft Advertising integration templates](TODO-FWLINK-2245480).
+We currently support creating customer match lists and adding/removing contacts with Zapier. For more information, see [Zapier's Microsoft Advertising integration templates](https://go.microsoft.com/fwlink/?linkid=2245480).
 
 > [!IMPORTANT]
 > Advertisers *must not* hash any personal customer data sent through Zapier to Microsoft Advertising. We handle the hashing process, ensuring you're adequately protecting customer privacy and that no raw data is uploaded against our APIs.
@@ -98,18 +98,18 @@ We currently support creating customer match lists and adding/removing contacts 
   > [!NOTE]
   > Accept the **Customer Match Terms** before linking your Microsoft Advertising account with Zapier. For instructions, see [Create an audience with your customer match list](#create-an-audience-with-your-customer-match-list).
 
-  1. [Log in](TODO-FWLINK-2245480) to Zapier.
+  1. [Log in](https://go.microsoft.com/fwlink/?linkid=2245480) to Zapier.
   1. Select **Create Zap**.
   1. Connect the app of your choice with Microsoft Advertising.
   1. Select a trigger from the dropdown menu.
   1. Select an action from the dropdown menu.
-  1. Set up your trigger. For more information about triggers, see [Zapier's Microsoft Advertising integration templates](TODO-FWLINK-2245480).
+  1. Set up your trigger. For more information about triggers, see [Zapier's Microsoft Advertising integration templates](https://go.microsoft.com/fwlink/?linkid=2245480).
   1. Choose the Microsoft Advertising account you want to link to Zapier.
   1. Select **Accept** to allow Zapier to access your information.
 
 - **Unlink Zapier and Microsoft Advertising**
 
-  1. Go to [Manage apps & services](TODO-FWLINK-2245380).
+  1. Go to [Manage apps & services](https://go.microsoft.com/fwlink/?linkid=2245380).
   1. Log in with your Microsoft Advertising account's email.
   1. Select **Edit** below the ZapierApp.
   1. Select **Remove these permissions**.

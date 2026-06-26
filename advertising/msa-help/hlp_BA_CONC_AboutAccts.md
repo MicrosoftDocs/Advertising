@@ -1,5 +1,5 @@
 ---
-title: How Should I Organize My Accounts and Campaigns?
+title: How should I organize my accounts and campaigns?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

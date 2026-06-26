@@ -1,5 +1,5 @@
 ---
-title: About Account Map
+title: About Account map
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: What Does Approved Limited Status Mean?
+title: What does Approved Limited status mean?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

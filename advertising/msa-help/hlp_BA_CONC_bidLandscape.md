@@ -1,5 +1,5 @@
 ---
-title: "Bid Landscape: View Impression and Cost Simulations Before Changing Your Bid"
+title: Bid landscape - View impression and cost simulations before changing your bid
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

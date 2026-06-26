@@ -1,5 +1,5 @@
 ---
-title: Associate Audiences with Ad Groups or Campaigns
+title: Associate audiences with ad groups or campaigns
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

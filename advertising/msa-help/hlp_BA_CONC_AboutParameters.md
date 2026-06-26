@@ -1,5 +1,5 @@
 ---
-title: Automatically Customize Your Ads with Dynamic Text Parameters
+title: Automatically customize your ads with dynamic text parameters
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

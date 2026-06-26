@@ -1,5 +1,5 @@
 ---
-title: Quality Score and Quality Impact in Depth
+title: Quality score and quality impact in depth
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

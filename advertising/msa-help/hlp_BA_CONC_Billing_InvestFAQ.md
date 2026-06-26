@@ -1,5 +1,5 @@
 ---
-title: Microsoft Advertising Contract Cut-over FAQ
+title: Microsoft Advertising contract cut-over FAQ
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: If you were previously a Xandr customer who has recently signed a new agreement with Microsoft Advertising, please note the following.
 ---
 
-# Microsoft Advertising Contract Cut-over FAQ
+# Microsoft Advertising contract cut-over FAQ
 
 ## Invest impact overview
 

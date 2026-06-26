@@ -1,5 +1,5 @@
 ---
-title: Enhance Ads with Automated Extensions
+title: Enhance ads with automated extensions
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -149,7 +149,7 @@ Here are the different types of automated extensions available from Microsoft Ad
      - Family-owned
      - Vegan
 
-     For a complete list of Business attributes, please see this [spreadsheet](TODO-FWLINK-2180916).
+     For a complete list of Business attributes, please see this [spreadsheet](https://go.microsoft.com/fwlink/?linkid=2180916).
   1. Select **Save**.
 
      > [!NOTE]

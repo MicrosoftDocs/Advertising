@@ -1,5 +1,5 @@
 ---
-title: What's My Audience Targeting Status?
+title: What's my audience targeting status?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

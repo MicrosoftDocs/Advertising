@@ -1,5 +1,5 @@
 ---
-title: Get the Big Picture from the Accounts Summary Page
+title: Get the big picture from the Accounts summary page
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Account Errors
+title: Account errors
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article

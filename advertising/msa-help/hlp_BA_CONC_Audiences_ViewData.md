@@ -1,5 +1,5 @@
 ---
-title: Where Do I View Audience Performance Data?
+title: Where do I view audience performance data?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article

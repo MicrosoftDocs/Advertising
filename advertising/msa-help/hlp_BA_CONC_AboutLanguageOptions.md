@@ -1,5 +1,5 @@
 ---
-title: About Language Options in Microsoft Advertising
+title: About language options in Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

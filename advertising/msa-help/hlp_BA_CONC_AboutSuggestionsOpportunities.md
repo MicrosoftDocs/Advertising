@@ -1,5 +1,5 @@
 ---
-title: Improve Campaign Performance with Microsoft Advertising Suggestions
+title: Improve campaign performance with Microsoft Advertising Suggestions
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

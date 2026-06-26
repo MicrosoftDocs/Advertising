@@ -1,5 +1,5 @@
 ---
-title: Settings per SAP ID (Enhanced)
+title: Settings per SAP ID (enhanced)
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
 ms.topic: article

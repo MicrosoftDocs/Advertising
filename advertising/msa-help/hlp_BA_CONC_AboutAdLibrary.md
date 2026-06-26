@@ -1,5 +1,5 @@
 ---
-title: About the Ad Library
+title: About the ad library
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Find out information about the Ad Library.
 ---
 
-# About the Ad Library
+# About the ad library
 
 <a id="About"></a>
 
@@ -17,7 +17,7 @@ The Microsoft Ad Library is a public-facing repository of ads served by Microsof
 
 <a id="information-included-in-the-ad-library"></a>
 
-### Information included in the Ad Library
+### Information included in the ad library
 
 Select **View ad details** when searching for ads to learn more about them, including:
 
@@ -46,7 +46,7 @@ Select **View ad details** when searching for ads to learn more about them, incl
 
 - **Can certain ads or information about ads be removed or redacted from the Ad Library?**
 
-  No. Microsoft includes all legally required information in the Ad Library and such information cannot be removed. However, ads that violate [Microsoft Advertising's policies](TODO-FWLINK-2295044) are not included in the Ad Library. When an ad has been removed for this reason, we show an explanation of why the ad was removed and link to the corresponding policy violation.
+  No. Microsoft includes all legally required information in the Ad Library and such information cannot be removed. However, ads that violate [Microsoft Advertising's policies](https://go.microsoft.com/fwlink/?linkid=2295044) are not included in the Ad Library. When an ad has been removed for this reason, we show an explanation of why the ad was removed and link to the corresponding policy violation.
 
 - **Will my advertisements be visible to anyone searching in the Ad Library?**
 
@@ -83,7 +83,7 @@ Select **View ad details** when searching for ads to learn more about them, incl
 
 - **How can I report an ad I see in the Ad Library?**
 
-  To report an issue or concern with an ad shown on Bing, use the [Low-quality ad submission and escalation form](TODO-FWLINK-2239975) or [Intellectual property concern form](TODO-FWLINK-2241148) to Microsoft Advertising, depending on your concern.
+  To report an issue or concern with an ad shown on Bing, use the [Low-quality ad submission and escalation form](https://go.microsoft.com/fwlink/?linkid=2239975) or [Intellectual property concern form](https://go.microsoft.com/fwlink/?linkid=2241148) to Microsoft Advertising, depending on your concern.
 
 - **When searching for an ad in the Ad Library, does filtering my search by date impact which version of the ad I see if the advertiser has edited it?**
 
@@ -115,7 +115,7 @@ Select **View ad details** when searching for ads to learn more about them, incl
 
 - **How can I turn off personalized ads for my Microsoft account?**
 
-  You can change your personalized ad settings in your privacy dashboard: [Microsoft account | Privacy](TODO-FWLINK-2245612)
+  You can change your personalized ad settings in your privacy dashboard: [Microsoft account | Privacy](https://go.microsoft.com/fwlink/?linkid=2245612)
 
 - **How does the Ad Library determine the start and end dates for which an ad ran?**
 
@@ -123,7 +123,7 @@ Select **View ad details** when searching for ads to learn more about them, incl
 
 - **Am I able to see ads with restricted content in the Ad Library?**
 
-  Yes, ads with restricted content are available in the Ad Library, but certain content may be blocked. Please note that ads that violate [Microsoft Advertising's policies](TODO-FWLINK-2295044) are not included in the Ad Library. Where an ad has been removed for this reason, we show a disclaimer explaining why the ad was removed and link to the corresponding policy violation.
+  Yes, ads with restricted content are available in the Ad Library, but certain content may be blocked. Please note that ads that violate [Microsoft Advertising's policies](https://go.microsoft.com/fwlink/?linkid=2295044) are not included in the Ad Library. Where an ad has been removed for this reason, we show a disclaimer explaining why the ad was removed and link to the corresponding policy violation.
 
 - **What is ad targeting?**
 

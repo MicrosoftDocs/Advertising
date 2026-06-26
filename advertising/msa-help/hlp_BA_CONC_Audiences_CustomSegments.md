@@ -1,5 +1,5 @@
 ---
-title: "Custom Segments: Reach Your Ideal Audience Based on Their Interests and Behaviors"
+title: Custom segments - Reach your ideal audience based on their interests and behaviors
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
 ms.topic: article
@@ -9,7 +9,7 @@ ms.date: 6/18/2026
 description: Learn more about using custom segments to target your ideal audience.
 ---
 
-# Custom segments: Reach your ideal audience based on their interests and behaviors
+# Custom segments -Reach your ideal audience based on their interests and behaviors
 
 > [!NOTE]
 > - Not everyone has this feature yet. If you don't, don't worry—it's coming soon!

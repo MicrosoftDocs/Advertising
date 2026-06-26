@@ -1,5 +1,5 @@
 ---
-title: What Is the Microsoft Advertising Network?
+title: What is the Microsoft Advertising Network?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

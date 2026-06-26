@@ -1,5 +1,5 @@
 ---
-title: "App Install Ads: Drive App Downloads"
+title: App install ads - Drive app downloads
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
@@ -9,21 +9,21 @@ ms.date: 6/18/2026
 description: App Install ads provide direct links to your apps with a single button.
 ---
 
-# App Install ads: Drive app downloads
+# App install ads - Drive app downloads
 
 > [!NOTE]
-> - Learn more about where [App Install ads are available](hlp_BA_CONC_Countries.md).
+> - Learn more about where [App install ads are available](hlp_BA_CONC_Countries.md).
 > - Microsoft Advertising only supports iOS and Android apps in the Apple App Store and the Google Play Store in certain markets. There is no support for apps on Windows.
 
-App Install ads are an ideal solution if you want to manage and drive downloads of your apps, rather than website traffic. Because these ads automaticall detect a customer's mobile device and operating system, they provide direct links to your app, sending customers directly to the applicable store to download the application.
+App install ads are an ideal solution if you want to manage and drive downloads of your apps, rather than website traffic. Because these ads automatically detect a customer's mobile device and operating system, they provide direct links to your app, sending customers directly to the applicable store to download the application.
 
 You can track conversions when you set up a measurement URL with a conversion tracking partner such as AppsFlyer, Kochava, Tune, Singular, Adjust, or Branch.
 
-## Compare App Install ads and app extensions
+## Compare App install ads and app extensions
 
-An App Install ad is similar to an ad with an associated [app extension](hlp_BA_CONC_AdExtensionAppExtension.md). They both use third-party measurement URLs to track conversion goals. Both include app icons and send users to the app store as appropriate for the device they are using. Here are some key differences:
+An App install ad is similar to an ad with an associated [app extension](hlp_BA_CONC_AdExtensionAppExtension.md). They both use third-party measurement URLs to track conversion goals. Both include app icons and send users to the app store as appropriate for the device they are using. Here are some key differences:
 
-| Feature | App Install ads | App extensions |
+| Feature | App install ads | App extensions |
 | --- | --- | --- |
 | **Final URL** | No display URL: All clicks head to the appropriate app store. | Pairs with Search ads; serves based on [ad extension settings](hlp_BA_CONC_AboutAdExtensions.md). |
 | **Tracking** | Uses measurement URL and optional, third-party tracking template. You can add URL suffixes and custom parameters for expanded tracking. | Uses measurement URL and optional, third-party tracking template |

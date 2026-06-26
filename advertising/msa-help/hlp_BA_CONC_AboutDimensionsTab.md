@@ -1,5 +1,5 @@
 ---
-title: Review Your Campaign Data by a Specific Pivot or Dimension
+title: Review your campaign data by a specific pivot or dimension
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

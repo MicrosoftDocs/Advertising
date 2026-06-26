@@ -1,5 +1,5 @@
 ---
-title: What Are Keywords and How Should I Build My Keyword List?
+title: What are keywords and how should I build my keyword list?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: What Makes an Effective Ad?
+title: What makes an effective ad?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
