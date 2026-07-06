@@ -185,7 +185,7 @@ The [AccountPropertyName](accountpropertyname.md) value set has the following va
 |<a name="netflixtcaccepted"></a>NetflixTCAccepted|The Netflix terms and conditions are accepted.|
 |<a name="none"></a>None|For internal use only.|
 |<a name="optoutfrommcm"></a>OptOutFromMCM|The output from Microsoft Configuration Manager.|
-|<a name="optoutfromsystemsourcedimagesinswf"></a>OptOutFromSystemSourcedImagesInSWF|Reserved.|
+|<a name="optoutfromsystemsourcedimagesinswf"></a>OptOutFromSystemSourcedImagesInSWF|For internal use only.|
 |<a name="profileexpansionenabled"></a>ProfileExpansionEnabled|Used to get or set the property that determines whether LinkedIn profile targeting expansion is enabled for the account.<br/><br/>For more information see [ProfileExpansionEnabled](accountproperty.md#profileexpansionenabled).|
 |<a name="trackingurltemplate"></a>TrackingUrlTemplate|Used to get or set the account's tracking template.<br/><br/>For more information see [TrackingUrlTemplate](accountproperty.md#trackingurltemplate).|
 
