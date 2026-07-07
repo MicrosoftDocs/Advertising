@@ -31,8 +31,6 @@ For Universal Windows Platform applications, [download the Windows App UET SDK N
 
 For Win32 applications, [download the Windows App UET SDK NuGet package](https://www.nuget.org/packages/Microsoft.BingAds.UETSdk.Win32).
 
-For PWA applications, [download the Windows App UET SDK NPM package](https://www.npmjs.com/package/@bing-ads/uet-pwa-sdk).
-
 <!-- ### <a name="requirements"></a>Requirements
 
 You’ll need to have a UET tagID associated with your app. To create a new UET tag, see the [Universal Event Tracking help documentation](./universal-event-tracking.md#uet). 
@@ -210,18 +208,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
             //  123456: replace with your UET tag id
         } 
-```
-
-Here is an example of Windows App UET SDK usage in Javascript for a PWA app:
-
-**Initialize Windows App UET SDK at application level on app launch by providing UET tagId.**
-
-```javascript
-import UETPWASDK from '@bing-ads/uet-pwa-sdk';
-
-const uet = new UETPWASDK ({ 
-    ti: "<tag_id>" 
-});
 ```
 
 **In order to track recommended events, make use of TrackGoal API of created SDK object.**
