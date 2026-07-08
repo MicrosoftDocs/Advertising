@@ -76,7 +76,10 @@ The Microsoft Shopping Campaigns Fixed Bid minimum and recommended bids 
 
 ## <a name="conversiongoalrevenue"></a>Conversion Goal Revenue Currencies
 
-The following currency codes are supported for conversion goals by setting the *CurrencyCode* element of the [ConversionGoalRevenue](../campaign-management-service/conversiongoalrevenue.md) object.
+The following currency codes are supported for conversion goals by setting the *CurrencyCode* element of the [ConversionGoalRevenue](../campaign-management-service/conversiongoalrevenue.md) object.  
+
+> [!NOTE]
+> When UET events send revenue in a currency different from the account currency, the currency parameter should be explicitly passed in the UET event. If provided, Microsoft Advertising converts the value to the account currency using the applicable FX rate. If not, the value is treated as being in the account currency, which can lead to inflated or incorrect revenue reporting.  
 
 |Currency Code|Currency Name|
 |-----|-----|
