@@ -1,4 +1,4 @@
-- name: Setup and Basics
+﻿- name: Setup and Basics
   items:
     - name: Microsoft Advertising basics
       items:
@@ -326,68 +326,68 @@
               href: ./hlp_BA_PROC_AgencyEnable.md
         - name: Agency management
           items:
-    - name: Microsoft Advertising policies and agreements
-      items:
-        - name: Policies and guidelines
-          items:
-            - name: Ad Extensions Policies
-              href: ./hlp_BA_CONC_Policy_AdExtensionPolicies.md
-            - name: Ad Relevance and Landing Page Quality
-              href: ./hlp_BA_CONC_Policy_RelevanceAndQuality.md
-            - name: Duplicate Ads in Search
-              href: ./hlp_BA_CONC_Policy_DuplicateAds.md
-            - name: General Ad Requirements
-              href: ./hlp_BA_CONC_Policy_GeneralAdRequirements.md
-            - name: Intellectual Property Policies
-              href: ./hlp_BA_CONC_Policy_IntellectualPolicies.md
-            - name: Introduction to Microsoft Advertising Network Policies
-              href: ./hlp_BA_CONC_Policy_Introduction.md
-            - name: Policy Creative Specs
-              href: ./hlp_BA_CONC_Policy_CreativeSpecs.md
-            - name: Policy Disallowed Content
-              href: ./hlp_BA_CONC_Policy_DisallowedContent.md
-            - name: Policy Restricted Content
-              href: ./hlp_BA_CONC_Policy_RestrictedContent.md
-            - name: Privacy and Personalization
-              href: ./hlp_BA_CONC_Policy_LegalPrivacyPersonalization.md
-            - name: Product Ads Policies
-              href: ./hlp_BA_CONC_Policy_ProductAdPolicies.md
-            - name: What Happens When an Ad Policy is Violated
-              href: ./hlp_BA_CONC_Policy_ImpactToYourMicrosoftAdsAccount.md
-        - name: Additional policies and agreements
-          items:
-            - name: Arbitration Agreement and Class Action Waiver (united States)
-              href: ./hlp_BA_CONC_Policy_Agreement_Arbitration.md
-            - name: Disapproved Healthcare Products and Supplements
-              href: ./hlp_BA_CONC_Policy_DisapprovedHealthcareProdSupp.md
-            - name: Microsoft Advertising Agreement
-              href: ./hlp_BA_CONC_Policy_AgreementPDF.md
-            - name: Microsoft Advertising Agreement Change Log
-              href: ./hlp_BA_CONC_Policy_Agreement_ChangeLog.md
-            - name: Microsoft Advertising Click Measurement - Description of Methodology
-              href: ./hlp_BA_CONC_Policy_ClickMeasurement.md
-            - name: Microsoft Advertising Policies
-              href: ./hlp_BA_CONC_Policy_LanguageTOC.md
-            - name: Microsoft Advertising Policies Change Log
-              href: ./hlp_BA_CONC_Policy_ChangeLog.md
-            - name: Microsoft Curate Advertising Agreement
-              href: ./hlp_BA_CONC_Policy_CuratePDF.md
-            - name: Microsoft Curate Advertising Agreement Change Log
-              href: ./hlp_BA_CONC_Policy_Agreement_CurateChangeLog.md
-            - name: Microsoft Monetize Advertising Agreement
-              href: ./hlp_BA_CONC_Policy_MonetizePDF.md
-            - name: Microsoft Monetize Advertising Agreement Change Log
-              href: ./hlp_BA_CONC_Policy_Agreement_MonetizeChangeLog.md
-            - name: Microsoft Standard Terms for Media Buyers
-              href: ./hlp_BA_CONC_Policy_InvestPDF.md
-            - name: Pilot Programs Policies
-              href: ./hlp_BA_CONC_Policy_PilotPrograms.md
-            - name: Publisher Preferences
-              href: ./hlp_BA_CONC_PublisherPreferences.md
-            - name: Traffic Quality Center
-              href: ./hlp_BA_CONC_Policy_TrafficQuality.md
-            - name: Why is This URL in My Search Advertising Dashboard?
-              href: ./hlp_BA_CONC_Policy_SearchDashboard.md
+    # - name: Microsoft Advertising policies and agreements
+    #   items:
+    #     - name: Policies and guidelines
+    #       items:
+    #         - name: Ad Extensions Policies
+    #           href: ./hlp_BA_CONC_Policy_AdExtensionPolicies.md
+    #         - name: Ad Relevance and Landing Page Quality
+    #           href: ./hlp_BA_CONC_Policy_RelevanceAndQuality.md
+    #         - name: Duplicate Ads in Search
+    #           href: ./hlp_BA_CONC_Policy_DuplicateAds.md
+    #         - name: General Ad Requirements
+    #           href: ./hlp_BA_CONC_Policy_GeneralAdRequirements.md
+    #         - name: Intellectual Property Policies
+    #           href: ./hlp_BA_CONC_Policy_IntellectualPolicies.md
+    #         - name: Introduction to Microsoft Advertising Network Policies
+    #           href: ./hlp_BA_CONC_Policy_Introduction.md
+    #         - name: Policy Creative Specs
+    #           href: ./hlp_BA_CONC_Policy_CreativeSpecs.md
+    #         - name: Policy Disallowed Content
+    #           href: ./hlp_BA_CONC_Policy_DisallowedContent.md
+    #         - name: Policy Restricted Content
+    #           href: ./hlp_BA_CONC_Policy_RestrictedContent.md
+    #         - name: Privacy and Personalization
+    #           href: ./hlp_BA_CONC_Policy_LegalPrivacyPersonalization.md
+    #         - name: Product Ads Policies
+    #           href: ./hlp_BA_CONC_Policy_ProductAdPolicies.md
+    #         - name: What Happens When an Ad Policy is Violated
+    #           href: ./hlp_BA_CONC_Policy_ImpactToYourMicrosoftAdsAccount.md
+    #     - name: Additional policies and agreements
+    #       items:
+    #         - name: Arbitration Agreement and Class Action Waiver (united States)
+    #           href: ./hlp_BA_CONC_Policy_Agreement_Arbitration.md
+    #         - name: Disapproved Healthcare Products and Supplements
+    #           href: ./hlp_BA_CONC_Policy_DisapprovedHealthcareProdSupp.md
+    #         - name: Microsoft Advertising Agreement
+    #           href: ./hlp_BA_CONC_Policy_AgreementPDF.md
+    #         - name: Microsoft Advertising Agreement Change Log
+    #           href: ./hlp_BA_CONC_Policy_Agreement_ChangeLog.md
+    #         - name: Microsoft Advertising Click Measurement - Description of Methodology
+    #           href: ./hlp_BA_CONC_Policy_ClickMeasurement.md
+    #         - name: Microsoft Advertising Policies
+    #           href: ./hlp_BA_CONC_Policy_LanguageTOC.md
+    #         - name: Microsoft Advertising Policies Change Log
+    #           href: ./hlp_BA_CONC_Policy_ChangeLog.md
+    #         - name: Microsoft Curate Advertising Agreement
+    #           href: ./hlp_BA_CONC_Policy_CuratePDF.md
+    #         - name: Microsoft Curate Advertising Agreement Change Log
+    #           href: ./hlp_BA_CONC_Policy_Agreement_CurateChangeLog.md
+    #         - name: Microsoft Monetize Advertising Agreement
+    #           href: ./hlp_BA_CONC_Policy_MonetizePDF.md
+    #         - name: Microsoft Monetize Advertising Agreement Change Log
+    #           href: ./hlp_BA_CONC_Policy_Agreement_MonetizeChangeLog.md
+    #         - name: Microsoft Standard Terms for Media Buyers
+    #           href: ./hlp_BA_CONC_Policy_InvestPDF.md
+    #         - name: Pilot Programs Policies
+    #           href: ./hlp_BA_CONC_Policy_PilotPrograms.md
+    #         - name: Publisher Preferences
+    #           href: ./hlp_BA_CONC_PublisherPreferences.md
+    #         - name: Traffic Quality Center
+    #           href: ./hlp_BA_CONC_Policy_TrafficQuality.md
+    #         - name: Why is This URL in My Search Advertising Dashboard?
+    #           href: ./hlp_BA_CONC_Policy_SearchDashboard.md
 - name: Manage Ads
   items:
     - name: Ads and approvals
@@ -1202,16 +1202,16 @@
           href: ./hlp_BA_CONC_AIVTableTEST.md
         - name: All about Smart campaigns
           href: ./hlp_BA_CONC_SmartCamps_Intro.md
-        - name: Animals and Wildlife
-          href: ./hlp_BA_CONC_Policy_DisallowedEndangered.md
+        # - name: Animals and Wildlife
+        #   href: ./hlp_BA_CONC_Policy_DisallowedEndangered.md
         - name: APEX TAB SAMPLE Microsoft Advertising?
           href: ./hlp_BA_CONC_ApexTabSample.md
-        - name: Areas of Questionable Legality
-          href: ./hlp_BA_CONC_Policy_DisallowedAreas.md
+        # - name: Areas of Questionable Legality
+        #   href: ./hlp_BA_CONC_Policy_DisallowedAreas.md
         - name: Automotive listing inventory ads' dynamic data feeds
           href: ./hlp_BA_CONC_FeedsAttributes_Autos.md
-        - name: Beauty and Cosmetics
-          href: ./hlp_BA_CONC_Policy_RestrictedBeauty.md
+        # - name: Beauty and Cosmetics
+        #   href: ./hlp_BA_CONC_Policy_RestrictedBeauty.md
         - name: Billing Summary in depth (enhanced)
           href: ./hlp_BA_CONC_BillingTabEnhanced.md
         - name: Copilot in Microsoft Advertising
@@ -1220,32 +1220,32 @@
           href: ./hlp_BA_CONC_FeedsAttributes_CreditCards.md
         - name: Cruise ads' dynamic data feeds
           href: ./hlp_BA_CONC_FeedsAttributes_Cruises.md
-        - name: Dating and companionship
-          href: ./hlp_BA_CONC_Policy_RestrictedDating.md
-        - name: Deceptive Products and Services
-          href: ./hlp_BA_CONC_Policy_DisallowedDeceptive.md
-        - name: Drugs and Related Paraphernalia
-          href: ./hlp_BA_CONC_Policy_DisallowedDrugs.md
+        # - name: Dating and companionship
+        #   href: ./hlp_BA_CONC_Policy_RestrictedDating.md
+        # - name: Deceptive Products and Services
+        #   href: ./hlp_BA_CONC_Policy_DisallowedDeceptive.md
+        # - name: Drugs and Related Paraphernalia
+        #   href: ./hlp_BA_CONC_Policy_DisallowedDrugs.md
         - name: FAQ - Remarketing
           href: ./hlp_BA_CONC_Remarketing_FAQ.md
         - name: Feeds Attributes Autos GTEST
           href: ./hlp_BA_CONC_FeedsAttributes_Autos_GTEST.md
         - name: Feeds Events
           href: ./hlp_BA_CONC_Feeds_Events.md
-        - name: Fireworks and Dangerous Materials
-          href: ./hlp_BA_CONC_Policy_DisallowedFireworks.md
-        - name: Gambling and games
-          href: ./hlp_BA_CONC_Policy_RestrictedGambling.md
+        # - name: Fireworks and Dangerous Materials
+        #   href: ./hlp_BA_CONC_Policy_DisallowedFireworks.md
+        # - name: Gambling and games
+        #   href: ./hlp_BA_CONC_Policy_RestrictedGambling.md
         - name: Get Started with Microsoft Advertising
           href: ./hlp_BA_CONC_GetStarted2017.md
         - name: Get Started with Microsoft Advertising
           href: ./hlp_BA_CONC_GetStarted2020.md
         - name: Get to know your Microsoft Advertising account modes
           href: ./hlp_BA_CONC_SmartVsExpert.md
-        - name: Government Services and Products
-          href: ./hlp_BA_CONC_Policy_RestrictedGov.md
-        - name: Healthcare and Pharmaceutical Ad Policy
-          href: ./hlp_BA_CONC_Policy_RestrictedPharma.md
+        # - name: Government Services and Products
+        #   href: ./hlp_BA_CONC_Policy_RestrictedGov.md
+        # - name: Healthcare and Pharmaceutical Ad Policy
+        #   href: ./hlp_BA_CONC_Policy_RestrictedPharma.md
         - name: Hidden Copilot reference topic
           href: ./hlp_BA_CONC_CopilotHiddenTopic.md
         - name: How can I automate my campaigns with Microsoft Advertising scripts?
@@ -1256,26 +1256,26 @@
           href: ./hlp_BA_CONC_AIVStatus.md
         - name: Imposto sobre Serviços
           href: ./hlp_BA_CONC_ISS.md
-        - name: Information Integrity and Misleading Content
-          href: ./hlp_BA_CONC_Policy_DisallowedInformation.md
+        # - name: Information Integrity and Misleading Content
+        #   href: ./hlp_BA_CONC_Policy_DisallowedInformation.md
         - name: Job listing ads' dynamic data feeds
           href: ./hlp_BA_CONC_FeedsAttributes_JobListing.md
         - name: Malaysia Sales and Service Tax
           href: ./hlp_BA_CONC_MYSToDS.md
-        - name: Malware, Malicious and Unwanted Software, and Phishing
-          href: ./hlp_BA_CONC_Policy_DisallowedMalware.md
+        # - name: Malware, Malicious and Unwanted Software, and Phishing
+        #   href: ./hlp_BA_CONC_Policy_DisallowedMalware.md
         - name: Manage your Microsoft Advertisingcampaigns
           href: ./hlp_BA_CONC_StoreAds_Manage.md
         - name: Managing your India tax ID
           href: ./hlp_BA_CONC_IndiaPANFAQ.md
-        - name: Microsoft Advertising Agreement
-          href: ./hlp_BA_CONC_Policy_Agreement_MicrosoftAdvertising.md
+        # - name: Microsoft Advertising Agreement
+        #   href: ./hlp_BA_CONC_Policy_Agreement_MicrosoftAdvertising.md
         - name: Microsoft Advertising Agreement
           href: ./hlp_BA_CONC_TermsandConditions.md
         - name: Microsoft Advertising click measurement - Description of methodology (DOM)
           href: ./hlp_BA_CONC_DOM2.md
-        - name: Microsoft Advertising Contract Cut-over FAQ
-          href: ./hlp_BA_CONC_Policy_InvestImpactOverview.md
+        # - name: Microsoft Advertising Contract Cut-over FAQ
+        #   href: ./hlp_BA_CONC_Policy_InvestImpactOverview.md
         - name: Microsoft Advertising video tutorials
           href: ./hlp_BA_CONC_VidDirectory.md
         - name: Navigating Microsoft Advertising
@@ -1284,58 +1284,58 @@
           href: ./hlp_BA_CONC_Redesign.md
         - name: New Zealand Goods and Services Tax
           href: ./hlp_BA_CONC_NZGST.md
-        - name: Nudity and Suggestive Content
-          href: ./hlp_BA_CONC_Policy_RestrictedNudityandSuggestive.md
-        - name: Offensive, Harmful, or Violent Content
-          href: ./hlp_BA_CONC_Policy_DisallowedOffensive.md
-        - name: Other Market Restricted Products and Services
-          href: ./hlp_BA_CONC_Policy_RestrictedOther.md
-        - name: People Finder and Research Sites
-          href: ./hlp_BA_CONC_Policy_RestrictedPeople.md
-        - name: policy disallowed Inaccessible
-          href: ./hlp_BA_CONC_policy_disallowedInaccessible.md
-        - name: Policy Disallowed Non Indexed
-          href: ./hlp_BA_CONC_Policy_DisallowedNonIndexed.md
-        - name: Policy Disallowed Piracy
-          href: ./hlp_BA_CONC_Policy_DisallowedPiracy.md
-        - name: Policy Disallowed Sensitive
-          href: ./hlp_BA_CONC_Policy_DisallowedSensitive.md
-        - name: Policy Restricted Adult
-          href: ./hlp_BA_CONC_Policy_RestrictedAdult.md
-        - name: Policy Restricted Alcohol
-          href: ./hlp_BA_CONC_Policy_RestrictedAlcohol.md
-        - name: Policy Restricted Finance
-          href: ./hlp_BA_CONC_Policy_RestrictedFinance.md
-        - name: Policy Restricted Food
-          href: ./hlp_BA_CONC_Policy_RestrictedFood.md
-        - name: Policy Restricted Legal
-          href: ./hlp_BA_CONC_Policy_RestrictedLegal.md
-        - name: Policy Restricted Online
-          href: ./hlp_BA_CONC_Policy_RestrictedOnline.md
-        - name: Policy Restricted Political
-          href: ./hlp_BA_CONC_Policy_RestrictedPolitical.md
-        - name: Policy Restricted Pricing
-          href: ./hlp_BA_CONC_Policy_RestrictedPricing.md
-        - name: Policy Restricted Religious
-          href: ./hlp_BA_CONC_Policy_RestrictedReligious.md
-        - name: Policy Restricted Spy
-          href: ./hlp_BA_CONC_Policy_RestrictedSpy.md
-        - name: Policy Restricted Ticket
-          href: ./hlp_BA_CONC_Policy_RestrictedTicket.md
-        - name: Policy Restricted Tolled
-          href: ./hlp_BA_CONC_Policy_RestrictedTolled.md
-        - name: Policy Restricted Travel
-          href: ./hlp_BA_CONC_Policy_RestrictedTravel.md
-        - name: Policy Text Guidelines
-          href: ./hlp_BA_CONC_Policy_TextGuidelines.md
+        # - name: Nudity and Suggestive Content
+        #   href: ./hlp_BA_CONC_Policy_RestrictedNudityandSuggestive.md
+        # - name: Offensive, Harmful, or Violent Content
+        #   href: ./hlp_BA_CONC_Policy_DisallowedOffensive.md
+        # - name: Other Market Restricted Products and Services
+        #   href: ./hlp_BA_CONC_Policy_RestrictedOther.md
+        # - name: People Finder and Research Sites
+        #   href: ./hlp_BA_CONC_Policy_RestrictedPeople.md
+        # - name: policy disallowed Inaccessible
+        #   href: ./hlp_BA_CONC_policy_disallowedInaccessible.md
+        # - name: Policy Disallowed Non Indexed
+        #   href: ./hlp_BA_CONC_Policy_DisallowedNonIndexed.md
+        # - name: Policy Disallowed Piracy
+        #   href: ./hlp_BA_CONC_Policy_DisallowedPiracy.md
+        # - name: Policy Disallowed Sensitive
+        #   href: ./hlp_BA_CONC_Policy_DisallowedSensitive.md
+        # - name: Policy Restricted Adult
+        #   href: ./hlp_BA_CONC_Policy_RestrictedAdult.md
+        # - name: Policy Restricted Alcohol
+        #   href: ./hlp_BA_CONC_Policy_RestrictedAlcohol.md
+        # - name: Policy Restricted Finance
+        #   href: ./hlp_BA_CONC_Policy_RestrictedFinance.md
+        # - name: Policy Restricted Food
+        #   href: ./hlp_BA_CONC_Policy_RestrictedFood.md
+        # - name: Policy Restricted Legal
+        #   href: ./hlp_BA_CONC_Policy_RestrictedLegal.md
+        # - name: Policy Restricted Online
+        #   href: ./hlp_BA_CONC_Policy_RestrictedOnline.md
+        # - name: Policy Restricted Political
+        #   href: ./hlp_BA_CONC_Policy_RestrictedPolitical.md
+        # - name: Policy Restricted Pricing
+        #   href: ./hlp_BA_CONC_Policy_RestrictedPricing.md
+        # - name: Policy Restricted Religious
+        #   href: ./hlp_BA_CONC_Policy_RestrictedReligious.md
+        # - name: Policy Restricted Spy
+        #   href: ./hlp_BA_CONC_Policy_RestrictedSpy.md
+        # - name: Policy Restricted Ticket
+        #   href: ./hlp_BA_CONC_Policy_RestrictedTicket.md
+        # - name: Policy Restricted Tolled
+        #   href: ./hlp_BA_CONC_Policy_RestrictedTolled.md
+        # - name: Policy Restricted Travel
+        #   href: ./hlp_BA_CONC_Policy_RestrictedTravel.md
+        # - name: Policy Text Guidelines
+        #   href: ./hlp_BA_CONC_Policy_TextGuidelines.md
         - name: Professional Services ads' dynamic data feeds
           href: ./hlp_BA_CONC_FeedsAttributes_ProfessionalServices.md
-        - name: Promotion of third-party products and services
-          href: ./hlp_BA_CONC_Policy_RestrictedThirdParty.md
-        - name: Psychics, Tarot Reading, and Mediums
-          href: ./hlp_BA_CONC_Policy_RestrictedPsychics.md
-        - name: Public Service Announcements (psa) and Awareness Campaigns
-          href: ./hlp_BA_CONC_Policy_RestrictedPublic.md
+        # - name: Promotion of third-party products and services
+        #   href: ./hlp_BA_CONC_Policy_RestrictedThirdParty.md
+        # - name: Psychics, Tarot Reading, and Mediums
+        #   href: ./hlp_BA_CONC_Policy_RestrictedPsychics.md
+        # - name: Public Service Announcements (psa) and Awareness Campaigns
+        #   href: ./hlp_BA_CONC_Policy_RestrictedPublic.md
         - name: Reviewing the left pane
           href: ./hlp_BA_CONC_UCM_Test_Jon1A.md
         - name: Signing in with a work account
@@ -1376,22 +1376,22 @@
           href: ./hlp_BA_CONC_SmartCamps_Budget.md
         - name: Smart Goals
           href: ./hlp_BA_CONC_SmartGoals.md
-        - name: Software Download Products and Services, Freeware, and Shareware
-          href: ./hlp_BA_CONC_Policy_RestrictedSoft.md
-        - name: Solicitation of Funds and Fund-Raising
-          href: ./hlp_BA_CONC_Policy_RestrictedSolicit.md
+        # - name: Software Download Products and Services, Freeware, and Shareware
+        #   href: ./hlp_BA_CONC_Policy_RestrictedSoft.md
+        # - name: Solicitation of Funds and Fund-Raising
+        #   href: ./hlp_BA_CONC_Policy_RestrictedSolicit.md
         - name: Styles for Microsoft Advertising
           href: ./hlp_BA_CONC_aaaStylesTest.md
-        - name: Tattoos and Body Piercings
-          href: ./hlp_BA_CONC_Policy_RestrictedTattoo.md
-        - name: This is a concise heading
-          href: ./hlp_BA_CONC_Policy_aaaGuide.md
-        - name: Tobacco and Vaping Products
-          href: ./hlp_BA_CONC_Policy_DisallowedTobacco.md
+        # - name: Tattoos and Body Piercings
+        #   href: ./hlp_BA_CONC_Policy_RestrictedTattoo.md
+        # - name: This is a concise heading
+        #   href: ./hlp_BA_CONC_Policy_aaaGuide.md
+        # - name: Tobacco and Vaping Products
+        #   href: ./hlp_BA_CONC_Policy_DisallowedTobacco.md
         - name: Tours and Activities ads' dynamic data feeds
           href: ./hlp_BA_CONC_FeedsAttributes_ToursActivities.md
-        - name: Trafficking or Exploitation
-          href: ./hlp_BA_CONC_Policy_DisallowedTrafficking.md
+        # - name: Trafficking or Exploitation
+        #   href: ./hlp_BA_CONC_Policy_DisallowedTrafficking.md
         - name: Transferring accounts to a new owner
           href: ./hlp_BA_CONC_Accounts_Reparenting.md
         - name: Truncation of Expanded Text Ads
@@ -1400,22 +1400,22 @@
           href: ./hlp_BA_CONC_UET_Parameters_Table.md
         - name: UET tag not found
           href: ./hlp_BA_CONC_UETTagNotFound.md
-        - name: Understanding Egregious Violation Suspensions
-          href: ./hlp_BA_CONC_Policy_UnderstandingViolation.md
+        # - name: Understanding Egregious Violation Suspensions
+        #   href: ./hlp_BA_CONC_Policy_UnderstandingViolation.md
         - name: Understanding performance estimates and keyword suggestions
           href: ./hlp_BA_CONC_UnderstandingPerfEsts.md
-        - name: Understanding Strike Violations
-          href: ./hlp_BA_CONC_Policy_StrikeViolations.md
+        # - name: Understanding Strike Violations
+        #   href: ./hlp_BA_CONC_Policy_StrikeViolations.md
         - name: Universal Event Tracking (UET) using an IMG tag
           href: ./hlp_BA_CONC_UET_IMG_Tag.md
-        - name: Unmoderated User-Generated Content
-          href: ./hlp_BA_CONC_Policy_DisallowedUnregulated.md
+        # - name: Unmoderated User-Generated Content
+        #   href: ./hlp_BA_CONC_Policy_DisallowedUnregulated.md
         - name: Using the manager dashboard
           href: ./hlp_BA_CONC_ManagerDashboard.md
         - name: Using the product conversion goal
           href: ./hlp_BA_CONC_UETv2ProductGoal.md
-        - name: Weapons, Firearms, and Ammunition
-          href: ./hlp_BA_CONC_Policy_RestrictedWeapons.md
+        # - name: Weapons, Firearms, and Ammunition
+        #   href: ./hlp_BA_CONC_Policy_RestrictedWeapons.md
         - name: Welcome to Microsoft Advertising Help
           href: ./hlp_BA_CONC_Home.md
         - name: Welcome to Microsoft Advertising Help
