@@ -11,6 +11,9 @@ description: Defines an MSClickID performance report request.
 # MSClickIdPerformanceReportRequest Data Object - Reporting
 Defines an MSClickID performance report request.
 
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 ## Syntax
 
 # [XML](#tab/xml)

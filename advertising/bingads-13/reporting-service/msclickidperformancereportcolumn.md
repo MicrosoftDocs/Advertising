@@ -9,7 +9,10 @@ ms.date: 11/13/2024
 description: Defines a report that provides detailed insights into individual clicks and ad performance.
 ---
 # MSClickIdPerformanceReportColumn Value Set - Reporting
-Defines a report that provides detailed insights into individual clicks and ad performance.
+Defines a report that provides detailed insights into individual clicks and ad performance.\
+
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
 
 ## Syntax
 ```xml

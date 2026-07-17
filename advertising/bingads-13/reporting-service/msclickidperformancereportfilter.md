@@ -11,6 +11,9 @@ description: Defines the criteria to use to filter the MSClickId performance rep
 # MSClickIdPerformanceReportFilter Data Object - Reporting
 Defines the criteria to use to filter the MSClickId performance report data.
 
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 ## Syntax
 
 # [XML](#tab/xml)
