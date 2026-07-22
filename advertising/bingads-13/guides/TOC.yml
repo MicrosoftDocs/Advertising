@@ -98,6 +98,17 @@
 - name: Sandbox
   href: ./sandbox.md
   displayName: test get started
+- name: MCP Server
+  items:
+  - name: Setup Guide
+    href: ./mcp-setup.md
+    displayName: mcp setup guide
+  - name: Use Cases
+    href: ./mcp-use-cases.md
+    displayName: mcp use cases
+  - name: Tools
+    href: ./mcp-tools.md
+    displayName: mcp tools
 - name: Concepts
   items:
   - name: Overview
