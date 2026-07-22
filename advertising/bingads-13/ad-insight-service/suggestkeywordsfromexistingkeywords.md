@@ -18,7 +18,7 @@ dev_langs:
 Suggests keywords that could perform better than the specified keywords.
 
 > [!NOTE]
-> Starting January 7, the *SuggestionType* request body element will no longer be supported, and all responses will default to provider type *4*.
+> Starting January 7, 2026, the *SuggestionType* request body element will no longer be supported, and all responses will default to provider type *4*.
 
 ::: zone pivot="soap"
 
