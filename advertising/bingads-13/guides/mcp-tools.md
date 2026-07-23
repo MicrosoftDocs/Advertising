@@ -10,7 +10,7 @@ description: The Microsoft Advertising MCP server provides a set of read-only en
 ---
 # Microsoft Advertising MCP Entity Tools
 
-The Microsoft Advertising MCP server provides a set of read-only entity tools that enable AI agents and MCP clients to retrieve Microsoft Advertising data through a consistent query model. All entity tools use the same request and response structure, making it easy to query different entity types without learning a new API pattern for each operation. 【1-a45ec0】
+The Microsoft Advertising MCP server provides a set of read-only entity tools that enable AI agents and MCP clients to retrieve Microsoft Advertising data through a consistent query model. All entity tools use the same request and response structure, making it easy to query different entity types without learning a new API pattern for each operation.
 
 ## Overview
 
