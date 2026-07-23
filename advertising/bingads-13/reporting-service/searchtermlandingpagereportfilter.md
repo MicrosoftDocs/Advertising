@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the criteria to use to filter the search term landing page report data.
+description: Defines the criteria to use to filter the data returned by the Search Term Landing Page report.
 ---
 # SearchTermLandingPageReportFilter Data Object - Reporting
-Defines the criteria to use to filter the search term landing page report data.
+Defines the criteria to use to filter the data returned by the Search Term Landing Page report. Specify one or more filter elements to limit the report data. All filter elements are optional. If you don't specify a filter element, the report isn't filtered on that dimension.
 
 ## Syntax
 
@@ -47,10 +47,10 @@ The [SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md) ob
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adtype"></a>AdType|Reserved.|[AdTypeReportFilter](adtypereportfilter.md)|
-|<a name="deliveredmatchtype"></a>DeliveredMatchType|Reserved.|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|
-|<a name="language"></a>Language|Reserved.|[LanguageReportFilter](languagereportfilter.md)|
-|<a name="searchqueries"></a>SearchQueries|Reserved.|**string** array|
+|<a name="adtype"></a>AdType|Includes rows in the report where the ad type matches one of the specified ad types. You can include multiple ad type values as flags.<br/><br/>This element is optional. If not specified, all ad types are included.|[AdTypeReportFilter](adtypereportfilter.md)|
+|<a name="deliveredmatchtype"></a>DeliveredMatchType|Includes rows in the report where the delivered match type matches one of the specified match types. You can include multiple match type values as flags. Supported values include *Exact*, *Phrase*, *Broad*, and *AIOptimized*.<br/><br/>This element is optional. If not specified, all delivered match types are included.|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|
+|<a name="language"></a>Language|Includes rows in the report where the language matches one of the specified languages. You can include multiple language values as flags.<br/><br/>This element is optional. If not specified, all languages are included.|[LanguageReportFilter](languagereportfilter.md)|
+|<a name="searchqueries"></a>SearchQueries|Includes rows in the report where the search term matches one of the specified search query strings.<br/><br/>You can specify up to 100 search query strings. Each search query string can contain a maximum of 100 characters.<br/><br/>This element is optional. If not specified, the report is not filtered on search term.|**string** array|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  

@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines a search term landing page report request.
 ---
 # SearchTermLandingPageReportRequest Data Object - Reporting
-Defines a search term landing page report request.
+Defines a Search Term Landing Page report request. Use this request with the [SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the search term, delivered headline, and landing page URL for each ad impression.
 
 ## Syntax
 
@@ -91,11 +91,11 @@ The [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="aggregation"></a>Aggregation|Reserved.|[ReportAggregation](reportaggregation.md)|
-|<a name="columns"></a>Columns|Reserved.|[SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) array|
-|<a name="filter"></a>Filter|Reserved.|[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)|
-|<a name="scope"></a>Scope|Reserved.|[AccountThroughCampaignReportScope](accountthroughcampaignreportscope.md)|
-|<a name="time"></a>Time|Reserved.|[ReportTime](reporttime.md)|
+|<a name="aggregation"></a>Aggregation|The type of aggregation to use to aggregate the report data. For example, you can aggregate the report data by day or week.<br/><br/>Supported values are *Hourly*, *Daily*, We*ekly, *Monthly*, *Yearly*, *DayOfWeek*, and *HourOfDay*.<br/><br/>This element is required.|[ReportAggregation](reportaggregation.md)|
+|<a name="columns"></a>Columns|The list of attributes and performance statistics to include in the report. The report will include the columns in the order that you specify them.<br/><br/>You must specify Final URL and at least one performance statistics column, e.g., *Impressions*.<br/><br/>This element is required.|[SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) array|
+|<a name="filter"></a>Filter|The filter information to use to filter the report data.<br/><br/>This element is optional.|[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)|
+|<a name="scope"></a>Scope|The entities and their scope to include in the report. Use this element to limit the report data to specific accounts and campaigns.<br/><br/>This element is required.|[AccountThroughCampaignReportScope](accountthroughcampaignreportscope.md)|
+|<a name="time"></a>Time|The time frame to use to aggregate the report data. You can specify a custom date range or select a predefined date range, for example, *Today* or *ThisWeek*.<br/><br/>This element is required.|[ReportTime](reporttime.md)|
 
 The [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md) object has [Inherited Elements](#inheritedelements).
 
@@ -106,15 +106,14 @@ The [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="excludecolumnheaders"></a>ExcludeColumnHeaders|Reserved.|**boolean**|
-|<a name="excludereportfooter"></a>ExcludeReportFooter|Reserved.|**boolean**|
-|<a name="excludereportheader"></a>ExcludeReportHeader|Reserved.|**boolean**|
-|<a name="format"></a>Format|Reserved.|[ReportFormat](reportformat.md)|
-|<a name="formatversion"></a>FormatVersion|Reserved.|**string**|
-|<a name="reportname"></a>ReportName|Reserved.|**string**|
-|<a name="returnonlycompletedata"></a>ReturnOnlyCompleteData|Reserved.|**boolean**|
+|<a name="excludecolumnheaders"></a>ExcludeColumnHeaders|Determines whether or not the report includes header descriptions for each column of data.<br/><br/>This element is optional and defaults to *false*.|**boolean**|
+|<a name="excludereportfooter"></a>ExcludeReportFooter|Determines whether or not the report includes footer information such as copyright.<br/><br/>This element is optional and defaults to *false*.|**boolean**|
+|<a name="excludereportheader"></a>ExcludeReportHeader|Determines whether or not the report includes header information such as the report name and date range.<br/><br/>This element is optional and defaults to *false*.|**boolean**|
+|<a name="format"></a>Format|The format of the report file. For example you can specify to have the report data written to a file that uses comma-separated values (CSV).<br/><br/>This element is optional and defaults to *Csv*.|[ReportFormat](reportformat.md)|
+|<a name="formatversion"></a>FormatVersion|The format version of the report file.<br/><br/>This element is optional.|**string**|
+|<a name="reportname"></a>ReportName|The name of the report. The name will be used as the name of the download file.<br/><br/>This element is optional.|**string**|
+|<a name="returnonlycompletedata"></a>ReturnOnlyCompleteData|Determines whether the operation returns data for only fully processed time periods.<br/><br/>This element is optional and defaults to false.|**boolean**|
 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
-
