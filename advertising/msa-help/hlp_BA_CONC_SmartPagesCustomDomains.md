@@ -1,4 +1,4 @@
----
+﻿---
 title: Get to know your smart pages custom domains
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to use custom domains with your Smart Pages.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get to know your smart pages custom domains

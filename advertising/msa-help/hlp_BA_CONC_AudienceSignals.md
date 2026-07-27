@@ -1,4 +1,4 @@
----
+﻿---
 title: About audience signals
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about audience signals.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About audience signals
@@ -15,7 +16,7 @@ description: Learn all about audience signals.
 > This feature is available for [Performance Max campaigns](hlp_BA_PROC_AboutPmax.md).
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Audience signals help you find the right audience for your ads while maximizing conversions. When you create audience signals, you can choose the demographics and interests for your audience, which we'll use as a starting point to find relevant customers. You may also choose to find potential customers based on their LinkedIn profiles, or people who previously interacted with your website and products by adding [remarketing](hlp_BA_CONC_Audiences_Remarketing.md), [dynamic remarketing](hlp_BA_CONC_Audiences_ProductAudience.md), and [customer match lists](hlp_BA_CONC_Audiences_CustomerMatch.md).
 
@@ -25,7 +26,7 @@ Audience signals help you find the right audience for your ads while maximizing 
 See [below](#view-your-audience-signal-status) for more information about viewing and understanding your audience signal status.
 
 > [!NOTE]
-> Not everyone can find potential customers people based on their LinkedIn profiles in Performance Max campaigns yet. If you can't, don't worry—it's coming soon!
+> Not everyone can find potential customers people based on their LinkedIn profiles in Performance Max campaigns yet. If you can't, don't worryâ€”it's coming soon!
 
 ## Add audience signals to your Performance Max campaigns
 
@@ -90,7 +91,7 @@ There are two ways to add audience signals to your campaign: [During campaign cr
 ## Manage your audience signals in the Audience library
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 You can create, delete, and view the status for your audience signals at the account level in the Audience library:
 
@@ -127,6 +128,6 @@ You can create, delete, and view the status for your audience signals at the acc
 
   *Possible audience signal statuses*
 
-  - **Ready:** No issues—audience signals are working fine.
+  - **Ready:** No issuesâ€”audience signals are working fine.
   - **Building the audience:** It takes 24 hours for an audience to be built after you create a new audience signal or update an existing audience signal.
   - **Limited:** Audience may not serve due to issues with the associated audience signal. [Learn more about audience statuses](hlp_BA_CONC_Audiences_AudienceStatus.md).

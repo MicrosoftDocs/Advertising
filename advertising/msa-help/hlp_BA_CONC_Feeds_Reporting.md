@@ -1,4 +1,4 @@
----
+﻿---
 title: Feed item reporting for Vertical ads
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how about feed item reporting for Vertical ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Feed item reporting for Vertical ads
 
 Microsoft Advertising provides several types of reports to help you monitor, manage, and improve your campaign's performance. Reports present a deeper look into data such as visibility, click-through rate, and conversion rates.
 
-For Vertical ads, you can access standard reporting—for ads, ad groups, campaigns, and keywords—as well as feed item reports. Learn more about [standard reporting](hlp_BA_PROC_CreateReport.md). Feed item reports give you visibility into the performance of individual feed items for optimization purposes.
+For Vertical ads, you can access standard reportingâ€”for ads, ad groups, campaigns, and keywordsâ€”as well as feed item reports. Learn more about [standard reporting](hlp_BA_PROC_CreateReport.md). Feed item reports give you visibility into the performance of individual feed items for optimization purposes.
 
 ## Create a feed item report
 

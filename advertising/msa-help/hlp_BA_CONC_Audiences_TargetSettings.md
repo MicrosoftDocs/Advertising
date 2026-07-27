@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I edit the targeting setting for an association?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The targeting setting determines if an ad group or campaign must serve ads only to users in the associated audiences ("Target and bid" option) or to all users ("Bid only" option).
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I edit the targeting setting for an association?

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sitelink Extensions: Take People to Specific Pages on Your Website"
 description: Sitelink extensions take people to specific pages on your website.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Sitelink extensions: Take people to specific pages on your website
@@ -34,7 +35,7 @@ An ad can display two to eight sitelinks or dynamic sitelinks with descriptions,
 - The maximum character count for the headline text is 25 characters.
 - Keywords in sitelinks that have an exact match as the search query will be bolded (available in the U.S. only).
 - [Dynamic URL parameters](hlp_BA_CONC_UpgradeURL_TrackTemplateCustomParam.md) may be used to track sitelink extension clicks.
-- Sitelink extensions may direct searchers to third-party retailers. These sitelinks must include the name of the retailer in the link text and direct searchers to the specific page where the product is being sold. For example, a sitelink which directs searchers to third-party retailer Contoso's shoes page (contoso.com/shoes) might say, “Buy Shoes on Contoso."
+- Sitelink extensions may direct searchers to third-party retailers. These sitelinks must include the name of the retailer in the link text and direct searchers to the specific page where the product is being sold. For example, a sitelink which directs searchers to third-party retailer Contoso's shoes page (contoso.com/shoes) might say, â€œBuy Shoes on Contoso."
 
 ## Get started with sitelink extensions
 

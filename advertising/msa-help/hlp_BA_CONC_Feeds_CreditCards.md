@@ -1,4 +1,4 @@
----
+﻿---
 title: Use credit Card ads to showcase your products and promotions
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about Credit Card ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use credit Card ads to showcase your products and promotions
@@ -18,10 +19,10 @@ description: Get details about Credit Card ads.
 > - For more information about this change, see [About Responsive Search ads](hlp_BA_CONC_ResponsiveSearchAds.md).
 
 > [!NOTE]
-> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worry—more languages are coming soon!
+> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worryâ€”more languages are coming soon!
 > - While credit Card ads are globally available, please see the [market-level restrictions](https://go.microsoft.com/fwlink/?linkid=2213800).
 
-Showcase your credit card products and promotions, such as rewards and cash back percent. We don’t crawl your website to generate content. Instead, Credit Card ads are dynamically generated based on the data you specify in your feed file, which contains your business data, such as the card issuer, annual fee, and any sign-up bonus. The more details you provide in the feed file, the more information we’ll include in your ads.
+Showcase your credit card products and promotions, such as rewards and cash back percent. We donâ€™t crawl your website to generate content. Instead, Credit Card ads are dynamically generated based on the data you specify in your feed file, which contains your business data, such as the card issuer, annual fee, and any sign-up bonus. The more details you provide in the feed file, the more information weâ€™ll include in your ads.
 
 ## The benefits of using Credit Card ads
 
@@ -37,7 +38,7 @@ Showcase your credit card products and promotions, such as rewards and cash back
 To get started with Credit Card ads, you'll need to create a Search campaign with a Responsive Search ad that functions as a placeholder. Then, you'll create a [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_CreditCards.md) where you'll reference the campaign. We create your Credit Card ads by pulling information from your feed file to generate ad copy and we use the Responsive Search ad's settings for targeting and optimization.
 
 > [!NOTE]
-> The campaign you create will always be a Credit Card ads campaign. You cannot use this campaign for any other purpose now or at a later time—it'll always be used as a Credit Card ads campaign.
+> The campaign you create will always be a Credit Card ads campaign. You cannot use this campaign for any other purpose now or at a later timeâ€”it'll always be used as a Credit Card ads campaign.
 
 1. From the navigation menu on the left, select **Create**.
 1. Choose **Drive conversions** or **Generate leads** as your campaign goal.
@@ -65,7 +66,7 @@ To get started with Credit Card ads, you'll need to create a Search campaign wit
       You must surround your keyword with brackets ([ ]) to indicate an exact match.
 
       > [!NOTE]
-      > Avoid keywords such as “credit cards” to ensure the campaign only serves as Credit Card ads.
+      > Avoid keywords such as â€œcredit cardsâ€ to ensure the campaign only serves as Credit Card ads.
    1. Select **Save & go to the next step**.
 1. In **Ads & ad extensions**, below **Standard ad groups**, select **Create ad**.
 

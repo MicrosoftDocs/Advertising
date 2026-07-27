@@ -1,4 +1,4 @@
----
+﻿---
 title: About content targeting
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about content targeting.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About content targeting
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Content targeting for Audience campaigns lets you choose the specific placements where your ads appear and the topics they will appear alongside. If you choose to serve ads exclusively on Microsoft sites, you'll have access to specialized ad placement options. You can also add topics that you want your ads to serve alongside to help ensure ad relevancy. With content targeting, you can reach your ideal audience with highly relevant content, maximize the effectiveness of your ads, and drive better campaign performance.
 

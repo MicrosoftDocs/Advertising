@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/11/2026
 description: This article will show you how to create a UET tag, add it to your website, modify it for advanced tracking and targeting features, and troubleshoot issues you may encounter.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Everything you need to know about setting up UET

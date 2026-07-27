@@ -1,17 +1,18 @@
----
-title: Why are my Shopping and Performance Max campaigns showing the “Product offers not found” error?
+﻿---
+title: Why are my Shopping and Performance Max campaigns showing the â€œProduct offers not foundâ€ error?
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: Learn how you can troubleshoot the “product offers not found” error.
+description: Learn how you can troubleshoot the â€œproduct offers not foundâ€ error.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Why are my Shopping and Performance Max campaigns showing the “Product offers not found” error?
+# Why are my Shopping and Performance Max campaigns showing the â€œProduct offers not foundâ€ error?
 
-When there is an issue associating products from your Microsoft Merchant Center feed to your shopping and Performance Max campaigns, you may see the “product offers not found” error. You can troubleshoot this error by checking the [store status](#store-status), [feed status](#feed-status), [product status](#product-status), and by setting [product filters](#product-filters).
+When there is an issue associating products from your Microsoft Merchant Center feed to your shopping and Performance Max campaigns, you may see the â€œproduct offers not foundâ€ error. You can troubleshoot this error by checking the [store status](#store-status), [feed status](#feed-status), [product status](#product-status), and by setting [product filters](#product-filters).
 
 <a id="store-status"></a>
 

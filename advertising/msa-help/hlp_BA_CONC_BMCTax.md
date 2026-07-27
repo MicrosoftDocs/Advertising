@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Merchant Center feed tax policy
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about Microsoft Merchant Center feed's tax policy.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Merchant Center feed tax policy

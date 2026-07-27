@@ -1,4 +1,4 @@
----
+﻿---
 title: Create Product Ads in a Shopping Campaign
 description: Using Product ads, you can enhance your ads with specific product information from your Microsoft Merchant Center store feed. Learn how to get Product ads running in this article.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create Product ads in a Shopping campaign

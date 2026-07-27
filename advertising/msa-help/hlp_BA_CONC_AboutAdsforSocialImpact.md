@@ -1,4 +1,4 @@
----
+﻿---
 title: About ads for social impact
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Everything you need to know about particpating in Microsoft Advertising ads for social impact.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About ads for social impact
@@ -29,7 +30,7 @@ Participants receive monthly grants on Microsoft's advertising platform to build
   - Hold a valid charity status (e.g.,501(c)(3) in the U.S.)
   - Hold a Microsoft-approved nonprofit organization status. For more information, please see [nonprofit offers](https://go.microsoft.com/fwlink/?linkid=2245407).
   - Use a Microsoft Advertising Expert mode account.
-  - Attest to Microsoft’s anti-discrimination policy.
+  - Attest to Microsoftâ€™s anti-discrimination policy.
   - Have a website that provides details about the nonprofit and its mission.
   - Only one account per eligible organization is permitted.
   - The following organizations are ineligible:
@@ -44,7 +45,7 @@ Participants receive monthly grants on Microsoft's advertising platform to build
 - **How do I participate?**
 
   > [!NOTE]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   You can use the following to prepare for participation:
 
@@ -55,7 +56,7 @@ Participants receive monthly grants on Microsoft's advertising platform to build
 
 - **How we calculate grant amounts**
 
-  Monthly grant amounts are determined by your spending and investment behavior from the previous two months of use*. We review your monthly spend by looking at the last day of the previous month through the second to last day of the current month (e.g., May 31, 2023 – June 29, 2023 with spend starting from midnight of last day of previous month to 11:59PM of second-to-last day of current month). Please note that currency conversion will occur once the grant is applied (using current exchange rates).
+  Monthly grant amounts are determined by your spending and investment behavior from the previous two months of use*. We review your monthly spend by looking at the last day of the previous month through the second to last day of the current month (e.g., May 31, 2023 â€“ June 29, 2023 with spend starting from midnight of last day of previous month to 11:59PM of second-to-last day of current month). Please note that currency conversion will occur once the grant is applied (using current exchange rates).
 
   | Grant amount | Grant amount based on additional spend |
   | --- | --- |
@@ -71,7 +72,7 @@ Participants receive monthly grants on Microsoft's advertising platform to build
 
   - Start with Search campaigns to maximize the program's impact.
   - Use automation and Import tools to save time and optimize ad performance.
-  - Stay within the grant’s limit by setting your monthly budget to your grant amount and monitor your budgets regularly.
+  - Stay within the grantâ€™s limit by setting your monthly budget to your grant amount and monitor your budgets regularly.
 
   > [!NOTE]
   > You can invest your own funds beyond the limits of the grant to achieve your advertising goals.

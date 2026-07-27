@@ -1,4 +1,4 @@
----
+﻿---
 title: Using IndexNow to enhance ad performance
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about using IndexNow.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using IndexNow to enhance ad performance

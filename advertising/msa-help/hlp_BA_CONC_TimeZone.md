@@ -1,4 +1,4 @@
----
+﻿---
 title: How does the account time zone impact data?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about your account, campaign and reports time zone and how they impact data.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How does the account time zone impact data?

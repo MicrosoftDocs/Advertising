@@ -1,4 +1,4 @@
----
+﻿---
 title: Credit card ads' dynamic data feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about required, recommended, and optional Credit card ads feed attributes.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Credit card ads' dynamic data feeds
@@ -57,7 +58,7 @@ Your dynamic data feed file may include any of the following attributes, which w
 | --- | --- | --- |
 | **Annual fee** | The annual fee for the card. | 0 USD |
 | **Card callout** | Can be used to call out special attributes about the product. | Earn cash back TWICE. Earn 2% on purchases with 1% cash back when you buy, plus an additional 1% as you pay for those purchases. |
-| **Card category** | List of categories for the item (if applicable), separated by “;”. | Rewards; Cash back |
+| **Card category** | List of categories for the item (if applicable), separated by â€œ;â€. | Rewards; Cash back |
 | **Card description** | The overall description of the card. | Build your own credit with responsible use. Refundable deposit of $49 required. |
 | **Cash back percent** | Percent of cash back offered for the credit card. | 3% in the category of your choice |
 | **Credit level needed** | The necessary credit level. | Excellent |
@@ -67,7 +68,7 @@ Your dynamic data feed file may include any of the following attributes, which w
 | **Intro purchase APR months** | The number of months that have introduction purchase APR. | 12 |
 | **Regular balance transfer APR** | Balance transfer APR. | 0.1099 |
 | **Regular purchase APR** | A range of regular purchase APR depending on credit level. | 15.99%-24.99% variable APR |
-| **Rewards** | An explanation of the rewards. | Earn double ThankYou® Points at supermarkets and gas stations for the first $6,000 per year—and earn a 10% bonus on the first 100,000 ThankYou® Points you redeem each year. |
+| **Rewards** | An explanation of the rewards. | Earn double ThankYouÂ® Points at supermarkets and gas stations for the first $6,000 per yearâ€”and earn a 10% bonus on the first 100,000 ThankYouÂ® Points you redeem each year. |
 | **Sign up bonus** | A description of the benefits of signing up for the credit card offers. | 15,000 bonus points after qualifying purchase |
 
 ## Optional attributes
@@ -77,9 +78,9 @@ Your dynamic data feed file may include any of the following optional attributes
 | Attribute | Description | Example |
 | --- | --- | --- |
 | **Contextual keywords** | Specific credit card details used to power relevancy matching, separated by ";". If provided, the information in this column will help the Microsoft AI create more relevant ads for your campaign. | Contoso card; Contoso travel credit card; Travel credit card |
-| **Custom parameters** | Include up to three key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>The maximum limit is 16 characters or 200 bytes.<br>This will not be shown in the ad. | {“pcategory”:”cashback”} |
+| **Custom parameters** | Include up to three key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>The maximum limit is 16 characters or 200 bytes.<br>This will not be shown in the ad. | {â€œpcategoryâ€:â€cashbackâ€} |
 | **Description** | A short description of the item that appears in the ad. | Contoso card |
-| **Final mobile URL** | The item’s mobile-optimized landing page when you have a different URL for mobile and computer traffic.<br>This will not be shown in the ad. | http://www.m.contoso.com/asp/sp.asp?id=abc123 |
+| **Final mobile URL** | The itemâ€™s mobile-optimized landing page when you have a different URL for mobile and computer traffic.<br>This will not be shown in the ad. | http://www.m.contoso.com/asp/sp.asp?id=abc123 |
 | **Min credit** | The minimum credit limit for the card.<br>This will not be shown in the ad. | 500 |
 | **Max credit** | The maximum credit limit for the card.<br>This will not be shown in the ad. | 850 |
 | **Num of reviews** | The number of reviews for the item in numerical value. | 12500 |

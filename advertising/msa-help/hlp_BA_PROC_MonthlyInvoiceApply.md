@@ -1,4 +1,4 @@
----
+﻿---
 title: Apply for Monthly Invoice Billing
 description: If your business meets certain requirements, you may be able to accrue advertising charges through monthly invoice billing.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Apply for monthly invoice billing

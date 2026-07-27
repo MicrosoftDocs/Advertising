@@ -1,4 +1,4 @@
----
+﻿---
 title: Create custom columns to show data you want
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,18 +7,19 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Create custom columns to give the specific view into your data that you need in your tables or reports.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create custom columns to show data you want
 
-If you’re performing customized calculations with your Microsoft Advertising reporting metrics, then custom columns will save you time. By adding your unique formula as a custom column, you no longer need to manually calculate metrics on your campaign performance.
+If youâ€™re performing customized calculations with your Microsoft Advertising reporting metrics, then custom columns will save you time. By adding your unique formula as a custom column, you no longer need to manually calculate metrics on your campaign performance.
 
 Here are some examples of custom columns you can set up:
 
 - "Computer clicks" = **Clicks: Computer**
-- "Cost per revenue" = **Spend ÷ Revenue**
-- "Conv. per Dollar" = **Conv. ÷ Spend**
-- "Gross Margin" = **(Revenue - Spend) ÷ Revenue**
+- "Cost per revenue" = **Spend Ã· Revenue**
+- "Conv. per Dollar" = **Conv. Ã· Spend**
+- "Gross Margin" = **(Revenue - Spend) Ã· Revenue**
 
 You might also want to see how revenue or conversions relate to your ads' average position, or how phone call counts vary according to whether the customers are on computers or mobile devices. Custom columns let you create and show data meaningful to you, and make it available for any of the tables and reports you use.
 

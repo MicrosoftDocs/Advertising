@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up ad extensions scheduling
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set your ad extensions to show during times you specify.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up ad extensions scheduling
@@ -24,7 +25,7 @@ Control when your ad extensions will show to customers with ad extension schedul
 
 - Ad extension scheduling is available for all extension types, except for image extensions.
 - You can implement ad extension scheduling through Microsoft Advertising, Google Import, Bing Ads API, and Bulk Upload.
-- Don’t forget that ad extensions are not guaranteed to serve. An ad extension serves depending on a number of factors, so scheduling your ad extensions doesn’t guarantee that the extensions will show then. [Learn more](hlp_BA_CONC_Policy_AdExtensionPolicies.md)
+- Donâ€™t forget that ad extensions are not guaranteed to serve. An ad extension serves depending on a number of factors, so scheduling your ad extensions doesnâ€™t guarantee that the extensions will show then. [Learn more](hlp_BA_CONC_Policy_AdExtensionPolicies.md)
 
 ## Start scheduling ad extensions
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Edit Your scheduled imports and review import history and results
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can edit your scheduled imports and review import history and results.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Edit your scheduled imports and review import history and results

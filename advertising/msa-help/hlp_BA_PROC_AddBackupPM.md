@@ -1,4 +1,4 @@
----
+﻿---
 title: Add a Backup Payment Method
 description: Learn how to add a backup payment method to your Microsoft Advertising account.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Add a backup payment method

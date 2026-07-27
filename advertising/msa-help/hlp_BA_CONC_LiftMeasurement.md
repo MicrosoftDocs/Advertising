@@ -1,4 +1,4 @@
----
+﻿---
 title: About lift measurement
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about how to set up lift measurement for your Audience campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About lift measurement

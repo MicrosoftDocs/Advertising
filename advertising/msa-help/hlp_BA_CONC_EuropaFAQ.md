@@ -1,4 +1,4 @@
----
+﻿---
 title: Why we need your business location (and maybe VAT information)
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising is required to collect value-added tax (VAT) in certain countries/regions, and so all advertisers must provide the business location for each of their accounts.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Why we need your business location (and maybe VAT information)
@@ -64,7 +65,7 @@ If you don't have a business location in Microsoft Advertising, you'll be prompt
 
 ## How to enter your VAT number correctly
 
-1. No spaces or special characters—enter as one continuous string.
+1. No spaces or special charactersâ€”enter as one continuous string.
 1. Include your country's two-letter code at the start (e.g., DE123456789 for Germany).
 1. Match the exact format for your country (see table below).
 1. Ensure the VAT number is active with your tax authority before entering it.
@@ -133,7 +134,7 @@ Here are more frequently asked questions.
   | **Austria, Belgium, Bulgaria, Cyprus, Czech Republic, Germany, Denmark, Estonia, Greece, Spain, Finland, France, United Kingdom, Croatia, Hungary, Ireland, Italy, Lithuania, Luxembourg, Latvia, Malta, Monaco, the Netherlands, Poland, Portugal, Romania, Sweden, Slovenia, and Slovakia** | Starts with 2 letters that are specific to each country/region, followed by a maximum of 12 digits or letters. |
   | **Hungary** | Must be in the following format: HUXXXXXXXX (where HU is followed by 8 digits). |
   | **Liechtenstein** | Must be in the following format: LIXXXXX or XXXXX (where both formats are supported and LI is optional, and the number of digits is 5). |
-  | **Nigeria** | Must be in the following format: XXXXXXXX-0001 (where 8 digits come before –0001). |
+  | **Nigeria** | Must be in the following format: XXXXXXXX-0001 (where 8 digits come before â€“0001). |
   | **Norway** | Must be in the following format: XXXXXXXXXMVA (9 digits followed by the letters MVA) or NOXXXXXXXXXMVA (may optionally include the country prefix NO). |
   | **Portugal** | Must be in the following format: PTXXXXXXXXX (where PT is followed by 9 digits). |
   | **Serbia** | 9 or 13 digits in length, of which the first 8 or 12 digits are the actual ID number, and the last digit is a checksum digit calculated according to ISO 7064, MOD 11-10. |

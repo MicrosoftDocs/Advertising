@@ -1,4 +1,4 @@
----
+﻿---
 title: Account errors
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: When an account has an error, the ads in that account are not running. Depending on the issue, you can fix the error yourself, or you may need to contact Microsoft Advertising support for assistance.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Account errors

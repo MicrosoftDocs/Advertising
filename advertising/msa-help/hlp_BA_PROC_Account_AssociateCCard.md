@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Change Payment Methods and Bill-to Customer
 description: Learn how to change payment methods and bill-to customer in Microsoft Advertising.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-accounts-setup
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to change payment methods and bill-to customer

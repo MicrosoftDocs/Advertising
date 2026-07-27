@@ -1,4 +1,4 @@
----
+﻿---
 title: Get Billing Alerts
 description: Find out how to sign up for billing notifications, including notifications with links to your end-of-month summaries of your payments for the previous month.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-billing-payments-tax
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get billing alerts
@@ -30,7 +31,7 @@ Changes to your billing notifications will take effect in the next billing cycle
 
 ## Monthly invoices via email
 
-If you have a monthly invoice account, we can send your invoices via email to your accounts payable contacts on file. A Super Admin can designate anyone to be an accounts payable contact—including those without a Microsoft Advertising account. Go to Billing settings to update a contact's information.
+If you have a monthly invoice account, we can send your invoices via email to your accounts payable contacts on file. A Super Admin can designate anyone to be an accounts payable contactâ€”including those without a Microsoft Advertising account. Go to Billing settings to update a contact's information.
 
 1. From the navigation menu on the left, hover over **Billing** and select **Payment methods**.
 1. If you have multiple accounts, choose one from the account selector in the top menu.

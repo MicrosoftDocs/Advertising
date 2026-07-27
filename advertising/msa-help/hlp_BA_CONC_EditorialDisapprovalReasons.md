@@ -1,4 +1,4 @@
----
+﻿---
 title: Fix a Disapproved or Approved Limited status
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to find out why your ad or keyword is *Disapproved* or *Approved Limited*, verify that you're following Microsoft Advertising policies, and fix the issue.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Fix a disapproved or approved limited status

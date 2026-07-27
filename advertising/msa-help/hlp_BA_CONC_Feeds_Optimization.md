@@ -1,4 +1,4 @@
----
+﻿---
 title: About tracking templates and conversion goals for Vertical ads
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about tracking templates and conversion goals for Vertical ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About tracking templates and conversion goals for Vertical ads
@@ -47,6 +48,6 @@ You cannot set up or edit feed item tracking directly within Microsoft Advertisi
 ## What you need to know
 
 - Final URL suffix is supported for Vertical ads at all levels, except the feed item level. You cannot combine the final URL suffix with feed item tracking, but we would append the final URL suffix if tracking is set at a higher level.
-- Because we support URL tracking at all levels—including the keyword level—there is full compatibility with tool providers such as SA360.
+- Because we support URL tracking at all levelsâ€”including the keyword levelâ€”there is full compatibility with tool providers such as SA360.
 - Conversion goal settings for Vertical ads works in the same way as for regular text ads.
 - Automotive listings don't support URL tracking.

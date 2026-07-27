@@ -1,4 +1,4 @@
----
+﻿---
 title: New campaign creation experience goal selections
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about the goals you need to choose to create your desired campaigns and ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # New campaign creation experience goal selections

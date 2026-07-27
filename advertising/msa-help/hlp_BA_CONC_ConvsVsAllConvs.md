@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversion goals - Conversions versus all conversions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the differences between the Conversions columns and the All conversions columns in the data table.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Conversion goals - Conversions versus all conversions
@@ -16,7 +17,7 @@ Different [conversion goals](hlp_BA_CONC_UETv2CTGoalType.md) can have different 
 > [!IMPORTANT]
 > - If you use an automated bidding [bid strategy](hlp_BA_CONC_BidStrategy.md), clearing the **Include in "Conversions"** checkbox will result in these conversions no longer factoring into automated bidding calculations.
 > - The **Include in "Conversions"** setting does not affect view-through conversions (not everyone has this feature yet). View-through conversions appear in both columns by default. [Learn more about view-through conversions](hlp_BA_CONC_ViewThroughConv.md).
-> - Conversions that won't optimize campaign performance will only show up in the “All conversions” column.
+> - Conversions that won't optimize campaign performance will only show up in the â€œAll conversionsâ€ column.
 
 ## How to change the Include in "Conversions" setting for a conversion goal
 

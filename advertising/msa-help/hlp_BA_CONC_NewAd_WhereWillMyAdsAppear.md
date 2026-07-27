@@ -1,4 +1,4 @@
----
+﻿---
 title: Where your ads will appear with Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Advertising with Microsoft Advertising means your ads can appear on Bing, the entire Microsoft Search Network, on smartphones and tablets, and for specified locations or languages.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Where your ads will appear with Microsoft Advertising
@@ -15,7 +16,7 @@ Advertise with Microsoft Advertising to have your ads display across the Interne
 
 ## Show your ads on Bing and other search sites
 
-Your ads can appear on search results page when a customer does a search on Bing, AOL, Yahoo, and syndicated partner sites (like MSN.com or Bing.co.uk). Where your ad appears on search results pages is determined by the keywords you use to associate your ads. For example, Sarah owns a toy store and wants to create ads for kids’ electronics. She might include keywords like "walkie-talkies", "electronic pets", and "kids’ music players" so her ads could be more relevant to customers’ searches, and show above or next to the search results.
+Your ads can appear on search results page when a customer does a search on Bing, AOL, Yahoo, and syndicated partner sites (like MSN.com or Bing.co.uk). Where your ad appears on search results pages is determined by the keywords you use to associate your ads. For example, Sarah owns a toy store and wants to create ads for kidsâ€™ electronics. She might include keywords like "walkie-talkies", "electronic pets", and "kidsâ€™ music players" so her ads could be more relevant to customersâ€™ searches, and show above or next to the search results.
 
 Learn more about [ad position](hlp_BA_CONC_WhatIsAdPosition.md) and [getting to the top of the search results page](hlp_BA_CONC_ImproveAdPosition.md).
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Using a final URL suffix
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the final URL suffix and how to set one up.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using a final URL suffix

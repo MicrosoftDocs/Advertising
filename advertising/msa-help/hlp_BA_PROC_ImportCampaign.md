@@ -1,4 +1,4 @@
----
+﻿---
 title: Import Campaigns Directly from Google Ads
 description: You can import entire campaigns into Microsoft Advertising from Google Ads.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-bulk-import
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Import campaigns directly from Google Ads
@@ -18,7 +19,7 @@ If you already are using Google Ads to advertise on Google, you can import these
 > [!NOTE]
 > - To import one Google Ads account at a time, follow the steps in the [Import from Google Ads](#import-from) section below. To import multiple Google Ads accounts into Microsoft Advertising, follow the steps in the [Import multiple accounts from Google Ads](#import-multiple-accounts-from) section further below.
 > - Some items and settings require special attention during import, so make sure to review [What gets imported from Google Ads](hlp_BA_CONC_ImportWhatInfo.md).
-> - If you select **Quick import** but you have more than one Google Ads account or a Google Merchant Center account under the manager account you use to sign in, you’ll automatically be taken to the **Smart import** flow.
+> - If you select **Quick import** but you have more than one Google Ads account or a Google Merchant Center account under the manager account you use to sign in, youâ€™ll automatically be taken to the **Smart import** flow.
 
 <a id="ImportFrom"></a>
 
@@ -59,7 +60,7 @@ If you selected **Advanced import** in the steps above, you can choose which ite
    If you set to **Automatic schedule**, we'll automatically run your imports on a regular basis to ensure changes you make on Google Ads are synced with your Microsoft Advertising campaigns.
 
 > [!NOTE]
-> On **Import schedule & history** page, you can run the import again, modify the import schedule, and review logs to see what entities were newly added, updated, or couldn’t be imported. From the global menu, select **Import****>** **Import schedule & history**.
+> On **Import schedule & history** page, you can run the import again, modify the import schedule, and review logs to see what entities were newly added, updated, or couldnâ€™t be imported. From the global menu, select **Import****>** **Import schedule & history**.
 
 <a id="ImportMultiple"></a>
 
@@ -121,7 +122,7 @@ For a full list of what does and doesn't get imported from Google Ads, see [What
 > - Some Microsoft Advertising users are currently unable to import campaigns directly from Google Ads. If you have Google 2-step verification, you need to create an application-specific password for Microsoft Advertising. If you're still unable to import directly after several attempts, follow the steps to [import campaigns using an import file](hlp_BA_PROC_AboutCreatingAnImportFile.md).
 > - The update count reports, all existing items that are fetched from Google Ads. It may be higher than the actual number of updates, because it includes items that may not have been updated since the previous import.
 > - Change history reports the actual number of updates in Microsoft Advertising. It may be lower than the update count, as it excludes items that do not have updates.
-> - Scheduled imports will fetch items that have changed in Google Ads since your last import. To re-import items that haven’t changed in Google Ads but have changed in Microsoft Advertising, select **Import campaigns** > **Import schedule and history** > **Run now**.
+> - Scheduled imports will fetch items that have changed in Google Ads since your last import. To re-import items that havenâ€™t changed in Google Ads but have changed in Microsoft Advertising, select **Import campaigns** > **Import schedule and history** > **Run now**.
 > - It is highly recommended that you import a single Google Ads account to a single Microsoft Advertising account. Importing multiple accounts to a single one increases the risk of maxing out your account-level keyword limits.
 > - If you notice unwanted changes to campaign status, budget, bids, etc., check if you are running [scheduled imports](hlp_BA_CONC_ImportScheduleHistory.md) and edit/pause these as required.
 

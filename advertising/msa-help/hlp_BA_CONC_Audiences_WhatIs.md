@@ -1,4 +1,4 @@
----
+﻿---
 title: What is audience targeting?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn the fundamentals of targeting your ads to specific groups of customers, based on your data or on ours.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is audience targeting?

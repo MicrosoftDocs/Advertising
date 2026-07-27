@@ -1,4 +1,4 @@
----
+﻿---
 title: Automotive listing inventory ads' dynamic data feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about required, recommended, and optional feed attributes for Automotive listing ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Automotive listing inventory ads' dynamic data feeds
@@ -82,7 +83,7 @@ Your dynamic data feed file may include any of the following optional attributes
 | **Callout** | Can be used to call out special attributes about the product. | Pre-order availability; free delivery |
 | **Contextual keywords** | Specific vehicle details used to power relevancy matching. Use ";" to separate multiple keywords.<br>This will not be shown in the ad. | Used cars for sale; SUV; Automatic; 5 seats; 4 doors |
 | **Condition** | The condition of the vehicle (e.g., excellent, good, fair, poor, or other). | Excellent |
-| **Custom parameters** | Include up to 3 key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>Neither one can exceed 16 characters or 200 bytes.<br>This will not be shown in the ad. | {"Bstyle":"SUV",“state”:”new”,”condition”:”excellent”} |
+| **Custom parameters** | Include up to 3 key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>Neither one can exceed 16 characters or 200 bytes.<br>This will not be shown in the ad. | {"Bstyle":"SUV",â€œstateâ€:â€newâ€,â€conditionâ€:â€excellentâ€} |
 | **Daily payment** | The daily payment amount in the local currency. Use "." as the decimal mark regardless of the local currency. | 12.00 USD |
 | **Dealer discount** | Any discount applied to the selling price of the vehicle in the local currency. Use "." as the decimal mark regardless of the local currency. | 2500.00 USD |
 | **Dealer name** | The name of the dealer. | Contoso Dealername |
@@ -98,7 +99,7 @@ Your dynamic data feed file may include any of the following optional attributes
 | **Latitude** | Latitude of the dealership or car listing.<br>List in the DDD.DDDDD format.<br>This will not be shown in the ad. | 37.94 |
 | **Longitude** | Longitude of the dealership or car listing.<br>List in the DDD.DDDDD format.<br>This will not be shown in the ad. | -121.69 |
 | **Mileage unit** | Mileage units. We support values of MI or KM. | MI |
-| **Mileage value** | For used vehicles, this is the mileage of the vehicle in miles or kilometers. For new vehicles, use “zero”. | 1200 |
+| **Mileage value** | For used vehicles, this is the mileage of the vehicle in miles or kilometers. For new vehicles, use â€œzeroâ€. | 1200 |
 | **Monthly payment** | The monthly payment amount.<br>Provide the number followed by the currency code (ISO 4217 standards). Use "." as the decimal mark regardless of the local currency. Use "." as the decimal mark regardless of the local currency. | 350.00 USD |
 | **Payment term** | The length of the agreement in months. | 60 months |
 | **Payment type** | The payment deal type (e.g., lease, finance, balloon). | Finance |

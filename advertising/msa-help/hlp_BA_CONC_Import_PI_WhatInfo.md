@@ -1,4 +1,4 @@
----
+﻿---
 title: What gets imported from Pinterest ads
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Most of the information in your campaigns is included when you import it from Pinterest Ads. Here's a list of what gets imported, as well as some exceptions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What gets imported from Pinterest Ads
@@ -31,15 +32,15 @@ We'll import Active, Paused, and Archived Pinterest Ads campaigns.
 
 ### Campaign name
 
-Each Pinterest Ads campaign name will be imported as “{Pinterest Ads campaign name} + delimiter (hyphen) + PI + {Pinterest Ads campaign ID}”.
+Each Pinterest Ads campaign name will be imported as â€œ{Pinterest Ads campaign name} + delimiter (hyphen) + PI + {Pinterest Ads campaign ID}â€.
 
-For example, if the original campaign name is “Subscribe and Save. Buy X, Get Y at 20% discount” and the campaign ID is 2345678910, then Microsoft Advertising would import the campaign name as “Subscribe and Save. Buy X, Get Y - PI2345678910”.
+For example, if the original campaign name is â€œSubscribe and Save. Buy X, Get Y at 20% discountâ€ and the campaign ID is 2345678910, then Microsoft Advertising would import the campaign name as â€œSubscribe and Save. Buy X, Get Y - PI2345678910â€.
 
 ## Ad group name
 
-We'll modify your Pinterest Ads ad group name to “{Pinterest Ads ad group name} + delimiter (hyphen) + PI + {Pinterest Ads ad group ID}”.
+We'll modify your Pinterest Ads ad group name to â€œ{Pinterest Ads ad group name} + delimiter (hyphen) + PI + {Pinterest Ads ad group ID}â€.
 
-For example, if the original ad group name is “Subscribe and Save. Buy X, Get Y at 20% discount” and ad group ID is 2345678910, then the imported ad group name would be saved in Microsoft Advertising as “Subscribe and Save. Buy X, Get Y - PI2345678910”.
+For example, if the original ad group name is â€œSubscribe and Save. Buy X, Get Y at 20% discountâ€ and ad group ID is 2345678910, then the imported ad group name would be saved in Microsoft Advertising as â€œSubscribe and Save. Buy X, Get Y - PI2345678910â€.
 
 ## Ads
 

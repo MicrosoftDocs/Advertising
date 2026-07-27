@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Get My Ads on the First Page Using Estimated Bids?
 description: Learn how to get your ads on the first page.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to get my ads on the first page using estimated bids?
@@ -34,7 +35,7 @@ In the Keywords tab, you will find 3 kinds of bid estimates available to help ge
 
 ## What to do if your ad still doesn't appear
 
-Even if you met the bid estimate for your placement, there might be times that your ads do not appear in the search result placements that you preferred. These estimates are guidelines based on your keyword’s Quality Score and recent advertiser competition so meeting or exceeding these bid estimates isn’t a guarantee of where your ad will appear. Here are a few common reasons your ad may not show on the first page, even if you meet the bid estimate:
+Even if you met the bid estimate for your placement, there might be times that your ads do not appear in the search result placements that you preferred. These estimates are guidelines based on your keywordâ€™s Quality Score and recent advertiser competition so meeting or exceeding these bid estimates isnâ€™t a guarantee of where your ad will appear. Here are a few common reasons your ad may not show on the first page, even if you meet the bid estimate:
 
 - **Advertiser competition:** There could be new competition on your keywords.
 

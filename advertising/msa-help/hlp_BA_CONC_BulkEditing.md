@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I edit my downloaded spreadsheet for bulk upload?
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to edit a bulk download spreadsheet to make changes across accounts and campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I edit my downloaded spreadsheet for bulk upload?
@@ -79,7 +80,7 @@ The first thing you need to do is download the campaign information you want to 
   In cases such as [ad extensions](hlp_BA_CONC_AboutAdExtensions.md), entities further down the parent-child chain can have multiple parents. For example, a campaign sitelink extension does not have a unique ID, but instead inherits the ID of the overall sitelink ad extension, and its Parent ID is the campaign's ID. Take a look at the "Adding sitelink extensions through bulk upload" section below for more information.
 
   > [!NOTE]
-  > For a detailed look at type hierarchy—including each type's limits—take a look at [this Bing Ads API doc](https://msdn.microsoft.com/en-us/library/bing-ads-entity-limits.aspx).
+  > For a detailed look at type hierarchyâ€”including each type's limitsâ€”take a look at [this Bing Ads API doc](https://msdn.microsoft.com/en-us/library/bing-ads-entity-limits.aspx).
 
   ## Adding a parent and a child at the same time through bulk upload
 
@@ -113,7 +114,7 @@ The first thing you need to do is download the campaign information you want to 
 
 - **What do the columns represent?**
 
-  Each downloaded spreadsheet comes with columns for all Microsoft Advertising data points. Most columns will be irrelevant—and therefore blank—for any given entity's row. Feel free to delete columns that are blank or unnecessary to your edits, but remember that you must retain the following columns: **Type** (for example, Campaign, Ad Group, or Keyword), **ID**, **Parent ID**, **Account ID**, and **Name**.
+  Each downloaded spreadsheet comes with columns for all Microsoft Advertising data points. Most columns will be irrelevantâ€”and therefore blankâ€”for any given entity's row. Feel free to delete columns that are blank or unnecessary to your edits, but remember that you must retain the following columns: **Type** (for example, Campaign, Ad Group, or Keyword), **ID**, **Parent ID**, **Account ID**, and **Name**.
 
   > [!NOTE]
   > - To make sure you don't delete any required columns, you could instead hide the unnecessary columns to make navigating the spreadsheet easier.
@@ -137,7 +138,7 @@ The first thing you need to do is download the campaign information you want to 
   1. For the ID of the new parent Sitelink Ad Extension, enter any negative number.
   1. For the ID of the new child Campaign Sitelink Ad Extension or Ad Group Sitelink Ad Extension, enter the same negative number.
 
-  For example, here's what it would look like to add two new Sitelink Ad Extensions —one associated to an existing campaign, and one to an existing ad group:
+  For example, here's what it would look like to add two new Sitelink Ad Extensions â€”one associated to an existing campaign, and one to an existing ad group:
 
   | Type | ID | Parent ID |
   | --- | --- | --- |
@@ -353,7 +354,7 @@ Once you have made all your changes, you are ready to upload your spreadsheet. K
 - When you save your spreadsheet, make sure you:
 
   - Select **Unicode Text** for **Save as type**.
-  - Use quotation marks around the name you give your file, and include ".csv" at the end (as in, "YourFileName.csv"). The quotation marks will not appear in your final file name — they are there to prevent Excel from adding ".txt" to the file name.
+  - Use quotation marks around the name you give your file, and include ".csv" at the end (as in, "YourFileName.csv"). The quotation marks will not appear in your final file name â€” they are there to prevent Excel from adding ".txt" to the file name.
 - The file size cannot be greater than 100 MB or have more than 4 million rows.
 - The data must not exceed the limits defined in [this article](hlp_BA_CONC_ImportWhatInfo.md).
 

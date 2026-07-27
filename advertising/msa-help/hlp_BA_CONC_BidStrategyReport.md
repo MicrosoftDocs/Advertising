@@ -1,4 +1,4 @@
----
+﻿---
 title: Monitor and optimize your bid strategies
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to use the Microsoft Advertising bid strategy report to evaluate automated bid strategy performance, access actionable insights, and optimize your campaigns and portfolios.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Monitor and optimize your bid strategies

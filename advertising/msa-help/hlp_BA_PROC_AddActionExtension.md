@@ -1,4 +1,4 @@
----
+﻿---
 title: Add a Call to Action Button with Action Extensions
 description: Learn how to add a call to action button to your ads using action extensions in Microsoft Advertising.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Action extensions: Add a call to action button with action extensions

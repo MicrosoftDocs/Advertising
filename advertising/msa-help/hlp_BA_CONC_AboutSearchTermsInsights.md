@@ -1,4 +1,4 @@
----
+﻿---
 title: Search terms insights
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Search terms insights allow you to pinpoint high-performing search terms and enhance your campaign's performance based on customer search behavior.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Search terms insights

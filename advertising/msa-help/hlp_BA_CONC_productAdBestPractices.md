@@ -1,4 +1,4 @@
----
+﻿---
 title: Best practices for Microsoft Shopping campaigns and Product ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: We've summarized a list of short tips and tricks from our Microsoft Advertising experts and your fellow advertisers for creating and managing Shopping campaigns and Product ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Best practices for Microsoft Shopping campaigns and Product ads
@@ -21,10 +22,10 @@ One of the most important things to remember when using Shopping campaigns and P
 A high-quality feed is important in getting your Shopping campaign off to a good start. Here are some things to consider:
 
 - **No need to start from scratch**: Save time and effort by importing your existing Google Ads feeds and Shopping campaigns. First, you'll want to look at this [important information about importing Shopping campaigns and Product ads](hlp_BA_CONC_ImportWhatInfo.md).
-- **Create and maintain a high-quality feed**: List all available products in your feed and ensure that you’re keeping stock and availability fields current. Refresh your feed on a daily basis.
+- **Create and maintain a high-quality feed**: List all available products in your feed and ensure that youâ€™re keeping stock and availability fields current. Refresh your feed on a daily basis.
 - **Populate as many attributes as possible for each product offer:** The more information you make available in your feed, the more likely your Product ads will be displayed for relevant queries. Including attributes such as custom labels, a Bing category and a merchant category are particularly helpful. A well written and complete description will also help get you more impressions.
 - **Don't use "Miscellaneous" for a category:** And yes, "Misc" is even worse.
-- **Use high-quality images:** Images must be 220x220 pixels or larger. Test and optimize images that show the product in the most relevant way for your customers. The image you’re using should be easily recognizable as the intended product.
+- **Use high-quality images:** Images must be 220x220 pixels or larger. Test and optimize images that show the product in the most relevant way for your customers. The image youâ€™re using should be easily recognizable as the intended product.
 - **Frequently test your feed and look at errors:** Try to review errors with each feed update to avoid a backlog.
 - **Use a single store:** If you are an aggregator, you should use a single store and divide each of the seller feeds into different feeds.
 
@@ -32,14 +33,14 @@ A high-quality feed is important in getting your Shopping campaign off to a good
 
 Images are what make your Product ads stand out. Here are some tips for what images to include:
 
-- **Use high-quality images:** Images must be 220x220 pixels or larger. Test and optimize images that show the product in the most relevant way for your customers. The image you’re using should be easily recognizable as the intended product.
+- **Use high-quality images:** Images must be 220x220 pixels or larger. Test and optimize images that show the product in the most relevant way for your customers. The image youâ€™re using should be easily recognizable as the intended product.
 - **No watermarks:** Watermarks, "Free shipping," or other promotional text should not be present in your images.
 - **No placeholders:** Do not use "Image Not Available" or other similar placeholders. Ads with these placeholders will not display.
 - **Watch your borders:** Use minimal surrounding whitespace; generally only about 10% of your image. Images with greater that 60% whitespace will very likely not display.
 
 ## Product ads
 
-Best practices for Product ads are similar to what you probably already do for your text ads. Note that promotional text is no longer available for Product ads—we recommend that you use Merchant Promotions instead. [Learn more](hlp_BA_CONC_BMC_MerchantPromo.md)
+Best practices for Product ads are similar to what you probably already do for your text ads. Note that promotional text is no longer available for Product adsâ€”we recommend that you use Merchant Promotions instead. [Learn more](hlp_BA_CONC_BMC_MerchantPromo.md)
 
 - **Use negative keywords:** Although Shopping campaigns don't use keywords to trigger the Product ads, you can still use negative keywords to prevent your products from showing in response to irrelevant and poor-performing queries.
 - **Analyze the data:**Microsoft Advertising now offers four data-rich reports to help analyze your Shopping campaigns. Get special insight into your Product ads as well as crucial information to better understand your ads performance.
@@ -63,7 +64,7 @@ Just like text ads, you need to set and monitor your product ad bids to make sur
 
 Here are a few more things to consider as you create your campaign, and more importantly after it starts running:
 
-- **Use campaign priority:** Set the campaign priority to **High** in order to have a specific Shopping campaigns serve ahead of your other campaigns. Setting a particular campaign's campaign priority to High will cause it to Display ads more often than other campaigns with a priority set to Low or Medium. Similarly, a Shopping campaign with a campaign priority of Medium will take precedence over other campaigns with the default Low priority. If there are multiple campaigns with different priorities targeting the same product, the campaign priority still holds true—High takes precedence over Medium, which takes precedence over Low. However, if the product gets filtered out by any business rules, like location targeting, minimum bids, etc., the campaign priority is applied to the non-filtered product. For example, let’s say you have a High and Medium campaign targeting the same product, and this product is selected to serve. But after applying location targeting, the product from the High campaign is filtered, which means the non-filtered product from the Medium campaign will serve.
+- **Use campaign priority:** Set the campaign priority to **High** in order to have a specific Shopping campaigns serve ahead of your other campaigns. Setting a particular campaign's campaign priority to High will cause it to Display ads more often than other campaigns with a priority set to Low or Medium. Similarly, a Shopping campaign with a campaign priority of Medium will take precedence over other campaigns with the default Low priority. If there are multiple campaigns with different priorities targeting the same product, the campaign priority still holds trueâ€”High takes precedence over Medium, which takes precedence over Low. However, if the product gets filtered out by any business rules, like location targeting, minimum bids, etc., the campaign priority is applied to the non-filtered product. For example, letâ€™s say you have a High and Medium campaign targeting the same product, and this product is selected to serve. But after applying location targeting, the product from the High campaign is filtered, which means the non-filtered product from the Medium campaign will serve.
 - **Monitor the difference in performance between your text ads and Product ads over time:** Text ads and Product ads have different CPCs, CTRs, and conversation rates. Use Microsoft Advertising reports to monitor your performance and make appropriate optimizations to your bids, product groups and budgets to achieve your business goals.
 - **Test, test, test:** Just like with text ads, testing is key to long-term success. Test different versions of text, alternative images, and the granularity of product targets. For example, you might find that product targets based on specific products or specific business goals perform better than a target that includes a wide group of products.
 - **Use customized destination URLs to track Product Target performance:** Similar to [using specific destination URLs for specific keywords](hlp_BA_PROC_ChangeLandingPage.md), you can also set specific destination URLs for specific product groups. You can then track visits to those individual pages to gauge the performance of your various product groups.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bulk import preference
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the bulk import preference feature.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Bulk import preference
@@ -59,7 +60,7 @@ Before you get started, you need to identify the account and import tasks you'd 
 
 ## Preferences
 
-Below are the preference options—[Boolean](#boolean-import-preferences), [double](#double-import-preferences), [long](#long-import-preferences), [string](#string-import-preferences), and [search and replace strings](#search-and-replace-strings-import-preferences)—with sample values.
+Below are the preference optionsâ€”[Boolean](#boolean-import-preferences), [double](#double-import-preferences), [long](#long-import-preferences), [string](#string-import-preferences), and [search and replace strings](#search-and-replace-strings-import-preferences)â€”with sample values.
 
 Copy and paste these into the **Preference** column of your CSV file. Each preference should be followed with a colon and their respective value (see the second column for sample values). Wrap each preference in double quotes. The entire set of preferences should be wrapped in braces ( { } ). For example:
 ```

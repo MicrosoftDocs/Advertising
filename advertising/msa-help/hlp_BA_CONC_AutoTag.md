@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I add UTM tags to my landing page URL?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to turn on auto-tagging, which lets Microsoft Advertising automatically add UTM tags to your landing page URL.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I add UTM tags to my landing page URL?

@@ -1,4 +1,4 @@
----
+﻿---
 title: Using the API and FTP/SFTP in Microsoft Merchant Center
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about uploading your feed in Microsoft Merchant Center through a manual feed, FTP/SFTP, or API.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using the API and FTP/SFTP in Microsoft Merchant Center
@@ -14,7 +15,7 @@ description: Learn about uploading your feed in Microsoft Merchant Center throug
 > [!TIP]
 > [New to Microsoft Shopping campaigns? Learn how to get started in this training course (requires Adobe Flash Player).](https://go.microsoft.com/fwlink/?linkid=2129851)
 
-If a feed is uploaded using the FTP/SFTP, it was accessible by the API. We now provide you with the flexibility to access and update your offers with Bing in any form, whether it’s through a manual feed, FTP/SFTP, or via API. If uploading via FTP/SFTP, the file name of .tsv, .txt, or .xml files have to match the file name specified for a feed’s settings. In the case of compressed text format, the compressed .txt file inside the archive (.zip, .gz, .gzip) must have the matching file name.
+If a feed is uploaded using the FTP/SFTP, it was accessible by the API. We now provide you with the flexibility to access and update your offers with Bing in any form, whether itâ€™s through a manual feed, FTP/SFTP, or via API. If uploading via FTP/SFTP, the file name of .tsv, .txt, or .xml files have to match the file name specified for a feedâ€™s settings. In the case of compressed text format, the compressed .txt file inside the archive (.zip, .gz, .gzip) must have the matching file name.
 
 With this feature, you can now:
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: What is Microsoft Merchant Center?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Merchant Center allows you to create a catalog, which includes images and other information about your products, so that your products can display on the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md).
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is Microsoft Merchant Center?

@@ -1,4 +1,4 @@
----
+﻿---
 title: Change Contact Information
 description: By keeping your contact information current, we can get in touch with you about important info about your account and campaigns, or communications about Microsoft Advertising service updates and seminars.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Change contact information

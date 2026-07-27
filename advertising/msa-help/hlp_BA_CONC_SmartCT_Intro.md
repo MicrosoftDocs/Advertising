@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - Track what customers do after they click your ad
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: We can tell you what pages potential customers visit on your website, how long they spend there, and more!
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - Track what customers do after they click your ad
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 > [!NOTE]
 > For customer action tracking to work, you (or a web developer) will need to add a tracking tag to each page of your website's code.

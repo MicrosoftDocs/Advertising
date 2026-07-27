@@ -1,4 +1,4 @@
----
+﻿---
 title: "Build your campaign - Improve keywords"
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how keywords work with ad groups and how to add keywords.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Build your campaign - Improve keywords
@@ -20,7 +21,7 @@ Keywords are the words or phrases that you associate with your ads so that poten
 
 To better understand keywords, you need to know about ad groups. Ad groups are the best way to organize your campaigns by the specific products or services that you offer.
 
-When you create a campaign, think about the different kinds of ads that you want to create. For example, if you’re a toy retailer, you might want to write ads for kids’ electronics and different ads for your tricycle and wagon products. This is where ad groups come in. Keywords in the first ad group might include *walkie-talkies*, *electronic pets*, and *kids’ music players*. The second ad group might include keywords like *pull-along wagons*, *tricycles*, and *kids’ bikes*. If you don’t create separate ad groups within your campaign, people searching for "kids' bikes" might end up looking at your ad for electronic pets and vice versa. Use ad groups to help make your ad more relevant to users’ searches and to improve your ROI.
+When you create a campaign, think about the different kinds of ads that you want to create. For example, if youâ€™re a toy retailer, you might want to write ads for kidsâ€™ electronics and different ads for your tricycle and wagon products. This is where ad groups come in. Keywords in the first ad group might include *walkie-talkies*, *electronic pets*, and *kidsâ€™ music players*. The second ad group might include keywords like *pull-along wagons*, *tricycles*, and *kidsâ€™ bikes*. If you donâ€™t create separate ad groups within your campaign, people searching for "kids' bikes" might end up looking at your ad for electronic pets and vice versa. Use ad groups to help make your ad more relevant to usersâ€™ searches and to improve your ROI.
 
 :::image type="content" source="media/BA_Conc_NewAdv_AdGroupsKws.png" alt-text="Use ad groups to make your ad relevant.":::
 
@@ -38,7 +39,7 @@ Keywords are the words or phrases that you associate with your ads so that poten
 
 ## Use negative keywords
 
-While keywords get your ads in front of the right people, negative keywords keep them from showing for searches that won’t likely lead to sales. For example, if you’re a toy retailer running a sale on kids’ electronics, you won’t want to pay for search traffic from people looking for other children’s toys. In this case, your negative keywords can include *dolls*, *board games*, and *puzzles*. Make sure to spend as much time perfecting your negative keywords list as you do your keywords list.
+While keywords get your ads in front of the right people, negative keywords keep them from showing for searches that wonâ€™t likely lead to sales. For example, if youâ€™re a toy retailer running a sale on kidsâ€™ electronics, you wonâ€™t want to pay for search traffic from people looking for other childrenâ€™s toys. In this case, your negative keywords can include *dolls*, *board games*, and *puzzles*. Make sure to spend as much time perfecting your negative keywords list as you do your keywords list.
 
 [How to add keywords that won't trigger my ads (negative keywords)](hlp_BA_PROC_AddNegativeKeywords.md).
 

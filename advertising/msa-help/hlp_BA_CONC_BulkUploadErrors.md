@@ -1,4 +1,4 @@
----
+﻿---
 title: What does this bulk upload error mean?
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn what bulk upload error codes mean and how to fix them.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What does this bulk upload error mean?

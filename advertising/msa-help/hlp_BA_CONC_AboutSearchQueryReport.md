@@ -1,4 +1,4 @@
----
+﻿---
 title: Run a search term report
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: A search term report shows you what people are searching for when your ads are shown. When you connect these terms with impression and click data, you can see how your keywords match up to customers' searches, and refine your keyword and negative keyword lists for your ad groups.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Run a search term report

@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up UET Tags Using Shopify, WordPress.com, and Other Website Platforms
 description: UET is designed to work with all major website platforms.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up UET tags using Shopify, WordPress.com, and other website platforms

@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a Microsoft Merchant Center Store
 description: If you want to list your feed on search placements across the Microsoft Advertising Network, you first need to create Microsoft Merchant Center store.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a Microsoft Merchant Center store
@@ -48,7 +49,7 @@ After your store is approved, you can [create your feed](hlp_BA_CONC_BMCWhatIsCa
 - Attempting to claim an unverified domain.
 - Microsoft Advertising customer has been identified as an adult advertiser.
 - Lack of presence in the markets supported for Product ads by Microsoft Advertising.
-- Lack of a “real” privacy policy on website.
+- Lack of a â€œrealâ€ privacy policy on website.
 - Non-encrypted (non-SSL) checkout. You will want to verify that your SSL certificates are valid.
 - There's already a store registered for the domain name, or there is an existing store registered with the account ID. If you have access to the Microsoft Advertising account in which the URL is already being used, you can deactivate the duplicate store. If you don't have access to the account or the store has been rejected, [contact Support](https://go.microsoft.com/fwlink/?linkid=398371) to deactivate the duplicate store.
 

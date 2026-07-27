@@ -1,4 +1,4 @@
----
+﻿---
 title: What are keywords and how should I build my keyword list?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Here are some ideas for building your first keyword list, or for expanding existing lists.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are keywords and how should I build my keyword list?

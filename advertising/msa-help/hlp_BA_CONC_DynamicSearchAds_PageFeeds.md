@@ -1,4 +1,4 @@
----
+﻿---
 title: About Dynamic search ads page feeds
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to upload relevant URLs for your Dynamic Search ad campaigns with page feeds.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Dynamic search ads page feeds

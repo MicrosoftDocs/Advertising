@@ -1,4 +1,4 @@
----
+﻿---
 title: Managing your user name to access multiple accounts
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: By adding multi-user access to your existing user name, you effectively extend your reach by being able to access other people's accounts.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Managing your user name to access multiple accounts

@@ -1,4 +1,4 @@
----
+﻿---
 title: About Ad strength
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how Ad strength maximizes campaign performance by helping you strengthen asset coverage in Microsoft Advertising campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Ad strength
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Ad strength maximizes campaign performance by helping you strengthen asset coverage. As you build your campaign, Ad strength evaluates your text and image assets based on coverage, relevance, and diversity, then shows a score with clear suggestions to help you improve campaign performance.
 
@@ -24,13 +25,13 @@ Ad strength score combines signals from your text assets (headlines and descript
 
 ### You see the score as:
 
-- A percentage, 0—100%, and
+- A percentage, 0â€”100%, and
 - A rating category:
 
-  - Poor (0—50%)
-  - Average (51—60%)
-  - Good (61—70%)
-  - Excellent (71—100%)
+  - Poor (0â€”50%)
+  - Average (51â€”60%)
+  - Good (61â€”70%)
+  - Excellent (71â€”100%)
 
 ## What the score evaluates
 
@@ -38,42 +39,42 @@ Ad strength score combines signals from your text assets (headlines and descript
 
   Your text score is based on headlines and descriptions and looks at:
 
-  - Volume — whether you've added enough headlines and descriptions
-  - Length — whether your text provides enough detail
-  - Pinning (Responsive Search ads only) — whether pinning limits ad combinations
-  - Keyword usage — whether popular keywords are included
-  - Relevance — whether copy or image quality matches your landing page
+  - Volume â€” whether you've added enough headlines and descriptions
+  - Length â€” whether your text provides enough detail
+  - Pinning (Responsive Search ads only) â€” whether pinning limits ad combinations
+  - Keyword usage â€” whether popular keywords are included
+  - Relevance â€” whether copy or image quality matches your landing page
 
   | Feature | Action | Good score |
   | --- | --- | --- |
-  | **Short headline count** | Add more headlines | 9—12 headlines |
-  | **Long headline count** | Add more headlines | 3—4 long headlines |
+  | **Short headline count** | Add more headlines | 9â€”12 headlines |
+  | **Long headline count** | Add more headlines | 3â€”4 long headlines |
   | **Description count** | Add more descriptions | 3 descriptions |
-  | **Short headline length** | Create longer headlines | Average length 17—24 characters |
-  | **Long headline length** | Create longer headlines | Average length 46—85 characters |
-  | **Description length** | Add longer descriptions | Average length 46—85 characters |
-  | **Pinned headlines (RSA only)** | Unpin headlines for more combinations | 1—7 pinned |
+  | **Short headline length** | Create longer headlines | Average length 17â€”24 characters |
+  | **Long headline length** | Create longer headlines | Average length 46â€”85 characters |
+  | **Description length** | Add longer descriptions | Average length 46â€”85 characters |
+  | **Pinned headlines (RSA only)** | Unpin headlines for more combinations | 1â€”7 pinned |
   | **Pinned descriptions (RSA only)** | Unpin descriptions for more combinations | 1 pinned |
-  | **Headlines include popular keyword (RSA only)** | Include popular keyword in headlines | 25%—75% headlines contain keyword |
-  | **Descriptions include popular keyword (RSA only)** | Include popular keyword in descriptions | 25%—75% descriptions contain keyword |
-  | **Headline relevance** | Replace headlines not relevant to landing page | 66%—99% headlines relevant |
-  | **Description relevance** | Replace descriptions not relevant to landing page | 66%—99% descriptions relevant |
+  | **Headlines include popular keyword (RSA only)** | Include popular keyword in headlines | 25%â€”75% headlines contain keyword |
+  | **Descriptions include popular keyword (RSA only)** | Include popular keyword in descriptions | 25%â€”75% descriptions contain keyword |
+  | **Headline relevance** | Replace headlines not relevant to landing page | 66%â€”99% headlines relevant |
+  | **Description relevance** | Replace descriptions not relevant to landing page | 66%â€”99% descriptions relevant |
 
 - **Image assets**
 
   Your image score evaluates:
 
-  - Volume — whether you've added enough images
-  - Diversity — whether images show distinct visuals and ideas
-  - Relevance — whether images align with your landing page
-  - Recontextualization — whether images have enough visual context (for example, not simple or white backgrounds)
+  - Volume â€” whether you've added enough images
+  - Diversity â€” whether images show distinct visuals and ideas
+  - Relevance â€” whether images align with your landing page
+  - Recontextualization â€” whether images have enough visual context (for example, not simple or white backgrounds)
 
   | Feature | Action | Good score |
   | --- | --- | --- |
-  | **PMAX image count** | Add more images | 11—15 images |
-  | **MMA / AWF image count** | Add more images | 9—12 images |
-  | **Image relevance** | Replace images not relevant to landing page | 66%—99% images relevant |
-  | **Add context to images** | Replace images with complex backgrounds | 26%—50% images have poor score |
+  | **PMAX image count** | Add more images | 11â€”15 images |
+  | **MMA / AWF image count** | Add more images | 9â€”12 images |
+  | **Image relevance** | Replace images not relevant to landing page | 66%â€”99% images relevant |
+  | **Add context to images** | Replace images with complex backgrounds | 26%â€”50% images have poor score |
 
 ## How to improve your score
 
@@ -84,7 +85,7 @@ Depending on the issue, recommendations may include:
 - **Improve text assets**
 
   - *Add more headlines or descriptions.* This increases asset coverage and ad combinations, which directly improves Ad strength, which results in more opportunities to show the most relevant message and drive better performance.
-  - *Create longer text.* This occurs when headlines or descriptions are too short. You'll see a **Fix it** prompt that lets you edit or choose auto—generated text that meets length guidelines, with Ad strength updating in real time.
+  - *Create longer text.* This occurs when headlines or descriptions are too short. You'll see a **Fix it** prompt that lets you edit or choose autoâ€”generated text that meets length guidelines, with Ad strength updating in real time.
   - *Unpin headlines or descriptions.* Unpinning headlines or descriptions allows more flexibility to combine assets, improve diversity, and show the most relevant message, which directly improves Ad strength and performance prediction.
 
     > [!NOTE]
@@ -97,12 +98,12 @@ Depending on the issue, recommendations may include:
 
 - **Improve image assets**
 
-  - Use high—resolution image assets, and replace any that aren't to ensure clarity for your audience.
+  - Use highâ€”resolution image assets, and replace any that aren't to ensure clarity for your audience.
   - Add more images
   - Update or remove images that are inconsistent with the landing page, such as those showing the wrong product or making conflicting claims.
   - Replace images with simple backgrounds using suggested alternatives
 
-## Real—time updates
+## Realâ€”time updates
 
 ### Your Ad strength updates as soon as you:
 

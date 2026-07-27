@@ -1,4 +1,4 @@
----
+﻿---
 title: About Product listings
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Product listings show in the Bing shopping tab for free.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Product listings
@@ -37,11 +38,11 @@ If you want to opt out of Product listings, select the **Show free Product Listi
 - Approved products in the store will be eligible to show in the free section of the Bing shopping tab.
 - Products must comply with [Microsoft Advertising policies](hlp_BA_CONC_EditorialGuidelines.md).
 - Products must meet the [product specification requirements](hlp_BA_CONC_AboutBingMerchantCenterCatalogFile.md).
-- The “link” attribute must point to the direct URL of the product's page on the retailer's website.
+- The â€œlinkâ€ attribute must point to the direct URL of the product's page on the retailer's website.
 
   - The URL must be a direct link to the product's landing page.
   - The URL cannot contain any campaign tracking parameters.
-- The “ads_redirect” attribute will not be used and if it's included in the feed file, will be ignored.
+- The â€œads_redirectâ€ attribute will not be used and if it's included in the feed file, will be ignored.
 
 ## Tracking Product listings
 
@@ -98,7 +99,7 @@ Take a look at the details you need to know about URLs and tracking for Product 
 - Use the "link" attribute to track free clicks. This URL must point to the product page and you can add tracking parameters to track the free clicks.
 
   - Free Product listings will use this URL to drive clicks to the products on the retailers' site. The "ads_redirect" attribute will not be used for Product listings.
-  - Example URL: http://www.contoso.com/product.asp?pn=ISI1&utm_source=Bing&utm_medium=freeproductlistings​
+  - Example URL: http://www.contoso.com/product.asp?pn=ISI1&utm_source=Bing&utm_medium=freeproductlistingsâ€‹
   -
 
     > [!NOTE]

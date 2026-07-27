@@ -1,4 +1,4 @@
----
+﻿---
 title: How call and location extensions work together
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: When these extensions are used together, the phone number displayed and the availability of tap-to-call depend on the device where the ad is being viewed. Learn more in this article.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How call and location extensions work together

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Video Extensions: Express Your Brand Identity"
 description: Create engaging experiences alongside your ad with a video extension.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Video extensions: Express your brand identity
@@ -29,8 +30,8 @@ On computer, when a user clicks on your thumbnail image, your video plays in a f
 
 - Campaigns and ad groups associated with video extensions should have at least two other below-snippet decorations, such as callout, structured snippet, filter link, dynamic callouts, dynamic structured snippet, etc. This allows for enough room within the ad to create space for the video extension thumbnail.
 - Pair your video extension with a campaign or ad group that has ad descriptions of less than 82 characters (a short ad description is necessary to make space for the thumbnail in the ad).
-- We don’t recommend using action, image, or call extensions with campaigns/ad groups associated with video extensions because the video competes with them for space.
-- Your video’s content and message should be distinct from the ad description and other extensions.
+- We donâ€™t recommend using action, image, or call extensions with campaigns/ad groups associated with video extensions because the video competes with them for space.
+- Your videoâ€™s content and message should be distinct from the ad description and other extensions.
 - The landing page of the video should allow users to act rather than only receive information about your offer.
 - We recommend using captions on your video.
 
@@ -51,7 +52,7 @@ On computer, when a user clicks on your thumbnail image, your video plays in a f
 | **Alt text** | Not displayed yet, but coming soon: Alt text is the text that appears when someone hovers over your video with their cursor, whether or not the video was rendered. It is also used by screen readers to describe the video to people with disabilities and is limited to 40 characters. |
 | **Display text** | Limited to 25 characters, this text will be shown below the video when it is played. The display text can be a video title, short video description, brand name, or short message for the customer. |
 | **Action text** | Limited to 20 characters, this text will be displayed on the button below the video when it plays on a PC. The action text should encourage the user to perform an action that is available at the Action final URL. |
-| **Action final URL** | The landing page URL of the Action button on PC—in other words, the URL of the page that displays after a customer clicks the Action button. |
+| **Action final URL** | The landing page URL of the Action button on PCâ€”in other words, the URL of the page that displays after a customer clicks the Action button. |
 | **Action mobile URL** | Not displayed yet, but coming soon: The landing page URL on mobile. In other words, the URL of the page that displays after a customer taps the **Action text** button. |
 
 ## Video requirements

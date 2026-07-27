@@ -1,4 +1,4 @@
----
+﻿---
 title: How to track custom events with UET
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to create custom events that allow you to track more than one type of conversion for a single webpage.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to track custom events with UET
@@ -82,7 +83,7 @@ Before you start setting up custom events, make sure you have:
     1. Choose an answer for **Do you have this UET tag installed on your website?**
 
        > [!NOTE]
-       > If you choose either **No, this UET tag is not installed on all your website pages** or **I’m not sure. I need instructions to install the tag**, select **Install the tag yourself** or **Send the tag to a developer**. Select **Next** and follow the onscreen instructions. Select **Next** to finish setting up the conversion goal. [Learn more about adding a UET tag to your website](hlp_BA_PROC_UETv2AddTag.md).
+       > If you choose either **No, this UET tag is not installed on all your website pages** or **Iâ€™m not sure. I need instructions to install the tag**, select **Install the tag yourself** or **Send the tag to a developer**. Select **Next** and follow the onscreen instructions. Select **Next** to finish setting up the conversion goal. [Learn more about adding a UET tag to your website](hlp_BA_PROC_UETv2AddTag.md).
     1. Select **Save and next**.
     1. For **Custom Event** goals, specify when you want to track this event (choose **Track event on inline action** or **Track event on page load**). Follow the provided instructions to set up the event tag on your website.
 

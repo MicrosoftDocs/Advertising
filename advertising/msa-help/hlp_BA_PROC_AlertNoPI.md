@@ -1,4 +1,4 @@
----
+﻿---
 title: "Critical Alert: No Payment Method Has Been Added"
 description: If you are seeing the alert "No payment method has been added for Account ...." then you *might* still need to add a payment method.
 ms.date: 5/30/2026
@@ -7,11 +7,12 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Critical alert: No payment method has been added
 
-If you are seeing the alert "No payment method has been added for Account ...." then you *might* still need to add a payment method. Your ads won't run until you’ve added at least one form of payment (for example, a credit card) to your postpay account or funds to your prepay account. To learn how to add a payment method, see [Paying by credit and debit card](hlp_BA_PROC_AddBilling.md).
+If you are seeing the alert "No payment method has been added for Account ...." then you *might* still need to add a payment method. Your ads won't run until youâ€™ve added at least one form of payment (for example, a credit card) to your postpay account or funds to your prepay account. To learn how to add a payment method, see [Paying by credit and debit card](hlp_BA_PROC_AddBilling.md).
 
 :::image type="content" source="media/BA_ScreenCap_CriticalAlertNoPI.png" alt-text="Delete the No payment method alert.":::
 

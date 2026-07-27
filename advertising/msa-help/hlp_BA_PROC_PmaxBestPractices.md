@@ -1,4 +1,4 @@
----
+﻿---
 title: Best Practices for Performance Max Campaigns
 description: Learn all about the best practices for Performance Max.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Best practices for Performance Max campaigns

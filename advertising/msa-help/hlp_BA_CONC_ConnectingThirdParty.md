@@ -1,4 +1,4 @@
----
+﻿---
 title: Connecting to third-party measurement partners
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about how to connect to third-party measurement partners.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Connecting to third-party measurement partners
@@ -25,7 +26,7 @@ Reports from third-party measurement providers supplement the standard reporting
 
 ## Set up DoubleVerify
 
-You must be an existing DoubleVerify customer to enable this measurement partner for your campaigns. Your DoubleVerify account and Microsoft Advertising account must be linked with a one-time code (or “link token”) generated in [DoubleVerify's Pinnacle platform](https://pinnacle.doubleverify.com/login) and saved in your Microsoft Advertising account.
+You must be an existing DoubleVerify customer to enable this measurement partner for your campaigns. Your DoubleVerify account and Microsoft Advertising account must be linked with a one-time code (or â€œlink tokenâ€) generated in [DoubleVerify's Pinnacle platform](https://pinnacle.doubleverify.com/login) and saved in your Microsoft Advertising account.
 
 - **Generate a link token for your Microsoft Advertising account**
 
@@ -155,7 +156,7 @@ This is an example of what your Tag URL will look like for display or Microsoft 
 
   Not currently. Only the default baseline settings are supported.
 
-- **I have applied DV measurement following the above process—should I also upload DV monitoring tags at the ad level?**
+- **I have applied DV measurement following the above processâ€”should I also upload DV monitoring tags at the ad level?**
 
   No, this could lead to double counting of impressions. Activating the integration and uploading DV monitoring tags will result in DV reporting and billing issues.
 

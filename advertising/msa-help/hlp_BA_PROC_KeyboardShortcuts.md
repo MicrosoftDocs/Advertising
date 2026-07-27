@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Keyboard Shortcuts
 description: Complete simple tasks and navigate Microsoft Advertising with keyboard shortcuts
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using keyboard shortcuts

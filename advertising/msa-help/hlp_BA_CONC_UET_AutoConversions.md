@@ -1,4 +1,4 @@
----
+﻿---
 title: Simplified conversion goal setup
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Simplified conversion goal setup makes use of Clarity/Insights data (if you are opted-in) and Edge/Shopping data (if you have enabled the extension in Edge).
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Simplified conversion goal setup
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 > [!IMPORTANT]
 > Ensure proper consent transmission for users visiting from the European Economic Area (EEA), the United Kingdom, and Switzerland by implementing [Consent Mode](hlp_BA_CONC_UET_Consent.md) or the [Transparency and Consent Framework (TCF)](hlp_BA_CONC_UET_TCF.md) with your UET tags to avoid any negative impact on conversion attribution and remarketing segments. This policy reflects the requirements of the EU ePrivacy Directive and the General Data Protection Regulation (GDPR). [Learn more](hlp_BA_CONC_UET_ConsentFAQ.md)
@@ -47,10 +48,10 @@ To use simplified conversion goal setup, you only need to set up a UET tag on yo
 
 > [!NOTE]
 > - Once you complete simplified conversion goal setup, you can continue with the campaign creation workflow. [Learn more](hlp_BA_CONC_Redesign.md).
-> - Automated bid strategies require “Optimize campaign performance” to be enabled in the conversion goals setting. Your campaign performance is dependent on accurate conversion tracking. [Learn more about auto-bidding](hlp_BA_CONC_BidStrategy_Portfolio.md).
+> - Automated bid strategies require â€œOptimize campaign performanceâ€ to be enabled in the conversion goals setting. Your campaign performance is dependent on accurate conversion tracking. [Learn more about auto-bidding](hlp_BA_CONC_BidStrategy_Portfolio.md).
 
 <a id="not-all-website-langauges-are-currently-supported"></a>
 
 ## Not all website languages are currently supported
 
-You can only use simplified conversion goal setup with websites in the following languages: Arabic, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English., Finnish, French, Georgian, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Norwegian Bokmål, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese. For all other languages, you should [setup your conversion goals manually](hlp_BA_PROC_UETv2CreateGoal.md).
+You can only use simplified conversion goal setup with websites in the following languages: Arabic, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English., Finnish, French, Georgian, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Norwegian BokmÃ¥l, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese. For all other languages, you should [setup your conversion goals manually](hlp_BA_PROC_UETv2CreateGoal.md).

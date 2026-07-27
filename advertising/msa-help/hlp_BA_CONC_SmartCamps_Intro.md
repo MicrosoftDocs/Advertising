@@ -1,4 +1,4 @@
----
+﻿---
 title: All about smart campaigns
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Smart campaigns are great for people who are new to search engine marketing. With Smart campaigns, Microsoft Advertising will create ads and run your ad campaign for you!
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # All about smart campaigns

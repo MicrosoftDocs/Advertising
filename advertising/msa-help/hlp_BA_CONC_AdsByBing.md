@@ -1,4 +1,4 @@
----
+﻿---
 title: Ad recommendations can help boost performance
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how Microsoft Advertising can create and run ads for you automatically.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Ad recommendations can help boost performance
@@ -16,7 +17,7 @@ description: Learn how Microsoft Advertising can create and run ads for you auto
 
 Microsoft Advertising can help manage your campaign performance by creating ad recommendations to improve your ads' visibility, bid tactics, and keywords and targeting.
 
-Since more ads often yields better results, ad recommendations could also mean the suggestion of additional ads—such as Responsive Search ads and Multimedia ads—for ad groups that appear to be underperforming. Research shows that ad groups with three or more [quality ads](hlp_BA_CONC_AboutQualityScore.md) can get up to 15% more clicks than those with only one ad. Microsoft Advertising's AI helps by identifying ad groups that show potential for better performance and creating new ads based on your existing ads.
+Since more ads often yields better results, ad recommendations could also mean the suggestion of additional adsâ€”such as Responsive Search ads and Multimedia adsâ€”for ad groups that appear to be underperforming. Research shows that ad groups with three or more [quality ads](hlp_BA_CONC_AboutQualityScore.md) can get up to 15% more clicks than those with only one ad. Microsoft Advertising's AI helps by identifying ad groups that show potential for better performance and creating new ads based on your existing ads.
 
 ## How ad recommendations work
 

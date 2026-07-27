@@ -1,4 +1,4 @@
----
+﻿---
 title: Managing your India tax ID
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Advertisers based in India must provide either a company or an individual Permanent Account Number (PAN) as it appears on the PAN card.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Managing your India tax ID

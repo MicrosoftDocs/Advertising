@@ -1,4 +1,4 @@
----
+﻿---
 title: Linking to an existing account
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: When you link to another account, you gain access and control over that Microsoft Advertising account.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Linking to an existing account
@@ -18,7 +19,7 @@ An account link is a powerful thing. When you link to another Microsoft Advertis
 - Granting and removing account access by managing link requests
 - Other account management activities
 
-Conversely, if you give someone access to your account, that person—known as a direct manager—has full control to manage your account and your advertising. This includes the ability to take over billing as the bill-to customer responsible for billing and payments. Only one person can serve as the bill-to customer.
+Conversely, if you give someone access to your account, that personâ€”known as a direct managerâ€”has full control to manage your account and your advertising. This includes the ability to take over billing as the bill-to customer responsible for billing and payments. Only one person can serve as the bill-to customer.
 
 Direct managers can grant and remove account access to other direct managers by managing link requests. This means that a direct manager has the power to remove existing direct managers or add new direct managers. However, a direct manager can't remove other users on the account they're linked to (such as Super Admins, Standard Users, Advertiser Campaign Managers, or Viewers who are managed by the account owner).
 

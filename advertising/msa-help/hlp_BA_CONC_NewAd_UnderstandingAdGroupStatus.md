@@ -1,4 +1,4 @@
----
+﻿---
 title: Understand your ad group status
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Check your ad group's status and see what the different statuses mean.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understand your ad group status
@@ -31,7 +32,7 @@ Your ad group status tells you if your ad group, including all ads and keywords 
 
 | What it means | How to fix it |
 | --- | --- |
-|No ads are running for this ad group, ad, or keyword because the ad group’s end date has passed. | To continue running ads for the ad group, go to the **Ad groups** table, select the end date in the **End date** column, select a new end date, and then select **Save**. |
+|No ads are running for this ad group, ad, or keyword because the ad groupâ€™s end date has passed. | To continue running ads for the ad group, go to the **Ad groups** table, select the end date in the **End date** column, select a new end date, and then select **Save**. |
 
 ### Status: Ad group paused
 

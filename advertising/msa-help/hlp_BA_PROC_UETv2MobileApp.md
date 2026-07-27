@@ -1,4 +1,4 @@
----
+﻿---
 title: Track Mobile App Installs as Conversions
 description: Find out how to track every time someone installs your app as a conversion.
 ms.date: 5/30/2026
@@ -7,11 +7,12 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Track mobile app installs as conversions
 
-What happens after a customer clicks on your app install ad or app extension? When you create a conversion goal to track mobile app installs you’ll discover:
+What happens after a customer clicks on your app install ad or app extension? When you create a conversion goal to track mobile app installs youâ€™ll discover:
 
 - The ad campaigns that are most effective
 - The keywords that lead to better conversions
@@ -19,7 +20,7 @@ What happens after a customer clicks on your app install ad or app extension? Wh
 - The audiences that have higher conversions
 - How many people install your app
 
-With mobile app install goals, you'll use the app-specific URL that is provided by a Microsoft Advertising-certified partner. Universal Event Tracking (UET) tags are not required or supported for mobile app installs. One conversion goal is required per app platform for each app, per manager account. Keep in mind that Microsoft Advertising treats both **app URL** and **measurement URL** the same way, so even if you don’t manually set up a conversion goal, your app install ad or app extension will still be tracked.
+With mobile app install goals, you'll use the app-specific URL that is provided by a Microsoft Advertising-certified partner. Universal Event Tracking (UET) tags are not required or supported for mobile app installs. One conversion goal is required per app platform for each app, per manager account. Keep in mind that Microsoft Advertising treats both **app URL** and **measurement URL** the same way, so even if you donâ€™t manually set up a conversion goal, your app install ad or app extension will still be tracked.
 
 All you have to do is create an [app extension](hlp_BA_CONC_AdExtensionAppExtension.md) or an [app install ad](hlp_BA_CONC_AppInstallAds.md), and then create a mobile app install conversion goal.
 
@@ -27,7 +28,7 @@ All you have to do is create an [app extension](hlp_BA_CONC_AdExtensionAppExtens
 
 Microsoft Advertising partners with third-party companies to help you create tracking/measurement URLs. Each partner has a template of exactly what Microsoft Advertising expects the tracking/measurement URL to look like, and the only mandatory parameter required is the **MSCLKID**.
 
-You’ll need one measurement URL for each respective app in the app store. Visit one of the following sites to create an app-specific measurement URL to track installs from app extensions and app install ads as conversions:
+Youâ€™ll need one measurement URL for each respective app in the app store. Visit one of the following sites to create an app-specific measurement URL to track installs from app extensions and app install ads as conversions:
 
 - [Adjust](https://help.adjust.com/en/article/measure-web-campaigns#set-up-bing-ads-web-campaign)
 - [Airbridge](https://help.airbridge.io/en/guides/microsoft-advertising)
@@ -40,7 +41,7 @@ You’ll need one measurement URL for each respective app in the app store. Visi
 
 Before saving your tracking template, it must pass specific validation rules to ensure accuracy:
 
-- **Single “?” requirement:** The URL must contain only one “?” symbol. Any additional query parameters should be appended with “&”.
+- **Single â€œ?â€ requirement:** The URL must contain only one â€œ?â€ symbol. Any additional query parameters should be appended with â€œ&â€.
 - **Mandatory {lpurl} parameter:** Your tracking template must include the {lpurl} parameter, which is essential for directing users to the correct landing page.
 - **Correct advertiser app ID:** Ensure the tracking template includes the correct advertiser app ID.
 

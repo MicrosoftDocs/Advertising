@@ -1,4 +1,4 @@
----
+﻿---
 title: Get to know your Microsoft Advertising account modes
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Compare Smart mode and Expert mode.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get to know your Microsoft Advertising account modes

@@ -1,4 +1,4 @@
----
+﻿---
 title: I'm having trouble adding a credit card or debit card
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Adding credit cards to Microsoft Advertising is easy and safe, but if you run into problems, take a look at this article for troubleshooting tips.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # I'm having trouble adding a credit card or debit card

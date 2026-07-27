@@ -1,4 +1,4 @@
----
+﻿---
 title: Using structured data markup
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how using microdata, a form of structured data markup, can help you display better content in search results.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using structured data markup
@@ -17,7 +18,7 @@ Without structured data markup, search engines may only display minimal informat
 
 ## Getting started with structured data markup
 
-Your webmaster needs to edit—or markup—your site's HTML using open-source microdata from [Schema.org](https://schema.org/). Microdata is a set of standardized descriptive tags attached to a site's HTML code that allows search engines to effectively read site contents.
+Your webmaster needs to editâ€”or markupâ€”your site's HTML using open-source microdata from [Schema.org](https://schema.org/). Microdata is a set of standardized descriptive tags attached to a site's HTML code that allows search engines to effectively read site contents.
 
 Schema.org's microdata is used by Bing and other leading search engines to provide better results and richer browsing experiences.
 
@@ -81,5 +82,5 @@ For more information about setting up microdata, see [Schema.org's getting start
 ## Microdata requirements
 
 - The microdata must be embedded in the HTML returned from your web server. It can't be generated after JavaScript executes a page load.
-- Your landing page microdata must be static. For example, prices can’t fluctuate based on user data (such browser, cookies, or IP address).
+- Your landing page microdata must be static. For example, prices canâ€™t fluctuate based on user data (such browser, cookies, or IP address).
 - The microdata must match the values that are shown to the user. Purposefully incorrect data in your landing page violates the [Microsoft Advertising Terms and Conditions](https://bingads.microsoft.com/tc.aspx).

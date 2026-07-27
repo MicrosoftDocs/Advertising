@@ -1,4 +1,4 @@
----
+﻿---
 title: Submit Online Product Inventory Update Feeds
 description: Here is how you create a feed file using a spreadsheet program.
 ms.date: 5/30/2026
@@ -7,11 +7,12 @@ ms.subservice: msa-shopping-merchant-center
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Submit online product inventory update feeds
 
-For product attributes that you update frequently—such as price, availability, sale price, and sale price effective date—you can easily make updates using online product inventory update feeds. While you will still need to submit your full product feed at least once every 30 days, you can use the update feed for the specific attributes that are already in your full product feed: Price, availability, sale price, and sale price effective date.
+For product attributes that you update frequentlyâ€”such as price, availability, sale price, and sale price effective dateâ€”you can easily make updates using online product inventory update feeds. While you will still need to submit your full product feed at least once every 30 days, you can use the update feed for the specific attributes that are already in your full product feed: Price, availability, sale price, and sale price effective date.
 
 ## Why should I use the online product inventory update feed?
 
@@ -60,8 +61,8 @@ You may use this option if the feed file is smaller than 1GB. This is the recomm
   | Attribute | What it is | Required in txt header row? | Can value be blank? |
   | --- | --- | --- | --- |
   | **'id'** | The ID of the product that will be updated. The ID must match the ID provided in the full product feed file. | Yes | No |
-  | **'price'** | The price submitted here overrides the price from the last submission of the product feed file. If price is submitted, the value cannot be blank. No changes will be made if the value is blank and you’ll receive the following error message:<br>*Offer cannot be updated as price cannot be blank. Please add a valid price value.* | No | No |
-  | **'availability'** | The availability submitted here overrides the availability from the last submission of the product feed file. If availability is submitted, the value cannot be blank. No changes will be made if the value is blank and you’ll receive the following error message:<br>*Offer cannot be updated as availability cannot be blank. Please add a valid availability value.* | No | No |
+  | **'price'** | The price submitted here overrides the price from the last submission of the product feed file. If price is submitted, the value cannot be blank. No changes will be made if the value is blank and youâ€™ll receive the following error message:<br>*Offer cannot be updated as price cannot be blank. Please add a valid price value.* | No | No |
+  | **'availability'** | The availability submitted here overrides the availability from the last submission of the product feed file. If availability is submitted, the value cannot be blank. No changes will be made if the value is blank and youâ€™ll receive the following error message:<br>*Offer cannot be updated as availability cannot be blank. Please add a valid availability value.* | No | No |
   | **'sale price' and 'sale price effective date'** | The sale price and sale price effective date submitted here overrides what was last submitted from the product feed file. If blank values are submitted, it will void the previous sale details submitted from the last product feed file. | No | Yes |
 
 ## Upload a feed file manually (files under 4MB)

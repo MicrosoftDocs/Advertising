@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Challenge a Disapproval?
 description: Learn about requesting an exception to a disapproval when you believe your ad component was mistakenly disapproved.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I challenge a disapproval?
@@ -106,7 +107,7 @@ If, after reviewing the [Microsoft Advertising policies](hlp_BA_CONC_EditorialGu
 
 We'll review the ad component again to ensure the right decision is made. When you submit the request, the [delivery status](hlp_BA_CONC_EditorialStatus.md) for the ad component is set to *Exception under review*.
 
-The Microsoft Advertising team responds to requests as quickly as possible—most reviews are completed within 48 hours. After we've reviewed your request, we'll change the status of the ad component and send you an email summarizing any approvals or disapprovals.
+The Microsoft Advertising team responds to requests as quickly as possibleâ€”most reviews are completed within 48 hours. After we've reviewed your request, we'll change the status of the ad component and send you an email summarizing any approvals or disapprovals.
 
 > [!NOTE]
 > Most editorial reviews are completed within 48 hours. If your content still has the **Under Review** delivery status after two business days, please [contact Support](https://go.microsoft.com/fwlink/?linkid=398371) for assistance.

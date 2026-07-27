@@ -1,4 +1,4 @@
----
+﻿---
 title: Discover your budget options
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Your budget is how much you want to spend per day on your ads. Making the right choice depends on your goals and how you want to monitor your spending. Do you want to choose your budget per campaign, or manage them all in one place?
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Discover your budget options
@@ -25,7 +26,7 @@ Three budget types are available:
 | --- | --- | --- |
 | **Daily - Standard** | Microsoft Advertising will help you spend for optimized performance based on the products or services targeted by your campaign and availability of corresponding user searches during the day. | - Set the maximum amount that you want to spend each day and monitor your daily spend.<br>- Take advantage of changing market conditions, such as a holiday season or special promotion.<br>- Make frequent changes to budgets throughout the month.<br>- Have impressions distributed as evenly as appropriate throughout the day. |
 | **Shared - Standard** | Multiple campaigns use a shared budget. Microsoft Advertising will help you spend for optimized performance based on the products or services targeted by your campaigns and availability of corresponding user searches during the day. Learn more at [Share a budget across multiple campaigns](hlp_BA_CONC_SharedBudgets.md) | - Shared budgets are flexible because we automatically adjust how your money is spent across multiple campaigns.<br>- Save time and help improve your ROI (return on investment) by letting us determine how to evenly spend your budget for multiple campaigns. |
-| **Lifetime** | When you set a lifetime budget, you tell us the amount you want to spend on your entire campaign. The option to set a lifetime budget is only available for Audience campaigns. | - You have a certain amount of money you want to spend per campaign and want to set it up front without having to calculate a daily budget.<br>- Have your budget paced evenly throughout the campaign's duration.<br>- No need to make frequent changes to budgets throughout the month—you can set your total budget up front. |
+| **Lifetime** | When you set a lifetime budget, you tell us the amount you want to spend on your entire campaign. The option to set a lifetime budget is only available for Audience campaigns. | - You have a certain amount of money you want to spend per campaign and want to set it up front without having to calculate a daily budget.<br>- Have your budget paced evenly throughout the campaign's duration.<br>- No need to make frequent changes to budgets throughout the monthâ€”you can set your total budget up front. |
 
 - **How your budget is calculated and spent**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting ad campaigns up and running in Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: From creating your first campaign to tips for optimization, here is a flow of steps you should follow to help create and maintain a robust, successful campaign.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Getting ad campaigns up and running in Microsoft Advertising
@@ -21,9 +22,9 @@ The first thing to do is to [create a campaign](#campaign-creation-steps). Micro
 
 - **Campaign types**
 
-  - **Audience campaigns**: Audience campaigns show compelling ads to your ideal audience in placements across the web—all powered by Microsoft AI. Microsoft Audience Ads can appear on sites like MSN, Microsoft Start, Microsoft Edge, Outlook.com, and publisher partners based on our unique knowledge about your potential customers. For more information, see [What are Audience campaigns?](hlp_BA_CONC_NativeAds.md) and [How do I create an Audience campaign?](hlp_BA_PROC_CreateAudienceCampaign.md)
+  - **Audience campaigns**: Audience campaigns show compelling ads to your ideal audience in placements across the webâ€”all powered by Microsoft AI. Microsoft Audience Ads can appear on sites like MSN, Microsoft Start, Microsoft Edge, Outlook.com, and publisher partners based on our unique knowledge about your potential customers. For more information, see [What are Audience campaigns?](hlp_BA_CONC_NativeAds.md) and [How do I create an Audience campaign?](hlp_BA_PROC_CreateAudienceCampaign.md)
   - **Lodging campaigns**: [Lodging campaigns](hlp_BA_CONC_HotelCampaigns.md) help you manage manages your [Hotel Price ads (HPA)](hlp_BA_CONC_HotelAds_Intro.md) and [Property Promotion ads (PPA)](hlp_BA_CONC_HotelAds_PPA.md). While Hotel Price ads (HPA) are a hotel search experience designed to showcase your real-time room rates to potential customers, Property Promotion ads (PPA) are designed to inspire travelers who are looking for [hotels or vacation rentals](hlp_BA_CONC_HotelAds_LodgingCategories.md) early in the planning process, when you can influence their decision.
-  - **Performance Max campaigns**: Performance Max is an asset-focused campaign type that allows you to easily create and manage your campaigns, optimize ads to reach the right audience at the right time, and drive performance to meet advertising goals—across the entire Microsoft Advertising Network. For more information, see [About Performance Max campaigns](hlp_BA_PROC_AboutPmax.md) and [Create a Performance Max campaign](hlp_BA_PROC_CreatePmax.md)
+  - **Performance Max campaigns**: Performance Max is an asset-focused campaign type that allows you to easily create and manage your campaigns, optimize ads to reach the right audience at the right time, and drive performance to meet advertising goalsâ€”across the entire Microsoft Advertising Network. For more information, see [About Performance Max campaigns](hlp_BA_PROC_AboutPmax.md) and [Create a Performance Max campaign](hlp_BA_PROC_CreatePmax.md)
   - **Premium Streaming campaigns**: Premium Streaming campaigns show on streaming services, such as Paramount, Roku, LG, Samsung, Rakuten, etc. (Some inventory is only available in certain markets.) Simply upload your high-quality video assets or allow Copilot to create videos for you. For more information, see [About Online Video ads](hlp_BA_CONC_AboutVideoAds.md).
   - **Search campaigns**: Search campaigns show your ads to potential customers searching for your products and services. Microsoft Search Ads are delivered at the right time using [keyword matching](hlp_BA_CONC_MatchOptions.md), ensuring that your ads are optimally matched with potential customers' search queries. Microsoft Search Ads can appear with search results on sites like Microsoft Bing, AOL, Yahoo, DuckDuckGo, Ecosia, and other partners. They may also appear on relevant sites to help you engage your ideal audience and achieve your advertising goals. For more information, see [What are Search ads?](hlp_BA_CONC_SearchNetContentNet.md) and [How do I create a Search campaign?](hlp_BA_PROC_Create1stAd.md)
   - **Shopping campaigns**: With Shopping campaigns, you can create Product ads. Product ads use the imagery and data in your Microsoft Merchant Center store's product feed and appear on search results pages. For more information, see [Create Product ads in a Shopping campaign](hlp_BA_PROC_CreateProductTargetAndAd.md) and [Get started with Microsoft Shopping campaigns](hlp_BA_CONC_BSC_GetStarted.md).

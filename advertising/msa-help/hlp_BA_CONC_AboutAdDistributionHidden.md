@@ -1,4 +1,4 @@
----
+﻿---
 title: Ad distribution settings
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Use ad distribution to select where you want your ads to show. You can choose to have your ads shown on the entire Microsoft Advertising Network or its subsets.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Ad distribution settings
@@ -30,7 +31,7 @@ Use the ad distribution settings to select where you want your ads to show. You 
 See [How to choose ad placements for Audience campaigns](#how-to-choose-ad-placements-for-audience-campaigns) to learn more about choosing the placements where you want your Audience ads to serve.
 
 > [!NOTE]
-> Not everyone has ad placements for Audience campaigns yet. If you don't, don't worry—it's coming soon!
+> Not everyone has ad placements for Audience campaigns yet. If you don't, don't worryâ€”it's coming soon!
 
 ## Ad distribution options
 
@@ -79,7 +80,7 @@ Although you set ad distribution when you create a new campaign, it's an ad grou
 ## How to choose ad placements for Audience campaigns
 
 > [!NOTE]
-> Not everyone has ad placements for Audience campaigns yet. If you don't, don't worry—it's coming soon!
+> Not everyone has ad placements for Audience campaigns yet. If you don't, don't worryâ€”it's coming soon!
 
 Although you can choose your ad placements when you create a new Audience campaign, it's an ad group-level setting that can be adjusted after campaign creation. Here's how to adjust your ad placement settings for Audience campaigns within your ad group settings:
 

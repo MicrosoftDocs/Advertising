@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversion value rules
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,16 +7,17 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: With conversion value rules, you can adjust your conversion values if the conversion meets certain conditions that are relevant to your business goals.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Conversion value rules
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 With conversion value rules, you can adjust your conversion values if the conversion meets certain conditions that are relevant to your business goals. We use the additional value information you provide to optimize your campaigns in real time to those values.
 
-The conditions you can set include Audiences, Geographic Locations, and Devices. You can set two of these conditions simultaneously—the primary condition and the secondary condition.
+The conditions you can set include Audiences, Geographic Locations, and Devices. You can set two of these conditions simultaneouslyâ€”the primary condition and the secondary condition.
 
 > [!NOTE]
 > It is not necessary to set a secondary condition.

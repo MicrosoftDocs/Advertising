@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a mobile app campaign
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about mobile app campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a mobile app campaign
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Mobile App campaigns help you enhance discoverability and increase downloads of your iOS and Android apps. By promoting your apps across the entire Microsoft Advertising Network, you can reach a wide audience on a variety of sites and placements.
 
@@ -118,7 +119,7 @@ Rather than manually creating ads, you only need to add assets (such as images, 
 
     This allows you to specify which actions to count as conversions, as recorded by UET. You have two options for choosing conversion goals: <br> <br>
 
-    - Use your account's **Include in “Conversions”** setting. This applies your account's conversion goals to this campaign. To see which conversion goals are included in your account settings: From the navigation menu on the left, hover over **Conversions** and select **Conversion goals**.
+    - Use your account's **Include in â€œConversionsâ€** setting. This applies your account's conversion goals to this campaign. To see which conversion goals are included in your account settings: From the navigation menu on the left, hover over **Conversions** and select **Conversion goals**.
     - Choose specific conversion goals for this campaign.
 
     Learn more about conversion goals: [What are conversion goals and goal types?](hlp_BA_CONC_UETv2CTGoalType.md)

@@ -1,4 +1,4 @@
----
+﻿---
 title: About the Competition tab
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The Competition tab is your one-stop shop to gather valuable information about your competition in.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About the Competition tab
@@ -15,7 +16,7 @@ What are your competitors up to and how do they compare to you? The Competition 
 
 ## Auction Insights
 
-Auction Insights give you a broad view into your competitors’ performance metrics and how they compare to your own. Reviewing them can give you a better understanding of your competitive landscape. Auction Insights are divided into two sections.
+Auction Insights give you a broad view into your competitorsâ€™ performance metrics and how they compare to your own. Reviewing them can give you a better understanding of your competitive landscape. Auction Insights are divided into two sections.
 
 **Over time:** View key competitive metrics and how they perform across devices and over the course of days, weeks, months, quarters, and years.
 

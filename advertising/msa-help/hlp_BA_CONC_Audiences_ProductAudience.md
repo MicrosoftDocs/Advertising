@@ -1,4 +1,4 @@
----
+﻿---
 title: Dynamic remarketing lists - Remarketing for products
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about creating dynamic remarketing lists to remarket to customers who have interacted with a specific product.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Dynamic remarketing lists: Remarketing for products
@@ -28,7 +29,7 @@ Dynamic remarketing lists pair customers with specific products based on what th
 
 - **Easy to use**
 
-  . You can create five types of dynamic remarketing lists — general visitors, product searchers, product viewers, shopping cart abandoners, and past buyers — so you don't need to create a remarketing list for each individual product.
+  . You can create five types of dynamic remarketing lists â€” general visitors, product searchers, product viewers, shopping cart abandoners, and past buyers â€” so you don't need to create a remarketing list for each individual product.
 
 ## Testing Audiences
 
@@ -145,7 +146,7 @@ Before you start setting up dynamic remarketing, make sure you have:
 - **How do I set up dynamic remarketing for Audience campaigns?**
 
   > [!IMPORTANT]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   1. From the navigation menu on the left, select **Create**.
   1. Choose **Sell products** as your campaign goal.

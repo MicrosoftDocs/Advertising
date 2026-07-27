@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - How your settings for locations, products, and services affect who sees your ads
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about how your selections for locations, products, and services determine who sees your ads, and how to adjust these settings after you've created a campaign.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 #     Smart campaigns - How your settings for locations, products, and services affect who sees your ads

@@ -1,4 +1,4 @@
----
+﻿---
 title: Billing summary in depth (enhanced)
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Go to Billing Summary to get access to all your billing information and manage billing tasks, such as consolidating your bills, setting a limit on your billing threshold, and adding prepaid funds.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Billing Summary in depth (enhanced)
@@ -89,7 +90,7 @@ There are a few things that you should know when reviewing and using Billing Sum
   > [!NOTE]
   > - Charges can exceed the billing threshold or your limit by a small amount. If you are setting the limit to avoid reaching a maximum amount that you can charge on your credit card, you might want to set your limit slightly below that amount.
   > - It will take about an hour for your new limit to be saved in our system.
-  > - We may initiate an authorization hold on your card for the estimated amount of the advertising fee. This hold will be removed either when the time limit for the hold is up (usually, it's 7 days) or upon receipt of funds for the final transaction, whichever comes first. (Not everyone has this feature yet. If you don't, don't worry—it's coming soon!)
+  > - We may initiate an authorization hold on your card for the estimated amount of the advertising fee. This hold will be removed either when the time limit for the hold is up (usually, it's 7 days) or upon receipt of funds for the final transaction, whichever comes first. (Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!)
   > - If you set your limit below your current balance, we will charge you the full balance. After that, you will be charged your limit (or a slightly larger amount). If you need to reduce your balance before you set your limit, you can [pay your account balance](hlp_BA_PROC_MakePayment.md).
   > - If you change your postpay payment option from threshold to monthly invoice, we will remove the billing threshold limit.
 

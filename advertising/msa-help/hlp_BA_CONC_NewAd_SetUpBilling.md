@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting up your billing
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Enter your billing information so you can go live with your Microsoft Advertising campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Setting up your billing

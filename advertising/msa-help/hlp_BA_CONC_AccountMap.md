@@ -1,4 +1,4 @@
----
+﻿---
 title: About Account map
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to work with Account map.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Account map
@@ -22,7 +23,7 @@ Account map helps you to:
 
 - Understand the relationships between entities at all levels.
 - Get a full view of how your accounts are organized.
-- Find a particular account or a manager account’s place in the hierarchy.
+- Find a particular account or a manager accountâ€™s place in the hierarchy.
 - Identify how owned and linked accounts are grouped and organized.
 - View direct connections around entities.
 - Navigate up or down through the hierarchy.

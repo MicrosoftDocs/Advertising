@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising in Bing Smart Search
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Pay-per-click Search ads created in Microsoft Advertising can be displayed in the Bing Smart Search results.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising in Bing Smart Search
@@ -23,7 +24,7 @@ Bing Smart Search ads are similar to other Search ads, but formatted for the mod
 
 - **Landing page preview**
 
-  Microsoft Advertising periodically takes a snapshot of your landing page in order to create the landing page preview. Therefore, you’ll want to create the best customer experience on your landing page. It should feature relevant, compelling copy that delivers the information your potential customers need. Following this advice should help you achieve a high quality score. If a landing page is unavailable, Microsoft Advertising will instead take a snapshot of your display URL.
+  Microsoft Advertising periodically takes a snapshot of your landing page in order to create the landing page preview. Therefore, youâ€™ll want to create the best customer experience on your landing page. It should feature relevant, compelling copy that delivers the information your potential customers need. Following this advice should help you achieve a high quality score. If a landing page is unavailable, Microsoft Advertising will instead take a snapshot of your display URL.
 
   There may be circumstances where it's not possible to include a preview image. For example, a preview might not be displayed if:
 

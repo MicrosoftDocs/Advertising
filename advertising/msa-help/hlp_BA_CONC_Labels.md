@@ -1,4 +1,4 @@
----
+﻿---
 title: What can I do with labels?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to use labels to organize campaigns, ad groups, ads, and keywords into groups based on whatever is important to you.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What can I do with labels?
@@ -17,12 +18,12 @@ Labels let you organize campaigns, ad groups, ads, and keywords into groups base
 
 With labels, you can:
 
-- Run a report to compare “Holiday 2019” and “Holiday 2020” performance across campaigns, ad groups, ads, and keywords.
+- Run a report to compare â€œHoliday 2019â€ and â€œHoliday 2020â€ performance across campaigns, ad groups, ads, and keywords.
 - Run a report to compare ads and keywords that include brand names against ads and keywords that use generic terms.
 - Quickly filter and view performance for keywords labeled "Suggested by Microsoft Advertising".
-- Create an automated rule to change bids on keywords labeled “CPA bidding.”
+- Create an automated rule to change bids on keywords labeled â€œCPA bidding.â€
 
-The important thing is that it’s all up to you. You decide what your labels mean and how to apply them to your campaigns, ad groups, ads, and keywords.
+The important thing is that itâ€™s all up to you. You decide what your labels mean and how to apply them to your campaigns, ad groups, ads, and keywords.
 
 ## FAQ
 
@@ -30,7 +31,7 @@ The important thing is that it’s all up to you. You decide what your labels me
 
   You can apply manager account level labels at any account level under that manager account. You can also apply these labels at campaign, ad groups, ads, and keyword levels within any of these accounts.
 
-  Anyone who has access to a manager account (even via hierarchy/manager account link) can see and manage those labels within the label’s manager account. If an agency links to a single ad account, they can't see the manager account level labels above that account.
+  Anyone who has access to a manager account (even via hierarchy/manager account link) can see and manage those labels within the labelâ€™s manager account. If an agency links to a single ad account, they can't see the manager account level labels above that account.
 
   > [!IMPORTANT]
   > - You can't use labels from other manager accounts at the account level.
@@ -72,4 +73,4 @@ The important thing is that it’s all up to you. You decide what your labels me
         - From the navigation menu on the left, select **Reporting** > **Templates**> **Labels**, and then select either **Keyword**, **Ad**, **Ad group**, or **Campaign**.
 
   > [!NOTE]
-  > Unlike other Dimensions tables, you will see a summary **Unlabeled** row below your list of labels. This shows the performance data for all items not associated with the labels in the table. If you don’t have any filters applied, the **Unlabeled** row represents all items without labels. If you filter on 3 labels out of 10, for example, this row will represent all items without these 3 labels. This can be a handy way to compare groups of labels.
+  > Unlike other Dimensions tables, you will see a summary **Unlabeled** row below your list of labels. This shows the performance data for all items not associated with the labels in the table. If you donâ€™t have any filters applied, the **Unlabeled** row represents all items without labels. If you filter on 3 labels out of 10, for example, this row will represent all items without these 3 labels. This can be a handy way to compare groups of labels.

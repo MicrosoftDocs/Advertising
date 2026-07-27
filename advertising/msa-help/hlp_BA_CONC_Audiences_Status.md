@@ -1,4 +1,4 @@
----
+﻿---
 title: Enable, pause, and delete audience associations
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Once you create an audience and associate it with an ad group or campaign, you can then pause or delete the association. Once it is paused, you can also enable the association again.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Enable, pause, and delete audience associations

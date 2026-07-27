@@ -1,4 +1,4 @@
----
+﻿---
 title: Monitor all accounts from the Manager account overview
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The Manager account overview allows you to quickly view how your accounts are doing.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Monitor all accounts from the Manager account overview
@@ -34,9 +35,9 @@ The data visualizations show you how all of your accounts are doing at once, as 
 
 ## Manager account overview tiles
 
-The **Manager account overview** tiles provide you with dynamic and visually rich insights into your accounts’ performance. You can easily click and drag the tiles and interact with and review key components of your Microsoft Advertising accounts. Periodically, more tiles will be added so you can view and manage additional aspects of account data.
+The **Manager account overview** tiles provide you with dynamic and visually rich insights into your accountsâ€™ performance. You can easily click and drag the tiles and interact with and review key components of your Microsoft Advertising accounts. Periodically, more tiles will be added so you can view and manage additional aspects of account data.
 
-- **Performance**: The Performance tile shows the trend lines of how your accounts are doing over the selected date range. View your accounts’ spend, clicks, conversions and impressions, and more, across time. These data points allow you to quickly recognize patterns and trends. You can also hover over the graph to see the details behind each data point.
+- **Performance**: The Performance tile shows the trend lines of how your accounts are doing over the selected date range. View your accountsâ€™ spend, clicks, conversions and impressions, and more, across time. These data points allow you to quickly recognize patterns and trends. You can also hover over the graph to see the details behind each data point.
 
 - **Accounts**: The Accounts tile shows a partial list of your accounts' spend, clicks, impressions, and more. Select **View all accounts** to see an expanded accounts list.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: What are product ratings?
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Display ratings from customers' sites and trusted third parties on your Product ads with product ratings.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are product ratings?
 
-Display ratings from customers’ sites and trusted third parties on your Product ads with product ratings. Product ratings are an Automated Extension type available for your Microsoft Shopping campaigns, playing an important role in customers’ purchase decisions. Keep in mind that even if a product rating is eligible to serve, they're not guaranteed to always serve. Whether an extension serves depends on a number of factors.
+Display ratings from customersâ€™ sites and trusted third parties on your Product ads with product ratings. Product ratings are an Automated Extension type available for your Microsoft Shopping campaigns, playing an important role in customersâ€™ purchase decisions. Keep in mind that even if a product rating is eligible to serve, they're not guaranteed to always serve. Whether an extension serves depends on a number of factors.
 
 ## Benefits of product ratings
 
@@ -51,11 +52,11 @@ Display ratings from customers’ sites and trusted third parties on your Produc
 
   **FTP server requirements**
 
-  The recommended FTP upload mechanism is via an FTP program. It is, however, possible to do so via the command line or custom scripts (such as Python’s ftplib.FTP module). The FileZilla FTP client is recommended for all platforms.
+  The recommended FTP upload mechanism is via an FTP program. It is, however, possible to do so via the command line or custom scripts (such as Pythonâ€™s ftplib.FTP module). The FileZilla FTP client is recommended for all platforms.
 
   - Host: ftps://feeds.adcenter.microsoft.com
-  - Username: Your store’s FTP user name. Your user name must be 6 - 64 characters and cannot include any special characters. Use only a - z, A- Z, and 0 - 9.
-  - Password: Your store’s FTP password
+  - Username: Your storeâ€™s FTP user name. Your user name must be 6 - 64 characters and cannot include any special characters. Use only a - z, A- Z, and 0 - 9.
+  - Password: Your storeâ€™s FTP password
   - Transfer Mode: Passive
 
   Learn more about [FTP upload](hlp_BA_CONC_BMCFTPRequirements.md).

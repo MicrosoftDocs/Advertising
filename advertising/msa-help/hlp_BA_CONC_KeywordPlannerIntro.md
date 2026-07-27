@@ -1,4 +1,4 @@
----
+﻿---
 title: How to use keyword planner
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Use keyword planner to find new keywords, research the popularity of those keywords and then organize them into meaningful ad groups and campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to use keyword planner
@@ -51,7 +52,7 @@ Keyword planner is a valuable tool for new advertisers and PPC veterans alike. U
 
 - **Plan your budget and get insights for keywords**
 
-  One of the best ways to decide which keywords to use in your campaign is to see how many people are searching using those keywords. Keyword planner gives you detailed information about keyword search trends as well as data about searches from specific locations or devices. You’ll also get suggested bids, based on the competition for those keywords.
+  One of the best ways to decide which keywords to use in your campaign is to see how many people are searching using those keywords. Keyword planner gives you detailed information about keyword search trends as well as data about searches from specific locations or devices. Youâ€™ll also get suggested bids, based on the competition for those keywords.
 
   **Get search volume data and trends**
 

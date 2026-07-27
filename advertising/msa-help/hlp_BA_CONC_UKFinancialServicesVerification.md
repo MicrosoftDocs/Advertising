@@ -1,4 +1,4 @@
----
+﻿---
 title: About UK financial services verification
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about what Microsoft Advertising requires from advertisers who show financial services ads in the UK.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About UK Financial services verification
@@ -22,7 +23,7 @@ Before you start the verification process, review the following business types:
 - **Exempt non-financial services advertiser:** Advertisers that don't promote financial services but have reason to target people seeking financial services. Examples include aggregators, eCommerce platforms, and search engines.
 
 > [!NOTE]
-> Your ads that serve outside of the UK—whether financial or not—won't be impacted by your UK Financial services verification. This is only for financial services ads within the UK.
+> Your ads that serve outside of the UKâ€”whether financial or notâ€”won't be impacted by your UK Financial services verification. This is only for financial services ads within the UK.
 
 ## FAQ
 

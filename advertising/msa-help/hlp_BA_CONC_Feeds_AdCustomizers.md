@@ -1,4 +1,4 @@
----
+﻿---
 title: About ad customizer feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Let your ads adapt to their audience based on dynamic parameters you can set with ad customizer feeds.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About ad customizer feeds
@@ -201,4 +202,4 @@ You can add ad customizers to any Expanded text ad field except the Final URL.
   | **{ ... }** | **Mandatory**. The entire ad customizer syntax must be within a pair of braces (also called braces). |
   | **=FeedName** | **Mandatory**. An equals symbol immediately followed by the name you gave your ad customizer feed. |
   | **.Attribute** | **Mandatory**. A period immediately followed by the name you gave your custom attribute. |
-  | **:DefaultText** | **Optional**. If you want your ad to appear—even if the circumstances defined by the feed's targeting and/or standard attributes are not met—enter a colon immediately followed by a word, phrase, or number to appear instead of the custom attribute value. Note: If a single ad customizer in an ad has default text defined, every other ad customizer in the same ad must also have default text defined. |
+  | **:DefaultText** | **Optional**. If you want your ad to appearâ€”even if the circumstances defined by the feed's targeting and/or standard attributes are not metâ€”enter a colon immediately followed by a word, phrase, or number to appear instead of the custom attribute value. Note: If a single ad customizer in an ad has default text defined, every other ad customizer in the same ad must also have default text defined. |

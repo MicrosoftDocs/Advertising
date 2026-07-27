@@ -1,4 +1,4 @@
----
+﻿---
 title: About broad match
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about the broad match type.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About broad match
@@ -41,4 +42,4 @@ Keep in mind that there will be times when different options might be more helpf
 - If you find that some of your broad match keywords are matching on search terms that aren't relevant to your business, you can use [negative keywords](hlp_BA_CONC_AboutNegativeKeywords.md) to fine-tune or restrict how the broad match is being applied.
 - If you are interested in improving your click-through rate (CTR), consider using exact and phrase match. While this means that your ads will show far less often than if you used broad match, having a higher CTR means that your ads are being more precisely targeted. [Learn more about your options for keyword match type](hlp_BA_CONC_MatchOptions.md)
 - Preferring short keywords over long keywords can also improve the quality of your matches when using broad match.
-- Your quality score shows you how competitive your ads are in the marketplace. A low quality score means that your competitors’ campaigns are performing better than yours – in other words, their ads are probably showing more often and more prominently on the search results page.
+- Your quality score shows you how competitive your ads are in the marketplace. A low quality score means that your competitorsâ€™ campaigns are performing better than yours â€“ in other words, their ads are probably showing more often and more prominently on the search results page.

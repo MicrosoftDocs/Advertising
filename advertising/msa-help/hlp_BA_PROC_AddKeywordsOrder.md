@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Add or Delete Keywords
 description: An ad group must contain at least one keyword, and all keywords must adhere to Microsoft Advertising policies.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to add or delete keywords
@@ -37,7 +38,7 @@ Before creating new keywords, if you have existing keywords in another online ad
 ## Edit the bid, match type, landing page URL, or landing page options for keywords
 
 > [!NOTE]
-> You can't change the actual keyword text once it's created. To update a keyword, delete the existing keyword and add a new one. When you add a new keyword, it will be submitted for editorial review after you select **Save**. You can still edit keyword settings like bid, match type, and landing page URL—just not the keyword text itself.
+> You can't change the actual keyword text once it's created. To update a keyword, delete the existing keyword and add a new one. When you add a new keyword, it will be submitted for editorial review after you select **Save**. You can still edit keyword settings like bid, match type, and landing page URLâ€”just not the keyword text itself.
 
 1. From the navigation menu on the left, hover over **Campaigns** and select **Keywords** > **Keywords**.
 1. In the table, select the checkbox next to the keywords that you want to change.

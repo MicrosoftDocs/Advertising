@@ -1,4 +1,4 @@
----
+﻿---
 title: What are merchant ratings?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Merchant ratings are Automated Extensions that display your business rating and link to highly rated reviews in your ads to show what people are saying about your business.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are merchant ratings?
@@ -19,7 +20,7 @@ Here is what an ad might look like with a merchant rating:
 
 ## How merchant ratings work
 
-A merchant rating is an Automated Extension that is added to qualifying ads, with no action required from you. Your business rating and links to highly rated reviews are displayed, showing what people are saying about your business. These reviews and ratings primarily reflect customers’ overall consumer experience with your business, not their response to particular products. We match these reviews to your ad by pairing the domain of the display URL to the advertiser’s domain from the review source on Bing.
+A merchant rating is an Automated Extension that is added to qualifying ads, with no action required from you. Your business rating and links to highly rated reviews are displayed, showing what people are saying about your business. These reviews and ratings primarily reflect customersâ€™ overall consumer experience with your business, not their response to particular products. We match these reviews to your ad by pairing the domain of the display URL to the advertiserâ€™s domain from the review source on Bing.
 
 Merchant ratings are based on several sources, including:
 
@@ -41,7 +42,7 @@ While you cannot modify your merchant ratings directly, you can take steps to he
 
 - **Provide great customer service**. When your customers are happy, they will be willing to provide ratings for you and share their positive experiences with others.
 - **Be proactive**. Pay attention to reviews about your business and other ways you measure customer satisfaction. If you have an unhappy customer, be proactive and quickly try to resolve any issues with that customer.
-- **Keep your business name and website consistent**. Customers can leave reviews about your business on aspects that you don’t have control over, such as delayed shipping by the shipping company. Generally speaking, a few ratings like this shouldn’t impact your overall rating, as merchant ratings come from several sources. To make sure that your customers are leaving correct reviews for your business, make sure your business name and website information is consistent throughout different review sites and your [Microsoft Merchant Center](hlp_BA_CONC_AboutBingMerchantCenter.md) account, if you have one.
+- **Keep your business name and website consistent**. Customers can leave reviews about your business on aspects that you donâ€™t have control over, such as delayed shipping by the shipping company. Generally speaking, a few ratings like this shouldnâ€™t impact your overall rating, as merchant ratings come from several sources. To make sure that your customers are leaving correct reviews for your business, make sure your business name and website information is consistent throughout different review sites and your [Microsoft Merchant Center](hlp_BA_CONC_AboutBingMerchantCenter.md) account, if you have one.
 
 ## Get qualified for merchant ratings
 

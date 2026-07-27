@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage bulk download emails
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to change the delivery of email notifications about completed downloads, or unsubscribe from them.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Manage bulk download emails

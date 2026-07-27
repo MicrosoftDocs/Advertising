@@ -1,4 +1,4 @@
----
+﻿---
 title: About LinkedIn campaigns
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about how to create LinkedIn campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About LinkedIn campaigns
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Create and manage Sponsored Content ads that engage your company's LinkedIn audience. You can serve ads with text and images that target LinkedIn users by location, profile language, company, industry, job function, job title, and job seniority.
 

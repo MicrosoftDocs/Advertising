@@ -1,4 +1,4 @@
----
+﻿---
 title: What are Product ads?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Products ads include custom images from your own product catalogs (created in the Microsoft Merchant Center), plus specific promotional text, pricing, and seller details.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are Product ads?

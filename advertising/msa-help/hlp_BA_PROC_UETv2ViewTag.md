@@ -1,4 +1,4 @@
----
+﻿---
 title: Is My UET Tag Working?
 description: The UET tags page has all the information you need to see if your UET tag is working correctly. Learn what each column is and why it's important.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Is my UET tag working?
@@ -44,7 +45,7 @@ The UET tags page has all the information you need to see if your UET tag is wor
 
      | Column 1 | Column 2 |
      | --- | --- |
-     | ***What it is:*<br>This is the status of the UET tag. It can be unverified, tag active, or tag inactive.** | *Why important:*<br>Lets you know if your UET tag is working or not.<br>**Unverified**: Microsoft Advertising hasn’t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.<br>**Tag active**: Your UET tag is working and sending user activity data to Microsoft Advertising.<br>**Tag inactive**: Microsoft Advertising has not received any user activity data from the UET tag in the last 24 hours. Make sure that the UET tag tracking code is still on your website. |
+     | ***What it is:*<br>This is the status of the UET tag. It can be unverified, tag active, or tag inactive.** | *Why important:*<br>Lets you know if your UET tag is working or not.<br>**Unverified**: Microsoft Advertising hasnâ€™t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.<br>**Tag active**: Your UET tag is working and sending user activity data to Microsoft Advertising.<br>**Tag inactive**: Microsoft Advertising has not received any user activity data from the UET tag in the last 24 hours. Make sure that the UET tag tracking code is still on your website. |
 
      ### Goals
 

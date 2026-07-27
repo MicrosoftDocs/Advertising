@@ -1,4 +1,4 @@
----
+﻿---
 title: UET dashboard
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The UET Dashboard is available for each of your tags and enables you to see an Overview of the UET tag and UET Insights to give you deeper insights into your website visitors and their actions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # UET Dashboard
@@ -39,7 +40,7 @@ You can troubleshoot your UET tag by monitoring the data that is received in rea
 
 ## UET Insights
 
-With Universal Event Tag (UET) Insights, you can stay informed on what actions visitors to your website take so that you may better optimize your campaigns and website. In turn, this can help you improve your ROI with additional data signals from your website. Your UET tag is automatically enabled to receive these insights and display them in the UET Dashboard—no coding action is needed from you.
+With Universal Event Tag (UET) Insights, you can stay informed on what actions visitors to your website take so that you may better optimize your campaigns and website. In turn, this can help you improve your ROI with additional data signals from your website. Your UET tag is automatically enabled to receive these insights and display them in the UET Dashboardâ€”no coding action is needed from you.
 
 You can find the following metrics on the Insights tab in the UET Dashboard:
 

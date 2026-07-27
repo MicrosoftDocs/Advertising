@@ -1,4 +1,4 @@
----
+﻿---
 title: Create Additional Accounts
 description: Find out how to set up additional accounts after you sign up for Microsoft Advertising and why you might want to.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create additional accounts

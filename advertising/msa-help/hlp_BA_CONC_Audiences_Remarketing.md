@@ -1,4 +1,4 @@
----
+﻿---
 title: Remarketing - Target people who have visited your site before
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Target people who have visited your website before, using remarketing lists with Universal Event Tracking (UET).
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Remarketing: Target people who have visited your site before
@@ -15,7 +16,7 @@ description: Target people who have visited your website before, using remarketi
 > Ensure proper consent transmission for users visiting from the European Economic Area (EEA), the United Kingdom, and Switzerland by implementing [Consent Mode](hlp_BA_CONC_UET_Consent.md) or the [Transparency and Consent Framework (TCF)](hlp_BA_CONC_UET_TCF.md) with your UET tags to avoid any negative impact on conversion attribution and remarketing segments. This policy reflects the requirements of the EU ePrivacy Directive and the General Data Protection Regulation (GDPR). [Learn more](hlp_BA_CONC_UET_ConsentFAQ.md)
 
 > [!NOTE]
-> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
+> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographicsâ€”such as age, gender, location, etc.â€”for the purpose of personalizing advertising, segmenting, or profiling customers.
 
 When people look for products and services online, they rarely convert on their first visit. That's where remarketing comes in. Remarketing lets you improve your return on investment by optimizing your campaigns for people who have visited your website before.
 

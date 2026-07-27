@@ -1,4 +1,4 @@
----
+﻿---
 title: Universal event tracking (UET) using an IMG tag
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you can't use JavasScript-based UET tagging, you can use a non-JavaScript-based version. One option is using an IMG tag.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Universal event tracking (UET) using an IMG tag

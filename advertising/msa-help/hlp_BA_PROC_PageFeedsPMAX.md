@@ -1,4 +1,4 @@
----
+﻿---
 title: About Performance Max Page Feeds
 description: Learn all about page feeds for Performance Max.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Performance Max page feeds
@@ -104,7 +105,7 @@ You can associate a page feed during campaign creation or in your campaign setti
 
 ## Adding URL rules and custom labels to your asset group
 
-- **URL rules**: Use the “contains” operator to target URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
+- **URL rules**: Use the â€œcontainsâ€ operator to target URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
 - A "page title" is the text that appears at the top of a webpage in your website's code. It's the text in this area:
 
   ```

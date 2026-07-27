@@ -1,4 +1,4 @@
----
+﻿---
 title: Verify and Claim Your Website's URL
 description: If you want to create a Microsoft Merchant Center store, you need to verify and claim your website.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Verify and claim your website's URL

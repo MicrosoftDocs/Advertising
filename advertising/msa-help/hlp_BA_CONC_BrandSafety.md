@@ -1,4 +1,4 @@
----
+﻿---
 title: About content suitability
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about content suitability.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About content suitability
@@ -79,11 +80,11 @@ If you want added protection for sensitive content categories beyond those liste
 ## Excluded content terms
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Excluded content terms block your ads from showing next to unwanted terms (i.e., page titles). They can be added at the account or campaign level, with a maximum of 1000 terms. Any terms you add to your campaign will be automatically applied to all campaigns in your account to save you time later.
 
-For example, if you're selling tech devices and your excluded content term is “faulty tech devices,” then we won't show your ads next to page titles mentioning faulty tech devices.
+For example, if you're selling tech devices and your excluded content term is â€œfaulty tech devices,â€ then we won't show your ads next to page titles mentioning faulty tech devices.
 
 - **Add excluded content terms during campaign creation**
 

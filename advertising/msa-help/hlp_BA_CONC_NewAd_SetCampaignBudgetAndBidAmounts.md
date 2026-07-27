@@ -1,4 +1,4 @@
----
+﻿---
 title: Set your campaign budget and bid amounts
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,14 +7,15 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about your campaign budget type (Daily - Standard or Shared - Standard) and your keyword bids.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set your campaign budget and bid amounts
 
 > [!NOTE]
-> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
+> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographicsâ€”such as age, gender, location, etc.â€”for the purpose of personalizing advertising, segmenting, or profiling customers.
 
-Before your ads can run, you need to set your campaign’s budget and bids. Your budget tells Microsoft Advertising how much you want to spend on your campaign. You can set a daily budget, lifetime budget, or shared budget. Keep your advertising costs under control by keeping track of your budget.
+Before your ads can run, you need to set your campaignâ€™s budget and bids. Your budget tells Microsoft Advertising how much you want to spend on your campaign. You can set a daily budget, lifetime budget, or shared budget. Keep your advertising costs under control by keeping track of your budget.
 
 > [!NOTE]
 > Budgets can only be set at the campaign level, not at the ad group or product group level.
@@ -27,7 +28,7 @@ Microsoft Advertising has three different budget types you can choose from:
 
   **What it is**: Microsoft Advertising will help you spend for optimized performance based on the products or services targeted by your campaign and availability of corresponding user searches during the day.
 
-  **Why use it:** This is a great option if you have a limited budget and want your ads to show evenly throughout the day. This way, your ads won’t show all at once in the morning, using up your limited budget early in the day. You will also be able to monitor your budget on a daily basis, making adjustments as necessary to maximize your budget.
+  **Why use it:** This is a great option if you have a limited budget and want your ads to show evenly throughout the day. This way, your ads wonâ€™t show all at once in the morning, using up your limited budget early in the day. You will also be able to monitor your budget on a daily basis, making adjustments as necessary to maximize your budget.
 - **Shared - Standard**
 
   **What it is:** Same as the Daily - Standard budget, but it is shared among two or more campaigns in the **Shared budgets** page.

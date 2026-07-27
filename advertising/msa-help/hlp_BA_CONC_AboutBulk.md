@@ -1,4 +1,4 @@
----
+﻿---
 title: Make updates across accounts with bulk upload
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,14 +7,15 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can make updates to campaign data across accounts with bulk upload.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Make updates across accounts with bulk upload
 
 > [!IMPORTANT]
-> Not everyone has this feature. Why not? Bulk upload is a powerful tool that allows you to manage multiple accounts. You need to have a Microsoft Advertising account manager to use it. If you have an account manager and you don’t see this feature in Microsoft Advertising, then contact your account manager.
+> Not everyone has this feature. Why not? Bulk upload is a powerful tool that allows you to manage multiple accounts. You need to have a Microsoft Advertising account manager to use it. If you have an account manager and you donâ€™t see this feature in Microsoft Advertising, then contact your account manager.
 
-If you manage multiple Microsoft Advertising accounts — each of which could themselves have multiple accounts, you can make updates across any and all of their campaigns at the same time, in bulk.
+If you manage multiple Microsoft Advertising accounts â€” each of which could themselves have multiple accounts, you can make updates across any and all of their campaigns at the same time, in bulk.
 
 ## What bulk upload gives you
 

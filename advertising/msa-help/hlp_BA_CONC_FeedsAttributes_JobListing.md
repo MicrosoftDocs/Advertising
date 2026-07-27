@@ -1,4 +1,4 @@
----
+﻿---
 title: Job listing ads' dynamic data feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about required, recommended, and optional feed attributes for Job listing ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Job listing ads' dynamic data feeds
@@ -74,8 +75,8 @@ Your dynamic data feed file may include the following attributes, which we highl
 | **Latitude** | The latitude of the job location.<br>List in the DDD.DDDDD format.<br>This will not be shown in the ad. | -122.30415 |
 | **Location type** | A description of the type of job location (e.g., remote, telecommute, work from home, online, offsite, in-office). | Telecommute |
 | **Longitude** | The longitude of the job location.<br>List in the DDD.DDDDD format.<br>This will not be shown in the ad. | 47.65617 |
-| **Qualifications** | A list of job qualifications, separated by “;”.<br>This will not be shown in the ad. | 2 years ICU experience; RN license |
-| **Salary unit** | Indicate “per hour” (hourly) or “per year” (annual) salary. | Per hour |
+| **Qualifications** | A list of job qualifications, separated by â€œ;â€.<br>This will not be shown in the ad. | 2 years ICU experience; RN license |
+| **Salary unit** | Indicate â€œper hourâ€ (hourly) or â€œper yearâ€ (annual) salary. | Per hour |
 | **State** | The state or province where the job is located. | WA |
 | **Zip code** | The zip code where the job is located.<br>This will not be shown in the ad. | 98195 |
 
@@ -85,12 +86,12 @@ Your dynamic data feed file may include any of the following optional attributes
 
 | Attribute | Description | Example |
 | --- | --- | --- |
-| **Benefits** | A list of benefits provided by the hiring company or organization, separated by “;”. | Health; Vision; Dental; 401K match |
+| **Benefits** | A list of benefits provided by the hiring company or organization, separated by â€œ;â€. | Health; Vision; Dental; 401K match |
 | **Contextual keywords** | Specific job listing details used to power relevancy matching. Use ";" to separate multiple keywords.<br>This will not be shown in the ad. | Nursing; Flexible; Healthcare; Overtime |
 | **Custom parameters** | Include up to three key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>Neither one can exceed 16 characters or 200 bytes.<br>This will not be shown in the ad. | {"jobtype":"telecommute"} |
 | **Education requirements** | The highest level of education required to be eligible for employment. | Bachelor's degree |
 | **Final mobile URL** | The mobile-optimized URL of the landing page in your website that people reach when they click your ad from mobile devices. Same domain as your website, begins with http:// or https://. | http://m.www.contoso.com/seattle/id |
-| **Responsibilities** | A list of responsibilities the job entails, separated by “;”. | Delivering mild sedation; Monitoring of patients’ vitals during and after sedation |
+| **Responsibilities** | A list of responsibilities the job entails, separated by â€œ;â€. | Delivering mild sedation; Monitoring of patientsâ€™ vitals during and after sedation |
 | **Tracking template** | Include any tracking parameters, custom parameters, or tracking redirects for your listing URL.<br>This will not be shown in your ad. | http://www.trackingtool.com/?source |
 | **Video URL** | The single URL for the video used in your ad. MP4 format only. http:// or https:// only.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: What gets imported from Google Ads for smart campaigns
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Most of the information in your Smart campaigns is included when you import from Google Ads. Here's a list of what gets imported and some exceptions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What gets imported from Google Ads for smart campaigns
@@ -45,7 +46,7 @@ Some items require special attention after they're imported, such as the followi
 
 - **Location targeting**
 
-  When you import your Google Ads campaigns, we take the imported location targets and automatically match them to the same location targets in Microsoft Advertising. However, there may be location targets (such as smaller cities) in Google Ads that we don't support. When this happens, we automatically expand the target so that it can be mapped to a nearby location—state, region, or province—per Google Ads' geographic data. If both the focused and expanded location targets are unsupported by Microsoft Advertising, neither will be imported.
+  When you import your Google Ads campaigns, we take the imported location targets and automatically match them to the same location targets in Microsoft Advertising. However, there may be location targets (such as smaller cities) in Google Ads that we don't support. When this happens, we automatically expand the target so that it can be mapped to a nearby locationâ€”state, region, or provinceâ€”per Google Ads' geographic data. If both the focused and expanded location targets are unsupported by Microsoft Advertising, neither will be imported.
 
   For example, let's say you have a campaign in Google Ads whose location target is set to an unsupported City A in State B. In this scenario, we'll automatically map it to the supported parent location: State B. If both City A and State B are unsupported by Microsoft Advertising, neither location targets will be imported.
 

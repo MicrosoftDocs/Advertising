@@ -1,4 +1,4 @@
----
+﻿---
 title: Change My Password or User Name
 description: Learn how to change your password if you are signing in with a Microsoft Advertising user name or an email address (a Microsoft account).
 ms.date: 5/30/2026
@@ -7,18 +7,19 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Change my password or user name
 
-This article covers how to change your password and what to do if you need to change the user name or email address that you use to sign in to Microsoft Advertising. If you’ve forgotten your password, see [I forgot my user name or password](hlp_BA_PROC_ForgotPassword.md).
+This article covers how to change your password and what to do if you need to change the user name or email address that you use to sign in to Microsoft Advertising. If youâ€™ve forgotten your password, see [I forgot my user name or password](hlp_BA_PROC_ForgotPassword.md).
 
 ## Change your password
 
 The steps to change your password depend on how you are signing in to Microsoft Advertising:
 
-- **Using an email address**(a ). You’re required to use an email address for Microsoft Advertising access. Learn more about [Signing in with a work account](hlp_BA_CONC_AAD.md)
-- **Using a Microsoft Advertising user name**. Only customers who signed up before October 2013 and haven’t transitioned to using an email address can sign in with a Microsoft Advertising user name.
+- **Using an email address**(a ). Youâ€™re required to use an email address for Microsoft Advertising access. Learn more about [Signing in with a work account](hlp_BA_CONC_AAD.md)
+- **Using a Microsoft Advertising user name**. Only customers who signed up before October 2013 and havenâ€™t transitioned to using an email address can sign in with a Microsoft Advertising user name.
 
 **Here are the steps for both sign-in methods**
 1. Sign in to Microsoft Advertising.

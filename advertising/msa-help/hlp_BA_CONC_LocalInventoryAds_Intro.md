@@ -1,4 +1,4 @@
----
+﻿---
 title: What are local inventory ads?
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about Local inventory ads for your Microsoft Shopping campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are local inventory ads?

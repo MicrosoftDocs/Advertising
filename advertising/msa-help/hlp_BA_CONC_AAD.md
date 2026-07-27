@@ -1,4 +1,4 @@
----
+﻿---
 title: Signing in with a work account
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you want to restrict access to only authenticated individuals at your organization, you can require users to sign in with a work account.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Signing in with a work account
 
-When we talk about work accounts in Microsoft Advertising, it might not be what you think at first. If your user name is myname@contoso.com it could be a personal or work account. You can’t always be sure just by looking at the email address. Even if you only use Microsoft Advertising credentials for work, your user name is most likely considered a personal account in this context.
+When we talk about work accounts in Microsoft Advertising, it might not be what you think at first. If your user name is myname@contoso.com it could be a personal or work account. You canâ€™t always be sure just by looking at the email address. Even if you only use Microsoft Advertising credentials for work, your user name is most likely considered a personal account in this context.
 
 Most users sign in to Microsoft Advertising with a Microsoft account, which includes a single user name and password that connects a user to various Microsoft products and services. Each Microsoft account is assigned for personal use, even if the user only manages advertising accounts for work.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Pause, Enable, or Delete Your Campaigns
 description: Learn how to pause and enable your campaign whenever you'd like.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Pause, enable, or delete your campaigns

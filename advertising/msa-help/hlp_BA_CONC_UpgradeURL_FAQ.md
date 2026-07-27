@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ - Upgraded URLs
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Upgraded URLs separate your tracking information from the landing page URL making it easy to update and manage URL tracking. Here, find the answers to top questions people are asking.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # FAQ: Upgraded URLs
@@ -100,7 +101,7 @@ Upgraded URLs separate your tracking information from the landing page URL, maki
 
   Auto-tagging appends the UTM tags at the end of the URL, after any URL parameters
 
-  If there is no ? in the tracking template, then Microsoft Advertising will add ? and append UTM tags. In cases where the Final URL has a ? or if the customer’s website wants to force Microsoft Advertising to add an &, then:
+  If there is no ? in the tracking template, then Microsoft Advertising will add ? and append UTM tags. In cases where the Final URL has a ? or if the customerâ€™s website wants to force Microsoft Advertising to add an &, then:
 
   - You can add an & at the end of the tracking template. Microsoft Advertising will not add ? or & in this case and just append the UTM tags.
   - When the tracking template has an ?, Microsoft Advertising will add & and append the UTM tags.
@@ -164,12 +165,12 @@ Upgraded URLs separate your tracking information from the landing page URL, maki
 
   - Keyword Final URL
   - Keyword Destination URL
-  - Ad Final URL<br> You can't use http://{param1}. In other words, in the Final URL box, “contoso.com/{param1}” is allowed, but just “{param1}” is not. {param1}, {param2}, and {param3} are also still allowed in ad titles and descriptions.
+  - Ad Final URL<br> You can't use http://{param1}. In other words, in the Final URL box, â€œcontoso.com/{param1}â€ is allowed, but just â€œ{param1}â€ is not. {param1}, {param2}, and {param3} are also still allowed in ad titles and descriptions.
   - Ad Destination URL<br> If this is set as {param1}, Microsoft Advertising looks at the Keyword {param1} value when the ad is served.
 
 - **Is there a difference between {Param 2} and {param2}?**
 
-  Yes. You can't have a space. {Param 2} with a space is invalid. Capitalization doesn’t impact the tags. It only matters when using a variation of {Keyword} or {KeyWord}. To learn more, see [Dynamic text: Capitalization of the keyword placeholder](hlp_BA_CONC_AboutParametersKeyWord.md).
+  Yes. You can't have a space. {Param 2} with a space is invalid. Capitalization doesnâ€™t impact the tags. It only matters when using a variation of {Keyword} or {KeyWord}. To learn more, see [Dynamic text: Capitalization of the keyword placeholder](hlp_BA_CONC_AboutParametersKeyWord.md).
 
 - **Is there a difference between {BidMatchType} and {MatchType}?**
 

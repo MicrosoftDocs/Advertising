@@ -1,4 +1,4 @@
----
+﻿---
 title: About performance insights
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Performance insights are AI-powered alerts that make analyzing performance data easier.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About performance insights

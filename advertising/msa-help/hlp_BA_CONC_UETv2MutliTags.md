@@ -1,4 +1,4 @@
----
+﻿---
 title: Reasons for creating more than one UET tag
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: A good way to think about UET tags is - One tag per website. Learn when you would create multiple ones.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Reasons for creating more than one UET tag

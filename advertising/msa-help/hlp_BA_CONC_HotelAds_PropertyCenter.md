@@ -1,4 +1,4 @@
----
+﻿---
 title: About Property Center
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about Property Center.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Property Center
@@ -37,7 +38,7 @@ There are four types of assets that you upload and manage within Property Center
 You can independently set up Property Center in a few easy steps:
 
 1. From the navigation menu on the left, select **Tools**.
-1. Search for “Property Center”.
+1. Search for â€œProperty Centerâ€.
 1. Select **Property Center**.
 
    Optionally, you can pin **Property Center** to ensure it always shows up in the navigation menu on the left.
@@ -69,7 +70,7 @@ You can independently set up Property Center in a few easy steps:
 
 ## Logo management
 
-The logo management experience simplifies common logo‑related tasks by letting advertisers manage both account‑level and brand‑level logos directly in Microsoft Advertising. It provides clear visibility into the account‑level logo and shows which brands have logos, with options to add, update, or remove logos at both the account and brand levels.
+The logo management experience simplifies common logoâ€‘related tasks by letting advertisers manage both accountâ€‘level and brandâ€‘level logos directly in Microsoft Advertising. It provides clear visibility into the accountâ€‘level logo and shows which brands have logos, with options to add, update, or remove logos at both the account and brand levels.
 
 ### Manage logos
 
@@ -83,7 +84,7 @@ Account logo
 - Add, replace, or remove account logo.
 
   > [!NOTE]
-  > When no account logo is provided, we’ll use a default Microsoft Advertising logo.
+  > When no account logo is provided, weâ€™ll use a default Microsoft Advertising logo.
 
 Brand logo
 

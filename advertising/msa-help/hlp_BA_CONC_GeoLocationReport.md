@@ -1,4 +1,4 @@
----
+﻿---
 title: See where ad traffic comes from with the Geographic report
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: See where your traffic is coming from so you can validate whether your location targeting strategy is successful and identify opportunities to improve. The geographical location report is available on both the reports page and Dimensions tab.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # See where ad traffic comes from with the Geographic report
@@ -20,7 +21,7 @@ Two columns in this report give you details about the geographic location:
 
 ## How to read the report
 
-Let’s say you sell products only in Seattle, and you’re using the default targeting option for your campaign (“People in, searching for, or showing interest in your targeted location”). Your Geographic report shows that 100 ad clicks have a “Physical location” location type and 80 ad clicks have a “Location of interest” location type.
+Letâ€™s say you sell products only in Seattle, and youâ€™re using the default targeting option for your campaign (â€œPeople in, searching for, or showing interest in your targeted locationâ€). Your Geographic report shows that 100 ad clicks have a â€œPhysical locationâ€ location type and 80 ad clicks have a â€œLocation of interestâ€ location type.
 
 Based on this data, you conclude that along with many local searchers (searching their "physical location"), a significant number of people from outside Seattle are searching for a business like yours in Seattle (the "location of interest"). So, you might expand your location targeting to a larger radius, including other cities in the region, to reach out to potentially more interested people.
 

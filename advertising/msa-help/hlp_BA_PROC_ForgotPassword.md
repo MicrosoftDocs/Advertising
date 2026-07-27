@@ -1,4 +1,4 @@
----
+﻿---
 title: I Forgot My User Name or Password
 description: Forgot your user name or password? It happens. Here are the steps to get you up and running again.
 ms.date: 5/30/2026
@@ -7,11 +7,12 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # I forgot my user name or password
 
-If you forget the user name or email address that you use to sign in to Microsoft Advertising, you can request that we send you an email with that information. If you forget your password, you’ll need to reset it. For security reasons, we can’t send your password in an email.
+If you forget the user name or email address that you use to sign in to Microsoft Advertising, you can request that we send you an email with that information. If you forget your password, youâ€™ll need to reset it. For security reasons, we canâ€™t send your password in an email.
 
 ## Requesting your user name or email address
 
@@ -21,16 +22,16 @@ If you forget the user name or email address that you use to sign in to Microsof
 1. Next to **Account email address**, enter the email address that you use as your contact email address for Microsoft Advertising (the email address that we use to send you information about Microsoft Advertising).
 1. Select **Submit**.
 
-You’ll receive an email from Microsoft Advertising with the user names and email addresses associated with the contact email address you provided us. Note that these user names and email addresses might be used to sign in to different customer accounts and, therefore, require different passwords.
+Youâ€™ll receive an email from Microsoft Advertising with the user names and email addresses associated with the contact email address you provided us. Note that these user names and email addresses might be used to sign in to different customer accounts and, therefore, require different passwords.
 
-If you don’t receive the email, check your junk mail folder.
+If you donâ€™t receive the email, check your junk mail folder.
 
 ## Resetting your password
 
 The steps to reset a forgotten password depend on how you sign in to Microsoft Advertising:
 
-- **Using an email address**(a ). You’re required to use an email address for Microsoft Advertising access. Learn more about [Signing in with a work account](hlp_BA_CONC_AAD.md)
-- **Using a Microsoft Advertising user name**. Only customers who signed up before October 2013 and haven’t transitioned to using an email address can sign in with a Microsoft Advertising user name.
+- **Using an email address**(a ). Youâ€™re required to use an email address for Microsoft Advertising access. Learn more about [Signing in with a work account](hlp_BA_CONC_AAD.md)
+- **Using a Microsoft Advertising user name**. Only customers who signed up before October 2013 and havenâ€™t transitioned to using an email address can sign in with a Microsoft Advertising user name.
 
 ### If you sign in with a user name
 

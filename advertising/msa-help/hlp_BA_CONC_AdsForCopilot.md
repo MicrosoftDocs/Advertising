@@ -1,4 +1,4 @@
----
+﻿---
 title: About ads in Copilot
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about advertising in Copilot
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About ads in Copilot

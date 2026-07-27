@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Create or Edit Expanded Text Ads
 description: Expanded text ads are displayed on the Microsoft Search Network on computers, tablets, and smartphones. To help make editing text ads easier, you can make changes to multiple text ads at the same time.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to create or edit expanded text ads
@@ -34,7 +35,7 @@ You can further enhance your expanded text ad with [ad extensions](hlp_BA_CONC_A
   1. Select **Create ad**.
   1. Choose an **Ad group** from the dropdown list.
   1. For **Ad type**, select **Expanded text ad**.
-  1. Enter your landing page URL in the **Final URL** box. **Note**: Your final URL — including prefix (e.g., "www."), suffix (e.g., ".com"), and any [tracking templates](hlp_BA_CONC_GoogleAnalytics.md) — must be no longer than 2,048 characters. However, your final URL *domain* (everything in your final URL before the first slash or tracking template) must be no longer than 67 characters.
+  1. Enter your landing page URL in the **Final URL** box. **Note**: Your final URL â€” including prefix (e.g., "www."), suffix (e.g., ".com"), and any [tracking templates](hlp_BA_CONC_GoogleAnalytics.md) â€” must be no longer than 2,048 characters. However, your final URL *domain* (everything in your final URL before the first slash or tracking template) must be no longer than 67 characters.
   1. Enter three parts of your ad title, each up to 30 characters long. The third title is optional.
   1. Similarly, you can also enter two parts of the URL path customers will see in your ad, each up to 15 characters long.
   1. Enter the ad text to appear below the path, up to 180 characters long (up to two 90-character descriptions). The second description is optional.
@@ -44,7 +45,7 @@ You can further enhance your expanded text ad with [ad extensions](hlp_BA_CONC_A
   > - The combined ad title and ad text must be at least three words long.
   > - These character limits include spaces and any default . [Learn more about dynamic text](hlp_BA_CONC_AboutParameters.md)
   > - If your final URL includes "http://", these characters do not count against the character limit. However, if it includes "https://", these characters *do* count against the character limit.
-  > - Keep in mind that double-width characters — such as Chinese characters — count as two characters each.
+  > - Keep in mind that double-width characters â€” such as Chinese characters â€” count as two characters each.
   > - Ad titles, paths, and ad text cannot contain scripts, HTML, or other markup language.
 
 - **Change an existing expanded text ad**

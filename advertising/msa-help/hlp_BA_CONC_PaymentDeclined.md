@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I fix a declined payment?
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: We realize that having a payment declined can be stressful and result in lost opportunities for advertising, so here is some information to help you quickly resolve this issue.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I fix a declined payment?

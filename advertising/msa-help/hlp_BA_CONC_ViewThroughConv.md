@@ -1,4 +1,4 @@
----
+﻿---
 title: What are view-through conversions?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about how to track Audience ad impressions as conversions even if the customer doesn't click the ad.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are view-through conversions?
@@ -34,7 +35,7 @@ By default, view-through conversions are counted the same as other conversions, 
 1. Select **Save**.
 
 > [!NOTE]
-> View-through conversions aren't included in the **All conv. CPA** column—even when they are included in the **All conv.** column.
+> View-through conversions aren't included in the **All conv. CPA** columnâ€”even when they are included in the **All conv.** column.
 
 ## Setting your view-through conversion window
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: What can I do to change Eligible (limited) or Out of Budget delivery status?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn what the "Eligible (limited) " and "Campaign out of budget" status means and what you can do to change it.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What can I do to change Eligible (limited) or Out of Budget delivery status?

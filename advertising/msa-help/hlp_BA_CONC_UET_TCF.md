@@ -1,4 +1,4 @@
----
+﻿---
 title: Transparency and consent framework (TCF) for UET
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Transparency and consent framework (TCF) for UET
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Transparency and consent framework (TCF) for UET
@@ -33,7 +34,7 @@ To use the TCF v2.0 string with your UET tags, you'll need to opt in by adding a
 
 ## Microsoft Advertising behavior with the Transparency and Consent Framework v2.0M
 
-The TCF uses “Purposes” to organize data processing. Each purpose has a corresponding "Registered Lawful Basis." Microsoft Advertising Here is how UET tags handle requests that contain the consent string:
+The TCF uses â€œPurposesâ€ to organize data processing. Each purpose has a corresponding "Registered Lawful Basis." Microsoft Advertising Here is how UET tags handle requests that contain the consent string:
 
 | Purpose | Microsoft's Registered Lawful Basis | Description | Impact to Microsoft Advertising if missing |
 | --- | --- | --- | --- |
@@ -45,4 +46,4 @@ The TCF uses “Purposes” to organize data processing. Each purpose has a corr
 | **10** | Consent | Develop and improve services. | Microsoft Advertising requires this purpose for all conversions. If this purpose is not present, Microsoft Ads will not record the conversion. |
 
 > [!NOTE]
-> UET tags only accept TCF strings that are correctly implemented according to the TCF policies and technical specifications. If your CMP doesn't respond within 500 milliseconds or you see a status of “error”, “stub”, or “loading”, the tag will continue to function without TCF support.
+> UET tags only accept TCF strings that are correctly implemented according to the TCF policies and technical specifications. If your CMP doesn't respond within 500 milliseconds or you see a status of â€œerrorâ€, â€œstubâ€, or â€œloadingâ€, the tag will continue to function without TCF support.

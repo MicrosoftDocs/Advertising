@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: A list of available payment methods by countries and currencies.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Choosing a payment method for Microsoft Advertising

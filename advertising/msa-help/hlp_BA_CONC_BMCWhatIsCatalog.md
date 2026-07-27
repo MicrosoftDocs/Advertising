@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating and organizing Microsoft Shopping campaigns feed files
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: A feed file contains a list of your products and attributes that define how they'll display on the Microsoft Advertising Network.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Creating and organizing Microsoft Shopping campaigns feed files
@@ -59,7 +60,7 @@ The feed name is used for identification in **Feeds** and in **Feed reports**. I
    Remember, if you added additional countries to your feed, you need to add their currency by listing their currency symbols (per ISO 4217). To learn more about this option, see [Show your products in multiple countries](#show-your-products-in-multiple-countries).
 1. Enter your product offer information in the rows below the header row, using one row for each product.
 
-   Each item's attribute values should be listed in the same column as the corresponding header attribute name. This means a product's ID must be in the column with header attribute “id”.
+   Each item's attribute values should be listed in the same column as the corresponding header attribute name. This means a product's ID must be in the column with header attribute â€œidâ€.
 1. Save your spreadsheet as a tab delimited Excel file (TXT).
 
 - **File format requirements**
@@ -90,7 +91,7 @@ The feed name is used for identification in **Feeds** and in **Feed reports**. I
   | **Percent [%]<br>Special ASCII characters** | Redirect URL (ads_redirect) |
   | **Any Unicode symbol** | Brand, Title, Description |
 
-  Microsoft Merchant Center supports the use of Google data feeds for catalog feed files. This way merchants won’t have to redo the work already done for Google's Product Listing Ads. Make it even easier to import your Google feed files to Microsoft Merchant Center by using the Google Merchant Center import tool. [Learn more](hlp_BA_CONC_BMC_GMCImportIntro.md)
+  Microsoft Merchant Center supports the use of Google data feeds for catalog feed files. This way merchants wonâ€™t have to redo the work already done for Google's Product Listing Ads. Make it even easier to import your Google feed files to Microsoft Merchant Center by using the Google Merchant Center import tool. [Learn more](hlp_BA_CONC_BMC_GMCImportIntro.md)
 
   <a id="submit-a-feed-file"></a>
 
@@ -117,14 +118,14 @@ There are a couple different ways to submit a feed file:
 
   You may use this option if the feed file is smaller than 1GB. We recommend this option if the feed file is larger than 4MB.
 
-  If uploading via FTP/SFTP, the file name of TXT or XML files must match the file name specified for a feed’s settings. For compressed text format, the compressed TXT file inside the archive and the archive file (ZIP, GZ, GZIP) must have the matching file name. Any feed file that is archived needs to have a single compressed file inside. The max file size should be no more than 3GB (after the file is uncompressed, if the file is compressed).
+  If uploading via FTP/SFTP, the file name of TXT or XML files must match the file name specified for a feedâ€™s settings. For compressed text format, the compressed TXT file inside the archive and the archive file (ZIP, GZ, GZIP) must have the matching file name. Any feed file that is archived needs to have a single compressed file inside. The max file size should be no more than 3GB (after the file is uncompressed, if the file is compressed).
 
   1. From the navigation menu on the left, select **Tools** > **Merchant Center** > **Feeds**.
   1. Select **Create feed**.
   1. At the bottom of the setup wizard, select **Upload via FTP/SFTP**.
   1. Enter **Update feed**. Do not include the file extension (for example, "merchant").
   1. Select **Create feed**.
-  1. Enter **File name**. Do not include the file extension. For example, “merchant”.
+  1. Enter **File name**. Do not include the file extension. For example, â€œmerchantâ€.
   1. If necessary, you can always select **Change the FTP/SFTP account settings** and update your FTP user name and password. To do this, you must follow the [Update a feed file instructions](#update-a-feed-file).
 
      You can now upload the file via the FTP/SFTP tool of your choice using the file name you specified.
@@ -211,18 +212,18 @@ Your feed expires after 30 days, which causes the products to stop publishing; s
 ## Show your products in multiple countries
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 You can sell your products from a single feed to multiple countries. As you create your feed, the **Country of sale** specifies which market (country and language) the feed targets. Another option is to select the **Use Feed Label** checkbox and specify multiple target countries/regions. After indicating one country of sale, you have the option to add more countries.
 
 > [!NOTE]
 > Your feed can target countries with the same language within your region (for example, the US and Canada or France and Belgium).
 
-For the purposes of eligibility, when you create a Shopping campaign, be sure to select the same countries under Campaign targets that are indicated in your feed (using **Let me choose specific locations**) or you can also select the worldwide option (**All available countries/regions**). This is because it’s important that the added countries included in your feed align with those in your campaign location targets. In other words, the information—including details such as product filters—in your feed must align with that in your campaign. See [What are the benefits of Shopping campaigns](hlp_BA_CONC_BSC_Overview.md) for more information.
+For the purposes of eligibility, when you create a Shopping campaign, be sure to select the same countries under Campaign targets that are indicated in your feed (using **Let me choose specific locations**) or you can also select the worldwide option (**All available countries/regions**). This is because itâ€™s important that the added countries included in your feed align with those in your campaign location targets. In other words, the informationâ€”including details such as product filtersâ€”in your feed must align with that in your campaign. See [What are the benefits of Shopping campaigns](hlp_BA_CONC_BSC_Overview.md) for more information.
 
 ### Real-time currency conversion
 
-If the ad is shown outside the country of sale, we take care of ensuring that the real-time currency appears. This means that as long as you submit currency codes in your feed file, we make sure your ads show the relevant, converted currency with the country of sale’s currency in parentheses. For example, let’s say that the country of sale is the United States and that Canada is the additional country. As depicted below, an ad shown in Canada will include the Canadian Dollar amount and then the US dollar amount in parentheses.
+If the ad is shown outside the country of sale, we take care of ensuring that the real-time currency appears. This means that as long as you submit currency codes in your feed file, we make sure your ads show the relevant, converted currency with the country of saleâ€™s currency in parentheses. For example, letâ€™s say that the country of sale is the United States and that Canada is the additional country. As depicted below, an ad shown in Canada will include the Canadian Dollar amount and then the US dollar amount in parentheses.
 
 :::image type="content" source="media/MMC_Globalized_Feed.png" alt-text="Globalized ad example.":::
 
@@ -258,7 +259,7 @@ You create and upload a supplemental feed into the Microsoft Merchant Center, wh
 Fields currently supported by supplemental feeds are:
 
 - Product ID (required field)
-- Custom label (0 – 4)
+- Custom label (0 â€“ 4)
 - Title
 - Description
 - Promotion ID

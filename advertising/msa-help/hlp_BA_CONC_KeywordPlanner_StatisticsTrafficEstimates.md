@@ -1,4 +1,4 @@
----
+﻿---
 title: Understanding your keyword planner statistics and traffic estimates
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the various statistics and traffic estimates for ad groups and keywords from keyword planner.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding your keyword planner statistics and traffic estimates
@@ -25,13 +26,13 @@ To get data on keyword searches, select **Get search volume data and trends** fr
 
 - **Understanding your search volume statistics**
 
-  When you view search volume for specific keywords, a table containing historical statistics will display. This data is based on the **Targeting**, **Search options**, and **Date range** you select. Here’s what the data in the table below the graph means:
+  When you view search volume for specific keywords, a table containing historical statistics will display. This data is based on the **Targeting**, **Search options**, and **Date range** you select. Hereâ€™s what the data in the table below the graph means:
 
   **Average monthly searches**
 
   |  What it is | What you need to know |
   | --- | --- |
-  | The number of times this keyword was used as a search term based on the location and network targeting settings you’ve selected. By default, we average the number of searches for the term over a 12-month period.** | Date range and targeting settings are used when calculating this number, but the language setting is not. If we don’t have enough data for this keyword, you will see a dash (-). This number does not take into account keyword match types. |
+  | The number of times this keyword was used as a search term based on the location and network targeting settings youâ€™ve selected. By default, we average the number of searches for the term over a 12-month period.** | Date range and targeting settings are used when calculating this number, but the language setting is not. If we donâ€™t have enough data for this keyword, you will see a dash (-). This number does not take into account keyword match types. |
 
   **Competition**
 
@@ -54,7 +55,7 @@ To get data on keyword searches, select **Get search volume data and trends** fr
   > [!NOTE]
   > - The search volume statistics are rounded. As a result, the search volume for keyword suggestions for multiple locations may not add up as you might expect.
   > - Internet traffic varies by many factors, such as seasons or current events. Keep in mind that the number of searches on your keywords will constantly vary because of this.
-  > - Choose keywords based on quality over quantity. The more relevant a keyword is, the better results you’ll get. Selecting keywords with higher search traffic or more competition doesn’t mean that it’s the right keyword for your advertising goals
+  > - Choose keywords based on quality over quantity. The more relevant a keyword is, the better results youâ€™ll get. Selecting keywords with higher search traffic or more competition doesnâ€™t mean that itâ€™s the right keyword for your advertising goals
 
 - **Understanding your performance and cost estimates**
 
@@ -128,9 +129,9 @@ To get data on keyword searches, select **Get search volume data and trends** fr
   - **Limited by budget**: You may sometimes see a shaded area in the graph. This means that our system estimates that your budget is too low to accommodate all the clicks and impressions available for your keywords for the shaded bids. You may also see the line in the graph curving down. This means that the estimated number of clicks your keywords might get are decreasing as your bid increases.
 
     To get more clicks and impressions, try increasing your daily budget. By increasing your budget, your ads may get more clicks and impressions. You can also try to lower bid, as it might reduce the average amount you pay when your ad gets clicked and help your budget go further to get more clicks.
-  - **Estimates are not available in the tables**: If you haven’t entered a bid and daily budget (optional), you will see dashes “-“ in the table. Enter **Bid amount** and **Daily budget** (optional) and select **Get estimates** to view the weekly estimates.
+  - **Estimates are not available in the tables**: If you havenâ€™t entered a bid and daily budget (optional), you will see dashes â€œ-â€œ in the table. Enter **Bid amount** and **Daily budget** (optional) and select **Get estimates** to view the weekly estimates.
 
-    If you see a dash “-“ instead of a number in the **Avg. Position** column, our system determined that your ad will likely not get any impressions. Historical ad performance for your ad and other ads using similar keywords are used to calculate the average position. Usually, you’ll see a dash when different factors like your bid or click-through rates aren’t sufficient to earn an ad position. Try to increase your bid amount to get an average position estimate.
+    If you see a dash â€œ-â€œ instead of a number in the **Avg. Position** column, our system determined that your ad will likely not get any impressions. Historical ad performance for your ad and other ads using similar keywords are used to calculate the average position. Usually, youâ€™ll see a dash when different factors like your bid or click-through rates arenâ€™t sufficient to earn an ad position. Try to increase your bid amount to get an average position estimate.
 
 - **Comparing your ad impression share to competitor domains and market leader domains**
 
@@ -139,7 +140,7 @@ To get data on keyword searches, select **Get search volume data and trends** fr
   - **Compared to competitor domains**: This report can help you identify missed opportunities with existing products, so you can focus on the keywords where your ad impression share is low compared to advertisers like you.
 
     > [!NOTE]
-    > You might not see the “Compared to competitor domains” option in the dropdown menu due to your campaign/market settings.
+    > You might not see the â€œCompared to competitor domainsâ€ option in the dropdown menu due to your campaign/market settings.
   - **Compared to market leader domains**: The market leader domains graph compares your ad impression share to the average ad impression share of the top five market leader domains for your keyword suggestions.
   
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up UET Tags Using Shopify
 description: If you built your website on Shopify, read this article to learn how to set up UET tags on it.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up UET tags using Shopify

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bid landscape - View impression and cost simulations before changing your bid
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,15 +7,16 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Thinking about changing your bids but worried about what it might do to your impressions or cost? Or maybe you want more clicks, but are not sure how much you need to increase your bid to make that happen. Bid landscape can help.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Bid landscape: View impression and cost simulations before changing your bid
 
 - [Watch the video](https://www.youtube.com/watch?v=cizFKB3yWuw)
 
-Before changing your bid, you’ll want to know the impact that change will have on your impressions and costs. Lowering your bid might leave you with too few impressions. Raising your bid might cost you more than you want to spend.
+Before changing your bid, youâ€™ll want to know the impact that change will have on your impressions and costs. Lowering your bid might leave you with too few impressions. Raising your bid might cost you more than you want to spend.
 
-To help estimate the affect a bid change will have on your campaign, Microsoft Advertising has bid landscape. Bid landscape provides a range of bids for a keyword, along with a simulation of the estimated impressions and clicks those bids might bring for that keyword. If you see a simulation that gives the performance you’re looking for, you can then change your bid within bid landscape.
+To help estimate the affect a bid change will have on your campaign, Microsoft Advertising has bid landscape. Bid landscape provides a range of bids for a keyword, along with a simulation of the estimated impressions and clicks those bids might bring for that keyword. If you see a simulation that gives the performance youâ€™re looking for, you can then change your bid within bid landscape.
 
 ## FAQ
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Data exclusions for auto-bidding
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set up data exclusions for auto-bidding
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Data exclusions for auto-bidding

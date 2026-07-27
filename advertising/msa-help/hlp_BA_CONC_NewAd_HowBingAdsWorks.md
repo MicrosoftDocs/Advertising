@@ -1,4 +1,4 @@
----
+﻿---
 title: Learn how Microsoft Advertising works
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about what triggers ads, how ads show up, and how much it'll cost you when using Microsoft Advertising.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Learn how Microsoft Advertising works
@@ -28,13 +29,13 @@ For more information about audience advertising, see [What are Audience campaign
 
   :::image type="content" source="media/BA_Conc_BingSearchBox.png" alt-text="A Bing search query.":::
 
-  You can choose how closely you want the words or phrases a customer searches to [match your keywords](hlp_BA_CONC_MatchOptions.md). You can use exact match, which is just that—the search query must match your keywords exactly for your ad to show. Using exact match gives you the ability to show your ads to specific audiences, as your keywords are targeted more precisely. If Paul chooses his exact match keyword to be "lunch take out," the search query has to be exactly "lunch take out" as well.
+  You can choose how closely you want the words or phrases a customer searches to [match your keywords](hlp_BA_CONC_MatchOptions.md). You can use exact match, which is just thatâ€”the search query must match your keywords exactly for your ad to show. Using exact match gives you the ability to show your ads to specific audiences, as your keywords are targeted more precisely. If Paul chooses his exact match keyword to be "lunch take out," the search query has to be exactly "lunch take out" as well.
 
   On the other hand, you can use broad match, which means that your ads can show even when a relevant variation of your keyword is included when a customer does a search. Using broad match can show your ad to a wider range of customers without having to spend a lot of time building keyword lists. So, if Paul decides to use broad match for his campaign, his keyword of "lunch take-out" could be triggered by a search query for "lunch delivery."
 
 - **Where do ads show up?**
 
-  Now that you know what can trigger your ad and where it can appear, let's take a quick look at ad position. When a customer does a search on the Microsoft Advertising Network, an auction determines which ads are shown and where they're placed on the page. This placement is what we call ad position, and it's where your ad appears on search results pages—on top of the search results, on the side of the page, or at the bottom of the page. It's generally more desirable to have your ad appear higher along the page, as it's more likely that customers will be able to see it.
+  Now that you know what can trigger your ad and where it can appear, let's take a quick look at ad position. When a customer does a search on the Microsoft Advertising Network, an auction determines which ads are shown and where they're placed on the page. This placement is what we call ad position, and it's where your ad appears on search results pagesâ€”on top of the search results, on the side of the page, or at the bottom of the page. It's generally more desirable to have your ad appear higher along the page, as it's more likely that customers will be able to see it.
 
   :::image type="content" source="media/BA_Conc_adPositionNewAdv.png" alt-text="Ad position on a Bing search results page.":::
 

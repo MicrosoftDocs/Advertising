@@ -1,4 +1,4 @@
----
+﻿---
 title: How does ad language and location targeting affect who can see my ads?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: When determining if your ads are eligible to be displayed, Microsoft Advertising uses both your ad language and location target settings. Both criteria must be met in order for an ad to display.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How does ad language and location targeting affect who can see my ads?
@@ -35,14 +36,14 @@ Here are the steps you take to determine where your ads are shown:
      > - *The boundaries of some postal codes in Australia, Canada, France, Germany, and United Kingdom do not appear accurately on the map you see in Microsoft Advertising, but targeting within them will still function accurately.*
    - A specified radius around a postal code, coordinates*, landmark, or area
 
-     **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form — for example, "44.590,-104.716".*
+     **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form â€” for example, "44.590,-104.716".*
    - You can also target multiple locations in bulk by selecting **Add bulk locations** below the option for **Let me choose specific locations**. Then, you can: (1) Optionally choose the country/region for the locations you want to add, (2) enter your locations to target or exclude, and (3) select **Find locations**. You can always add more locations later by selecting **Add locations**.
 
      > [!NOTE]
      > You can target by country/region, state/province, city, or ZIP/postal code.
 
      > [!NOTE]
-     > Bulk locations are currently available for Search campaigns. Not everyone can add bulk locations yet. If you can't, don't worry—it's coming soon!
+     > Bulk locations are currently available for Search campaigns. Not everyone can add bulk locations yet. If you can't, don't worryâ€”it's coming soon!
 
      > [!NOTE]
      > If you're using this feature in Smart mode, it's only available in United States and Canada. For more information, see [Get to know your Microsoft Advertising account modes](hlp_BA_CONC_SmartVsExpert.md).

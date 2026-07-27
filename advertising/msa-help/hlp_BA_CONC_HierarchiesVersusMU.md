@@ -1,4 +1,4 @@
----
+﻿---
 title: Choosing between a hierarchy or multi-user access
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "If you manage more than one manager account, learn which setup will work best for you: hierarchies or multi-user access."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Choosing between a hierarchy or multi-user access
@@ -18,7 +19,7 @@ You may already have multi-user access if you work for an ad agency that manages
 
 The benefits of multi-user access are twofold. First, multi-user access gives advertisers or ad agencies the flexibility to invite others to their account while keeping ultimate control on day-to-day account management. Second, invitees are able to keep one user name to sign in to Microsoft Advertising, regardless of how many accounts they have access to. This setup allows a client to directly manage a Microsoft Advertising account and grant access to other existing users of Microsoft Advertising.
 
-Previously, some people may have used multi-user access to gain visibility into separate and distinct accounts that are organized under different manager accounts. If an agency or a large business inherited a Microsoft Advertising account (say, due to a merger), there was no way to consolidate two separate manager accounts into one parent manager account—until now.
+Previously, some people may have used multi-user access to gain visibility into separate and distinct accounts that are organized under different manager accounts. If an agency or a large business inherited a Microsoft Advertising account (say, due to a merger), there was no way to consolidate two separate manager accounts into one parent manager accountâ€”until now.
 
 ## Things to consider before merging separate accounts into one hierarchy
 

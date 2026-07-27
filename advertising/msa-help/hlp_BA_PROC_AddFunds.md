@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Funds to a Prepay Account
 description: If you have a prepay account, you need to add funds to your account before your ads can display on Microsoft Advertising. You can manually add money to your account at any time, or you can set up automatic payments (auto-recharge) to make sure there is no gap in your online advertising. If you don't set up auto-recharge and your account balance hits zero, we'll pause your campaigns and your ads will not display until you add more funds.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Add funds to a prepay account

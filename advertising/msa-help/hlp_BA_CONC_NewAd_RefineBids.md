@@ -1,4 +1,4 @@
----
+﻿---
 title: Refine your bids
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,17 +7,18 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about bidding and the different types of bidding you can set for your ad groups and keywords.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Refine your bids
 
-With Microsoft Advertising, you’re in control of your budget. You set the highest price that you want to pay each time someone selects your ad—this is what your **bid** is. Set this price as the default bid for all your keywords in an ad group, or customize the price for each keyword.
+With Microsoft Advertising, youâ€™re in control of your budget. You set the highest price that you want to pay each time someone selects your adâ€”this is what your **bid** is. Set this price as the default bid for all your keywords in an ad group, or customize the price for each keyword.
 
 ## Default bidding
 
-With default bidding, you set the bid when you first create an ad group and it automatically applies to each keyword in the ad group. This means less work for you, and is ideal for any keywords you don’t want to actively manage.
+With default bidding, you set the bid when you first create an ad group and it automatically applies to each keyword in the ad group. This means less work for you, and is ideal for any keywords you donâ€™t want to actively manage.
 
-For example, if you set a default bid of $1, that’s what you’ll pay by default when someone searches for any of your keywords and chooses on your ad. Because default bidding applies automatically after you set it up, we recommend default bidding if you’re new to Search advertising or want a low-maintenance approach to paying for your ads.
+For example, if you set a default bid of $1, thatâ€™s what youâ€™ll pay by default when someone searches for any of your keywords and chooses on your ad. Because default bidding applies automatically after you set it up, we recommend default bidding if youâ€™re new to Search advertising or want a low-maintenance approach to paying for your ads.
 
 - **How to edit a default bid**
 
@@ -25,7 +26,7 @@ For example, if you set a default bid of $1, that’s what you’ll pay by defau
   1. There are two ways to change your bid from the ad group table:
 
      1. Hover over an individual ad group's bid in the appropriate bid column and select the pencil icon that pops up. Change the bid value and then select **Save**.
-     1. Select the checkbox next to one or more ad groups and then select **Edit** > **Change current bids**. **Set** the bid(s) to a specific value—or **Increase** or **Decrease** the bid(s) by a percentage—and then select **Save**.
+     1. Select the checkbox next to one or more ad groups and then select **Edit** > **Change current bids**. **Set** the bid(s) to a specific valueâ€”or **Increase** or **Decrease** the bid(s) by a percentageâ€”and then select **Save**.
 
 ## Custom bidding
 

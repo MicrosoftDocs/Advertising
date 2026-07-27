@@ -1,4 +1,4 @@
----
+﻿---
 title: Let Microsoft Advertising manage your bids with bid strategies
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how Microsoft Advertising can handle bidding for you using bid strategies such as enhanced CPC, maximize clicks, maximize conversions, and target CPA.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Let Microsoft Advertising manage your bids with bid strategies
@@ -300,7 +301,7 @@ You can set the bid strategy at the campaign level. To change a campaign's bid s
 1. Select **Save**.
 
 > [!NOTE]
-> - Your bids will start changing automatically within two hours of turning on a bid strategy. However, a bid strategy needs to run for up to two weeks to build up enough data to bid optimally. During the initial two weeks, changing your bid strategy setting, campaign budget, or conversion settings—or adding or removing ad groups or keywords—may cause this period to take longer.
+> - Your bids will start changing automatically within two hours of turning on a bid strategy. However, a bid strategy needs to run for up to two weeks to build up enough data to bid optimally. During the initial two weeks, changing your bid strategy setting, campaign budget, or conversion settingsâ€”or adding or removing ad groups or keywordsâ€”may cause this period to take longer.
 > - At the ad group level you cannot change the bid strategy; you can either use the bid strategy that is at the campaign level or set a manual bid.
 
 ## Set a maximum CPC (cost per click)
@@ -325,10 +326,10 @@ To set a maximum CPC, your campaign must use one of the follow bid strategy type
   - Must have [conversion tracking](hlp_BA_CONC_UETv2WhatIsCT.md) (either a UET tag + an active conversion goal, or offline conversions) set up. We recommend giving the bid strategy enough time to accumulate at least 30 conversions before evaluating its performance.
 - **How to make sure maximize conversions and Target CPA work optimally:** Maximize conversions and Target CPA need time to work. For best results, keep this timeline in mind:
 
-  1. **Getting set up: 30 days** — We recommend having at least 30 conversions in the previous 30 days. When setting up Target CPA, we suggest basing your target on your actual CPA from the previous 30 days. For new campaigns, we suggest basing your target on your account's performance.
-  1. **Learning period: 1-2 weeks** — Our platform usually needs two weeks to acquaint itself with your campaign. Avoid changing budgets or conversion goals during this period, as this may cause the learning period to start over. We recommend *not* evaluating the bid strategy's performance based on these two weeks.  YT::https://www.youtube.com/embed/FpBrb0soCFk?si=1dETwPz88eIour6H::END 
-  1. **Run campaign: 2-4 weeks** — Let your campaign run for two to four weeks after the learning period (avoiding changing budgets or conversion goals, as this may cause the learning period to start over) and then start evaluating the bid strategy's performance. Keep your conversion goal window in mind while evaluating performance.
-  1. **Evaluate and adjust: Going forward** — Review the campaign's performance since the learning period is aggregate and make adjustments as needed. For Target CPA, we recommend keeping adjustments within 10-15%, up or down.
+  1. **Getting set up: 30 days** â€” We recommend having at least 30 conversions in the previous 30 days. When setting up Target CPA, we suggest basing your target on your actual CPA from the previous 30 days. For new campaigns, we suggest basing your target on your account's performance.
+  1. **Learning period: 1-2 weeks** â€” Our platform usually needs two weeks to acquaint itself with your campaign. Avoid changing budgets or conversion goals during this period, as this may cause the learning period to start over. We recommend *not* evaluating the bid strategy's performance based on these two weeks.  YT::https://www.youtube.com/embed/FpBrb0soCFk?si=1dETwPz88eIour6H::END 
+  1. **Run campaign: 2-4 weeks** â€” Let your campaign run for two to four weeks after the learning period (avoiding changing budgets or conversion goals, as this may cause the learning period to start over) and then start evaluating the bid strategy's performance. Keep your conversion goal window in mind while evaluating performance.
+  1. **Evaluate and adjust: Going forward** â€” Review the campaign's performance since the learning period is aggregate and make adjustments as needed. For Target CPA, we recommend keeping adjustments within 10-15%, up or down.
 - **Timing of conversions**: When conversions occur more than seven days after the associated clicks, it's harder for maximize conversions and Target CPA to make effective bids. If most of your conversions occur more than seven days after the associated clicks, we recommend not using maximize conversions or Target CPA.
 - **Offline conversions**: If you don't or can't upload offline conversions on a daily basis, we recommend not using maximize conversions or Target CPA. For best results, upload offline conversions within two days of the conversion.
 
@@ -352,22 +353,22 @@ There are two auto-bidding strategy statuses that may appear in the **Delivery**
 
 ## Frequently asked questions about auto-bidding strategy statuses
 
-- **If my campaign's auto-bidding status says “Limited by auto-bidding target," does this indicate that there's something wrong with my campaign's optimization?**
+- **If my campaign's auto-bidding status says â€œLimited by auto-bidding target," does this indicate that there's something wrong with my campaign's optimization?**
 
   No, this status does not indicate that anything is wrong with your campaign's optimization. The purpose of this status is simply to inform advertisers that we have high confidence in the campaign's ability to gain additional opportunities by adjusting the target for [Target ROAS](#target-roas) and [Target CPA](#target-cpa) bid strategies. For Target ROAS, this status means that we recommend you lower the target. For Target CPA, this status means that we recommend you increase the target. It does not indicate any issues with the campaign optimization.
 
-- **My campaign is meeting/exceeding the Target CPA or Target ROAS. Why do I still see the “Limited by auto-bidding target” status?**
+- **My campaign is meeting/exceeding the Target CPA or Target ROAS. Why do I still see the â€œLimited by auto-bidding targetâ€ status?**
 
   Even if your campaign is meeting or exceeding its target, it can still benefit by adjusting the target to gain additional opportunities. For Target ROAS, we recommend you lower the target. For Target CPA, we recommend you increase the target. This will adjust your acceptable target range so that we can find new opportunities that align with your performance goals for cost per acquisition and return on ad spend.
 
-- **I have adjusted my campaign's target based on Microsoft Advertising's recommendation for the “Limited by auto-bidding target” status (i.e., increasing the target for Target CPA and lowering the target for Target ROAS). Why do I still see the “Limited by auto-bidding target” status?**
+- **I have adjusted my campaign's target based on Microsoft Advertising's recommendation for the â€œLimited by auto-bidding targetâ€ status (i.e., increasing the target for Target CPA and lowering the target for Target ROAS). Why do I still see the â€œLimited by auto-bidding targetâ€ status?**
 
   You may still see this status for two reasons:
 
   - Not enough time has passed since changing the target. In which case, the status will be updated the next day.
   - If more than a day has passed and you see the same status, it's because we still see additional opportunities that can be gained by further adjusting the target (i.e., increasing the target for Target CPA and lowering the target for Target ROAS).
 
-- **Is it required/highly recommended to adjust the target (i.e., increasing the target for Target CPA and lowering the target for Target ROAS) every time I see the “Limited by auto-bidding target” status for my campaign?**
+- **Is it required/highly recommended to adjust the target (i.e., increasing the target for Target CPA and lowering the target for Target ROAS) every time I see the â€œLimited by auto-bidding targetâ€ status for my campaign?**
 
   Changing or updating the target is based on your discretion and specific business goals. With this status, we recommend that you adjust the target based on our high confidence in the campaign's ability to gain additional opportunities. However, we don't recommend frequent target changes unless they are aligned with the advertiser's business goals.
 

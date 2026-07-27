@@ -1,4 +1,4 @@
----
+﻿---
 title: Is my UET tag working?
 description: You can troubleshoot the UET tag by using the tracking status in Microsoft Advertising or the UET Tag Helper browser extension.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Is my UET tag working?
@@ -24,7 +25,7 @@ Once you know that you have an issue with your UET tag, you can use UET Tag Help
       - Tag description: The optional description for the UET tag. It helps you identify the UET tag. We recommend adding the website page name or URL.
       - Tag ID: The ID Microsoft Advertising associates with the UET tag.	The Conversion goals page lists the UET tag ID associated with the goal and you can view the UET tag tracking code.
       - Tracking status: This is the status of the UET tag. It can be unverified, tag active, or tag inactive. Lets you know if your UET tag is working or not.
-          - Unverified: Microsoft Advertising hasn’t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
+          - Unverified: Microsoft Advertising hasnâ€™t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
           - Tag active: Your UET tag is working and sending user activity data to Microsoft Advertising.
           - Tag inactive: Microsoft Advertising has not received any user activity data from the UET tag in the last 24 hours. Make sure that the UET tag tracking code is still on your website.
       - Goals: This is the number of conversion goals that use this UET tag. It is a link that takes you to the Conversion goals page with only the goals associated with this tag displayed.

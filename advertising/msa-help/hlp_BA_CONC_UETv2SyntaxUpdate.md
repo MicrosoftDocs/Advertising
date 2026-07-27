@@ -1,4 +1,4 @@
----
+﻿---
 title: Update your UET tags to the new syntax
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn why you should update your UET tags to our new syntax, and how to do it.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Update your UET tags to the new syntax

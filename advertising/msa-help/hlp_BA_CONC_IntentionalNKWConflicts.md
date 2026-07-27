@@ -1,4 +1,4 @@
----
+﻿---
 title: Understanding negative keyword conflicts and their reports
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "\"Possibly intentional\" negative keyword conflicts"
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding negative keyword conflicts and their reports
@@ -15,7 +16,7 @@ You can use [negative keywords](hlp_BA_CONC_AboutNegativeKeywords.md) to help pr
 
 Possible conflict types are:
 
-- **Possibly intentional:** Some advertisers *intentionally* create negative keyword conflicts to block a portion of match types from triggering your ads. For example, if your phrase match keyword is “stereo plug”, you might also choose “stereo plug” as your exact match negative keyword text to match only with this phrase. In this scenario, customers that are searching for specific items like “3.5mm stereo plug” or “gold stereo plug” are more likely to see your ad.
+- **Possibly intentional:** Some advertisers *intentionally* create negative keyword conflicts to block a portion of match types from triggering your ads. For example, if your phrase match keyword is â€œstereo plugâ€, you might also choose â€œstereo plugâ€ as your exact match negative keyword text to match only with this phrase. In this scenario, customers that are searching for specific items like â€œ3.5mm stereo plugâ€ or â€œgold stereo plugâ€ are more likely to see your ad.
 
   If you intentionally created this conflict to block certain match types from triggering your ads, no action may be required.
 - **True:** Any other negative keyword conflict. This conflict can be resolved by deleting the conflicting negative keyword.
@@ -37,7 +38,7 @@ Possible conflict types are:
 
 > [!NOTE]
 > > [!NOTE]
-> > The **Conflict type** column, which shows “possibly intentional” or “true,” is not available in product negative keyword conflict reports.
+> > The **Conflict type** column, which shows â€œpossibly intentionalâ€ or â€œtrue,â€ is not available in product negative keyword conflict reports.
 
 ## Resolving negative keyword conflicts in bulk
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: About the shopping tab
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The Shopping Tab is an exclusive shopping experience, providing customers a way to filter products to get closer to what they want to buy.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About the shopping tab

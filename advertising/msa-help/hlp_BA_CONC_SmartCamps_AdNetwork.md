@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - Where and when will my ads appear
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the Microsoft Advertising Network and what triggers your ads to appear.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - Where and when will my ads appear
@@ -24,7 +25,7 @@ The Microsoft Advertising Network includes sites owned and operated by Bing (inc
 
 ## How searches trigger your ad
 
-When people search for a word or phrase on one of these sites, they see a *search results page* with links to the most relevant websites alongside relevant *Search ads*. Which ads appear—and which appear more prominently—is determined by an auction that takes place in a fraction of a second after the search.
+When people search for a word or phrase on one of these sites, they see a *search results page* with links to the most relevant websites alongside relevant *Search ads*. Which ads appearâ€”and which appear more prominentlyâ€”is determined by an auction that takes place in a fraction of a second after the search.
 
 With Smart campaigns, Microsoft Advertising's AI determines what search phrases to bid on and how much to bid on each one, informed by:
 

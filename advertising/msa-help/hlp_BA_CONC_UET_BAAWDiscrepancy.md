@@ -1,4 +1,4 @@
----
+﻿---
 title: Why do I see a discrepancy between Microsoft Advertising conversion counts and those from Google Analytics and Google Ads (or my own logs)?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out why you may see discrepancies between Microsoft Advertising and Google Ads/Google Analytics conversion counts.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Why do I see a discrepancy between Microsoft Advertising conversion counts and those from Google Analytics and Google Ads (or my own logs)?

@@ -1,4 +1,4 @@
----
+﻿---
 title: What are conversion goals and goal types?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the types of conversion goals that you can create to track different types of conversions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are conversion goals and goal types?
@@ -48,8 +49,8 @@ The types of conversion goals are:
     Values to fill in for this goal: Microsoft Advertising requires that you report values for one or more of the following custom parameters when custom events happen and create custom event type goals specifying which values for these custom parameters would qualify the custom event as a conversion:
 
     - **Event action**: The type of user interaction you want to track. For example, *play* or *pause*.
-    - **Event category**: The category of event you want to track. For example, 'video.’
-    - **Event label**: The name of the element that caused the action. For example, 'trailer' or 'behindthescenes.’
+    - **Event category**: The category of event you want to track. For example, 'video.â€™
+    - **Event label**: The name of the element that caused the action. For example, 'trailer' or 'behindthescenes.â€™
     - **Event value**: A numerical value associated with that event. For example, the length of the video played.
 
     > [!NOTE]
@@ -74,7 +75,7 @@ The types of conversion goals are:
   - **Product**
 
     > [!NOTE]
-    > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+    > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
     Count every time a product is purchased via an ad click.
 
@@ -115,7 +116,7 @@ The types of conversion goals are:
   - **Store visits**
 
     > [!NOTE]
-    > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+    > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
     Count every time a user visits a store as a conversion.
 
@@ -126,7 +127,7 @@ The types of conversion goals are:
   - **In-store transactions**
 
     > [!NOTE]
-    > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+    > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
     Count every time a transaction occurs in your store.
 

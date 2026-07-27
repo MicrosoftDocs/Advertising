@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Add Keywords That Won't Trigger My Ads (Negative Keywords)
 description: Negative keywords are specific words or phrases that help prevent your ad from showing to customers who are unlikely to click your ad. They help filter out irrelevant traffic and, in turn, help increase click-through rate (CTR), ad position, and cost per click (CPC).
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to add keywords that won't trigger my ads (negative keywords)
@@ -40,7 +41,7 @@ For instructions on adding negative keywords to Performance Max campaigns, see [
 ## Add negative keywords to Performance Max campaigns
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 You can add negative keywords to your Performance Max campaign during or after campaign creation:
 

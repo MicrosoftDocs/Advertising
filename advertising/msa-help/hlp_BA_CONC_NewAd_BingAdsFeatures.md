@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising features
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the different features offered by Microsoft Advertising.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising features

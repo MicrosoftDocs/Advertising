@@ -1,4 +1,4 @@
----
+﻿---
 title: Payment processing
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: See the processing times for various payment methods.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Payment processing
@@ -23,7 +24,7 @@ Processing times vary by payment method. Allow enough time for your funds to cle
 | **Bank transfer** | Up to 5 business days after the wire transfer is complete |
 | **PayPal** | Immediate, but can take up to 1 business day to process |
 | **SEPA Direct Debit** | Up to 5 business days for the first payment and up to 2 business days for subsequent payments |
-| **Brazilian Boleto Bancário** | Up to 5 business days after the Boleto slip is paid for the funds to appear in your Microsoft Advertising account |
+| **Brazilian Boleto BancÃ¡rio** | Up to 5 business days after the Boleto slip is paid for the funds to appear in your Microsoft Advertising account |
 
 ## Related videos
 

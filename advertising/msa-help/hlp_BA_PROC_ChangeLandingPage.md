@@ -1,4 +1,4 @@
----
+﻿---
 title: Send Your Customers to a Specific Landing Page
 description: You can use URL variables to send people to the landing pages that are most relevant to the customer's search queries or other input.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Send your customers to a specific landing page
@@ -23,7 +24,7 @@ For example, if you sell shoes and you're bidding on the keyword *running shoes*
 1. Select **Save**.
 
 > [!NOTE]
-> You can assign a unique landing page URL for a match type of a keyword you’ve bid on, such as *exact*. For customers whose search phrases are not exact match types, such as *children's running shoes* (phrase match) for the example above, your ad has your default landing page URL. Customers who search for a phrase that's an exact match will see an ad with a landing page URL that leads directly to your "Running Shoes" page.
+> You can assign a unique landing page URL for a match type of a keyword youâ€™ve bid on, such as *exact*. For customers whose search phrases are not exact match types, such as *children's running shoes* (phrase match) for the example above, your ad has your default landing page URL. Customers who search for a phrase that's an exact match will see an ad with a landing page URL that leads directly to your "Running Shoes" page.
 
 ## How to set a landing page (Final URL) for your ads and sitelink extensions
 

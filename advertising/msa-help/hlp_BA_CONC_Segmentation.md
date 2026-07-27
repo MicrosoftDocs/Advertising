@@ -1,4 +1,4 @@
----
+﻿---
 title: Segment your performance data
 ms.service: msa-help
 ms.subservice: msa-reporting-analytics
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to use segmentation to split your performance data into rows based on Time, Network, Device, and Top vs. Other on the Account Summary or Campaigns page.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Segment your performance data

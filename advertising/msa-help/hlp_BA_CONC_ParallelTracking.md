@@ -1,4 +1,4 @@
----
+﻿---
 title: Parallel tracking gets customers to your landing page more quickly
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how parallel tracking lets you send customers directly to your final URL while click measurement runs in the background.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Parallel tracking gets customers to your landing page more quickly

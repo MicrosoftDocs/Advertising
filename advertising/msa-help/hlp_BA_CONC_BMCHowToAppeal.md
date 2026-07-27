@@ -1,4 +1,4 @@
----
+﻿---
 title: How to appeal a rejected offer
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to appeal a rejected product offer in Microsoft Merchant Center.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to appeal a rejected offer

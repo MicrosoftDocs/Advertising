@@ -1,4 +1,4 @@
----
+﻿---
 title: What Google feed file attributes can I use?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about what Google feed file attributes can be used.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What Google feed file attributes can I use?
@@ -32,13 +33,13 @@ Make it even easier to import your Google feed files to Microsoft Merchant Cente
   | **link** | Yes |  |
   | **image_link** | Yes | Google's minimum resolution of 250x250 is accepted by Bing |
   | **additional_image_link** | Yes |  |
-  | **condition** | Yes | Google's values are ‘new’, ‘used’, ‘refurbished’.<br>Bing accepts all these values. |
+  | **condition** | Yes | Google's values are â€˜newâ€™, â€˜usedâ€™, â€˜refurbishedâ€™.<br>Bing accepts all these values. |
 
 - **Availability and Price**
 
   | Google Attribute | Used by Bing? | Notes |
   | --- | --- | --- |
-  | **availability** | Yes | Google's values are ‘in stock’, ‘out of stock’, ‘preorder’.<br>Bing accepts all these values.<br>The English version of the valid options (in stock, out of stock, and preorder) is also accepted for other languages. |
+  | **availability** | Yes | Google's values are â€˜in stockâ€™, â€˜out of stockâ€™, â€˜preorderâ€™.<br>Bing accepts all these values.<br>The English version of the valid options (in stock, out of stock, and preorder) is also accepted for other languages. |
   | **price** | Yes | For the United Kingdom, France, Germany, and Australia, taxes such as VAT must be included in the price. |
   | **sale_price** | Yes |  |
   | **sale_price_effective_date** | Yes |  |

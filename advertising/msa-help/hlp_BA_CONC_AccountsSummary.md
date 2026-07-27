@@ -1,4 +1,4 @@
----
+﻿---
 title: Get the big picture from the Accounts summary page
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get a view of your Microsoft Advertising account hierarchy and take action as needed.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get the big picture from the Accounts summary page

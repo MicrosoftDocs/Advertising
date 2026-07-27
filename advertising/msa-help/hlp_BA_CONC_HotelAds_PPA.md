@@ -1,4 +1,4 @@
----
+﻿---
 title: About Property Promotion ads
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about Property Promotion ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Property Promotion ads
 
 > [!NOTE]
 > - Learn more about where [Property Promotion ads are available](hlp_BA_CONC_Countries.md).
-> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worry—more languages are coming soon!
+> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worryâ€”more languages are coming soon!
 
 Property Promotion ads (PPA) are designed to inspire travelers who are looking for [hotels or vacation rentals](hlp_BA_CONC_HotelAds_LodgingCategories.md) early in the planning process, when you can influence their decision. These placements increase the visibility of your properties and drive more bookings. PPA surface across the Microsoft Advertising Network in both search and audience placements when someone searches for properties in a specific location or with certain amenities.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising on PrestaShop - The Microsoft Ads and Listings Module
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising and PrestaShop partnered to create a Microsoft Advertising module for PrestaShop - The Microsoft Ads and Listings module.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising on PrestaShop - The Microsoft Ads and Listings module
@@ -72,7 +73,7 @@ There are two ways to add permissions:
 
   1. Open the terminal.
   1. Enter our module folder.
-  1. Run this command: “chmod -R 777 ./”
+  1. Run this command: â€œchmod -R 777 ./â€
 
 - **Reinstall the module directly from the back office**
 

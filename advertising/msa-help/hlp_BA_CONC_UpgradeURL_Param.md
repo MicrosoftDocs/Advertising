@@ -1,4 +1,4 @@
----
+﻿---
 title: Can I use {param1}, {param2}, and {param3} for keyword level tracking with upgraded URLs and final URLs?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn what you can to do with param1, param2, and param3 when you change to final URLs.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Can I use {param1}, {param2}, and {param3} for keyword level tracking with upgraded URLs and final URLs?
@@ -21,7 +22,7 @@ If you still want to use {param1}. {param2}, and {param3] for keyword level trac
 
 ## Example
 
-In the Final URL box, “contoso.com/{param1}” is allowed, but just “{param1}” is not.
+In the Final URL box, â€œcontoso.com/{param1}â€ is allowed, but just â€œ{param1}â€ is not.
 
 {param1}, {param2}, and {param3} are also still allowed in ad titles and descriptions. To learn more, see [Automatically customize your ads with dynamic text parameters](hlp_BA_CONC_AboutParameters.md).
 
@@ -36,7 +37,7 @@ In the Final URL box, “contoso.com/{param1}” is allowed, but just “{param1
   1. In the file, make sure you can see the **param1**, **Final URL**, and **Tracking template** columns. If you don't see the columns, you can add the columns to the file.
   1. In the **param1** column, copy the tracking portion of your {param1} and paste it into the **Tracking template** column. Then insert {lpurl} where your original landing page URL once appeared.
   1. In the **param1** column, copy the landing page portion of your {param1} and paste it into the **Final URL** column.
-  1. Make sure that the landing page URL is set to the domain name of the display URL. For example, the “contoso.com” in “www.contoso.com”
+  1. Make sure that the landing page URL is set to the domain name of the display URL. For example, the â€œcontoso.comâ€ in â€œwww.contoso.comâ€
   1. Delete the contents of the param1 column. This column should be empty before you import the file.
   1. Save the file.
   1. In Microsoft Advertising Editor, select **Import** and then **Import from file**.

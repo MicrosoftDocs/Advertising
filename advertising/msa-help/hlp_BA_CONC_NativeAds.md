@@ -1,4 +1,4 @@
----
+﻿---
 title: What are audience campaigns?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about audience campaigns, a way to place custom-designed ads in high-quality web properties.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are audience campaigns?
@@ -14,7 +15,7 @@ description: Learn about audience campaigns, a way to place custom-designed ads 
 > [!NOTE]
 > This feature is available in [all Microsoft Advertising markets](hlp_BA_CONC_Countries.md).
 
-Audience ad types include [Display](#display-ads), [Native](#native-ads), and [Online Video ads](#online-video-ads). Each ad type offers engaging formats to help you reach your ideal audience in placements across the web—all powered by Microsoft AI. Audience ads are visually rich and integrate naturally into page content. They are designed to be highly relevant for potential customers, including those who have demonstrated purchase intent and those who are ready to buy.
+Audience ad types include [Display](#display-ads), [Native](#native-ads), and [Online Video ads](#online-video-ads). Each ad type offers engaging formats to help you reach your ideal audience in placements across the webâ€”all powered by Microsoft AI. Audience ads are visually rich and integrate naturally into page content. They are designed to be highly relevant for potential customers, including those who have demonstrated purchase intent and those who are ready to buy.
 
 Audience ads on Outlook.com and other Microsoft sites are integrated into the user experience of the webpage where they are displayed. When a potential customer clicks an ad, it takes them directly to the advertiser's website. It's common for mobile views to only display a portion of the ad content followed by an ellipsis (...) to indicate that there's more text. This format is designed to make the ad blend naturally into the webpage's content while still providing a pathway to the full landing page after clicking the ad.
 

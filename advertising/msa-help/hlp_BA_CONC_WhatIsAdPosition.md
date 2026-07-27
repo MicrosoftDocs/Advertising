@@ -1,4 +1,4 @@
----
+﻿---
 title: What is "Ad position"?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "*Ad position* is the position of your ad on a webpage. This article will explain how that position in determined."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is "ad position"?
@@ -15,7 +16,7 @@ description: "*Ad position* is the position of your ad on a webpage. This articl
 
 - The amount you bid for your . For more information, see [What are keyword bids](hlp_BA_CONC_NewAd_SetCampaignBudgetAndBidAmounts.md).
 - Your ad's .
-- Your ad's performance, based on various response signals—for example, (CTR).
+- Your ad's performance, based on various response signalsâ€”for example, (CTR).
 
 Since webpages have a limited number of space to show ads, we auction those spaces. You're bidding against other advertisers to get your ads in those spaces. For example, if you sell shoes and bid on the keyword "shoe," you'll have to beat the ad rank of the other advertisers who are also bidding on "shoe." If your bid isn't high enough, you might not get the space you want (i.e., at the top of the search engine results page).
 

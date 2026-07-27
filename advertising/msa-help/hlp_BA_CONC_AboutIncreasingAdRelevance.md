@@ -1,4 +1,4 @@
----
+﻿---
 title: About improving ad relevance
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Want to make your ads more relevant to what users are looking for? We've got some tips that can help.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About improving ad relevance

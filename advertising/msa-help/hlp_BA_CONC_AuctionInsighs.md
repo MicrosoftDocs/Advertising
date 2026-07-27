@@ -1,4 +1,4 @@
----
+﻿---
 title: See how you compete with the auction insights report
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The auction insights report shows you how your ads compete with other advertisers' ads. The report is based on the number of impressions that have auction insights available divided by total impressions for all the keywords in your selected scope.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # See how you compete with the auction insights report
@@ -23,7 +24,7 @@ Anyone who has access to a manager account (even via hierarchy/manager account l
 
 > [!IMPORTANT]
 > - A report run at the manager account level only looks at auction insights for expert accounts.
-> - You can’t run the auction insights report on more than 300 accounts. Use **Add filter** to show less than 300 accounts and run the report again.
+> - You canâ€™t run the auction insights report on more than 300 accounts. Use **Add filter** to show less than 300 accounts and run the report again.
 > - > [!NOTE]
 >   > Auction insights reports are unavailable for Performance Max campaigns.
 
@@ -50,14 +51,14 @@ The auction insights report reveals data on key performance statistics for you a
 
 **Display URL domain** lists the display URLs of other advertisers who are participating in the same auctions as you.
 
-The statistics shown are impression share, overlap rate, position above rate, top of page (mainline) rate, outranking share, and account prioritization. Click each column in the report to learn more. Here’s what each of the key metrics means:
+The statistics shown are impression share, overlap rate, position above rate, top of page (mainline) rate, outranking share, and account prioritization. Click each column in the report to learn more. Hereâ€™s what each of the key metrics means:
 
 - **Impression share**: The number of times an ad is shown on the Microsoft Advertising Network divided by the total available impressions. Use this to compare your share of impressions to the impression share of advertisers competing against you.
-- **Overlap rate**: The percentage of time competitors’ ads showed up on the search results page when your ad was shown. If the rate is high, then this advertiser is a competitor since their ads shows up on the same search results page as yours.
-- **Position above rate**: The percentage of time competitors’ ads showed up higher than your ads on the search results page. If the rate is high, then the other advertiser is getting more desirable ad positions than you. A high rate is likely due to a poor-quality score or a low bid.
+- **Overlap rate**: The percentage of time competitorsâ€™ ads showed up on the search results page when your ad was shown. If the rate is high, then this advertiser is a competitor since their ads shows up on the same search results page as yours.
+- **Position above rate**: The percentage of time competitorsâ€™ ads showed up higher than your ads on the search results page. If the rate is high, then the other advertiser is getting more desirable ad positions than you. A high rate is likely due to a poor-quality score or a low bid.
 - **Top of page (mainline) rate**: The number of times an ad is shown at the top of the page on the Microsoft Advertising Network, divided by the total number of impressions it actually received. Ads at the top of the page tend to receive more clicks.
 - **Outranking share**: The percentage of time your ad showed up higher on the search results pages than your competitors or your ad showed when theirs did not. If the rate is high, you are getting a more desirable ad position than other advertisers.
-- **Account prioritization**: When you are underperforming a competitor domain in your auction insights, an insights card is created. Accounts are prioritized based on whether one outperforming competitor domain is ranked higher in that account’s auction insights.
+- **Account prioritization**: When you are underperforming a competitor domain in your auction insights, an insights card is created. Accounts are prioritized based on whether one outperforming competitor domain is ranked higher in that accountâ€™s auction insights.
 
 By showing you where you are succeeding and where you might be missing opportunities for improved performance, the auction insights report can help you make strategic optimization decisions.
 

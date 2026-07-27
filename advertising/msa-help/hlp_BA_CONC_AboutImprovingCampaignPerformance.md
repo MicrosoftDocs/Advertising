@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I improve my ad campaign performance?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out why you should improve click-through rate (CTR), ad position, average cost per click (CPC), and conversion rate and how to do it.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I improve my ad campaign performance?

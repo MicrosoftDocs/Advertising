@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I see if Microsoft Advertising auto-tagging works?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Check to see if auto-tagging is working in Microsoft Advertising.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I see if Microsoft Advertising auto-tagging works?
@@ -54,7 +55,7 @@ You can use [Edge Developer Tools](https://go.microsoft.com/fwlink/?linkid=21780
  1. You can use the Record feature in Edge Developer Tools to see if the auto-tagging parameter is removed by a redirect. 
 
       1. Turn on **Record** in [Edge Developer Tools](https://go.microsoft.com/fwlink/?linkid=2178004) (select the black circle on the bottom bar in the **Network** tab). Enter the original final URL with the test *msclkid* appended into the address bar. Press **Enter** to load the URL.
-      1. Under the **Network** tab and **Headers** pane on the right, select some of the first requests listed—they will generally not be type-specific requests (no image or code file extensions).
+      1. Under the **Network** tab and **Headers** pane on the right, select some of the first requests listedâ€”they will generally not be type-specific requests (no image or code file extensions).
       1. Inside the request, look for an HTTP status code of 301 or 302. These codes indicate a redirect.
       1. Under the **Response Headers** section, look for the **Location** value, which indicates where the browser has been redirected.
 

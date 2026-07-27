@@ -1,4 +1,4 @@
----
+﻿---
 title: Monitor your account with the Overview tab
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The Overview tab lets you quickly scan visuals that tell you how your campaigns are doing.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Monitor your account with the Overview tab
 
-The Overview tab lets you quickly scan visuals that tell you how your campaigns are doing. Through customizable tiles and a dashboard experience, the Overview tab makes it easy to find out what works and what doesn’t so that you can optimize your campaigns to meet your goals.
+The Overview tab lets you quickly scan visuals that tell you how your campaigns are doing. Through customizable tiles and a dashboard experience, the Overview tab makes it easy to find out what works and what doesnâ€™t so that you can optimize your campaigns to meet your goals.
 
 - **Add tiles**
 
@@ -34,7 +35,7 @@ The Overview tab lets you quickly scan visuals that tell you how your campaigns 
 
 ## Overview tiles
 
-The Overview tiles provide you with dynamic and visually rich insights into your campaigns’ performance. You can easily select and drag which tiles to display and interact with as well as review key components of your Microsoft Advertising campaigns. We will continue to add more tiles over time to help users view and manage their data.
+The Overview tiles provide you with dynamic and visually rich insights into your campaignsâ€™ performance. You can easily select and drag which tiles to display and interact with as well as review key components of your Microsoft Advertising campaigns. We will continue to add more tiles over time to help users view and manage their data.
 
 - **Account onboarding**: Use the Onboarding tile to complete account setup, resolve issues, and launch your first campaign. This tile provides live statuses and potential blockers to help you fix them and start serving ads.
 
@@ -50,7 +51,7 @@ The Overview tiles provide you with dynamic and visually rich insights into your
 
 - **Recommendations**: The Recommendations tile proposes relevant and actionable suggestions to improve the performance of your campaign. They are based on a variety of factors, including your campaign settings and performance and Microsoft Advertising marketplace dynamics.
 
-- **Performance**: The Performance tile shows trend lines of how campaigns are doing over the selected date range. View your campaigns’ spend, conversions, clicks, impressions, and select-through rate all in one place to easily recognize your campaigns’ patterns and trends.
+- **Performance**: The Performance tile shows trend lines of how campaigns are doing over the selected date range. View your campaignsâ€™ spend, conversions, clicks, impressions, and select-through rate all in one place to easily recognize your campaignsâ€™ patterns and trends.
 
 - **Searches**: The Searches tile gives you a quick glance into what queries potential customers are searching for. This information allows you to determine which search queries are triggering your ads, but provide detailed performance data about them as well. The Searches tile also allows you to add search terms as a keyword or negative keyword, and even acts as an entry point directly to the search term grid. If you don't, don't worry. It's coming soon!
 

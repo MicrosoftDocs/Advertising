@@ -1,4 +1,4 @@
----
+﻿---
 title: Get my ad to the top of the search results page
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn some tips about how to get your ads into better positions, which helps get your ads in front of your potential customers more often.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get my ad to the top of the search results page

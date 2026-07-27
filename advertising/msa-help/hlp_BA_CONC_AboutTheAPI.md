@@ -1,4 +1,4 @@
----
+﻿---
 title: Where can I find information about the Bing Ads API?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about resources for the Bing Ads API.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Where can I find information about the Bing Ads API?

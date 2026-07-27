@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Access Microsoft Advertising as an Invited User?
 description: Now that you've been invited by an administrator to join Microsoft Advertising, find out what you need to do to get signed in and started.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I access Microsoft Advertising as an invited user?
@@ -15,8 +16,8 @@ You have been invited as a new user to Microsoft Advertising. Make sure you unde
 
 Before you sign in, there are a couple of things that are good to know:
 
-- If you don't see the “Invitation to Microsoft Advertising” email shortly after the administrator for the account has invited you, check to make sure that it wasn’t delivered to your junk mail folder.
-- You have 30 days to activate your account after you receive the “Invitation to Microsoft Advertising” email.
+- If you don't see the â€œInvitation to Microsoft Advertisingâ€ email shortly after the administrator for the account has invited you, check to make sure that it wasnâ€™t delivered to your junk mail folder.
+- You have 30 days to activate your account after you receive the â€œInvitation to Microsoft Advertisingâ€ email.
 
 Here's how to sign in to Microsoft Advertising for the first time.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Multimedia ads
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set up Multimedia ads to capture potential customer's attention
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Multimedia ads
@@ -26,7 +27,7 @@ Save time by using Multimedia ads' [ad creator](#about-ad-creator) to seamlessly
 Multimedia ads serve in distinct sidebar [ad positions](hlp_BA_CONC_WhatIsAdPosition.md) and won't replace your text ad placements.
 
 > [!NOTE]
-> Not everyone has the option to select **Logos**, copy their existing Responsive Search ads to Multimedia ads, or add Multimedia ads in dynamic ad groups yet. If you don't, don't worry—they're coming soon!
+> Not everyone has the option to select **Logos**, copy their existing Responsive Search ads to Multimedia ads, or add Multimedia ads in dynamic ad groups yet. If you don't, don't worryâ€”they're coming soon!
 
 ## What you need to know
 
@@ -93,7 +94,7 @@ You can create a Multimedia ad in a [new](#create-a-multimedia-ad-in-a-new-campa
     - **Display URL options**
 
       > [!NOTE]
-      > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+      > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
       This is a campaign-level setting that allows pharmaceutical advertisers to control how their URL appears in ads. This helps advertisers meet governmental guidelines, regulations, and restrictions by providing two distinct options for how website URLs appear in their pharmaceutical ads: **Show Final URL** and **Show website description**. See [About Display URL options](#about-display-url-options) for more information.
 
@@ -115,7 +116,7 @@ You can create a Multimedia ad in a [new](#create-a-multimedia-ad-in-a-new-campa
 
     - **Add new ad group**
 
-      You likely have more than one facet of your campaign, so it's a good idea to create a separate ad group for each. For example, if you sell men’s clothes, you might have separate ad groups, with separate keyword lists, for dress shirts and casual shirts. [Learn more about organizing your account and campaigns](hlp_BA_CONC_AboutAccts.md)
+      You likely have more than one facet of your campaign, so it's a good idea to create a separate ad group for each. For example, if you sell menâ€™s clothes, you might have separate ad groups, with separate keyword lists, for dress shirts and casual shirts. [Learn more about organizing your account and campaigns](hlp_BA_CONC_AboutAccts.md)
 
   - **3. Ads & ad extensions**
 
@@ -194,7 +195,7 @@ You can create a Multimedia ad in a [new](#create-a-multimedia-ad-in-a-new-campa
      | **4 : 1** | 512 x 128 |
       
      > [!NOTE]
-     > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+     > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   
   1. To edit and modify your image, select the pencil icon ![pencil icon](media/BA_icon_edit.png) below your image in the thumbnail list. Then, you can choose to apply smart effects and crop your image. Choose from these options for smart effects:
@@ -236,7 +237,7 @@ You can create a Multimedia ad in a [new](#create-a-multimedia-ad-in-a-new-campa
 ## About Display URL options
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Display URL options is a campaign-level setting that allows pharmaceutical advertisers to control how their URL appears in ads. This helps advertisers meet governmental guidelines, regulations, and restrictions by providing two distinct options for how website URLs appear in their pharmaceutical ads:
 
@@ -269,17 +270,17 @@ The redesigned Multimedia ads' ad creator experience allows you to apply smart e
 
 ## Multimedia ad recommendations
 
-Microsoft Advertising may create new ad suggestions for ad groups that appear to be underperforming. We’ll also recommend assets for your Multimedia ads. [Learn about recommendations, how you can apply them, and how to opt out](hlp_BA_CONC_AdsByBing.md).
+Microsoft Advertising may create new ad suggestions for ad groups that appear to be underperforming. Weâ€™ll also recommend assets for your Multimedia ads. [Learn about recommendations, how you can apply them, and how to opt out](hlp_BA_CONC_AdsByBing.md).
 
 ## Asset recommendations for Multimedia ads
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Microsoft Advertising will automatically generate asset recommendations to enhance the relevance and performance of your ads. We use information pulled from your **Final URL**, as well as any assets you provide to automatically generate recommended images, descriptions, long headlines and short headlines. Please note that you can add, edit, or remove recommended assets from your ads.
 
 > [!NOTE]
-> If you’ve opted out of Multimedia ads at the account or campaign level, auto-generated assets will not be applied.
+> If youâ€™ve opted out of Multimedia ads at the account or campaign level, auto-generated assets will not be applied.
 
 **Benefits of using asset recommendations**
 
@@ -316,7 +317,7 @@ You can adjust your bids for Multimedia ads by specifying a Multimedia ad bid ad
 ## About product offers in Multimedia ads
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Showcase your brand and products from your Microsoft Merchant Center store's catalog by enabling product offers in Multimedia ads. Product offers in Multimedia ads use large visual imagery to increase brand recognition and provide potential customers with more information about your business and the products you sell, which can lead to more clicks and sales on your website. All Multimedia ads are eligible for this experience.
 
@@ -344,14 +345,14 @@ Showcase your brand and products from your Microsoft Merchant Center store's cat
 ## About Multimedia ads in dynamic ad groups
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 > [!NOTE]
 > Enable Dynamic Search ads in your campaign settings for Multimedia ads in dynamic ad groups eligibility. For more information, please see [About Dynamic Search ads](hlp_BA_CONC_DynamicSearchAds.md).
 
 Multimedia ads in dynamic ad groups provide a streamlined, low-touch way to make sure customers find your products or services using large visual imagery. After you enable Multimedia ads in dynamic ad groups in your Account level options, we'll automatically generate one placeholder Multimedia ad for each dynamic ad group you create based on your website and campaign information. This means that you don't need to do anything on your end to create your ads. Our optimization will dynamically populate your Multimedia ads during ad delivery with visual imagery from your website. Your Multimedia ads will be eligible to serve unless you pause or delete them.
 
-The ad creation process is different whether you want to create Multimedia ads for new or existing dynamic ad groups. To create Multimedia ads for **new** dynamic ad groups after opting into Multimedia ads in dynamic ad groups, see [Get started with Multimedia ads in dynamic ad groups](#get-started-with-multimedia-ads-in-dynamic-ad-groups). To create Multimedia ads for **existing** dynamic ad groups—e.g., dynamic ad groups you created *before* opting in to Multimedia ads in dynamic ad groups—see [Create Multimedia ads for existing dynamic ad groups](#create-multimedia-ads-for-existing-dynamic-ad-groups).
+The ad creation process is different whether you want to create Multimedia ads for new or existing dynamic ad groups. To create Multimedia ads for **new** dynamic ad groups after opting into Multimedia ads in dynamic ad groups, see [Get started with Multimedia ads in dynamic ad groups](#get-started-with-multimedia-ads-in-dynamic-ad-groups). To create Multimedia ads for **existing** dynamic ad groupsâ€”e.g., dynamic ad groups you created *before* opting in to Multimedia ads in dynamic ad groupsâ€”see [Create Multimedia ads for existing dynamic ad groups](#create-multimedia-ads-for-existing-dynamic-ad-groups).
 
 <a id="get-started-with-multimedia-ads-in-dynamic-ad-groups"></a>
 
@@ -413,7 +414,7 @@ The ad creation process is different whether you want to create Multimedia ads f
 
 ## Copy Responsive Search ads to Multimedia ads
 
-You can easily create Multimedia ads by copying individual or multiple Responsive Search ads to Multimedia ads. We'll take your existing Responsive Search ad assets and use them to convert your ads to Multimedia ads—all you need is to add **Images**.
+You can easily create Multimedia ads by copying individual or multiple Responsive Search ads to Multimedia ads. We'll take your existing Responsive Search ad assets and use them to convert your ads to Multimedia adsâ€”all you need is to add **Images**.
 
 1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Ads**.
 1. Select the ad(s) you want to copy to Multimedia ads.
@@ -481,7 +482,7 @@ With [ad customizers](hlp_BA_CONC_AdCustomizer_RSA.md), your ads will dynamicall
 
 - **Do tool providers support Multimedia ads?**
 
-  Yes, Google Ads' Search ads 360 supports Multimedia ads. Advertisers can create, manage, find reports, and sync [image assets](hlp_BA_CONC_AssetLibrary.md) for their Multimedia ads within new or existing Microsoft Advertising campaigns directly in Search ads 360. Bulk upload is also supported. Please note that only the current version of Search ads 360 supports Microsoft Advertising Multimedia ads—the previous version of Search ads 360 doesn't support it.
+  Yes, Google Ads' Search ads 360 supports Multimedia ads. Advertisers can create, manage, find reports, and sync [image assets](hlp_BA_CONC_AssetLibrary.md) for their Multimedia ads within new or existing Microsoft Advertising campaigns directly in Search ads 360. Bulk upload is also supported. Please note that only the current version of Search ads 360 supports Microsoft Advertising Multimedia adsâ€”the previous version of Search ads 360 doesn't support it.
 
   > [!NOTE]
   > Multimedia ads are created within Search campaigns with keywords that you bid on for your ad to display. For tracking clicks, impressions, and conversions, you can always create a report at the keyword level without the use of tool providers. For more information about creating a report, see [Understanding the Report Builder](hlp_BA_PROC_CreateReport.md). If you want to understand Multimedia ads' performance, you will need to set up a separate campaign containing only Multimedia ads.
@@ -503,7 +504,7 @@ With [ad customizers](hlp_BA_CONC_AdCustomizer_RSA.md), your ads will dynamicall
   Yes.
 
   > [!NOTE]
-  > Not everyone has the option to add **Logos** yet. If you don't, don't worry—they're coming soon!
+  > Not everyone has the option to add **Logos** yet. If you don't, don't worryâ€”they're coming soon!
 
 - **Are the images I use for my Multimedia ads available for use as image extensions in the same ad group?**
 

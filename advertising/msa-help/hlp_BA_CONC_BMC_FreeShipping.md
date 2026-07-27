@@ -1,4 +1,4 @@
----
+﻿---
 title: Free shipping settings
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Display free shipping and other shipping settings in your Microsoft Merchant Center stores.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Free shipping settings
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 In Microsoft Merchant Center, you can set up shipping settings for an entire store as well as individual products.
 

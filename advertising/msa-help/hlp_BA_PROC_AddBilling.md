@@ -1,12 +1,13 @@
----
+﻿---
 title: Paying by Credit and Debit Card
-description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto Bancário, SEPA direct debit, and virtual bank account.
+description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto BancÃ¡rio, SEPA direct debit, and virtual bank account.
 ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Paying by credit and debit card
@@ -49,7 +50,7 @@ Adding a payment method is just one step to getting your ads up and running. For
   1. Select **Save** when you're done.
 
   > [!NOTE]
-  > If you have several payment methods in your wallet, you can easily switch primary and backup payment methods. Just go to the Payment Methods page, select an account if you have more than one, and then select “set as primary” and “set as backup” next to the payment method you want to set as your primary and backup.
+  > If you have several payment methods in your wallet, you can easily switch primary and backup payment methods. Just go to the Payment Methods page, select an account if you have more than one, and then select â€œset as primaryâ€ and â€œset as backupâ€ next to the payment method you want to set as your primary and backup.
 
 - **Replacing the primary card for multiple accounts**
 

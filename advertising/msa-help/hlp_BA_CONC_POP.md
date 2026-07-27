@@ -1,4 +1,4 @@
----
+﻿---
 title: How can I compare performance by date ranges?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to use period comparison reporting to compare your performance by date ranges.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How can I compare performance by date ranges?
@@ -29,10 +30,10 @@ You can compare in three different ways. Here are examples to explain how each w
 
    You will see the following sub columns:
 
-   - Current Period (mm/dd/yy – mm/dd/yy)
-   - Comparison Period (mm/dd/yy – mm/dd/yy)
-   - Change (Current Time Period – Comparison Period)
-   - Change % ((Current – Comparison)/Comparison * 100%)
+   - Current Period (mm/dd/yy â€“ mm/dd/yy)
+   - Comparison Period (mm/dd/yy â€“ mm/dd/yy)
+   - Change (Current Time Period â€“ Comparison Period)
+   - Change % ((Current â€“ Comparison)/Comparison * 100%)
 1. In the table, select the minus next to each performance metric to close the comparison.
 
 > [!NOTE]

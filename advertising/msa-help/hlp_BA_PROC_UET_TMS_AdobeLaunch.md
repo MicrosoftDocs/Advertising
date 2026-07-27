@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up UET Tags Using Adobe Experience Platform
 description: Third-party tag managers allow you to manage your website tags in one place. Learn how to set up UET tags using Adobe Experience Platform.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up UET tags using Adobe Experience Platform
@@ -29,7 +30,7 @@ Tag managers replace static tags with dynamic tags that are easier to implement 
    1. Click **Save**.
 1. In your Launch Admin Console, go to the **Extensions** tab and click **Catalog**.
 1. Search for "Microsoft Advertising UET Tag" and click **Install**.
-1. In the **Install Extension** page, input your Microsoft Advertising UET tag ID and modify the settings for the tag (enable navigation timing metrics, conversion tracking cookie, update global event tracking name — we recommend keeping the default setting for performance setting and cookie).
+1. In the **Install Extension** page, input your Microsoft Advertising UET tag ID and modify the settings for the tag (enable navigation timing metrics, conversion tracking cookie, update global event tracking name â€” we recommend keeping the default setting for performance setting and cookie).
 
    > [!NOTE]
    > You can find your UET tag by selecting **Conversion Tracking** > **UET tags** in your Microsoft Advertising account.
@@ -42,7 +43,7 @@ Tag managers replace static tags with dynamic tags that are easier to implement 
    1. Create a new action and select **Microsoft Advertising UET Tag** as the **Extension** and then **Base Tag** as the **Action Type**.
 1. If you are using any features that are based on custom events (for example, reporting variable revenue, custom event remarketing list, dynamic remarketing), you will need to create another rule and a data element for any event that dynamically retrieves a value from the page. Otherwise, skip to the next step.
 
-   1. Go to the **Data Elements** tab and click on **Create New Data Element**. (Data elements let you create a data map of commonly used items on a page — we suggest creating a data element, then setting up a rule, and lastly binding action parameters to data elements.)
+   1. Go to the **Data Elements** tab and click on **Create New Data Element**. (Data elements let you create a data map of commonly used items on a page â€” we suggest creating a data element, then setting up a rule, and lastly binding action parameters to data elements.)
    1. Enter a name and then define the data element.
    1. Click **Save**.
    1. Go to the **Rules** page and click **Add Rule**.
@@ -50,7 +51,7 @@ Tag managers replace static tags with dynamic tags that are easier to implement 
 
       - For **Events**, select how the custom parameter is being triggered (for example, on page click).
       - For **Actions**, select what values should be sent via UET. If you're using custom parameters, you'll need to select **Microsoft Advertising UET Tag** as the **Extension** and **Custom Event** as the **Action Type**. Then add the parameters in the right-hand side.
-      - If you’re using an event action parameter (to build custom event remarketing or to track conversions), you will need to configure the **Select event action** field.
+      - If youâ€™re using an event action parameter (to build custom event remarketing or to track conversions), you will need to configure the **Select event action** field.
 1. Go to the **Publishing** tab.
 1. Under **Development**, click **Add New Library**.
 1. Enter a name, select a development environment to deploy to, and then add the resources you created earlier (for example, extensions, data elements, and rules).

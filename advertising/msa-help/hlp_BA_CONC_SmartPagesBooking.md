@@ -1,4 +1,4 @@
----
+﻿---
 title: How to book appointments through your smart page
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to book appointments through your smart page.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to book appointments through your smart page

@@ -1,4 +1,4 @@
----
+﻿---
 title: Create an audience
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to create an audience that you can associate to a campaign or ad group for audience targeting.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create an audience

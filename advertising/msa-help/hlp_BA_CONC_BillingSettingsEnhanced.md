@@ -1,4 +1,4 @@
----
+﻿---
 title: Settings per SAP ID (enhanced)
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: With SAP IDs, you can organize several ad accounts.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Settings Per SAP ID (enhanced)
@@ -41,7 +42,7 @@ A SAP ID is a unique billing number that is assigned to you when you set up mont
 
   As designated by a [Super Admin](hlp_BA_CONC_SSUserRoles.md), an accounts payable contact receives monthly invoices and the Statement of Account, which provides an overview of open invoices and recent payment activity. If there is ever an issue with payment, Microsoft Advertising will use the information on file to reach out to the accounts payable contact.
 
-  Super Admins can add anyone as an accounts payable contact—including those without a Microsoft Advertising account. Users without a Microsoft Advertising account receive an email to verify their email address. Upon confirmation, the user is added to the accounts payable contact list.
+  Super Admins can add anyone as an accounts payable contactâ€”including those without a Microsoft Advertising account. Users without a Microsoft Advertising account receive an email to verify their email address. Upon confirmation, the user is added to the accounts payable contact list.
 
   Email verification is not required for existing users of Microsoft Advertising. Once added to the accounts payable contact list, they'll start receiving billing documents and billing related inquiries.
 

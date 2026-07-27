@@ -1,4 +1,4 @@
----
+﻿---
 title: Import Campaigns Directly from Meta Ads
 description: You can import entire campaigns into Microsoft Advertising from Meta Ads.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-bulk-import
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Import campaigns directly from Meta Ads

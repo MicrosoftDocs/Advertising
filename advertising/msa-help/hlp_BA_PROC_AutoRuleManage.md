@@ -1,4 +1,4 @@
----
+﻿---
 title: Edit, Pause, or Delete Automated Rules
 description: Learn how you can edit, pause, or delete your automated rules. You can also review a history of the rules that ran in the last 90 days.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Edit, pause, or delete automated rules

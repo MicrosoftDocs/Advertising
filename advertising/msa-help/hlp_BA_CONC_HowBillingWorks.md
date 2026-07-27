@@ -1,4 +1,4 @@
----
+﻿---
 title: What are my billing options? Pay now or pay later
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Compare the benefits of prepay (pay now) vs. postpay (pay later), and learn how to change your billing options and sign up for invoiced billing.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are my billing options? Pay now or pay later

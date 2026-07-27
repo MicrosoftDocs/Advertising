@@ -1,4 +1,4 @@
----
+﻿---
 title: Best practices for creating effective responsive search ads
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about setting up your Responsive Search ads for success.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Best practices for creating effective responsive search ads
@@ -20,7 +21,7 @@ In addition, you can [review our list of best practices](#best-practices-for-res
 ## Best practices for responsive search ads
 
 - **Create responsive search ads in existing ad groups.** We recommend you have a minimum of one active responsive search ad in an ad group. Please note that there is a limit of three enabled responsive search ads per ad group.
-- **Provide as many unique assets as possible.** Aim to provide at least 8-10 distinct headlines that don't contain similar phrases. Use a combination of short and long headlines to maximize space on any device. Create titles that are related to and contain your keywords and use at least 1 brand title. Use a single dynamic keyword insertion. Make sure to have at least 3 other headlines that don't include your keywords—instead, try adding information about your unique features, benefits, or shipping details.
+- **Provide as many unique assets as possible.** Aim to provide at least 8-10 distinct headlines that don't contain similar phrases. Use a combination of short and long headlines to maximize space on any device. Create titles that are related to and contain your keywords and use at least 1 brand title. Use a single dynamic keyword insertion. Make sure to have at least 3 other headlines that don't include your keywordsâ€”instead, try adding information about your unique features, benefits, or shipping details.
 - **Make content distinct.** Avoid repetitive language and create distinct descriptions. Include additional product or service benefits and features, a clear call to action, and shipping and return information.
 - **Avoid pinning headlines or descriptions, if possible.** Pinning restricts the number of headline or description combinations to match a customer's search.
 - **Combine** [auto-bidding](hlp_BA_CONC_BidStrategy.md) to optimize your target metrics.
@@ -46,7 +47,7 @@ With ad customizers, you can dynamically transform a single ad into numerous var
 
 ## Ad strength score and suggestions
 
-We recommend that you review your ad strength score and implement our suggestions. Your ad strength score indicates how effective and relevant your ads are for potential customers with the aim of helping you improve ad performance. Ad strength rates the diversity, quality, and quantity of your ad's headlines and descriptions. Along with your ad strength score—ranging from “Poor,” “Average,” “Good,” or “Excellent”—we provide suggestions for improvement. See [About Responsive Search ads](hlp_BA_CONC_ResponsiveSearchAds.md) to learn more about your ad strength score and the suggestions we may have for you based on your ad strength.
+We recommend that you review your ad strength score and implement our suggestions. Your ad strength score indicates how effective and relevant your ads are for potential customers with the aim of helping you improve ad performance. Ad strength rates the diversity, quality, and quantity of your ad's headlines and descriptions. Along with your ad strength scoreâ€”ranging from â€œPoor,â€ â€œAverage,â€ â€œGood,â€ or â€œExcellentâ€â€”we provide suggestions for improvement. See [About Responsive Search ads](hlp_BA_CONC_ResponsiveSearchAds.md) to learn more about your ad strength score and the suggestions we may have for you based on your ad strength.
 
 <a id="auto-generated-assets"></a>
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Switch My Payment Settings?
 description: See how a guided workflow helps you switch how you pay for Microsoft Advertising (be it prepay, postpay threshold, or monthly invoice billing).
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I switch my payment settings?

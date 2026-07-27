@@ -1,4 +1,4 @@
----
+﻿---
 title: How is my upgraded URL created?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn the serving URL expansion rules that tell you how your URLs are created with upgraded URLs.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How is my upgraded URL created?

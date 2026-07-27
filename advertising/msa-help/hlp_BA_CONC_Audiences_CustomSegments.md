@@ -1,4 +1,4 @@
----
+﻿---
 title: Custom segments - Reach your ideal audience based on their interests and behaviors
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,17 +7,18 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about using custom segments to target your ideal audience.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Custom segments -Reach your ideal audience based on their interests and behaviors
 
 > [!NOTE]
-> - Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> - Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 > - Custom segments work best with either minimal use of other audience targeting settings, or as a supplement to enhance your existing targeting strategy.
 
 Custom segments allow you to target customers who have shown purchase intent signals within customized categories created and defined by you. This offers an opportunity to manually add categories beyond the predefined list we offer for [in-market audiences](hlp_BA_CONC_Audiences_InMarketAudience.md). All you need to do is add the keywords/categories associated with your custom segment. Then, your ad group targeting will be optimized for audiences whose interests and behaviors align with those keywords/categories.
 
-For example, you might create a new custom segment and name it “Luxury shoppers.” Then, you add keywords that your ideal audience would use to search for products on the web, such as “designer handbags” and “diamond necklaces.” For better reach and performance, add as many relevant keywords as possible.
+For example, you might create a new custom segment and name it â€œLuxury shoppers.â€ Then, you add keywords that your ideal audience would use to search for products on the web, such as â€œdesigner handbagsâ€ and â€œdiamond necklaces.â€ For better reach and performance, add as many relevant keywords as possible.
 
 Once you create your custom segment, your ads will target potential customers who have shown interest in or made purchases for luxury items like designer handbags and diamond necklaces.
 

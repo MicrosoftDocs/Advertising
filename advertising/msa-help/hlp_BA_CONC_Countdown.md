@@ -1,4 +1,4 @@
----
+﻿---
 title: Show a countdown to an event in your ad
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,15 +7,16 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Countdown customizers are tags you can insert into your ad title, body, or paths that show an automatically-updated countdown to an event.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Show a countdown to an event in your ad
 
 > [!NOTE]
 > - Countdowns in the ad preview area of Microsoft Advertising Platform appear exclusively in English except in mainland China, where countdowns appear in Chinese. During ad delivery, the language your countdown appears in will be determined by your campaign settings.
-> - Not everyone can show a countdown to an event in their Multimedia ads yet. If you can't, don't worry—it's coming soon!
+> - Not everyone can show a countdown to an event in their Multimedia ads yet. If you can't, don't worryâ€”it's coming soon!
 
-Countdown customizers let you easily add a countdown — by day, hour, and then minute — to an event in expanded text ads, Dynamic Search ads, Responsive Search ads, and Multimedia ads. The countdown, which automatically updates as the event draws nearer, is eye-catching and gives potential customers greater incentive to select your ad.
+Countdown customizers let you easily add a countdown â€” by day, hour, and then minute â€” to an event in expanded text ads, Dynamic Search ads, Responsive Search ads, and Multimedia ads. The countdown, which automatically updates as the event draws nearer, is eye-catching and gives potential customers greater incentive to select your ad.
 
 For example, you can use a countdown to draw attention to a sale that is ending:
 
@@ -25,7 +26,7 @@ For example, you can use a countdown to draw attention to a sale that is ending:
 
 :::image type="content" source="media/BA_CONC_CountdownExample2.png" alt-text="Ad with a countdown in days.":::
 
-Ads with countdowns only run while the countdown is relevant — they won't start running until a specific day and time that you set, and they'll stop running when the countdown timer expires.
+Ads with countdowns only run while the countdown is relevant â€” they won't start running until a specific day and time that you set, and they'll stop running when the countdown timer expires.
 
 ## Create an ad with a countdown
 
@@ -141,5 +142,5 @@ Keep in mind that your text will be too long if the countdown syntax makes it ex
 
 - **Choose the right time zone setting**
 
-  - If you're counting down to an event that will take place at a specific location — such as an in-store appearance, sporting event, or convention — it's probably best to base the countdown on your account time zone.
+  - If you're counting down to an event that will take place at a specific location â€” such as an in-store appearance, sporting event, or convention â€” it's probably best to base the countdown on your account time zone.
   - If you're counting down to an event that isn't tied to a specific location (like an online sale), it's probably best to base the countdown on the ad viewer's time zone.

@@ -1,4 +1,4 @@
----
+﻿---
 title: My rejected offer is non-appealable. What do I do?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn what to do if your product offer has been rejected in Microsoft Merchant Center.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # My rejected offer is non-appealable. What do I do?

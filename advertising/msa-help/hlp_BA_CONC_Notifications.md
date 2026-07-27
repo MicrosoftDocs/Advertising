@@ -1,4 +1,4 @@
----
+﻿---
 title: Stay on top of your notifications
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising puts your notifications and solutions in one place for clearer focus on the important items.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Stay on top of your notifications
@@ -19,10 +20,10 @@ If you've been using Microsoft Advertising for a while, you'll remember three ic
 
 | Notification type | What it means |
 | --- | --- |
-| **Critical (red circle icon)** | Urgent or important issues at the account level—for example, account management, billing, or payment problems that might keep your ads from appearing.<br>Critical notifications include links to the page where you can take action to address the problem.<br>**Note:**Critical alerts appear both in the notifications list in the bell and as a red bar across the top of your browser window (see below). |
-| **Warning (yellow triangle icon)** | Important account or campaign level issues—for example, account link requests, low funds or budgets, or performance problems.<br>Warning notifications include links to help you address or review the problem, or to open a help article related to the alert. |
-| **Recommendation (teal light bulb icon)** | Opportunities or suggestions to improve campaign performance—for example, ways to better manage budgets or add more keywords.<br>Recommendation notifications include links to pages where you can implement suggested actions or learn more. |
-| **Informational (blue information icon)** | Items of note that don't require immediate attention—for example, new feature alerts, received payments notices, or link request results.<br>Informational notifications may include links to related pages where you can learn more. |
+| **Critical (red circle icon)** | Urgent or important issues at the account levelâ€”for example, account management, billing, or payment problems that might keep your ads from appearing.<br>Critical notifications include links to the page where you can take action to address the problem.<br>**Note:**Critical alerts appear both in the notifications list in the bell and as a red bar across the top of your browser window (see below). |
+| **Warning (yellow triangle icon)** | Important account or campaign level issuesâ€”for example, account link requests, low funds or budgets, or performance problems.<br>Warning notifications include links to help you address or review the problem, or to open a help article related to the alert. |
+| **Recommendation (teal light bulb icon)** | Opportunities or suggestions to improve campaign performanceâ€”for example, ways to better manage budgets or add more keywords.<br>Recommendation notifications include links to pages where you can implement suggested actions or learn more. |
+| **Informational (blue information icon)** | Items of note that don't require immediate attentionâ€”for example, new feature alerts, received payments notices, or link request results.<br>Informational notifications may include links to related pages where you can learn more. |
 
 ## Understanding red bar alerts
 
@@ -30,10 +31,10 @@ Critical notifications in Microsoft Advertising appear as critical red bar alert
 
 Critical alerts are urgent or important issues, usually related to billing, payment, or insertion order problems that might keep your ads from appearing. These alerts need to be resolved as quickly as possible.
 
-You can dismiss a critical notification from the list, but you can’t dismiss a red bar alert—these continue to appear until the issue is resolved. The red bar alert always includes a link or button that allows you to take immediate action on the critical issue. Multiple critical alerts about the same account will appear in a single bar—just select the bar to see all the alerts.
+You can dismiss a critical notification from the list, but you canâ€™t dismiss a red bar alertâ€”these continue to appear until the issue is resolved. The red bar alert always includes a link or button that allows you to take immediate action on the critical issue. Multiple critical alerts about the same account will appear in a single barâ€”just select the bar to see all the alerts.
 
 > [!NOTE]
-> Only critical notifications appear as red bar alerts across the top of your browser window–all other notification types, such as warnings, recommendations, or information, appear only under the notifications bell or in the Notifications table.
+> Only critical notifications appear as red bar alerts across the top of your browser windowâ€“all other notification types, such as warnings, recommendations, or information, appear only under the notifications bell or in the Notifications table.
 
 
 - **View alerts from the notifications bell**
@@ -73,8 +74,8 @@ You can dismiss a critical notification from the list, but you can’t dismiss a
 ## Things to keep in mind
 
 > [!NOTE]
-> - When you select the notifications bell, you'll see notifications only for the specific account you’re working in. If you switch to another account, the list updates accordingly.
-> - If a notification type applies to more than one account, they’re combined into one notification that indicates how many accounts are affected.
+> - When you select the notifications bell, you'll see notifications only for the specific account youâ€™re working in. If you switch to another account, the list updates accordingly.
+> - If a notification type applies to more than one account, theyâ€™re combined into one notification that indicates how many accounts are affected.
 > - You can dismiss all or individual notifications from your list. Notifications are automatically dismissed if the issue is resolved, a newer notification is issued on the same subject, or the alert has expired.
-> - Dismissing a notification from your notifications list doesn’t remove it from the lists of other people who have access to that account.
+> - Dismissing a notification from your notifications list doesnâ€™t remove it from the lists of other people who have access to that account.
 > - Closing the preview bar will dismiss it until the next time you log in to Microsoft Advertising.

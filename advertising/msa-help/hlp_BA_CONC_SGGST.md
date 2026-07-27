@@ -1,4 +1,4 @@
----
+﻿---
 title: Singapore Goods and Services Tax
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The Singapore Goods and Services Tax (GST) is added on advertising costs
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Singapore Goods and Services Tax

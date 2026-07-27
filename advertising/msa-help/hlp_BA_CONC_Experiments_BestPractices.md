@@ -1,4 +1,4 @@
----
+﻿---
 title: Examples and tips for working with experiments
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: See some examples of working with experiments and learn some best practices.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Examples and tips for working with experiments

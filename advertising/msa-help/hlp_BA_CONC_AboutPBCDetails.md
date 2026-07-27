@@ -1,4 +1,4 @@
----
+﻿---
 title: Existing customer coupon offer details
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: 
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Existing customer coupon offer details
@@ -14,7 +15,7 @@ description:
 - Valid only for existing Microsoft Advertising customers. A minimum qualifying amount on advertising charges (excluding taxes) may be required before the promotional credit is applied to your account.
 - You may also be required to enable a new feature in Microsoft Advertising. Please refer to the eligibility requirements that are contained in your offer.
 - Microsoft Advertising will automatically apply the promotional credit towards your additional advertising spend, until the credit is exhausted or the offer expires.
-- Valid only for Microsoft Advertising accounts that are registered in Australia, Austria, Belgium, Brazil, Canada, China, Czech Republic, Denmark, France, Germany, Hungary (self-serve SMBs only—no agencies or channel partners), India, Israel, Italy, Japan, Malaysia, Mexico, Netherlands, New Zealand, Norway, Philippines, Poland, Portugal, Romania, Saudi Arabia, Slovakia, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, UAE, United Kingdom, United States, and Vietnam.
+- Valid only for Microsoft Advertising accounts that are registered in Australia, Austria, Belgium, Brazil, Canada, China, Czech Republic, Denmark, France, Germany, Hungary (self-serve SMBs onlyâ€”no agencies or channel partners), India, Israel, Italy, Japan, Malaysia, Mexico, Netherlands, New Zealand, Norway, Philippines, Poland, Portugal, Romania, Saudi Arabia, Slovakia, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, UAE, United Kingdom, United States, and Vietnam.
 - For prepay accounts: Microsoft Advertising will deduct the cost of your advertising charges directly from your prepay funds.
 - For postpay threshold accounts: Microsoft Advertising will charge your primary payment method (or backup payment method as needed) for your advertising charges once you meet your spend threshold.
 - If your Microsoft Advertising account has a different currency than your promotional credit, your promotional credit may be subject to foreign currency fluctuations.

@@ -1,4 +1,4 @@
----
+﻿---
 title: What the numbers mean in performance reports
 ms.service: msa-help
 ms.subservice: msa-reporting-analytics
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Here are several Microsoft Advertising performance report statistics to track on an ongoing basis. Together they'll give you actionable information for improving campaign, keyword, ad, and landing page performance.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What the numbers mean in performance reports

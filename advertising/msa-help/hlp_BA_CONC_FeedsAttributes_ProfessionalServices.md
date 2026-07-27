@@ -1,4 +1,4 @@
----
+﻿---
 title: Professional services ads' dynamic data feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about required, recommended, and optional Professional Services ads feed attributes.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Professional Services ads' dynamic data feeds
@@ -66,9 +67,9 @@ Your dynamic data feed file may include any of the following attributes, which w
 | **Num of reviews** | The number of reviews for the company or professional. | 12500 |
 | **Phone number** | The company's or professional's phone number. Follows ITU E.123 format. | +1 800 378 7262 |
 | **Rating** | The rating for the company or professional on a scale of 0-5. | 4.8 |
-| **Service cities** | Cities for which a real estate company or agent provide services, separated by “;”. | Bellevue; Seattle |
-| **Services** | Types of services provided, separated by “;”. | Buyer service; Seller service |
-| **Service subcategory** | Subcategories of the services, separated by “;”. | Full service; Self-serve |
+| **Service cities** | Cities for which a real estate company or agent provide services, separated by â€œ;â€. | Bellevue; Seattle |
+| **Services** | Types of services provided, separated by â€œ;â€. | Buyer service; Seller service |
+| **Service subcategory** | Subcategories of the services, separated by â€œ;â€. | Full service; Self-serve |
 | **Years of experience** | The number of years in business.<br>Fill out this attribute or In business since above. | 15 |
 
 ## Optional attributes
@@ -81,9 +82,9 @@ Your dynamic data feed file may include any of the following optional attributes
 | **Address** | Either provide the first line of the street address or the full address. If only the street address is provided, fill in the city, state, and zip as other attributes.<br>This will not be shown in the ad. | 123 Boulevard Street |
 | **Affiliation** | The affiliated company or organization. | Local Boutique Seattle; RE/MAX |
 | **Contextual keywords** | Specific professional services details used to power relevancy matching, separated by ";". If provided, the information in this column will help the Microsoft AI create more relevant ads for your campaign.<br>This will not be shown in the ad. | Real estate; townhouse; townhouse for sale |
-| **Country** | The country or countries the company or professional service (ISO 3166-1 standards or full country name), separated by “;”.<br>This will not be shown in the ad. | US |
-| **County** | The county or counties the company or professional service, separated by “;”.<br>This will not be shown in the ad. | King County |
-| **Custom parameter** | Include key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>This will not be shown in the ad. | {“pcategory”:“real estate”} |
+| **Country** | The country or countries the company or professional service (ISO 3166-1 standards or full country name), separated by â€œ;â€.<br>This will not be shown in the ad. | US |
+| **County** | The county or counties the company or professional service, separated by â€œ;â€.<br>This will not be shown in the ad. | King County |
+| **Custom parameter** | Include key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>This will not be shown in the ad. | {â€œpcategoryâ€:â€œreal estateâ€} |
 | **Degree & certifications** | The professional's degrees or certifications. | CRS |
 | **District** | The district(s) the company or professional serves.<br>This will not be shown in the ad. | Queen Anne |
 | **Email** | The company's or professional's email address. | ramram@contoso.com |
@@ -91,11 +92,11 @@ Your dynamic data feed file may include any of the following optional attributes
 | **Gender** | The professional's gender. | Male |
 | **LinkedIn URL** | LinkedIn profile URL. | linkedin.com/DavidJohnson |
 | **Price unit** | Used in tandem with the Starting price (see below), this helps form the price. For instance, these examples come together as 78 USD per hour. | Hour |
-| **Sale price** | The starting sale price for the item or rate of services. Numeric value followed by currency code (ISO 4216 standard). Use “.” As the decimal mark regardless of the local currency. | 50 USD |
-| **Service areas** | Neighborhoods for which a real estate company or agent provides services, separated by “;”. | Ballard; South Lake Union |
+| **Sale price** | The starting sale price for the item or rate of services. Numeric value followed by currency code (ISO 4216 standard). Use â€œ.â€ As the decimal mark regardless of the local currency. | 50 USD |
+| **Service areas** | Neighborhoods for which a real estate company or agent provides services, separated by â€œ;â€. | Ballard; South Lake Union |
 | **Specialties** | Any specialties, such as types or home, price ranges, etc. | Townhouses; Condominiums |
-| **Starting price** | The starting price for the product or rate of services. Numeric value followed by currency code (ISO 4217 standard). Use “.” As the decimal mark regardless of local currency<br>See Price unit (above). | 78 USD |
-| **State** | The state or states the company or professional services, separated by “;”.<br>This will not be shown in the ad. | Washington; Oregon; California |
+| **Starting price** | The starting price for the product or rate of services. Numeric value followed by currency code (ISO 4217 standard). Use â€œ.â€ As the decimal mark regardless of local currency<br>See Price unit (above). | 78 USD |
+| **State** | The state or states the company or professional services, separated by â€œ;â€.<br>This will not be shown in the ad. | Washington; Oregon; California |
 | **Tracking template** | Include any tracking parameters, custom parameters, or tracking redirects for your item URL.<br>This will not be shown in the ad. | http://www.trackingtool.com/?source=Microsoft&pcategory={_pcategory}&city={_city} |
 | **Video URLs** | The URL for the video used in your ad. Must begin with http:// or https://.<br>We support MPG, MP4, AVI, etc.<br>*Note:* We'll leverage this in the future. | http://www.contoso.com/video1.mpg |
 | **Monday hours** | Hours of operation in local time or a closed specification. If the business doesn't have closing hours, use "24/7". | 9:00-17:00 |

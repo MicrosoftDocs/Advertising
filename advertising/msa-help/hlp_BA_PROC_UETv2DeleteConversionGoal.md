@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Delete a Conversion Goal?
 description: You can simplify and manage your setup by deleting UET tags. When you delete a tag, any associated conversion goals are also deleted.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I delete a conversion goal?

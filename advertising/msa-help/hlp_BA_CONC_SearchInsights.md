@@ -1,4 +1,4 @@
----
+﻿---
 title: About search insights
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Search insights help you understand the search interest that is relevant to your campaigns at the account level.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About search insights

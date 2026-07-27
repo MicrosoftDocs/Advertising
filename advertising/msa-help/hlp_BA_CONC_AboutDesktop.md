@@ -1,4 +1,4 @@
----
+﻿---
 title: About Microsoft Advertising Editor
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising Editor lets you manage your campaigns offline, using an intuitive and simple computer application.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Microsoft Advertising Editor
 
-Save time and improve the performance of your search marketing campaigns. When you download Microsoft Advertising Editor for Mac or Windows, you'll get an intuitive and simple computer application that streamlines your Search campaign management — online or offline.
+Save time and improve the performance of your search marketing campaigns. When you download Microsoft Advertising Editor for Mac or Windows, you'll get an intuitive and simple computer application that streamlines your Search campaign management â€” online or offline.
 
 ## Why use Microsoft Advertising Editor?
 

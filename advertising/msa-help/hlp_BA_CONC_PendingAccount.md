@@ -1,4 +1,4 @@
----
+﻿---
 title: Why is my account pending?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "Accounts can be placed on pending for one of two reasons: a payment method needs to be added to the account, or account setup has not been completed."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Why is my account pending?

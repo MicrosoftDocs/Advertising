@@ -1,4 +1,4 @@
----
+﻿---
 title: "Smart campaigns - creating effective ads"
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Tips on making the content of your Smart campaign's ads more eye-catching and enticing to potential customers.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - creating effective ads

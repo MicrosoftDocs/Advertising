@@ -1,4 +1,4 @@
----
+﻿---
 title: Make bulk changes to your campaigns and ad groups within Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: This article teaches you how to make bulk changes.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Make bulk changes to your campaigns and ad groups within Microsoft Advertising

@@ -1,4 +1,4 @@
----
+﻿---
 title: About language options in Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "Three language options in Microsoft Advertising give you control over your advertising campaign and experience: ad language, billing language, and display language."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About language options in Microsoft Advertising

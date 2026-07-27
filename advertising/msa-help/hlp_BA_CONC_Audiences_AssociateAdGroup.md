@@ -1,4 +1,4 @@
----
+﻿---
 title: Associate audiences with ad groups or campaigns
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Once you have created or selected an audience, you can associate it with one or more ad groups or campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Associate audiences with ad groups or campaigns

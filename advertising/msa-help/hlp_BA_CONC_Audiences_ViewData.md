@@ -1,4 +1,4 @@
----
+﻿---
 title: Where do I view audience performance data?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: See the two places in Microsoft Advertising where you can view audience performance data.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Where do I view audience performance data?
@@ -22,7 +23,7 @@ There are two places in Microsoft Advertising where audience performance data ca
   . A new audience performance report including the following columns:
 
   - **Attributes**: Audience [ID and Name], Account [ID, Number and Name], Campaign [ID and Name], AdGroup [ID and Name], Ad [ID, Title], Keyword, Status (of the association), Bid Adjustment, Targeting Setting, Ad Distribution
-  - **Performance statistics**: Impressions, Clicks, CTR, Avg CPM, Avg CPC, Avg CPA, Avg Position, ​Conversions, Conversion rate, CPA, Assists, Cost per assist, Revenue, Revenue per conversion, Revenue per assist, Return on Ad Spend, Spend
+  - **Performance statistics**: Impressions, Clicks, CTR, Avg CPM, Avg CPC, Avg CPA, Avg Position, â€‹Conversions, Conversion rate, CPA, Assists, Cost per assist, Revenue, Revenue per conversion, Revenue per assist, Return on Ad Spend, Spend
 
   > [!NOTE]
   > You cannot download audience lists from the Audience Library. Microsoft Advertising follows strict privacy standards, and these lists may include sensitive user data. Downloading them directly could expose personally identifiable information.

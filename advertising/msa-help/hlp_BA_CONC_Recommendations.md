@@ -1,4 +1,4 @@
----
+﻿---
 title: Use recommendations to enhance your campaigns
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "Recommendations are AI-driven suggestions with one goal in mind: To help improve your campaign performance."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use recommendations to enhance your campaigns
@@ -25,7 +26,7 @@ Recommendations that you apply become part of your ad rotation and should start 
 1. In each recommendation tile, you have options to:
 
    - **Apply all** to immediately add all recommendations to your account.
-   - **View recommendations** to review the details of each recommendation. Here, you can **Dismiss** the ones you don’t want, or **Apply** the ones you do want by selecting one or more checkboxes > select **Apply**.
+   - **View recommendations** to review the details of each recommendation. Here, you can **Dismiss** the ones you donâ€™t want, or **Apply** the ones you do want by selecting one or more checkboxes > select **Apply**.
    - Download a list of recommendations by selecting the ellipsis icon
 
      :::image type="content" source="media/BA_ScreenCap_DeliveryDetails.png" alt-text="More information icon.":::
@@ -65,7 +66,7 @@ Recommendations that you apply become part of your ad rotation and should start 
   - **Add trending search queries as keywords.** Show your ads on trending searches relevant to your business.
   - **Create Dynamic Search ads.** Automatically target relevant search queries based on the content of your website.
   - **Import and re-import from Google Ads.** Keep your accounts up to date while continuing to expand your online advertising reach.
-  - **Remove negative keyword conflicts.** If your ads aren’t showing due to negative keyword conflicts, resolve them to get your ads running.
+  - **Remove negative keyword conflicts.** If your ads arenâ€™t showing due to negative keyword conflicts, resolve them to get your ads running.
   - **Import campaigns from Meta Ads.** Expand your online advertising reach by importing your campaigns from Meta Ads to the Microsoft Advertising Network. [Learn more about importing campaigns from Meta Ads](hlp_ba_proc_import_fb_campaign.md).
 
 - **Repairs**
@@ -81,7 +82,7 @@ Recommendations that you apply become part of your ad rotation and should start 
 
 ## Auto-apply recommendations
 
-If you’d like specific recommendations from Microsoft Advertising to be automatically added to your account, you can opt in to auto-apply recommendations. When you opt in to auto-apply, we’ll notify you when the recommendations become available so you can review, apply, or dismiss them. After the review period, recommendations will be automatically applied to your account.
+If youâ€™d like specific recommendations from Microsoft Advertising to be automatically added to your account, you can opt in to auto-apply recommendations. When you opt in to auto-apply, weâ€™ll notify you when the recommendations become available so you can review, apply, or dismiss them. After the review period, recommendations will be automatically applied to your account.
 
 [Learn more about auto-apply recommendations.](hlp_BA_CONC_AutoApplyRec.md)
 

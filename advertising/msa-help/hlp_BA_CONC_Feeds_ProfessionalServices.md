@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Professional Services ads to showcase your professional services
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about Professional Services ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use Professional Services ads to showcase your professional services
@@ -18,13 +19,13 @@ description: Get details about Professional Services ads.
 > - For more information about this change, see [About Responsive Search ads](hlp_BA_CONC_ResponsiveSearchAds.md).
 
 > [!NOTE]
-> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worry—more languages are coming soon!
+> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worryâ€”more languages are coming soon!
 > - While Professional Services ads are globally available, please see the [market-level restrictions](https://go.microsoft.com/fwlink/?linkid=2213800) and note that:
 >
 >   - Doctors & Clinics ads are available in Australia, Canada, France, Germany, India, United Kingdom, and United States.
 >   - Tax Service ads are available in Canada and United States.
 
-Showcase your Professional Services on the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md). We don’t crawl your website to generate content. Instead, Professional Services ads are dynamically generated based on the data you specify in your feed file, which contains business data for your Doctors and Clinics, Insurance, Real Estate, or Tax Services. The more details you provide in the feed file, the more information we’ll include in your ads.
+Showcase your Professional Services on the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md). We donâ€™t crawl your website to generate content. Instead, Professional Services ads are dynamically generated based on the data you specify in your feed file, which contains business data for your Doctors and Clinics, Insurance, Real Estate, or Tax Services. The more details you provide in the feed file, the more information weâ€™ll include in your ads.
 
 ## The benefits of using Professional Services ads
 
@@ -40,7 +41,7 @@ Showcase your Professional Services on the [Microsoft Advertising Network](hlp_B
 To get started with Professional Services ads, you'll need to create a Search campaign with a Responsive Search ad that functions as a placeholder. Then, you'll create a [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_ProfessionalServices.md) where you'll reference the campaign. We create your Professional Services ads by pulling information from your feed file to generate ad copy and we use the Responsive Search ad's settings for targeting and optimization.
 
 > [!NOTE]
-> The campaign you create will always be a Professional Services ads campaign. You cannot use this campaign for any other purpose now or at a later time—it'll always be used as a Professional Services ads campaign.
+> The campaign you create will always be a Professional Services ads campaign. You cannot use this campaign for any other purpose now or at a later timeâ€”it'll always be used as a Professional Services ads campaign.
 
 1. From the navigation menu on the left, select **Create**.
 1. Choose **Drive conversions** or **Generate leads** as your campaign goal.
@@ -66,7 +67,7 @@ To get started with Professional Services ads, you'll need to create a Search ca
       You must surround your keyword with brackets ([ ]) to indicate an exact match.
 
       > [!NOTE]
-      > Avoid keywords such as “real estate” to ensure the campaign only serves as Professional Services ads.
+      > Avoid keywords such as â€œreal estateâ€ to ensure the campaign only serves as Professional Services ads.
    1. Select **Save & go to the next step**.
 1. In **Ads & ad extensions**, below **Standard ad groups**, select **Create ad**.
 

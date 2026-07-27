@@ -1,4 +1,4 @@
----
+﻿---
 title: Forecast campaign results with the Audience planner
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Use Audience planner to see how many people you can reach on the Microsoft Audience Network.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Forecast campaign results with the Audience planner
@@ -46,7 +47,7 @@ To access the Audience planner in Microsoft Advertising, select **Tools** > **Au
 
 1. In the **Targeting** tab in the left pane, select one or more audience segments.
 
-   You can target—or exclude—the following:
+   You can targetâ€”or excludeâ€”the following:
 
    - **Location**
    - **Age**
@@ -108,7 +109,7 @@ In the left pane, in the **Targeting** tab, you can create, edit, and save your 
 ## Export your generated plan
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Download your generated plan from Audience planner as a single CSV file. This export includes your plan settings, targeting selections, performance estimates, and audience insights, making it easy to share your campaign proposal with clients and collaborate across teams.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Understand your billing options
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: When you pay (postpay or prepay) and what you pay with (a credit card, Paypal, a check, or bank transfer) is what you need to know for your Microsoft Advertising billing options.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understand your billing options

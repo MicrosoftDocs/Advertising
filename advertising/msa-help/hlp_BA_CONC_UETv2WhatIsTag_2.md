@@ -1,4 +1,4 @@
----
+﻿---
 title: What is UET and how can it help me?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about UET and how it allows Microsoft Advertising to collect actions people take, either on websites or apps. Then you can use this information to track conversions (like purchases or leads) or target audiences.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is UET and how can it help me?

@@ -1,4 +1,4 @@
----
+﻿---
 title: Can I use custom parameters?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to create custom parameters and add to a tracking template.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Can I use custom parameters?

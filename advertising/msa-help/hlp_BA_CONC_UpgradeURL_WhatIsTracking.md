@@ -1,4 +1,4 @@
----
+﻿---
 title: What is URL tracking in Microsoft Advertising?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how visitors got to your website using tracking parameters and a third-party tracking tool. There are four different ways to set up tracking in Microsoft Advertising.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is URL tracking in Microsoft Advertising?

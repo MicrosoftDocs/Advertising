@@ -1,4 +1,4 @@
----
+﻿---
 title: What's my audience targeting status?
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to check the status of your audience targeting and what the statuses mean.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What's my audience targeting status?
@@ -21,7 +22,7 @@ You can check the status of your audience targeting in the **Audiences** table:
 
 ## Possible audience statuses
 
-- **Ready**: No issues—audience targeting is working fine.
+- **Ready**: No issuesâ€”audience targeting is working fine.
 - **Missing tag on your website**: Microsoft Advertising hasn't received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify a new tag. After that point, if you see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
 - **No activity in the past 24 hrs**: Microsoft Advertising hasn't received any user activity data from the UET tag in the last 24 hours. Make sure that the UET tag tracking code is still on your website.
 - **Missing custom events on the tag**: Microsoft Advertising hasn't received any custom event data required for this audience. Make sure that you have updated your UET tag tracking code correctly to report back custom event parameters.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Customize what data shows in the table
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Want to see only the information that is important to you? You can customize what columns appear and apply filters to change what you see in the table.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Customize what data shows in the table
@@ -27,10 +28,10 @@ You can customize the performance data you see in the table by adjusting columns
 1. From the collapsible menu on the left, select **All campaigns**.
 1. From the page menu, select the page you want to apply filters to. For example, **Campaigns**, **Ad groups**, or **Keywords**.
 1. Select **Add filter** and then choose the condition of your filter in the drop-down menu. The options are: **contains**, **does not contain**, **begins with**, **end with**, **equals**, and **does not equal**.
-1. Select **Apply**. A description of your filter will appear above the table, and the table’s data will update to match your filter.
+1. Select **Apply**. A description of your filter will appear above the table, and the tableâ€™s data will update to match your filter.
 1. To return to an unfiltered view of your table, select **Reset**.
 1. To close the filter editing panel, select the **X**.
-1. (Optional) To save the filter you’ve created for later use, select **Save**, enter your filter name, and select **Save**.
+1. (Optional) To save the filter youâ€™ve created for later use, select **Save**, enter your filter name, and select **Save**.
 1. (Optional) To apply a saved filter:
 
    - From the collapsible menu on the left, select **All campaigns**.

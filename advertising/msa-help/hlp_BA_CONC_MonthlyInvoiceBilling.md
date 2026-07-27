@@ -1,4 +1,4 @@
----
+﻿---
 title: What you need to know about monthly invoice billing
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you have a reasonably high monthly spend, you might want to consider the monthly invoice option.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What you need to know about monthly invoice billing

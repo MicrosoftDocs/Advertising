@@ -1,4 +1,4 @@
----
+﻿---
 title: About the Ad preview hub
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about the Ad preview hub.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About the Ad preview hub
 
 > [!NOTE]
-> This feature is currently available for Audience campaigns. Some advertisers are enabled for Performance Max campaigns, but not everybody has this feature yet. If you don't, don't worry—it's coming soon!
+> This feature is currently available for Audience campaigns. Some advertisers are enabled for Performance Max campaigns, but not everybody has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 The Ad preview hub is a centralized tool that lets you see what your ads will look like before your campaign goes live. It's designed to simplify the ad review process and help you make sure your ads appear as expected across devices, placements, and publishers. The previews reflect what your customers will see during ad delivery.
 
@@ -67,7 +68,7 @@ We currently show ad previews for MSN and Outlook placements, with more publishe
 - **Performance Max campaigns**
 
   > [!NOTE]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   You can see your ad previews during Performance Max campaign creation.
 

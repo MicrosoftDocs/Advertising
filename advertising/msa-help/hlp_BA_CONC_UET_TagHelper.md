@@ -1,4 +1,4 @@
----
+﻿---
 title: Test conversion goals and audiences with UET tag helper
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: UET Tag Helper is a browser extension that validates the implementation of the Microsoft Advertising UET tag and the functionality of conversion goals on any given webpage.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Test conversion goals and audiences with UET Tag Helper
@@ -14,7 +15,7 @@ description: UET Tag Helper is a browser extension that validates the implementa
 > [!IMPORTANT]
 > Ensure proper consent transmission for users visiting from the European Economic Area (EEA), the United Kingdom, and Switzerland by implementing [Consent Mode](hlp_BA_CONC_UET_Consent.md) or the [Transparency and Consent Framework (TCF)](hlp_BA_CONC_UET_TCF.md) with your UET tags to avoid any negative impact on conversion attribution and remarketing segments. This policy reflects the requirements of the EU ePrivacy Directive and the General Data Protection Regulation (GDPR). [Learn more](hlp_BA_CONC_UET_ConsentFAQ.md)
 
-UET Tag Helper is a browser extension that validates the implementation of the Microsoft Advertising Universal Event Tracking (UET) tag—and the functionality of conversion goals—on any given webpage. It is available in Microsoft Edge and Google Chrome. To learn more about UET tags, see [What is UET and how can it help me?](hlp_BA_CONC_UETv2WhatIsTag.md)
+UET Tag Helper is a browser extension that validates the implementation of the Microsoft Advertising Universal Event Tracking (UET) tagâ€”and the functionality of conversion goalsâ€”on any given webpage. It is available in Microsoft Edge and Google Chrome. To learn more about UET tags, see [What is UET and how can it help me?](hlp_BA_CONC_UETv2WhatIsTag.md)
 
 UET Tag Helper allows you to:
 
@@ -99,7 +100,7 @@ UET Tag Helper allows you to:
 
     The Events tab shows the UET events that were triggered on the webpage. There are three types of events you can see:
 
-    - **Page load event:** If you added a JavaScript UET tag to your webpage, this will show for conversion goals and remarketing lists that don't have a custom event. The URL of the current page is recorded in this event with the ‘P’ parameter (Page URL):<br>
+    - **Page load event:** If you added a JavaScript UET tag to your webpage, this will show for conversion goals and remarketing lists that don't have a custom event. The URL of the current page is recorded in this event with the â€˜Pâ€™ parameter (Page URL):<br>
 
       :::image type="content" source="media/BA_ScreenCap_UETTagHelperPageLoad.png" alt-text="Page load event.":::
     - **Custom event:** If you added a JavaScript UET tag to your webpage, this will show for conversion goals and remarketing lists that have a custom event. The event parameters passed in the custom event script can be found in the **ec** (category), **ea** (action), **el** (label) and **ev** (value) parameters:<br>
@@ -134,7 +135,7 @@ UET Tag Helper allows you to:
 
        - **Unverified**
 
-         **What it is**: Microsoft Advertising hasn’t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
+         **What it is**: Microsoft Advertising hasnâ€™t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
 
          **What to do:** Nothing
 
@@ -172,7 +173,7 @@ UET Tag Helper allows you to:
 
        - **Unverified**
 
-         **What it is**: Microsoft Advertising hasn’t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
+         **What it is**: Microsoft Advertising hasnâ€™t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
 
          **What to do:** Nothing
 
@@ -207,7 +208,7 @@ UET Tag Helper allows you to:
 
        - **Unverified**
 
-         **What it is**: Microsoft Advertising hasn’t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
+         **What it is**: Microsoft Advertising hasnâ€™t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
 
          **What to do:** Nothing
 
@@ -242,7 +243,7 @@ UET Tag Helper allows you to:
 
   - **How can I fix the "UET tag extension is no longer available because it doesn't follow best practices for Chrome extensions" issue?**
 
-    If you're seeing the error message, “UET tag extension is no longer available because it doesn't follow best practices for Chrome extensions,” when trying to use the UET Tag Helper extension in Chrome, it's likely that you're using an outdated version. Please uninstall the extension and reinstall the latest version of the UET Tag Helper in your browser.
+    If you're seeing the error message, â€œUET tag extension is no longer available because it doesn't follow best practices for Chrome extensions,â€ when trying to use the UET Tag Helper extension in Chrome, it's likely that you're using an outdated version. Please uninstall the extension and reinstall the latest version of the UET Tag Helper in your browser.
 
   - **How can I fix the "UET tag outside of head or body" issue?**
 
@@ -310,7 +311,7 @@ UET Tag Helper allows you to:
 
   - **How can I fix the "There is no UET tag on this webpage" issue?**
 
-    We can’t find the UET tag tracking code on this webpage but Microsoft Advertising received tracking data. Most likely you are using a tag management tool to manage your tags. If this is what you want to do, you can ignore this message. If you want to add a UET tag tracking code to your website, follow these instructions.
+    We canâ€™t find the UET tag tracking code on this webpage but Microsoft Advertising received tracking data. Most likely you are using a tag management tool to manage your tags. If this is what you want to do, you can ignore this message. If you want to add a UET tag tracking code to your website, follow these instructions.
 
     1. Sign in to Microsoft Advertising.
     1. From the navigation menu on the left, hover over **Conversions** and select **UET tag**.
@@ -328,13 +329,13 @@ UET Tag Helper allows you to:
 
     You should remove the Non-JavaScript UET tag tracking code from this webpage. To learn about the difference between the two different UET tag tracking codes, see [Using the JavaScript UET tag tracking code](hlp_BA_CONC_UETv2NonJS.md).
 
-  - **How can I fix the “UET event is fired from within an iFrame” issue?**
+  - **How can I fix the â€œUET event is fired from within an iFrameâ€ issue?**
 
     We recommend that you place your UET tag outside of an iFrame and use a JavaScript tracking code. This placement will ensure that your conversions are accurately tracked and measured.
 
   - **How can I fix the "Non-JavaScript UET tag tracking code on this webpage" issue?**
 
-    We recommend that you use the JavaScript tracking code instead. This will ensure your conversions are accurately tracked and measured. It also means that you don’t have to update the JavaScript code if Microsoft Advertising releases future changes to the UET tag tracking code. To learn more about the difference between the two different UET tag tracking codes, see [Using the JavaScript UET tag tracking code](hlp_BA_CONC_UETv2NonJS.md).
+    We recommend that you use the JavaScript tracking code instead. This will ensure your conversions are accurately tracked and measured. It also means that you donâ€™t have to update the JavaScript code if Microsoft Advertising releases future changes to the UET tag tracking code. To learn more about the difference between the two different UET tag tracking codes, see [Using the JavaScript UET tag tracking code](hlp_BA_CONC_UETv2NonJS.md).
 
   - **How can I fix the "Multiple UET tags on this webpage use the same event name" issue?**
 
@@ -371,4 +372,4 @@ UET Tag Helper allows you to:
     ```
 
   - **What if the Microsoft Click ID (MSCLKID) is lost due to URL redirection?**
-    If server redirects are causing the Microsoft Click ID (MSCLKID) to be missing from your landing page’s URL, have your webmaster or developer edit your web server redirect configuration and confirm that the Microsoft Click ID (MSCLKID) parameter is being passing through to your landing page. Please note that the Microsoft Click ID (MSCLKID) helps to ensure conversions are accurately tracked and measured.
+    If server redirects are causing the Microsoft Click ID (MSCLKID) to be missing from your landing pageâ€™s URL, have your webmaster or developer edit your web server redirect configuration and confirm that the Microsoft Click ID (MSCLKID) parameter is being passing through to your landing page. Please note that the Microsoft Click ID (MSCLKID) helps to ensure conversions are accurately tracked and measured.

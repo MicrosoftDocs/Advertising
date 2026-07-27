@@ -1,4 +1,4 @@
----
+﻿---
 title: LinkedIn profile targeting
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to target customers based on their LinkedIn profile information.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # LinkedIn profile targeting
@@ -23,7 +24,7 @@ Microsoft Advertising is the only advertising platform (other than LinkedIn) tha
 LinkedIn profile targeting is available for Search campaigns, Dynamic Search ad campaigns, Microsoft Shopping campaigns, Audience campaigns, and Performance Max campaigns.
 
 > [!NOTE]
-> - Not everyone can use LinkedIn targeting for Performance Max campaigns yet. If you can't, don't worry—it's coming soon!
+> - Not everyone can use LinkedIn targeting for Performance Max campaigns yet. If you can't, don't worryâ€”it's coming soon!
 > - Not all possible companies, industries, and job functions are available for targeting. We are constantly expanding our lists, so if you don't see what you're looking for, check again later.
 > - To use LinkedIn targeting to target companies, you need to manually add company lists within the platform. At this time, importing lists from external files or other platforms is not supported.
 > - If you have any additional questions about company lists, please [contact Support](https://go.microsoft.com/fwlink/?linkid=398371).
@@ -33,7 +34,7 @@ LinkedIn profile targeting is available for Search campaigns, Dynamic Search ad 
 - **When creating an ad group**
 
   > [!NOTE]
-  > The instructions below apply to most campaign types—however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: [About audience signals](hlp_BA_CONC_AudienceSignals.md).
+  > The instructions below apply to most campaign typesâ€”however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: [About audience signals](hlp_BA_CONC_AudienceSignals.md).
 
   1. Select **Create ad group**.
   1. In the **Ad group target & bids** section:
@@ -47,9 +48,9 @@ LinkedIn profile targeting is available for Search campaigns, Dynamic Search ad 
   > You cannot target more than 1,000 companies in a single ad group or campaign.
 
 - **In an existing campaign or ad group's settings** <br>
-  In the campaign or ad group's Settings, look for the Campaign targets or Ad group targets section. The instructions below apply to most campaign types—however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: About audience signals.
+  In the campaign or ad group's Settings, look for the Campaign targets or Ad group targets section. The instructions below apply to most campaign typesâ€”however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: About audience signals.
   > [!NOTE]
-  > The instructions below apply to most campaign types—however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: [About audience signals](hlp_BA_CONC_AudienceSignals.md).
+  > The instructions below apply to most campaign typesâ€”however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: [About audience signals](hlp_BA_CONC_AudienceSignals.md).
 
   1. Select **Edit target categories**.
   1. Select **Company**, **Industry**, and/or **Job function**.
@@ -62,7 +63,7 @@ LinkedIn profile targeting is available for Search campaigns, Dynamic Search ad 
   > You cannot target more than 1,000 companies in a single ad group or campaign.
 
 - **In an existing campaign or ad group's Demographics tab** <br>
-  In the campaign or ad group's Demographics tab (not everyone has this tab yet). The instructions below apply to most campaign types—however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: About audience signals.
+  In the campaign or ad group's Demographics tab (not everyone has this tab yet). The instructions below apply to most campaign typesâ€”however, if you want to set up LinkedIn targeting for Performance Max campaigns, please follow the instructions here: About audience signals.
 
   1. Select **Company**, **Industry**, or **Job function**.
   1. Select **Add company**, **Add industry**, or **Add job function**.
@@ -74,7 +75,7 @@ LinkedIn profile targeting is available for Search campaigns, Dynamic Search ad 
 
 ## How to edit or remove LinkedIn profile targeting
 
-To edit or remove your LinkedIn profile targeting, follow the steps below. These instructions apply to most campaign types—however, if you want to edit LinkedIn profile targeting for Performance Max campaigns, please follow the instructions [here](hlp_BA_CONC_AudienceSignals.md).
+To edit or remove your LinkedIn profile targeting, follow the steps below. These instructions apply to most campaign typesâ€”however, if you want to edit LinkedIn profile targeting for Performance Max campaigns, please follow the instructions [here](hlp_BA_CONC_AudienceSignals.md).
 
 1. From the navigation menu on the left, select **Campaigns**.
 1. Select the appropriate campaign.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Add the Words People Are Searching for as Keywords or Negative Keywords
 description: Want to know your customer's search terms? Learn how to add search terms to your keyword list.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Add the words people are searching for as keywords or negative keywords
@@ -29,7 +30,7 @@ You can get a list of search terms in three places in Microsoft Advertising. Eac
     - **What you see**: A list of search terms that have had a significant number of clicks in the last 30 days and the **Other search terms** row, which shows metrics for all search terms that had impressions but didn't have significant clicks in the last 30 days.
 
 - **Where: From the navigation menu on the left, select **Reporting** > **Templates** > **Performance** > **Search terms**.**
-    - **How**: Choose the accounts and columns you’d like to view in the report. You can also **Download** the report in a CSV format.
+    - **How**: Choose the accounts and columns youâ€™d like to view in the report. You can also **Download** the report in a CSV format.
     - **What you see**: A list of search terms that have had a significant number of clicks in the last 30 days. This list is different than the **Keywords** tab because it doesn't have the **Other search terms** row.
 
 - **Where: From the navigation menu on the left, select **Reporting** > **Templates**> **Performance** > **Search terms**.**

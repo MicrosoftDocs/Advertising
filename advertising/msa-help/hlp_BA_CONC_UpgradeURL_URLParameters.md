@@ -1,4 +1,4 @@
----
+﻿---
 title: What tracking or URL parameters can I use?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Review the URL parameters you can add to your tracking template or destination URLs to find out how visitors got to your website.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What tracking or URL parameters can I use?

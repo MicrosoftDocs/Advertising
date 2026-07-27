@@ -1,4 +1,4 @@
----
+﻿---
 title: Share a budget across multiple campaigns
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set up a shared budget and have multiple campaigns draw from it.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Share a budget across multiple campaigns

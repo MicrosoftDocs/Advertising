@@ -1,4 +1,4 @@
----
+﻿---
 title: About upgrading Dynamic search ads to Performance Max
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: This article covers important details about how to self-upgrade your Dynamic search ads to Performance Max, and answers to frequently asked questions (FAQs).
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About upgrading Dynamic search ads to Performance Max
@@ -14,7 +15,7 @@ description: This article covers important details about how to self-upgrade you
 > [!NOTE]
 > This article refers to the upgrade process for Dynamic Search ads to Performance Max. [Learn more about Performance Max campaigns](hlp_BA_PROC_AboutPmax.md).
 
-We’ve improved search performance and conversion rates on the Microsoft Advertising Network by enhancing our search technologies for Performance Max campaigns. This asset-focused campaign type helps you easily create and manage campaigns, boost ads to reach your target audience, and meet advertising goals across the entire Microsoft Advertising Network. You can add assets like text and images to your asset groups, and we’ll handle the rest.
+Weâ€™ve improved search performance and conversion rates on the Microsoft Advertising Network by enhancing our search technologies for Performance Max campaigns. This asset-focused campaign type helps you easily create and manage campaigns, boost ads to reach your target audience, and meet advertising goals across the entire Microsoft Advertising Network. You can add assets like text and images to your asset groups, and weâ€™ll handle the rest.
 
 ## Benefits of upgrading to Performance Max
 
@@ -34,14 +35,14 @@ You can upgrade from the Recommendations page or follow these instructions:
 1. Select **Apply all**.
 
 > [!NOTE]
-> Microsoft Advertising will preconfigure the minimum asset requirements for a [Performance Max campaign](hlp_BA_PROC_AboutPmax.md) to facilitate the upgrade. These assets are sourced from those previously used in the original DSA or extracted from your website. The upgrade process may fail if the preconfigured assets don’t meet the minimum criteria of the Performance Max campaign. In such cases, the upgrade won’t proceed and the original DSA campaign will remain active.
+> Microsoft Advertising will preconfigure the minimum asset requirements for a [Performance Max campaign](hlp_BA_PROC_AboutPmax.md) to facilitate the upgrade. These assets are sourced from those previously used in the original DSA or extracted from your website. The upgrade process may fail if the preconfigured assets donâ€™t meet the minimum criteria of the Performance Max campaign. In such cases, the upgrade wonâ€™t proceed and the original DSA campaign will remain active.
 
 ## Eligibility
 
-If your campaign is eligible, you’ll receive the Dynamic Search ads upgrade to Performance Max campaign recommendation on the [Recommendations page](hlp_BA_CONC_AdsByBing.md). Ensure your Dynamic Search ads campaigns meet the following criteria:
+If your campaign is eligible, youâ€™ll receive the Dynamic Search ads upgrade to Performance Max campaign recommendation on the [Recommendations page](hlp_BA_CONC_AdsByBing.md). Ensure your Dynamic Search ads campaigns meet the following criteria:
 
 - Contain up to 100 active Dynamic Search ads ad groups.
-- Campaigns don’t use a shared budget.
+- Campaigns donâ€™t use a shared budget.
 - Each Dynamic Search ads ad group contains at least one Dynamic Search ads.
 - Each Dynamic Search ads ad group has at least one active Dynamic Search ads auto target rule.
 - Dynamic Search Ads campaigns with a standard daily budget qualify for an upgrade to Performance Max.

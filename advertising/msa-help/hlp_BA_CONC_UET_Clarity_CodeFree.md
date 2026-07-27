@@ -1,4 +1,4 @@
----
+﻿---
 title: Code-free conversion goals with UET and Clarity
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can use the intelligence of Microsoft Clarity to set up custom, code-free conversion tracking.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Code-free conversion goals with UET and Clarity
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 You can use the intelligence of Microsoft Clarity to set up custom, code-free conversion tracking. Enable Clarity within your Universal Event Tracking (UET) tag setup and track conversions by event (for same revenue value and for variable revenue value) without any code or scripts.
 

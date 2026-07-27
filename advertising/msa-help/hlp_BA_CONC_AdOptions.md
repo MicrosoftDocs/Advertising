@@ -1,4 +1,4 @@
----
+﻿---
 title: Ad types that you can create with Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the variety of options you have for your ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Ad types that you can create with Microsoft Advertising

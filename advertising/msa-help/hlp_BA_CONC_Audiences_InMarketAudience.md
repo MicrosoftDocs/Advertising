@@ -1,4 +1,4 @@
----
+﻿---
 title: In-market audiences - Reach people who are ready to buy
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to use in-market audiences to increase conversions and improve bids and targeting.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # In-market audiences - Reach people who are ready to buy
@@ -22,7 +23,7 @@ In-market audiences are curated lists of customers who have shown purchase inten
 
 - **Improve bids and targeting**: Set up your ad group or campaign to be exclusive to an audience with an in-market audience or available to everyone, but with a bid adjustment for your targeted audience.
 
-- **Simple set-up**: In-market audiences are simple to set up and don’t require UET tags.
+- **Simple set-up**: In-market audiences are simple to set up and donâ€™t require UET tags.
 
 ## Using in-market audiences
 
@@ -64,7 +65,7 @@ In-market audiences are curated lists of customers who have shown purchase inten
 
   - **Who shouldn't use in-market audiences?**
 
-    If you don’t have customers in one of the available in-market audience categories listed, you shouldn’t use this feature, as you’d be extending your reach to the wrong audience.
+    If you donâ€™t have customers in one of the available in-market audience categories listed, you shouldnâ€™t use this feature, as youâ€™d be extending your reach to the wrong audience.
 
   - **Are additional in-market audiences going to be released?**
 

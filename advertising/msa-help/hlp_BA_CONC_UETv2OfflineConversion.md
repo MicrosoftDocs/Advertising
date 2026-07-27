@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracking offline conversions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to track when your search ads lead to a conversion offline.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Tracking offline conversions
 
-Let’s say a customer sees your ad, clicks on it, but ends up calling you, leading to a sale that was taken offline. How can you track when your search ad leads to a conversion offline and outside of your website? You can import offline conversions, to better measure what happens after your ad was clicked.
+Letâ€™s say a customer sees your ad, clicks on it, but ends up calling you, leading to a sale that was taken offline. How can you track when your search ad leads to a conversion offline and outside of your website? You can import offline conversions, to better measure what happens after your ad was clicked.
 
 ## Why should I care about offline conversion tracking?
 
@@ -32,7 +33,7 @@ When tracking offline conversions, you need to provide users with a transparency
   Before you begin, make sure that:
 
   - **Code changes can be made for all of your web pages**. This allows you to capture the click ID in the URL that customers click from one of your ads.
-  - **Click IDs can be stored** with the corresponding prospect’s information that is gathered on your website.
+  - **Click IDs can be stored** with the corresponding prospectâ€™s information that is gathered on your website.
   - **Conversion windows are under 90 days**. If a conversion is uploaded more than 90 days after the last click, it will not be imported.
 
   **Create a conversion goal**
@@ -50,7 +51,7 @@ When tracking offline conversions, you need to provide users with a transparency
   1. You can also assign a **Count** to the conversion and enter a **Conversion window** to track up to 90 days in the past.
   1. Select **Save**.
 
-  After you have created a conversion goal, you’ll be prompted to upload the conversions now or later. After you create a new conversion goal, you must wait 2 hours before uploading conversions for that conversion goal. Once you have finished creating an offline conversion goal, you’ll see a dash ( - ) for **UET tag ID** and **Tracking status** in the grid, as UET tags aren’t required.
+  After you have created a conversion goal, youâ€™ll be prompted to upload the conversions now or later. After you create a new conversion goal, you must wait 2 hours before uploading conversions for that conversion goal. Once you have finished creating an offline conversion goal, youâ€™ll see a dash ( - ) for **UET tag ID** and **Tracking status** in the grid, as UET tags arenâ€™t required.
 
   **How can I add offline conversions?**
 
@@ -79,7 +80,7 @@ When tracking offline conversions, you need to provide users with a transparency
        | **yyyy-MM-dd HH:mm:ss zzzz** | "2017-06-01 13:00:00 EasternTimeUSCanada" |
        | **yyyy-MM-ddTHH:mm:ss zzzz** | "2017-06-01T13:00:00 EasternTimeUSCanada" |
 
-    1. Save the file locally to import it into Microsoft Advertising once. If you’re scheduling recurring imports, save the file to an online location.
+    1. Save the file locally to import it into Microsoft Advertising once. If youâ€™re scheduling recurring imports, save the file to an online location.
 
   - **Import offline conversions once**
 
@@ -147,7 +148,7 @@ When tracking offline conversions, you need to provide users with a transparency
   - **Prepare your data to update offline conversions**
 
     1. Download the template as an [Excel](https://adsuxprodfd-awb5gsddabddbqgv.z01.azurefd.net/cmuiresources-1/files/templates/Import/EXCEL_ConversionAdjustment_Enhanced_Offline_Import_Template.xlsx) or [.csv](https://adsuxprodfd-awb5gsddabddbqgv.z01.azurefd.net/cmuiresources-1/files/templates/Import/CSV_ConversionAdjustment_Enhanced_Offline_Import_Template.csv) file.
-    1. Enter the following information: <br>**Microsoft Click ID**. The MSCLKID that led to the conversion. The MSCLKID is a GUID (32 characters) that is unique for each ad click. This should be the same Click ID as the conversion that was imported previously. <br>**Conversion Name**. The offline conversion goal name for the conversions you'd like to update. It's important that you use the exact same name as you did when you uploaded the conversions that you are updating. <br>**Conversion Time**. The date and time that the conversion occurred. This should match the date and time you entered when you uploaded the conversions. **Note**: Make sure that the conversion time is after the click time. <br>**Adjustment Value** (required for Restate). 0 to 999999999999, with 3 decimal fields and no negative numbers. You must use a period for decimals (as in 12.34), not a comma (as in 12,34). <br>**Adjustment Currency** (optional). The currency of the conversion adjustment. **Note**: If the conversion value and conversion currency is not defined in the file, the value defined in the goal will be used. <br>**Adjustment Type**. This value tells Microsoft Advertising whether you’re updating the value of the conversion (Restate) or deleting it (Retract). <br>**Adjustment Time**. The date and time that the conversion value was adjusted. The time formats which are accepted are in the table below. <br>
+    1. Enter the following information: <br>**Microsoft Click ID**. The MSCLKID that led to the conversion. The MSCLKID is a GUID (32 characters) that is unique for each ad click. This should be the same Click ID as the conversion that was imported previously. <br>**Conversion Name**. The offline conversion goal name for the conversions you'd like to update. It's important that you use the exact same name as you did when you uploaded the conversions that you are updating. <br>**Conversion Time**. The date and time that the conversion occurred. This should match the date and time you entered when you uploaded the conversions. **Note**: Make sure that the conversion time is after the click time. <br>**Adjustment Value** (required for Restate). 0 to 999999999999, with 3 decimal fields and no negative numbers. You must use a period for decimals (as in 12.34), not a comma (as in 12,34). <br>**Adjustment Currency** (optional). The currency of the conversion adjustment. **Note**: If the conversion value and conversion currency is not defined in the file, the value defined in the goal will be used. <br>**Adjustment Type**. This value tells Microsoft Advertising whether youâ€™re updating the value of the conversion (Restate) or deleting it (Retract). <br>**Adjustment Time**. The date and time that the conversion value was adjusted. The time formats which are accepted are in the table below. <br>
 
        | Time format | Example |
        | --- | --- |
@@ -161,7 +162,7 @@ When tracking offline conversions, you need to provide users with a transparency
        | **yyyy-MM-dd HH:mm:ss zzzz** | "2017-06-01 13:00:00 EasternTimeUSCanada" |
        | **yyyy-MM-ddTHH:mm:ss zzzz** | "2017-06-01T13:00:00 EasternTimeUSCanada" |
        
-    1. Save the file locally to import it into Microsoft Advertising once. If you’re scheduling recurring imports, save the file to an online location.
+    1. Save the file locally to import it into Microsoft Advertising once. If youâ€™re scheduling recurring imports, save the file to an online location.
 
   - **Import conversion adjustments**
 
@@ -177,12 +178,12 @@ When tracking offline conversions, you need to provide users with a transparency
 
 - **Time zone formatting and need-to-know details**
 
-  - Set the time zone once in “Parameters” if all of your conversion times are in the same time zone.
-  - Add the time zone to each conversion time in the “Conversion Time" column if your conversion times are in different time zones.
-  - You can leave the “Parameters” row empty if you don’t enter a time zone.
-  - You can enter a time zone in the “Parameters” row and the “Conversion Time” row. If any conversion is missing the time zone, the “Parameters” value will be used.
+  - Set the time zone once in â€œParametersâ€ if all of your conversion times are in the same time zone.
+  - Add the time zone to each conversion time in the â€œConversion Time" column if your conversion times are in different time zones.
+  - You can leave the â€œParametersâ€ row empty if you donâ€™t enter a time zone.
+  - You can enter a time zone in the â€œParametersâ€ row and the â€œConversion Timeâ€ row. If any conversion is missing the time zone, the â€œParametersâ€ value will be used.
   - Enter your time zone from [this list](https://go.microsoft.com/fwlink/?linkid=851028) to avoid errors during daylight savings time transitions.
-  - Enter your GMT offset by indicating + or -, followed by the 4-digit time difference (for example, New York’s offset Is -0500). If you use Greenwich Mean Time (GMT), enter +0000.
+  - Enter your GMT offset by indicating + or -, followed by the 4-digit time difference (for example, New Yorkâ€™s offset Is -0500). If you use Greenwich Mean Time (GMT), enter +0000.
   - Replace +z with the GMT offset and replace zzzz with the time zone value (for example, EasternTimeUSCanada)
   - All uploads through the API need to be in Greenwich Mean Time (GMT). If you didn't convert the time, some conversions may be lost.
 
@@ -190,9 +191,9 @@ When tracking offline conversions, you need to provide users with a transparency
 
   - If you have lead generation as an objective, we recommend that you use offline conversion. Lead generation is when potential customers fill out a form or quote of interest, and then the sale is completed offline in person or over the phone (for example, car purchases, insurance quotes, mortgages, etc.).
   - Auto-tagging of click ID is automatically enabled for users when creating an offline conversion goal. This allows you to import offline conversions.
-  - Offline conversion tracking is not to be used if you want to track customer visits to your store or customers’ in-store purchases.
-  - Each offline conversion needs to be associated to a single click ID. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion can’t imported more than once. If more than one is attempted, the first instance will be used and the others will be ignored. You can update offline conversions once they have been processed.
-  - The value of the conversion can be included in the import file along with a custom currency. If no currency is stated, the conversion goal’s default will be used.
+  - Offline conversion tracking is not to be used if you want to track customer visits to your store or customersâ€™ in-store purchases.
+  - Each offline conversion needs to be associated to a single click ID. A single click ID can, however, be associated with multiple conversion goals and also be associated with the same goal multiple times, as long as the conversion time is different. Also, the same conversion canâ€™t imported more than once. If more than one is attempted, the first instance will be used and the others will be ignored. You can update offline conversions once they have been processed.
+  - The value of the conversion can be included in the import file along with a custom currency. If no currency is stated, the conversion goalâ€™s default will be used.
   - After creating a conversion goal, you'll need to wait two hours before uploading the file. It can take up to six hours to view uploaded conversion data.
   - After an ad click you should wait an hour before uploading offline conversions.
   - No additional personal data is appended to the offline conversions.
@@ -201,27 +202,27 @@ When tracking offline conversions, you need to provide users with a transparency
 
   Once auto-tagging of MSCLKID is enabled, when an ad is served, the MSCLKID is dynamically appended to your landing page URL.
 
-  After you’ve created one or more conversion goals, you’ll need to enable your website to be able to track conversions. Be sure to consult with your webmaster when completing this step.
+  After youâ€™ve created one or more conversion goals, youâ€™ll need to enable your website to be able to track conversions. Be sure to consult with your webmaster when completing this step.
 
   1. Enable auto-tagging of MSCLKID. The MSCLKID is automatically appended to the landing page URL when a customer clicks on your ad. For example, www.contoso.com/?msclkid={msclkid}. The click ID is unique for each ad click and multiple clicks on the same ad from the same user will result in multiple click IDs.
-  1. Configure your website code to capture and store the MSCLKID in a cookie. This is to ensure that the MSCLKID follows customers through their session. Keep in mind that the MSCLKID is only available on the landing page URL and doesn’t get carried out when the customer navigates to another page or comes back to the page later. <br> <br>See the sample JavaScript as shown below:
+  1. Configure your website code to capture and store the MSCLKID in a cookie. This is to ensure that the MSCLKID follows customers through their session. Keep in mind that the MSCLKID is only available on the landing page URL and doesnâ€™t get carried out when the customer navigates to another page or comes back to the page later. <br> <br>See the sample JavaScript as shown below:
 
      `<script type="text/javascript"><br> function setCookie(name, value, days){<br> var date = new Date();<br> date.setTime(date.getTime() + (days*864E5));<br> var expires = "; expires=" + date.toGMTString();<br> document.cookie = name + "=" + value + expires;<br> }<br> function getParam(p){<br> var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);<br> return match && decodeURIComponent(match[1].replace(/\+/g, ' '));<br> }<br> var msclkid = getParam('msclkid');<br> if(msclkid){<br> setCookie('msclkid', msclkid, 90);<br> }<br> </script>`
   1. Configure your website code to store MSCLKID with lead data. When the customer submits a lead gen form, you will need to retrieve the MSCLKID from the cookie and send it with the rest of the customer data. This way, all the data is stored in your CRM system and you can track offline conversions for this click. A common practice is to add a hidden field in the web-to-lead gen form for MSCLKID, as shown in the JavaScript sample below:
 
      <form action="" name="myForm"><br> Name: <input type="text" name="name"><br> <input type="hidden" id="msclkid" name="msclkid" value=""><br> <input type="submit" value="Submit Form" name="btnSubmit"><br> </form>
 
-     `<script><br> function readCookie(name) { <br> var n = name + "="; <br> var cookie = document.cookie.split(';'); <br> for(var i=0;i < cookie.length;i++) { <br> var c = cookie[i];<br> while (c.charAt(0)==' '){c = c.substring(1,c.length);}<br> if (c.indexOf(n) == 0){return<br> c.substring(n.length,c.length);}<br> }<br> return null;<br> }<br> window.onload = function() {<br> document.getElementById('msclkid').value =<br> readCookie('msclkid’);<br> }<br> </script><br>`
+     `<script><br> function readCookie(name) { <br> var n = name + "="; <br> var cookie = document.cookie.split(';'); <br> for(var i=0;i < cookie.length;i++) { <br> var c = cookie[i];<br> while (c.charAt(0)==' '){c = c.substring(1,c.length);}<br> if (c.indexOf(n) == 0){return<br> c.substring(n.length,c.length);}<br> }<br> return null;<br> }<br> window.onload = function() {<br> document.getElementById('msclkid').value =<br> readCookie('msclkidâ€™);<br> }<br> </script><br>`
 
 - **How can I view the status of my upload?**
 
-  Check the **Status** column in the table after your file has been uploaded. You’ll be able to see if it was uploaded successfully or if there were any errors. You can also download the results of the upload, which includes any error messages.
+  Check the **Status** column in the table after your file has been uploaded. Youâ€™ll be able to see if it was uploaded successfully or if there were any errors. You can also download the results of the upload, which includes any error messages.
 
 - **Why is there a discrepancy between the number of conversions in my upload with Microsoft Advertising?**
 
   There are multiple reasons why there are fewer conversions in Microsoft Advertising than what you had uploaded.
 
-  - Duplicate conversions that contain the same click ID, conversion name, and conversion time won’t be imported more than once.
+  - Duplicate conversions that contain the same click ID, conversion name, and conversion time wonâ€™t be imported more than once.
   - Click IDs that are too old or not associated with your account will still appear as having been uploaded successfully because the format is valid.
   - Conversions are uploaded within five hours after an ad click.
 

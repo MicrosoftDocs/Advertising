@@ -1,4 +1,4 @@
----
+﻿---
 title: Understand and use product groups
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Product groups are used to specify which products from your Microsoft Merchant Center catalog should be included in a particular ad group.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understand and use product groups
@@ -27,7 +28,7 @@ We recommend that you break down the single product group into smaller product g
   | Attribute | Description | What you need to know |
   | --- | --- | --- |
   | **Category** | Predefined product category<br>**Example**: Software > Computer Software | - You can have up to 5 categories per offer.<br>- Full list of taxonomy values: [All languages](https://advertiseonbingstatic-gadkdmcyhjcqgbbg.b02.azurefd.net/blob/bingads/media/library/docs/o/taxonomyfiles.zip) [Example feed file](https://advertiseonbing.z22.web.core.windows.net/blob/bingads/media/library/docs/bingmerchantcenter_example_feed.txt) |
-  | **Brand** | Item’s manufacturer, brand, or publisher<br>**Example**: Contoso<br>**Requirements**:<br>Alphanumeric<br>70-character limit<br>10-word limit | - Do not add your store name as the brand unless you manufacture the product.<br>- Uploading an item for the first time will be pending review until the brand has been successfully crawled. Updating the brand of an existing item will be reverted to the pending review status until it has been successfully re-crawled. The review process can take up to 3 business days. |
+  | **Brand** | Itemâ€™s manufacturer, brand, or publisher<br>**Example**: Contoso<br>**Requirements**:<br>Alphanumeric<br>70-character limit<br>10-word limit | - Do not add your store name as the brand unless you manufacture the product.<br>- Uploading an item for the first time will be pending review until the brand has been successfully crawled. Updating the brand of an existing item will be reverted to the pending review status until it has been successfully re-crawled. The review process can take up to 3 business days. |
   | **Condition** | Condition of item<br>**Example**: new<br>**Requirements**: Valid options: new; used; refurbished | - If no values are provided, the condition will be set to "new" by default.<br>- 'New' products are brand new and have never been used, with the original packaging never opened.<br>- 'Refurbished' products have been professionally restored, are free of defects, and come with a warranty. They may or may not have the original packaging.<br>- 'Used' products are anything other than 'new' or 'refurbished,' where the products have been used previously, with the original packaging opened or missing. |
   | **Item ID** | A unique identifier for the item.<br>**Example**: ISI1<br>**Requirements**: 50 Unicode character limit<br>**Recommended**: ASCII only: alphanumeric, underscores (_) and dashes (-) | - ID must be unique for each item in your catalog per market.<br>- If you have multiple feeds, the IDs of items across different feeds still need to be unique.<br>- Special ASCII characters (e.g., asterisk (*), comma (,), backslash (\), ampersand (&), etc. are allowed.<br>- The ID is the same as the merchant product ID (MPID). |
   | **Product type** | Your category of the item<br>**Example**: Home > Electronics > DVD Player<br>**Requirements**:<br>Alphanumeric<br>750-character limit<br>Delimiters: greater than [>] | You can have more than one product type if your item applies to more than one category. |

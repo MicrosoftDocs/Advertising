@@ -1,4 +1,4 @@
----
+﻿---
 title: Understanding the Microsoft Advertising navigation experience
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: This topic describes the aspects of the new Microsoft Advertising navigation experience.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding the Microsoft Advertising navigation experience

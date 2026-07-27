@@ -1,4 +1,4 @@
----
+﻿---
 title: Change Your Status, Bid, and Other Settings
 description: You can change your campaign status and budget, your ad group bids and end dates, and other settings right from the Campaigns page. This article shows you how.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Change your status, bid, and other settings

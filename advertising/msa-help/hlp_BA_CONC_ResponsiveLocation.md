@@ -1,4 +1,4 @@
----
+﻿---
 title: Location insertion for responsive search ads and multimedia ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can automatically customize what shows in your ad based on dynamic location parameters.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Location insertion for responsive search ads and multimedia ads
 
 > [!NOTE]
-> Not everyone can use location insertions in their multimedia ads yet. If you can't, don't worry—it's coming soon!
+> Not everyone can use location insertions in their multimedia ads yet. If you can't, don't worryâ€”it's coming soon!
 
 Calling out locations within ad copy can be a powerful way to improve relevancy by capturing the attention of your consumers in a highly tailored manner. This can lead to more qualified traffic to your website to drive more conversions and a better return on investment. You can now customize your ads to specific locations using the power and simplicity of [responsive search ads](hlp_BA_CONC_ResponsiveSearchAds.md) and [multimedia ads](hlp_BA_CONC_MMA_Search.md). They can be inserted within different headers and descriptions of your ads based on local areas, states, or even countries.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Disable Ad-blocking Extensions?
 description: Learn how to disable ad-blocking extensions to ensure Microsoft Advertising tools work correctly.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I disable ad-blocking extensions?

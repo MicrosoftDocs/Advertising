@@ -1,4 +1,4 @@
----
+﻿---
 title: Why am I not recording conversions or tracked revenue?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Not seeing conversions after setting up conversion tracking? Troubleshoot issues here.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Why am I not recording conversions or tracked revenue?

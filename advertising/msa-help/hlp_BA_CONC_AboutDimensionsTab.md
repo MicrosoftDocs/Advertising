@@ -1,4 +1,4 @@
----
+﻿---
 title: Review your campaign data by a specific pivot or dimension
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Reports can give you customized details about certain aspects (or dimensions) of your campaigns in easy-to-read tables and graphs. For example, you can see search terms or top mover data.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Review your campaign data by a specific pivot or dimension

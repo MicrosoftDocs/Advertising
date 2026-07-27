@@ -1,4 +1,4 @@
----
+﻿---
 title: About Performance Max Campaigns
 description: Learn about Performance Max campaigns in Microsoft Advertising, including their benefits, use cases, and frequently asked questions.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Performance Max campaigns
@@ -15,14 +16,14 @@ author: jonmeyers
 > - This feature is available in [all Microsoft Advertising markets](hlp_BA_CONC_Countries.md).
 > - Support for Performance Max in SA360 is now available.
 
-Performance Max is an asset-focused campaign type that allows you to easily create and manage your campaigns, optimize ads to reach the right audience at the right time, and drive performance to meet advertising goals—across the entire Microsoft Advertising Network. Rather than manually creating ads one by one, you can save time by adding assets, such as text and images, to your asset groups and let us take care of the rest.
+Performance Max is an asset-focused campaign type that allows you to easily create and manage your campaigns, optimize ads to reach the right audience at the right time, and drive performance to meet advertising goalsâ€”across the entire Microsoft Advertising Network. Rather than manually creating ads one by one, you can save time by adding assets, such as text and images, to your asset groups and let us take care of the rest.
 
 Microsoft AI will determine which assets and audiences are best for your ads based on your campaign and asset group settings, including your [audience signals](hlp_BA_CONC_AudienceSignals.md). We'll ensure that your ads have optimal asset combinations, capturing the attention of customers who are ready to buy your product or service. For information on creating your Performance Max campaign, please see [Create a Performance Max campaign](hlp_BA_PROC_CreatePmax.md).
 
 You can also apply [brand exclusion lists](hlp_BA_CONC_BrandLists.md) to your Performance Max campaigns for the branded search queries you don't want your ads to serve on. This helps ensure that your target audience sees your ads in a context that's appropriate for your brand. For information on creating your Performance Max campaign, please see [Create a Performance Max campaign](hlp_BA_PROC_CreatePmax.md). For information about best practices and recommendations for Performance Max campaigns, see [Best practices for Performance Max campaigns](hlp_BA_PROC_PmaxBestPractices.md).
 
 > [!NOTE]
-> Not everyone can use [brand exclusions](hlp_BA_CONC_BrandLists.md) yet. If you can't, don't worry—it's coming soon!
+> Not everyone can use [brand exclusions](hlp_BA_CONC_BrandLists.md) yet. If you can't, don't worryâ€”it's coming soon!
 
 ## The benefits of using Performance Max campaigns
 
@@ -117,7 +118,7 @@ You can also apply [brand exclusion lists](hlp_BA_CONC_BrandLists.md) to your Pe
   - bing.com
 
   > [!NOTE]
-  > This only applies to Performance Max campaigns—these first-party domain exclusions will continue to apply to any other campaigns you have set.
+  > This only applies to Performance Max campaignsâ€”these first-party domain exclusions will continue to apply to any other campaigns you have set.
 
 ## Related videos
 

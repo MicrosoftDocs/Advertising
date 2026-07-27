@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Email Preferences
 description: You can opt in and out of certain account-related and marketing emails from Microsoft Advertising.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Setting email preferences
@@ -54,7 +55,7 @@ The steps vary depending on whether you have access to one account or multiple a
 
 ## Marketing preferences
 
-Unlike account notifications, marketing preferences are tied to your user name. We will honor your wishes if you do not want to be contacted for marketing purposes — regardless of how many accounts you have access to with your user name.
+Unlike account notifications, marketing preferences are tied to your user name. We will honor your wishes if you do not want to be contacted for marketing purposes â€” regardless of how many accounts you have access to with your user name.
 
 - **To set your marketing preferences**
 

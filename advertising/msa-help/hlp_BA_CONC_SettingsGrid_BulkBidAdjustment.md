@@ -1,4 +1,4 @@
----
+﻿---
 title: Managing bid adjustments in bulk
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Manage bid adjustments in bulk at the campaign and ad group level.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Managing bid adjustments in bulk
 
 > [!NOTE]
-> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
+> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographicsâ€”such as age, gender, location, etc.â€”for the purpose of personalizing advertising, segmenting, or profiling customers.
 
 You can use bid adjustments, also known as incremental bids, to increase or decrease your bid for certain target customers. Bid adjustments can be made for certain demographics. You can also target customers who are searching on certain days and/or time of day. Bid adjustments help you increase your chances of showing your ads to the customers who are most important to you. Targeting these customers can lead to a higher conversion rate and a better overall ROI for your ad campaign.
 

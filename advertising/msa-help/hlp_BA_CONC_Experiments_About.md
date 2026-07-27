@@ -1,4 +1,4 @@
----
+﻿---
 title: Discover the possibilities with experiments
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how you can A/B test specific changes to a campaign and come up with the recipe for success!
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Discover the possibilities with experiments
@@ -78,7 +79,7 @@ With Microsoft Advertising experiments, you create a duplicate of a Search campa
 
 - **Applying or ending an experiment**
 
-  If your experiment is performing better than its original campaign and you're pleased with the results— congrats! Let's apply it.
+  If your experiment is performing better than its original campaign and you're pleased with the resultsâ€” congrats! Let's apply it.
 
   1. On the experiment's page, select **Apply experiment to...**
   1. Choose whether to apply the experiment to the original campaign or to a new campaign:

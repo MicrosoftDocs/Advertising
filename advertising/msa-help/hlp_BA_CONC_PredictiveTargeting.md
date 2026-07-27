@@ -1,4 +1,4 @@
----
+﻿---
 title: Predictive targeting
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Predictive targeting helps you easily find new audiences that you may not have considered targeting, who are more likely to convert.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Predictive targeting
@@ -67,11 +68,11 @@ You can use predictive targeting on its own, or combine it with these targeting 
 
   Yes. Predictive targeting works both with other audiences and as a standalone feature. We highly recommend using predictive targeting alongside your other audiences to help expand your reach and drive better performance.
 
-- **I've already been running a run of network campaign—how does predictive targeting affect this?**
+- **I've already been running a run of network campaignâ€”how does predictive targeting affect this?**
 
   Predictive targeting will now be the default targeting feature on run of network campaigns (campaigns with no audience targeting applied). Predictive targeting will use improved signals to drive the best performance for your campaigns.
 
-- **Can I add audience exclusions when using predictive targeting?—how does predictive targeting affect this?**
+- **Can I add audience exclusions when using predictive targeting?â€”how does predictive targeting affect this?**
 
   Yes, you can add audience exclusions in conjunction with predictive targeting.
 
@@ -93,7 +94,7 @@ You can use predictive targeting on its own, or combine it with these targeting 
 
 - **Can I use automated bidding with predictive targeting?**
 
-  Yes, you can use auto bidding in combination with predictive targeting—this is a best practice.
+  Yes, you can use auto bidding in combination with predictive targetingâ€”this is a best practice.
 
 - **Can I turn off predictive targeting?**
 

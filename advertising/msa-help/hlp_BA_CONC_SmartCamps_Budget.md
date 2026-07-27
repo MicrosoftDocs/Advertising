@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - Budgets and what you pay for
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about your Smart campaign budget, and how to adjust it after you've created a campaign.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - Budgets and what you pay for
@@ -27,7 +28,7 @@ The shaded area along the budget slider shows you the range of budgets used by b
 Try entering different values and watch the **Estimated performance** window. Based on your budget, your targeted locations, and the products or services you set, we'll show you how many *impressions* and *clicks* we estimate your ads will get.
 
 - An *impression* is when your ad is shown to a potential customer. Impressions are a good measure of how visible your ads are, given your budget, location targeting, and selected products or services.
-- A *click* is when one of those people clicks on your ad. Clicks are a good measure of how appealing your ads are to the people who see them. Most importantly, *clicks are what you pay for*—you only pay Microsoft Advertising when someone clicks your ad.
+- A *click* is when one of those people clicks on your ad. Clicks are a good measure of how appealing your ads are to the people who see them. Most importantly, *clicks are what you pay for*â€”you only pay Microsoft Advertising when someone clicks your ad.
 
 > [!IMPORTANT]
 > Your actual spend per day might be more or less than the actual target budget you've set. However, each month, you won't spend more than this number multiplied by the number of days in the month.

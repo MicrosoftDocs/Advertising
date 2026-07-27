@@ -1,4 +1,4 @@
----
+﻿---
 title: Enhance ads with automated extensions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Automated extensions show additional data to improve the visibility and performance of your ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Enhance ads with automated extensions
@@ -22,7 +23,7 @@ All advertisers are eligible for automated extensions; however, they are not alw
 
 ## Here's how they work
 
-Automated extensions show data from any of the sources—your ad landing pages, ad copies, and domains your ad copy points to. Certain data, like reviews and ratings, may be offered from third-party providers.
+Automated extensions show data from any of the sourcesâ€”your ad landing pages, ad copies, and domains your ad copy points to. Certain data, like reviews and ratings, may be offered from third-party providers.
 
 Here are the different types of automated extensions available from Microsoft Advertising. Keep in mind that these are examples only and your ad might look a little different than those shown below.
 
@@ -136,7 +137,7 @@ Here are the different types of automated extensions available from Microsoft Ad
   > [!NOTE]
   > This feature is available on computers in [all Microsoft Advertising markets](hlp_BA_CONC_Countries.md).
 
-  Showcase additional information about your business and stand out from the competition with Marketing with Purpose Attributes. Marketing with Purpose Attributes leverages data from your ad copy, information on your landing page, and your Business attributes data to highlight key business values. Marketing with Purpose Attributes will appear as an ad decoration to potential customers, which can improve your ad's visibility. For instance, in the following example we chose “Carbon-neutral” as the Marketing with Purpose Attributes ad decoration for this ad.
+  Showcase additional information about your business and stand out from the competition with Marketing with Purpose Attributes. Marketing with Purpose Attributes leverages data from your ad copy, information on your landing page, and your Business attributes data to highlight key business values. Marketing with Purpose Attributes will appear as an ad decoration to potential customers, which can improve your ad's visibility. For instance, in the following example we chose â€œCarbon-neutralâ€ as the Marketing with Purpose Attributes ad decoration for this ad.
 
   :::image type="content" source="media/BA_CONC_AutoExt_MarketingWithPurpose.png" alt-text="Marketing with Purpose Attributes.":::
 
@@ -343,7 +344,7 @@ Here are the different types of automated extensions available from Microsoft Ad
   > [!NOTE]
   > This feature is available for [Search advertising](hlp_BA_CONC_SearchNetContentNet.md) on computer, tablet, and mobile devices in the [markets designated here](hlp_BA_CONC_Countries.md).
 
-  Top ads calls out if your website has consistently received high engagement to increase your website’s credibility and trust with customers.
+  Top ads calls out if your website has consistently received high engagement to increase your websiteâ€™s credibility and trust with customers.
 
   To be eligible for Top ads, your ad must receive a high click-through rate with a low occurrence of back-button clicks from customers. Because of constant changes in customer engagement, the thresholds for when your ad will show a Top Ad annotation is will vary.
 

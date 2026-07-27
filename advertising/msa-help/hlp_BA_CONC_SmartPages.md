@@ -1,4 +1,4 @@
----
+﻿---
 title: Build a free business website with smart pages
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you don't already have a business website, you can build a free one with Smart Pages.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Build a free business website with smart pages
@@ -43,11 +44,11 @@ In order to build your website with Smart Pages, follow these steps:
 
 | Website component | Description |
 | --- | --- |
-| ****Business Name and Description (required)**** | Introduce your business to your customers with your business’ name, which will act as your Smart Pages headline,  and a brief description of what your business offers. In the description, it’s best to include keywords customers might use to find your products or services. |
+| ****Business Name and Description (required)**** | Introduce your business to your customers with your businessâ€™ name, which will act as your Smart Pages headline,  and a brief description of what your business offers. In the description, itâ€™s best to include keywords customers might use to find your products or services. |
 | ****Customer action button (required)**** | Choose the primary action you want customers to take on your website, also known as the call to action. You can preview what a button does by selecting the button in the website preview: <br> - **Call now**: When a customer selects this button on your website, it initiates a phone call to your business on their device.<br>- **Send email**: When a customer selects this button on your website, it initiates an email to your business on their device.<br>- **Get quote**: When a customer selects this button on your website, it opens a form the customer can use to inquire about your services. You'll be notified by email when a customer reaches out to you.<br>- **Contact us**: When a customer selects this button on your website, it opens a form for customers to inquire about your services. You'll be notified by email when a customer reaches out to you.<br>- **Book appointment**: When a customer selects this button on your website, it opens a link of your choice.<br>- **Create your own**: This allows you to customize the button text and choose a link of your choice that the button will open. |
 | ****Cover image (required)**** | Choose a cover image that represents your business. |
 | ****Business contact information (required)**** | Include information like your business's phone number, address, and email address. Make sure to verify your contact information for accuracy before you publish your website. |
-| ****Business summary**** | Share highlights about your business with customers, such as who you are, what matters to you, what you do, or how your business started (what you might read on an “About Us” page). |
+| ****Business summary**** | Share highlights about your business with customers, such as who you are, what matters to you, what you do, or how your business started (what you might read on an â€œAbout Usâ€ page). |
 | ****Social posts**** | Showcase posts from your Facebook page on your website (requires Facebook import). |
 | ****Reviews**** | Showcase reviews from your Facebook page on your website (requires Facebook import). |
 | ****Gallery**** | Add an image gallery to your website. |

@@ -1,4 +1,4 @@
----
+﻿---
 title: Truncation of expanded text ads
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about how Microsoft Advertising may truncate expanded text ads, depending on screen size and display format of the search results page.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Truncation of expanded text ads

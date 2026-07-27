@@ -1,4 +1,4 @@
----
+﻿---
 title: "Promotion Extensions: Highlight Special Offers for Different Occasions"
 description: Promotion extensions highlight special offers for different occasions.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Promotion extensions: Highlight special offers for different occasions
@@ -14,7 +15,7 @@ author: jonmeyers
 > [!NOTE]
 > The supported currency codes are ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EUR, GBP, HKD, INR, MXN, NZD, PEN, PHP, PLN, SEK, SGD, USD, TWD, and VEF.
 
-Use promotion extensions to highlight deals for holidays and other special occasions. Let's say you want to highlight a Summer Sale — using promotion extensions, you can include a promotion code, along with the offer and expiration date.
+Use promotion extensions to highlight deals for holidays and other special occasions. Let's say you want to highlight a Summer Sale â€” using promotion extensions, you can include a promotion code, along with the offer and expiration date.
 
 :::image type="content" source="media/BA_CONC_Extension_Promotion.png" alt-text="Promotion extensions.":::
 
@@ -22,7 +23,7 @@ Use promotion extensions to highlight deals for holidays and other special occas
 
 - **Increase traffic volume** with special offers highlighted in your ads, which can help grow ad engagement and boost your potential click-through rate.
 - **Better informed shoppers**, thanks to highlighted promotions providing more information.
-- **Increased market share** with special offers that encourage customers to click on your ad instead of your competitors’ ads.
+- **Increased market share** with special offers that encourage customers to click on your ad instead of your competitorsâ€™ ads.
 
 ## Occasions available for promotion extensions
 

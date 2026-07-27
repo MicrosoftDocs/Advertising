@@ -1,4 +1,4 @@
----
+﻿---
 title: Edit your smart page
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Edit the components for the website you built with Smart Pages
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Edit your smart page

@@ -1,4 +1,4 @@
----
+﻿---
 title: App install ads - Drive app downloads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: App Install ads provide direct links to your apps with a single button.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # App install ads - Drive app downloads

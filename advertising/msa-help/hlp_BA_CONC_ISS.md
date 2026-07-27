@@ -1,19 +1,20 @@
----
-title: Imposto sobre serviços
+﻿---
+title: Imposto sobre serviÃ§os
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: Imposto sobre serviços is charged on advertising costs in Brazil. In addition, businesses are required to keep their tax information up to date.
+description: Imposto sobre serviÃ§os is charged on advertising costs in Brazil. In addition, businesses are required to keep their tax information up to date.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Imposto sobre serviços
+# Imposto sobre serviÃ§os
 
-In Brazil, billing is managed by Microsoft do Brasil Importação e Comércio de Software e Games LTDA. Microsoft Advertising is required to charge Imposto sobre Serviços (ISS) at 2.9% on advertising costs in Brazil. (Note: tax rate is subject to change.)
+In Brazil, billing is managed by Microsoft do Brasil ImportaÃ§Ã£o e ComÃ©rcio de Software e Games LTDA. Microsoft Advertising is required to charge Imposto sobre ServiÃ§os (ISS) at 2.9% on advertising costs in Brazil. (Note: tax rate is subject to change.)
 
-You'll be asked for your CNPJ or CPF number when you sign up for Microsoft Advertising and each time you create a new account. Along with a valid business address, you'll need that tax ID on file in order to transact with Microsoft Advertising. Both items are required to generate a Nota Fiscal eletrônica that documents a transaction.
+You'll be asked for your CNPJ or CPF number when you sign up for Microsoft Advertising and each time you create a new account. Along with a valid business address, you'll need that tax ID on file in order to transact with Microsoft Advertising. Both items are required to generate a Nota Fiscal eletrÃ´nica that documents a transaction.
 
 Microsoft Advertising cannot provide guidance on tax or VAT. Please contact your tax advisor or local tax office if you have questions.
 

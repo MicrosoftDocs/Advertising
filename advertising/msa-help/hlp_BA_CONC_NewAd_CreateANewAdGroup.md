@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a new ad group
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about ad groups and how to create ad groups to organize your campaigns by specific products or services that you offer.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a new ad group
 
 Ad groups are the best way to organize your campaigns by specific products or services that you offer. An ad group in an Audience campaign contains the audiences you want the ads in the ad group to target. An ad group in a Search campaign contains a set of keywords and ads that are related to a common theme. Not only do they make it easier to manage related ads, audiences, and keywords, well-organized ad groups make your ads more relevant to customers. This, in turn, can help improve your ROI.
 
-For example, Sarah owns a toy store and wants to create ads to highlight specials she will be offering. She could create different ad groups in a Search campaign for “electronics for kids” and “riding toys,” which will each contain different sets of keywords and ads. When she wants to make adjustments to these ads, she can easily make changes to all the ads in a given ad group simultaneously.
+For example, Sarah owns a toy store and wants to create ads to highlight specials she will be offering. She could create different ad groups in a Search campaign for â€œelectronics for kidsâ€ and â€œriding toys,â€ which will each contain different sets of keywords and ads. When she wants to make adjustments to these ads, she can easily make changes to all the ads in a given ad group simultaneously.
 
 :::image type="content" source="media/BA_Conc_NewAdv_AdGroupsKws.png" alt-text="Ad group structure.":::
 
@@ -41,7 +42,7 @@ You can either create a Standard ad group for Multimedia ads and Responsive Sear
 
   - **Ad group name**
 
-    Give your ad group a unique name. Campaigns are made up of one or more ad groups. Each ad group can be based on a theme of the campaign, and it's a good idea to have your ad group's name reflect its theme. For example, if your campaign's goal is to sell men's clothes, you might have ad groups such as “Dress shirts,” “Coats and jackets,” and “Spring sale.”
+    Give your ad group a unique name. Campaigns are made up of one or more ad groups. Each ad group can be based on a theme of the campaign, and it's a good idea to have your ad group's name reflect its theme. For example, if your campaign's goal is to sell men's clothes, you might have ad groups such as â€œDress shirts,â€ â€œCoats and jackets,â€ and â€œSpring sale.â€
 
     > [!NOTE]
     > An ad group name cannot contain scripts, HTML, or other markup language.
@@ -96,7 +97,7 @@ You can either create a Standard ad group for Multimedia ads and Responsive Sear
       > - *The boundaries of some postal codes in Australia, Canada, France, Germany, and United Kingdom do not appear accurately on the map you see in Microsoft Advertising, but targeting within them will still function accurately.*
     - A specified radius around a postal code, coordinates*, landmark, or area. (Note: You cannot exclude using radius targeting.)
 
-      **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form — for example, "44.590,-104.716".*
+      **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form â€” for example, "44.590,-104.716".*
 
   - **Age**
 
@@ -153,7 +154,7 @@ You can either create a Standard ad group for Multimedia ads and Responsive Sear
 
   - **Ad group name**
 
-    Give your ad group a unique name. Campaigns are made up of one or more ad groups. Each ad group can be based on a theme of the campaign, and it's a good idea to have your ad group's name reflect its theme. For example, if your campaign's goal is to sell men's clothes, you might have ad groups such as “Dress shirts,” “Coats and jackets,” and “Spring sale.”
+    Give your ad group a unique name. Campaigns are made up of one or more ad groups. Each ad group can be based on a theme of the campaign, and it's a good idea to have your ad group's name reflect its theme. For example, if your campaign's goal is to sell men's clothes, you might have ad groups such as â€œDress shirts,â€ â€œCoats and jackets,â€ and â€œSpring sale.â€
 
     > [!NOTE]
     > An ad group name cannot contain scripts, HTML, or other markup language.
@@ -196,7 +197,7 @@ You can either create a Standard ad group for Multimedia ads and Responsive Sear
       > - *The boundaries of some postal codes in Australia, Canada, France, Germany, and United Kingdom do not appear accurately on the map you see in Microsoft Advertising, but targeting within them will still function accurately.*
     - A specified radius around a postal code, coordinates*, landmark, or area. (Note: You cannot exclude using radius targeting.)
 
-      **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form — for example, "44.590,-104.716".*
+      **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form â€” for example, "44.590,-104.716".*
 
   - **Age**
 
@@ -270,7 +271,7 @@ You can either create a Standard ad group for Multimedia ads and Responsive Sear
       > - *The boundaries of some postal codes in Australia, Canada, France, Germany, and United Kingdom do not appear accurately on the map you see in Microsoft Advertising, but targeting within them will still function accurately.*
     - A specified radius around a postal code, coordinates*, landmark, or area. (Note: You cannot exclude using radius targeting.)
 
-      **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form — for example, "44.590,-104.716".*
+      **Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form â€” for example, "44.590,-104.716".*
 
   - **Age**: Choose one or more age ranges of people you want to see your ads.
 

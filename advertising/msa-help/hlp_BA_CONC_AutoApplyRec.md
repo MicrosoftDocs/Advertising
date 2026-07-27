@@ -1,4 +1,4 @@
----
+﻿---
 title: Auto-apply recommendation settings
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Opt in to auto-apply recommendations and monitor their performance.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Auto-apply recommendation settings
@@ -22,7 +23,7 @@ description: Opt in to auto-apply recommendations and monitor their performance.
 - Increases your optimization score (based on Microsoft Advertising internal data).
 - Enhances overall campaign performance (based on Microsoft Advertising internal data).
 
-You can opt in to allow Microsoft Advertising to automatically create and apply more ad variations where they're needed, such as in ad groups that are underperforming. While you’ll still have the option to review, edit, apply, or dismiss any ad suggestion within the review period, Microsoft Advertising can also handle the process with no attention or action from you. If you don’t take action, we’ll automatically apply them after the review period of 7 days.
+You can opt in to allow Microsoft Advertising to automatically create and apply more ad variations where they're needed, such as in ad groups that are underperforming. While youâ€™ll still have the option to review, edit, apply, or dismiss any ad suggestion within the review period, Microsoft Advertising can also handle the process with no attention or action from you. If you donâ€™t take action, weâ€™ll automatically apply them after the review period of 7 days.
 
 You have control over which recommendations are auto-applied to your account. Auto-apply recommendations work for the following types of recommendations:
 
@@ -38,16 +39,16 @@ You have control over which recommendations are auto-applied to your account. Au
 
   Opting in to auto-apply recommendations means that all of your ad groups are watched for areas with potential performance improvement. Keep in mind that each set of suggested ads might be intended for different ad groups.
 
-  When you opt in, we’ll notify you when the recommendations become available so you can review, edit, apply, or dismiss them. After the review period, recommendations will be automatically applied to your account.
+  When you opt in, weâ€™ll notify you when the recommendations become available so you can review, edit, apply, or dismiss them. After the review period, recommendations will be automatically applied to your account.
 
   1. From the navigation menu on the left, hover over **Campaigns** and select **Recommendations**.
   1. Select the **Auto-apply recommendation setting** (lightning bolt icon).
-  1. Select the checkbox next to the recommendation type you’d like to set to auto-apply for your account.
+  1. Select the checkbox next to the recommendation type youâ€™d like to set to auto-apply for your account.
   1. Select **Save**.
 
 - **Opt out of auto-apply recommendations**
 
-  You can change your auto-apply settings at any time. Note that if you don’t opt in, we may still generate recommendations that you can manually apply.
+  You can change your auto-apply settings at any time. Note that if you donâ€™t opt in, we may still generate recommendations that you can manually apply.
 
   1. From the navigation menu on the left, hover over **Campaigns** and select **Recommendations**.
   1. Select the **Auto-apply recommendation setting** (lightning bolt icon).
@@ -56,7 +57,7 @@ You have control over which recommendations are auto-applied to your account. Au
 
 ## Turn on auto-apply email notifications
 
-When new recommendations are ready for review, we’ll always display a notification when you log in to Microsoft Advertising. You can also check the **Recommendations** tab to review a summary of all recommendations. Additionally, if you’d like to receive emails when new recommendations are available, be sure to select **Ad performance optimization** in your [email preferences](hlp_BA_PROC_EmailNotifications.md).
+When new recommendations are ready for review, weâ€™ll always display a notification when you log in to Microsoft Advertising. You can also check the **Recommendations** tab to review a summary of all recommendations. Additionally, if youâ€™d like to receive emails when new recommendations are available, be sure to select **Ad performance optimization** in your [email preferences](hlp_BA_PROC_EmailNotifications.md).
 
 ## Track auto-apply recommendation history
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: What gets imported from Meta ads
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Most of the information in your campaigns is included when you import it from Meta Ads. Here's a list of what gets imported, as well as some exceptions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What gets imported from Meta Ads
@@ -36,13 +37,13 @@ We'll import Active, Paused, Deleted, and Archived Meta Ads campaigns. If the Me
 
   Each Microsoft Advertising campaign can contain up to 128 characters, while Meta Ads campaign names can be longer.
 
-  If the campaign name is longer than 128 characters, we'll truncate the name and follow the following naming pattern. Each Meta Ads campaign name will be imported as “{Meta Ads campaign name} + delimiter (hyphen) + FB + {Meta Ads campaign ID}”.
+  If the campaign name is longer than 128 characters, we'll truncate the name and follow the following naming pattern. Each Meta Ads campaign name will be imported as â€œ{Meta Ads campaign name} + delimiter (hyphen) + FB + {Meta Ads campaign ID}â€.
 
-  For example, if the original campaign name is “Subscribe and Save. Buy X, Get Y at 20% discount” and the campaign ID is 2345678910, then Microsoft Advertising would import the campaign name as “Subscribe and Save. Buy X, Get Y - FB2345678910”.
+  For example, if the original campaign name is â€œSubscribe and Save. Buy X, Get Y at 20% discountâ€ and the campaign ID is 2345678910, then Microsoft Advertising would import the campaign name as â€œSubscribe and Save. Buy X, Get Y - FB2345678910â€.
 
 - **Updated and/or 'Missing' data in existing campaigns**
 
-  When importing from Meta Ads, Microsoft Advertising may overwrite existing campaign data—this includes bids, budgets, and settings. If a campaign was previously imported, it may be:
+  When importing from Meta Ads, Microsoft Advertising may overwrite existing campaign dataâ€”this includes bids, budgets, and settings. If a campaign was previously imported, it may be:
 
   - Overwritten with new data
   - Paused or removed
@@ -59,9 +60,9 @@ We'll import Active, Paused, Deleted, and Archived Meta Ads campaigns. If the Me
 
 Meta Ads ad-sets are imported as Microsoft Advertising ad groups.
 
-After import, the Microsoft Advertising ad group name will use the same pattern of delimiters as the imported campaign name. Each Meta Ads ad-set name will be imported as “{Meta Ads ad-set name} + delimiter (hyphen) + FB + {Meta Ads ad-set ID}”.
+After import, the Microsoft Advertising ad group name will use the same pattern of delimiters as the imported campaign name. Each Meta Ads ad-set name will be imported as â€œ{Meta Ads ad-set name} + delimiter (hyphen) + FB + {Meta Ads ad-set ID}â€.
 
-For example, if the original ad-set name is “Subscribe and Save. Buy X, Get Y at 20% discount” and ad-set ID is 2345678910, then the imported ad-set name would be saved in Microsoft Advertising as “Subscribe and Save. Buy X, Get Y - FB2345678910”.
+For example, if the original ad-set name is â€œSubscribe and Save. Buy X, Get Y at 20% discountâ€ and ad-set ID is 2345678910, then the imported ad-set name would be saved in Microsoft Advertising as â€œSubscribe and Save. Buy X, Get Y - FB2345678910â€.
 
 ## Ads
 

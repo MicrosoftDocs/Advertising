@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft merchant center training
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Merchant Center training courses to maximize your Shopping campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft merchant center training

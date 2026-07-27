@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Delete a UET Tag?
 description: You can delete unused UET tags that aren't associated with conversion goals, audiences or shared with other accounts.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I delete a UET tag?

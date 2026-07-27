@@ -1,4 +1,4 @@
----
+﻿---
 title: About the ad library
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out information about the Ad Library.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About the ad library

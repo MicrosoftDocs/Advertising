@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I give someone access to my Microsoft Advertising account?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Everyone who uses Microsoft Advertising is assigned a user role, which gives them permissions to perform specific account functions. Learn about user roles and how to add (invite) or remove users.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I give someone access to my Microsoft Advertising account?

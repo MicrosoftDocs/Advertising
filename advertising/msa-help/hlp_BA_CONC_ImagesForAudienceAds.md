@@ -1,4 +1,4 @@
----
+﻿---
 title: Best practices for Audience ad images
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn some tips and requirements for Audience ad imagery.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Best practices for Audience ad images
@@ -17,8 +18,8 @@ There are a few best practices to keep in mind when choosing images for your Aud
 
 ## Choose the right imagery
 
-- Make sure to upload high-quality images—they should not pixelate or degrade across screens. For minimum and recommended dimensions, see [Image specifications](#image-specifications).
-- Choose images that align with your brand and are clearly relevant to the product or service you're advertising. However, don't just use a logo or image of your product—you'll want images that are more widely applicable. For example, lifestyle images that are relatable for your target audience will entice them to buy your product or service.
+- Make sure to upload high-quality imagesâ€”they should not pixelate or degrade across screens. For minimum and recommended dimensions, see [Image specifications](#image-specifications).
+- Choose images that align with your brand and are clearly relevant to the product or service you're advertising. However, don't just use a logo or image of your productâ€”you'll want images that are more widely applicable. For example, lifestyle images that are relatable for your target audience will entice them to buy your product or service.
 - Becuase we crop images to fit aspect ratios, we don't guarantee that images with text or logo overlays will show the full text or logo ([learn more about smart image cropping](hlp_BA_PROC_SmartCropping.md)). Instead, we recommend that you use your **Logo** and **Call to action** assets. You can also use your **Description**, **Short headline**, and **Long headline** for ad messaging. If text is required for legal or other reasons, you can add a **Disclaimer** and we guarantee that your ads will always appear with the disclaimer.
 - Review your images in the ad preview tool before saving your ad to ensure that they look as expected in all aspect ratios. Re-crop your images as necessary.
 
@@ -45,7 +46,7 @@ There are a few best practices to keep in mind when choosing images for your Aud
 
 We crop images so that they can serve in ad placements that use the aspect ratios below. Please note that you should upload images that can be cropped into each aspect ratio in order for your images to serve in those ad placements. In the ad preview area, you can review your image in each aspect ratio and re-crop as needed. 1.91:1 is the recommended aspect ratio for uploaded images.
 
-If an advertiser provides multiple images, they can choose which image they want to use for a specific aspect ratio. This means that they can also choose not to serve a particular image in an aspect ratio, and can simply use another image for it. We recommend advertisers upload multiple images—the more the better—and upload at least one 1.91:1 image for each ad.
+If an advertiser provides multiple images, they can choose which image they want to use for a specific aspect ratio. This means that they can also choose not to serve a particular image in an aspect ratio, and can simply use another image for it. We recommend advertisers upload multiple imagesâ€”the more the betterâ€”and upload at least one 1.91:1 image for each ad.
 
 | **Aspect ratio** |
 | --- |

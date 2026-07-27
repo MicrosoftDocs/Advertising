@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Manage My Conversion Goals?
 description: The data grid on the conversion goals page allows you to view the goals you created and edit the name and description inline.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I manage my conversion goals?
@@ -37,7 +38,7 @@ The Conversion goals page allows you to review each goal and track the goal type
 
      *What it is:* This is the status to tell you if your conversion goal is working. It can be:
 
-     - **Unverified**: Microsoft Advertising hasn’t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
+     - **Unverified**: Microsoft Advertising hasnâ€™t received any user activity data from the UET tag on your website. It can take up to 24 hours for Microsoft Advertising to verify. If you still see this status, you either have not added the UET tag tracking code to your website or there is an issue with the setup that you need to fix.
      - **No recent conversions**: Microsoft Advertising has seen your UET tag, but haven't recorded any conversions in the last 7 days. This is most likely because you either have created the goal incorrectly, have not tagged your entire website, especially the pages that have the conversion action or you don't have any users converting on your site.
      - **Recording conversions**: Microsoft Advertising has seen your UET tag and has recorded conversions within the last 7 days. If your conversion window is greater than 7 days and you are filtering on the last 7 days, you may see this status even if no conversions are shown in the **Conversions** column, as conversions are reported at the time of the click.
      - **Tag inactive**: Microsoft Advertising has not received any user activity data from the UET tag in the last 24 hours. Make sure that the UET tag tracking code is still on your website.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Copilot in Microsoft Advertising Platform
 ms.service: msa-help
 ms.subservice: msa-ai-automation
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about using Copilot in Microsoft Advertising Platform.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Copilot in Microsoft Advertising Platform
 
-Copilot is your AI-powered assistant in Microsoft Advertising. It helps you get answers, generate assets and create ads, troubleshoot issues, and analyze performance—all in natural language. Whether you're new to advertising or managing complex campaigns, Copilot can save you time and help you make smarter decisions.
+Copilot is your AI-powered assistant in Microsoft Advertising. It helps you get answers, generate assets and create ads, troubleshoot issues, and analyze performanceâ€”all in natural language. Whether you're new to advertising or managing complex campaigns, Copilot can save you time and help you make smarter decisions.
 
 > [!NOTE]
 > This article explains how Copilot in Microsoft Advertising can assist you with your campaigns, which is different from [Microsoft Copilot](https://go.microsoft.com/fwlink/?linkid=2291145). For information about advertising in Microsoft Copilot, see [About Ads in Copilot](hlp_BA_CONC_AdsForCopilot.md).
@@ -33,7 +34,7 @@ Here are a few examples of prompts you might see:
 
 ### Want to have a conversation about a specific campaign or ad group?
 
-You can use the slash (/) within **Copilot** chat or select the plus sign (+) at the bottom left of the chat to choose which campaign or ad group you want to inquire about. For example, you might ask Copilot: “What are the latest impressions and clicks of the /2025_Holiday_Campaign?” or “What's the performance of my +Holiday_Ad_Group?”
+You can use the slash (/) within **Copilot** chat or select the plus sign (+) at the bottom left of the chat to choose which campaign or ad group you want to inquire about. For example, you might ask Copilot: â€œWhat are the latest impressions and clicks of the /2025_Holiday_Campaign?â€ or â€œWhat's the performance of my +Holiday_Ad_Group?â€
 
 ## What you can do with Copilot
 
@@ -169,7 +170,7 @@ Copilot in Microsoft Advertising Platform combines generative AI and account ins
 
     - **Analyze performance trends**
 
-      Use this to examine how key metrics—such as impressions, clicks, conversions, and click-through rate—change over time. To get started, try asking:
+      Use this to examine how key metricsâ€”such as impressions, clicks, conversions, and click-through rateâ€”change over time. To get started, try asking:
 
       - How has my campaign performance trended over the last 30 days?
       - How has my conversion rate changed over the last few weeks?
@@ -199,7 +200,7 @@ Copilot in Microsoft Advertising Platform combines generative AI and account ins
 
 ### Best practices
 
-- Ask detailed and specific questions with a clear goal. “Compare Campaign A and B by ROAS” is better than "Compare campaigns."
+- Ask detailed and specific questions with a clear goal. â€œCompare Campaign A and B by ROASâ€ is better than "Compare campaigns."
 - Helpful keywords to start your prompt:
 
   - Summarize...

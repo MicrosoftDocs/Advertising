@@ -1,4 +1,4 @@
----
+﻿---
 title: Instant reports - Download your campaigns performance data
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to download your Campaigns page statistic table as a report.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Instant reports - Download your campaigns performance data
@@ -27,7 +28,7 @@ You can download tables from the following tabs:
 
 1. From the navigation menu on the left, hover over **Campaigns** and select **Campaigns**.
 1. From the page menu, select the page you want to learn about. For example, **Campaigns**, **Ad groups**, **Keywords**, or **Audiences**.
-1. If you want, you can customize the data shown in the table—for example, using [columns and filters](hlp_BA_CONC_CustomizeData.md), [segments](hlp_BA_CONC_Segmentation.md), and the date range.
+1. If you want, you can customize the data shown in the tableâ€”for example, using [columns and filters](hlp_BA_CONC_CustomizeData.md), [segments](hlp_BA_CONC_Segmentation.md), and the date range.
 1. Select **Download** and then select the **Format** and **Segment** of the report.
 1. Select **Download**.
 

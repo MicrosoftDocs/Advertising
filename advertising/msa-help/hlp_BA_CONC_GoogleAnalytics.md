@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I set up final URL tracking?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Add tracking parameters to your final URL or tracking template to learn more about each click.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I set up final URL tracking?
@@ -46,7 +47,7 @@ http://www.contoso.com**?WhereDisplayed={IfMobile:adDisplayedOnMobile}{IfNotMobi
 1. Select an existing ad or create a new ad.
 1. In the **Final URL** text box, type the URL using the format: www.yourDestinationURL.com?variable={parameter}.
 
-   The strings are not case-sensitive, must include the opening and closing braces, and cannot be used in the ad’s title, text, or display URL.
+   The strings are not case-sensitive, must include the opening and closing braces, and cannot be used in the adâ€™s title, text, or display URL.
 
    The *variable* is a name you define. It should be the name of a variable used in your company's website scripts to identify the value that the parameter is returning.
 

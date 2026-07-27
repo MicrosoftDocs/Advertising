@@ -1,4 +1,4 @@
----
+﻿---
 title: Cruise ads' dynamic data feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about required, recommended, and optional Cruise ads feed attributes.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Cruise ads' dynamic data feeds

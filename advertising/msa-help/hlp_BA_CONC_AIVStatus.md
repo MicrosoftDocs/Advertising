@@ -1,4 +1,4 @@
----
+﻿---
 title: Identity verification status
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the identity verification status.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Identity verification status

@@ -1,4 +1,4 @@
----
+﻿---
 title: UET technical safeguards for sensitive data
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how Universal Event Tracking (UET) uses multiple layers of filtering, scrubbing, and governance to help prevent sensitive data from entering personalization or targeting workflows.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # UET technical safeguards for sensitive data

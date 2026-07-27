@@ -1,4 +1,4 @@
----
+﻿---
 title: What's new in Microsoft Advertising?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Check out the new and enhanced features in Microsoft Advertising designed to help you connect with your target customers, boost campaign performance, and improve your ROI.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What's new in Microsoft Advertising?
@@ -90,7 +91,7 @@ We've enhanced Hotel Center to Property Center, which is the environment in Micr
 
 - **Performance Max campaigns**
 
-  [Performance Max](hlp_BA_PROC_AboutPmax.md) enables advertisers to easily create and manage campaigns, optimize ads to reach the right audience at the right time, and drive performance to meet advertising goals—across the entire [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md). Instead of manually creating ads, all you need to do is add assets, such as text and images, to your asset groups. Then, Microsoft AI will determine the most optimal assets and audiences for your ads so you can capture the attention of customers who are ready to buy your product or service. For information on creating a Performance Max campaign, please see [Create a Performance Max campaign](hlp_BA_PROC_CreatePmax.md).
+  [Performance Max](hlp_BA_PROC_AboutPmax.md) enables advertisers to easily create and manage campaigns, optimize ads to reach the right audience at the right time, and drive performance to meet advertising goalsâ€”across the entire [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md). Instead of manually creating ads, all you need to do is add assets, such as text and images, to your asset groups. Then, Microsoft AI will determine the most optimal assets and audiences for your ads so you can capture the attention of customers who are ready to buy your product or service. For information on creating a Performance Max campaign, please see [Create a Performance Max campaign](hlp_BA_PROC_CreatePmax.md).
 
 - **New Microsoft Advertising account creation experience**
 
@@ -116,7 +117,7 @@ We've enhanced Hotel Center to Property Center, which is the environment in Micr
 
 - **New campaign creation experience**
 
-  Microsoft Advertising has a redesigned layout for creating campaigns that’s easy-to-use and streamlined to help you get your ad campaigns up and running. Simply choose the [right goal](hlp_BA_CONC_Redesign.md) for your desired campaign and ad types, tailor your settings to meet your advertising needs, and start serving your ads on the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md).
+  Microsoft Advertising has a redesigned layout for creating campaigns thatâ€™s easy-to-use and streamlined to help you get your ad campaigns up and running. Simply choose the [right goal](hlp_BA_CONC_Redesign.md) for your desired campaign and ad types, tailor your settings to meet your advertising needs, and start serving your ads on the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md).
 
 - **Display ads**
 
@@ -136,7 +137,7 @@ We've enhanced Hotel Center to Property Center, which is the environment in Micr
 
 - **Professional Services ads**
 
-[Professional Services ads](hlp_BA_CONC_Feeds_ProfessionalServices.md) are part of our [Vertical ads](hlp_BA_CONC_AboutVerticalAds.md)—engaging, feed-based ads that increase awareness and drive conversions. Professional Services ads include: Doctor & clinic ads, Insurance service ads (global), Tax service ads, Real estate service (global), and Home service ads (global). See the [market-level restrictions](https://go.microsoft.com/fwlink/?linkid=2213800) and check back in, because we'll be adding more ad types.
+[Professional Services ads](hlp_BA_CONC_Feeds_ProfessionalServices.md) are part of our [Vertical ads](hlp_BA_CONC_AboutVerticalAds.md)â€”engaging, feed-based ads that increase awareness and drive conversions. Professional Services ads include: Doctor & clinic ads, Insurance service ads (global), Tax service ads, Real estate service (global), and Home service ads (global). See the [market-level restrictions](https://go.microsoft.com/fwlink/?linkid=2213800) and check back in, because we'll be adding more ad types.
 
 ## MARCH 2023
 

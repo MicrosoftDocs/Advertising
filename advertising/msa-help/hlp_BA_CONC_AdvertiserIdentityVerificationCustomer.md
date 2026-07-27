@@ -1,4 +1,4 @@
----
+﻿---
 title: A note about how we verify our advertisers
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about how verification helps ensure trust in the ads that we show.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # A note about how we verify our advertisers

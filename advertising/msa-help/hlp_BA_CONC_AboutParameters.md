@@ -1,4 +1,4 @@
----
+﻿---
 title: Automatically customize your ads with dynamic text parameters
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can automatically customize what shows in your ad based on what people search for by inserting dynamic text parameters {keyword}, {param1}, {param2}, and {param3} into any part of the ad. This helps you create more relevant ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Automatically customize your ads with dynamic text parameters
@@ -23,12 +24,12 @@ Here are some things you can do with dynamic text and the steps to do each one:
 
 - **Insert keywords into your ads**
 
-  The above example shows your keyword being inserted into an ad. Here’s how to do this:
+  The above example shows your keyword being inserted into an ad. Hereâ€™s how to do this:
 
   1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Ads**.
   1. Select **Create ad**.
   1. Below **Title Part 1**, **Title Part 2**, or **Ad text**, select **dynamic text**, and then select **Placeholder {KeyWord}**. You can add **{KeyWord}** to multiple places in your ad.
-  1. Each {keyword} dynamic text parameter must include default text — as in "{keyword:DefaultTextGoesHere}". [See below for examples and more information about default text](#one-more-thing-the-importance-of-using-default-text)
+  1. Each {keyword} dynamic text parameter must include default text â€” as in "{keyword:DefaultTextGoesHere}". [See below for examples and more information about default text](#one-more-thing-the-importance-of-using-default-text)
   1. Select **Save**.
 
   > [!NOTE]
@@ -68,7 +69,7 @@ Here are some things you can do with dynamic text and the steps to do each one:
 
 ## One more thing: The importance of using default text
 
-When implementing dynamic text in your ad copy you should provide a default string —for example, {Param1:default} — that the system will use if Param1 for a keyword is null or empty, or if including the Param1 substitution value will cause the expanded string to exceed the element’s limit; otherwise the ad will not serve. In some cases, if your default text is deemed more relevant than your substituted text the system can use that instead.
+When implementing dynamic text in your ad copy you should provide a default string â€”for example, {Param1:default} â€” that the system will use if Param1 for a keyword is null or empty, or if including the Param1 substitution value will cause the expanded string to exceed the elementâ€™s limit; otherwise the ad will not serve. In some cases, if your default text is deemed more relevant than your substituted text the system can use that instead.
 
 When you use any dynamic text, such as {param1} or {keyword}, make sure you don't end up with ads that exceed the character limits:
 

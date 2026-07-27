@@ -1,4 +1,4 @@
----
+﻿---
 title: What gets imported from Google ads
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Most of the information in your campaigns is included when you import it from Google Ads. Here's a list of what gets imported, as well as some exceptions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What gets imported from Google Ads
@@ -80,18 +81,18 @@ Some specific situations require special attention during import. If you are imp
 
     When you import multiple associations that are mapped to the same in-market audience, only associations with the *direct* audience are imported. For example, let's say you want to import an ad group or campaign with two audience associations:
 
-    - The first association is with “Apparel & Accessories.”
-    - The second association is with “Apparel & Accessories/Bow ties.”
+    - The first association is with â€œApparel & Accessories.â€
+    - The second association is with â€œApparel & Accessories/Bow ties.â€
 
-    Only the ad group or campaign's first association will be imported because it can be mapped directly to the audience, “Apparel & Accessories.” The ad group or campaign's other association will not be imported.
+    Only the ad group or campaign's first association will be imported because it can be mapped directly to the audience, â€œApparel & Accessories.â€ The ad group or campaign's other association will not be imported.
 
     ## Importing multiple in-market audiences with no direct associations
 
     When you import multiple associations that are mapped to the same in-market audience, and there are *no* direct associations available, then only the association that is active *and* has the highest bid boost will be imported and mapped to its parent audience. For example, let's say you want to import an ad group or campaign with three audience associations, all of which are not available in Microsoft Advertising:
 
-    - The first association is with “Apparel & Accessories/Bow ties,” is active, and has a 20% bid boost.
-    - The second association is with “Apparel & Accessories/Belts,” is active, and has a 10% bid boost.
-    - The third association is with “Apparel & Accessories/Bracelets,” is paused, and has a 30% bid boost.
+    - The first association is with â€œApparel & Accessories/Bow ties,â€ is active, and has a 20% bid boost.
+    - The second association is with â€œApparel & Accessories/Belts,â€ is active, and has a 10% bid boost.
+    - The third association is with â€œApparel & Accessories/Bracelets,â€ is paused, and has a 30% bid boost.
 
     Only the ad group or campaign's first association will be imported because out of all the active associations, it has the highest bid boost. The ad group or campaign's other two associations will not be imported.
 
@@ -99,9 +100,9 @@ Some specific situations require special attention during import. If you are imp
 
     When you import multiple associations that are mapped to the same in-market audience, and there are *no* direct associations available, then only the association that is active *and* has the highest bid boost will be imported and mapped to its parent audience. For example, let's say you want to import an ad group or campaign with three audience associations, all of which are not available in Microsoft Advertising:
 
-    - The first association is with “Apparel & Accessories/Bow ties,” is active, and has a 20% bid boost.
-    - The second association is with “Apparel & Accessories/Belts,” is active, and has a 10% bid boost.
-    - The third association is with “Apparel & Accessories/Bracelets,” is paused, and has a 30% bid boost.
+    - The first association is with â€œApparel & Accessories/Bow ties,â€ is active, and has a 20% bid boost.
+    - The second association is with â€œApparel & Accessories/Belts,â€ is active, and has a 10% bid boost.
+    - The third association is with â€œApparel & Accessories/Bracelets,â€ is paused, and has a 30% bid boost.
 
     Only the ad group or campaign's first association will be imported because out of all the active associations, it has the highest bid boost. The ad group or campaign's other two associations will not be imported.
 
@@ -109,7 +110,7 @@ Some specific situations require special attention during import. If you are imp
     After your import completes, you can see in-market audience associations and their parent audiences under Import Summary on the Import Campaigns page. Please note that if there were any issues with the import, the Logs table will include an error file to review, as well as the settings that were in effect at the time of the import.
 
   - **What happens to existing in-market associations if an audience becomes available in Microsoft Advertising?**
-  When a Google Ads audience becomes available in Microsoft Advertising, we will update its associations automatically when you re-import. For example, let's say you have an ad group in Google Ads associated with the audience “Apparel & Accessories/Bow ties.” Since “Bow ties” is an audience not yet supported by Bing, its associations will be mapped to its parent audience, “Apparel & Accessories.” However, when “Bow ties” becomes available, Microsoft Advertising will delete the existing association, “Apparel & Accessories” and create a new association, “Apparel & Accessories/ Bow ties.”
+  When a Google Ads audience becomes available in Microsoft Advertising, we will update its associations automatically when you re-import. For example, let's say you have an ad group in Google Ads associated with the audience â€œApparel & Accessories/Bow ties.â€ Since â€œBow tiesâ€ is an audience not yet supported by Bing, its associations will be mapped to its parent audience, â€œApparel & Accessories.â€ However, when â€œBow tiesâ€ becomes available, Microsoft Advertising will delete the existing association, â€œApparel & Accessoriesâ€ and create a new association, â€œApparel & Accessories/ Bow ties.â€
 
   - **How do I associate a UET tag?**
     A Universal Event Tracking (UET) tag records what customers do on your website and sends that information to Microsoft Advertising. If you're importing remarketing lists or other audiences, you'll need to associate a specific UET tag with each. If you don't have a UET tag in Microsoft Advertising yet, we will create one for you if you select this option.
@@ -178,12 +179,12 @@ Some specific situations require special attention during import. If you are imp
   > - If you have an Audience campaign using portfolio bid strategies in Google Ads, we will always import it as [manual CPC](hlp_BA_CONC_BidStrategy.md) in Microsoft Advertising.
   > - If your portfolio bid strategy uses search and Shopping campaigns, we will take the majority of the campaigns with portfolio bid strategies and convert the rest to individual bid strategies.
   > - If the campaign types are equal in count, we will prioritize Search campaigns over Shopping campaigns.
-  > - If you don’t have a conversion goal in Microsoft Advertising and if you have a campaign that uses a bid strategy requiring a conversion goal in Google Ads, we’ll convert your bid strategy to one that does not require a conversion goal during import. For example, if you don’t have a conversion goal in Microsoft Advertising, we’ll convert a Performance Max campaign’s bid strategy to maximize clicks.
+  > - If you donâ€™t have a conversion goal in Microsoft Advertising and if you have a campaign that uses a bid strategy requiring a conversion goal in Google Ads, weâ€™ll convert your bid strategy to one that does not require a conversion goal during import. For example, if you donâ€™t have a conversion goal in Microsoft Advertising, weâ€™ll convert a Performance Max campaignâ€™s bid strategy to maximize clicks.
 
 - **Conversion tracking**
 
   > [!NOTE]
-  > This feature is currently in pilot and not available to everyone. If you don't have it yet, don't worry—it's coming soon! You can still [set up conversion goals](hlp_BA_PROC_UETv2CreateGoal.md) on Microsoft Advertising after importing other settings from Google Ads.
+  > This feature is currently in pilot and not available to everyone. If you don't have it yet, don't worryâ€”it's coming soon! You can still [set up conversion goals](hlp_BA_PROC_UETv2CreateGoal.md) on Microsoft Advertising after importing other settings from Google Ads.
 
   [Conversion tracking](hlp_BA_CONC_UETv2WhatIsCT.md) helps you measure the return on investment (ROI) of campaigns by tracking what people do once they get to your website. Conversion tracking entails defining the action you want to track as a [conversion goal](hlp_BA_CONC_UETv2CTGoalType.md) (e.g., a newsletter sign-up). Then, once someone accomplishes the goal (e.g., clicks your ad, visits your website, and signs up), Microsoft Advertising counts it as a conversion.
 
@@ -200,7 +201,7 @@ Some specific situations require special attention during import. If you are imp
   - If your imported campaigns use a conversion value-based bid strategy such as Max conversions, we'll import the same strategy and optimize those campaigns based on the new conversions.
 
   > [!IMPORTANT]
-  > If you don't see the **Import conversion goals** checkbox under **Customize your import settings**, you may not have this feature available yet. If you don't, don't worry—it's coming soon!
+  > If you don't see the **Import conversion goals** checkbox under **Customize your import settings**, you may not have this feature available yet. If you don't, don't worryâ€”it's coming soon!
 
   **What you need to know:**
 
@@ -309,7 +310,7 @@ Some specific situations require special attention during import. If you are imp
   - Traditional Chinese
   - Turkish
 
-  If you'd like to opt out of target language updates during a re-import, simply uncheck **Campaign and ad group languages** in your import options. Please note that if you import target languages from Google Ads but your Microsoft Advertising campaigns don't have any, all supported targeted languages will still be imported regardless of whether or not you opted out of target language updates. If we don't support any of the targeted languages you imported from Google Ads, your campaign will not import and be flagged with the error message: “Unsupported target languages.”
+  If you'd like to opt out of target language updates during a re-import, simply uncheck **Campaign and ad group languages** in your import options. Please note that if you import target languages from Google Ads but your Microsoft Advertising campaigns don't have any, all supported targeted languages will still be imported regardless of whether or not you opted out of target language updates. If we don't support any of the targeted languages you imported from Google Ads, your campaign will not import and be flagged with the error message: â€œUnsupported target languages.â€
 
 - **Location targeting**
 
@@ -457,7 +458,7 @@ Some specific situations require special attention during import. If you are imp
 
 - **Updated and/or 'Missing' data in existing campaigns**
 
-  When importing from Google Ads, Microsoft Advertising may overwrite existing campaign data—this includes bids, budgets, and settings. If a campaign was previously imported, it may be:
+  When importing from Google Ads, Microsoft Advertising may overwrite existing campaign dataâ€”this includes bids, budgets, and settings. If a campaign was previously imported, it may be:
 
   - Overwritten with new data
   - Paused or removed
@@ -532,7 +533,7 @@ Whether this is your first time or you're re-importing an existing campaign, it'
 
   | Items | Imported from Google Ads | Updated during re-import |
   | --- | --- | --- |
-  | **Campaign name: Campaign names in Microsoft Advertising are not case-sensitive. If you import or re-import campaigns named “Coffee Sales” and “coffee sales” from Google Ads, you will see an error for a duplicate campaign name. However, if you import a campaign named “Coffee Sales” under an account that already contains a campaign named “coffee sales”, we recognize them as the same, and will update accordingly.<br>*Note:* If a campaign name is longer than the current character limit, we shorten it during import and add a suffix to help identify it. Even if the character limit increases later, we won't update existing campaign names to support the character increase.** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
+  | **Campaign name: Campaign names in Microsoft Advertising are not case-sensitive. If you import or re-import campaigns named â€œCoffee Salesâ€ and â€œcoffee salesâ€ from Google Ads, you will see an error for a duplicate campaign name. However, if you import a campaign named â€œCoffee Salesâ€ under an account that already contains a campaign named â€œcoffee salesâ€, we recognize them as the same, and will update accordingly.<br>*Note:* If a campaign name is longer than the current character limit, we shorten it during import and add a suffix to help identify it. Even if the character limit increases later, we won't update existing campaign names to support the character increase.** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
   | **Campaign labels** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
   | **Budget amount** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
   | **Budget type** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
@@ -557,7 +558,7 @@ Whether this is your first time or you're re-importing an existing campaign, it'
 
   | Items | Imported from Google Ads | Updated during re-import |
   | --- | --- | --- |
-  | **Ad group name: Ad group names in Microsoft Advertising are not case-sensitive. If you import or re-import ad groups named “Coffee Sales” and “coffee sales” from Google Ads, you will see an error for a duplicate ad group name. However, if you import a campaign named “Coffee Sales” under a campaign that already contains an ad group named “coffee sales”, we recognize them as the same, and will update accordingly.** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
+  | **Ad group name: Ad group names in Microsoft Advertising are not case-sensitive. If you import or re-import ad groups named â€œCoffee Salesâ€ and â€œcoffee salesâ€ from Google Ads, you will see an error for a duplicate ad group name. However, if you import a campaign named â€œCoffee Salesâ€ under a campaign that already contains an ad group named â€œcoffee salesâ€, we recognize them as the same, and will update accordingly.** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
   | **Ad group labels** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
   | **Status** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
   | **Start/End date: Please note that Google Ads supports start and end dates at the campaign-level, while Microsoft Advertising supports them only at the ad group-level.  That means that the imported campaign level date range will override the existing ad group date range in Microsoft Advertising. Also note that if the end date has passed for a campaign that you import, the end date for ad groups in the campaign will be set to January 1, 2050.** | ![green check mark](media/Global_Icon_CheckMark.png) | ![green check mark](media/Global_Icon_CheckMark.png) |
@@ -1050,7 +1051,7 @@ If we import your Google Ads Performance Max campaigns as Microsoft Advertising 
 | Google Ads Performance Max campaigns | Microsoft Advertising Performance Max campaigns |
 | --- | --- |
 | **Asset groups** | Asset groups |
-| **Asset groups—Assets: <br> - Image assets<br>- Test assets<br>- Video assets<br>- Product feeds** | Asset groups—Assets: <br> - Image assets<br>- Test assets<br>- Product feeds <br> Your Video ads will not be imported yet. Don't worry—import for this item is coming soon! |
+| **Asset groupsâ€”Assets: <br> - Image assets<br>- Test assets<br>- Video assets<br>- Product feeds** | Asset groupsâ€”Assets: <br> - Image assets<br>- Test assets<br>- Product feeds <br> Your Video ads will not be imported yet. Don't worryâ€”import for this item is coming soon! |
 | **Audience segments: <br> - [Audience segments that include your website visitors](https://support.google.com/google-ads/answer/2454064)** | Audience segments: <br> - Rules-based remarketing audience segments |
 | **Audience signals** | Audience signals |
 | **Bid strategy: <br> - Maximize conversions with target CPA (cost per action) as optional<br>- Maximize conversion value with target ROAS (return on ad spend. <br> Learn more about [bid strategies](hlp_BA_CONC_BidStrategy.md)** | Bid strategy: <br> - Maximize conversions with target CPA (cost per action) as optional<br>- Maximize conversion value with target ROAS (return on ad spend) |

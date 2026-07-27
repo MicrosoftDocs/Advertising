@@ -1,4 +1,4 @@
----
+﻿---
 title: Best practices for optimizing your smart page
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Use these best practices to help attract customers to your website and encourage them to buy your products or services.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Best practices for optimizing your smart page
@@ -27,7 +28,7 @@ Use these best practices to help attract customers to your website and encourage
 
 - Use the "Headline" to attract customers to the value you offer as a business.
 - Use text to describe what sets your business apart to customers. Include keywords in the description that customers might use to find your products or services.
-- Use the "Business summary" to share highlights about your business with customers, such as who you are, what matters to you, what you do, or how your business started (what you might read on an “About Us” page).
+- Use the "Business summary" to share highlights about your business with customers, such as who you are, what matters to you, what you do, or how your business started (what you might read on an â€œAbout Usâ€ page).
 
 ## Business contact information
 

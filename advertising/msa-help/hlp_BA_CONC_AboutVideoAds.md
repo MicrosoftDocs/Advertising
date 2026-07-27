@@ -1,4 +1,4 @@
----
+﻿---
 title: About online video ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to create Online Video ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About online video ads
@@ -66,7 +67,7 @@ To create Online Video ads in an existing Audience campaign, follow the instruct
       - For **Audio**, you can choose the **Music** that you'd like to play in your video.
 
       > [!NOTE]
-      > Not everyone has video templates in Ads Studio yet. If you don't, don't worry—it's coming soon!
+      > Not everyone has video templates in Ads Studio yet. If you don't, don't worryâ€”it's coming soon!
    1. Select **Apply** when you're finished editing your videos.
 1. Optionally, under Advanced settings, you can apply **Advanced URL options** to set up the tracking and redirect information for your ads. [Learn more about including tracking templates or URL parameters in your final URL](hlp_BA_CONC_UpgradeURL_URLParameters.md).
 1. Optionally, set up your **Impression tracking URLs**.
@@ -94,7 +95,7 @@ In addition to standard ad campaign metrics, you can review your Online Video ad
 
 ## Technical requirements for Online Video ads
 
-Based on your video's quality, the placements where your Online Video ads are eligible to serve may vary. There are three video quality ratings—[one star](#one-star), [two stars](#two-stars), and [three stars](#three-stars). The technical requirements for each are listed below.
+Based on your video's quality, the placements where your Online Video ads are eligible to serve may vary. There are three video quality ratingsâ€”[one star](#one-star), [two stars](#two-stars), and [three stars](#three-stars). The technical requirements for each are listed below.
 
 ## Vertical video requirements
 

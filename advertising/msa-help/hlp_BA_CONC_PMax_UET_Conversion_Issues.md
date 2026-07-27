@@ -1,4 +1,4 @@
----
+﻿---
 title: Performance Max UET and conversion issues
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you aren't receiving conversions in your Performance Max (PMax) campaign, it could be due to setup issues with UET or your campaign.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Performance Max UET and conversion issues

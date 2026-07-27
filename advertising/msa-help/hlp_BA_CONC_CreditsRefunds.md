@@ -1,4 +1,4 @@
----
+﻿---
 title: About credits, refunds, and adjustments
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -6,7 +6,8 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: You’ll get a credit if you have paid for invalid clicks on your ads. You'll get a refund if you delete your account and have a positive balance. Microsoft Advertising also adjusts billing documents occasionally to make sure you're paying your fair share. Find out how the process works and what to expect.
+description: Youâ€™ll get a credit if you have paid for invalid clicks on your ads. You'll get a refund if you delete your account and have a positive balance. Microsoft Advertising also adjusts billing documents occasionally to make sure you're paying your fair share. Find out how the process works and what to expect.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About credits, refunds, and adjustments
@@ -14,8 +15,8 @@ description: You’ll get a credit if you have paid for invalid clicks on your a
 Microsoft Advertising will issue credits and refunds for the following reasons:
 
 - [Invalid clicks](hlp_BA_CONC_AboutPreventingInvalidClicks.md).
-- If your account is deactivated and you have a positive prepay balance or a negative postpay balance.​
-- If your account is deactivated by Microsoft Advertising for any reason, Microsoft Advertising reserves the right to issue refunds for payments made at its sole discretion. For more information, see our ​[Microsoft Advertising policies](https://go.microsoft.com/fwlink/?linkid=2295044).
+- If your account is deactivated and you have a positive prepay balance or a negative postpay balance.â€‹
+- If your account is deactivated by Microsoft Advertising for any reason, Microsoft Advertising reserves the right to issue refunds for payments made at its sole discretion. For more information, see our â€‹[Microsoft Advertising policies](https://go.microsoft.com/fwlink/?linkid=2295044).
 
 Microsoft Advertising does not issue credits for other reasons, including poor ad performance or ROI, system or tool downtime, test accounts or campaigns, and bank overdraft fees.
 
@@ -50,9 +51,9 @@ Microsoft Advertising does not issue credits for other reasons, including poor a
 
 - **Refund after deactivating your account**
 
-  If your account is deactivated and we determine a transaction is refund eligible, we will automatically attempt to issue a refund. The refund will be issued using the same payment method used during the original transaction; for example, if you paid with a credit card, you will receive your refund on that credit card. ​
+  If your account is deactivated and we determine a transaction is refund eligible, we will automatically attempt to issue a refund. The refund will be issued using the same payment method used during the original transaction; for example, if you paid with a credit card, you will receive your refund on that credit card. â€‹
 
-  If you paid using SEPA Direct Debit, check, or wire transfer, please see "Refunds via SEPA Direct Debit, check, or wire transfer" for special instructions.​
+  If you paid using SEPA Direct Debit, check, or wire transfer, please see "Refunds via SEPA Direct Debit, check, or wire transfer" for special instructions.â€‹
 
   | Your payment method | How you will receive your refund | Estimated time to receive your refund after processing* |
   | --- | --- | --- |

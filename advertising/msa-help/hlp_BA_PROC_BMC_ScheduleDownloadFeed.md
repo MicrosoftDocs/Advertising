@@ -1,4 +1,4 @@
----
+﻿---
 title: Schedule Downloading of Feed Files in Microsoft Merchant Center
 description: Learn how to schedule downloads of your feed files for Microsoft Merchant Center.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-shopping-merchant-center
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Schedule downloading of feed files in Microsoft Merchant Center

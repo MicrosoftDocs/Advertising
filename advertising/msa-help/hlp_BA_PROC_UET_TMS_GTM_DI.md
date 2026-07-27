@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up UET with Google Tag Manager Using Direct Integration
 description: Direct integration with Google Tag Manager makes UET setup automatic.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up UET with Google Tag Manager using direct integration

@@ -1,4 +1,4 @@
----
+﻿---
 title: Enhanced conversions
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising utilizes Enhanced conversions to supplement existing conversion tracking by using first-party data.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Enhanced conversions
@@ -97,13 +98,13 @@ Download the import template as an [Excel](https://view.officeapps.live.com/op/v
 
   - Remove whitespaces from the beginning and end of the email address.
   - Make sure the text is in lower case.
-  - Remove everything between “+” and “@” (e.g. name+withplus@outlook.com becomes name@outlook.com).
-  - Remove any periods that come before “@” (e.g. ex.ample@outlook.com becomes example@outlook.com).
-  - Make sure email address contains “@” sign.
+  - Remove everything between â€œ+â€ and â€œ@â€ (e.g. name+withplus@outlook.com becomes name@outlook.com).
+  - Remove any periods that come before â€œ@â€ (e.g. ex.ample@outlook.com becomes example@outlook.com).
+  - Make sure email address contains â€œ@â€ sign.
   - Remove any spaces.
-  - Make sure there is a period after “@”, such as “.com”.
+  - Make sure there is a period after â€œ@â€, such as â€œ.comâ€.
   - Make sure it doesn't start or end with a period.
-  - Remove any accents (ex: à).
+  - Remove any accents (ex: Ã ).
 - **Hash the data**. Hash the data using the SHA-256 algorithm, which is a hashing function that uses a 256-bit key to take a piece of data and convert it into a new, unrecognizable data string of a fixed length.
 
 ## Enhanced conversions FAQ

@@ -1,4 +1,4 @@
----
+﻿---
 title: What do the report columns mean?
 ms.service: msa-help
 ms.subservice: msa-reporting-analytics
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: This topic lists definitions for several of the most common report fields.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What do the report columns mean?
@@ -22,14 +23,14 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
 
   | Name | Description |
   | --- | --- |
-  | **Absolute top impression rate (Search only)** | How often your ad was in the first position of all results, as a percentage of your total impressions. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
-  | **Absolute top impression share (Search only)** | The estimated percentage of times your ad was in the first position of all results, out of the total impressions available in the market you were targeting. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
-  | **Absolute top impression share lost to budget (Search only)** | The estimated percentage of how often your ad missed showing in the first position at the top of search results due to insufficient budget. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
-  | **Absolute top impression share lost to rank (Search only)** | The estimated percentage of how often poor ad rank kept your ad from showing in the first ad position at the top of search results. Ad rank determines where your ad shows relative to other ads, based on factors including your bid amount, ad performance, ad relevance, ad extensions, other competing ads, and more. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
+  | **Absolute top impression rate (Search only)** | How often your ad was in the first position of all results, as a percentage of your total impressions. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
+  | **Absolute top impression share (Search only)** | The estimated percentage of times your ad was in the first position of all results, out of the total impressions available in the market you were targeting. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
+  | **Absolute top impression share lost to budget (Search only)** | The estimated percentage of how often your ad missed showing in the first position at the top of search results due to insufficient budget. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
+  | **Absolute top impression share lost to rank (Search only)** | The estimated percentage of how often poor ad rank kept your ad from showing in the first ad position at the top of search results. Ad rank determines where your ad shows relative to other ads, based on factors including your bid amount, ad performance, ad relevance, ad extensions, other competing ads, and more. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
   | **Account** | The name of your account. |
   | **Account ID** | The unique number that Microsoft Advertising uses to identify this account. |
   | **Account number** | The account identifier associated with this report. Account numbers have eight characters, starting with a letter. |
-  | **Account status** | The status of the account—active, paused, inactive—when the report was run. |
+  | **Account status** | The status of the accountâ€”active, paused, inactiveâ€”when the report was run. |
   | **Ad description** | The text contained in the body of the advertisement |
   | **Ad description 2** | The second section of body text that appears below the title and site URL in your ad. If your ad doesn't include this text, the Ad description 2 column returns empty. |
   | **Ad distribution** | Where the ad appears; for example, on search results pages (Search ads) or in Windows apps (content ads). |
@@ -40,11 +41,11 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Ad extension total clicks** | Sum of billable and non-billable clicks on the ad extension. |
   | **Ad extension type name** | The title of each ad extension. [Learn more](hlp_BA_CONC_AboutAdExtensions.md) about the different types of ad extensions. |
   | **Ad group** | The name of your ad group. |
-  | **Ad group status** | The status of the ad group—Active or Paused—when the report was run. Please note, that when an ad group is deleted, the status of its respective ads and keywords may still show as paused or active. To confirm whether or not an ad group is deleted, refer to the **Ad group status** column. |
+  | **Ad group status** | The status of the ad groupâ€”Active or Pausedâ€”when the report was run. Please note, that when an ad group is deleted, the status of its respective ads and keywords may still show as paused or active. To confirm whether or not an ad group is deleted, refer to the **Ad group status** column. |
   | **Ad group ID** | The unique number that Microsoft Advertising uses to identify the ad group. |
   | **Ad ID** | This is the unique ID associated with your ad. |
   | **Ad relevance** | The relevance of your ad and landing page to search users' queries. When your report includes this attribute, be sure to also include the **ad group item ID** attribute to ensure the accuracy of your report. Note: When you download the report to a file, the column is called Landing Page Relevance. |
-  | **Ad status** | The status of the ad—Active, Paused or Draft—when the report was run. |
+  | **Ad status** | The status of the adâ€”Active, Paused or Draftâ€”when the report was run. |
   | **Ad text** | The text contained in the body of the advertisement. |
   | **Ad title** | The text of the ad title. |
   | **Ad type** | The type of ad; for example, text ads or Product ads. |
@@ -77,7 +78,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Avg. CPC** | Average cost per click-the total cost of all clicks on an ad, divided by the number of clicks. |
   | **Avg. CPM** | The average amount you are charged every 1,000 times your ad is displayed. |
   | **Avg. CPP** | The average cost per phone call. |
-  | **Avg. CPS** | The total cost of sales divided by the number of sales during this period. This is the average amount you’re charged each time your ad is converted into a sale. |
+  | **Avg. CPS** | The total cost of sales divided by the number of sales during this period. This is the average amount youâ€™re charged each time your ad is converted into a sale. |
   | **Avg. impression frequency per user** | The average number of times that a person viewed your ad within a given period. |
   | **Avg. impression frequency per user (7 days)** | The average number of times that a person viewed your ad in the last seven days. |
   | **Avg. participation rate** | A measurement (from 10 to 100 percent) of how often an ad is displayed during the month in which relevant keywords are clicked. |
@@ -109,14 +110,14 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Campaign** | The name of the campaign. |
   | **Campaign ID** | A unique number that Microsoft Advertising uses to identify the ad campaign. |
   | **Campaign labels** | These are the labels you applied to campaigns. |
-  | **Campaign status** | The status of the campaign—Active or Paused—when the report was run. Please note that when a campaign is deleted, the status of its respective ad groups, ads, and keywords may still show as paused or active. If you are unsure as to whether or not a campaign is deleted, please refer to the **Campaigns status** column to officially confirm.<br>**Note**: When a campaign is deleted, all of its respective ad groups, ads, and keywords will be deleted. There should be no ad delivery once a campaign is deleted. If you have any billing issues related to deleted campaigns,[contact Support](https://go.microsoft.com/fwlink/?linkid=398371). |
+  | **Campaign status** | The status of the campaignâ€”Active or Pausedâ€”when the report was run. Please note that when a campaign is deleted, the status of its respective ad groups, ads, and keywords may still show as paused or active. If you are unsure as to whether or not a campaign is deleted, please refer to the **Campaigns status** column to officially confirm.<br>**Note**: When a campaign is deleted, all of its respective ad groups, ads, and keywords will be deleted. There should be no ad delivery once a campaign is deleted. If you have any billing issues related to deleted campaigns,[contact Support](https://go.microsoft.com/fwlink/?linkid=398371). |
   | **Campaign type** | In the Keywords tab Search term grid, the type of campaign using a searched keyword. The column distinguishes whether the keyword is from a Microsoft Shopping campaign or a Search campaign. |
   | **Category (level #)** | The different category levels in your feed - Level 1 through 5. |
   | **Category list** | The list of categories that Bing matched to your website. Up to three category levels can be returned per category list item. |
   | **Changed by** | The name of the person who made a specific change to the campaign, ad group, ad, or keyword. |
   | **Change type** | An event or action that changes the remaining insertion order (IO) budget. |
   | **City (physical location)** | The city where the user was physically located when they clicked the ad. |
-  | **City (searching for)** | The city of the user’s geographical search intent, when it can be determined and set as a city, and not necessarily the user’s physical location. For example, if a user located in Denver searched rental cars in Portland, the City (searching for) value would be Portland. |
+  | **City (searching for)** | The city of the userâ€™s geographical search intent, when it can be determined and set as a city, and not necessarily the userâ€™s physical location. For example, if a user located in Denver searched rental cars in Portland, the City (searching for) value would be Portland. |
   | **Clicks** | The number of clicks or other user input on any clickable element of your ad, including the ad title, display URL or phone number. |
   | **Click calls** | The number of clicks on a clickable call extension phone number. This includes clicks on metered (call forwarding) and non-metered phone numbers. |
   | **Click share** | The estimated clicks your ad received, as a percentage of the total number of clicks available in auctions your ad showed in or was competitive in. It is the portion of the prospective customers' mindshare and buying intent you captured. |
@@ -129,7 +130,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Component name** | The name of the rich ad component. This is different from the component type column, which identifies the component itself.<br>Rich ads in search (RAIS) are available on the search networks for branded or trademarked campaigns.<br>This attribute is only available with the Rich ad component report. |
   | **Component type** | The component type (basic, deep link, favorite icon, form, image, titled link, or video) of the rich ad that was clicked.<br>Rich ads in search (RAIS) are available on the search networks for branded or trademarked campaigns.<br>This attribute is only available with the Rich ad component report. |
   | **Conflict level** | Identification of the level where the conflict arises (account, campaign, ad group). |
-  | **Conversions** | A conversion is a click that results in a sale or another measure of success. Conversions are measured by adding a small bit of code to your website pages so that a visitor’s progress through your site can be tracked. |
+  | **Conversions** | A conversion is a click that results in a sale or another measure of success. Conversions are measured by adding a small bit of code to your website pages so that a visitorâ€™s progress through your site can be tracked. |
   | **Conversion goal category** | This is the category you chose to file this conversion. |
   | **Conversion rate** | The number of conversions, divided by the total number of clicks. For example, if the ads in your campaign received 300 clicks and 4 conversions, the conversion rate is 1.33%. |
   | **Cost per assist** | Spend divided by the number of times an entity (account, campaign, ad group, or keyword, for example) contributed to a conversion that is associated with a different entity. |
@@ -137,7 +138,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Country/region** | In the Geographic report, the country or region where an ad was physically served, or the country or region that your customer had shown interest in through searches or content they had viewed. |
   | **Country/region (physical location).** | In the Geo location (old version) report, the country/region where the user was physically located when they clicked the ad. |
   | **Country/Region of sale.** | This is the country or region where the products in this campaign are sold. |
-  | **Country (searching for)** | In the Geo location (old version) report, the name of a country if the user’s geographical intent can be determined. The country is set if the user’s intent is a country or sub geography of the country, and not necessarily if the user is physically located in the country. |
+  | **Country (searching for)** | In the Geo location (old version) report, the name of a country if the userâ€™s geographical intent can be determined. The country is set if the userâ€™s intent is a country or sub geography of the country, and not necessarily if the user is physically located in the country. |
   | **County (phsyical location)** | The county where your customer was physically located when they viewed your ad. |
   | **Custom label (#)** | The different custom labels in your feed - 0 through 4. |
   | **Click-through rate (CTR)** | Click-through rate, or the number of times an ad was clicked, divided by the number of impressions. |
@@ -175,7 +176,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Estimated clicks** | The estimated number of times an ad could be clicked by a particular age group or gender<br>**Note:**This value is an estimate because the age and gender is not known for the entire audience. |
   | **Estimated click** | The estimated number of times that an ad will be clicked by a particular age group or gender, divided by the total number of estimated clicks across the ad group (including estimated clicks for unknown age and gender demographics). The value is expressed as a percent from 0 - 100.<br>**Note:**This value is an estimate because the age and gender is not known for the entire audience. |
   | **Estimated CTR** | Estimated click-through rate, or the number of times an ad could be clicked, divided by the number of times it could be served as an impression (expressed as a percentage). |
-  | **Estimated conversions** | The estimated number of conversions, which are the clicks that results in a sale or another measure of success, to a particular age group or gender. Conversions are measured by adding a small bit of code to your website pages so that a visitor’s progress through your site can be tracked<br>**Note:**This value is an estimate because the age and gender is not known for the entire audience. |
+  | **Estimated conversions** | The estimated number of conversions, which are the clicks that results in a sale or another measure of success, to a particular age group or gender. Conversions are measured by adding a small bit of code to your website pages so that a visitorâ€™s progress through your site can be tracked<br>**Note:**This value is an estimate because the age and gender is not known for the entire audience. |
   | **Estimated conversion rate** | The estimated number of the conversions that results in a sale or another measure of success to a particular age group or gender, divided by the estimated number of clicks by a particular age group or gender<br>**Note:**This value is an estimate because the age and gender is not known for the entire audience. |
   | **Estimated impression** | The estimated number of times an ad could be served to a particular age group or gender<br>**Note:**This value is an estimate because the age and gender is not known for the entire audience. |
   | **Estimated impression** | The estimated number of times that an ad will be clicked by a particular age group or gender, divided by the estimated total number of impressions across the ad group (including estimated impressions for unknown age and gender demographics). The value is expressed as a percent from 0 - 100.<br>**Note:** This value is an estimate because the age and gender is not known for the entire audience. |
@@ -187,7 +188,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
 
   | Name | Description |
   | --- | --- |
-  | **Feed URL** | The feed URL appears as either “True” or “False”. If it’s “True”, the final URL came from a page feed associated to the campaign. If it’s “False”, the final URL did not come from a page feed. |
+  | **Feed URL** | The feed URL appears as either â€œTrueâ€ or â€œFalseâ€. If itâ€™s â€œTrueâ€, the final URL came from a page feed associated to the campaign. If itâ€™s â€œFalseâ€, the final URL did not come from a page feed. |
   | **Final URL** | The URL of the specific landing page people are taken to by clicking your ad. |
   | **Final URL suffix** | The place in your final URL where you can add parameters that will be attached to the end of your landing page URL, from the keyword level up to the account level. |
   | **Funnel conversion rate** | The number of conversions, divided by the number of times potential customers reached step 1 in the funnel, expressed as a percentage. |
@@ -218,11 +219,11 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
 
   | Name | Description |
   | --- | --- |
-  | **Impression share (Search only)** | How often your ad is shown, as a percentage of the total available impressions in the market you were targeting. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
-  | **Impression share lost to budget (Search only)** | The percentage of impression share lost due to insufficient budget. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
-  | **Impression share lost to rank (Search only)** | The percentage of impression share lost due to low rank. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
+  | **Impression share (Search only)** | How often your ad is shown, as a percentage of the total available impressions in the market you were targeting. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
+  | **Impression share lost to budget (Search only)** | The percentage of impression share lost due to insufficient budget. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
+  | **Impression share lost to rank (Search only)** | The percentage of impression share lost due to low rank. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
   | **Impressions** | The number of times an ad has been displayed on search results pages or sites on the Microsoft Advertising Network. |
-  | **Insertion order (IO) details** | The details of one specific IO, which are displayed as “Order name + Start date + End date + Budget”. |
+  | **Insertion order (IO) details** | The details of one specific IO, which are displayed as â€œOrder name + Start date + End date + Budgetâ€. |
 
 - **K**
 
@@ -231,7 +232,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Keyword** | The words or phrases contained in an ad group. Your ads are triggered when customers use search terms matching or close to your keywords. |
   | **Keyword ID** | The unique number that Microsoft Advertising uses to identify this keyword. |
   | **Keyword labels** | These are the labels you applied to keywords. |
-  | **Keyword status** | The status of the keyword—Active or Paused—when the report was run. |
+  | **Keyword status** | The status of the keywordâ€”Active or Pausedâ€”when the report was run. |
 
 - **L**
 
@@ -267,7 +268,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Merchant product ID** | A unique identifier for each item in your Microsoft Merchant Center feed. |
   | **Metered call** | Calls made to the forwarding number you created in your call extension. Metered calls include both click calls and manual calls. Metered calls are included in the total phone impressions value. |
   | **Metro area (physical location)** | The metropolitan area where the user was physically located when they clicked the ad. This is part of the Microsoft Market Area for US targeting. |
-  | **Metro area (searching for)** | The name of a metro area if the user’s geographical intent can be determined. The metro area is set if the user’s intent is a metro area or city within the metro area, and not necessarily if they are physically located in the metro area. This is part of the Microsoft Market Area for US targeting. |
+  | **Metro area (searching for)** | The name of a metro area if the userâ€™s geographical intent can be determined. The metro area is set if the userâ€™s intent is a metro area or city within the metro area, and not necessarily if they are physically located in the metro area. This is part of the Microsoft Market Area for US targeting. |
   | **Mobile URL** | Your Mobile URL is the page where people go after clicking on your ad on a mobile device. |
   | **Month** | The date range for the month that your data is from. |
   | **Monthly budget** | The average amount of budget spent during a calendar month. |
@@ -281,7 +282,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | --- | --- |
   | **Negative keyword** | A word or phrase that helps prevent your ad from showing to customers unlikely to click your ad. For example, if you sell greeting cards, possible negative keywords could include "baseball", "playing", or "business". |
   | **Negative keyword ID** | The unique number that Microsoft Advertising uses to identify this negative keyword. |
-  | **Negative keyword list** | The negative keywords in this list are words and phrases that you don’t want to trigger your ad. For example, if you sell fine chocolates, you might want to add the popular dog breed “chocolate Labrador” as a negative keyword. |
+  | **Negative keyword list** | The negative keywords in this list are words and phrases that you donâ€™t want to trigger your ad. For example, if you sell fine chocolates, you might want to add the popular dog breed â€œchocolate Labradorâ€ as a negative keyword. |
   | **>Negative keyword list ID** | The unique number that Microsoft Advertising uses to identify this negative keyword list. |
   | **Negative keyword match type** | The match type for the negative keyword. |
   | **Net due** | The total amount due. |
@@ -362,7 +363,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | --- | --- |
   | **Sales house** | The sales house involved in facilitating the deal. |
   | **Search query** | The exact words entered by search users. |
-  | **Second level category** | Microsoft Advertising analyzes your website and categorizes its content. The second level category is the narrowest level—for example, if the top level category is "shoes", the first level category might be "women's" and second level categories might be "casual" or "business". |
+  | **Second level category** | Microsoft Advertising analyzes your website and categorizes its content. The second level category is the narrowest levelâ€”for example, if the top level category is "shoes", the first level category might be "women's" and second level categories might be "casual" or "business". |
   | **Seller name** | The name of the merchant/store that provides the item. It is used to identify the unique merchant and if this field is blank, it will be defaulted to the store name. |
   | **Share of voice (SOV)** | The share of voice provides directional data to give you an estimate on where you might be losing to competitors in the marketplace. Values are typically shown as percentages of possible or available actions, such as impressions or clicks.<br>**Note:** This report requires enough impression share data to accurately calculate the percentage values. If you suspect the statistics are inaccurate, try running a report over a longer date range or run another performance report for the same date range and compare the statistics. |
   | **Sold-to customer name** | The name of the customer to whom the order was sold. |
@@ -370,7 +371,7 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Source** | The origin of the advertising traffic, which is one of the following:<br>- Bing, AOL, and Yahoo Search Properties<br>- Extended Network Search Properties<br>- The top-level URL of a website that is not in one of the preceding groups |
   | **Spend (aka CPC spend)** | The cost per click, multiplied by the total number of clicks. |
   | **State/province (physical location)** | The state or province where the user was physically located when they clicked the ad. |
-  | **State/province (searching for)** | The name of a state if the user’s geographical intent can be determined. The state is set if the user’s intent is a state or sub geography of the state, and not necessarily if they are physically located in the state. |
+  | **State/province (searching for)** | The name of a state if the userâ€™s geographical intent can be determined. The state is set if the userâ€™s intent is a state or sub geography of the state, and not necessarily if they are physically located in the state. |
   | **Start time** | The start time of the phone call that originated from a call extension. |
   | **Store ID** | The name of the store you created in Microsoft Merchant Center that contains your offers for this campaign. |
 
@@ -392,9 +393,9 @@ The reports and graphs available in Microsoft Advertising give you a rich variet
   | **Tool** | The Microsoft Advertising tool used to make changes to account, campaign or ad attributes. |
   | **Top impression rate** | How often your ad showed in the mainline, the top ad placements above the search results, as a percentage of your total impressions. |
   | **Top impression share** | The percentage of impressions for your ad in the mainline, the top ad placements above the search results, out of the estimated number of mainline impressions you were eligible to receive. Eligibility for top impression is based on your ads' approval status, quality score, targeting settings, and bids. |
-  | **Top impression share lost to budget** | The percentage of impressions for your ad in the mainline, the top ad placements above the search results, out of the estimated number of mainline impressions you were eligible to receive. Eligibility for top impression is based on your ads' approval status, quality score, targeting settings, and bids. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns won’t be included when this column is selected. |
+  | **Top impression share lost to budget** | The percentage of impressions for your ad in the mainline, the top ad placements above the search results, out of the estimated number of mainline impressions you were eligible to receive. Eligibility for top impression is based on your ads' approval status, quality score, targeting settings, and bids. Impression share metrics are only calculated on search network traffic. Performance metrics from audience campaigns wonâ€™t be included when this column is selected. |
   | **Top impression share lost to rank** | A percentage estimate of how often poor ad rank kept your ad from showing in the mainline, the top ad placements above the search results. |
-  | **Top level category** | Microsoft Advertising analyzes your website and categorizes its content. The top level category is the highest, broadest level—for example, "shoes". |
+  | **Top level category** | Microsoft Advertising analyzes your website and categorizes its content. The top level category is the highest, broadest levelâ€”for example, "shoes". |
   | **Top vs. other** | The position (mainline vs. bottom or sidebar) of your ad on a Bing, AOL, or Yahoo search results page |
   | **Total clicks on ad elements** | The number of clicks when this ad element (decoration) was present in the ad copy, regardless of what was actually clicked on. |
   | **Total cwatch time** | Total amount of time users have spent watching the video (measured directly). |

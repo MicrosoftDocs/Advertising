@@ -1,4 +1,4 @@
----
+﻿---
 title: About aggregators
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you are an aggregator, here are some details you need to Display ads for the products of merchants you represent.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About aggregators
@@ -23,7 +24,7 @@ To get started as an aggregator, you need to:
 
 ## Feed requirements
 
-Your feed file is a text delimited file that contains all the information needed for your Product ads. Feed files for aggregators can be submitted like any product feed file—manually, via FTP, automatically downloaded from a URL. For manual uploads, TSV or XML file formats are accepted. For FTP uploads, TSV, TXT, or XML file formats are accepted. [Learn more](hlp_BA_CONC_BMCWhatIsCatalog.md)
+Your feed file is a text delimited file that contains all the information needed for your Product ads. Feed files for aggregators can be submitted like any product feed fileâ€”manually, via FTP, automatically downloaded from a URL. For manual uploads, TSV or XML file formats are accepted. For FTP uploads, TSV, TXT, or XML file formats are accepted. [Learn more](hlp_BA_CONC_BMCWhatIsCatalog.md)
 
 The following product identifiers are required for aggregators:
 

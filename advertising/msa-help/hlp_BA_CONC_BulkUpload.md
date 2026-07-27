@@ -1,4 +1,4 @@
----
+﻿---
 title: Upload an edited spreadsheet
 ms.service: msa-help
 ms.subservice: msa-bulk-import
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to upload a campaign-data spreadsheet you have downloaded and edited.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Upload an edited spreadsheet
@@ -14,14 +15,14 @@ description: Learn how to upload a campaign-data spreadsheet you have downloaded
 > [!IMPORTANT]
 > Not everyone has this feature. See [this article](hlp_BA_CONC_AboutBulk.md) for more information.
 
-If you manage multiple Microsoft Advertising accounts, you can make changes to your bids, keywords, ads, ad groups, and campaigns offline using [bulk upload](hlp_BA_CONC_AboutBulk.md). Just download the information you want to change into a spreadsheet, make the changes in the downloaded spreadsheet, and then upload the edited spreadsheet. Here’s how it works:
+If you manage multiple Microsoft Advertising accounts, you can make changes to your bids, keywords, ads, ad groups, and campaigns offline using [bulk upload](hlp_BA_CONC_AboutBulk.md). Just download the information you want to change into a spreadsheet, make the changes in the downloaded spreadsheet, and then upload the edited spreadsheet. Hereâ€™s how it works:
 
 ## Download what you want to change
 
 Download the information you want to see and change. See [this article](hlp_BA_CONC_BulkDownload.md) for more information on downloading spreadsheets.
 
 > [!NOTE]
-> - It’s a good idea to save a copy of the original spreadsheet before you make changes. A copy of the original spreadsheet allows you to review your previous settings and revert changes if necessary.
+> - Itâ€™s a good idea to save a copy of the original spreadsheet before you make changes. A copy of the original spreadsheet allows you to review your previous settings and revert changes if necessary.
 > - If you want to create your own spreadsheet to upload, do a download first to see all the columns to include.
 
 ## Make changes in the spreadsheet
@@ -71,7 +72,7 @@ Select **Apply changes** to apply your updates to Microsoft Advertising. When th
 
   :::image type="content" source="media/BA_ScreenCap_DeliveryDetails.png" alt-text="More information icon.":::
 
-  next to the upload’s **Summary** to see the **Applied changes** table again at any point.
+  next to the uploadâ€™s **Summary** to see the **Applied changes** table again at any point.
 - The upload will appear in the **Uploaded file** list. If your upload encountered no errors, you will see a **Download results** button. Choose this to get a spreadsheet listing all the updates, additions, and deletions. If your upload encountered at least one error, you will see a **Download** drop-down. select this, then choose to **Download all results** or **Download errors only**.
 
 > [!NOTE]

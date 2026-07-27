@@ -1,4 +1,4 @@
----
+﻿---
 title: Impression-based remarketing - Reach people who have viewed your ads
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about impression-based remarketing lists.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Impression-based remarketing: Reach people who have viewed your ads

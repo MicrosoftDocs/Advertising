@@ -1,4 +1,4 @@
----
+﻿---
 title: Import Data using a File
 description: Import your campaign data from other online advertising programs into MSA using a file.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Import data using a file
@@ -18,7 +19,7 @@ If you already have campaigns in other online advertising programs, you can impo
 - It must be an Excel, CSV (comma-separated values), or TSV (tab-separated values) file.
 - Imported column headers must be in Google_Ads or MSA format in order to be recognized.
 - Duplicate keywords will be skipped during import. For example, "Apple" and "apple" will appear as duplicates and will therefore be skipped.
-- Words like “gambling” or “firearms” may require further inspection, so they will either be editorially reviewed and skipped during an import or editorially reviewed after the import.
+- Words like â€œgamblingâ€ or â€œfirearmsâ€ may require further inspection, so they will either be editorially reviewed and skipped during an import or editorially reviewed after the import.
 
 ## Create the file using a MSA template
 
@@ -61,7 +62,7 @@ If both your MSA and your operating system are set to a European locale,
 
 1. Download the file with a decimal point as the delimiter.
 2. Open the file using Excel, which will translate decimal points to commas.
-3. Save it as a “Text (tab delimited)” file, which allows you to modify the document while maintaining commas.
+3. Save it as a â€œText (tab delimited)â€ file, which allows you to modify the document while maintaining commas.
 4. Rename the TXT file to TSV.
 5. Import the file as a TSV file.
 

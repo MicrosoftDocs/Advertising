@@ -1,4 +1,4 @@
----
+﻿---
 title: "Call Extensions: Add a Phone Number"
 description: Add a phone number to your ad that is appropriate for all locations where your ads display.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Call extensions: Add a phone number
@@ -15,11 +16,11 @@ ms.author: jonmeyers
 > - **Ability to set up in:** [all Microsoft Advertising markets](hlp_BA_CONC_Countries.md).
 > - **Serves in**: Available in Australia, the United Kingdom, and the United States on all devices. Available in all other [Microsoft Advertising markets](hlp_BA_CONC_Countries.md) on smartphones only, except for Belgium and China.
 
-Want customers to contact you quickly with just a click or a call? Include a link to your company’s phone number using a call extension. Use a call extension to provide a phone number that's not associated with a particular location but can be used for all locations where your ads are showing. A call extension is a phone number that is displayed directly in your Search ad. You can enter one call extension per campaign.
+Want customers to contact you quickly with just a click or a call? Include a link to your companyâ€™s phone number using a call extension. Use a call extension to provide a phone number that's not associated with a particular location but can be used for all locations where your ads are showing. A call extension is a phone number that is displayed directly in your Search ad. You can enter one call extension per campaign.
 
 :::image type="content" source="media/BA_CONC_Extension_Call.png" alt-text="Call extensions.":::
 
-You can either use your own phone number or use a Microsoft Advertising forwarding phone number. A Microsoft Advertising forwarding phone number is a unique phone number that is routed to your business phone number. With a Microsoft Advertising forwarding number, you can track all calls from your ad so that you can analyze the ad’s performance. Any calls you receive from ads that are clicked are charged per click like regular Search ads.
+You can either use your own phone number or use a Microsoft Advertising forwarding phone number. A Microsoft Advertising forwarding phone number is a unique phone number that is routed to your business phone number. With a Microsoft Advertising forwarding number, you can track all calls from your ad so that you can analyze the adâ€™s performance. Any calls you receive from ads that are clicked are charged per click like regular Search ads.
 
 - To get a Microsoft Advertising forwarding number, an ad group within a campaign using call extensions must have at least 10 clicks and $10.00 in spend in the last 30 days.
 - If a forwarding number is used, you can access reports that provide details like call duration and missed calls on all calls your ads have generated.

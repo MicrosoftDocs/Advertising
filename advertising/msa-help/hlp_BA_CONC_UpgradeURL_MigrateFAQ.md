@@ -1,4 +1,4 @@
----
+﻿---
 title: What are upgraded URLs and how do I upgrade?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Upgraded URLs separate your tracking information from the landing page URL making it easy to update and manage URL tracking. Find out the benefits of Upgraded URLs and how you can upgrade.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are upgraded URLs and how do I upgrade?

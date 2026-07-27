@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - Monitor your campaign's performance
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to keep track of your Smart campaign's performance on the **Campaign details** page.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - Monitor your campaign's performance
@@ -39,7 +40,7 @@ To review the performance of a campaign, or to make changes to it, click either 
   If you want to make changes to any of your ads, click **Edit ads**. [Learn more about crafting effective ads](hlp_BA_CONC_SmartCamps_EffectiveAds.md).
 
 - **Clicks**
-  Here you'll see a performance graph showing how many clicks this campaign's ads have gotten over time. Clicks are a good measure of how appealing your ads are to the people who see them. Clicks are also what you pay for—you only pay Microsoft Advertising when someone clicks your ad.
+  Here you'll see a performance graph showing how many clicks this campaign's ads have gotten over time. Clicks are a good measure of how appealing your ads are to the people who see them. Clicks are also what you pay forâ€”you only pay Microsoft Advertising when someone clicks your ad.
   > [!NOTE]
   > If you recently created this campaign, you will see "No data available" here.
 
@@ -76,13 +77,13 @@ To review the performance of a campaign, or to make changes to it, click either 
   Get more phone calls to my business
 
   > [!NOTE]
-  > If you recently created this campaign—or if your campaign's goal is not **Get more phone calls to my business**—you will see "No data available" here.
+  > If you recently created this campaignâ€”or if your campaign's goal is not **Get more phone calls to my business**â€”you will see "No data available" here.
 
   To change your business phone number, click **Edit phone number**.
 
 - **Products or services**
 
-  Here you'll see the business category and the products or services you selected when you created this campaign. To make changes to these settings—or to change the ads' display language—click **Edit products or services**.
+  Here you'll see the business category and the products or services you selected when you created this campaign. To make changes to these settingsâ€”or to change the ads' display languageâ€”click **Edit products or services**.
 
   [Learn more about how these settings affect who can see your ads](hlp_BA_CONC_SmartCamps_Targeting.md).
 

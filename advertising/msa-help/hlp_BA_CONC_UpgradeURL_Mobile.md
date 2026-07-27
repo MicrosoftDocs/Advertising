@@ -1,4 +1,4 @@
----
+﻿---
 title: Can I set a separate URL for my mobile website?
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out benefits of setting a separate mobile URL.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Can I set a separate URL for my mobile website?

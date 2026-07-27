@@ -1,4 +1,4 @@
----
+﻿---
 title: Save time by automating your campaign
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "Save time and avoid mistakes: Microsoft Advertising can automatically make changes to your campaigns based on certain performance data or date and time."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Save time by automating your campaign

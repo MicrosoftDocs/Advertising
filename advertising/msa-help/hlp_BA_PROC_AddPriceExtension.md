@@ -1,4 +1,4 @@
----
+﻿---
 title: "Price Extensions: Add Prices of Your Products or Services"
 description: Add prices of your products or services on your ads for potential customers.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Price extensions: Add prices of your products or services
@@ -30,7 +31,7 @@ Here are the definitions for the different fields you need to fill in for your p
 | **Type** | The category that best defines your price extension items and specifies the corresponding editorial checks which will be applied to them. |
 | **Currency** | The currency symbol that will be displayed in the ad (for example, $ for USD).<br>You can use the following currencies for price extensions: ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EUR, GBP, HKD, INR, MXN, NZD, PEN, PHP, PLN, SEK, SGD, TRY, TWD, USD, VEF, and ZAR. |
 | **Header** | Similar to ad headline, the header introduces your products or services and appears as a clickable link that directs customers to your final URL. Your header can have up to 25 characters. |
-| **Description** | Additional information about your products or services. Your description can have up to 25 characters. Please note, that you can include 3rd party retailers in your price extension by using the following text pattern: Product name. Product type. – 3rd party retailer name. Price. |
+| **Description** | Additional information about your products or services. Your description can have up to 25 characters. Please note, that you can include 3rd party retailers in your price extension by using the following text pattern: Product name. Product type. â€“ 3rd party retailer name. Price. |
 | **Price Qualifier (optional)** | Indicate prices for a given product or service, starting from a specific price and up to a maximum price. Please note, that you can choose any price value starting at zero. Negative values, however, are restricted. |
 | **Unit (optional)** | Allows you to specify the service cost in terms of hour, day, week, etc. |
 | **Final URL** | The landing page where customers will be taken after clicking your header. Prices on this page should accurately reflect the prices specified in the extension. |

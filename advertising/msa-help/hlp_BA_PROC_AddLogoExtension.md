@@ -1,4 +1,4 @@
----
+﻿---
 title: "Logo Extensions: Add a Logo to Your Ad"
 description: Learn more about adding Logo extensions to your ads.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Logo extensions: Add a logo to your ad
@@ -50,7 +51,7 @@ You can add one square logo per account, campaign, or ad group. Your logos must 
 1. Select **Create** > **Add new Logo extension**.
 1. Add your **Business logo**.
 1. Enter your **Business name**.
-1. Enter the **Domain name** for your business website. For example: “contoso.com”.
+1. Enter the **Domain name** for your business website. For example: â€œcontoso.comâ€.
 
    > [!NOTE]
    > Your domain name shouldn't include any subdirectories.

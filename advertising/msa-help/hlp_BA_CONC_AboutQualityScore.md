@@ -1,4 +1,4 @@
----
+﻿---
 title: Quality score and quality impact in depth
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Your quality score shows you how competitive your ads are in the marketplace. Quality impact is a way to forecast possible impressions resulting from quality improvements.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Quality score and quality impact in depth
@@ -131,7 +132,7 @@ The quality score has three components, and each in turn has a score.
 
 - **Track your quality score changes over time**: You can use the quality score options in performance reports to review historic averages of expected click-through rate, ad relevance, landing page experience, and quality scores going back as far as 18 months from the current date.
 
-- **Your quality score may have suddenly changed — here's what it means**: 
+- **Your quality score may have suddenly changed â€” here's what it means**: 
 If your competitors keep optimizing their campaigns to make them more competitive, that could affect your quality score. Also the quality score is updated every day so changes to any of the components (expected click-through rate, ad relevance, landing page relevance) can impact your quality score. So track your historic quality score in performance reports to monitor changes in your quality score over time. Then respond by making some of the changes recommended above.
 
 - **Run quality score reports for campaigns, ad groups, and keywords**: Microsoft Advertising provides quality scores at the ad group and campaign level by aggregating the quality scores of the keywords associated with those ad groups and campaigns. You can track aggregated quality scores over time [by running campaign and ad group performance reports](https://help.ads.microsoft.com/#apex/ads/en/50833/2) that include the quality score.

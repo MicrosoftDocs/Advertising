@@ -1,4 +1,4 @@
----
+﻿---
 title: Example Custom Events for E-commerce Customers
 description: The following examples show the UET tag modification recommended for various scenarios and page types.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Example custom events for e-commerce customers
@@ -39,7 +40,7 @@ The following examples show the UET tag modification recommended for various sce
   window.uetq = window.uetq || [];
   window.uetq.push('event', '', {
       'ecomm_category': 'REPLACE_WITH_CATEGORY_ID',
-      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', …],
+      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', â€¦],
       'ecomm_pagetype': 'category'
       }
   );
@@ -55,7 +56,7 @@ The following examples show the UET tag modification recommended for various sce
   window.uetq = window.uetq || [];
   window.uetq.push('event', '', {
       'ecomm_query': 'REPLACE_WITH_SEARCH_TERM',
-      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', …],
+      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', â€¦],
       'ecomm_pagetype': 'searchresults'
       }
   );
@@ -87,7 +88,7 @@ The following examples show the UET tag modification recommended for various sce
   <script>
   window.uetq = window.uetq || [];
   window.uetq.push('event', 'add_to_cart', {
-      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', …],
+      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', â€¦],
       'ecomm_pagetype': 'REPLACE_WITH_PAGETYPE',
       'ecomm_totalvalue': REPLACE_WITH_TOTAL_PURCHASE_PRICE,
       'revenue_value': REPLACE_WITH_VALUE_FOR_CONVERSION_REPORTING,
@@ -117,7 +118,7 @@ The following examples show the UET tag modification recommended for various sce
   <script>
   window.uetq = window.uetq || [];
   window.uetq.push('event', '', {
-      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', …],
+      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', â€¦],
       'ecomm_pagetype': 'cart',
       'ecomm_totalvalue': REPLACE_WITH_TOTAL_PURCHASE_PRICE,
       'revenue_value': REPLACE_WITH_VALUE_FOR_CONVERSION_REPORTING,
@@ -148,7 +149,7 @@ The following examples show the UET tag modification recommended for various sce
   window.uetq = window.uetq || [];
   window.uetq.push('event', 'purchase', {
       'transaction_id': 'REPLACE_WITH_TRANSACTION_ID',
-      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', …],
+      'ecomm_prodid': ['REPLACE_WITH_PRODUCT_ID', 'REPLACE_WITH_PRODUCT_ID', â€¦],
       'ecomm_pagetype': 'purchase',
       'ecomm_totalvalue': REPLACE_WITH_TOTAL_PURCHASE_PRICE,
       'revenue_value': REPLACE_WITH_VALUE_FOR_CONVERSION_REPORTING,

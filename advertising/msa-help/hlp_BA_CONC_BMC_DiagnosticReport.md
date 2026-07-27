@@ -1,4 +1,4 @@
----
+﻿---
 title: Diagnostic report for untargeted offers in Microsoft Shopping campaigns
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Download a diagnostic report for untargeted offers in Microsoft Merchant Center to increase your Shopping campaigns' return on investment.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Diagnostic report for untargeted offers in Microsoft Shopping campaigns
 
-To increase your Shopping campaigns’ return on investment, look at the potential of offers that are not targeted. Download a diagnostic report for untargeted offers in Microsoft Merchant Center.
+To increase your Shopping campaignsâ€™ return on investment, look at the potential of offers that are not targeted. Download a diagnostic report for untargeted offers in Microsoft Merchant Center.
 
-A downloadable diagnostic report is available in your Microsoft Merchant Center **Store summary** tab, under the **Diagnostics** section. You’ll see an error message, with a link to download your report.
+A downloadable diagnostic report is available in your Microsoft Merchant Center **Store summary** tab, under the **Diagnostics** section. Youâ€™ll see an error message, with a link to download your report.
 
 ## How can I fix the offers that aren't targeted in the campaigns?
 

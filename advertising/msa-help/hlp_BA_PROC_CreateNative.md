@@ -1,4 +1,4 @@
----
+﻿---
 title: How Do I Create Native Ads?
 description: Learn how to create a campaign that will run ads natively on the Microsoft Advertising Network.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I create Native ads?
@@ -27,7 +28,7 @@ To create Native ads in an existing Audience campaign, follow the instructions b
 1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Ads**.
 1. Select **Create**, and then select an ad group.
 1. For your ad type, select **Native**.
-1. Enter your **Final URL**. This is your landing page URL—in other words, the URL of the page that displays after a customer selects your ad.
+1. Enter your **Final URL**. This is your landing page URLâ€”in other words, the URL of the page that displays after a customer selects your ad.
 1. Below **Images**, add the images you want to appear in your ad.
 
    1. Choose whether to use an image from your **Website images**, pick one of our available **Stock images**, or upload an image.
@@ -48,7 +49,7 @@ To create Native ads in an existing Audience campaign, follow the instructions b
       - For **Audio**, you can choose the **Music** that you'd like to play in your video.
 
       > [!NOTE]
-      > Not everyone has video templates in Ads Studio yet. If you don't, don't worry—it's coming soon!
+      > Not everyone has video templates in Ads Studio yet. If you don't, don't worryâ€”it's coming soon!
    1. Select **Apply** when you're finished editing your videos.
 
    > [!NOTE]
@@ -72,7 +73,7 @@ To create Native ads in an existing Audience campaign, follow the instructions b
 1. (Optional) Choose a **Call to action** from the predefined list. This will provide potential customers with a brief, compelling reason for them to select your ad right now.
 
    > [!NOTE]
-   > “Automated” is the default option for your **Call to action**. If you don't choose a **Call to action** from the predefined list, then it will be automated by default during ad delivery. This means that we'll automatically choose your **Call to action** and the language it serves in.
+   > â€œAutomatedâ€ is the default option for your **Call to action**. If you don't choose a **Call to action** from the predefined list, then it will be automated by default during ad delivery. This means that we'll automatically choose your **Call to action** and the language it serves in.
 1. (Optional) Select **Advanced URL options** to include [tracking templates or URL parameters](hlp_BA_CONC_UpgradeURL_URLParameters.md) in your final URL.
 1. (Optional) Set up your **Impression tracking URLs**.
 1. (Optional) Enter your **Tag URL** under **Third-party measurement** and select **Save**.

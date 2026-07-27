@@ -1,4 +1,4 @@
----
+﻿---
 title: Portfolio bid strategies - Auto-bidding for performance goals
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Portfolio bid strategies manage bids across campaigns and adjust bids on your behalf.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Portfolio bid strategies - Auto-bidding for performance goals
 
 > [!NOTE]
-> Not everyone has cross-account portfolio bid strategies yet. If you don't, don't worry—it's coming soon!
+> Not everyone has cross-account portfolio bid strategies yet. If you don't, don't worryâ€”it's coming soon!
 
 Portfolio bid strategy is an automated bidding feature that manages bidding across multiple accounts or campaigns that are all working toward the same goal.
 
@@ -49,7 +50,7 @@ Learn more: [Let Microsoft Advertising manage your bids with bid strategies](hlp
 ## Create a cross-account portfolio bid strategy
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 1. From the navigation menu on the left, select **Tools** > **Bids & budgets**.
 1. Select **Portfolio bid strategies**.
@@ -87,7 +88,7 @@ Once you've created a portfolio bid strategy, you can associate this to other ca
 
 We highly recommend you either create separate budgets for each campaign you include in a portfolio bid strategy or ensure none of them share a budget with a campaign that's not included.
 
-For example, portfolio bid strategies work best with campaigns that have individual budgets or shared budgets that are all included in the same portfolio bid strategy. This way, they are all working toward the same goal. However, shared budgets with campaigns that are partially included in the portfolio bid strategy, might not perform their best—and neither will the portfolio bid strategies to which they are associated.
+For example, portfolio bid strategies work best with campaigns that have individual budgets or shared budgets that are all included in the same portfolio bid strategy. This way, they are all working toward the same goal. However, shared budgets with campaigns that are partially included in the portfolio bid strategy, might not perform their bestâ€”and neither will the portfolio bid strategies to which they are associated.
 
 If you decide to include a campaign within a portfolio bid strategy that [shares a budget](hlp_BA_CONC_SharedBudgets.md) that's outside of the strategy, we'll let you know it's misconfigured. You can fix this by removing a budget from a campaign and creating a [new individual budget](hlp_BA_CONC_AboutBudgetType.md) for that campaign. You can also add the outside campaign to the portfolio bid strategy.
 

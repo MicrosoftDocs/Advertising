@@ -1,4 +1,4 @@
----
+﻿---
 title: Vertical ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how Vertical ads can generate ads with high-quality placements.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Vertical ads

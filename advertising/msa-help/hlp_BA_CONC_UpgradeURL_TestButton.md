@@ -1,4 +1,4 @@
----
+﻿---
 title: Test your URL tracking
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to test your tracking template to make sure it will send customers to the right landing page.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Test your URL tracking

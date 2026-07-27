@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up bid boost
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Once you create an audience and associate it with an ad group or campaign, you can then increase/decrease the bid amount, or bid boost, for it.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up bid boost

@@ -1,12 +1,13 @@
----
+﻿---
 title: Paying with SEPA Direct Debit
-description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto Bancário, SEPA Direct Debit, and virtual bank account.
+description: Step-by-step instructions on how to add a credit or debit card, PayPal account, bank transfer, Boleto BancÃ¡rio, SEPA Direct Debit, and virtual bank account.
 ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Paying with SEPA Direct Debit

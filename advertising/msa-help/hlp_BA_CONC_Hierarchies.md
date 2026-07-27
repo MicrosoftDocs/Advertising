@@ -1,4 +1,4 @@
----
+﻿---
 title: Hierarchies in Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how a hierarchy of Microsoft Advertising manager accounts and accounts can work for you.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Hierarchies in Microsoft Advertising
@@ -52,7 +53,7 @@ For example, imagine that you manage advertising for a large conglomerate. You w
 
 Each of those manager accounts has control over those below it. Each manager account can also have up to six accounts under it.
 
-As a central folder, a manager account allows you to share important items—such as users, user roles, payment methods, and campaign resources like Universal Event Tracking (UET) tags and remarketing lists—across multiple accounts. And as you add accounts, you're able to leverage the manager account's central folder, thereby saving you time and effort by eliminating duplicate data entry.
+As a central folder, a manager account allows you to share important itemsâ€”such as users, user roles, payment methods, and campaign resources like Universal Event Tracking (UET) tags and remarketing listsâ€”across multiple accounts. And as you add accounts, you're able to leverage the manager account's central folder, thereby saving you time and effort by eliminating duplicate data entry.
 
 When you go to the account level, you're freed to focus on campaign management within that space. Accounts are home to campaigns, ad groups, keywords, and budgets. The settings for accounts can also be customized to the needs of a marketplace. You can specify things such as an account's currency, time zone, and payment setting, which could all be different from account to account. You'll find this flexibility useful if, for example, your business targets customers in Canada, Mexico, and the United States, and you must track campaign performance by country and pay for advertising in different currencies.
 

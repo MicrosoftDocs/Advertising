@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising on Shopify - The Microsoft Channel app
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising and Shopify are partnering up to create a Microsoft Channel app for Shopify.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising on Shopify: The Microsoft Channel app
@@ -33,11 +34,11 @@ Microsoft Advertising and Shopify have partnered up to create a Microsoft Channe
   1. Select **Connect Microsoft account**.
   1. Select **Continue** once you've read through [Shopify's Privacy Policy](https://help.shopify.com/en/manual/apps/app-personal-information).
   1. In the window that opens automatically, sign in to your Microsoft account or [create a new Microsoft account](https://go.microsoft.com/fwlink/?linkid=398340).
-  1. Once you're signed in, you'll see you're in a page titled “Set up Microsoft Advertising” in Shopify.
+  1. Once you're signed in, you'll see you're in a page titled â€œSet up Microsoft Advertisingâ€ in Shopify.
 
 - **Configure your Microsoft Channel app in Shopify**
 
-  In the “Set up Microsoft Advertising” page in Shopify, you'll see you're connected to the account you signed in to in the above steps. You'll need to ensure you meet the conditions of Shopify's **Requirement Check List** to continue.
+  In the â€œSet up Microsoft Advertisingâ€ page in Shopify, you'll see you're connected to the account you signed in to in the above steps. You'll need to ensure you meet the conditions of Shopify's **Requirement Check List** to continue.
 
   Once you meet all of Shopify's conditions, you're ready to configure your Microsoft Channel.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Customer Match - Use your own data to find customers
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to upload your own customer match lists to Microsoft Advertising and then target this audience.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Customer match - Use your own data to find customers
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 With customer match, you can use the email addresses your customers have shared with you to reengage with them across the [Microsoft Advertising Network](hlp_BA_CONC_AboutAdvertisingNetwork.md) through both search and Audience ads. You can [link Zapier to your Microsoft Advertising account](#link-zapier-to-your-account) to automate your customer match lists across the applications you use for your business. This makes it easy to create lists and add or remove contacts all in one place.
 

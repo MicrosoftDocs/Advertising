@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising promotional offers (coupons)
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Everything you need to know about using promotional offers on Microsoft Advertising.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising promotional offers (coupons)

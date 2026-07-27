@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a Microsoft Advertising account and campaign
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about creating an account
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a Microsoft Advertising account and campaign

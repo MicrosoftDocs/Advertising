@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ - UET and user consent
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising requires advertisers using our Universal Event Tag (UET) to provide user consent signals, by implementing either Consent Mode for UET or the IAB's Transparency and Consent Framework (TCF) on their websites.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # FAQ - UET and user consent
@@ -174,18 +175,18 @@ description: Microsoft Advertising requires advertisers using our Universal Even
   1. UET Tag Helper
 
      - Documentation: [Setting up UET for Consent Mode](hlp_BA_CONC_UET_Consent.md)
-     - Consent Mode: To validate your UET Consent Mode implementation via the UET Tag Helper, check the asc parameter in the Page Load event once the UET tag is fired. This should be set to “G” when consent is granted and “D” when consent has been denied
-     - TCF: To validate your UET TCF implementation via the UET Tag Helper, check the TCF parameter in the Page Load event - if consent is granted, you will see “&ms=G”
+     - Consent Mode: To validate your UET Consent Mode implementation via the UET Tag Helper, check the asc parameter in the Page Load event once the UET tag is fired. This should be set to â€œGâ€ when consent is granted and â€œDâ€ when consent has been denied
+     - TCF: To validate your UET TCF implementation via the UET Tag Helper, check the TCF parameter in the Page Load event - if consent is granted, you will see â€œ&ms=Gâ€
   1. Web Browser Checks - Developer Tools:
 
      - The following code snippets can be executed in the Browser Developer Tools Console:
 
-       - For TCF: window.uetq.uetConfig.tcf.enabled (will return “true” if the UET TCF code has been implemented correctly)
+       - For TCF: window.uetq.uetConfig.tcf.enabled (will return â€œtrueâ€ if the UET TCF code has been implemented correctly)
        - For UET Consent Mode:
 
-         - window.uetq.uetConfig.consent.adStorageAllowed (will return “true” when cookie consent has been granted, “false” when cookie consent has been denied or before cookie consent is accepted)
-         - window.uetq.uetConfig.consent.enabled (will return “true” if the UET Consent Mode is correctly implemented and enabled)
-         - window.uetq.uetConfig.consent.enforced (will return “false” after accepting/denying cookies)
+         - window.uetq.uetConfig.consent.adStorageAllowed (will return â€œtrueâ€ when cookie consent has been granted, â€œfalseâ€ when cookie consent has been denied or before cookie consent is accepted)
+         - window.uetq.uetConfig.consent.enabled (will return â€œtrueâ€ if the UET Consent Mode is correctly implemented and enabled)
+         - window.uetq.uetConfig.consent.enforced (will return â€œfalseâ€ after accepting/denying cookies)
          - For instructions on how to open and use Developer Tools go [here](https://learn.microsoft.com/en-us/microsoft-edge/devtools/overview).
 
 - **Why am I being impacted by consent enforcement when the official date to adopt Consent Mode is/was May 5, 2025?**

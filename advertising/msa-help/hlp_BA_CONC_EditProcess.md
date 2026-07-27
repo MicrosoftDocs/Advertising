@@ -1,4 +1,4 @@
----
+﻿---
 title: The editorial review
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the quality check we perform on all ad components when they are submitted.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # The editorial review
 
-All components of your ads—ad text, assets, keywords, ad extensions, and ad customizers—must pass an editorial review. This is a quality check to help ensure that ads are appropriate for potential customers. After you submit a component, the content goes through an initial review to ensure that it meets [Microsoft Advertising policies](hlp_BA_CONC_EditorialGuidelines.md). If your ad components don't raise any flags, they pass the review and become active.
+All components of your adsâ€”ad text, assets, keywords, ad extensions, and ad customizersâ€”must pass an editorial review. This is a quality check to help ensure that ads are appropriate for potential customers. After you submit a component, the content goes through an initial review to ensure that it meets [Microsoft Advertising policies](hlp_BA_CONC_EditorialGuidelines.md). If your ad components don't raise any flags, they pass the review and become active.
 
 If a component does not pass the initial review, an additional review takes place, which can take several hours based on the volume of reviews moving through the system at any given time. Several situations might trigger an additional review, including:
 

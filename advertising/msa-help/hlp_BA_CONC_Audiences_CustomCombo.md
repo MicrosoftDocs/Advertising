@@ -1,4 +1,4 @@
----
+﻿---
 title: Combined Lists - Mix and match audiences to reach just the right customers
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to combine audiences to reach just the right set of customers.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Combined lists - Mix and match audiences to reach just the right customers
 
 > [!IMPORTANT]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 With combined lists, you combine existing audience lists to create a new one. Combine lists using AND, OR, and NOT conditions to reach just the right set of customers.
 

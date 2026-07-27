@@ -1,4 +1,4 @@
----
+﻿---
 title: Ways to use automated rules
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising can save you time by automatically making changes to your campaigns based on criteria you define. These are called automated rules. Here are a few ways to use the rules to help with campaign management.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Ways to use automated rules
 
-Microsoft Advertising can save you time by automatically making changes to your campaigns based on criteria you define. These are called automated rules. Here are a few ways to use the rules to help with campaign management (the settings provided are for example only—adjust yours as appropriate for your own campaign and advertising goals):
+Microsoft Advertising can save you time by automatically making changes to your campaigns based on criteria you define. These are called automated rules. Here are a few ways to use the rules to help with campaign management (the settings provided are for example onlyâ€”adjust yours as appropriate for your own campaign and advertising goals):
 
 ## FAQ
 
@@ -91,7 +92,7 @@ Microsoft Advertising can save you time by automatically making changes to your 
 
 ## Notify me when
 
-You can also set an automated rule to notify you by email—but not to make any changes—when certain criteria are met.
+You can also set an automated rule to notify you by emailâ€”but not to make any changesâ€”when certain criteria are met.
 
 1. From the Campaigns, Ad Groups, Ads, or Keywords tab, select the checkbox next to your chosen campaign, ad group, ad, or keyword.
 1. Select **Automate** and then select **Notify me when...**).

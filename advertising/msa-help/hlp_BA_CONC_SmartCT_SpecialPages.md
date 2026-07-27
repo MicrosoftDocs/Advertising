@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - Define special pages of your website
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Tell us which pages are most important to your business, and we can give you specific data on customer actions on those pages.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - define special pages of your website
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Some pages on your website are more important than others, depending on your business goal. You can define these as **Special pages** when you [set up customer action tracking](hlp_BA_CONC_SmartCT_Intro.md). Microsoft Advertising can then give you more detailed information on how customers interact with these pages. This is the insight you need to ensure you're getting the return on investment (ROI) you want from your ad campaign.
 

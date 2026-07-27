@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ - Modeled conversions
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: This FAQ explains how Microsoft Advertising uses modeled conversions to supplement conversion tracking when user consent isn't provided. It covers how UET consent mode works, the benefits and eligibility of modeled conversions, where to find modeled conversion data in reports, and best practices for advertisers to maximize results while respecting user privacy.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # FAQ - Modeled conversions
@@ -43,12 +44,12 @@ This FAQ answers common questions about how modeled conversions work, their bene
 - **What are the eligibility requirements for modeled conversions?**
   Modeled conversions may be applied to an account when the following criteria are met:    
 
-  - Advertisers are using UET conversion tracking—offline conversions don't apply.
+  - Advertisers are using UET conversion trackingâ€”offline conversions don't apply.
   - Advertisers have correctly implemented UET Consent Mode or a similar framework (applicable for EEA, Great Britain, and Switzerland markets).
   - The account meets a minimum weekly click threshold of 700 ad clicks in the targeted market.
 
   > [!NOTE]
-  > Not all accounts that meet these criteria will necessarily receive modeled conversions. An account must also meet the confidence threshold to continue receiving them. Eligible accounts will automatically start receiving modeled conversions, and you can expect to gradually see these conversions appear in your reporting—along with likely improvements in reported performance.
+  > Not all accounts that meet these criteria will necessarily receive modeled conversions. An account must also meet the confidence threshold to continue receiving them. Eligible accounts will automatically start receiving modeled conversions, and you can expect to gradually see these conversions appear in your reportingâ€”along with likely improvements in reported performance.
 
 - **What best practices should advertisers follow to maximize the benefits of modeled conversions?**
   The best practices to ensure you continue receiving optimal results from modeled conversions include:

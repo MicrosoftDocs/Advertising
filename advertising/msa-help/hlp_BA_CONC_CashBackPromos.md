@@ -1,4 +1,4 @@
----
+﻿---
 title: About automatic Cash back promotions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about how Cash back promotions can help you optimize your campaign and drive sales.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About automatic Cash back promotions
@@ -45,7 +46,7 @@ Your cash back offers will appear as ad decorations during ad delivery, as shown
 
   We automatically enable Cash back promotions for ad campaigns in the retail segment that meet the following requirements:
 
-  - Conversions are of type “Purchase.”
+  - Conversions are of type â€œPurchase.â€
   - Campaigns are using a compatible bidding strategy that is optimized for growing conversions and conversion values. Your campaign's budget amount must also be able to support Cash back promotions.
   - Active campaigns with good campaign performance metrics.
 

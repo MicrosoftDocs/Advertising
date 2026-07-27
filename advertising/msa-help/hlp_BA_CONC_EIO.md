@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I create and edit an insertion order?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you have invoice billing set up for your account, you can pay your bills using insertion orders. An insertion order is a contract that sets a monthly limit on your spend.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I create and edit an insertion order?
@@ -167,7 +168,7 @@ Here's a list of common tasks for managing your insertion orders.
 
 ## Bulk tasks via file
 
-Save time with bulk editing. By using the export and import process, you can add, approve, cancel, decline, and edit insertion orders—all at the same time through a single file.
+Save time with bulk editing. By using the export and import process, you can add, approve, cancel, decline, and edit insertion ordersâ€”all at the same time through a single file.
 
 - **Export data to a file**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Using local inventory ad reports
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about the different local inventory ad reports you can view.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using local inventory ad reports
@@ -19,9 +20,9 @@ Now that your local inventory ads are up and running, you'll want to keep track 
 The following click type data is available for the reports listed below:
 
 - **Shopping ad:** A click on your ad, showing an online product.
-- **Shopping ad—local:** A click on your ad, showing a local product.
-- **Shopping ad—multichannel local:** A click on the local section of your ad that has two links—one click to the local product and another click to the online product.
-- **Shopping ad—multichannel online:** A click on the in-store decoration will result in the multichannel local click reporting. A click on the main ad with the in-store decoration will result in the multichannel online click.
+- **Shopping adâ€”local:** A click on your ad, showing a local product.
+- **Shopping adâ€”multichannel local:** A click on the local section of your ad that has two linksâ€”one click to the local product and another click to the online product.
+- **Shopping adâ€”multichannel online:** A click on the in-store decoration will result in the multichannel local click reporting. A click on the main ad with the in-store decoration will result in the multichannel online click.
 
 ## Availability
 
@@ -36,7 +37,7 @@ We are working with retailers who have physical stores in the United Kingdom and
   1. In the **Choose your columns** section, add the **Click type** attribute.
   1. Select **Run** to generate the report, or **Download** to get the report as a CSV or TSV file.
 
-  You can show products sold only in local stores but not online by setting the filters to “Click type”: “Shopping ad—Local”.
+  You can show products sold only in local stores but not online by setting the filters to â€œClick typeâ€: â€œShopping adâ€”Localâ€.
 
 - **Using reports to track local inventory ads**
 

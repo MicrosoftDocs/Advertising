@@ -1,4 +1,4 @@
----
+﻿---
 title: Pinned call extensions for Vertical ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about pinned call extensions for Vertical ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Pinned call extensions for Vertical ads
@@ -40,7 +41,7 @@ Any calls you receive from ads that are clicked are charged per click, similar t
 You can enter one call extension per campaign.
 
 1. From the navigation menu on the left, hover over **Campaigns** and select **Ads & extensions** > **Extensions**.
-1. Select the campaign for which you’d like to create a pinned call extension.
+1. Select the campaign for which youâ€™d like to create a pinned call extension.
 1. Select **Create**.
 1. Enter an eligible phone number.
 1. Under **Mobile format**, select **Show both my website and the phone number**.

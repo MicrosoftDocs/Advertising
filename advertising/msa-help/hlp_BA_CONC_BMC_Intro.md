@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Merchant Center
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: 
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Merchant Center
@@ -80,7 +81,7 @@ Product ads allow you to include product details such as image and price within 
 
   - **Claim your website destination URL**
 
-    You claim your verified website destination URL by creating a Microsoft Merchant Center store and specifying your website in the “Destination URL” field.
+    You claim your verified website destination URL by creating a Microsoft Merchant Center store and specifying your website in the â€œDestination URLâ€ field.
 
   Once you have claimed your website destination URL, the next step is to create your Microsoft Merchant Center store.
 
@@ -120,7 +121,7 @@ Product ads allow you to include product details such as image and price within 
   - Attempting to claim an unverified domain.
   - The Microsoft Advertising customer has been identified as an adult advertiser.
   - Lack of presence in the markets supported for Product ads by Microsoft Advertising.
-  - Lack of a “real” privacy policy on website.
+  - Lack of a â€œrealâ€ privacy policy on website.
   - Non-encrypted (non-SSL) checkout. You will want to verify that your SSL certificates are valid.
 
   **Creating multiple stores**
@@ -156,7 +157,7 @@ Product ads allow you to include product details such as image and price within 
 
     1. Open Microsoft Excel or other spreadsheet program.
     1. Create a header row in the first row entering the attribute names that would be used to describe products. <br> Be sure each attribute is in its own column and you include all [required attributes](hlp_BA_CONC_AboutBingMerchantCenterCatalogFile.md).
-    1. Enter your product offer information in the rows below the header row, using one row for each product. <br> Each item's attribute values should be listed in the same column as the corresponding header attribute name. This means a product's id must be in the column with header attribute “id”.
+    1. Enter your product offer information in the rows below the header row, using one row for each product. <br> Each item's attribute values should be listed in the same column as the corresponding header attribute name. This means a product's id must be in the column with header attribute â€œidâ€.
     1. Save your spreadsheet as a tab delimited excel file. If using Microsoft Excel, save as Text (Tab delimited) (TXT).
 
     - **How do I update the feed file?**
@@ -182,7 +183,7 @@ Product ads allow you to include product details such as image and price within 
     You can use this option if the feed file is smaller than 4MB.
 
       1. From the navigation menu on the left, select **Tools** > **Merchant Center**.
-      1. Select the store name and then the **Feeds** tab. Select the checkbox beside the feed file’s associated feed.
+      1. Select the store name and then the **Feeds** tab. Select the checkbox beside the feed fileâ€™s associated feed.
       1. Select **Update feed**.
       1. Under **Input method**, select **Manually upload**.
       1. Browse for feed file and select **Update feed**.
@@ -195,13 +196,13 @@ Product ads allow you to include product details such as image and price within 
       1. Select the store name and then the **Feeds** tab. Select the checkbox beside the feed file's associated feed.
       1. Select **Update feed**.
       1. Under **Input method**, select **Upload file via FTP/SFTP**
-      1. Enter **File name**. Do not include the file extension. For example, “merchant”.
+      1. Enter **File name**. Do not include the file extension. For example, â€œmerchantâ€.
       1. Select **Update feed**.
       1. If necessary, select **change FTP account** and update your FTP user name and password. <br>Your user name must be 6 - 64 characters and cannot include any special characters. Use only a - z, A- Z, and 0 - 9.<br> You can now upload the file of specified file name via the FTP tool of your choice.
 
       **FTP server requirements**
 
-      The recommended FTP upload mechanism is via an FTP program. It is however possible to do so via the command line or custom scripts (such as Python’s ftplib.FTP module). The FileZilla FTP client is recommended for all platforms.
+      The recommended FTP upload mechanism is via an FTP program. It is however possible to do so via the command line or custom scripts (such as Pythonâ€™s ftplib.FTP module). The FileZilla FTP client is recommended for all platforms.
 
       Use the following settings for file transfer with your FTP client:
 
@@ -244,7 +245,7 @@ Product ads allow you to include product details such as image and price within 
     > If the following file format requirements are not met, your feed file will not be processed.
 
     - File must be tab delimited plain text with extensions: TXT, ZIP, GZ, GZIP, TAR.GZ, TGZ. <br> - XML files are also accepted (if Google-formatted).
-    - If uploading via FTP, the file name of TXT or XML files have to match the file name specified for a feed’s settings. <br> In the case of compressed text format, the compressed TXT file inside the archive (ZIP, GZ, GZIP, TAR.GZ, TGZ) must have the matching file name. Any feed file that is archived needs to have a single compressed file inside.
+    - If uploading via FTP, the file name of TXT or XML files have to match the file name specified for a feedâ€™s settings. <br> In the case of compressed text format, the compressed TXT file inside the archive (ZIP, GZ, GZIP, TAR.GZ, TGZ) must have the matching file name. Any feed file that is archived needs to have a single compressed file inside.
     - File must start with a single header row.
     - Each product offer has to be on a separate line of the file.
     - Do not include HTML in the text files.
@@ -266,4 +267,4 @@ Product ads allow you to include product details such as image and price within 
     | **Any Unicode symbol** | Brand, Title, Description |
 
 > [!NOTE]
-> Next up—take a closer look at all you need to know about [feed files](hlp_BA_CONC_BMC_FeedFiles.md).
+> Next upâ€”take a closer look at all you need to know about [feed files](hlp_BA_CONC_BMC_FeedFiles.md).

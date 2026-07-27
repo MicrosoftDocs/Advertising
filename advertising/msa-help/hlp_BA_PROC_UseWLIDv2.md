@@ -1,4 +1,4 @@
----
+﻿---
 title: Sign in to Microsoft Advertising
 description: Find out how to sign in.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Sign in to Microsoft Advertising

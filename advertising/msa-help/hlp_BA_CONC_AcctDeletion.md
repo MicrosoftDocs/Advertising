@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I delete my account?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you aren't planning on using your account again, you can delete it from the Accounts & Billing page. Only delete an account if you have no plans to use it in the future.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I delete my account?
 
-Was it something we did—or didn't do? Breaking up is hard. Phone us and [contact support](https://go.microsoft.com/fwlink/?linkid=398371) to discuss your concerns and talk about your options. We can coach you through performance issues and you can get tips on best practices to getting your ads in front of the right customers. Or, if you wish, we can help you deactivate your account.
+Was it something we didâ€”or didn't do? Breaking up is hard. Phone us and [contact support](https://go.microsoft.com/fwlink/?linkid=398371) to discuss your concerns and talk about your options. We can coach you through performance issues and you can get tips on best practices to getting your ads in front of the right customers. Or, if you wish, we can help you deactivate your account.
 
 ## Troubleshooting performance issues
 

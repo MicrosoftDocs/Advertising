@@ -1,4 +1,4 @@
----
+﻿---
 title: "Review Extensions: Share Positive Reviews"
 description: Add reputable third-party reviews to your ad with a review extension.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Review extensions: Share positive reviews

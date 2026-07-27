@@ -1,4 +1,4 @@
----
+﻿---
 title: UET and Clarity integration
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can enable UET tags for Clarity. Use one UET tag for conversion tracking, remarketing, and visual analytics.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # UET and Clarity integration
 
-[Clarity](https://go.microsoft.com/fwlink/?linkid=2167826) is Microsoft’s free behavioral analysis tool that helps you understand how customers interact with your website. By integrating Universal Event Tracking (UET) with Clarity, you can use a single UET tag for behavioral insights such as heatmaps and session playbacks, conversion tracking, automated bidding, and audience targeting. Once enabled, your UET tag sends data, or signals, from your website to Clarity.
+[Clarity](https://go.microsoft.com/fwlink/?linkid=2167826) is Microsoftâ€™s free behavioral analysis tool that helps you understand how customers interact with your website. By integrating Universal Event Tracking (UET) with Clarity, you can use a single UET tag for behavioral insights such as heatmaps and session playbacks, conversion tracking, automated bidding, and audience targeting. Once enabled, your UET tag sends data, or signals, from your website to Clarity.
 
 ## Enable or disable Clarity for an existing active or inactive UET tag
 

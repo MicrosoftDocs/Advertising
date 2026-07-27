@@ -1,4 +1,4 @@
----
+﻿---
 title: Minimum bid for Microsoft shopping campaigns
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about Shopping campaigns and the benefits of using them.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Minimum bid for Microsoft shopping campaigns

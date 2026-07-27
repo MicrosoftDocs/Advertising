@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Use Regular Expressions When Building Destination URLs or Custom Event Type Goals
 description: Find out how to use regular expressions to build destination URLs or custom event conversion goals.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to use regular expressions when building destination URLs or custom event type goals
@@ -41,7 +42,7 @@ ms.author: jonmeyers
   - Suppose that the conversion URLs have different subdomains.
 
     - **Destination URL**: <br> http://domain1.contoso.com/products/fancyjewelry/checkout.html <br> http://domain2.contoso.com/products/fancycar/checkout.html
-    - **Regular expression**: <br> http:\/\/[a-z]*[0-9]*\.contoso\.com\/products\/((fancyjewelry)|(fancycar))\/checkout\.html​
+    - **Regular expression**: <br> http:\/\/[a-z]*[0-9]*\.contoso\.com\/products\/((fancyjewelry)|(fancycar))\/checkout\.htmlâ€‹
 
       - * is a wildcard character
       - [a-z] implies any text string
@@ -60,4 +61,4 @@ ms.author: jonmeyers
 
   > [!NOTE]
   > - In the unlikely case that both you and Microsoft Advertising support aren't able to define a regex for your conversion URLs, you can provision a new UET tag, put the tag only on the conversion pages and create a Destination URL goal with a dummy condition (such as contains) that always evaluates to true. Because the tag will be fired only on the conversion URLs, you will be tracking only visits to those pages as conversions.
-  > - Regular expressions is a complex topic. There are free tools available online (for example: http://www.regexr.com/) that can assist you in building and validating their regular expression patterns with your conversion URLs. ​ ​
+  > - Regular expressions is a complex topic. There are free tools available online (for example: http://www.regexr.com/) that can assist you in building and validating their regular expression patterns with your conversion URLs. â€‹ â€‹

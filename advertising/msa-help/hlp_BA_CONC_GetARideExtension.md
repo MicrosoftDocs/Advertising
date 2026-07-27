@@ -1,4 +1,4 @@
----
+﻿---
 title: Add a get a ride icon to your ad
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Add a clickable Get a Ride icon to your ads, a feature for location extensions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Add a get a ride icon to your ad

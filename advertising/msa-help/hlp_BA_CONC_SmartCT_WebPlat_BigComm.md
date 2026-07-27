@@ -1,4 +1,4 @@
----
+﻿---
 title: Smart campaigns - Add tracking tags using BigCommerce
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you built your website on BigCommerce, read this article to learn how to set up tracking tags on it.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Smart campaigns - Add tracking tags using BigCommerce

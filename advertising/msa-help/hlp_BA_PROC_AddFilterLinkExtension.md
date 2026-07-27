@@ -1,4 +1,4 @@
----
+﻿---
 title: "Filter Link Extensions: Add Clickable Product or Feature Categories"
 description: Add multiple categories of products or features with unique links to each of these offerings.
 ms.date: 5/30/2026
@@ -7,17 +7,18 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Filter link extensions: Add clickable product or feature categories
 
-If you have multiple products, services or offerings that have dedicated pages on your website, the filter link extension offers a way to surface those links directly in your Search ad. Potential customers can quickly preview your key offerings and head directly to what they’re looking for.
+If you have multiple products, services or offerings that have dedicated pages on your website, the filter link extension offers a way to surface those links directly in your Search ad. Potential customers can quickly preview your key offerings and head directly to what theyâ€™re looking for.
 
 Use filter link extensions to list multiple categories of products or features with unique links to each of these offerings. Easily combined with other extensions, filter link extensions can enlarge your ad format even further and present multiple avenues to different parts of your site, in addition to your final URL.
 
 :::image type="content" source="media/BA_Conc_Extension_FilterLink.png" alt-text="Filter link extensions.":::
 
-Choose from 36 header categories for example, Price, Deals, or Flowers. Then you can list up to 10 key products and offerings for each category—each with their own URLs—so users can quickly navigate to these additional destinations.
+Choose from 36 header categories for example, Price, Deals, or Flowers. Then you can list up to 10 key products and offerings for each categoryâ€”each with their own URLsâ€”so users can quickly navigate to these additional destinations.
 
 Filter link extensions operate nearly the same as structured snippet extensions. They are both free to add and allow you to list offerings based on predefined categories, but filter link extensions allow you to include individual links to locations other than your final URL.
 
@@ -51,7 +52,7 @@ Standard ad extension reports are available. Filter link extensions are reported
 |  | Callout | Filter link | Structured snippet |
 | --- | --- | --- | --- |
 | **When to use** | Showcase what makes your products or services unique. | Create multiple links in your ad to specific products or services. | Provide more context on specific aspects of your products or services. |
-| **Example** | "Free shipping • 24/7 Support" | "Price: Under $20 • $20-$30 • $30-$50 • $50-$100 • $100-$150 • $150+" | "Brands: Windows, Xbox, Skype" |
+| **Example** | "Free shipping â€¢ 24/7 Support" | "Price: Under $20 â€¢ $20-$30 â€¢ $30-$50 â€¢ $50-$100 â€¢ $100-$150 â€¢ $150+" | "Brands: Windows, Xbox, Skype" |
 | **Character limit** | 25 characters per callout | 25 characters per value | 25 characters per value |
 | **Minimum number** | 2 callouts | 3 values | 3 values |
 | **Maximum number** | 4 callouts | 10 values | Based on value length and screen size |

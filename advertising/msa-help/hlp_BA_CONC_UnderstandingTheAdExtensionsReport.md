@@ -1,4 +1,4 @@
----
+﻿---
 title: Understanding the ad extension report
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Want insight into which ad extensions are getting the most impressions and clicks? The different ad extension reports (on the reports page) and the call forwarding detail report (on both the reports page and dimensions tab) are where to look.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding the Ad extension report
 
 There are four types of ad extension reports:
 
-- **Ad extension by keyword:** This report shows performance metrics for all ad extension types and click types, which are ad components that can be clicked (for example, the ad title or driving directions). You can see how many ad extension impressions you’re receiving for each keyword, and which click type is getting the most clicks and impressions. When you include the click type column, this report shows you how your ad is performing relative to different ad extensions.
+- **Ad extension by keyword:** This report shows performance metrics for all ad extension types and click types, which are ad components that can be clicked (for example, the ad title or driving directions). You can see how many ad extension impressions youâ€™re receiving for each keyword, and which click type is getting the most clicks and impressions. When you include the click type column, this report shows you how your ad is performing relative to different ad extensions.
 - **Ad extension by ad:** This report contains the same information as Ad extension by keyword reports, sorted by ads rather than keywords.
 - **Ad extension details:** This report shows performance metrics measured when different ad extensions appear in the ad. That helps you analyze which ad extension gets better impressions and clicks results.
 - **Call forwarding details:** Shows the time and duration of each phone call that originated from a call extension that uses the Microsoft Advertising forwarding number. The report helps you understand how the accounts, campaigns, or ad groups are performing with call extensions.

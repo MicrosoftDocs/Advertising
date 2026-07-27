@@ -1,4 +1,4 @@
----
+﻿---
 title: Get started with Microsoft Shopping campaigns
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about what you need to do to get started with Shopping campaigns.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get started with Microsoft Shopping campaigns
@@ -71,7 +72,7 @@ When you have the same product is in multiple Shopping campaigns, you can use ca
 
   *Example 2*
 
-  You may have two different Shopping campaigns with some overlapping products and overlapping targets—perhaps one is set to target all locations and the other is set to target the United States (U.S.) only. If you're in the U.S. and your goal is to advertise there first, then you'd have to set the U.S.-only campaign to a **High** campaign priority and the campaign set to target all locations to a lower priority. This way, you use campaign priority as a tie breaker for the overlapping products. In other words, the U.S.-only campaign will bid with all the overlapping products. Then, once its budget is exhausted, the campaign set to all locations would surface, including those overlapping products.
+  You may have two different Shopping campaigns with some overlapping products and overlapping targetsâ€”perhaps one is set to target all locations and the other is set to target the United States (U.S.) only. If you're in the U.S. and your goal is to advertise there first, then you'd have to set the U.S.-only campaign to a **High** campaign priority and the campaign set to target all locations to a lower priority. This way, you use campaign priority as a tie breaker for the overlapping products. In other words, the U.S.-only campaign will bid with all the overlapping products. Then, once its budget is exhausted, the campaign set to all locations would surface, including those overlapping products.
 
 - **Campaign priority's rules to determine bids**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: About Smart Image Cropping
 description: Learn more about smart image cropping.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About smart image cropping

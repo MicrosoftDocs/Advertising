@@ -1,4 +1,4 @@
----
+﻿---
 title: How to report variable revenue with UET
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Conversions can range from downloading white papers to submitting contact forms and making purchases. Very often these conversions have a revenue value associated with them that you can use to track the Return on ad spend (ROAS) on Microsoft Advertising. UET allows you to report revenue for this purpose.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to report variable revenue with UET

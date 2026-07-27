@@ -1,4 +1,4 @@
----
+﻿---
 title: Using generative AI to improve campaigns and find the answers you need
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about generative AI tools in Microsoft Advertising.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using generative AI to improve campaigns and find the answers you need
@@ -109,7 +110,7 @@ We offer the following to help fine-tune your ads and campaigns:
   Video generation
 
   > [!NOTE]
-  > Copilot-generated videos are available for Native ads and Video ads. Not everyone can add Copilot-generated videos to their Native ads yet. If you can't, don't worry—it's coming soon!
+  > Copilot-generated videos are available for Native ads and Video ads. Not everyone can add Copilot-generated videos to their Native ads yet. If you can't, don't worryâ€”it's coming soon!
 
   Copilot assembles 15-second videos based on images from your **Final URL** with sound and text overlays. You may choose to add and edit the videos during campaign creation. For more information about adding Copilot-generated videos to your campaign, see [How do I create Native ads?](hlp_BA_PROC_CreateNative.md) and [About Online Video ads](hlp_BA_CONC_AboutVideoAds.md).
 
@@ -122,7 +123,7 @@ We offer the following to help fine-tune your ads and campaigns:
 - **Brand kit**
 
   > [!NOTE]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   Brand kit allows you to add and manage your brand identity for your ads. Choose the assets that best represent your brand, such as logos, images, colors, and fonts. Once created, your brand kit will be available for you to use in your campaigns. For more information about creating a brand kit, see [About Ads Studio](hlp_BA_CONC_AdStudio.md).
 
@@ -132,14 +133,14 @@ We offer the following to help fine-tune your ads and campaigns:
 - **Display templates**
 
   > [!NOTE]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   You can create visually appealing templates for your Display ads to save time during campaign creation. Simply choose from our set of templates and tailor its assets to suit your campaign. Then, you can seamlessly create Display ads using your templates. For more information about Display templates, see [About Ads Studio](hlp_BA_CONC_AdStudio.md).
 
 - **Video templates**
 
   > [!NOTE]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
   Save time during campaign creation by using our eye-catching, predefined video templates. You can choose which templates best suit your advertising needs and edit them to align with your campaign goals. After you've saved your video, you can add it to your Mobile App campaigns, Native ads, Online Video ads, and Premium Streaming campaigns.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Did I bid high enough?
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: How Microsoft Advertising can help you decide how much to bid.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Did I bid high enough?

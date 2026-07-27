@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up UET Tags Using BigCommerce
 description: If you built your website on BigCommerce, read this article to learn how to set up UET tags on it.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up UET tags using BigCommerce
@@ -25,7 +26,7 @@ If you created and manage your website with BigCommerce, you can add and manage 
 1. From your BigCommerce dashboard, go to **Storefront** > **Footer Scripts**.
 1. Paste the Microsoft Advertising UET tracking code into the script box and select **Save**.
 
-If you want to track completed purchases as conversions and report variable revenue, please refer to BigCommerce’s support page to learn how to set up the goals and track the conversions. Here's an example:
+If you want to track completed purchases as conversions and report variable revenue, please refer to BigCommerceâ€™s support page to learn how to set up the goals and track the conversions. Here's an example:
 
 1. From your BigCommerce dashboard, go to **Advanced Settings** > **Affiliate conversion tracking**.
 1. Paste in your UET tracking code and then append the following code to the end of the UET tracking code: `<window.uetq = window.uetq || [];window.uetq.push({ 'revenue_value': '%%ORDER_AMOUNT%%'});>`

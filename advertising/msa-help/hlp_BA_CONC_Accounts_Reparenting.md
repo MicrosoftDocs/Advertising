@@ -1,4 +1,4 @@
----
+﻿---
 title: Transferring accounts to a new owner
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: In Microsoft Advertising, most advertisers will only have one manager account containing one or two accounts under it that serve ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Transferring accounts to a new owner
@@ -27,7 +28,7 @@ In Microsoft Advertising, most advertisers will only have one manager account co
 
 - **What to expect**
 
-  Once your request is submitted and approved, a simple account transfer may be processed within 20 minutes. However, some transfers will take up to 24 hours, particularly if you’re moving accounts that contain a high volume of data (such as campaigns, ads, and keywords).
+  Once your request is submitted and approved, a simple account transfer may be processed within 20 minutes. However, some transfers will take up to 24 hours, particularly if youâ€™re moving accounts that contain a high volume of data (such as campaigns, ads, and keywords).
 
 - **What items transfer over**
 

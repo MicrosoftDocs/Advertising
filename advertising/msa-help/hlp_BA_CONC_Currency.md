@@ -1,4 +1,4 @@
----
+﻿---
 title: Choosing your account currency
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Each time you [create a Microsoft Advertising account](hlp_BA_PROC_CreateAcctSelfServe.md), you need to select the currency you will use to pay your advertising costs.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Choosing your account currency

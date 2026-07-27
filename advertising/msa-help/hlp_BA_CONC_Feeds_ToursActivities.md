@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Tours and activities ads to showcase specific tours and activities
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,11 +7,12 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: With Tours and Activities ads, you can include images, videos, and other relevant details to make your ads inviting and engaging.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use Tours and activities ads to showcase specific tours and activities
 
-Showcase your Tours and activities with these interactive, premium ad types, in which you can include images, current prices, reviews, and other relevant details. We don’t crawl your website to generate content. Instead, Tours and activities ads are dynamically generated based on the data you specify in your feed file, which contains your business data, such as the price, videos, and ratings. The more details you provide in the feed file, the more information we’ll include in your ads.
+Showcase your Tours and activities with these interactive, premium ad types, in which you can include images, current prices, reviews, and other relevant details. We donâ€™t crawl your website to generate content. Instead, Tours and activities ads are dynamically generated based on the data you specify in your feed file, which contains your business data, such as the price, videos, and ratings. The more details you provide in the feed file, the more information weâ€™ll include in your ads.
 
 ## The benefits of using Tours and activities ads
 
@@ -27,7 +28,7 @@ Showcase your Tours and activities with these interactive, premium ad types, in 
 To get started with Tours and Activities ads, you'll need to create a Search campaign with a Responsive Search ad that functions as a placeholder. Then, you'll create a [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_ToursActivities.md) where you'll reference the campaign. We create your Tours and Activities ads by pulling information from your feed file to generate ad copy and we use the Responsive Search ad's settings for targeting and optimization.
 
 > [!NOTE]
-> The campaign you create will always be a Tours and Activities ads campaign. You cannot use this campaign for any other purpose now or at a later time—it'll always be used as a Tours and Activities ads campaign.
+> The campaign you create will always be a Tours and Activities ads campaign. You cannot use this campaign for any other purpose now or at a later timeâ€”it'll always be used as a Tours and Activities ads campaign.
 
 1. From the navigation menu on the left, select **Create**.
 1. Choose **Drive conversions** or **Generate leads** as your campaign goal.
@@ -47,13 +48,13 @@ To get started with Tours and Activities ads, you'll need to create a Search cam
       You must surround your keyword with brackets ([ ]) to indicate an exact match (for example, [EMBD_Tours_Dest:ALL_Category:ALL]).
 
       > [!NOTE]
-      > Avoid keywords such as “tours” to ensure the campaign only serves as Tours and Activities ads.
+      > Avoid keywords such as â€œtoursâ€ to ensure the campaign only serves as Tours and Activities ads.
    1. Select **Save & go to the next step**.
 1. In **Ads & ad extensions**, below **Standard ad groups**, select **Create ad**.
 
    1. From the **Ad type** dropdown menu, select **Responsive Search ad**.
    1. Enter the **Final URL**, which will feature as the Display URL in your Tours and Activities ads.
-   1. Enter placeholder values for each field. Since this ad will be dynamically populated by the attributes in your [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_ToursActivities.md), your placeholder values can simply be “test”.
+   1. Enter placeholder values for each field. Since this ad will be dynamically populated by the attributes in your [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_ToursActivities.md), your placeholder values can simply be â€œtestâ€.
    1. Select **Save** to continue.
 
       > [!NOTE]

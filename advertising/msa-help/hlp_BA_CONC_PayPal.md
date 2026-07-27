@@ -1,4 +1,4 @@
----
+﻿---
 title: Using PayPal to pay your charges
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising advertisers in select markets who use Canadian dollar, euro, Mexican peso, Norwegian krone, UK pound, or US dollar have the option of using PayPal as a Microsoft Advertising payment method on prepay accounts.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using PayPal to pay your charges

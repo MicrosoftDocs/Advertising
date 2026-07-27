@@ -1,4 +1,4 @@
----
+﻿---
 title: Enhance product ads with automated extensions
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Automated extensions show additional data to improve the visibility and performance of your Product ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Enhance Product ads with automated extensions
 
 Microsoft Advertising can enhance your Product ads with automated extensions. The visibility and performance of your ads are improved by displaying extra information about your business - more clicks means more customer traffic! automated extensions are automatically added to your Product ads if Microsoft Advertising determines that the automated extension can improve your product ad performance.
 
-Automated extensions show data from any of the sources—your ad landing pages, ad copies, and domains your ad copy points to. Certain data, like reviews and ratings, may be provided from third-party providers.
+Automated extensions show data from any of the sourcesâ€”your ad landing pages, ad copies, and domains your ad copy points to. Certain data, like reviews and ratings, may be provided from third-party providers.
 
 All advertisers are eligible for automated extensions, however, they are not always guaranteed to show in the Product ads. When multiple extensions are eligible, only one extension can be shown at a time. The system selects which extension to display based on performance. As a result, even approved and valid promotions may not appear on every Product ad impression.
 
@@ -163,7 +164,7 @@ Here are the different types of automated extensions available *only* for Produc
 
   - **Attribute**
 
-    With the Attribute extension, you can showcase your product's attributes, such as color, finish, or dimensions. You can indicate your product’s attributes in your feed file’s fields for color, size, material, pattern, installment, or custom labels.
+    With the Attribute extension, you can showcase your product's attributes, such as color, finish, or dimensions. You can indicate your productâ€™s attributes in your feed fileâ€™s fields for color, size, material, pattern, installment, or custom labels.
 
     :::image type="content" source="media/Attributes.png" alt-text="Attributes.":::
 

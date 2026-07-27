@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a Performance Max Campaign
 description: Learn how to create a Performance Max campaign.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a Performance Max campaign
@@ -153,7 +154,7 @@ Here's some information about what you'll see in your settings for [products](#P
     Choose a **Call to action** from the predefined list. This will provide potential customers with a brief, compelling reason to click your ad right now.
 
     > [!NOTE]
-    > “Automated” is the default option for your **Call to action**. If you don't choose a **Call to action** from the predefined list, then it will be automated by default during ad delivery to help boost campaign performance. This means that we'll automatically choose your **Call to action** and the language it serves in.
+    > â€œAutomatedâ€ is the default option for your **Call to action**. If you don't choose a **Call to action** from the predefined list, then it will be automated by default during ad delivery to help boost campaign performance. This means that we'll automatically choose your **Call to action** and the language it serves in.
 
   - **Ad extensions**
 
@@ -174,15 +175,15 @@ Here's some information about what you'll see in your settings for [products](#P
     > [!NOTE]
     > Your campaign will target all webpages associated with your Final URL by default.
 
-    - **URL rules**: Use the “contains” operator to target URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
-    - A "page title" is the text that appears at the top of a webpage—in your website's code, it's the text in this area:
+    - **URL rules**: Use the â€œcontainsâ€ operator to target URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
+    - A "page title" is the text that appears at the top of a webpageâ€”in your website's code, it's the text in this area:
 
       ```
       <head>
         <title>This is the page title</title>
       </head>
       ```
-    - "Page content" is the visible text on a webpage—in your website's code, it's the text between these tags:
+    - "Page content" is the visible text on a webpageâ€”in your website's code, it's the text between these tags:
 
       `<body></body>`
     - **Custom labels**: Use custom labels from your [page feeds](hlp_BA_PROC_PageFeedsPMAX.md) to specify which categories of pages you want to target to help generate ads.
@@ -222,11 +223,11 @@ Here's some information about what you'll see in your settings for [products](#P
   - **Context exclusions (optional)**
 
     > [!NOTE]
-    > Not everyone has excluded content terms yet. If you don't, don't worry—it's coming soon!
+    > Not everyone has excluded content terms yet. If you don't, don't worryâ€”it's coming soon!
 
     Context exclusions help ensure your ads show in contexts that are relevant to your business and suitable for your brand. Context exclusions consist of excluded content terms and negative keywords.
 
-    Excluded content terms block your ads from showing next to unwanted terms (i.e., page titles). For example, if you're selling tech devices and your excluded content term is “faulty tech devices,” then we won't show your ads next to page titles mentioning faulty tech devices. Any excluded content terms you add will be automatically applied to all campaigns in your account to save you time later. For more information about viewing and managing your excluded content terms at the account level, see [About content suitability](hlp_BA_CONC_BrandSafety.md).
+    Excluded content terms block your ads from showing next to unwanted terms (i.e., page titles). For example, if you're selling tech devices and your excluded content term is â€œfaulty tech devices,â€ then we won't show your ads next to page titles mentioning faulty tech devices. Any excluded content terms you add will be automatically applied to all campaigns in your account to save you time later. For more information about viewing and managing your excluded content terms at the account level, see [About content suitability](hlp_BA_CONC_BrandSafety.md).
 
     Negative keywords prevent your ads from being shown with certain search queries. [Negative phrase match](hlp_BA_CONC_AboutNegativeKeywords.md) is the default negative keyword match type, which you can edit after creating your campaign by going to **Campaigns** > **Negative keywords**. See [this article](hlp_BA_CONC_AboutNegativeKeywords.md) to learn more about negative keywords.
 
@@ -263,7 +264,7 @@ Here's some information about what you'll see in your settings for [products](#P
 
     This allows you to specify which actions to count as conversions, as recorded by UET. You have two options for choosing conversion goals: <br> <br>
 
-    - Use your account's **Include in “Conversions”** setting. This applies your account's conversion goals to this campaign. To see which conversion goals are included in your account settings: From the navigation menu on the left, hover over **Conversions** and select **Conversion goals**.
+    - Use your account's **Include in â€œConversionsâ€** setting. This applies your account's conversion goals to this campaign. To see which conversion goals are included in your account settings: From the navigation menu on the left, hover over **Conversions** and select **Conversion goals**.
     - Choose specific conversion goals for this campaign.
 
     > [!NOTE]
@@ -363,7 +364,7 @@ Here's some information about what you'll see in your settings for [products](#P
   - **Optimize for new customer acquisition**
 
     > [!NOTE]
-    > - Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+    > - Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
     > - To learn more about new customer acquisition for campaigns imported from Google Ads, see [What gets imported from Google Ads](hlp_BA_CONC_ImportWhatInfo.md).
 
     When enabled, this setting helps your campaign drive conversions by reaching new customers who are ready to make purchases. You have two options for new customer acquisition:

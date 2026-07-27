@@ -1,4 +1,4 @@
----
+﻿---
 title: About Dynamic Search ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how Microsoft Advertising can generate keywords and ads for you automatically.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Dynamic Search ads
@@ -66,21 +67,21 @@ Next, you need to create a Dynamic ad group to start serving Dynamic Search ads.
 - **Target specific webpages**: You choose specific pages of your website to target based on their URL, category, page title, or page content. This is a good idea if you want to set different bids for different parts of your website or to make sure you're not targeting parts of your website that are not relevant to your campaign goal.
 
   - **Exact URLs**: Enter or paste your webpages' exact URLs, one URL per line.
-  - **Rules**: Use the “contains” operator to target URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
-  - A "page title" is the text that appears at the top of a webpage—in your website's code, it's the text in this area:
+  - **Rules**: Use the â€œcontainsâ€ operator to target URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
+  - A "page title" is the text that appears at the top of a webpageâ€”in your website's code, it's the text in this area:
 
     ```
     <head>
       <title>This is the page title</title>
     </head>
     ```
-  - "Page content" is the visible text on a webpage—in your website's code, it's the text between these tags:
+  - "Page content" is the visible text on a webpageâ€”in your website's code, it's the text between these tags:
 
     `<body></body>`
 - **Negative dynamic ad targets**: In the **Dynamic ad targets** tab, you have the option to select **Negative dynamic ad targets**. Negative dynamic ad targets allow you to target specific webpages to exclude at campaign or ad group level. <br> <br> To select your **Negative dynamic ad targets**, follow these steps: From the navigation menu on the left, hover over **Campaigns** and select **Dynamic ad targets** > **Negative dynamic ad targets**. Then, you can choose to target specific pages of your website to exclude based on their URL, category, page title, or page content.
 
   - **Exact URLs**: Enter or paste your webpages' exact URLs that you want to exclude, one URL per line.
-  - **Rules**: Use the “contains” operator to exclude URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
+  - **Rules**: Use the â€œcontainsâ€ operator to exclude URLs, categories, page titles, or page content that contains specific words or a specific sequence of characters. If you use the "and" condition (for example, URL contains "food" and URL contains "delivery"), make sure that you have webpages that meet all the specified conditions on your website.
 
 > [!IMPORTANT]
 > Once an auto target has been created, its conditions cannot be changed.
@@ -88,7 +89,7 @@ Next, you need to create a Dynamic ad group to start serving Dynamic Search ads.
 ## What you need to know about ad content
 
 - When you create your ad, you do not need to write your ad title. Microsoft Advertising will dynamically generate this for you based on the appropriate keyword and your website content. Optionally, you can supply an ad title using [page feeds](hlp_BA_CONC_DynamicSearchAds_PageFeeds.md).
-- Because Dynamic Search ads generate ad content based on your website, we recommend that you use IndexNow to expedite your website’s indexing and help maintain accuracy and relevancy for your ads. To learn more, see [Using IndexNow to enhance ad performance](hlp_BA_CONC_IndexNow.md).
+- Because Dynamic Search ads generate ad content based on your website, we recommend that you use IndexNow to expedite your websiteâ€™s indexing and help maintain accuracy and relevancy for your ads. To learn more, see [Using IndexNow to enhance ad performance](hlp_BA_CONC_IndexNow.md).
 - You have the option to include one or two paths to appear after your website's domain. The path is distinct from the final URL. The final URL is the actual webpage URL that customers are taken to after they select your ad. The path can be a shorter or "friendlier" version of your URL showing one or two subdirectories. For example, if you sell men's clothes, and you're advertising shirts that are on sale for spring, your final URL might be http://www.contoso.com/content/en/clothesaccessories/spr2017/shirts, but your path could simply be contoso.com/SpringSale/Shirts.
 
 ## Tips for effective Dynamic Search ads
@@ -104,7 +105,7 @@ Next, you need to create a Dynamic ad group to start serving Dynamic Search ads.
 - **Auto targets**
 
   - Exclude parts of your site that don't drive conversions.
-  - Have a variety of auto targets—using **Target categories of webpages** is a good way to find appropriate ones.
+  - Have a variety of auto targetsâ€”using **Target categories of webpages** is a good way to find appropriate ones.
   - Use more generic ad descriptions and URL paths for ads in ad groups using **All webpages** auto targets.
   - Create auto targets from your main domain URL. Do not set up auto targets using URLs that redirect to other pages.
   - The domain address you specify during campaign creation should be the same domain address you used to create auto targets for that campaign.

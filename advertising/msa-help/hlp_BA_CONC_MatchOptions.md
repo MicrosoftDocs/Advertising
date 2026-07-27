@@ -1,4 +1,4 @@
----
+﻿---
 title: What are keyword match types, and how do I use them?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Broad, phrase, exact.... Get help figuring out which ones are available in Microsoft Advertising and which ones are right for your campaigns and ad groups.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are keyword match types, and how do I use them?
@@ -37,9 +38,9 @@ Predictive matching acts as a complement to your existing keywords to more accur
 You can choose to enable predictive matching for Search campaigns if you use conversion-based auto-bidding strategies (maximize conversions, target CPA, and target ROAS). Note: Predictive matching is available for Search campaigns, while predictive targeting is available for Audience campaigns.
 
 > [!NOTE]
-> Not everyone has predictive matching for Search campaigns yet. If you don't, don't worry—it's coming soon!
+> Not everyone has predictive matching for Search campaigns yet. If you don't, don't worryâ€”it's coming soon!
 
-The table below shows how the keyword “Contoso tea” would match with the different keyword match types.
+The table below shows how the keyword â€œContoso teaâ€ would match with the different keyword match types.
 
 | Search query | Broad match (Syntax: *keyword*) | Phrase match (Syntax: "*keyword*") | Exact match (Syntax: [*keyword*]) |
 | --- | --- | --- | --- |
@@ -132,12 +133,12 @@ When choosing a keyword match type, consider your advertising goals, the audienc
 ## About predictive matching
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 > [!NOTE]
 > Predictive matching is only available for Search campaigns.
 
-When enabled, predictive matching leverages your **Final URL**, **Ad titles**, **Ad text**, and existing keywords to match your ads with new, highly relevant search queries. This setting optimizes your campaign for conversions by driving traffic to your website and preventing missed opportunities. With predictive matching, you no longer need to analyze search query reports to find new keywords for your Search campaigns—we automatically stay on top of search trends that will deliver the most conversions. Broad match will also be applied to all keywords in your campaign, ensuring that your ads will be eligible to be displayed when someone searches words related to your keyword. While we'll continue to prioritize keyword targeting when matching your ads with search queries, predictive matching helps ensure that your ads reach the right customers at the right time.
+When enabled, predictive matching leverages your **Final URL**, **Ad titles**, **Ad text**, and existing keywords to match your ads with new, highly relevant search queries. This setting optimizes your campaign for conversions by driving traffic to your website and preventing missed opportunities. With predictive matching, you no longer need to analyze search query reports to find new keywords for your Search campaignsâ€”we automatically stay on top of search trends that will deliver the most conversions. Broad match will also be applied to all keywords in your campaign, ensuring that your ads will be eligible to be displayed when someone searches words related to your keyword. While we'll continue to prioritize keyword targeting when matching your ads with search queries, predictive matching helps ensure that your ads reach the right customers at the right time.
 
 Note:
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Learn about using negative keywords to get to the right customers
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can add negative keywords to a campaign or ad group to help prevent paying for clicks from people who aren't interested in your product.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Learn about using negative keywords to get to the right customers

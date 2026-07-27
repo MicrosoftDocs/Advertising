@@ -1,4 +1,4 @@
----
+﻿---
 title: What changes were made to my campaigns and can I undo them?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Use the Change History tab to review changes to your campaigns and undo changes to campaigns, ad groups, keywords and ads. Use the graph to quickly see how the changes affect your selects or other metrics.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What changes were made to my campaigns and can I undo them?

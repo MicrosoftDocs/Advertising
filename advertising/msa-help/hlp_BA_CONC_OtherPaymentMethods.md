@@ -1,15 +1,16 @@
----
-title: What does “Other Payment Methods” mean?
+﻿---
+title: What does â€œOther Payment Methodsâ€ mean?
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: Payment methods that aren’t available to use with a particular account are listed as "Other Payment Methods." There are a number of reasons that your payment method might not be valid for the account, including account type and currency.
+description: Payment methods that arenâ€™t available to use with a particular account are listed as "Other Payment Methods." There are a number of reasons that your payment method might not be valid for the account, including account type and currency.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# What does “Other Payment Methods” mean?
+# What does â€œOther Payment Methodsâ€ mean?
 
 If you have one account and you have a payment method that isn't valid to use with that account, it will be listed under **Other Payment Methods**.
 

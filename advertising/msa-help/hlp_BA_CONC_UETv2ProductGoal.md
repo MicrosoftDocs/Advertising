@@ -1,4 +1,4 @@
----
+﻿---
 title: Using the product conversion goal
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: With the product conversion goal, you can more accurately track purchases of products as conversions for the ads shown for those products.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using the product conversion goal
 
 > [!IMPORTANT]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 The product conversion goal can help your feed-based campaign ensure that ads that eventually lead to conversions get credit for those conversions. It can work in two different ways:
 

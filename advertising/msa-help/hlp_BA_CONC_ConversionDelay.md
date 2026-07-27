@@ -1,4 +1,4 @@
----
+﻿---
 title: Understanding conversion delay
 ms.service: msa-help
 ms.subservice: msa-general
@@ -6,13 +6,14 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
-description: Conversion delay is the time between when someone clicks your ad and when they complete a conversion—like making a purchase, installing an app, or signing up. Conversions are reported based on the click date rather than the conversion date, which means there may be a delay before all conversions are fully reflected in your reports. This can temporarily inflate your cost per acquisition (CPA) or deflate your return on ad spend (ROAS). Gaining insight into conversion delay can help you understand your performance more accurately and make more informed bidding and budgeting decisions.
+description: Conversion delay is the time between when someone clicks your ad and when they complete a conversionâ€”like making a purchase, installing an app, or signing up. Conversions are reported based on the click date rather than the conversion date, which means there may be a delay before all conversions are fully reflected in your reports. This can temporarily inflate your cost per acquisition (CPA) or deflate your return on ad spend (ROAS). Gaining insight into conversion delay can help you understand your performance more accurately and make more informed bidding and budgeting decisions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding conversion delay
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 Conversion delay is the time between when someone clicks your ad and when they complete a conversion, like making a purchase, installing an app, or signing up. Conversions are reported based on the click date rather than the conversion date, which means there may be a delay before all conversions are fully reflected in your reports. This can temporarily inflate your cost per acquisition (CPA) or deflate your return on ad spend (ROAS). Gaining insight into conversion delay can help you understand your performance more accurately, forecast final results with greater confidence, and make more informed bidding and budgeting decisions.
 

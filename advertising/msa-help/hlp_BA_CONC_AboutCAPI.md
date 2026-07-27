@@ -1,4 +1,4 @@
----
+﻿---
 title: Where can I find information about the Conversions API (CAPI)?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about resources for the Conversions API (CAPI).
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Where can I find information about the Conversions API (CAPI)?
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 >
 > [!IMPORTANT]
 > For more information, see the [CAPI guide.](../bingads-13/guides/uet-conversion-api-integration).

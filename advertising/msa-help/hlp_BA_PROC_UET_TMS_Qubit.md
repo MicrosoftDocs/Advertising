@@ -1,4 +1,4 @@
----
+﻿---
 title: Set up UET Tags Using Qubit Opentag
 description: Third-party tag managers allow you to manage your website tags in one place. Learn how to set up UET tags using Qubit Opentag.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-conversions-uet
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up UET tags using Qubit Opentag

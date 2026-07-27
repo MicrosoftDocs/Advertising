@@ -1,4 +1,4 @@
----
+﻿---
 title: Disclaimer in ads
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about adding disclaimers to your ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Disclaimer in ads

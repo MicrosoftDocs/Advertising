@@ -1,4 +1,4 @@
----
+﻿---
 title: Import your Google Merchant Center product offers to Microsoft Merchant Center
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to easily import your Google Merchant Center offers to Microsoft Merchant Center.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Import your Google Merchant Center product offers to Microsoft Merchant Center
@@ -131,7 +132,7 @@ Check out the item details that will determine which product offers get imported
       - **Turkish:** Turkey
 
   > [!NOTE]
-  > For the Norwegian market, we only support the Bokmål dialect (nb-NO), not Nynorsk (no-NO).
+  > For the Norwegian market, we only support the BokmÃ¥l dialect (nb-NO), not Nynorsk (no-NO).
 
   - Import offers will expire after 30 days. Your offers need to be imported at least every 30 days to stay up-to-date in the system.
 
@@ -148,13 +149,13 @@ Check out the item details that will determine which product offers get imported
 
 ## Google Merchant Center import errors
 
-Now that you’ve imported your Google Merchant Center offers, are you seeing that there are some errors or offers that got skipped? When there is an import error, you can see the error details in the **Choose import options** step of the import process.
+Now that youâ€™ve imported your Google Merchant Center offers, are you seeing that there are some errors or offers that got skipped? When there is an import error, you can see the error details in the **Choose import options** step of the import process.
 
 Take a look at the different types of errors or skipped offers you may encounter with your Google Merchant Center import below:
 
 | Error/Skipped Offers | Description | Solution |
 | --- | --- | --- |
-| **No matching products in Google Merchant Center** | Matching offers couldn’t be found in Google Merchant Center because they did match some or all of the following:<br>- Market. There were no offers for the user-specified markets.<br>- No online offers.<br>- Product destination was not set to Shopping. | Check the offers in Google Merchant Center to ensure they are approved shopping offers and also check the import options in Microsoft Merchant Center to ensure that the markets associated with the approved shopping Google Merchant Center offers are specified. Try to import again. If you still encounter issues, please [contact Support.](https://go.microsoft.com/fwlink/?linkid=398371) |
+| **No matching products in Google Merchant Center** | Matching offers couldnâ€™t be found in Google Merchant Center because they did match some or all of the following:<br>- Market. There were no offers for the user-specified markets.<br>- No online offers.<br>- Product destination was not set to Shopping. | Check the offers in Google Merchant Center to ensure they are approved shopping offers and also check the import options in Microsoft Merchant Center to ensure that the markets associated with the approved shopping Google Merchant Center offers are specified. Try to import again. If you still encounter issues, please [contact Support.](https://go.microsoft.com/fwlink/?linkid=398371) |
 | **Internal error** | An internal import error occurred. | Please [contact Support.](https://go.microsoft.com/fwlink/?linkid=398371) |
 | **Import size limit** | Offers are skipped if the maximum 10 million offers per market limit is exceeded. | Please [contact Support.](https://go.microsoft.com/fwlink/?linkid=398371) |
 | **Target countries invalid** | Shopping destination countries of the offer are not supported or are from different regions. | Please [contact Support.](https://go.microsoft.com/fwlink/?linkid=398371) |

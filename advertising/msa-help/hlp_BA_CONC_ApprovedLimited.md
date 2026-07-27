@@ -1,4 +1,4 @@
----
+﻿---
 title: What does Approved Limited status mean?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: "*Approved Limited* status means that your ad or keyword is eligible for delivery in some, but not all, targeted locations."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What does Approved Limited status mean?

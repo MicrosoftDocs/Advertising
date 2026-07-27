@@ -1,4 +1,4 @@
----
+﻿---
 title: App extensions - Promote and link to your apps
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: App extensions are additional elements that promote your app across PCs, tablets, and smartphones from your ad.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # App extensions - Promote and link to your apps

@@ -1,4 +1,4 @@
----
+﻿---
 title: UET parameters table
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: This table contains all of the parameters you can capture with UET for pageLoad or custom events.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # UET Parameters Table
@@ -22,7 +23,7 @@ The following table contains all of the parameters you can capture with UET for 
 | **mid** | Yes | A unique identifier (GUID) to uniquely identify events from a single page. If the page changes or refreshes, a new mid should be generated. |
 | **uid** | No | Customer defined logged-in user ID. This ID remains the same across browsers and devices. |
 | **vid** | No | Customer defined anonymous user ID. |
-| **evt** | Yes | Can contain only 2 values – *pageLoad* or *custom*. |
+| **evt** | Yes | Can contain only 2 values â€“ *pageLoad* or *custom*. |
 | **rn** | Yes | Random 6-digit number which helps in handling browser cache restrictions. |
 | **msclkid** | Yes | This field mitigates conversion attribution issues with Safari ITP. *msclkid* is generated at ad click time and appended to the landing page URL when auto-tagging of Microsoft Click ID is enabled. It should be stored in a first party cookie and sent along with other UET parameters. <br> Format: GUID followed by extra byte indicating whether the current value is a new one (unique to that session), as in "cdd4afcccb1c9a4cad9544dd7e5006d5-1".<br> Note: - Value will have "0" appended, i.e. [GUID]-0, if the MSCLK ID is not new (read from previously set cookies).<br>- Value will have "1" appended, i.e. [GUID]-1, if the MSCLK ID is new/read from query string on the landing page .<br>- Value will have "N" appended, for example [GUID]-1N, if cookies are blocked by the browser.<br>- Full value will be "N" if cookies are blocked by the browser or no ad click information exists in cookie, and the *msclkid* parameter isn't in the landing page URL. <br> Cookie name: *_uetmsclkid* <br> Cookie expiration date: 90 days |
 

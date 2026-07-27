@@ -1,4 +1,4 @@
----
+﻿---
 title: How to have an agency manage your Microsoft Advertising account
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to have an agency manage your accounts, including creating ads, managing keyword bids, and setting budgets.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to have an agency manage your Microsoft Advertising account
@@ -54,7 +55,7 @@ We strongly recommend that you or the agency create a separate account for you t
 
 - **Stop an agency from managing your account**
 
-  As the account owner, you can remove a direct manager at any time. Direct managers can also remove other direct managers—except for the account owner. In addition, account owners can remove access from any direct managers on their account.
+  As the account owner, you can remove a direct manager at any time. Direct managers can also remove other direct managersâ€”except for the account owner. In addition, account owners can remove access from any direct managers on their account.
 
   1. From the navigation menu on the left, hover over **Settings** and select **Direct managers**.
   1. Under **Actions**, select **Unlink** next to the direct manager whose account access you want to remove.

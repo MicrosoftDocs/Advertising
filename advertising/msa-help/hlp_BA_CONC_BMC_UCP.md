@@ -1,4 +1,4 @@
----
+﻿---
 title: Make your store Universal Commerce Protocol (UCP) ready
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to configure your store for UCP readiness.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Make your store Universal Commerce Protocol (UCP) ready
@@ -31,7 +32,7 @@ If some products follow different return terms, such as clearance or final-sale 
 
 - **Optional: Exception policy**
 
-  If some products follow different return rules, you can define one exception policy. Update the attribute in your product feed with this exception label—return_policy_labels—so the different return policy applies to those products.
+  If some products follow different return rules, you can define one exception policy. Update the attribute in your product feed with this exception labelâ€”return_policy_labelsâ€”so the different return policy applies to those products.
 
   > [!NOTE]
   > There is a maximum of 50 characters per string.

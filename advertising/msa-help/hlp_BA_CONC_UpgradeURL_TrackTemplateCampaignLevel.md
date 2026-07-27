@@ -1,4 +1,4 @@
----
+﻿---
 title: Add additional tracking templates to my campaigns
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Upgraded URLs separate your tracking information from the landing page URL making it easy to update and manage URL tracking. Here, find out how to create a tracking template at the campaign, ad group, ad, keyword, and sitelink extension level.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Add additional tracking templates to my campaigns

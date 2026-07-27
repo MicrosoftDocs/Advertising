@@ -1,4 +1,4 @@
----
+﻿---
 title: What are campaign level conversions?
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: With campaign level conversion goals, you can override the "include in conversion" setting made at the account level. This allows you to specify which goals you'd like to track for a particular campaign.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are campaign level conversions?
@@ -31,7 +32,7 @@ Auto-bidding strategies such as Max conversions, Max conversion value, Target co
 1. When you get to step 4, **Budget & bids**, under **Conversions**, select **Choose conversion goals for this campaign**.
 
    > [!NOTE]
-   > The default setting is **Use the account level "include in conversion” setting**.
+   > The default setting is **Use the account level "include in conversionâ€ setting**.
 1. Under **Select a goal category**, enter the name of the conversion goal you want to add.
 1. Select the conversion goal and select **Add**.
 
@@ -47,7 +48,7 @@ Auto-bidding strategies such as Max conversions, Max conversion value, Target co
 1. At the bottom of the campaign settings page, under **Conversions**, select **Choose conversion goals for this campaign**.
 
    > [!NOTE]
-   > The default setting is **Use the account level "include in conversion” setting**.
+   > The default setting is **Use the account level "include in conversionâ€ setting**.
 1. Under **Select a goal category**, enter the name of the conversion goal you want to add.
 1. Select the conversion goal and select **Add**.
 

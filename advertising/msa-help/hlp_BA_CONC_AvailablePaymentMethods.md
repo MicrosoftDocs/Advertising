@@ -1,4 +1,4 @@
----
+﻿---
 title: The Payment Methods page
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out what you need to know about managing your credit cards and other types of payment methods. Get basic background info as well as step-by-step instructions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # The Payment Methods page
@@ -30,7 +31,7 @@ On the Payment Methods page, you have different options depending on whether you
 
   If you have a postpay threshold account, you need to have a primary payment method: a credit or debit card. Your primary payment method will be used to pay your advertising charges when you reach your monthly billing date or your billing threshold, whichever comes first. Although you can add as many payment methods as you like, you can only have one primary payment method for each account. If you want to delete a primary payment method, you must first set a new primary payment method for any accounts that use the payment method you are trying to delete.
 
-  We may initiate an authorization hold on your card for the estimated amount of the advertising fee. This hold will be removed either when the time limit for the hold is up (usually, it's 7 days) or upon receipt of funds for the final transaction, whichever comes first. (Not everyone has this feature yet. If you don't, don't worry—it's coming soon!)
+  We may initiate an authorization hold on your card for the estimated amount of the advertising fee. This hold will be removed either when the time limit for the hold is up (usually, it's 7 days) or upon receipt of funds for the final transaction, whichever comes first. (Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!)
 
 - **Backup payment method.**
 
@@ -105,7 +106,7 @@ If you have monthly invoice accounts, you can pay by wire transfer or ACH. On th
 
 - **Why don't I see all my payment methods?**
 
-  If you have multiple accounts, you might need to select **All accounts** from the dropdown list at the top of the page to see all of your payment methods. When you select a single account from the list, you will only see the payment methods that you can use with that account. If you only have one account and have payment methods that you can't use with that account, you will see a section called “Other payment methods.”
+  If you have multiple accounts, you might need to select **All accounts** from the dropdown list at the top of the page to see all of your payment methods. When you select a single account from the list, you will only see the payment methods that you can use with that account. If you only have one account and have payment methods that you can't use with that account, you will see a section called â€œOther payment methods.â€
 
 - **Why is my payment method not available to be used with this account?**
 

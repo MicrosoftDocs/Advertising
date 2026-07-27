@@ -1,4 +1,4 @@
----
+﻿---
 title: Import shopping campaigns from Google ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can import Merchant Center store information for shopping campaigns into Microsoft Advertising from Google ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Import shopping campaigns from Google ads
@@ -27,18 +28,18 @@ You'll reach a step that will help with store selection, which will guide you to
 We recommend that you sign into your Google Merchant Center account before choosing a store. This way, we'll have more information, such as the store name and domain that will help us suggest a store for you to select.
 
 > [!NOTE]
-> Remember, not all Google Ads accounts have access to Google Merchant Center stores. Try logging in from a Google account that does have access to Google Merchant Center. If you still don't have access, it's ok—create a draft store and set it up later.
+> Remember, not all Google Ads accounts have access to Google Merchant Center stores. Try logging in from a Google account that does have access to Google Merchant Center. If you still don't have access, it's okâ€”create a draft store and set it up later.
 
 We remember which Google Merchant Center store maps to which Microsoft Merchant Center store and will apply those mappings to any future imports. These settings apply to all imports in your manager account.
 
 You'll have three options for store selection:
 
 - **Existing Microsoft Merchant Center store.** You can choose an existing Microsoft Merchant Center store to use for your Shopping campaigns. By default, we'll suggest a matching store, but you can always change the selection.
-- **Import a Google Merchant Center store.** If you log in to Google Merchant Center, we can import your stores into Microsoft Merchant Center. This will create a Microsoft Merchant Center store with the same name, domain, and settings as your Google Merchant Center store. Sometimes, these selections are read only. This means that the import tool found and locked in a perfect match from Google Merchant Center to Microsoft Merchant Center. When you create a Microsoft Merchant Center store using your Google Merchant Center credentials, we’ll import all your products from Google and create feeds in the markets we support. Any items in additional markets added to Google Merchant Center after that import will need to be created manually in Microsoft Merchant Center. Your campaigns will go live when the feed import is complete.
+- **Import a Google Merchant Center store.** If you log in to Google Merchant Center, we can import your stores into Microsoft Merchant Center. This will create a Microsoft Merchant Center store with the same name, domain, and settings as your Google Merchant Center store. Sometimes, these selections are read only. This means that the import tool found and locked in a perfect match from Google Merchant Center to Microsoft Merchant Center. When you create a Microsoft Merchant Center store using your Google Merchant Center credentials, weâ€™ll import all your products from Google and create feeds in the markets we support. Any items in additional markets added to Google Merchant Center after that import will need to be created manually in Microsoft Merchant Center. Your campaigns will go live when the feed import is complete.
 - **Draft store.** Draft stores are temporary stores meant to hold the place of an active, approved store. You should only choose this option if you're unsure which store to select or if you would like to setup the store later. We will create one draft store for each Google Merchant Center store detected during the import process. If there are multiple campaigns with the same Google Merchant Center store, we will create a single draft store to map to all campaigns with the same Google Merchant Center store. If your campaigns are using a draft store, they are not active. You'll need to go to Microsoft Merchant Center to finish the setup of your store in order for your campaigns to go live.
 
   > [!NOTE]
-  > Under certain circumstances, we’ll attempt to automatically complete your draft store’s setup if we find a match with an existing Merchant Center store. See [Automatic draft store setup completion](#automatic-draft-store-setup-completion) for more information about our automatic draft store setup completion.
+  > Under certain circumstances, weâ€™ll attempt to automatically complete your draft storeâ€™s setup if we find a match with an existing Merchant Center store. See [Automatic draft store setup completion](#automatic-draft-store-setup-completion) for more information about our automatic draft store setup completion.
 
   > [!NOTE]
   > Microsoft Advertising will not use your Google Merchant Center sign-in information for any purpose other than the import and setup process.

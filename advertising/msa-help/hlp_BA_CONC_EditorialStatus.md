@@ -1,4 +1,4 @@
----
+﻿---
 title: Delivery status
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn about delivery statuses and how they affect your campaigns, ad groups, ads, keywords, ad extensions, ad customizers, or audience associations.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Delivery status
@@ -151,7 +152,7 @@ To determine the delivery status of your assets:
 
 - **Exception under review**
   - **What this means:** This ad or keyword is not running because it is still pending [editorial review](hlp_BA_CONC_EditProcess.md) after your [disapproval exception request](hlp_BA_PROC_RequestException.md).
-  - **How to fix it:** The Microsoft Advertising team responds to requests as quickly as possible—most reviews are completed within a day. After we've reviewed your request, we'll change the status of the ad or keyword and send you an email summarizing any approvals or disapprovals.
+  - **How to fix it:** The Microsoft Advertising team responds to requests as quickly as possibleâ€”most reviews are completed within a day. After we've reviewed your request, we'll change the status of the ad or keyword and send you an email summarizing any approvals or disapprovals.
 
 - **Extension and association deleted**
   - **What this means:** This ad extension and all its associations are not running because the ad extension has been deleted.
@@ -163,7 +164,7 @@ To determine the delivery status of your assets:
 
 - **In review (store)**
   - **What this means:** The store associated with this campaign is under editorial review.
-  - **How to fix it:** The Microsoft Advertising team performs editorial reviews as quickly as possible—typically within a day. After we've completed the review, we'll change the status of the store.
+  - **How to fix it:** The Microsoft Advertising team performs editorial reviews as quickly as possibleâ€”typically within a day. After we've completed the review, we'll change the status of the store.
 
 - **Keyword paused**
   - **What this means:** No ads are running for this keyword because the keyword is set to **Pause**.
@@ -206,7 +207,7 @@ To determine the delivery status of your assets:
     | **MSN (included in [targeted placements](hlp_BA_CONC_AboutAdDistributionHidden.md))** | - 300 x 250 (Medium rectangle)<br>- 300 x 600 (Half page)<br>- 728 x 90 (Leaderboard)<br>- 970 x 250 (Billboard) |
 
     > [!NOTE]
-    > Not everyone has [targeted placements](hlp_BA_CONC_AboutAdDistributionHidden.md) for Audience campaigns yet. If you don't, don't worry— it's coming soon!
+    > Not everyone has [targeted placements](hlp_BA_CONC_AboutAdDistributionHidden.md) for Audience campaigns yet. If you don't, don't worryâ€” it's coming soon!
 
 - **Limited: Not enough conversion data**
   - **What this means:** Your campaign has a low volume of conversions, which can limit the bid strategy from maximizing performance.
@@ -261,12 +262,12 @@ To determine the delivery status of your assets:
 
 - **Pending editorial review**
   - **What this means:** This ad or keyword is not running because it is still under [editorial review](hlp_BA_CONC_EditProcess.md).
-  - **How to fix it:** The Microsoft Advertising team performs editorial reviews as quickly as possible—most reviews are completed within a day. After we've completed the review, we'll change the status of the ad or keyword.
+  - **How to fix it:** The Microsoft Advertising team performs editorial reviews as quickly as possibleâ€”most reviews are completed within a day. After we've completed the review, we'll change the status of the ad or keyword.
 
 - **Pending targeting review**
   - **What this means:** The ad group is not serving ads yet because we are evaluating the scope of your ad group's targeting.
   - **How to fix it:** We are performing a review of your targeting to make sure it's broad enough to serve. Most reviews are completed within 15 minutes, but some ad groups can take a full day. After we've completed the review, we'll change the status of the ad group's ads and keywords:
-    - If your targeting is broad enough—and there are no other issues—the status will change to *Eligible*.
+    - If your targeting is broad enoughâ€”and there are no other issuesâ€”the status will change to *Eligible*.
     - If your targeting is not broad enough, the status will change to *Targeting too narrow*.
 
 - **Processing**

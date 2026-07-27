@@ -1,4 +1,4 @@
----
+﻿---
 title: About asset reporting
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how the asset report can give you performance insights for your search, audience and Performance Max campaigns across account, ad group and campaign levels.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About asset reporting

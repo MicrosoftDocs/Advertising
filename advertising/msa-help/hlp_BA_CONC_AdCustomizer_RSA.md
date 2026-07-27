@@ -1,4 +1,4 @@
----
+﻿---
 title: About ad customizer for ads
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set up ad customizer for ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About ad customizer for ads
@@ -45,9 +46,9 @@ Here are the required and optional fields to include in the ad customizer feed f
 
 | Field name | Description |
 | --- | --- |
-| **Account value** | Attribute value at the account level.<br>This field is optional.<br><br>**Requirements:**<br>See the [custom attribute type table](#about-custom-attributes) above for a list of attribute requirements.<br><br>**Example:**<br>If your business sells home goods and your attribute data type is Text, then you might include “Appliances” as the value for this column. |
+| **Account value** | Attribute value at the account level.<br>This field is optional.<br><br>**Requirements:**<br>See the [custom attribute type table](#about-custom-attributes) above for a list of attribute requirements.<br><br>**Example:**<br>If your business sells home goods and your attribute data type is Text, then you might include â€œAppliancesâ€ as the value for this column. |
 | **Ad group** | The name of the existing ad group to which you're assigning an attribute value. |
-| **Attribute** | The name of your customizer attribute.<br>Each customizer attribute must have a unique name. Attribute names can be up to 40 characters. You can have a maximum of 40 attributes per account. Attribute names cannot contain the following characters: {, }, (, ), :, /, “, ' |
+| **Attribute** | The name of your customizer attribute.<br>Each customizer attribute must have a unique name. Attribute names can be up to 40 characters. You can have a maximum of 40 attributes per account. Attribute names cannot contain the following characters: {, }, (, ), :, /, â€œ, ' |
 | **Campaign** | The name of the existing campaign to which you're assigning an attribute value. |
 | **Customizer:{Attribute name}** | Each customizer value must have its own column.<br><br>**Valid values:**<br>Base the value of the customizer attribute on the data type. See the [custom attribute type table](#about-custom-attributes) above for a list of attribute requirements. |
 | **Data type** | The type of customizer attribute.<br><br>**Valid values:**<br>Number<br>Percent<br>Price<br>Text |
@@ -78,7 +79,7 @@ There are two ways to create ad customizer attributes for ads: 1) Manually creat
 
 You can add ad customizers to these ad text fields: **Headlines**, **Descriptions**, and your **Display URL**'s first and second paths (Path 1 and Path 2).
 
-Make sure that all customizer references in your ad text fields contain an attribute value for at least one level—account, campaign, ad group, and/or keyword. If any of the customizers in the ad don't contain an attribute value, all the customizer references in that ad will use defaults. Therefore, if you don't add a default, the ad will get filtered.
+Make sure that all customizer references in your ad text fields contain an attribute value for at least one levelâ€”account, campaign, ad group, and/or keyword. If any of the customizers in the ad don't contain an attribute value, all the customizer references in that ad will use defaults. Therefore, if you don't add a default, the ad will get filtered.
 
 1. When creating or editing an ad, enter an open brace ( { ) where you want the ad customizer to appear.
 1. In the resulting dropdown menu, select **Ad customizer**.
@@ -92,7 +93,7 @@ Make sure that all customizer references in your ad text fields contain an attri
 
 ## Layout of an ad customizer feed
 
-The header row of the spreadsheet includes fields for attribute, data type, and account value (optional); the specific customizer information you want to insert into your ads; and the names of the campaigns, ad groups, and keywords to which you would like to assign an attribute value. Assigning an attribute value indicates where you want to apply your attributes—at account, campaign, ad group, and keyword levels. Please make sure to include attribute rows before the customizer value rows.
+The header row of the spreadsheet includes fields for attribute, data type, and account value (optional); the specific customizer information you want to insert into your ads; and the names of the campaigns, ad groups, and keywords to which you would like to assign an attribute value. Assigning an attribute value indicates where you want to apply your attributesâ€”at account, campaign, ad group, and keyword levels. Please make sure to include attribute rows before the customizer value rows.
 
 To see an example of an ad customizer feed, follow these steps:
 

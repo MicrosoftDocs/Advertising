@@ -1,4 +1,4 @@
----
+﻿---
 title: Opting Out of Automated Extensions
 description: Learn how to manage Automated Extensions
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Opting out of Automated Extensions

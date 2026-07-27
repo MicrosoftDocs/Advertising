@@ -1,4 +1,4 @@
----
+﻿---
 title: New Zealand goods and services tax
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The New Zealand goods and services tax (NZ GST) is added on advertising costs unless there is an NZ GST registration number on file.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # New Zealand goods and services tax

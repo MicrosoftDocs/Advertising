@@ -1,4 +1,4 @@
----
+﻿---
 title: What is billing threshold and how does it work?
 ms.service: msa-help
 ms.subservice: msa-billing-payments-tax
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Paying your postpay threshold account with a credit card? Learn about billing threshold and monthly billing date to understand when we charge your payment method.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is billing threshold and how does it work?
@@ -27,7 +28,7 @@ Billing thresholds start out low (for example, if your account is billed in US d
 
 ### Example: When you pay
 
-Let’s assume you signed up for Microsoft Advertising on October 22 and have a postpay account billed in U.S. dollars. As a new customer, your billing threshold is set by default to $50 and your monthly billing date is the 22nd of each month. From October 22 to November 21, you spend $47.50, so we charge you that amount on November 22, your first monthly billing date. Your campaign takes off in late November and by December 7, you have $50 in charges. We charge your payment method on December 8. You reach the billing threshold two more times, and we increase it to $100.
+Letâ€™s assume you signed up for Microsoft Advertising on October 22 and have a postpay account billed in U.S. dollars. As a new customer, your billing threshold is set by default to $50 and your monthly billing date is the 22nd of each month. From October 22 to November 21, you spend $47.50, so we charge you that amount on November 22, your first monthly billing date. Your campaign takes off in late November and by December 7, you have $50 in charges. We charge your payment method on December 8. You reach the billing threshold two more times, and we increase it to $100.
 
 > [!IMPORTANT]
 > For customers in India: Due to a regulation by the Reserve Bank of India (known as [India E-Mandate](https://go.microsoft.com/fwlink/?linkid=2155636)), payments may not be processed if the credit or debit card you used was added to your account after April 1, 2021. In this case, we recommend:
@@ -77,7 +78,7 @@ To find your billing threshold, make sure you are in the account view and not th
 > [!NOTE]
 > - Charges can exceed the billing threshold or your limit by a small amount. If you are setting the limit to avoid reaching a maximum amount that you can charge on your credit card, you might want to set your limit slightly below that amount.
 > - It will take about an hour for your new limit to be saved in our system.
-> - We may initiate an authorization hold on your card for the estimated amount of the advertising fee. This hold will be removed either when the time limit for the hold is up (usually, it's 7 days) or upon receipt of funds for the final transaction, whichever comes first. (Not everyone has this feature yet. If you don't, don't worry—it's coming soon!)
+> - We may initiate an authorization hold on your card for the estimated amount of the advertising fee. This hold will be removed either when the time limit for the hold is up (usually, it's 7 days) or upon receipt of funds for the final transaction, whichever comes first. (Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!)
 > - If you set your limit below your current balance, we will charge you the full balance. After that, you will be charged your limit (or a slightly larger amount). If you need to reduce your balance before you set your limit, you can [pay your account balance](hlp_BA_PROC_MakePayment.md).
 > - If you change your postpay payment option from threshold to monthly invoice, we will remove the billing threshold limit.
 > - In order to use a postpay threshold account, your [advertiser identity verification (AIV) status](hlp_BA_CONC_AdvertiserIdentityVerification.md) must be verified.

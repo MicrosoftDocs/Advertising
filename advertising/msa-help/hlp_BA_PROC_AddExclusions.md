@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Prevent your Ads from Showing to Certain People
 description: Learn how to use exclusions to prevent your ads from showing to certain people based on specific locations, websites, IP addresses, and more.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 ms.author: jonmeyers
 author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to prevent your ads from showing to certain people
@@ -21,7 +22,7 @@ If you want to prevent your ad from appearing in specific locations, on specific
   1. Select the name of the campaign that you want to edit (in the **Campaign** column).
   1. Select **Settings**.
   1. Select **Edit location targets** below **Location** and then select **Let me choose specific locations**.
-  1. Select locations you want to exclude—cities and metro areas within the United States, Canada, United Kingdom, France, and Australia; states/provinces; countries/regions; or postal codes—by searching for your specific location and selecting **Exclude** from the search results. (Note: You cannot exclude using radius targeting.)
+  1. Select locations you want to excludeâ€”cities and metro areas within the United States, Canada, United Kingdom, France, and Australia; states/provinces; countries/regions; or postal codesâ€”by searching for your specific location and selecting **Exclude** from the search results. (Note: You cannot exclude using radius targeting.)
   1. Select **Done**.
 
 **To exclude specific locations at the ad group level**
@@ -30,7 +31,7 @@ If you want to prevent your ad from appearing in specific locations, on specific
   1. Select the ad group that you want to edit (in the **Ad group** column).
   1. Select **Settings**.
   1. Select **Edit location targets** below **Location** and then select **Let me choose specific locations**.
-  1. Select locations you want to exclude—cities and metro areas within the United States, Canada, United Kingdom, France, and Australia; states/provinces; countries/regions; or postal codes—by searching for your specific location and selecting **Exclude** from the search results. (Note: You cannot exclude using radius targeting.)
+  1. Select locations you want to excludeâ€”cities and metro areas within the United States, Canada, United Kingdom, France, and Australia; states/provinces; countries/regions; or postal codesâ€”by searching for your specific location and selecting **Exclude** from the search results. (Note: You cannot exclude using radius targeting.)
   1. Select **Done**.
 
 ## To prevent specific websites from showing your ads

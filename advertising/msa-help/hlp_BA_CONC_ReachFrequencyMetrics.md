@@ -1,4 +1,4 @@
----
+﻿---
 title: Understanding reach and frequency metrics
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can use the reach and frequency metrics to measure your campaign exposure more accurately.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding reach and frequency metrics
@@ -21,7 +22,7 @@ To maximize the effectiveness of your ad campaign, you should monitor both the u
 
 - **Unique reach**
 
-  People commonly transition between devices, networks, and ad formats throughout the day. Microsoft Advertising uses models based on shared signals and aggregated behavior data to calculate unique reach, ensuring viewers aren’t counted multiple times across devices and formats. This can be useful when measuring the size of your audience or when comparing the effectiveness of your campaigns. Unique reach measures the total number of distinct people who have viewed your ad. It accounts for multiple views by the same person across different devices, networks, and ad formats.
+  People commonly transition between devices, networks, and ad formats throughout the day. Microsoft Advertising uses models based on shared signals and aggregated behavior data to calculate unique reach, ensuring viewers arenâ€™t counted multiple times across devices and formats. This can be useful when measuring the size of your audience or when comparing the effectiveness of your campaigns. Unique reach measures the total number of distinct people who have viewed your ad. It accounts for multiple views by the same person across different devices, networks, and ad formats.
 
 - **Average impression frequency per user**
 

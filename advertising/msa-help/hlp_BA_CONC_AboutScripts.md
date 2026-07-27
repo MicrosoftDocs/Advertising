@@ -1,4 +1,4 @@
----
+﻿---
 title: How can I automate my campaigns with Microsoft Advertising scripts?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to automate your account and campaigns with Microsoft Advertising scripts.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How can I automate my campaigns with Microsoft Advertising scripts?
@@ -68,9 +69,9 @@ Here are some examples of using scripts:
     You can drag any script you created in Google into Microsoft Advertising. When you select Save, we will automatically make some changes to make them compatible with Microsoft Advertising. However, you will need to update the script manually to fix any of the following compatibility issues:
 
   - If the script calls the budget selector, it returns only shared budgets. To get a campaign's individual budget, you must access it directly from the campaign.
-  - If the script includes IDs, you’ll need to turn them into strings by wrapping them in double quotation marks. For example, you’ll need to change .withIds([1234]) to .withIds("1234"]).
-  - If the script calls an entity's getStatsFor() method, you’ll need to change the call to getStats() and specify the date range using the selector's forDateRange() method.
-  - If the script calls the keyword selector's withIds() method, make sure you pass only an array of keyword IDs. In Microsoft Advertising, keyword IDs are unique, so there’s no need to pass an array of ad group ID and keyword ID pairs.
+  - If the script includes IDs, youâ€™ll need to turn them into strings by wrapping them in double quotation marks. For example, youâ€™ll need to change .withIds([1234]) to .withIds("1234"]).
+  - If the script calls an entity's getStatsFor() method, youâ€™ll need to change the call to getStats() and specify the date range using the selector's forDateRange() method.
+  - If the script calls the keyword selector's withIds() method, make sure you pass only an array of keyword IDs. In Microsoft Advertising, keyword IDs are unique, so thereâ€™s no need to pass an array of ad group ID and keyword ID pairs.
 
   > [!NOTE]
   > If the script adds negative keywords with broad match type, Microsoft Advertising converts them to phrase match type when adding them to the account. Microsoft Advertising doesn't support broad match type for negative keywords.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Optimize for audience targeting
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Optimize your ad group or campaign by setting a different bid amount, customizing ads, and broadening keywords.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Optimize for audience targeting

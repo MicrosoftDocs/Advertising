@@ -1,4 +1,4 @@
----
+﻿---
 title: Similar audiences - Reach a wider qualified set of customers
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to use similar audiences to get you ads in front of a wider, qualified set of customers.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Similar audiences: Reach a wider qualified set of customers

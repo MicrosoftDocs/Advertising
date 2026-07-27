@@ -1,4 +1,4 @@
----
+﻿---
 title: Malaysia sales and service tax
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: The sales and service tax (SST) is added on advertising costs at a rate of 8%.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Malaysia sales and service tax

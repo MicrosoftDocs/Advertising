@@ -1,4 +1,4 @@
----
+﻿---
 title: Improve campaign performance with Microsoft Advertising Suggestions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Keyword, bid, and budget suggestions offer easy ways to increase your ad rank, clicks, and impressions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Improve campaign performance with Microsoft Advertising Suggestions
@@ -18,7 +19,7 @@ Keyword, bid, and budget suggestions provide quick and easy ways to improve camp
 > [!NOTE]
 > Keywords can only be added to Search campaigns. It's not possible to add keywords to other campaign types.
 
-- Keyword suggestions are words and phrases that might be relevant to your campaigns based on the keywords and ads that you’re already using in each ad group. Adding these keywords can help boost impressions and clicks, improve ad position, and increase click-through rate (CTR).
+- Keyword suggestions are words and phrases that might be relevant to your campaigns based on the keywords and ads that youâ€™re already using in each ad group. Adding these keywords can help boost impressions and clicks, improve ad position, and increase click-through rate (CTR).
 - If Microsoft Advertising has keyword suggestions for you, you'll see a message at the top of the Campaigns page.
 
   Selecting the message link takes you to the Recommendations tab.

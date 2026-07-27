@@ -1,4 +1,4 @@
----
+﻿---
 title: Use aautomotive ads to showcase your models and inventory
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Showcase real-time inventory of new and used cars to nearby shoppers who are in the comparison and transcation stages.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use automotive ads to showcase your models and inventory
@@ -18,9 +19,9 @@ description: Showcase real-time inventory of new and used cars to nearby shopper
 > - For more information about this change, see [About Responsive Search ads](hlp_BA_CONC_ResponsiveSearchAds.md).
 
 > [!NOTE]
-> These ads are currently available globally in English. If you'd like to serve them in another language, don't worry—more languages are coming soon!
+> These ads are currently available globally in English. If you'd like to serve them in another language, don't worryâ€”more languages are coming soon!
 
-Showcase real-time inventory of new and used cars to nearby shoppers who are in the comparison and transaction stages. We don’t crawl your website to generate content. Instead, automotive ads are dynamically generated based on the data you specify in your feed file, which contains business data such as vehicle photos, special prices, and other relevant details. From third-party sites and auto dealers displaying their new and used inventory to automotive manufacturers advertising their new models, automotive ads drive performance. The more details you provide in the feed file, the more information we’ll include in your ads.
+Showcase real-time inventory of new and used cars to nearby shoppers who are in the comparison and transaction stages. We donâ€™t crawl your website to generate content. Instead, automotive ads are dynamically generated based on the data you specify in your feed file, which contains business data such as vehicle photos, special prices, and other relevant details. From third-party sites and auto dealers displaying their new and used inventory to automotive manufacturers advertising their new models, automotive ads drive performance. The more details you provide in the feed file, the more information weâ€™ll include in your ads.
 
 :::image type="content" source="media/hlp_BA_CONC_AutomotiveAds.png" alt-text="Automotive inventory ad examples.":::
 
@@ -38,7 +39,7 @@ Showcase real-time inventory of new and used cars to nearby shoppers who are in 
 To get started with Automotive inventory ads, you'll need to create a Search campaign with a Responsive Search ad that functions as a placeholder. Then, you'll create a [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_Autos.md) where you'll reference the campaign. We create your Automotive ads by pulling information from your feed file to generate ad copy and we use the ad's settings for targeting and optimization.
 
 > [!NOTE]
-> The campaign you create will always be an Automotive ads campaign. You cannot use this campaign for any other purpose now or at a later time—it'll always be used as an Automotive ads campaign.
+> The campaign you create will always be an Automotive ads campaign. You cannot use this campaign for any other purpose now or at a later timeâ€”it'll always be used as an Automotive ads campaign.
 
 1. From the navigation menu on the left, select **Create**.
 1. Choose **Drive conversions** or **Generate leads** as your campaign goal.
@@ -67,7 +68,7 @@ To get started with Automotive inventory ads, you'll need to create a Search cam
 
    1. From the **Ad type** dropdown menu, select **Responsive Search ad**.
    1. Enter the **Final URL**, which will feature as the Display URL in your Automotive ads.
-   1. Enter placeholder values for each field. Since this ad will be dynamically populated by the attributes in your [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_Autos.md), your placeholder values can simply be “test”.
+   1. Enter placeholder values for each field. Since this ad will be dynamically populated by the attributes in your [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_Autos.md), your placeholder values can simply be â€œtestâ€.
    1. Select **Save** to continue.
 
       > [!NOTE]

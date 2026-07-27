@@ -1,4 +1,4 @@
----
+﻿---
 title: About IF functions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Customize your ads to show specific text based on what potential customers are searching for by using IF functions.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About IF functions
@@ -27,8 +28,8 @@ Here are the supported targets for IF functions, with the syntax you'll need to 
 
 | Target | Value | Syntax | How it appears |
 | --- | --- | --- | --- |
-| **Device** | Mobile | {=IF (device = mobile, text to insert): default text} | If the user is on a mobile device, the entire IF function is replaced with the value in “text to insert”. Otherwise, the “default text” that is provided will be used. Learn more about [targeting](hlp_BA_PROC_TargetingAgeGender.md). |
-| **Audience** | Any valid audience list name | {=IF (audience IN (<audience list 1>, <audience list 2>), text to insert): default text} | If the user is in audience list 1 or audience list 2, the IF function is replaced with the “text to insert”. Otherwise, the “default text” that is provided will be used. Learn more about [audience options](hlp_BA_CONC_Audiences_Options.md). |
+| **Device** | Mobile | {=IF (device = mobile, text to insert): default text} | If the user is on a mobile device, the entire IF function is replaced with the value in â€œtext to insertâ€. Otherwise, the â€œdefault textâ€ that is provided will be used. Learn more about [targeting](hlp_BA_PROC_TargetingAgeGender.md). |
+| **Audience** | Any valid audience list name | {=IF (audience IN (<audience list 1>, <audience list 2>), text to insert): default text} | If the user is in audience list 1 or audience list 2, the IF function is replaced with the â€œtext to insertâ€. Otherwise, the â€œdefault textâ€ that is provided will be used. Learn more about [audience options](hlp_BA_CONC_Audiences_Options.md). |
 
 ## What you need to know
 
@@ -59,7 +60,7 @@ IF functions are encased in brackets and inserted anywhere into a Responsive Sea
 | Microsoft Advertising | Bing Search |
 | --- | --- |
 | ****Headline 1**: Contoso Shoes<br>**Headline 2**: Summer Sale Going On Now<br>**Headline 3**: Best Selections Available<br>**Description**: Check Out The Best Selection Of Shoes. {=IF (device = mobile,Free Delivery with Mobile Orders!): Free Delivery!}** | **Mobile**<br>![Mobile ad example with IF function](media/BA_CONC_IFFunctions_Mobile.png)<br><br>**Desktop**<br>![Computer ad example with IF function](media/BA_CONC_IFFunctions_Desktop.png) |
-| ****Headline 1**: Contoso Jewelry<br>**Headline 2**: Find {=IF(audience in(/Apparel&Accessories), Best Selection Of Women’s Jewelry): Women’s Jewelry} Here<br>**Headline 3**: Best Prices Available<br>**Description**: Find The Perfect Piece Of Jewelry To Treat Yourself!** | **Audience** = Apparal&Accessories<br>![Audience ad example with IF function](media/BA_CONC_IFFunctions_Audience.png)<br><br>**Other audiences**<br>![Other audiences ad example with IF function](media/BA_CONC_IFFunctions_OtherAudiences.png) |
+| ****Headline 1**: Contoso Jewelry<br>**Headline 2**: Find {=IF(audience in(/Apparel&Accessories), Best Selection Of Womenâ€™s Jewelry): Womenâ€™s Jewelry} Here<br>**Headline 3**: Best Prices Available<br>**Description**: Find The Perfect Piece Of Jewelry To Treat Yourself!** | **Audience** = Apparal&Accessories<br>![Audience ad example with IF function](media/BA_CONC_IFFunctions_Audience.png)<br><br>**Other audiences**<br>![Other audiences ad example with IF function](media/BA_CONC_IFFunctions_OtherAudiences.png) |
 
 <a id="create-an-if-function-manually"></a>
 
@@ -74,17 +75,17 @@ You can create an IF function manually by typing directly in the **Create ad** i
 | **{ ... }** | **Mandatory**. The entire IF function syntax must be within a pair of braces (also called curly brackets). |
 | **=IF** | **Mandatory**. This component needs to be met so that the text defined in the **Then insert** box can appear in your title, path, or ad text fields. |
 | **( ... )** | **Mandatory**. The other components of the syntax must be within a pair of parentheses. *Note:* Individual components within the parentheses must be separated by commas. |
-| **"device"** | If the user is on a mobile device, the entire IF function is replaced with the value in “text to insert”. Otherwise, the “default text” that is provided will be used. |
-| **"Free Delivery with Mobile Orders!"** | If the user is on a mobile device, the entire IF function is replaced with the value in “text to insert”. Otherwise, the “default text” that is provided will be used. |
+| **"device"** | If the user is on a mobile device, the entire IF function is replaced with the value in â€œtext to insertâ€. Otherwise, the â€œdefault textâ€ that is provided will be used. |
+| **"Free Delivery with Mobile Orders!"** | If the user is on a mobile device, the entire IF function is replaced with the value in â€œtext to insertâ€. Otherwise, the â€œdefault textâ€ that is provided will be used. |
 | **"Free Delivery!"** | *Optional:* This is the text that will appear in your title, path, or ad text field if the IF function isn't met. |
-| **{=IF(audience in(/Apparel&AccessoriesAccessories), Best Selection Of Women’s Jewelry): Women’s Jewelry}** | Example of an IF function targeting an audience list. |
+| **{=IF(audience in(/Apparel&AccessoriesAccessories), Best Selection Of Womenâ€™s Jewelry): Womenâ€™s Jewelry}** | Example of an IF function targeting an audience list. |
 
 | Component | What you need to know |
 | --- | --- |
 | **{ ... }** | **Mandatory**. The entire IF function syntax must be within a pair of braces (also called curly brackets). |
 | **=IF** | **Mandatory**. This component needs to be met so that the text defined in the **Then insert** box can appear in your title, path, or ad text fields. |
 | **( ... )** | **Mandatory**. The other components of the syntax must be within a pair of parentheses. *Note:* Individual components within the parentheses must be separated by commas. |
-| **"audience in(/Apparel&AccessoriesAccessories)"** | If the user is on an audience list, the entire IF function is replaced with the value in “text to insert”. Otherwise, the “default text” that is provided will be used. |
+| **"audience in(/Apparel&AccessoriesAccessories)"** | If the user is on an audience list, the entire IF function is replaced with the value in â€œtext to insertâ€. Otherwise, the â€œdefault textâ€ that is provided will be used. |
 | **"Women's Jewelry"** | This is the text that will appear in your title, path, or ad text fields if the IF function conditions are met (must be within a pair of double quotation marks). |
 | **"Best Selection of Women's Jewelry"** | *Optional:* This is the text that will appear in your title, path, or ad text field if the IF function isn't met. |
 

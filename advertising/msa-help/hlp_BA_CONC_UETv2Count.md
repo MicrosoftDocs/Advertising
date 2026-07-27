@@ -1,4 +1,4 @@
----
+﻿---
 title: Change how you count conversions
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: With conversion tracking, you have the flexibility to count conversions according to your business needs. For any conversion action, you can choose to count all conversions that happen after a click, or only unique conversions that happen after a click.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Change how you count conversions
@@ -20,4 +21,4 @@ These counting choices can give you a better sense of your campaign performance 
 
 ### Example:
 
-You track two conversions: leads and sales. You pick "Unique” for leads and “All” for sales. When one ad click turns into two leads and two sales, it's counted as three conversions: one for the unique lead, and two for all the sales.
+You track two conversions: leads and sales. You pick "Uniqueâ€ for leads and â€œAllâ€ for sales. When one ad click turns into two leads and two sales, it's counted as three conversions: one for the unique lead, and two for all the sales.

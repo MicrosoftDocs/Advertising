@@ -1,4 +1,4 @@
----
+﻿---
 title: Tours and activities ads' dynamic data feeds
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Get details about required, recommended, and optional feed attributes for Tours and activities ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Tours and activities ads' dynamic data feeds
@@ -43,7 +44,7 @@ Your dynamic data feed file must include the following attributes:
 | **Final URL** | The same domain as your website. Must begin with http:// or https://.<br>This will not be shown in the ad. | http://www.contoso.com/seattle/id |
 | **ID** | Unique ID of the item comprised of any sequence of letters and digits.<br>This will not be shown in the ad. | AB1234 |
 | **Image URLs** | The URLs for the image used in your ad, which must not be redirected.<br>URLs cannot exceed 2,048 characters and must begin with http:// or https://. Any commas must be encoded.<br>If you are listing multiple Image URLs, use a semicolon (;) as delimiter.<br>We support PNG, BMP, GIF, JPEG, ICO, and MS-DDS, all of which must be saved in RGB color code with an ICC profile.<br>The recommended aspect ratios are: 4:3, 1.5:1, or 16:9.<br>The recommended resolution is: minimum 640x360 pixels and maximum 1920x1080 pixels.<br>Images shouldn't be blurry or contain people, borders, animation, watermarks, or promotional text. Placeholder images will be disapproved. | http://www.contoso.com/image1.png |
-| **Starting price** | Starting price for the item. Numeric value followed by currency code (ISO 4217 standard). Use “.” as the decimal mark regardless of the local currency. | 200.00 USD |
+| **Starting price** | Starting price for the item. Numeric value followed by currency code (ISO 4217 standard). Use â€œ.â€ as the decimal mark regardless of the local currency. | 200.00 USD |
 | **Target ad group** | The name of the targeted ad group.<br>If you don't specify a target ad group, we will apply this feed to all ad groups in your targeted campaign. See Target campaign above.<br>This will not be shown in the ad. | Tours-Activities-Ads-Placement_AdGroup1 |
 | **Target campaign** | The name of the targeted Tours and Activities ads campaign.<br>In addition to targeting a campaign, you can also target a specific ad group within the campaign. See Target ad group below.<br>This will not be shown in the ad. | EMDB_Tours |
 | **Title** | The title of the item. | Contoso Wine Tour |
@@ -56,7 +57,7 @@ Your dynamic data feed file may include the following attributes, which we highl
 | --- | --- | --- |
 | **Duration** | The duration of the item in DD:HH:MM format. | 02:03:30 |
 | **Num of reviews** | The number of reviews for the item in numerical value. | 12500 |
-| **Primary categories** | Categories and subcategories that the item belongs to. Multiple categories can be provided, separated by “;”. | Food & Wine; Wine Tasting |
+| **Primary categories** | Categories and subcategories that the item belongs to. Multiple categories can be provided, separated by â€œ;â€. | Food & Wine; Wine Tasting |
 | **Provider** | The name of the provider or seller of the item. | Contoso Winery |
 | **Rating** | The rating for the item on a scale of 0-5. | 4.5 |
 
@@ -66,9 +67,9 @@ Your dynamic data feed file may include any of the following optional attributes
 
 | Attribute | Description | Example |
 | --- | --- | --- |
-| **Attractions** | List of attractions for the item (if applicable), separated by “;”. | Winery; Wine Cellar; Wine Tour |
+| **Attractions** | List of attractions for the item (if applicable), separated by â€œ;â€. | Winery; Wine Cellar; Wine Tour |
 | **Contextual keywords** | Specific tours and activities details used to power relevancy matching, separated by ";". If provided, the information in this column will help the Microsoft AI create more relevant ads for your campaign.<br>This will not be shown in the ad. | Woodinville Winery; Wine Tours; Wine Cellar |
-| **Custom parameter** | Include up to 3 key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>The maximum limit is 16 characters or 200 bytes.<br>This will not be shown in the ad. | {“city”:”Seattle”, “pcategory”:”daytours”} |
+| **Custom parameter** | Include up to 3 key and value pairs, which automatically fill up in the click URL.<br>List the key and value pairs within braces. Each term should be set in quotation marks. Separate each phrase of the pair with a colon and separate key and value pairs with commas and without any spaces.<br>The maximum limit is 16 characters or 200 bytes.<br>This will not be shown in the ad. | {â€œcityâ€:â€Seattleâ€, â€œpcategoryâ€:â€daytoursâ€} |
 | **Description** | A short description of the item that appears in the ad. | Sample the Pacific Northwest's most delicious red and white wines. |
 | **Destination address** | Either provide the first line of the street address or the full address. If only the street address is provided, fill in the city, state, and zip code as other attributes. | 123 Contoso Ave<br>or<br>123 Contoso Ave, Bellevue, WA 98004 |
 | **Destination city** | The item's destination city. | Seattle |
@@ -82,6 +83,6 @@ Your dynamic data feed file may include any of the following optional attributes
 | **Is likely to sell out** | Use true or false to indicate if the item is likely to sell out. | TRUE |
 | **Related categories** | Other top-level categories that the item might belong to. | Wine Tasting |
 | **Similar destination IDs** | Similar destination IDs at the city-level related to this item. Multiple destination IDs should be separated by ";".<br>This will not be shown in the ad. | GEO456; GEO789 |
-| **Starting sale price** | The starting sale price for the item. “Starting sale price” values should be less than “Starting price”. If provided, sale price will be used.<br>Numeric value followed by currency code (ISO 4217 standard). Use “.” as the decimal mark regardless of the local currency. | 15.00 USD |
+| **Starting sale price** | The starting sale price for the item. â€œStarting sale priceâ€ values should be less than â€œStarting priceâ€. If provided, sale price will be used.<br>Numeric value followed by currency code (ISO 4217 standard). Use â€œ.â€ as the decimal mark regardless of the local currency. | 15.00 USD |
 | **Tracking template** | Include any tracking parameters, custom parameters, or tracking redirects for your item URL.<br>This will not be shown in the ad. | http://www.trackingtool.com/?source=Microsoft&pcategory={_pcategory}&city={_city} |
 | **Video URLs** | The URL for the video used in your ad. Must begin with http:// or https://.<br>We support: MPG, MP4, AVI, etc.<br>*Note:* We'll leverage this in the future. | http://www.contoso.com/video1.mpg |

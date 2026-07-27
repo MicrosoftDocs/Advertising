@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Microsoft UET tag with content security policy
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Content Security Policy (CSP) is a widely-used web security standard that helps to detect and mitigate certain types of website related attacks including cross-site scripting, click jacking and data injections.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use Microsoft UET tag with Content Security Policy

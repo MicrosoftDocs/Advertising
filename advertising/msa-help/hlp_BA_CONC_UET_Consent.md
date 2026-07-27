@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting up UET for consent mode
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Consent Mode allows you to adjust UET cookie access based on consent status.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Setting up UET for consent mode
@@ -58,7 +59,7 @@ Consent Mode is set via a property in UET called *ad_storage*. The possible valu
 | Value for *ad_storage* | Description |
 | --- | --- |
 | ***granted*** | First and third-party cookies may be read and written for UET. If no default is set, UET uses *granted* by default. |
-| ***denied*** | First-party cookies are not read nor written for UET. Third-party cookies are not written. Third-party cookies are read-only for fraud and spam purposes—not for advertising purposes. |
+| ***denied*** | First-party cookies are not read nor written for UET. Third-party cookies are not written. Third-party cookies are read-only for fraud and spam purposesâ€”not for advertising purposes. |
 
 ## Consent Mode implementation: Basic or Advanced setup
 
@@ -81,8 +82,8 @@ Microsoft Advertising recommends Advanced Consent Mode as the technical best pra
 
 To validate your Consent Mode implementation:
 
-- *Validate Setup* — Use the validation steps provided in this documentation
-- *Monitor Conversion Tracking* — Review your conversion data to ensure proper tracking
+- *Validate Setup* â€” Use the validation steps provided in this documentation
+- *Monitor Conversion Tracking* â€” Review your conversion data to ensure proper tracking
 
 ## Need help implementing Consent Mode?
 
@@ -136,7 +137,7 @@ Visit Microsoft Advertising Help Center or contact your account team for support
 
 If you don't implement Consent Mode directly on your website, we support reading consent signals from all available sources, such as TCF (Transparency and Consent Framework), and other standard mechanisms.
 
-This approach simplifies the onboarding process and enables automatic consent handling—provided that:
+This approach simplifies the onboarding process and enables automatic consent handlingâ€”provided that:
 
 - Your website includes a cookie banner.
 - You use a standard consent solution.
@@ -200,9 +201,9 @@ Once the UET Tag Helper is installed, verify UET Consent Mode.
 
 ## Validating Consent Mode implementation with UET Dashboard
 
-The UET Dashboard includes a Consent signal column to help advertisers quickly assess whether valid consent signals are being captured for each UET tag event type. This feature supports compliance with privacy regulations in the European Economic Area (EEA), the United Kingdom (UK), and Switzerland by surfacing signal health directly in the dashboard. Consent signal is evaluated per event type—so each row (such as Page Load or Custom Event) is assessed independently.
+The UET Dashboard includes a Consent signal column to help advertisers quickly assess whether valid consent signals are being captured for each UET tag event type. This feature supports compliance with privacy regulations in the European Economic Area (EEA), the United Kingdom (UK), and Switzerland by surfacing signal health directly in the dashboard. Consent signal is evaluated per event typeâ€”so each row (such as Page Load or Custom Event) is assessed independently.
 
-Consent status is displayed using four clear labels: Healthy, Moderate, Missing, and “-”. A “Healthy” status means more than 75% of events from the past seven days include a valid consent signal. “Moderate” indicates coverage between 0% and 75%, while “Missing” means no valid signals were detected. The “-” symbol appears when the signal status is unclear.
+Consent status is displayed using four clear labels: Healthy, Moderate, Missing, and â€œ-â€. A â€œHealthyâ€ status means more than 75% of events from the past seven days include a valid consent signal. â€œModerateâ€ indicates coverage between 0% and 75%, while â€œMissingâ€ means no valid signals were detected. The â€œ-â€ symbol appears when the signal status is unclear.
 
 1. From the navigation menu on the left, select **Conversions**.
 1. Review the **Consent status** column in the **Tag Summary** header:

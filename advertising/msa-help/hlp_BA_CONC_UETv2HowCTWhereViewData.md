@@ -1,4 +1,4 @@
----
+﻿---
 title: Where do I view conversion goal metric data?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: See the three places in Microsoft Advertising where you can view conversion data.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Where do I view conversion goal metric data?
@@ -24,7 +25,7 @@ There are three places in Microsoft Advertising where conversion data can be vie
 
   : The following conversion metrics can be added to the Campaigns, Ad groups, Ads, Keywords, and Ad extensions tables by selecting **Columns** and then **Modify columns**.
 
-  *Conversion rate and CPA are calculated based on clicks that could lead to conversions (e.g., clicks after a conversion goal was enabled). Conversion rate = (Conversions ÷ Eligible interactions) × 100. CPA (cost per acquisition) = Total cost ÷ Conversions. Eligible interactions include clicks and other qualifying interactions that occurred during the conversion window and after a conversion goal was enabled. Interactions excluded by attribution settings, conversion windows, or account filters are not counted in these calculations.*
+  *Conversion rate and CPA are calculated based on clicks that could lead to conversions (e.g., clicks after a conversion goal was enabled). Conversion rate = (Conversions Ã· Eligible interactions) Ã— 100. CPA (cost per acquisition) = Total cost Ã· Conversions. Eligible interactions include clicks and other qualifying interactions that occurred during the conversion window and after a conversion goal was enabled. Interactions excluded by attribution settings, conversion windows, or account filters are not counted in these calculations.*
 
   - Conversions
   - Conversion rate

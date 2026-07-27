@@ -1,4 +1,4 @@
----
+﻿---
 title: About Budget Center
 ms.service: msa-help
 ms.subservice: msa-campaigns-bidding
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Budget Center allows you to seamlessly interact with budget and spend all in one place.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Budget Center

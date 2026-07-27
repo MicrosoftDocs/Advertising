@@ -1,4 +1,4 @@
----
+﻿---
 title: Why Is My Account on Hold?
 description: Have you run into a payment problem? Don't worry. We'll guide you through the process of removing the hold from your account. Read this article to find out how.
 ms.date: 5/30/2026
@@ -7,6 +7,7 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Why is my account on hold?

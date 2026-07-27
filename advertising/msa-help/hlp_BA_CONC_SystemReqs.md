@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising system requirements
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: A list of compatible operating systems and web browsers for Microsoft Advertising, plus troubleshooting advice.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising system requirements
@@ -17,8 +18,8 @@ Microsoft Advertising is a web-based program, and you can run it on any computer
 
 | Operating system | Supported browsers |
 | --- | --- |
-| **Windows 7 or newer** | - Microsoft Edge – [get the latest version](https://go.microsoft.com/fwlink/?linkid=838830)<br>- Google Chrome – [get the latest version](https://go.microsoft.com/fwlink/?linkid=398304)<br>- Mozilla Firefox – [get the latest version](https://go.microsoft.com/fwlink/?linkid=760733) |
-| **Mac OS X 10.9 or newer** | - Microsoft Edge – [get the latest version](https://go.microsoft.com/fwlink/?linkid=838830)<br>- Google Chrome – [get the latest version](https://go.microsoft.com/fwlink/?linkid=398304)<br>- Mozilla Firefox [– get the latest version](https://go.microsoft.com/fwlink/?linkid=760733)<br>- Apple Safari – [get the latest version](https://go.microsoft.com/fwlink/?linkid=398305) |
+| **Windows 7 or newer** | - Microsoft Edge â€“ [get the latest version](https://go.microsoft.com/fwlink/?linkid=838830)<br>- Google Chrome â€“ [get the latest version](https://go.microsoft.com/fwlink/?linkid=398304)<br>- Mozilla Firefox â€“ [get the latest version](https://go.microsoft.com/fwlink/?linkid=760733) |
+| **Mac OS X 10.9 or newer** | - Microsoft Edge â€“ [get the latest version](https://go.microsoft.com/fwlink/?linkid=838830)<br>- Google Chrome â€“ [get the latest version](https://go.microsoft.com/fwlink/?linkid=398304)<br>- Mozilla Firefox [â€“ get the latest version](https://go.microsoft.com/fwlink/?linkid=760733)<br>- Apple Safari â€“ [get the latest version](https://go.microsoft.com/fwlink/?linkid=398305) |
 
 ## Browser and system settings
 

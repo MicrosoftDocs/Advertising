@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ - Remarketing
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Remarketing lets you target your ads to people who have visited or interacted with you website before. Here, find some common user questions, tips, and best practices when getting started with remarketing.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # FAQ - Remarketing
 
 > [!NOTE]
-> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
+> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographicsâ€”such as age, gender, location, etc.â€”for the purpose of personalizing advertising, segmenting, or profiling customers.
 
 Remarketing lets you target your ads to people who have visited or interacted with your website before. Here, find some common user questions, tips, and best practices when getting started with remarketing:
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: What is the Microsoft Advertising Network?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about showing your ads on the Microsoft Advertising Network.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is the Microsoft Advertising Network?

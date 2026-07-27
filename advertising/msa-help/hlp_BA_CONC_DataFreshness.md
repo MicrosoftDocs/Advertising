@@ -1,4 +1,4 @@
----
+﻿---
 title: Is my data updated in real time?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn the rules that determine data freshness.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Is my data updated in real time?

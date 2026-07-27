@@ -1,4 +1,4 @@
----
+﻿---
 title: Using the JavaScript UET tag tracking code
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: After you create a UET tag, the next step is to add the UET tag tracking code to your website.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Using the JavaScript UET tag tracking code

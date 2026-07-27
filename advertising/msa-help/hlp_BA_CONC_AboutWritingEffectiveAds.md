@@ -1,4 +1,4 @@
----
+﻿---
 title: What makes an effective ad?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Here are some other tips for writing compelling ads. For example, address your customers directly by using words such as "you" and "your."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What makes an effective ad?
@@ -27,10 +28,10 @@ Here are some things to do:
 
 ## What to avoid:
 
-- **Random capitalization.** For example, “Find GREAT deals on sWiMsUiTs.”
-- **Excessive punctuation.** For example, “Great deals on swimsuits!!!! 50% off all styles!!!”
-- **Gimmicky spelling and jargon.** For example, “Tell your friends to git their swimsuitz here.”
-- **Misleading customers in your ad or landing page.** For example, “All items 20% off.” When only some of the items on the landing page URL you’re linking to are 20% off.
+- **Random capitalization.** For example, â€œFind GREAT deals on sWiMsUiTs.â€
+- **Excessive punctuation.** For example, â€œGreat deals on swimsuits!!!! 50% off all styles!!!â€
+- **Gimmicky spelling and jargon.** For example, â€œTell your friends to git their swimsuitz here.â€
+- **Misleading customers in your ad or landing page.** For example, â€œAll items 20% off.â€ When only some of the items on the landing page URL youâ€™re linking to are 20% off.
 
 ## Related videos
 

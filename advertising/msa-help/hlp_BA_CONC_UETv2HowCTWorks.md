@@ -1,4 +1,4 @@
----
+﻿---
 title: How does conversion tracking work?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how conversion tracking attributes credit for a conversion for one or more conversion goals.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How does conversion tracking work?
@@ -21,7 +22,7 @@ Microsoft Advertising will not count any user activity as a conversion, even if 
 There are multiple models used when attributing conversions to ad clicks. These are referred to as *attribution models*. Microsoft Advertising uses the last ad click attribution, meaning if someone clicks on multiple ads before doing the action your website, the last (most recent) click before the conversion gets credit for the conversion. Some of the other models include last click, first click, linear, time decay, data-driven, etc.
 
 > [!NOTE]
-> If you'd like to use conversion tracking for optimizing your campaigns, you need to select **Include in “Conversions”** for setting up your conversion goal. Conversions that won't optimize campaign performance will only show up in the “All conversions” column. For more information, see [Conversion goals: "Conversions" versus "All conversions”](hlp_BA_CONC_ConvsVsAllConvs.md).
+> If you'd like to use conversion tracking for optimizing your campaigns, you need to select **Include in â€œConversionsâ€** for setting up your conversion goal. Conversions that won't optimize campaign performance will only show up in the â€œAll conversionsâ€ column. For more information, see [Conversion goals: "Conversions" versus "All conversionsâ€](hlp_BA_CONC_ConvsVsAllConvs.md).
 
 > [!IMPORTANT]
 > For conversion tracking to work, Microsoft Advertising needs to be able to collect data from your website. This requires [Universal Event Tracking (UET)](hlp_BA_CONC_UETv2WhatIsTag.md).
@@ -119,7 +120,7 @@ The Cross-device attribution model allows us to better track and connect convers
     1. Enter the following information: <br>**Microsoft Click ID**. The MSCLKID that led to the conversion. The MSCLKID is a GUID (32 characters) that is unique for each ad click. This should be the same Click ID as the conversion that was imported previously.
 
        > [!NOTE]
-       > To find the MSCLKID, look for the *msclkid* parameter in the destination URL of a Microsoft Advertising ad click. For example, https://www.example.com/?*msclkid=abcd1234567890* <br>**Conversion Name**. The conversion goal name for the conversions you'd like to update. It's important that you use the exact same name as you did when you uploaded the conversions that you are updating. <br>**Conversion Time**. The date and time that the conversion occurred. This should match the date and time you entered when you uploaded the conversions. **Note**: Make sure that the conversion time is after the click time. <br>**Adjustment Value** (required for Restate). 0 to 999999999999, with 3 decimal fields and no negative numbers. You must use a period for decimals (as in 12.34), not a comma (as in 12,34). <br>**Adjustment Currency** (optional). The currency of the conversion adjustment. **Note**: If the conversion value and conversion currency is not defined in the file, the value defined in the goal will be used. <br>**Adjustment Type**. This value tells Microsoft Advertising whether you’re updating the value of the conversion (Restate) or deleting it (Retract). <br>**Adjustment Time**. The date and time that the conversion value was adjusted. The time formats which are accepted are in the table below. <br>
+       > To find the MSCLKID, look for the *msclkid* parameter in the destination URL of a Microsoft Advertising ad click. For example, https://www.example.com/?*msclkid=abcd1234567890* <br>**Conversion Name**. The conversion goal name for the conversions you'd like to update. It's important that you use the exact same name as you did when you uploaded the conversions that you are updating. <br>**Conversion Time**. The date and time that the conversion occurred. This should match the date and time you entered when you uploaded the conversions. **Note**: Make sure that the conversion time is after the click time. <br>**Adjustment Value** (required for Restate). 0 to 999999999999, with 3 decimal fields and no negative numbers. You must use a period for decimals (as in 12.34), not a comma (as in 12,34). <br>**Adjustment Currency** (optional). The currency of the conversion adjustment. **Note**: If the conversion value and conversion currency is not defined in the file, the value defined in the goal will be used. <br>**Adjustment Type**. This value tells Microsoft Advertising whether youâ€™re updating the value of the conversion (Restate) or deleting it (Retract). <br>**Adjustment Time**. The date and time that the conversion value was adjusted. The time formats which are accepted are in the table below. <br>
 
        | Time format | Example |
        | --- | --- |
@@ -132,7 +133,7 @@ The Cross-device attribution model allows us to better track and connect convers
        | **yyyy-MM-ddTHH:mm:ss+z** | "2017-06-01T13:00:00-0100" |
        | **yyyy-MM-dd HH:mm:ss zzzz** | "2017-06-01 13:00:00 EasternTimeUSCanada" |
        | **yyyy-MM-ddTHH:mm:ss zzzz** | "2017-06-01T13:00:00 EasternTimeUSCanada" |
-    1. Save the file locally to import it into Microsoft Advertising once. If you’re scheduling recurring imports, save the file to an online location.
+    1. Save the file locally to import it into Microsoft Advertising once. If youâ€™re scheduling recurring imports, save the file to an online location.
 
   - **Import conversion adjustments**
 

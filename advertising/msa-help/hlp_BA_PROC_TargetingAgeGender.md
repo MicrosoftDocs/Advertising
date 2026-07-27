@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Target Customers
 description: You can target your ads using a variety of variables, and then you can increase your bid amount to improve the chance that your ads are displayed.
 ms.date: 5/30/2026
@@ -7,12 +7,13 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to target customers
 
 > [!NOTE]
-> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
+> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographicsâ€”such as age, gender, location, etc.â€”for the purpose of personalizing advertising, segmenting, or profiling customers.
 
 You can target your ads using a variety of variables. You can also apply bid adjustments to increase your ad's exposure to potential customers that you have targeted. Please note that if you're using [automated bid strategies](hlp_BA_CONC_BidStrategy.md), we'll utilize bid adjustments as signals to optimize performance.
 
@@ -38,17 +39,17 @@ You can target your ads using a variety of variables. You can also apply bid adj
       > - The boundaries of some postal codes in Australia, Canada, France, Germany, and United Kingdom do not appear accurately on the map you see in Microsoft Advertising, but targeting within them will still function accurately.
     - A specified radius around a postal code, coordinates*, landmark, or area. (Note: You cannot exclude using radius targeting.)
 
-      *Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form — for example, "44.590,-104.716".
+      *Coordinates can be searched for in the format "[latitude], [longitude]" with the degrees in decimal form â€” for example, "44.590,-104.716".
 
     > [!IMPORTANT]
-    > Microsoft Advertising will honor your location targeting settings and exclude locations you don't want to target. However, location targeting and exclusions may not always work because of factors beyond the control of Microsoft Advertising, such as a customer’s device settings or the inherent limits of geolocation via GPS, IP addresses, Wi-Fi networks, and Bluetooth.
+    > Microsoft Advertising will honor your location targeting settings and exclude locations you don't want to target. However, location targeting and exclusions may not always work because of factors beyond the control of Microsoft Advertising, such as a customerâ€™s device settings or the inherent limits of geolocation via GPS, IP addresses, Wi-Fi networks, and Bluetooth.
   - You can also target multiple locations in bulk by selecting **Add bulk locations** below the option for **Let me choose specific locations**. Then, you can: (1) Optionally choose the country/region for the locations you want to add, (2) enter your locations to target or exclude, and (3) select **Find locations**. You can always add more locations later by selecting **Add locations**.
 
     > [!NOTE]
     > You can target by country/region, state/province, city, or ZIP/postal code.
 
     > [!NOTE]
-    > Bulk locations are currently available for Search campaigns. Not everyone can add bulk locations yet. If you can't, don't worry—it's coming soon!
+    > Bulk locations are currently available for Search campaigns. Not everyone can add bulk locations yet. If you can't, don't worryâ€”it's coming soon!
 
     > [!NOTE]
     > If you're using this feature in Smart mode, it's only available in United States and Canada. For more information, see [Get to know your Microsoft Advertising account modes](hlp_BA_CONC_SmartVsExpert.md).
@@ -76,7 +77,7 @@ You can target your ads using a variety of variables. You can also apply bid adj
   - For Search campaigns, you can adjust your targets for **Company lists** and **Job seniority** during ad group creation or later in your campaign/ad group settings after creating your campaign. **Company lists** can also be created and associated with your campaigns and ad groups in the Audience library by going to **Tools** > **Audiences**. For instructions and more information, see [How do I create a Search campaign?](hlp_BA_PROC_Create1stAd.md)
 
     > [!NOTE]
-    > Company list and job seniority targeting is only available for Search campaigns. Not everyone has these features yet. If you don't, don't worry—they're coming soon!
+    > Company list and job seniority targeting is only available for Search campaigns. Not everyone has these features yet. If you don't, don't worryâ€”they're coming soon!
   - For all demographics, you can increase bid adjustments up to 900% and decrease them by as much as 90%.
 
   > [!NOTE]

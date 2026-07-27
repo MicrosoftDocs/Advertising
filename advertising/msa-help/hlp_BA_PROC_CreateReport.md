@@ -1,17 +1,18 @@
----
+﻿---
 title: Understanding the Report Builder
-description: Use report information to help improve your campaign's relevance and the conversion rates for your ads. Here’s how you create a new report and schedule regular reports to be emailed to you.
+description: Use report information to help improve your campaign's relevance and the conversion rates for your ads. Hereâ€™s how you create a new report and schedule regular reports to be emailed to you.
 ms.date: 5/30/2026
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Understanding the Report Builder
 
-Microsoft Advertising’s Report Builder gives you full control to create customized reports with your preferred breakdowns, filters, and metrics—no predefined templates required. Designed for both new and advanced advertisers, it helps uncover insights, compare campaign performance against KPIs, and optimize performance through tailored reports that can highlight trends, diagnose issues, and showcase results by campaign, device, region, or product. Here are a few examples of how advertisers are using the Report Builder:
+Microsoft Advertisingâ€™s Report Builder gives you full control to create customized reports with your preferred breakdowns, filters, and metricsâ€”no predefined templates required. Designed for both new and advanced advertisers, it helps uncover insights, compare campaign performance against KPIs, and optimize performance through tailored reports that can highlight trends, diagnose issues, and showcase results by campaign, device, region, or product. Here are a few examples of how advertisers are using the Report Builder:
 
 - **Weekly performance reports**: Create detailed reports that break down spend and conversions by campaign and device to understand performance and optimize strategies.
 - **Investigate performance drops**: Isolate key metrics across time periods and ad types to pinpoint causes of performance issues and take corrective actions.
@@ -35,7 +36,7 @@ Microsoft Advertising’s Report Builder gives you full control to create custom
        > [!NOTE]
        > You can rearrange the order of your **Breakdown** or **Metrics** by dragging and dropping them as desired.
      - Specify the date range for your report using the date range selector, located in the top-right corner of the Report Builder.
-  1. Once you’re finished building your report, select **Save**.
+  1. Once youâ€™re finished building your report, select **Save**.
 
   :::image type="content" source="media/BA_CONC_ReportBuilderCreate.png" alt-text="Compare Modes create.":::
 
@@ -49,7 +50,7 @@ Microsoft Advertising’s Report Builder gives you full control to create custom
 
 ## About report templates
 
-Report templates are ready-made reports with predefined metrics and breakdowns—perfect for quickly uncovering insights without setup. Whether you’re new to reporting or need a fast answer, templates are organized by type and searchable to help you find the right fit.
+Report templates are ready-made reports with predefined metrics and breakdownsâ€”perfect for quickly uncovering insights without setup. Whether youâ€™re new to reporting or need a fast answer, templates are organized by type and searchable to help you find the right fit.
 
 Recommended templates are based on what is currently popular with advertisers, like the **Website URL** report for engagement across different domains or the **Geographic location** report for engagement by location.
 
@@ -58,7 +59,7 @@ Recommended templates are based on what is currently popular with advertisers, l
 - **Choose a report template**
 
   - From the navigation menu on the left, select **Reporting** > **Templates**.
-  - If you don’t find the template that you’re looking for, select **Explore all templates** to access a comprehensive list sorted by category.
+  - If you donâ€™t find the template that youâ€™re looking for, select **Explore all templates** to access a comprehensive list sorted by category.
 
   Optionally, you can use the search bar to find specific templates by entering relevant keywords.
 
@@ -94,7 +95,7 @@ Recommended templates are based on what is currently popular with advertisers, l
   | --- | --- |
   | The asset combinations created from Responsive Search ads, Multimedia ads, and Performance Max campaigns | To identify the most frequently occurring asset combinations and provide a view of your combination performance. |
   > [!NOTE]
-  > Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+  > Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
       
 
   ### Ad group
@@ -113,7 +114,7 @@ Recommended templates are based on what is currently popular with advertisers, l
 
   |  What it shows | Why run it |
   | --- | --- |
-  | The impressions, clicks, click-through rate, quality score, quality impact, bid, cost per click, position, and conversions for each individual keyword within your campaign.| To find out which keywords are triggering your ads and getting clicks. You can also identify keywords that aren’t performing well, to determine if you want to delete them. |
+  | The impressions, clicks, click-through rate, quality score, quality impact, bid, cost per click, position, and conversions for each individual keyword within your campaign.| To find out which keywords are triggering your ads and getting clicks. You can also identify keywords that arenâ€™t performing well, to determine if you want to delete them. |
 
   ### Negative keyword conflicts
 
@@ -149,7 +150,7 @@ Recommended templates are based on what is currently popular with advertisers, l
 
   |  What it shows | Why run it |
   | --- | --- |
-  | The impressions, clicks, spend, and conversions for websites on the Microsoft Advertising Network. This data can be sorted by website URL, account, campaign, ad group, and asset group.| To see which website URLs are or aren’t performing well enough for your campaign, ad group, or asset group target settings. For example, if ad impressions at those URLs yield a low click-through-rate, then you might decide to exclude those websites from your campaign. |
+  | The impressions, clicks, spend, and conversions for websites on the Microsoft Advertising Network. This data can be sorted by website URL, account, campaign, ad group, and asset group.| To see which website URLs are or arenâ€™t performing well enough for your campaign, ad group, or asset group target settings. For example, if ad impressions at those URLs yield a low click-through-rate, then you might decide to exclude those websites from your campaign. |
 
   ### Ad dynamic text
 
@@ -173,13 +174,13 @@ Recommended templates are based on what is currently popular with advertisers, l
 
   |  What it shows | Why run it |
   | --- | --- |
-  | The spend, revenue, assists, conversions, and conversion steps of your websites. This data can be sorted by account, ad group, campaign, keyword, and goal.| To discover whether visitors who arrive at your website via an Ad click, complete the steps on conversion pages of your website. This report provides data for your conversions’ goals, including UET tags, App Install ads, offline conversions, and historical campaign data. |
+  | The spend, revenue, assists, conversions, and conversion steps of your websites. This data can be sorted by account, ad group, campaign, keyword, and goal.| To discover whether visitors who arrive at your website via an Ad click, complete the steps on conversion pages of your website. This report provides data for your conversionsâ€™ goals, including UET tags, App Install ads, offline conversions, and historical campaign data. |
 
   ### Conversions
 
   |  What it shows | Why run it |
   | --- | --- |
-  | The conversions, assists, revenue, and revenue per conversion for your campaigns. This data can be sorted by account, ad group, campaign, keyword, and device type.| To understand which campaigns and keywords are leading customers to complete conversion actions. This report provides data for your conversions’ goals, including UET tags, App Install ads, offline conversions, and historical campaign data. |
+  | The conversions, assists, revenue, and revenue per conversion for your campaigns. This data can be sorted by account, ad group, campaign, keyword, and device type.| To understand which campaigns and keywords are leading customers to complete conversion actions. This report provides data for your conversionsâ€™ goals, including UET tags, App Install ads, offline conversions, and historical campaign data. |
 
   ## Ad extensions
 
@@ -347,7 +348,7 @@ Recommended templates are based on what is currently popular with advertisers, l
 
 - **Modify an existing report template**
 
-  Once you’ve selected a report template, you can customize it using the column modifier to add, reorder, or remove sub-categorized breakdowns and metrics. Metrics serve as performance indicators that measure activities, such as impressions, clicks, or conversions. Breakdowns allow you to categorize your performance metrics into specific groups, such as device type, region, or campaign type.
+  Once youâ€™ve selected a report template, you can customize it using the column modifier to add, reorder, or remove sub-categorized breakdowns and metrics. Metrics serve as performance indicators that measure activities, such as impressions, clicks, or conversions. Breakdowns allow you to categorize your performance metrics into specific groups, such as device type, region, or campaign type.
 
   1. From the report you want to modify, select **Modify** above the table.
   1. In the left panel, next to **Breakdown** or **Metrics**,
@@ -355,7 +356,7 @@ Recommended templates are based on what is currently popular with advertisers, l
      - Select **+** to add a breakdown or metric.
      - Select **Expand** > **Remove** next to a breakdown or metric to remove it.
   1. In the left panel, you can rearrange the column order of **Breakdown** or **Metrics** by selecting to place in your desired order.
-  1. Once you’re finished with the modifications, select **Save** from the upper right corner of the report.
+  1. Once youâ€™re finished with the modifications, select **Save** from the upper right corner of the report.
 
   :::image type="content" source="media/BA_ReportBuilder_ModifyTemplate.png" alt-text="Compare Modes modify template.":::
 
@@ -423,7 +424,7 @@ Recommended templates are based on what is currently popular with advertisers, l
   1. Select **Save**.
 
   > [!NOTE]
-  > You’ll also see an option to store the report at the account level or account and user profile level. At the account level, all users that have access to the account can access the report. If you save a report at the account and user profile level, the custom report will be accessible across all accounts your profile has access to, allowing for scalable use across accounts you manage.
+  > Youâ€™ll also see an option to store the report at the account level or account and user profile level. At the account level, all users that have access to the account can access the report. If you save a report at the account and user profile level, the custom report will be accessible across all accounts your profile has access to, allowing for scalable use across accounts you manage.
 
   > [!NOTE]
   > - After you save your report, it will show in the left pane under **Recent reports**.

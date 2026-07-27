@@ -1,4 +1,4 @@
----
+﻿---
 title: How do I set up conversion tracking?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set up conversion tracking in Microsoft Advertising using UET tags and conversion goals.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How do I setup conversion tracking?
 
 > [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry—it's coming soon!
+> Not everyone has this feature yet. If you don't, don't worryâ€”it's coming soon!
 
 <a id="set-up-conversion-tracking-for-online-activities"></a>
 

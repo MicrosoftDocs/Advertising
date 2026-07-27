@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Advertising on BigCommerce - The Microsoft ads and listings app
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Microsoft Advertising and BigCommerce partnered to create a Microsoft Advertising app for BigCommerce - The Microsoft ads and listings app.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Microsoft Advertising on BigCommerce - The Microsoft ads and listings app

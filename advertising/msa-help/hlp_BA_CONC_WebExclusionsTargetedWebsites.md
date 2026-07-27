@@ -1,4 +1,4 @@
----
+﻿---
 title: About website control lists
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn more about website control lists.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About website control lists
 
 > [!NOTE]
-> Not everyone has targeted website lists yet. If you don't, don't worry—they're coming soon!
+> Not everyone has targeted website lists yet. If you don't, don't worryâ€”they're coming soon!
 
 Website control lists allow advertisers to better control where their ads appear. Website exclusion lists help prevent ads from being shown on certain websites, whereas targeted website lists allow the advertiser to specify the websites where they want their ads to appear.
 

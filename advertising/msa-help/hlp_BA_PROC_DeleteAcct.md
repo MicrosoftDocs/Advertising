@@ -1,4 +1,4 @@
----
+﻿---
 title: If an Account Is Deactivated or Deleted
 description: If an account is deactivated or deleted, it could be because an owner or manager closed it, or it was deactivated under Microsoft Advertising policy for being inactive too long. Here's what that means and what you can do.
 ms.date: 5/30/2026
@@ -7,13 +7,14 @@ ms.subservice: msa-general
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # If an account is deactivated or deleted
 
 There may come times when strategies or priorities shift, and some accounts might slow down or get less attention. But if an account falls inactive for an extended period of time, it might be subject to deactivation or deletion, under Microsoft Advertising policy.
 
-An account is deactivated by Microsoft Advertising if it has had no spend—meaning, none of the account's ads have generated any charges for clicks—for 15 months. If you find an ad account has been deactivated or deleted, check first that nobody else who has access to the account has [paused its campaigns](hlp_BA_PROC_PauseEnableCampaign.md) or deactivated it manually. But if neither of those are the case, the account might be deleted because it was dark for too long.
+An account is deactivated by Microsoft Advertising if it has had no spendâ€”meaning, none of the account's ads have generated any charges for clicksâ€”for 15 months. If you find an ad account has been deactivated or deleted, check first that nobody else who has access to the account has [paused its campaigns](hlp_BA_PROC_PauseEnableCampaign.md) or deactivated it manually. But if neither of those are the case, the account might be deleted because it was dark for too long.
 
 Here is what happens when an account is subject to the Microsoft Advertising deletion policy due to inactivity.
 

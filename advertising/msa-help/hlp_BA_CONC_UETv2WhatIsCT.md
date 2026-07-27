@@ -1,4 +1,4 @@
----
+﻿---
 title: What is conversion tracking?
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Track what happens after your ad is clicked, and learn how customers interact with your website by creating goals with Universal Event Tracking.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What is conversion tracking?

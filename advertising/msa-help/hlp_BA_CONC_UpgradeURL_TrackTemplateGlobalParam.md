@@ -1,4 +1,4 @@
----
+﻿---
 title: Create an account tracking template
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Upgraded URLs separate your tracking information (tracking template) from the landing page URL making it easy to update and manage URL tracking. Under Account level options, you can create an account tracking template.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create an account tracking template

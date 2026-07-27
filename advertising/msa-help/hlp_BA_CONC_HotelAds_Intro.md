@@ -1,4 +1,4 @@
----
+﻿---
 title: About Hotel Price ads (HPA)
 ms.service: msa-help
 ms.subservice: msa-audience-display-video
@@ -7,13 +7,14 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn all about Hotel Price ads.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About Hotel Price ads (HPA)
 
 > [!NOTE]
 > - Learn more about where [Hotel Price ads are available](hlp_BA_CONC_Countries.md).
-> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worry—more languages are coming soon!
+> - These ads are currently available globally in English. If you'd like to serve them in another language, don't worryâ€”more languages are coming soon!
 
 Hotel Price ads (HPA) are a hotel search experience designed to showcase your real-time room rates to potential customers in search placements on the Microsoft Advertising Network. HPA complement your existing ad campaigns, allowing you to reach travelers who are looking to book now.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Google tag manager template - Consent mode
 ms.service: msa-help
 ms.subservice: msa-conversions-uet
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If the official UET template Consent mode doesn't work for you, you can manually push consent signals. The following steps and code snippets demonstrate how to dynamically update the consent state based on user interactions using JavaScript functions and event listeners, such as onClick triggers.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Google tag manager template - Consent mode

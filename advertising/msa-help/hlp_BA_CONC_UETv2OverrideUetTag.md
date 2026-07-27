@@ -1,4 +1,4 @@
----
+﻿---
 title: Overriding UET tag tracking code
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: You can make changes to the UET tag tracking code to report custom events, variable revenue and rename the event tracker.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Overriding UET tag tracking code

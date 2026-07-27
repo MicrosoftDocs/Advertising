@@ -1,4 +1,4 @@
----
+﻿---
 title: How to target my customers by adjusting my bids
 ms.service: msa-help
 ms.subservice: msa-general
@@ -7,12 +7,13 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Use bid adjustments to increase your bid for the demographics (e.g. time of day) that are most important to your advertising campaign.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How to target my customers by adjusting my bids
 
 > [!NOTE]
-> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographics—such as age, gender, location, etc.—for the purpose of personalizing advertising, segmenting, or profiling customers.
+> If you're advertising in connection with any financial, insurance, education, career and employment, and/or housing services, you **cannot** use individuals' demographicsâ€”such as age, gender, location, etc.â€”for the purpose of personalizing advertising, segmenting, or profiling customers.
 
 :::image type="content" source="media/BA_Conc_Target.png" alt-text="Target.":::
 

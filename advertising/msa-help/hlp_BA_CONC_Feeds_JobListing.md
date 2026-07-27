@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Job Listing ads to connect your customers to the right job offerings
 ms.service: msa-help
 ms.subservice: msa-shopping-merchant-center
@@ -7,14 +7,15 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Showcase your job offerings to the right job seekers on the Bing Jobs page.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use Job Listing ads to connect your customers to the right job offerings
 
 > [!NOTE]
-> Not everyone has Job Listing ads yet. If you don't, don't worry—it's coming soon!
+> Not everyone has Job Listing ads yet. If you don't, don't worryâ€”it's coming soon!
 
-Showcase your job offerings to the right job seekers on the Bing Jobs page. We don’t crawl your website to generate content. Instead, Job Listing ads are dynamically generated based on the data you specify in your feed file, which contains business data such as employment type, hiring organization, and other relevant details. The more details you provide in the feed file, the more information we’ll include in your ads.
+Showcase your job offerings to the right job seekers on the Bing Jobs page. We donâ€™t crawl your website to generate content. Instead, Job Listing ads are dynamically generated based on the data you specify in your feed file, which contains business data such as employment type, hiring organization, and other relevant details. The more details you provide in the feed file, the more information weâ€™ll include in your ads.
 
 > [!NOTE]
 > You only pay for the second click, when your customer applies for the job. You don't pay when they click to view the ad.
@@ -33,7 +34,7 @@ Showcase your job offerings to the right job seekers on the Bing Jobs page. We d
 To get started with Job Listing ads, you'll need to create a Search campaign with a Responsive Search ad that functions as a placeholder. Then, you'll create a [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_JobListing.md) where you'll reference the campaign. We create your Job Listing ads by pulling information from your feed file to generate ad copy and we use the ad's settings for targeting and optimization.
 
 > [!NOTE]
-> The campaign you create will always be a Job Listing ads campaign. You cannot use this campaign for any other purpose now or at a later time—it'll always be used as a Job Listing ads campaign.
+> The campaign you create will always be a Job Listing ads campaign. You cannot use this campaign for any other purpose now or at a later timeâ€”it'll always be used as a Job Listing ads campaign.
 
 1. From the navigation menu on the left, select **Create**.
 1. Choose **Drive conversions** or **Generate leads** as your campaign goal.
@@ -62,7 +63,7 @@ To get started with Job Listing ads, you'll need to create a Search campaign wit
 
    1. From the **Ad type** dropdown menu, select **Responsive Search ad**.
    1. Enter the **Final URL**.
-   1. Enter placeholder values for each field. Since this ad will be dynamically populated by the attributes in your [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_JobListing.md), your placeholder values can simply be “test”.
+   1. Enter placeholder values for each field. Since this ad will be dynamically populated by the attributes in your [dynamic data feed file](hlp_BA_CONC_FeedsAttributes_JobListing.md), your placeholder values can simply be â€œtestâ€.
    1. Select **Save** to continue.
 
       > [!NOTE]

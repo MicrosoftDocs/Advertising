@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ - Expanded text ads
 ms.service: msa-help
 ms.subservice: msa-ads-extensions
@@ -7,6 +7,7 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Expanded Text Ads give you additional content to make your ads more eye-catching and helpful.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # FAQ - Expanded text ads
@@ -38,7 +39,7 @@ Here's how expanded text ads compare to standard text ads:
 1. Enter your landing page URL in the **Final URL** box.
 
    > [!NOTE]
-   > Your **Final URL** — including prefix (e.g., "www."), suffix (e.g., ".com"), and any [tracking templates](hlp_BA_CONC_GoogleAnalytics.md) — must be no longer than 2048 characters. However, your final URL *domain*, or everything in your final URL before the first slash or tracking template, must be no longer than 67 characters.
+   > Your **Final URL** â€” including prefix (e.g., "www."), suffix (e.g., ".com"), and any [tracking templates](hlp_BA_CONC_GoogleAnalytics.md) â€” must be no longer than 2048 characters. However, your final URL *domain*, or everything in your final URL before the first slash or tracking template, must be no longer than 67 characters.
 1. Enter your **Title**. You can enter three parts of your ad title, each up to 30 characters long. The third title is optional.
 1. Enter your **Ad text**. You can have two parts of your ad text description, each up to 90 characters long. The second ad text description is optional.
 1. Enter your **Mobile URL** if you have one.
@@ -61,7 +62,7 @@ Here's how expanded text ads compare to standard text ads:
 > Keep in mind that the total length of the potential dynamic text, includes Param1, Param2, Param3, and DKIs. It is possible to create ad titles, ad text, and URLs that fit within our character limits when you create them, but that could become too long when the dynamic text is applied. In such cases, the system may consider a total length check of 90 characters for the **Title**, 67 characters for the **Display URL**, and 180 characters for the **Ad text** (excluding separators) or it may use the default text as what is deemed fit based on predicted responses, device length limits, and more.
 
 > [!IMPORTANT]
-> Double-width characters—such as Chinese characters — count as two characters each.
+> Double-width charactersâ€”such as Chinese characters â€” count as two characters each.
 
 ## Are Upgraded URLs required in order to use expanded text ads?
 
@@ -79,7 +80,7 @@ Yes, if you want to [import](hlp_BA_PROC_ImportCampaign.md) only expanded text a
 
 ## Can I use {param1}, {param2}, and {param3} for keyword tracking in expanded text ads?
 
-Yes, you can add a {param} to a domain in the Final URL box, but you cannot have your Final URL be only a {param}. In other words, in the Final URL box, “contoso.com/{param1}” is allowed, but just “{param1}” is not. {param1}, {param2}, and {param3} are also still allowed in ad titles and descriptions.
+Yes, you can add a {param} to a domain in the Final URL box, but you cannot have your Final URL be only a {param}. In other words, in the Final URL box, â€œcontoso.com/{param1}â€ is allowed, but just â€œ{param1}â€ is not. {param1}, {param2}, and {param3} are also still allowed in ad titles and descriptions.
 
 ## Will expanded text ads work with all my existing ad extensions?
 
@@ -98,7 +99,7 @@ Microsoft Advertising will automatically use the domain of the URL that is enter
 | **http://Store.Contoso.com/contact.html** | Store.Contoso.com |
 
 > [!NOTE]
-> Your final URL’s domain—including prefix (e.g., "www.") and suffix (e.g., ".com")—must be no longer than 67 characters.
+> Your final URLâ€™s domainâ€”including prefix (e.g., "www.") and suffix (e.g., ".com")â€”must be no longer than 67 characters.
 
 ## How does Microsoft Advertising handle capitalization for display URLs?
 
@@ -113,7 +114,7 @@ Microsoft Advertising will preserve the capitalization you enter in the final UR
 | **http://Store.Contoso.com/contact.html** | Store.Contoso.com |
 
 > [!NOTE]
-> Your final URL’s domain—including prefix (e.g., "www.") and suffix (e.g., ".com")—must be no longer than 67 characters.
+> Your final URLâ€™s domainâ€”including prefix (e.g., "www.") and suffix (e.g., ".com")â€”must be no longer than 67 characters.
 
 ## How does Microsoft Advertising auto-generate display URL domains with expanded text ads?
 
@@ -126,7 +127,7 @@ Microsoft Advertising will preserve the capitalization you enter in the final UR
 | **http://Store.Contoso.com/contact.html** | Store.Contoso.com |
 
 > [!NOTE]
-> Your final URL’s domain—including prefix (e.g., "www.") and suffix (e.g., ".com")—must be no longer than 67 characters.
+> Your final URLâ€™s domainâ€”including prefix (e.g., "www.") and suffix (e.g., ".com")â€”must be no longer than 67 characters.
 
 ## Which reports have columns for Ad Title 1, Ad Title 2, and Ad Title 3 for expanded text ads?
 
