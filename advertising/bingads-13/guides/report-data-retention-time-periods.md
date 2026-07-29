@@ -70,6 +70,7 @@ If the data aggregation is not available for a given report, it will be noted as
 |[Combination Performance Report](../reporting-service/combinationperformancereportrequest.md)|Combination|6|36|36|36|36|36|
 |[Destination Url Performance Report](../reporting-service/destinationurlperformancereportrequest.md)|Destination URL|6|36|36|36|36|36|
 |[Keyword Performance Report](../reporting-service/keywordperformancereportrequest.md)|Keyword|6|36|36|36|36|36|
+|[MMM Performance Report](../reporting-service/mmmperformancereportrequest.md)|Not Applicable|14 days|36|36|36|36|36|
 |[Publisher Usage Performance Report](../reporting-service/publisherusageperformancereportrequest.md)|Website URL (publisher)|2|36|36|36|36|36|
 |[Search Query Performance Report](../reporting-service/searchqueryperformancereportrequest.md)|Search Term|1|36|36|36|36|36|
 |[Share of Voice Report](../reporting-service/shareofvoicereportrequest.md)|Share of Voice|Not Applicable|6|6|6|6|6|
