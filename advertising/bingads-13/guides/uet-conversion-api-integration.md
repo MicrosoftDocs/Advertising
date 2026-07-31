@@ -1,167 +1,260 @@
 ---
-title: Conversions API (CAPI) Guide
+title: Conversions API (CAPI)
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/1/2026
-description: The Conversions API (CAPI) guide provides a comprehensive overview for advertisers on how to implement Microsoft's Universal Event Tracking (UET) server-to-server event tracking solution.
+ms.date: 7/31/2026
+description: Learn how to implement Microsoft Advertising's Conversions API (CAPI) for server-side conversion tracking, attribution, audience creation, and dynamic remarketing.
 ---
 
-# Conversions API (CAPI) Guide
+# What is Conversions API?
+
+Conversions API (CAPI) is Microsoft Advertising's server-side solution for sending conversion and customer interaction data directly from an advertiser's systems to Microsoft Advertising. Advertisers can use CAPI to send website events, CRM events, offline sales transactions, and mobile events through one setup, making it easier to support multiple measurement scenarios with a single connection.
+
+Key reasons advertisers use CAPI include:
+
+- Improve conversion measurement accuracy.
+- Send online, offline, CRM, and app events through a single setup.
+- Increase attribution coverage.
+- Support audience creation for dynamic remarketing.
+- Reduce reliance on browser-only tracking solutions.
+- Future-proof measurement investments as privacy requirements continue to evolve.
+
+## Supported scenarios at a glance
+
+CAPI supports website, CRM, offline, mobile, and dynamic remarketing scenarios. Review the implementation path and detailed use cases before moving into endpoint, authorization, payload, and troubleshooting details.
+
+## Recommended implementation approach
+
+Microsoft recommends using CAPI with Universal Event Tracking (UET) whenever possible. UET captures browser-based activity and page context, while CAPI provides a server-side path for sending additional events and details that occur after UET fires.
+
+Plan for deduplication: When the same conversion can be sent by both UET and CAPI, use a shared `eventId` so Microsoft Advertising can avoid double-counting. For more information, see [Prevent duplicate conversions](#prevent-duplicate-conversions).
+
+## Implementation overview
+
+1. **[Confirm readiness](#before-you-begin-implementation-readiness-checklist).** Make sure the account, UET tag, authentication token, conversion goals, consent approach, identifiers, and validation owners are in place before implementation begins.
+1. **[Select a data-sending path](#ways-to-use-capi).** Decide whether to send data through a direct API build, partner integration, or tag manager setup.
+1. **[Define events, signal quality, and data schema](#troubleshooting-validation-and-launch).** Determine which website, CRM, offline, app, or audience events to send, how they align to conversion goals, which fields are required, and which matching, attribution, consent, ID Sync, and deduplication inputs each scenario needs.
+1. **[Validate and monitor after launch](#troubleshooting-validation-and-launch).** Confirm events are accepted, resolve API or payload errors, verify conversion and audience behavior, and monitor integration health over time.
+
+## Before you begin: Implementation readiness checklist
+
+Before implementing Conversions API, confirm the following items are ready.
+
+- **Account and access:** Microsoft Advertising account, UET tag ID, Conversions API authentication token, and defined conversion goals.
+- **Client-side ID Sync planned:** Required for dynamic remarketing and strongly recommended for conversion measurement quality. See [ID Sync and why it matters](#id-sync-and-why-it-matters) for setup details.
+- **Event and attribution data:** `msclkid`, stable `eventId` values, valid timestamps, user agent, and IP address where available and permitted.
+- **Customer identifiers:** Hashed email, hashed phone, customer ID, anonymous ID, and external ID where available and permitted by policy, regulation, and customer consent.
+
+## Ways to use CAPI
+
+Advertisers can send data to CAPI through different implementation paths depending on where their conversion data lives and which systems they already use.
+
+| Data-sending path | Best for | Example | Setup notes |
+| --- | --- | --- | --- |
+| Direct API | Advertisers with engineering support, custom data models, or event sources that need direct control. | A retailer sends purchase and checkout events from its backend order system directly to CAPI. | Build a server-side connection to the CAPI endpoint, map events to Microsoft parameters, send events in real time or batches, and validate delivery. |
+| Partner integrations | Advertisers that already use a customer data platform (CDP), data platform, agency, tool provider, or managed connector to collect and route conversion data. | A B2B advertiser sends qualified lead, opportunity, and closed-won events from its CDP or partner connector to CAPI. | The partner or platform may handle setup, event mapping, formatting, and data streaming. The advertiser still needs the correct account, UET tag, token, conversion goals, consent approach, and identifiers. |
+| Tag manager or server-side tag manager | Web-focused advertisers that want a faster setup path with less custom development. | An ecommerce advertiser uses server-side Google Tag Manager to capture checkout and purchase events, then route those events to CAPI. | Configure triggers, variables, event names, identifiers, payload fields, and validation checks in the tag manager or server-side tag manager environment. |
+
+### Current partner integrations
+
+| Partner | Documentation |
+| --- | --- |
+| Adobe Real-Time CDP | Coming soon |
+| Commanders Act | [Microsoft Conversions API](https://doc.commandersact.com/features/destinations/destinations-catalog/microsoft/microsoft-conversions-api) |
+| Freshpaint | Microsoft Ads Conversions API (Early Access) |
+| Invoca | [Invoca integration with Microsoft Advertising](https://www.invoca.com/integrations/microsoft-advertising) |
+| MetaRouter | [Microsoft Ads - CAPI](https://docs.metarouter.io/docs/microsoft-ads-capi) |
+| Segment/Twilio | Microsoft Bing CAPI Destination, Segment Documentation |
+| Stape.io | [Guide to Microsoft Conversions API integration](https://stape.io/blog/guide-microsoft-conversion-api-integration) |
+| Switch Growth | Coming soon |
+| Tealium | [Microsoft UET Conversions API connector](https://docs.tealium.com/server-side-connectors/microsoft-uet-conversion-api-connector/) |
+
+## Technical implementation
+
+### Define your server-side events
+
+CAPI supports two main event types: custom events and page load events.
+
+Custom events capture richer user actions such as checkout completion, form submission, cart activity, search results, product views, or purchase confirmation. When a custom event corresponds to a page load, include the same `pageLoadId` so Microsoft Advertising can associate the custom action with the page context.
+
+Send one page load event for each page view or single-page application navigation. Page load events include page context such as the page URL, referrer URL, page title, and keywords.
+
+| Event type | When to send | Important fields | Notes |
+| --- | --- | --- | --- |
+| Custom | Specific user actions or page types. | `eventType`, `eventId`, `eventName`, `customData` | Use for conversion goals, ecommerce, dynamic remarketing, and advanced measurement. |
+| Page load | Each page view or SPA navigation. | `eventType`, `eventTime`, `eventSourceUrl`, `pageLoadId` | Supports destination-based goals and page-context matching. |
+
+### Improve attribution and matching
+
+#### Send MSCLKID whenever possible
+
+MSCLKID is Microsoft's click identifier. When auto-tagging is enabled, Microsoft Advertising appends `msclkid` to the landing page after an ad click. If you are sending events through CAPI, capture this value, store it for the associated user, and include the most recent value in subsequent events whenever available.
+
+- Store the most recent `msclkid` in a first-party cookie, local storage, or server-side store.
+- Overwrite the stored value when a newer `msclkid` is captured.
+- Use a suggested retention period of 90 days.
+- Do not rely on visitor ID alone for attribution when `msclkid` is available.
+- Format: UUID, for example, `dd4afcccb1c9a4cad9544dd7e5006`.
+
+#### ID Sync and why it matters
+
+ID Sync connects an advertiser's visitor identifier, such as an anonymous visitor ID, to Microsoft identifiers. It is required for dynamic remarketing, and is recommended for conversion measurement quality because CAPI events are sent server-side and may not include the same browser context that UET JavaScript can observe client-side.
+
+Implement ID Sync as a client-side pixel, not a server-side call, so Microsoft can read the necessary browser context when the sync occurs. Fire the pixel on as many pages as practical and at least once per session, preferably on the first page view.
+
+Include the following parameters:
+
+- **Red3** (required): Microsoft-assigned customer ID in the format `BACID_<CID>`.
+- **VID** (required): Guest user anonymous ID, preferably a GUID.
+- **UID** (optional): Authenticated user ID (anonymized).
+
+Send ID Sync events to `https://c.bing.com/c.gif` with the required parameters. The customer ID is different from the UET tag ID: a single customer account can contain multiple UET tags, and accounts with multiple CIDs should use the primary CID unless Microsoft Advertising support or the account manager confirms otherwise.
+
+| Question | Guidance |
+| --- | --- |
+| When is ID Sync required? | Required for audience creation, remarketing, and dynamic remarketing use cases. |
+| When is it highly recommended? | Recommended for conversion measurement quality, especially when `msclkid`, hashed identifiers, or browser context may be incomplete. |
+| Where should it fire? | Client-side on the advertiser site, ideally sitewide and at least once per user session. |
+| What must align? | The VID used in ID Sync should match the `anonymousId` sent in CAPI events. |
+| What should not be sent? | Do not send raw email addresses, raw phone numbers, or real user IDs. Use anonymized or hashed identifiers where permitted. |
+
+### Prevent duplicate conversions
+
+#### Why Event ID matters
+
+When UET JavaScript and CAPI send the same conversion event, pass the same stable deduplication value in `eventId` and keep `eventName` compatible across both systems. This helps Microsoft Advertising recognize the duplicate event and avoid counting the same conversion twice.
+
+```text
+Website Purchase
+|-- UET Event
+`-- CAPI Event
+
+Shared Event ID: 1234567-54422
+```
+
+### Send requests
+
+#### Authorization token and API endpoint
+
+##### Authorization token
+
+CAPI uses the UET `tagId` that corresponds to the conversion goals and event you want to measure. You can generate or retrieve an authorization token via [API](#generate-or-retrieve-an-authorization-token-by-api) or in the [Microsoft Advertising UI](#generate-or-retrieve-an-authorization-token-in-microsoft-advertising).
 
 > [!NOTE]
-> You can now obtain your auth token from the Microsoft Advertising UI by selecting **Use Conversions API**. This program is in pilot. Contact your account manager to join.
+> If you use UET JavaScript and CAPI for the same conversion event, use the same UET `tagId`, `eventId`, and `eventName` to support deduplication.
 
-With the Conversions API, advertisers can implement server-side tracking for conversions using Microsoft Advertising’s Universal Event Tracking (UET). By leveraging the API, businesses can capture key user actions—such as purchases, subscriptions, and custom goals—even when client-side tracking is limited by browser restrictions or ad blockers. This guide outlines the setup process, payload formatting, and SDK usage for apps, enabling more accurate attribution and improved campaign optimization across platforms.
+##### Generate or retrieve an authorization token by API
 
-## Overview
+To get an authorization token for a UET tag, call the Campaign Management API endpoint:
 
-### Universal Event Tracking (UET)
-
-Universal Event Tracking (UET) is a Microsoft framework that captures user engagement data on your website, enabling features such as conversion tracking (e.g., purchases or leads), audience targeting (e.g., remarketing), automated bidding, and integration with Microsoft Bing for Commerce. This document outlines the integration process for the Conversions API.
-
-For more information, see the [UET documentation](https://help.ads.microsoft.com/#apex/ads/en/56681/2) on the Microsoft Advertising help site.
-
-### Direct Integration
-
-Most advertisers use a JavaScript tag provided by Microsoft called the UET tag. This is the default method for sending UET data to Microsoft. It automatically handles much of the auto-tagging complexity, enables advanced functionality such as UET Insights and Clarity, and will serve as the primary path for supporting Privacy Sandbox APIs in the future.
-
-For advertisers who cannot or choose not to use the UET JavaScript, we offer an alternative solution. The Conversions API can be used independently or in conjunction with UET JavaScript tracking.
-
-The Conversions API allows you to format and send event data from your backend without running any Microsoft JavaScript in the end user’s browser. While the data is captured server-side, a client-side user ID sync pixel can be used to connect Microsoft and customer-assigned user IDs.
-
-Note that the integration effort required for this approach is significantly greater than that of using the UET JavaScript.
-
-## Data Flows
-
-There are two data flows you should implement for the Conversions API:
-
-1. UET user events sent via the Conversions API (server-to-server)
-2. ID sync pixels sent from client to server
-
-### Client-side ID-Sync
-
-> [!NOTE]
-> ID sync is required for remarketing, audience targeting, and audience building. These features rely on user identity resolution and won’t function without it. ID sync is also recommended for conversion measurement.
-
-ID sync allows your internal IDs to be mapped to Microsoft IDs. This is strongly recommended for any Microsoft Advertising products that need to identify users off-site, such as remarketing. You must fire the ID sync beacon client-side, as this enables Microsoft to capture our third-party cookie IDs for your users.
-
-We recommend instrumenting the ID sync pixel on as many site pages as possible. Feel free to throttle where appropriate, but ensure it fires at least once per session (e.g., on the first page view). Microsoft maintains a durable mapping on our end.
-
-Please include the following parameters:
-
-- **Red3** – (required) Microsoft-assigned customer ID in the format `BACID_<CID>`
-- **VID** – (required) Guest user anonymous ID, preferably a GUID
-- **UID** – (optional) Authenticated user ID (anonymized)
-
-*Note*: The customer ID is different from the UET tag ID. A single customer account (with one CID) may contain multiple UET tags. If your account has multiple CIDs, please use the primary CID. Feel free to contact Microsoft Advertising support or your account manager for confirmation or assistance.
-
-#### Endpoint & Example
-
-Send all ID sync events to this endpoint:
-
-```html
-https://c.bing.com/c.gif?uid=111222&vid=b171a9b06ce011ecafcd1b209be8601b&Red3=BACID_123456
+```http
+POST /CampaignManagement/v13/UetTagAuthKey/Query
 ```
 
-The easiest way to do this is by dynamically inserting an `<img>` tag, either rendered server-side and returned to the client in the HTML response, or inserted via JavaScript.
+Include the required authentication headers, including your OAuth bearer token, developer token, and customer account ID. In the request body, provide the UET tag ID:
 
-```html
-<img src="https://c.bing.com/c.gif?vid=...&Red3=BACID_123456">
+```json
+{
+  "TagId": 123456789
+}
 ```
 
-## Server-side UET Events
+The API returns the authorization token for that UET tag:
 
-There are two distinct types of UET events that can be sent:
-
-- **Page load events** – Triggered on each page load or single-page application (SPA) navigation. The provided page URL is used to support destination-based conversion goals and remarketing segments.
-- **Custom events** – Capture richer data by firing on specific user actions or page types. These events use specific parameters for custom conversion goals, dynamic remarketing, and other advanced features.
-
-Each page view or SPA navigation must trigger one page load event and may optionally trigger one or more custom events. Every custom event should be linked to its corresponding page load event using a "page load ID" parameter named pageLoadId. This linkage is explained in greater detail in the next section.
-
-Please URL-encode any parameters that may contain special characters.
-
-### API Endpoint
-
-Send all S2S Direct events to this endpoint:
-
-```html
-https://capi.uet.microsoft.com/v1/{tagID}/events
+```json
+{
+  "TagAuthKey": {
+    "AuthKey": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "PartialErrors": []
+}
 ```
 
-Include your specific UET tag ID in the URL format `/v1/{tagId}/events`. The token is provided in the Microsoft Advertising UI, in the **UET Tag** section during tag setup. Include it in the header "Authorization". POST-requests with a JSON body are accepted.
+If an authorization token already exists, the API returns the existing token. If no token exists, the API creates and returns a new token only when the caller owns the UET tag. Callers with access to a shared tag can retrieve an existing token, but they can't generate a new one. If the tag is invalid or not visible to the caller, the API returns an error.
 
-Use the Bearer scheme for the authorization header as follows:
+##### Generate or retrieve an authorization token in Microsoft Advertising
 
-```html
+1. Find your existing tag or provision a new UET tag ID in the **UET** section of your Microsoft Advertising account.
+1. Select your existing UET tag by using the pencil icon.
+1. Select **Save and next** in the **Edit UET tag** section.
+1. In the **Set up tagging** section, select **Use Conversions API**.
+1. In the **Conversions API** section, select **Copy Token**, select **Next**, and then select **Done**.
+
+##### API endpoint
+
+Send all server-to-server direct events to this endpoint:
+
+```http
+POST /v1/{tagId}/events HTTP/1.1
+Host: capi.uet.microsoft.com
+```
+
+Include your specific UET tag ID in the URL format `/v1/{tagId}/events`. Include the token in the `Authorization` header of a POST request with a JSON body. Use the Bearer scheme:
+
+```http
 Authorization: Bearer <ApiToken>
 ```
 
-You can find your existing tag or provision a new UET tag ID in your Microsoft Advertising account. There are no special Conversions API settings or requirements at the tag level, but we recommend creating a dedicated Conversions API tag and avoiding event commingling—unless it aligns with your specific use case, such as using UET JavaScript for general site tracking while sending only conversion events via the Conversions API.
+Include the supported fields in the JSON request body according to the payload object map. The endpoint returns an HTTP 200 status code upon success, or an HTTP 400 or 401 status code with error details.
 
-The supported event parameters (with examples) are described in the following sections. Please append them to the query string as key-value pairs. This endpoint will return an HTTP 200 status code upon success, or an HTTP 400/401 status code with error details.
+Events can be uploaded individually or in batches. Real-time event delivery is preferred. The maximum number of events per batch upload is 1,000.
 
-Events can be uploaded individually or in batches. Real-time event delivery is preferred.
+## Parameters and payload reference
 
-*Note*: The maximum number of events per batch upload is 1,000.
+This reference section defines the payload fields used across CAPI implementations. Use it after you have selected an implementation path and confirmed which events, identifiers, consent values, and ecommerce or vertical-specific fields apply to your scenario.
 
-## UET Parameters
+### Payload object map
 
-Parameter tables for page load and custom events are shown below. The following sections provide additional discussion and details on formatting and sending these events.
+| Object or location | Purpose | Example fields |
+| --- | --- | --- |
+| Request level | Controls how the request is processed and identifies third-party senders when applicable. | `data`, `continueOnValidationError`, `dataProvider` |
+| Event level | Defines the event being sent and the page or conversion context. | `eventType`, `eventTime`, `eventId`, `eventName`, `eventSourceUrl`, `pageLoadId`, `adStorageConsent` |
+| `userData` | Contains matching and attribution identifiers. | `msclkid`, `em`, `ph`, `anonymousId`, `externalId`, `clientUserAgent`, `clientIpAddress`, `idfa`, `gaid` |
+| `customData` | Contains business, ecommerce, vertical, and conversion-value attributes. | `value`, `currency`, `transactionId`, `eventCategory`, `eventLabel`, `items`, `itemIds`, `pageType`, `hotelData` |
 
-### Authorization
-
-Use the UET `tagID` and token for authorization.  
-
-### Restate / Retract
-
-Restate and retract let you correct conversion data. Restate updates the revenue value for an existing conversion and affects only the **Conv. value** and **All Conv. value** columns, leaving the conversion count unchanged. Retract removes the conversion from the count entirely by setting its value to 0, which impacts the **Conv.**, **Conv. value**, and **All Conv. value** columns.
-
-> [!NOTE]
-> CAPI supports restate/retract when there is a *transactionId*. Call the [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md) object to use restate/retract.
-
-### Data Schema
+### Core data schema requirements
 
 | Field | Type | Required | Description | Example |
-|-------|------|----------|-------------|---------|
+| --- | --- | --- | --- | --- |
 | data | list of objects | Yes | Main object with list of events | |
 | eventType | string | Yes | Event type, use "pageLoad" or "custom" | pageLoad OR custom |
-| eventId | string | | EventID for deduplication | 1234567-54422 |
-| eventName | string | | Event action for custom conversion goals, if used | checkout_complete |
+| eventId | string | Required for deduplication | Event ID for deduplication | 1234567-54422 |
+| eventName | string | Required for deduplication | Event action for custom conversion goals, if used | checkout_complete |
 | eventTime | integer($int64) | Yes | Timestamp of the event (UNIX epoch time UTC) in seconds. *eventTime* must be within the last 7 days. | 1710438591 |
-| eventSourceUrl | string | Required for pageLoad events | URL of the page, used for ex. "destination URL" goals | https://www.bing.com/search?q=wal+clock |
+| eventSourceUrl | string | Required for pageLoad events | URL of the page, used for ex. "destination URL" goals | `https://www.bing.com/search?q=wal+clock` |
 | pageLoadId | string | | Page load id that links to 0+ custom events from the same page. Format as a v4 UUID | bcf3000b-65fa-4cd2-808a-8a6cf2b1d0a5 |
-| referrerUrl | string | | Referrer of the page, used for ex. "referral" remarketing lists | https://www.bing.com/ |
+| referrerUrl | string | | Referrer of the page, used for ex. "referral" remarketing lists | `https://www.bing.com/` |
 | pageTitle | string | | Page title (ex. document.title) | Wall Clocks |
 | keywords | string | | Page keywords (SEO meta keywords) | clocks,homedecor |
 | adStorageConsent | string | | Use "G" for granted and "D" for denied | G |
 | userData | object | | User information | |
-| clientUserAgent | string | | User agent header from the browser of the end user | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/57.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 |
-| anonymousId | string | | Guest user anonymous id, also used for ID sync. Prefer (not required) a v1 UUID | b171a9b06ce011ecafcd1b209be8601b |
-| externalId | string | | Authenticated user id (anonymized) if user is logged in. Also used for ID sync | 111222 |
-| em | string | | Hashed email (details in later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
-| ph | string | | Hashed phone (details in later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
-| clientIpAddress | string | | IP address of the user (v4 or v6) | 127.0.0.1 |
-| msclkid | string | | Microsoft "last click ID" (details in later section) | dd4afcccb1c9a4cad9544dd7e5006 |
-| idfa | string | | For iOS devices ID for advertising | 550e8400-e29b-41d4-a716-446655440000 |
-| gaid | string | | For Android devices – advertising ID | 550e8400-e29b-41d4-a716-446655440000 |
+| clientUserAgent | string | Preferred, not required | User agent header from the browser of the end user | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/57.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 |
+| anonymousId | string | Preferred, not required | Guest user anonymous ID, also used for ID Sync. Prefer (not required) a v1 UUID | b171a9b06ce011ecafcd1b209be8601b |
+| externalId | string | Preferred, not required | Authenticated user ID (anonymized) if the user is signed in. Also used for ID Sync | 111222 |
+| em | string | Preferred, not required | Hashed email (details in a later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
+| ph | string | Preferred, not required | Hashed phone (details in a later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
+| clientIpAddress | string | Preferred, not required | IP address of the user (v4 or v6) | 127.0.0.1 |
+| msclkid | string | Strongly preferred, not required | Microsoft last click ID (details in a later section) | dd4afcccb1c9a4cad9544dd7e5006 |
+| idfa | string | Preferred, not required | For iOS devices, ID for advertising | 550e8400-e29b-41d4-a716-446655440000 |
+| gaid | string | Preferred, not required | For Android devices, advertising ID | 550e8400-e29b-41d4-a716-446655440000 |
 | customData | object | | Event data | |
-| eventCategory | string | | Event category for custom conversion goals, if used | my_category |
-| eventLabel | string | | Event label for custom conversion goals, if used | my_label |
+| eventCategory | string | Preferred, not required | Event category for custom conversion goals, if used | my_category |
+| eventLabel | string | Preferred, not required | Event label for custom conversion goals, if used | my_label |
 | eventValue | number($double) | | Event value (float) for custom conversion goals, if used | 123.45 |
 | searchTerm | string | | Search query used by the user for a search results page, optional | Wall clocks |
 | transactionId | string | | Unique ID associated with this, optional but recommended for singular events like a purchase | txn12345 |
 | value | number($double) | | Revenue value (float) to report variable revenue for goals, if used | 123.45 |
 | currency | string | | Revenue currency 3-digit ISO 4217, if used | USD or EUR |
 | items | list of objects | | Array with 1+ product details | (See later section) |
-| id | string | | Item id | prod123456 |
+| id | string | Preferred, not required | Item ID | prod123456 |
 | quantity | int | | Item quantity | 2 |
 | price | int | | Item price (after discounts) | 25.1 |
 | name | string | | Item name | T-Shirt |
 | itemIds | list of string | | Comma separated list of product ids | prod1,prod2 |
-| pageType | string | | One of: "cart", "category", "home", "other", "product", "purchase", "searchresults" | purchase |
+| pageType | string | Preferred, not required | One of: "cart", "category", "home", "other", "product", "purchase", "searchresults" | purchase |
 | ecommTotalValue | number($double) | | Total value of the cart or purchase | 123.45 |
 | ecommCategory | string | | Category ID | 1234 |
 | hotelData | object | | Hotel data | |
@@ -173,7 +266,7 @@ Restate and retract let you correct conversion data. Restate updates the revenue
 | partnerHotelId | string | | ID that you used to identify the hotel in your property feed | example_hotel |
 | bookingHref | string | | Encrypted or obfuscated booking reference number | X2N5531APZ |
 | continueOnValidationError | boolean | | Use for batch uploads: true – if you want to skip invalid events, false (default) – entire request will not be processed | false |
-| dataProvider | string | | Custom string to include in integrations to support analysis, debugging, and monitoring | example_data_provider |
+| dataProvider | string | Required for third-party senders | Custom string to include in integrations to support analysis, debugging, and monitoring | example_data_provider |
 
 ### Example
 
@@ -242,7 +335,9 @@ Restate and retract let you correct conversion data. Restate updates the revenue
 }
 ```
 
-## Page Load Events
+## Data schema details
+
+### Page load events
 
 Send one separate page load event for each page view or single-page application (SPA) navigation.
 
@@ -260,7 +355,7 @@ Send one separate page load event for each page view or single-page application 
 }
 ```
 
-## Custom Events
+### Custom events
 
 Fire zero or more custom events to send richer, event-level data to Microsoft.
 
@@ -299,7 +394,7 @@ In this scenario, deduplication refers to a client choosing to use the same UET 
 </script>
 ```
 
-## Variable Revenue
+### Variable revenue
 
 The revenue value (the `gv` parameter) may apply to either the entire page or a specific custom event, depending on your needs. If it is associated with a custom event—such as one with `eventAction=purchase`, simply include the revenue value and revenue currency fields within that event.
 
@@ -314,7 +409,7 @@ However, page load events cannot be populated directly with revenue value. If yo
 }
 ```
 
-## Items Array
+### Items array
 
 You can send a complete list of items associated with an event using the `items` parameter. This allows you to capture detailed information about multiple products or other entities. Currently, the `items` array is used only for specific advertising products and is not applicable to standard conversion tracking goals.
 
@@ -341,7 +436,7 @@ Format the array as an array of nested query strings with proper URL encoding. U
 }
 ```
 
-## Consent Signals
+### Consent signals
 
 The Conversions API supports consent signals. [Learn more](https://help.ads.microsoft.com/apex/index/3/en/60119)
 
@@ -356,9 +451,9 @@ By default, all events are processed with the consent state set to granted. If y
 }
 ```
 
-## User Data
+### User data
 
-### Click ID (MSCLKID)
+#### Click ID (MSCLKID)
 
 The Microsoft Click ID is used to accurately attribute conversions to ad clicks. When auto-tagging is enabled for your account, the click ID is passed to your landing page as a query string parameter named `msclkid` after a user clicks on your ad. Since you are not using the UET JavaScript, it is your responsibility to capture and store this click ID for the associated user and include it in all subsequent UET events generated for that user.
 
@@ -368,7 +463,7 @@ We recommend storing the `msclkid` in a first-party cookie or local storage, tho
 
 - **Format**: UUID, e.g., `dd4afcccb1c9a4cad9544dd7e5006`
 
-### Visitor ID and User ID
+#### Visitor ID and user ID
 
 You must include a unique visitor ID (`anonymousId`) with all events, and may optionally include a unique user ID (`externalId`) if available. These correspond to an anonymous/tracking ID and a logged-in user ID, respectively. Microsoft uses these identifiers to aggregate events for a single user over time.
 
@@ -379,13 +474,13 @@ Important: Never send real user IDs. We recommend generating new UUIDs or applyi
 - **Preferred `vid` format**: Version 1 UUID, e.g., `b171a9b06ce011ecafcd1b209be8601b`
 - **`externalId` format**: Controlled by you, but ideally a 32-byte hex string (similar to a UUID)
 
-### Hashed Identifiers
+#### Hashed identifiers
 
 Some browsers are already blocking third-party cookies, and many more are expected to follow. To improve conversion measurement (enhanced conversions) and preserve certain targeting capabilities, we strongly recommend sending hashed email addresses and phone numbers for all users when available. These can be included in the `em` and `ph` parameters across all event types.
 
 [Learn more](https://help.ads.microsoft.com/apex/index/3/en/60178) about enhanced conversions.
 
-#### To hash an email address
+##### To hash an email address
 
 1. Trim all whitespace from both ends of the email address.
 2. Remove all dots (.) from the user portion of the email address.
@@ -393,7 +488,7 @@ Some browsers are already blocking third-party cookies, and many more are expect
 4. Convert the entire email address to lowercase.
 5. Apply a SHA-256 hash and format the result as a lowercase hexadecimal string.
 
-#### To hash a phone number
+##### To hash a phone number
 
 1. Normalize the phone number to E.164 format with country code (e.g., +14255551234).
 2. Apply a SHA-256 hash and format the result as a lowercase hexadecimal string.
@@ -407,14 +502,14 @@ Example using the email `john@contoso.com` and phone number +14255551234:
 }
 ```
 
-### Mobile Device ID
+#### Mobile device ID
 
 You can send mobile device IDs:
 
 - **IDFA** – Identifier for Apple devices
 - **GAID** – Google Advertising ID for Android devices
 
-### User Details
+#### User details
 
 We also ask that you include the event timestamp (`ts`), user agent (`ua` parameter), and IP address (`ip` parameter) of the end user as part of each event. These details help us associate the event with other user activities, such as ad clicks that may have led to a conversion on your site.
 
@@ -434,11 +529,11 @@ We also ask that you include the event timestamp (`ts`), user agent (`ua` parame
 }
 ```
 
-## Vertical Specific Parameters
+### Vertical-specific parameters
 
 UET supports an additional set of vertical-specific parameters. These are used for specialized advertising products, such as dynamic remarketing, and should be included as part of custom events. Please provide as much relevant data as possible to fully leverage our range of advertising solutions.
 
-### Retail (E-commerce)
+#### Retail (ecommerce)
 
 For retail, you can send the following additional fields. [Learn more](https://help.ads.microsoft.com/#apex/ads/en/56910/1)
 
@@ -457,7 +552,7 @@ In most cases, it makes sense to pass the same value for both `revenue` and `eco
 }
 ```
 
-### Hotel Conversions
+#### Hotel conversions
 
 For hotel conversions you can send the following additional fields. [Learn more](../../hotel-ads/index.md)
 
@@ -479,179 +574,50 @@ Include the `currency` and `revenue` values, as appropriate.
 }
 ```
 
-### Other Verticals
+#### Other verticals
 
 We may support additional verticals, such as flights. Please consult your account team to learn what is currently available or planned.
 
-## Putting It Together
+## Troubleshooting, validation, and launch
 
-### Implementation Checklist
+Use this section after implementation to confirm events are delivered, diagnose API response errors, resolve reporting or audience issues, complete launch readiness checks, and monitor the integration after launch.
 
-1. Optional step (highly recommended for remarketing): Implement the client-side ID sync pixel sitewide. If throttling is applied, ensure it fires at least once per user session (recommended: on the first page load of the session).
-2. Capture the `msclkid` from your landing pages and store it per user. Send it with all UET events associated with that user.
-3. Send page load events for every page or SPA navigation, including the URL and a newly generated `pageLoadId`.
-4. Send custom events as appropriate for vertical-specific pages (e.g., cart, purchase) and conversion events.
-5. Verify in your account under UET tags that events are being received.
-6. Check that conversions are appearing.
+### Batch uploads and validation behavior
 
-### Dos and Don'ts
+Events can be uploaded individually or in batches. Real-time event delivery is preferred because it minimizes latency for conversion reporting, optimization, and troubleshooting. The maximum number of events per batch upload is 1,000.
 
-**DO**:
+By default, if a batch contains invalid data, the API returns an error and doesn't process any events in that batch. To allow valid events to continue processing when some records fail validation, include `continueOnValidationError: true` in the request payload.
 
-- Include hashed email and phone whenever possible, along with the user agent and IP address.
-- Always include the most recent `msclkid` for each user.
-- Ensure the `anonymousId` from CAPI events matches the `vid` from ID sync events.
+- Keep batches below the 1,000-event maximum and split larger uploads into multiple requests.
+- Log request IDs, response codes, failed record indexes, and validation details so issues can be investigated later.
+- Use retry logic carefully: Retry temporary failures, but don't blindly retry validation errors without fixing the payload.
+- Use stable `eventId` values so retries don't create duplicate conversions.
+- Validate timestamps, URLs, consent values, hashed identifiers, and required fields before sending large batches.
 
-**DON'T**:
+### API error handling
 
-- Fire the ID sync pixel from your server, as this prevents us from retrieving Microsoft IDs.
-- Omit the `msclkid` from conversion events, `vid` alone is not sufficient.
+The API returns success or error responses based on authentication, request format, and field-level validation. Use error details to identify whether the issue affects the entire request, a specific event index, or a specific property in the payload.
 
-## Examples
+| Error type | Status | Likely cause | How to resolve |
+| --- | --- | --- | --- |
+| Unauthorized | 401 | The token is missing, incorrect, expired, or not authorized for the tag. | Confirm the token, UET tag ID, and Bearer authorization header. |
+| Validation error | 400 | One or more payload properties failed validation. | Use the returned property name and event index to fix the invalid field. |
+| Invalid event type | 400 | `eventType` is missing or isn't one of the supported values. | Use `pageLoad` or `custom`. |
+| Invalid timestamp | 400 | `eventTime` is missing, malformed, or outside the supported window. | Send a valid UNIX UTC timestamp in seconds and validate event recency before upload. |
+| Invalid URL | 400 | URL fields such as `referrerUrl` aren't valid. | Validate URL format and encode special characters before sending. |
+| Invalid hash | 400 | `em` or `ph` isn't a valid SHA-256 string. | Normalize identifiers first, then SHA-256 hash and output lowercase hexadecimal strings. |
 
-All of these examples are custom events and illustrate the incremental parameters added to the base set. As always, please include the `msclkid` if available.
+### Detailed API error response examples
 
-```json
-{
-  "eventType": "custom",
-  "eventId": "1234567-54422",
-  "eventName": "checkout_complete",
-  "eventTime": 1710438591,
-  "userData": {
-    "clientUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/57.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36",
-    "anonymousId": "b171a9b06ce011ecafcd1b209be8601b",
-    "externalId": "111222",
-    "clientIpAddress": "127.0.0.1",
-    "msclkid": "dd4afcccb1c9a4cad9544dd7e5006"
-  }
-}
+Use the response body to determine whether the request failed because of authentication, request-level validation, or one or more invalid records in the `data` array. When the response includes an index, that index points to the event position in the submitted batch.
+
+#### Unauthorized response
+
+A 401 response usually means the request is missing the authentication token, the token is incorrect, or the token isn't authorized for the UET tag ID used in the request path.
+
+```http
+HTTP/1.1 401 Unauthorized
 ```
-
-### Retail Homepage
-
-"For general site visitors, this page typically doesn't include any `prodIds` or `value`.
-
-```json
-{
-  "customData": {
-    "pageType": "home"
-  }
-}
-```
-
-### Retail Search Results
-
-From a search results page, including `prodIds` and the `searchTerm`.
-
-```json
-{
-  "customData": {
-    "pageType": "searchresults",
-    "itemIds": ["prod1", "prod2"],
-    "searchTerm": "Wall clocks"
-  }
-}
-```
-
-### Retail Category Page
-
-From a category page, typically including the top X products (e.g., 10).
-
-```json
-{
-  "customData": {
-    "pageType": "category",
-    "ecommCategory": "1234",
-    "itemIds": ["prod1", "prod2"]
-  }
-}
-```
-
-### Retail Product Page
-
-From a product detail page, indicating interest in a single product.
-
-```json
-{
-  "customData": {
-    "pageType": "product",
-    "itemIds": ["prod1"]
-  }
-}
-```
-
-### Retail Cart Page
-
-On the view cart page, include the total value and per-item details, if possible.
-
-```json
-{
-  "customData": {
-    "pageType": "cart",
-    "value": 83.3,
-    "currency": "USD",
-    "ecommTotalValue": 83.3,
-    "items": [
-      {
-        "id": "prod123456",
-        "quantity": 2,
-        "price": 25.1,
-        "name": "T-Shirt"
-      },
-      {
-        "id": "prod234567",
-        "quantity": 1,
-        "price": 33.1,
-        "name": "T-Shirt"
-      }
-    ]
-  }
-}
-```
-
-### Retail Purchase Confirmation
-
-After a purchase occurs.
-
-```json
-{
-  "customData": {
-    "pageType": "purchase",
-    "value": 50.2,
-    "currency": "USD",
-    "ecommTotalValue": 50.2,
-    "items": [
-      {
-        "id": "prod123456",
-        "quantity": 2,
-        "price": 25.1,
-        "name": "T-Shirt"
-      }
-    ]
-  }
-}
-```
-
-## Errors
-
-If the data is incorrect, the API will return an error and no data will be processed. For batch uploads, any errors will prevent all events from being processed.
-
-If you prefer to skip invalid events and process the remaining ones, add the flag `continueOnValidationError`.
-
-```json
-{
-  "data": [
-    {
-      ...
-    }
-  ],
-  "continueOnValidationError": true
-}
-```
-
-### Unauthorized
-
-**Error**: Incorrect or missing token — response status 401.
 
 ```json
 {
@@ -662,11 +628,18 @@ If you prefer to skip invalid events and process the remaining ones, add the fla
 }
 ```
 
-### Validation Error
+1. Confirm the request includes `Authorization: Bearer <ApiToken>`.
+1. Confirm the token was copied from the Microsoft Advertising UI for the correct account and tag setup.
+1. Confirm the UET tag ID in the endpoint path matches the tag the token is authorized to use.
+1. Don't retry the same request until the token, header, and tag ID are corrected.
 
-Invalid parameters.
+#### Validation error response
 
-**Error:** 400 Bad Request.
+A 400 validation error means one or more payload fields failed validation. In batch requests, the response can identify the event index and field path so the implementer can fix the affected event without guessing.
+
+```http
+HTTP/1.1 400 Bad Request
+```
 
 ```json
 {
@@ -696,11 +669,6 @@ Invalid parameters.
       },
       {
         "index": 0,
-        "propertyName": "data[0].userData.ph",
-        "errorMessage": "'ph' must be a valid SHA256 string."
-      },
-      {
-        "index": 0,
         "propertyName": "data[0].eventTime",
         "attemptedValue": 1767793837,
         "errorMessage": "'eventTime' must be a valid UNIX UTC timestamp in seconds within last 7 days."
@@ -709,6 +677,42 @@ Invalid parameters.
   }
 }
 ```
+
+| Response field | How to interpret it | What to do next |
+| --- | --- | --- |
+| `index` | Identifies the event position in the submitted batch. | Find the corresponding event in the `data` array and fix that record. |
+| `propertyName` | Identifies the exact field path that failed validation. | Correct the field value, format, or missing required property. |
+| `attemptedValue` | Shows the rejected value when available. | Use it to identify malformed timestamps, invalid URLs, or incorrectly hashed identifiers. |
+| `errorMessage` | Explains the validation rule that failed. | Update pre-send validation so future payloads catch the issue before upload. |
+
+### Troubleshooting workflow
+
+Use this workflow when events are missing, batches are failing, conversions aren't appearing, duplicate conversions are reported, or audience populations aren't growing as expected.
+
+1. **Confirm request authentication.** Verify the UET tag ID, endpoint path, and `Authorization: Bearer <ApiToken>` header before investigating field-level issues.
+1. **Check request acceptance.** Confirm whether the API response is success, unauthorized, or validation failure. Resolve a 401 before retrying event payloads.
+1. **Inspect validation details.** For 400 responses, use `index` and `propertyName` to identify the exact event and field that failed.
+1. **Validate event timestamps.** Confirm `eventTime` is a UNIX UTC timestamp in seconds and falls within the supported processing window.
+1. **Validate event setup.** Confirm `eventType`, `eventName`, conversion goal configuration, and custom event parameters align.
+1. **Check attribution data.** Confirm `msclkid`, `anonymousId`, user agent, IP address, hashed email, and hashed phone are populated when available and permitted.
+1. **Review batch behavior.** If one bad record blocks the batch, either correct the failed record and resend the batch or use `continueOnValidationError: true` and monitor rejected records separately.
+1. **Retry safely.** Retry transient failures only. For validation failures, fix the payload first and preserve stable `eventId` values to reduce duplicate-conversion risk.
+
+| Symptom | Likely cause | First action |
+| --- | --- | --- |
+| 401 Unauthorized | Missing, invalid, or unauthorized token. | Confirm tag ID, token, and Bearer authorization header. |
+| 400 ValidationError | Invalid event field, missing required field, malformed URL, invalid hash, or invalid timestamp. | Use `details`, `index`, and `propertyName` to fix the failed record. |
+| Batch fails completely | Invalid data in one or more events and default all-or-nothing behavior. | Fix invalid events before resend, or enable `continueOnValidationError` if partial processing is acceptable. |
+| Events accepted but no conversions appear | Goal mapping, event name, timestamp, or attribution identifier issue. | Check conversion goal configuration, event names, timestamps, and `msclkid`. |
+| Duplicate conversions | Missing or inconsistent `eventId` between UET and CAPI. | Use the same stable `eventId` for the same conversion across systems. |
+| Audiences aren't growing | ID Sync missing or identifiers not aligned. | Confirm client-side ID Sync and ensure `anonymousId` matches VID. |
+
+When a validation error includes an event index, use that index to locate the failed record in the `data` array. For example, `data[0].eventType` means the first event in the batch has an invalid or missing event type.
+
+- If the issue is authentication-related, fix the token or header before retrying.
+- If the issue is field validation, correct the affected event before retrying the batch.
+- If `continueOnValidationError` is enabled, monitor skipped or rejected records separately so data quality issues aren't hidden.
+- If retrying failed batches, preserve the same `eventId` for the same conversion event to support deduplication.
 
 ## Legal Notice
 
