@@ -19,7 +19,7 @@ Defines the DiagnosticsFilter data object.
 <xs:complexType name="DiagnosticsFilter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="Values" nillable="true" type="q193:ArrayOfstring" xmlns:q193="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="Values" nillable="true" type="q194:ArrayOfstring" xmlns:q194="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   </xs:sequence>
 </xs:complexType>
 ```

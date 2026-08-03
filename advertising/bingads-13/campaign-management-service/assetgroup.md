@@ -37,7 +37,7 @@ Defines an asset group in an advertising campaign.
     <xs:element minOccurs="0" name="Descriptions" nillable="true" type="tns:ArrayOfAssetLink" />
     <xs:element minOccurs="0" name="EditorialStatus" nillable="true" type="tns:AssetGroupEditorialStatus" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
-    <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q115:ArrayOfstring" xmlns:q115="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q116:ArrayOfstring" xmlns:q116="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string">
       <xs:annotation>
         <xs:appinfo>
@@ -45,8 +45,8 @@ Defines an asset group in an advertising campaign.
         </xs:appinfo>
       </xs:annotation>
     </xs:element>
-    <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q116:ArrayOfstring" xmlns:q116="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q117:ArrayOfKeyValuePairOfstringstring" xmlns:q117="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q117:ArrayOfstring" xmlns:q117="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q118:ArrayOfKeyValuePairOfstringstring" xmlns:q118="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Headlines" nillable="true" type="tns:ArrayOfAssetLink" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfAssetLink" />

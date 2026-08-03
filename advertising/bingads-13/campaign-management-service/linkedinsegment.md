@@ -42,4 +42,5 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AddLinkedInSegments](addlinkedinsegments.md)  
+[GetLinkedInSegments](getlinkedinsegments.md)  
 [UpdateLinkedInSegments](updatelinkedinsegments.md)  

@@ -39,10 +39,10 @@ You can associate an image ad extension with the account or with campaigns and a
           </xs:annotation>
         </xs:element>
         <xs:element minOccurs="0" name="FinalAppUrls" nillable="true" type="tns:ArrayOfAppUrl" />
-        <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q44:ArrayOfstring" xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element minOccurs="0" name="FinalMobileUrls" nillable="true" type="q45:ArrayOfstring" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
         <xs:element minOccurs="0" name="FinalUrlSuffix" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q45:ArrayOfstring" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-        <xs:element minOccurs="0" name="ImageMediaIds" nillable="true" type="q46:ArrayOflong" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element minOccurs="0" name="FinalUrls" nillable="true" type="q46:ArrayOfstring" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <xs:element minOccurs="0" name="ImageMediaIds" nillable="true" type="q47:ArrayOflong" xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
         <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfAssetLink">
           <xs:annotation>
             <xs:appinfo>
@@ -50,7 +50,7 @@ You can associate an image ad extension with the account or with campaigns and a
             </xs:appinfo>
           </xs:annotation>
         </xs:element>
-        <xs:element minOccurs="0" name="Layouts" nillable="true" type="q47:ArrayOfstring" xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <xs:element minOccurs="0" name="Layouts" nillable="true" type="q48:ArrayOfstring" xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />

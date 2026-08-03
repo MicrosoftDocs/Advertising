@@ -17,6 +17,10 @@ dev_langs:
 # DeleteSharedEntityAssociations Service Operation - Campaign Management
 Deletes the negative keyword list to campaign associations, or website exclusion list to ad account associations.
 
+*BrandList* associations at the campaign level can be deleted using this operation (*SharedEntityType* = "BrandList", *EntityType* = "Campaign").
+
+For AI Max campaigns, brand list inclusion associations can be added or removed only when search term matching (STM) is enabled. If STM is disabled, the operation is rejected and an error is returned.
+
 > [!TIP] 
 > For an overview, see the [Negative Keywords](../guides/negative-keywords.md) and [Negative Sites](../guides/negative-sites.md) technical guides. 
 

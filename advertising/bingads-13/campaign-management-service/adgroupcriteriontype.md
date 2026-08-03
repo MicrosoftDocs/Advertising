@@ -256,6 +256,13 @@ Defines the possible types of ad group criterions.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="CustomLinkedIn">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">17179869184</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -264,7 +271,7 @@ Defines the possible types of ad group criterions.
 
 ## <a name="values"></a>Values
 
-The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [CustomSegment](#customsegment), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Genre](#genre), [HotelAdvanceBookingWindow](#hoteladvancebookingwindow), [HotelCheckInDate](#hotelcheckindate), [HotelCheckInDay](#hotelcheckinday), [HotelDateSelectionType](#hoteldateselectiontype), [HotelGroup](#hotelgroup), [HotelLengthOfStay](#hotellengthofstay), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [JobSeniority](#jobseniority), [Location](#location), [LocationIntent](#locationintent), [Placement](#placement), [ProductAudience](#productaudience), [ProductPartition](#productpartition), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Targets](#targets), [Topic](#topic), [Webpage](#webpage).
+The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [CustomLinkedIn](#customlinkedin), [CustomSegment](#customsegment), [DayTime](#daytime), [Device](#device), [Gender](#gender), [Genre](#genre), [HotelAdvanceBookingWindow](#hoteladvancebookingwindow), [HotelCheckInDate](#hotelcheckindate), [HotelCheckInDay](#hotelcheckinday), [HotelDateSelectionType](#hoteldateselectiontype), [HotelGroup](#hotelgroup), [HotelLengthOfStay](#hotellengthofstay), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [JobSeniority](#jobseniority), [Location](#location), [LocationIntent](#locationintent), [Placement](#placement), [ProductAudience](#productaudience), [ProductPartition](#productpartition), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Targets](#targets), [Topic](#topic), [Webpage](#webpage).
 
 |Value|Description|
 |-----------|---------------|
@@ -274,6 +281,7 @@ The [AdGroupCriterionType](adgroupcriteriontype.md) value set has the following 
 |<a name="companyname"></a>CompanyName|The ad group criterion is a company name profile criterion.<br/><br/>The *Criterion* element of either the [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [NegativeAdGroupCriterion](negativeadgroupcriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *CompanyName*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="customaudience"></a>CustomAudience|The ad group criterion is a custom audience association.<br/><br/>This criterion type value is only used by the [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) operation to request the custom audience associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the custom audience, see [CustomAudience](customaudience.md).|
 |<a name="customerlist"></a>CustomerList|The ad group criterion is a customer list association.<br/><br/>This criterion type value is only used by the [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) operation to request the customer lists represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the customer list, see [CustomerList](customerlist.md).|
+|<a name="customlinkedin"></a>CustomLinkedIn|A targeting criterion type that represents custom LinkedIn audience targeting.|
 |<a name="customsegment"></a>CustomSegment|The ad group criterion is a [custom segment](customsegment.md) association.<br/><br/>This criterion type value is only used by the [GetAdGroupCriterionsByIds](getadgroupcriterionsbyids.md) operation to request the custom segment associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the custom segment, see [CustomSegment](customsegment.md).|
 |<a name="daytime"></a>DayTime|The ad group criterion is a day and time criterion.<br/><br/>The *Criterion* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) can be an instance of [DayTimeCriterion](daytimecriterion.md), but day and time criterion are not supported with [NegativeAdGroupCriterion](negativeadgroupcriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
 |<a name="device"></a>Device|The ad group criterion is a device criterion.<br/><br/>The *Criterion* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) can be an instance of [DeviceCriterion](devicecriterion.md), but device criterion are not supported with [NegativeAdGroupCriterion](negativeadgroupcriterion.md).<br/><br/>The *CriterionBid* element of a [BiddableAdGroupCriterion](biddableadgroupcriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|

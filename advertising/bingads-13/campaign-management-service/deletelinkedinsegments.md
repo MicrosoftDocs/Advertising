@@ -41,7 +41,7 @@ The *DeleteLinkedInSegmentsResponse* object defines the [body](#response-body) a
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array *BatchError* that contains details for any request items that were not successful.<br/><br/>The list of errors does not correspond directly to the list of items in the request. The list can be empty if there were no errors, or it can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -196,7 +196,7 @@ The *DeleteLinkedInSegmentsResponse* object defines the [body](#response-body) a
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array *BatchError* that contains details for any request items that were not successful.<br/><br/>The list of errors does not correspond directly to the list of items in the request. The list can be empty if there were no errors, or it can include one or more error objects corresponding to each unsuccessful list item in the request.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

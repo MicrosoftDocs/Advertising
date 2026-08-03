@@ -31,7 +31,7 @@ An account can have up to 100 scheduled Google import jobs.
     <xs:extension base="tns:ImportJob">
       <xs:sequence>
         <xs:element minOccurs="0" name="CampaignAdGroupIds" nillable="true" type="tns:ArrayOfCampaignAdGroupIds" />
-        <xs:element minOccurs="0" name="CampaignTypes" nillable="true" type="q148:ArrayOfstring" xmlns:q148="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <xs:element minOccurs="0" name="CampaignTypes" nillable="true" type="q149:ArrayOfstring" xmlns:q149="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />

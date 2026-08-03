@@ -288,6 +288,20 @@ Defines a list of optional import properties that you can request when calling [
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="UpdateAssetGroups">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">137438953472</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="UpdateSearchThemesForExistingAssetGroups">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">274877906944</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -296,7 +310,7 @@ Defines a list of optional import properties that you can request when calling [
 
 ## <a name="values"></a>Values
 
-The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [CampaignTypes](#campaigntypes), [EnableCopilot](#enablecopilot), [ImageAssetAutomationOptOut](#imageassetautomationoptout), [ImportNCAGoalWithSystemGeneratedAudience](#importncagoalwithsystemgeneratedaudience), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewAIMaxSettings](#newaimaxsettings), [NewBrandListAssociations](#newbrandlistassociations), [NewBrandSuitability](#newbrandsuitability), [NewCarouselAd](#newcarouselad), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [NewPortfolioBidStrategy](#newportfoliobidstrategy), [NewSearchThemesForExistingAssetGroups](#newsearchthemesforexistingassetgroups), [NewTopicTargets](#newtopictargets), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateAIMaxSettings](#updateaimaxsettings), [UpdateAssetAutomationCampaignSetting](#updateassetautomationcampaignsetting), [UpdateAssetGroupsAsset](#updateassetgroupsasset), [UpdateBrandListAssociations](#updatebrandlistassociations), [UpdateBrandSuitability](#updatebrandsuitability), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSitelinkUrls](#updatesitelinkurls), [UpdateTopicTargets](#updatetopictargets).
+The [ImportAdditionalField](importadditionalfield.md) value set has the following values: [ActiveAdGroupsOnly](#activeadgroupsonly), [AdScheduleUseSearcherTimezone](#adscheduleusesearchertimezone), [AutoDeviceBidOptimization](#autodevicebidoptimization), [CampaignTypes](#campaigntypes), [EnableCopilot](#enablecopilot), [ImageAssetAutomationOptOut](#imageassetautomationoptout), [ImportNCAGoalWithSystemGeneratedAudience](#importncagoalwithsystemgeneratedaudience), [NewAccountNegativeKeywords](#newaccountnegativekeywords), [NewAIMaxSettings](#newaimaxsettings), [NewBrandListAssociations](#newbrandlistassociations), [NewBrandSuitability](#newbrandsuitability), [NewCarouselAd](#newcarouselad), [NewConversionGoals](#newconversiongoals), [NewImageAdExtensions](#newimageadextensions), [NewLeadFormAdExtensions](#newleadformadextensions), [NewLogoAdExtensions](#newlogoadextensions), [NewPortfolioBidStrategy](#newportfoliobidstrategy), [NewSearchThemesForExistingAssetGroups](#newsearchthemesforexistingassetgroups), [NewTopicTargets](#newtopictargets), [None](#none), [NotificationEmail](#notificationemail), [RenameCampaignNameWithSuffix](#renamecampaignnamewithsuffix), [SearchAndReplaceForCustomParameters](#searchandreplaceforcustomparameters), [SearchAndReplaceForFinalURLSuffix](#searchandreplaceforfinalurlsuffix), [UpdateAccountNegativeKeywords](#updateaccountnegativekeywords), [UpdateAdCustomizerAttributes](#updateadcustomizerattributes), [UpdateAdUrls](#updateadurls), [UpdateAIMaxSettings](#updateaimaxsettings), [UpdateAssetAutomationCampaignSetting](#updateassetautomationcampaignsetting), [UpdateAssetGroups](#updateassetgroups), [UpdateAssetGroupsAsset](#updateassetgroupsasset), [UpdateBrandListAssociations](#updatebrandlistassociations), [UpdateBrandSuitability](#updatebrandsuitability), [UpdateConversionGoals](#updateconversiongoals), [UpdateImageAdExtensions](#updateimageadextensions), [UpdateLeadFormAdExtensions](#updateleadformadextensions), [UpdateLogoAdExtensions](#updatelogoadextensions), [UpdateSearchThemesForExistingAssetGroups](#updatesearchthemesforexistingassetgroups), [UpdateSitelinkUrls](#updatesitelinkurls), [UpdateTopicTargets](#updatetopictargets).
 
 |Value|Description|
 |-----------|---------------|
@@ -329,6 +343,7 @@ The [ImportAdditionalField](importadditionalfield.md) value set has the followin
 |<a name="updateadurls"></a>UpdateAdUrls|Request that the [UpdateAdUrls](googleimportoption.md#updateadurls) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateaimaxsettings"></a>UpdateAIMaxSettings|Request that the [UpdateAIMaxSettings](googleimportoption.md#updateaimaxsettings) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateassetautomationcampaignsetting"></a>UpdateAssetAutomationCampaignSetting|Reserved.|
+|<a name="updateassetgroups"></a>UpdateAssetGroups|Reserved.|
 |<a name="updateassetgroupsasset"></a>UpdateAssetGroupsAsset|Reserved.|
 |<a name="updatebrandlistassociations"></a>UpdateBrandListAssociations|Reserved.|
 |<a name="updatebrandsuitability"></a>UpdateBrandSuitability|Request that the [UpdateBrandSuitability](googleimportoption.md#updatebrandsuitability) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
@@ -336,6 +351,7 @@ The [ImportAdditionalField](importadditionalfield.md) value set has the followin
 |<a name="updateimageadextensions"></a>UpdateImageAdExtensions|Request that the [UpdateImageAdExtensions](googleimportoption.md#updateimageadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updateleadformadextensions"></a>UpdateLeadFormAdExtensions|Request that the [UpdateLeadFormAdExtensions](googleimportoption.md#updateleadformadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updatelogoadextensions"></a>UpdateLogoAdExtensions|Request that the [UpdateLogoAdExtensions](googleimportoption.md#updatelogoadextensions) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
+|<a name="updatesearchthemesforexistingassetgroups"></a>UpdateSearchThemesForExistingAssetGroups|Reserved.|
 |<a name="updatesitelinkurls"></a>UpdateSitelinkUrls|Request that the [UpdateSitelinkUrls](googleimportoption.md#updatesitelinkurls) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 |<a name="updatetopictargets"></a>UpdateTopicTargets|Request that the [UpdateTopicTargets](googleimportoption.md#updatetopictargets) element be included within each returned [GoogleImportOption](googleimportoption.md) object.|
 

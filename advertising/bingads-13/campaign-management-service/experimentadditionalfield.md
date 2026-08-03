@@ -19,6 +19,8 @@ Defines a list of optional properties that you can request when using the Experi
       <xs:restriction base="xs:string">
         <xs:enumeration value="ExperimentSubType" />
         <xs:enumeration value="ExperimentArms" />
+        <xs:enumeration value="ExperimentCampaignType" />
+        <xs:enumeration value="MarketingObjective" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -27,12 +29,14 @@ Defines a list of optional properties that you can request when using the Experi
 
 ## <a name="values"></a>Values
 
-The [ExperimentAdditionalField](experimentadditionalfield.md) value set has the following values: [ExperimentArms](#experimentarms), [ExperimentSubType](#experimentsubtype).
+The [ExperimentAdditionalField](experimentadditionalfield.md) value set has the following values: [ExperimentArms](#experimentarms), [ExperimentCampaignType](#experimentcampaigntype), [ExperimentSubType](#experimentsubtype), [MarketingObjective](#marketingobjective).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="experimentarms"></a>ExperimentArms|Request that the experiment arms field is used when requesting an [Experiment](experiment.md) object.|
+|<a name="experimentcampaigntype"></a>ExperimentCampaignType|Reserved.|
 |<a name="experimentsubtype"></a>ExperimentSubType|Request that the experiment sub type field is used when requesting the [Experiment](experiment.md) object.|
+|<a name="marketingobjective"></a>MarketingObjective|Reserved.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

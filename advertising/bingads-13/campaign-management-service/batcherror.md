@@ -19,7 +19,7 @@ Defines a Campaign Management batch error object that identifies the item within
     <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="FieldPath" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q14:ArrayOfKeyValuePairOfstringstring" xmlns:q14="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q15:ArrayOfKeyValuePairOfstringstring" xmlns:q15="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Index" type="xs:int" />
     <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
@@ -148,6 +148,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [GetLabelAssociationsByEntityIds](getlabelassociationsbyentityids.md)  
 [GetLabelAssociationsByLabelIds](getlabelassociationsbylabelids.md)  
 [GetLabelsByIds](getlabelsbyids.md)  
+[GetLinkedInSegments](getlinkedinsegments.md)  
 [GetMediaAssociations](getmediaassociations.md)  
 [GetMediaMetaDataByIds](getmediametadatabyids.md)  
 [GetNegativeKeywordsByEntityIds](getnegativekeywordsbyentityids.md)  

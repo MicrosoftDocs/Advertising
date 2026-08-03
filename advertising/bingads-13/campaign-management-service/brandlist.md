@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: A data object for the BrandList.
 ---
 # BrandList Data Object - Campaign Management
-A data object for the BrandList.
+A data object for the BrandList. A brand list can be associated with a campaign as a shared entity (*SharedEntityType* = "BrandList").
 
 ## Syntax
 
@@ -72,4 +72,3 @@ The [BrandList](brandlist.md) object derives from the [SharedEntity](sharedentit
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

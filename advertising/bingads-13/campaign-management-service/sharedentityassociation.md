@@ -9,7 +9,11 @@ ms.date: 11/13/2024
 description: Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.
 ---
 # SharedEntityAssociation Data Object - Campaign Management
-Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.
+Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.  
+
+*BrandList* is a supported *SharedEntityType* and can be associated with a campaign (*EntityType* = "Campaign"). Use *IsExclusion* to specify whether the brand list is applied as an exclusion list (*true*) or an inclusion list (*false*).  
+
+For AI Max brand inclusion, brand list inclusion associations can be added or removed only when search term matching (STM) is enabled. If STM is disabled, the operation is rejected and an error is returned.
 
 ## Syntax
 
@@ -70,11 +74,11 @@ The [SharedEntityAssociation](sharedentityassociation.md) object has the followi
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="entityid"></a>EntityId|The identifier of the campaign or ad account (according to [EntityType](#entitytype)) that is associated with the shared entity.|**long**|
-|<a name="entitytype"></a>EntityType|The type of entity.<br/><br/>This element must be set to "Campaign" for negative keyword list to campaign associations in your ad account shared library.<br/><br/>This element must be set to "Account" for website exclusion list to ad account associations in your manager account (customer) shared library.|**string**|
-|<a name="isexclusion"></a>IsExclusion|Reserved.|**boolean**|
+|<a name="entitytype"></a>EntityType|The type of entity.<br/><br/>This element must be set to "Campaign" for negative keyword list to campaign associations in your ad account shared library.<br/><br/>This element must be set to "Account" for website exclusion list to ad account associations in your manager account (customer) shared library.<br/><br/>This element must be set to "Campaign" for brand list-to-campaign associations.|**string**|
+|<a name="isexclusion"></a>IsExclusion|For brand list-to-campaign associations, indicates whether the associated brand list is applied as an exclusion list (*true*) or an inclusion list (*false*). This field is *reserved* for all other association types.|**boolean**|
 |<a name="sharedentitycustomerid"></a>SharedEntityCustomerId|Determines the owner of a website exclusion list.<br/><br/>This read-only element is only available for [PlacementExclusionList](placementexclusionlist.md) associations. Only the users of the manager account (customer) that owns a website exclusion list can update or delete the list, add or delete list items, and associate the list with ad accounts. If your ad account is associated with a website exclusion list that you do not own, you can disassociate the list from your account, but the list and list items are read-only.|**long**|
 |<a name="sharedentityid"></a>SharedEntityId|The identifier of the shared entity.|**long**|
-|<a name="sharedentitytype"></a>SharedEntityType|The type of shared entity.<br/><br/>This element must be set to "NegativeKeywordList" for negative keyword list to campaign associations in your ad account shared library.<br/><br/>This element must be set to "PlacementExclusionList" for website exclusion list to ad account associations in your manager account (customer) shared library.|**string**|
+|<a name="sharedentitytype"></a>SharedEntityType|The type of shared entity.<br/><br/>This element must be set to "NegativeKeywordList" for negative keyword list to campaign associations in your ad account shared library.<br/><br/>This element must be set to "PlacementExclusionList" for website exclusion list to ad account associations in your manager account (customer) shared library.<br/><br/>This element must be set to "BrandList" for brand list-to-campaign associations.|**string**|
 |<a name="status"></a>Status|Reserved.|**string**|
 
 ## Requirements

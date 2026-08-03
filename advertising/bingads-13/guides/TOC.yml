@@ -1630,6 +1630,8 @@
       href: ../campaign-management-service/getimportresults.md
     - name: GetKeywordsByAdGroupId
       href: ../campaign-management-service/getkeywordsbyadgroupid.md
+    - name: GetKeywordsByAssetGroupId
+      href: ../campaign-management-service/getkeywordsbyassetgroupid.md
     - name: GetKeywordsByEditorialStatus
       href: ../campaign-management-service/getkeywordsbyeditorialstatus.md
     - name: GetKeywordsByIds
@@ -1640,6 +1642,8 @@
       href: ../campaign-management-service/getlabelassociationsbylabelids.md
     - name: GetLabelsByIds
       href: ../campaign-management-service/getlabelsbyids.md
+    - name: GetLinkedInSegments
+      href: ../campaign-management-service/getlinkedinsegments.md
     - name: GetListItemsBySharedList
       href: ../campaign-management-service/getlistitemsbysharedlist.md
     - name: GetMediaAssociations

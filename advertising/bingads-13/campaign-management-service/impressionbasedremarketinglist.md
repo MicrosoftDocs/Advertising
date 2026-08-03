@@ -21,7 +21,7 @@ Defines a data object for ImpressionBasedRemarketingList.
     <xs:extension base="tns:Audience">
       <xs:sequence>
         <xs:element minOccurs="0" name="AdGroupId" nillable="true" type="xs:long" />
-        <xs:element minOccurs="0" name="AdGroupIds" nillable="true" type="q127:ArrayOflong" xmlns:q127="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <xs:element minOccurs="0" name="AdGroupIds" nillable="true" type="q128:ArrayOflong" xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -29,7 +29,7 @@ Defines a data object for ImpressionBasedRemarketingList.
           </xs:annotation>
         </xs:element>
         <xs:element minOccurs="0" name="CampaignId" nillable="true" type="xs:long" />
-        <xs:element minOccurs="0" name="CampaignIds" nillable="true" type="q128:ArrayOflong" xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <xs:element minOccurs="0" name="CampaignIds" nillable="true" type="q129:ArrayOflong" xmlns:q129="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
           <xs:annotation>
             <xs:appinfo>
               <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />

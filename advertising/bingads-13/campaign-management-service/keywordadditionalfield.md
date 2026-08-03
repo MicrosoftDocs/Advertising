@@ -44,5 +44,6 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [GetKeywordsByAdGroupId](getkeywordsbyadgroupid.md)  
+[GetKeywordsByAssetGroupId](getkeywordsbyassetgroupid.md)  
 [GetKeywordsByEditorialStatus](getkeywordsbyeditorialstatus.md)  
 [GetKeywordsByIds](getkeywordsbyids.md)  

@@ -136,11 +136,13 @@ The Campaign Management service defines the following service operations.
 |[GetImportJobsByIds](getimportjobsbyids.md)|Gets import jobs by their type and identifiers.|100 *ImportJobIds*|
 |[GetImportResults](getimportresults.md)|Gets results for import jobs completed within the last 90 days.|100 *ImportJobIds*|
 |[GetKeywordsByAdGroupId](getkeywordsbyadgroupid.md)|Gets the keywords within an ad group.|1 *AdGroupId*|
-|[GetKeywordsByEditorialStatus](getkeywordsbyeditorialstatus.md)|Retrieves the keywords with the specified editorial review status.|1 *AdGroupId*|
+|[GetKeywordsByAssetGroupId](getkeywordsbyassetgroupid.md)|Gets the keywords within an asset group.|1 *AssetGroupId*|
+|[GetKeywordsByEditorialStatus](getkeywordsbyeditorialstatus.md)|Retrieves the keywords with the specified editorial review status.|1 *EditorialStatus*|
 |[GetKeywordsByIds](getkeywordsbyids.md)|Retrieves the specified keywords.|1 *AdGroupId*<br/><br/>1,000 *KeywordIds*|
 |[GetLabelAssociationsByEntityIds](getlabelassociationsbyentityids.md)|Gets label associations by entity identifiers.|100 *EntityIds*|
 |[GetLabelAssociationsByLabelIds](getlabelassociationsbylabelids.md)|Gets label associations by label identifiers.|1 *LabelIds*|
 |[GetLabelsByIds](getlabelsbyids.md)|Gets labels by label identifiers.|1,000 *LabelIds*|
+|[GetLinkedInSegments](getlinkedinsegments.md)|Retrieves LinkedIn segments associated with the account. Use this operation to get the properties and configuration of existing LinkedIn segments.||
 |[GetListItemsBySharedList](getlistitemsbysharedlist.md)|Gets the negative keywords of a negative keyword list, or negative sites of a website exclusion list.|1 *SharedList*|
 |[GetMediaAssociations](getmediaassociations.md)|Gets the media associations of the specified entity type from an account's media library.|1 *AccountId*<br/><br/>100 *MediaIds*|
 |[GetMediaMetaDataByAccountId](getmediametadatabyaccountid.md)|Gets the media meta data of the specified entity type from an account's media library.|Not applicable.|
