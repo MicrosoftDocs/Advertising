@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 7/31/2026
+ms.date: 8/4/2026
 description: Learn how to implement Microsoft Advertising's Conversions API (CAPI) for server-side conversion tracking, attribution, audience creation, and dynamic remarketing.
 ---
 
@@ -97,7 +97,7 @@ MSCLKID is Microsoft's click identifier. When auto-tagging is enabled, Microsoft
 - Overwrite the stored value when a newer `msclkid` is captured.
 - Use a suggested retention period of 90 days.
 - Do not rely on visitor ID alone for attribution when `msclkid` is available.
-- Format: UUID, for example, `dd4afcccb1c9a4cad9544dd7e5006`.
+- Format: UUID, for example, `dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab`.
 
 #### ID Sync and why it matters
 
@@ -230,14 +230,14 @@ This reference section defines the payload fields used across CAPI implementatio
 | pageTitle | string | | Page title (ex. document.title) | Wall Clocks |
 | keywords | string | | Page keywords (SEO meta keywords) | clocks,homedecor |
 | adStorageConsent | string | | Use "G" for granted and "D" for denied | G |
-| userData | object | | User information | |
+| userData | object | Yes | User information. Include at least one supported identifier: `anonymousId`, `externalId`, `em`, `ph`, `msclkid`, `idfa`, or `gaid`. | |
 | clientUserAgent | string | Preferred, not required | User agent header from the browser of the end user | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/57.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 |
 | anonymousId | string | Preferred, not required | Guest user anonymous ID, also used for ID Sync. Prefer (not required) a v1 UUID | b171a9b06ce011ecafcd1b209be8601b |
 | externalId | string | Preferred, not required | Authenticated user ID (anonymized) if the user is signed in. Also used for ID Sync | 111222 |
 | em | string | Preferred, not required | Hashed email (details in a later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
 | ph | string | Preferred, not required | Hashed phone (details in a later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
 | clientIpAddress | string | Preferred, not required | IP address of the user (v4 or v6) | 127.0.0.1 |
-| msclkid | string | Strongly preferred, not required | Microsoft last click ID (details in a later section) | dd4afcccb1c9a4cad9544dd7e5006 |
+| msclkid | string | Strongly preferred, not required | Microsoft last click ID (details in a later section). Must be a valid UUID. | dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab |
 | idfa | string | Preferred, not required | For iOS devices, ID for advertising | 550e8400-e29b-41d4-a716-446655440000 |
 | gaid | string | Preferred, not required | For Android devices, advertising ID | 550e8400-e29b-41d4-a716-446655440000 |
 | customData | object | | Event data | |
@@ -246,20 +246,20 @@ This reference section defines the payload fields used across CAPI implementatio
 | eventValue | number($double) | | Event value (float) for custom conversion goals, if used | 123.45 |
 | searchTerm | string | | Search query used by the user for a search results page, optional | Wall clocks |
 | transactionId | string | | Unique ID associated with this, optional but recommended for singular events like a purchase | txn12345 |
-| value | number($double) | | Revenue value (float) to report variable revenue for goals, if used | 123.45 |
+| value | number($decimal) | | Revenue value to report variable revenue for goals, if used | 123.45 |
 | currency | string | | Revenue currency 3-digit ISO 4217, if used | USD or EUR |
 | items | list of objects | | Array with 1+ product details | (See later section) |
 | id | string | Preferred, not required | Item ID | prod123456 |
 | quantity | int | | Item quantity | 2 |
-| price | int | | Item price (after discounts) | 25.1 |
+| price | number($decimal) | | Item price (after discounts) | 25.1 |
 | name | string | | Item name | T-Shirt |
-| itemIds | list of string | | Comma separated list of product ids | prod1,prod2 |
+| itemIds | list of strings | | JSON array of product IDs | `["prod1", "prod2"]` |
 | pageType | string | Preferred, not required | One of: "cart", "category", "home", "other", "product", "purchase", "searchresults" | purchase |
-| ecommTotalValue | number($double) | | Total value of the cart or purchase | 123.45 |
+| ecommTotalValue | number($decimal) | | Total value of the cart or purchase | 123.45 |
 | ecommCategory | string | | Category ID | 1234 |
 | hotelData | object | | Hotel data | |
-| totalPrice | int | | Total price of the booking, including taxes and fees | 188 |
-| basePrice | number($double) | | Price of the booking, not including taxes and fees | 165 |
+| totalPrice | number($decimal) | | Total price of the booking, including taxes and fees | 188.23 |
+| basePrice | number($decimal) | | Price of the booking, not including taxes and fees | 165.76 |
 | checkinDate | string | | Checkin date in the form YYYY-MM-DD | 2018-10-27 |
 | checkoutDate | string | | Checkout date in the form of YYYY-MM-DD. Not required if you specify hct_length_of_stay | 2018-10-31 |
 | lengthOfStay | int | | Number of nights the booking is for. Not required if you specify hct_checkout_date | 4 |
@@ -291,7 +291,7 @@ This reference section defines the payload fields used across CAPI implementatio
         "em": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
         "ph": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
         "clientIpAddress": "127.0.0.1",
-        "msclkid": "dd4afcccb1c9a4cad9544dd7e5006",
+        "msclkid": "dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab",
         "idfa": "550e8400-e29b-41d4-a716-446655440000",
         "gaid": "550e8400-e29b-41d4-a716-446655440000"
       },
@@ -319,8 +319,8 @@ This reference section defines the payload fields used across CAPI implementatio
         "ecommTotalValue": 123.45,
         "ecommCategory": "1234",
         "hotelData": {
-          "totalPrice": 188,
-          "basePrice": 165,
+          "totalPrice": 188.23,
+          "basePrice": 165.76,
           "checkinDate": "2018-10-27",
           "checkoutDate": "2018-10-31",
           "lengthOfStay": 4,
@@ -351,7 +351,10 @@ Send one separate page load event for each page view or single-page application 
   "pageLoadId": "bcf3000b-65fa-4cd2-808a-8a6cf2b1d0a5",
   "referrerUrl": "https://www.bing.com/",
   "pageTitle": "Wall Clocks",
-  "keywords": "clocks,homedecor"
+  "keywords": "clocks,homedecor",
+  "userData": {
+    "anonymousId": "b171a9b06ce011ecafcd1b209be8601b"
+  }
 }
 ```
 
@@ -367,6 +370,9 @@ Fire zero or more custom events to send richer, event-level data to Microsoft.
   "eventId": "1234567-54422",
   "eventName": "checkout_complete",
   "eventTime": 1744430084,
+  "userData": {
+    "anonymousId": "b171a9b06ce011ecafcd1b209be8601b"
+  },
   "customData": {
     "eventCategory": "my_category",
     "eventLabel": "my_label"
@@ -413,7 +419,7 @@ However, page load events cannot be populated directly with revenue value. If yo
 
 You can send a complete list of items associated with an event using the `items` parameter. This allows you to capture detailed information about multiple products or other entities. Currently, the `items` array is used only for specific advertising products and is not applicable to standard conversion tracking goals.
 
-Format the array as an array of nested query strings with proper URL encoding. URL encoding is not required when sending data in JSON format.
+Format `items` as a JSON array of objects.
 
 **For example:**
 
@@ -461,11 +467,11 @@ We recommend storing the `msclkid` in a first-party cookie or local storage, tho
 
 - **Suggested retention/expiration**: 90 days
 
-- **Format**: UUID, e.g., `dd4afcccb1c9a4cad9544dd7e5006`
+- **Format**: UUID, e.g., `dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab`
 
 #### Visitor ID and user ID
 
-You must include a unique visitor ID (`anonymousId`) with all events, and may optionally include a unique user ID (`externalId`) if available. These correspond to an anonymous/tracking ID and a logged-in user ID, respectively. Microsoft uses these identifiers to aggregate events for a single user over time.
+Every event must include a `userData` object with at least one supported identifier. Use `anonymousId` as the unique visitor ID whenever it's available, and optionally include `externalId` for a signed-in user. Other accepted identifiers include `msclkid`, hashed email (`em`), hashed phone (`ph`), `idfa` (Apple's Identifier for Advertisers), and `gaid` (Google Advertising ID). Microsoft uses these identifiers to associate events with a user over time.
 
 The `anonymousId` value must match the vid provided in the client-side ID sync pixel. This enables Microsoft to identify the user across other contexts (outside your site) for purposes such as view-through conversion attribution and audience targeting.
 
@@ -522,7 +528,7 @@ We also ask that you include the event timestamp (`ts`), user agent (`ua` parame
     "em": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
     "ph": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
     "clientIpAddress": "127.0.0.1",
-    "msclkid": "dd4afcccb1c9a4cad9544dd7e5006",
+    "msclkid": "dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab",
     "idfa": "550e8400-e29b-41d4-a716-446655440000",
     "gaid": "550e8400-e29b-41d4-a716-446655440000"
   }
@@ -563,8 +569,8 @@ Include the `currency` and `revenue` values, as appropriate.
 ```json
 {
   "hotelData": {
-    "totalPrice": 188,
-    "basePrice": 165,
+    "totalPrice": 188.23,
+    "basePrice": 165.76,
     "checkinDate": "2018-10-27",
     "checkoutDate": "2018-10-31",
     "lengthOfStay": 4,
@@ -586,7 +592,16 @@ Use this section after implementation to confirm events are delivered, diagnose 
 
 Events can be uploaded individually or in batches. Real-time event delivery is preferred because it minimizes latency for conversion reporting, optimization, and troubleshooting. The maximum number of events per batch upload is 1,000.
 
-By default, if a batch contains invalid data, the API returns an error and doesn't process any events in that batch. To allow valid events to continue processing when some records fail validation, include `continueOnValidationError: true` in the request payload.
+CAPI reports two types of validation issues:
+
+- **Validation errors** make an event invalid. Examples include a missing required field, an unsupported `eventType`, or an invalid `eventTime`.
+- **Validation warnings** apply to optional fields whose values can't be accepted. Examples include an invalid `referrerUrl`, hashed identifier, currency, page type, or optional ecommerce or hotel field. The API removes each field that produced a warning and processes the event without that field.
+
+By default, if any event in a batch has a validation error, the API returns HTTP 400 and doesn't process any events in the batch. To skip invalid events and process the remaining valid events in the batch, set `continueOnValidationError` to `true` in the request payload.
+
+With `continueOnValidationError: true`, the API returns HTTP 200 when at least one event is valid. The response includes `ValidationError` details for skipped events and can include `ValidationWarning` details for fields that were removed. The `eventsReceived` value reports the number of events that were processed. If no events are valid, the API returns HTTP 400.
+
+If a request has validation warnings but no validation errors, the API returns HTTP 200 regardless of the `continueOnValidationError` setting. The affected values are removed, and the events are processed without them.
 
 - Keep batches below the 1,000-event maximum and split larger uploads into multiple requests.
 - Log request IDs, response codes, failed record indexes, and validation details so issues can be investigated later.
@@ -602,10 +617,11 @@ The API returns success or error responses based on authentication, request form
 | --- | --- | --- | --- |
 | Unauthorized | 401 | The token is missing, incorrect, expired, or not authorized for the tag. | Confirm the token, UET tag ID, and Bearer authorization header. |
 | Validation error | 400 | One or more payload properties failed validation. | Use the returned property name and event index to fix the invalid field. |
+| Validation warning | 200 | An optional property failed validation and was removed before the event was processed. | Review the warning details and correct the field before the next request. |
 | Invalid event type | 400 | `eventType` is missing or isn't one of the supported values. | Use `pageLoad` or `custom`. |
 | Invalid timestamp | 400 | `eventTime` is missing, malformed, or outside the supported window. | Send a valid UNIX UTC timestamp in seconds and validate event recency before upload. |
-| Invalid URL | 400 | URL fields such as `referrerUrl` aren't valid. | Validate URL format and encode special characters before sending. |
-| Invalid hash | 400 | `em` or `ph` isn't a valid SHA-256 string. | Normalize identifiers first, then SHA-256 hash and output lowercase hexadecimal strings. |
+| Invalid URL | 400 or 200 | A required `eventSourceUrl` is invalid, or an optional `referrerUrl` is invalid. | Validate URL format. An invalid `referrerUrl` is removed and returned as a warning. |
+| Invalid hash | 200 | `em` or `ph` isn't a valid SHA-256 string. | Normalize identifiers first, then SHA-256 hash and output lowercase hexadecimal strings. The invalid field is removed and returned as a warning. |
 
 ### Detailed API error response examples
 
@@ -645,33 +661,43 @@ HTTP/1.1 400 Bad Request
 {
   "error": {
     "code": "ValidationError",
-    "message": "One or multiple parameters did not pass validation checks, see details.",
+    "message": "One or multiple parameters did not pass validation checks, see details. Note that only the first 10 errors and warnings are shown.",
     "details": [
       {
         "index": 0,
         "propertyName": "data[0].eventType",
-        "errorMessage": "'eventType' must be one of the following: pageLoad, custom."
+        "errorMessage": "'eventType' must be one of the following: pageLoad, custom.",
+        "errorCode": "InvalidEnumValue",
+        "isWarning": false
       },
       {
         "index": 0,
         "propertyName": "data[0].eventTime",
-        "errorMessage": "'eventTime' must not be empty."
+        "errorMessage": "'eventTime' must not be empty.",
+        "errorCode": "Empty",
+        "isWarning": false
       },
       {
         "index": 0,
         "propertyName": "data[0].referrerUrl",
-        "errorMessage": "'referrerUrl' must be a valid URL."
+        "errorMessage": "'referrerUrl' must be a valid URL.",
+        "errorCode": "InvalidUrl",
+        "isWarning": true
       },
       {
         "index": 0,
         "propertyName": "data[0].userData.em",
-        "errorMessage": "'em' must be a valid SHA256 string."
+        "errorMessage": "'em' must be a valid SHA256 string.",
+        "errorCode": "InvalidSha256",
+        "isWarning": true
       },
       {
         "index": 0,
         "propertyName": "data[0].eventTime",
         "attemptedValue": 1767793837,
-        "errorMessage": "'eventTime' must be a valid UNIX UTC timestamp in seconds within last 7 days."
+        "errorMessage": "'eventTime' must be a valid UNIX UTC timestamp in seconds within last 7 days.",
+        "errorCode": "InvalidEventTime",
+        "isWarning": false
       }
     ]
   }
@@ -684,6 +710,8 @@ HTTP/1.1 400 Bad Request
 | `propertyName` | Identifies the exact field path that failed validation. | Correct the field value, format, or missing required property. |
 | `attemptedValue` | Shows the rejected value when available. | Use it to identify malformed timestamps, invalid URLs, or incorrectly hashed identifiers. |
 | `errorMessage` | Explains the validation rule that failed. | Update pre-send validation so future payloads catch the issue before upload. |
+| `errorCode` | Identifies the validation rule programmatically. | Use the code to group and monitor recurring integration errors. |
+| `isWarning` | Indicates whether the field was removed while the event was still accepted. | Treat `true` as partial data loss even when the response status is HTTP 200. |
 
 ### Troubleshooting workflow
 
