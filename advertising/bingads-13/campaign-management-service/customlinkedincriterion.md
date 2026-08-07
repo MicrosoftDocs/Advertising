@@ -48,9 +48,9 @@ The [CustomLinkedInCriterion](customlinkedincriterion.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="profile"></a>Profile|Reserved.|**string**|
-|<a name="profileid"></a>ProfileId|Reserved.|**long**|
-|<a name="profiletype"></a>ProfileType|Reserved.|[ProfileType](profiletype.md)|
+|<a name="profile"></a>Profile|The LinkedIn profile.|**string**|
+|<a name="profileid"></a>ProfileId|The LinkedIn profile ID.|**long**|
+|<a name="profiletype"></a>ProfileType|The LinkedIn profile type.|[ProfileType](profiletype.md)|
 
 The [CustomLinkedInCriterion](customlinkedincriterion.md) object has [Inherited Elements](#inheritedelements).
 
@@ -61,7 +61,7 @@ The [CustomLinkedInCriterion](customlinkedincriterion.md) object derives from th
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of the criterion. This value is *CustomLinkedIn* when you retrieve a custom LinkedIn criterion. For more information about criterion types, see the [Criterion Data Object Remarks](criterion.md#remarks).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
