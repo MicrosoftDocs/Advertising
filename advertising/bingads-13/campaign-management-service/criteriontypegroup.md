@@ -40,7 +40,7 @@ The [CriterionTypeGroup](criteriontypegroup.md) value set has the following valu
 |<a name="age"></a>Age|The age criterion type group.|
 |<a name="audience"></a>Audience|The audience criterion type group.|
 |<a name="companyname"></a>CompanyName|The company name criterion type group.|
-|<a name="customlinkedin"></a>CustomLinkedIn|THe custom LinkedIn criterotio type group.|
+|<a name="customlinkedin"></a>CustomLinkedIn|The custom LinkedIn criterion type group.|
 |<a name="gender"></a>Gender|The gender criterion type group.|
 |<a name="incomerange"></a>IncomeRange|Reserved for future use.|
 |<a name="industry"></a>Industry|The industry criterion type group.|
