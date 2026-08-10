@@ -74,7 +74,9 @@ For information about the schema you should use for the upload file, see [Bulk F
 ### <a name="uploading"></a>Uploading a Bulk File
 The following is an overview of the request settings and upload workflow.
   > [!IMPORTANT]
-  > You must use the same user credentials throughout the [GetBulkUploadUrl](../bulk-service/getbulkuploadurl.md), HTTP POST, and [GetBulkUploadStatus](../bulk-service/getbulkuploadstatus.md) workflow. 
+  > You must use the same user credentials throughout the [GetBulkUploadUrl](../bulk-service/getbulkuploadurl.md), HTTP POST, and [GetBulkUploadStatus](../bulk-service/getbulkuploadstatus.md) workflow.
+  >
+  > To update an existing dynamic data feed item, include the *FeedItemId* field. If *FeedItemId* isn't provided, the uploaded item is treated as a new offer instead of an update to an existing offer.
 
 1. Set the *AccountId* element of the [GetBulkUploadUrl](../bulk-service/getbulkuploadurl.md) request to the account identifier corresponding to the data that will be uploaded.
 
@@ -85,7 +87,9 @@ The following is an overview of the request settings and upload workflow.
    > [!NOTE]
    > The HTTP standard Authorization header is not used. To authenticate you must add and set the Microsoft Advertising custom header elements of your HTTP client, including the *DeveloperToken*, *CustomerId*, and *CustomerAccountId* headers. You must also set the user credentials via the *AuthenticationToken* header element. For more information, see [Authentication with OAuth](authentication-oauth.md) and [Where to Use the API Credentials](get-started.md#where-to-use).
    >
-   > You must use the same user credentials throughout the [GetBulkUploadUrl](../bulk-service/getbulkuploadurl.md), HTTP POST, and [GetBulkUploadStatus](../bulk-service/getbulkuploadstatus.md) workflow. 
+   > You must use the same user credentials throughout the [GetBulkUploadUrl](../bulk-service/getbulkuploadurl.md), HTTP POST, and [GetBulkUploadStatus](../bulk-service/getbulkuploadstatus.md) workflow.
+   >
+   > To update an existing dynamic data feed item, include the *FeedItemId* field. If *FeedItemId* isn't provided, the uploaded item is treated as a new offer instead of an update to an existing offer.
 
    Here is an example.
 
