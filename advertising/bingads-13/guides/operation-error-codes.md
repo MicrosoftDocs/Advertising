@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 5/19/2026
+ms.date: 8/10/2026
 description: Reference documentation for service operation error codes.
 ---
 # Operation Error Codes
@@ -17813,7 +17813,7 @@ The request doesn’t contain any `AnnotationOptOuts`.
 ***
 
 **Numeric Code**
-6871
+8671
 
 **Symbolic Error Code**
 AnnotationOptOutJustificationTextNullOrEmpty
@@ -17831,3 +17831,95 @@ AnnotationOptOutAccountOptOutConflictsWithCustomerOptOut
 
 **Description**
 You are opted out of an annotation that the account is attempting to opt in to.
+
+***
+## 600000
+***
+
+**Numeric Code**
+611101
+
+**Symbolic Error Code**
+InvalidCompanyName
+
+**Description**
+One or more company names in the LinkedInSegment request are invalid.
+
+***
+
+**Numeric Code**
+611102
+
+**Symbolic Error Code**
+InvalidCompanyListName
+
+**Description**
+The specified LinkedInSegment or company list name is invalid.
+
+In practice this usually indicates that the company list name violates validation rules such as the maximum allowed name length.
+
+***
+
+**Numeric Code**
+611103
+
+**Symbolic Error Code**
+DuplicateCompanyListName
+
+**Description**
+The specified company list name is duplicated.
+
+***
+
+**Numeric Code**
+611104
+
+**Symbolic Error Code**
+CompanyListLimitExceeded
+
+**Description**
+The maximum number of company lists allowed for the account or scenario has been exceeded.
+
+***
+
+**Numeric Code**
+611105
+
+**Symbolic Error Code**
+CompanyPerListLimitExceeded
+
+**Description**
+The number of companies in a single company list exceeds the supported limit.
+
+***
+
+**Numeric Code**
+611106
+
+**Symbolic Error Code**
+ProfileTypeNotSupported
+
+**Description**
+The specified profile type is not supported for this LinkedInSegment operation.
+
+***
+
+**Numeric Code**
+611107
+
+**Symbolic Error Code**
+InvalidLinkedInSegmentId
+
+**Description**
+One or more LinkedInSegment identifiers in the request are invalid.
+
+***
+
+**Numeric Code**
+611108
+
+**Symbolic Error Code**
+LinkedInSegmentCannotBeDeletedDueToAssociation
+
+**Description**
+The LinkedInSegment cannot be deleted because it is still associated with another entity.
