@@ -41,7 +41,7 @@ The *DeleteSharedEntityAssociationsRequest* object defines the [body](#request-b
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="associations"></a>Associations|The list of negative keyword list to campaign associations, or website exclusion list to ad account associations.<br/><br/>This array can contain a maximum of 10,000 elements.|[SharedEntityAssociation](sharedentityassociation.md) array|
+|<a name="associations"></a>Associations|The list of negative keyword list to campaign associations, website exclusion list to ad account associations, or brand exclusion or inclusion list to campaign associations.<br/><br/>This array can contain a maximum of 10,000 elements.|[SharedEntityAssociation](sharedentityassociation.md) array|
 |<a name="sharedentityscope"></a>SharedEntityScope|Indicates whether the shared entity is available at the ad account ([Account](entityscope.md#account)) or manager account ([Customer](entityscope.md#customer)) level.<br/><br/>This element is optional and defaults to [Account](entityscope.md#account) scope. The ad account scope is only applicable for negative keyword list to campaign associations.<br/><br/>Set this element to [Customer](entityscope.md#customer) to delete website exclusion list to ad account associations in your manager account (customer) shared library.|[EntityScope](entityscope.md)|
 
 ### <a name="request-header"></a>Request Header Elements

@@ -91,7 +91,7 @@ The [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md) 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="aggregation"></a>Aggregation|The type of aggregation to use to aggregate the report data. For example, you can aggregate the report data by day or week.<br/><br/>Supported values are *Hourly*, *Daily*, We*ekly, *Monthly*, *Yearly*, *DayOfWeek*, and *HourOfDay*.<br/><br/>This element is required.|[ReportAggregation](reportaggregation.md)|
+|<a name="aggregation"></a>Aggregation|The type of aggregation to use to aggregate the report data. For example, you can aggregate the report data by day or week.<br/><br/>Supported values are *Hourly*, *Daily*, *Weekly, *Monthly*, *Yearly*, *DayOfWeek*, and *HourOfDay*.<br/><br/>This element is required.|[ReportAggregation](reportaggregation.md)|
 |<a name="columns"></a>Columns|The list of attributes and performance statistics to include in the report. The report will include the columns in the order that you specify them.<br/><br/>You must specify Final URL and at least one performance statistics column, e.g., *Impressions*.<br/><br/>This element is required.|[SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) array|
 |<a name="filter"></a>Filter|The filter information to use to filter the report data.<br/><br/>This element is optional.|[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)|
 |<a name="scope"></a>Scope|The entities and their scope to include in the report. Use this element to limit the report data to specific accounts and campaigns.<br/><br/>This element is required.|[AccountThroughCampaignReportScope](accountthroughcampaignreportscope.md)|
