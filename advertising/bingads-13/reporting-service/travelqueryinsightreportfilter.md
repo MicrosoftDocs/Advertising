@@ -11,7 +11,10 @@ description: Defines the criteria to use to filter the travel query insight repo
 # TravelQueryInsightReportFilter Data Object - Reporting
 Defines the criteria to use to filter the travel query insight report data.
 
-*Not everyone has this feature yet. If you don't, don't worry. It's coming soon.*
+> [!NOTE]
+> *TravelQueryInsightReportFilter* doesn't currently support any filter parameters. 
+>
+> *Not everyone has this feature yet. If you don't, don't worry. It's coming soon.*  
 
 ## Syntax
 
