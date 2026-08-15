@@ -64,10 +64,10 @@ Advertisers can send data to CAPI through different implementation paths dependi
 | --- | --- |
 | Adobe Real-Time CDP | Coming soon |
 | Commanders Act | [Microsoft Conversions API](https://doc.commandersact.com/features/destinations/destinations-catalog/microsoft/microsoft-conversions-api) |
-| Freshpaint | Microsoft Ads Conversions API (Early Access) |
+| Freshpaint | [Microsoft Ads Conversions API (Early Access)](https://documentation.freshpaint.io/integrations/destinations/direct-response-ads/miscrosoft-ads-co…) |
 | Invoca | [Invoca integration with Microsoft Advertising](https://www.invoca.com/integrations/microsoft-advertising) |
 | MetaRouter | [Microsoft Ads - CAPI](https://docs.metarouter.io/docs/microsoft-ads-capi) |
-| Segment/Twilio | Microsoft Bing CAPI Destination, Segment Documentation |
+| Segment/Twilio | [Microsoft Bing CAPI Destination, Segment Documentation](https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-ms-bing-capi) |
 | Stape.io | [Guide to Microsoft Conversions API integration](https://stape.io/blog/guide-microsoft-conversion-api-integration) |
 | Switch Growth | Coming soon |
 | Tealium | [Microsoft UET Conversions API connector](https://docs.tealium.com/server-side-connectors/microsoft-uet-conversion-api-connector/) |

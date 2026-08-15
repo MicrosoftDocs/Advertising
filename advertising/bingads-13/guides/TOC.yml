@@ -98,6 +98,9 @@
 - name: Sandbox
   href: ./sandbox.md
   displayName: test get started
+- name: Conversions API (CAPI)
+  href: ./uet-conversion-api-integration.md
+  displayName: conversions api capi
 - name: MCP Server
   items:
   - name: Setup Guide
