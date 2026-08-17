@@ -17,6 +17,9 @@ dev_langs:
 # GetLinkedInSegments Service Operation - Campaign Management
 Retrieves LinkedIn segments associated with the account. Use this operation to get the properties and configuration of existing LinkedIn segments.
 
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements

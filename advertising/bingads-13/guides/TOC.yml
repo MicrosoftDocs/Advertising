@@ -1645,8 +1645,8 @@
       href: ../campaign-management-service/getlabelassociationsbylabelids.md
     - name: GetLabelsByIds
       href: ../campaign-management-service/getlabelsbyids.md
-    - name: GetLinkedInSegments
-      href: ../campaign-management-service/getlinkedinsegments.md
+    # - name: GetLinkedInSegments
+    #   href: ../campaign-management-service/getlinkedinsegments.md
     - name: GetListItemsBySharedList
       href: ../campaign-management-service/getlistitemsbysharedlist.md
     - name: GetMediaAssociations
