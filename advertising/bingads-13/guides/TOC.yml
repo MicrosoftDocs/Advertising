@@ -1599,6 +1599,8 @@
       href: ../campaign-management-service/getcampaignsbyids.md
     - name: GetClipChampTemplates
       href: ../campaign-management-service/getclipchamptemplates.md
+    - name: GetCompanyListDetails
+      href: ../campaign-management-service/getcompanylistdetails.md
     - name: GetConversionGoalsByIds
       href: ../campaign-management-service/getconversiongoalsbyids.md
     - name: GetConversionGoalsByTagIds
@@ -1645,8 +1647,8 @@
       href: ../campaign-management-service/getlabelassociationsbylabelids.md
     - name: GetLabelsByIds
       href: ../campaign-management-service/getlabelsbyids.md
-    # - name: GetLinkedInSegments
-    #   href: ../campaign-management-service/getlinkedinsegments.md
+    - name: GetLinkedInSegments
+      href: ../campaign-management-service/getlinkedinsegments.md
     - name: GetListItemsBySharedList
       href: ../campaign-management-service/getlistitemsbysharedlist.md
     - name: GetMediaAssociations
@@ -2191,6 +2193,8 @@
       href: ../campaign-management-service/label.md
     - name: LabelAssociation
       href: ../campaign-management-service/labelassociation.md
+    - name: LinkedInCompanyData
+      href: ../campaign-management-service/linkedincompanydata.md
     - name: LinkedInSegment
       href: ../campaign-management-service/linkedinsegment.md
     - name: LocationAdExtension
@@ -2592,6 +2596,8 @@
       href: ../campaign-management-service/languagename.md
     - name: LinkedInSegmentStatus
       href: ../campaign-management-service/linkedinsegmentstatus.md
+    - name: LinkedInSegmentType
+      href: ../campaign-management-service/linkedinsegmenttype.md
     - name: LocationType
       href: ../campaign-management-service/locationtype.md
     - name: LogicalOperator

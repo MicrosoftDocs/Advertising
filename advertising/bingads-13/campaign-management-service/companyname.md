@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the CompanyName data object.
+description: Defines the company name data object.
 ---
 # CompanyName Data Object - Campaign Management
-Defines the CompanyName data object.
+Defines the company name data object.
 
 ## Syntax
 
@@ -19,6 +19,7 @@ Defines the CompanyName data object.
 <xs:complexType name="CompanyName" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+    <xs:element minOccurs="0" name="LinkedInCompany" nillable="true" type="tns:LinkedInCompanyData" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:CompanyNameStatus" />
   </xs:sequence>
@@ -30,6 +31,15 @@ Defines the CompanyName data object.
 ```json
 {
   "Id": "LongValueHere",
+  "LinkedInCompany": {
+    "CompanyId": "LongValueHere",
+    "CompanyLogo": "ValueHere",
+    "CompanyName": "ValueHere",
+    "CompanySize": "ValueHere",
+    "CompanySizeCategory": "ValueHere",
+    "CompanyUrl": "ValueHere",
+    "Industry": "ValueHere"
+  },
   "Name": "ValueHere",
   "Status": "ValueHere"
 }
@@ -39,11 +49,12 @@ Defines the CompanyName data object.
 
 ## <a name="elements"></a>Elements
 
-The [CompanyName](companyname.md) object has the following elements: [Id](#id), [Name](#name), [Status](#status).
+The [CompanyName](companyname.md) object has the following elements: [Id](#id), [LinkedInCompany](#linkedincompany), [Name](#name), [Status](#status).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The company name ID.|**long**|
+|<a name="linkedincompany"></a>LinkedInCompany|Reserved.|[LinkedInCompanyData](linkedincompanydata.md)|
 |<a name="name"></a>Name|The company name.|**string**|
 |<a name="status"></a>Status|The company name status.|[CompanyNameStatus](companynamestatus.md)|
 
@@ -53,3 +64,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [CompanyList](companylist.md)  
+[GetCompanyListDetails](getcompanylistdetails.md)  
