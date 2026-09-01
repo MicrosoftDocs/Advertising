@@ -58,6 +58,9 @@ If the data aggregation is not available for a given report, it will be noted as
 
 ## <a name="performance"></a>Performance
 
+> [!NOTE]
+> The MSClickID performance report provides click-level data for up to 180 days. Data isn't aggregated.
+
 |API Report Name|Microsoft Advertising Web Application Report Name|Hourly|Daily|Weekly|Monthly|Yearly|Summary|
 |-------------------|----------------------------------------|----------|---------|----------|-----------|----------|-----------|
 |[Account Performance Report](../reporting-service/accountperformancereportrequest.md)|Account|6|36|36|36|36|36|
@@ -71,9 +74,12 @@ If the data aggregation is not available for a given report, it will be noted as
 |[Destination Url Performance Report](../reporting-service/destinationurlperformancereportrequest.md)|Destination URL|6|36|36|36|36|36|
 |[Keyword Performance Report](../reporting-service/keywordperformancereportrequest.md)|Keyword|6|36|36|36|36|36|
 |[MMM Performance Report](../reporting-service/mmmperformancereportrequest.md)|Not Applicable|14 days|36|36|36|36|36|
+|[MSClickId Performance Report](../reporting-service/msclickidperformancereportrequest.md)|Not Applicable|3|n/a|n/a|n/a|n/a|n/a|
 |[Publisher Usage Performance Report](../reporting-service/publisherusageperformancereportrequest.md)|Website URL (publisher)|2|36|36|36|36|36|
 |[Search Query Performance Report](../reporting-service/searchqueryperformancereportrequest.md)|Search Term|1|36|36|36|36|36|
 |[Share of Voice Report](../reporting-service/shareofvoicereportrequest.md)|Share of Voice|Not Applicable|6|6|6|6|6|
+
+
 
 ## <a name="productads"></a>Product Ads
 
