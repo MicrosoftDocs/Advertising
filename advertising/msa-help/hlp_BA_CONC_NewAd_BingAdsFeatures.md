@@ -3,6 +3,9 @@ title: Microsoft Advertising features
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article
+ms.custom:
+  - microsoft-advertising-basics
+  - explore-microsoft-advertising
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026

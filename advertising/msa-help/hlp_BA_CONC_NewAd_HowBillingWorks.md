@@ -3,6 +3,9 @@ title: Understand your billing options
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article
+ms.custom:
+  - microsoft-advertising-basics
+  - getting-started
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026

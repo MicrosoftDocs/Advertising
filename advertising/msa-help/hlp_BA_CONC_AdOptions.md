@@ -3,6 +3,9 @@ title: Ad types that you can create with Microsoft Advertising
 ms.service: msa-help
 ms.subservice: msa-general
 ms.topic: article
+ms.custom:
+  - microsoft-advertising-basics
+  - getting-started
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026

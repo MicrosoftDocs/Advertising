@@ -3,6 +3,9 @@ title: Copilot in Microsoft Advertising Platform
 ms.service: msa-help
 ms.subservice: msa-ai-automation
 ms.topic: article
+ms.custom:
+  - microsoft-advertising-basics
+  - generative-ai
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026

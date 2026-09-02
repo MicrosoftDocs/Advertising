@@ -3,6 +3,9 @@ title: Setting up your billing
 ms.service: msa-help
 ms.subservice: msa-accounts-setup
 ms.topic: article
+ms.custom:
+  - microsoft-advertising-basics
+  - getting-started
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
