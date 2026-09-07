@@ -1146,6 +1146,12 @@
       displayName: BulkCampaignVideoAdExtension
     - name: Combined List
       href: ../bulk-service/combined-list.md
+    - name: Company Item
+      href: ../bulk-service/company-item.md
+      displayName: BulkCompanyItem
+    - name: Company List
+      href: ../bulk-service/company-list.md
+      displayName: BulkCompanyList
     - name: Content Placement
       href: ../bulk-service/content-placement.md
       displayName: BulkContentPlacement

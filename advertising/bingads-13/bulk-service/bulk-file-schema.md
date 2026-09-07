@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 5/18/2026
+ms.date: 9/7/2026
 description: Describes the schema for records in a Bulk file.
 ---
 # Bulk File Schema
@@ -184,6 +184,8 @@ Record Type  |Supported Campaign Types
 [Campaign Structured Snippet Ad Extension](campaign-structured-snippet-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Video Ad Extension](campaign-video-ad-extension.md)|Performance Max<br/>Search  
 [Combined List](combined-list.md)|All  
+[Company Item](company-item.md)|All
+[Company List](company-list.md)|All
 [Content Placement](content-placement.md)|Audience  
 [Custom Audience](custom-audience.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom audience using the Bing Ads API.|All  
 [Custom Segment](custom-segment.md)<br/><br/>Only update is supported for upload. You cannot add or delete a custom segment using the Bing Ads API.|All  
