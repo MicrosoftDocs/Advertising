@@ -41,6 +41,15 @@ Defines the CompanyList data object.
   "CompanyNames": [
     {
       "Id": "LongValueHere",
+      "LinkedInCompany": {
+        "CompanyId": "LongValueHere",
+        "CompanyLogo": "ValueHere",
+        "CompanyName": "ValueHere",
+        "CompanySize": "ValueHere",
+        "CompanySizeCategory": "ValueHere",
+        "CompanyUrl": "ValueHere",
+        "Industry": "ValueHere"
+      },
       "Name": "ValueHere",
       "Status": "ValueHere"
     }

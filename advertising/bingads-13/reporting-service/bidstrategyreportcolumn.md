@@ -48,13 +48,16 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="Owner" />
     <xs:enumeration value="TimeZone" />
     <xs:enumeration value="Currency" />
+    <xs:enumeration value="MarketingObjective" />
+    <xs:enumeration value="Channel" />
+    <xs:enumeration value="SubChannel" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AverageCpc](#averagecpc), [AvgTargetCPA](#avgtargetcpa), [AvgTargetImpressionShare](#avgtargetimpressionshare), [AvgTargetRoas](#avgtargetroas), [BidStrategyType](#bidstrategytype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Clicks](#clicks), [ConversionDelay](#conversiondelay), [ConversionRate](#conversionrate), [ConversionsQualified](#conversionsqualified), [CostPerConversionQualified](#costperconversionqualified), [Ctr](#ctr), [Currency](#currency), [CurrentMaxCpc](#currentmaxcpc), [Impressions](#impressions), [ImpressionSharePercent](#impressionsharepercent), [NumOfCampaigns](#numofcampaigns), [Owner](#owner), [PortfolioBidStrategyName](#portfoliobidstrategyname), [PortfolioBidStrategyStatus](#portfoliobidstrategystatus), [ROAS](#roas), [Spend](#spend), [TargetAdPositionType](#targetadpositiontype), [TargetCPA](#targetcpa), [TargetImpressionShare](#targetimpressionshare), [TargetRoas](#targetroas), [TimePeriod](#timeperiod), [TimeZone](#timezone).
+The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AverageCpc](#averagecpc), [AvgTargetCPA](#avgtargetcpa), [AvgTargetImpressionShare](#avgtargetimpressionshare), [AvgTargetRoas](#avgtargetroas), [BidStrategyType](#bidstrategytype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Channel](#channel), [Clicks](#clicks), [ConversionDelay](#conversiondelay), [ConversionRate](#conversionrate), [ConversionsQualified](#conversionsqualified), [CostPerConversionQualified](#costperconversionqualified), [Ctr](#ctr), [Currency](#currency), [CurrentMaxCpc](#currentmaxcpc), [Impressions](#impressions), [ImpressionSharePercent](#impressionsharepercent), [MarketingObjective](#marketingobjective), [NumOfCampaigns](#numofcampaigns), [Owner](#owner), [PortfolioBidStrategyName](#portfoliobidstrategyname), [PortfolioBidStrategyStatus](#portfoliobidstrategystatus), [ROAS](#roas), [Spend](#spend), [SubChannel](#subchannel), [TargetAdPositionType](#targetadpositiontype), [TargetCPA](#targetcpa), [TargetImpressionShare](#targetimpressionshare), [TargetRoas](#targetroas), [TimePeriod](#timeperiod), [TimeZone](#timezone).
 
 |Value|Description|
 |-----------|---------------|
@@ -69,6 +72,7 @@ The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the foll
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="campaignstatus"></a>CampaignStatus|The current campaign status.|
+|<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="clicks"></a>Clicks|Clicks are what you pay for. Clicks typically include a customer clicking an ad on a search results page or on a website on the search network. Clicks can also come from other sources (for example, spiders, robots, and test servers). For more information, see [Microsoft Advertising click measurement: description of methodology](https://help.ads.microsoft.com/#apex/ads/en/60220/0).|
 |<a name="conversiondelay"></a>ConversionDelay|The time gap between when a user clicks on an ad and when they complete a desired action, such as making a purchase, signing up, or downloading an app.|
 |<a name="conversionrate"></a>ConversionRate|The conversion rate as a percentage.<br/><br/>The number of conversions, divided by the total number of clicks. For example, if the ads in your campaign got 300 clicks and four conversions, the conversion rate is 1.33 (%).<br/><br/>The formula for calculating the conversion rate is (Conversions / Clicks) x 100.<br/><br/>Data will be excluded from the [ConversionRate](#conversionrate) report column for any conversion goal with the [ExcludeFromBidding](../campaign-management-service/conversiongoal.md#excludefrombidding) property set to true.<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
@@ -79,12 +83,14 @@ The [BidStrategyReportColumn](bidstrategyreportcolumn.md) value set has the foll
 |<a name="currentmaxcpc"></a>CurrentMaxCpc|In the account/portfolio scope, the maximum cost per click bid that was in effect at the time the report was generated. It's not a moving historical bid throughout the report time period.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions, there are no clicks or conversions.|
 |<a name="impressionsharepercent"></a>ImpressionSharePercent|The estimated percentage of impressions, out of the total available impressions in the market you were targeting.<br/><br/>The value of this column is empty if the data is not available. For example, out of estimated 59,000 impressions that occurred on this day in your targeted market, you got only about 2,300, or 3%. If you try to include this column with *Hourly* or *HourOfDay* aggregation the service will return code *2053*.<br/><br/>If you include this column, then you may not include restricted attributes in the same report request. Likewise if you include any of the restricted attribute columns, then you must exclude this column. For more information, see [Column Restrictions](../guides/reports.md#columnrestrictions). Data for this column is typically updated 14-18 hours after the UTC day ends. For Microsoft Shopping Campaigns, this data is only available with the campaign and ad group performance reports.|
+|<a name="marketingobjective"></a>MarketingObjective|Specifies the campaign objective, such as brand awareness, website visits, sales, leads, or app installs.|
 |<a name="numofcampaigns"></a>NumOfCampaigns|In the account/portfolio scope, the number of campaigns belonging to the account/portfolio.|
 |<a name="owner"></a>Owner|The bid strategy owner.|
 |<a name="portfoliobidstrategyname"></a>PortfolioBidStrategyName|The bid strategy name.|
 |<a name="portfoliobidstrategystatus"></a>PortfolioBidStrategyStatus|The current bid strategy status.|
 |<a name="roas"></a>ROAS|The return on ad spend (ROAS).<br/><br/>The formula for calculating the ROAS is (*Revenue* / *Spend*).<br/><br/>Available for accounts that are setup to use analytics with Microsoft Advertising Universal Event Tracking. For more information, see the [Track sales and other conversions](https://help.ads.microsoft.com/#apex/3/en/n5012/2) help topic.|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
+|<a name="subchannel"></a>SubChannel|Optionally refines ad delivery within the selected channels.|
 |<a name="targetadpositiontype"></a>TargetAdPositionType|In the account/campaign scope,the target ad position type the campaign is using. In the portfolio scope, the target ad position type the portfolio is using.|
 |<a name="targetcpa"></a>TargetCPA|In the account/portfolio scope, the current target CPA belonging to the account/portfolio.|
 |<a name="targetimpressionshare"></a>TargetImpressionShare|In the account/portfolio scope, the current target impression share belonging to the account/portfolio.|

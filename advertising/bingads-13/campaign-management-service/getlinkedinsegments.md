@@ -226,7 +226,7 @@ The *GetLinkedInSegmentsRequest* object defines the [body](#request-body) and [h
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="linkedinsegmentids"></a>LinkedInSegmentIds|An array of LinkedIn segments to retrieve.|**long** array|
-|<a name="type"></a>Type|The profile type of LinkedIn segments to retrieve.|[LinkedInSegmentType](linkedinsegmenttype.md)|
+|<a name="type"></a>Type|The type of LinkedIn segment to retrieve.|[LinkedInSegmentType](linkedinsegmenttype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]

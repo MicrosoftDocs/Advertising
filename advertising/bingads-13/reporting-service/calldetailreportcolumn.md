@@ -36,13 +36,16 @@ To see how far back hourly, daily, weekly, monthly, yearly and summary aggregate
     <xs:enumeration value="AccountStatus" />
     <xs:enumeration value="CampaignStatus" />
     <xs:enumeration value="AdGroupStatus" />
+    <xs:enumeration value="MarketingObjective" />
+    <xs:enumeration value="Channel" />
+    <xs:enumeration value="SubChannel" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CallDetailReportColumn](calldetailreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AreaCode](#areacode), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [City](#city), [Duration](#duration), [EndTime](#endtime), [StartTime](#starttime), [State](#state).
+The [CallDetailReportColumn](calldetailreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountStatus](#accountstatus), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AreaCode](#areacode), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [Channel](#channel), [City](#city), [Duration](#duration), [EndTime](#endtime), [MarketingObjective](#marketingobjective), [StartTime](#starttime), [State](#state), [SubChannel](#subchannel).
 
 |Value|Description|
 |-----------|---------------|
@@ -56,11 +59,14 @@ The [CallDetailReportColumn](calldetailreportcolumn.md) value set has the follow
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="campaignstatus"></a>CampaignStatus|The campaign status.|
+|<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="city"></a>City|The city used to deliver the ad. The location where the user was in physically when they clicked the ad.|
 |<a name="duration"></a>Duration|The duration of each forwarded call that originated from a call ad extension.|
 |<a name="endtime"></a>EndTime|The end time of the call expressed in Coordinated Universal Time (UTC).|
+|<a name="marketingobjective"></a>MarketingObjective|Specifies the campaign objective, such as brand awareness, website visits, sales, leads, or app installs.|
 |<a name="starttime"></a>StartTime|The start time of the call expressed in Coordinated Universal Time (UTC).|
 |<a name="state"></a>State|The state used to deliver the ad. The location where the user was in physically when they clicked the ad.|
+|<a name="subchannel"></a>SubChannel|Optionally refines ad delivery within the selected channels.|
 
 ## <a name="remarks"></a>Remarks
 ### <a name="requiredcolumns"></a>Required Columns

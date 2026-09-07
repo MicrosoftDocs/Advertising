@@ -62,9 +62,11 @@ The Campaign Management service defines the following value sets.
 |[CampaignAdditionalField](campaignadditionalfield.md)|Defines a list of optional campaign properties that you can request when calling [GetCampaignsByAccountId](getcampaignsbyaccountid.md) and [GetCampaignsByIds](getcampaignsbyids.md).|
 |[CampaignCriterionStatus](campaigncriterionstatus.md)|Defines the possible campaign criterion status values.|
 |[CampaignCriterionType](campaigncriteriontype.md)|Defines the possible types of campaign criterions.|
+|[CampaignPrivacyStatus](campaignprivacystatus.md)|Defines the campaign privacy status value set.|
 |[CampaignStatus](campaignstatus.md)|Defines the possible status values of a campaign.|
 |[CampaignType](campaigntype.md)|Defines the possible campaign types.|
 |[CompanyNameStatus](companynamestatus.md)|Defines the possible company name status values.|
+|[CompanySizeCategory](companysizecategory.md)|Defines the company size category object.|
 |[CompressionType](compressiontype.md)|Defines the possible compression types for the file to download with the Campaign Management service.|
 |[ConversionGoalAdditionalField](conversiongoaladditionalfield.md)|Defines a list of optional conversion goal properties that you can request when calling [GetConversionGoalsByIds](getconversiongoalsbyids.md) and [GetConversionGoalsByTagIds](getconversiongoalsbytagids.md).|
 |[ConversionGoalCategory](conversiongoalcategory.md)|Defines categories used to segment conversion goals.|
@@ -106,6 +108,7 @@ The Campaign Management service defines the following value sets.
 |[KeywordStatus](keywordstatus.md)|Defines the possible status values of a keyword.|
 |[LanguageName](languagename.md)|Defines the set of supported ad languages.|
 |[LinkedInSegmentStatus](linkedinsegmentstatus.md)|Defines the possible LinkedIn segment status values.|
+|[LinkedInSegmentType](linkedinsegmenttype.md)|The LinkedIn segment type value set.|
 |[LocationType](locationtype.md)|Defines the location type value set.|
 |[LogicalOperator](logicaloperator.md)|Defines the supported set of logical operators for combined list audiences.|
 |[MatchType](matchtype.md)|Defines the possible match types for a keyword or negative keyword.|
@@ -127,6 +130,7 @@ The Campaign Management service defines the following value sets.
 |[ProfileType](profiletype.md)|Defines the possible types of profile criterions.|
 |[PromotionDiscountModifier](promotiondiscountmodifier.md)|Defines the possible types of promotion discount modifiers.|
 |[PromotionOccasion](promotionoccasion.md)|Defines the possible types of promotion occasions.|
+|[ReachOptimizationGoal](reachoptimizationgoal.md)|Defines the reach optimization goal value set.|
 |[SharedEntityAssociationAdditionalField](sharedentityassociationadditionalfield.md)|Defines the shared entity association additional field value set.|
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
 |[UetTagAdditionalField](uettagadditionalfield.md)|Defines a list of optional UET tag properties that you can request when calling GetUetTagsByIds.|

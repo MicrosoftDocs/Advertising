@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines the attribute and performance statistic columns available in the Search Term Landing Page report.
 ---
 # SearchTermLandingPageReportColumn Value Set - Reporting
-Defines the attribute and performance statistic columns available in the Search Term Landing Page report. Columns are returned in the order specified in the request.
+Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md). Columns are returned in the order specified in the request.
 
 Attribute columns describe the entity or search term. Performance statistic columns contain aggregated metrics for the requested time period and aggregation level.
 
@@ -147,13 +147,41 @@ Attribute columns describe the entity or search term. Performance statistic colu
         </xs:appinfo>
       </xs:annotation>
     </xs:enumeration>
+    <xs:enumeration value="MarketingObjective">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="Channel">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">33</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="SubChannel">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">34</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
+    <xs:enumeration value="HeadlineSource">
+      <xs:annotation>
+        <xs:appinfo>
+          <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">35</EnumerationValue>
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:enumeration>
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalUrlSource](#finalurlsource), [Headline](#headline), [Impressions](#impressions), [Keyword](#keyword), [Language](#language), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
+The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) value set has the following values: [AbsoluteTopImpressionRatePercent](#absolutetopimpressionratepercent), [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AverageCpc](#averagecpc), [BidMatchType](#bidmatchtype), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Channel](#channel), [Clicks](#clicks), [ConversionRate](#conversionrate), [Conversions](#conversions), [ConversionsQualified](#conversionsqualified), [CostPerConversion](#costperconversion), [Ctr](#ctr), [DeliveredMatchType](#deliveredmatchtype), [FinalUrl](#finalurl), [FinalUrlSource](#finalurlsource), [Headline](#headline), [HeadlineSource](#headlinesource), [Impressions](#impressions), [Keyword](#keyword), [Language](#language), [MarketingObjective](#marketingobjective), [ReturnOnAdSpend](#returnonadspend), [Revenue](#revenue), [SearchQuery](#searchquery), [Spend](#spend), [SubChannel](#subchannel), [TimePeriod](#timeperiod), [TopImpressionRatePercent](#topimpressionratepercent).
 
 |Value|Description|
 |-----------|---------------|
@@ -169,6 +197,7 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising-assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="campaigntype"></a>CampaignType|The campaign type, for example Search, DynamicSearchAds, or PerformanceMax.|
+|<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="clicks"></a>Clicks|The number of clicks.|
 |<a name="conversionrate"></a>ConversionRate|The conversion rate as a percentage, calculated as Conversions divided by Clicks.|
 |<a name="conversions"></a>Conversions|The number of conversions.|
@@ -178,14 +207,17 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="deliveredmatchtype"></a>DeliveredMatchType|The match type used to deliver the ad, which can differ from the bid match type. Displays **AI Optimized** when the ad was delivered by AI match. Can be filtered with the DeliveredMatchType filter element.|
 |<a name="finalurl"></a>FinalUrl|The landing page URL (Final URL) that the user was sent to for the impression. This column is required.|
 |<a name="finalurlsource"></a>FinalUrlSource|The source of the Final URL. Indicates whether the landing page URL came from the ad's specified Final URL or was expanded from the domain.|
-|<a name="headline"></a>Headline|The headlines delivered for the impression, returned as a pipe-delimited string in the format `h1\|h2\|h3\|lh` (up to three headlines and one long headline). Empty slots are omitted.|
+|<a name="headline"></a>Headline|The headlines delivered for the impression, returned as a pipe-delimited string in the format `h1\|
+|<a name="headlinesource"></a>HeadlineSource|Reserved.|
 |<a name="impressions"></a>Impressions|The number of times the ad was displayed.|
 |<a name="keyword"></a>Keyword|The keyword text that matched the search term. Displays **AI Optimized** when the match was performed by AI.|
 |<a name="language"></a>Language|The display language of the search term. Can be filtered with the Language filter element.|
+|<a name="marketingobjective"></a>MarketingObjective|Specifies the campaign objective, such as brand awareness, website visits, sales, leads, or app installs.|
 |<a name="returnonadspend"></a>ReturnOnAdSpend|The return on ad spend (ROAS), calculated as Revenue divided by Spend.|
 |<a name="revenue"></a>Revenue|The advertiser-reported revenue attributed to conversions.|
 |<a name="searchquery"></a>SearchQuery|The search term (query) that matched and caused the ad to be delivered. Can be filtered with the SearchQueries filter element. This is a primary dimension of the report.|
 |<a name="spend"></a>Spend|The cost per impression (CPM) and cost per click (CPC) summed for the time period.|
+|<a name="subchannel"></a>SubChannel|Optionally refines ad delivery within the selected channels.|
 |<a name="timeperiod"></a>TimePeriod|The time period of the report row. Available only when Aggregation is set to a value other than Summary. The date format depends on the aggregation level.|
 |<a name="topimpressionratepercent"></a>TopImpressionRatePercent|How often the ad was shown at the top of the search results (above the organic results), as a percentage of total impressions.|
 

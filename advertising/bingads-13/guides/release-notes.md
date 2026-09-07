@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/5/2026
+ms.date: 9/7/2026
 description: Get information about changes to Bing Ads API Version 13 by month. 
 ---
 # Bing Ads API Release Notes
@@ -24,6 +24,33 @@ See below for information about changes to Bing Ads API Version 13 by month.
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
+
+## <a name="august2026"></a>August 2026
+
+- [New API Interfaces](#newapiinterfaces-august2026)
+- [Bulk Service](#bulkservice-august2026)
+- [Bing Ads API SDK Updates](#sdk-august2026)
+
+### <a name="newapiinterfaces-august2026"></a>New API Interfaces
+
+- **Campaign Management API**:
+  - New LinkedIn segment targeting interfaces: [CustomLinkedInCriterion](../campaign-management-service/customlinkedincriterion.md) and [GetLinkedInSegments](../campaign-management-service/getlinkedinsegments.md).
+- **Reporting API**:
+  - New report: [SearchTermLandingPageReportRequest](../reporting-service/searchtermlandingpagereportrequest.md).
+
+### <a name="bulkservice-august2026"></a>Bulk Service
+
+- Added [AssetGroupNegativeKeywords](../bulk-service/downloadentity.md#assetgroupnegativekeywords) to *DownloadEntity*.
+- Added the *BulkAdGroupUrlTarget* mapping.
+- Added the *BulkCampaignNegativeDeviceCriterion* mapping to the .NET SDK.
+
+### <a name="sdk-august2026"></a>Bing Ads API SDK Updates
+
+Microsoft Advertising SDK version 13.0.29 was published on August 4, 2026. For details, see the release notes for the [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.29), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.29), [PHP](https://github.com/BingAds/BingAds-PHP-REST-SDK/releases/tag/v13.0.29), and [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.29) SDKs.
+
+Other SDK updates include:
+
+- Regenerated the Python and PHP REST Campaign Management models with concrete *Criterion* and *Setting* deserialization for [ChannelPlacementCriterion](../campaign-management-service/channelplacementcriterion.md), [CustomLinkedInCriterion](../campaign-management-service/customlinkedincriterion.md), [CampaignFrequencyCapSetting](../campaign-management-service/campaignfrequencycapsetting.md), [ImpressionTrackingSetting](../campaign-management-service/impressiontrackingsetting.md), [ReachOptimizationGoalSetting](../campaign-management-service/reachoptimizationgoalsetting.md), and [UnifiedAutomationSetting](../campaign-management-service/unifiedautomationsetting.md). Python also added [NetworkDistributionSetting](../campaign-management-service/networkdistributionsetting.md), and both SDKs added the [ReachOptimizationGoal](../campaign-management-service/reachoptimizationgoal.md) value set.
 
 ## <a name="may2026"></a>May 2026
 

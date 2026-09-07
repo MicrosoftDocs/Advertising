@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a search term landing page report request.
+description: Defines a Search Term Landing Page report request.
 ---
 # SearchTermLandingPageReportRequest Data Object - Reporting
-Defines a Search Term Landing Page report request. Use this request with the [SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the search term, delivered headline, and landing page URL for each ad impression.
+Defines a search term landing page report request. Use this request with the [SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the search term, delivered headline, and landing page URL for each ad impression.
 
 ## Syntax
 
@@ -117,3 +117,4 @@ The [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md) 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
+

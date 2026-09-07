@@ -41,13 +41,16 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="VideoCompletionRate" />
     <xs:enumeration value="Conversions" />
     <xs:enumeration value="Revenue" />
+    <xs:enumeration value="MarketingObjective" />
+    <xs:enumeration value="Channel" />
+    <xs:enumeration value="SubChannel" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetContent](#assetcontent), [AssetId](#assetid), [AssetSource](#assetsource), [AssetType](#assettype), [CampaignId](#campaignid), [CampaignName](#campaignname), [Clicks](#clicks), [CompletedVideoViews](#completedvideoviews), [Conversions](#conversions), [Ctr](#ctr), [Impressions](#impressions), [Revenue](#revenue), [Spend](#spend), [TimePeriod](#timeperiod), [VideoCompletionRate](#videocompletionrate), [VideoViews](#videoviews), [VideoViewsAt25Percent](#videoviewsat25percent), [VideoViewsAt50Percent](#videoviewsat50percent), [VideoViewsAt75Percent](#videoviewsat75percent).
+The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AssetContent](#assetcontent), [AssetId](#assetid), [AssetSource](#assetsource), [AssetType](#assettype), [CampaignId](#campaignid), [CampaignName](#campaignname), [Channel](#channel), [Clicks](#clicks), [CompletedVideoViews](#completedvideoviews), [Conversions](#conversions), [Ctr](#ctr), [Impressions](#impressions), [MarketingObjective](#marketingobjective), [Revenue](#revenue), [Spend](#spend), [SubChannel](#subchannel), [TimePeriod](#timeperiod), [VideoCompletionRate](#videocompletionrate), [VideoViews](#videoviews), [VideoViewsAt25Percent](#videoviewsat25percent), [VideoViewsAt50Percent](#videoviewsat50percent), [VideoViewsAt75Percent](#videoviewsat75percent).
 
 |Value|Description|
 |-----------|---------------|
@@ -61,13 +64,16 @@ The [AssetPerformanceReportColumn](assetperformancereportcolumn.md) value set ha
 |<a name="assettype"></a>AssetType|A string that indicates the role this asset plays in the ad (e.g, Headline, Description, Call to Action, Image).|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
+|<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="clicks"></a>Clicks|Clicks are what you pay for. Clicks typically include a customer clicking an ad on a search results page or on a website on the search network. Clicks can also come from other sources (for example, spiders, robots, and test servers). For more information, see [Microsoft Advertising click measurement: description of methodology](https://help.ads.microsoft.com/#apex/ads/en/60220/0).|
 |<a name="completedvideoviews"></a>CompletedVideoViews|Reserved.|
 |<a name="conversions"></a>Conversions|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.|
 |<a name="ctr"></a>Ctr|The click-through rate (CTR) is the number of times an ad was clicked, divided by the number of times the ad was shown (impressions). For example, if your ads got 50 clicks given 2,348 impressions, your CTR is 2.13 (%). The formula for calculating CTR is (*Clicks* / *Impressions*) x 100.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions there are no clicks or conversions|
+|<a name="marketingobjective"></a>MarketingObjective|Specifies the campaign objective, such as brand awareness, website visits, sales, leads, or app installs.|
 |<a name="revenue"></a>Revenue|The revenue optionally reported by the advertiser as a result of conversions.|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
+|<a name="subchannel"></a>SubChannel|Optionally refines ad delivery within the selected channels.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the?Aggregation?element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
 |<a name="videocompletionrate"></a>VideoCompletionRate|Completed video views divided by total number of impressions.|
 |<a name="videoviews"></a>VideoViews|The number of times a potential customer watched the video in its entirety.|

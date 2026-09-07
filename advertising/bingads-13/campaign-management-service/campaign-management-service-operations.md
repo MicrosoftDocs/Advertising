@@ -119,6 +119,7 @@ The Campaign Management service defines the following service operations.
 |[GetCampaignsByAccountId](getcampaignsbyaccountid.md)|Gets the campaigns within an account.|1 *AccountId*|
 |[GetCampaignsByIds](getcampaignsbyids.md)|Gets the specified campaigns within an account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[GetClipchampTemplates](getclipchamptemplates.md)|Gets the specified clip champ templates.|N/A.|
+|[GetCompanyListDetails](getcompanylistdetails.md)|Retreives company list details.||
 |[GetConversionGoalsByIds](getconversiongoalsbyids.md)|Gets the specified conversion goals.|100 *ConversionGoalIds*|
 |[GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)|Gets the conversion goals that use the specified UET tags.|100 *TagIds*|
 |[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Gets conversion value rules by the account ID.|N/A.|
@@ -142,7 +143,7 @@ The Campaign Management service defines the following service operations.
 |[GetLabelAssociationsByEntityIds](getlabelassociationsbyentityids.md)|Gets label associations by entity identifiers.|100 *EntityIds*|
 |[GetLabelAssociationsByLabelIds](getlabelassociationsbylabelids.md)|Gets label associations by label identifiers.|1 *LabelIds*|
 |[GetLabelsByIds](getlabelsbyids.md)|Gets labels by label identifiers.|1,000 *LabelIds*|
-|[GetLinkedInSegments](getlinkedinsegments.md)|Retrieves LinkedIn segments associated with the account. Use this operation to get the properties and configuration of existing LinkedIn segments.||
+|[GetLinkedInSegments](getlinkedinsegments.md)|Retrieves LinkedIn segments associated with the account.|N/A.|
 |[GetListItemsBySharedList](getlistitemsbysharedlist.md)|Gets the negative keywords of a negative keyword list, or negative sites of a website exclusion list.|1 *SharedList*|
 |[GetMediaAssociations](getmediaassociations.md)|Gets the media associations of the specified entity type from an account's media library.|1 *AccountId*<br/><br/>100 *MediaIds*|
 |[GetMediaMetaDataByAccountId](getmediametadatabyaccountid.md)|Gets the media meta data of the specified entity type from an account's media library.|Not applicable.|

@@ -52,13 +52,16 @@ To see how far back hourly, daily, weekly, monthly, yearly and summary aggregate
     <xs:enumeration value="AssetGroupName" />
     <xs:enumeration value="AssetGroupStatus" />
     <xs:enumeration value="ConversionDelay" />
+    <xs:enumeration value="MarketingObjective" />
+    <xs:enumeration value="Channel" />
+    <xs:enumeration value="SubChannel" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AccountStatus](#accountstatus), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AllConversions](#allconversions), [AllConversionsQualified](#allconversionsqualified), [AllRevenue](#allrevenue), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [AssetGroupStatus](#assetgroupstatus), [Assists](#assists), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [CampaignType](#campaigntype), [ConversionDelay](#conversiondelay), [DeviceOS](#deviceos), [DeviceType](#devicetype), [Goal](#goal), [GoalId](#goalid), [GoalType](#goaltype), [Keyword](#keyword), [KeywordId](#keywordid), [KeywordStatus](#keywordstatus), [TimePeriod](#timeperiod), [ViewThroughConversions](#viewthroughconversions), [ViewThroughConversionsQualified](#viewthroughconversionsqualified), [ViewThroughRevenue](#viewthroughrevenue).
+The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AccountNumber](#accountnumber), [AccountStatus](#accountstatus), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdGroupStatus](#adgroupstatus), [AllConversions](#allconversions), [AllConversionsQualified](#allconversionsqualified), [AllRevenue](#allrevenue), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [AssetGroupStatus](#assetgroupstatus), [Assists](#assists), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignStatus](#campaignstatus), [CampaignType](#campaigntype), [Channel](#channel), [ConversionDelay](#conversiondelay), [DeviceOS](#deviceos), [DeviceType](#devicetype), [Goal](#goal), [GoalId](#goalid), [GoalType](#goaltype), [Keyword](#keyword), [KeywordId](#keywordid), [KeywordStatus](#keywordstatus), [MarketingObjective](#marketingobjective), [SubChannel](#subchannel), [TimePeriod](#timeperiod), [ViewThroughConversions](#viewthroughconversions), [ViewThroughConversionsQualified](#viewthroughconversionsqualified), [ViewThroughRevenue](#viewthroughrevenue).
 
 |Value|Description|
 |-----------|---------------|
@@ -80,6 +83,7 @@ The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has 
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="campaignstatus"></a>CampaignStatus|The campaign status.|
 |<a name="campaigntype"></a>CampaignType|The campaign type.|
+|<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="conversiondelay"></a>ConversionDelay|The time gap between when a user clicks on an ad and when they complete a desired action, such as making a purchase, signing up, or downloading an app.|
 |<a name="deviceos"></a>DeviceOS|The operating system of the device reported in the *DeviceType* column. The possible values include *Android*, *Blackberry*, *iOS*, *Other*, *Unknown*, and *Windows*. If the operating system of the device cannot be determined or is not one of the operating systems that you can target, the value in this column will be *Unknown*.|
 |<a name="devicetype"></a>DeviceType|The device name attribute of a device OS target bid. The type of device which showed ads. The possible values include *Computer*, *Smartphone*, *Tablet*, and *Unknown*.|
@@ -89,6 +93,8 @@ The [GoalsAndFunnelsReportColumn](goalsandfunnelsreportcolumn.md) value set has 
 |<a name="keyword"></a>Keyword|The keyword text.|
 |<a name="keywordid"></a>KeywordId|The Microsoft Advertising assigned identifier of a keyword.|
 |<a name="keywordstatus"></a>KeywordStatus|The keyword status.|
+|<a name="marketingobjective"></a>MarketingObjective|Specifies the campaign objective, such as brand awareness, website visits, sales, leads, or app installs.|
+|<a name="subchannel"></a>SubChannel|Optionally refines ad delivery within the selected channels.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the *Aggregation* element of the request object is set to Summary. For more information, see [Time Period Column](../guides/reports.md#timeperiod).|
 |<a name="viewthroughconversions"></a>ViewThroughConversions|View-through conversions are conversions that people make after they have seen your ad, even though they did not click the ad.<br/><br/>View-through conversions don't have a click associated but do have an impression associated within the advertiser defined conversion window. If the user also clicked on an ad that was delivered via the Microsoft Audience or Search network, there won't be any view-through conversion counted. Only the click-based conversion would be counted.<br/><br/>View-through conversions are only counted for ads in the Microsoft Audience network.<br/><br/>This column is deprecated as of 2022, so you should use the [ViewThroughConversionsQualified](#viewthroughconversionsqualified) column instead. Going forward, performance reports will return "0" (zero) in this column. Historical data for time periods prior to the deprecation date will still be available according to the published [data retention period](../guides/report-data-retention-time-periods.md).|
 |<a name="viewthroughconversionsqualified"></a>ViewThroughConversionsQualified|View-through conversions are conversions that people make after they have seen your ad, even though they did not click the ad.<br/><br/>View-through conversions don't have a click associated but do have an impression associated within the advertiser defined conversion window. If the user also clicked on an ad that was delivered via the Microsoft Audience or Search network, there won't be any view-through conversion counted. Only the click-based conversion would be counted.<br/><br/>View-through conversions are only counted for ads in the Microsoft Audience network.<br/><br/>You should expect the data type as **double** whether or not there are partial externally attributed offline conversions.<br/><br/>Not everyone has this feature yet. If you don't, don't worry - it's coming soon!|

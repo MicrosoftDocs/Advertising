@@ -40,13 +40,16 @@ Defines the attributes and performance statistics columns that you can include i
     <xs:enumeration value="Spend" />
     <xs:enumeration value="Ctr" />
     <xs:enumeration value="Conversions" />
+    <xs:enumeration value="MarketingObjective" />
+    <xs:enumeration value="Channel" />
+    <xs:enumeration value="SubChannel" />
   </xs:restriction>
 </xs:simpleType>
 ```
 
 ## <a name="values"></a>Values
 
-The [CombinationPerformanceReportColumn](combinationperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Clicks](#clicks), [CombinationLongHeadline](#combinationlongheadline), [Conversions](#conversions), [Ctr](#ctr), [Description1](#description1), [Description2](#description2), [Headline1](#headline1), [Headline2](#headline2), [Headline3](#headline3), [Image](#image), [Impressions](#impressions), [Logo](#logo), [Spend](#spend), [TimePeriod](#timeperiod).
+The [CombinationPerformanceReportColumn](combinationperformancereportcolumn.md) value set has the following values: [AccountId](#accountid), [AccountName](#accountname), [AdGroupId](#adgroupid), [AdGroupName](#adgroupname), [AdId](#adid), [AdType](#adtype), [AssetGroupId](#assetgroupid), [AssetGroupName](#assetgroupname), [CampaignId](#campaignid), [CampaignName](#campaignname), [CampaignType](#campaigntype), [Channel](#channel), [Clicks](#clicks), [CombinationLongHeadline](#combinationlongheadline), [Conversions](#conversions), [Ctr](#ctr), [Description1](#description1), [Description2](#description2), [Headline1](#headline1), [Headline2](#headline2), [Headline3](#headline3), [Image](#image), [Impressions](#impressions), [Logo](#logo), [MarketingObjective](#marketingobjective), [Spend](#spend), [SubChannel](#subchannel), [TimePeriod](#timeperiod).
 
 |Value|Description|
 |-----------|---------------|
@@ -61,6 +64,7 @@ The [CombinationPerformanceReportColumn](combinationperformancereportcolumn.md) 
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
 |<a name="campaigntype"></a>CampaignType|The campaign type.|
+|<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="clicks"></a>Clicks|Clicks are what you pay for. Clicks typically include a customer clicking an ad on a search results page or on a website on the search network. Clicks can also come from other sources (for example, spiders, robots, and test servers). For more information, see [Microsoft Advertising click measurement: description of methodology](https://help.ads.microsoft.com/#apex/ads/en/60220/0).|
 |<a name="combinationlongheadline"></a>CombinationLongHeadline|The content of the long headline asset in a combination record.|
 |<a name="conversions"></a>Conversions|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.|
@@ -73,7 +77,9 @@ The [CombinationPerformanceReportColumn](combinationperformancereportcolumn.md) 
 |<a name="image"></a>Image|The image URL of the image asset in a combination record.|
 |<a name="impressions"></a>Impressions|The number of times an ad has been displayed on search results pages. Without impressions, there are no clicks or conversions.|
 |<a name="logo"></a>Logo|The image URL of the logo asset in a combination record.|
+|<a name="marketingobjective"></a>MarketingObjective|Specifies the campaign objective, such as brand awareness, website visits, sales, leads, or app installs.|
 |<a name="spend"></a>Spend|The cost per click (CPC) summed for each click.|
+|<a name="subchannel"></a>SubChannel|Optionally refines ad delivery within the selected channels.|
 |<a name="timeperiod"></a>TimePeriod|The time period of each report row. You may not include this column if the Aggregation element of the request object is set to Summa*ry. For more information, see [Time Period Column.](../guides/reports.md#timeperiod)|
 
 ## Requirements

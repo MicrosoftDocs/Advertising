@@ -1967,10 +1967,14 @@
       href: ../campaign-management-service/campaignfrequencycapsetting.md
     - name: CampaignNegativeSites
       href: ../campaign-management-service/campaignnegativesites.md
+    - name: CampaignPageFeedSetting
+      href: ../campaign-management-service/campaignpagefeedsetting.md
     - name: CashbackAdjustment
       href: ../campaign-management-service/cashbackadjustment.md
     - name: CategoryResult
       href: ../campaign-management-service/categoryresult.md
+    - name: ChannelPlacementCriterion
+      href: ../campaign-management-service/channelplacementcriterion.md
     - name: ClipChampTemplateInfo
       href: ../campaign-management-service/clipchamptemplateinfo.md
     - name: CombinedList
@@ -2389,6 +2393,8 @@
       href: ../campaign-management-service/topiccriterion.md
     - name: UetTag
       href: ../campaign-management-service/uettag.md
+    - name: UnifiedAutomationSetting
+      href: ../campaign-management-service/unifiedautomationsetting.md
     - name: UrlGoal
       href: ../campaign-management-service/urlgoal.md
     - name: VanityPharmaSetting
@@ -2512,6 +2518,8 @@
       href: ../campaign-management-service/campaigncriterionstatus.md
     - name: CampaignCriterionType
       href: ../campaign-management-service/campaigncriteriontype.md
+    - name: CampaignPrivacyStatus
+      href: ../campaign-management-service/campaignprivacystatus.md
     - name: CampaignStatus
       href: ../campaign-management-service/campaignstatus.md
     - name: CampaignType
