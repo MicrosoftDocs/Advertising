@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a Search Term Landing Page report request.
+description: Defines a search term landing page report request.
 ---
 # SearchTermLandingPageReportRequest Data Object - Reporting
 Defines a search term landing page report request. Use this request with the [SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the search term, delivered headline, and landing page URL for each ad impression.

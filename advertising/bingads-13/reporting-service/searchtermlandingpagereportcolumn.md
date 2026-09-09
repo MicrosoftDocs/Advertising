@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the attribute and performance statistic columns available in the Search Term Landing Page report.
+description: Defines the attributes and performance statistics columns that you can include in the SearchTermLandingPageReportRequest.
 ---
 # SearchTermLandingPageReportColumn Value Set - Reporting
 Defines the attributes and performance statistics columns that you can include in the [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md). Columns are returned in the order specified in the request.

@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the criteria to use to filter the data returned by the Search Term Landing Page report.
+description: Defines the criteria to use to filter the search term landing page report data.
 ---
 # SearchTermLandingPageReportFilter Data Object - Reporting
-Defines the criteria to use to filter the data returned by the Search Term Landing Page report. Specify one or more filter elements to limit the report data. All filter elements are optional. If you don't specify a filter element, the report isn't filtered on that dimension.
+Defines the criteria to use to filter the search term landing page report data. Specify one or more filter elements to limit the report data. All filter elements are optional. If you don't specify a filter element, the report isn't filtered on that dimension.
 
 ## Syntax
 
