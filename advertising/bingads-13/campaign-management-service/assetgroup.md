@@ -271,7 +271,7 @@ The [AssetGroup](assetgroup.md) object has the following elements: [AssetContext
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="assetcontext"></a>AssetContext|The asset context.|**string**|
+|<a name="assetcontext"></a>AssetContext|The asset context.<br/><br/>**Get**: Available since revision 2026-08-17|**string**|
 |<a name="assetgroupsearchthemes"></a>AssetGroupSearchThemes|A list of asset group search themes.|[AssetGroupSearchTheme](assetgroupsearchtheme.md) array|
 |<a name="assetgroupurltargets"></a>AssetGroupUrlTargets|Reserved.|[AssetGroupUrlTarget](assetgroupurltarget.md) array|
 |<a name="businessname"></a>BusinessName|The name of the business.<br/><br/>Your business's name may appear in your ad, depending on the ad placement.<br/><br/>The length of the string is limited to 25 characters.<br/><br/>**Add:** Required. If not provided and parent campaign associates to a store, the store name will be used as the business name.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**string**|
