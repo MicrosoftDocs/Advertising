@@ -65,4 +65,4 @@ The [NetworkDistributionSetting](networkdistributionsetting.md) object derives f
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
-Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+Namespace: https\://bingads.microsoft.com/CampaignManagement/v13

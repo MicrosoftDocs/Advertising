@@ -24,7 +24,7 @@ The *GetAudiencesByIdsRequest* object defines the [body](#request-body) and [hea
 
 > [!NOTE]
 > Unless otherwise noted below, all request elements are required.
-> [!WARNING]
+>
 > *GetAudiencesByIds* doesn't support system-generated audiences. This includes the following auto-generated remarketing lists: "All Visitors", "All Converters", and "Smart Remarketing Lists".
 
 ### <a name="request-body"></a>Request Body Elements

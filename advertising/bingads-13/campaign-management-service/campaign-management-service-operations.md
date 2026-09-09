@@ -119,7 +119,7 @@ The Campaign Management service defines the following service operations.
 |[GetCampaignsByAccountId](getcampaignsbyaccountid.md)|Gets the campaigns within an account.|1 *AccountId*|
 |[GetCampaignsByIds](getcampaignsbyids.md)|Gets the specified campaigns within an account.|1 *AccountId*<br/><br/>100 *CampaignIds*|
 |[GetClipchampTemplates](getclipchamptemplates.md)|Gets the specified clip champ templates.|N/A.|
-|[GetCompanyListDetails](getcompanylistdetails.md)|Retreives company list details.||
+|[GetCompanyListDetails](getcompanylistdetails.md)|Retreives company list details.|N/A.|
 |[GetConversionGoalsByIds](getconversiongoalsbyids.md)|Gets the specified conversion goals.|100 *ConversionGoalIds*|
 |[GetConversionGoalsByTagIds](getconversiongoalsbytagids.md)|Gets the conversion goals that use the specified UET tags.|100 *TagIds*|
 |[GetConversionValueRulesByAccountId](getconversionvaluerulesbyaccountid.md)|Gets conversion value rules by the account ID.|N/A.|

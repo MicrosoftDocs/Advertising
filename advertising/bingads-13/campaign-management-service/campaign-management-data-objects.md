@@ -113,7 +113,7 @@ The Campaign Management service defines the following data objects.
 |[CampaignPageFeedSetting](campaignpagefeedsetting.md)|Defines the campaign page feed setting data object.|
 |[CashbackAdjustment](cashbackadjustment.md)|Defines the CashbackAdjustment Data Object.|
 |[CategoryResult](categoryresult.md)|Defines the CategoryResult data object.|
-|[ChannelPlacementCriterion](channelplacementcriterion.md)|Defines the channel placement crirerion data object.|
+|[ChannelPlacementCriterion](channelplacementcriterion.md)|Defines the channel placement criterion data object.|
 |[ClipchampTemplateInfo](clipchamptemplateinfo.md)|Defines the clip champ template info data object.|
 |[CombinationRule](combinationrule.md)|A combination rule includes logical conditions used to determine who to add to your combined list.|
 |[CombinedList](combinedlist.md)|A combined list is an audience created from a combination of multiple existing audiences.|
