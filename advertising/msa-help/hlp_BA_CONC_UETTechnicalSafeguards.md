@@ -26,7 +26,7 @@ UET combines curated lists, machine-learning classifiers, and compliance safegua
 - **Compliance enforcement**
 
   - A dedicated HIPAA filter flags and removes events connected to health-related content.
-  - A domain blacklist provides an additional layer of protection to ensure events from sensitive sites don't enter personalization workflows.
+  - A domain blocklist provides an additional layer of protection to ensure events from sensitive sites don't enter personalization workflows.
 
 ## Sensitive data filters
 
