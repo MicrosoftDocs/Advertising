@@ -17,7 +17,9 @@ Each device criterion defines a device name for the accompanying criterion bid a
 
 The maximum number of device criterions that you can specify per campaign or ad group is three. You must either have three separate criterions for *Computers*, *Smartphones*, and *Tablets*, otherwise no device criterions can exist for the campaign or ad group.
 
-The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md) and[BiddableCampaignCriterion](biddablecampaigncriterion.md) objects. If ad group level device criterions are specified, the campaign level device criterions are ignored for that ad group. In other words the ad group device criterions override the campaign device criterions, and are not applied as a union.   
+The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md) and [BiddableCampaignCriterion](biddablecampaigncriterion.md) objects. If ad group level device criterions are specified, the campaign level device criterions are ignored for that ad group. In other words the ad group device criterions override the campaign device criterions, and are not applied as a union.
+
+For Performance Max campaigns, *DeviceCriterion* can also be included within a [NegativeCampaignCriterion](negativecampaigncriterion.md) object to exclude a device type at the campaign level. Only *Computers*, *Smartphones*, and *Tablets* are supported for campaign-level exclusions. The *OSName* element isn't allowed, and at least one device type must remain un-excluded.
 
 > [!NOTE]
 > For new Video campaigns, the device target is set automatically according to the Bidding strategy.

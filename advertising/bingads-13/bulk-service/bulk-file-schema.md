@@ -155,6 +155,7 @@ Record Type  |Supported Campaign Types
 [Campaign Label](campaign-label.md)|All  
 [Campaign Location Ad Extension](campaign-location-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Negative Age Criterion](campaign-negative-age-criterion.md)|Performance Max  
+[Campaign Negative Device Criterion](campaign-negative-device-criterion.md)|Performance Max  
 [Campaign Location Criterion](campaign-location-criterion.md)|All  
 [Campaign Location Intent Criterion](campaign-location-intent-criterion.md)|All  
 [Campaign Negative Combined List Association](campaign-negative-combined-list-association.md)|All  

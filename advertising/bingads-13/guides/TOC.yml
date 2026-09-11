@@ -1063,6 +1063,9 @@
     - name: Campaign Negative Age Criterion
       href: ../bulk-service/campaign-negative-age-criterion.md
       displayName: BulkCampaignNegativeAgeCriterion
+    - name: Campaign Negative Device Criterion
+      href: ../bulk-service/campaign-negative-device-criterion.md
+      displayName: BulkCampaignNegativeDeviceCriterion
     - name: Campaign Negative Combined List Association
       href: ../bulk-service/campaign-negative-combined-list-association.md
       displayName: BulkCampaignNegativeCombinedListAssociation
