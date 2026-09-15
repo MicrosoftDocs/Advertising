@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/26/2025
+ms.date: 9/15/2026
 description: Performance Max campaigns are designed to find and convert more customers across the entire network.
 ---
 # Performance Max Campaigns
@@ -73,9 +73,13 @@ For more details about Product Condition (operand) and Product Value (attribute)
 
 ### <a name="campaign-criteria"></a>Campaign criteria
 
-To refine the audience by location and ad schedule, Performance Max campaigns support the following campaign level criteria.
+To refine the audience, Performance Max campaigns support the following campaign level criteria.
 
+- [AgeCriterion](../campaign-management-service/agecriterion.md) (exclude)
+- [AudienceCriterion](../campaign-management-service/audiencecriterion.md) (exclude)
 - [DayTimeCriterion](../campaign-management-service/daytimecriterion.md)(target) campaign Criterion.
+- [DeviceCriterion](../campaign-management-service/devicecriterion.md) (exclude)
+- [GenderCriterion](../campaign-management-service/gendercriterion.md) (exclude)
 - [LocationCriterion](../campaign-management-service/locationcriterion.md) (target and exclude)
 - [LocationIntentCriterion](../campaign-management-service/locationcriterion.md) (target)
 - [RadiusCriterion](../campaign-management-service/radiuscriterion.md) (target)
@@ -84,7 +88,7 @@ To refine the audience by location and ad schedule, Performance Max campaigns su
 For targets you must use the [BiddableCampaignCriterion](../campaign-management-service/biddablecampaigncriterion.md) object, although you cannot set any bid adjustment. For target exclusions, use the [NegativeCampaignCriterion](../campaign-management-service/negativecampaigncriterion.md) object.
 
 > [!NOTE]
-> Performance Max campaigns do not support any other campaign level criteria e.g., Age, Gender, Device, Product Scope, Profile, or Store criteria. To further refine your audience, you can indicate your preferences to us using [audience groups](#apply-audience-groups). Although with standard Microsoft Shopping campaigns you can filter a subset of your product catalog via the [ProductScope](../campaign-management-service/productscope.md) criterion, product scope criteria are not supported with Performance Max campaigns. You can refine the product catalog with [listing groups](#apply-listing-groups). 
+> Performance Max campaigns do not support Product Scope, Profile, or Store campaign level criteria. To further refine your audience, you can indicate your preferences to us using [audience groups](#apply-audience-groups). Although with standard Microsoft Shopping campaigns you can filter a subset of your product catalog via the [ProductScope](../campaign-management-service/productscope.md) criterion, product scope criteria are not supported with Performance Max campaigns. You can refine the product catalog with [listing groups](#apply-listing-groups).
 
 Call the [AddCampaignCriterions](../campaign-management-service/addcampaigncriterions.md) operation to set the campaign level criteria.
 

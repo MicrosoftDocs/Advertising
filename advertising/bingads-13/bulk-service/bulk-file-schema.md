@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/7/2026
+ms.date: 9/15/2026
 description: Describes the schema for records in a Bulk file.
 ---
 # Bulk File Schema
@@ -163,14 +163,14 @@ Record Type  |Supported Campaign Types
 [Campaign Negative Customer List Association](campaign-negative-customer-list-association.md)|All  
 [Campaign Negative Dynamic Search Ad Target](campaign-negative-dynamic-search-ad-target.md)|Search  
 [Campaign Negative Gender Criterion](campaign-negative-gender-criterion.md)|Performance Max  
-[Campaign Negative Impression Based Remarketing List Association](campaign-negative-impression-based-remarketing-list-association.md)|Search<br/>Shopping  
-[Campaign Negative In Market Audience Association](campaign-negative-in-market-audience-association.md)|Search<br/>Shopping  
+[Campaign Negative Impression Based Remarketing List Association](campaign-negative-impression-based-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
+[Campaign Negative In Market Audience Association](campaign-negative-in-market-audience-association.md)|Performance Max<br/>Search<br/>Shopping
 [Campaign Negative Keyword](campaign-negative-keyword.md)|All  
 [Campaign Negative Keyword List Association](campaign-negative-keyword-list-association.md)|Search<br/>Shopping  
 [Campaign Negative Location Criterion](campaign-negative-location-criterion.md)|All  
-[Campaign Negative Product Audience Association](campaign-negative-product-audience-association.md)|Search<br/>Shopping  
-[Campaign Negative Remarketing List Association](campaign-negative-remarketing-list-association.md)|Search<br/>Shopping  
-[Campaign Negative Similar Remarketing List Association](campaign-negative-similar-remarketing-list-association.md)|Search<br/>Shopping  
+[Campaign Negative Product Audience Association](campaign-negative-product-audience-association.md)|Performance Max<br/>Search<br/>Shopping
+[Campaign Negative Remarketing List Association](campaign-negative-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
+[Campaign Negative Similar Remarketing List Association](campaign-negative-similar-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
 [Campaign Negative Site](campaign-negative-site.md)|All  
 [Campaign Negative Webpage](campaign-negative-webpage.md)|Performance Max  
 [Campaign Price Ad Extension](campaign-price-ad-extension.md)|Performance Max<br/>Search  
