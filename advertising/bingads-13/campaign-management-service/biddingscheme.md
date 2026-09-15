@@ -12,6 +12,8 @@ description: Defines the base object of a bidding scheme for how you want to man
 Defines the base object of a bidding scheme for how you want to manage your bids. A bidding scheme is known as a *bid strategy type* in the Microsoft Advertising web application.
 
 > [!IMPORTANT]
+> Starting January 12, 2027, the [MaxCpc](./maxclicksbiddingscheme.md#maxcpc) field will no longer be available for new campaigns or for existing campaigns that don't currently use it.
+> [!IMPORTANT]
 > Starting August 4, 2025, the [BiddingScheme in the Campaign object](./campaign.md#biddingscheme) will no longer support *TargetCpaBiddingScheme* and *TargetRoasBiddingScheme*.  
 > * Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa).  
 > * Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value. 
