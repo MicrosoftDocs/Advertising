@@ -12,9 +12,12 @@ description: A portfolio bid strategy is an automated bidding feature that manag
 A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.  
 
 > [!IMPORTANT]
-> Starting August 4, 2025, the [BiddingScheme in the Campaign object](./campaign.md#biddingscheme) will no longer support *TargetCpaBiddingScheme* and *TargetRoasBiddingScheme*.  
-> * Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa).  
-> * Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value. 
+> Starting January 12, 2027, the [MaxCpc](./maxclicksbiddingscheme.md#maxcpc) field will no longer be available for new campaigns or for existing campaigns that don't currently use it.
+> [!IMPORTANT]
+> Starting August 4, 2025, the [BiddingScheme in the Campaign object](./campaign.md#biddingscheme) will no longer support *TargetCpaBiddingScheme* and *TargetRoasBiddingScheme*.
+>
+> * Any bid strategy set to [Target CPA](./targetcpabiddingscheme.md) will be silently converted to [Maximize Conversions](./maxconversionsbiddingscheme.md) using the [Target CPA value](./maxconversionsbiddingscheme.md#targetcpa).
+> * Any bid strategy set to Target ROAS will be silently converted to [Maximize Conversion Value](./maxconversionvaluebiddingscheme.md) using the [Target ROAS](./maxconversionvaluebiddingscheme.md#targetroas) value.
 > * Existing campaigns that use the Target CPA and Target ROAS bid strategies will remain unaffected.  
 > * Bid strategy consolidation won't impact SA360.  
 > [!NOTE]
