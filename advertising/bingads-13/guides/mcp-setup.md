@@ -200,7 +200,22 @@ Select **"I understand and want to continue"** when prompted.
 
 ### Configure Redirect URI
 
-Add Claude's OAuth callback URL as a public client redirect URI in the AAD application.
+Add Claude's OAuth callback URL as a public client redirect URI in the AAD application:
+
+```powershell
+$clientId = '<client-id>'
+$app = az ad app show --id $clientId | ConvertFrom-Json
+$uris = $app.publicClient.redirectUris + "https://claude.ai/api/mcp/auth_callback" | Select-Object -Unique
+az ad app update --id $clientId --public-client-redirect-uris $uris
+```
+
+### Availability
+
+Remote MCP custom connectors are available on Claude, Cowork, and Claude Desktop for Free, Pro, Max, Team, and Enterprise plans. Free users are limited to one custom connector.
+
+### Team and Enterprise
+
+For Team and Enterprise plans, only an Owner or Primary Owner can add a connector through **Organization Settings > Connectors > Add**. Members connect individually after the connector is added.
 
 ### Add the Connector
 
