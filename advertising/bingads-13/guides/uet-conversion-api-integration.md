@@ -202,6 +202,13 @@ Include the supported fields in the JSON request body according to the payload o
 
 Events can be uploaded individually or in batches. Real-time event delivery is preferred. The maximum number of events per batch upload is 1,000.
 
+### Restate / Retract
+
+Restate and retract let you correct conversion data. Restate updates the revenue value for an existing conversion and affects only the **Conv. value** and **All Conv. value** columns, leaving the conversion count unchanged. Retract removes the conversion from the count entirely by setting its value to 0, which impacts the **Conv.**, **Conv. value**, and **All Conv. value** columns.
+
+> [!NOTE]
+> CAPI supports restate/retract when there is a *transactionId*. Call the [OnlineConversionAdjustment](../campaign-management-service/onlineconversionadjustment.md) object to use restate/retract.
+
 ## Parameters and payload reference
 
 This reference section defines the payload fields used across CAPI implementations. Use it after you have selected an implementation path and confirmed which events, identifiers, consent values, and ecommerce or vertical-specific fields apply to your scenario.
