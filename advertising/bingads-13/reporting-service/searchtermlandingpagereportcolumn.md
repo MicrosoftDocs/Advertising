@@ -208,7 +208,7 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="finalurl"></a>FinalUrl|The landing page URL (Final URL) that the user was sent to for the impression. This column is required.|
 |<a name="finalurlsource"></a>FinalUrlSource|The source of the Final URL. Indicates whether the landing page URL came from the ad's specified Final URL or was expanded from the domain.|
 |<a name="headline"></a>Headline|The headlines delivered for the impression, returned as a pipe-delimited string in the format `h1\|
-|<a name="headlinesource"></a>HeadlineSource|Reserved.|
+|<a name="headlinesource"></a>HeadlineSource|Identifies the source of the headline assets used to generate the combined headline represented by the report row.<br/><br/>Possible values:<ul><li>*AdvertiserProvided* - All headline assets in the row were provided by the advertiser.</li><li>*AIGenerated* - At least one headline asset in the row was AI-generated.</li></ul><br/>This value applies to the combined headline, not to each individual headline asset. If a row contains both advertiser-provided and AI-generated headline assets, *HeadlineSource* is reported as *AIGenerated*. This doesn't indicate that all headline assets in the row were AI-generated.|
 |<a name="impressions"></a>Impressions|The number of times the ad was displayed.|
 |<a name="keyword"></a>Keyword|The keyword text that matched the search term. Displays **AI Optimized** when the match was performed by AI.|
 |<a name="language"></a>Language|The display language of the search term. Can be filtered with the Language filter element.|
