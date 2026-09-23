@@ -79,7 +79,7 @@ The [SharedEntityAssociation](sharedentityassociation.md) object has the followi
 |<a name="sharedentitycustomerid"></a>SharedEntityCustomerId|Determines the owner of a website exclusion list.<br/><br/>This read-only element is only available for [PlacementExclusionList](placementexclusionlist.md) associations. Only the users of the manager account (customer) that owns a website exclusion list can update or delete the list, add or delete list items, and associate the list with ad accounts. If your ad account is associated with a website exclusion list that you do not own, you can disassociate the list from your account, but the list and list items are read-only.|**long**|
 |<a name="sharedentityid"></a>SharedEntityId|The identifier of the shared entity.|**long**|
 |<a name="sharedentitytype"></a>SharedEntityType|The type of shared entity.<br/><br/>This element must be set to "NegativeKeywordList" for negative keyword list to campaign associations in your ad account shared library.<br/><br/>This element must be set to "PlacementExclusionList" for website exclusion list to ad account associations in your manager account (customer) shared library.<br/><br/>This element must be set to "BrandList" for brand list-to-campaign associations.|**string**|
-|<a name="status"></a>Status|Reserved.|**string**|
+|<a name="status"></a>Status|The status of the association between the shared entity and the target entity.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -43,9 +43,9 @@ The [AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="textfield"></a>TextField|Reserved.|[AdRecommendationTextField](adrecommendationtextfield.md)|
-|<a name="textfieldindex"></a>TextFieldIndex|Reserved.|**int**|
-|<a name="texttone"></a>TextTone|Reserved.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
+|<a name="textfield"></a>TextField|The type of text field to refine.|[AdRecommendationTextField](adrecommendationtextfield.md)|
+|<a name="textfieldindex"></a>TextFieldIndex|The zero-based index of the text field to refine.|**int**|
+|<a name="texttone"></a>TextTone|The tone to use when refining the text.|[AdRecommendationTextTone](adrecommendationtexttone.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

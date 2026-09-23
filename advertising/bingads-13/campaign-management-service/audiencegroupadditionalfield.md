@@ -30,7 +30,7 @@ The [AudienceGroupAdditionalField](audiencegroupadditionalfield.md) value set ha
 
 |Value|Description|
 |-----------|---------------|
-|<a name="profiledimension"></a>ProfileDimension|Reserved.|
+|<a name="profiledimension"></a>ProfileDimension|Request that the profile dimension be included within each returned audience group.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

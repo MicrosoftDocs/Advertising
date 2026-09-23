@@ -30,7 +30,7 @@ The *GetAudienceGroupsByIdsRequest* object defines the [body](#request-body) and
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="audiencegroupids"></a>AudienceGroupIds|Array of audience group ids to get. The maximum size of the list is 100 items per service request. <br /><br />If you leave this element nil or empty, then the operation will return all audience groups in the account. |**long** array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AudienceGroupAdditionalField](audiencegroupadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include with each returned audience group.|[AudienceGroupAdditionalField](audiencegroupadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -230,7 +230,7 @@ The *GetAudienceGroupsByIdsRequest* object defines the [body](#request-body) and
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="audiencegroupids"></a>AudienceGroupIds|Array of audience group ids to get. The maximum size of the list is 100 items per service request. <br /><br />If you leave this element nil or empty, then the operation will return all audience groups in the account. |**long** array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AudienceGroupAdditionalField](audiencegroupadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include with each returned audience group.|[AudienceGroupAdditionalField](audiencegroupadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]

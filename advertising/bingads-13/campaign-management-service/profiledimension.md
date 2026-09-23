@@ -49,7 +49,7 @@ The [ProfileDimension](profiledimension.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="profiles"></a>Profiles|Reserved.|[ProfileInfo](profileinfo.md) array|
+|<a name="profiles"></a>Profiles|The LinkedIn profiles included in the audience group dimension.|[ProfileInfo](profileinfo.md) array|
 
 The [ProfileDimension](profiledimension.md) object has [Inherited Elements](#inheritedelements).
 
@@ -60,9 +60,8 @@ The [ProfileDimension](profiledimension.md) object derives from the [AudienceGro
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|
+|<a name="type"></a>Type|The audience group dimension type.|[AudienceGroupDimensionType](audiencegroupdimensiontype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

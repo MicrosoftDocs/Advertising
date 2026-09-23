@@ -50,7 +50,7 @@ The [ReachOptimizationGoalSetting](reachoptimizationgoalsetting.md) object has t
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="optimizationgoal"></a>OptimizationGoal|Reserved.|[ReachOptimizationGoal](reachoptimizationgoal.md)|
+|<a name="optimizationgoal"></a>OptimizationGoal|The reach goal that the campaign should optimize for.|[ReachOptimizationGoal](reachoptimizationgoal.md)|
 
 The [ReachOptimizationGoalSetting](reachoptimizationgoalsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -61,9 +61,8 @@ The [ReachOptimizationGoalSetting](reachoptimizationgoalsetting.md) object deriv
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting. This value is *ReachOptimizationGoalSetting* when you retrieve a reach optimization goal setting.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

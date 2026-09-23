@@ -35,8 +35,8 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
 |<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
-|<a name="channel"></a>Channel|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="channelplacement"></a>ChannelPlacement|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="channel"></a>Channel|The selection of channel targeting. The values stored in the selection refer to channel IDs.|[SelectionOflong](selectionoflong.md)|
+|<a name="channelplacement"></a>ChannelPlacement|The selection of channel placement targeting. The values stored in the selection refer to channel placement IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="dailybudget"></a>DailyBudget|The daily campaign budget value. If set to null, the suggested budget is used to perform estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|**decimal**|
@@ -44,17 +44,17 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
-|<a name="genre"></a>Genre|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="genre"></a>Genre|The selection of genre targeting. The values stored in the selection refer to genre IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="includeimpressionsbreakdown"></a>IncludeImpressionsBreakdown|Include impressions in the audience breakdown.|**boolean**|
 |<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
-|<a name="jobseniority"></a>JobSeniority|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="jobseniority"></a>JobSeniority|The job seniority level of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="multiadtypes"></a>MultiAdTypes|The audience full estimation ad type. Possible values indlude: *DisplayAds*, *StaticAds*, *VideoAds*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|**int**|
 |<a name="placement"></a>Placement|The selection of placement targeting. The values stored in selection refer to placement IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="radiustargets"></a>RadiusTargets|Represents the desired geographical area in terms of miles/kilometers.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[RadiusTarget](radiustarget.md) array|
 |<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be earlier than or the same as the specified end date.|**dateTime**|
-|<a name="subchannel"></a>SubChannel|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="subchannel"></a>SubChannel|The selection of subchannel targeting. The values stored in the selection refer to subchannel IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="topic"></a>Topic|The selection of topic targeting. The values stored in selection refer to topic IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="totalbudget"></a>TotalBudget|The total budget.|**decimal**|
 
@@ -654,8 +654,8 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
 |<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
-|<a name="channel"></a>Channel|Reserved.|[SelectionOflong](selectionoflong.md)|
-|<a name="channelplacement"></a>ChannelPlacement|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="channel"></a>Channel|The selection of channel targeting. The values stored in the selection refer to channel IDs.|[SelectionOflong](selectionoflong.md)|
+|<a name="channelplacement"></a>ChannelPlacement|The selection of channel placement targeting. The values stored in the selection refer to channel placement IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="currency"></a>Currency|The currency of *DailyBudget* and *Bid*. If null, the currency of account setting will be used.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Currency](currency.md)|
 |<a name="dailybudget"></a>DailyBudget|The daily campaign budget value. If set to null, the suggested budget is used to perform estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|**decimal**|
@@ -663,17 +663,17 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="enddate"></a>EndDate|The end date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be later than or the same as the specified end date.|**dateTime**|
 |<a name="feed"></a>Feed|Respect this parameter only when CampaignSubType is *FeedBasedAds* or *DynamicFeedBasedAds*. It specifies the desired feed traffic to count as estimation.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[Feed](feed.md)|
 |<a name="gender"></a>Gender|The gender to target. Possible values are: *Male*, *Female*, *Unknown*.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOfGenderEnum](selectionofgenderenum.md)|
-|<a name="genre"></a>Genre|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="genre"></a>Genre|The selection of genre targeting. The values stored in the selection refer to genre IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="includeimpressionsbreakdown"></a>IncludeImpressionsBreakdown|Include impressions in the audience breakdown.|**boolean**|
 |<a name="industry"></a>Industry|The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="jobfunction"></a>JobFunction|The job function The industry of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
-|<a name="jobseniority"></a>JobSeniority|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="jobseniority"></a>JobSeniority|The job seniority level of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="location"></a>Location|The selection of location targeting. The values stored in selection refer to location IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="multiadtypes"></a>MultiAdTypes|The audience full estimation ad type. Possible values indlude: *DisplayAds*, *StaticAds*, *VideoAds*.<br/><br/>**Add:** Optional.<br/>**Update:** Optional|**int**|
 |<a name="placement"></a>Placement|The selection of placement targeting. The values stored in selection refer to placement IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="radiustargets"></a>RadiusTargets|Represents the desired geographical area in terms of miles/kilometers.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[RadiusTarget](radiustarget.md) array|
 |<a name="startdate"></a>StartDate|The start date of the date range that identifies the data that you want to use to determine the audience full estimation.<br/><br/>This date must be earlier than or the same as the specified end date.|**dateTime**|
-|<a name="subchannel"></a>SubChannel|Reserved.|[SelectionOflong](selectionoflong.md)|
+|<a name="subchannel"></a>SubChannel|The selection of subchannel targeting. The values stored in the selection refer to subchannel IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="topic"></a>Topic|The selection of topic targeting. The values stored in selection refer to topic IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
 |<a name="totalbudget"></a>TotalBudget|The total budget.|**decimal**|
 

@@ -34,10 +34,10 @@ The [AgeRange](agerange.md) value set has the following values: [EighteenToTwent
 |Value|Description|
 |-----------|---------------|
 |<a name="eighteentotwentyfour"></a>EighteenToTwentyFour|People from the ages of 18 through 24 years.|
-|<a name="fiftyfiveandabove"></a>FiftyFiveAndAbove|Reserved.|
+|<a name="fiftyfiveandabove"></a>FiftyFiveAndAbove|People 55 years of age and older.|
 |<a name="fiftytosixtyfour"></a>FiftyToSixtyFour|People from the ages of 50 through 64 years.|
 |<a name="sixtyfiveandabove"></a>SixtyFiveAndAbove|People 65 years of age and older.|
-|<a name="thirtyfivetofiftyfour"></a>ThirtyFiveToFiftyFour|Reserved.|
+|<a name="thirtyfivetofiftyfour"></a>ThirtyFiveToFiftyFour|People from 35 through 54 years of age.|
 |<a name="thirtyfivetofourtynine"></a>ThirtyFiveToFourtyNine|People from the ages of 35 through 49 years.|
 |<a name="twentyfivetothirtyfour"></a>TwentyFiveToThirtyFour|People from the ages of 25 through 34 years.|
 |<a name="unknown"></a>Unknown|People with unknown ages.|

@@ -29,8 +29,8 @@ The *GetHealthCheckRequest* object defines the [body](#request-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckentities"></a>HealthCheckEntities|Reserved.|[HealthCheckEntity](healthcheckentity.md) array|
-|<a name="healthchecktypes"></a>HealthCheckTypes|Reserved.|**string** array|
+|<a name="healthcheckentities"></a>HealthCheckEntities|The entities for which to run health checks.|[HealthCheckEntity](healthcheckentity.md) array|
+|<a name="healthchecktypes"></a>HealthCheckTypes|The types of health checks to run.|**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -42,9 +42,9 @@ The *GetHealthCheckResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckerrors"></a>HealthCheckErrors|Reserved.|[HealthCheckError](healthcheckerror.md) array|
-|<a name="healthcheckresults"></a>HealthCheckResults|Reserved.|[HealthCheckData](healthcheckdata.md) array|
-|<a name="healthcheckresultsmetadata"></a>HealthCheckResultsMetadata|Reserved.|[HealthCheckMetadata](healthcheckmetadata.md) array|
+|<a name="healthcheckerrors"></a>HealthCheckErrors|The errors that occurred while running the health checks.|[HealthCheckError](healthcheckerror.md) array|
+|<a name="healthcheckresults"></a>HealthCheckResults|The health check results.|[HealthCheckData](healthcheckdata.md) array|
+|<a name="healthcheckresultsmetadata"></a>HealthCheckResultsMetadata|The metadata that describes the health check results.|[HealthCheckMetadata](healthcheckmetadata.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -237,8 +237,8 @@ The *GetHealthCheckRequest* object defines the [body](#request-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckentities"></a>HealthCheckEntities|Reserved.|[HealthCheckEntity](healthcheckentity.md) array|
-|<a name="healthchecktypes"></a>HealthCheckTypes|Reserved.|**string** array|
+|<a name="healthcheckentities"></a>HealthCheckEntities|The entities for which to run health checks.|[HealthCheckEntity](healthcheckentity.md) array|
+|<a name="healthchecktypes"></a>HealthCheckTypes|The types of health checks to run.|**string** array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -250,9 +250,9 @@ The *GetHealthCheckResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckerrors"></a>HealthCheckErrors|Reserved.|[HealthCheckError](healthcheckerror.md) array|
-|<a name="healthcheckresults"></a>HealthCheckResults|Reserved.|[HealthCheckData](healthcheckdata.md) array|
-|<a name="healthcheckresultsmetadata"></a>HealthCheckResultsMetadata|Reserved.|[HealthCheckMetadata](healthcheckmetadata.md) array|
+|<a name="healthcheckerrors"></a>HealthCheckErrors|The errors that occurred while running the health checks.|[HealthCheckError](healthcheckerror.md) array|
+|<a name="healthcheckresults"></a>HealthCheckResults|The health check results.|[HealthCheckData](healthcheckdata.md) array|
+|<a name="healthcheckresultsmetadata"></a>HealthCheckResultsMetadata|The metadata that describes the health check results.|[HealthCheckMetadata](healthcheckmetadata.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

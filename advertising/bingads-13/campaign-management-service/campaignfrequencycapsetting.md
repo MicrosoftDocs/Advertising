@@ -46,8 +46,8 @@ The [CampaignFrequencyCapSetting](campaignfrequencycapsetting.md) object has the
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="capvalue"></a>CapValue|Reserved.|**int**|
-|<a name="timegranularity"></a>TimeGranularity|Reserved.|[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|
+|<a name="capvalue"></a>CapValue|The maximum number of times that an ad can be shown to the same person during the specified time period.|**int**|
+|<a name="timegranularity"></a>TimeGranularity|The time period over which the frequency cap is applied.|[FrequencyCapTimeGranularity](frequencycaptimegranularity.md)|
 
 The [CampaignFrequencyCapSetting](campaignfrequencycapsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -58,9 +58,8 @@ The [CampaignFrequencyCapSetting](campaignfrequencycapsetting.md) object derives
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting. This value is *CampaignFrequencyCapSetting* when you retrieve a campaign frequency cap setting.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

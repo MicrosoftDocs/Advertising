@@ -45,10 +45,10 @@ The [BillingGroup](billinggroup.md) object has the following elements: [BillingG
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="billinggroupid"></a>BillingGroupId|Reserved.|**long**|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
-|<a name="description"></a>Description|Reserved.|**string**|
-|<a name="name"></a>Name|Reserved.|**string**|
+|<a name="billinggroupid"></a>BillingGroupId|The Microsoft Advertising identifier of the billing group.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer that owns the billing group.|**long**|
+|<a name="description"></a>Description|The billing group description.|**string**|
+|<a name="name"></a>Name|The billing group name.|**string**|
 
 ## Requirements
 Service: [CustomerBillingService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/Billing/v13/CustomerBillingService.svc)  

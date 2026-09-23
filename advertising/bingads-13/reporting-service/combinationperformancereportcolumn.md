@@ -69,8 +69,8 @@ The [CombinationPerformanceReportColumn](combinationperformancereportcolumn.md) 
 |<a name="combinationlongheadline"></a>CombinationLongHeadline|The content of the long headline asset in a combination record.|
 |<a name="conversions"></a>Conversions|The number of conversions.<br/><br/>A conversion is the completion of an action by a customer after viewing your ad. The action could be purchasing your product, registering for your webinar, joining an organization, or whatever you consider your goal and best measure of the ad's success.<br/><br/>Conversions are measured by adding a small bit of code to your website pages so that a visitor's progress through your site can be tracked.|
 |<a name="ctr"></a>Ctr|The click-through rate (CTR) is the number of times an ad was clicked, divided by the number of times the ad was shown (impressions). For example, if your ads got 50 clicks given 2,348 impressions, your CTR is 2.13 (%). The formula for calculating CTR is (Clicks / Impressions) x 100.|
-|<a name="description1"></a>Description1|Reserved.|
-|<a name="description2"></a>Description2|Reserved.|
+|<a name="description1"></a>Description1|The first description in the asset combination.|
+|<a name="description2"></a>Description2|The second description in the asset combination.|
 |<a name="headline1"></a>Headline1|The content of the headline 1 asset in a combination record.|
 |<a name="headline2"></a>Headline2|The content of the headline 2 asset in a combination record.|
 |<a name="headline3"></a>Headline3|The content of the headline 3 asset in a combination record |

@@ -32,7 +32,7 @@ The [AudienceGroupDimensionType](audiencegroupdimensiontype.md) value set has th
 |<a name="age"></a>Age|The age dimension type for an audience group.|
 |<a name="audience"></a>Audience|The audience dimension type for an audience group.|
 |<a name="gender"></a>Gender|The gender dimension type for an audience group.|
-|<a name="profile"></a>Profile|Reserved.|
+|<a name="profile"></a>Profile|The profile dimension type for an audience group.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -30,11 +30,11 @@ The [GenericEntityStatus](genericentitystatus.md) value set has the following va
 
 |Value|Description|
 |-----------|---------------|
-|<a name="active"></a>Active|Reserved.|
-|<a name="deleted"></a>Deleted|Reserved.|
-|<a name="disapproved"></a>Disapproved|Reserved.|
-|<a name="inactive"></a>Inactive|Reserved.|
-|<a name="paused"></a>Paused|Reserved.|
+|<a name="active"></a>Active|The entity is active and eligible to serve.|
+|<a name="deleted"></a>Deleted|The entity is deleted.|
+|<a name="disapproved"></a>Disapproved|The entity failed editorial review.|
+|<a name="inactive"></a>Inactive|The entity is inactive.|
+|<a name="paused"></a>Paused|The entity is paused and is not eligible to serve.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

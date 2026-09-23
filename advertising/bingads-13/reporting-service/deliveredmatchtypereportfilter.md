@@ -35,7 +35,7 @@ The [DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md) value se
 
 |Value|Description|
 |-----------|---------------|
-|<a name="aioptimized"></a>AIOptimized|Reserved.|
+|<a name="aioptimized"></a>AIOptimized|The search query was matched by AI-optimized targeting.|
 |<a name="broad"></a>Broad|The report will contain ads that were delivered using a broad match comparison.|
 |<a name="exact"></a>Exact|The report will contain ads that were delivered by using an exact match comparison.|
 |<a name="exactclosevariant"></a>ExactCloseVariant|The report will contain ads that were delivered by using a close variant exact match comparison.<br/><br/>Examples of the types of close variations that are considered include plurals, stemming, misspellings, abbreviations, and acronyms. For more information and examples, see the help topic [What are keyword match types, and how do I use them?](https://help.ads.microsoft.com/#apex/3/en/50822/1)<br/><br/>This filter option can only be included in the [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md) object.|

@@ -29,7 +29,7 @@ The *GetNewCustomerAcquisitionGoalsByAccountIdRequest* object defines the [body]
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
+|<a name="accountid"></a>AccountId|The Microsoft Advertising identifier of the account whose new customer acquisition goals you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -41,7 +41,7 @@ The *GetNewCustomerAcquisitionGoalsByAccountIdResponse* object defines the [body
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|Reserved.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
+|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|The new customer acquisition goals in the account.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -171,7 +171,7 @@ The *GetNewCustomerAcquisitionGoalsByAccountIdRequest* object defines the [body]
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
+|<a name="accountid"></a>AccountId|The Microsoft Advertising identifier of the account whose new customer acquisition goals you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -183,7 +183,7 @@ The *GetNewCustomerAcquisitionGoalsByAccountIdResponse* object defines the [body
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|Reserved.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
+|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|The new customer acquisition goals in the account.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

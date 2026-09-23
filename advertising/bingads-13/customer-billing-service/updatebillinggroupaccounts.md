@@ -29,9 +29,9 @@ The *UpdateBillingGroupAccountsRequest* object defines the [body](#request-body)
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountstoadd"></a>AccountsToAdd|Reserved.|**long** array|
-|<a name="billinggroupid"></a>BillingGroupId|Reserved.|**long**|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
+|<a name="accountstoadd"></a>AccountsToAdd|The Microsoft Advertising identifiers of the accounts to add to the billing group.|**long** array|
+|<a name="billinggroupid"></a>BillingGroupId|The Microsoft Advertising identifier of the billing group.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer that owns the billing group.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -43,7 +43,7 @@ The *UpdateBillingGroupAccountsResponse* object defines the [body](#response-bod
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[OperationError](operationerror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of operation errors that contains details for any accounts that could not be added to the billing group.|[OperationError](operationerror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -186,9 +186,9 @@ The *UpdateBillingGroupAccountsRequest* object defines the [body](#request-body)
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountstoadd"></a>AccountsToAdd|Reserved.|**long** array|
-|<a name="billinggroupid"></a>BillingGroupId|Reserved.|**long**|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
+|<a name="accountstoadd"></a>AccountsToAdd|The Microsoft Advertising identifiers of the accounts to add to the billing group.|**long** array|
+|<a name="billinggroupid"></a>BillingGroupId|The Microsoft Advertising identifier of the billing group.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer that owns the billing group.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -200,7 +200,7 @@ The *UpdateBillingGroupAccountsResponse* object defines the [body](#response-bod
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[OperationError](operationerror.md) array|
+|<a name="partialerrors"></a>PartialErrors|An array of operation errors that contains details for any accounts that could not be added to the billing group.|[OperationError](operationerror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

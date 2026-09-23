@@ -59,17 +59,17 @@ The [AssetGroupUrlTarget](assetgroupurltarget.md) object has the following eleme
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="status"></a>Status|Reserved.|[GenericEntityStatus](genericentitystatus.md)|
-|<a name="targetcondition1"></a>TargetCondition1|Reserved.|**string**|
-|<a name="targetcondition2"></a>TargetCondition2|Reserved.|**string**|
-|<a name="targetcondition3"></a>TargetCondition3|Reserved.|**string**|
-|<a name="targetconditionoperator1"></a>TargetConditionOperator1|Reserved.|**string**|
-|<a name="targetconditionoperator2"></a>TargetConditionOperator2|Reserved.|**string**|
-|<a name="targetconditionoperator3"></a>TargetConditionOperator3|Reserved.|**string**|
-|<a name="targetvalue1"></a>TargetValue1|Reserved.|**string**|
-|<a name="targetvalue2"></a>TargetValue2|Reserved.|**string**|
-|<a name="targetvalue3"></a>TargetValue3|Reserved.|**string**|
+|<a name="id"></a>Id|The Microsoft Advertising identifier of the asset group URL target.<br/><br/>**Add:** Read-only<br/>**Update:** Required|**long**|
+|<a name="status"></a>Status|The status of the asset group URL target.<br/><br/>**Add:** Optional<br/>**Update:** Optional|[GenericEntityStatus](genericentitystatus.md)|
+|<a name="targetcondition1"></a>TargetCondition1|The first condition used to select matching URLs.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetcondition2"></a>TargetCondition2|The second condition used to select matching URLs.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetcondition3"></a>TargetCondition3|The third condition used to select matching URLs.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetconditionoperator1"></a>TargetConditionOperator1|The operator to apply to the first target condition.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetconditionoperator2"></a>TargetConditionOperator2|The operator to apply to the second target condition.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetconditionoperator3"></a>TargetConditionOperator3|The operator to apply to the third target condition.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetvalue1"></a>TargetValue1|The value to compare against the first target condition.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetvalue2"></a>TargetValue2|The value to compare against the second target condition.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
+|<a name="targetvalue3"></a>TargetValue3|The value to compare against the third target condition.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

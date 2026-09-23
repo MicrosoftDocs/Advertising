@@ -30,7 +30,7 @@ The [SharedEntityAssociationAdditionalField](sharedentityassociationadditionalfi
 
 |Value|Description|
 |-----------|---------------|
-|<a name="brandlistfields"></a>BrandListFields|Reserved.|
+|<a name="brandlistfields"></a>BrandListFields|Request that brand list fields be included with each returned shared entity association.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

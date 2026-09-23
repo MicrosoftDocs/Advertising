@@ -29,7 +29,7 @@ The *GetBillingGroupsRequest* object defines the [body](#request-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer whose billing groups you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -41,7 +41,7 @@ The *GetBillingGroupsResponse* object defines the [body](#response-body) and [he
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="billinggroups"></a>BillingGroups|Reserved.|[BillingGroup](billinggroup.md) array|
+|<a name="billinggroups"></a>BillingGroups|The billing groups that belong to the customer.|[BillingGroup](billinggroup.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -165,7 +165,7 @@ The *GetBillingGroupsRequest* object defines the [body](#request-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer whose billing groups you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -177,7 +177,7 @@ The *GetBillingGroupsResponse* object defines the [body](#response-body) and [he
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="billinggroups"></a>BillingGroups|Reserved.|[BillingGroup](billinggroup.md) array|
+|<a name="billinggroups"></a>BillingGroups|The billing groups that belong to the customer.|[BillingGroup](billinggroup.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

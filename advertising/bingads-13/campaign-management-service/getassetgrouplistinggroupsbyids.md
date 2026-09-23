@@ -31,7 +31,7 @@ The *GetAssetGroupListingGroupsByIdsRequest* object defines the [body](#request-
 |-----------|---------------|-------------|
 |<a name="assetgroupid"></a>AssetGroupId|The ID of the AssetGroup. |**long**|
 |<a name="assetgrouplistinggroupids"></a>AssetGroupListingGroupIds|A list of identifiers that identify the listing groups that had the action applied. The list of identifiers corresponds directly to the list of listing groups in the request. <br /><br />If any listing group action failed, then all remaining listing group actions will fail, and all elements in this list will be null.  |**long** array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AssetGroupListingGroupAdditionalField](assetgrouplistinggroupadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include with each returned asset group listing group.|[AssetGroupListingGroupAdditionalField](assetgrouplistinggroupadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -196,7 +196,7 @@ The *GetAssetGroupListingGroupsByIdsRequest* object defines the [body](#request-
 |-----------|---------------|-------------|
 |<a name="assetgroupid"></a>AssetGroupId|The ID of the AssetGroup. |**long**|
 |<a name="assetgrouplistinggroupids"></a>AssetGroupListingGroupIds|A list of identifiers that identify the listing groups that had the action applied. The list of identifiers corresponds directly to the list of listing groups in the request. <br /><br />If any listing group action failed, then all remaining listing group actions will fail, and all elements in this list will be null.  |**long** array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AssetGroupListingGroupAdditionalField](assetgrouplistinggroupadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include with each returned asset group listing group.|[AssetGroupListingGroupAdditionalField](assetgrouplistinggroupadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]

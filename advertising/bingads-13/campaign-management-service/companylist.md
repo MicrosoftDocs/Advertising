@@ -67,9 +67,9 @@ The [CompanyList](companylist.md) object has the following elements: [CompanyNam
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="companynames"></a>CompanyNames|Reserved.|[CompanyName](companyname.md) array|
-|<a name="matched"></a>Matched|Reserved.|**int**|
-|<a name="total"></a>Total|Reserved.|**int**|
+|<a name="companynames"></a>CompanyNames|The companies included in the company list.|[CompanyName](companyname.md) array|
+|<a name="matched"></a>Matched|The number of companies that Microsoft Advertising matched.|**int**|
+|<a name="total"></a>Total|The total number of companies in the company list.|**int**|
 
 The [CompanyList](companylist.md) object has [Inherited Elements](#inheritedelements).
 
@@ -80,13 +80,12 @@ The [CompanyList](companylist.md) object derives from the [LinkedInSegment](link
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="name"></a>Name|Reserved.|**string**|
-|<a name="reach"></a>Reach|Reserved.|**long**|
-|<a name="status"></a>Status|Reserved.|[LinkedInSegmentStatus](linkedinsegmentstatus.md)|
-|<a name="type"></a>Type|Reserved.|[ProfileType](profiletype.md)|
+|<a name="id"></a>Id|The Microsoft Advertising identifier of the LinkedIn segment.|**long**|
+|<a name="name"></a>Name|The LinkedIn segment name.|**string**|
+|<a name="reach"></a>Reach|The estimated number of people in the LinkedIn segment.|**long**|
+|<a name="status"></a>Status|The status of the LinkedIn segment.|[LinkedInSegmentStatus](linkedinsegmentstatus.md)|
+|<a name="type"></a>Type|The LinkedIn profile type.|[ProfileType](profiletype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

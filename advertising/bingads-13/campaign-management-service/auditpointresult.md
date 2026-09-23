@@ -47,11 +47,11 @@ The [AuditPointResult](auditpointresult.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="description"></a>Description|Reserved.|**string**|
-|<a name="details"></a>Details|Reserved.|**ArrayOfKeyValueOfstringstring**|
-|<a name="key"></a>Key|Reserved.|**string**|
-|<a name="severity"></a>Severity|Reserved.|**string**|
-|<a name="timestamp"></a>Timestamp|Reserved.|**string**|
+|<a name="description"></a>Description|The audit point description.|**string**|
+|<a name="details"></a>Details|Additional key and value details about the audit point.|**ArrayOfKeyValueOfstringstring**|
+|<a name="key"></a>Key|The key that identifies the audit point.|**string**|
+|<a name="severity"></a>Severity|The severity of the audit point result.|**string**|
+|<a name="timestamp"></a>Timestamp|The timestamp of the audit point result.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

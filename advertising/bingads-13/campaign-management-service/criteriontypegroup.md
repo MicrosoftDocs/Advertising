@@ -45,7 +45,7 @@ The [CriterionTypeGroup](criteriontypegroup.md) value set has the following valu
 |<a name="incomerange"></a>IncomeRange|Reserved for future use.|
 |<a name="industry"></a>Industry|The industry criterion type group.|
 |<a name="jobfunction"></a>JobFunction|The job function criterion type group.|
-|<a name="jobseniority"></a>JobSeniority|Reserved.|
+|<a name="jobseniority"></a>JobSeniority|The criterion type group includes job seniority criteria.|
 |<a name="unknown"></a>Unknown|Reserved for future use.|
 
 ## Requirements

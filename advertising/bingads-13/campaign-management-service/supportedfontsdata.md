@@ -46,7 +46,7 @@ The [SupportedFontsData](supportedfontsdata.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="supportedfonts"></a>SupportedFonts|Reserved.|[SupportedFont](supportedfont.md) array|
+|<a name="supportedfonts"></a>SupportedFonts|The supported fonts.|[SupportedFont](supportedfont.md) array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

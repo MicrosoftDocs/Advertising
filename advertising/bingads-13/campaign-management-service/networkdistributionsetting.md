@@ -50,7 +50,7 @@ The [NetworkDistributionSetting](networkdistributionsetting.md) object has the f
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="networkoption"></a>NetworkOption|Reserved.|[Network](network.md)|
+|<a name="networkoption"></a>NetworkOption|The networks where the campaign's ads can run.|[Network](network.md)|
 
 The [NetworkDistributionSetting](networkdistributionsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -65,4 +65,4 @@ The [NetworkDistributionSetting](networkdistributionsetting.md) object derives f
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
-Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
+Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  

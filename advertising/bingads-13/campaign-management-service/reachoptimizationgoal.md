@@ -28,9 +28,9 @@ The [ReachOptimizationGoal](reachoptimizationgoal.md) value set has the followin
 
 |Value|Description|
 |-----------|---------------|
-|<a name="maximpressions"></a>MaxImpressions|Reserved.|
-|<a name="maxuniquereach"></a>MaxUniqueReach|Reserved.|
-|<a name="unspecified"></a>Unspecified|Reserved.|
+|<a name="maximpressions"></a>MaxImpressions|Optimize the campaign to maximize impressions.|
+|<a name="maxuniquereach"></a>MaxUniqueReach|Optimize the campaign to maximize unique reach.|
+|<a name="unspecified"></a>Unspecified|The reach optimization goal is not specified.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

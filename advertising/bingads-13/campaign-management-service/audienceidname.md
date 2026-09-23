@@ -41,8 +41,8 @@ The [AudienceIdName](audienceidname.md) object has the following elements: [Id](
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="name"></a>Name|Reserved.|**string**|
+|<a name="id"></a>Id|The Microsoft Advertising identifier of the audience.|**long**|
+|<a name="name"></a>Name|The audience name.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

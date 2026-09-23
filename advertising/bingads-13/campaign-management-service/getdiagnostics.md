@@ -29,10 +29,10 @@ The *GetDiagnosticsRequest* object defines the [body](#request-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="callername"></a>CallerName|Reserved.|**string**|
-|<a name="checks"></a>Checks|Reserved.|[DiagnosticsFilter](diagnosticsfilter.md) array|
-|<a name="entities"></a>Entities|Reserved.|[DiagnosticsEntity](diagnosticsentity.md) array|
-|<a name="settings"></a>Settings|Reserved.|[DiagnosticsSettings](diagnosticssettings.md)|
+|<a name="callername"></a>CallerName|The name of the caller requesting the diagnostics.|**string**|
+|<a name="checks"></a>Checks|The diagnostic checks to run.|[DiagnosticsFilter](diagnosticsfilter.md) array|
+|<a name="entities"></a>Entities|The entities to diagnose.|[DiagnosticsEntity](diagnosticsentity.md) array|
+|<a name="settings"></a>Settings|The settings to use when running the diagnostics.|[DiagnosticsSettings](diagnosticssettings.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -44,8 +44,8 @@ The *GetDiagnosticsResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="entities"></a>Entities|Reserved.|[EntityResult](entityresult.md) array|
-|<a name="requeststatus"></a>RequestStatus|Reserved.|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|
+|<a name="entities"></a>Entities|The diagnostic results for the requested entities.|[EntityResult](entityresult.md) array|
+|<a name="requeststatus"></a>RequestStatus|The status of the diagnostics request.|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -240,10 +240,10 @@ The *GetDiagnosticsRequest* object defines the [body](#request-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="callername"></a>CallerName|Reserved.|**string**|
-|<a name="checks"></a>Checks|Reserved.|[DiagnosticsFilter](diagnosticsfilter.md) array|
-|<a name="entities"></a>Entities|Reserved.|[DiagnosticsEntity](diagnosticsentity.md) array|
-|<a name="settings"></a>Settings|Reserved.|[DiagnosticsSettings](diagnosticssettings.md)|
+|<a name="callername"></a>CallerName|The name of the caller requesting the diagnostics.|**string**|
+|<a name="checks"></a>Checks|The diagnostic checks to run.|[DiagnosticsFilter](diagnosticsfilter.md) array|
+|<a name="entities"></a>Entities|The entities to diagnose.|[DiagnosticsEntity](diagnosticsentity.md) array|
+|<a name="settings"></a>Settings|The settings to use when running the diagnostics.|[DiagnosticsSettings](diagnosticssettings.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -255,8 +255,8 @@ The *GetDiagnosticsResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="entities"></a>Entities|Reserved.|[EntityResult](entityresult.md) array|
-|<a name="requeststatus"></a>RequestStatus|Reserved.|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|
+|<a name="entities"></a>Entities|The diagnostic results for the requested entities.|[EntityResult](entityresult.md) array|
+|<a name="requeststatus"></a>RequestStatus|The status of the diagnostics request.|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

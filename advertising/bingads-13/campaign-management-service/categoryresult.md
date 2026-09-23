@@ -49,8 +49,8 @@ The [CategoryResult](categoryresult.md) object has the following elements: [Audi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="auditpoints"></a>AuditPoints|Reserved.|[AuditPointResult](auditpointresult.md) array|
-|<a name="key"></a>Key|Reserved.|**string**|
+|<a name="auditpoints"></a>AuditPoints|The audit point results in the category.|[AuditPointResult](auditpointresult.md) array|
+|<a name="key"></a>Key|The key that identifies the category.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

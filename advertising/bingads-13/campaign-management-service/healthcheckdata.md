@@ -56,11 +56,11 @@ The [HealthCheckData](healthcheckdata.md) object has the following elements: [He
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckdataversion"></a>HealthCheckDataVersion|Reserved.|**string**|
-|<a name="healthcheckentity"></a>HealthCheckEntity|Reserved.|[HealthCheckEntity](healthcheckentity.md)|
-|<a name="healthcheckjsondata"></a>HealthCheckJsonData|Reserved.|**string**|
-|<a name="healthcheckname"></a>HealthCheckName|Reserved.|**string**|
-|<a name="healthchecksubentityresults"></a>HealthCheckSubEntityResults|Reserved.|[HealthCheckSubEntityData](healthchecksubentitydata.md)|
+|<a name="healthcheckdataversion"></a>HealthCheckDataVersion|The version of the health check data format.|**string**|
+|<a name="healthcheckentity"></a>HealthCheckEntity|The entity for which the health check was run.|[HealthCheckEntity](healthcheckentity.md)|
+|<a name="healthcheckjsondata"></a>HealthCheckJsonData|The health check result data in JSON format.|**string**|
+|<a name="healthcheckname"></a>HealthCheckName|The name of the health check.|**string**|
+|<a name="healthchecksubentityresults"></a>HealthCheckSubEntityResults|The health check results for subordinate entities.|[HealthCheckSubEntityData](healthchecksubentitydata.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

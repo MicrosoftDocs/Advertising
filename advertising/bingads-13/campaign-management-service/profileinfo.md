@@ -41,8 +41,8 @@ The [ProfileInfo](profileinfo.md) object has the following elements: [Id](#id), 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|Reserved.|**long**|
-|<a name="type"></a>Type|Reserved.|[ProfileType](profiletype.md)|
+|<a name="id"></a>Id|The Microsoft Advertising identifier of the LinkedIn profile segment.|**long**|
+|<a name="type"></a>Type|The LinkedIn profile type.|[ProfileType](profiletype.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

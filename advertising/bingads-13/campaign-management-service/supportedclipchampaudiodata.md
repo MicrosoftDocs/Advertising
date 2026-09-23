@@ -45,7 +45,7 @@ The [SupportedClipchampAudioData](supportedclipchampaudiodata.md) object has the
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audio"></a>Audio|Reserved.|[SupportedClipchampAudio](supportedclipchampaudio.md) array|
+|<a name="audio"></a>Audio|The supported audio tracks.|[SupportedClipchampAudio](supportedclipchampaudio.md) array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

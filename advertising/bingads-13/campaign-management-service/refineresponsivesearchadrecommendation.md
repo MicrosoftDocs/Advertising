@@ -29,8 +29,8 @@ The *RefineResponsiveSearchAdRecommendationRequest* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="responsivesearchad"></a>ResponsiveSearchAd|Reserved.|[ResponsiveSearchAd](responsivesearchad.md)|
-|<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
+|<a name="responsivesearchad"></a>ResponsiveSearchAd|The responsive search ad whose text assets you want to refine.|[ResponsiveSearchAd](responsivesearchad.md)|
+|<a name="textrefineoperations"></a>TextRefineOperations|The text refinement operations to apply.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -301,8 +301,8 @@ The *RefineResponsiveSearchAdRecommendationRequest* object defines the [body](#r
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="responsivesearchad"></a>ResponsiveSearchAd|Reserved.|[ResponsiveSearchAd](responsivesearchad.md)|
-|<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
+|<a name="responsivesearchad"></a>ResponsiveSearchAd|The responsive search ad whose text assets you want to refine.|[ResponsiveSearchAd](responsivesearchad.md)|
+|<a name="textrefineoperations"></a>TextRefineOperations|The text refinement operations to apply.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]

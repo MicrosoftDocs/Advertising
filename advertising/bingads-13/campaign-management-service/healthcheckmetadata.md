@@ -66,14 +66,14 @@ The [HealthCheckMetadata](healthcheckmetadata.md) object has the following eleme
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckcategory"></a>HealthCheckCategory|Reserved.|**string**|
-|<a name="healthcheckcategorydisplayname"></a>HealthCheckCategoryDisplayName|Reserved.|**string**|
-|<a name="healthcheckcolumnsmetadata"></a>HealthCheckColumnsMetadata|Reserved.|[HealthCheckColumnMetadata](healthcheckcolumnmetadata.md) array|
-|<a name="healthcheckdescription"></a>HealthCheckDescription|Reserved.|**string**|
-|<a name="healthcheckdisplayname"></a>HealthCheckDisplayName|Reserved.|**string**|
-|<a name="healthcheckname"></a>HealthCheckName|Reserved.|**string**|
-|<a name="healthcheckseverity"></a>HealthCheckSeverity|Reserved.|**string**|
-|<a name="healthchecksubtype"></a>HealthCheckSubType|Reserved.|**string**|
+|<a name="healthcheckcategory"></a>HealthCheckCategory|The category of the health check.|**string**|
+|<a name="healthcheckcategorydisplayname"></a>HealthCheckCategoryDisplayName|The display name of the health check category.|**string**|
+|<a name="healthcheckcolumnsmetadata"></a>HealthCheckColumnsMetadata|The metadata for columns in the health check result.|[HealthCheckColumnMetadata](healthcheckcolumnmetadata.md) array|
+|<a name="healthcheckdescription"></a>HealthCheckDescription|The health check description.|**string**|
+|<a name="healthcheckdisplayname"></a>HealthCheckDisplayName|The display name of the health check.|**string**|
+|<a name="healthcheckname"></a>HealthCheckName|The name that identifies the health check.|**string**|
+|<a name="healthcheckseverity"></a>HealthCheckSeverity|The severity of the health check finding.|**string**|
+|<a name="healthchecksubtype"></a>HealthCheckSubType|The subtype of the health check.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -39,7 +39,7 @@ The [AdRecommendationTextSuggestion](adrecommendationtextsuggestion.md) object h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="text"></a>Text|Reserved.|**string**|
+|<a name="text"></a>Text|The suggested text.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

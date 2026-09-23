@@ -43,9 +43,9 @@ The [SupportedClipchampAudio](supportedclipchampaudio.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audioname"></a>AudioName|Reserved.|**string**|
-|<a name="category"></a>Category|Reserved.|**string**|
-|<a name="url"></a>Url|Reserved.|**string**|
+|<a name="audioname"></a>AudioName|The name of the supported audio track.|**string**|
+|<a name="category"></a>Category|The category of the supported audio track.|**string**|
+|<a name="url"></a>Url|The URL of the supported audio track.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -55,7 +55,7 @@ The [ManualCpcBiddingScheme](manualcpcbiddingscheme.md) object has the following
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="manualcpc"></a>ManualCpc|Reserved.|**double**|
+|<a name="manualcpc"></a>ManualCpc|The manual cost-per-click bid amount.|**double**|
 
 The [ManualCpcBiddingScheme](manualcpcbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 
@@ -71,4 +71,3 @@ The [ManualCpcBiddingScheme](manualcpcbiddingscheme.md) object derives from the 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

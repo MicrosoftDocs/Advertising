@@ -29,10 +29,10 @@ The *GetClipchampTemplatesRequest* object defines the [body](#request-body) and 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="locale"></a>Locale|Reserved.|**string**|
-|<a name="maxadscount"></a>MaxAdsCount|Reserved.|**int**|
-|<a name="mock"></a>Mock|Reserved.|**boolean**|
-|<a name="templatefilter"></a>TemplateFilter|Reserved.|[VideoTemplateFilter](videotemplatefilter.md)|
+|<a name="locale"></a>Locale|The locale of the video templates to return.|**string**|
+|<a name="maxadscount"></a>MaxAdsCount|The maximum number of video templates to return.|**int**|
+|<a name="mock"></a>Mock|Determines whether to return mock template data.|**boolean**|
+|<a name="templatefilter"></a>TemplateFilter|The criteria to use to filter the video templates.|[VideoTemplateFilter](videotemplatefilter.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -44,7 +44,7 @@ The *GetClipchampTemplatesResponse* object defines the [body](#response-body) an
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="templates"></a>Templates|Reserved.|[ClipchampTemplateInfo](clipchamptemplateinfo.md) array|
+|<a name="templates"></a>Templates|The video templates that match the request criteria.|[ClipchampTemplateInfo](clipchamptemplateinfo.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -218,10 +218,10 @@ The *GetClipchampTemplatesRequest* object defines the [body](#request-body) and 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="locale"></a>Locale|Reserved.|**string**|
-|<a name="maxadscount"></a>MaxAdsCount|Reserved.|**int**|
-|<a name="mock"></a>Mock|Reserved.|**boolean**|
-|<a name="templatefilter"></a>TemplateFilter|Reserved.|[VideoTemplateFilter](videotemplatefilter.md)|
+|<a name="locale"></a>Locale|The locale of the video templates to return.|**string**|
+|<a name="maxadscount"></a>MaxAdsCount|The maximum number of video templates to return.|**int**|
+|<a name="mock"></a>Mock|Determines whether to return mock template data.|**boolean**|
+|<a name="templatefilter"></a>TemplateFilter|The criteria to use to filter the video templates.|[VideoTemplateFilter](videotemplatefilter.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -233,7 +233,7 @@ The *GetClipchampTemplatesResponse* object defines the [body](#response-body) an
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="templates"></a>Templates|Reserved.|[ClipchampTemplateInfo](clipchamptemplateinfo.md) array|
+|<a name="templates"></a>Templates|The video templates that match the request criteria.|[ClipchampTemplateInfo](clipchamptemplateinfo.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

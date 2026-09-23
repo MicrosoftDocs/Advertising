@@ -48,9 +48,9 @@ The [NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) object has the f
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="additionalvalue"></a>AdditionalValue|Reserved.|**decimal**|
-|<a name="audiences"></a>Audiences|Reserved.|[AudienceIdName](audienceidname.md) array|
-|<a name="id"></a>Id|Reserved.|**long**|
+|<a name="additionalvalue"></a>AdditionalValue|The additional conversion value assigned to a new customer.|**decimal**|
+|<a name="audiences"></a>Audiences|The audiences used to identify existing customers.|[AudienceIdName](audienceidname.md) array|
+|<a name="id"></a>Id|The Microsoft Advertising identifier of the new customer acquisition goal.|**long**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

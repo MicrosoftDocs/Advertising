@@ -45,8 +45,8 @@ The [AudioFilter](audiofilter.md) object has the following elements: [AudioNames
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audionames"></a>AudioNames|Reserved.|**string** array|
-|<a name="categories"></a>Categories|Reserved.|**string** array|
+|<a name="audionames"></a>AudioNames|The audio names to include in the results.|**string** array|
+|<a name="categories"></a>Categories|The audio categories to include in the results.|**string** array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -45,10 +45,10 @@ The [AppStore](appstore.md) value set has the following values: [AppleAppStore](
 
 |Value|Description|
 |-----------|---------------|
-|<a name="appleappstore"></a>AppleAppStore|The app is distributed in the Apple app store.|
-|<a name="googleappstore"></a>GoogleAppStore|The app is distributed in the Google app store.|
-|<a name="microsoftappstore"></a>MicrosoftAppStore|The app is distributed in the Microsoft app store.|
-|<a name="xboxstore"></a>XboxStore|Reserved.|
+|<a name="appleappstore"></a>AppleAppStore|The app is available in the Apple app store.|
+|<a name="googleappstore"></a>GoogleAppStore|The app is available in the Google app store.|
+|<a name="microsoftappstore"></a>MicrosoftAppStore|The app is available in the Microsoft app store.|
+|<a name="xboxstore"></a>XboxStore|The app is available in the XBOX Store.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

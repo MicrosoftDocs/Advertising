@@ -43,8 +43,8 @@ The [SupportedFont](supportedfont.md) object has the following elements: [FontFa
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="fontfamily"></a>FontFamily|Reserved.|**string**|
-|<a name="fontweights"></a>FontWeights|Reserved.|**string** array|
+|<a name="fontfamily"></a>FontFamily|The supported font family.|**string**|
+|<a name="fontweights"></a>FontWeights|The supported weights for the font family.|**string** array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

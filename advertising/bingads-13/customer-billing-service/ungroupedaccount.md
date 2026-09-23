@@ -50,10 +50,10 @@ The [UngroupedAccount](ungroupedaccount.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountid"></a>AccountId|Reserved.|**long**|
-|<a name="accountname"></a>AccountName|Reserved.|**string**|
-|<a name="accountnumber"></a>AccountNumber|Reserved.|**string**|
-|<a name="potentialbillinggroups"></a>PotentialBillingGroups|Reserved.|[KeyValueEntityOflongstring](keyvalueentityoflongstring.md) array|
+|<a name="accountid"></a>AccountId|The Microsoft Advertising identifier of the account.|**long**|
+|<a name="accountname"></a>AccountName|The account name.|**string**|
+|<a name="accountnumber"></a>AccountNumber|The system-generated account number that is used to identify the account in the Microsoft Advertising web application.|**string**|
+|<a name="potentialbillinggroups"></a>PotentialBillingGroups|The billing groups to which the account can be assigned. Each key contains a billing group identifier, and the corresponding value contains the billing group name.|[KeyValueEntityOflongstring](keyvalueentityoflongstring.md) array|
 
 ## Requirements
 Service: [CustomerBillingService.svc v13](https://clientcenter.api.bingads.microsoft.com/Api/Billing/v13/CustomerBillingService.svc)  

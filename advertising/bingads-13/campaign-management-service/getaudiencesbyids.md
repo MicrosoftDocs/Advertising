@@ -23,9 +23,8 @@ Retrieves the specified audiences from the specified account.
 The *GetAudiencesByIdsRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
 
 > [!NOTE]
-> Unless otherwise noted below, all request elements are required.
->
 > *GetAudiencesByIds* doesn't support system-generated audiences. This includes the following auto-generated remarketing lists: "All Visitors", "All Converters", and "Smart Remarketing Lists".
+> Unless otherwise noted below, all request elements are required.
 
 ### <a name="request-body"></a>Request Body Elements
 

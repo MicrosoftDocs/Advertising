@@ -45,9 +45,9 @@ The [HealthCheckSubEntityData](healthchecksubentitydata.md) object has the follo
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="subentityhealthissuecount"></a>SubEntityHealthIssueCount|Reserved.|**int**|
-|<a name="subentityids"></a>SubEntityIds|Reserved.|**long** array|
-|<a name="subentitylevel"></a>SubEntityLevel|Reserved.|**string**|
+|<a name="subentityhealthissuecount"></a>SubEntityHealthIssueCount|The number of health issues found for the subordinate entities.|**int**|
+|<a name="subentityids"></a>SubEntityIds|The Microsoft Advertising identifiers of the subordinate entities with health issues.|**long** array|
+|<a name="subentitylevel"></a>SubEntityLevel|The entity level of the subordinate entities.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

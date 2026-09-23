@@ -34,9 +34,9 @@ The [ExperimentAdditionalField](experimentadditionalfield.md) value set has the 
 |Value|Description|
 |-----------|---------------|
 |<a name="experimentarms"></a>ExperimentArms|Request that the experiment arms field is used when requesting an [Experiment](experiment.md) object.|
-|<a name="experimentcampaigntype"></a>ExperimentCampaignType|Reserved.|
+|<a name="experimentcampaigntype"></a>ExperimentCampaignType|Request that the experiment campaign type be included within each returned [Experiment](experiment.md) object.|
 |<a name="experimentsubtype"></a>ExperimentSubType|Request that the experiment sub type field is used when requesting the [Experiment](experiment.md) object.|
-|<a name="marketingobjective"></a>MarketingObjective|Reserved.|
+|<a name="marketingobjective"></a>MarketingObjective|Request that the marketing objective be included within each returned [Experiment](experiment.md) object.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

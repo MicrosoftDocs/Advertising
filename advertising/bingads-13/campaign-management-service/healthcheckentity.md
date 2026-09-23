@@ -41,8 +41,8 @@ The [HealthCheckEntity](healthcheckentity.md) object has the following elements:
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckentityid"></a>HealthCheckEntityId|Reserved.|**long**|
-|<a name="healthcheckentitylevel"></a>HealthCheckEntityLevel|Reserved.|**string**|
+|<a name="healthcheckentityid"></a>HealthCheckEntityId|The Microsoft Advertising identifier of the entity to check.|**long**|
+|<a name="healthcheckentitylevel"></a>HealthCheckEntityLevel|The entity level at which to run the health check.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

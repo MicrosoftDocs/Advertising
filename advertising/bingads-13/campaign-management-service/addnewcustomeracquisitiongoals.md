@@ -29,7 +29,7 @@ The *AddNewCustomerAcquisitionGoalsRequest* object defines the [body](#request-b
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|Reserved.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
+|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|The new customer acquisition goals to add.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -41,8 +41,8 @@ The *AddNewCustomerAcquisitionGoalsResponse* object defines the [body](#response
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="newcustomeracquisitiongoalids"></a>NewCustomerAcquisitionGoalIds|Reserved.|**long** array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="newcustomeracquisitiongoalids"></a>NewCustomerAcquisitionGoalIds|The Microsoft Advertising identifiers of the new customer acquisition goals that were added.|**long** array|
+|<a name="partialerrors"></a>PartialErrors|An array of batch errors that contains details for any request items that were not successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -197,7 +197,7 @@ The *AddNewCustomerAcquisitionGoalsRequest* object defines the [body](#request-b
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|Reserved.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
+|<a name="newcustomeracquisitiongoals"></a>NewCustomerAcquisitionGoals|The new customer acquisition goals to add.|[NewCustomerAcquisitionGoal](newcustomeracquisitiongoal.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -209,8 +209,8 @@ The *AddNewCustomerAcquisitionGoalsResponse* object defines the [body](#response
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="newcustomeracquisitiongoalids"></a>NewCustomerAcquisitionGoalIds|Reserved.|**long** array|
-|<a name="partialerrors"></a>PartialErrors|Reserved.|[BatchError](batcherror.md) array|
+|<a name="newcustomeracquisitiongoalids"></a>NewCustomerAcquisitionGoalIds|The Microsoft Advertising identifiers of the new customer acquisition goals that were added.|**long** array|
+|<a name="partialerrors"></a>PartialErrors|An array of batch errors that contains details for any request items that were not successful.|[BatchError](batcherror.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

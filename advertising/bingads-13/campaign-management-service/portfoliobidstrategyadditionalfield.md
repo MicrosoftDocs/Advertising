@@ -57,10 +57,10 @@ The [PortfolioBidStrategyAdditionalField](portfoliobidstrategyadditionalfield.md
 
 |Value|Description|
 |-----------|---------------|
-|<a name="currencycode"></a>CurrencyCode|Reserved.|
+|<a name="currencycode"></a>CurrencyCode|Request that the currency code be included within each returned portfolio bid strategy.|
 |<a name="maxconversionvaluewithmaxcpc"></a>MaxConversionValueWithMaxCpc|Inlcude the MaxCpc element within each returned [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object.|
-|<a name="reportingtimezone"></a>ReportingTimeZone|Reserved.|
-|<a name="scope"></a>Scope|Reserved.|
+|<a name="reportingtimezone"></a>ReportingTimeZone|Request that the reporting time zone be included within each returned portfolio bid strategy.|
+|<a name="scope"></a>Scope|Request that the scope be included within each returned portfolio bid strategy.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

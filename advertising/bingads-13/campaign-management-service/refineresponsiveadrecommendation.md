@@ -29,11 +29,11 @@ The *RefineResponsiveAdRecommendationRequest* object defines the [body](#request
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="imagerefineoperations"></a>ImageRefineOperations|Reserved.|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md) array|
-|<a name="imagesuggestions"></a>ImageSuggestions|Reserved.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="responsivead"></a>ResponsiveAd|Reserved.|[ResponsiveAd](responsivead.md)|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
-|<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
+|<a name="imagerefineoperations"></a>ImageRefineOperations|The image refinement operations to apply.|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md) array|
+|<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the responsive ad.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
+|<a name="responsivead"></a>ResponsiveAd|The responsive ad whose assets you want to refine.|[ResponsiveAd](responsivead.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include in the recommendation.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
+|<a name="textrefineoperations"></a>TextRefineOperations|The text refinement operations to apply.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -45,8 +45,8 @@ The *RefineResponsiveAdRecommendationResponse* object defines the [body](#respon
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="mediarefineresults"></a>MediaRefineResults|Reserved.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
-|<a name="textrefineresults"></a>TextRefineResults|Reserved.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
+|<a name="mediarefineresults"></a>MediaRefineResults|The media refinement results.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
+|<a name="textrefineresults"></a>TextRefineResults|The text refinement results.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -584,11 +584,11 @@ The *RefineResponsiveAdRecommendationRequest* object defines the [body](#request
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="imagerefineoperations"></a>ImageRefineOperations|Reserved.|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md) array|
-|<a name="imagesuggestions"></a>ImageSuggestions|Reserved.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="responsivead"></a>ResponsiveAd|Reserved.|[ResponsiveAd](responsivead.md)|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
-|<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
+|<a name="imagerefineoperations"></a>ImageRefineOperations|The image refinement operations to apply.|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md) array|
+|<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the responsive ad.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
+|<a name="responsivead"></a>ResponsiveAd|The responsive ad whose assets you want to refine.|[ResponsiveAd](responsivead.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include in the recommendation.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
+|<a name="textrefineoperations"></a>TextRefineOperations|The text refinement operations to apply.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -600,8 +600,8 @@ The *RefineResponsiveAdRecommendationResponse* object defines the [body](#respon
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="mediarefineresults"></a>MediaRefineResults|Reserved.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
-|<a name="textrefineresults"></a>TextRefineResults|Reserved.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
+|<a name="mediarefineresults"></a>MediaRefineResults|The media refinement results.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
+|<a name="textrefineresults"></a>TextRefineResults|The text refinement results.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

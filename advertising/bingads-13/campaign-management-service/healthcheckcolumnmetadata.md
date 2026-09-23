@@ -51,10 +51,10 @@ The [HealthCheckColumnMetadata](healthcheckcolumnmetadata.md) object has the fol
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="healthcheckactionlinksmetadata"></a>HealthCheckActionLinksMetadata|Reserved.|[HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md) array|
-|<a name="key"></a>Key|Reserved.|**string**|
-|<a name="title"></a>Title|Reserved.|**string**|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="healthcheckactionlinksmetadata"></a>HealthCheckActionLinksMetadata|The metadata for action links associated with the health check column.|[HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md) array|
+|<a name="key"></a>Key|The key that identifies the health check column.|**string**|
+|<a name="title"></a>Title|The display title of the health check column.|**string**|
+|<a name="type"></a>Type|The data type of the health check column.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

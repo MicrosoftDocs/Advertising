@@ -57,12 +57,12 @@ The [VideoTemplateFilter](videotemplatefilter.md) object has the following eleme
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="aspectratios"></a>AspectRatios|Reserved.|**string** array|
-|<a name="durations"></a>Durations|Reserved.|**int** array|
-|<a name="maxmediaassetcount"></a>MaxMediaAssetCount|Reserved.|**int**|
-|<a name="maxtextassetcount"></a>MaxTextAssetCount|Reserved.|**int**|
-|<a name="templateids"></a>TemplateIds|Reserved.|**string** array|
-|<a name="themes"></a>Themes|Reserved.|**string** array|
+|<a name="aspectratios"></a>AspectRatios|The aspect ratios of the video templates to return.|**string** array|
+|<a name="durations"></a>Durations|The durations, in seconds, of the video templates to return.|**int** array|
+|<a name="maxmediaassetcount"></a>MaxMediaAssetCount|The maximum number of media assets supported by the video templates to return.|**int**|
+|<a name="maxtextassetcount"></a>MaxTextAssetCount|The maximum number of text assets supported by the video templates to return.|**int**|
+|<a name="templateids"></a>TemplateIds|The identifiers of the video templates to return.|**string** array|
+|<a name="themes"></a>The themes of the video templates to return.|**string** array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

@@ -51,7 +51,7 @@ The [AdRecommendationVideoSuggestion](adrecommendationvideosuggestion.md) object
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="video"></a>Video|Reserved.|[Video](video.md)|
+|<a name="video"></a>Video|The suggested video.|[Video](video.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

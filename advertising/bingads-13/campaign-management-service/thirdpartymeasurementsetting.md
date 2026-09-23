@@ -49,7 +49,7 @@ The [ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md) object has t
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="details"></a>Details|Reserved.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
+|<a name="details"></a>Details|The key and value pairs that configure third-party measurement.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
 
 The [ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md) object has [Inherited Elements](#inheritedelements).
 
@@ -60,9 +60,8 @@ The [ThirdPartyMeasurementSetting](thirdpartymeasurementsetting.md) object deriv
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="type"></a>Type|Reserved.|**string**|
+|<a name="type"></a>Type|The type of setting. This value is *ThirdPartyMeasurementSetting* when you retrieve a third-party measurement setting.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

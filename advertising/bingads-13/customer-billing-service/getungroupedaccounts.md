@@ -29,7 +29,7 @@ The *GetUngroupedAccountsRequest* object defines the [body](#request-body) and [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer whose ungrouped accounts you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -41,7 +41,7 @@ The *GetUngroupedAccountsResponse* object defines the [body](#response-body) and
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="ungroupedaccounts"></a>UngroupedAccounts|Reserved.|[UngroupedAccount](ungroupedaccount.md) array|
+|<a name="ungroupedaccounts"></a>UngroupedAccounts|The customer's accounts that are not assigned to a billing group.|[UngroupedAccount](ungroupedaccount.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -170,7 +170,7 @@ The *GetUngroupedAccountsRequest* object defines the [body](#request-body) and [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="customerid"></a>CustomerId|Reserved.|**long**|
+|<a name="customerid"></a>CustomerId|The Microsoft Advertising identifier of the customer whose ungrouped accounts you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -182,7 +182,7 @@ The *GetUngroupedAccountsResponse* object defines the [body](#response-body) and
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="ungroupedaccounts"></a>UngroupedAccounts|Reserved.|[UngroupedAccount](ungroupedaccount.md) array|
+|<a name="ungroupedaccounts"></a>UngroupedAccounts|The customer's accounts that are not assigned to a billing group.|[UngroupedAccount](ungroupedaccount.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

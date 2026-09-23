@@ -45,10 +45,10 @@ The [DiagnosticTileData](diagnostictiledata.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="description"></a>Description|Reserved.|**string**|
-|<a name="headline"></a>Headline|Reserved.|**string**|
-|<a name="progresspercent"></a>ProgressPercent|Reserved.|**int**|
-|<a name="title"></a>Title|Reserved.|**string**|
+|<a name="description"></a>Description|The diagnostic tile description.|**string**|
+|<a name="headline"></a>Headline|The diagnostic tile headline.|**string**|
+|<a name="progresspercent"></a>ProgressPercent|The completion percentage displayed by the diagnostic tile.|**int**|
+|<a name="title"></a>Title|The diagnostic tile title.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

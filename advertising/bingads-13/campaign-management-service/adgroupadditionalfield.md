@@ -55,8 +55,8 @@ The [AdGroupAdditionalField](adgroupadditionalfield.md) value set has the follow
 |<a name="mcpabid"></a>McpaBid|Request that the [McpaBid](adgroup.md#mcpabid) element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="multimediaadsbidadjustment"></a>MultimediaAdsBidAdjustment|Request that the MultimediaAdsBidAdjustment element be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="percentcpcbid"></a>PercentCpcBid|Request that the [PercentCpcBid](adgroup.md#percentcpcbid) element be included within each returned [AdGroup](adgroup.md) object.|
-|<a name="targetsettingforcustomlinkedin"></a>TargetSettingForCustomLinkedIn|Reserved.|
-|<a name="targetsettingforjobseniority"></a>TargetSettingForJobSeniority|Reserved.|
+|<a name="targetsettingforcustomlinkedin"></a>TargetSettingForCustomLinkedIn|Request that the target setting for custom LinkedIn profile criteria be included within each returned [AdGroup](adgroup.md) object.|
+|<a name="targetsettingforjobseniority"></a>TargetSettingForJobSeniority|Request that the target setting for job seniority criteria be included within each returned [AdGroup](adgroup.md) object.|
 |<a name="useoptimizedtargeting"></a>UseOptimizedTargeting|This will be deprecated. Use *UsePredictiveTargeting* instead.|
 |<a name="usepredictivetargeting"></a>UsePredictiveTargeting|Indicates if predictive targeting is enabled for an AdGroup.<br/><br/>*Note*: UsePredictiveTargeting is only available for Audience campaigns.<br/><br/>**Add:** Optional<br/>**Update:** Optional.|
 

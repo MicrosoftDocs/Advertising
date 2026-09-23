@@ -102,7 +102,7 @@ The [GoogleImportJob](googleimportjob.md) object has the following elements: [Ca
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="campaignadgroupids"></a>CampaignAdGroupIds|The list of campaigns and their ad groups to import from Google Ads.<br/><br/>The identifiers are saved but not validated when you create an import job. If you include invalid campaign or ad group IDs, or if they become invalid e.g., the entities are deleted later from Google Ads, the invalid entities will be skipped during import.<br/><br/>**Add:** Optional. If this element is not set, then all of the campaigns and ad groups in the [Google Ads account](#googleaccountid) are eligible for import. The set of imported entities also depends on your [import options](#importoption).<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|[CampaignAdGroupIds](campaignadgroupids.md) array|
-|<a name="campaigntypes"></a>CampaignTypes|Reserved.|**string** array|
+|<a name="campaigntypes"></a>CampaignTypes|The campaign types to include in the import.|**string** array|
 |<a name="credentialid"></a>CredentialId|Authorizes a Google Ads user to import accounts to Microsoft Advertising.<br/><br/>This element is not returned when you get the [GoogleImportJob](googleimportjob.md).<br/><br/>See the [Get an Import Credential ID](../guides/google-ads-import.md#get-credentialid) guide for more details.<br/><br/>**Add:** Required<br/>**Update:** Read-only|**string**|
 |<a name="googleaccountid"></a>GoogleAccountId|The Google Ads account to import.<br/><br/>**Add:** Required<br/>**Update:** Read-only|**long**|
 |<a name="googleusername"></a>GoogleUserName|The Google account i.e., the Google user credentials with access to the Google Ads [account](#googleaccountid).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
@@ -132,4 +132,3 @@ The [GoogleImportJob](googleimportjob.md) object derives from the [ImportJob](im
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

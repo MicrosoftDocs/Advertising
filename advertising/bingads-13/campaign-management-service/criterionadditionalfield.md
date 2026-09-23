@@ -34,7 +34,7 @@ The [CriterionAdditionalField](criterionadditionalfield.md) value set has the fo
 |-----------|---------------|
 |<a name="criterioncashback"></a>CriterionCashback|Request that the ```CriterionCashback``` element be included within each returned [BiddableAdGroupCriterion](biddableadgroupcriterion.md) or [BiddableCampaignCriterion](biddablecampaigncriterion.md) object.|
 |<a name="operator"></a>Operator|Defines the relationship between the field and the value.|
-|<a name="placement"></a>Placement|Reserved.|
+|<a name="placement"></a>Placement|Request that placement criterion fields be included in the response.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

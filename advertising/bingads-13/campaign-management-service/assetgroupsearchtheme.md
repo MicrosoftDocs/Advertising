@@ -45,7 +45,7 @@ The [AssetGroupSearchTheme](assetgroupsearchtheme.md) object has the following e
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The system generated asset group ID.<br /><br />**Add**: Read-only<br />**Update**: Read-only |**long**|
 |<a name="searchtheme"></a>SearchTheme|The type of search theme.|**string**|
-|<a name="status"></a>Status|Reserved.|[GenericEntityStatus](genericentitystatus.md)|
+|<a name="status"></a>Status|The status of the asset group search theme.<br/><br/>**Add:** Optional<br/>**Update:** Optional|[GenericEntityStatus](genericentitystatus.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

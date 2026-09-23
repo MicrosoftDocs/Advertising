@@ -61,17 +61,17 @@ The [ClipchampTemplateInfo](clipchamptemplateinfo.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="aspectratio"></a>AspectRatio|Reserved.|**string**|
-|<a name="duration"></a>Duration|Reserved.|**int**|
-|<a name="numberofimages"></a>NumberOfImages|Reserved.|**int**|
-|<a name="numberoflogos"></a>NumberOfLogos|Reserved.|**int**|
-|<a name="numberoftext"></a>NumberOfText|Reserved.|**int**|
-|<a name="templatedescription"></a>TemplateDescription|Reserved.|**string**|
-|<a name="templateid"></a>TemplateId|Reserved.|**string**|
-|<a name="templatename"></a>TemplateName|Reserved.|**string**|
-|<a name="templatepreviewurl"></a>TemplatePreviewUrl|Reserved.|**string**|
-|<a name="templatethumbnailurl"></a>TemplateThumbnailUrl|Reserved.|**string**|
-|<a name="themes"></a>Themes|Reserved.|**string** array|
+|<a name="aspectratio"></a>AspectRatio|The aspect ratio of the video template.|**string**|
+|<a name="duration"></a>Duration|The duration of the video template in seconds.|**int**|
+|<a name="numberofimages"></a>NumberOfImages|The number of image assets that the video template supports.|**int**|
+|<a name="numberoflogos"></a>NumberOfLogos|The number of logo assets that the video template supports.|**int**|
+|<a name="numberoftext"></a>NumberOfText|The number of text assets that the video template supports.|**int**|
+|<a name="templatedescription"></a>TemplateDescription|The video template description.|**string**|
+|<a name="templateid"></a>TemplateId|The identifier of the video template.|**string**|
+|<a name="templatename"></a>TemplateName|The video template name.|**string**|
+|<a name="templatepreviewurl"></a>TemplatePreviewUrl|The URL of a preview of the video template.|**string**|
+|<a name="templatethumbnailurl"></a>TemplateThumbnailUrl|The URL of the video template thumbnail.|**string**|
+|<a name="themes"></a>Themes|The themes associated with the video template.|**string** array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

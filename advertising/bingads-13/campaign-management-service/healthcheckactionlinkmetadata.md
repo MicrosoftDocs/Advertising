@@ -43,9 +43,9 @@ The [HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md) object has
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="linkname"></a>LinkName|Reserved.|**string**|
-|<a name="linktemplate"></a>LinkTemplate|Reserved.|**string**|
-|<a name="linktype"></a>LinkType|Reserved.|**string**|
+|<a name="linkname"></a>LinkName|The display name of the action link.|**string**|
+|<a name="linktemplate"></a>LinkTemplate|The template used to construct the action link.|**string**|
+|<a name="linktype"></a>LinkType|The type of action link.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

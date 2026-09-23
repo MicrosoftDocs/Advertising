@@ -54,7 +54,7 @@ The [CompanyName](companyname.md) object has the following elements: [Id](#id), 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="id"></a>Id|The company name ID.|**long**|
-|<a name="linkedincompany"></a>LinkedInCompany|Reserved.|[LinkedInCompanyData](linkedincompanydata.md)|
+|<a name="linkedincompany"></a>LinkedInCompany|The matched LinkedIn company data.|[LinkedInCompanyData](linkedincompanydata.md)|
 |<a name="name"></a>Name|The company name.|**string**|
 |<a name="status"></a>Status|The company name status.|[CompanyNameStatus](companynamestatus.md)|
 

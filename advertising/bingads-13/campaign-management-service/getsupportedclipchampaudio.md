@@ -29,7 +29,7 @@ The *GetSupportedClipchampAudioRequest* object defines the [body](#request-body)
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiofilter"></a>AudioFilter|Reserved.|[AudioFilter](audiofilter.md)|
+|<a name="audiofilter"></a>AudioFilter|The criteria to use to filter the supported audio tracks.|[AudioFilter](audiofilter.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -41,7 +41,7 @@ The *GetSupportedClipchampAudioResponse* object defines the [body](#response-bod
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="data"></a>Data|Reserved.|[SupportedClipchampAudioData](supportedclipchampaudiodata.md)|
+|<a name="data"></a>Data|The supported audio tracks that match the request criteria.|[SupportedClipchampAudioData](supportedclipchampaudiodata.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -175,7 +175,7 @@ The *GetSupportedClipchampAudioRequest* object defines the [body](#request-body)
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="audiofilter"></a>AudioFilter|Reserved.|[AudioFilter](audiofilter.md)|
+|<a name="audiofilter"></a>AudioFilter|The criteria to use to filter the supported audio tracks.|[AudioFilter](audiofilter.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -187,7 +187,7 @@ The *GetSupportedClipchampAudioResponse* object defines the [body](#response-bod
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="data"></a>Data|Reserved.|[SupportedClipchampAudioData](supportedclipchampaudiodata.md)|
+|<a name="data"></a>Data|The supported audio tracks that match the request criteria.|[SupportedClipchampAudioData](supportedclipchampaudiodata.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

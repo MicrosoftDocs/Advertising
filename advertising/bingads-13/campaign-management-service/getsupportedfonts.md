@@ -29,7 +29,7 @@ The *GetSupportedFontsRequest* object defines the [body](#request-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adsubtype"></a>AdSubType|Reserved.|[AdSubType](adsubtype.md)|
+|<a name="adsubtype"></a>AdSubType|The ad subtype for which to get supported fonts.|[AdSubType](adsubtype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -41,7 +41,7 @@ The *GetSupportedFontsResponse* object defines the [body](#response-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="data"></a>Data|Reserved.|[SupportedFontsData](supportedfontsdata.md)|
+|<a name="data"></a>Data|The fonts supported for the specified ad subtype.|[SupportedFontsData](supportedfontsdata.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -169,7 +169,7 @@ The *GetSupportedFontsRequest* object defines the [body](#request-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="adsubtype"></a>AdSubType|Reserved.|[AdSubType](adsubtype.md)|
+|<a name="adsubtype"></a>AdSubType|The ad subtype for which to get supported fonts.|[AdSubType](adsubtype.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -181,7 +181,7 @@ The *GetSupportedFontsResponse* object defines the [body](#response-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="data"></a>Data|Reserved.|[SupportedFontsData](supportedfontsdata.md)|
+|<a name="data"></a>Data|The fonts supported for the specified ad subtype.|[SupportedFontsData](supportedfontsdata.md)|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

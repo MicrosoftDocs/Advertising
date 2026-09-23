@@ -80,8 +80,8 @@ The [DiagnosticCardData](diagnosticcarddata.md) object has the following element
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="checkpointsdata"></a>CheckpointsData|Reserved.|[HealthCheckData](healthcheckdata.md) array|
-|<a name="metadata"></a>Metadata|Reserved.|[HealthCheckMetadata](healthcheckmetadata.md)|
+|<a name="checkpointsdata"></a>CheckpointsData|The health check results in the diagnostic card.|[HealthCheckData](healthcheckdata.md) array|
+|<a name="metadata"></a>Metadata|The metadata that describes the diagnostic card.|[HealthCheckMetadata](healthcheckmetadata.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

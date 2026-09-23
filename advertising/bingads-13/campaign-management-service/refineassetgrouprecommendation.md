@@ -31,9 +31,9 @@ The *RefineAssetGroupRecommendationRequest* object defines the [body](#request-b
 |-----------|---------------|-------------|
 |<a name="assetgroup"></a>AssetGroup|An asset group object containing recommended text assets.|[AssetGroup](assetgroup.md)|
 |<a name="imagerefineoperations"></a>ImageRefineOperations|Array of image refine operations.|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md) array|
-|<a name="imagesuggestions"></a>ImageSuggestions|Reserved.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
-|<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
+|<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the asset group.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include in the recommendation.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
+|<a name="textrefineoperations"></a>TextRefineOperations|The text refinement operations to apply.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]
@@ -45,8 +45,8 @@ The *RefineAssetGroupRecommendationResponse* object defines the [body](#response
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="mediarefineresults"></a>MediaRefineResults|Reserved.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
-|<a name="textrefineresults"></a>TextRefineResults|Reserved.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
+|<a name="mediarefineresults"></a>MediaRefineResults|The media refinement results.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
+|<a name="textrefineresults"></a>TextRefineResults|The text refinement results.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]
@@ -594,9 +594,9 @@ The *RefineAssetGroupRecommendationRequest* object defines the [body](#request-b
 |-----------|---------------|-------------|
 |<a name="assetgroup"></a>AssetGroup|An asset group object containing recommended text assets.|[AssetGroup](assetgroup.md)|
 |<a name="imagerefineoperations"></a>ImageRefineOperations|Array of image refine operations.|[AdRecommendationImageRefineOperation](adrecommendationimagerefineoperation.md) array|
-|<a name="imagesuggestions"></a>ImageSuggestions|Reserved.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|Reserved.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
-|<a name="textrefineoperations"></a>TextRefineOperations|Reserved.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
+|<a name="imagesuggestions"></a>ImageSuggestions|An array of images recommended to be included in the asset group.|[AdRecommendationImageSuggestion](adrecommendationimagesuggestion.md) array|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties to include in the recommendation.|[AdRecommendationAdditionalField](adrecommendationadditionalfield.md)|
+|<a name="textrefineoperations"></a>TextRefineOperations|The text refinement operations to apply.|[AdRecommendationTextRefineOperation](adrecommendationtextrefineoperation.md) array|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header-rest.md)]
@@ -608,8 +608,8 @@ The *RefineAssetGroupRecommendationResponse* object defines the [body](#response
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="mediarefineresults"></a>MediaRefineResults|Reserved.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
-|<a name="textrefineresults"></a>TextRefineResults|Reserved.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
+|<a name="mediarefineresults"></a>MediaRefineResults|The media refinement results.|[AdRecommendationMediaRefineResult](adrecommendationmediarefineresult.md) array|
+|<a name="textrefineresults"></a>TextRefineResults|The text refinement results.|[AdRecommendationTextRefineResult](adrecommendationtextrefineresult.md) array|
 
 ### <a name="response-header"></a>Response Header Elements
 [!INCLUDE[response-header](./includes/response-header.md)]

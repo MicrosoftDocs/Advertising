@@ -55,12 +55,12 @@ The [DiagnosticCategoryData](diagnosticcategorydata.md) object has the following
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="actionlinks"></a>ActionLinks|Reserved.|[HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md) array|
-|<a name="categorydisplayname"></a>CategoryDisplayName|Reserved.|**string**|
-|<a name="categorykey"></a>CategoryKey|Reserved.|**string**|
-|<a name="categoryseverity"></a>CategorySeverity|Reserved.|**string**|
-|<a name="categorystatus"></a>CategoryStatus|Reserved.|**string**|
-|<a name="description"></a>Description|Reserved.|**string**|
+|<a name="actionlinks"></a>ActionLinks|The links to actions that can address the diagnostic findings.|[HealthCheckActionLinkMetadata](healthcheckactionlinkmetadata.md) array|
+|<a name="categorydisplayname"></a>CategoryDisplayName|The display name of the diagnostic category.|**string**|
+|<a name="categorykey"></a>CategoryKey|The key that identifies the diagnostic category.|**string**|
+|<a name="categoryseverity"></a>CategorySeverity|The severity of the diagnostic category.|**string**|
+|<a name="categorystatus"></a>CategoryStatus|The status of the diagnostic category.|**string**|
+|<a name="description"></a>Description|The diagnostic category description.|**string**|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

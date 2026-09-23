@@ -53,10 +53,10 @@ The [AdRecommendationTextField](adrecommendationtextfield.md) value set has the 
 
 |Value|Description|
 |-----------|---------------|
-|<a name="calltoaction"></a>CallToAction|Reserved.|
-|<a name="description"></a>Description|Reserved.|
-|<a name="headline"></a>Headline|Reserved.|
-|<a name="longheadline"></a>LongHeadline|Reserved.|
+|<a name="calltoaction"></a>CallToAction|The text field is a call to action.|
+|<a name="description"></a>Description|The text field is a description.|
+|<a name="headline"></a>Headline|The text field is a headline.|
+|<a name="longheadline"></a>LongHeadline|The text field is a long headline.|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

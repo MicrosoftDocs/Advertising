@@ -151,6 +151,8 @@
 - name: Guides
   href: ./technical-guides.md
   displayName: technical guides
+- name: PromoteIQ
+  href: ./promote-iq.md
 - name: Client Libraries
   items:
   - name: Overview
@@ -398,6 +400,10 @@
       href: ../ad-insight-service/dismissrecommendationentity.md
     - name: DomainCategory
       href: ../ad-insight-service/domaincategory.md
+    - name: EntityDetail
+      href: ../ad-insight-service/entitydetail.md
+    - name: EntityParameter
+      href: ../ad-insight-service/entityparameter.md
     - name: EstimatedBidAndTraffic
       href: ../ad-insight-service/estimatedbidandtraffic.md
     - name: EstimatedPositionAndTraffic
@@ -534,8 +540,12 @@
       href: ../ad-insight-service/suggestedresponsivesearchad.md
     - name: TextAssetSuggestions
       href: ../ad-insight-service/textassetsuggestions.md
+    - name: TextParameter
+      href: ../ad-insight-service/textparameter.md
     - name: TrafficEstimate
       href: ../ad-insight-service/trafficestimate.md
+    - name: UrlParameter
+      href: ../ad-insight-service/urlparameter.md
     - name: UrlSearchParameter
       href: ../ad-insight-service/urlsearchparameter.md
     - name: UseBroadMatchKeywordRecommendation
@@ -549,6 +559,8 @@
       href: ../ad-insight-service/adgroupbidlandscapetype.md
     - name: AdPosition
       href: ../ad-insight-service/adposition.md
+    - name: AgeEnum
+      href: ../ad-insight-service/ageenum.md
     - name: AuctionInsightKpiAdditionalField
       href: ../ad-insight-service/auctioninsightkpiadditionalfield.md
     - name: AuctionSegment
@@ -573,10 +585,14 @@
       href: ../ad-insight-service/deviceenum.md
     - name: EntityType
       href: ../ad-insight-service/entitytype.md
+    - name: GenderEnum
+      href: ../ad-insight-service/genderenum.md
     - name: KeywordIdeaAttribute
       href: ../ad-insight-service/keywordideaattribute.md
     - name: KeywordOpportunityType
       href: ../ad-insight-service/keywordopportunitytype.md
+    - name: KPIType
+      href: ../ad-insight-service/kpitype.md
     - name: MatchType
       href: ../ad-insight-service/matchtype.md
     - name: NetworkType
@@ -591,8 +607,12 @@
       href: ../ad-insight-service/performanceinsightsurlcategory.md
     - name: PerformanceInsightsUrlId
       href: ../ad-insight-service/performanceinsightsurlid.md
+    - name: RadiusUnit
+      href: ../ad-insight-service/radiusunit.md
     - name: RecommendationType
       href: ../ad-insight-service/recommendationtype.md
+    - name: ScaleUnit
+      href: ../ad-insight-service/scaleunit.md
     - name: SourceType
       href: ../ad-insight-service/sourcetype.md
     - name: TargetAdPosition
@@ -697,9 +717,6 @@
     - name: Account Action Ad Extension
       href: ../bulk-service/account-action-ad-extension.md
       displayName: BulkAccountActionAdExtension
-    - name: Ad Group Advance Booking Window Criterion
-      href: ../bulk-service/ad-group-advance-booking-window-criterion.md
-      displayName: BulkAdGroupAdvanceBookingWindowCriterion
     - name: Account App Ad Extension
       href: ../bulk-service/account-app-ad-extension.md
       displayName: BulkAccountAppAdExtension
@@ -742,12 +759,12 @@
     - name: Account Review Ad Extension
       href: ../bulk-service/account-review-ad-extension.md
       displayName: BulkAccountReviewAdExtension
-    - name: Account Shared Negative Keyword
-      href: ../bulk-service/account-shared-negative-keyword.md
-      displayName: BulkAccountSharedNegativeKeyword
     - name: Account Shared Content Negative Keyword
       href: ../bulk-service/account-shared-content-negative-keyword.md
       displayName: BulkAccountSharedContentNegativeKeyword
+    - name: Account Shared Negative Keyword
+      href: ../bulk-service/account-shared-negative-keyword.md
+      displayName: BulkAccountSharedNegativeKeyword
     - name: Account Sitelink Ad Extension
       href: ../bulk-service/account-sitelink-ad-extension.md
       displayName: BulkAccountSitelinkAdExtension
@@ -766,6 +783,9 @@
     - name: Ad Group Action Ad Extension
       href: ../bulk-service/ad-group-action-ad-extension.md
       displayName: BulkAdGroupActionAdExtension
+    - name: Ad Group Advance Booking Window Criterion
+      href: ../bulk-service/ad-group-advance-booking-window-criterion.md
+      displayName: BulkAdGroupAdvanceBookingWindowCriterion
     - name: Ad Group Age Criterion
       href: ../bulk-service/ad-group-age-criterion.md
       displayName: BulkAdGroupAgeCriterion
@@ -775,12 +795,12 @@
     - name: Ad Group Callout Ad Extension
       href: ../bulk-service/ad-group-callout-ad-extension.md
       displayName: BulkAdGroupCalloutAdExtension
-    - name: Ad Group Check In Day Criterion
-      href: ../bulk-service/ad-group-check-in-day-criterion.md
-      displayName: BulkAdGroupCheckInDayCriterion
     - name: Ad Group Check In Date Criterion
       href: ../bulk-service/ad-group-check-in-date-criterion.md
       displayName: BulkAdGroupCheckInDateCriterion
+    - name: Ad Group Check In Day Criterion
+      href: ../bulk-service/ad-group-check-in-day-criterion.md
+      displayName: BulkAdGroupCheckInDayCriterion
     - name: Ad Group Combined List Association
       href: ../bulk-service/ad-group-combined-list-association.md
       displayName: BulkAdGroupCombinedListAssociation
@@ -805,15 +825,15 @@
     - name: Ad Group Dynamic Search Ad Target
       href: ../bulk-service/ad-group-dynamic-search-ad-target.md
       displayName: BulkAdGroupDynamicSearchAdTarget
-    - name: Ad Group Gender Criterion
-      href: ../bulk-service/ad-group-gender-criterion.md
-      displayName: BulkAdGroupGenderCriterion
     - name: Ad Group Filter Link Ad Extension
       href: ../bulk-service/ad-group-filter-link-ad-extension.md
       displayName: BulkAdGroupFilterLinkAdExtension
     - name: Ad Group Flyer Ad Extension
       href: ../bulk-service/ad-group-flyer-ad-extension.md
       displayName: BulkAdGroupFlyerAdExtension
+    - name: Ad Group Gender Criterion
+      href: ../bulk-service/ad-group-gender-criterion.md
+      displayName: BulkAdGroupGenderCriterion
     - name: Ad Group Hotel Date Selection Type Criterion
       href: ../bulk-service/ad-group-hotel-date-selection-type-criterion.md
       displayName: BulkAdGroupHotelDateSelectionTypeCriterion
@@ -826,12 +846,12 @@
     - name: Ad Group Impression Based Remarketing List Association
       href: ../bulk-service/ad-group-impression-based-remarketing-list-association.md
       displayName: BulkAdGroupImpressionBasedRemarketingListAssociation
-    - name: Ad Group Industry Criterion
-      href: ../bulk-service/ad-group-industry-criterion.md
-      displayName: BulkAdGroupIndustryCriterion
     - name: Ad Group In Market Audience Association
       href: ../bulk-service/ad-group-in-market-audience-association.md
       displayName: BulkAdGroupInMarketAudienceAssociation
+    - name: Ad Group Industry Criterion
+      href: ../bulk-service/ad-group-industry-criterion.md
+      displayName: BulkAdGroupIndustryCriterion
     - name: Ad Group Job Function Criterion
       href: ../bulk-service/ad-group-job-function-criterion.md
       displayName: BulkAdGroupJobFunctionCriterion
@@ -874,33 +894,33 @@
     - name: Ad Group Negative Impression Based Remarketing List Association
       href: ../bulk-service/ad-group-negative-impression-based-remarketing-list-association.md
       displayName: BulkAdGroupNegativeImpressionBasedRemarketingListAssociation
-    - name: Ad Group Negative Industry Criterion
-      href: ../bulk-service/ad-group-negative-industry-criterion.md
-      displayName: BulkAdGroupNegativeIndustryCriterion
     - name: Ad Group Negative In Market Audience Association
       href: ../bulk-service/ad-group-negative-in-market-audience-association.md
       displayName: BulkAdGroupNegativeInMarketAudienceAssociation
+    - name: Ad Group Negative Industry Criterion
+      href: ../bulk-service/ad-group-negative-industry-criterion.md
+      displayName: BulkAdGroupNegativeIndustryCriterion
     - name: Ad Group Negative Job Function Criterion
       href: ../bulk-service/ad-group-negative-job-function-criterion.md
       displayName: BulkAdGroupNegativeJobFunctionCriterion
-    - name: Ad Group Negative Location Criterion
-      href: ../bulk-service/ad-group-negative-location-criterion.md
-      displayName: BulkAdGroupNegativeLocationCriterion
     - name: Ad Group Negative Keyword
       href: ../bulk-service/ad-group-negative-keyword.md
       displayName: BulkAdGroupNegativeKeyword
+    - name: Ad Group Negative Location Criterion
+      href: ../bulk-service/ad-group-negative-location-criterion.md
+      displayName: BulkAdGroupNegativeLocationCriterion
     - name: Ad Group Negative Product Audience Association
       href: ../bulk-service/ad-group-negative-product-audience-association.md
       displayName: BulkAdGroupNegativeProductAudienceAssociation
-    - name: Ad Group Negative Site
-      href: ../bulk-service/ad-group-negative-site.md
-      displayName: BulkAdGroupNegativeSite
     - name: Ad Group Negative Remarketing List Association
       href: ../bulk-service/ad-group-negative-remarketing-list-association.md
       displayName: BulkAdGroupNegativeRemarketingListAssociation
     - name: Ad Group Negative Similar Remarketing List Association
       href: ../bulk-service/ad-group-negative-similar-remarketing-list-association.md
       displayName: BulkAdGroupNegativeSimilarRemarketingListAssociation
+    - name: Ad Group Negative Site
+      href: ../bulk-service/ad-group-negative-site.md
+      displayName: BulkAdGroupNegativeSite
     - name: Ad Group Placement Criterion
       href: ../bulk-service/ad-group-placement-criterion.md
       displayName: BulkAdGroupNegativeSimilarRemarketingListAssociation
@@ -1003,6 +1023,9 @@
     - name: Campaign Company Name Criterion
       href: ../bulk-service/campaign-company-name-criterion.md
       displayName: BulkCampaignCompanyNameCriterion
+    - name: Campaign Conversion Goal
+      href: ../bulk-service/campaign-conversion-goal.md
+      displayName: CampaignConversionGoal
     - name: Campaign Custom Audience Association
       href: ../bulk-service/campaign-custom-audience-association.md
       displayName: BulkCampaignCustomAudienceAssociation
@@ -1024,30 +1047,27 @@
     - name: Campaign Flyer Ad Extension
       href: ../bulk-service/campaign-flyer-ad-extension.md
       displayName: BulkCampaignFlyerAdExtension
-    - name: Campaign Image Ad Extension
-      href: ../bulk-service/campaign-image-ad-extension.md
-      displayName: BulkCampaignImageAdExtension
     - name: Campaign Gender Criterion
       href: ../bulk-service/campaign-gender-criterion.md
       displayName: BulkCampaignGenderCriterion
+    - name: Campaign Image Ad Extension
+      href: ../bulk-service/campaign-image-ad-extension.md
+      displayName: BulkCampaignImageAdExtension
     - name: Campaign Impression Based Remarketing List Association
       href: ../bulk-service/campaign-impression-based-remarketing-list-association.md
       displayName: BulkCampaignImpressionBasedRemarketingListAssociation
-    - name: Campaign Industry Criterion
-      href: ../bulk-service/campaign-industry-criterion.md
-      displayName: BulkCampaignIndustryCriterion
     - name: Campaign In Market Audience Association
       href: ../bulk-service/campaign-in-market-audience-association.md
       displayName: BulkCampaignInMarketAudienceAssociation
+    - name: Campaign Industry Criterion
+      href: ../bulk-service/campaign-industry-criterion.md
+      displayName: BulkCampaignIndustryCriterion
     - name: Campaign Job Function Criterion
       href: ../bulk-service/campaign-job-function-criterion.md
       displayName: BulkCampaignJobFunctionCriterion
     - name: Campaign Label
       href: ../bulk-service/campaign-label.md
       displayName: BulkCampaignLabel
-    - name: Campaign Conversion Goal  
-      href: ../bulk-service/campaign-conversion-goal.md
-      displayName: CampaignConversionGoal       
     - name: Campaign Location Ad Extension
       href: ../bulk-service/campaign-location-ad-extension.md
       displayName: BulkCampaignLocationAdExtension
@@ -1063,15 +1083,15 @@
     - name: Campaign Negative Age Criterion
       href: ../bulk-service/campaign-negative-age-criterion.md
       displayName: BulkCampaignNegativeAgeCriterion
-    - name: Campaign Negative Device Criterion
-      href: ../bulk-service/campaign-negative-device-criterion.md
-      displayName: BulkCampaignNegativeDeviceCriterion
     - name: Campaign Negative Combined List Association
       href: ../bulk-service/campaign-negative-combined-list-association.md
       displayName: BulkCampaignNegativeCombinedListAssociation
     - name: Campaign Negative Custom Audience Association
       href: ../bulk-service/campaign-negative-custom-audience-association.md
       displayName: BulkCampaignNegativeCustomAudienceAssociation
+    - name: Campaign Negative Device Criterion
+      href: ../bulk-service/campaign-negative-device-criterion.md
+      displayName: BulkCampaignNegativeDeviceCriterion
     - name: Campaign Negative Customer List Association
       href: ../bulk-service/campaign-negative-customer-list-association.md
       displayName: BulkCampaignNegativeCustomerListAssociation
@@ -1158,6 +1178,9 @@
     - name: Content Placement
       href: ../bulk-service/content-placement.md
       displayName: BulkContentPlacement
+    - name: Conversion Value Rule
+      href: ../bulk-service/conversion-value-rule.md
+      displayName: BulkConversionValueRule
     - name: Custom Audience
       href: ../bulk-service/custom-audience.md
       displayName: BulkCustomAudience
@@ -1185,15 +1208,15 @@
     - name: Dynamic Search Ad Label
       href: ../bulk-service/dynamic-search-ad-label.md
       displayName: BulkDynamicSearchAdLabel
+    - name: Event Goal
+      href: ../bulk-service/event-goal.md
+      displayName: BulkEventGoal
     - name: Expanded Text Ad
       href: ../bulk-service/expanded-text-ad.md
       displayName: BulkExpandedTextAd
     - name: Expanded Text Ad Label
       href: ../bulk-service/expanded-text-ad-label.md
       displayName: BulkExpandedTextAdLabel
-    - name: Event Goal
-      href: ../bulk-service/event-goal.md
-      displayName: BulkEventGoal
     - name: Experiment
       href: ../bulk-service/experiment.md
       displayName: BulkExperiment
@@ -1310,15 +1333,15 @@
     - name: Seasonality Adjustment
       href: ../bulk-service/seasonality-adjustment.md
       displayName: BulkSeasonalityAdjustment
+    - name: Shared Negative Keyword
+      href: ../bulk-service/shared-negative-keyword.md
+      displayName: BulkSharedNegativeKeyword
     - name: Similar Remarketing List
       href: ../bulk-service/similar-remarketing-list.md
       displayName: BulkSimilarRemarketingList
     - name: Sitelink Ad Extension
       href: ../bulk-service/sitelink-ad-extension.md
       displayName: BulkSitelinkAdExtension
-    - name: Shared Negative Keyword
-      href: ../bulk-service/shared-negative-keyword.md
-      displayName: BulkSharedNegativeKeyword
     - name: Structured Snippet Ad Extension
       href: ../bulk-service/structured-snippet-ad-extension.md
       displayName: BulkStructuredSnippetAdExtension
@@ -1352,6 +1375,8 @@
       displayName: campaignmanagement campaign management guides
     - name: Ad Extensions
       href: ./ad-extensions.md
+    - name: API Versioning
+      href: ../campaign-management-service/api-versioning.md
     - name: App Install Ads
       href: ./app-install-ads.md
     - name: Audience Ads
@@ -1852,6 +1877,8 @@
       href: ../campaign-management-service/adrecommendationtextrefineoperation.md
     - name: AdRecommendationTextRefineResult
       href: ../campaign-management-service/adrecommendationtextrefineresult.md
+    - name: AdRecommendationTextSuggestion
+      href: ../campaign-management-service/adrecommendationtextsuggestion.md
     - name: AdRecommendationVideoSuggestion
       href: ../campaign-management-service/adrecommendationvideosuggestion.md
     - name: AdRotation
@@ -1884,6 +1911,10 @@
       href: ../campaign-management-service/asset.md
     - name: AssetGroup
       href: ../campaign-management-service/assetgroup.md
+    - name: AssetGroupEditorialReason
+      href: ../campaign-management-service/assetgroupeditorialreason.md
+    - name: AssetGroupEditorialReasonCollection
+      href: ../campaign-management-service/assetgroupeditorialreasoncollection.md
     - name: AssetGroupListingGroup
       href: ../campaign-management-service/assetgrouplistinggroup.md
     - name: AssetGroupListingGroupAction
@@ -1918,12 +1949,12 @@
       href: ../campaign-management-service/audiofilter.md
     - name: AuditPointResult
       href: ../campaign-management-service/auditpointresult.md
+    - name: BaseDomainSetting
+      href: ../campaign-management-service/basedomainsetting.md
     - name: BatchError
       href: ../campaign-management-service/batcherror.md
     - name: BatchErrorCollection
       href: ../campaign-management-service/batcherrorcollection.md
-    - name: BaseDomainSetting
-      href: ../campaign-management-service/basedomainsetting.md
     - name: Bid
       href: ../campaign-management-service/bid.md
     - name: BiddableAdGroupCriterion
@@ -1938,6 +1969,8 @@
       href: ../campaign-management-service/bidstrategy.md
     - name: BMCStore
       href: ../campaign-management-service/bmcstore.md
+    - name: BrandExclusionSetting
+      href: ../campaign-management-service/brandexclusionsetting.md
     - name: BrandItem
       href: ../campaign-management-service/branditem.md
     - name: BrandKit
@@ -1986,10 +2019,10 @@
       href: ../campaign-management-service/channelplacementcriterion.md
     - name: ClipChampTemplateInfo
       href: ../campaign-management-service/clipchamptemplateinfo.md
-    - name: CombinedList
-      href: ../campaign-management-service/combinedlist.md
     - name: CombinationRule
       href: ../campaign-management-service/combinationrule.md
+    - name: CombinedList
+      href: ../campaign-management-service/combinedlist.md
     - name: CommissionBiddingScheme
       href: ../campaign-management-service/commissionbiddingscheme.md
     - name: Company
@@ -2106,6 +2139,8 @@
       href: ../campaign-management-service/expandedtextad.md
     - name: Experiment
       href: ../campaign-management-service/experiment.md
+    - name: ExperimentArm
+      href: ../campaign-management-service/experimentarm.md
     - name: FileImportJob
       href: ../campaign-management-service/fileimportjob.md
     - name: FileImportOption
@@ -2196,12 +2231,12 @@
       href: ../campaign-management-service/inmarketaudience.md
     - name: InStoreTransactionGoal
       href: ../campaign-management-service/instoretransactiongoal.md
-    - name: Keyword
-      href: ../campaign-management-service/keyword.md
     - name: KeyValuePairOflonglong
       href: ../campaign-management-service/keyvaluepairoflonglong.md
     - name: KeyValuePairOfstringstring
       href: ../campaign-management-service/keyvaluepairofstringstring.md
+    - name: Keyword
+      href: ../campaign-management-service/keyword.md
     - name: Label
       href: ../campaign-management-service/label.md
     - name: LabelAssociation
@@ -2467,6 +2502,8 @@
       href: ../campaign-management-service/adrecommendationimagerefinetype.md
     - name: AdRecommendationTextField
       href: ../campaign-management-service/adrecommendationtextfield.md
+    - name: AdRecommendationTextTone
+      href: ../campaign-management-service/adrecommendationtexttone.md
     - name: AdRecommendationVideoType
       href: ../campaign-management-service/adrecommendationvideotype.md
     - name: AdRotationType
@@ -2533,8 +2570,10 @@
       href: ../campaign-management-service/campaignstatus.md
     - name: CampaignType
       href: ../campaign-management-service/campaigntype.md
-    - name: CampanyNameStatus
+    - name: CompanyNameStatus
       href: ../campaign-management-service/companynamestatus.md
+    - name: CompanySizeCategory
+      href: ../campaign-management-service/companysizecategory.md
     - name: CompressionType
       href: ../campaign-management-service/compressiontype.md
     - name: ConversionGoalAdditionalField
@@ -2553,10 +2592,14 @@
       href: ../campaign-management-service/conversiongoaltype.md
     - name: ConversionValueRuleOperator
       href: ../campaign-management-service/conversionvalueruleoperator.md
+    - name: ConversionValueRuleStatus
+      href: ../campaign-management-service/conversionvaluerulestatus.md
     - name: CriterionAdditionalField
       href: ../campaign-management-service/criterionadditionalfield.md
     - name: CriterionTypeGroup
       href: ../campaign-management-service/criteriontypegroup.md
+    - name: CropType
+      href: ../campaign-management-service/croptype.md
     - name: CustomerListActionType
       href: ../campaign-management-service/customerlistactiontype.md
     - name: CustomerListItemSubType
@@ -2577,6 +2620,8 @@
       href: ../campaign-management-service/entityscope.md
     - name: EntityType
       href: ../campaign-management-service/entitytype.md
+    - name: ExperimentAdditionalField
+      href: ../campaign-management-service/experimentadditionalfield.md
     - name: ExpressionOperator
       href: ../campaign-management-service/expressionoperator.md
     - name: FontTextAssetType
@@ -2663,16 +2708,22 @@
       href: ../campaign-management-service/sharedentityassociationadditionalfield.md
     - name: StringOperator
       href: ../campaign-management-service/stringoperator.md
+    - name: UetTagAdditionalField
+      href: ../campaign-management-service/uettagadditionalfield.md
     - name: UetTagIndustry
       href: ../campaign-management-service/uettagindustry.md
     - name: UetTagTrackingStatus
       href: ../campaign-management-service/uettagtrackingstatus.md
     - name: ValueOperator
       href: ../campaign-management-service/valueoperator.md
+    - name: VanityPharmaDisplayUrlMode
+      href: ../campaign-management-service/vanitypharmadisplayurlmode.md
     - name: VanityPharmaWebsiteDescription
       href: ../campaign-management-service/vanitypharmawebsitedescription.md
     - name: WebpageConditionOperand
       href: ../campaign-management-service/webpageconditionoperand.md
+    - name: WebpageConditionOperator
+      href: ../campaign-management-service/webpageconditionoperator.md
 - name: Customer Billing API
   items: 
   - name: Overview
@@ -2691,6 +2742,8 @@
       href: ../customer-billing-service/claimfeatureadoptioncoupons.md
     - name: DispatchCoupons
       href: ../customer-billing-service/dispatchcoupons.md
+    - name: DistributeCoupons
+      href: ../customer-billing-service/distributecoupons.md
     - name: GetAccountMonthlySpend
       href: ../customer-billing-service/getaccountmonthlyspend.md
     - name: GetBillingDocuments
@@ -2760,8 +2813,6 @@
       href: ../customer-billing-service/paging.md
     - name: Predicate
       href: ../customer-billing-service/predicate.md
-    - name: SearchCoupons
-      href: ../customer-billing-service/searchcoupons.md
     - name: UngroupedAccount
       href: ../customer-billing-service/ungroupedaccount.md
   - name: Customer Billing Value Sets
@@ -2775,10 +2826,10 @@
       href: ../customer-billing-service/datatype.md
     - name: InsertionOrderAdditionalField
       href: ../customer-billing-service/Insertionorderadditionalfield.md
-    - name: InsertionOrderStatus
-      href: ../customer-billing-service/insertionorderstatus.md
     - name: InsertionOrderPendingChangesStatus
       href: ../customer-billing-service/insertionorderpendingchangesstatus.md
+    - name: InsertionOrderStatus
+      href: ../customer-billing-service/insertionorderstatus.md
     - name: OrderByField
       href: ../customer-billing-service/orderbyfield.md
     - name: PredicateOperator
@@ -2987,6 +3038,8 @@
       href: ./reports.md
     - name: Report Attributes and Performance Statistics
       href: ./report-attributes-performance-statistics.md
+    - name: Reporting Verticals
+      href: ./reporting-verticals.md
     - name: Report Types
       href: ./report-types.md
     - name: Request and Download a Report
@@ -3125,12 +3178,12 @@
       href: ../reporting-service/dsacategoryperformancereportrequest.md
     - name: DSASearchQueryPerformanceReportFilter
       href: ../reporting-service/dsasearchqueryperformancereportfilter.md
+    - name: DSASearchQueryPerformanceReportRequest
+      href: ../reporting-service/dsasearchqueryperformancereportrequest.md
     - name: FeedItemPerformanceReportFilter
       href: ../reporting-service/feeditemperformancereportfilter.md
     - name: FeedItemPerformanceReportRequest
       href: ../reporting-service/feeditemperformancereportrequest.md
-    - name: DSASearchQueryPerformanceReportRequest
-      href: ../reporting-service/dsasearchqueryperformancereportrequest.md
     - name: GeographicPerformanceReportFilter
       href: ../reporting-service/geographicperformancereportfilter.md
     - name: GeographicPerformanceReportRequest
@@ -3223,6 +3276,10 @@
       href: ../reporting-service/shareofvoicereportfilter.md
     - name: ShareOfVoiceReportRequest
       href: ../reporting-service/shareofvoicereportrequest.md
+    #- name: TravelQueryInsightReportFilter
+    #  href: ../reporting-service/travelqueryinsightreportfilter.md
+    #- name: TravelQueryInsightReportRequest
+    #  href: ../reporting-service/travelqueryinsightreportrequest.md
     - name: UserLocationPerformanceReportFilter
       href: ../reporting-service/userlocationperformancereportfilter.md
     - name: UserLocationPerformanceReportRequest
@@ -3372,6 +3429,8 @@
       href: ../reporting-service/shareofvoicereportcolumn.md
     - name: SortOrder
       href: ../reporting-service/sortorder.md
+    #- name: TravelQueryInsightReportColumn
+    #  href: ../reporting-service/travelqueryinsightreportcolumn.md
     - name: UserLocationPerformanceReportColumn
       href: ../reporting-service/userlocationperformancereportcolumn.md
 - name: Release Notes

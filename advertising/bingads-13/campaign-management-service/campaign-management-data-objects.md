@@ -91,6 +91,7 @@ The Campaign Management service defines the following data objects.
 |[BidMultiplier](bidmultiplier.md)|Defines the multiplier by which to adjust your base bid for the corresponding criterion.|
 |[BidStrategy](bidstrategy.md)|A portfolio bid strategy is an automated bidding feature that manages bidding across multiple campaigns that are all working toward the same goal.|
 |[BMCStore](bmcstore.md)|Defines a Microsoft Merchant Center store.|
+|[BrandExclusionSetting](brandexclusionsetting.md)|Defines a setting that controls whether product ads are excluded.|
 |[BrandItem](branditem.md)|A data object for the BrandItem.|
 |[BrandKit](brandkit.md)|Defines the brand kit data object.|
 |[BrandKitColor](brandkitcolor.md)|A data object for the brand kit color.|
