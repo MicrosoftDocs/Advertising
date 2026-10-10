@@ -5,15 +5,11 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Defines an ad group in an advertising campaign.
 ---
 # AdGroup Data Object - Campaign Management
 Defines an ad group in an advertising campaign.
-
-AI Max URL inclusions apply to standard Search ad groups. A *SearchDynamic* ad group remains a
-dynamic search ads ad group and continues to use dynamic search ads targeting, even when its Search
-campaign also has AI Max enabled.
 
 > [!NOTE]
 > As of July 2024, you can no longer set the search network where you want your ads to display to *SyndicatedSearchOnly*. If you attempt to set it to *SyndicatedSearchOnly*, the *CampaignServiceInvalidNetwork* error will be returned.

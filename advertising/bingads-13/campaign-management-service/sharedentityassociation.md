@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Defines an object that associates a campaign to negative keyword list, or an ad account to a website exclusion list.
 ---
 # SharedEntityAssociation Data Object - Campaign Management
@@ -13,21 +13,7 @@ Defines an object that associates a campaign to negative keyword list, or an ad 
 
 *BrandList* is a supported *SharedEntityType* and can be associated with a campaign (*EntityType* = "Campaign"). Use *IsExclusion* to specify whether the brand list is applied as an exclusion list (*true*) or an inclusion list (*false*).  
 
-## <a name="ai-max-brand-lists"></a>AI Max brand lists
-
-AI Max brand inclusions require search term matching. Brand exclusions are not subject to this
-requirement.
-
-|Change|Brand inclusion behavior|Brand exclusion behavior|
-|---|---|---|
-|Disable AI Max|Active associations become inactive.|Active associations can become inactive.|
-|Enable AI Max|Applicable inactive associations can become active.|Applicable inactive associations can become active.|
-|Disable search term matching|Active associations become inactive.|No change.|
-|Enable search term matching|Applicable inactive associations become active.|No change.|
-
-While search term matching is off, an existing inclusion can be set to *Inactive*, but it cannot be
-added, reactivated, or deleted. A blocked operation returns error 6909,
-*BrandInclusionRequiresSearchTermMatching*.
+For AI Max brand inclusion, brand list inclusion associations can be added or removed only when search term matching (STM) is enabled. If STM is disabled, the operation is rejected and an error is returned.
 
 ## Syntax
 

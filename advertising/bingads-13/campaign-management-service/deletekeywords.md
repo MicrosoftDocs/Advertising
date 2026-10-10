@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Deletes one or more keywords in a specified ad group.
 dev_langs: 
@@ -16,10 +16,6 @@ dev_langs:
 ---
 # DeleteKeywords Service Operation - Campaign Management
 Deletes one or more keywords in a specified ad group.
-
-The *AIOptimized* keyword used by AI Max search term matching is managed by Microsoft Advertising
-and cannot be deleted. A delete request containing the system keyword is rejected as
-*InvalidMatchTypes*.
 
 ::: zone pivot="soap"
 

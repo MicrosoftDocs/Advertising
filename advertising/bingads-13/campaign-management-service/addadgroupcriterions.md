@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Adds one or more ad group criterions.
 dev_langs: 
@@ -16,11 +16,6 @@ dev_langs:
 ---
 # AddAdGroupCriterions Service Operation - Campaign Management
 Adds one or more ad group criterions.
-
-To add an [AI Max URL inclusion](webpage.md#ai-max-url-inclusions), use a biddable *Webpage*
-criterion under a standard Search ad group in an AI Max-enabled Search campaign. The account must
-be eligible for AI Max URL inclusions, and the criterion must contain at least one condition. Do not
-set a bid, tracking template, custom parameters, or final URL suffix.
 
 ::: zone pivot="soap"
 

@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Updates one or more ad group criterions.
 dev_langs: 
@@ -16,11 +16,6 @@ dev_langs:
 ---
 # UpdateAdGroupCriterions Service Operation - Campaign Management
 Updates one or more ad group criterions.
-
-[Webpage](webpage.md) conditions are immutable; delete and re-add the criterion to change them.
-Substantive updates to an AI Max URL inclusion require the ad group, campaign, and account to remain
-eligible. A status-only update remains available if the account is no longer eligible for AI Max
-URL inclusions.
 
 ::: zone pivot="soap"
 

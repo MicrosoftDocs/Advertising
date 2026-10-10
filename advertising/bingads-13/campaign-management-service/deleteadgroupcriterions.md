@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Deletes the specified ad group criterions.
 dev_langs: 
@@ -16,10 +16,6 @@ dev_langs:
 ---
 # DeleteAdGroupCriterions Service Operation - Campaign Management
 Deletes the specified ad group criterions.
-
-Hard deleting an AI Max URL inclusion requires current AI Max URL-inclusion eligibility. To stop an
-existing inclusion without hard deleting it, use [UpdateAdGroupCriterions](updateadgroupcriterions.md)
-to set its status to *Deleted*. This status-only update remains available if eligibility is removed.
 
 ::: zone pivot="soap"
 

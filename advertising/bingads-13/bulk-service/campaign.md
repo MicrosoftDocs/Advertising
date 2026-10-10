@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 10/10/2026
 description: Describes the Campaign fields in a Bulk file.
 dev_langs:
   - csharp
@@ -13,8 +13,9 @@ dev_langs:
 # Campaign Record - Bulk
 Defines a campaign that can be uploaded and downloaded in a bulk file.  
 
-For AI Max Search campaigns, the *AI Max Enabled* and *AI Search Enabled* columns represent the
-same parent setting. Enabling URL expansion or search term matching requires Maximize Conversions,
+For AI Max Search campaigns, *AI Max Enabled* is a legacy column that will be deprecated in the
+future. Use *AI Search Enabled* instead. Both columns represent the same parent setting. Enabling
+URL expansion or search term matching requires Maximize Conversions,
 Maximize Conversion Value, Target CPA, Target ROAS, or a portfolio bid strategy. URL expansion also
 requires auto-generated text. Omitted child opt-outs default to *true* on add and preserve their
 stored values on update. To upload any AI Max child field or AI Max page feed IDs, include either
@@ -197,8 +198,9 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Website](#website)|Search|
 
 ## <a name="aimaxenabled"></a>AI Max Enabled
-Determines whether AI Max is enabled for a Search campaign. Accepted values are *true* and *false*.
-When *false*, all AI Max child features are opted out.
+This is a legacy column for determining whether AI Max is enabled for a Search campaign, and it
+will be deprecated in the future. Use [AI Search Enabled](#aisearchenabled) instead. Accepted
+values are *true* and *false*. When *false*, all AI Max child features are opted out.
 
 If both *AI Max Enabled* and [AI Search Enabled](#aisearchenabled) are present during upload,
 *AI Search Enabled* takes precedence. Downloads contain both columns with the same value.
@@ -208,9 +210,9 @@ If both *AI Max Enabled* and [AI Search Enabled](#aisearchenabled) are present d
 **Delete:** Read-only
 
 ## <a name="aisearchenabled"></a>AI Search Enabled
-An alias of [AI Max Enabled](#aimaxenabled) retained by the V13 Bulk contract. Accepted values are
-*true* and *false*. During upload this column takes precedence if both parent columns are present.
-Downloads contain both columns with the same value.
+The preferred column for determining whether AI Max is enabled for a Search campaign. Accepted
+values are *true* and *false*. During upload this column takes precedence if both parent columns are
+present. Downloads contain both columns with the same value.
 
 **Add:** Optional
 **Update:** Optional. If no value is set for the update, this setting is not changed.

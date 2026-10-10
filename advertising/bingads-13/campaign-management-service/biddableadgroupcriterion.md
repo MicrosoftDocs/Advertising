@@ -11,10 +11,6 @@ description: Defines a biddable criterion that you want applied to the specified
 # BiddableAdGroupCriterion Data Object - Campaign Management
 Defines a biddable criterion that you want applied to the specified ad group.
 
-For an [AI Max URL inclusion](webpage.md#ai-max-url-inclusions), do not set
-*CriterionBid*, *TrackingUrlTemplate*, *UrlCustomParameters*, or *FinalUrlSuffix*. These options are
-not supported and URL options return error 6910, *UrlOptionsNotSupportedForAIMaxUrlTarget*.
-
 ## Syntax
 
 # [XML](#tab/xml)

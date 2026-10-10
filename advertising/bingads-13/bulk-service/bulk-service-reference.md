@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Reference documentation for the Bulk API.
 ---
 # Bulk API
@@ -22,7 +22,6 @@ We strongly encourage you to use the new [Auto-apply Management interface](../gu
 |[Bulk Data Objects](bulk-data-objects.md)|If want to download specific campaigns, you can use the [CampaignScope](campaignscope.md) object.|
 |[Bulk Value Sets](bulk-value-sets.md)|Choose which data is downloaded with the [DataScope ](datascope.md) and [DownloadEntity](downloadentity.md) value sets.|
 |[Bulk File Schema](bulk-file-schema.md)|The bulk schema defines the contents of the file for download or upload with the Bulk API. For both download and upload, the Bulk service supports the file types and corresponding schemas in the [DownloadEntity](downloadentity.md) value set. For more information about using the Bulk service to manage your campaigns, see [Bulk Download and Upload](../guides/bulk-download-upload.md). |
-|[Ad Group Url Target](ad-group-url-target.md)|Describes the *BulkAdGroupUrlTarget* record for AI Max URL inclusions.|
 
 ## See Also
 

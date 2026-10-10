@@ -24,14 +24,6 @@ For an AI Max URL inclusion rule, include the *Webpage* criterion only within a
 supported. For targeting requirements and unsupported properties, see
 [BiddableAdGroupCriterion Webpage Usage](biddableadgroupcriterion.md#webpage).
 
-## <a name="ai-max-url-inclusions"></a>AI Max URL inclusions
-
-An AI Max URL inclusion requires one to three webpage conditions; targeting all webpages isn't
-supported. A URL *Equals* condition must be the only condition. See
-[WebpageParameter](webpageparameter.md#conditions) for supported conditions and
-[BiddableAdGroupCriterion Webpage Usage](biddableadgroupcriterion.md#webpage) for the complete
-requirements.
-
 ## Syntax
 
 # [XML](#tab/xml)

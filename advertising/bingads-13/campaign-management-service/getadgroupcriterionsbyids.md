@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Gets ad group criterions by identifiers and types.
 dev_langs: 
@@ -16,10 +16,6 @@ dev_langs:
 ---
 # GetAdGroupCriterionsByIds Service Operation - Campaign Management
 Gets ad group criterions by identifiers and types.
-
-For eligible accounts, a biddable *Webpage* criterion under a standard Search ad group in an
-AI Max-enabled campaign represents an AI Max URL inclusion. A *SearchDynamic* ad group continues to
-return dynamic search ads webpage criteria, including in a mixed campaign.
 
 ::: zone pivot="soap"
 

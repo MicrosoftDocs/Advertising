@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Sets the negative keyword list to campaign associations, or website exclusion list to ad account associations.
 dev_langs: 
@@ -19,10 +19,7 @@ Sets the negative keyword list to campaign associations, or website exclusion li
 
 *BrandList* is a supported *SharedEntityType* for campaign-level associations (*EntityType* = "Campaign"). Use *IsExclusion* to indicate whether the associated brand list is an exclusion list (*true*) or an inclusion list (*false*).
 
-For AI Max brand inclusion, brand list inclusion associations can be added or reactivated only when
-search term matching is enabled. While search term matching is off, an existing inclusion can still
-be set to *Inactive*. Brand exclusions are unaffected. Other blocked inclusion changes return error
-6909, *BrandInclusionRequiresSearchTermMatching*.
+For AI Max brand inclusion, brand list inclusion associations can be added or removed only when search term matching (STM) is enabled. If STM is disabled, the operation is rejected and an error is returned.
 
 > [!TIP] 
 > For an overview, see the [Negative Keywords](../guides/negative-keywords.md) and [Negative Sites](../guides/negative-sites.md) technical guides. 

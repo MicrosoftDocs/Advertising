@@ -18,8 +18,7 @@ AI Max-enabled Search campaign. The account must be eligible for AI Max URL incl
 mixed campaign can contain both AI Max and dynamic search ads settings. Its *SearchDynamic* ad
 groups continue to use the
 [Ad Group Dynamic Search Ad Target](ad-group-dynamic-search-ad-target.md) record, even in a campaign
-that has AI Max enabled. Negative webpage targets continue to use
-[Ad Group Negative Dynamic Search Ad Target](ad-group-negative-dynamic-search-ad-target.md).
+that has AI Max enabled.
 
 Download these records by including
 [DownloadEntity.AdGroupUrlTargets](downloadentity.md#adgroupurltargets) and the

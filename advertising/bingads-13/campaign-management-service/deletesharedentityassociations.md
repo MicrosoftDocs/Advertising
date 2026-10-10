@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Deletes the negative keyword list to campaign associations, or website exclusion list to ad account associations.
 dev_langs: 
@@ -19,9 +19,7 @@ Deletes the negative keyword list to campaign associations, or website exclusion
 
 *BrandList* associations at the campaign level can be deleted using this operation (*SharedEntityType* = "BrandList", *EntityType* = "Campaign").
 
-For AI Max campaigns, deleting a stored brand inclusion requires search term matching to be enabled.
-If search term matching is off, the operation returns error 6909,
-*BrandInclusionRequiresSearchTermMatching*. Brand exclusions are unaffected.
+For AI Max campaigns, brand list inclusion associations can be added or removed only when search term matching (STM) is enabled. If STM is disabled, the operation is rejected and an error is returned.
 
 > [!TIP] 
 > For an overview, see the [Negative Keywords](../guides/negative-keywords.md) and [Negative Sites](../guides/negative-sites.md) technical guides. 

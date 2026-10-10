@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 10/10/2026
 description: Describes the schema for records in a Bulk file.
 ---
 # Bulk File Schema
@@ -28,17 +28,6 @@ You can choose to download either a tab or comma delimited set of records (rows)
 > New record types (rows) and fields (columns) may be added anytime, and you should not depend on record or field order in the bulk download or bulk upload results file. Likewise, unless otherwise noted in the reference documentation you should not depend on a fixed set of values returned in each field. 
 > 
 > Similarly during upload you may submit the fields in any order. The upload record order is important when creating new entities, as described below within [Type Hierarchy](#typehierarchy). 
-
-### AI Max fields
-
-The [Campaign](campaign.md) record supports these AI Max Search campaign columns: *AI Max Enabled*,
-*AI Search Enabled*, *Search Term Matching Opt Out*, *URL Expansion Opt Out*, *Auto Generated Text
-Assets Opt Out*, *Auto Generated Image Assets Opt Out*, and *Page Feed Ids*. Boolean fields accept
-*true* or *false*.
-
-The [Ad Group Url Target](ad-group-url-target.md) record supports three independent condition sets:
-*Ad Group Url Target Condition 1..3*, *Ad Group Url Target Operator 1..3*, and *Ad Group Url Target
-Value 1..3*. See the record page for the accepted operand and operator combinations.
 
 ## <a name="formatversions"></a>Format Versions
 The bulk format version is separate from the Bing Ads API version. Format version enables a flexible upgrade path to adopt the latest supported features without breaking your application. As a best practice you should always upgrade to the latest format version. Currently the only supported format version is 6.0.  

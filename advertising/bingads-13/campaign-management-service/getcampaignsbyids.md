@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 zone_pivot_groups: api-reference
 description: Gets the specified campaigns within an account.
 dev_langs: 
@@ -32,7 +32,7 @@ The *GetCampaignsByIdsRequest* object defines the [body](#request-body) and [hea
 |<a name="accountid"></a>AccountId|The identifier of the account that contains the campaigns to get.|**long**|
 |<a name="campaignids"></a>CampaignIds|A maximum of 100 identifiers of the campaigns to get from the specified account.<br/><br/>The identifiers must correspond to campaigns of the specified *CampaignType* or types, and otherwise the service will return error code *EntityIdFilterMismatch* (Code 516).|**long** array|
 |<a name="campaigntype"></a>CampaignType|The type of campaigns to get, for example *Search*, *Shopping*, or *DynamicSearchAds*.<br/><br/>This request element is optional. If you do not set any campaign type, the default value is *Search* i.e., only Search campaigns will be returned.<br/><br/>You may include multiple values as flags. How you specify multiple flags depends on the programming language that you use. For example, C# treats these values as flag values and Java treats them as an array of strings. The SOAP should include a string that contains a space-delimited list of values for example, `<CampaignType>Search Shopping</CampaignType>`.|[CampaignType](campaigntype.md)|
-|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties that you want included within each returned campaign. The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>To return AI Max settings, include *AISearchSetting*. To also populate [PageFeedIds](aisearchsetting.md#pagefeedids), include both *AISearchSetting* and *PageFeedInAISearchSettings*.<br/><br/>This request element is optional.|[CampaignAdditionalField](campaignadditionalfield.md)|
+|<a name="returnadditionalfields"></a>ReturnAdditionalFields|The list of additional properties that you want included within each returned campaign. The additional field values enable you to get the latest features using the current version of Campaign Management API, and in the next version the corresponding elements will be included by default.<br/><br/>This request element is optional.|[CampaignAdditionalField](campaignadditionalfield.md)|
 
 ### <a name="request-header"></a>Request Header Elements
 [!INCLUDE[request-header](./includes/request-header.md)]

@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 10/10/2026
 description: Use AI Max to expand the reach and automation of Search campaigns.
 ---
 # AI Max Campaigns
@@ -234,9 +234,10 @@ The Bulk [Campaign](../bulk-service/campaign.md) record supports these AI Max fi
 - `Auto Generated Image Assets Opt Out`
 - `Page Feed Ids`
 
-`AI Max Enabled` and `AI Search Enabled` represent the same parent setting. If both columns are
-present in an upload, `AI Search Enabled` takes precedence. To upload a child field or AI Max page
-feed IDs, include either parent column in the same Campaign row.
+`AI Max Enabled` is a legacy column that will be deprecated in the future. Use `AI Search Enabled`
+instead. Both columns represent the same parent setting, and if both columns are present in an
+upload, `AI Search Enabled` takes precedence. To upload a child field or AI Max page feed IDs,
+include either parent column in the same Campaign row.
 
 Use `DownloadEntity.AdGroupUrlTargets` to download
 [Ad Group Url Target](../bulk-service/ad-group-url-target.md) records. Standard ad groups in AI Max
