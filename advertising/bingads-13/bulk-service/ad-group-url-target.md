@@ -1,16 +1,16 @@
 ---
-title: "Ad Group Url Target Record - Bulk"
+title: "Ad Group Url Targets - Bulk"
 ms.service: bing-ads
 ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 10/10/2026
 description: Describes the Ad Group Url Target fields in a Bulk file.
 dev_langs:
   - csharp
 ---
-# Ad Group Url Target Record - Bulk
+# Ad Group Url Targets - Bulk
 Defines an AI Max URL inclusion that can be uploaded and downloaded in a bulk file.
 
 An *Ad Group Url Target* is a biddable webpage criterion under a standard Search ad group in an
@@ -57,7 +57,9 @@ If you use the Microsoft Advertising SDK, this record maps to
 - [Status](#status)
 
 At least one complete condition, operator, and value set is required on add. You can specify up to
-three conditions. A URL with *Equals* must be the only condition.
+three conditions. Conditions within one target are evaluated with AND logic, and multiple targets
+in the same ad group are evaluated with OR logic. A URL with *Equals* must be the only condition.
+AI Max URL inclusion targets must be biddable; negative URL inclusion targets are not supported.
 
 |Condition|Supported operator|
 |---|---|

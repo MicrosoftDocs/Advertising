@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 10/10/2026
 description: Setup Mixed Campaigns with Multiple Ad Group Types.
 ---
 # Mixed Campaigns
@@ -99,7 +99,7 @@ Supported entities and settings are restricted by ad group type.
 
 - If the ad group type is "SearchDynamic", then you can only add dynamic search ads. 
 - If the ad group type is "SearchStandard", then you can add expanded text ads or responsive search ads. 
-- You can only apply [Webpage](../campaign-management-service/webpage.md) criterion to a "SearchDynamic" ad group. 
+- Dynamic Search Ads [Webpage](../campaign-management-service/webpage.md) criteria can only be applied to a "SearchDynamic" ad group. AI Max URL inclusion criteria can be applied to non-"SearchDynamic" ad groups when the campaign has AI Max enabled.
 
 Other settings such as location targets and remarketing lists can be applied regardless of the ad group type. 
 
