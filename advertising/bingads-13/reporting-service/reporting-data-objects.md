@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Data objects reference for the Reporting service.
 ---
 # Reporting Data Objects
@@ -117,7 +117,7 @@ The Reporting service defines the following data objects.
 |[SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md)|Defines the criteria to use to filter the search query performance report data.|
 |[SearchQueryPerformanceReportRequest](searchqueryperformancereportrequest.md)|Defines a search query performance report request.|
 |[SearchTermLandingPageReportFilter](searchtermlandingpagereportfilter.md)|Defines the criteria to use to filter the search term landing page report data.|
-|[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)|Defines an AI Max search-term-to-landing-page report request.|
+|[SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md)|Defines a search term landing page report request.|
 |[ShareOfVoiceReportFilter](shareofvoicereportfilter.md)|Defines the criteria to use to filter the share of voice report data.|
 |[ShareOfVoiceReportRequest](shareofvoicereportrequest.md)|Defines a share of voice (SOV) report request.|
 |[TravelQueryInsightReportFilter](travelqueryinsightreportfilter.md)|Defines the criteria to use to filter the travel query insight report data.|
