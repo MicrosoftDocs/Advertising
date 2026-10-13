@@ -164,7 +164,6 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Landing Page User Experience](#landingpageuserexperience)|All|
 |[Language](#language)|All|
 |[Local Inventory Ads Enabled](#language)|Shopping|
-|[Messaging Restrictions](#messagingrestrictions)|All|
 |[Modified Time](#modifiedtime)|All|
 |[Page Feed Ids](#pagefeedids)|Performance Max<br/>Search|
 |[Parent Id](#parentid)|All|
@@ -687,25 +686,6 @@ Set this property to *TRUE* if you want to enable local inventory ads, and other
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
 
-## <a name="messagingrestrictions"></a>Messaging Restrictions
-The messaging restrictions to use with your brand kit.
-
-```json
-[{
-	"text": "Restriction1",
-},
-{
-	"text": "Restriction2"
-},
-{
-	"text": "Restriction3"
-}]
-```
-
-**Add:** Optional  
-**Update:** Optional. If the array doesn't contain any values, this setting is deleted.  
-**Delete:** Read-only  
-
 ## <a name="modifiedtime"></a>Modified Time
 The date and time that the entity was last updated. The value is in Coordinated Universal Time (UTC).
 
@@ -890,7 +870,7 @@ An entity such as a remarketing list can be associated with multiple campaigns, 
 **Delete:** Read-only  
 
 ## <a name="termexclusions"></a>Term Exclusions
-The messaging restrictions to use with your brand kit.
+Exact terms or phrases to avoid in AI-generated ad copy for a campaign.
 
 ```json
 [{

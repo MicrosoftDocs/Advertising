@@ -25,10 +25,12 @@ For a *Brand Kit* record, the following attribute fields are available in the [B
 - [Id](#id)
 - [Images](#images)
 - [Landscape Logos](#landscapelogos)
+- [Messaging Restrictions](#messagingrestrictions)
 - [Name](#name)
 - [Palettes](#palettes)
 - [Status](#status)
 - [SquareLogos](#squarelogos)
+- [Term Exclusions](#termexclusions)
 
 ## <a name="brandvoice"></a>Brand Voice
 The brand's personality and tone.  
@@ -47,7 +49,7 @@ See [BrandVoice](../campaign-management-service/brandvoice.md) for more informat
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
-**Delete:** Read-only  
+**Delete:** Read-only
 
 ## <a name="businessname"></a>Business Name
 The name of the business.  
@@ -141,6 +143,25 @@ See [BrandKitImage](../campaign-management-service/brandkitimage.md) for more in
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
 **Delete:** Read-only  
 
+## <a name="messagingrestrictions"></a>Messaging Restrictions
+The messaging guidelines that generated ad copy for the campaign must follow.
+
+You can specify up to 40 messaging restrictions. Each restriction can contain up to 300 characters.
+
+For example, "Avoid implying our products are cheap."
+
+```json
+[
+    "Restriction1",
+    "Restriction2",
+    "Restriction3"
+]
+```
+
+**Add:** Optional<br/>
+**Update:** Optional. If the array doesn't contain any values, this setting is deleted.<br/>
+**Delete:** Read-only
+
 ### <a name="name"></a>Name
 The brand kit's name.  
 
@@ -207,3 +228,22 @@ See [BrandKitImage](../campaign-management-service/brandkitimage.md) for more in
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed. The start date cannot be updated after the brand kit is submitted i.e., once the start date has arrived.  
 **Delete:** Read-only  
+
+## <a name="termexclusions"></a>Term Exclusions
+The terms to exclude from generated ad copy for the campaign.
+
+You can specify up to 25 excluded terms. Each term can contain up to 30 characters.
+
+For example, "cheap" or "discount".
+
+```json
+[
+    "Exclusion1",
+    "Exclusion2",
+    "Exclusion3"
+]
+```
+
+**Add:** Optional<br/>
+**Update:** Optional. If the array doesn't contain any values, this setting is deleted.<br/>
+**Delete:** Read-only
