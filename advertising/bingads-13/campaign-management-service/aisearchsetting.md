@@ -31,7 +31,7 @@ also require account eligibility. You can associate at most 20 unique page feed 
 omitting *PageFeedIds* or supplying an empty list preserves the current associations.
 
 For AI Max URL inclusion rules, see [BiddableAdGroupCriterion Webpage Usage](biddableadgroupcriterion.md#webpage).
-For brand inclusion requirements, see [SharedEntityAssociation](sharedentityassociation.md#ai-max-brand-lists).
+For brand inclusion requirements, see [SharedEntityAssociation](sharedentityassociation.md).
 
 The following AI Max-specific errors can be returned.
 
