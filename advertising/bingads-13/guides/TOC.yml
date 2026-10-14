@@ -825,6 +825,9 @@
     - name: Ad Group Dynamic Search Ad Target
       href: ../bulk-service/ad-group-dynamic-search-ad-target.md
       displayName: BulkAdGroupDynamicSearchAdTarget
+    - name: Ad Group Url Target
+      href: ../bulk-service/ad-group-url-target.md
+      displayName: BulkAdGroupUrlTarget
     - name: Ad Group Filter Link Ad Extension
       href: ../bulk-service/ad-group-filter-link-ad-extension.md
       displayName: BulkAdGroupFilterLinkAdExtension

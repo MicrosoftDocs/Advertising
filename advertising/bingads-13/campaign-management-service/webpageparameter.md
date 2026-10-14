@@ -5,11 +5,12 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
-description: Defines the conditions or criteria that determine whether you want to show dynamic search ads.
+ms.date: 10/10/2026
+description: Defines webpage conditions for Dynamic Search Ads targeting or AI Max URL inclusions.
 ---
 # WebpageParameter Data Object - Campaign Management
-Defines the conditions or criteria that determine whether you want to show dynamic search ads.
+Defines the conditions or criteria that determine whether you want to show Dynamic Search Ads or
+apply an AI Max URL inclusion.
 
 ## Syntax
 
@@ -47,7 +48,7 @@ The [WebpageParameter](webpageparameter.md) object has the following elements: [
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="conditions"></a>Conditions|The webpage conditions or criteria.<br/><br/>You may include up to 3 individual [WebpageCondition](webpagecondition.md) objects in the list. Each [WebpageCondition](webpagecondition.md) contains an *Argument*, *Operand* and *Operator* element.<br/><br/>If you use *Operand* as **URL** and *Operator* as **Equals** you can only specify one condition.<br/><br/>  **Add:** Optional for biddable criterion; Required for negative criterion. If no conditions are specified, then you are effectively targeting all webpages.<br/>**Update:** Not allowed. You cannot update the webpage conditions. To update the conditions you must delete the criterion and add a new criterion.|[WebpageCondition](webpagecondition.md) array|
+|<a name="conditions"></a>Conditions|The webpage conditions or criteria.<br/><br/>You may include up to 3 individual [WebpageCondition](webpagecondition.md) objects in the list. Each [WebpageCondition](webpagecondition.md) contains an *Argument*, *Operand*, and *Operator* element.<br/><br/>If you use *Operand* as **URL** and *Operator* as **Equals**, you can specify only one condition.<br/><br/>For an AI Max URL inclusion, at least one condition is required. Supported combinations are *Url* with *Contains* or *Equals*, *Category* or *CustomLabel* with *Equals*, and *PageTitle* or *PageContent* with *Contains*. An empty condition list returns error 6908, *AIMaxUrlInclusionConditionIsNullOrEmpty*. See [BiddableAdGroupCriterion Webpage Usage](biddableadgroupcriterion.md#webpage) for all AI Max URL inclusion requirements.<br/><br/>**Add:** Optional for a Dynamic Search Ads biddable criterion; required for a negative criterion or AI Max URL inclusion. If no conditions are specified for a Dynamic Search Ads biddable criterion, then you are effectively targeting all webpages.<br/>**Update:** Not allowed. You can't update the webpage conditions. To change the conditions, delete the criterion and add a new criterion.|[WebpageCondition](webpagecondition.md) array|
 |<a name="criterionname"></a>CriterionName|The criterion name that you can use to identify the criteria, for example you can filter or sort alphabetically.<br/><br/>The criterion name length must be between 1 to 2048, inclusive.<br/><br/>**Add:** Optional. If you do not specify any name, by default the name will be set to a concatenated list of conditions. Each condition will be delimited by the *and* keyword. For example if the conditions are a) *Url contains flower*, b) *Url contains book*, and c) *PageContent contains seattle*, then the default criterion name will be *Url contains flower and Url contains book and PageContent contains seattle*. If you do not specify any name, and if no conditions are specified, then you are effectively targeting all webpages and the name will be set to *All Webpages*. <br/>**Update:** Optional. If you leave this element null or empty the criterion name will not be updated. If you specify an empty string i.e. "", then the criterion name will be updated to the default value i.e. either *All Webpages* or a concatenated list of criterions.|**string**|
 
 ## Requirements

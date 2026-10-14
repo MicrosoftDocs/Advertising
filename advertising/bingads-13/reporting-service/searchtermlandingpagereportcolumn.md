@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines the attributes and performance statistics columns that you can include in the SearchTermLandingPageReportRequest.
 ---
 # SearchTermLandingPageReportColumn Value Set - Reporting
@@ -193,10 +193,10 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="adid"></a>AdId|The Microsoft Advertising-assigned identifier of an ad.|
 |<a name="adtype"></a>AdType|The ad type. Can be filtered with the AdType filter element.|
 |<a name="averagecpc"></a>AverageCpc|The average cost per click, calculated as Spend divided by Clicks.|
-|<a name="bidmatchtype"></a>BidMatchType|The keyword bid match type. Displays **AI Optimized** when the bid match was performed by AI.|
+|<a name="bidmatchtype"></a>BidMatchType|The keyword bid match type. Displays **AI Optimized** for system-generated AI Max attribution. This reporting value is not an advertiser-manageable Campaign Management keyword match type.|
 |<a name="campaignid"></a>CampaignId|The Microsoft Advertising-assigned identifier of a campaign.|
 |<a name="campaignname"></a>CampaignName|The campaign name.|
-|<a name="campaigntype"></a>CampaignType|The campaign type, for example Search, DynamicSearchAds, or PerformanceMax.|
+|<a name="campaigntype"></a>CampaignType|The campaign type. The report is scoped to AI Max-enabled Search campaigns.|
 |<a name="channel"></a>Channel|Specifies the channels where ads can run. You can select multiple channels.|
 |<a name="clicks"></a>Clicks|The number of clicks.|
 |<a name="conversionrate"></a>ConversionRate|The conversion rate as a percentage, calculated as Conversions divided by Clicks.|
@@ -204,11 +204,11 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="conversionsqualified"></a>ConversionsQualified|The number of qualified conversions.|
 |<a name="costperconversion"></a>CostPerConversion|The cost per conversion, calculated as Spend divided by Conversions.|
 |<a name="ctr"></a>Ctr|The click-through rate as a percentage, calculated as Clicks divided by Impressions.|
-|<a name="deliveredmatchtype"></a>DeliveredMatchType|The match type used to deliver the ad, which can differ from the bid match type. Displays **AI Optimized** when the ad was delivered by AI match. Can be filtered with the DeliveredMatchType filter element.|
+|<a name="deliveredmatchtype"></a>DeliveredMatchType|The match type used to deliver the ad, which can differ from the bid match type. Displays **AI Optimized** for delivery through AI Max search term matching. This system-generated reporting value is not an advertiser-manageable Campaign Management keyword match type. Can be filtered with the [DeliveredMatchType](searchtermlandingpagereportfilter.md#deliveredmatchtype) filter element.|
 |<a name="finalurl"></a>FinalUrl|The landing page URL (Final URL) that the user was sent to for the impression. This column is required.|
 |<a name="finalurlsource"></a>FinalUrlSource|Possible values are: Advertiser Provided (the advertiser-specified URL) and AI Expanded from URL (a URL selected through AI URL expansion).|
-|<a name="headline"></a>Headline|The headlines that were delivered for the impression, as a pipe-delimited string in the format `h1\|h2\|h3` (up to three headlines). Empty slots are omitted.|
-|<a name="headlinesource"></a>HeadlineSource|Identifies the source of the headline assets used to generate the combined headline represented by the report row.<br/><br/>Possible values:<ul><li>*AdvertiserProvided* - All headline assets in the row were provided by the advertiser.</li><li>*AIGenerated* - At least one headline asset in the row was AI-generated.</li></ul><br/>This value applies to the combined headline, not to each individual headline asset. If a row contains both advertiser-provided and AI-generated headline assets, *HeadlineSource* is reported as *AIGenerated*. This doesn't indicate that all headline assets in the row were AI-generated.|
+|<a name="headline"></a>Headline|The short, long, or auto-generated headlines delivered for the impression, returned as a pipe-delimited string such as `h1\|h2\|h3` (up to three headlines). Empty slots are omitted. If this column is requested, rows without a resolved supported headline asset are excluded.|
+|<a name="headlinesource"></a>HeadlineSource|Identifies the source of the short, long, or auto-generated headline assets used to generate the combined headline represented by the report row.<br/><br/>Possible values:<ul><li>*AdvertiserProvided* - All headline assets in the row were provided by the advertiser.</li><li>*AIGenerated* - At least one headline asset in the row was AI-generated.</li></ul><br/>This value applies to the combined headline, not to each individual headline asset. If a row contains both advertiser-provided and AI-generated headline assets, *HeadlineSource* is reported as *AIGenerated*. This doesn't indicate that all headline assets in the row were AI-generated. Rows without a resolved supported headline are excluded when *Headline* is requested.|
 |<a name="impressions"></a>Impressions|The number of times the ad was displayed.|
 |<a name="keyword"></a>Keyword|The keyword text that matched the search term. Displays **AI Optimized** when the match was performed by AI.|
 |<a name="language"></a>Language|The display language of the search term. Can be filtered with the Language filter element.|

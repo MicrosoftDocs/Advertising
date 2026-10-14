@@ -73,6 +73,13 @@ You can optionally set each campaign's page feed targeting source via the Bulk A
 
 If the source is either AdvertiserSuppliedUrls or All, then Microsoft Advertising uses the page feed identifiers that are linked to the campaign via the Bulk API [Page Feed Ids](../bulk-service/campaign.md#pagefeedids) or Campaign Management API [PageFeedIds](../campaign-management-service/dynamicsearchadssetting.md#pagefeedids).
 
+For an AI Max Search campaign, associate up to 20 unique page feeds by using
+[AISearchSetting.PageFeedIds](../campaign-management-service/aisearchsetting.md#pagefeedids) or the
+Bulk Campaign [Page Feed Ids](../bulk-service/campaign.md#pagefeedids) column. The account must have
+the separate AI Max URL-inclusion eligibility. To return AI Max page feed IDs through Campaign
+Management, request both `CampaignAdditionalField.AISearchSetting` and
+`CampaignAdditionalField.PageFeedInAISearchSettings`.
+
 ## <a name="customlabel-autotarget"></a>Create custom label auto targets
 
 To create a custom label auto target via the Bulk service, you can upload an [Ad Group Dynamic Search Ad Target](../bulk-service/ad-group-dynamic-search-ad-target.md#dynamicadtargetcondition1) record. For example, set the [Dynamic Ad Target Condition 1](../bulk-service/ad-group-dynamic-search-ad-target.md#dynamicadtargetcondition1) field to "CustomLabel" and set the [Dynamic Ad Target Value 1](../bulk-service/ad-group-dynamic-search-ad-target.md#dynamicadtargetvalue1) field to the value of one of the page feed item custom labels e.g., "Label_1_3001". 

@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 zone_pivot_groups: api-reference
 description: Retrieves the keywords with the specified editorial review status.
 dev_langs: 
@@ -16,6 +16,8 @@ dev_langs:
 ---
 # GetKeywordsByEditorialStatus Service Operation - Campaign Management
 Retrieves the keywords with the specified editorial review status.
+
+Microsoft Advertising-managed *AIOptimized* keywords are excluded from public keyword results.
 
 ::: zone pivot="soap"
 

@@ -5,13 +5,16 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/30/2026
 description: Describes the Campaign Negative Webpage fields in a Bulk file.
 dev_langs:
   - csharp
 ---
 # Campaign Negative Webpage - Bulk
 Defines a campaign negative webpage that can be uploaded and downloaded in a bulk file.
+
+For an AI Max Search campaign, you can upload this record when AI Max and final URL expansion are
+enabled. Set `AISearchSetting.AISearchEnabled` to *true* and `FinalUrlExpansionOptOut` to *false*.
 
 You can download all *Campaign Negative Webpage* records in the account by including the [DownloadEntity](downloadentity.md) value of *CampaignNegativeWebpages* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
