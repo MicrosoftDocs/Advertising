@@ -164,6 +164,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 |[Landing Page User Experience](#landingpageuserexperience)|All|
 |[Language](#language)|All|
 |[Local Inventory Ads Enabled](#language)|Shopping|
+|[Messaging Restrictions](#messagingrestrictions)|All|
 |[Modified Time](#modifiedtime)|All|
 |[Page Feed Ids](#pagefeedids)|Performance Max<br/>Search|
 |[Parent Id](#parentid)|All|
@@ -685,6 +686,25 @@ Set this property to *TRUE* if you want to enable local inventory ads, and other
 **Add:** Optional. If you do not specify this field or leave it empty, the default value of *FALSE* will be set and local inventory ads will not be enabled.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Read-only  
+
+## <a name="messagingrestrictions"></a>Messaging Restrictions
+Guidelines to shape AI-generated ad copy, such as language to avoid, rules to follow, or themes to emphasize.
+
+```json
+[{
+	"text": "Restriction1",
+},
+{
+	"text": "Restriction2"
+},
+{
+	"text": "Restriction3"
+}]
+```
+
+**Add:** Optional<br/>
+**Update:** Optional. If the array doesn't contain any values, this setting is deleted.<br/>
+**Delete:** Read-only
 
 ## <a name="modifiedtime"></a>Modified Time
 The date and time that the entity was last updated. The value is in Coordinated Universal Time (UTC).
