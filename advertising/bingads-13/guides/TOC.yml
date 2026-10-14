@@ -1378,8 +1378,6 @@
       displayName: campaignmanagement campaign management guides
     - name: Ad Extensions
       href: ./ad-extensions.md
-    - name: AI Max
-      href: ./ai-max.md
     - name: API Versioning
       href: ../campaign-management-service/api-versioning.md
     - name: App Install Ads

@@ -78,8 +78,7 @@ For an AI Max Search campaign, associate up to 20 unique page feeds by using
 Bulk Campaign [Page Feed Ids](../bulk-service/campaign.md#pagefeedids) column. The account must have
 the separate AI Max URL-inclusion eligibility. To return AI Max page feed IDs through Campaign
 Management, request both `CampaignAdditionalField.AISearchSetting` and
-`CampaignAdditionalField.PageFeedInAISearchSettings`. For more information, see [AI Max
-Campaigns](ai-max.md#page-feeds).
+`CampaignAdditionalField.PageFeedInAISearchSettings`.
 
 ## <a name="customlabel-autotarget"></a>Create custom label auto targets
 
