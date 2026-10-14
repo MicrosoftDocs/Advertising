@@ -21,7 +21,7 @@ requires auto-generated text. Omitted child opt-outs default to *true* on add an
 stored values on update. To upload any AI Max child field or AI Max page feed IDs, include either
 *AI Max Enabled* or *AI Search Enabled* in the same Campaign row. See
 [AISearchSetting](../campaign-management-service/aisearchsetting.md) for the complete shared
-validation behavior, or see [AI Max Campaigns](../guides/ai-max.md) for an end-to-end guide.
+validation behavior. <!-- or see [AI Max Campaigns](../guides/ai-max.md) for an end-to-end guide. -->
 
 You can download all *Campaign* records in the account by including the [DownloadEntity](downloadentity.md) value of *Campaigns* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [EntityData](datascope.md#entitydata) scope. To include the [Keyword Relevance](#keywordrelevance), [Landing Page Relevance](#landingpagerelevance), [Landing Page User Experience](#landingpageuserexperience), and [Quality Score](#qualityscore) fields within the downloaded *Campaign* records, you must also include the [QualityScoreData](datascope.md#qualityscoredata) scope. For more details about the Bulk service including best practices, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 

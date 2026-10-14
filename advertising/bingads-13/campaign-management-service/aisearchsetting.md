@@ -9,9 +9,7 @@ ms.date: 10/10/2026
 description: Defines AI Max settings for a Search campaign.
 ---
 # AISearchSetting Data Object - Campaign Management
-Defines AI Max settings for a Search campaign. *AISearchSetting* is the V13 contract name for AI Max.
-
-For an end-to-end setup guide, see [AI Max Campaigns](../guides/ai-max.md).
+Defines AI Max settings for a Search campaign. *AISearchSetting* is the V13 contract name for AI Max. <!-- For an end-to-end setup guide, see [AI Max Campaigns](../guides/ai-max.md). -->
 
 ## <a name="remarks"></a>Remarks
 
