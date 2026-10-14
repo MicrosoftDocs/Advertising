@@ -721,7 +721,7 @@ Set this property to *TRUE* if you want to enable local inventory ads, and other
 **Delete:** Read-only  
 
 ## <a name="messagingrestrictions"></a>Messaging Restrictions
-The messaging restrictions to use with your brand kit.
+Guidelines to shape AI-generated ad copy, such as language to avoid, rules to follow, or themes to emphasize.
 
 ```json
 [{
@@ -735,9 +735,9 @@ The messaging restrictions to use with your brand kit.
 }]
 ```
 
-**Add:** Optional  
-**Update:** Optional. If the array doesn't contain any values, this setting is deleted.  
-**Delete:** Read-only  
+**Add:** Optional<br/>
+**Update:** Optional. If the array doesn't contain any values, this setting is deleted.<br/>
+**Delete:** Read-only
 
 ## <a name="modifiedtime"></a>Modified Time
 The date and time that the entity was last updated. The value is in Coordinated Universal Time (UTC).
@@ -943,7 +943,7 @@ An entity such as a remarketing list can be associated with multiple campaigns, 
 **Delete:** Read-only  
 
 ## <a name="termexclusions"></a>Term Exclusions
-The messaging restrictions to use with your brand kit.
+Exact terms or phrases to avoid in AI-generated ad copy for a campaign.
 
 ```json
 [{

@@ -9,7 +9,7 @@ ms.date: 11/13/2024
 description: Defines the criteria to use to filter the MSClickId performance report data.
 ---
 # MSClickIdPerformanceReportFilter Data Object - Reporting
-Defines the criteria to use to filter the MSClickId performance report data.
+Reserved for future use. Filters aren’t currently supported for the *MSClickId* performance report.
 
 ## Syntax
 

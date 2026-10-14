@@ -97,7 +97,7 @@ MSCLKID is Microsoft's click identifier. When auto-tagging is enabled, Microsoft
 - Overwrite the stored value when a newer `msclkid` is captured.
 - Use a suggested retention period of 90 days.
 - Do not rely on visitor ID alone for attribution when `msclkid` is available.
-- Format: UUID, for example, `dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab`.
+- Format: UUID, for example, ``.
 
 #### ID Sync and why it matters
 
@@ -244,7 +244,7 @@ This reference section defines the payload fields used across CAPI implementatio
 | em | string | Preferred, not required | Hashed email (details in a later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
 | ph | string | Preferred, not required | Hashed phone (details in a later section) | ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602 |
 | clientIpAddress | string | Preferred, not required | IP address of the user (v4 or v6) | 127.0.0.1 |
-| msclkid | string | Strongly preferred, not required | Microsoft last click ID (details in a later section). Must be a valid UUID. | dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab |
+| msclkid | string | Strongly preferred, not required | Microsoft last click ID (details in a later section). Must be a valid UUID. | dd4afcccb1c94a4cad9544dd7e5006ab, specify msclkid without hyphens (-) |
 | idfa | string | Preferred, not required | For iOS devices, ID for advertising | 550e8400-e29b-41d4-a716-446655440000 |
 | gaid | string | Preferred, not required | For Android devices, advertising ID | 550e8400-e29b-41d4-a716-446655440000 |
 | customData | object | | Event data | |
@@ -298,7 +298,7 @@ This reference section defines the payload fields used across CAPI implementatio
         "em": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
         "ph": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
         "clientIpAddress": "127.0.0.1",
-        "msclkid": "dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab",
+        "msclkid": "dd4afcccb1c94a4cad9544dd7e5006ab", // specify msclkid without hyphens (-)
         "idfa": "550e8400-e29b-41d4-a716-446655440000",
         "gaid": "550e8400-e29b-41d4-a716-446655440000"
       },
@@ -474,7 +474,7 @@ We recommend storing the `msclkid` in a first-party cookie or local storage, tho
 
 - **Suggested retention/expiration**: 90 days
 
-- **Format**: UUID, e.g., `dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab`
+- **Format**: UUID, e.g., `dd4afcccb1c94a4cad9544dd7e5006ab`, specify msclkid without hyphens (-)
 
 #### Visitor ID and user ID
 
@@ -535,7 +535,7 @@ We also ask that you include the event timestamp (`ts`), user agent (`ua` parame
     "em": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
     "ph": "ec81f3ac7b2b19675bab9d54cf416f9f18cff87c97da5cca82c0f0891bc40602",
     "clientIpAddress": "127.0.0.1",
-    "msclkid": "dd4afccc-b1c9-4a4c-ad95-44dd7e5006ab",
+    "msclkid": "dd4afcccb1c94a4cad9544dd7e5006ab", // specify msclkid without hyphens (-)
     "idfa": "550e8400-e29b-41d4-a716-446655440000",
     "gaid": "550e8400-e29b-41d4-a716-446655440000"
   }

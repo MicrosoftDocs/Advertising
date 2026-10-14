@@ -145,11 +145,11 @@ The [BrandKit](brandkit.md) object has the following elements: [BrandVoice](#bra
 |<a name="id"></a>Id|The identifier of the brand kit.|**long**|
 |<a name="images"></a>Images|The brand kit's images.|[BrandKitImage](brandkitimage.md) array|
 |<a name="landscapelogos"></a>LandscapeLogos|The brand kit's landscape logos.|[BrandKitImage](brandkitimage.md) array|
-|<a name="messagingrestrictions"></a>MessagingRestrictions|The messaging restrictions to use with your brand kit.|**string** array|
+|<a name="messagingrestrictions"></a>MessagingRestrictions|The messaging guidelines that generated ad copy for the campaign must follow.<br/><br/>You can specify up to 40 messaging restrictions. Each restriction can contain up to 300 characters.<br/><br/>For example, "Avoid implying our products are cheap."|**string** array|
 |<a name="name"></a>Name|The brand kit's name.|**string**|
 |<a name="palettes"></a>Palettes|The brand kit's palettes.|[BrandKitPalette](brandkitpalette.md) array|
 |<a name="squarelogos"></a>SquareLogos|The brand kit's square logos.|[BrandKitImage](brandkitimage.md) array|
-|<a name="termexclusions"></a>TermExclusions|The term exclusions to use with your brand kit.|**string** array|
+|<a name="termexclusions"></a>TermExclusions|The terms to exclude from generated ad copy for the campaign.<br/><br/>You can specify up to 25 excluded terms. Each term can contain up to 30 characters.<br/><br/>For example, "cheap" or "discount".|**string** array|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

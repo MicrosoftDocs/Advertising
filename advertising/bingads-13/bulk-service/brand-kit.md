@@ -47,7 +47,7 @@ See [BrandVoice](../campaign-management-service/brandvoice.md) for more informat
 
 **Add:** Optional  
 **Update:** Optional. If no value is set for the update, this setting is not changed.  
-**Delete:** Read-only  
+**Delete:** Read-only
 
 ## <a name="businessname"></a>Business Name
 The name of the business.  
