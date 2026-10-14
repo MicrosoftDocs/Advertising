@@ -182,7 +182,7 @@ If the inherited [Criterion](#criterion) is a [Webpage](webpage.md) criterion, i
 
 An AI Max URL inclusion target has the following requirements:
 
-- The criterion must be a *BiddableAdGroupCriterion*. Negative URL inclusion targets aren't supported.
+- The criterion must be a *BiddableAdGroupCriterion*. AI Max URL exclusion targets aren't supported.
 - At least one webpage condition is required. Targeting all webpages isn't supported.
 - You can specify up to three conditions. Conditions within one criterion are evaluated with AND logic, and multiple criteria in the same ad group are evaluated with OR logic.
 - A URL *Equals* condition must be the only condition in the criterion.
