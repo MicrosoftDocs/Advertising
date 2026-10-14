@@ -5,11 +5,17 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines the possible match types for a keyword or negative keyword.
 ---
 # MatchType Value Set - Campaign Management
 Defines the possible match types for a keyword or negative keyword.
+
+> [!NOTE]
+> *AIOptimized* is a Reporting attribution value and an internal system match type used by AI Max
+> search term matching. It is not a valid Campaign Management *MatchType* request value. For
+> reporting details, see
+> [DeliveredMatchTypeReportFilter.AIOptimized](../reporting-service/deliveredmatchtypereportfilter.md#aioptimized).
 
 ## Syntax
 ```xml

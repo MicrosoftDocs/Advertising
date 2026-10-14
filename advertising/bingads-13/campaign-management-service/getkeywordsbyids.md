@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 zone_pivot_groups: api-reference
 description: Retrieves the specified keywords.
 dev_langs: 
@@ -16,6 +16,8 @@ dev_langs:
 ---
 # GetKeywordsByIds Service Operation - Campaign Management
 Retrieves the specified keywords.
+
+An internal *AIOptimized* system keyword is not returned as a public [Keyword](keyword.md) result.
 
 ::: zone pivot="soap"
 

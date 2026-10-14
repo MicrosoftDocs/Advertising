@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/15/2026
+ms.date: 10/10/2026
 description: Describes the schema for records in a Bulk file.
 ---
 # Bulk File Schema
@@ -77,6 +77,7 @@ Record Type  |Supported Campaign Types
 [Ad Group DayTime Criterion](ad-group-daytime-criterion.md)|All  
 [Ad Group DeviceOS Criterion](ad-group-deviceos-criterion.md)|All  
 [Ad Group Dynamic Search Ad Target](ad-group-dynamic-search-ad-target.md)|Search  
+[Ad Group Url Target](ad-group-url-target.md)|Search
 [Ad Group Filter Link Ad Extension](ad-group-filter-link-ad-extension.md)|Search  
 [Ad Group Flyer Ad Extension](ad-group-flyer-ad-extension.md)|Search  
 [Ad Group Gender Criterion](ad-group-gender-criterion.md)|All  
@@ -172,7 +173,7 @@ Record Type  |Supported Campaign Types
 [Campaign Negative Remarketing List Association](campaign-negative-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
 [Campaign Negative Similar Remarketing List Association](campaign-negative-similar-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
 [Campaign Negative Site](campaign-negative-site.md)|All  
-[Campaign Negative Webpage](campaign-negative-webpage.md)|Performance Max  
+[Campaign Negative Webpage](campaign-negative-webpage.md)|Performance Max<br/>Search
 [Campaign Price Ad Extension](campaign-price-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Product Audience Association](campaign-product-audience-association.md)|Search<br/>Shopping  
 [Campaign Product Scope](campaign-product-scope.md)|Audience<br/>Shopping  

@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Describes the Keyword fields in a Bulk file.
 dev_langs:
   - csharp
@@ -385,6 +385,11 @@ Data for this column is typically updated 14-18 hours after the UTC day ends.
 The type of match to compare the keyword and the user's search term.
 
 The supported match type values for a keyword are *Broad*, *Exact* and *Phrase*.
+
+*AIOptimized* is a Microsoft Advertising-managed system match type used by AI Max search term
+matching. It cannot be uploaded, updated, or deleted. AI-optimized system keyword rows are omitted
+from Bulk keyword downloads; performance is available through Reporting by using the
+[AIOptimized delivered match value](../reporting-service/deliveredmatchtypereportfilter.md#aioptimized).
 
 *Note*: If you've enabled Predictive targeting for your Search campaign, the match type is "Predictive". In this case, you can't add, update, and delete the match type because we use predictive targeting to match your ads with relevant search queries.
 

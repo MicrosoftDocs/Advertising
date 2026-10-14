@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/26/2025
+ms.date: 9/29/2026
 description: These technical guides apply to the Campaign Management service and may also depend on other Bing Ads API services.
 ---
 # Campaign Management API Guides

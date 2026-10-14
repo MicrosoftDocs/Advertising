@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines the criteria to use to filter the search query performance report data.
 ---
 # SearchQueryPerformanceReportFilter Data Object - Reporting
@@ -73,7 +73,7 @@ The [SearchQueryPerformanceReportFilter](searchqueryperformancereportfilter.md) 
 |<a name="adtype"></a>AdType|The report will include data for only the specified ad types. For example, the report can include data for product or expanded text ads. You can specify one or more ad types.|[AdTypeReportFilter](adtypereportfilter.md)|
 |<a name="assetgroupstatus"></a>AssetGroupStatus|The report will include data for only the selected asset group statuses.|[AssetGroupStatusReportFilter](assetgroupstatusreportfilter.md)|
 |<a name="campaignstatus"></a>CampaignStatus|The report will include data for campaigns that have the specified status value. You can specify one or more status values.|[CampaignStatusReportFilter](campaignstatusreportfilter.md)|
-|<a name="deliveredmatchtype"></a>DeliveredMatchType|The report will include data for only the specified delivered match types (as opposed to the bid match type). For example, you can use the filter to include data for ads that were delivered using the exact or phrase match type.<br/><br/>You can specify one or more delivered match types.|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|
+|<a name="deliveredmatchtype"></a>DeliveredMatchType|The report will include data for only the specified delivered match types (as opposed to the bid match type). For example, you can use the filter to include data for ads that were delivered using the exact or phrase match type. Use [AIOptimized](deliveredmatchtypereportfilter.md#aioptimized) to select AI Max search-term-matching rows.<br/><br/>You can specify one or more delivered match types.|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|
 |<a name="excludezeroclicks"></a>ExcludeZeroClicks|If the value of this element is set to *true*, search terms that had one or more ad impressions but resulted in zero clicks in the specified time duration will be excluded from the report.<br/><br/>The default value is *false*, in which case the report will include zero click search term data.<br/><br/>Regardless of the value of this filter, search terms with zero clicks in the last 30 days will always be excluded.|**boolean**|
 |<a name="keywordstatus"></a>KeywordStatus|The report will include data for only the keyword status. For example, you can use the filter to include data for only active keywords.<br/><br/>You can specify one or more keyword statuses.|[KeywordStatusReportFilter](keywordstatusreportfilter.md)|
 |<a name="language"></a>Language|The report will include data for only websites that used the specified languages.<br/><br/>You can specify one or more languages.|[LanguageReportFilter](languagereportfilter.md)|

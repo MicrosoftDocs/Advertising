@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Data objects reference for the CampaignManagement service.
 ---
 # Campaign Management Data Objects
@@ -50,7 +50,7 @@ The Campaign Management service defines the following data objects.
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
 |[AgeDimension](agedimension.md)|Data object that specifies users by their age.|
-|[AISearchSetting](aisearchsetting.md)|Enable or opt out of AI search settings.|
+|[AISearchSetting](aisearchsetting.md)|Defines AI Max settings for Search campaigns.|
 |[AnnotationOptOut](annotationoptout.md)|Represents the annotation opt-out configuration for an account.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
 |[AppAdExtension](appadextension.md)|Defines an app ad extension that can be included in an ad.|

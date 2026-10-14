@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 zone_pivot_groups: api-reference
 description: Gets the keywords within an ad group.
 dev_langs: 
@@ -16,6 +16,9 @@ dev_langs:
 ---
 # GetKeywordsByAdGroupId Service Operation - Campaign Management
 Gets the keywords within an ad group.
+
+The Microsoft Advertising-managed *AIOptimized* keyword is excluded from the response. Use
+Reporting to retrieve AI-optimized matching performance.
 
 ::: zone pivot="soap"
 

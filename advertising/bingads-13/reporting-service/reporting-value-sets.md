@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Value sets reference for the Reporting service.
 ---
 # Reporting Value Sets
@@ -45,7 +45,7 @@ The Reporting service defines the following value sets.
 |[ChangeTypeReportFilter](changetypereportfilter.md)|Defines the types of changes to entities by which you can filter the report data.|
 |[CombinationPerformanceReportColumn](combinationperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the CombinationPerformanceReportRequest.|
 |[ConversionPerformanceReportColumn](conversionperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [ConversionPerformanceReportRequest](conversionperformancereportrequest.md).|
-|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|Defines the delivered match type values that you can use to filter the report data.|
+|[DeliveredMatchTypeReportFilter](deliveredmatchtypereportfilter.md)|Defines delivered match type values, including AI-optimized delivery, that you can use to filter report data.|
 |[DestinationUrlPerformanceReportColumn](destinationurlperformancereportcolumn.md)|Defines the attributes and performance statistics columns that you can include in the [DestinationUrlPerformanceReportRequest](destinationurlperformancereportrequest.md).|
 |[DeviceOSReportFilter](deviceosreportfilter.md)|Defines the device operating system values that you can use to filter the report data.|
 |[DeviceTypeReportFilter](devicetypereportfilter.md)|Defines the device type values that you can use to filter the report data.|

@@ -5,16 +5,24 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
-description: Defines a webpage parameter that contains a list of webpage conditions or criteria that help determine whether you want to show dynamic search ads.
+ms.date: 10/10/2026
+description: Defines webpage conditions for Dynamic Search Ads targeting or AI Max URL inclusions.
 ---
 # Webpage Data Object - Campaign Management
-Defines a webpage parameter that contains a list of webpage conditions or criteria that help determine whether you want to show dynamic search ads.
+Defines a webpage parameter that contains a list of webpage conditions or criteria. You can use a *Webpage* criterion to target webpages for Dynamic Search Ads or to define URL inclusion rules for AI Max Search campaigns.
 
-The *Webpage* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), and [NegativeCampaignCriterion](negativecampaigncriterion.md) objects. If ad group level negative webpage criterions are specified, the campaign level negative webpage criterions are ignored for that ad group. In other words the ad group negative webpage criterions override the campaign negative webpage criterions, and are not applied as a union.   
+The *Webpage* criterion can be included within [BiddableAdGroupCriterion](biddableadgroupcriterion.md), [NegativeAdGroupCriterion](negativeadgroupcriterion.md), and [NegativeCampaignCriterion](negativecampaigncriterion.md) objects. If ad group-level negative webpage criteria are specified, the campaign-level negative webpage criteria are ignored for that ad group. In other words, the ad group-level negative webpage criteria override the campaign-level negative webpage criteria and aren't applied as a union.
 
-A Webpage criterion can only be created within campaigns that have a [DynamicSearchAdsSetting](dynamicsearchadssetting.md) or [PerformanceMaxSetting](performancemaxsetting.md).
-- Search campaigns if the [CampaignType](campaign.md#campaigntype) is set to "Search", if the [ExperimentId](campaign.md#experimentid) element is not set, and if the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchDynamic".   
+A *Webpage* criterion can be created in the following scenarios:
+
+- For Dynamic Search Ads, the campaign has a [DynamicSearchAdsSetting](dynamicsearchadssetting.md), [CampaignType](campaign.md#campaigntype) is *Search*, [ExperimentId](campaign.md#experimentid) isn't set, and [AdGroupType](adgroup.md#adgrouptype) is *SearchDynamic*.
+- For an AI Max URL inclusion rule, the Search campaign has an [AISearchSetting](aisearchsetting.md) with *AISearchEnabled* set to *true*, and the ad group's *AdGroupType* isn't *SearchDynamic*.
+- For Performance Max URL targeting, the campaign has a [PerformanceMaxSetting](performancemaxsetting.md).
+
+For an AI Max URL inclusion rule, include the *Webpage* criterion only within a
+[BiddableAdGroupCriterion](biddableadgroupcriterion.md). Negative AI Max URL inclusion rules aren't
+supported. For targeting requirements and unsupported properties, see
+[BiddableAdGroupCriterion Webpage Usage](biddableadgroupcriterion.md#webpage).
 
 ## Syntax
 
@@ -58,7 +66,7 @@ The [Webpage](webpage.md) object has the following elements: [Parameter](#parame
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="parameter"></a>Parameter|The webpage parameter that contains a list of webpage conditions or criteria.<br/><br/>**Add:** Required<br/>**Update:** Optional. You can update the criterion name, but cannot update the webpage conditions. To update the conditions you must delete the criterion and add a new criterion.|[WebpageParameter](webpageparameter.md)|
+|<a name="parameter"></a>Parameter|The webpage parameter that contains a list of webpage conditions or criteria. For an AI Max URL inclusion rule, at least one condition is required; targeting all webpages isn't supported. You can include up to three conditions, and a URL *Equals* condition must be the only condition in the criterion.<br/><br/>**Add:** Required<br/>**Update:** Optional. You can update the criterion name, but you can't update the webpage conditions. To change the conditions, delete the criterion and add a new criterion.|[WebpageParameter](webpageparameter.md)|
 
 The [Webpage](webpage.md) object has [Inherited Elements](#inheritedelements).
 
@@ -74,4 +82,3 @@ The [Webpage](webpage.md) object derives from the [Criterion](criterion.md) obje
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-
