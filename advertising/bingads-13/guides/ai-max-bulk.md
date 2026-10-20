@@ -48,10 +48,9 @@ Use an eligible bid strategy before enabling search term matching or final URL e
 
 Use campaign-level text guidance to shape AI-generated ad copy:
 
-- **Term Exclusions** specify exact terms or phrases to exclude from generated copy. You can set
-  this in the Bulk [Campaign](../bulk-service/campaign.md#termexclusions) record or through
-  Campaign Management [Campaign.TermExclusions](../campaign-management-service/campaign.md#termexclusions).
-  You can specify up to 25 terms, with up to 30 characters per term.
+- **Term Exclusions** specify exact terms or phrases to exclude from generated copy. Set them in
+  the Bulk [Campaign](../bulk-service/campaign.md#termexclusions) record. You can specify up to 25
+  terms, with up to 30 characters per term.
 - **Messaging Restrictions** provide guidance for generated copy, such as language to avoid, rules
   to follow, or themes to emphasize. Set this in the Bulk
   [Campaign](../bulk-service/campaign.md#messagingrestrictions) record. Campaign Management support
