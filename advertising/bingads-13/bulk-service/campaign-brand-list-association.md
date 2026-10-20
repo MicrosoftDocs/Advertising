@@ -105,13 +105,15 @@ created in the same upload, use the campaign record's reference key.
 
 ## <a name="status"></a>Status
 
-The status of the association. If omitted when adding the record, the association is active. For AI
-Max Search, set the status to *Inactive* to deactivate the association without deleting it, or to
-*Deleted* to remove the association. Performance Max associations do not support *Inactive* status;
-use *Deleted* to remove an association.
+The status of the association. Supported values are *Active*, *Inactive*, and *Deleted*. If omitted,
+the status is treated as *Active*. Use *Active* to add or reactivate an association, *Inactive* to
+deactivate an AI Max Search association without deleting it, or *Deleted* to remove an association.
+Performance Max associations do not support *Inactive* status.
 
-**Add:** Optional. *Inactive* is not supported for Performance Max.
+**Add:** Optional. If omitted, the association is added as *Active*. *Inactive* is not supported
+for Performance Max.
 
-**Update:** Optional. *Inactive* is not supported for Performance Max.
+**Update:** Optional. If omitted, the association is treated as *Active*; this can reactivate an
+inactive association. *Inactive* is not supported for Performance Max.
 
 **Delete:** Set to *Deleted*
