@@ -44,6 +44,19 @@ the same Campaign record. If AI Max is disabled, its child features are opted ou
 Use an eligible bid strategy before enabling search term matching or final URL expansion. See the
 [Campaign record reference](../bulk-service/campaign.md) for field requirements and update behavior.
 
+## <a name="text-guidance"></a>Control generated ad copy
+
+Use campaign-level text guidance to shape AI-generated ad copy:
+
+- **Term Exclusions** specify exact terms or phrases to exclude from generated copy. You can set
+  this in the Bulk [Campaign](../bulk-service/campaign.md#termexclusions) record or through
+  Campaign Management [Campaign.TermExclusions](../campaign-management-service/campaign.md#termexclusions).
+  You can specify up to 25 terms, with up to 30 characters per term.
+- **Messaging Restrictions** provide guidance for generated copy, such as language to avoid, rules
+  to follow, or themes to emphasize. Set this in the Bulk
+  [Campaign](../bulk-service/campaign.md#messagingrestrictions) record. Campaign Management support
+  is coming soon. You can specify up to 40 restrictions, each up to 300 characters.
+
 ## <a name="page-feeds"></a>Associate page feeds
 
 Create and manage page feeds and feed items with the Bulk [Feed](../bulk-service/feed.md) and
