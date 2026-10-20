@@ -10,13 +10,15 @@ description: Describes how to add, deactivate, delete, and download campaign bra
 ---
 # Campaign Brand List Association Record - Bulk
 
-Use a *Campaign Brand List Association* record to associate a brand list with an AI Max Search
-campaign. Set the *Is Excluded* field to *true* to exclude the brands in the list, or *false* to
-include them. Brand inclusion associations require Search Term Matching. For details, see
+Use a *Campaign Brand List Association* record to associate a brand list with a Performance Max
+campaign or an AI Max Search campaign. Performance Max supports brand exclusions only; its brand
+list associations are always exclusions. AI Max Search supports brand exclusions and inclusions.
+For AI Max Search inclusions, Search Term Matching must be enabled. See
 [Use brand exclusions and inclusions](../guides/ai-max.md#brand-lists).
 
 The following example adds a brand exclusion association. Replace the example identifiers with the
-IDs of an existing brand list and campaign.
+IDs of an existing brand list and campaign. For Performance Max, the association is an exclusion
+regardless of the *Is Excluded* value.
 
 ```csv
 Type,Status,Id,Parent Id,Is Excluded,Client Id
@@ -62,16 +64,21 @@ The identifier of the existing brand list to associate with the campaign.
 
 ## <a name="isexcluded"></a>Is Excluded
 
-Specifies how the brand list applies to the campaign. Set to *true* to exclude the brands in the
-list, or *false* to include them.
+Specifies how the brand list applies to an AI Max Search campaign. Set to *true* to exclude the
+brands in the list, or *false* to include them. Performance Max associations are always exclusions;
+brand inclusion is not supported for Performance Max.
 
-To change an existing association from inclusion to exclusion, or vice versa, delete the existing
-association and add it again with the new value. You can include both records in the same upload:
-delete the existing association, then add it again with the new *Is Excluded* value.
+You cannot associate the same brand list with the same campaign as both an inclusion and an
+exclusion. To change an AI Max Search association from inclusion to exclusion, or vice versa,
+delete the existing association and add it again with the new value. You can include both records
+in the same upload: delete the existing association, then add it again with the new *Is Excluded*
+value.
 
-**Add:** Set this value to choose inclusion or exclusion.
+**Add:** For AI Max Search, set this value to choose inclusion or exclusion. Performance Max
+associations are exclusions.
 
-**Update:** Delete the association and add it again with the new value.
+**Update:** Delete the association and add it again with the new value. Performance Max associations
+remain exclusions.
 
 **Delete:** Read-only
 
@@ -98,12 +105,13 @@ created in the same upload, use the campaign record's reference key.
 
 ## <a name="status"></a>Status
 
-The status of the association. If omitted when adding the record, the association is active. Set
-the status to *Inactive* to deactivate the association without deleting it, or to *Deleted* to
-remove the association.
+The status of the association. If omitted when adding the record, the association is active. For AI
+Max Search, set the status to *Inactive* to deactivate the association without deleting it, or to
+*Deleted* to remove the association. Performance Max associations do not support *Inactive* status;
+use *Deleted* to remove an association.
 
-**Add:** Optional
+**Add:** Optional. *Inactive* is not supported for Performance Max.
 
-**Update:** Optional
+**Update:** Optional. *Inactive* is not supported for Performance Max.
 
 **Delete:** Set to *Deleted*

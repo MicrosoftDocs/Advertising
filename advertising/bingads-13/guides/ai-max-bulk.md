@@ -94,8 +94,9 @@ The association data identifies whether a brand list is included or excluded fro
 Use a [Campaign Brand List Association](../bulk-service/campaign-brand-list-association.md) record
 to add, deactivate, or delete an association in a Bulk upload. Set *Id* to the brand list ID,
 *Parent Id* to the campaign ID, and *Is Excluded* to *true* for an exclusion or *false* for an
-inclusion. Bulk supports uploading the association, but not creating or changing the brand list or
-its items.
+inclusion on AI Max Search. Performance Max supports exclusions only; its brand list associations
+are always exclusions. Bulk supports uploading the association, but not creating or changing the
+brand list or its items.
 
 ## <a name="campaign-negative-webpages"></a>Manage campaign negative webpages
 
