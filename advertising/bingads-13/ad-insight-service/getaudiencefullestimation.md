@@ -34,7 +34,7 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="autotargeting"></a>AutoTargeting|Use predictive targeting if the value is *true*.|**boolean**|
 |<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
-|<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
+|<a name="campaignsubtype"></a>CampaignSubType|Indicates the desired ad type for the estimation response. The supported value is *0: StaticAds*.<br/><br/>**Add:** Optional. <br/>**Update:** Optional|**int**|
 |<a name="channel"></a>Channel|The selection of channel targeting. The values stored in the selection refer to channel IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="channelplacement"></a>ChannelPlacement|The selection of channel placement targeting. The values stored in the selection refer to channel placement IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
@@ -653,7 +653,7 @@ The *GetAudienceFullEstimationRequest* object defines the [body](#request-body) 
 |<a name="autotargeting"></a>AutoTargeting|Use predictive targeting if the value is *true*.|**boolean**|
 |<a name="bid"></a>Bid|The desired bid setting value. If set to null, the suggested bid is used to perform estimation.<br/><br/>**Add:** Optional <br/>**Update:** Optional|**decimal**|
 |<a name="campaignbiddingstrategy"></a>CampaignBiddingStrategy|Indicates the desired bidding strategy for estimation response. Supported values are: *5: EnhancedCPC*, *12: ManualCP*.<br/><br/>**Add:** Optional. The default value is *Manual*. <br/>**Update:** Optional|**int**|
-|<a name="campaignsubtype"></a>CampaignSubType|Indicate the desired ad type for estimation response. Supported values are: *0: StaticAds, *1: FeedBasedAds*, *2: DynamicFeedBasedAds*.<br/><br/>**Add:** Optional. The default value is *StaticAds*. <br/>**Update:** Optional|**int**|
+|<a name="campaignsubtype"></a>CampaignSubType|Indicates the desired ad type for the estimation response. The supported value is *0: StaticAds*.<br/><br/>**Add:** Optional. <br/>**Update:** Optional|**int**|
 |<a name="channel"></a>Channel|The selection of channel targeting. The values stored in the selection refer to channel IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="channelplacement"></a>ChannelPlacement|The selection of channel placement targeting. The values stored in the selection refer to channel placement IDs.|[SelectionOflong](selectionoflong.md)|
 |<a name="company"></a>Company|The company of LinkedIn profile targeting. The values stored in the selection refer to segment IDs.<br/><br/>**Add:** Optional. The default value is *null*. <br/>**Update:** Optional|[SelectionOflong](selectionoflong.md)|
