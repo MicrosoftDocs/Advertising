@@ -80,6 +80,8 @@ the separate AI Max URL-inclusion eligibility. To return AI Max page feed IDs th
 Management, request both `CampaignAdditionalField.AISearchSetting` and
 `CampaignAdditionalField.PageFeedInAISearchSettings`.
 
+For the Bulk workflow, see [AI Max with the Bulk API](ai-max-bulk.md).
+
 ## <a name="customlabel-autotarget"></a>Create custom label auto targets
 
 To create a custom label auto target via the Bulk service, you can upload an [Ad Group Dynamic Search Ad Target](../bulk-service/ad-group-dynamic-search-ad-target.md#dynamicadtargetcondition1) record. For example, set the [Dynamic Ad Target Condition 1](../bulk-service/ad-group-dynamic-search-ad-target.md#dynamicadtargetcondition1) field to "CustomLabel" and set the [Dynamic Ad Target Value 1](../bulk-service/ad-group-dynamic-search-ad-target.md#dynamicadtargetvalue1) field to the value of one of the page feed item custom labels e.g., "Label_1_3001". 
