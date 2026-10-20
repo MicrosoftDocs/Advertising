@@ -83,7 +83,7 @@ In a mixed campaign, use the [Ad Group Dynamic Search Ad Target](../bulk-service
 record for *SearchDynamic* ad groups. Standard Search ad groups can use AI Max URL inclusion
 targets.
 
-## <a name="brand-lists"></a>Download brand lists and associations
+## <a name="brand-lists"></a>Download brand lists and manage associations
 
 To download brand data and campaign associations, request
 [DownloadEntity.BrandList](../bulk-service/downloadentity.md#brandlist),
@@ -91,12 +91,11 @@ To download brand data and campaign associations, request
 [DownloadEntity.CampaignBrandListAssociation](../bulk-service/downloadentity.md#campaignbrandlistassociation).
 The association data identifies whether a brand list is included or excluded from a campaign.
 
-The Bulk File Schema doesn't define upload records for brand lists, brand items, or campaign
-brand-list associations. Bulk downloads can retrieve this data, but you can't create or change
-brand lists or their campaign associations by uploading a Bulk file. To create or change an
-association, use the Campaign Management
-[SetSharedEntityAssociations](../campaign-management-service/setsharedentityassociations.md)
-operation.
+Use a [Campaign Brand List Association](../bulk-service/campaign-brand-list-association.md) record
+to add, deactivate, or delete an association in a Bulk upload. Set *Id* to the brand list ID,
+*Parent Id* to the campaign ID, and *Is Excluded* to *true* for an exclusion or *false* for an
+inclusion. Bulk supports uploading the association, but not creating or changing the brand list or
+its items.
 
 ## <a name="campaign-negative-webpages"></a>Manage campaign negative webpages
 

@@ -197,6 +197,8 @@ Associate a [BrandList](../campaign-management-service/brandlist.md) with a camp
 [SetSharedEntityAssociations](../campaign-management-service/setsharedentityassociations.md).
 Set `SharedEntityType` to `BrandList`, `EntityType` to `Campaign`, and use `IsExclusion` to choose
 how the list applies: `true` for a brand exclusion list or `false` for a brand inclusion list.
+You can also manage the association with a Bulk
+[Campaign Brand List Association](../bulk-service/campaign-brand-list-association.md) record.
 
 AI Max brand exclusions are not subject to the search term matching requirement for brand
 inclusions. Search term matching must be enabled to add, reactivate, or delete an AI Max brand

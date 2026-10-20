@@ -1016,6 +1016,9 @@
     - name: Campaign App Ad Extension
       href: ../bulk-service/campaign-app-ad-extension.md
       displayName: BulkCampaignAppAdExtension
+    - name: Campaign Brand List Association
+      href: ../bulk-service/campaign-brand-list-association.md
+      displayName: BulkCampaignBrandListAssociation
     - name: Campaign Call Ad Extension
       href: ../bulk-service/campaign-call-ad-extension.md
       displayName: BulkCampaignCallAdExtension
