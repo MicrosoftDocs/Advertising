@@ -5,12 +5,12 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 7/22/2026
-description: The Microsoft Advertising MCP Server enables AI assistants and applications to access Microsoft Advertising account data using natural language.
+ms.date: 10/20/2026
+description: Use natural language with the Microsoft Advertising MCP Server to analyze performance, review creative assets, and explore account change history.
 ---
 # Microsoft Advertising MCP Server Use Cases
 
-The Microsoft Advertising MCP Server enables AI assistants and applications to access Microsoft Advertising account data using natural language. Users can retrieve performance insights, investigate campaigns, analyze audience and keyword data, identify anomalies, and generate exportable outputs without manually creating reports.
+The Microsoft Advertising MCP Server enables AI assistants and applications to access Microsoft Advertising account data using natural language. Users can retrieve performance insights, investigate campaigns, review available ad assets and creative content, compare reported asset performance, review change history, analyze audience and keyword data, identify anomalies, and generate exportable outputs without manually creating reports.
 
 ## Supported Scenarios
 
@@ -19,8 +19,10 @@ The MCP Server supports:
 - Reporting and campaign insights
 - Campaign, ad group, asset group, ad, keyword, and audience analysis
 - Entity discovery and lookup
-- Anomaly and threshold detection
+- Assets: headlines, descriptions, images, and videos
 - Exportable reporting outputs
+- Anomaly and threshold detection
+- Change history
 - Cross-platform comparison between Microsoft Advertising and Google Ads
 
 ---
@@ -146,6 +148,7 @@ Retrieve lists of entities based on attributes or performance thresholds.
 - Ads
 - Keywords
 - Audiences
+- Assets
 
 #### Example prompts
 
@@ -155,6 +158,38 @@ Show all active Performance Max campaigns.
 List paused ad groups.
 
 Which campaigns have a daily budget greater than $500?
+```
+
+---
+
+### Assets
+
+Review available headlines, descriptions, images, and videos. Check editorial status and pinned positions where available.
+
+#### Example prompts
+
+```text
+Show the image and video assets in the active asset groups of my "PMax - Shopping US" Performance Max campaign, with each asset group's name and editorial status.
+
+Which active asset groups in my "PMax - Shopping US" Performance Max campaign contain disapproved image or video assets? Show the affected assets and their editorial status.
+
+Show the headlines and descriptions in my "Holiday Promotion Search" responsive search ads, with their editorial status and pinned positions.
+```
+
+---
+
+### Asset Performance
+
+Compare reported performance for headlines, descriptions, images, and videos over a selected period.
+
+#### Example prompts
+
+```text
+Which headline and description assets in my "Holiday Promotion Search" campaign have the most reported clicks this month? Rank headlines and descriptions separately.
+
+Rank image assets in the "PMax - Shopping US" campaign by reported conversions last month.
+
+Which video assets received impressions but no clicks in the last seven days?
 ```
 
 ---
@@ -195,6 +230,22 @@ Did account spend change significantly yesterday?
 Flag campaigns with conversions down more than 30%.
 
 Show impression trends and identify anomalies.
+```
+
+---
+
+## Change History
+
+Ask about changes to a specific campaign or keyword, budget or bid changes, or changes made on a particular date. See what changed, when it changed, and who made the change. Newly added items have no previous value. Change history is available for the last 180 days.
+
+### Example prompts
+
+```text
+What changed within the "Summer Sale" campaign in the last seven days, and who made each change?
+
+Show budget and bid changes across my account this month, including previous and new values where available.
+
+Who paused the "Holiday Promotion Search" campaign itself, and when, within the available change history?
 ```
 
 ---
