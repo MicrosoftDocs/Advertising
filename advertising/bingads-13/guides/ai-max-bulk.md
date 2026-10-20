@@ -16,8 +16,7 @@ are fields on a [Campaign](../bulk-service/campaign.md) record. URL inclusion ta
 [Ad Group Url Target](../bulk-service/ad-group-url-target.md) record.
 
 AI Max is available only for eligible accounts and Search campaigns. Page feeds and URL inclusion
-targets require separate AI Max URL-inclusion eligibility. For a general overview of the feature,
-see [AI Max Campaigns](ai-max.md).
+targets require separate AI Max URL-inclusion eligibility.
 
 ## <a name="campaign-settings"></a>Configure campaign settings
 
@@ -42,9 +41,8 @@ a campaign, omitted child fields keep their current values. To upload any AI Max
 AI Max page feed IDs, include either *AI Search Enabled* or the legacy *AI Max Enabled* column in
 the same Campaign record. If AI Max is disabled, its child features are opted out.
 
-Use an eligible bid strategy before enabling search term matching or final URL expansion. For all
-field requirements and update behavior, see the [Campaign record reference](../bulk-service/campaign.md)
-and [AISearchSetting](../campaign-management-service/aisearchsetting.md).
+Use an eligible bid strategy before enabling search term matching or final URL expansion. See the
+[Campaign record reference](../bulk-service/campaign.md) for field requirements and update behavior.
 
 ## <a name="page-feeds"></a>Associate page feeds
 
@@ -85,28 +83,28 @@ In a mixed campaign, use the [Ad Group Dynamic Search Ad Target](../bulk-service
 record for *SearchDynamic* ad groups. Standard Search ad groups can use AI Max URL inclusion
 targets.
 
-## <a name="brand-lists"></a>Download and manage brand lists
+## <a name="brand-lists"></a>Download brand lists and associations
 
-To download brand lists and their campaign associations, include
-[DownloadEntity.BrandList](../bulk-service/downloadentity.md#brandlist) and
-[DownloadEntity.CampaignBrandListAssociation](../bulk-service/downloadentity.md#campaignbrandlistassociation),
-respectively. The association indicates whether a brand list is applied as an inclusion or
-exclusion.
+To download brand data and campaign associations, request
+[DownloadEntity.BrandList](../bulk-service/downloadentity.md#brandlist),
+[DownloadEntity.BrandItem](../bulk-service/downloadentity.md#branditem), and
+[DownloadEntity.CampaignBrandListAssociation](../bulk-service/downloadentity.md#campaignbrandlistassociation).
+The association data identifies whether a brand list is included or excluded from a campaign.
 
-Manage campaign-level brand list associations with Campaign Management
-[SetSharedEntityAssociations](../campaign-management-service/setsharedentityassociations.md) and
-[DeleteSharedEntityAssociations](../campaign-management-service/deletesharedentityassociations.md).
-For a brand-list association, set `SharedEntityType` to `BrandList`, `EntityType` to `Campaign`,
-and `IsExclusion` to `true` for an exclusion or `false` for an inclusion. For AI Max, changes to
-brand inclusions require search term matching to be enabled; brand exclusions are not subject to
-that requirement. See [AI Max Campaigns](ai-max.md#brand-lists) for the behavior.
+The Bulk File Schema doesn't define upload records for brand lists, brand items, or campaign
+brand-list associations. Bulk downloads can retrieve this data, but you can't create or change
+brand lists or their campaign associations by uploading a Bulk file. To create or change an
+association, use the Campaign Management
+[SetSharedEntityAssociations](../campaign-management-service/setsharedentityassociations.md)
+operation.
 
 ## <a name="campaign-negative-webpages"></a>Manage campaign negative webpages
 
 Use a [Campaign Negative Webpage](../bulk-service/campaign-negative-webpage.md) record to exclude
-webpages at the campaign level. For an AI Max Search campaign, AI Max and final URL expansion must
-be enabled; set `AISearchSetting.AISearchEnabled` to `true` and
-`FinalUrlExpansionOptOut` to `false`.
+webpages at the campaign level. For an AI Max Search campaign, set
+[AI Search Enabled](../bulk-service/campaign.md#aisearchenabled) to *true* and
+[URL Expansion Opt Out](../bulk-service/campaign.md#urlexpansionoptout) to *false* in the Campaign
+record.
 
 The record supports up to three URL conditions with `contains` or `equals` operators. The condition,
 operator, and value fields can't be updated; delete the record and add a new one to change them.
@@ -115,10 +113,11 @@ These campaign-level exclusions are separate from AI Max URL inclusion targets, 
 
 ## <a name="download"></a>Download AI Max data
 
-To download campaign settings, URL inclusion targets, brand lists, brand-list associations, and
-campaign negative webpages, request the corresponding *Campaigns*, *AdGroupUrlTargets*, *BrandList*,
-*CampaignBrandListAssociation*, and *CampaignNegativeWebpages* [DownloadEntity](../bulk-service/downloadentity.md)
-values and include the *EntityData* [DataScope](../bulk-service/datascope.md#entitydata). Full
-downloads return current records. Delta downloads include records changed since the last sync.
+To download campaign settings, URL inclusion targets, brand data and associations, and campaign
+negative webpages, request the corresponding *Campaigns*, *AdGroupUrlTargets*, *BrandList*,
+*BrandItem*, *CampaignBrandListAssociation*, and *CampaignNegativeWebpages*
+[DownloadEntity](../bulk-service/downloadentity.md) values and include the *EntityData*
+[DataScope](../bulk-service/datascope.md#entitydata). Full downloads return current records. Delta
+downloads include records changed since the last sync.
 
 For general download and upload guidance, see [Bulk Download and Upload](bulk-download-upload.md).
