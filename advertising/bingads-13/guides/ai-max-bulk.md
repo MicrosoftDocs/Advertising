@@ -6,13 +6,13 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 10/20/2026
-description: Configure AI Max Search campaigns, page feeds, and URL inclusions with the Bulk API.
+description: Configure AI Max Search campaigns, brand lists, page feeds, and URL targeting with the Bulk API.
 ---
 # AI Max with the Bulk API
 
-Use the Bulk API to configure AI Max settings on Search campaigns, associate page feeds, and manage
-URL inclusion targets. Campaign settings and page feed IDs are fields on a
-[Campaign](../bulk-service/campaign.md) record. URL inclusion targets use the
+Use the Bulk API to configure AI Max settings on Search campaigns, retrieve campaign brand-list
+associations, associate page feeds, and manage URL targeting. Campaign settings and page feed IDs
+are fields on a [Campaign](../bulk-service/campaign.md) record. URL inclusion targets use the
 [Ad Group Url Target](../bulk-service/ad-group-url-target.md) record.
 
 AI Max is available only for eligible accounts and Search campaigns. Page feeds and URL inclusion
@@ -85,11 +85,40 @@ In a mixed campaign, use the [Ad Group Dynamic Search Ad Target](../bulk-service
 record for *SearchDynamic* ad groups. Standard Search ad groups can use AI Max URL inclusion
 targets.
 
+## <a name="brand-lists"></a>Download and manage brand lists
+
+To download brand lists and their campaign associations, include
+[DownloadEntity.BrandList](../bulk-service/downloadentity.md#brandlist) and
+[DownloadEntity.CampaignBrandListAssociation](../bulk-service/downloadentity.md#campaignbrandlistassociation),
+respectively. The association indicates whether a brand list is applied as an inclusion or
+exclusion.
+
+Manage campaign-level brand list associations with Campaign Management
+[SetSharedEntityAssociations](../campaign-management-service/setsharedentityassociations.md) and
+[DeleteSharedEntityAssociations](../campaign-management-service/deletesharedentityassociations.md).
+For a brand-list association, set `SharedEntityType` to `BrandList`, `EntityType` to `Campaign`,
+and `IsExclusion` to `true` for an exclusion or `false` for an inclusion. For AI Max, changes to
+brand inclusions require search term matching to be enabled; brand exclusions are not subject to
+that requirement. See [AI Max Campaigns](ai-max.md#brand-lists) for the behavior.
+
+## <a name="campaign-negative-webpages"></a>Manage campaign negative webpages
+
+Use a [Campaign Negative Webpage](../bulk-service/campaign-negative-webpage.md) record to exclude
+webpages at the campaign level. For an AI Max Search campaign, AI Max and final URL expansion must
+be enabled; set `AISearchSetting.AISearchEnabled` to `true` and
+`FinalUrlExpansionOptOut` to `false`.
+
+The record supports up to three URL conditions with `contains` or `equals` operators. The condition,
+operator, and value fields can't be updated; delete the record and add a new one to change them.
+These campaign-level exclusions are separate from AI Max URL inclusion targets, which use the
+[Ad Group Url Target](../bulk-service/ad-group-url-target.md) record.
+
 ## <a name="download"></a>Download AI Max data
 
-To download campaign settings and URL inclusion targets, request the *Campaigns* and
-*AdGroupUrlTargets* [DownloadEntity](../bulk-service/downloadentity.md) values and include the
-*EntityData* [DataScope](../bulk-service/datascope.md#entitydata). Full downloads return current
-URL target records. Delta downloads include added, updated, and deleted URL target records.
+To download campaign settings, URL inclusion targets, brand lists, brand-list associations, and
+campaign negative webpages, request the corresponding *Campaigns*, *AdGroupUrlTargets*, *BrandList*,
+*CampaignBrandListAssociation*, and *CampaignNegativeWebpages* [DownloadEntity](../bulk-service/downloadentity.md)
+values and include the *EntityData* [DataScope](../bulk-service/datascope.md#entitydata). Full
+downloads return current records. Delta downloads include records changed since the last sync.
 
 For general download and upload guidance, see [Bulk Download and Upload](bulk-download-upload.md).
