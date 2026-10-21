@@ -226,13 +226,28 @@ Set this property to *TRUE* if you want the ads to be shown in the search user's
 **Delete:** Read-only  
 
 ## <a name="basedomainsetting"></a>Base Domain Setting
-The fundamental part of the URL (e.g., contoso.com).
+The base domain is scoped to the ad group. It represents the single domain that ads and keyword landing pages in the ad group should match to meet the one display domain per ad group requirement.
 
-> [!NOTE]
-> *BaseDomainSetting* is initially set automatically, you can't set it.
+For example, for the URL `https://www.contoso.com/path?param=value`, the base domain is `contoso.com`.
 
-**Add:** Read-only  
-**Update:** Read-only  
+### Initial value
+
+When you create an ad group, you don't set its initial Base Domain Setting directly. Microsoft Advertising automatically determines the initial base domain from eligible ad or keyword URL information added to the ad group.
+
+If you supply a Base Domain Setting value when creating the ad group, that value isn't used to establish the initial base domain.
+
+### Updating the base domain
+
+After the Base Domain Setting has been established, you can change it by updating the ad group, including through the Bulk API.
+
+Changing the Base Domain Setting causes the ads and keywords associated with the ad group to be reevaluated against the updated base domain. Ads or keyword landing pages that don't comply with the updated base domain can be subject to editorial review and may not be eligible to serve.
+
+Changing an ad or keyword Final URL doesn't automatically change an existing Base Domain Setting. If you're moving the ad group to a different domain, update the Base Domain Setting first, and then ensure the applicable ad and keyword URLs use the new base domain.
+
+The Base Domain Setting can't be deleted or cleared after it has been established.
+
+**Add:** Read-only. The initial value is determined automatically by Microsoft Advertising.  
+**Update:** Optional. You can provide a new Base Domain Setting when updating an existing ad group. If no value is provided, the existing setting isn't changed.  
 **Delete:** Read-only  
 
 ## <a name="bidadjustment"></a>Bid Adjustment
