@@ -43,9 +43,9 @@ The [AssetGroupSearchTheme](assetgroupsearchtheme.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|The system generated asset group ID.<br /><br />**Add**: Read-only<br />**Update**: Read-only |**long**|
+|<a name="id"></a>Id|The system-generated identifier of the asset group search theme. This is the search-theme ID, not the ID of the parent asset group.<br /><br />**Add**: Read-only. The service assigns this ID.<br />**Update**: Specify the existing search-theme ID to identify the theme to update or delete. Do not change the ID. For a new theme added through [UpdateAssetGroups](updateassetgroups.md), omit the ID.|**long**|
 |<a name="searchtheme"></a>SearchTheme|The type of search theme.|**string**|
-|<a name="status"></a>Status|The status of the asset group search theme.<br/><br/>**Add:** Optional<br/>**Update:** Optional|[GenericEntityStatus](genericentitystatus.md)|
+|<a name="status"></a>Status|The status of the asset group search theme.<br/><br/>**Add:** Optional.<br/>**Update:** Optional. To delete an existing search theme, set this field to *Deleted* and specify that theme's *Id* in the *AssetGroupSearchThemes* collection submitted to [UpdateAssetGroups](updateassetgroups.md). *SearchTheme* text is not required for deletion. This deletes only the search theme and retains the asset group.|[GenericEntityStatus](genericentitystatus.md)|
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
