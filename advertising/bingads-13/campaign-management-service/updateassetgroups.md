@@ -17,6 +17,45 @@ dev_langs:
 # UpdateAssetGroups Service Operation - Campaign Management
 Updates the specified asset groups.
 
+## Delete search themes without deleting the asset group
+
+Use the following read-delete-read sequence for a Performance Max asset group. These examples are JSON request bodies, not complete HTTP requests. Use the authentication and account headers required by each operation, and replace all example IDs with your own IDs.
+
+1. Call [GetAssetGroupsByIds](getassetgroupsbyids.md) and include *AssetGroupSearchThemes* in *ReturnAdditionalFields*. Read each search theme's *Id* from the returned asset group. Do not confuse these IDs with the asset group's *Id*.
+
+   ```json
+   {
+     "CampaignId": 123456789,
+     "AssetGroupIds": [
+       234567890
+     ],
+     "ReturnAdditionalFields": "AssetGroupSearchThemes"
+   }
+   ```
+
+2. Call UpdateAssetGroups. Set the parent *AssetGroup.Id* to the asset-group ID. In *AssetGroupSearchThemes*, include each theme to delete using its returned *Id* and *Status* set to *Deleted*. The example deletes two themes and leaves the asset group and all other themes unchanged.
+
+   ```json
+   {
+     "CampaignId": 123456789,
+     "AssetGroups": [
+       {
+         "Id": 234567890,
+         "AssetGroupSearchThemes": [
+           { "Id": 345678901, "Status": "Deleted" },
+           { "Id": 345678902, "Status": "Deleted" }
+         ]
+       }
+     ]
+   }
+   ```
+
+3. Inspect *PartialErrors*, then repeat the GetAssetGroupsByIds request to verify that the deleted theme IDs are no longer returned and that the asset group still exists.
+
+**Clear all themes:** Include one *Deleted* entry for every existing theme ID returned by the read operation. For example, if the group has 50 themes, submit 50 deletion entries. An empty array does not clear the themes. Do not delete the asset group itself.
+
+**Keep only a desired set:** Retrieve the current themes, explicitly delete the IDs that are not wanted, and add any missing themes. For example, to retain 30 of 50 existing themes, delete the other 20 by ID. There is no automatic full-list replacement. A client-side read/compare/delete/add sequence is not atomic, so account for concurrent changes and verify the final state.
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
