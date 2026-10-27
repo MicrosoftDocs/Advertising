@@ -58,7 +58,7 @@ If you use the Microsoft Advertising SDK, this record maps to
 At least one complete condition, operator, and value set is required on add. You can specify up to
 three conditions. Conditions within one target are evaluated with AND logic, and multiple targets
 in the same ad group are evaluated with OR logic. A URL with *Equals* must be the only condition.
-AI Max URL inclusion targets must be biddable; negative URL inclusion targets are not supported.
+AI Max URL inclusion targets must be biddable; URL exclusion targets are not supported.
 
 |Condition|Supported operator|
 |---|---|

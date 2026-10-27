@@ -136,6 +136,7 @@ Record Type  |Supported Campaign Types
 [Campaign Age Criterion](campaign-age-criterion.md)|All  
 [Campaign Action Ad Extension](campaign-action-ad-extension.md)|Performance Max<br/>Search  
 [Campaign App Ad Extension](campaign-app-ad-extension.md)|Performance Max<br/>Search  
+[Campaign Brand List Association](campaign-brand-list-association.md)|Performance Max<br/>Search
 [Campaign Call Ad Extension](campaign-call-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Callout Ad Extension](campaign-callout-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Combined List Association](campaign-combined-list-association.md)|All  
