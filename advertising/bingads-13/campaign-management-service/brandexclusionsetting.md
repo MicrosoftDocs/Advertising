@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a setting that controls whether product ads are excluded.
+description: Defines a setting that controls whether Product Ads are exempt from a campaign's brand exclusions.
 ---
 # BrandExclusionSetting Data Object - Campaign Management
-Defines a setting that controls whether product ads are excluded.
+Defines a setting that controls whether Product ads are exempt from a campaign's brand exclusions.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ The [BrandExclusionSetting](brandexclusionsetting.md) object has the following e
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="productadsoptout"></a>ProductAdsOptOut|Determines whether product ads are excluded.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
+|<a name="productadsoptout"></a>ProductAdsOptOut|Determines whether Product ads are exempt from the campaign's brand exclusions. If *true*, the brand exclusions apply to Text ads only. If *false*, the brand exclusions apply to both Text ads and Product ads. This setting doesn't disable Product ads.<br/><br/>**Add:** Optional<br/>**Update:** Optional|**boolean**|
 
 The [BrandExclusionSetting](brandexclusionsetting.md) object has [Inherited Elements](#inheritedelements).
 
