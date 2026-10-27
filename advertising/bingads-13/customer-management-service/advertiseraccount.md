@@ -58,6 +58,13 @@ Defines an advertiser account.
         </xs:appinfo>
       </xs:annotation>
     </xs:element>
+    <xs:element minOccurs="0" name="ParentCustomerNumber" nillable="true" type="xs:string">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
   </xs:sequence>
 </xs:complexType>
 ```
@@ -106,6 +113,7 @@ Defines an advertiser account.
   "Name": "ValueHere",
   "Number": "ValueHere",
   "ParentCustomerId": "LongValueHere",
+  "ParentCustomerNumber": "ValueHere",
   "PauseReason": "ValueHere",
   "PaymentMethodId": "LongValueHere",
   "PaymentMethodType": "ValueHere",
@@ -137,7 +145,7 @@ Defines an advertiser account.
 
 ## <a name="elements"></a>Elements
 
-The [AdvertiserAccount](advertiseraccount.md) object has the following elements: [AccountFinancialStatus](#accountfinancialstatus), [AccountLifeCycleStatus](#accountlifecyclestatus), [AccountMode](#accountmode), [AutoTagType](#autotagtype), [BackUpPaymentInstrumentId](#backuppaymentinstrumentid), [BillingThresholdAmount](#billingthresholdamount), [BillToCustomerId](#billtocustomerid), [BusinessAddress](#businessaddress), [CurrencyCode](#currencycode), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [Language](#language), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedTime](#lastmodifiedtime), [LinkedAgencies](#linkedagencies), [Name](#name), [Number](#number), [ParentCustomerId](#parentcustomerid), [PauseReason](#pausereason), [PaymentMethodId](#paymentmethodid), [PaymentMethodType](#paymentmethodtype), [PrimaryUserId](#primaryuserid), [SalesHouseCustomerId](#saleshousecustomerid), [SoldToPaymentInstrumentId](#soldtopaymentinstrumentid), [TaxCertificate](#taxcertificate), [TaxInformation](#taxinformation), [TimeStamp](#timestamp), [TimeZone](#timezone).
+The [AdvertiserAccount](advertiseraccount.md) object has the following elements: [AccountFinancialStatus](#accountfinancialstatus), [AccountLifeCycleStatus](#accountlifecyclestatus), [AccountMode](#accountmode), [AutoTagType](#autotagtype), [BackUpPaymentInstrumentId](#backuppaymentinstrumentid), [BillingThresholdAmount](#billingthresholdamount), [BillToCustomerId](#billtocustomerid), [BusinessAddress](#businessaddress), [CurrencyCode](#currencycode), [ForwardCompatibilityMap](#forwardcompatibilitymap), [Id](#id), [Language](#language), [LastModifiedByUserId](#lastmodifiedbyuserid), [LastModifiedTime](#lastmodifiedtime), [LinkedAgencies](#linkedagencies), [Name](#name), [Number](#number), [ParentCustomerId](#parentcustomerid), [ParentCustomerNumber](#parentcustomernumber), [PauseReason](#pausereason), [PaymentMethodId](#paymentmethodid), [PaymentMethodType](#paymentmethodtype), [PrimaryUserId](#primaryuserid), [SalesHouseCustomerId](#saleshousecustomerid), [SoldToPaymentInstrumentId](#soldtopaymentinstrumentid), [TaxCertificate](#taxcertificate), [TaxInformation](#taxinformation), [TimeStamp](#timestamp), [TimeZone](#timezone).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
@@ -159,6 +167,7 @@ The [AdvertiserAccount](advertiseraccount.md) object has the following elements:
 |<a name="name"></a>Name|The name of the account. The string can contain between 3 and 100 characters and must be unique among all account names within the customer.<br/><br/>**Add:** Required<br/>**Update:** Required|**string**|
 |<a name="number"></a>Number|The system-generated account number that is used to identify the account in the Microsoft Advertising web application.<br/><br/>The account number has the form *xxxxxxxx*, where *xxxxxxxx* is a series of any eight alphanumeric characters.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 |<a name="parentcustomerid"></a>ParentCustomerId|The identifier of the customer that owns the account.<br/><br/>In the campaign requests that require a customer identifier, this is the identifier that you set the *CustomerId* SOAP header to.<br/><br/>**Add:** Required for [AddAccount](addaccount.md); Required for [SignupCustomer](signupcustomer.md) if the [UserInvitation](signupcustomer.md#userinvitation) is not set, and otherwise this element is ignored.<br/>**Update:** Read-only|**long**|
+|<a name="parentcustomernumber"></a>ParentCustomerNumber|The system-generated customer number used to identify the customer that owns the account. This number is required when creating a [ClientLink](clientlink.md) and can be retrieved using [SearchAccounts](searchaccounts.md).<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**string**|
 |<a name="pausereason"></a>PauseReason|A flag value that indicates who paused the account. The following are the possible values:<br/><br/>1 - The user paused the account.<br/><br/>2 - The billing service paused the account.<br/><br/>4 - The user and billing service paused the account.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|**unsignedByte**|
 |<a name="paymentmethodid"></a>PaymentMethodId|The identifier of the payment instrument to use to settle the account.<br/><br/>**Add:** Optional for [AddAccount](addaccount.md); Read-only for [SignupCustomer](signupcustomer.md) if the [UserInvitation](signupcustomer.md#userinvitation) is not set. When you call [SignupCustomer](signupcustomer.md) set this element to NULL. The service picks up the payment method identifier associated with the aggregator customer's invoice automatically. For [SignupCustomer](signupcustomer.md) if the [UserInvitation](signupcustomer.md#userinvitation) is set, and if the new client account is being linked to an agency via [LinkedAgencies](#linkedagencies), and if the agency should be billed, set this element to the agency's payment instrument ID. Otherwise you should leave this element null.<br/>**Update:** Optional. If no value is set for the update, this setting is not changed.|**long**|
 |<a name="paymentmethodtype"></a>PaymentMethodType|The type of payment instrument to use to settle the account. You do not have to set this value because the type is determined by the payment instrument corresponding to the *PaymentMethodId* element.<br/><br/>When you call the [GetAccount](getaccount.md) and [SearchAccounts](searchaccounts.md) to get the account data, *PaymentMethodType* is set to NULL, and you cannot determine the payment method that the account uses.<br/><br/>Reserved for internal use.<br/><br/>**Add:** Read-only<br/>**Update:** Read-only|[PaymentMethodType](paymentmethodtype.md)|
