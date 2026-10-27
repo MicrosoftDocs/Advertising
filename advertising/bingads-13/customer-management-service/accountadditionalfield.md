@@ -20,6 +20,7 @@ Defines a list of optional account properties that you can request when calling 
         <xs:enumeration value="TaxCertificate" />
         <xs:enumeration value="AccountMode" />
         <xs:enumeration value="CouponClaimInfo" />
+        <xs:enumeration value="ParentCustomerNumber" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -28,12 +29,13 @@ Defines a list of optional account properties that you can request when calling 
 
 ## <a name="values"></a>Values
 
-The [AccountAdditionalField](accountadditionalfield.md) value set has the following values: [AccountMode](#accountmode), [CouponClaimInfo](#couponclaiminfo), [TaxCertificate](#taxcertificate).
+The [AccountAdditionalField](accountadditionalfield.md) value set has the following values: [AccountMode](#accountmode), [CouponClaimInfo](#couponclaiminfo), [ParentCustomerNumber](#parentcustomernumber), [TaxCertificate](#taxcertificate).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="accountmode"></a>AccountMode|Request that the [AccountMode](advertiseraccount.md#accountmode) element be included within each returned [AdvertiserAccount](advertiseraccount.md) or [AccountInfoWithCustomerData](accountinfowithcustomerdata.md) object.|
 |<a name="couponclaiminfo"></a>CouponClaimInfo|Request that the CouponClaimInfo element be included within each returned AdvertiserAccount object.|
+|<a name="parentcustomernumber"></a>ParentCustomerNumber|Request that the [ParentCustomerNumber](advertiseraccount.md#parentcustomernumber) element be included within each returned [AdvertiserAccount](advertiseraccount.md) object.|
 |<a name="taxcertificate"></a>TaxCertificate|Request that the [TaxCertificate](advertiseraccount.md#taxcertificate) element be included within each returned [AdvertiserAccount](advertiseraccount.md) object.|
 
 ## Requirements
