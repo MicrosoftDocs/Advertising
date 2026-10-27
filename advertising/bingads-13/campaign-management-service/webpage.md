@@ -20,7 +20,7 @@ A *Webpage* criterion can be created in the following scenarios:
 - For Performance Max URL targeting, the campaign has a [PerformanceMaxSetting](performancemaxsetting.md).
 
 For an AI Max URL inclusion rule, include the *Webpage* criterion only within a
-[BiddableAdGroupCriterion](biddableadgroupcriterion.md). Negative AI Max URL inclusion rules aren't
+[BiddableAdGroupCriterion](biddableadgroupcriterion.md). AI Max URL exclusion rules aren't
 supported. For targeting requirements and unsupported properties, see
 [BiddableAdGroupCriterion Webpage Usage](biddableadgroupcriterion.md#webpage).
 
