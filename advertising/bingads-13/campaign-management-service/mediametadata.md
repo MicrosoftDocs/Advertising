@@ -11,6 +11,9 @@ description: Defines a media meta data object.
 # MediaMetaData Data Object - Campaign Management
 Defines a media meta data object. The meta data includes download Urls for one or more media representations.
 
+> [!NOTE]
+> The *AdvertiserAILabel* and *SystemAIDetectionSignal* properties are in pilot. Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 ## Syntax
 
 # [XML](#tab/xml)
@@ -18,9 +21,23 @@ Defines a media meta data object. The meta data includes download Urls for one o
 ```xml
 <xs:complexType name="MediaMetaData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
+    <xs:element minOccurs="0" name="AdvertiserAILabel" nillable="true" type="tns:AdvertiserAILabel">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element name="Id" type="xs:long" />
     <xs:element minOccurs="0" name="MediaType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Representations" nillable="true" type="tns:ArrayOfMediaRepresentation" />
+    <xs:element minOccurs="0" name="SystemAIDetectionSignal" nillable="true" type="tns:SystemAIDetectionSignal">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string">
       <xs:annotation>
         <xs:appinfo>
@@ -37,6 +54,7 @@ Defines a media meta data object. The meta data includes download Urls for one o
 
 ```json
 {
+  "AdvertiserAILabel": "ValueHere",
   "Id": "LongValueHere",
   "MediaType": "ValueHere",
   "Representations": [
@@ -48,6 +66,7 @@ Defines a media meta data object. The meta data includes download Urls for one o
       "Width": IntValueHere
     }
   ],
+  "SystemAIDetectionSignal": "ValueHere",
   "Text": "ValueHere",
   "Type": "ValueHere"
 }
@@ -57,13 +76,15 @@ Defines a media meta data object. The meta data includes download Urls for one o
 
 ## <a name="elements"></a>Elements
 
-The [MediaMetaData](mediametadata.md) object has the following elements: [Id](#id), [MediaType](#mediatype), [Representations](#representations), [Text](#text), [Type](#type).
+The [MediaMetaData](mediametadata.md) object has the following elements: [AdvertiserAILabel](#advertiserailabel), [Id](#id), [MediaType](#mediatype), [Representations](#representations), [SystemAIDetectionSignal](#systemaidetectionsignal), [Text](#text), [Type](#type).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
+|<a name="advertiserailabel"></a>AdvertiserAILabel|The advertiser's declaration about AI-generated content and visible watermarks in the image, returned when retrieving media metadata. To set or update the declaration, use the [Media](media.md#advertiserailabel) property with [AddMedia](addmedia.md) or [UpdateMedia](updatemedia.md).|[AdvertiserAILabel](advertiserailabel.md)|
 |<a name="id"></a>Id|The system identifier of the media meta data.|**long**|
 |<a name="mediatype"></a>MediaType|The name of the media subclass.<br/><br/>For an [ImageMediaRepresentation](imagemediarepresentation.md), the *MediaType* is *Image*.|**string**|
 |<a name="representations"></a>Representations|A list of [ImageMediaRepresentation](imagemediarepresentation.md) that each include download URLs for one or more media representations. The number of representations depends on the type of media. For image ad extensions the service will return exactly three [ImageMediaRepresentation](imagemediarepresentation.md) objects with varying height and width properties. For responsive ads the service will return exactly one [ImageMediaRepresentation](imagemediarepresentation.md) object. For more information see [MediaEnabledEntityFilter](mediaenabledentityfilter.md).|[MediaRepresentation](mediarepresentation.md) array|
+|<a name="systemaidetectionsignal"></a>SystemAIDetectionSignal|Microsoft's detection of AI provenance for the image, returned when retrieving media metadata. This property is read-only. Advertisers cannot set or modify it.|[SystemAIDetectionSignal](systemaidetectionsignal.md)|
 |<a name="text"></a>Text|The media text.|**string**|
 |<a name="type"></a>Type|The type of media in the library.<br/><br/>For an [ImageMediaRepresentation](imagemediarepresentation.md), the only possible value is *ImageMediaRepresentation*.|**string**|
 

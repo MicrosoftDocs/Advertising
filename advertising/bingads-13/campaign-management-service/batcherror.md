@@ -186,6 +186,7 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 [UpdateKeywords](updatekeywords.md)  
 [UpdateLabels](updatelabels.md)  
 [UpdateLinkedInSegments](updatelinkedinsegments.md)  
+[UpdateMedia](updatemedia.md)  
 [UpdateNewCustomerAcquisitionGoals](updatenewcustomeracquisitiongoals.md)  
 [UpdateSeasonalityAdjustments](updateseasonalityadjustments.md)  
 [UpdateSharedEntities](updatesharedentities.md)  

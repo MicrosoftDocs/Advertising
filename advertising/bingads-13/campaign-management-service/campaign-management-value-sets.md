@@ -38,6 +38,7 @@ The Campaign Management service defines the following value sets.
 |[AdStatus](adstatus.md)|Defines the possible status values of an ad.|
 |[AdSubType](adsubtype.md)|Defines the possible ad sub types.|
 |[AdType](adtype.md)|Defines the type of ad.|
+|[AdvertiserAILabel](advertiserailabel.md)|Defines the advertiser's declaration about AI-generated content and visible watermarks in an asset.|
 |[AgeRange](agerange.md)|Defines the possible age range values that you can use to target ads to people.|
 |[AppealStatus](appealstatus.md)|Defines the values that you use to determine whether an editorial issue is appealable.|
 |[AppStore](appstore.md)|The app store the mobile app is distributed in.|
@@ -133,6 +134,7 @@ The Campaign Management service defines the following value sets.
 |[ReachOptimizationGoal](reachoptimizationgoal.md)|Defines the reach optimization goal value set.|
 |[SharedEntityAssociationAdditionalField](sharedentityassociationadditionalfield.md)|Defines the shared entity association additional field value set.|
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
+|[SystemAIDetectionSignal](systemaidetectionsignal.md)|Defines Microsoft's read-only detection of AI provenance for an asset.|
 |[UetTagAdditionalField](uettagadditionalfield.md)|Defines a list of optional UET tag properties that you can request when calling GetUetTagsByIds.|
 |[UetTagIndustry](uettagindustry.md)|Defines the industry of the website associated with your UET tag.|
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|

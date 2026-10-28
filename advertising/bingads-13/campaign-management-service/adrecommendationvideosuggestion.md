@@ -28,6 +28,7 @@ Defines the ad recommendation video suggestion data object.
 ```json
 {
   "Video": {
+    "AdvertiserAILabel": "ValueHere",
     "AspectRatio": "ValueHere",
     "CreatedDateTimeInUTC": "ValueHere",
     "Description": "ValueHere",
@@ -37,6 +38,7 @@ Defines the ad recommendation video suggestion data object.
     "ModifiedDateTimeInUTC": "ValueHere",
     "SourceUrl": "ValueHere",
     "Status": "ValueHere",
+    "SystemAIDetectionSignal": "ValueHere",
     "ThumbnailUrl": "ValueHere",
     "Url": "ValueHere"
   }

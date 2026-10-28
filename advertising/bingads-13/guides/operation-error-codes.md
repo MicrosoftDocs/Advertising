@@ -9,7 +9,7 @@ ms.date: 8/10/2026
 description: Reference documentation for service operation error codes.
 ---
 # Operation Error Codes
-Bing Ads API service operations may return error codes depending on the context. T
+Bing Ads API service operations may return error codes depending on the context.
 
 For more information about error handling and troubleshooting, see [Handling Service Errors and Exceptions](handle-service-errors-exceptions.md).
 
@@ -16791,6 +16791,50 @@ MaxMMAAdsLimitReachedInAdGroup
 
 **Description**
 The user attempts to add more than six multimedia search ads to a single ad group.
+
+***
+
+**Numeric Code**
+<a name="6247"></a>6247
+
+**Symbolic Error Code**
+CampaignServiceInvalidAdvertiserAILabel
+
+**Description**
+The advertiser AI label is invalid.
+
+***
+
+**Numeric Code**
+<a name="6248"></a>6248
+
+**Symbolic Error Code**
+CampaignServiceAdvertiserAILabelCannotBeUnset
+
+**Description**
+The advertiser AI label cannot be unset after it has been specified.
+
+***
+
+**Numeric Code**
+<a name="6249"></a>6249
+
+**Symbolic Error Code**
+CampaignServiceAdvertiserAILabelAssetTypeNotSupported
+
+**Description**
+The advertiser AI label is not supported for the specified asset type.
+
+***
+
+**Numeric Code**
+<a name="6250"></a>6250
+
+**Symbolic Error Code**
+CampaignServiceSystemAIDetectionSignalReadOnly
+
+**Description**
+The system AI detection signal is read-only.
 
 ***
 

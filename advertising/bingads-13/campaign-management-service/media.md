@@ -18,6 +18,13 @@ Do not try to instantiate a *Media*. You can create the following object that de
 ```xml
 <xs:complexType name="Media" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:sequence>
+    <xs:element minOccurs="0" name="AdvertiserAILabel" nillable="true" type="tns:AdvertiserAILabel">
+      <xs:annotation>
+        <xs:appinfo>
+          <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:element>
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="MediaType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string">
@@ -34,11 +41,12 @@ Do not try to instantiate a *Media*. You can create the following object that de
 
 ## <a name="elements"></a>Elements
 
-The [Media](media.md) object has the following elements: [Id](#id), [MediaType](#mediatype), [Text](#text), [Type](#type).
+The [Media](media.md) object has the following elements: [AdvertiserAILabel](#advertiserailabel), [Id](#id), [MediaType](#mediatype), [Text](#text), [Type](#type).
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="id"></a>Id|The unique Microsoft Advertising identifier of the media.<br/><br/>**Add:** Read-only|**long**|
+|<a name="advertiserailabel"></a>AdvertiserAILabel|The advertiser's declaration about AI-generated content and visible watermarks in the image. Set this property with [AddMedia](addmedia.md) or [UpdateMedia](updatemedia.md). After the label has been set, it cannot be cleared.<br/><br/>*Not everyone has this feature yet. If you don't, don't worry - it's coming soon!*<br/><br/>**Add:** Supported<br/>**Update:** Supported|[AdvertiserAILabel](advertiserailabel.md)|
+|<a name="id"></a>Id|The unique Microsoft Advertising identifier of the media.<br/><br/>**Add:** Read-only<br/>**Update:** Required|**long**|
 |<a name="mediatype"></a>MediaType|The type of media to add to the media library.<br/><br/>The recommended sub type is "GenericImage".<br/><br/>For media that will be used with an [ImageAdExtension](imageadextension.md), the supported values are *GenericImage*, *Image16x9*, *Image15x10*, *Image4x3*, and *Image12x10*.<br/><br/>For media that will be used with a [ResponsiveAd](responsivead.md), the supported values are *GenericImage*, *Image1x1*, *Image191x100*, and *Image4x1*.<br/><br/>For more information about supported aspect ratios, see the [Image Data Object Remarks](image.md#remarks).<br/><br/>**Add:** Required|**string**|
 |<a name="text"></a>Text|The media text.|**string**|
 |<a name="type"></a>Type|The media type. For more information about media types, see [Remarks](#remarks) below.<br/><br/>**Add:** Read-only|**string**|
@@ -71,3 +79,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AddMedia](addmedia.md)  
+[UpdateMedia](updatemedia.md)
