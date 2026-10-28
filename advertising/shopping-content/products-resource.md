@@ -163,6 +163,7 @@ Defines a product. For more information about the fields in this object, see [Ho
 |adwordsGrouping|A group of items for Cost-per-acquisition (CPA) bidding.<br/><br/>MMC does not use this field; it's included for Google compatibility.|String|No
 |adwordsLabels|The labels for grouped items (see adwordsGrouping). Applies to Cost-per-click (CPC) only.<br/><br/>MMC does not use this field; it's included for Google compatibility.|String[]|No
 |<a name="adwordsredirect"></a>adwordsRedirect|The URL to use in the product ad. If specified, this URL must redirect to the URL specified in [link](#link).|String|No
+|<a name="advertiserailabel"></a>advertiserAILabel|The advertiser's declaration about AI-generated or AI-modified content in this offer. Supported customer values are `AIWithVisibleWatermark`, `AIContent`, and `NoAIContent`. Omit the attribute or use `null` when no declaration is provided. `Unknown` is reserved for technical compatibility and must not be sent in a feed or API request or offered as a customer-selectable value.<br/><br/>Processing requires the store pilot to be enabled. For value definitions, clearing behavior, and examples, see [Offer AI-content declarations](#offer-ai-content-declarations).|String|No
 |ageGroup|The target age group of the item. The following are the possible values.<br/><br/><ul><li>adult</li><li>kids</li><li>toddler</li><li>infant</li><li>newborn</li></ul>|String|No
 |<a name="availability"></a>availability|The availability status of the product. The following are the possible values.<br/><br/><ul><li>in stock</li><li>out of stock</li><li>preorder</li></ul>The default is *in stock*.<!--<br/><br/>If you specify preorder, and know the date that the product will be available for shipping, you should also set the `availabilityDate` field.--><br/>|String|Yes
 |availabilityDate|The UTC date that a pre-order product will be available for shipping (see the `availability` field). This field is optional but if you know the date that the pre-ordered product will be available for shipping, you should set this field. Specify the date in ISO 8601 format.<br/><br/>**NOTE:** MMC currently ignores the contents of this field.|String|No
@@ -219,6 +220,87 @@ Defines a product. For more information about the fields in this object, see [Ho
 |unitPricingMeasure|The measure and dimension of product as it is sold.<ul><li>Weight: oz, lb, mg, g, kg</li><li>Volume (US imperial): floz, pt, qt, gal</li><li>Volume: ml, cl, l, cbm</li><li>Length: in, ft, yd, cm, m</li><li>Area: sqft, sqm</li><li>Per unit: ct</li></ul><br/>|[UnitPricing](#unitpricing)|No
 |validatedDestinations|The read-only list of intended destinations that have passed validation.<br/><br/>MMC does not use this field; it's included for Google compatibility.|String[]|No
 |<a name="warnings"></a>warnings|A list of warnings about issues with the product offer. The offer was accepted but you should address the issues at your earliest convenience. For example,  MMC returns warnings if you do not specify the [gtin](#gtin), [mpn](#mpn), and [brand](#brand) identifiers if they should be known.<br /><br />The offer includes this field only in the response of an insert/update.|[Warning](#warning)[]|No
+
+#### <a name="offer-ai-content-declarations"></a>Offer AI-content declarations
+
+The optional `advertiserAILabel` attribute declares whether a specific offer contains AI-generated or AI-modified content. It is an advertiser declaration, not a system-generated AI detection signal.
+
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+>
+> Processing requires the `OfferAdvertiserAILabel` store pilot to be enabled. When the pilot is disabled, MMC clears the value to `null`.
+
+The following values are supported for customer input.
+
+|Value|Meaning|
+|-----|-------|
+|AIWithVisibleWatermark|The offer contains AI-generated or AI-modified content with a visible watermark or disclosure.|
+|AIContent|The offer contains AI-generated or AI-modified content without making a visible-watermark claim.|
+|NoAIContent|The advertiser declares that the offer doesn't contain AI-generated or AI-modified content.|
+
+`Unknown` is reserved for technical compatibility. Do not send it in feeds or API requests, expose it to customers, or offer it as a selectable value. When no declaration is provided, omit the attribute or use `null`.
+
+##### Input names and supported operations
+
+|Input|Attribute name|
+|-----|--------------|
+|Text or CSV feed|`advertiser_ai_label`|
+|XML feed|`<advertiser_ai_label>`|
+|MMC Content API JSON|`advertiserAILabel`|
+
+The attribute is supported in primary and legacy online feeds, XML feeds, and MMC Content API insert, update, batch, and read operations. Inventory feeds, local feeds, and automatic price or availability updates don't independently set this value.
+
+##### Omitted, empty, and invalid values
+
+|Input|Result|
+|-----|------|
+|Feed attribute omitted or empty|The declaration is cleared to `null`.|
+|MMC Content API attribute omitted or set to `null`|The declaration is cleared to `null`.|
+|`AIWithVisibleWatermark`, `AIContent`, or `NoAIContent`|The declaration is stored when the store pilot is enabled.|
+|An unrecognized value, such as `Known`, `GeneratedByRobots`, or `999`|Feed validation reports a warning. The invalid value doesn't propagate, and the declaration is set to `null`.|
+
+MMC Content API updates replace the existing offer. Include all required offer fields, not just `advertiserAILabel`.
+
+##### Examples
+
+These fragments illustrate the AI-label attribute only. They aren't complete feed files or API requests.
+
+In a text or CSV feed, add one offer-level `advertiser_ai_label` column. An empty field leaves the declaration unset.
+
+```csv
+offer_id,title,advertiser_ai_label
+offer-123,AI item,AIWithVisibleWatermark
+offer-456,Non-AI item,NoAIContent
+offer-101,No declaration,
+```
+
+In an XML feed, include the element for the offer:
+
+```xml
+<advertiser_ai_label>AIContent</advertiser_ai_label>
+```
+
+Omit the XML element or leave it empty when no declaration is provided.
+
+In the MMC Content API, use the JSON property:
+
+```json
+{
+  "offerId": "offer-123",
+  "advertiserAILabel": "AIWithVisibleWatermark"
+}
+```
+
+To clear a declaration, use `null` in the replacement offer:
+
+```json
+{
+  "offerId": "offer-101",
+  "advertiserAILabel": null
+}
+```
+
+For a comparison with Campaign Management assets and hotel property feeds, see [AI transparency](../bingads-13/guides/ai-transparency.md).
 
 ### <a name="productcustomattribute"></a>ProductCustomAttribute
 
@@ -341,4 +423,3 @@ The requests may return the following HTTP status codes.
 |409|Conflict. The operation could not be completed due to a conflict with the current state of the resource.
 |413|Request entity too large. The size of the request exceeds the maximum allowed.
 |500|Server error.
-
