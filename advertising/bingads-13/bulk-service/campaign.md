@@ -723,6 +723,9 @@ Set this property to *TRUE* if you want to enable local inventory ads, and other
 **Delete:** Read-only  
 
 ## <a name="messagingrestrictions"></a>Messaging Restrictions
+> [!NOTE]
+> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
+
 Guidelines to shape AI-generated ad copy, such as language to avoid, rules to follow, or themes to emphasize.
 
 ```json
