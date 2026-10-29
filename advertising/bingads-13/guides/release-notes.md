@@ -19,7 +19,22 @@ See below for information about changes to Bing Ads API Version 13 by month.
 > [!IMPORTANT]
 > The following upcoming changes may require that you take action to avoid disruption of service or loss of functionality.  
 
+- [Max CPC restrictions for non-portfolio campaigns](#breaking-max-cpc)
 - [Multi-factor authentication API notice](#breaking-mfa-required)  
+
+### <a name="breaking-max-cpc"></a>Max CPC restrictions for non-portfolio campaigns
+
+You can no longer add a Max CPC value to non-portfolio campaigns using the following bidding schemes:
+
+- [MaxClicksBiddingScheme](../campaign-management-service/maxclicksbiddingscheme.md#maxcpc)
+- [MaxConversionsBiddingScheme](../campaign-management-service/maxconversionsbiddingscheme.md#maxcpc)
+- [MaxConversionValueBiddingScheme](../campaign-management-service/maxconversionvaluebiddingscheme.md#maxcpc)
+- [TargetCpaBiddingScheme](../campaign-management-service/targetcpabiddingscheme.md#maxcpc)
+- [TargetRoasBiddingScheme](../campaign-management-service/targetroasbiddingscheme.md#maxcpc)
+
+Attempting to add a Max CPC value to a non-portfolio campaign returns error [MaxCpcCannotBeAdded](operation-error-codes.md#maxcpccannotbeadded) (611274). You can still edit or remove an existing Max CPC value. Portfolio bid strategies continue to support Max CPC.
+
+This restriction also applies to the [Bid Strategy MaxCpc](../bulk-service/campaign.md#bidstrategymaxcpc) field in Bulk Campaign records for these bid strategy types.
 
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 

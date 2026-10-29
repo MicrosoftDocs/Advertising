@@ -282,7 +282,7 @@ Below is an example that is applicable if the type of [BatchError](batcherror.md
 ```
 
 ## <a name="example"></a>Code Syntax
-To call the REST API through an SDK, use a version that supports REST and configure the required system parameters. The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md).
+To call REST API through SDKs, you need to upgrade SDK to a certain version and configure the system parameters.The example syntax can be used with [Bing Ads SDKs](../guides/client-libraries.md).
 See [Bing Ads API Code Examples](../guides/code-examples.md) for more examples.
 ```csharp
 public async Task<UpdateMediaResponse> UpdateMediaAsync(

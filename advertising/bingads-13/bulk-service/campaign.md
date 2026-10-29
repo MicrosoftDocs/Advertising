@@ -318,12 +318,14 @@ For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategie
 ## <a name="bidstrategymaxcpc"></a>Bid Strategy MaxCpc
 The maximum cost per click that you want to spend with the corresponding bid strategy type. 
 
-This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to MaxClicks, MaxConversions, TargetCpa, TargetImpressionShare, or TargetRoas, and otherwise this field is ignored.
+This field is only used if the [Bid Strategy Type](#bidstrategytype) field is set to MaxClicks, MaxConversions, MaxConversionValue, TargetCpa, TargetImpressionShare, or TargetRoas, and otherwise this field is ignored.
+
+For non-portfolio campaigns using MaxClicks, MaxConversions, MaxConversionValue, TargetCpa, or TargetRoas, you can only edit or remove an existing Max CPC value. Attempting to add a new value returns error [MaxCpcCannotBeAdded](../guides/operation-error-codes.md#maxcpccannotbeadded) (611274). Portfolio bid strategies continue to support Max CPC.
 
 For more details, see [Budget and Bid Strategies](../guides/budget-bid-strategies.md).
 
-**Add:** Optional  
-**Update:** Optional. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
+**Add:** Optional, except for non-portfolio campaigns using MaxClicks, MaxConversions, MaxConversionValue, TargetCpa, or TargetRoas, where adding a value is not supported.<br/>
+**Update:** Optional. For non-portfolio campaigns using these five bid strategy types, only an existing value can be edited or removed. If no value is set for the update, this setting is not changed. If you set this field to the *delete_value* string, the prior setting is removed.
 **Delete:** Read-only  
 
 ## <a name="bidstrategyname"></a>Bid Strategy Name
@@ -416,9 +418,9 @@ If you use the "Commission" bid strategy type, then you can optionally include t
 
 If you use the "ManualCpc" bid strategy type, then you can optionally include the [Bid Strategy ManualCpc](#bidstrategymanualcpc) field.
   
-If you use the "MaxClicks" bid strategy type, then you can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
+If you use the "MaxClicks" bid strategy type, you can include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field only to edit or remove an existing value for a non-portfolio campaign.
 
-If you use the "MaxConversions" bid strategy type, then you can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
+If you use the "MaxConversions" or "MaxConversionValue" bid strategy type, you can include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field only to edit or remove an existing value for a non-portfolio campaign.
 
 If you use the "PercentCpc" bid strategy type, then you can optionally include the [Bid Strategy PercentCpc](#bidstrategypercentcpc) field.
 
@@ -428,7 +430,7 @@ If you use the "TargetCpa" bid strategy type, then you must include the [Bid Str
 
 If you use the "TargetImpressionShare" bid strategy type, then you must include the [Bid Strategy TargetAdPosition](#bidstrategytargetadposition) and [Bid Strategy TargetImpressionShare](#bidstrategytargetimpressionshare) fields. You can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
 
-If you use the "TargetRoas" bid strategy type, then you must include the [Bid Strategy TargetRoas](#bidstrategytargetroas) field. You can optionally include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field.
+If you use the "TargetRoas" bid strategy type, then you must include the [Bid Strategy TargetRoas](#bidstrategytargetroas) field. You can include the [Bid Strategy MaxCpc](#bidstrategymaxcpc) field only to edit or remove an existing value for a non-portfolio campaign.
 
 > [!IMPORTANT] 
 > For some bid strategy types your bid and ad rotation settings are ignored and conversion tracking (via [Universal Event Tracking](../guides/universal-event-tracking.md) tag and a conversion goal) is required. For more information including supported locations, see [Let Microsoft Advertising manage your bids with bid strategies](https://help.ads.microsoft.com/#apex/3/en/56786/1). 

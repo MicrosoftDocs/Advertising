@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Defines the attributes and performance statistics columns that you can include in the SearchTermLandingPageReportRequest.
 ---
 # SearchTermLandingPageReportColumn Value Set - Reporting
@@ -207,7 +207,7 @@ The [SearchTermLandingPageReportColumn](searchtermlandingpagereportcolumn.md) va
 |<a name="deliveredmatchtype"></a>DeliveredMatchType|The match type used to deliver the ad, which can differ from the bid match type. Displays **AI Optimized** for delivery through AI Max search term matching. This system-generated reporting value is not an advertiser-manageable Campaign Management keyword match type. Can be filtered with the [DeliveredMatchType](searchtermlandingpagereportfilter.md#deliveredmatchtype) filter element.|
 |<a name="finalurl"></a>FinalUrl|The landing page URL (Final URL) that the user was sent to for the impression. This column is required.|
 |<a name="finalurlsource"></a>FinalUrlSource|Possible values are: Advertiser Provided (the advertiser-specified URL) and AI Expanded from URL (a URL selected through AI URL expansion).|
-|<a name="headline"></a>Headline|The short, long, or auto-generated headlines delivered for the impression, returned as a pipe-delimited string such as `h1|h2|h3` (up to three headlines). Empty slots are omitted. If this column is requested, rows without a resolved supported headline asset are excluded.|
+|<a name="headline"></a>Headline|The short, long, or auto-generated headlines delivered for the impression, returned as a pipe-delimited string such as *h1\|h2\|h3* (up to three headlines). Empty slots are omitted. If this column is requested, rows without a resolved supported headline asset are excluded.|
 |<a name="headlinesource"></a>HeadlineSource|Identifies the source of the short, long, or auto-generated headline assets used to generate the combined headline represented by the report row.<br/><br/>Possible values:<ul><li>*AdvertiserProvided* - All headline assets in the row were provided by the advertiser.</li><li>*AIGenerated* - At least one headline asset in the row was AI-generated.</li></ul><br/>This value applies to the combined headline, not to each individual headline asset. If a row contains both advertiser-provided and AI-generated headline assets, *HeadlineSource* is reported as *AIGenerated*. This doesn't indicate that all headline assets in the row were AI-generated. Rows without a resolved supported headline are excluded when *Headline* is requested.|
 |<a name="impressions"></a>Impressions|The number of times the ad was displayed.|
 |<a name="keyword"></a>Keyword|The keyword text that matched the search term. Displays **AI Optimized** when the match was performed by AI.|

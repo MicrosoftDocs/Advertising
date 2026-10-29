@@ -134,7 +134,7 @@ The Campaign Management service defines the following value sets.
 |[ReachOptimizationGoal](reachoptimizationgoal.md)|Defines the reach optimization goal value set.|
 |[SharedEntityAssociationAdditionalField](sharedentityassociationadditionalfield.md)|Defines the shared entity association additional field value set.|
 |[StringOperator](stringoperator.md)|Defines the operators that can be applied to remarketing list rule item string values.|
-|[SystemAIDetectionSignal](systemaidetectionsignal.md)|Defines Microsoft's read-only detection of AI provenance for an asset.|
+|[SystemAIDetectionSignal](systemaidetectionsignal.md)|Defines Microsoft's detection of AI provenance for an asset.|
 |[UetTagAdditionalField](uettagadditionalfield.md)|Defines a list of optional UET tag properties that you can request when calling GetUetTagsByIds.|
 |[UetTagIndustry](uettagindustry.md)|Defines the industry of the website associated with your UET tag.|
 |[UetTagTrackingStatus](uettagtrackingstatus.md)|Defines the possible system-determined status values of a UET tag.|

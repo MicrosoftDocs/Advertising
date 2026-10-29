@@ -5,12 +5,11 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 10/10/2026
-description: Defines webpage conditions for Dynamic Search Ads targeting or AI Max URL inclusions.
+ms.date: 11/13/2024
+description: Defines the conditions or criteria that determine whether you want to show Dynamic Search ads.
 ---
 # WebpageParameter Data Object - Campaign Management
-Defines the conditions or criteria that determine whether you want to show Dynamic Search Ads or
-apply an AI Max URL inclusion.
+Defines the conditions or criteria that determine whether you want to show Dynamic Search ads or apply an AI Max URL inclusion.
 
 ## Syntax
 

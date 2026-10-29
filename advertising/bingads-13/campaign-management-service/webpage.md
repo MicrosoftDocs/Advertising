@@ -5,8 +5,8 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 10/10/2026
-description: Defines webpage conditions for Dynamic Search Ads targeting or AI Max URL inclusions.
+ms.date: 11/13/2024
+description: Defines a webpage parameter that contains a list of webpage conditions or criteria.
 ---
 # Webpage Data Object - Campaign Management
 Defines a webpage parameter that contains a list of webpage conditions or criteria. You can use a *Webpage* criterion to target webpages for Dynamic Search Ads or to define URL inclusion rules for AI Max Search campaigns.
@@ -82,3 +82,4 @@ The [Webpage](webpage.md) object derives from the [Criterion](criterion.md) obje
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+

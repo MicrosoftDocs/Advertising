@@ -20,6 +20,7 @@ Defines a value set for additional account fields.
         <xs:enumeration value="TaxCertificate" />
         <xs:enumeration value="AccountMode" />
         <xs:enumeration value="CouponClaimInfo" />
+        <xs:enumeration value="ParentCustomerNumber" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -28,12 +29,13 @@ Defines a value set for additional account fields.
 
 ## <a name="values"></a>Values
 
-The [AccountAdditionalField](accountadditionalfield.md) value set has the following values: [AccountMode](#accountmode), [CouponClaimInfo](#couponclaiminfo), [TaxCertificate](#taxcertificate).
+The [AccountAdditionalField](accountadditionalfield.md) value set has the following values: [AccountMode](#accountmode), [CouponClaimInfo](#couponclaiminfo), [ParentCustomerNumber](#parentcustomernumber), [TaxCertificate](#taxcertificate).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="accountmode"></a>AccountMode|Return *AccountMode* in the response.|
 |<a name="couponclaiminfo"></a>CouponClaimInfo|Return *CouponClaimInfo* in the response.|
+|<a name="parentcustomernumber"></a>ParentCustomerNumber|Return *ParentCustomerNumber*, the system-generated customer number that identifies the customer that owns the account.|
 |<a name="taxcertificate"></a>TaxCertificate|Return *TaxCertificate* in the response.|
 
 ## Requirements

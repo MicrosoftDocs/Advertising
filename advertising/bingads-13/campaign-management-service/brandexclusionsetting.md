@@ -6,7 +6,7 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines a setting that controls whether Product Ads are exempt from a campaign's brand exclusions.
+description: Defines a setting that controls whether Product ads are exempt from a campaign's brand exclusions.
 ---
 # BrandExclusionSetting Data Object - Campaign Management
 Defines a setting that controls whether Product ads are exempt from a campaign's brand exclusions.
@@ -60,3 +60,4 @@ The [BrandExclusionSetting](brandexclusionsetting.md) object derives from the [S
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+

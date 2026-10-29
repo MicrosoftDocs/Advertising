@@ -5,11 +5,11 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
-description: Defines the delivered match type values that you can use to filter the report data.
+ms.date: 11/13/2024
+description: Defines the delivered match type values, including AI-optimized delivery, that you can use to filter the report data.
 ---
 # DeliveredMatchTypeReportFilter Value Set - Reporting
-Defines the delivered match type values that you can use to filter the report data. These values are also used as column values in reports that include match type, such as the keyword performance report.
+Defines the delivered match type values, including AI-optimized delivery, that you can use to filter the report data. These values are also used as column values in reports that include match type, such as the keyword performance report.
 
 ## Syntax
 ```xml

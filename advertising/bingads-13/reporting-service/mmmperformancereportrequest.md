@@ -134,3 +134,4 @@ The [MMMPerformanceReportRequest](mmmperformancereportrequest.md) object derives
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
+

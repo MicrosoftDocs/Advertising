@@ -196,6 +196,13 @@ Defines the possible types of campaign criterions.
             </xs:appinfo>
           </xs:annotation>
         </xs:enumeration>
+        <xs:enumeration value="AIPrompt">
+          <xs:annotation>
+            <xs:appinfo>
+              <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">134217728</EnumerationValue>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:enumeration>
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -204,11 +211,12 @@ Defines the possible types of campaign criterions.
 
 ## <a name="values"></a>Values
 
-The [CampaignCriterionType](campaigncriteriontype.md) value set has the following values: [Age](#age), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [CustomLinkedIn](#customlinkedin), [DayTime](#daytime), [Device](#device), [Gender](#gender), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [JobSeniority](#jobseniority), [JobTitle](#jobtitle), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductScope](#productscope), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Store](#store), [Targets](#targets), [Webpage](#webpage).
+The [CampaignCriterionType](campaigncriteriontype.md) value set has the following values: [Age](#age), [AIPrompt](#aiprompt), [Audience](#audience), [CombinedList](#combinedlist), [CompanyName](#companyname), [CustomAudience](#customaudience), [CustomerList](#customerlist), [CustomLinkedIn](#customlinkedin), [DayTime](#daytime), [Device](#device), [Gender](#gender), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [Industry](#industry), [InMarketAudience](#inmarketaudience), [JobFunction](#jobfunction), [JobSeniority](#jobseniority), [JobTitle](#jobtitle), [Location](#location), [LocationIntent](#locationintent), [ProductAudience](#productaudience), [ProductScope](#productscope), [Radius](#radius), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist), [Store](#store), [Targets](#targets), [Webpage](#webpage).
 
 |Value|Description|
 |-----------|---------------|
 |<a name="age"></a>Age|The campaign criterion is an age criterion.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
+|<a name="aiprompt"></a>AIPrompt|Reserved.|
 |<a name="audience"></a>Audience|The campaign criterion is an audience criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [AudienceCriterion](audiencecriterion.md). In other words you can include some audiences, and exclude other audiences.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.<br/><br/>To add, delete, or update audience criterions i.e., combined lists, custom audiences, customer lists, impression-based remarketing lists, in-market audiences, product audiences, similar audiences, and remarketing lists, you must specify the *Audience* value. To retrieve these audience criterions via [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) you must request the specific type i.e., *CombinedList*, *CustomAudience*, *CustomerList*, *ImpressionBasedRemarketingList*, *InMarketAudience*, *ProductAudience*, *RemarketingList*, and *SimilarRemarketingList*.|
 |<a name="combinedlist"></a>CombinedList|The campaign criterion is a combined list association.<br/><br/>This criterion type value is only used by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the combined list associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the combined list, see [CombinedList](combinedlist.md).|
 |<a name="companyname"></a>CompanyName|The campaign criterion is a company name profile criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *CompanyName*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|

@@ -1805,6 +1805,8 @@
       href: ../campaign-management-service/updatelabels.md
     - name: UpdateLinkedInSegments
       href: ../campaign-management-service/updatelinkedinsegments.md
+    - name: UpdateMedia
+      href: ../campaign-management-service/updatemedia.md
     - name: UpdateNewCustomerAcquisitionGoals
       href: ../campaign-management-service/updatenewcustomeracquisitiongoals.md
     - name: UpdateSeasonalityAdjustments
@@ -1897,6 +1899,8 @@
       href: ../campaign-management-service/agecriterion.md
     - name: AgeDimension
       href: ../campaign-management-service/agedimension.md
+    - name: AIPromptAudience
+      href: ../campaign-management-service/aipromptaudience.md
     - name: AISearchSetting
       href: ../campaign-management-service/aisearchsetting.md
     - name: AnnotationOptOut
@@ -2429,6 +2433,8 @@
       href: ../campaign-management-service/supportedfontsdata.md
     - name: TargetCpaBiddingScheme
       href: ../campaign-management-service/targetcpabiddingscheme.md
+    - name: TargetCpmBiddingScheme
+      href: ../campaign-management-service/targetcpmbiddingscheme.md
     - name: TargetImpressionShareBiddingScheme
       href: ../campaign-management-service/targetimpressionsharebiddingscheme.md
     - name: TargetRoasBiddingScheme
@@ -2518,6 +2524,8 @@
       href: ../campaign-management-service/adrecommendationvideotype.md
     - name: AdRotationType
       href: ../campaign-management-service/adrotationtype.md
+    - name: AdvertiserAILabel
+      href: ../campaign-management-service/advertiserailabel.md
     - name: AdStatus
       href: ../campaign-management-service/adstatus.md
     - name: AdSubType
@@ -2718,6 +2726,8 @@
       href: ../campaign-management-service/sharedentityassociationadditionalfield.md
     - name: StringOperator
       href: ../campaign-management-service/stringoperator.md
+    - name: SystemAIDetectionSignal
+      href: ../campaign-management-service/systemaidetectionsignal.md
     - name: UetTagAdditionalField
       href: ../campaign-management-service/uettagadditionalfield.md
     - name: UetTagIndustry

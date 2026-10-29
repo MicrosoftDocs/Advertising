@@ -55,7 +55,7 @@ The [Image](image.md) object has [Inherited Elements](#inheritedelements).
 ## <a name="inheritedelements"></a>Inherited Elements
 
 ### <a name="inheritedelementsmedia"></a>Inherited Elements from Media
-The [Image](image.md) object derives from the [Media](media.md) object, and inherits the following elements: [AdvertiserAILabel](#advertiserailabel), [Id](#id), [MediaType](#mediatype), [Text](#text), [Type](#type). The descriptions below are specific to [Image](image.md), and might not apply to other objects that inherit the same elements from the [Media](media.md) object.
+The [Image](image.md) object derives from the [Media](media.md) object, and inherits the following elements: [AdvertiserAILabel](#advertiserailabel), [Id](#id), [MediaType](#mediatype), [Text](#text), [Type](#type). The descriptions below are specific to [Image](image.md), and might not apply to other objects that inherit the same elements from the [Media](media.md) object.  
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
