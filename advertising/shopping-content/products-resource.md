@@ -163,7 +163,7 @@ Defines a product. For more information about the fields in this object, see [Ho
 |adwordsGrouping|A group of items for Cost-per-acquisition (CPA) bidding.<br/><br/>MMC does not use this field; it's included for Google compatibility.|String|No
 |adwordsLabels|The labels for grouped items (see adwordsGrouping). Applies to Cost-per-click (CPC) only.<br/><br/>MMC does not use this field; it's included for Google compatibility.|String[]|No
 |<a name="adwordsredirect"></a>adwordsRedirect|The URL to use in the product ad. If specified, this URL must redirect to the URL specified in [link](#link).|String|No
-|<a name="advertiserailabel"></a>advertiserAILabel|The advertiser's declaration about AI-generated or AI-modified content in this offer. Supported customer values are `AIWithVisibleWatermark`, `AIContent`, and `NoAIContent`. Omit the attribute or use `null` when no declaration is provided. `Unknown` is reserved for technical compatibility and must not be sent in a feed or API request or offered as a customer-selectable value.<br/><br/>Processing requires the store pilot to be enabled. For value definitions, clearing behavior, and examples, see [Offer AI-content declarations](#offer-ai-content-declarations).|String|No
+|<a name="advertiserailabel"></a>advertiserAILabel|The advertiser's declaration about AI-generated or AI-modified content in this offer. Supported customer values are `AIWithVisibleWatermark`, `AIContent`, and `NoAIContent`. Omit the attribute or use `null` when no declaration is provided.<br/><br/>Processing requires the store pilot to be enabled. For value definitions, clearing behavior, and examples, see [Offer AI-content declarations](#offer-ai-content-declarations).|String|No
 |ageGroup|The target age group of the item. The following are the possible values.<br/><br/><ul><li>adult</li><li>kids</li><li>toddler</li><li>infant</li><li>newborn</li></ul>|String|No
 |<a name="availability"></a>availability|The availability status of the product. The following are the possible values.<br/><br/><ul><li>in stock</li><li>out of stock</li><li>preorder</li></ul>The default is *in stock*.<!--<br/><br/>If you specify preorder, and know the date that the product will be available for shipping, you should also set the `availabilityDate` field.--><br/>|String|Yes
 |availabilityDate|The UTC date that a pre-order product will be available for shipping (see the `availability` field). This field is optional but if you know the date that the pre-ordered product will be available for shipping, you should set this field. Specify the date in ISO 8601 format.<br/><br/>**NOTE:** MMC currently ignores the contents of this field.|String|No
@@ -234,11 +234,13 @@ The following values are supported for customer input.
 
 |Value|Meaning|
 |-----|-------|
-|AIWithVisibleWatermark|The offer contains AI-generated or AI-modified content with a visible watermark or disclosure.|
-|AIContent|The offer contains AI-generated or AI-modified content without making a visible-watermark claim.|
+|AIWithVisibleWatermark|The offer contains AI-generated or AI-modified content, and you request a visible AI watermark where supported.|
+|AIContent|The offer contains AI-generated or AI-modified content; no visible watermark is requested.|
 |NoAIContent|The advertiser declares that the offer doesn't contain AI-generated or AI-modified content.|
 
-`Unknown` is reserved for technical compatibility. Do not send it in feeds or API requests, expose it to customers, or offer it as a selectable value. When no declaration is provided, omit the attribute or use `null`.
+*AIWithVisibleWatermark* requests a visible watermark; it doesn't declare that the content already has one. *AIContent* doesn't declare that the content has no existing watermark.
+
+When no declaration is provided, omit the attribute or use `null`.
 
 ##### Input names and supported operations
 

@@ -14,7 +14,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
 
-The Campaign Management API supports AI-content transparency for image and video assets. Advertisers can declare whether an asset contains AI-generated content and whether that content has a visible watermark. Microsoft returns a separate, read-only signal indicating whether AI-related provenance was detected.
+The Campaign Management API supports AI-content transparency for image and video assets. Advertisers can declare whether an asset contains AI-generated content and request a visible AI watermark where supported. Microsoft returns a separate, read-only signal indicating whether AI-related provenance was detected.
 
 Hotel property feeds also support AI-content declarations for listing images. The feed's supported values and behavior differ from the Campaign Management API, as described in [Work with hotel property feeds](#work-with-hotel-property-feeds).
 
@@ -28,10 +28,12 @@ Microsoft Merchant Center (MMC) supports a separate offer-level declaration for 
 
 |Value|Meaning|
 |-----|-------|
-|AIWithVisibleWatermark|The asset contains AI-generated content and has a visible watermark.|
-|AIContent|The asset contains AI-generated content but does not have a visible watermark.|
+|AIWithVisibleWatermark|The asset contains AI-generated content, and you request a visible AI watermark where supported.|
+|AIContent|The asset contains AI-generated content; no visible watermark is requested.|
 |NoAIContent|The advertiser declares that the asset does not contain AI-generated content.|
 |NotSupportedForGivenRevision|The requested API revision does not expose this capability.|
+
+Across all three interfaces, *AIWithVisibleWatermark* requests a visible AI watermark where supported; it doesn't declare that the content already has one. *AIContent* declares AI content without requesting a visible watermark; it doesn't declare that the content has no existing watermark.
 
 You can supply the label when adding or updating supported media. After a label has been set, it cannot be cleared. *NoAIContent* is a declaration, not a way to unset the label.
 
@@ -71,13 +73,10 @@ Use the optional `AdvertiserAILabel` string element in a listing's `content` ele
 |Value|Meaning|
 |-----|-------|
 |AIWithVisibleWatermark|The images contain AI-generated content, and you request a visible AI watermark where supported.|
-|AIContent|The images contain AI-generated content.|
+|AIContent|The images contain AI-generated content; no visible watermark is requested.|
 |NoAIContent|The images don't contain AI-generated content.|
-|Unknown|You explicitly declare that you don't know whether the images contain AI-generated content.|
 
-If you omit the element or leave it empty, the hotel's AI content label isn't set. This differs from specifying *Unknown*. Unsupported values are ignored, and the label isn't set.
-
-Unlike the Campaign Management API, the property feed supports *Unknown*, not *NotSupportedForGivenRevision*. In the feed, *AIWithVisibleWatermark* requests a visible watermark where supported; it doesn't declare that the images already have one.
+If you omit the element or leave it empty, the hotel's AI content label isn't set. Unsupported values are ignored, and the label isn't set.
 
 For the element definition and feed structure, see the [Content Type section of the Property feed reference](../../hotel-feed/reference.md#contenttype).
 
@@ -87,11 +86,11 @@ Use the optional `advertiserAILabel` string property on the MMC Content API [Pro
 
 |Value|Meaning|
 |-----|-------|
-|AIWithVisibleWatermark|The offer contains AI-generated or AI-modified content with a visible watermark or disclosure.|
-|AIContent|The offer contains AI-generated or AI-modified content without making a visible-watermark claim.|
+|AIWithVisibleWatermark|The offer contains AI-generated or AI-modified content, and you request a visible AI watermark where supported.|
+|AIContent|The offer contains AI-generated or AI-modified content; no visible watermark is requested.|
 |NoAIContent|The advertiser declares that the offer doesn't contain AI-generated or AI-modified content.|
 
-Unlike hotel property feeds, MMC reserves *Unknown* for technical compatibility. Don't send it in feeds or API requests, expose it to customers, or offer it as a selectable value. Omit the attribute or use `null` when no declaration is provided.
+Omit the attribute or use `null` when no declaration is provided.
 
 |Input|Attribute name|
 |-----|--------------|

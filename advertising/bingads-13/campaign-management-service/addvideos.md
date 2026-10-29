@@ -17,7 +17,7 @@ dev_langs:
 # AddVideos Service Operation - Campaign Management
 Adds one or more videos to an account.
 
-Set [AdvertiserAILabel](video.md#advertiserailabel) to declare whether a video contains AI-generated content and has a visible watermark. Do not set [SystemAIDetectionSignal](video.md#systemaidetectionsignal); it is read-only. For more information, see [AI transparency](../guides/ai-transparency.md).
+Set [AdvertiserAILabel](video.md#advertiserailabel) to declare whether a video contains AI-generated content and request a visible AI watermark where supported. Do not set [SystemAIDetectionSignal](video.md#systemaidetectionsignal); it is read-only. For more information, see [AI transparency](../guides/ai-transparency.md).
 
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
