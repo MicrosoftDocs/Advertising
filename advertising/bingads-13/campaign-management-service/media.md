@@ -79,4 +79,4 @@ Namespace: https\://bingads.microsoft.com/CampaignManagement/v13
 
 ## Used By
 [AddMedia](addmedia.md)  
-[UpdateMedia](updatemedia.md)
+[UpdateMedia](updatemedia.md)  

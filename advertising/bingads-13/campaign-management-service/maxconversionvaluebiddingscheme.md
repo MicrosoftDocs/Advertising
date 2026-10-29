@@ -56,7 +56,7 @@ The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="maxcpc"></a>MaxCpc|The maximum cost per click filter criteria for all keyword estimates in the ad group.<br/><br/>You can override this setting for specific keywords with the corresponding keyword estimators.|[Bid](bid.md)|
+|<a name="maxcpc"></a>MaxCpc|The maximum cost per click that you want to spend.<br/><br/>For non-portfolio campaigns, you can only edit or remove an existing MaxCpc value. Attempting to add a new value returns error [MaxCpcCannotBeAdded](../guides/operation-error-codes.md#maxcpccannotbeadded) (611274). Portfolio bid strategies continue to support MaxCpc.<br/><br/>**Add:** Optional for portfolio bid strategies; not supported for non-portfolio campaigns.<br/>**Update:** Optional. For non-portfolio campaigns, only an existing value can be edited or removed.|[Bid](bid.md)|
 |<a name="targetroas"></a>TargetRoas|The target return on ad spend.<br/><br/>*Note:* TargetRoas is used by Search, Shopping, Smart Shopping and Performance Max campaigns.|**double**|
 
 The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object has [Inherited Elements](#inheritedelements).
@@ -73,4 +73,3 @@ The [MaxConversionValueBiddingScheme](maxconversionvaluebiddingscheme.md) object
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

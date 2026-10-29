@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 10/10/2026
+ms.date: 11/13/2024
 description: Defines a biddable criterion that you want applied to the specified ad group.
 ---
 # BiddableAdGroupCriterion Data Object - Campaign Management
@@ -243,3 +243,4 @@ The existing custom-parameter limits and update behavior continue to apply to Dy
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+

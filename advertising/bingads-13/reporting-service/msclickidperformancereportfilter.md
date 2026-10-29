@@ -6,10 +6,10 @@ ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
 ms.date: 11/13/2024
-description: Defines the criteria to use to filter the MSClickId performance report data.
+description: Reserved for future use.
 ---
 # MSClickIdPerformanceReportFilter Data Object - Reporting
-Reserved for future use. Filters aren’t currently supported for the *MSClickId* performance report.
+Reserved for future use. Filters aren't currently supported for the *MSClickId* performance report.
 
 ## Syntax
 

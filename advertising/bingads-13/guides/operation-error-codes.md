@@ -17967,3 +17967,15 @@ LinkedInSegmentCannotBeDeletedDueToAssociation
 
 **Description**
 The LinkedInSegment cannot be deleted because it is still associated with another entity.
+
+***
+
+<a name="maxcpccannotbeadded"></a>
+**Numeric Code**
+611274
+
+**Symbolic Error Code**
+MaxCpcCannotBeAdded
+
+**Description**
+Max CPC cannot be added to non-portfolio campaigns. You may only edit or remove an existing Max CPC value.

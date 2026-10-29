@@ -200,7 +200,7 @@ The Campaign Management service defines the following service operations.
 |[UpdateKeywords](updatekeywords.md)|Updates the keywords within a specified ad group.|1 *AdGroupId*<br/><br/>1,000 *Keywords*|
 |[UpdateLabels](updatelabels.md)|Updates the labels within the account.|100 *Labels*|
 |[UpdateLinkedInSegments](updatelinkedinsegments.md)|Updates the specified LinkedIn segments.|N/A.|
-|[UpdateMedia](updatemedia.md)|Updates advertiser-settable properties of existing image media in an account's asset library.||
+|[UpdateMedia](updatemedia.md)|Updates advertiser-settable properties of existing image media in an account's asset library.|N/A.|
 |[UpdateNewCustomerAcquisitionGoals](updatenewcustomeracquisitiongoals.md)|Update the specificed new customer acquisition goals.|N/A.|
 |[UpdateSeasonalityAdjustments](updateseasonalityadjustments.md)|Make updates to the specified seasonality adjustments.|N/A.|
 |[UpdateSharedEntities](updatesharedentities.md)|Updates the negative keyword lists or website exclusion lists.|20 *SharedEntities*|

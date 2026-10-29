@@ -5,7 +5,7 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Defines the criteria to use to filter the keyword performance report data.
 ---
 # KeywordPerformanceReportFilter Data Object - Reporting

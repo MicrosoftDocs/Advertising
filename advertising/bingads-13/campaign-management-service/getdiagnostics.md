@@ -44,7 +44,7 @@ The *GetDiagnosticsResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="entities"></a>Entities|The diagnostic results for the requested entities.|[EntityResult](entityresult.md) array|
+|<a name="entities"></a>Entities|The entities to diagnose.|[EntityResult](entityresult.md) array|
 |<a name="requeststatus"></a>RequestStatus|The status of the diagnostics request.|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|
 
 ### <a name="response-header"></a>Response Header Elements
@@ -255,7 +255,7 @@ The *GetDiagnosticsResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="entities"></a>Entities|The diagnostic results for the requested entities.|[EntityResult](entityresult.md) array|
+|<a name="entities"></a>Entities|The entities to diagnose.|[EntityResult](entityresult.md) array|
 |<a name="requeststatus"></a>RequestStatus|The status of the diagnostics request.|[DiagnosticsRequestStatus](diagnosticsrequeststatus.md)|
 
 ### <a name="response-header"></a>Response Header Elements

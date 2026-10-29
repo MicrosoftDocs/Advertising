@@ -26,6 +26,7 @@ Defines the possible audience types.
         <xs:enumeration value="CustomerList" />
         <xs:enumeration value="ImpressionBasedRemarketingList" />
         <xs:enumeration value="CustomSegment" />
+        <xs:enumeration value="AIPrompt" />
       </xs:restriction>
     </xs:simpleType>
   </xs:list>
@@ -34,10 +35,11 @@ Defines the possible audience types.
 
 ## <a name="values"></a>Values
 
-The [AudienceType](audiencetype.md) value set has the following values: [CombinedList](#combinedlist), [Custom](#custom), [CustomerList](#customerlist), [CustomSegment](#customsegment), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [InMarket](#inmarket), [Product](#product), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist).
+The [AudienceType](audiencetype.md) value set has the following values: [AIPrompt](#aiprompt), [CombinedList](#combinedlist), [Custom](#custom), [CustomerList](#customerlist), [CustomSegment](#customsegment), [ImpressionBasedRemarketingList](#impressionbasedremarketinglist), [InMarket](#inmarket), [Product](#product), [RemarketingList](#remarketinglist), [SimilarRemarketingList](#similarremarketinglist).
 
 |Value|Description|
 |-----------|---------------|
+|<a name="aiprompt"></a>AIPrompt|Reserved.|
 |<a name="combinedlist"></a>CombinedList|The audience is a combined list.|
 |<a name="custom"></a>Custom|The audience is a custom audience.|
 |<a name="customerlist"></a>CustomerList|The audience is a customer list.|
