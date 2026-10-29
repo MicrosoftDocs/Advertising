@@ -41,10 +41,12 @@ The [AdvertiserAILabel](advertiserailabel.md) value set has the following values
 
 |Value|Description|
 |-----------|---------------|
-|<a name="aicontent"></a>AIContent|The asset contains AI-generated content but does not have a visible watermark.|
-|<a name="aiwithvisiblewatermark"></a>AIWithVisibleWatermark|The asset contains AI-generated content and has a visible watermark.|
+|<a name="aicontent"></a>AIContent|The asset contains AI-generated content; no visible watermark is requested.|
+|<a name="aiwithvisiblewatermark"></a>AIWithVisibleWatermark|The asset contains AI-generated content, and you request a visible AI watermark where supported.|
 |<a name="noaicontent"></a>NoAIContent|The advertiser declares that the asset does not contain AI-generated content.|
 |<a name="notsupportedforgivenrevision"></a>NotSupportedForGivenRevision|The requested API revision does not expose this capability.|
+
+*AIWithVisibleWatermark* requests a visible watermark; it doesn't declare that the asset already has one. *AIContent* doesn't declare that the asset has no existing watermark.
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  

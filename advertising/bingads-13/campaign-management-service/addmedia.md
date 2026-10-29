@@ -19,7 +19,7 @@ Adds the specified media to an account's asset library.
 
 Depending on the type of [Media](media.md), you can then add the media to one or more [ImageAdExtension](imageadextension.md) or [ResponsiveAd](responsivead.md) objects.
 
-For image media, set [AdvertiserAILabel](media.md#advertiserailabel) to declare whether the asset contains AI-generated content and has a visible watermark. To update the declaration for an existing image, use [UpdateMedia](updatemedia.md). For more information, see [AI transparency](../guides/ai-transparency.md).
+For image media, set [AdvertiserAILabel](media.md#advertiserailabel) to declare whether the asset contains AI-generated content and request a visible AI watermark where supported. To update the declaration for an existing image, use [UpdateMedia](updatemedia.md). For more information, see [AI transparency](../guides/ai-transparency.md).
 
 ::: zone pivot="soap"
 

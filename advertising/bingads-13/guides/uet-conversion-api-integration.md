@@ -71,7 +71,7 @@ Advertisers can send data to CAPI through different implementation paths dependi
 | Segment/Twilio | [Microsoft Bing CAPI Destination, Segment Documentation](https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-ms-bing-capi) |
 | Stape.io | [Guide to Microsoft Conversions API integration](https://stape.io/blog/guide-microsoft-conversion-api-integration) |
 | Switch Growth | Coming soon |
-| Tealium | [Microsoft UET Conversions API connector](https://docs.tealium.com/server-side-connectors/microsoft-uet-conversion-api-connector/) |
+| Tealium | [Microsoft Advertising Conversion API Connector Setup Guide](https://docs.tealium.com/server-side-connectors/microsoft-advertising-conversion-api-connector/) |
 
 ## Technical implementation
 
@@ -231,7 +231,7 @@ This reference section defines the payload fields used across CAPI implementatio
 | eventType | string | Yes | Event type, use "pageLoad" or "custom" | pageLoad OR custom |
 | eventId | string | Required for deduplication | Event ID for deduplication | 1234567-54422 |
 | eventName | string | Required for deduplication | Event action for custom conversion goals, if used | checkout_complete |
-| eventTime | integer($int64) | Yes | Timestamp of the event (UNIX epoch time UTC) in seconds. *eventTime* must be within the last 7 days. | 1710438591 |
+| eventTime | integer($int64) | Yes | Timestamp of the event (UNIX epoch time UTC) in seconds. *eventTime* must be within the last 90 days. For optimal measurement, we recommend sending events as close to real time as possible. Note: The 90-day event submission limit is separate from the conversion goal's attribution window. Events must fall within the configured attribution window to be eligible for attribution. | 1710438591 |
 | eventSourceUrl | string | Required for pageLoad events | URL of the page, used for ex. "destination URL" goals | `https://www.bing.com/search?q=wal+clock` |
 | pageLoadId | string | | Page load id that links to 0+ custom events from the same page. Format as a v4 UUID | bcf3000b-65fa-4cd2-808a-8a6cf2b1d0a5 |
 | referrerUrl | string | | Referrer of the page, used for ex. "referral" remarketing lists | `https://www.bing.com/` |
@@ -703,7 +703,7 @@ HTTP/1.1 400 Bad Request
         "index": 0,
         "propertyName": "data[0].eventTime",
         "attemptedValue": 1767793837,
-        "errorMessage": "'eventTime' must be a valid UNIX UTC timestamp in seconds within last 7 days.",
+        "errorMessage": "'eventTime' must be a valid UNIX UTC timestamp in seconds within last 90 days.",
         "errorCode": "InvalidEventTime",
         "isWarning": false
       }
