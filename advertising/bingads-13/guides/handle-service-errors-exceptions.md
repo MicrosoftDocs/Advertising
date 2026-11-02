@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/26/2025
+ms.date: 11/02/2026
 description: Learn about error handling and troubleshooting your application.
 ---
 # Handling Service Errors and Exceptions
@@ -405,10 +405,30 @@ SdkException      |BingAds         |The base exception class for the Bing Ads Py
 TimeoutException      |BingAds         |This exception is thrown if timeout occurs.
      
 ### <a name="python-troubleshooting"></a>Python SDK Troubleshooting
-Unless there is a [known service issue](https://developers.ads.microsoft.com/Support), typically when a call fails it is because the SOAP elements are invalid, out of order, or you specified the wrong credentials. To verify both cases, you should capture the request SOAP envelope. You can [contact support](https://go.microsoft.com/fwlink/?LinkId=517018) or compare your capture to the corresponding SOAP example documented for each service operation. 
+To troubleshoot a failed call, capture the request and response using the logging options below for your SDK. For SOAP calls, unless there is a [known service issue](https://developers.ads.microsoft.com/Support), typically a call fails because the SOAP elements are invalid, out of order, or you specified the wrong credentials. You can [contact support](https://go.microsoft.com/fwlink/?LinkId=517018) or compare your capture to the corresponding example documented for each service operation.
 
 #### <a name="python-troubleshooting-logging"></a>Logging
-If you are using the Bing Ads Python SDK you can include logging to output traffic, for example the SOAP request and response. Each of the Python code examples include these statements to print the output all SOAP traffic to the console. Be sure to uncomment them if you want to view the traffic.
+
+> [!WARNING]
+> Debug output can include access tokens, developer tokens, and other sensitive data. Enable it only while troubleshooting, and redact sensitive data before sharing the output. Disable debug logging when you're finished.
+
+##### Logging REST API requests and responses
+If you use the REST-based Microsoft Advertising Python SDK, enable logging for `urllib3` and HTTP debugging through Python's `http.client` module. Add the following code before making API calls:
+
+```python
+import http.client
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logging.getLogger("urllib3").setLevel(logging.DEBUG)
+
+http.client.HTTPConnection.debuglevel = 1
+```
+
+HTTP debugging prints HTTP headers and outgoing request data to the console, while `urllib3` logging provides connection and response status details.
+
+##### Logging SOAP API requests and responses
+If you use the SOAP-based Bing Ads Python SDK, enable logging for `suds` to output SOAP requests and responses to the console:
 
 ```python
 import logging
