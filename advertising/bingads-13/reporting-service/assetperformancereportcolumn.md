@@ -12,7 +12,7 @@ description: Defines the attributes and performance statistics columns that you 
 Defines the attributes and performance statistics columns that you can include in the [AssetPerformanceReportRequest](assetperformancereportrequest.md).
 
 > [!NOTE]
-> The columns *AdGroupName*, *AdGroupId*, *AdId* can be null for Performance max or Apps campaign data.
+> The columns *AdGroupName*, *AdGroupId*, *AdId* can be null for Performance max or Apps campaign data. The *AssetGroupId* column can be null for Search, Shopping, and Audience campaigns.
 
 ## Syntax
 ```xml
