@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 11/05/2026
 description: Defines the possible types of campaign criterions.
 ---
 # CampaignCriterionType Value Set - Campaign Management
@@ -216,7 +216,7 @@ The [CampaignCriterionType](campaigncriteriontype.md) value set has the followin
 |Value|Description|
 |-----------|---------------|
 |<a name="age"></a>Age|The campaign criterion is an age criterion.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
-|<a name="aiprompt"></a>AIPrompt|Reserved.|
+|<a name="aiprompt"></a>AIPrompt|The audience is generated based on an AI prompt.<br/><br/>This criterion type value is used only by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the [AIPromptAudience](aipromptaudience.md) associations represented by the [AudienceCriterion](audiencecriterion.md) objects.|
 |<a name="audience"></a>Audience|The campaign criterion is an audience criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [AudienceCriterion](audiencecriterion.md). In other words you can include some audiences, and exclude other audiences.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.<br/><br/>To add, delete, or update audience criterions i.e., combined lists, custom audiences, customer lists, impression-based remarketing lists, in-market audiences, product audiences, similar audiences, and remarketing lists, you must specify the *Audience* value. To retrieve these audience criterions via [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) you must request the specific type i.e., *CombinedList*, *CustomAudience*, *CustomerList*, *ImpressionBasedRemarketingList*, *InMarketAudience*, *ProductAudience*, *RemarketingList*, and *SimilarRemarketingList*.|
 |<a name="combinedlist"></a>CombinedList|The campaign criterion is a combined list association.<br/><br/>This criterion type value is only used by the [GetCampaignCriterionsByIds](getcampaigncriterionsbyids.md) operation to request the combined list associations represented by the [AudienceCriterion](audiencecriterion.md) objects. To manage the combined list, see [CombinedList](combinedlist.md).|
 |<a name="companyname"></a>CompanyName|The campaign criterion is a company name profile criterion.<br/><br/>The *Criterion* element of either the [BiddableCampaignCriterion](biddablecampaigncriterion.md) or [NegativeCampaignCriterion](negativecampaigncriterion.md) can be an instance of [ProfileCriterion](profilecriterion.md) where the [ProfileType](profilecriterion.md#profiletype) is set to *CompanyName*. In other words you can include some profiles, and exclude other profiles.<br/><br/>The *CriterionBid* element of a [BiddableCampaignCriterion](biddablecampaigncriterion.md) must be an instance of [BidMultiplier](bidmultiplier.md) when paired with this criterion type.|
