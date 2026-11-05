@@ -7,9 +7,8 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 10/28/2026
 description: Declare AI-generated content in Campaign Management assets, hotel property feeds, and Microsoft Merchant Center product offers.
-ROBOTS: NOINDEX, NOFOLLOW
 ---
-# AI transparency for assets and product offers
+# AI Content Labels
 
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
