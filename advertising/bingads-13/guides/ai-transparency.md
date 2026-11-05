@@ -1,5 +1,5 @@
 ---
-title: AI transparency for assets and product offers
+title: AI Content Labels
 ms.service: bing-ads
 ms.subservice: guides-api
 ms.topic: article

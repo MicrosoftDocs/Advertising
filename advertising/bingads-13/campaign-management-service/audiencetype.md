@@ -39,7 +39,7 @@ The [AudienceType](audiencetype.md) value set has the following values: [AIPromp
 
 |Value|Description|
 |-----------|---------------|
-|<a name="aiprompt"></a>AIPrompt|Reserved.|
+|<a name="aiprompt"></a>AIPrompt|The audience is generated based on an AI prompt.|
 |<a name="combinedlist"></a>CombinedList|The audience is a combined list.|
 |<a name="custom"></a>Custom|The audience is a custom audience.|
 |<a name="customerlist"></a>CustomerList|The audience is a customer list.|
