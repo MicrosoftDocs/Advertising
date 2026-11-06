@@ -86,7 +86,7 @@ var bulkStructuredSnippetAdExtension = new BulkStructuredSnippetAdExtension
         Status = AdExtensionStatus.Active,
         // 'Structured Snippet Values' column header in the Bulk file
         // Each value is delimited by a semicolon (;) in the Bulk file
-        Values = new[] { "Windows", "Xbox", "Skype" },
+        Values = new[] { "Windows", "XBOX", "Skype" },
 
     },
 };

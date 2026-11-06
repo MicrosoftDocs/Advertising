@@ -114,7 +114,7 @@ You may associate site links ad extensions with your campaigns or ad groups, and
 ![Sitelink Ad Extension](media/overview-sitelinkadextension.png "Sitelink Ad Extension")
 
 ### <a name="structuredsnippetextensions"></a>Structured Snippet Extensions
-Structured Snippet Extensions give potential customers more context on a specific aspect of your products and services. A Structured snippet is made up of a header and a list of 3-10 values which correspond to the header. For example, you might use the header "Brands:" and the values "Windows, Xbox, Skype" to let customers know about what brands are available at your store.
+Structured Snippet Extensions give potential customers more context on a specific aspect of your products and services. A Structured snippet is made up of a header and a list of 3-10 values which correspond to the header. For example, you might use the header "Brands:" and the values "Windows, XBOX, Skype" to let customers know about what brands are available at your store.
 
 ![Structured Snippet Ad Extension](media/structured-snippet-ad-extension.png "Structured Snippet Ad Extension")
 

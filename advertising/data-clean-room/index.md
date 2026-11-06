@@ -117,7 +117,7 @@ Supported campaign types include:
 
 ## Microsoft Monetize traffic tables
 
-These tables include impression and clicks data for onboarded XBox direct-sold line items.
+These tables include impression and clicks data for onboarded XBOX direct-sold line items.
 
 ### monetize_ad_events table
 
@@ -236,7 +236,7 @@ A conversion is considered ad-attributed if a user received a traffic event with
 
 ## Monetize conversion data tables
 
-This table contains Xbox Store purchase events associated with Monetize line items.
+This table contains XBOX Store purchase events associated with Monetize line items.
 
 Both ad-exposed and non-ad-exposed conversions are included.
 
@@ -259,12 +259,12 @@ A conversion is considered ad-attributed if a user received a traffic event with
 | purchase_price_usd_microcents  | LONG      | No                          | Purchase price in microcents.                                               |
 | purchase_currency_code         | STRING    | No                          | Currency used for the purchase.                                             |
 | device_family                  | STRING    | No                          | Device family (for example, PC, console, mobile).                           |
-| device_model                   | STRING    | No                          | Device model (for example, Xbox One X, Xbox Series S).                      |
+| device_model                   | STRING    | No                          | Device model (for example, XBOX One X, XBOX Series S).                      |
 | in_game_purchase               | BOOLEAN   | No                          | Indicates whether the purchase occurred in-game.                            |
-| has_xbox_live_subscription     | BOOLEAN   | No                          | Indicates whether the user has an Xbox Live subscription.                   |
-| has_xbox_game_pass_for_console | BOOLEAN   | No                          | Indicates whether the user has Xbox Game Pass for console.                  |
-| has_xbox_game_pass_for_pc      | BOOLEAN   | No                          | Indicates whether the user has Xbox Game Pass for PC.                       |
-| has_xbox_game_pass_ultimate    | BOOLEAN   | No                          | Indicates whether the user has Xbox Game Pass Ultimate.                     |
+| has_xbox_live_subscription     | BOOLEAN   | No                          | Indicates whether the user has an XBOX Live subscription.                   |
+| has_xbox_game_pass_for_console | BOOLEAN   | No                          | Indicates whether the user has XBOX Game Pass for console.                  |
+| has_xbox_game_pass_for_pc      | BOOLEAN   | No                          | Indicates whether the user has XBOX Game Pass for PC.                       |
+| has_xbox_game_pass_ultimate    | BOOLEAN   | No                          | Indicates whether the user has XBOX Game Pass Ultimate.                     |
 | transaction_type               | STRING    | No                          | Transaction type (for example, pre-order, purchase).                        |
 | iso_country_code               | STRING    | No                          | Country code where the event occurred.                                      |
 | order_id                       | STRING    | No                          | Unique transaction ID associated with the purchase.                         |
