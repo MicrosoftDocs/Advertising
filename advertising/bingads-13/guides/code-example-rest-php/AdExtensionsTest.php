@@ -286,7 +286,7 @@ class AdExtensionsTest extends RestApiTestBase
 
         $extension = new StructuredSnippetAdExtension();
         $extension->setHeader("Brands");
-        $extension->setValues(array("Windows", "Xbox", "Skype"));
+        $extension->setValues(array("Windows", "XBOX", "Skype"));
         $adExtensions[] = $extension;
 
         // Add all extensions to the account's ad extension library
