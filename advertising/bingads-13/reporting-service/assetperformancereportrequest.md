@@ -12,7 +12,11 @@ description: Defines an asset performance report request.
 Defines an asset performance report request.
 
 > [!NOTE]
-> The columns *AdGroupName*, *AdGroupId*, *AdId* can be null for Performance max or Apps campaign data. The *AssetGroupId* column can be null for Search, Shopping, and Audience campaigns.
+> Null values depend on the campaign type:
+>
+> - Performance Max campaigns use asset groups rather than ad groups and don't have ad entities. Therefore, *AdGroupName*, *AdGroupId*, and *AdId* are null for Performance Max campaign data.
+> - The *AdGroupName*, *AdGroupId*, and *AdId* columns can also be null for Apps campaign data.
+> - Search, Shopping, and Audience campaigns don't have asset groups. Therefore, *AssetGroupId* is null for these campaign types.
 
 ## Syntax
 
@@ -117,4 +121,3 @@ The [AssetPerformanceReportRequest](assetperformancereportrequest.md) object der
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
-
