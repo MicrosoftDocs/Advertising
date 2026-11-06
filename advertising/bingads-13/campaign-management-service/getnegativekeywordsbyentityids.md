@@ -34,7 +34,7 @@ The *GetNegativeKeywordsByEntityIdsRequest* object defines the [body](#request-b
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="entityids"></a>EntityIds|An array of entity identifiers to return the associated negative keywords.<br/><br/>The specified entities must all exist within the same parent entity, for example the ad group identifiers must all exist within the same campaign.<br/><br/>This array can contain a maximum of 1 element.|**long** array|
+|<a name="entityids"></a>EntityIds|An array of entity identifiers to return the associated negative keywords.<br/><br/>The specified entities must all exist within the same parent entity, for example the ad group identifiers must all exist within the same campaign.<br/><br/>Although this parameter is defined as an array, you can specify a maximum of one entity identifier per request.|**long** array|
 |<a name="entitytype"></a>EntityType|The type of entity corresponding to the specified *EntityIds* element.<br/><br/>Possible values include *AdGroup* and *Campaign*.|**string**|
 |<a name="parententityid"></a>ParentEntityId|The identifier of the parent entity corresponding to the specified *EntityIds* element.<br/><br/>If the entity type is AdGroup, this element should be set to the campaign identifier that contains all of the specified ad groups.<br/><br/>If the entity type is Campaign, the service uses the *CustomerAccountId* header element and this element is ignored.|**long**|
 
