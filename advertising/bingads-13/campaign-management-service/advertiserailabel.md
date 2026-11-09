@@ -16,6 +16,8 @@ Defines the advertiser's declaration about AI-generated content and visible wate
 
 Advertisers can set this value when adding or updating supported image and video assets. After the label has been set, it cannot be cleared. To declare that an asset does not contain AI-generated content, use *NoAIContent*.
 
+*AIWithVisibleWatermark* requests a visible watermark; it doesn't declare that the asset already has one. *AIContent* doesn't declare that the asset has no existing watermark.
+
 This declaration is separate from Microsoft's read-only [SystemAIDetectionSignal](systemaidetectionsignal.md). For more information, see [AI transparency](../guides/ai-transparency.md).
 
 ## Syntax
@@ -45,8 +47,6 @@ The [AdvertiserAILabel](advertiserailabel.md) value set has the following values
 |<a name="aiwithvisiblewatermark"></a>AIWithVisibleWatermark|The asset contains AI-generated content, and you request a visible AI watermark where supported.|
 |<a name="noaicontent"></a>NoAIContent|The advertiser declares that the asset does not contain AI-generated content.|
 |<a name="notsupportedforgivenrevision"></a>NotSupportedForGivenRevision|The requested API revision does not expose this capability.|
-
-*AIWithVisibleWatermark* requests a visible watermark; it doesn't declare that the asset already has one. *AIContent* doesn't declare that the asset has no existing watermark.
 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
