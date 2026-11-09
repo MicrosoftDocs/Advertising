@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 10/20/2026
+ms.date: 11/09/2026
 description: Use AI Max to expand the reach and automation of Search campaigns.
 ---
 # AI Max Campaigns
@@ -150,9 +150,11 @@ Use campaign-level text guidance to shape AI-generated ad copy:
   specify up to 25 terms, with up to 30 characters per term. The same setting is also available in
   the Bulk Campaign record.
 - **Messaging restrictions** provide guidance for generated copy, such as language to avoid, rules
-  to follow, or themes to emphasize. Campaign-level messaging restrictions are available in the
-  [Bulk Campaign record](../bulk-service/campaign.md#messagingrestrictions); Campaign Management
-  support is coming soon. You can specify up to 40 restrictions, each up to 300 characters.
+  to follow, or themes to emphasize. Campaign Management supports the
+  [Campaign.MessagingRestrictions](../campaign-management-service/campaign.md#messagingrestrictions)
+  property; each item is an `AssetLink` whose `TextAsset.Text` contains the messaging restriction.
+  You can specify up to 40 restrictions, each up to 300 characters. The same setting is also available
+  in the [Bulk Campaign record](../bulk-service/campaign.md#messagingrestrictions).
 
 For Bulk examples and field details, see [AI Max with the Bulk API](ai-max-bulk.md#text-guidance).
 

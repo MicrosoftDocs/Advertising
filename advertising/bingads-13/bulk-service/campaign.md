@@ -5,7 +5,7 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 10/10/2026
+ms.date: 11/09/2026
 description: Describes the Campaign fields in a Bulk file.
 dev_langs:
   - csharp
@@ -723,9 +723,6 @@ Set this property to *TRUE* if you want to enable local inventory ads, and other
 **Delete:** Read-only  
 
 ## <a name="messagingrestrictions"></a>Messaging Restrictions
-> [!NOTE]
-> Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
-
 Guidelines to shape AI-generated ad copy, such as language to avoid, rules to follow, or themes to emphasize.
 
 ```json
