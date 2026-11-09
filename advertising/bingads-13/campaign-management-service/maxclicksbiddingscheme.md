@@ -69,3 +69,4 @@ The [MaxClicksBiddingScheme](maxclicksbiddingscheme.md) object derives from the 
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
+

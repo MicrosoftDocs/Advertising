@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 10/20/2026
+ms.date: 11/09/2026
 description: Configure AI Max Search campaigns, brand lists, page feeds, and URL targeting with the Bulk API.
 ---
 # AI Max with the Bulk API
@@ -48,13 +48,13 @@ Use an eligible bid strategy before enabling search term matching or final URL e
 
 Use campaign-level text guidance to shape AI-generated ad copy:
 
-- **Term Exclusions** specify exact terms or phrases to exclude from generated copy. Set them in
+- **Term Exclusions** specify exact terms or phrases to avoid in AI-generated ad copy for a campaign. Set them in
   the Bulk [Campaign](../bulk-service/campaign.md#termexclusions) record. You can specify up to 25
   terms, with up to 30 characters per term.
-- **Messaging Restrictions** provide guidance for generated copy, such as language to avoid, rules
-  to follow, or themes to emphasize. Set this in the Bulk
-  [Campaign](../bulk-service/campaign.md#messagingrestrictions) record. Campaign Management support
-  is coming soon. You can specify up to 40 restrictions, each up to 300 characters.
+- **Messaging Restrictions** provide guidelines to shape AI-generated ad copy, such as language to avoid, rules
+  to follow, or themes to emphasize. Set them in the Bulk
+  [Campaign](../bulk-service/campaign.md#messagingrestrictions) record. You can specify up to 40
+  restrictions, each up to 300 characters.
 
 ## <a name="page-feeds"></a>Associate page feeds
 

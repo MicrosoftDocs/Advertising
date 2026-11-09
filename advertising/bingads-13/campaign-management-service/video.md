@@ -78,7 +78,7 @@ The [Video](video.md) object has the following elements: [AdvertiserAILabel](#ad
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="advertiserailabel"></a>AdvertiserAILabel|The advertiser's declaration about AI-generated content and visible watermarks in the video. Set this property with [AddVideos](addvideos.md) or [UpdateVideos](updatevideos.md). After the label has been set, it cannot be cleared.<br/><br/>**Add**: Supported<br/>**Update**: Supported|[AdvertiserAILabel](advertiserailabel.md)|
+|<a name="advertiserailabel"></a>AdvertiserAILabel|The advertiser's declaration about AI-generated content and visible watermarks in the video. Set this property with [AddVideos](addvideos.md) or [UpdateVideos](updatevideos.md). After the label has been set, it cannot be cleared.<br/><br/>**Get**: Available since [revision](https://learn.microsoft.com/en-us/advertising/campaign-management-service/api-versioning?view=bingads-13) 2026-10-12<br/>**Add**: Supported<br/>**Update**: Supported|[AdvertiserAILabel](advertiserailabel.md)|
 |<a name="aspectratio"></a>AspectRatio|The video's aspect ratio. Possible values are 16:9, 9:16, 4:3, 3:4, 1:1, 5:4, and 4:5.|**string**|
 |<a name="createddatetimeinutc"></a>CreatedDateTimeInUTC|The date and time the video was created, in Coordinated Universal Time.|**dateTime**|
 |<a name="description"></a>Description|The description of the video asset.<br/><br/>**Add**: Supported<br/>**Update**: Supported|**string**|
@@ -88,7 +88,7 @@ The [Video](video.md) object has the following elements: [AdvertiserAILabel](#ad
 |<a name="modifieddatetimeinutc"></a>ModifiedDateTimeInUTC|The date and time the video was last modified, in Coordinated Universal Time.|**dateTime**|
 |<a name="sourceurl"></a>SourceUrl|The original URL of the video. *Note*: SourceUrl must be a direct download URL.<br/><br/>**Add**: Supported and Required<br/>|**string**|
 |<a name="status"></a>Status|The status of the video asset. The status can be *Draft*, *Active*, *Deleted* or *Failed*.<br/><br/>**Add**: Unsupported<br/>**Update**: Supported|**string**|
-|<a name="systemaidetectionsignal"></a>SystemAIDetectionSignal|Microsoft's detection of AI provenance for the video. This property is returned by the system and is read-only. Advertisers cannot set or modify it.<br/><br/>**Add**: Read-only<br/>**Update**: Read-only|[SystemAIDetectionSignal](systemaidetectionsignal.md)|
+|<a name="systemaidetectionsignal"></a>SystemAIDetectionSignal|Microsoft's detection of AI provenance for the video. This property is returned by the system and is read-only. Advertisers cannot set or modify it.<br/><br/>**Get**: Available since [revision](https://learn.microsoft.com/en-us/advertising/campaign-management-service/api-versioning?view=bingads-13) 2026-10-12<br/>**Add**: Read-only<br/>**Update**: Read-only|[SystemAIDetectionSignal](systemaidetectionsignal.md)|
 |<a name="thumbnailurl"></a>ThumbnailUrl|The thumbnail URL of the video asset.<br/><br/>**Add**: Unsupported<br/>**Update**: Unsupported|**string**|
 |<a name="url"></a>Url|The URL where the video is hosted. *Note*: URL is reserved for internal usage.<br/><br/>**Add**: Supported<br/>**Update**: Supported|**string**|
 

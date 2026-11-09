@@ -50,7 +50,7 @@ The Campaign Management service defines the following data objects.
 |[AdRotation](adrotation.md)|Defines an object that specifies the type of ad rotation to apply to the ad group.|
 |[AgeCriterion](agecriterion.md)|Defines a criterion that can be used to show ads to users in a specific age range.|
 |[AgeDimension](agedimension.md)|Data object that specifies users by their age.|
-|[AIPromptAudience](aipromptaudience.md)|Reserved.|
+|[AIPromptAudience](aipromptaudience.md)|Defines an audience based on an AI prompt.|
 |[AISearchSetting](aisearchsetting.md)|Defines AI Max settings for a Search campaign.|
 |[AnnotationOptOut](annotationoptout.md)|Represents the annotation opt-out configuration for an account.|
 |[ApiFaultDetail](apifaultdetail.md)|Defines a Campaign Management API fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.|
@@ -313,7 +313,7 @@ The Campaign Management service defines the following data objects.
 |[SupportedFont](supportedfont.md)|Defines the supported font data object.|
 |[SupportedFontsData](supportedfontsdata.md)|Defines the supported fonts data data object.|
 |[TargetCpaBiddingScheme](targetcpabiddingscheme.md)|Defines an object that represents the target CPA bid strategy type.|
-|[TargetCpmBiddingScheme](targetcpmbiddingscheme.md)|Reserved.|
+|[TargetCpmBiddingScheme](targetcpmbiddingscheme.md)|Defines an object that represents the target CPM bid strategy type.|
 |[TargetImpressionShareBiddingScheme](targetimpressionsharebiddingscheme.md)|An automated bidding strategy to get the target impression share for the ad position where you want your ads to appear.|
 |[TargetRoasBiddingScheme](targetroasbiddingscheme.md)|Defines an object that represents the target ROAS bid strategy type.|
 |[TargetSetting](targetsetting.md)|The target settings that determines whether the Age, Audience, CompanyName, Gender, Industry, and JobFunction criterion type groups use the "target and bid" option or the "bid only" target option.|
@@ -333,4 +333,4 @@ The Campaign Management service defines the following data objects.
 |[VideoTemplateFilter](videotemplatefilter.md)|Defines the video template filter data object.|
 |[Webpage](webpage.md)|Defines a webpage parameter that contains a list of webpage conditions or criteria.|
 |[WebpageCondition](webpagecondition.md)|Defines a condition or criterion that helps determine whether you want to show dynamic search ads.|
-|[WebpageParameter](webpageparameter.md)|Defines the conditions or criteria that determine whether you want to show Dynamic Search ads.|
+|[WebpageParameter](webpageparameter.md)|Defines the conditions or criteria that determine whether you want to show Dynamic Search ads or apply an AI Max URL inclusion.|

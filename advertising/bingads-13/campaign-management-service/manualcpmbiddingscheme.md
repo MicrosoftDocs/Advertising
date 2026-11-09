@@ -52,7 +52,7 @@ The [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) object has the following
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="maxcpm"></a>MaxCpm|The highest amount you're willing to pay per 1,000 impressions in a campaign.<br/><br/>**Get**: Available since revision 2026-08-17|**decimal**|
+|<a name="maxcpm"></a>MaxCpm|The highest amount you're willing to pay per 1,000 impressions in a campaign.<br/><br/>**Get**: Available since [revision](https://learn.microsoft.com/en-us/advertising/campaign-management-service/api-versioning?view=bingads-13) 2026-08-17|**decimal**|
 
 The [ManualCpmBiddingScheme](manualcpmbiddingscheme.md) object has [Inherited Elements](#inheritedelements).
 
