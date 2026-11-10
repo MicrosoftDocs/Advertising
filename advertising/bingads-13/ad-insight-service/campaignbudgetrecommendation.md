@@ -77,7 +77,7 @@ The [CampaignBudgetRecommendation](campaignbudgetrecommendation.md) object has t
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="budgetpoints"></a>BudgetPoints|The list of budget points with weekly impressions, clicks and cost estimates for the given budget amount. Output only.|[BudgetPoint](budgetpoint.md) array|
-|<a name="budgettype"></a>BudgetType|The type of budget that the campaign uses. Output only. |[BudgetLimitType](budgetlimittype.md)|
+|<a name="budgettype"></a>BudgetType|The type of budget used by the campaign. Output only. Shared budgets aren't supported for this recommendation type.|[BudgetLimitType](budgetlimittype.md)|
 |<a name="currentbudget"></a>CurrentBudget|The current budget amount. Output only.|**double**|
 |<a name="recommendedbudget"></a>RecommendedBudget|The recommended budget amount based on the last 15 days of performance history for the corresponding campaign. Output only.|**double**|
 
