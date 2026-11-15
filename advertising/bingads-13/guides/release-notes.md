@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/30/2026
+ms.date: 11/15/2026
 description: Get information about changes to Bing Ads API Version 13 by month. 
 ---
 # Bing Ads API Release Notes
@@ -39,6 +39,39 @@ This restriction also applies to the [Bid Strategy MaxCpc](../bulk-service/campa
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
+
+## <a name="november2026"></a>November 2026
+
+- [New API Interfaces](#newapiinterfaces-november2026)
+- [Bulk Service](#bulkservice-november2026)
+- [Bing Ads API SDK Updates](#sdk-november2026)
+
+### <a name="newapiinterfaces-november2026"></a>New API Interfaces
+
+- Updated SOAP proxies and REST models to API revision `2026-11-09`.
+- **Campaign Management API**:
+  - Added SDK coverage for [Campaign.MessagingRestrictions](../campaign-management-service/campaign.md#messagingrestrictions), [AIPromptAudience](../campaign-management-service/aipromptaudience.md), and [TargetCpmBiddingScheme](../campaign-management-service/targetcpmbiddingscheme.md).
+  - Added the [AIDetectedContentWatermarkPolicy](../campaign-management-service/accountpropertyname.md#aidetectedcontentwatermarkpolicy) account-property enum value to the .NET SDK.
+- **Reporting API**:
+  - Expanded [HotelDimensionPerformanceReportColumn](../reporting-service/hoteldimensionperformancereportcolumn.md) and [HotelGroupPerformanceReportColumn](../reporting-service/hotelgroupperformancereportcolumn.md) coverage for *AbsoluteTopImpressionSharePercent* and *TopImpressionSharePercent*.
+- **Ad Insight API**:
+  - Updated PHP REST audience-estimation models to include [JobSeniority](../ad-insight-service/getaudiencefullestimation.md#jobseniority), [Genre](../ad-insight-service/getaudiencefullestimation.md#genre), [Channel](../ad-insight-service/getaudiencefullestimation.md#channel), [ChannelPlacement](../ad-insight-service/getaudiencefullestimation.md#channelplacement), and [SubChannel](../ad-insight-service/getaudiencefullestimation.md#subchannel).
+
+### <a name="bulkservice-november2026"></a>Bulk Service
+
+- Added Campaign Business Name and Brand Logo Bulk CSV mappings to the .NET SDK.
+
+### <a name="sdk-november2026"></a>Bing Ads API SDK Updates
+
+Microsoft Advertising SDK version 13.0.31 was published on November 11, 2026. For details, see the release notes for the [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.31), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.31), [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.31), and [PHP REST](https://github.com/BingAds/BingAds-PHP-REST-SDK/releases/tag/v13.0.31) SDKs.
+
+All six SDK packages were published to their package registries, including both Python REST and SOAP packages on PyPI.
+
+Other SDK updates include:
+
+- Aligned REST model nullability and subtype handling with the OpenAPI contract.
+- Fixed Java OAuth URL encoding.
+- Updated Python SOAP optional enum initialization.
 
 ## <a name="september2026"></a>September 2026
 

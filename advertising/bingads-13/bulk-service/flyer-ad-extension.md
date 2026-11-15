@@ -75,8 +75,6 @@ var bulkFlyerAdExtension = new BulkFlyerAdExtension
         },
         // 'Media Urls' column header in the Bulk file
         ImageMediaUrls = null,
-        // 'Store Id' column header in the Bulk file
-        StoreId = 12345678,
         // 'Tracking Template' column header in the Bulk file
         TrackingUrlTemplate = null,
         // 'Custom Parameter' column header in the Bulk file
@@ -365,10 +363,10 @@ Possible values are *Active* or *Deleted*.
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="storeid"></a>Store Id
-The unique identifier of a Microsoft Merchant Center store used for product ads.
+Store Id isn't supported. Leave this field empty. If you enter a value, the upload returns an error.
 
-**Add:** Optional  
-**Update:** Read-only. You cannot update the store ID after it was set.   
+**Add:** Not allowed  
+**Update:** Not allowed  
 **Delete:** Read-only  
   
 ## <a name="usesearchertimezone"></a>Use Searcher Time Zone

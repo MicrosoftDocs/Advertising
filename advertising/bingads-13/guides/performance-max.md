@@ -73,6 +73,9 @@ For more details about Product Condition (operand) and Product Value (attribute)
 
 ### <a name="campaign-criteria"></a>Campaign criteria
 
+> [!NOTE]
+> Device targeting for Performance Max campaigns is currently in pilot. To request access, contact your Microsoft Advertising sales representative.
+
 To refine the audience, Performance Max campaigns support the following campaign level criteria.
 
 - [AgeCriterion](../campaign-management-service/agecriterion.md) (exclude)

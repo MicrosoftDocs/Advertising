@@ -13,6 +13,9 @@ dev_langs:
 # Campaign DeviceOS Criterion Record - Bulk
 Defines a campaign device criterion that can be uploaded and downloaded in a bulk file.
 
+> [!NOTE]
+> Device targeting for Performance Max campaigns is currently in pilot. To request access, contact your Microsoft Advertising sales representative.
+
 When you target by device, you choose to show ads to potential customers when they're using desktops and tablets or smartphones. 
 
 Each device criterion defines a device name for the accompanying criterion bid adjustment. 
