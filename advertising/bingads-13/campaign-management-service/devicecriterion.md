@@ -22,6 +22,8 @@ The *DeviceCriterion* criterion can be included within [BiddableAdGroupCriterion
 For Performance Max campaigns, *DeviceCriterion* can also be included within a [NegativeCampaignCriterion](negativecampaigncriterion.md) object to exclude a device type at the campaign level. Only *Computers*, *Smartphones*, and *Tablets* are supported for campaign-level exclusions. The *OSName* element isn't allowed, and at least one device type must remain un-excluded.
 
 > [!NOTE]
+> Device targeting for Performance Max campaigns is currently in pilot. To request access, contact your Microsoft Advertising sales representative.
+> [!NOTE]
 > For new Video campaigns, the device target is set automatically according to the Bidding strategy.
 >
 > - For CPM, the bidding adjustment for PC/Mobile/tablet is set to 0, and for CTV to 100.
