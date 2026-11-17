@@ -227,8 +227,6 @@ The optional `advertiserAILabel` attribute declares whether a specific offer con
 
 > [!NOTE]
 > Not everyone has this feature yet. If you don't, don't worry - it's coming soon!
->
-> Processing requires the `OfferAdvertiserAILabel` store pilot to be enabled. When the pilot is disabled, MMC clears the value to `null`.
 
 The following values are supported for customer input.
 
@@ -242,7 +240,7 @@ The following values are supported for customer input.
 
 When no declaration is provided, omit the attribute or use `null`.
 
-##### Input names and supported operations
+##### Feed and MMC API names
 
 |Input|Attribute name|
 |-----|--------------|
@@ -250,7 +248,9 @@ When no declaration is provided, omit the attribute or use `null`.
 |XML feed|`<advertiser_ai_label>`|
 |MMC Content API JSON|`advertiserAILabel`|
 
-The attribute is supported in primary and legacy online feeds, XML feeds, and MMC Content API insert, update, batch, and read operations. Inventory feeds, local feeds, and automatic price or availability updates don't independently set this value.
+The attribute is supported in primary and legacy online feeds, XML feeds, and MMC Content API insert, update, batch, and read operations. Processing requires the `OfferAdvertiserAILabel` store pilot to be enabled. When the pilot is disabled, MMC clears the value to `null` before either offer-processing flow.
+
+Supplemental feeds, inventory feeds, local feeds, and automatic price or availability updates don't independently set this value.
 
 ##### Omitted, empty, and invalid values
 
@@ -267,6 +267,8 @@ MMC Content API updates replace the existing offer. Include all required offer f
 
 These fragments illustrate the AI-label attribute only. They aren't complete feed files or API requests.
 
+###### Text or CSV feed example
+
 In a text or CSV feed, add one offer-level `advertiser_ai_label` column. An empty field leaves the declaration unset.
 
 ```csv
@@ -276,13 +278,27 @@ offer-456,Non-AI item,NoAIContent
 offer-101,No declaration,
 ```
 
+The `offer-101` row has an empty attribute value, which maps to `null`. Never send `Unknown`. When the declaration is `null`, MMC leaves the PA Offline property unset.
+
+###### XML feed example
+
 In an XML feed, include the element for the offer:
 
 ```xml
-<advertiser_ai_label>AIContent</advertiser_ai_label>
+<offers>
+  <offer>
+    <offer_id>offer-123</offer_id>
+    <advertiser_ai_label>AIContent</advertiser_ai_label>
+  </offer>
+  <offer>
+    <offer_id>offer-101</offer_id>
+  </offer>
+</offers>
 ```
 
 Omit the XML element or leave it empty when no declaration is provided.
+
+###### MMC Content API example
 
 In the MMC Content API, use the JSON property:
 
