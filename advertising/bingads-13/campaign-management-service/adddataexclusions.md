@@ -17,6 +17,8 @@ dev_langs:
 # AddDataExclusions Service Operation - Campaign Management
 Add a data exclusion to the specified account.
 
+You can have up to 1,000 data exclusions per account.
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements

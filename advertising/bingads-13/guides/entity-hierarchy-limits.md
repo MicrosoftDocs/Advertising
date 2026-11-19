@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 3/5/2026
+ms.date: 11/19/2026
 description: Learn about the Microsoft Advertising entity hierarchy to plan your campaign setup.
 ---
 # Entity Limits
@@ -399,6 +399,11 @@ The following table defines limits for [Customer](../customer-management-service
 |------------|---------|
 |Name|The string can contain a maximum of 90 characters.|
 
+## <a name="dataexclusions"></a>Data Exclusions
+You can have up to 1,000 data exclusions per account.
+
+You can manage data exclusions using the Bulk service ([Data Exclusion Record](../bulk-service/data-exclusion.md)) or Campaign Management service ([DataExclusion](../campaign-management-service/dataexclusion.md)).
+
 ## <a name="dynamicsearchadtargets"></a>Dynamic Search Ad Targets
 Dynamic search ads automatically target relevant search queries based on the content of your website, and are dynamically created to respond to these search queries.
 
@@ -506,6 +511,11 @@ You can manage product groups using the Bulk service ([Ad Group Product Partitio
 
 For more information, see the Microsoft Advertising Help article [Understand and use product groups](https://help.ads.microsoft.com/#apex/3/en/50901/1).
 
+
+## <a name="seasonalityadjustments"></a>Seasonality Adjustments
+You can have up to 1,000 seasonality adjustments per account.
+
+You can manage seasonality adjustments using the Bulk service ([Seasonality Adjustment Record](../bulk-service/seasonality-adjustment.md)) or Campaign Management service ([SeasonalityAdjustment](../campaign-management-service/seasonalityadjustment.md)).
 
 ## <a name="targets"></a>Targets
 You can set criteria to show your ads based on age, day and time, device, gender, and location. Where necessary to distinguish from other criterion types the documentation may refer to these entities as target criteria. For more information about managing targets, see the [Show Ads to Your Target Audience](show-ads-target-audience.md) technical guide. 
