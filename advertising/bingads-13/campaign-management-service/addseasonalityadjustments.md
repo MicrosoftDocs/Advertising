@@ -17,6 +17,8 @@ dev_langs:
 # AddSeasonalityAdjustments Service Operation - Campaign Management
 Add seasonality adjustments to the specified account.
 
+You can have up to 1,000 seasonality adjustments per account.
+
 ::: zone pivot="soap"
 
 ## <a name="request"></a>Request Elements
