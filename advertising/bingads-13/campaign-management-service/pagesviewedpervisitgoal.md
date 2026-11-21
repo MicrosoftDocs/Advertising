@@ -69,7 +69,7 @@ The [PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md) object has the followi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="minimumpagesviewed"></a>MinimumPagesViewed|The minimum number of pages the user must visit, in order to count as a conversion.<br/><br/>**Add:** Required<br/>**Update:** Optional|**int**|
+|<a name="minimumpagesviewed"></a>MinimumPagesViewed|The minimum number of pages the user must visit, in order to count as a conversion.<br/><br/>The maximum size is 32,767.<br/><br/>**Add:** Required<br/>**Update:** Optional|**int**|
 
 The [PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md) object has [Inherited Elements](#inheritedelements).
 
